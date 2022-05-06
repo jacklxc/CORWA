@@ -1,0 +1,13 @@
+[BOS] Attention model becomes a standard component for many applications due to its ability of dynamically selecting the informative context from sequential representations.
+[BOS] For example, Xu et al. (2015) propose an attention based neural network for image caption task and advance the state-of-the-art results; Yin et al. (2015) put the attention structure between a pair of convolution networks for answer selection, paraphrase identification and textual entailment tasks.
+[BOS] In the context of machine translation, the idea of attention based neural networks has been pioneered by Bahdanau et al. (2014) ; Luong et al. (2015b) improve the attention with a gated operator for encoding states and a decoding state, and and Dutil et al. (2017) enhance attention through a planning mechanism.
+[BOS] Furthermore, Feng et al. (2016) adopt a recurrent structure for attention to take longterm dependencies into account, propose a look-ahead attention by additionally modeling the translation history, and Cohn et al. (2016) incorporate structural biases into attention models.
+[BOS] Recently introduce the syntactic knowledge into attention models.
+[BOS] These works are essentially similar to the propose approach, since we introduce auxiliary information from a target foresight word into the attention model.
+[BOS] However, there is a significant difference between our approach and their approaches.
+[BOS] Our auxiliary information biases to the word to be translated at next timestep while theirs biases to the information available so far at the current timestep, and thereby our approach is orthogonal to theirs.
+
+[BOS] The works mentioned above improve the attention models by access auxiliary information, and thus they modify the structure of attention models in both inference and learning.
+[BOS] In contrast, ; Liu et al. (2016b) ; Chen et al. (2016) maintain the structure of the attention models in inference but utilize some external signals to supervise the outputs of attention models during the learning.
+[BOS] They improve the generalization abilities of attention models by use of the external aligners as the signals, which typically yield alignment results accurate enough to guide the learning of attention.
+

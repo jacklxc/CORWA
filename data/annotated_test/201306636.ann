@@ -1,0 +1,101 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 115 120	[BOS]
+T3	Multi_summ 301 306	[BOS]
+T4	Transition 426 431	[BOS]
+T5	Transition 531 536	[BOS]
+T6	Narrative_cite 662 667	[BOS]
+T7	Narrative_cite 831 836	[BOS]
+T8	Transition 1054 1059	[BOS]
+T9	Narrative_cite 1198 1203	[BOS]
+T10	Transition 1327 1332	[BOS]
+T11	Narrative_cite 1430 1435	[BOS]
+T12	Narrative_cite 1606 1611	[BOS]
+T13	Multi_summ 1781 1786	[BOS]
+T14	Narrative_cite 1972 1977	[BOS]
+T15	Narrative_cite 2218 2223	[BOS]
+T16	Narrative_cite 2363 2368	[BOS]
+T17	Transition 2620 2625	[BOS]
+T18	Narrative_cite 2720 2725	[BOS]
+T19	Multi_summ 2889 2894	[BOS]
+T20	Dominant 121 141	Bengio et al. (2007)
+T21	Dominant 307 326	(Erhan et al., 2010
+T22	Dominant 328 346	Dahl et al., 2012)
+T23	Reference 725 742	(Dai and Le, 2015
+T24	Reference 744 764	Peters et al., 2017)
+T25	Reference 929 950	(Peters et al., 2018)
+T26	Reference 964 986	(Radford et al., 2018)
+T27	Reference 994 1015	(Devlin et al., 2018)
+T28	Reference 1022 1048	(Lample and Conneau, 2019)
+T29	Reference 1275 1297	(Vincent et al., 2010)
+T30	Reference 1307 1324	(Li et al., 2015)
+T31	Reference 1456 1475	(Deng et al., 2013)
+T32	Reference 1503 1523	(Rifai et al., 2011)
+T33	Reference 1553 1575	(Vincent et al., 2010)
+T35	Dominant 1787 1809	Freitag and Roy (2018)
+T36	Dominant 1888 1906	(Kim et al., 2018)
+T37	Reference 2061 2078	(Wu et al., 2016)
+T38	Reference 2095 2113	(See et al., 2017)
+T39	Reference 2136 2158	(Vinyals and Le, 2015)
+T40	Reference 2285 2308	(Reiter and Dale, 2000)
+T41	Reference 2326 2353	(Watanabe and Takeda, 1998)
+T42	Reference 2429 2453	(Sutskever et al., 2014)
+T43	Reference 2600 2617	(Wu et al., 2016)
+T44	Reference 2859 2886	(Ramachandran et al., 2016)
+T45	Dominant 2992 3011	(Song et al., 2019)
+T46	Dominant 3072 3091	(Dong et al., 2019)
+T47	B_span 121 127	Bengio
+T48	E_span 290 299	objective
+T49	B_span 308 313	Erhan
+T50	E_span 413 424	recognition
+T51	B_span 691 695	semi
+T52	E_span 825 829	task
+T53	B_span 924 928	ELMo
+T54	E_span 945 949	2018
+T55	B_span 953 959	OpenAI
+T56	E_span 981 985	2018
+T57	B_span 989 993	BERT
+T58	E_span 1010 1014	2018
+T59	B_span 1018 1021	XLM
+T60	E_span 1043 1047	2019
+T61	B_span 1241 1255	representation
+T62	E_span 1292 1296	2010
+T63	B_span 1302 1306	text
+T64	E_span 1319 1323	2015
+T65	B_span 1436 1442	Sparse
+T66	E_span 1470 1474	2013
+T67	B_span 1478 1489	contractive
+T68	E_span 1518 1522	2011
+T69	B_span 1530 1539	denoising
+T70	E_span 1570 1574	2010
+T71	Reference 1715 1735	Vincent et al., 2010
+T34	Reference 1737 1758	Vincent et al., , 200
+T72	Reference 1760 1777	Hill et al., 2016
+T73	B_span 1664 1669	learn
+T74	E_span 1773 1777	2016
+T75	E_span 1874 1882	dialogue
+T76	B_span 1787 1794	Freitag
+T77	B_span 1889 1892	Kim
+T78	E_span 1966 1969	DAs
+T79	B_span 2041 2048	machine
+T80	E_span 2073 2077	2016
+T81	B_span 2081 2094	summarization
+T82	E_span 2108 2112	2017
+T83	B_span 2116 2124	response
+T84	E_span 2153 2157	2015
+T85	B_span 2270 2278	template
+T86	E_span 2303 2307	2000
+T87	B_span 2312 2319	example
+T88	E_span 2348 2352	1998
+T89	B_span 2414 2421	seq2seq
+T90	E_span 2448 2452	2014
+T92	B_span 2582 2587	human
+T93	E_span 2612 2616	2016
+T91	B_span 2801 2804	pre
+T94	E_span 2881 2885	2016
+T95	B_span 2987 2991	MASS
+T96	Dominant 2919 2931	Edunov et al
+T97	E_span 2979 2985	models
+T98	B_span 2919 2925	Edunov
+T99	E_span 3052 3060	training
+T100	B_span 3066 3071	UNILM
+T101	E_span 3161 3166	tasks

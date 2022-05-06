@@ -1,0 +1,59 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 260 265	[BOS]
+T3	Single_summ 410 415	[BOS]
+T4	Single_summ 530 535	[BOS]
+T5	Single_summ 647 652	[BOS]
+T6	Transition 788 793	[BOS]
+T7	Transition 1018 1023	[BOS]
+T8	Transition 1148 1153	[BOS]
+T9	Single_summ 1381 1386	[BOS]
+T10	Single_summ 1527 1532	[BOS]
+T11	Single_summ 1692 1697	[BOS]
+T12	Single_summ 1910 1915	[BOS]
+T13	Single_summ 2040 2045	[BOS]
+T14	Narrative_cite 2208 2213	[BOS]
+T15	Single_summ 2372 2377	[BOS]
+T16	Transition 2490 2495	[BOS]
+T17	Reference 158 175	(Fan et al., 2017
+T18	Reference 177 196	Ling and Rush, 2017
+T19	Reference 198 221	Cheng and Lapata, 2016)
+T20	Dominant 266 284	Rush et al. (2015)
+T21	Dominant 416 439	Nallapati et al. (2016)
+T22	Dominant 653 669	Li et al. (2017)
+T23	Dominant 1387 1404	Tan et al. (2017)
+T24	Dominant 1533 1555	Gehrmann et al. (2018)
+T25	Dominant 1737 1754	(Gu et al., 2016)
+T26	Reference 1800 1822	(Vinyals et al., 2015)
+T27	Dominant 1916 1933	See et al. (2017)
+T28	Dominant 2046 2063	Li et al. (2018b)
+T29	Reference 2325 2350	(Celikyilmaz et al., 2018
+T30	Reference 2352 2369	Li et al., 2018a)
+T31	Dominant 2378 2404	Pasunuru and Bansal (2018)
+T32	B_span 134 138	text
+T33	E_span 220 221	)
+T34	B_span 266 269	Rus
+T35	E_span 408 409	.
+T36	B_span 416 419	Nal
+T37	E_span 528 529	.
+T38	B_span 653 655	Li
+T39	E_span 786 787	.
+T40	B_span 1387 1390	Tan
+T41	E_span 1525 1526	.
+T42	B_span 1533 1535	Ge
+T43	E_span 1690 1691	.
+T44	B_span 1737 1738	(
+T45	E_span 1908 1909	.
+T46	B_span 1916 1919	See
+T47	E_span 2038 2039	.
+T48	B_span 2046 2048	Li
+T49	E_span 2206 2207	.
+T50	B_span 2224 2237	reinforcement
+T51	E_span 2368 2369	)
+T52	B_span 2378 2381	Pas
+T53	E_span 2488 2489	.
+T54	Pronoun 803 808	these
+T55	Pronoun 1942 1946	this
+T56	Pronoun 2123 2127	they
+T57	Pronoun 2313 2318	these
+T58	B_span 1785 1789	copy
+T59	E_span 1817 1821	2015

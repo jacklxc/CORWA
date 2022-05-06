@@ -1,0 +1,68 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 126 131	[BOS]
+T3	Narrative_cite 333 338	[BOS]
+T4	Narrative_cite 502 507	[BOS]
+T5	Reflection 701 706	[BOS]
+T6	Transition 792 797	[BOS]
+T7	Single_summ 892 897	[BOS]
+T8	Single_summ 1005 1010	[BOS]
+T9	Narrative_cite 1210 1215	[BOS]
+T10	Narrative_cite 1288 1293	[BOS]
+T11	Transition 1430 1435	[BOS]
+T12	Narrative_cite 1557 1562	[BOS]
+T13	Reflection 1696 1701	[BOS]
+T14	Reflection 1850 1855	[BOS]
+T15	Narrative_cite 1944 1949	[BOS]
+T16	Reflection 2053 2058	[BOS]
+T17	Transition 2210 2215	[BOS]
+T18	Single_summ 2287 2292	[BOS]
+T19	Single_summ 2430 2435	[BOS]
+T20	Single_summ 2555 2560	[BOS]
+T21	Transition 2692 2697	[BOS]
+T22	Reference 309 330	(Zhang et al., 2018a)
+T23	Reference 386 405	(Peng et al., 2017)
+T24	Reference 415 436	(Zhang et al., 2018b)
+T25	Reference 581 604	(Bastings et al., 2017)
+T26	Reference 620 639	(Beck et al., 2018)
+T27	Dominant 898 930	Kiperwasser and Goldberg (2016b)
+T28	Dominant 1057 1081	Dozat and Manning (2017)
+T29	Reference 1266 1284	(Che et al., 2018)
+T30	Reference 1403 1427	(Battaglia et al., 2018)
+T31	Reference 1605 1626	(Gilmer et al., 2017)
+T32	Reference 1807 1830	(Velikovi et al., 2018)
+T33	Reference 2028 2050	(Vaswani et al., 2017)
+T34	Dominant 2293 2325	Kiperwasser and Goldberg (2016b)
+T35	Dominant 2436 2448	Zheng (2017)
+T36	Dominant 2561 2577	Ma et al. (2018)
+T37	B_span 262 266	text
+T38	E_span 329 330	)
+T39	B_span 376 379	DAG
+T40	E_span 404 405	)
+T41	B_span 410 412	GC
+T42	E_span 435 436	)
+T43	B_span 576 578	GC
+T44	E_span 603 604	)
+T45	B_span 609 614	gated
+T46	E_span 638 639	)
+T47	B_span 898 900	Ki
+T48	E_span 1003 1004	.
+T49	B_span 1057 1059	Do
+T50	E_span 1208 1209	.
+T51	B_span 1241 1247	multil
+T52	E_span 1283 1284	)
+T53	B_span 1311 1313	GN
+T54	E_span 1426 1427	)
+T55	B_span 1567 1574	message
+T56	E_span 1625 1626	)
+T57	B_span 1790 1793	GAT
+T58	E_span 1829 1830	)
+T59	B_span 2008 2019	Transformer
+T60	E_span 2049 2050	)
+T61	B_span 2293 2295	Ki
+T62	E_span 2428 2429	.
+T63	B_span 2436 2441	Zheng
+T64	E_span 2553 2554	.
+T65	B_span 2561 2563	Ma
+T66	E_span 2690 2691	.
+T67	Pronoun 1216 1218	It
+T68	Pronoun 1389 1391	it

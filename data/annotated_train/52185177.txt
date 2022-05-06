@@ -1,0 +1,24 @@
+[BOS] Early sentence compression approaches were extractive, focusing on deletion of uninformative words from sentences through learned rules (Knight and Marcu, 2002) or linguisticallymotivated heuristics (Dorr et al., 2003) .
+[BOS] The first abstractive approaches also relied on learned syntactic transformations (Cohn and Lapata, 2008) .
+[BOS] Recent work in automated text summarization has seen the application of sequence-to-sequence models to automatic summarization, including both extractive (Nallapati et al., 2017) and abstractive (Rush et al., 2015; Chopra et al., 2016; Nallapati et al., 2016; Paulus et al., 2017; Fan et al., 2017) approaches, as well as hybrids of both (See et al., 2017) .
+[BOS] Although these methods have achieved state-of-the-art results, they are constrained by their need for large amounts paired document-summary data.
+[BOS] Miao and Blunsom (2016) seek to overcome this shortcoming by training separate compressor and reconstruction models, allowing for training based on both paired (supervised) and unlabeled (unsupervised) data.
+[BOS] For their compressor, they train a discrete variational auto-encoder for sentence compression and use the REINFORCE algorithm to allow end-to-end training.
+[BOS] They further use a pre-trained language model as a prior for their compression model to induce their compressed output to be grammatical.
+[BOS] However, their reported results are still based on models trained on at least 500k instances of paired data.
+
+[BOS] In machine translation, unsupervised methods for aligning word embeddings using only unmatched bilingual corpora, trained with only small seed dictionaries, (Mikolov et al., 2013; Lazaridou et al., 2015) , adversarial training on similar corpora (Zhang et al., 2017; Conneau et al., 2017b) or even on distant corpora and languages (Artetxe et al., 2018) have enabled the development of unsupervised machine translation (Artetxe et al., 2017; Lample et al., 2017) .
+[BOS] However, it is not clear how to adapt these methods for summarization where the task is to shorten the reference rather than translate it.
+[BOS] Wang and Lee (2018) train a generative adversarial network to encode references into a latent space and decode them in summaries using only unmatched documentsummary pairs.
+[BOS] However, in contrast with machine translation where monolingual data is plentiful and paired data scarce, summaries are paired with their respective documents when they exist, thus limiting the usefulness of such approaches.
+[BOS] In contrast, our method requires no summary corpora.
+
+[BOS] Denoising auto-encoders (Vincent et al., 2008) have been successfully used in natural language processing for building sentence embeddings (Hill et al., 2016) , training unsupervised translation models (Artetxe et al., 2017) or for natural language generation in narrow domains (Freitag and Roy, 2018) .
+[BOS] In all those instances, the added noise takes the form of random deletion of words and word swapping or shuffling.
+[BOS] Although our noising mechanism relies on adding rather than removing words, we take some inspiration from these works.
+
+[BOS] Work in sentence simplification (see Shardlow (2014) for a survey) has some similarities with sentence compression, but it differs in that the key focus is on making sentences more easily understandable rather than shorter.
+[BOS] Though word deletion is used, sentence simplification methods feature sentence splitting and word simplification which are not usually present in sentence compression.
+[BOS] Furthermore, these methods often rely heavily on learned rules (e.g lexical simplification as in Biran et al. (2011) ), integer linear programming and sentence parse trees which makes them starkly different from our deep learning-based approach.
+[BOS] The exceptions that adopt end-to-end approaches, such as Filippova et al. (2015) , are usually supervised and focus on word deletion.
+

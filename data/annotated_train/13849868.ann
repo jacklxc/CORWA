@@ -1,0 +1,113 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 175 180	[BOS]
+T3	Single_summ 424 429	[BOS]
+T4	Multi_summ 557 562	[BOS]
+T5	Single_summ 759 764	[BOS]
+T6	Single_summ 851 856	[BOS]
+T7	Single_summ 998 1003	[BOS]
+T8	Single_summ 1212 1217	[BOS]
+T9	Single_summ 1390 1395	[BOS]
+T10	Single_summ 1586 1591	[BOS]
+T11	Transition 1807 1812	[BOS]
+T12	Transition 1916 1921	[BOS]
+T13	Narrative_cite 2134 2139	[BOS]
+T14	Transition 2350 2355	[BOS]
+T15	Single_summ 2501 2506	[BOS]
+T16	Reflection 2702 2707	[BOS]
+T17	Transition 2893 2898	[BOS]
+T18	Narrative_cite 3089 3094	[BOS]
+T19	Transition 3282 3287	[BOS]
+T20	Single_summ 3463 3468	[BOS]
+T21	Single_summ 3663 3668	[BOS]
+T22	Single_summ 3799 3804	[BOS]
+T23	Single_summ 3875 3880	[BOS]
+T24	Single_summ 4105 4110	[BOS]
+T25	Multi_summ 4241 4246	[BOS]
+T26	Reflection 4508 4513	[BOS]
+T27	Narrative_cite 4657 4662	[BOS]
+T28	Single_summ 4823 4828	[BOS]
+T29	Multi_summ 5074 5079	[BOS]
+T30	Reflection 5229 5234	[BOS]
+T31	Reference 107 124	(Zhu et al., 2010
+T32	Reference 126 150	Coster and Kauchak, 2011
+T33	Reference 152 172	Wubben et al., 2012)
+T34	Dominant 430 447	Zhu et al. (2010)
+T35	Dominant 563 588	Coster and Kauchak (2011)
+T36	Dominant 679 699	Wubben et al. (2012)
+T37	Dominant 765 791	Woodsend and Lapata (2011)
+T38	Dominant 1238 1259	Angrosh et al. (2014)
+T39	Dominant 1412 1435	Zhang and Lapata (2017)
+T40	Dominant 1622 1648	Narayan and Gardent (2016)
+T41	Reference 2289 2321	(Chandrasekar and Srinivas, 1997
+T42	Reference 2323 2347	Klerke and Sgaard, 2013)
+T43	Dominant 2547 2563	Shardlow (2013a)
+T44	Reference 3241 3263	(Devlin and Tait, 1998
+T45	Reference 3265 3279	Kauchak, 2013)
+T46	Reference 3597 3611	(Miller, 1995)
+T47	Dominant 3669 3695	Thomas and Anderson (2012)
+T48	Dominant 3805 3824	Biran et al. (2011)
+T49	Dominant 4300 4322	(Specia et al., 2012 )
+T50	Reference 4377 4405	(McCarthy and Navigli, 2007)
+T51	Reference 4756 4776	(Thater et al., 2011
+T52	Reference 4778 4797	Kremer et al., 2014
+T53	Reference 4799 4820	Melamud et al., 2015)
+T54	Dominant 4839 4856	Apidianaki (2016)
+T55	Reference 4988 5014	Ganitkevitch et al., 2013)
+T56	Dominant 5098 5117	Cocos et al. (2017)
+T57	Reference 5165 5187	(Melamud et al., 2015)
+T58	Reference 5269 5290	Melamud et al. (2015)
+T59	Reference 5398 5432	(Pavlick and Callison-Burch, 2016)
+T60	Pronoun 857 861	They
+T61	Pronoun 1607 1612	these
+T62	Pronoun 2092 2097	these
+T63	Pronoun 2795 2799	this
+T64	Pronoun 2967 2972	their
+T65	Pronoun 3041 3043	it
+T66	Pronoun 3881 3885	They
+T67	Pronoun 4111 4115	This
+T68	Pronoun 5245 5249	this
+T69	Pronoun 5501 5506	their
+T70	B_span 75 86	monolingual
+T71	E_span 167 171	2012
+T72	B_span 430 433	Zhu
+T73	E_span 543 555	substitution
+T74	B_span 563 569	Coster
+T75	E_span 665 673	deletion
+T76	B_span 679 685	Wubben
+T77	E_span 748 757	heuristic
+T78	B_span 765 773	Woodsend
+T79	E_span 1203 1210	grammar
+T80	B_span 1218 1221	The
+T81	E_span 1383 1388	rules
+T82	B_span 1396 1398	In
+T83	E_span 1579 1584	input
+T84	B_span 1592 1594	In
+T85	E_span 1790 1804	simplification
+T86	B_span 2251 2258	passive
+T87	E_span 2342 2346	2013
+T88	B_span 2507 2509	To
+T89	E_span 2694 2700	length
+T90	B_span 3196 3204	frequent
+T91	E_span 3274 3278	2013
+T92	B_span 3469 3472	WSD
+T93	E_span 3656 3661	sense
+T94	B_span 3669 3675	Thomas
+T95	E_span 3789 3797	document
+T96	B_span 3805 3810	Biran
+T97	E_span 4235 4239	task
+T98	B_span 4247 4250	The
+T99	E_span 4493 4505	substitution
+T100	B_span 4356 4363	lexical
+T101	E_span 4400 4404	2007
+T102	B_span 4736 4742	vector
+T103	E_span 4815 4819	2015
+T104	B_span 4839 4849	Apidianaki
+T105	E_span 5064 5072	contexts
+T106	B_span 5080 5082	In
+T107	E_span 5220 5227	context
+T108	B_span 5125 5129	word
+T109	E_span 5182 5186	2015
+T110	B_span 5269 5276	Melamud
+T111	E_span 5285 5289	2015
+T112	B_span 5384 5388	PPDB
+T113	E_span 5427 5431	2016

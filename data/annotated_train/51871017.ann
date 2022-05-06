@@ -1,0 +1,21 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 161 166	[BOS]
+T3	Single_summ 239 244	[BOS]
+T4	Single_summ 439 444	[BOS]
+T5	Single_summ 581 586	[BOS]
+T6	Transition 705 710	[BOS]
+T7	Transition 864 869	[BOS]
+T8	Transition 959 964	[BOS]
+T9	Transition 1080 1085	[BOS]
+T10	Reflection 1264 1269	[BOS]
+T11	Reflection 1433 1438	[BOS]
+T12	Transition 1546 1551	[BOS]
+T13	Transition 1631 1636	[BOS]
+T14	Transition 1768 1773	[BOS]
+T15	Other 1876 1881	[BOS]
+T16	Dominant 13 39	(Weissenborn et al., 2017)
+T17	Reference 360 381	(Jia and Liang, 2017)
+T18	B_span 6 12	FastQA
+T20	B_span 342 353	Adversarial
+T21	E_span 376 380	2017
+T22	E_span 695 703	question

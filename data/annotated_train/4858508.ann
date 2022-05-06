@@ -1,0 +1,25 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 173 178	[BOS]
+T3	Single_summ 303 308	[BOS]
+T4	Single_summ 410 415	[BOS]
+T5	Single_summ 704 709	[BOS]
+T6	Single_summ 875 880	[BOS]
+T7	Single_summ 986 991	[BOS]
+T8	Single_summ 1082 1087	[BOS]
+T9	Single_summ 1153 1158	[BOS]
+T10	Dominant 179 202	Vanhoucke et al. (2011)
+T11	Dominant 416 433	Han et al. (2015)
+T12	Dominant 743 756	Devlin (2017)
+T13	Dominant 1003 1021	(Wu et al., 2016 )
+T14	Pronoun 309 313	They
+T15	Pronoun 881 885	They
+T16	Pronoun 1088 1092	They
+T17	Pronoun 1162 1166	this
+T18	B_span 179 188	Vanhoucke
+T19	E_span 400 408	accuracy
+T20	B_span 416 419	Han
+T21	E_span 696 701	small
+T22	B_span 710 718	Focusing
+T23	E_span 977 984	speedup
+T24	B_span 1004 1006	Wu
+T25	E_span 1254 1261	outputs

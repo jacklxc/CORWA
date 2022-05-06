@@ -1,0 +1,47 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 212 217	[BOS]
+T3	Multi_summ 330 335	[BOS]
+T4	Single_summ 708 713	[BOS]
+T5	Reflection 854 859	[BOS]
+T6	Transition 1050 1055	[BOS]
+T7	Multi_summ 1263 1268	[BOS]
+T8	Reflection 1733 1738	[BOS]
+T9	Single_summ 1944 1949	[BOS]
+T10	Single_summ 2125 2130	[BOS]
+T11	Reflection 2279 2284	[BOS]
+T12	Reflection 2424 2429	[BOS]
+T13	Reference 89 112	(Dong and Lapata, 2016)
+T14	Reference 189 211	(Iyer et al., , 2018 .
+T15	Dominant 218 236	Ling et al. (2016)
+T16	Dominant 658 682	(Rabinovich et al., 2017
+T17	Dominant 684 705	Yin and Neubig, 2017)
+T18	Dominant 714 732	Iyer et al. (2018)
+T19	Dominant 1269 1291	Dong and Lapata (2018)
+T20	Dominant 1374 1393	Hayati et al. (2018
+T21	Dominant 1487 1507	Murali et al. (2018)
+T22	Dominant 1645 1662	Nye et al. (2019)
+T24	Pronoun 871 876	these
+T25	Pronoun 2131 2135	They
+T26	B_span 61 63	ma
+T27	E_span 107 111	2016
+T28	B_span 126 133	directl
+T29	Reference 171 188	Iyer et al., 2017
+T30	E_span 207 209	18
+T31	B_span 218 222	Ling
+T32	E_span 324 328	code
+T33	B_span 418 422	cons
+T34	E_span 702 704	17
+T35	B_span 714 718	Iyer
+T36	E_span 842 852	generation
+T37	B_span 1269 1272	Don
+T38	Other 1367 1372	forms
+T39	B_span 1374 1377	Hay
+T40	E_span 1480 1485	input
+T41	B_span 1487 1488	M
+T42	E_span 1634 1635	s
+T43	B_span 1645 1646	N
+T44	E_span 1727 1731	rams
+T23	Dominant 2013 2040	Allamanis and Sutton (2014)
+T45	B_span 2013 2020	Allaman
+T47	E_span 1370 1372	ms
+T46	E_span 2187 2198	explainable

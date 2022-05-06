@@ -1,0 +1,12 @@
+[BOS] Our work is inspired by a large number of successful applications using neural encoder-decoder frameworks on NLP tasks such as machine translation (Cho et al., 2014a) and dialog generation (Vinyals and Le, 2015) .
+[BOS] Our work is also inspired by the recent work for KBQG based on encoderdecoder frameworks.
+[BOS] Serban et al. (2016) first proposed a neural network for mapping KB facts into natural language questions.
+[BOS] To improve the generalization, Elsahar et al. (2018) introduced extra contexts for the input fact, which achieved significant performances.
+[BOS] However, these contexts may make it difficult to generate questions that express the given predicate and associate with a definitive answer.
+[BOS] Therefore, we focus on the two research issues: expressing the given predicate and referring to a definitive answer for generated questions.
+[BOS] Moreover, our work also borrows the idea from copy mechanisms.
+[BOS] Point network predicted the output sequence directly from the input, and it can not generate new words while CopyNet (Gu et al., 2016) combined copying and generating.
+[BOS] Bao et al. (2018) proposed to copy elements in the table (KB).
+[BOS] Elsahar et al. (2018) exploited POS copy action to better capture textual contexts.
+[BOS] To incorporate advantages from above copy mechanisms, we introduce KB copy and context copy which can copy KB element and textual context, and they do not rely on POS tagging.
+

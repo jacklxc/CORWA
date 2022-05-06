@@ -1,0 +1,42 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 92 97	[BOS]
+T3	Transition 262 267	[BOS]
+T4	Single_summ 380 385	[BOS]
+T5	Transition 561 566	[BOS]
+T6	Transition 656 661	[BOS]
+T7	Narrative_cite 752 757	[BOS]
+T8	Narrative_cite 856 861	[BOS]
+T9	Multi_summ 1001 1006	[BOS]
+T10	Single_summ 1307 1312	[BOS]
+T11	Single_summ 1423 1428	[BOS]
+T12	Reflection 1563 1568	[BOS]
+T13	Dominant 386 405	Huang et al. (2012)
+T14	Reference 812 835	Peirsman and Pad (2010)
+T15	Reference 840 853	Sumita (2000)
+T16	Reference 924 953	Boyd-Graber and Resnik (2010)
+T17	Reference 956 973	Tam et al. (2007)
+T18	Reference 978 998	Zhao and Xing (2006)
+T19	Dominant 1007 1024	Zou et al. (2013)
+T20	Dominant 1112 1128	Le et al. (2012)
+T21	Dominant 1133 1150	Gao et al. (2014)
+T22	Dominant 1313 1334	Vuli and Moens (2013)
+T23	Dominant 1512 1533	Carpuat and Wu (2007)
+T24	B_span 386 391	Huang
+T25	E_span 550 559	objective
+T27	B_span 758 767	Bilingual
+T29	E_span 848 852	2000
+T30	B_span 867 879	unsupervised
+T33	E_span 993 997	2006
+T34	B_span 1007 1010	Zou
+T35	E_span 1104 1110	result
+T36	B_span 1112 1114	Le
+T37	E_span 1297 1305	distance
+T38	B_span 1313 1316	Vul
+T39	E_span 1414 1421	lexicon
+T40	B_span 1512 1516	Carp
+T41	E_span 1558 1561	SMT
+T42	Pronoun 328 332	they
+T43	Pronoun 1446 1451	these
+T44	Pronoun 1541 1543	it
+T45	Pronoun 1572 1576	this
+T46	Pronoun 1677 1679	it

@@ -1,0 +1,18 @@
+[BOS] Attribute-controlled text rewriting remains a longstanding problem in NLG, where most work has focused on studying the stylistic variation in text (Gatt and Krahmer, 2018) .
+[BOS] Early contributions in this area defined stylistic features using rules to vary generation (Brooke et al., 2010) .
+[BOS] For instance, Sheikha and Inkpen (2011) proposed an adaptation of the SimpleNLG realiser (Gatt et al., 2009) to handle formal versus informal language via constructing lexicons of formality (e.g., are not vs. aren't).
+[BOS] More contemporary approaches have tended to eschew rules in favour of data-driven methods to identify relevant linguistic features to stylistic attributes (Ballesteros et al., 2015; Di Fabbrizio et al., 2008; Krahmer and van Deemter, 2012) .
+[BOS] For example, Mairesse and Walker's PER-SONAGE system (Mairesse and Walker, 2011) uses machine-learning models to take as inputs a list of real-valued style parameters and generate sentences to project different personality traits.
+
+[BOS] In the past few years, attribute-controlled NLG has witnessed renewed interest by researchers working on neural approaches to generation (Hu et al., 2017; Jhamtani et al., 2017; Melnyk et al., 2017; Mueller et al., 2017; Zhang et al., 2018; Prabhumoye et al., 2018; Niu and Bansal, 2018) .
+[BOS] Among them, many attribute-controlled text rewriting methods similarly employ GANbased models to disentangle the content and style of text in a shared latent space (Shen et al., 2017; Fu et al., 2018) .
+[BOS] However, existing work that applies these ideas to text suffers from both training difficulty (Salimans et al., 2016; Arjovsky and Bottou, 2017; Bousmalis et al., 2017) , and ineffective manipulation of the latent space which leads to content loss (Li et al., 2018) and generation of grammatically-incorrect sentences.
+[BOS] Other lines of research avoid adversarial training altogether.
+[BOS] Li et al. (2018) proposed a much simpler approach: identify style-carrying n-grams, replace them with phrases of the opposite style, and train a neural language model to combine them in a natural way.
+[BOS] Despite outperforming the adversarial approaches, its performance is dependent on the availability of an accurate word identifier, a precise word replacement selector and a perfect language model to fix the grammatical errors introduced by the crude swap.
+
+[BOS] Recent work improves upon adversarial approaches by additionally leveraging the idea of back translation (dos Santos et al., 2018; Logeswaran et al., 2018; Lample et al., 2019; Prabhumoye et al., 2018) .
+[BOS] It was previously used for unsupervised Statistical Machine Translation (SMT) (Fung and Yee, 1998; Munteanu et al., 2004; Smith et al., 2010) and Neural Machine Translation (NMT) (Conneau et al., 2017b; Lample et al., 2017; Artetxe et al., 2017) , where it iteratively takes the pseudo pairs to train a translation model and then use the refined model to generate new pseudo-parallel pairs with enhanced quality.
+[BOS] However, the success of this method relies on good quality of the pseudo-parallel pairs.
+[BOS] Our approach proposes using retrieved sentences from the corpus based on semantic similarity as a decent starting point and then refining them using the trained translation models iteratively.
+

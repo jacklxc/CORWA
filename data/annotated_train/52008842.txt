@@ -1,0 +1,24 @@
+[BOS] A lot of investigations have already been conducted for domain adaptation in SMT while few in neural machine translation.
+[BOS] These methods can be roughly categorized into two classes: the model-level and data-level method.
+
+[BOS] At the model level, combining multiple translation models in a weighted manner is used for SMT domain adaptation.
+[BOS] For NMT, fine tuning, model stacking and muti-model ensemble have been explored (Sajjad et al., 2017) .
+[BOS] Luong and Manning (2015) propose a fine-tuning method, which continues to train the already trained out-of-domain system on the in-domain data.
+[BOS] Model stacking is to build an NMT model in an online fashion, training the model from the most distant domain at the beginning, fine-tuning it on the closer domain and finalizing it by fine-tuning it on the in-domain data.
+[BOS] Muti-model ensemble combines multiple models during decoding using a balanced or weighted averaging method.
+
+[BOS] At the data level, traditional domain adaptation approach can be done by data selection, data weighting or data joining.
+[BOS] Data selection approaches select data similar to the in-domain data according to some criteria.
+[BOS] Normally, the out-of-domain data can be scored by a model trained on the in-domain data and out-of-domain data.
+[BOS] For example, a language model can be used for scoring sentences (Axelrod et al., 2011) .
+[BOS] Data weighting methods weight each item which can be a corpus, a sentence or a phrase, and then train SMT models on weighted items.
+
+[BOS] Although some existing SMT domain adaptation techniques can be directly applied to NMT, it is challenging for applying data weighting to NMT.
+[BOS] For NMT, the data selection approach can also be used.
+[BOS] Wang et al. (2017a) employ the data selection method for domain adaptation, which uses sentence embeddings to measure the similarity of a sentence pair to the in-domain data.
+[BOS] A recent method to apply sentence weights to NMT is cost weighting (Wang et al., 2017b; Chen et al., 2017) .
+[BOS] The NMT objective function is updated by sentence weighting when computing the cost of each mini-batch during NMT training.
+[BOS] Wang et al. (2017b) exploit an in-domain language model (Axelrod et al., 2011) to score sentences.
+[BOS] Chen et al. (2017) use a classifier to assign weights for individual sentences pairs.
+[BOS] Domain control uses word-level domain features in the word embedding layer, aiming to allow a model to be built from a diverse set of training data to produce in-domain translations (Kobus et al., 2017) .
+

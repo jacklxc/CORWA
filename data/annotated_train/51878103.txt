@@ -1,0 +1,10 @@
+[BOS] NER is a widely studied problem.
+[BOS] Most of previous work rely on the use of CRFs (Finkel et al., 2005; Jun'ichi and Torisawa, 2007; Ratinov and Roth, 2009; Passos et al., 2014; Radford et al., 2015; Luo et al., 2015) .
+[BOS] A recent trend has achieved particularly good results modeling NER as an end-to-end task using neural networks (dos Santos and Guimares, 2015; Chiu and Nichols, 2016; Lample et al., 2016; Yang et al., 2016 ; Gillick et al., 2016) .
+[BOS] While this constitutes a big step forward, certain applications (e.g., in heavily regulated sectors) require a degree of explainability that neural approaches cannot yet provide.
+[BOS] Previous work has already regarded NER as a knowledge intensive task (Florian et al., 2003; Zhang and Johnson, 2003; Jun'ichi and Torisawa, 2007; Ratinov and Roth, 2009; Lin and Wu, 2009; Passos et al., 2014; Radford et al., 2015; Luo et al., 2015) .
+[BOS] Most of these works incorporate background knowledge in the form of entity-type gazetteers (Florian et al., 2003; Zhang and Johnson, 2003; Jun'ichi and Torisawa, 2007; Ratinov and Roth, 2009; Passos et al., 2014) .
+[BOS] Others, used external knowledge by exploiting the association between NER and NED (Durrett and Klein, 2014; Radford et al., 2015; Luo et al., 2015; Nguyen et al., 2016) .
+[BOS] In this study, we attempt to bring more light on the issue by quantifying the effect of different degrees of external knowledge.
+[BOS] Our modular framework allows to test this intuition via novel feature sets that reflect the degree of knowledge contained in available knowledge sources.
+

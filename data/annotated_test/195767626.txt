@@ -1,0 +1,36 @@
+[BOS] OOV Word Embedding Previous studies of handling OOV words were mainly based on two types of information: 1) context information and 2) morphology features.
+
+[BOS] The first family of approaches follows the distributional hypothesis (Firth, 1957) to infer the meaning of a target word based on its context.
+[BOS] If sufficient observations are given, simply applying existing word embedding techniques (e.g., word2vec) can already learn to embed OOV words.
+[BOS] However, in a real scenario, mostly the OOV word only occur for a very limited times in the new corpus, which hinders the quality of the updated embedding (Lazaridou et al., 2017; Herbelot and Baroni, 2017) .
+[BOS] Several alternatives have been proposed in the literature.
+[BOS] Lazaridou et al. (2017) proposed additive method by using the average embeddings of context words (Lazaridou et al., 2017) as the embedding of the target word.
+[BOS] Herbelot and Baroni (2017) extended the skip-gram model to nonce2vec by initialized with additive embedding, higher learning rate and window size.
+[BOS] Khodak et al. (2018) introduced a la carte, which augments the additive method by a linear transformation of context embedding.
+
+[BOS] The second family of approaches utilizes the morphology of words (e.g., morphemes, character n-grams and character) to construct embedding vectors of unseen words based on sub-word information.
+[BOS] For example, Luong et al. (2013) proposed a morphology-aware word embedding technique by processing a sequence of morphemes with a recurrent neural network.
+[BOS] Bojanowski et al. (2017) extended skip-gram model by assigning embedding vectors to every character n-grams and represented each word as the sum of its n-grams.
+[BOS] Pinter et al. (2017) proposed MIMICK to induce word embedding from character features with a bi-LSTM model.
+[BOS] Although these approaches demonstrate reasonable performance, they rely mainly on morphology structure and cannot handle some special type of words, such as transliteration, entity names, or technical terms.
+
+[BOS] Our approach utilizes both pieces of information for an accurate estimation of OOV embeddings.
+[BOS] To leverage limited context information, we apply a complex model in contrast to the linear transformation used in the past, and learn to embed in a few-shot setting.
+[BOS] We also show that incorporating morphological features can further enhance the model when the context is extremely limited (i.e., only two or four sentences).
+
+[BOS] Few-shot learning The paradigm of learning new tasks from a few labelled observations, referred to as few-shot learning, has received significant attention.
+[BOS] The early studies attempt to transfer knowledge learned from tasks with sufficient training data to new tasks.
+[BOS] They mainly follow a pre-train then fine-tune paradigm (Donahue et al., 2014; Bengio, 2012; Zoph et al., 2016) .
+[BOS] Recently, meta-learning is proposed and it achieves great performance on various few-shot learning tasks.
+[BOS] The intuition of meta-learning is to learn generic knowledge on a variety of learning tasks, such that the model can be adapted to learn a new task with only a few training samples.
+[BOS] Approaches for meta-learning can be categorized by the type of knowledge they learn.
+[BOS] (1) Learn a metric function that embeds data in the same class closer to each other, including Matching Networks (Vinyals et al., 2016) , and Prototypical Networks (Snell et al., 2017) .
+[BOS] The nature of metric learning makes it specified on classification problems.
+[BOS] (2) Learn a learning policy that can fast adapt to new concepts, including a better weight initialization as MAML (Finn et al., 2017 ) and a better optimizer (Ravi and Larochelle, 2017) .
+[BOS] This line of research is more general and can be applied to different learning paradigms, including both classification and regression.
+
+[BOS] There have been emerging research studies that utilize the above meta-learning algorithms to NLP tasks, including language modelling (Vinyals et al., 2016 ), text classification , machine translation (Gu et al., 2018) , and relation learning (Xiong et al., 2018; Gao et al., 2019) .
+[BOS] In this paper, we propose to formulate the OOV word representation learning as a few-shot regression problem.
+[BOS] We first show that pre-training on a given corpus can somehow solve the problem.
+[BOS] To further mitigate the semantic gap between the given corpus with a new corpus, we adopt model-agnostic meta-learning (MAML) (Finn et al., 2017) to fast adapt the pre-trained model to new corpus.
+

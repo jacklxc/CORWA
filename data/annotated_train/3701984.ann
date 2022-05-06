@@ -1,0 +1,75 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 135 140	[BOS]
+T3	Single_summ 393 398	[BOS]
+T4	Transition 600 605	[BOS]
+T5	Single_summ 722 727	[BOS]
+T6	Single_summ 934 939	[BOS]
+T7	Single_summ 1082 1087	[BOS]
+T8	Single_summ 1319 1324	[BOS]
+T9	Single_summ 1585 1590	[BOS]
+T10	Transition 1799 1804	[BOS]
+T11	Transition 2107 2112	[BOS]
+T12	Single_summ 2184 2189	[BOS]
+T13	Single_summ 2273 2278	[BOS]
+T14	Single_summ 2393 2398	[BOS]
+T15	Single_summ 2589 2594	[BOS]
+T16	Single_summ 2820 2825	[BOS]
+T17	Single_summ 2935 2940	[BOS]
+T18	Single_summ 3216 3221	[BOS]
+T19	Single_summ 3379 3384	[BOS]
+T20	Single_summ 3553 3558	[BOS]
+T21	Dominant 164 195	Marcheggiani and Artires (2014)
+T22	Dominant 310 335	Settles and Craven (2008)
+T23	Dominant 399 415	Li et al. (2012)
+T24	Dominant 750 778	Sassano and Kurohashi (2010)
+T25	Dominant 1088 1116	Mirroshandel and Nasr (2011)
+T26	Dominant 1376 1399	Majidi and Crane (2013)
+T27	Dominant 1643 1667	Flannery and Mori (2015)
+T28	Reference 1773 1796	(Flannery et al., 2011)
+T29	Dominant 2190 2214	Flannery and Mori (2015)
+T30	Dominant 2621 2645	Mejer and Crammer (2012)
+T31	Dominant 2826 2836	Hwa (1999)
+T32	Reference 2998 3025	(Pereira and Schabes, 1992)
+T33	Dominant 3055 3078	Clark and Curran (2006)
+T34	Dominant 3222 3242	Tsuboi et al. (2008)
+T35	Reference 3345 3376	Marcheggiani and Artires (2014)
+T36	Dominant 3385 3401	Li et al. (2014)
+T37	Dominant 3559 3580	Mielens et al. (2015)
+T38	Pronoun 940 944	They
+T39	Pronoun 1833 1837	this
+T40	Pronoun 2406 2411	their
+T41	Pronoun 2433 2437	they
+T42	B_span 164 176	Marcheggiani
+T43	E_span 297 299	FA
+T44	B_span 310 317	Settles
+T45	E_span 389 391	FA
+T46	B_span 399 401	Li
+T47	E_span 587 598	experiments
+T48	B_span 728 730	In
+T49	E_span 1074 1080	parser
+T50	B_span 1088 1100	Mirroshandel
+T51	E_span 1307 1317	annotation
+T52	B_span 1325 1330	Under
+T53	E_span 1577 1583	tokens
+T54	B_span 1591 1596	Based
+T55	E_span 1791 1795	2011
+T56	B_span 1737 1747	dependency
+T57	E_span 1791 1795	2011
+T58	B_span 2190 2198	Flannery
+T59	E_span 2574 2586	explanations
+T60	B_span 2595 2600	Under
+T61	E_span 2813 2818	model
+T62	B_span 2826 2829	Hwa
+T63	E_span 3051 3053	PA
+T64	B_span 2960 2966	Inside
+T65	E_span 3020 3024	1992
+T66	B_span 3055 3060	Clark
+T67	E_span 3202 3214	dependencies
+T68	B_span 3222 3228	Tsuboi
+T69	E_span 3371 3375	2014
+T70	B_span 3322 3327	which
+T71	E_span 3371 3375	2014
+T72	B_span 3385 3387	Li
+T73	E_span 3543 3551	scenario
+T74	B_span 3559 3566	Mielens
+T75	E_span 3705 3710	trees

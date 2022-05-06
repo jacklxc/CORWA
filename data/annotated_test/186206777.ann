@@ -1,0 +1,48 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 170 175	[BOS]
+T3	Transition 487 492	[BOS]
+T4	Single_summ 604 609	[BOS]
+T5	Single_summ 816 821	[BOS]
+T6	Single_summ 903 908	[BOS]
+T7	Single_summ 984 989	[BOS]
+T8	Single_summ 1132 1137	[BOS]
+T9	Single_summ 1282 1287	[BOS]
+T10	Transition 1387 1392	[BOS]
+T11	Single_summ 1483 1488	[BOS]
+T12	Single_summ 1615 1620	[BOS]
+T13	Single_summ 1722 1727	[BOS]
+T14	Single_summ 1880 1885	[BOS]
+T15	Reflection 2030 2035	[BOS]
+T16	Reference 320 343	(Jing and McKeown, 2000
+T17	Reference 345 367	Knight and Marcu, 2002
+T18	Reference 369 393	Clarke and Lapata, 2010)
+T19	Reference 406 427	(Zhou and Hovy, 2004)
+T20	Reference 464 484	(Banko et al., 2000)
+T21	Dominant 610 628	Rush et al. (2015)
+T22	Dominant 822 842	Chopra et al. (2016)
+T23	Dominant 999 1015	Gu et al. (2016)
+T24	Dominant 1288 1306	Zhou et al. (2017)
+T25	Dominant 1621 1638	Guu et al. (2018)
+T26	Dominant 1749 1767	Cao et al. (2018a)
+T27	B_span 293 300	extract
+T28	E_span 392 393	)
+T29	B_span 396 405	templates
+T30	E_span 426 427	)
+T31	B_span 432 443	statistical
+T32	E_span 483 484	)
+T33	B_span 610 613	Rus
+T34	E_span 814 815	.
+T35	B_span 822 826	Chop
+T36	E_span 982 983	.
+T37	B_span 999 1001	Gu
+T39	B_span 1288 1292	Zhou
+T40	E_span 1376 1384	encoding
+T41	B_span 1621 1623	Gu
+T42	E_span 1720 1721	.
+T43	B_span 1749 1752	Cao
+T44	E_span 2028 2029	.
+T45	Pronoun 193 197	this
+T46	Pronoun 1027 1031	this
+T47	Pronoun 1521 1526	their
+T48	Pronoun 1895 1900	their
+T38	E_span 1270 1280	vocabulary

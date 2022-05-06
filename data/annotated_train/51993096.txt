@@ -1,0 +1,11 @@
+[BOS] Text generation is a broad research area with rapid advancement.
+[BOS] Figure 2 summarizes some popular and emerging models used in the diverse contexts of the field.
+[BOS] There are some existing toolkits that focus on tasks of neural machine translation and alike, such as Google Seq2seq [6] and Tensor2Tensor [46] on TensorFlow, OpenNMT [24] on (Py)Torch, XNMT [34] on DyNet, Nematus [38] on Theano, and MarianNMT [21] on C++.
+[BOS] Par-lAI [33] is a software platform specialized for dialog research.
+[BOS] Differing from these taskfocusing toolkits, Texar aims to cover as many text generation tasks as possible.
+
+[BOS] There are also libraries for general NLP applications [1, 35, 10] or for high conceptuallevel programming without specific task focuses [9] .
+[BOS] With the focus on text generation, we provide a more comprehensive set of well-tailored and readily-usable modules and functionalities to relevant tasks.
+[BOS] Some platforms exist for specific types of algorithms, such as OpenAI Gym [7] , DeepMind Control Suite [43] , and ELF [44] for reinforcement learning in game environments.
+[BOS] Texar has drawn inspirations from these toolkits when designing relevant specific algorithm supports.
+

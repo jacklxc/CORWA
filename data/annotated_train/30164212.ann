@@ -1,0 +1,50 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 179 184	[BOS]
+T3	Narrative_cite 328 333	[BOS]
+T4	Multi_summ 381 386	[BOS]
+T5	Multi_summ 545 550	[BOS]
+T6	Single_summ 898 903	[BOS]
+T7	Single_summ 1041 1046	[BOS]
+T8	Single_summ 1191 1196	[BOS]
+T9	Transition 1337 1342	[BOS]
+T10	Transition 1484 1489	[BOS]
+T11	Transition 1494 1499	[BOS]
+T12	Single_summ 1672 1677	[BOS]
+T13	Reflection 1867 1872	[BOS]
+T14	Reflection 1963 1968	[BOS]
+T15	Reference 156 176	Berant et al. (2013)
+T16	Reference 334 357	(Berant and Liang, 2014
+T17	Reference 359 378	Reddy et al., 2014)
+T18	Dominant 436 457	(Bordes et al., 2015)
+T19	Reference 576 595	Bordes et al. (2015
+T20	Dominant 730 749	Golub and He (2016)
+T21	Dominant 819 836	Dai et al. (2016)
+T22	Dominant 904 928	Lukovnikov et al. (2017)
+T23	Dominant 1047 1064	Yin et al. (2016)
+T24	Dominant 1197 1213	Yu et al. (2017)
+T25	Dominant 1710 1731	Ture and Jojic (2017)
+T26	Pronoun 185 189	This
+T27	Pronoun 716 720	this
+T28	Pronoun 1343 1348	These
+T29	Pronoun 1503 1507	this
+T30	Pronoun 1527 1529	it
+T31	Pronoun 1681 1685	this
+T32	Pronoun 1881 1885	this
+T33	B_span 131 134	NLP
+T34	E_span 171 175	2013
+T35	B_span 335 341	Berant
+T36	E_span 373 377	2014
+T37	B_span 412 427	SIMPLEQUESTIONS
+T38	E_span 452 456	2015
+T39	B_span 551 554	The
+T40	E_span 613 621	networks
+T41	B_span 730 735	Golub
+T42	E_span 808 817	framework
+T43	B_span 819 822	Dai
+T44	E_span 890 896	BiGRUs
+T45	B_span 904 914	Lukovnikov
+T46	E_span 1033 1039	manner
+T47	B_span 1197 1199	Yu
+T48	E_span 1329 1335	output
+T49	B_span 1678 1680	To
+T50	E_span 1861 1865	help

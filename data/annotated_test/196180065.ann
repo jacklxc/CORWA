@@ -1,0 +1,58 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 242 247	[BOS]
+T3	Transition 426 431	[BOS]
+T4	Narrative_cite 521 526	[BOS]
+T5	Transition 725 730	[BOS]
+T6	Narrative_cite 936 941	[BOS]
+T7	Reflection 1235 1240	[BOS]
+T8	Narrative_cite 1309 1314	[BOS]
+T9	Reflection 1636 1641	[BOS]
+T10	Reflection 1748 1753	[BOS]
+T11	Reference 77 96	(Dorr et al., 2003)
+T12	Reference 120 139	(Banko et al., 2000
+T13	Reference 141 159	Zajic et al., 2004
+T14	Reference 161 187	Filippova and Strube, 2008
+T15	Reference 189 210	Woodsend et al., 2010
+T16	Reference 212 238	Filippova and Altun, 2013)
+T17	Reference 343 361	(Rush et al., 2015
+T18	Reference 363 382	Chopra et al., 2016
+T19	Reference 384 401	Zhou et al., 2017
+T20	Reference 403 423	Paulus et al., 2018)
+T21	Reference 544 565	(Vinyals and Le, 2015
+T22	Reference 567 588	Gulcehre et al., 2016
+T23	Reference 590 607	See et al., 2017)
+T24	Reference 628 644	(Gu et al., 2016
+T25	Reference 646 664	Zeng et al., 2016)
+T26	Reference 1135 1156	(Kikuchi et al., 2016
+T27	Reference 1158 1174	Fan et al., 2018
+T28	Reference 1176 1192	Liu et al., 2018
+T29	Reference 1194 1215	Fevry and Phang, 2018
+T30	Reference 1217 1232	Schumann, 2018)
+T31	Reference 1425 1446	(Ranzato et al., 2015
+T32	Reference 1448 1467	Paulus et al., 2018
+T33	Reference 1469 1490	Chen and Bansal, 2018
+T34	Reference 1492 1508	Wu and Hu, 2018)
+T35	Reference 1535 1555	(Ayana et al., 2017)
+T36	Reference 1675 1694	Ayana et al. (2017)
+T38	B_span 59 63	rule
+T39	E_span 95 96	)
+T40	B_span 101 112	statistical
+T41	E_span 237 238	)
+T43	E_span 422 423	)
+T44	B_span 527 534	Pointer
+T45	E_span 606 607	)
+T46	B_span 612 616	copy
+T47	E_span 663 664	)
+T48	B_span 1064 1065	a
+T49	E_span 1231 1232	)
+T50	B_span 1402 1415	reinforcement
+T51	E_span 1507 1508	)
+T52	B_span 1513 1520	minimum
+T53	E_span 1554 1555	)
+T54	B_span 1646 1652	method
+T55	E_span 1745 1746	s
+T56	B_span 1792 1798	method
+T58	Pronoun 484 486	it
+T59	B_span 258 269	abstractive
+T37	Reference 1803 1814	Ayana et al
+T42	E_span 1812 1814	al

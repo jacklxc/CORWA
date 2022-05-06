@@ -1,0 +1,68 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 90 95	[BOS]
+T3	Single_summ 320 325	[BOS]
+T4	Single_summ 423 428	[BOS]
+T5	Transition 594 599	[BOS]
+T6	Single_summ 763 768	[BOS]
+T7	Transition 851 856	[BOS]
+T8	Single_summ 945 950	[BOS]
+T9	Transition 1048 1053	[BOS]
+T10	Reflection 1127 1132	[BOS]
+T11	Multi_summ 1326 1331	[BOS]
+T12	Single_summ 1480 1485	[BOS]
+T13	Single_summ 1636 1641	[BOS]
+T14	Multi_summ 1779 1784	[BOS]
+T15	Transition 2202 2207	[BOS]
+T16	Reflection 2302 2307	[BOS]
+T18	Reference 137 158	Vinyals et al. (2015)
+T19	Reference 161 180	Luong et al. (2016)
+T20	Reference 227 244	Tai et al. (2015)
+T21	Reference 271 290	Zhang et al. (2016)
+T22	Dominant 326 348	Eriguchi et al. (2017)
+T23	Dominant 429 453	Choe and Charniak (2016)
+T24	Dominant 769 788	Zhang et al. (2016)
+T25	Dominant 951 973	Dong and Lapata (2016)
+T27	Dominant 1361 1377	Wu et al. (2017)
+T28	Dominant 1384 1406	Eriguchi et al. (2017)
+T29	Dominant 1486 1513	Aharoni and Goldberg (2017)
+T30	Dominant 1642 1658	Wu et al. (2017)
+T31	Dominant 1785 1807	Eriguchi et al. (2017)
+T32	Reference 1823 1839	Wu et al. (2017)
+T33	Reference 1904 1923	(Dyer et al., 2016)
+T34	Dominant 2008 2026	Dyer et al. (2016)
+T35	Pronoun 1062 1067	these
+T36	Pronoun 1256 1258	it
+T37	Pronoun 1421 1423	it
+T38	Pronoun 2229 2234	these
+T39	Pronoun 2319 2324	these
+T17	Reference 96 113	Dyer et al. (2015
+T40	Reference 114 134	Dyer et al. ( , 2016
+T41	E_span 218 225	parsing
+T42	B_span 96 100	Dyer
+T43	B_span 227 230	Tai
+T44	E_span 257 265	analysis
+T45	B_span 271 276	Zhang
+T46	E_span 303 313	completion
+T47	B_span 326 334	Eriguchi
+T48	E_span 415 421	models
+T49	B_span 429 433	Choe
+T50	E_span 586 592	system
+T51	B_span 769 774	Zhang
+T52	E_span 842 849	decoder
+T53	B_span 951 955	Dong
+T54	E_span 1037 1046	answering
+T26	Dominant 1332 1359	Aharoni and Goldberg (2017)
+T55	E_span 1472 1478	syntax
+T56	B_span 1332 1339	Aharoni
+T57	B_span 1486 1493	Aharoni
+T58	E_span 1625 1634	sequences
+T59	B_span 1642 1644	Wu
+T60	E_span 1770 1777	decoder
+T61	B_span 1785 1793	Eriguchi
+T62	B_span 1823 1825	Wu
+T63	E_span 1834 1838	2017
+T64	B_span 1880 1888	modified
+T65	E_span 1918 1922	2016
+T66	B_span 1927 1934	process
+T67	E_span 2021 2025	2016
+T68	E_span 2196 2200	ours

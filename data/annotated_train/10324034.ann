@@ -1,0 +1,44 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 191 196	[BOS]
+T3	Narrative_cite 482 487	[BOS]
+T4	Narrative_cite 810 815	[BOS]
+T5	Single_summ 918 923	[BOS]
+T6	Other 1289 1294	[BOS]
+T7	Other 1382 1387	[BOS]
+T8	Other 1473 1478	[BOS]
+T9	Other 1599 1604	[BOS]
+T10	Other 1682 1687	[BOS]
+T11	Other 1765 1770	[BOS]
+T12	Narrative_cite 1782 1787	[BOS]
+T13	Narrative_cite 2000 2005	[BOS]
+T14	Narrative_cite 2214 2219	[BOS]
+T15	Reference 330 351	(Weston et al., 2014)
+T16	Reference 572 589	Wang et al., 2007
+T17	Reference 591 612	(Baudi et al., 2016a)
+T18	Reference 695 720	(dos Santos et al., 2016)
+T19	Reference 896 914	(Cao et al., 2016)
+T20	Dominant 951 972	(Bowman et al., 2015)
+T21	Reference 1976 1996	(Cheng et al., 2016)
+T22	Reference 2049 2074	(Richardson et al., 2013)
+T23	Reference 2184 2211	(Wang and McAllester, 2015)
+T24	Reference 2247 2265	(Yin et al., 2016)
+T25	Pronoun 1788 1792	They
+T27	E_span 1281 1287	family
+T28	Reference 1951 1974	Rocktschel et al., 2015
+T26	B_span 924 926	In
+T34	E_span 909 913	2016
+T36	E_span 1991 1995	2016
+T38	E_span 2206 2210	2015
+T29	B_span 305 311	Memory
+T30	E_span 346 350	2014
+T31	B_span 537 543	Answer
+T41	E_span 606 611	2016a
+T42	B_span 685 694	attention
+T32	E_span 715 719	2016
+T33	B_span 897 900	Cao
+T37	B_span 2013 2019	MCTest
+T43	E_span 2069 2073	2013
+T44	B_span 2160 2168	semantic
+T39	B_span 2248 2251	Yin
+T40	E_span 2260 2264	2016
+T35	B_span 1884 1888	word

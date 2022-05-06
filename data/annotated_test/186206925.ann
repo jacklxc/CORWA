@@ -1,0 +1,45 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 48 53	[BOS]
+T3	Single_summ 282 287	[BOS]
+T4	Single_summ 411 416	[BOS]
+T5	Narrative_cite 510 515	[BOS]
+T6	Narrative_cite 655 660	[BOS]
+T7	Transition 832 837	[BOS]
+T8	Transition 915 920	[BOS]
+T9	Transition 1060 1065	[BOS]
+T10	Transition 1166 1171	[BOS]
+T11	Transition 1323 1328	[BOS]
+T12	Narrative_cite 1438 1443	[BOS]
+T13	Transition 1606 1611	[BOS]
+T14	Transition 1788 1793	[BOS]
+T15	Multi_summ 1904 1909	[BOS]
+T16	Reference 174 198	(Wachsmuth et al., 2017)
+T17	Dominant 312 333	(Stab et al., 2018a )
+T18	Reference 631 652	(Thorne et al., 2018)
+T19	Reference 807 828	(Nadeem et al., 2019)
+T20	Reference 1520 1539	(Hua and Wang, 2017
+T21	Reference 1541 1559	Stab et al., 2018b
+T22	Reference 1561 1584	Wachsmuth et al., 2018)
+T23	Dominant 1924 1943	Hasan and Ng (2014)
+T24	Dominant 1946 1964	Levy et al. (2018)
+T28	E_span 197 198	)
+T29	B_span 299 307	Argument
+T30	E_span 507 508	.
+T31	B_span 548 553	using
+T32	E_span 651 652	)
+T33	B_span 675 678	FAK
+T34	E_span 827 828	)
+T36	E_span 1583 1584	)
+T37	B_span 1924 1927	Has
+T38	E_span 2051 2052	.
+T39	Pronoun 37 41	this
+T40	Pronoun 417 421	This
+T41	Pronoun 1102 1106	this
+T42	Pronoun 1115 1117	it
+T43	Pronoun 1444 1449	These
+T44	Pronoun 1618 1622	they
+T45	Pronoun 1660 1665	their
+T46	Pronoun 1711 1716	their
+T47	Pronoun 1832 1836	this
+T25	B_span 81 88	accepts
+T26	B_span 1506 1519	argumentation

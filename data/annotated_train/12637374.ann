@@ -1,0 +1,37 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 152 157	[BOS]
+T3	Single_summ 331 336	[BOS]
+T4	Single_summ 485 490	[BOS]
+T5	Reflection 572 577	[BOS]
+T6	Reflection 652 657	[BOS]
+T7	Single_summ 915 920	[BOS]
+T8	Single_summ 1039 1044	[BOS]
+T9	Single_summ 1124 1129	[BOS]
+T10	Reflection 1246 1251	[BOS]
+T11	Single_summ 1390 1395	[BOS]
+T12	Single_summ 1599 1604	[BOS]
+T13	Reflection 1681 1686	[BOS]
+T14	Single_summ 1782 1787	[BOS]
+T15	Single_summ 1968 1973	[BOS]
+T16	Single_summ 2069 2074	[BOS]
+T17	Transition 2173 2178	[BOS]
+T18	Dominant 337 359	Eriguchi et al. (2016)
+T19	Dominant 921 947	Sennrich and Haddow (2016)
+T20	Dominant 1396 1413	Shi et al. (2016)
+T21	Dominant 1788 1815	Garca-Martnez et al. (2016)
+T22	Pronoun 491 495	They
+T23	Pronoun 605 611	theirs
+T24	Pronoun 1045 1050	Their
+T25	Pronoun 1130 1134	They
+T26	Pronoun 1614 1619	their
+T27	Pronoun 2082 2086	they
+T28	Pronoun 2128 2132	they
+T29	Pronoun 2314 2318	this
+T30	B_span 337 345	Eriguchi
+T31	E_span 565 570	nodes
+T32	B_span 921 929	Sennrich
+T33	E_span 1237 1244	encoder
+T34	B_span 1396 1399	Shi
+T35	E_span 1674 1679	input
+T36	B_span 1788 1793	Garca
+T37	E_span 2163 2171	features

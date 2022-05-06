@@ -1,0 +1,44 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 209 214	[BOS]
+T3	Narrative_cite 323 328	[BOS]
+T4	Transition 509 514	[BOS]
+T5	Transition 587 592	[BOS]
+T6	Single_summ 739 744	[BOS]
+T7	Transition 1017 1022	[BOS]
+T8	Single_summ 1112 1117	[BOS]
+T9	Reflection 1231 1236	[BOS]
+T10	Narrative_cite 1292 1297	[BOS]
+T11	Transition 1638 1643	[BOS]
+T12	Reflection 1864 1869	[BOS]
+T13	Single_summ 1942 1947	[BOS]
+T14	Reflection 2087 2092	[BOS]
+T15	B_span 85 92	dataset
+T16	E_span 121 126	2018a
+T17	Reference 106 126	Thorne et al., 2018a
+T18	B_span 346 354	document
+T19	E_span 406 410	2018
+T20	Reference 386 410	Hanselowski et al., 2018
+T21	B_span 418 426	achieved
+T22	E_span 500 505	2018c
+T23	Reference 485 506	Thorne et al., 2018c)
+T24	Dominant 745 762	Nie et al. (2018)
+T25	B_span 745 748	Nie
+T26	E_span 1005 1015	hyperlinks
+T27	Dominant 1118 1130	Malon (2018)
+T28	B_span 1118 1123	Malon
+T29	E_span 1215 1229	classification
+T30	B_span 1416 1423	natural
+T31	E_span 1475 1479	2018
+T32	Reference 1460 1479	Devlin et al., 2018
+T33	B_span 1529 1532	NLU
+T34	E_span 1562 1566	2018
+T35	Reference 1549 1566	Wang et al., 2018
+T36	B_span 1575 1580	SQuAD
+T37	E_span 1600 1604	2016
+T38	Reference 1582 1604	Rajpurkar et al., 2016
+T39	Dominant 1948 1973	Hanselowski et al. (2018)
+T40	E_span 2076 2085	sentences
+T41	B_span 1948 1959	Hanselowski
+T42	B_span 1139 1143	open
+T43	E_span 1171 1175	2018
+T44	Reference 1155 1176	Radford et al., 2018)

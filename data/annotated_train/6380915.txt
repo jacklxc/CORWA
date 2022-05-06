@@ -1,0 +1,12 @@
+[BOS] While most recent NLG systems attempt to learn generation from data, the choice of a particular approach -pipeline or joint -is often arbitrary and depends on system architecture or particular generation domain.
+[BOS] Works using the pipeline approach in SDS tend to focus on sentence planning, improving a handcrafted generator (Walker et al., 2001; Stent et al., 2004; Paiva and Evans, 2005) or using perceptron-guided A* search (Duek and Jurek, 2015) .
+[BOS] Generators taking the joint approach employ various methods, e.g., factored language models , inverted parsing (Wong and Mooney, 2007; Konstas and Lapata, 2013) , or a pipeline of discriminative classifiers (Angeli et al., 2010) .
+[BOS] Unlike most previous Input DA inform(name=X-name, type=placetoeat, eattype=restaurant, area=citycentre, near=X-near, food="Chinese takeaway", food=Japanese) Reference X is a Chinese takeaway and Japanese restaurant in the city centre near X. Greedy with trees X is a restaurant offering chinese takeaway in the centre of town near X.
+
+[BOS] [Japanese] + Beam search X is a restaurant and japanese food and chinese takeaway.
+[BOS] + Reranker X is a restaurant serving japanese food in the centre of the city that offers chinese takeaway.
+[BOS] Greedy into strings X is a restaurant offering italian and indian takeaway in the city centre area near X.
+[BOS] [ Mei et al. (2015) present the only seq2seq-based NLG system known to us.
+[BOS] We extend the previous works by generating deep syntax trees as well as strings and directly comparing pipeline and joint generation.
+[BOS] In addition, we experiment with an order-of-magnitude smaller dataset than other RNN-based systems.
+

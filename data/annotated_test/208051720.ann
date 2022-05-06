@@ -1,0 +1,68 @@
+T1	Reflection 0 5	[BOS]
+T2	Transition 98 103	[BOS]
+T3	Transition 141 146	[BOS]
+T4	Transition 199 204	[BOS]
+T5	Transition 253 258	[BOS]
+T6	Single_summ 317 322	[BOS]
+T7	Narrative_cite 468 473	[BOS]
+T8	Single_summ 665 670	[BOS]
+T9	Single_summ 754 759	[BOS]
+T10	Single_summ 1026 1031	[BOS]
+T11	Single_summ 1336 1341	[BOS]
+T12	Single_summ 1460 1465	[BOS]
+T13	Single_summ 1632 1637	[BOS]
+T14	Narrative_cite 1692 1697	[BOS]
+T15	Reflection 1813 1818	[BOS]
+T16	Single_summ 1935 1940	[BOS]
+T17	Narrative_cite 2172 2177	[BOS]
+T18	Single_summ 2271 2276	[BOS]
+T19	Single_summ 2436 2441	[BOS]
+T20	Single_summ 2636 2641	[BOS]
+T21	Single_summ 2798 2803	[BOS]
+T22	Multi_summ 3010 3015	[BOS]
+T23	Multi_summ 3174 3179	[BOS]
+T24	Multi_summ 3285 3290	[BOS]
+T25	Transition 3645 3650	[BOS]
+T26	Other 3812 3817	[BOS]
+T27	Dominant 323 341	Peng et al. (2017)
+T28	Reference 591 610	(Peng et al., 2018)
+T29	Dominant 726 751	Hershcovich et al. (2017)
+T30	Dominant 1068 1094	(Hershcovich et al., 2018)
+T31	Dominant 1342 1365	Buys and Blunsom (2017)
+T32	Reference 1746 1767	(Palmer et al., 2005)
+T33	Dominant 1941 1963	Flanigan et al. (2014)
+T34	Reference 2245 2268	(Flanigan et al., 2016)
+T35	Dominant 2442 2463	Damonte et al. (2017)
+T36	Dominant 2642 2662	Lyu and Titov (2018)
+T37	Dominant 3016 3036	Zhang et al. (2019a)
+T38	Dominant 3041 3063	(Zhang et al., 2019b )
+T39	Pronoun 26 30	this
+T40	Pronoun 560 565	their
+T41	Pronoun 760 762	It
+T42	Pronoun 1608 1613	their
+T43	Pronoun 1804 1806	it
+T44	Pronoun 1862 1864	it
+T45	Pronoun 2365 2369	they
+T46	Pronoun 3651 3655	This
+T47	B_span 323 327	Peng
+T48	E_span 463 466	PSD
+T49	B_span 497 503	single
+T50	E_span 605 609	2018
+T51	B_span 671 674	The
+T52	E_span 1019 1024	units
+T53	B_span 1032 1035	The
+T54	E_span 1327 1334	parsing
+T55	B_span 1342 1346	Buys
+T56	E_span 1684 1690	graphs
+T57	B_span 1737 1745	Propbank
+T58	E_span 1762 1766	2005
+T59	B_span 1941 1949	Flanigan
+T60	E_span 2161 2170	knowledge
+T61	B_span 2218 2225	SemEval
+T62	E_span 2263 2267	2016
+T63	B_span 2442 2449	Damonte
+T64	E_span 2630 2634	time
+T65	B_span 2642 2645	Lyu
+T66	E_span 2998 3008	alignments
+T67	B_span 3016 3021	Zhang
+T68	E_span 3638 3643	graph

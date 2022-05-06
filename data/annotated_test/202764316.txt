@@ -1,0 +1,32 @@
+[BOS] In this section we highlight the most closely related work on abstractive summarisation and automatic post-editing.
+
+[BOS] Abstractive Summarisation SOTA approaches using sequence to sequence models have evolved from vanilla attentional models (Rush et al., 2015; Nallapati et al., 2016a) to more advanced architectures that include the use of pointer networks (Nallapati et al., 2016b; See et al., 2017; Gu et al., 2016; Paulus et al., 2017) , reinforcement learning (Paulus et al., 2017; Li et al., 2018; Pasunuru and Bansal, 2018; Chen and Bansal, 2018; Hsu et al., 2018) and content selection (Gehrmann et al., 2018a; Pasunuru and Bansal, 2018; Chen and Bansal, 2018) .
+[BOS] Nallapati et al. (2016b) and Gu et al. (2016) propose the use of pointer-generator RNN-based networks to reduce out-of-vocabulary (OOV) rate.
+[BOS] This idea was followed by See et al. (2017) , which incorporates a coverage mechanism to avoid repetition of input words by keeping track of what has already been covered.
+
+[BOS] Reinforcement learning (RL) approaches optimise objectives for summarisation in addition to maximum likelihood.
+[BOS] Paulus et al. (2017) combine ROUGE and maximum likelihood as training objectives, use a pointer network and -to avoid repetition -introduce intra-attention to the encoder and decoder that attends over the input and continuously generated output separately.
+[BOS] Li et al. (2018) use a global summary quality estimator which is a binary classifier aiming to make the generated summaries indistinguishable from the human-written ones.
+[BOS] Pasunuru and Bansal (2018) have a loss function based on whether keywords detected as salient are included in a summary, while Hsu et al. (2018) modulate the attention based on how likely a sentence is to be included in a summary, and Chen and Bansal (2018) fol-low an extractive-abstractive hybrid architecture to first extract full sentences from a document using a sentence-level policy gradient and then compress them.
+[BOS] Gehrmann et al. (2018a) also perform content selection, but on the level of phrases by treating this process as a sequence labelling task, and without RL.
+[BOS] They first build a selection mask for the source document and then constrain a decoder on this mask.
+
+[BOS] The latter two represent the best overall approaches on common datasets, using either an RNN-or a Transformer-based architecture.
+[BOS] We show that our copycat approach is competitive and is more abstractive (we describe this in the following sections).
+
+[BOS] Automatic Post-Editing (APE) (Simard and Foster, 2013; Chatterjee et al., 2017) aims to automatically correct errors in machine translation (MT) outputs in order to reduce the burden of human post-editors, especially with simple and repetitive corrections (e.g. typographic errors).
+[BOS] APE is usually addressed by monolingual translation models that "translate" from the raw MT to fixed MT (post-edits, PE).
+[BOS] Given the high quality of current neural MT (NMT) outputs, the task has become particularly challenging.
+[BOS] Human corrections to those outputs are rare and very contextdependent, which makes them difficult to capture and generalise.
+[BOS] This increases the chance of APE systems to overfit or overcorrect new inputs at test time.
+
+[BOS] SOTA APE approaches tackle the task with the multi-source transformer architectures (Junczys-Dowmunt and Grundkiewicz, 2018; Tebbifakhr et al., 2018) .
+[BOS] Two encoders encode the source and the raw MT, respectively, and an additional targetsource multi-head attention component is stacked on top of the original target-source multi-head attention component.
+[BOS] These models are trained with millions of <source, MT, PE> triplets, which does not fit realistic scenarios where only a handful of post-editions exist.
+[BOS] Special parallel training corpora with additional MT data are released to help the development .
+[BOS] According to , these SOTA systems modify up to 30% of the NMT input, out of which only 50% are positive changes, the rest are unnecessary paraphrases or deteriorate the output.
+
+[BOS] Our copycat networks address this problem: they are conservative and make very few careful corrections to good quality raw MT -as a result of learning predominantly to copy, while still making substantial corrections when the raw MT is not as good.
+
+[BOS] 3 copycat Networks
+

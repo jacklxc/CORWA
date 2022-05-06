@@ -1,0 +1,56 @@
+[BOS] Traditional approaches to natural language generation separate the generation of a sentence plan from the surface realization.
+[BOS] First, an input is mapped into a format that represents the layout of the output sentence, for example, an adequate pre-defined template.
+[BOS] Then, the surface realization transforms the intermediary structure into text (Stent et al., 2004) .
+[BOS] These representations often model the hierarchical structure of discourse relations (Walker et al., 2007) .
+[BOS] Early data-driven approach used phrase-based language models for generation (Oh and Rudnicky, 2000; Mairesse and Young, 2014) , or aimed to predict the best fitting cluster of semantically similar templates (Kondadadi et al., 2013) .
+[BOS] More recent work combines both steps by learning plan and realization jointly using end-to-end trained models (e.g. Wen et al., 2015) .
+[BOS] Several approaches have looked at generation from abstract meaning representations (AMR), and Peng et al. (2017) apply S2S models to the problem.
+[BOS] However, Ferreira et al. (2017) show that S2S models are outperformed by phrase-based machine translation models in small datasets.
+[BOS] To address this issue, Konstas et al. (2017) propose a semi-supervised training method that can utilize English sentences outside of the training set to train parts of the model.
+[BOS] We address the issue by using copy-attention to enable the model to copy words from the source, which helps to generate out of vocabulary and rare words.
+[BOS] We note that end-to-end trained models, including our approach, often do not explicitly model the sentence planning stage, and are thus not directly comparable to previous work on sentence planning.
+[BOS] This is especially limiting for generation of complex argument structures that rely on hierarchical structure.
+
+[BOS] For the task of text generation from simple keyvalue pairs, as in the E2E task, Juraska et al.
+
+[BOS] (2018) describe a heuristic based on word-overlap that provides unsupervised slot alignment between meaning representations and open slots in sentence plans.
+[BOS] This method allows a model to operate with a smaller vocabulary and to be agnostic to actual values in the meaning representations.
+[BOS] To account for syntactic structure in templates, Su et al. (2018) describe a hierarchical decoding strategy that generates different part of speech at different steps, filling in slots between previously generated tokens.
+[BOS] In contrast, our model uses copyattention to fill in latent slots inside of learned templates.
+[BOS] Juraska et al. (2018) also describe a data selection process in which they use heuristics to filter a dataset to the most natural sounding examples according to a set of rules.
+[BOS] Our work aims at the unsupervised segmentation of data such that one model learns the most natural sounding sentence plans.
+
+[BOS] 3 Background: Sequence-to-Sequence Generation
+
+[BOS] We start by introducing the standard a text-totext problem and discuss how to map structured data into a sequential form.
+
+[BOS] be a set of N aligned source and target sequence pairs, with (x (i) , y (i) ) denoting the ith element in (X , Y) pairs.
+[BOS] Further, let x = x 1 , .
+[BOS] .
+[BOS] .
+[BOS] , x m be the sequence of m tokens in the source, and y = y 1 , .
+[BOS] .
+[BOS] .
+[BOS] , y n the target sequence of length n. Let V be the vocabulary of possible tokens, and [n] the list of integers up to n, [1, .
+[BOS] .
+[BOS] .
+[BOS] , n].
+
+[BOS] S2S aims to learn a distribution parametrized by  to maximize the conditional probability of p  (y|x).
+[BOS] We assume that the target is generated from left to right, such that p  (y|x) = n t=1 p  (y t |y [t1] , x), and that p  (y t |y [t1] , x) takes the form of an encoder-decoder architecture with attention.
+[BOS] The training aims to maximize the log-likelihood of the observed training data.
+
+[BOS] We evaluate the performance of both the LSTM (Hochreiter and Schmidhuber, 1997) and Transformer (Vaswani et al., 2017) architecture.
+[BOS] We additionally experiment with two attention formulations.
+[BOS] The first uses a dot-product between the hidden states of the encoder and decoder (Luong et al., 2015) .
+[BOS] The second uses a multi-layer perceptron with the hidden states as inputs (Bahdanau et al., 2014) .
+[BOS] We refer to them as dot and MLP respectively.
+[BOS] Since dot attention does not require additional parameters, we hypothesize that it performs well in a limited data environment.
+
+[BOS] In order to apply S2S models, a list of attributes in an MR has to be linearized into a sequence of tokens (Konstas et al., 2017; Ferreira et al., 2017) .
+[BOS] Not all attributes have to appear for all inputs, and each attribute might have multi-token values, such as area: city centre.
+[BOS] We use special start and stop tokens for each possible attribute to mark value boundaries; for example, an attribute area: city centre becomes start area city centre end area .
+[BOS] These fragments are concatenated into a single sequence to represent the original MR as an input sequence to our models.
+[BOS] In this approach, no values are delexicalized, in contrast to Juraska et al. (2018) and others who delexicalize a subset of attributes.
+[BOS] An alternative approach by Freitag and Roy (2018) treats the attribute type as an additional feature and learn embeddings for words and types separately.
+

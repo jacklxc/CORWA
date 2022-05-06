@@ -1,0 +1,31 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 80 85	[BOS]
+T3	Narrative_cite 543 548	[BOS]
+T4	B_span 106 110	rule
+T5	E_span 163 167	1988
+T6	Reference 129 142	McKeown, 1979
+T7	Reference 144 167	Meteer and Shaked, 1988
+T8	Reference 195 217	Madnani and Dorr, 2010
+T9	B_span 174 178	data
+T10	E_span 213 217	2010
+T11	B_span 296 304	language
+T12	E_span 398 402	2003
+T13	Reference 323 355	Bannard and Callison-Burch, 2005
+T14	Reference 357 383	Barzilay and McKeown, 2001
+T15	Reference 385 402	Pang et al., 2003
+T16	B_span 429 438	bilingual
+T17	E_span 535 539	2017
+T18	Reference 471 493	Madnani and Dorr, 2010
+T19	Reference 495 515	Prakash et al., 2016
+T20	Reference 517 539	Mallinson et al., 2017
+T21	B_span 605 609	Deep
+T22	E_span 645 649	2018
+T23	Reference 634 649	Li et al., 2018
+T24	B_span 653 663	supervised
+T25	E_span 744 748	2016
+T26	Reference 708 727	Gupta et al., 2018;
+T27	Reference 728 748	Prakash et al., 2016
+T28	B_span 754 766	unsupervised
+T29	E_span 818 822	2019
+T30	Reference 779 798	Bowman et al., 2016
+T31	Reference 800 822	Roy and Grangier, 2019

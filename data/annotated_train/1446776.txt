@@ -1,0 +1,9 @@
+[BOS] In recent years, many research has been done on extracting relations from free text (e.g., (Pantel and Pennacchiotti, 2006; Agichtein and Gravano, 2000; Snow et al., 2006) ); however, almost all of them require some language-dependent parsers or taggers for English, which restrict the language of their extractions to English only (or languages that have these parsers).
+[BOS] There has also been work done on extracting relations from HTML-structured tables (e.g., (Etzioni et al., 2005; Nadeau et al., 2006; Cafarella et al., 2008) ); however, they all incorporated heuristics for exploiting HTML structures; thus, they cannot handle documents written in other mark-up languages.
+[BOS] Extracting relations at character-level from semi-structured documents has been proposed (e.g., (Kushmerick et al., 1997) , (Brin, 1998) ).
+[BOS] In particular, Brin's approach (DIPRE) is the most similar to ours in terms of expanding relational items.
+[BOS] One difference is that it requires maximally-long contextual strings to bracket all seed occurrences.
+[BOS] This technique has been experimentally illustrated to perform worse than SEAL's approach on unary relations (Wang and Cohen, 2007) .
+[BOS] Brin presented five seed pairs of author names and book titles that he used in the experiment (unfortunately, he did not provide detailed results).
+[BOS] We input the top two seed pairs listed in his paper into the relational SEAL, performed ten bootstrapping iterations (took about 3 minutes), and obtained 26,000 author name/book title pairs of which the precision at 100 is perfect (100%).
+

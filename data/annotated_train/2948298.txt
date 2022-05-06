@@ -1,0 +1,49 @@
+[BOS] The image captioning (IC) and visual question answering (VQA) tasks are the most relevant to our work.
+[BOS] In IC (Fang et al., 2015; Chen and Lawrence Zitnick, 2015; Donahue et al., 2015; Karpathy and Fei-Fei, 2015; Vinyals et al., 2015; , the goal is to generate a caption for a given image, such that it is both semantically and syntactically correct, and properly describes the content of that image.
+[BOS] In VQA (Antol et al., 2015; Malinowski and Fritz, 2014; Malinowski et al., 2015; Ren et al., 2015) , the system attempts to answer open-ended questions related to the content of the image.
+[BOS] There is a wealth of literature on both tasks, but we only discuss here the ones most related to our work and refer the reader to the recent surveys by (Bernardi et al., 2016; Wu et al., 2016) .
+
+[BOS] Despite their success, it remains unclear whether state-of-the-art LaVi models capture vision and language in a truly integrative fashion.
+[BOS] We could identify three types of arguments surrounding the high performance of LaVi models:
+
+[BOS] (i) Triviality of the LaVi tasks: Recent work has shown that LaVi models heavily rely on language priors (Ren et al., 2015; Agrawal et al., 2016; Kafle and Kanan, 2016) .
+[BOS] Even simple correlation and memorisation can result in good performance, without the underlying models truly understanding visual content Jabri et al., 2016; Hodosh and Hockenmaier, 2016) .
+[BOS] Zhang et al. (2016) first unveiled that there exists a huge bias in the popular VQA dataset by Antol et al. (2015) : they showed that almost half of all the questions in this dataset could be answered correctly by using the question alone and ignoring the image completely.
+[BOS] In the same vein, proposed a simple baseline for the task of VQA.
+[BOS] This baseline simply concatenates the Bag of Words (BoW) features from the question and Convolutional Neural Networks (CNN) features from the image to predict the answer.
+[BOS] They showed that such a simple method can achieve comparable performance to complex and deep architectures.
+[BOS] Jabri et al. (2016) proposed a similar model for the task of multiple choice VQA, and suggested a cross-dataset generalization scheme as an evaluation criterion for VQA systems.
+[BOS] We complement this research by introducing three new tasks with different levels of difficulty, on which LaVi models can be evaluated sequentially.
+
+[BOS] (ii) Need for diagnostics: To overcome the bias uncovered in previous datasets, several research groups have started proposing tasks which involve distinguishing distractors from a groundtruth caption for an image.
+[BOS] Zhang et al. (2016) introduced a binary VQA task along with a dataset composed of sets of similar artificial images, allowing for more precise diagnostics of a system's errors.
+[BOS] Goyal et al. (2016a) balanced the dataset of Antol et al. (2015) , collecting a new set of complementary natural images which are similar to existing items in the original dataset, but result in different answers to a common question.
+[BOS] Hodosh and Hockenmaier (2016) also proposed to evaluate a number of state-of-the-art LaVi algorithms in the presence of distractors.
+[BOS] Their evaluation was however limited to a small dataset (namely, Flickr30K (Young et al., 2014) ) and the caption generation was based on a hand-crafted scheme using only inter-dataset distractors.
+
+[BOS] Most related to our paper is the work by Ding et al. (2016) .
+[BOS] Like us, they propose to extend the MS-COCO dataset by generating decoys from human-created image captions.
+[BOS] They also suggest an evaluation apparently similar to our T1, requiring the LaVi system to detect the true target caption amongst the decoys.
+[BOS] Our efforts, however, differ in some substantial ways.
+[BOS] First, their technique to create incorrect captions (using BLEU to set an upper similarity threshold) is so that many of those captions will differ from the gold description in more than one respect.
+[BOS] For instance, the caption two elephants standing next to each other in a grass field is associated with the decoy a herd of giraffes standing next to each other in a dirt field (errors: herd, giraffe, dirt) or with animals are gathering next to each other in a dirt field (error: dirt; infelicities: animals and gathering, which are both pragmatically odd).
+[BOS] Clearly, the more the caption changes in the decoy, the easier the task becomes.
+[BOS] In contrast, the foil captions we propose only differ from the gold description by one word and are thus more challenging.
+[BOS] Secondly, the automatic caption generation of Ding et al means that 'correct' descriptions can be produced, resulting in some confusion in human responses to the task.
+[BOS] We made sure to prevent such cases, and human performance on our dataset is thus close to 100%.
+[BOS] We note as well that our task does not require any complex instructions for the annotation, indicating that it is intuitive to human beings (see §4).
+[BOS] Thirdly, their evaluation is a multiple-choice task, where the system has to compare all captions to understand which one is closest to the image.
+[BOS] This is arguably a simpler task than the one we propose, where a caption is given and the system is asked to classify it as correct or foil: as we show in §4, detecting a correct caption is much easier than detecting foils.
+[BOS] So evaluating precision on both gold and foil items is crucial.
+
+[BOS] Finally, proposed CLEVR, a dataset for the diagnostic evaluation of VQA systems.
+[BOS] This dataset was designed with the explicit goal of enabling detailed analysis of different aspects of visual reasoning, by minimising dataset biases and providing rich ground-truth representations for both images and questions.
+
+[BOS] (iii) Lack of objective evaluation metrics: The evaluation of Natural Language Generation (NLG) systems is known to be a hard problem.
+[BOS] It is further unclear whether the quality of LaVi models should be measured using metrics designed for language-only tasks.
+[BOS] Elliott and Keller (2014) performed a sentence-level correlation analysis of NLG evaluation measures against expert human judgements in the context of IC.
+[BOS] Their study revealed that most of those metrics were only weakly correlated with human judgements.
+[BOS] In the same line of research, Anderson et al. (2016) showed that the most widely-used metrics for IC fail to capture semantic propositional content, which is an essential component of human caption evaluation.
+[BOS] They proposed a semantic evaluation metric called SPICE, that measures how effectively image captions recover objects, attributes and the relations between them.
+[BOS] In this paper, we tackle this problem by proposing tasks which can be evaluated based on objective metrics for classification/detection error.
+

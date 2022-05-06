@@ -1,0 +1,29 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 63 68	[BOS]
+T3	Single_summ 159 164	[BOS]
+T4	Single_summ 261 266	[BOS]
+T5	Single_summ 407 412	[BOS]
+T6	Single_summ 493 498	[BOS]
+T7	Single_summ 607 612	[BOS]
+T8	Reflection 717 722	[BOS]
+T9	Dominant 69 93	Luong and Manning (2015)
+T10	Dominant 165 183	Zoph et al. (2016)
+T11	Dominant 267 284	Chu et al. (2017)
+T12	Dominant 413 432	Kobus et al. (2017)
+T13	Dominant 499 517	Khan et al. (2018)
+T14	Dominant 632 661	Freitag and Al-Onaizan (2016)
+T15	Reference 786 811	Allauzen and Riley (2011)
+T16	B_span 69 74	Luong
+T17	E_span 153 157	data
+T18	B_span 165 169	Zoph
+T19	E_span 250 259	languages
+T20	B_span 267 270	Chu
+T21	E_span 401 405	data
+T22	B_span 413 418	Kobus
+T23	E_span 487 491	tags
+T24	B_span 499 503	Khan
+T25	E_span 599 604	model
+T26	B_span 613 615	At
+T27	E_span 709 715	models
+T28	B_span 786 794	Allauzen
+T29	E_span 857 868	combination

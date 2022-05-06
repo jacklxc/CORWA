@@ -1,0 +1,14 @@
+[BOS] Recently, several approaches have been proposed for conversational machine comprehension.
+[BOS] BiDAF++ w/ k-ctx integrates the conversation history by encoding turn number to the question embedding and previous N answer locations to the context embedding.
+[BOS] FlowQA provides a FLOW mechanism that encodes the intermediate representation of the previous questions to the context embedding when processing the current question.
+[BOS] SDnet (Zhu et al., 2018) prepends previous questions and answers to the current question and leverages the contextual embedding of BERT to obtain an understanding of conversation history.
+[BOS] The existing models always integrate the conversational history implicitly and can not understand the history effectively.
+
+[BOS] It is worth noting that much work has introduced question reformulation models into machine comprehension tasks (Feldman and ElYaniv, 2019; Das et al., 2019) .
+[BOS] Many question reformulation models can integrate the conversational history explicitly by making coreference resolution and completion for the current question.
+[BOS] Rastogi et al. (Rastogi et al., 2019) prove that can get a better answer when inputting a reformulated question to the single-turn question answering models.
+[BOS] Nogueira et al. (Nogueira and Cho, 2017) introduce a query reformulation reinforcement learning system with relevant documents recall as a reward.
+[BOS] Buck et al. (Buck et al., 2017) propose an active question answering model with reinforcement learning, and learn to reformulate questions to elicit the best possible answers with an agent that sits between the user and a QA system.
+[BOS] However, the above work is still in the preliminary exploratory stage, and there is no work to reformulate questions with feedback from downstream tasks in conversational machine comprehension tasks.
+[BOS] How to train the reformulation models with feedback from subsequent functions is still a major challenge.
+

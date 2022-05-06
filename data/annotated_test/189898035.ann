@@ -1,0 +1,41 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 112 117	[BOS]
+T3	Reflection 565 570	[BOS]
+T4	Reflection 690 695	[BOS]
+T5	Reflection 1005 1010	[BOS]
+T6	Narrative_cite 1212 1217	[BOS]
+T7	Multi_summ 1353 1358	[BOS]
+T8	Reflection 1780 1785	[BOS]
+T9	Reference 85 109	(Sutskever et al., 2014)
+T10	Reference 190 211	(Vinyals and Le, 2015
+T11	Reference 213 232	Shang et al., 2015)
+T12	Reference 319 336	(Mou et al., 2016
+T13	Reference 338 355	Tao et al., 2018)
+T14	Reference 449 467	Xing et al., 2018)
+T15	Reference 1308 1324	(Hu et al., 2017
+T16	Reference 1326 1350	Logeswaran et al., 2018)
+T17	Dominant 1398 1416	Wang et al. (2017)
+T18	Dominant 1531 1551	Zhang et al. (2018a)
+T19	Dominant 1625 1642	See et al. (2019)
+T20	Reference 2141 2159	(See et al., 2019)
+T21	B_span 59 66	encoder
+T22	E_span 108 109	)
+T23	B_span 142 150	sequence
+T24	E_span 231 232	)
+T25	B_span 295 296	"
+T26	E_span 354 355	)
+T27	B_span 367 370	the
+T28	E_span 466 467	)
+T29	B_span 1260 1264	text
+T30	E_span 1349 1350	)
+T34	E_span 1525 1529	data
+T35	B_span 1531 1536	Zhang
+T36	E_span 1595 1604	responses
+T37	B_span 1625 1628	See
+T38	E_span 1778 1779	.
+T39	B_span 2115 2121	simple
+T40	E_span 2158 2159	)
+T41	Pronoun 574 578	this
+T42	Reference 406 425	Serban et al., 2016
+T43	Reference 427 448	Serban et al., , 2017
+T31	B_span 1377 1385	dialogue

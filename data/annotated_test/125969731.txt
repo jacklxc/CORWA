@@ -1,0 +1,15 @@
+[BOS] Neural encoder-decoder models have proved effective in mapping NL to logical forms (Dong and Lapata, 2016) and also for directly producing general purpose programs (Iyer et al., 2017 (Iyer et al., , 2018 .
+[BOS] Ling et al. (2016) use a sequence-tosequence model with attention and a copy mechanism to generate source code.
+[BOS] Instead of directly generating a sequence of code tokens, recent methods focus on constrained decoding mechanisms to generate syntactically correct output using a decoder that is either grammar-aware or has a dynamically determined modular structure paralleling the structure of the abstract syntax tree (AST) of the code (Rabinovich et al., 2017; Yin and Neubig, 2017) .
+[BOS] Iyer et al. (2018) use a similar decoding approach but use a specialized context encoder for the task of context-dependent code generation.
+[BOS] We augment these neural encoder-decoder models with the ability to decode in terms of frequently occurring higher level idiomatic structures to achieve gains in accuracy and training time.
+
+[BOS] Another different but related method to produce source code is with the help of sketches, which are code snippets containing slots in the place of low-level information such as variable names and arguments.
+[BOS] Dong and Lapata (2018) generate sketches as intermediate representations to convert NL to logical forms; Hayati et al. (2018) retrieve sketches from a large training corpus and later modify them for the current input; Murali et al. (2018) use a combination of neural learning and type-guided combinatorial search to convert existing sketches into executable programs, whereas Nye et al. (2019) additionally also generate the sketches before synthesising programs.
+[BOS] While we don't explicitly generate sketches, we find that our idiom-based decoder learns to generate commonly used programming sketches with slots, and fills them in during subsequent decoding timesteps.
+
+[BOS] More closely related to the idioms that we use for decoding is Allamanis and Sutton (2014) , who develop a system (HAGGIS) to automatically mine idioms from large code bases.
+[BOS] They focused on finding idioms that are interesting and explainable, e.g., those that can be included as preset code templates in programming IDEs.
+[BOS] Instead, we learn idiomatic structures that are frequently used and can be easily associated with natural language phrases in our dataset.
+[BOS] The production of large subtrees in a single step directly translates to a large speedup in training and inference.
+

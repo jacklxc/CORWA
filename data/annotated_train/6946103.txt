@@ -1,0 +1,19 @@
+[BOS] Dimensionality Reduction for Complex Features is a standard technique to address high-dimensional features, including PCA, alternating structural optimization (Ando and Zhang, 2005) , denoising autoencoders (Vincent et al., 2008) , and feature embeddings (Yang and Eisenstein, 2015) .
+[BOS] These methods treat features as atomic elements and ignore the inner structure of features, so they learn separate embedding for each feature without shared parameters.
+[BOS] As a result, they still suffer from large parameter spaces when the feature space is very huge.
+[BOS] 5 Another line of research studies the inner structures of lexical features: e.g. Koo et al. (2008) , Turian et al. (2010) , Sun et al. (2011) , Nguyen and Grishman (2014) , Roth and Woodsend (2014), and Hermann et al. (2014) used pre-trained word embeddings to replace the lexical parts of features ; Srikumar and Manning (2014), and propose splitting lexical features into different parts and employing tensors to perform classification.
+[BOS] The above can therefore be seen as special cases of our model that only embed a certain part (view) of the complex features.
+[BOS] This restriction also makes their model parameters form a full rank tensor, resulting in data sparsity and high computational costs when the tensors are large.
+
+[BOS] Composition Models (Deep Learning) build representations for structures based on their component word embeddings (Collobert et al., 2011; Bordes et al., 2012; Socher et al., 2012; Socher et al., 2013b) .
+[BOS] When using only word embeddings, these models achieved successes on several NLP tasks, but sometimes fail to learn useful syntactic or semantic patterns beyond the strength of combinations of word embeddings, such as the dependency relation in Figure 1(a) .
+[BOS] To tackle this problem, some work designed their model structures according to a specific kind of linguistic patterns, e.g. dependency paths (Ma et al., 2015; Liu et al., 2015) , while a recent trend enhances compositional models with linguistic features.
+[BOS] For example, Belinkov et al. (2014) concatenate embeddings with linguistic features before feeding them to a neural network; Socher et al. (2013a) and Hermann and Blunsom (2013) enhanced Recursive Neural Networks by refining the transformation matrices with linguistic features (e.g. phrase types).
+[BOS] These models are similar to ours in the sense of learning representations based on linguistic features and embeddings.
+
+[BOS] Low-rank Tensor Models for NLP aim to handle the conjunction among different views of features (Cao and Khudanpur, 2014; Chen and Manning, 2014) .
+[BOS] proposed a model to compose phrase embeddings from words, which has an equivalent form of our CPbased method under certain restrictions.
+[BOS] Our work applies a similar idea to exploiting the inner structure of complex features, and can handle n-gram features with different ns.
+[BOS] Our factorization ( 3) is general and easy to adapt to new tasks.
+[BOS] More importantly, it makes the model benefit from pre-trained word embeddings as shown by the PP-attachment results.
+

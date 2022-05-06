@@ -1,0 +1,5 @@
+[BOS] BioCreative IV's CHEMDNER task Table 3 shows a comparison with the previous best results.
+[BOS] (Leaman et al., 2015) and proposed a feature-based approach to improve the chemical NER performance.
+[BOS] (Lin et al., 2018) proposed a neural network approach that treats document level information to maintain tagging consistency across sentences.
+[BOS] By learning paraphrasing, our method showed the best accuracy on the CHEMDNER task.
+

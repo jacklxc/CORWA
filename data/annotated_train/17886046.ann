@@ -1,0 +1,73 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 216 221	[BOS]
+T3	Transition 433 438	[BOS]
+T4	Single_summ 550 555	[BOS]
+T5	Single_summ 694 699	[BOS]
+T6	Single_summ 778 783	[BOS]
+T7	Transition 922 927	[BOS]
+T8	Narrative_cite 1047 1052	[BOS]
+T9	Transition 1339 1344	[BOS]
+T10	Narrative_cite 1481 1486	[BOS]
+T11	Transition 1811 1816	[BOS]
+T12	Single_summ 1955 1960	[BOS]
+T13	Single_summ 2206 2211	[BOS]
+T14	Transition 2464 2469	[BOS]
+T15	Reflection 2641 2646	[BOS]
+T16	Transition 2803 2808	[BOS]
+T17	Narrative_cite 2976 2981	[BOS]
+T18	Single_summ 3167 3172	[BOS]
+T19	Reflection 3406 3411	[BOS]
+T20	Reference 132 154	(Johnson et al., 2007)
+T21	Reference 175 193	(Ling et al., 2012
+T22	Reference 195 213	Zens et al., 2012)
+T23	Dominant 585 607	(Marcu and Wong, 2002)
+T24	Dominant 700 720	DeNero et al. (2006)
+T25	Dominant 807 831	(Cmejrek and Zhou, 2010)
+T26	Reference 1203 1223	(DeNero et al., 2008
+T27	Reference 1225 1245	Blunsom et al., 2009
+T28	Reference 1247 1266	Chung et al., 2014)
+T29	Reference 1289 1312	(Levenberg et al., 2012
+T30	Reference 1314 1336	Peng and Gildea, 2014)
+T31	Reference 1681 1702	(Blunsom et al., 2009
+T32	Reference 1704 1727	Levenberg et al., 2012)
+T33	Reference 1765 1784	(Chung et al., 2014
+T34	Reference 1786 1808	Peng and Gildea, 2014)
+T35	Dominant 1961 1979	Xiao et al. (2012)
+T36	Dominant 2212 2235	Blunsom and Cohn (2010)
+T37	Reference 2341 2364	(Van Gael et al., 2008)
+T38	Reference 3140 3164	(Cohn and Haffari, 2013)
+T39	Dominant 3185 3205	Neubig et al. (2011)
+T40	Pronoun 290 294	they
+T41	Pronoun 2124 2129	their
+T42	Pronoun 2176 2178	it
+T43	Pronoun 2311 2313	it
+T44	Pronoun 2511 2513	it
+T45	Pronoun 3446 3451	their
+T46	B_span 112 120	Fisher's
+T47	E_span 149 153	2007
+T48	B_span 158 166	relative
+T49	E_span 208 212	2012
+T50	B_span 556 561	Joint
+T51	E_span 682 692	extraction
+T52	B_span 700 706	DeNero
+T53	E_span 771 776	model
+T54	B_span 784 788	Rule
+T55	E_span 911 920	algorithm
+T56	B_span 1185 1194	dirichlet
+T57	E_span 1261 1265	2014
+T58	B_span 1270 1276	Pitman
+T59	E_span 1331 1335	2014
+T60	B_span 1637 1646	conducted
+T61	E_span 1722 1726	2012
+T62	B_span 1731 1739	sampling
+T63	E_span 1803 1807	2014
+T64	B_span 1961 1965	Xiao
+T65	E_span 2197 2204	pruning
+T66	B_span 2212 2219	Blunsom
+T67	E_span 2451 2462	programming
+T68	B_span 2306 2314	Infinite
+T69	E_span 2359 2363	2008
+T70	B_span 3122 3126	word
+T71	E_span 3159 3163	2013
+T72	B_span 3173 3176	The
+T73	E_span 3395 3404	procedure

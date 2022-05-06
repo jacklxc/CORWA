@@ -1,0 +1,61 @@
+T1	Transition 0 5	[BOS]
+T2	Reflection 177 182	[BOS]
+T3	Narrative_cite 231 236	[BOS]
+T4	Narrative_cite 490 495	[BOS]
+T5	Reflection 816 821	[BOS]
+T6	Narrative_cite 1002 1007	[BOS]
+T7	Narrative_cite 1307 1312	[BOS]
+T8	Reflection 1588 1593	[BOS]
+T9	Reflection 1828 1833	[BOS]
+T10	Narrative_cite 1930 1935	[BOS]
+T11	Transition 2041 2046	[BOS]
+T12	Reflection 2182 2187	[BOS]
+T13	Narrative_cite 2274 2279	[BOS]
+T14	Reflection 2393 2398	[BOS]
+T15	Transition 2554 2559	[BOS]
+T16	Reflection 2823 2828	[BOS]
+T17	Reflection 2950 2955	[BOS]
+T18	Reflection 3032 3037	[BOS]
+T19	Narrative_cite 3138 3143	[BOS]
+T20	Reflection 3356 3361	[BOS]
+T21	Reference 336 354	(Koo et al., 2008)
+T22	Reference 371 396	(Chen and Manning, 2014 )
+T23	Reference 677 695	(Koo et al., 2008)
+T24	Reference 1088 1111	(McClosky et al., 2006)
+T25	Reference 1430 1451	(Petrov et al., 2010)
+T26	Reference 1541 1564	(Sagae and Tsujii, 2007
+T27	Reference 1566 1585	Weiss et al., 2015)
+T28	Reference 1993 2016	(Sagae and Gordon, 2009
+T29	Reference 2018 2038	Bansal et al., 2014)
+T30	Reference 2354 2372	(Chen et al., 2009
+T31	Reference 2374 2390	Van Noord, 2007)
+T32	Reference 3253 3270	(Pei et al., 2015
+T33	Reference 3272 3294	Chen and Manning, 2014
+T34	Reference 3296 3314	Weiss et al., 2015
+T35	Reference 3316 3333	Dyer et al., 2015
+T36	Reference 3335 3353	Zhou et al., 2015)
+T37	Pronoun 429 434	these
+T38	Pronoun 600 604	they
+T39	Pronoun 1834 1836	It
+T40	Pronoun 2156 2161	their
+T41	Pronoun 2409 2414	their
+T42	Pronoun 2527 2532	these
+T43	Pronoun 2783 2787	they
+T44	B_span 322 326	word
+T45	E_span 349 353	2008
+T46	B_span 358 362	word
+T47	E_span 390 394	2014
+T48	B_span 678 681	Koo
+T49	E_span 690 694	2008
+T50	B_span 1074 1078	self
+T51	E_span 1106 1110	2006
+T52	B_span 1370 1374	self
+T53	E_span 1446 1450	2010
+T55	E_span 1580 1584	2015
+T56	B_span 1968 1972	auto
+T57	E_span 2033 2037	2014
+T58	B_span 2280 2282	As
+T59	E_span 2385 2389	2007
+T60	B_span 3226 3239	neuralnetwork
+T61	E_span 3348 3352	2015
+T62	B_span 1461 1470	selection

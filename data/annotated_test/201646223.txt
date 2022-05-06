@@ -1,0 +1,10 @@
+[BOS] Other researchers have also noted that large beam sizes yield shorter translations (Koehn and Knowles, 2017) .
+[BOS] Sountsov and Sarawagi (2016) argue that this model error is due to the locally normalized maximum likelihood training objective in NMT that underestimates the margin between the correct translation and shorter ones if trained with regularization and finite data.
+[BOS] A similar argument was made by Murray and Chiang (2018) who pointed out the difficulty for a locally normalized model to estimate the "budget" for all remaining (longer) translations.
+[BOS] Kumar and Sarawagi (2019) demonstrated that NMT models are often poorly calibrated, and that that can cause the length deficiency.
+[BOS] Ott et al. (2018) argued that uncertainty caused by noisy training data may play a role.
+[BOS] Chen et al. (2018) showed that the consistent best string problem for RNNs is decidable.
+[BOS] We provide an alternative DFS algorithm that relies on the monotonic nature of model scores rather than consistency, and that often converges in practice.
+
+[BOS] To the best of our knowledge, this is the first work that reports the exact number of search errors in NMT as prior work often relied on approximations, e.g. via n-best lists (Niehues et al., 2017) or constraints (Stahlberg et al., 2018b) .
+

@@ -1,0 +1,18 @@
+[BOS] Graph-based coreference resolution.
+[BOS] While not developed within a graph-based framework, factor-based approaches for pronoun resolution (Mitkov, 1998) can be regarded as greedy clustering in a multigraph, where edges representing factors for pronoun resolution have negative or positive weight.
+[BOS] This yields a model similar to the one presented in this paper though Mitkov's work has only been applied to pronoun resolution.
+[BOS] Nicolae and Nicolae (2006) phrase coreference resolution as a graph clustering problem: they first perform pairwise classification and then construct a graph using the derived confidence values as edge weights.
+[BOS] In contrast, work by Culotta et al. (2007) , Cai and Strube (2010) and Sapena et al. (2010) omits the classification step entirely.
+[BOS] Sapena et al. (2010) and Cai and Strube (2010) perform coreference resolution in one step using graph partitioning approaches.
+[BOS] These approaches participated in the recent CoNLL'11 shared task (Pradhan et al., 2011; Sapena et al., 2011; Cai et al., 2011b) with excellent results.
+[BOS] The approach by Cai et al. (2011b) has been modified by Martschat et al. (2012) and ranked second in the English track at the CoNLL'12 shared task (Pradhan et al., 2012) .
+[BOS] The top performing system at the CoNLL'12 shared task (Fernandes et al., 2012) also represents the problem as a graph by performing inference on trees constructed using the multi-pass sieve approach by Raghunathan et al. (2010) and Lee et al. (2011) , which in turn won the CoNLL'11 shared task.
+
+[BOS] Unsupervised coreference resolution.
+[BOS] Cardie and Wagstaff (1999) present an early approach to unsupervised coreference resolution based on a straightforward clustering approach.
+[BOS] Angheluta et al. (2004) build on their approach and devise more sophisticated clustering algorithms.
+[BOS] Haghighi and Klein (2007) , Ng (2008) and Charniak and Elsner (2009) employ unsupervised generative models.
+[BOS] Poon and Domingos (2008) present a Markov Logic Network approach to unsupervised coreference resolution.
+[BOS] These approaches reach competitive performance on gold mentions but not on system mentions (Ng, 2008) .
+[BOS] The multi-pass sieve approach by Raghunathan et al. (2010) can also be viewed as unsupervised.
+

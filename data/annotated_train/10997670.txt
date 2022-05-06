@@ -1,0 +1,12 @@
+[BOS] The English language belongs to the Germanic languages branch of the Indo-European language family, widely spoken on six continents.
+[BOS] The HOO shared task is organized to help authors with writing tasks.
+[BOS] Identifying grammatical and linguistic errors in text is an open challenge to researchers.
+[BOS] In recent times, researchers (Heidorn, 2000) have provided quite a benchmark for spell checker and grammar checkers, which is commonly available.
+[BOS] In this task it is aimed to correct errors beyond the scope of these commonly available checkers i.e. detection and correction of jarring errors at part-ofspeech (POS) level, syntax level and semantic level.
+[BOS] Earlier Heidorn (1975) developed augmented phrase structure grammar.
+[BOS] (Tetreault et. al., 2008) has dealt with error pattern with preposition by non-native speakers.
+[BOS] Meurers and Wunsch (2010) showed a surface based state-of-the-art machine learning technique, which deals with some frequently used prepositions.
+[BOS] (Elghafari et al., 2010) worked on Data-Driven Prediction of Prepositions in English.
+[BOS] Boyd et al. (2011) used an n-gram based machine-learning approach.
+[BOS] Last year we have also participated in this shared task; our system report was reported in (Bhaskar et. al., 2011 ).
+

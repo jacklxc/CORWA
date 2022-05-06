@@ -1,0 +1,53 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 122 127	[BOS]
+T3	Transition 198 203	[BOS]
+T4	Transition 270 275	[BOS]
+T5	Transition 378 383	[BOS]
+T6	Reflection 444 449	[BOS]
+T7	Transition 576 581	[BOS]
+T8	Transition 808 813	[BOS]
+T9	Transition 894 899	[BOS]
+T10	Narrative_cite 964 969	[BOS]
+T11	Transition 1078 1083	[BOS]
+T12	Transition 1310 1315	[BOS]
+T13	Transition 1430 1435	[BOS]
+T14	Single_summ 1580 1585	[BOS]
+T15	Single_summ 1816 1821	[BOS]
+T16	Single_summ 2075 2080	[BOS]
+T17	Single_summ 2286 2291	[BOS]
+T18	Single_summ 2378 2383	[BOS]
+T19	Single_summ 2444 2449	[BOS]
+T20	Single_summ 2607 2612	[BOS]
+T21	Transition 2677 2682	[BOS]
+T22	Reflection 2759 2764	[BOS]
+T23	Reflection 3007 3012	[BOS]
+T24	Reflection 3231 3236	[BOS]
+T25	Multi_summ 3348 3353	[BOS]
+T26	Multi_summ 3486 3491	[BOS]
+T27	Transition 3574 3579	[BOS]
+T28	Transition 3732 3737	[BOS]
+T29	Single_summ 3984 3989	[BOS]
+T30	Single_summ 4076 4081	[BOS]
+T31	Narrative_cite 4251 4256	[BOS]
+T32	Reference 1034 1051	Smith, 2009, 2010
+T33	Reference 1053 1075	Chali and Hasan, 2015)
+T34	Dominant 1586 1606	Serban et al. (2016)
+T35	Dominant 1822 1838	Du et al. (2017)
+T36	Dominant 3382 3400	Zeng et al. (2014)
+T37	Dominant 3403 3422	Zhang et al. (2017)
+T38	Dominant 4082 4104	Bahdanau et al. (2014)
+T39	Reference 4399 4415	(Gu et al., 2016
+T40	Reference 4417 4433	Cao et al., 2017
+T41	Reference 4435 4452	See et al., 2017)
+T42	B_span 1011 1015	well
+T43	E_span 1070 1074	2015
+T44	B_span 1586 1592	Serban
+T45	E_span 1806 1814	FreeBase
+T46	B_span 1822 1824	Du
+T47	E_span 2065 2072	passage
+T48	B_span 3354 3356	As
+T49	E_span 3567 3572	pairs
+T50	B_span 4082 4090	Bahdanau
+T51	E_span 4238 4249	translation
+T52	B_span 4323 4333	sequenceto
+T53	E_span 4447 4451	2017

@@ -1,0 +1,13 @@
+[BOS] There is a long history of learning general language representations.
+[BOS] Previous work on learning general language representations focus on learning word (Mikolov et al., 2013; Pennington et al., 2014) or sentence representations (Le and Mikolov, 2014; Kiros et al., 2015) that are helpful for downstream tasks.
+[BOS] Recently, there is a trend of learning contextualized word embeddings (Dai and Le, 2015; McCann et al., 2017; Peters et al., 2018; Howard and Ruder, 2018) .
+[BOS] One representative approach is the BERT model (Devlin et al., 2019) which learns contextualized word embeddings via bidirectional Transformer models.
+
+[BOS] Another line of research on learning representations focus on multi-task learning (Collobert et al., 2011; Liu et al., 2015) .
+[BOS] In particular, Liu et al. (2019b) propose to combine multi-task learning with language model pre-training and demonstrate the two methods are complementary to each other.
+
+[BOS] Meta-learning algorithms have received lots of attention recently due to their effectiveness (Finn et al., 2017; Fan et al., 2018) .
+[BOS] However, the potential of applying meta-learning algorithms in NLU tasks have not been fully investigated yet.
+[BOS] Gu et al. (2018) have tried to apply first-order MAML in machine translation and Qian and Yu (2019) propose to address the domain adaptation problem in dialogue generation by using MAML.
+[BOS] To the best of our knowledge, the Reptile algorithm, which is simpler than MAML and potentially more useful, has been given less attention.
+

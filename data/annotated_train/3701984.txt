@@ -1,0 +1,24 @@
+[BOS] Recently, AL with PA attracts much attention in sentence-wise natural language processing such as sequence labeling and parsing.
+[BOS] For sequence labeling, Marcheggiani and Artires (2014) systematically compare a dozen uncertainty metrics in token-wise AL with PA (without comparison with FA), whereas Settles and Craven (2008) investigate different uncertainty metrics in AL with FA.
+[BOS] Li et al. (2012) propose to only annotate the most uncertain word boundaries in a sentence for Chinese word segmentation and show promising results on both simulation and human annotation experiments.
+[BOS] All above works are based on CRFs and make extensive use of sequence probabilities and token marginal probability.
+
+[BOS] In parsing community, Sassano and Kurohashi (2010) select bunsetsu (similar to phrases) pairs with smallest scores from a local classifier, and let annotators decide whether the pair composes a dependency.
+[BOS] They convert partially annotated instances into local dependency/non-dependency classification instances to help a simple shiftreduce parser.
+[BOS] Mirroshandel and Nasr (2011) select most uncertain words based on votes of nbest parsers, and convert partial trees into full trees by letting a baseline parser perform constrained decoding in order to preserve partial annotation.
+[BOS] Under a different query-by-committee AL framework, Majidi and Crane (2013) select most uncertain words using a committee of diverse parsers, and convert partial trees into full trees by letting the parsers of committee to decide the heads of remaining tokens.
+[BOS] Based on a first-order (pointwise) Japanese parser, Flannery and Mori (2015) use scores of a local classifier for task selection, and treat PA as dependency/non-dependency instances (Flannery et al., 2011) .
+[BOS] Different from above works, this work adopts a state-of-the-art probabilistic dependency parser, uses more principled tree probabilities and dependency marginal probabilities for uncertainty measurement, and learns from PA based on a forest-based training objective which is more theoretically sound.
+
+[BOS] Most previous works on AL with PA only conduct simulation experiments.
+[BOS] Flannery and Mori (2015) perform human annotation to measure true annotation time.
+[BOS] A single annotator is employed to annotate for two hours alternating FA and PA (33% batch) every fifteen minutes.
+[BOS] Beyond their initial expectation, they find that the annotation time per dependency is nearly the same for FA and PA (different from our findings) and gives a few interesting explanations.
+
+[BOS] Under a non-AL framework, Mejer and Crammer (2012) propose an interesting light feedback scheme for dependency parsing by letting annotators decide the better one from top-2 parse trees produced by the current parsing model.
+[BOS] Hwa (1999) pioneers the idea of using PA to reduce manual labeling effort for constituent grammar induction.
+[BOS] She uses a variant InsideOutside re-estimation algorithm (Pereira and Schabes, 1992) to induce a grammar from PA. Clark and Curran (2006) propose to train a Combinatorial Categorial Grammar parser using partially labeled data only containing predicate-argument dependencies.
+[BOS] Tsuboi et al. (2008) extend CRFbased sequence labeling models to learn from incomplete annotations, which is the same with Marcheggiani and Artires (2014) .
+[BOS] Li et al. (2014) propose a CRF-based dependency parser that can learn from partial tree projected from sourcelanguage structures in the cross-lingual parsing scenario.
+[BOS] Mielens et al. (2015) propose to impute missing dependencies based on Gibbs sampling in order to enable traditional parsers to learn from partial trees.
+

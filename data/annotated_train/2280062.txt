@@ -1,0 +1,27 @@
+[BOS] Significant research effort has been invested in the task of fine-grained opinion analysis in recent years Wilson et al., 2009) .
+[BOS] first motivated and studied phraselevel polarity classification on an open-domain corpus.
+[BOS] Choi and Cardie (2008) developed inference rules to capture compositional effects at the lexical level on phrase-level polarity classification.
+[BOS] Yessenalina and Cardie (2011) and Socher et al. (2013) learn continuous-valued phrase representations by combining the representations of words within an opinion expression and using them as features for classifying polarity and intensity.
+[BOS] All of these approaches assume the opinion expressions are available before training the classifiers.
+[BOS] However, in real-world settings, the spans of opinion expressions within the sentence are not available.
+[BOS] In fact, Choi and Cardie (2008) demonstrated that the performance of expression-level polarity classification degrades as more surrounding (but irrelevant) context is considered.
+[BOS] This motivates the additional task of identifying the spans of opinion expressions.
+
+[BOS] Opinion expression extraction has been successfully tackled via sequence tagging methods.
+[BOS] Breck et al. (2007) applied conditional random fields to assign each token a label indicating whether it belongs to an opinion expression or not.
+[BOS] Yang and Cardie (2012) employed a segment-level sequence labeler based on semi-CRFs with rich phrase-level syntactic features.
+[BOS] In this work, we also utilize semi-CRFs to model opinion expression extraction.
+
+[BOS] There has been limited work on the joint modeling of opinion expression extraction and attribute classification.
+[BOS] Choi and Cardie (2010) first developed a joint sequence labeler that jointly tags opinions, polarity and intensity by training CRFs with hierarchical features (Zhao et al., 2008) .
+[BOS] One major drawback of their approach is that it models both opinion extraction and attribute labeling as tasks in token-level sequence labeling, and thus cannot model their inter-actions at the expression-level.
+[BOS] Johansson and Moschitti (2011) and Johansson and Moschitti (2013) propose a joint approach to opinion expression extraction and polarity classification by re-ranking its k-best output using global features.
+[BOS] One major issue with their approach is that the k-best candidates were obtained without global reasoning about the relative uncertainty in the individual stages.
+[BOS] As the number of considered attributes grows, it also becomes harder to decide how many predictions to select from each attribute classifier.
+
+[BOS] Compared to the existing approaches, our joint models have the advantage of modeling opinion expression extraction and attribute classification at the segment-level, and more importantly, they provide a principled way of combining the segmentation and classification components.
+
+[BOS] Our work follows a long line of joint modeling research that has demonstrated great success for various NLP tasks Punyakanok et al., 2004; Finkel and Manning, 2010; Rush et al., 2010; Choi et al., 2006; Yang and Cardie, 2013) .
+[BOS] Methods tend to fall into one of two joint modeling frameworks: the first learns a joint model that captures global dependencies; the other uses independently-learned models and considers global dependencies only during inference.
+[BOS] In this work, we study both types of joint approaches for opinion expression extraction and opinion attribute classification.
+

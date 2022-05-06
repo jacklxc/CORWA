@@ -1,0 +1,24 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 196 201	[BOS]
+T3	Reflection 270 275	[BOS]
+T4	Reflection 279 284	[BOS]
+T5	Reflection 372 377	[BOS]
+T6	Reflection 381 386	[BOS]
+T7	Reflection 481 486	[BOS]
+T8	Reflection 490 495	[BOS]
+T9	Reflection 559 564	[BOS]
+T10	Other 713 718	[BOS]
+T11	Other 794 799	[BOS]
+T12	Other 865 870	[BOS]
+T13	Reflection 924 929	[BOS]
+T14	Reflection 1023 1028	[BOS]
+T15	Other 1155 1160	[BOS]
+T16	Reflection 1204 1209	[BOS]
+T17	Other 1351 1356	[BOS]
+T18	Other 1471 1476	[BOS]
+T19	Reference 592 607	(Turney, 2001 )
+T20	Reference 1008 1021	Turney (2001)
+T21	B_span 573 579	mutual
+T22	E_span 601 605	2001
+T23	B_span 930 932	To
+T24	E_span 1016 1020	2001

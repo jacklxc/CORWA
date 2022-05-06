@@ -1,0 +1,16 @@
+[BOS] Learning under Domain Shift There is a large body of work on domain adaptation.
+[BOS] Studies on unsupervised domain adaptation include early work on bootstrapping (Steedman et al., 2003; McClosky et al., 2006a) , shared feature representations (Blitzer et al., 2006 (Blitzer et al., , 2007 and instance weighting (Jiang and Zhai, 2007) .
+[BOS] Recent approaches include adversarial learning (Ganin et al., 2016) and fine-tuning (Sennrich et al., 2016) .
+[BOS] There is almost no work on bootstrapping approaches for recent neural NLP, in particular under domain shift.
+[BOS] Tri-training is less studied, and only recently re-emerged in the vision community (Saito et al., 2017) , albeit is not compared to classic tri-training.
+
+[BOS] Neural network ensembling Related work on self-ensembling approaches includes snapshot ensembling or temporal ensembling (Laine and Aila, 2017) .
+[BOS] In general, the line between "explicit" and "implicit" ensembling , like dropout (Srivastava et al., 2014) or temporal ensembling (Saito et al., 2017) , is more fuzzy.
+[BOS] As we noted earlier our multi-task learning setup can be seen as a form of self-ensembling.
+
+[BOS] Multi-task learning in NLP Neural networks are particularly well-suited for MTL allowing for parameter sharing (Caruana, 1993) .
+[BOS] Recent NLP conferences witnessed a "tsunami" of deep learning papers (Manning, 2015) , followed by what we call a multi-task learning "wave": MTL has been successfully applied to a wide range of NLP tasks (Cohn and Specia, 2013; Cheng et al., 2015; Luong et al., 2015; Plank et al., 2016; Fang and Cohn, 2016; Ruder et al., 2017; Augenstein et al., 2018) .
+[BOS] Related to it is the pioneering work on adversarial learning (DANN) (Ganin et al., 2016) .
+[BOS] For sentiment analysis we found tri-training and our MT-Tri model to outperform DANN.
+[BOS] Our MT-Tri model lends itself well to shared-private models such as those proposed recently Kim et al., 2017) , which extend upon (Ganin et al., 2016) by having separate source and target-specific encoders.
+

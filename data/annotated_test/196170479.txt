@@ -1,0 +1,17 @@
+[BOS] Various QA datasets have been proposed in roughly two categories: extractive answers and short abstractive answers (see Table 1 ).
+
+[BOS] Extractive QA Extractive question answering datasets such as TREC (Voorhees, 2003) , SQuAD (Rajpurkar et al., 2016 , NewsQA (Trischler et al., 2017) , SearchQA (Dunn et al., 2017) , and QuAC (Choi et al., 2018) constrain the answer to a word or short phrase from the input and evaluate using exact match or F1 with the ground truth span.
+[BOS] HotpotQA (Yang et al., 2018) extends this approach by building questions which challenge models to conduct multi-hop reasoning across multiple paragraphs, but the answer is still a short span.
+[BOS] Further, the answer must be straightforward, as it needs to be copied from the supporting evidenceprecluding most "how" or "why" type questions.
+
+[BOS] Abstractive QA Abstractive datasets include NarrativeQA (Kocisky et al., 2018) , a dataset of movie and book summaries and CoQA (Reddy et al., 2018) , a multi-domain dialogue dataset.
+[BOS] Both collect responses with crowdworkers and find that written answers are mostly extractive and short.
+[BOS] MS MARCO (Nguyen et al., 2016) , a dataset of crowdsourced responses to Bing queries, has written answers around 1 sentence long with short input passages.
+[BOS] TriviaQA (Joshi et al., 2017) contains longer multi-document web input, collected using Bing and Wikipedia.
+[BOS] As the dataset is built from trivia, most questions can be answered with a short extractive span.
+
+[BOS] Multi-document summarization The ELI5 task of writing a paragraph length response from multiple supporting documents can be seen as a form of query-based multi-document summarization (Tombros and Sanderson, 1998 (Kocisky et al., 2018) 9.8 656 4.7 9.8 10.7 38.0 1.7 7.5 23.4 2.2 6.8 47K CoQA (Reddy et al., 2018) 5.5 271 2.7 2 5 27 2 5 15 1 43 127K SQuAD (2.0) (Rajpurkar et al., 2018) 9.9 116.6 3.2 1.4 8.9 45.3 6.0 3.6 9.6 4.4 17.6 150K HotpotQA (Yang et al., 2018) 17 text generation to answer a question, rather than to write about a general topic.
+[BOS] In addition, ELI5 contains a diverse set of questions which can involve more than one Wikipedia concept.
+
+[BOS] 3 Making a Long Form QA Dataset
+

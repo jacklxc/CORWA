@@ -1,0 +1,27 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 198 203	[BOS]
+T3	Transition 344 349	[BOS]
+T4	Single_summ 480 485	[BOS]
+T5	Reflection 623 628	[BOS]
+T6	Single_summ 681 686	[BOS]
+T7	Single_summ 790 795	[BOS]
+T8	Single_summ 963 968	[BOS]
+T9	Narrative_cite 1093 1098	[BOS]
+T10	Transition 1271 1276	[BOS]
+T11	Transition 1330 1335	[BOS]
+T12	Transition 1468 1473	[BOS]
+T13	Reflection 1580 1585	[BOS]
+T14	Reference 152 173	(Glehere et al., 2015
+T15	Reference 175 195	Sriram et al., 2017)
+T16	Reference 316 341	(Domhan and Hieber, 2017)
+T17	Dominant 500 523	Sennrich et al. (2016a)
+T18	Dominant 687 707	Currey et al. (2017)
+T19	Reference 1246 1268	(Zhang and Zong, 2016)
+T20	B_span 73 82	recurrent
+T21	E_span 190 194	2017
+T22	B_span 486 489	The
+T23	E_span 614 621	corpora
+T24	B_span 687 693	Currey
+T25	E_span 1082 1090	Japanese
+T26	B_span 1193 1204	autoencoder
+T27	E_span 1263 1267	2016

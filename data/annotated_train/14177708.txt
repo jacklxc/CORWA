@@ -1,0 +1,7 @@
+[BOS] Recently, we proposed a rewriting system that explores in a greedy fashion the neighborhood of the one-best hypothesis found by the reranking pass using complex features, assuming that a better hypothesis can be very close to this seed hypothesis (Marie and Max, 2014) .
+[BOS] Nevertheless, this rewriting only explores a small search space, limited by the greedy search algorithm that concentrates on individual, local rewritings.
+
+[BOS] Other works proposed methods to produce more diverse lists of hypotheses by iteratively encouraging the decoder to produce translations that are different from the previous one (Gimpel et al., 2013) or by making small changes to the scoring function to extract k-best lists from other parts of the search space (Devlin and Matsoukas, 2012) .
+[BOS] Some useful diversity can be obtained as these hypotheses can be combined using SMT system combination or help to better train reranking systems.
+[BOS] But in spite of the introduction of more diversity, these methods do not guarantee that eventually lists containing hypotheses that are more relevant to complex features will be obtained.
+

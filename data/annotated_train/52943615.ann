@@ -1,0 +1,38 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 218 223	[BOS]
+T3	Transition 378 383	[BOS]
+T4	Transition 490 495	[BOS]
+T5	Transition 565 570	[BOS]
+T6	Multi_summ 731 736	[BOS]
+T7	Multi_summ 840 845	[BOS]
+T8	Narrative_cite 1029 1034	[BOS]
+T9	Reflection 1242 1247	[BOS]
+T10	Reference 137 161	(Sutskever et al., 2014)
+T11	Reference 259 282	(Bahdanau et al., 2015)
+T12	Reference 332 355	(Nallapati et al., 2016
+T13	Reference 357 374	Rush et al., 2015
+T14	Reference 771 792	(Ranzato et al., 2016
+T15	Reference 794 813	Paulus et al., 2017
+T16	Reference 815 837	Bahdanau et al., 2016)
+T17	Dominant 883 901	(See et al., 2017)
+T18	Reference 954 976	(Vinyals et al., 2015)
+T19	Reference 1087 1104	(Tu et al., 2016)
+T20	Reference 1168 1186	(See et al., 2017)
+T21	Pronoun 384 386	It
+T22	Pronoun 1321 1325	this
+T23	B_span 117 125	sequence
+T24	E_span 156 160	2014
+T25	B_span 249 258	attention
+T26	E_span 277 281	2015
+T27	B_span 318 331	summarization
+T28	E_span 370 374	2015
+T29	B_span 748 761	reinforcement
+T30	E_span 834 835	1
+T31	B_span 857 864	pointer
+T32	E_span 1021 1027	weight
+T33	B_span 946 953	pointer
+T34	E_span 971 975	2015
+T35	B_span 1071 1079	coverage
+T36	E_span 1099 1103	2016
+T37	B_span 1154 1162	coverage
+T38	E_span 1181 1185	2017

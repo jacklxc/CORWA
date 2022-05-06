@@ -1,0 +1,18 @@
+[BOS] Our work originated from the minimum risk training algorithms in conventional statistical machine translation Smith and Eisner, 2006; He and Deng, 2012) .
+[BOS] describes a smoothed error count to allow calculating gradients, which directly inspires us to use a parameter  to adjust the smoothness of the objective function.
+[BOS] As neural networks are non-linear, our approach has to minimize the expected loss on the sentence level rather than the loss of 1-best translations on the corpus level.
+[BOS] Smith and Eisner (2006) introduce minimum risk annealing for training log-linear models that is capable of gradually annealing to focus on the 1-best hypothesis.
+[BOS] He et al. (2012) apply minimum risk training to learning phrase translation probabilities.
+[BOS] Gao et al. (2014) leverage MRT for learning continuous phrase representations for statistical machine translation.
+[BOS] The difference is that they use MRT to optimize a sub-model of SMT while we are interested in directly optimizing end-to-end neural translation models.
+
+[BOS] The Mixed Incremental Cross-Entropy Reinforce (MIXER) algorithm (Ranzato et al., 2015) is in spirit closest to our work.
+[BOS] Building on the REINFORCE algorithm proposed by Williams (1992) , MIXER allows incremental learning and the use of hybrid loss function that combines both REINFORCE and cross-entropy.
+[BOS] The major difference is that Ranzato et al. (2015) leverage reinforcement learning while our work resorts to minimum risk training.
+[BOS] In addition, MIXER only samples one candidate to calculate reinforcement reward while MRT generates multiple samples to calculate the expected risk.
+[BOS] Figure 2 indicates that multiple samples potentially increases MRT's capability of discriminating between diverse candidates and thus benefit translation quality.
+[BOS] Our experiments confirm Ranzato et al. (2015) 's finding that taking evaluation metrics into account when optimizing model parameters does help to improve sentence-level text generation.
+
+[BOS] More recently, our approach has been successfully applied to summarization (Ayana et al., 2016) .
+[BOS] They optimize neural networks for headline generation with respect to ROUGE (Lin, 2004) and also achieve significant improvements, confirming the effectiveness and applicability of our approach.
+

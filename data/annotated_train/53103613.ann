@@ -1,0 +1,50 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 159 164	[BOS]
+T3	Narrative_cite 286 291	[BOS]
+T4	Narrative_cite 533 538	[BOS]
+T5	Transition 821 826	[BOS]
+T6	Single_summ 952 957	[BOS]
+T7	Single_summ 1104 1109	[BOS]
+T8	Single_summ 1226 1231	[BOS]
+T9	Single_summ 1342 1347	[BOS]
+T10	Single_summ 1487 1492	[BOS]
+T11	Transition 1577 1582	[BOS]
+T12	Reference 262 283	(Santos et al., 2015)
+T13	Reference 356 375	(Zeng et al., 2015)
+T14	Reference 417 435	(Lin et al., 2016)
+T15	Reference 447 464	(Ye et al., 2017)
+T16	Reference 513 530	(He et al., 2018)
+T17	Reference 664 683	(Zhou et al., 2016)
+T18	Reference 737 765	(Sorokin and Gurevych, 2017)
+T19	Reference 780 799	(Peng et al., 2017)
+T20	Dominant 958 979	(Sabour et al., 2017)
+T21	Dominant 1110 1131	(Hinton et al., 2018)
+T22	Dominant 1271 1290	(Zhao et al., 2018)
+T23	Dominant 1348 1367	(Gong et al., 2018)
+T24	Dominant 1493 1514	(Wang et al., 2018b )
+T25	B_span 240 248	relation
+T26	E_span 278 282	2015
+T27	B_span 335 344	piecewise
+T28	E_span 370 374	2015
+T29	B_span 378 386	instance
+T30	E_span 430 434	2016
+T31	B_span 438 442	rank
+T32	E_span 459 463	2017
+T33	B_span 496 502	syntax
+T34	E_span 525 529	2018
+T35	B_span 649 658	attention
+T36	E_span 678 682	2016
+T37	B_span 686 693	context
+T38	E_span 760 764	2017
+T39	B_span 768 773	graph
+T40	E_span 794 798	2017
+T41	B_span 959 965	Sabour
+T42	E_span 1093 1102	agreement
+T43	B_span 1111 1117	Hinton
+T44	E_span 1215 1224	algorithm
+T45	B_span 1236 1243	natural
+T46	E_span 1326 1340	classification
+T47	B_span 1349 1353	Gong
+T48	E_span 1479 1485	vector
+T49	B_span 1494 1498	Wang
+T50	E_span 1567 1575	analysis

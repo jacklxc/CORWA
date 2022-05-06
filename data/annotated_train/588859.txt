@@ -1,0 +1,14 @@
+[BOS] While this is the first year for a shared task focusing on sentence-level binary error identification, previous work and shared tasks have focused on the related tasks of intra-sentence identification and correction of errors.
+[BOS] Until recently, standard handannotated grammatical error datasets were not available, complicating comparisons and limiting the choice of methods used.
+[BOS] Given the lack of a large hand-annotated corpus at the time, Park and Levy (2011) demonstrated the use of the EM algorithm for parameter learning of a noise model using error data without corrections, performing evaluation on a much smaller set of sentences hand-corrected by Amazon Mechanical Turk workers.
+
+[BOS] More recent work has emerged as a result of a series of shared tasks, starting with the Helping Our Own (HOO) Pilot Shared Task run in 2011, which focused on a diverse set of errors in a small dataset (Dale and Kilgarriff, 2011) , and the subsequent HOO 2012 Shared Task, which focused on the automated detection and correction of preposition and determiner errors (Dale et al., 2012) .
+[BOS] The CoNLL-2013 Shared Task (Ng et al., 2013 3 focused on the correction of a limited set of five error types in essays by second-language learners of English at the National University of Singapore.
+[BOS] The follow-up CoNLL-2014 Shared Task (Ng et al., 2014 4 focused on the full generation task of correcting all errors in essays by second-language learners.
+
+[BOS] As with machine translation (MT), evaluation of mation track.
+[BOS] We leave for future work the adaptation of our approach to that task.
+[BOS] (Napoles et al., 2015) .
+[BOS] The system of Felice et al. (2014) ranked highest, utilizing a combination of a rule-based system and phrase-based MT, with re-ranking via a large web-scale language model.
+[BOS] Of the non-MT based approaches, the IllinoisColumbia system was a strong performer, combining several classifiers trained for specific types of errors (Rozovskaya et al., 2014) .
+

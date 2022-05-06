@@ -1,0 +1,23 @@
+[BOS] Most previous work on exploring semantics for statistical machine translation (SMT) studies the usefulness of predicate-argument structure from semantic role labeling (Wong and Mooney, 2006; Wu and Fung, 2009; Liu and Gildea, 2010; Baker et al., 2012) .
+[BOS] Jones et al. (2012) first convert Prolog expressions into graphical meaning representations, leveraging synchronous hyperedge replacement grammar to parse the input graphs while generating the outputs.
+[BOS] Their graphical meaning representation is different from AMR under a strict definition, and their experimental data are limited to 880 sentences.
+[BOS] We are the first to investigate AMR on a large-scale machine translation task.
+
+[BOS] Recently, Marcheggiani et al. (2018) investigate semantic role labeling (SRL) on neural machine translation (NMT).
+[BOS] The predicate-argument structures are encoded via graph convolutional network (GCN) layers (Kipf and Welling, 2017) , which are laid on top of regular BiRNN or CNN layers.
+[BOS] Our work is in line with exploring semantic information, but different in exploiting AMR rather than SRL for NMT.
+[BOS] In addition, we leverage a graph recurrent network (GRN) for modeling AMRs rather than GCN, which is formally consistent with the RNN sentence encoder.
+[BOS] Since there is no oneto-one correspondence between AMR nodes and source words, we adopt a doubly-attentive LSTM decoder, which is another major difference from Marcheggiani et al. (2018) .
+
+[BOS] GRNs have recently been used to model graph structures in NLP tasks.
+[BOS] In particular, use a GRN model to represent raw sentences by building a graph structure of neighboring words and a sentence-level node, showing that the encoder outperforms BiLSTMs and Transformer (Vaswani et al., 2017) on classification and sequence labeling tasks; build a GRN for encoding AMR graphs for text generation, showing that the representation is superior compared to BiLSTM on serialized AMR.
+[BOS] We extend by investigating the usefulness of AMR for neural machine translation.
+[BOS] To our knowledge, we are the first to use GRN for machine translation.
+
+[BOS] In addition to GRNs and GCNs, there have been other graph neural networks, such as graph gated neural network (GGNN) (Li et al., 2015b; Beck et al., 2018) .
+[BOS] Since our main concern is to empirically investigate the effectiveness of AMR for NMT, we leave it to future work to compare GCN, GGNN, and GRN for our task.
+
+[BOS] 3 Baseline: attention-based BiLSTM
+
+[BOS] We take the attention-based sequence-to-sequence model of Bahdanau et al. (2015) as the baseline, but use LSTM cells (Hochreiter and Schmidhuber, 1997) instead of GRU cells (Cho et al., 2014) .
+

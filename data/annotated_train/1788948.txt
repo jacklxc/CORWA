@@ -1,0 +1,7 @@
+[BOS] As can be seen in Figure 3 , the average score for each compound can be reasonably approximated by the individual scores of head and modifier.
+[BOS] Considering the goodness of fit measures R 2 geom and R 2 arith (for arithmetic and geometric means), we can see that the geometric model better represents the data.
+[BOS] Whenever annotators judged an element of the compound as too idiomatic, they have also rated the whole compound as highly idiomatic.
+[BOS] Figure 4 presents the standard deviation for each compound as a function of its average scores.
+[BOS] One can visually attest that the least consensual compound judgments fall in the middle section of the graph.
+[BOS] Even if we account for the fact that the extremities cannot follow a two-tailed distribution, those compounds still end up being easier than the ones in the middle.
+

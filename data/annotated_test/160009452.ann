@@ -1,0 +1,85 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 135 140	[BOS]
+T3	Transition 301 306	[BOS]
+T4	Transition 404 409	[BOS]
+T5	Single_summ 464 469	[BOS]
+T6	Reflection 609 614	[BOS]
+T7	Multi_summ 731 736	[BOS]
+T8	Narrative_cite 1108 1113	[BOS]
+T9	Reflection 1291 1296	[BOS]
+T10	Multi_summ 1391 1396	[BOS]
+T11	Single_summ 1627 1632	[BOS]
+T12	Narrative_cite 1768 1773	[BOS]
+T13	Multi_summ 1962 1967	[BOS]
+T14	Reflection 2219 2224	[BOS]
+T15	Narrative_cite 2389 2394	[BOS]
+T16	Reflection 2540 2545	[BOS]
+T17	Reflection 2625 2630	[BOS]
+T18	Reflection 2700 2705	[BOS]
+T19	Reflection 2840 2845	[BOS]
+T20	Reflection 2972 2977	[BOS]
+T21	Reflection 3091 3096	[BOS]
+T22	Reflection 3172 3177	[BOS]
+T23	Reflection 3221 3226	[BOS]
+T24	Reflection 3286 3291	[BOS]
+T25	Reflection 3423 3428	[BOS]
+T27	Dominant 196 219	(Flanigan et al., 2014)
+T28	Dominant 470 490	Lyu and Titov (2018)
+T30	Reference 952 973	Puzikov et al. (2016)
+T31	Reference 975 995	Brandt et al. (2016)
+T32	Reference 998 1019	Goodman et al. (2016)
+T33	Reference 1022 1043	Damonte et al. (2017)
+T34	Reference 1046 1079	Ballesteros and Al-Onaizan (2017)
+T35	Reference 1081 1105	Groschwitz et al. (2018)
+T36	Reference 1142 1168	Pourdamghani et al. (2014)
+T37	Reference 1171 1188	Liu et al. (2018)
+T38	Dominant 1441 1460	Artzi et al. (2015)
+T39	Dominant 1463 1481	Peng et al. (2015)
+T40	Dominant 1633 1651	Pust et al. (2015)
+T41	Reference 1845 1870	(Barzdins and Gosko, 2016
+T42	Reference 1872 1891	Peng et al., 2017b)
+T43	Dominant 1968 1989	Konstas et al. (2017)
+T44	Dominant 2077 2102	van Noord and Bos (2017b)
+T46	Reference 2458 2479	(Daiber et al., 2013)
+T47	Reference 2490 2510	Bjerva et al. (2016)
+T48	Reference 2516 2537	Noord and Bos (2017b)
+T50	Reference 2878 2899	(Kingma and Ba, 2014)
+T51	Pronoun 316 320	this
+T52	Pronoun 1999 2003	this
+T53	Pronoun 3392 3397	their
+T26	B_span 191 195	JAMR
+T54	E_span 290 299	algorithm
+T55	B_span 470 473	Lyu
+T56	E_span 596 607	improvement
+T58	E_span 1100 1104	2018
+T59	B_span 952 959	Puzikov
+T60	E_span 968 972	2016
+T61	B_span 975 981	Brandt
+T62	E_span 990 994	2016
+T63	B_span 998 1005	Goodman
+T64	E_span 1014 1018	2016
+T65	B_span 1022 1029	Damonte
+T66	E_span 1038 1042	2017
+T67	B_span 1046 1057	Ballesteros
+T68	E_span 1074 1078	2017
+T69	B_span 1081 1091	Groschwitz
+T70	E_span 1100 1104	2018
+T71	B_span 1116 1119	pre
+T73	B_span 1397 1404	Grammar
+T74	E_span 1621 1625	AMRs
+T75	B_span 1633 1637	Pust
+T76	E_span 1756 1765	resources
+T77	B_span 1774 1783	Attention
+T78	E_span 1885 1890	2017b
+T79	B_span 1968 1975	Konstas
+T80	E_span 2061 2069	training
+T81	B_span 2077 2080	van
+T82	E_span 2213 2217	data
+T83	B_span 2436 2443	DBpedia
+T84	E_span 2531 2536	2017b
+T85	B_span 2873 2877	ADAM
+T86	E_span 2894 2898	2014
+T57	B_span 737 747	Transition
+T29	Dominant 794 814	Wang et al. ( , 2016
+T87	Dominant 776 793	Wang et al. (2015
+T72	E_span 1239 1243	data

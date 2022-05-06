@@ -1,0 +1,86 @@
+T1	Transition 0 5	[BOS]
+T2	Reflection 154 159	[BOS]
+T3	Narrative_cite 314 319	[BOS]
+T4	Multi_summ 493 498	[BOS]
+T5	Single_summ 913 918	[BOS]
+T6	Transition 1012 1017	[BOS]
+T7	Single_summ 1158 1163	[BOS]
+T8	Narrative_cite 1373 1378	[BOS]
+T9	Transition 1579 1584	[BOS]
+T10	Single_summ 1679 1684	[BOS]
+T11	Transition 1807 1812	[BOS]
+T12	Transition 1910 1915	[BOS]
+T13	Multi_summ 2051 2056	[BOS]
+T14	Multi_summ 2331 2336	[BOS]
+T15	Single_summ 2575 2580	[BOS]
+T16	Narrative_cite 2761 2766	[BOS]
+T17	Reflection 2945 2950	[BOS]
+T18	Multi_summ 3134 3139	[BOS]
+T19	Single_summ 3336 3341	[BOS]
+T20	Single_summ 3474 3479	[BOS]
+T21	Reflection 3644 3649	[BOS]
+T22	Single_summ 3703 3708	[BOS]
+T23	Single_summ 3866 3871	[BOS]
+T24	Single_summ 4023 4028	[BOS]
+T25	Reflection 4189 4194	[BOS]
+T26	Reference 442 468	(Mitchell and Lapata, 2008
+T27	Reference 470 490	De Boom et al., 2015
+T28	Reference 617 636	(Arora et al., 2017
+T29	Reference 638 658	Wieting et al., 2016
+T30	Reference 660 684	Wieting and Gimpel, 2018
+T31	Reference 686 710	Zhelezniak et al., 2019b
+T32	Dominant 730 749	Zhao and Mao (2017)
+T33	Dominant 752 777	Zhelezniak et al. (2019b)
+T34	Dominant 919 944	Zhelezniak et al. (2019b)
+T35	Dominant 1192 1213	(Kusner et al., 2015)
+T36	Dominant 1438 1461	(Jimenez et al., , 2015
+T37	Dominant 1693 1719	(Zhelezniak et al., 2019b)
+T39	Dominant 2337 2362	Nikolentzos et al. (2017)
+T40	Dominant 2365 2377	Torki (2018)
+T41	Dominant 2581 2601	Vargas et al. (2019)
+T42	Reference 2922 2942	(Botev et al., 2017)
+T43	Dominant 3252 3277	Nikolentzos et al. (2017)
+T44	Dominant 3280 3292	Torki (2018)
+T45	Dominant 3357 3380	Kornblith et al. (2019)
+T46	Dominant 3745 3771	(Zhelezniak et al., 2019a)
+T47	B_span 412 419	average
+T48	E_span 486 490	2015
+T49	B_span 600 610	downstream
+T50	E_span 709 710	b
+T51	B_span 730 734	Zhao
+T52	E_span 911 912	.
+T53	B_span 919 922	Zhe
+T54	E_span 1009 1010	.
+T55	B_span 1164 1168	Word
+T56	E_span 1371 1372	.
+T57	B_span 1386 1390	soft
+T59	B_span 1685 1690	DynaM
+T60	E_span 1804 1805	.
+T61	B_span 2057 2060	Aro
+T62	E_span 2329 2330	.
+T63	B_span 2337 2340	Nik
+T64	E_span 2573 2574	.
+T65	B_span 2581 2584	Var
+T66	E_span 2758 2759	.
+T67	B_span 2899 2903	word
+T68	E_span 2941 2942	)
+T69	B_span 3242 3248	method
+T70	E_span 3331 3334	set
+T71	B_span 3357 3360	Kor
+T72	E_span 3642 3643	.
+T74	B_span 3745 3746	(
+T76	E_span 4187 4188	.
+T77	Pronoun 564 569	their
+T78	Pronoun 3480 3484	This
+T79	Pronoun 3694 3700	theirs
+T80	Pronoun 3872 3876	They
+T81	Pronoun 3926 3931	these
+T82	Pronoun 3959 3964	their
+T83	Pronoun 4035 4039	they
+T84	Pronoun 4121 4125	they
+T85	Pronoun 4205 4210	their
+T86	Pronoun 4279 4281	it
+T87	Dominant 1417 1437	Jimenez et al., 2010
+T88	E_span 1574 1577	set
+T38	Dominant 2057 2075	Arora et al. (2016
+T58	Dominant 2076 2097	Arora et al. ( , 2017

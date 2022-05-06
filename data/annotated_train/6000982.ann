@@ -1,0 +1,45 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 107 112	[BOS]
+T3	Single_summ 184 189	[BOS]
+T4	Single_summ 363 368	[BOS]
+T5	Multi_summ 524 529	[BOS]
+T6	Single_summ 776 781	[BOS]
+T7	Reflection 950 955	[BOS]
+T8	Transition 1048 1053	[BOS]
+T9	Single_summ 1118 1123	[BOS]
+T10	Single_summ 1242 1247	[BOS]
+T11	Single_summ 1336 1341	[BOS]
+T12	Reflection 1515 1520	[BOS]
+T13	Single_summ 1595 1600	[BOS]
+T14	Single_summ 1708 1713	[BOS]
+T15	Single_summ 1864 1869	[BOS]
+T16	Reflection 2165 2170	[BOS]
+T17	Reflection 2383 2388	[BOS]
+T18	Reflection 2541 2546	[BOS]
+T19	Dominant 190 207	Koo et al. (2008)
+T20	Dominant 369 387	Chen et al. (2009)
+T21	Dominant 530 550	Suzuki et al. (2009)
+T22	Reference 619 644	Suzuki and Isozaki (2008)
+T23	Reference 756 773	Koo et al. (2008)
+T24	Dominant 782 800	Chen et al. (2012)
+T25	Dominant 1124 1146	McClosky et al. (2006)
+T26	Dominant 1248 1271	Sagae and Tsujii (2007)
+T27	Dominant 1652 1673	Ando and Zhang (2005)
+T28	B_span 190 193	Koo
+T29	E_span 355 361	models
+T30	B_span 369 373	Chen
+T31	E_span 515 522	parsing
+T32	B_span 530 536	Suzuki
+T33	E_span 768 772	2008
+T34	B_span 562 566	Semi
+T35	E_span 639 643	2008
+T36	B_span 714 718	word
+T37	E_span 768 772	2008
+T38	B_span 782 786	Chen
+T39	E_span 942 948	search
+T40	B_span 1124 1132	McClosky
+T41	E_span 1233 1240	parsing
+T42	B_span 1248 1253	Sagae
+T43	E_span 1327 1334	parsing
+T44	B_span 1601 1605	With
+T45	E_span 2158 2163	tasks

@@ -1,0 +1,66 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Multi_summ 262 267	[BOS]
+T3	Narrative_cite 443 448	[BOS]
+T4	Single_summ 600 605	[BOS]
+T5	Transition 789 794	[BOS]
+T6	Reflection 925 930	[BOS]
+T7	Reflection 993 998	[BOS]
+T8	Narrative_cite 1182 1187	[BOS]
+T9	Narrative_cite 1460 1465	[BOS]
+T10	Transition 1832 1837	[BOS]
+T11	Single_summ 1907 1912	[BOS]
+T12	Single_summ 2074 2079	[BOS]
+T13	Single_summ 2186 2191	[BOS]
+T14	Narrative_cite 2302 2307	[BOS]
+T15	Reference 90 111	(Kuncoro et al., 2016
+T16	Reference 113 138	Chebotar and Waters, 2016
+T17	Reference 140 158	Kim and Rush, 2016
+T18	Reference 160 180	Freitag et al., 2017
+T19	Reference 182 208	Stahlberg and Byrne, 2017)
+T20	Reference 239 259	Hinton et al. (2015)
+T21	Dominant 268 289	Kuncoro et al. (2016)
+T22	Dominant 294 320	Chebotar and Waters (2016)
+T23	Reference 528 547	(Kim and Rush, 2016
+T24	Reference 549 569	Freitag et al., 2017
+T25	Reference 571 597	Stahlberg and Byrne, 2017)
+T26	Dominant 619 645	Stahlberg and Byrne (2017)
+T27	Reference 1342 1360	(Shen et al., 2004
+T28	Reference 1362 1386	White and Rajkumar, 2009
+T29	Reference 1388 1404	Duh et al., 2010
+T30	Reference 1406 1426	Kim and Mooney, 2013
+T31	Reference 1428 1457	Mizumoto and Matsumoto, 2016)
+T32	Reference 1568 1586	(Chen et al., 2006
+T33	Reference 1588 1608	Vaswani et al., 2013
+T34	Reference 1610 1640	Luong and Popescu-Belis, 2016)
+T35	Reference 1721 1745	(Boudin and Morin, 2013)
+T36	Reference 1768 1788	(Hasan et al., 2010)
+T37	Reference 1810 1829	(Peng et al., 2013)
+T38	Dominant 1913 1932	Tomeh et al. (2013)
+T39	Dominant 2080 2096	Li et al. (2009)
+T40	Reference 2397 2412	(Daum III, 2007
+T41	Reference 2414 2435	Daum III et al., 2010
+T42	Reference 2437 2461	Tommasi and Caputo, 2013
+T43	B_span 6 18	Distillation
+T44	E_span 254 258	2015
+T45	B_span 268 275	Kuncoro
+T46	E_span 429 441	respectively
+T47	B_span 501 508	machine
+T48	E_span 592 596	2017
+T49	B_span 619 628	Stahlberg
+T50	E_span 784 787	one
+T51	B_span 1290 1304	discriminative
+T52	E_span 1452 1456	2016
+T53	B_span 1525 1534	reranking
+T54	E_span 1635 1639	2016
+T55	B_span 1699 1702	key
+T56	E_span 1740 1744	2013
+T57	B_span 1748 1758	dependency
+T58	E_span 1783 1787	2010
+T59	B_span 1795 1801	search
+T60	E_span 1824 1828	2013
+T61	B_span 1913 1918	Tomeh
+T62	E_span 2067 2072	model
+T63	B_span 2080 2082	Li
+T64	E_span 2284 2299	runtimeensemble
+T65	B_span 2370 2383	frustratingly
+T66	E_span 2457 2461	2013

@@ -1,0 +1,110 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 260 265	[BOS]
+T3	Transition 469 474	[BOS]
+T4	Single_summ 564 569	[BOS]
+T5	Single_summ 754 759	[BOS]
+T6	Multi_summ 884 889	[BOS]
+T7	Transition 1124 1129	[BOS]
+T8	Transition 1217 1222	[BOS]
+T9	Single_summ 1292 1297	[BOS]
+T10	Single_summ 1517 1522	[BOS]
+T11	Multi_summ 1717 1722	[BOS]
+T12	Transition 1906 1911	[BOS]
+T13	Single_summ 2060 2065	[BOS]
+T14	Single_summ 2226 2231	[BOS]
+T15	Single_summ 2501 2506	[BOS]
+T16	Transition 2676 2681	[BOS]
+T17	Narrative_cite 2818 2823	[BOS]
+T18	Single_summ 2952 2957	[BOS]
+T19	Narrative_cite 3117 3122	[BOS]
+T20	Single_summ 3665 3670	[BOS]
+T21	Single_summ 3894 3899	[BOS]
+T22	Multi_summ 4023 4028	[BOS]
+T23	Narrative_cite 4339 4344	[BOS]
+T24	Single_summ 4445 4450	[BOS]
+T25	Narrative_cite 4680 4685	[BOS]
+T26	Reference 139 157	(Zou et al., 2013)
+T28	Reference 370 396	(Hermann and Blunsom, 2014
+T29	Reference 398 422	Chandar A P et al., 2014
+T30	Reference 424 443	Sgaard et al., 2015
+T31	Reference 445 466	Vuli and Moens, 2013)
+T32	Dominant 635 657	Mikolov et al. (2013b)
+T33	Dominant 1024 1048	(Faruqui and Dyer, 2014)
+T34	Dominant 1101 1120	(Xing et al., 2015)
+T35	Dominant 1298 1317	Zhang et al. (2016)
+T36	Dominant 1535 1554	Smith et al. (2017)
+T38	Dominant 2079 2101	Artetxe et al. (2018a)
+T39	Reference 2843 2856	Barone (2016)
+T40	Dominant 2958 2977	Zhang et al. (2017)
+T41	Reference 3280 3302	Mikolov et al. (2013b)
+T42	Reference 3323 3346	Faruqui and Dyer (2014)
+T43	Reference 3367 3385	Dinu et al. (2015)
+T44	Reference 3406 3424	Xing et al. (2015)
+T45	Reference 3571 3593	Artetxe et al. (2018a)
+T46	Dominant 3700 3720	Lample et al. (2018)
+T47	Dominant 4044 4066	Chen and Cardie (2018)
+T48	Reference 4087 4107	Lample et al. (2018)
+T49	Reference 4394 4414	Lample et al. (2018)
+T50	Reference 4426 4442	Xu et al. (2018)
+T52	Dominant 4524 4547	(Arjovsky et al., 2017)
+T54	Reference 4729 4749	Lample et al. (2018)
+T55	Pronoun 540 545	their
+T56	Pronoun 890 894	This
+T57	Pronoun 2109 2114	their
+T58	Pronoun 2292 2296	they
+T59	Pronoun 2521 2526	their
+T60	Pronoun 2882 2886	this
+T61	Pronoun 2920 2925	their
+T62	Pronoun 3144 3149	their
+T63	Pronoun 3187 3192	their
+T64	Pronoun 3597 3602	their
+T65	Pronoun 3635 3639	they
+T66	Pronoun 3908 3912	this
+T67	Pronoun 4234 4239	their
+T68	Pronoun 4451 4456	Their
+T69	Pronoun 4695 4700	their
+T70	B_span 119 121	ma
+T71	E_span 154 156	13
+T72	B_span 162 165	cro
+T73	E_span 254 256	6a
+T74	Reference 196 214	Jiang et al., 2015
+T27	Reference 216 236	Jiang et al., , 2016
+T75	Reference 237 256	Ammar et al., 2016a
+T76	B_span 318 323	bilin
+T77	E_span 459 465	, 2013
+T78	B_span 635 638	Mik
+T79	E_span 876 882	ionary
+T80	B_span 957 961	cano
+T81	E_span 1043 1047	2014
+T82	B_span 1057 1060	for
+T83	E_span 1117 1120	15)
+T84	B_span 1298 1301	Zha
+T85	E_span 1506 1516	mbeddings.
+T86	B_span 1535 1539	Smit
+T87	E_span 1708 1715	nguages
+T37	Dominant 1723 1743	Artetxe et al. (2017
+T88	Dominant 1744 1768	Artetxe et al. ( , 2018b
+T89	B_span 1723 1727	Arte
+T90	E_span 1898 1904	rounds
+T91	B_span 2079 2082	Art
+T92	E_span 2489 2499	dictionary
+T93	B_span 2697 2698	e
+T94	E_span 2854 2855	6
+T95	B_span 2958 2959	Z
+T96	E_span 3108 3115	duction
+T97	B_span 3269 3273	Supe
+T98	E_span 3421 3423	15
+T99	B_span 3571 3572	A
+T100	E_span 3588 3592	018a
+T101	B_span 3700 3706	Lample
+T102	E_span 4016 4021	pairs
+T103	B_span 4044 4047	Che
+T104	E_span 4333 4337	time
+T105	B_span 4394 4396	La
+T106	E_span 4411 4413	18
+T107	B_span 4426 4428	Xu
+T51	B_span 4508 4513	Wasse
+T109	E_span 4612 4615	ion
+T53	E_span 4674 4678	ions
+T108	B_span 4729 4732	Lam
+T110	E_span 4907 4910	ved

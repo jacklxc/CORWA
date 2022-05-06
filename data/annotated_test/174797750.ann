@@ -1,0 +1,47 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 108 113	[BOS]
+T3	Transition 283 288	[BOS]
+T4	Reflection 457 462	[BOS]
+T5	Transition 576 581	[BOS]
+T6	Narrative_cite 674 679	[BOS]
+T7	Reflection 973 978	[BOS]
+T8	Narrative_cite 1079 1084	[BOS]
+T9	Reflection 1332 1337	[BOS]
+T10	Narrative_cite 1453 1458	[BOS]
+T11	Transition 1674 1679	[BOS]
+T12	Reference 192 212	(Abbott et al., 2011
+T13	Reference 214 235	Wang and Cardie, 2014
+T14	Reference 237 259	Misra and Walker, 2013
+T15	Reference 261 280	Allen et al., 2014)
+T16	Reference 787 814	(Murakami and Raymond, 2010
+T17	Reference 816 844	Somasundaran and Wiebe, 2010
+T18	Reference 846 868	Gottopati et al., 2013
+T19	Reference 870 887	Qiu et al., 2015)
+T20	Reference 905 929	(Augenstein et al., 2016
+T21	Reference 931 946	Du et al., 2017
+T22	Reference 948 970	Mohammad et al., 2017)
+T23	Reference 1150 1175	(Lippi and Torroni, 2016)
+T24	Reference 1259 1278	(Hasan and Ng, 2014
+T25	Reference 1280 1306	Boltuzic and Snajder, 2014
+T26	Reference 1308 1329	Sobhani et al., 2015)
+T27	Reference 1559 1580	(Bowman et al., 2015)
+T28	Reference 1604 1626	(Yin and Schtze, 2015)
+T29	Reference 1652 1671	(Wang et al., 2016)
+T30	Pronoun 292 297	these
+T31	Pronoun 1865 1869	they
+T32	B_span 152 163	classifying
+T33	E_span 275 279	2014
+T34	B_span 723 731	classify
+T35	E_span 882 886	2015
+T37	E_span 965 969	2017
+T38	B_span 1129 1142	argumentation
+T39	E_span 1170 1174	2016
+T40	B_span 1239 1252	argumentation
+T41	E_span 1324 1328	2015
+T43	E_span 1575 1579	2015
+T44	B_span 1583 1593	paraphrase
+T45	E_span 1621 1625	2015
+T46	B_span 1633 1641	question
+T47	E_span 1666 1670	2016
+T48	B_span 723 731	classify
+T36	B_span 1500 1507	textual

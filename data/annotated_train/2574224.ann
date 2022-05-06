@@ -1,0 +1,38 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 452 457	[BOS]
+T3	Transition 525 530	[BOS]
+T4	Transition 698 703	[BOS]
+T5	Transition 907 912	[BOS]
+T6	Transition 1098 1103	[BOS]
+T7	Narrative_cite 1350 1355	[BOS]
+T8	Reference 91 108	(Lin et al., 2014
+T9	Reference 110 136	Karpathy and Fei-Fei, 2015
+T10	Reference 138 158	Vinyals et al., 2015
+T11	Reference 160 177	Chen et al., 2015
+T12	Reference 179 197	Young et al., 2014
+T13	Reference 199 224	Elliott and Keller, 2013)
+T14	Reference 246 265	(Antol et al., 2015
+T15	Reference 267 283	Ren et al., 2015
+T16	Reference 285 312	Malinowski and Fritz, 2014)
+T17	Reference 329 356	(Sadeghi and Farhadi, 2011)
+T18	Reference 379 404	(Ramanathan et al., 2013)
+T19	Reference 427 448	(Krishna et al., 2016
+T20	Reference 1420 1436	(Wiessner, 2014)
+T21	Pronoun 537 541	this
+T22	Pronoun 606 608	it
+T23	Pronoun 632 634	it
+T24	Pronoun 801 803	it
+T25	Pronoun 1322 1326	this
+T26	Pronoun 1548 1552	this
+T27	B_span 74 79	image
+T28	E_span 219 223	2013
+T29	B_span 227 235	question
+T30	E_span 307 311	2014
+T31	B_span 314 320	visual
+T32	E_span 351 355	2011
+T33	B_span 359 364	video
+T34	E_span 399 403	2013
+T35	B_span 411 417	visual
+T36	E_span 444 448	2016
+T37	B_span 1356 1368	Storytelling
+T38	E_span 1431 1435	2014

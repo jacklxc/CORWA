@@ -1,0 +1,67 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 168 173	[BOS]
+T3	Narrative_cite 458 463	[BOS]
+T4	Transition 764 769	[BOS]
+T5	Multi_summ 827 832	[BOS]
+T6	Multi_summ 1053 1058	[BOS]
+T7	Narrative_cite 1236 1241	[BOS]
+T8	Multi_summ 1582 1587	[BOS]
+T9	Transition 1753 1758	[BOS]
+T10	Reference 131 153	(Grishman et al., 2005
+T11	Reference 155 165	Ahn, 2006)
+T12	Reference 250 272	(Ji and Grishman, 2008
+T13	Reference 274 292	Gupta and Ji, 2009
+T14	Reference 294 321	Patwardhan and Riloff, 2009
+T15	Reference 323 346	Liao and Grishman, 2010
+T16	Reference 348 371	Liao and Grishman, 2011
+T17	Reference 373 390	Hong et al., 2011
+T18	Reference 392 413	McClosky et al., 2011
+T19	Reference 415 437	Huang and Riloff, 2012
+T20	Reference 439 455	Li et al., 2013)
+T21	Reference 572 592	(Riedel et al., 2009
+T22	Reference 594 620	Poon and Vanderwende, 2010
+T23	Reference 622 645	Venugopal et al., 2014)
+T24	Reference 670 686	(Li et al., 2013
+T25	Reference 688 705	Li et al., 2014b)
+T26	Reference 731 759	(Riedel et al. (2009; 2011b)
+T27	Dominant 848 866	Zhou et al. (2014)
+T28	Dominant 871 890	Boros et al. (2014)
+T29	Dominant 1059 1077	Chen et al. (2015)
+T30	Dominant 1150 1170	Nguyen et al. (2016)
+T31	Reference 1377 1399	(Blitzer et al., 2006)
+T32	Reference 1415 1433	(Daume III, 2007 )
+T33	Reference 1443 1465	(McClosky et al., 2010
+T34	Reference 1488 1514	(Plank and Moschitti, 2013
+T35	Reference 1516 1541	Nguyen and Grishman, 2014
+T36	Reference 1543 1564	Nguyen et al., 2015a)
+T37	Dominant 1610 1628	Miwa et al. (2013)
+T38	Dominant 1680 1707	Riedel and McCallum (2011b)
+T39	Pronoun 996 1001	these
+T40	B_span 66 71	local
+T41	E_span 160 164	2006
+T42	B_span 185 191	higher
+T43	E_span 450 454	2013
+T44	B_span 550 556	Markov
+T45	E_span 640 644	2014
+T46	B_span 648 658	structured
+T47	E_span 699 704	2014b
+T48	B_span 712 716	dual
+T49	E_span 753 758	2011b
+T50	B_span 848 852	Zhou
+T51	E_span 1040 1051	classifiers
+T52	B_span 1059 1063	Chen
+T53	E_span 1133 1142	framework
+T54	B_span 1150 1156	Nguyen
+T55	E_span 1225 1233	networks
+T56	B_span 1354 1358	part
+T57	E_span 1394 1398	2006
+T58	B_span 1402 1406	name
+T59	E_span 1427 1431	2007
+T60	B_span 1435 1442	parsing
+T61	E_span 1461 1465	2010
+T62	B_span 1468 1476	relation
+T63	E_span 1558 1563	2015a
+T64	B_span 1588 1591	For
+T65	E_span 1667 1673	models
+T66	B_span 1680 1686	Riedel
+T67	E_span 1741 1751	adaptation

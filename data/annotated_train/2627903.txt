@@ -1,0 +1,43 @@
+[BOS] MDC is normally applied with parallel (Silva et. al., 2004) or comparable corpus (Chen and Lin, 2000) , (Rauber et. al., 2001) , (Lawrence, 2003) , (Steinberger et. al., 2002) , (Mathieu et. al, 2004) , .
+[BOS] In the case of the comparable corpora, the documents usually are news articles.
+
+[BOS] Considering the approaches based on translation technology, two different strategies are employed: (1) translate the whole document to an anchor language, and (2) translate some features of the document to an anchor language.
+
+[BOS] With regard to the first approach, some authors use machine translation systems, whereas others translate the document word by word consulting a bilingual dictionary.
+[BOS] In (Lawrence, 2003) , the author presents several experiments for clustering a Russian-English multilingual corpus; several of these experiments are based on using a machine translation system.
+[BOS] Columbia's Newsblaster system (Kirk et al., 2004) clusters news into events, it categorizes events into broad topic and summarizes multiple articles on each event.
+[BOS] In the clustering process non-English documents are translated using simple dictionary lookup techniques for translating Japanese and Russian documents, and the Systran translation system for the other languages used in the system.
+
+[BOS] When the solution involves translating only some features, first it is necessary to select these features (usually entities, verbs, nouns) and then translate them with a bilingual dictionary or/and consulting a parallel corpus.
+
+[BOS] In (Mathieu et. al, 2004) before the clustering process, the authors perform a linguistic analysis which extracts lemmas and recognizes named entities (location, organization, person, time expression, numeric expression, product or event); then, the documents are represented by a set of terms (keywords or named entity types).
+[BOS] In addition, they use document frequency to select relevant features among the extracted terms.
+[BOS] Finally, the solution uses bilingual dictionaries to translate the selected features.
+[BOS] In (Rauber et. al., 2001 ) the authors present a methodology in which documents are parsed to extract features: all the words which appear in n documents except the stopwords.
+[BOS] Then, standard machine translation techniques are used to create a monolingual corpus.
+[BOS] After the translation process the documents are automatically organized into separate clusters using an un-supervised neural network.
+[BOS] Some approaches first carry out an independent clustering in each language, that is a monolingual clustering, and then they find relations among the obtained clusters generating the multilingual clusters.
+[BOS] Others solutions start with a multilingual clustering to look for relations between the documents of all the involved languages.
+[BOS] This is the case of (Chen and Lin, 2000) , where the authors propose an architecture of multilingual news summarizer which includes monolingual and multilingual clustering; the multilingual clustering takes input from the monolingual clusters.
+[BOS] The authors select different type of features depending on the clustering: for the monolingual clustering they use only named entities, for the multilingual clustering they extract verbs besides named entities.
+
+[BOS] The strategies that use language-independent representation try to normalize or standardize the document contents in a language-neutral way; for example: (1) by mapping text contents to an independent knowledge representation, or (2) by recognizing language independent text features inside the documents.
+[BOS] Both approaches can be employed isolated or combined.
+
+[BOS] The first approach involves the use of existing multilingual linguistic resources, such as thesaurus, to create a text representation consisting of a set of thesaurus items.
+[BOS] Normally, in a multilingual thesaurus, elements in different languages are related via language-independent items.
+[BOS] So, two documents written in different languages can be considered similar if they have similar representation according to the thesaurus.
+[BOS] In some cases, it is necessary to use the thesaurus in combination with a machine learning method for mapping correctly documents onto thesaurus.
+[BOS] In (Steinberger et. al., 2002 ) the authors present an approach to calculate the semantic similarity by representing the document contents in a language independent way, using the descriptor terms of the multilingual thesaurus Eurovoc.
+
+[BOS] The second approach, recognition of language independent text features, involves the recognition of elements such as: dates, numbers, and named entities.
+[BOS] In others works, for instance (Silva et. al., 2004) , the authors present a method based on Relevant Expressions (RE).
+[BOS] The RE are multilingual lexical units of any length automatically extracted from the documents using the LiPXtractor extractor, a language independent statistics-based tool.
+[BOS] The RE are used as base features to obtain a reduced set of new features for the multilingual clustering, but the clusters obtained are monolingual.
+
+[BOS] Others works combine recognition of independent text features (numbers, dates, names, cognates) with mapping text contents to a thesaurus.
+[BOS] In ) the cross-lingual news cluster similarity is based on a linear combination of three types of input: (a) cognates, (b) automatically detected references of geographical place names, and (c) the results of a mapping process onto a multilingual classification system which maps documents onto the multilingual thesaurus Eurovoc.
+[BOS] In it is proposed to extract language-independent text features using gazetteers and regular expressions besides thesaurus and classification systems.
+
+[BOS] None of the revised works use as unique evidence for multilingual clustering the identification of cognate named entities between both sides of the comparable corpora.
+

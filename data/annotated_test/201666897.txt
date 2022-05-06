@@ -1,0 +1,32 @@
+[BOS] Machine Reading Comprehension The MRC task has recently attracted a lot of attention in the community.
+[BOS] An MRC system is required Figure 1: t-SNE plot of encoded feature representations from (a) SynNet (Golub et al., 2017) and (b) the proposed AdaMRC.
+[BOS] We sampled 100 data points, each from the development set of the source and the target domains.
+[BOS] Blue: SQuAD.
+[BOS] Red: NewsQA.
+
+[BOS] to answer a question by extracting a text snippet within a given passage as the answer.
+[BOS] A large number of deep learning models have been proposed to tackle this task (Seo et al., 2017; Xiong et al., 2017; Shen et al., 2017; Yu et al., 2018) .
+[BOS] However, the success of these methods largely relies on large-scale humanannotated datasets (such as SQuAD (Rajpurkar et al., 2016) , NewsQA (Trischler et al., 2016) and MS MARCO (Bajaj et al., 2016) ).
+[BOS] Different from previous work that focused on improving the state of the art on particular MRC datasets, we study the MRC task from a different angle, and aim at addressing a critical yet challenging problem: how to transfer an MRC model learned from a high-resource domain to other lowresource domains in an unsupervised manner.
+
+[BOS] Although important for the MRC task, where annotated data are limited in real-life applications, this problem has not yet been well investigated.
+[BOS] There were some relevant studies along this line.
+[BOS] For example, Chung et al. (2018) adapted a pretrained model to TOEFL and MCTest dataset, and Wiese et al. (2017) applied transfer learning to the biomedical domain.
+[BOS] However, both studies assumed that annotated data in the target domain (either questions or question-answer pairs) are available.
+
+[BOS] To the best of our knowledge, SynNet (Golub et al., 2017) is the only work that also studied domain adaptation for MRC.
+[BOS] Compared with SynNet, the key difference in our model is adversarial learning, which enables domain-invariant representation learning for better model adaptation to low-resource domains.
+[BOS] Our approach is also related to multi-task learning (Xu et al., 2019; Caruana, 1997; Liu et al., 2015 and semisupervised learning for MRC.
+[BOS] In this work, we focus on purely unsupervised domain adaptation.
+
+[BOS] Domain Adaptation Domain adaptation aims to make a machine learning model generalizable to other domains, especially without any annotated data in the target domain (or with only limited data) (Ganin and Lempitsky, 2015) .
+[BOS] One line of research on domain adaptation focuses on transiting the feature distribution from the source domain to the target domain (Gong et al., 2012; Long et al., 2015) .
+[BOS] Another school of research focuses on learning domain-invariant representations (Glorot et al., 2011 ) (e.g., via adversarial learning (Ganin et al., 2016; Tzeng et al., 2017) ).
+[BOS] Domain adaptation has been successfully applied to many tasks, such as image classification (Tzeng et al., 2017) , speech recognition (Doulaty et al., 2015) , sentiment classification (Ganin et al., 2016; , machine translation (Johnson et al., 2017; Zoph et al., 2016) , relation extraction (Fu et al., 2017) , and paraphrase identification (Shah et al., 2018) .
+[BOS] Compared to these areas, the application to MRC presents additional challenges, since besides missing labeled data (i.e., answer spans), the questions in the target domain are also unavailable.
+[BOS] To our best knowledge, we are the first to investigate the usage of adversarial domain adaptation for the MRC task.
+
+[BOS] There are many prevailing unsupervised techniques for domain adaptation.
+[BOS] Our proposed approach is inspired by the seminal work of Ganin et al. (2016) to validate its potential of solving domain adaptation problem on a new task, without any supervision for the target domain.
+[BOS] There are also other more advanced methods, such as MMD-based adaptation (Long et al., 2017) , residual transfer network (Long et al., 2016) , and maximum classifier discrepancy (Saito et al., 2018 ) that can be explored for future work.
+

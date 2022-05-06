@@ -1,0 +1,16 @@
+[BOS] Text Style Transfer Most work on text style transfer learns disentangled representations of style and content.
+[BOS] We categorize them based on how they represent content.
+[BOS] Hidden vector approaches represent content as hidden vectors, e.g., Hu et al. (2017) adversarially incorporate a VAE and a style classifier; Shen et al. (2017) propose a cross-aligned AE that adversarially aligns the hidden states of the decoder; Fu et al. (2018) design a multi-decoder model and a style-embedding model for better style representations; use language models as style discriminators; John et al. (2018) utilize bagof-words prediction for better disentanglement of style and content.
+[BOS] Deletion approaches represent content as the input sentence with stylized words deleted, e.g., delete stylized ngrams based on corpus-level statistics and stylize it based on similar, retrieved sentences; jointly train a neutralization module and a stylization module the with reinforcement learning; Zhang et al. (2018a) facilitate the stylization step with a learned sentiment memory.
+
+[BOS] As far as we know, there are two work that avoid disentangled representations.
+[BOS] Zhang et al. (2018b) construct a pseudo-aligned dataset with an SMT model and then learn two NMT models jointly and iteratively.
+[BOS] A concurrent work, Luo et al. (2019) , propose to learn two dual seq2seq models between two styles via reinforcement learning, without disentangling style and content.
+
+[BOS] Sequence Operation Methods Our work is also closely related to sequence operation methods, which are widely used in SMT (Durrani et al., 2011 (Durrani et al., , 2015 Pal et al., 2016) and starts to attract attention in NMT (Stahlberg et al., 2018) .
+[BOS] Compared with methods based on seq2seq models, sequence operation methods are inherently more interpretable (Stahlberg et al., 2018) .
+[BOS] Notably, our method is revision-based, i.e., it operates directly on the input sentence and does not generate from scratch as in machine translation systems.
+
+[BOS] Hierarchical Reinforcement Learning In this work, we adopt the Options Framework (Sutton et al., 1999) in HRL, in which a high-level agent learns to determine more abstract options and a low-level agent learns to take less abstract actions given the option.
+[BOS] Recent work has shown that HRL is effective in various tasks, e.g., Atari games (Kulkarni et al., 2016) , relation classification (Feng et al., 2018) , relation extraction (Takanobu et al., 2018) , and video captioning .
+

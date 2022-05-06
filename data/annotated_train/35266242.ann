@@ -1,0 +1,48 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 59 64	[BOS]
+T3	Transition 470 475	[BOS]
+T4	Reflection 660 665	[BOS]
+T5	Transition 729 734	[BOS]
+T6	Transition 906 911	[BOS]
+T7	Narrative_cite 1025 1030	[BOS]
+T8	Single_summ 1210 1215	[BOS]
+T9	Single_summ 1344 1349	[BOS]
+T10	Single_summ 1471 1476	[BOS]
+T11	Reflection 1623 1628	[BOS]
+T12	Single_summ 1747 1752	[BOS]
+T13	Single_summ 1846 1851	[BOS]
+T14	Reference 165 189	Wing and Baldridge, 2011
+T15	Reference 191 211	Roller et al., 2012)
+T16	Reference 243 267	(Eisenstein et al., 2010
+T17	Reference 269 287	Ahmed et al., 2013
+T18	Reference 289 307	Hong et al., 2012)
+T19	Reference 378 403	(Priedhorsky et al., 2014
+T20	Reference 405 421	Han et al., 2012
+T21	Reference 1183 1207	(Brunsting et al., 2016)
+T23	Dominant 1216 1233	Chi et al. (2016)
+T25	Dominant 1477 1511	Pavalanathan and Eisenstein (2015)
+T26	Dominant 1764 1789	Salehi and Søgaard (2017)
+T27	Reference 422 440	Han et al., , 2014
+T28	Reference 441 465	Wing and Baldridge, 2014
+T22	B_span 1216 1219	Chi
+T24	E_span 1459 1469	predictors
+T29	B_span 1477 1489	Pavalanathan
+T30	E_span 1615 1621	tweets
+T31	B_span 1753 1762	Similarly
+T32	E_span 1896 1904	entities
+T33	B_span 1136 1144	location
+T34	E_span 1202 1206	2016
+T35	B_span 313 320	feature
+T36	E_span 461 465	2014
+T37	B_span 214 222	regional
+T38	E_span 302 306	2012
+T39	E_span 206 210	2012
+T40	B_span 152 156	each
+T41	Pronoun 480 485	these
+T42	Pronoun 888 893	these
+T43	Pronoun 918 922	they
+T44	Pronoun 965 967	it
+T45	Pronoun 1031 1036	These
+T46	Pronoun 1350 1355	Their
+T47	Pronoun 1644 1648	this
+T48	Pronoun 1861 1865	they

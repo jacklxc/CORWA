@@ -1,0 +1,10 @@
+[BOS] Our baseline is the implemented Hiero-like SMT system where only the standard features are employed and the performance is state-of-the-art.
+
+[BOS] We compare our method with the baseline and some typical approaches listed in Table 1 where XP+ denotes the approach in (Marton and Resnik, 2008) and TOFW (topological ordering of function words) stands for the method in (Setiawan et al., 2009) .
+[BOS] As (Xiong et al., 2009 )'s work is based on phrasal SMT system with bracketing transduction grammar rules (Wu, 1997) and (Shen et al., 2009 )'s work is based on the string-to-dependency SMT model, we do not implement these two related work due to their different models from ours.
+[BOS] We also do not compare with )'s work due to its less practicability of integrating numerous sub-models.
+[BOS] Table 1 : Comparison results, our method is significantly better than the baseline, as well as the other two approaches (p < 0.01)
+
+[BOS] As shown in Table 1 , all the methods outperform the baseline because they have extra models to guide the hierarchical rule selection in some ways which might lead to better translation.
+[BOS] Apparently, our method also performs better than the other two approaches, indicating that our method is more effective in the hierarchical rule selection as both source-side and target-side rules are selected together.
+

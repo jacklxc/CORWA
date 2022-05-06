@@ -1,0 +1,23 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 186 191	[BOS]
+T3	Single_summ 317 322	[BOS]
+T4	Single_summ 499 504	[BOS]
+T5	Single_summ 619 624	[BOS]
+T6	Reflection 753 758	[BOS]
+T7	Reflection 854 859	[BOS]
+T8	Reference 105 126	(Vaswani et al., 2017
+T9	Reference 128 144	Tan et al., 2018
+T10	Reference 146 161	Li et al., 2018
+T11	Reference 163 183	Devlin et al., 2019)
+T12	Dominant 336 354	Tran et al. (2018)
+T13	Dominant 515 533	Tang et al. (2018)
+T14	Pronoun 207 212	these
+T15	Pronoun 625 629	They
+T16	Pronoun 759 763	This
+T17	Pronoun 863 867	this
+T19	E_span 178 182	2019
+T20	B_span 336 340	Tran
+T21	E_span 486 497	counterpart
+T22	B_span 515 519	Tang
+T23	E_span 739 751	dependencies
+T18	B_span 6 15	Exploring

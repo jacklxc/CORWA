@@ -1,0 +1,58 @@
+T1	Reflection 0 5	[BOS]
+T2	Transition 200 205	[BOS]
+T3	Multi_summ 303 308	[BOS]
+T4	Multi_summ 477 482	[BOS]
+T5	Single_summ 597 602	[BOS]
+T6	Reflection 730 735	[BOS]
+T7	Reflection 868 873	[BOS]
+T8	Transition 1077 1082	[BOS]
+T9	Transition 1232 1237	[BOS]
+T10	Single_summ 1290 1295	[BOS]
+T11	Multi_summ 1442 1447	[BOS]
+T12	Single_summ 1547 1552	[BOS]
+T13	Single_summ 1673 1678	[BOS]
+T14	Single_summ 1815 1820	[BOS]
+T15	Reflection 1891 1896	[BOS]
+T16	Transition 2042 2047	[BOS]
+T17	Multi_summ 2124 2129	[BOS]
+T18	Multi_summ 2229 2234	[BOS]
+T19	Single_summ 2359 2364	[BOS]
+T20	Reflection 2454 2459	[BOS]
+T21	Reflection 2591 2596	[BOS]
+T22	Reflection 2711 2716	[BOS]
+T23	Dominant 309 329	Blunsom et al. (2008
+T24	Dominant 330 353	Blunsom et al. ( , 2009
+T25	Dominant 354 377	Blunsom et al. ( , 2010
+T26	Reference 580 594	(Chiang, 2007)
+T27	Dominant 603 630	Denero and Uszkoreit (2011)
+T28	Dominant 1296 1315	Wang et al., (2007)
+T29	Dominant 1448 1466	Mi et al., (2008b)
+T30	Dominant 1471 1489	Liu et al., (2009)
+T31	Dominant 1553 1573	Zhang et al. (2011a)
+T32	Dominant 1679 1703	Burkett and Klein (2012)
+T33	Dominant 2130 2154	Burkett and Klein (2008)
+T34	Dominant 2159 2180	Burkett et al. (2010)
+T35	Dominant 2365 2382	Liu et al. (2012)
+T36	Pronoun 1406 1411	their
+T37	Pronoun 1821 1825	They
+T38	Pronoun 1855 1859	they
+T39	Pronoun 2235 2239	They
+T40	Pronoun 2487 2493	theirs
+T41	B_span 309 316	Blunsom
+T42	E_span 589 593	2007
+T43	E_span 589 593	2007
+T44	B_span 581 587	Chiang
+T45	B_span 603 609	Denero
+T46	E_span 718 728	reordering
+T47	B_span 1296 1300	Wang
+T48	E_span 1434 1440	forest
+T49	B_span 1448 1450	Mi
+T50	E_span 1538 1545	forests
+T51	B_span 1553 1558	Zhang
+T52	E_span 1666 1671	model
+T53	B_span 1679 1686	Burkett
+T54	E_span 1884 1889	trees
+T55	B_span 2130 2137	Burkett
+T56	E_span 2348 2357	alignment
+T57	B_span 2365 2368	Liu
+T58	E_span 2443 2452	alignment

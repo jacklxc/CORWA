@@ -1,0 +1,19 @@
+[BOS] Obviously, different domains aim at different readers, thus they exhibit distinctive genres compared to other domains.
+[BOS] A well-tuned MT system cannot directly apply to new domains; otherwise, translation quality will degrade.
+[BOS] Based on this factor, out-domain adaptation has been widely studied for MT, ranging from data selection (Li et al., 2010; Wang et al., 2017) , tuning (Luong and Manning, 2015; Farajian et al., 2017) to domain tags (Chu et al., 2017) .
+[BOS] Similarly, in-domain adaptation is also a compelling direction.
+[BOS] Normally, to train an universal MT system, the training data consist of gigantic corpora covering numerous and various domains.This training data is naturally so diverse that Mima et al. (1997) incorporated extralinguistic information to enhance translation quality.
+[BOS] Michel and Neubig (2018) argue even without explicit signals (gender, politeness etc.
+[BOS] ), they can handle domain-specific information via annotation of speakers, and easily gain quality improvement from a larger number of domains.
+[BOS] Our approach is considerably different from the previous work.
+[BOS] We remove any extra annotation, and treat domain-related information as latent variables, which are learned from corpus.
+
+[BOS] Prior to our work, diverse generation has been studied in image captioning, as some of the training set are comprised of images paired with multiple reference captions.
+[BOS] Some work puts their efforts on decoding stages, and form a group of beam search to encourage diversity (Vijayakumar et al., 2016) , while others pay more attention to adversarial training (Shetty et al., 2017; .
+[BOS] Within translation, our method is similar to Schulz et al. (2018b) , where they propose a MT system armed with variational inference to account for translation variations.
+[BOS] Like us, their diversified generation is driven by latent variables.
+[BOS] Albeit the simplicity of our model, it is effective and able to accommodate variation or diversity.
+[BOS] Meanwhile, we propose several diversity metrics to perform quantitative analysis.
+
+[BOS] Finally, Yang et al. (2018) proposes a mixture of softmaxes to enhance the expressiveness of language model, which demonstrate the effectiveness of our S2SMIX model under the matrix factorization framework.
+

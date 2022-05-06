@@ -1,0 +1,62 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 111 116	[BOS]
+T3	Narrative_cite 226 231	[BOS]
+T4	Transition 459 464	[BOS]
+T5	Transition 587 592	[BOS]
+T6	Transition 746 751	[BOS]
+T7	Reflection 801 806	[BOS]
+T8	Multi_summ 1017 1022	[BOS]
+T9	Narrative_cite 1234 1239	[BOS]
+T10	Single_summ 1358 1363	[BOS]
+T11	Single_summ 1639 1644	[BOS]
+T12	Reflection 1830 1835	[BOS]
+T13	Reflection 2093 2098	[BOS]
+T14	Reflection 2217 2222	[BOS]
+T15	Reflection 2315 2320	[BOS]
+T16	Reflection 2475 2480	[BOS]
+T17	Narrative_cite 2582 2587	[BOS]
+T18	Transition 2771 2776	[BOS]
+T19	Dominant 160 176	Ng et al. (2014)
+T20	Reference 343 370	(Rozovskaya and Roth, 2016)
+T21	Reference 416 456	(Junczys-Dowmunt and Grundkiewicz, 2016)
+T22	Reference 841 880	Junczys-Dowmunt and Grundkiewicz (2016)
+T23	Reference 1091 1108	(Xie et al., 2016
+T24	Reference 1110 1133	Yuan and Briscoe, 2016)
+T25	Dominant 1142 1167	Chollampatt et al. (2016)
+T26	Reference 1332 1355	(Schmaltz et al., 2016)
+T27	Dominant 1364 1387	Yuan and Briscoe (2016)
+T28	Dominant 1645 1662	Xie et al. (2016)
+T29	Reference 2360 2384	Luong and Manning (2016)
+T30	Reference 2525 2549	Luong and Manning (2016)
+T31	Reference 2674 2697	(Sennrich et al., 2016)
+T32	Reference 2750 2768	(Lee et al., 2017)
+T33	Pronoun 593 597	This
+T34	Pronoun 2099 2103	This
+T35	Pronoun 2785 2790	these
+T36	Pronoun 2875 2880	these
+T37	B_span 117 120	The
+T38	E_span 214 224	approaches
+T39	B_span 311 322	classifiers
+T40	E_span 365 369	2016
+T41	B_span 375 383	adapting
+T42	E_span 451 455	2016
+T43	B_span 807 809	We
+T44	E_span 875 879	2016
+T45	B_span 1048 1056	sequence
+T46	E_span 1128 1132	2016
+T47	B_span 1142 1153	Chollampatt
+T48	E_span 1228 1232	task
+T49	B_span 1299 1310	grammatical
+T50	E_span 1350 1354	2016
+T51	B_span 1364 1368	Yuan
+T52	E_span 1628 1637	heuristic
+T53	B_span 1645 1648	Xie
+T54	E_span 1818 1827	decisions
+T55	B_span 2344 2350	hybrid
+T56	E_span 2379 2383	2016
+T57	B_span 2481 2483	We
+T58	E_span 2576 2580	task
+T59	B_span 2658 2662	open
+T60	E_span 2692 2696	2016
+T61	B_span 2719 2724	fully
+T62	E_span 2763 2767	2017

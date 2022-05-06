@@ -1,0 +1,8 @@
+[BOS] In this part, we briefly review the prior work in language representation as well as the semisupervised learning method we used.
+[BOS] (Kiros et al., 2015) tried to learn sentence embedding by reconstructing the surrounding sentences of an encoded passage.
+[BOS] (Peters et al., 2018) proposed to extract context-sensitive features from a language model.
+[BOS] (Devlin et al., 2018) jointly conditioned on both left and right context and obtained state-of-the-art results on eleven natural language processing tasks.
+[BOS] (Triguero et al., 2015) provided a survey of selflabeled methods for semi-supervised classification.
+[BOS] (Zhu and Goldberg, 2009) showed selflabeled techniques are typically divided into selftraining and co-training.
+[BOS] (Lin et al., 2018) proposed semi-supervised learning to leverage a small amount of user-comment data to train a model and then expand the dataset by that trained model.
+

@@ -1,0 +1,46 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 166 171	[BOS]
+T3	Transition 359 364	[BOS]
+T4	Multi_summ 442 447	[BOS]
+T5	Multi_summ 546 551	[BOS]
+T6	Single_summ 668 673	[BOS]
+T7	Single_summ 808 813	[BOS]
+T8	Reflection 916 921	[BOS]
+T9	Single_summ 1147 1152	[BOS]
+T10	Transition 1314 1319	[BOS]
+T11	Narrative_cite 1410 1415	[BOS]
+T12	Narrative_cite 1540 1545	[BOS]
+T13	Transition 1664 1669	[BOS]
+T14	Reflection 1762 1767	[BOS]
+T15	Reflection 1941 1946	[BOS]
+T16	Reference 16 38	Kann and Schtze (2016)
+T17	B_span 16 20	Kann
+T18	E_span 33 37	2016
+T20	E_span 351 355	2018
+T21	Reference 252 274	(Kann and Schtze, 2016
+T22	Reference 276 303	Makarov and Clematide, 2018
+T23	Reference 305 335	Kementchedjhieva et al., 2018;
+T24	Reference 336 355	Sharma et al., 2018
+T25	Dominant 448 468	Najafi et al. (2018)
+T26	Dominant 473 498	Silfverberg et al. (2017)
+T27	B_span 448 454	Najafi
+T28	E_span 663 666	set
+T29	Dominant 674 699	Silfverberg et al. (2017)
+T30	B_span 674 685	Silfverberg
+T31	E_span 798 806	ensemble
+T32	Dominant 814 834	Najafi et al. (2018)
+T33	E_span 911 914	set
+T34	B_span 814 820	Najafi
+T35	Dominant 993 1018	Silfverberg et al. (2017)
+T36	B_span 993 1004	Silfverberg
+T37	E_span 1142 1145	set
+T38	Dominant 1153 1173	Najafi et al. (2018)
+T39	B_span 1153 1159	Najafi
+T40	E_span 1304 1311	setting
+T41	B_span 1440 1447	combine
+T42	E_span 1532 1536	2017
+T43	Reference 1510 1536	Denkowski and Neubig, 2017
+T44	B_span 1569 1574	train
+T45	E_span 1656 1660	2017
+T46	Reference 1633 1660	Denkowski and Neu-big, 2017
+T47	B_span 172 179	Several

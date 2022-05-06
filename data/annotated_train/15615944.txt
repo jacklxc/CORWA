@@ -1,0 +1,45 @@
+[BOS] We first introduce the shift-reduce algorithm for constituent structures.
+[BOS] For space reasons, our exposition is rather informal; See Zhang and Clark (2009) for details.
+[BOS] A shift-reduce parser parses a sentence through transitions between states, each of which consists of two data structures of a stack and a queue.
+[BOS] The stack preserves intermediate parse results, while the queue saves unprocessed tokens.
+[BOS] At each step, a parser selects an action, which changes the current state into the new one.
+[BOS] For example, SHIFT pops the front word from the queue and pushes it onto the stack, while RE-DUCE(X) combines the top two elements on the stack into their parent.
+[BOS] 2 For example, if the top two elements on the stack are DT and NN, RE-DUCE(NP) combines these by applying the CFG rule NP  DT NN.
+
+[BOS] Unary Action The actions above are essentially the same as those in shift-reduce dependency parsing (Nivre, 2008) , but a special action for constituent parsing UNARY(X) complicates the system and search.
+[BOS] For example, if the top element on the stack is NN, UNARY(NP) changes it to NP by applying the rule NP  NN.
+[BOS] In particular, this causes inconsistency in the numbers of actions between derivations (Zhu et al., 2013) , which makes it hard to apply the existing best first search for dependency grammar to our system.
+[BOS] We revisit this problem in Section 3.1.
+
+[BOS] Model The model of a shift-reduce parser gives a score to each derivation, i.e., an action sequence a = (a 1 ,    , a |a| ), in which each a i is a shift or reduce action.
+[BOS] Let p = (p 1 ,    , p |a| ) be the sequence of states, where p i is the state after applying a i to p i1 .
+[BOS] p 0 is the initial state for input sentence w. Then, the score for a derivation (a) is calculated as the total score of every action:
+
+[BOS] There are two well-known models, in which the crucial difference is in training criteria.
+[BOS] The MaxEnt model is trained locally to select the correct action at each step.
+[BOS] It assigns a probability for each action a i as
+
+[BOS] where  and f (a, p) are weight and feature vectors, respectively.
+[BOS] Note that the probability of an action sequence a under this model is the product of local probabilities, though we can cast the total score in summation form (1) by using the log of (2) as a local score (a i , p i1 ).
+[BOS] The structured perceptron is instead trained globally to select the correct action sequence given an input sentence.
+[BOS] It does not use probability and the local score is just (a i , p i1 ) =  f (a i , p i1 ).
+[BOS] In practice, this global model is much stronger than the local MaxEnt model.
+[BOS] However, training this model without any approximation is hard, and the common practice is to rely on well-known heuristics such as an early update with beam search (Collins and Roark, 2004) .
+[BOS] We are not aware of any previous study that succeeded in training a structured perceptron for parsing without approximation.
+[BOS] We will show how this becomes possible in Section 3.
+
+[BOS] Though the framework is shift-reduce, we can notice that our system is strikingly similar to the CKY-based discriminative parser (Hall et al., 2014) because our features basically come from two nodes on the stack and their spans.
+[BOS] From this viewpoint, it is interesting to see that our system outperforms theirs by a large margin (Figure 6 ).
+[BOS] Identifying the source of this performance change is beyond the scope of this paper, but we believe this is an important question for future parsing research.
+[BOS] For example, it is interesting to see whether there is any structural advantage for shiftreduce over CKY by comparing two systems with exactly the same feature set.
+[BOS] As shown in Section 4, the previous optimal parser on shift-reduce (Sagae and Lavie, 2006) was not so strong because of the locality of the model.
+[BOS] Other optimal parsing systems are often based on relatively simple PCFGs, such as unlexicalized grammar (Klein and Manning, 2003b) or factored lexicalized grammar (Klein and Manning, 2003c) in which A* heuristics from the unlexicalized grammar guide search.
+[BOS] However, those systems are not state-of-the-art probably due to the limited context captured with a simple PCFG.
+[BOS] A recent trend has thus been extending the context of each rule (Petrov and Klein, 2007; Socher et al., 2013) , but the resulting complex grammars make exact search intractable.
+[BOS] In our system, the main source of information comes from spans as in CRF parsing.
+[BOS] This is cheap yet strong, and leads to a fast and accurate parsing system with optimality.
+
+[BOS] Concurrently with this work, Mi and Huang (2015) have developed another dynamic programming for constituent shift-reduce parsing by keeping the step size for a sentence to 4n  2, instead of 2n, with an un-unary (stay) action.
+[BOS] Their final score is 90.8 F1 on WSJ.
+[BOS] Though they only experiment with beam-search, it is possible to build BFS with their transition system as well.
+

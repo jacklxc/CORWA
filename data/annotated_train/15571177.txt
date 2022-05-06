@@ -1,0 +1,13 @@
+[BOS] Many syntax-based approaches to machine translation rely on bilingual treebanks to extract transfer rules or train statistical translation models.
+[BOS] In order to build bilingual treebanks a number of methods for automatic tree alignment have been developed, e.g., (Gildea, 2003; Groves et al., 2004; Tinsley et al., 2007; Lavie et al., 2008) .
+[BOS] Most related to our approach is the work on discriminative tree alignment by Tiedemann & Kotz (2009) .
+[BOS] However, these algorithms assume that source and target sentences express the same information (i.e. parallel text) and cannot cope with comparable text where parts may remain unaligned.
+[BOS] See for further arguments and empirical evidence that MT alignment algorithms are not suitable for aligning parallel monolingual text.
+[BOS] MacCartney, Galley, and Manning (2008) describe a system for monolingual phrase alignment based on supervised learning which also exploits external resources for knowledge of semantic relatedness.
+[BOS] In contrast to our work, they do not use syntactic trees or similarity relation labels.
+[BOS] Partly similar semantic relations are used in for modeling semantic containment and exclusion in natural language inference.
+[BOS] Marsi & Krahmer (2005a) is closely related to our work, but follows a more complicated method: first a dynamic programmingbased tree alignment algorithm is applied, followed by a classification of similarity relations using a supervised-classifier.
+[BOS] Other differences are that their data set is much smaller and consists of parallel rather than comparable text.
+[BOS] A major drawback of this algorithmic approach it that it cannot cope with crossing alignments.
+[BOS] We are not aware of other work that combines alignment with semantic relation labeling, or algorithms which perform both tasks simultaneously.
+

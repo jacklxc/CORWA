@@ -1,0 +1,20 @@
+[BOS] The cloze-style reading comprehension task can be formulated as: Given a document-query pair (d, q), select cC that answers the cloze position in q where C is the candidate set.
+[BOS] Each candidate answer c appears at least once in the document d. Below are related approaches to address reading comprehension problem.
+[BOS] Hermann et al. (2015) employed Attentive Reader that computes a document vector via attention using q, giving a joint representation g(d(q), q).
+[BOS] In some sense, d(q) becomes a queryaware representation of a document.
+[BOS] Impatient Reader was proposed in the same paper to model the joint representation but in a incremental fashion.
+[BOS] Stanford Reader (Chen et al., 2016) further simplified Attentive Reader with shallower recurrent units and a bilinear attention.
+[BOS] Attention-Sum (AS) Reader introduced a bias towards frequently occurred entity candidates via summation of the probabilities of the same entity instances in a document (Kadlec et al., 2016) .
+[BOS] Cui et al. (2017) proposed Attention-over-Attention (AoA) Reader that employed a two-way attention for reading comprehension.
+[BOS] Multi-hop architecture for text comprehension was also investigated in (Hill et al., 2016; Sordoni et al., 2016; Shen et al., 2017; Munkhdalai and Yu, 2017; Dhingra et al., 2017) .
+[BOS] Kobayashi et al. (2016) and built dynamic representations for candidate answers while reading the document, sharing the same spirit to GA Reader (Dhingra et al., 2017) where token encodings of a document become query-aware.
+[BOS] Brarda et al. (2017) proposed sequential attention to make the alignment of query and document tokens context-aware.
+[BOS] Wang et al. (2017a) showed that additional linguistic features improve reading comprehension.
+
+[BOS] Self-attention has been successfully applied in various NLP applications including neural machine translation (Vaswani et al., 2017) , abstractive summarization (Paulus et al., 2017) and sentence embedding (Lin et al., 2017) .
+[BOS] Self-attention links different positions of a sequence to generate a structural representation for the sequence.
+[BOS] In reading comprehension literature, self-attention has been investigated.
+[BOS] (Wang et al., 2017b) proposed a Gated Self-Matching mechanism which produced context-enhanced token encodings in a document.
+[BOS] In this paper, we have a different angle for applying self-attention.
+[BOS] We employ selfattention to weight and propagate evidences from different positions of a query to the cloze position to enhance reading comprehension performance.
+

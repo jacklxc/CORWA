@@ -1,0 +1,58 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 145 150	[BOS]
+T3	Single_summ 357 362	[BOS]
+T4	Single_summ 539 544	[BOS]
+T5	Transition 673 678	[BOS]
+T6	Single_summ 788 793	[BOS]
+T7	Single_summ 898 903	[BOS]
+T8	Single_summ 1041 1046	[BOS]
+T9	Single_summ 1250 1255	[BOS]
+T10	Transition 1411 1416	[BOS]
+T11	Single_summ 1592 1597	[BOS]
+T12	Single_summ 1749 1754	[BOS]
+T13	Single_summ 1880 1885	[BOS]
+T14	Reflection 1993 1998	[BOS]
+T15	Reflection 2107 2112	[BOS]
+T16	Transition 2312 2317	[BOS]
+T17	Single_summ 2502 2507	[BOS]
+T18	Single_summ 2691 2696	[BOS]
+T19	Single_summ 2829 2834	[BOS]
+T20	Reference 51 76	(Swanson and Gordon, 2006
+T21	Reference 78 96	Zhao et al., 2009)
+T22	Dominant 363 381	Zhou and Xu (2015)
+T23	Dominant 545 567	Roth and Lapata (2016)
+T24	Dominant 794 811	He et al. (2018b)
+T25	Dominant 904 926	Strubell et al. (2018)
+T26	Dominant 1256 1273	Xia et al. (2019)
+T27	Dominant 1598 1615	Sun et al. (2009)
+T28	Dominant 1755 1774	Wang et al. (2015b)
+T29	Dominant 1886 1903	Xia et al. (2017)
+T30	Dominant 2508 2525	Kim et al. (2016)
+T31	Dominant 2697 2715	Peng et al. (2017)
+T32	Dominant 2848 2866	Peng et al. (2018)
+T33	B_span 18 26	discrete
+T34	E_span 95 96	)
+T35	B_span 363 367	Zhou
+T36	E_span 537 538	.
+T37	B_span 545 549	Roth
+T38	E_span 671 672	.
+T39	B_span 794 796	He
+T40	E_span 896 897	.
+T41	B_span 904 907	Str
+T42	E_span 1039 1040	.
+T43	B_span 1256 1259	Xia
+T44	E_span 1408 1409	.
+T45	B_span 1598 1601	Sun
+T46	E_span 1747 1748	.
+T47	B_span 1755 1759	Wang
+T48	E_span 1878 1879	.
+T49	B_span 1886 1889	Xia
+T50	E_span 1991 1992	.
+T51	B_span 2508 2511	Kim
+T52	E_span 2682 2689	domains
+T53	B_span 2697 2701	Peng
+T54	E_span 2827 2828	.
+T55	B_span 2848 2852	Peng
+T56	E_span 2988 2989	.
+T57	Pronoun 1217 1222	their
+T58	Pronoun 2080 2085	their

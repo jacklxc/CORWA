@@ -1,0 +1,7 @@
+[BOS] Previous approaches for VMWE identification include the two-pass method of candidate extraction followed by binary classification (Fazly et al., 2009; Nagy T. and Vincze, 2014) .
+[BOS] VMWE identification has also been performed using sequence labeling approaches, with IOBscheme.
+[BOS] For instance, Diab and Bhutada (2009) apply a sequential SVM to identify verb-noun idiomatic combinations in English.
+[BOS] Such approaches were used for MWE identification in general (including verbal expressions) ranging from contiguous expressions (Blunsom and Baldwin, 2006 ) to gappy ones (Schneider et al., 2014) .
+
+[BOS] A joint syntactic analysis and VMWE identification approach using off-the-shelf parsers is another interesting alternative that has shown to help VMWE identification such as light verb constructions (Eryigit et al., 2011; Vincze et al., 2013) .
+

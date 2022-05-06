@@ -1,0 +1,10 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 109 114	[BOS]
+T3	Single_summ 318 323	[BOS]
+T4	B_span 129 137	Pakhomov
+T5	E_span 311 316	tasks
+T6	Dominant 129 151	Pakhomov et al., 2016)
+T7	Dominant 157 173	Wang et al., 201
+T8	E_span 613 618	tasks
+T9	Dominant 325 347	Nikfarjam et al., 2015
+T10	B_span 325 334	Nikfarjam

@@ -1,0 +1,41 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 38 43	[BOS]
+T3	Narrative_cite 130 135	[BOS]
+T4	Reflection 465 470	[BOS]
+T5	Narrative_cite 595 600	[BOS]
+T6	Single_summ 929 934	[BOS]
+T7	Single_summ 1077 1082	[BOS]
+T8	Single_summ 1198 1203	[BOS]
+T9	Reflection 1286 1291	[BOS]
+T10	Single_summ 1395 1400	[BOS]
+T11	Single_summ 1529 1534	[BOS]
+T12	Reference 178 196	(Ling et al., 2015
+T13	Reference 198 227	Costajuss and Fonollosa, 2016
+T14	Reference 229 247	Chung et al., 2016
+T15	Reference 249 267	Luong et al., 2016
+T16	Reference 269 286	Lee et al., 2016)
+T17	Reference 311 338	Garca-Martnez et al., 2016)
+T18	Reference 694 711	(Liu et al., 2006
+T19	Reference 713 736	Marton and Resnik, 2008
+T20	Reference 738 756	Shen et al., 2008)
+T21	Reference 902 926	(Stahlberg et al., 2016)
+T22	Dominant 935 952	Shi et al. (2016)
+T23	Dominant 1083 1102	Luong et al. (2016)
+T24	Dominant 1204 1226	Eriguchi et al. (2016)
+T25	Dominant 1401 1425	Ishiwatari et al. (2017)
+T26	B_span 162 171	character
+T27	E_span 281 285	2016
+T28	B_span 296 299	sub
+T29	E_span 333 337	2016
+T30	B_span 690 693	SMT
+T31	E_span 751 755	2008
+T32	B_span 880 889	syntactic
+T33	E_span 921 925	2016
+T34	B_span 935 938	Shi
+T35	E_span 1065 1075	implicitly
+T36	B_span 1083 1088	Luong
+T37	E_span 1189 1196	results
+T38	B_span 1204 1212	Eriguchi
+T39	E_span 1276 1284	training
+T40	B_span 1401 1411	Ishiwatari
+T41	E_span 1670 1674	gate

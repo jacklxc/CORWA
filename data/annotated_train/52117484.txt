@@ -1,0 +1,19 @@
+[BOS] Cross-Lingual Learning Cross-lingual learning approaches can be loosely classified into two categories: annotation projection and languageindependent transfer.
+
+[BOS] Annotation projection methods create training data by using parallel corpora to project annotations from the source to the target language.
+[BOS] Such approaches have been applied to many tasks under the cross-lingual setting, such as POS tagging (Yarowsky et al., 2001; Das and Petrov, 2011; Tckstrm et al., 2013; Fang and Cohn, 2016) , mention detection (Zitouni and Florian, 2008) and parsing (Hwa et al., 2005; McDonald et al., 2011) .
+
+[BOS] Language independent transfer-based approaches build models using language independent and delexicalized features.
+[BOS] For instance, Zirikly and Hagiwara (2015) transfers word cluster and gazetteer features through the use of comparable copora.
+[BOS] Tsai et al. (2016) links words to Wikipedia entries and uses the entry category as features to train language independent NER models.
+[BOS] Recently, Ni et al. (2017) propose to project word embeddings into a common space as language independent features.
+[BOS] These approaches utilize such features by training a model on the source language and directly applying it to the target language.
+
+[BOS] Another way of performing language independent transfer resorts to multi-task learning, where a model is trained jointly across different languages by sharing parameters to allow for knowledge transfer (Ammar et al., 2016a; Cotterell and Duh, 2017; Lin et al., 2018) .
+[BOS] However, such approaches usually require some amounts of training data in the target language for bootstrapping, which is different from our unsupervised approach that requires no labeled resources in the target language.
+
+[BOS] Bilingual Word Embeddings There have been two general paradigms in obtaining bilingual word vectors besides using dictionaries: through parallel corpora and through joint training.
+[BOS] Approaches based on parallel corpora usually learn bilingual word embeddings that can produce similar representations for aligned sentences (Hermann and Blunsom, 2014; Chandar et al., 2014) .
+[BOS] Jointlytrained models combine the common monolingual training objective with a cross-lingual training objective that often comes from parallel corpus (Zou et al., 2013; Gouws et al., 2015) .
+[BOS] Recently, unsupervised approaches also have been used to align two sets of word embeddings by learning a mapping through adversarial learning or selflearning (Zhang et al., 2017; Artetxe et al., 2017; Lample et al., 2018) .
+

@@ -1,0 +1,31 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 322 327	[BOS]
+T3	Transition 448 453	[BOS]
+T4	Transition 516 521	[BOS]
+T5	Reflection 723 728	[BOS]
+T6	Reflection 866 871	[BOS]
+T7	Reflection 993 998	[BOS]
+T8	Multi_summ 1083 1088	[BOS]
+T9	Reflection 1349 1354	[BOS]
+T10	Reflection 1445 1450	[BOS]
+T11	Reference 133 150	Wang et al., 2017
+T12	Reference 152 180	Tiedemann and Scherrer, 2017
+T13	Reference 182 201	Bawden et al., 2018
+T14	Reference 203 221	Voita et al., 2018
+T15	Reference 223 251	Stojanovski and Fraser, 2018
+T16	Reference 253 276	Miculicich et al., 2018
+T17	Reference 278 293	Tu et al., 2018
+T18	Reference 295 319	Maruf and Haffari, 2018)
+T19	Dominant 1157 1176	(Kobus et al., 2017
+T20	Dominant 1178 1200	Tars and Fishel, 2018)
+T21	Pronoun 328 333	These
+T22	Pronoun 562 567	these
+T23	Pronoun 582 586	they
+T24	Pronoun 802 807	these
+T25	Pronoun 999 1003	This
+T26	Pronoun 1089 1093	This
+T27	Pronoun 1364 1368	they
+T28	B_span 57 68	integrating
+T29	E_span 314 318	2018
+T30	B_span 1089 1093	This
+T31	E_span 1337 1347	embeddings

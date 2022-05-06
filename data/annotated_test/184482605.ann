@@ -1,0 +1,18 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 197 202	[BOS]
+T3	Narrative_cite 510 515	[BOS]
+T4	Dominant 84 109	Hershcovich et al. (2017)
+T5	Dominant 224 250	Hershcovich et al. (2018a)
+T6	Reference 430 454	(Banarescu et al., 2013)
+T7	Reference 487 507	(Nivre et al., 2016)
+T8	Reference 665 691	(Hershcovich et al., 2017)
+T10	B_span 84 95	Hershcovich
+T9	E_span 181 195	representation
+T11	B_span 224 235	Hershcovich
+T12	E_span 502 506	2016
+T13	B_span 392 400	Abstract
+T14	E_span 449 453	2013
+T15	B_span 459 468	Universal
+T16	E_span 502 506	2016
+T17	B_span 647 654	parsing
+T18	E_span 686 690	2017

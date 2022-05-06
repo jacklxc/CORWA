@@ -1,0 +1,10 @@
+[BOS] Recently, many studies have focused on using explicit syntactic tree structure to help learn sentence representations for various sentence classification tasks.
+[BOS] For example, Teng and Zhang (2016) and Kokkinos and Potamianos (2017) extend the bottom-up model to a bidirectional model for classification tasks, using Tree-LSTMs with head lexicalization and Tree-GRUs, respectively.
+[BOS] We draw on some of these ideas and apply them to machine translation.
+[BOS] We use the representation learnt from tree structures to enhance the original sequential model, and make use of these syntactic information during the generation phase.
+
+[BOS] In NMT systems, the attention model (Bahdanau et al., 2015) becomes a crucial part of the decoder model.
+[BOS] Cohn et al. (2016) and Feng et al. (2016) extend the attentional model to include structural biases from word based alignment models.
+[BOS] Kim et al. (2017) incorporate richer structural distributions within deep networks to extend the attention model.
+[BOS] Our contribution to the decoder model is to directly exploit structural information in the attention model combined with a coverage mechanism.
+

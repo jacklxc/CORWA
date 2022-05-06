@@ -1,0 +1,32 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 139 144	[BOS]
+T3	Single_summ 207 212	[BOS]
+T4	Single_summ 378 383	[BOS]
+T5	Single_summ 485 490	[BOS]
+T6	Single_summ 590 595	[BOS]
+T7	Reflection 702 707	[BOS]
+T8	Narrative_cite 876 881	[BOS]
+T9	Reflection 1031 1036	[BOS]
+T10	Reflection 1120 1125	[BOS]
+T11	Reference 75 96	(Culotta et al., 2007
+T12	Reference 98 115	Wick et al., 2009
+T13	Reference 117 136	Singh et al., 2011)
+T14	Dominant 148 169	Wiseman et al. (2016)
+T15	Dominant 384 408	Clark and Manning (2015)
+T16	Reference 983 1002	(Le and Titov, 2017
+T17	Reference 1004 1029	Clark and Manning, 2016 )
+T18	Reference 1197 1216	Le and Titov (2017)
+T19	B_span 48 54	entity
+T20	E_span 135 136	)
+T21	B_span 148 152	Wise
+T23	B_span 384 389	Clark
+T25	B_span 950 954	core
+T26	E_span 1028 1029	)
+T27	B_span 1170 1174	core
+T28	E_span 1215 1216	)
+T29	Pronoun 219 223	this
+T30	Pronoun 242 244	it
+T31	Pronoun 1055 1060	these
+T32	Pronoun 1223 1227	this
+T33	E_span 370 376	manner
+T22	E_span 580 588	learning

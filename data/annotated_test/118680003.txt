@@ -1,0 +1,17 @@
+[BOS] Progress in GEC has accelerated rapidly since the CoNLL-2014 Shared Task (Ng et al., 2014) .
+[BOS] Rozovskaya and Roth (2016) combined a Phrase Based Machine Translation (PBMT) model trained on the Lang-8 dataset (Mizumoto et al., 2011) with error specific classifiers.
+[BOS] JunczysDowmunt and Grundkiewicz (2016) combined a PBMT model with bitext features and a larger language model.
+[BOS] The first Neural Machine Translation (NMT) model to reach the state of the art on CoNLL-2014 (Chollampatt and Ng, 2018) used an ensemble of four convolutional sequence-tosequence models followed by rescoring.
+[BOS] The current state of the art (F 0.5 of 56.25 on CoNLL-2014) using publicly available Lang-8 and CoNLL data was achieved by Grundkiewicz and JunczysDowmunt (2018) with a hybrid PBMT-NMT system.
+[BOS] A neural-only result with an F 0.5 of 56.1 on CoNLL-2014 was reported by using an ensemble of neural Transformer models (Vaswani et al., 2017) , where the decoder side of each model is pretrained as a language model.
+[BOS] From a modeling perspective, our approach can be viewed as a direct extension of this last work.
+[BOS] Rather than pretraining only the decoder as a language model, we pretrain on a large amount of parallel data from either Wikipedia revision histories or from round-trip translations.
+[BOS] While pretraining on out-of-domain data has been employed previously for neural machine translation (Luong and Manning, 2015) , it has not been presented in GEC thus far, perhaps due to the absence of such large datasets.
+[BOS] Tao et al. (2018b) apply iterative decoding, where two neural models, trained in left-to-right and right-to-left directions, are applied in an interleaved manner.
+[BOS] Similar to their study, we find that iterative decoding can improve the performance of GEC.
+
+[BOS] Prior work (Brockett et al., 2006; Foster and Andersen, 2009; Table 9 : Comparison of recent state-of-the-art models (top) and our best single-system and ensemble models (bottom) on the CoNLL-2014 and JFLEG datsets.
+[BOS] Only systems trained with publicly available Lang-8 and CoNLL datasets are reported.
+
+[BOS] Original Recently, a new coming surveillance technology called radio-frequency identification which is RFID for short has caused heated discussions on whether it should be used to track people.
+

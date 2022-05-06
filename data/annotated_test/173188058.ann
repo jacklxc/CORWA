@@ -1,0 +1,23 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 191 196	[BOS]
+T3	Narrative_cite 381 386	[BOS]
+T4	Narrative_cite 637 642	[BOS]
+T5	Reference 150 167	(Min et al., 2017
+T6	Reference 169 188	Chung et al., 2018)
+T7	Reference 313 331	(Lai et al., 2017)
+T8	Reference 545 565	Radford et al., 2018
+T9	Reference 567 586	McCann et al., 2018
+T10	Reference 588 613	Chronopoulou et al., 2019
+T11	Reference 615 633	Phang et al., 2018
+T12	Reference 797 819	(Yogatama et al., 2019
+T14	Pronoun 216 220	this
+T15	Pronoun 278 282	they
+T17	E_span 183 187	2018
+T18	B_span 289 293	fine
+T19	E_span 326 330	2017
+T20	B_span 469 481	unsupervised
+T21	E_span 629 633	2018
+T22	B_span 764 778	generalization
+T13	Reference 821 837	Liu et al., 2019
+T23	E_span 833 837	2019
+T16	B_span 32 34	RC

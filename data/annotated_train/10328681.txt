@@ -1,0 +1,19 @@
+[BOS] Attempts to distinguish foreground and background regions in text date back to the 1980s.
+[BOS] Decker (1985) generated summaries from newspaper reports, where they used deterministic syntactic rules to label foreground events.
+[BOS] These rules were based on predictable reporting styles in journalism such as the inverted pyramid and block paragraph 1 , and drew heavily on the syntactic correlation between grounding and information content.
+[BOS] We analyze the performance of these rules for news-peg identification in our experiments ( 6).
+
+[BOS] The study of dominant elements of discourse has been formally studied in linguistics as a part of centering theory (Grosz et al., 1995) , a broader theory of attention and coherence in discourse, both of which were analyzed on a document-level basis (i.e. local discourse).
+[BOS] The authors suggested the use of centering constructs to keep track of the key entities, which change with discourse.
+[BOS] Document-level importance of entities (which include events) was explored by Gamon et al. (2013) .
+[BOS] The authors use the term salience to denote entity importance and graded entities into 3 categories -most salient, less salient, not salient.
+[BOS] They extracted supervision from web-search logs to semiautomatically obtain noisy salience judgments for a large web corpus.
+[BOS] Salient entities in a web document were then identified using graph centrality measures.
+
+[BOS] Our event extraction approach ( 4.1) closely resembles the Open-IE event extraction approach (Fader et al., 2011; Hu et al., 2013; Do et al., 2011) which views events as sentence-level relations.
+[BOS] Events are extracted via syntactic and lexical constraints, which are imposed on sentence level structure, such as dependency parse.
+[BOS] For example, Sun et al. (2015) use the nsubj and dobj relations to identify relation pairs, which are then merged if they share the same predicate to form a (Subj,Pred,Obj) tuple expressing an event.
+[BOS] Unlike traditional event paradigms like ACE (NIST, 2004) and ERE (ERE, 2013) , the Open-IE event paradigm enjoys portability and domain-independence.
+
+[BOS] 1 Also known as nut-paragraph.
+

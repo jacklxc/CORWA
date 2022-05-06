@@ -1,0 +1,19 @@
+[BOS] Neural networks have revolutionized the field of text generation, in machine translation (Sutskever et al., 2014) , summarization (See et al., 2017) and image captioning (You et al., 2016) .
+[BOS] However, conditional text generation has been relatively less studied as compared to conditional image generation and poses some unique problems.
+[BOS] One of the issues is the non-differentiability of the sampled text that limits the applicability of a global discriminator in end-to-end training.
+[BOS] The problem has been relatively addressed by using CNNs for generation (Rajeswar et al., 2017) , policy gradient reinforcement learning methods including SeqGAN (Yu et al., 2017) , LeakGAN (Guo et al., 2018) , or using latent representation like Gumbel softmax ((Jang et al., 2016) ).
+[BOS] Many of these approaches suffer from high training variance, mode collapse or cannot be evaluated beyond a qualitative analysis.
+[BOS] Many models have been proposed for text generation.
+[BOS] Seq2seq models are standard encoderdecoder models widely used in text applications like machine translation (Luong et al., 2015) and paraphrasing (Prakash et al., 2016) .
+[BOS] Variational Auto-Encoder (VAE) models are another important family (Kingma and Welling, 2013) and they consist of an encoder that maps each sample to a latent representation and a decoder that generates samples from the latent space.
+[BOS] The advantage of these models is the variational component and its potential to add diversity to the generated data.
+[BOS] They have been shown to work well for text generation (Bowman et al., 2016) .
+[BOS] Conditional VAE (CVAE) (Kingma et al., 2014) was proposed to improve over seq2seq models for generating more diverse and relevant text.
+[BOS] CVAE based models (Serban et al., 2017; Shen et al., 2017; Zhou and Wang, 2018) incorporate stochastic latent variables that represents the generated text, and append the output of VAE as an additional input to decoder.
+
+[BOS] Paraphrasing can be performed using neural networks with an encoder-decoder configuration, including sequence to sequence (S2S) (Luong et al., 2015) and generative models (Bowman et al., 2016) allow for control of the output distribution of the data generation (Yan et al., 2015; Hu et al., 2018) .
+[BOS] Unlike the typical paraphrasing task we care about the lexical diversity and novelty of the generated output.
+[BOS] This has been a concern in paraphrase generation: a generator that only produces trivial outputs can still perform fairly well in terms of typical paraphrasing evaluation metrics, despite the output being of little use.
+[BOS] Alternative metrics have been proposed to encourage more diverse outputs (Shima and Mitamura, 2011) .
+[BOS] Typically evaluation of paraphrasing or text generation tasks is performed by using a similarity metric (usually some variant of BLEU (Papineni et al., 2002) ) calculated against a held-out set (Prakash et al., 2016; Rajeswar et al., 2017; Yu et al., 2017) .
+

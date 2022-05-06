@@ -1,0 +1,61 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 108 113	[BOS]
+T3	Narrative_cite 206 211	[BOS]
+T4	Narrative_cite 432 437	[BOS]
+T5	Transition 604 609	[BOS]
+T6	Transition 729 734	[BOS]
+T7	Transition 844 849	[BOS]
+T8	Single_summ 993 998	[BOS]
+T9	Transition 1194 1199	[BOS]
+T10	Transition 1289 1294	[BOS]
+T11	Transition 1408 1413	[BOS]
+T12	Single_summ 1495 1500	[BOS]
+T13	Single_summ 1669 1674	[BOS]
+T14	Reflection 1762 1767	[BOS]
+T15	Transition 1812 1817	[BOS]
+T16	Transition 1958 1963	[BOS]
+T17	Transition 2052 2057	[BOS]
+T18	Narrative_cite 2111 2116	[BOS]
+T19	Transition 2372 2377	[BOS]
+T20	Multi_summ 2481 2486	[BOS]
+T21	Multi_summ 2704 2709	[BOS]
+T22	Transition 2909 2914	[BOS]
+T23	Transition 2999 3004	[BOS]
+T24	Reference 365 386	(Nobata et al., 2016)
+T25	Reference 531 552	(Waseem et al., 2017)
+T26	Dominant 1002 1030	(Malmasi and Zampieri, 2018)
+T27	Dominant 1581 1599	(Gao et al., 2017)
+T28	Reference 2314 2340	(Schmidt and Wiegand, 2017
+T29	Reference 2342 2369	Malmasi and Zampieri, 2017)
+T30	Dominant 2487 2512	(Gambck and Sikdar, 2017)
+T31	Dominant 2580 2601	(Zhang et al., 2018 )
+T32	Dominant 2805 2823	(Qian et al., 2018
+T33	Dominant 2825 2845	Founta et al., 2018)
+T34	Pronoun 114 118	This
+T35	Pronoun 610 612	It
+T36	Pronoun 735 739	This
+T37	Pronoun 850 854	This
+T38	Pronoun 1033 1035	it
+T39	Pronoun 1120 1122	it
+T40	Pronoun 1414 1418	This
+T41	Pronoun 1482 1486	this
+T42	Pronoun 1675 1680	Their
+T43	Pronoun 1768 1772	This
+T44	Pronoun 1987 1992	these
+T45	Pronoun 3018 3022	this
+T46	B_span 329 333	anti
+T47	E_span 381 385	2016
+T48	B_span 453 458	multi
+T49	E_span 594 602	bullying
+T50	B_span 999 1001	In
+T51	E_span 1181 1192	classifiers
+T52	B_span 1501 1514	Acknowledging
+T53	E_span 1756 1760	data
+T54	B_span 2126 2133	feature
+T55	E_span 2364 2368	2017
+T56	B_span 2488 2494	Gambck
+T57	E_span 2569 2575	speech
+T58	B_span 2581 2586	Zhang
+T59	E_span 2697 2701	task
+T60	E_span 2902 2907	posts
+T61	B_span 2710 2716	Rather

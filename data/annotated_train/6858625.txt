@@ -1,0 +1,16 @@
+[BOS] Previous studies have made great efforts to incorporate statistics and linguistic heuristics or syntactic information into word alignments (Ittycheriah and Roukos 2005; Taskar et al. 2005; Moore et al. 2006; Cherry and Lin 2006; DeNero and Klein 2007; May and Knight 2007; Fossum et al. 2008; Hermjakob 2009; Liu et al. 2010) .
+[BOS] For example, Fossum et al. (2008) used a discriminatively trained model to identify and delete incorrect links from original word alignments to improve stringto-tree transformation rule extraction, which incorporates four types of features such as lexical and syntactic features.
+[BOS] This paper presents an approach to incorporating translation span alignments into word alignments to delete spurious links and add new valuable links.
+[BOS] Some previous work directly models the syntactic correspondence in the training data for syntactic rule extraction (Imamura 2001; Groves et al. 2004; Tinsley et al. 2007; Sun et al. 2010a Sun et al. , 2010b Pauls et al. 2010) .
+[BOS] Some previous methods infer syntactic correspondences between the source and the target languages through word alignments and constituent boundary based syntactic constraints.
+[BOS] Such a syntactic alignment method is sensitive to word alignment behavior.
+[BOS] To combat this, Pauls et al. (2010) presented an unsupervised ITG alignment model that directly aligns syntactic structures for string-to-tree transformation rule extraction.
+[BOS] One major problem with syntactic structure alignment is that syntactic divergence between languages can prevent accurate syntactic alignments between the source and target languages.
+[BOS] May and Knight (2007) presented a syntactic realignment model for syntax-based MT that uses syntactic constraints to re-align a parallel corpus with word alignments.
+[BOS] The motivation behind their methods is similar to ours.
+[BOS] Our work differs from (May and Knight 2007) in two major respects.
+[BOS] First, the approach proposed by May and Knight (2007) first utilizes the EM algorithm to obtain Viterbi derivation trees from derivation forests of each (tree, string) pair, and then produces Viterbi alignments based on obtained derivation trees.
+[BOS] Our forced decoding based approach searches for the best derivation to produce translation span alignments that are used to improve the extraction of translation rules.
+[BOS] Translation span alignments are optimized by the translation model.
+[BOS] Secondly, their models are only applicable for syntax-based systems while our method can be applied to both phrase-based and syntax-based translation tasks.
+

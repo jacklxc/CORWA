@@ -1,0 +1,122 @@
+T1	Reflection 0 5	[BOS]
+T2	Single_summ 76 81	[BOS]
+T3	Single_summ 293 298	[BOS]
+T4	Single_summ 447 452	[BOS]
+T5	Reflection 574 579	[BOS]
+T6	Single_summ 652 657	[BOS]
+T7	Reflection 858 863	[BOS]
+T8	Narrative_cite 969 974	[BOS]
+T9	Multi_summ 1396 1401	[BOS]
+T10	Multi_summ 1584 1589	[BOS]
+T11	Single_summ 1715 1720	[BOS]
+T12	Narrative_cite 1815 1820	[BOS]
+T13	Narrative_cite 2157 2162	[BOS]
+T14	Single_summ 2386 2391	[BOS]
+T15	Transition 2484 2489	[BOS]
+T16	Single_summ 2593 2598	[BOS]
+T17	Narrative_cite 2702 2707	[BOS]
+T18	Narrative_cite 2991 2996	[BOS]
+T19	Reflection 3191 3196	[BOS]
+T20	Dominant 82 101	Lin and Hovy (1997)
+T21	Reference 174 197	(Hong and Nenkova, 2014
+T22	Reference 199 221	Narayan et al., 2018a)
+T23	Reference 269 290	(Kedzie et al., 2018)
+T24	Dominant 299 321	Narayan et al. (2018a)
+T25	Dominant 486 513	Lin and Bilmes (2012, 2011)
+T26	Dominant 716 732	(Peyrard, 2019a)
+T27	Reference 1063 1086	(Nallapati et al., 2016
+T28	Reference 1088 1107	Grusky et al., 2018
+T29	Reference 1109 1131	Narayan et al., 2018a)
+T30	Reference 1162 1180	(Kang et al., 2018
+T31	Reference 1182 1202	Kedzie et al., 2018)
+T32	Reference 1219 1246	(Gorinski and Lapata, 2015)
+T33	Reference 1255 1282	(Mihalcea and Ceylan, 2007)
+T34	Reference 1300 1321	(Ouyang et al., 2017)
+T35	Reference 1344 1367	(Carletta et al., 2005)
+T36	Dominant 1489 1514	Mihalcea and Tarau (2004)
+T37	Dominant 1516 1538	Erkan and Radev (2004)
+T38	Dominant 1590 1611	Lin and Bilmes (2010)
+T39	Dominant 1614 1644	Carbonell and Goldstein (1998)
+T40	Dominant 1721 1743	Yogatama et al. (2015)
+T41	Reference 1909 1935	(Woodsend and Lapata, 2011
+T42	Reference 1937 1959	Cohn and Lapata, 2008)
+T43	Reference 1969 1988	(Zajic et al., 2004
+T44	Reference 1990 2009	Lin and Hovy, 2000)
+T45	Reference 2033 2052	Gerani et al., 2014
+T46	Reference 2054 2074	Ganesan et al., 2010
+T47	Reference 2076 2091	Filippova, 2010
+T48	Reference 2093 2116	Boudin and Morin, 2013)
+T49	Reference 2217 2233	(McDonald, 2007)
+T50	Reference 2283 2307	(Gillick and Favre, 2009
+T51	Reference 2309 2330	Banerjee et al., 2015
+T52	Reference 2332 2351	Boudin et al., 2015
+T53	Reference 2353 2383	Berg-Kirkpatrick et al., 2011)
+T54	Dominant 2392 2413	Durrett et al. (2016)
+T55	Dominant 2623 2641	Rush et al. (2015)
+T56	Reference 2808 2831	(Cheng and Lapata, 2016
+T57	Reference 2833 2856	Allamanis et al., 2016)
+T58	Reference 2876 2894	(See et al., 2017)
+T59	Reference 2916 2937	(Bengio et al., 2015)
+T60	Reference 2967 2988	(Paulus et al., 2017)
+T61	Reference 3048 3071	(Cheng and Lapata, 2016
+T62	Reference 3073 3095	Nallapati et al., 2017
+T63	Reference 3097 3117	Kedzie et al., 2018)
+T64	Reference 3146 3169	(Narayan et al., 2018b)
+T65	Pronoun 117 119	it
+T66	Pronoun 876 880	this
+T67	B_span 82 85	Lin
+T68	E_span 285 289	2018
+T69	B_span 153 157	news
+T70	E_span 215 220	2018a
+T71	B_span 255 268	conversations
+T72	E_span 285 289	2018
+T73	B_span 299 306	Narayan
+T74	E_span 438 445	summary
+T75	B_span 453 455	In
+T76	E_span 565 572	systems
+T77	B_span 717 724	Peyrard
+T78	E_span 849 856	measure
+T79	B_span 1049 1053	news
+T80	E_span 1125 1130	2018a
+T81	B_span 1134 1142	academic
+T82	E_span 1197 1201	2018
+T83	B_span 1205 1210	movie
+T84	E_span 1241 1245	2015
+T85	B_span 1249 1254	books
+T86	E_span 1277 1281	2007
+T87	B_span 1285 1293	personal
+T88	E_span 1316 1320	2017
+T89	B_span 1328 1335	meeting
+T90	E_span 1362 1366	2005
+T91	B_span 1489 1497	Mihalcea
+T92	E_span 1572 1582	algorithms
+T93	B_span 1590 1593	Lin
+T94	E_span 1704 1713	redundant
+T95	B_span 1721 1729	Yogatama
+T96	E_span 1800 1813	summarization
+T97	B_span 1887 1896	syntactic
+T98	E_span 1954 1958	2008
+T99	B_span 1962 1968	topics
+T100	E_span 2004 2008	2000
+T101	B_span 2012 2020	semantic
+T102	E_span 2111 2115	2013
+T103	B_span 2163 2170	Concept
+T104	E_span 2228 2232	2007
+T105	B_span 2246 2256	optimizing
+T106	E_span 2378 2382	2011
+T107	B_span 2392 2399	Durrett
+T108	E_span 2470 2481	constraints
+T109	B_span 2602 2613	abstractive
+T110	E_span 2695 2700	model
+T111	B_span 2785 2798	convolutional
+T112	E_span 2851 2855	2016
+T113	B_span 2859 2866	pointer
+T114	E_span 2889 2893	2017
+T115	B_span 2897 2906	scheduled
+T116	E_span 2932 2936	2015
+T117	B_span 2944 2957	reinforcement
+T118	E_span 2983 2987	2017
+T119	B_span 3039 3047	encoders
+T120	E_span 3112 3116	2018
+T121	B_span 3122 3134	optimization
+T122	E_span 3163 3168	2018b

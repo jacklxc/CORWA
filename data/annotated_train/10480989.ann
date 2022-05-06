@@ -1,0 +1,47 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 164 169	[BOS]
+T3	Reflection 289 294	[BOS]
+T4	Reflection 413 418	[BOS]
+T5	Single_summ 759 764	[BOS]
+T6	Transition 918 923	[BOS]
+T7	Multi_summ 1027 1032	[BOS]
+T8	Multi_summ 1312 1317	[BOS]
+T9	Transition 1520 1525	[BOS]
+T10	Multi_summ 1665 1670	[BOS]
+T11	Single_summ 1987 1992	[BOS]
+T12	Dominant 170 210	Filippova et al. (2015) Gu et al. (2016)
+T13	Dominant 765 782	Dai and Le (2015)
+T14	Dominant 1052 1077	Kingma and Welling (2014)
+T15	Dominant 1079 1100	Rezende et al. (2014)
+T16	Dominant 1107 1127	Gregor et al. (2015)
+T17	Dominant 1201 1221	Eslami et al. (2016)
+T18	Reference 1406 1425	(Miao et al., 2016)
+T19	Reference 1438 1459	(Bowman et al., 2015)
+T20	Reference 1487 1517	(Marcheggiani and Titov, 2016)
+T21	Dominant 1685 1701	Ba et al. (2015)
+T22	Dominant 1788 1808	Kingma et al. (2014)
+T23	Dominant 1877 1895	Miao et al. (2016)
+T24	Dominant 1993 2011	Dyer et al. (2016)
+T25	Pronoun 323 328	these
+T26	B_span 170 179	Filippova
+T27	E_span 281 287	output
+T28	B_span 765 768	Dai
+T29	E_span 900 915	representations
+T31	E_span 1304 1310	images
+T33	E_span 1512 1516	2016
+T34	B_span 1685 1687	Ba
+T35	E_span 1781 1786	bound
+T36	E_span 1186 1196	generation
+T37	B_span 1201 1207	Eslami
+T38	B_span 1788 1794	Kingma
+T39	E_span 1858 1872	classification
+T40	B_span 1877 1881	Miao
+T41	E_span 1976 1985	answering
+T42	B_span 1993 1997	Dyer
+T43	E_span 2252 2256	data
+T30	B_span 1033 1035	In
+T32	B_span 1396 1405	documents
+T44	E_span 1420 1424	2016
+T45	B_span 1428 1437	sentences
+T46	E_span 1458 1459	)
+T47	B_span 1477 1486	relations

@@ -1,0 +1,90 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 96 101	[BOS]
+T3	Single_summ 283 288	[BOS]
+T4	Multi_summ 382 387	[BOS]
+T5	Reflection 706 711	[BOS]
+T6	Narrative_cite 807 812	[BOS]
+T7	Narrative_cite 1044 1049	[BOS]
+T8	Narrative_cite 1302 1307	[BOS]
+T9	Transition 1670 1675	[BOS]
+T10	Transition 1716 1721	[BOS]
+T11	Single_summ 1778 1783	[BOS]
+T12	Single_summ 1885 1890	[BOS]
+T13	Single_summ 2011 2016	[BOS]
+T14	Single_summ 2184 2189	[BOS]
+T15	Reflection 2319 2324	[BOS]
+T16	Reflection 2483 2488	[BOS]
+T17	Reflection 2571 2576	[BOS]
+T18	Reflection 2772 2777	[BOS]
+T19	Reflection 2880 2885	[BOS]
+T20	Reflection 3145 3150	[BOS]
+T21	Reflection 3277 3282	[BOS]
+T22	Reflection 3375 3380	[BOS]
+T23	Reflection 3536 3541	[BOS]
+T24	Dominant 102 119	Ge et al. (2018a)
+T25	Dominant 289 306	Xie et al. (2018)
+T26	Dominant 388 418	Junczys-Dowmunt et al. (2018b)
+T28	Reference 1028 1041	Felice (2016)
+T29	Reference 1249 1275	(Foster and Andersen, 2009
+T30	Reference 1277 1299	Felice and Yuan, 2014)
+T31	Reference 1415 1441	(Rozovskaya and Roth, 2010
+T32	Reference 1443 1466	Rozovskaya et al., 2014
+T33	Reference 1468 1490	Felice and Yuan, 2014)
+T34	Reference 1570 1587	(Rei et al., 2017
+T35	Reference 1589 1609	Kasewa et al., 2018)
+T36	Reference 1649 1667	(Xie et al., 2018)
+T37	Dominant 1784 1801	Ge et al. (2018a)
+T38	Dominant 1891 1914	Lichtarge et al. (2018)
+T39	Dominant 2078 2096	(Ge et al., 2018b)
+T40	Reference 2388 2412	(Sennrich et al., 2016 )
+T41	Reference 2673 2695	(Vaswani et al., 2017)
+T42	Reference 2714 2744	(Junczys-Dowmunt et al., 2018b
+T43	Reference 2746 2769	Lichtarge et al., 2018)
+T44	Reference 2824 2854	Junczys-Dowmunt et al. (2018b)
+T45	Reference 3038 3061	(Sennrich et al., 2016)
+T46	Reference 3259 3274	(Gardner, 1985)
+T47	Reference 3506 3533	(Ramachandran et al., 2017)
+T48	B_span 102 104	Ge
+T49	E_span 281 282	.
+T50	B_span 289 292	Xie
+T51	E_span 380 381	.
+T52	B_span 388 392	Junc
+T53	E_span 514 519	model
+T54	B_span 525 528	Lic
+T55	E_span 704 705	.
+T56	B_span 930 934	idea
+T57	E_span 1040 1041	)
+T58	B_span 1227 1234	natural
+T59	E_span 1298 1299	)
+T60	B_span 1352 1363	conditional
+T61	E_span 1489 1490	)
+T63	B_span 1508 1514	neural
+T65	E_span 1608 1609	)
+T66	B_span 1613 1619	neural
+T67	E_span 1666 1667	)
+T68	B_span 1784 1786	Ge
+T69	E_span 1883 1884	.
+T70	B_span 1891 1894	Lic
+T71	E_span 2009 2010	.
+T72	B_span 2017 2020	The
+T74	B_span 2384 2386	NM
+T75	E_span 2411 2412	)
+T77	B_span 2654 2665	Transformer
+T79	E_span 2768 2769	)
+T80	B_span 2787 2789	GE
+T81	E_span 2865 2878	modifications
+T82	B_span 3013 3019	entire
+T83	E_span 3060 3061	)
+T84	B_span 3237 3248	exponential
+T85	E_span 3273 3274	)
+T86	B_span 3487 3494	decoder
+T87	E_span 3532 3533	)
+T88	Pronoun 316 321	their
+T89	Pronoun 692 697	their
+T90	Pronoun 1684 1689	these
+T91	Pronoun 2282 2286	they
+T92	Pronoun 2337 2341	this
+T93	Pronoun 3323 3327	this
+T27	Dominant 548 573	Lichtarge et al. ( , 2019
+T94	Dominant 525 547	Lichtarge et al. (2018
+T62	E_span 2309 2317	contexts

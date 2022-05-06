@@ -1,0 +1,7 @@
+[BOS] Multi-task Learning Neural networks make multi-task learning via (hard) parameter sharing particularly easy (Caruana, 1993) and has shown to be successful for a variety of NLP tasks, such as machine translation (Dong et al., 2015; Luong et al., 2016) , keyphrase boundary classification (Augenstein and Sgaard, 2018) , tagging (Martnez Alonso and Plank, 2017; Bjerva et al., 2016) , complex word identification (Bingel and Bjerva, 2018) , and natural language understanding .
+[BOS] For sequence labelling, many combinations of tasks have been explored, e.g., by Martnez Alonso and Plank (2017); Bjerva (2017a,b) .
+[BOS] An analysis of different task combinations was performed by Sgaard and Goldberg (2016) ; .
+[BOS] presented a more flexible architecture, which learned what to share between the main and auxiliary tasks, and might require further investigation in future work.
+[BOS] combine multi-task learning with semi-supervised learning for strongly related tasks with different output spaces.
+[BOS] For this shared task, we opt for a simple hard parameter sharing strategy, though we would expect to see improvements with more involved architectures.
+

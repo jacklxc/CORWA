@@ -1,0 +1,74 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 319 324	[BOS]
+T3	Narrative_cite 511 516	[BOS]
+T4	Transition 792 797	[BOS]
+T5	Transition 901 906	[BOS]
+T6	Transition 1159 1164	[BOS]
+T7	Narrative_cite 1311 1316	[BOS]
+T8	Single_summ 1614 1619	[BOS]
+T9	Single_summ 1885 1890	[BOS]
+T10	Single_summ 2090 2095	[BOS]
+T11	Reflection 2247 2252	[BOS]
+T12	Narrative_cite 2346 2351	[BOS]
+T13	Reflection 2462 2467	[BOS]
+T14	Reflection 2650 2655	[BOS]
+T15	Narrative_cite 2800 2805	[BOS]
+T16	Single_summ 2955 2960	[BOS]
+T17	Reflection 3161 3166	[BOS]
+T18	Reference 113 138	(McDonald and Nivre, 2007
+T19	Reference 140 170	Kiperwasser and Goldberg, 2016
+T20	Reference 172 197	Ballesteros et al., 2015)
+T21	Reference 219 246	(McDonald and Pereira, 2006
+T22	Reference 248 269	Zhang and Clark, 2008
+T23	Reference 271 295	Galley and Manning, 2009
+T24	Reference 297 316	Zhang et al., 2017)
+T25	Reference 538 552	(Eisner, 1996)
+T26	Reference 675 698	(Martins et al., 2011 )
+T27	Reference 748 766	Peng et al. (2017)
+T28	Reference 771 789	Peng et al. (2018)
+T29	Reference 1558 1583	(McDonald and Nivre, 2007
+T30	Reference 1585 1610	Goldberg and Nivre, 2013)
+T31	Dominant 1716 1727	Chan (2009)
+T32	Reference 1742 1759	(Baird III, 1999)
+T33	Dominant 1891 1913	Fried and Klein (2018)
+T34	Reference 2068 2087	(Dyer et al., 2016)
+T35	Reference 2441 2459	(Lee et al., 2018)
+T36	Reference 2857 2880	(Sagae and Tsujii, 2008
+T37	Reference 2882 2902	Ribeyre et al., 2014
+T38	Reference 2904 2925	Tokgz and Glsen, 2015
+T39	Reference 2927 2952	Hershcovich et al., 2017)
+T40	Dominant 2961 2979	Wang et al. (2018)
+T41	Reference 3104 3129	(Nivre and Scholz, 2004b)
+T42	Pronoun 1063 1067	this
+T43	Pronoun 1317 1321	This
+T44	Pronoun 2099 2104	their
+T45	Pronoun 2268 2272	this
+T46	Pronoun 3039 3043	they
+T48	E_span 192 196	2015
+T49	B_span 202 207	graph
+T50	E_span 311 315	2017
+T51	B_span 521 527	Eisner
+T52	E_span 547 551	1996
+T53	B_span 660 661	A
+T54	E_span 692 696	2011
+T55	B_span 740 742	DA
+T56	E_span 784 788	2018
+T58	E_span 1605 1609	2013
+T59	B_span 1716 1720	Chan
+T60	E_span 1876 1883	network
+T61	B_span 1736 1741	SARSA
+T62	E_span 1754 1758	1999
+T63	B_span 1891 1896	Fried
+T64	E_span 2237 2245	learning
+T65	B_span 2039 2043	RNNG
+T66	E_span 2082 2086	2016
+T67	B_span 2421 2429	sentence
+T68	E_span 2454 2458	2018
+T69	B_span 2845 2848	DAG
+T70	E_span 2947 2951	2017
+T71	B_span 2961 2965	Wang
+T72	E_span 3153 3159	graphs
+T73	B_span 3085 3093	ArcEager
+T74	E_span 3123 3128	2004b
+T47	B_span 1442 1447	error
+T57	B_span 77 87	transition

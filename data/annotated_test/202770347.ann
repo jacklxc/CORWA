@@ -1,0 +1,5 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reference 84 111	(Ghazvininejad et al., 2018
+T3	Reference 113 132	Zhou et al., 2018b)
+T4	B_span 40 45	prior
+T5	E_span 131 132	)

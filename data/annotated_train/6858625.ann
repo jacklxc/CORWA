@@ -1,0 +1,53 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 334 339	[BOS]
+T3	Reflection 620 625	[BOS]
+T4	Narrative_cite 777 782	[BOS]
+T5	Transition 1011 1016	[BOS]
+T6	Transition 1193 1198	[BOS]
+T7	Single_summ 1274 1279	[BOS]
+T8	Transition 1455 1460	[BOS]
+T9	Single_summ 1644 1649	[BOS]
+T10	Reflection 1816 1821	[BOS]
+T11	Reflection 1878 1883	[BOS]
+T12	Single_summ 1951 1956	[BOS]
+T13	Reflection 2204 2209	[BOS]
+T14	Transition 2379 2384	[BOS]
+T15	Reflection 2453 2458	[BOS]
+T16	Reference 145 173	(Ittycheriah and Roukos 2005
+T17	Reference 175 193	Taskar et al. 2005
+T18	Reference 195 212	Moore et al. 2006
+T19	Reference 214 233	Cherry and Lin 2006
+T20	Reference 235 256	DeNero and Klein 2007
+T21	Reference 258 277	May and Knight 2007
+T22	Reference 279 297	Fossum et al. 2008
+T23	Reference 299 313	Hermjakob 2009
+T24	Reference 315 331	Liu et al. 2010)
+T25	Dominant 353 373	Fossum et al. (2008)
+T26	Reference 898 911	(Imamura 2001
+T27	Reference 913 931	Groves et al. 2004
+T28	Reference 933 952	Tinsley et al. 2007
+T29	Reference 971 989	Sun et al. , 2010b
+T30	Dominant 1296 1315	Pauls et al. (2010)
+T31	Dominant 1650 1671	May and Knight (2007)
+T32	Reference 1906 1927	(May and Knight 2007)
+T33	Dominant 1989 2010	May and Knight (2007)
+T34	B_span 129 133	word
+T35	E_span 326 330	2010
+T36	B_span 353 357	Foss
+T37	E_span 610 618	features
+T38	B_span 872 881	syntactic
+T39	E_span 1003 1007	2010
+T40	B_span 1296 1300	Paul
+T41	E_span 1443 1453	extraction
+T42	B_span 1650 1653	May
+T43	E_span 1804 1814	alignments
+T44	B_span 1893 1900	differs
+T47	E_span 1926 1927	)
+T48	B_span 1968 1976	approach
+T49	E_span 2197 2202	trees
+T50	Pronoun 626 630	This
+T51	Pronoun 1290 1294	this
+T52	Pronoun 1844 1849	their
+T53	Pronoun 2469 2474	their
+T54	Reference 954 970	Sun et al. 2010a
+T45	Reference 990 1007	Pauls et al. 2010

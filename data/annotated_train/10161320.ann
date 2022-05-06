@@ -1,0 +1,12 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 260 265	[BOS]
+T3	Single_summ 352 357	[BOS]
+T4	Reference 97 114	Liu et al. (2009)
+T5	Dominant 266 286	Denero et al. (2010)
+T6	Pronoun 256 258	it
+T7	Pronoun 358 363	Their
+T8	Pronoun 393 398	their
+T9	B_span 266 272	Denero
+T10	E_span 578 583	model
+T11	B_span 97 100	Liu
+T12	E_span 109 113	2009

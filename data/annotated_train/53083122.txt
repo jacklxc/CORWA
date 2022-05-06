@@ -1,0 +1,21 @@
+[BOS] Representation learning is at the core of deep learning.
+[BOS] Our work is inspired by technological advances in representation learning, specifically in the field of deep representation learning and representation interpretation.
+
+[BOS] Deep Representation Learning Deep neural networks have advanced the state of the art in various communities, such as computer vision and natural language processing.
+[BOS] One key challenge of training deep networks lies in how to transform information across layers, especially when the network consists of hundreds of layers.
+
+[BOS] In response to this problem, ResNet (He et al., 2016) uses skip connections to combine layers by simple, one-step operations.
+[BOS] Densely connected network (Huang et al., 2017 ) is designed to better propagate features and losses through skip connections that concatenate all the layers in stages.
+[BOS] Yu et al. (2018) design structures iteratively and hierarchically merge the feature hierarchy to better fuse information in a deep fusion.
+
+[BOS] Concerning machine translation, Meng et al. (2016) and Zhou et al. (2016) have shown that deep networks with advanced connecting strategies outperform their shallow counterparts.
+[BOS] Due to its simplicity and effectiveness, skip connection becomes a standard component of state-of-the-art NMT models (Wu et al., 2016; Gehring et al., 2017; Vaswani et al., 2017) .
+[BOS] In this work, we prove that deep representation exploitation can further improve performance over simply using skip connections.
+
+[BOS] Representation Interpretation Several researchers have tried to visualize the representation of each layer to help better understand what information each layer captures (Zeiler and Fergus, 2014; .
+[BOS] Concerning natural language processing tasks, Shi et al. (2016) find that both local and global source syntax are learned by the NMT encoder and different types of syntax are captured at different layers.
+[BOS] Anastasopoulos and Chiang (2018) show that higher level layers are more representative than lower level layers.
+[BOS] Peters et al. (2018) demonstrate that higher-level layers capture context-dependent aspects of word meaning while lower-level layers model aspects of syntax.
+[BOS] Inspired by these observations, we propose to expose all of these representations to better fuse information across layers.
+[BOS] In addition, we introduce a regularization to encourage different layers to capture diverse information.
+

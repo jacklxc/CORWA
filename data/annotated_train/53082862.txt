@@ -1,0 +1,18 @@
+[BOS] Datasets for NLI: SNLI and MultiNLI are both based on crowdsourced annotation.
+[BOS] In SNLI all the premises came from image captions (Young et al., 2014) , whereas MultiNLI collected premises from several genres including fiction, letters, telephone speech, and a government report.
+[BOS] SciTail constructed more complicated hypotheses based on multiple-choice science exams, whose premises were taken from web text.
+[BOS] More recently, FEVER introduced a fact verification task, where claims are to be verified using all of Wikipedia.
+[BOS] As FEVER established ground truth evidence for or against each claim, premises can be collected with a retrieval module and labeled as supporting, contradictory, or neutral for an NLI dataset.
+
+[BOS] Neural network based NLI systems: Dozens of neural network based models have been submitted to the SNLI leaderboard.
+[BOS] Some systems have been developed based on sentence representations (Conneau et al., 2017; Nie and Bansal, 2017) , but most common models apply attention between tokens in the premise and hypothesis.
+[BOS] We focus on three influential models of this kind: Decomposable Attention (Parikh et al., 2016) , ESIM (Chen et al., 2017) , and a pre-trained transformer network (Radford et al., 2018) which obtains stateof-the-art results for various NLI datasets including SNLI and SciTail.
+
+[BOS] Adversarial examples for NLI systems: Jia and Liang (2017) introduced the notion of distraction for reading comprehension systems by trying to fool systems for SQuAD (Rajpurkar et al., 2016) with information nearly matching the question, added to the end of a supporting passage.
+[BOS] Glockner et al. (2018) showed that many NLI systems were confused by hypotheses that were identical to the premise except for the replacement of a word by a synonym, hypernym, co-hyponym, or antonym.
+[BOS] Naik et al. (2018) found that adding the same strings of words to NLI examples without changing the logical relation could significantly change results, because of word overlap, negation, or length mismatches.
+
+[BOS] Other work (Kang et al., 2018; Zhao et al., 2018) aimed to improve model robustness in the framework of generative adversarial networks (Goodfellow et al., 2014) .
+[BOS] Ribeiro et al. (2018) generated semantically equivalent examples using a set of paraphrase rules derived from a machine translation model.
+[BOS] In contrast to these kinds of adversarial examples, we focus on the model not being sensitive enough to small changes that do change meaning.
+

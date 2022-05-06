@@ -1,0 +1,7 @@
+[BOS] Many of the approaches used to explain and interpret models in NLP mirror methods originally developed in the vision domain, such as the recent approaches by Li et al. (2016) , Arras et al. (2017a) , and Arras et al. (2017b) .
+[BOS] In this paper we implemented a similar strategy.
+
+[BOS] Following Kindermans et al. (2018) , however, our approach improves upon the latter methods for the reasons outlined above.
+[BOS] Furthermore, PatternAttribution is related to Montavon et al. (2017) who make use of Taylor decompositions to explain deep models.
+[BOS] PatternAttribution reveals a good root point for the decomposition, the authors explain.
+

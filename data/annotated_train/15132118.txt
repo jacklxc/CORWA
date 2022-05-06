@@ -1,0 +1,7 @@
+[BOS] Correlations computed for two separate automatic metrics on the same data set are not independent, and for this reason in order to test the difference in correlation between them, the degree to which the pair of metrics correlate with each other should be taken into account.
+[BOS] 1959) 1 evaluates significance in a difference in dependent correlations (Steiger, 1980) .
+[BOS] It is formulated as follows, as a test of whether the population correlation between X 1 and X 3 equals the population correlation between X 2 and X 3 :
+
+[BOS] (1  r 12 ) 3 , where r ij is the Pearson correlation between X i and X j , n is the size of the population, and: The Williams test is more powerful than the equivalent for independent samples (Fisher r to z), as it takes the correlations between X 1 and X 2 (metric scores) into account.
+[BOS] All else being equal, the higher the correlation between the metric scores, the greater the statistical power of the test.
+

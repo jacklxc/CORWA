@@ -1,0 +1,10 @@
+[BOS] Papers published in the last two years include the surveys by Schmidt and Wiegand (2017) and Fortuna and Nunes (2018) .
+[BOS] The paper by presenting the Hate Speech Detection dataset were used in (Malmasi and Zampieri, 2017 ) and a few other recent papers such as (ElSherief et al., 2018; Gambck and Sikdar, 2017; Zhang et al., 2018) .
+
+[BOS] A proposal of typology of abusive language sub-tasks is presented in (Waseem et al., 2017) .
+[BOS] For studies on languages other than English see work by Su et al. (2017) on Chinese and Fier et al. (2017) on Slovene.
+[BOS] Finally, for recent discussion on identifying profanity vs. hate speech see the work by .
+[BOS] This work highlighted the challenges of distinguishing between profanity, and threatening language which may not actually contain profane language.
+
+[BOS] Previous editions of related workshops are TA-COS 1 , Abusive Language Online 2 , and TRAC 3 and related shared tasks such as GermEval (Wiegand et al., 2018) and TRAC (Kumar et al., 2018) .
+

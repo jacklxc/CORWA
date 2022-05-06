@@ -1,0 +1,23 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 122 127	[BOS]
+T3	Transition 363 368	[BOS]
+T4	Transition 490 495	[BOS]
+T5	Narrative_cite 629 634	[BOS]
+T6	Transition 844 849	[BOS]
+T7	Transition 963 968	[BOS]
+T8	Single_summ 1046 1051	[BOS]
+T9	Multi_summ 1176 1181	[BOS]
+T10	B_span 149 159	Curriculum
+T11	E_span 185 189	2009
+T12	Reference 170 189	Bengio et al., 2009
+T13	B_span 635 640	While
+T14	E_span 752 756	2018
+T15	Reference 732 756	Weinshall and Amir, 2018
+T16	Dominant 1069 1085	Ruder and Plank,
+T17	B_span 1069 1074	Ruder
+T18	E_span 1168 1174	points
+T19	Dominant 1221 1236	Tsvetkov et al.
+T20	B_span 1182 1186	Data
+T21	E_span 1392 1397	model
+T22	Dominant 1316 1329	Axelrod et al
+T23	Dominant 1333 1342	Duh et al

@@ -1,0 +1,19 @@
+[BOS] Given a source sentence "ci ci huiyi de yi ge zhongyao yiti shi kuadaxiyang guanxi" (one the the top agendas of the meeting is to discuss the cross-atlantic relations), the model prediction is "a key topic of the meeting is to forge ahead".
+[BOS] One translation error is that the 9-th English word "forge" is totally unrelated to the source sentence.
+[BOS] Figure 9 visualizes the hidden states of the 9-th target word "forge".
+[BOS] We find that while the attention identifies the 10-th source word "kuadaxiyang" (cross-atlantic) to be most relevant, the relevance vector of the target word R y 9 finds that multiple source and target words should contribute to the generation of the next target word.
+
+[BOS] We observe that unrelated words are more likely to occur if multiple contextual words have high values in the relevance vector of the target word being generated.
+
+[BOS] Our work is closely related to previous visualization approaches that compute the contribution of a unit at the input layer to the final decision at the output layer (Simonyan et al., 2014; Mahendran and Vedaldi, 2015; Nguyen et al., 2015; Girshick et al., 2014; Bach et al., 2015; .
+[BOS] Among them, our approach bears most resemblance to (Bach et al., 2015) since we adapt layer-wise relevance propagation to neural machine translation.
+[BOS] The major difference is that word vectors rather than single pixels are the basic units in NMT.
+[BOS] Therefore, we propose vectorlevel relevance based on neuron-level relevance for NMT.
+[BOS] Calculating weight ratios has also been carefully designed for the operators in NMT.
+[BOS] The proposed approach also differs from in that we use relevance rather than partial derivative to quantify the contributions of contextual words.
+[BOS] A major advantage of using relevance is that it does not require neural activations to be differentiable or smooth (Bach et al., 2015) .
+
+[BOS] The relevance vector we used is significantly different from the attention matrix (Bahdanau et al., 2015) .
+[BOS] While attention only demonstrates the association degree between source and target words, relevance can be used to calculate the association degree between two arbitrary neurons in neural networks.
+[BOS] In addition, relevance is effective in analyzing the effect of source and target contexts on generating target words.
+

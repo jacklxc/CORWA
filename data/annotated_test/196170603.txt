@@ -1,0 +1,8 @@
+[BOS] Training multiple languages using a single network is a well known approach in NMT.
+[BOS] All the previous works in this line were carried out by using parallel data only.
+[BOS] Dong et al. (2015) introduced one-to-many translation using a single encoder for the source language and a decoder for each target language.
+[BOS] Firat et al. (2016) proposed multi-way multilingual NMT using multiple encoders and decoders with a single shared attention mechanism.
+[BOS] Johnson et al. (2017) came up with a simpler but effective approach that needed only a single encoder and a single decoder, in which all the parallel data were merged into a single corpus after appending some special tokens at the beginning of each sentence.
+[BOS] Our multilingual unsupervised translation approach is inspired by Artetxe et al. (2018) .
+[BOS] We use single encoder which is shared by all languages and a decoder for each language.
+

@@ -1,0 +1,76 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 278 283	[BOS]
+T3	Single_summ 437 442	[BOS]
+T4	Single_summ 629 634	[BOS]
+T5	Transition 793 798	[BOS]
+T6	Single_summ 982 987	[BOS]
+T7	Transition 1357 1362	[BOS]
+T8	Reflection 1565 1570	[BOS]
+T9	Single_summ 1675 1680	[BOS]
+T10	Narrative_cite 2030 2035	[BOS]
+T11	Transition 2161 2166	[BOS]
+T12	Single_summ 2369 2374	[BOS]
+T13	Single_summ 2470 2475	[BOS]
+T14	Transition 2618 2623	[BOS]
+T15	Single_summ 2733 2738	[BOS]
+T16	Reflection 2859 2864	[BOS]
+T17	Transition 3139 3144	[BOS]
+T18	Narrative_cite 3277 3282	[BOS]
+T19	Narrative_cite 3402 3407	[BOS]
+T20	Transition 3635 3640	[BOS]
+T21	Reflection 3958 3963	[BOS]
+T22	Dominant 486 513	(Gonzlez-Ibez et al., 2011)
+T23	Dominant 988 1011	(Hazarika et al., 2018)
+T24	Reference 1163 1182	(West et al., 2014)
+T25	Reference 1329 1352	(Hazarika et al., 2018)
+T26	Dominant 1681 1704	(Davidson et al., 2017)
+T27	Reference 2104 2128	(Badjatiya et al., 2017)
+T28	Reference 2133 2157	(de Gibert et al., 2018)
+T29	Dominant 2375 2395	(Chen and Soo, 2018)
+T30	Dominant 2476 2487	(Kim, 2014)
+T31	Dominant 2739 2759	(Poria et al., 2016)
+T32	Reference 3322 3342	(Mntyl et al., 2016)
+T33	Reference 3483 3505	(Vaswani et al., 2017)
+T34	Reference 3529 3550	(Devlin et al., 2018)
+T35	Reference 3613 3632	(Yang et al., 2019)
+T36	Pronoun 463 467	this
+T37	Pronoun 2454 2459	these
+T38	Pronoun 2530 2535	these
+T39	Pronoun 2865 2869	This
+T40	Pronoun 2933 2938	these
+T41	Pronoun 3283 3287	This
+T42	Pronoun 3391 3395	this
+T43	Pronoun 3452 3456	this
+T44	Pronoun 3641 3646	These
+T45	Pronoun 3782 3787	these
+T46	Pronoun 3809 3814	these
+T47	Pronoun 3979 3983	this
+T48	Pronoun 4107 4112	these
+T49	Pronoun 4199 4204	these
+T50	Reference 1135 1161	Kolchinski and Potts, 2018
+T51	B_span 989 997	Hazarika
+T52	B_span 443 446	The
+T53	E_span 782 791	detection
+T54	E_span 1347 1351	2018
+T55	B_span 1296 1300	like
+T56	E_span 1347 1351	2018
+T57	B_span 1100 1105	which
+T58	E_span 1177 1181	2014
+T59	B_span 1682 1690	Davidson
+T60	E_span 2022 2028	models
+T61	B_span 2036 2042	Models
+T62	E_span 2152 2156	2018
+T63	B_span 2376 2380	Chen
+T64	E_span 2460 2468	datasets
+T65	B_span 2477 2480	Kim
+T66	E_span 2613 2614	1
+T67	B_span 2740 2745	Poria
+T68	E_span 2850 2857	sarcasm
+T69	B_span 3283 3287	This
+T70	E_span 3337 3341	2016
+T71	B_span 3471 3482	transformer
+T72	E_span 3500 3504	2017
+T73	B_span 3524 3528	BERT
+T74	E_span 3545 3549	2018
+T75	B_span 3555 3557	XL
+T76	E_span 3627 3631	2019

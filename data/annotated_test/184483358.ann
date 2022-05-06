@@ -1,0 +1,33 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 335 340	[BOS]
+T3	Narrative_cite 434 439	[BOS]
+T4	Transition 553 558	[BOS]
+T5	Transition 637 642	[BOS]
+T6	Narrative_cite 793 798	[BOS]
+T7	Reference 68 95	(Schmidt and Wiegand, 2017)
+T8	Reference 100 125	(Fortuna and Nunes, 2018)
+T9	Reference 194 223	(Malmasi and Zampieri, 2017 )
+T10	Reference 262 285	(ElSherief et al., 2018
+T11	Reference 287 310	Gambck and Sikdar, 2017
+T12	Reference 312 331	Zhang et al., 2018)
+T13	Dominant 410 431	(Waseem et al., 2017)
+T14	Reference 488 505	(Su et al., 2017)
+T15	Reference 521 540	(Fier et al., 2017)
+T16	Reference 985 1007	(Wiegand et al., 2018)
+T17	Reference 1017 1037	(Kumar et al., 2018)
+T18	B_span 57 64	surveys
+T19	E_span 120 124	2018
+T20	B_span 156 160	Hate
+T21	E_span 217 221	2017
+T22	B_span 240 246	recent
+T23	E_span 326 330	2018
+T24	E_span 426 430	2017
+T25	B_span 341 342	A
+T26	B_span 489 491	Su
+T27	E_span 509 516	Chinese
+T28	B_span 522 526	Fier
+T29	E_span 544 551	Slovene
+T30	B_span 976 984	GermEval
+T31	E_span 1002 1006	2018
+T32	B_span 1012 1016	TRAC
+T33	E_span 1032 1036	2018

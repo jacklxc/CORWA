@@ -1,0 +1,6 @@
+[BOS] There has been considerable work on multitask sequence-to-sequence models for other tasks (Dong et al., 2015; Luong et al., 2015; Elliott and Kdr, 2017) .
+[BOS] There is a wide range of design questions and sharing strategies that we ignore here, focusing instead on under what circumstances the approach advocated in (Bollmann et al., 2017) works.
+[BOS] Our main observation-that the size of the target dataset is most predictive of multi-task learning gains-runs counter previous findings for other NLP tasks (Martnez Alonso and Plank, 2017; Bingel and Sgaard, 2017) .
+[BOS] Martnez Alonso and Plank (2017) find that the label entropy of the auxiliary dataset is more predictive; Bingel and S-gaard (2017) find that the relative differences in the steepness of the two single-task loss curves is more predictive.
+[BOS] Both papers consider sequence tagging problems with a small number of labels; and it is probably not a surprise that their findings do not seem to scale to the case of historical text normalization.
+

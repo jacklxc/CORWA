@@ -1,0 +1,56 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 302 307	[BOS]
+T3	Reflection 483 488	[BOS]
+T4	Transition 551 556	[BOS]
+T5	Transition 691 696	[BOS]
+T6	Single_summ 808 813	[BOS]
+T7	Single_summ 953 958	[BOS]
+T8	Single_summ 1113 1118	[BOS]
+T9	Single_summ 1226 1231	[BOS]
+T10	Single_summ 1415 1420	[BOS]
+T11	Single_summ 1553 1558	[BOS]
+T12	Reflection 1657 1662	[BOS]
+T13	Multi_summ 1868 1873	[BOS]
+T14	Multi_summ 2083 2088	[BOS]
+T15	Reflection 2209 2214	[BOS]
+T16	Reference 89 107	(Wang et al., 2017
+T17	Reference 109 126	Jean et al., 2017
+T18	Reference 128 147	Bawden et al., 2018
+T19	Reference 149 177	Tiedemann and Scherrer, 2017
+T20	Reference 179 202	Maruf and Haffari, 2018
+T21	Reference 204 222	Voita et al., 2018
+T22	Reference 224 252	Stojanovski and Fraser, 2018
+T23	Reference 254 277	Miculicich et al., 2018
+T24	Reference 279 298	Zhang et al., 2018a
+T25	Dominant 814 833	Mller et al. (2018)
+T26	Dominant 1119 1139	Bawden et al. (2018)
+T27	Dominant 1232 1256	Miculicich et al. (2018)
+T28	Dominant 1421 1440	Voita et al. (2018)
+T30	Dominant 1574 1587	et al. (2018)
+T31	Reference 1772 1791	Mller et al. (2018)
+T32	Dominant 1918 1940	(Kocmi and Bojar, 2017
+T33	Dominant 1942 1961	Zhang et al., 2018b
+T34	Dominant 1963 1981	Wang et al., 2018)
+T35	B_span 56 65	including
+T36	E_span 297 298	a
+T37	B_span 814 816	Ml
+T38	E_span 1111 1112	.
+T39	B_span 1119 1121	Ba
+T40	E_span 1224 1225	.
+T41	B_span 1232 1235	Mic
+T42	E_span 1413 1414	.
+T43	B_span 1421 1423	Vo
+T44	E_span 1551 1552	.
+T45	B_span 1568 1570	Ml
+T46	E_span 1655 1656	.
+T47	B_span 1745 1752	pronoun
+T48	E_span 1790 1791	)
+T49	B_span 1891 1901	curriculum
+T50	E_span 2207 2208	.
+T51	Pronoun 320 325	these
+T52	Pronoun 518 523	these
+T53	Pronoun 1266 1271	their
+T54	Pronoun 1633 1638	their
+T55	Pronoun 1843 1845	it
+T56	Pronoun 2098 2103	their
+T57	Pronoun 2232 2237	their

@@ -1,0 +1,106 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 78 83	[BOS]
+T3	Reflection 184 189	[BOS]
+T4	Narrative_cite 270 275	[BOS]
+T5	Single_summ 708 713	[BOS]
+T6	Narrative_cite 1027 1032	[BOS]
+T7	Transition 1297 1302	[BOS]
+T8	Single_summ 1387 1392	[BOS]
+T9	Transition 1532 1537	[BOS]
+T10	Narrative_cite 1652 1657	[BOS]
+T11	Transition 1850 1855	[BOS]
+T12	Single_summ 2079 2084	[BOS]
+T13	Transition 2277 2282	[BOS]
+T14	Single_summ 2435 2440	[BOS]
+T15	Single_summ 2669 2674	[BOS]
+T16	Multi_summ 2801 2806	[BOS]
+T17	Transition 3056 3061	[BOS]
+T18	Multi_summ 3275 3280	[BOS]
+T19	Transition 3502 3507	[BOS]
+T20	Transition 3712 3717	[BOS]
+T21	Single_summ 3848 3853	[BOS]
+T22	Single_summ 3980 3985	[BOS]
+T23	Narrative_cite 4079 4084	[BOS]
+T24	Reflection 4258 4263	[BOS]
+T25	Reflection 4436 4441	[BOS]
+T26	Reference 426 447	(Mikolov et al., 2013
+T27	Reference 449 471	Faruqui and Dyer, 2014
+T28	Reference 473 493	Artetxe et al., 2016
+T29	Reference 495 512	Xing et al., 2015
+T30	Reference 514 532	Duong et al., 2016
+T31	Reference 534 557	Gouws and Sgaard, 2015)
+T32	Reference 585 604	(Koisk et al., 2014
+T33	Reference 606 631	Hermann and Blunsom, 2014
+T34	Reference 662 683	(Vuli and Moens, 2016
+T35	Reference 685 705	Sgaard et al., 2015)
+T36	Dominant 756 777	Mikolov et al. (2013)
+T37	Reference 1125 1148	(Faruqui and Dyer, 2014
+T38	Reference 1150 1170	Artetxe et al., 2016
+T39	Reference 1172 1189	Xing et al., 2015
+T40	Reference 1191 1209	Duong et al., 2016
+T41	Reference 1211 1229	Ammar et al., 2016
+T42	Reference 1231 1251	Artetxe et al., 2016
+T43	Reference 1253 1271	Zhang et al., 2016
+T44	Reference 1273 1294	Shigeto et al., 2015)
+T45	Dominant 1393 1417	Vuli and Korhonen (2016)
+T46	Reference 1721 1732	(Rapp, 1995
+T47	Reference 1734 1745	Fung, 1996)
+T48	Reference 1824 1847	(Haghighi et al., 2008)
+T49	Dominant 2085 2102	Cao et al. (2016)
+T50	Dominant 2441 2462	Artetxe et al. (2017)
+T51	Dominant 2807 2827	(Zhang et al., 2017a
+T52	Dominant 2829 2843	Barone, 2016 )
+T53	Reference 3028 3053	(Goodfellow et al., 2014)
+T54	Dominant 3281 3301	Zhang et al. (2017b)
+T55	Dominant 3304 3325	Conneau et al. (2017)
+T56	Dominant 3330 3351	Artetxe et al. (2017)
+T57	Dominant 3867 3883	He et al. (2016)
+T58	Dominant 3986 4004	Shen et al. (2017)
+T59	Reference 4198 4215	(Zhu et al., 2017
+T60	Reference 4217 4237	Taigman et al., 2016
+T61	Reference 4239 4255	Yi et al., 2017)
+T62	Reference 4329 4347	(Zhu et al., 2017)
+T63	Reference 4762 4783	(Zhang et al., 2017a)
+T64	Pronoun 784 788	they
+T65	Pronoun 899 903	they
+T66	Pronoun 1321 1326	these
+T67	Pronoun 2507 2512	their
+T68	Pronoun 2675 2680	Their
+T69	Pronoun 4363 4368	their
+T70	Pronoun 4497 4501	they
+T71	B_span 403 412	bilingual
+T72	E_span 552 556	2015
+T73	B_span 560 568	sentence
+T74	E_span 627 631	2014
+T75	B_span 637 645	document
+T76	E_span 704 705	)
+T77	B_span 756 763	Mikolov
+T78	E_span 1019 1025	spaces
+T79	B_span 1068 1075	improve
+T80	E_span 1289 1293	2015
+T81	B_span 1393 1397	Vuli
+T82	E_span 1522 1529	mapping
+T83	B_span 1688 1692	word
+T84	E_span 1740 1744	1996
+T85	B_span 1787 1800	sophisticated
+T86	E_span 1842 1846	2008
+T87	B_span 2085 2088	Cao
+T88	E_span 2267 2275	language
+T89	B_span 2441 2448	Artetxe
+T90	E_span 2787 2799	unsupervised
+T91	B_span 2808 2813	Zhang
+T92	E_span 3048 3052	2014
+T93	B_span 3005 3011	target
+T94	E_span 3048 3052	2014
+T95	B_span 3281 3286	Zhang
+T96	E_span 3490 3499	embedding
+T97	B_span 3867 3869	He
+T98	E_span 3971 3978	corpora
+T99	B_span 3986 3990	Shen
+T100	E_span 4067 4077	sentiments
+T102	E_span 4250 4254	2017
+T103	B_span 4141 4146	image
+T101	B_span 4320 4328	CycleGAN
+T104	E_span 4342 4346	2017
+T105	B_span 4745 4756	adversarial
+T106	E_span 4777 4782	2017a

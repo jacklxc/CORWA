@@ -1,0 +1,13 @@
+[BOS] Broadly speaking, we can classify the attempts to add external knowledge to a parser in two sets: using large semantic repositories such as WordNet and approaches that use information automatically acquired from corpora.
+[BOS] In the first group, Agirre et al. (2008) trained two state-of-the-art constituency-based statistical parsers (Charniak, 2000; Bikel, 2004) on semantically-enriched input, substituting content words with their semantic classes, trying to overcome the limitations of lexicalized approaches to parsing (Collins, 2003) where related words, like scissors and knife, cannot be generalized.
+[BOS] The results showed a signicant improvement, giving the first results over both WordNet and the Penn Treebank (PTB) to show that semantics helps parsing.
+[BOS] Later, Agirre et al. (2011) successfully introduced WordNet classes in a dependency parser, obtaining improvements on the full PTB using gold POS tags, trying different combinations of semantic classes.
+[BOS] MacKinlay et al. (2012) investigate the addition of semantic annotations in the form of word sense hypernyms, in HPSG parse ranking, reducing error rate in dependency F-score by 1%, while some methods produce substantial decreases in performance.
+[BOS] Fujita et al. (2010) showed that fully disambiguated sense-based features smoothed using ontological information are effective for parse selection.
+
+[BOS] On the second group, Koo et al. (2008) presented a semisupervised method for training dependency parsers, introducing features that incorporate word clusters automatically acquired from a large unannotated corpus.
+[BOS] The clusters include strongly semantic associations like {apple, pear} or {Apple, IBM} and also syntactic clusters like {of, in}.
+[BOS] They demonstrated its effectiveness in dependency parsing experiments on the PTB and the Prague Dependency Treebank.
+[BOS] Suzuki et al. (2009) , Sagae and Gordon (2009) and Candito and Seddah (2010) also experiment with the same cluster method.
+[BOS] Recently, Tckstrm et al. (2012) tested the incorporation of cluster features from unlabeled corpora in a multilingual setting, giving an algorithm for inducing cross-lingual clusters.
+

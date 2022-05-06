@@ -1,0 +1,36 @@
+T1	Intro 0 5	[BOS]
+T2	Intro 139 144	[BOS]
+T3	Intro 214 219	[BOS]
+T4	Single_summ 311 316	[BOS]
+T5	Single_summ 463 468	[BOS]
+T6	Single_summ 677 682	[BOS]
+T7	Single_summ 752 757	[BOS]
+T8	Single_summ 854 859	[BOS]
+T9	Single_summ 1006 1011	[BOS]
+T10	Single_summ 1098 1103	[BOS]
+T11	Reflection 1171 1176	[BOS]
+T12	Dominant 346 361	(Heidorn, 2000)
+T13	Dominant 691 705	Heidorn (1975)
+T14	Dominant 758 783	(Tetreault et. al., 2008)
+T15	Dominant 860 885	Meurers and Wunsch (2010)
+T16	Dominant 1012 1036	(Elghafari et al., 2010)
+T17	Dominant 1104 1122	Boyd et al. (2011)
+T18	Reference 1268 1292	(Bhaskar et. al., 2011 )
+T19	Pronoun 472 476	this
+T20	Pronoun 482 484	it
+T21	Pronoun 532 537	these
+T22	Pronoun 1216 1220	this
+T23	B_span 334 345	researchers
+T24	E_span 670 675	level
+T26	E_span 743 750	grammar
+T27	B_span 759 768	Tetreault
+T28	E_span 844 852	speakers
+T29	B_span 860 867	Meurers
+T30	E_span 992 1004	prepositions
+T31	B_span 1013 1022	Elghafari
+T32	E_span 1089 1096	English
+T33	B_span 1104 1108	Boyd
+T34	E_span 1161 1169	approach
+T25	B_span 683 690	Earlier
+T35	B_span 1269 1276	Bhaskar
+T36	E_span 1286 1290	2011

@@ -1,0 +1,41 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 176 181	[BOS]
+T3	Multi_summ 332 337	[BOS]
+T4	Single_summ 488 493	[BOS]
+T5	Multi_summ 581 586	[BOS]
+T6	Transition 731 736	[BOS]
+T7	Single_summ 933 938	[BOS]
+T8	Single_summ 1154 1159	[BOS]
+T9	Single_summ 1309 1314	[BOS]
+T10	Single_summ 1455 1460	[BOS]
+T11	Narrative_cite 1593 1598	[BOS]
+T12	Reflection 1725 1730	[BOS]
+T13	Single_summ 1767 1772	[BOS]
+T14	Single_summ 1897 1902	[BOS]
+T15	Reflection 1976 1981	[BOS]
+T16	Dominant 182 203	Daniluk et al. (2017)
+T17	Dominant 338 355	Im and Cho (2017)
+T18	Dominant 360 381	Sperber et al. (2018)
+T19	Dominant 494 515	Vaswani et al. (2017)
+T20	Dominant 587 606	Shen et al. (2018a)
+T21	Dominant 611 630	Shen et al. (2018b)
+T22	Dominant 952 973	Sperber et al. (2018)
+T23	Dominant 1190 1208	Shaw et al. (2018)
+T24	Reference 1703 1721	(Wang et al., 2017
+T25	Dominant 1802 1821	Luong et al. (2015)
+T26	B_span 182 189	Daniluk
+T27	E_span 320 330	explicitly
+T28	B_span 338 340	Im
+T29	E_span 474 486	respectively
+T30	B_span 494 501	Vaswani
+T31	E_span 568 579	translation
+T32	B_span 587 591	Shen
+T33	E_span 721 729	features
+T34	B_span 952 959	Sperber
+T35	E_span 1147 1152	tasks
+T36	B_span 1190 1194	Shaw
+T37	E_span 1579 1590	performance
+T38	B_span 1676 1682	neural
+T39	E_span 1717 1721	2017
+T40	B_span 1773 1783	Concerning
+T41	E_span 1966 1974	strategy

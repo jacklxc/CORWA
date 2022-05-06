@@ -1,0 +1,33 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 70 75	[BOS]
+T3	Single_summ 134 139	[BOS]
+T4	Single_summ 272 277	[BOS]
+T5	Single_summ 346 351	[BOS]
+T6	Narrative_cite 483 488	[BOS]
+T7	Narrative_cite 738 743	[BOS]
+T8	Reflection 994 999	[BOS]
+T9	Transition 1043 1048	[BOS]
+T10	Single_summ 1086 1091	[BOS]
+T11	Single_summ 1213 1218	[BOS]
+T12	Single_summ 1360 1365	[BOS]
+T13	Transition 1532 1537	[BOS]
+T14	Transition 1620 1625	[BOS]
+T15	Transition 1725 1730	[BOS]
+T16	B_span 109 112	Han
+T17	E_span 472 481	distances
+T18	Dominant 109 131	Han and Baldwin (2011)
+T19	B_span 598 609	Statistical
+T20	E_span 643 647	2012
+T21	Reference 631 647	Li and Liu, 2012
+T22	B_span 658 670	unsupervised
+T23	E_span 702 706	2013
+T24	Reference 681 706	Yang and Eisenstein, 2013
+T25	B_span 817 823	shared
+T26	E_span 903 907	2015
+T27	Reference 887 907	Baldwin et al., 2015
+T28	B_span 1111 1122	Supranovich
+T29	E_span 1197 1210	normalization
+T30	Dominant 1111 1142	Supranovich and Patsepnia, 2015
+T31	B_span 1232 1239	MoNoise
+T32	E_span 1523 1529	tweets
+T33	Dominant 1247 1279	van der Goot and van Noord, 2017

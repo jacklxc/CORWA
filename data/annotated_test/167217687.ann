@@ -1,0 +1,33 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 183 188	[BOS]
+T3	Single_summ 403 408	[BOS]
+T4	Transition 544 549	[BOS]
+T5	Single_summ 679 684	[BOS]
+T6	Single_summ 827 832	[BOS]
+T7	Transition 1056 1061	[BOS]
+T8	Single_summ 1220 1225	[BOS]
+T9	Reflection 1383 1388	[BOS]
+T10	Reflection 1466 1471	[BOS]
+T11	Dominant 70 84	Jia et al. [6]
+T12	Dominant 685 705	Krishnamurthy et al.
+T13	Reference 821 824	[7]
+T14	Dominant 1226 1236	Fan et al.
+T15	Reference 1377 1380	[8]
+T16	Pronoun 27 31	this
+T17	Pronoun 189 193	This
+T18	Pronoun 443 447	this
+T19	Pronoun 570 574	this
+T20	Pronoun 726 730	this
+T21	Pronoun 842 846	this
+T22	Pronoun 1300 1304	this
+T23	Pronoun 1389 1393	This
+T24	B_span 70 73	Jia
+T26	B_span 685 698	Krishnamurthy
+T28	B_span 796 800	well
+T29	E_span 823 824	]
+T30	B_span 1226 1229	Fan
+T31	E_span 1378 1379	8
+T32	E_span 1378 1379	8
+T27	E_span 1044 1052	training
+T33	B_span 1352 1359	smaller
+T34	E_span 536 541	model

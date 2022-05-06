@@ -1,0 +1,17 @@
+[BOS] Because of the great importance of synchronous grammars to SMT systems, researchers have proposed various methods in order to improve the quality of grammars.
+[BOS] In addition to the generative model introduced in Section 1, researchers also have made efforts on word alignment and grammar rescoring.
+
+[BOS] The first effort is to improve word alignment by considering phrase/syntax information (May and Knight, 2007; DeNero and Klein, 2010; Pauls et al., 2010; Burkett et al., 2010; Riesa et al., 2011) .
+[BOS] Such approaches also use discriminative framework to combine word alignment and syntactic alignment information.
+[BOS] In this way, they prefer word alignments that are consistent with syntactic structure alignments.
+[BOS] However, labeled word alignment data are required in order to learn the discriminative model.
+
+[BOS] Researchers also try to rescore the weights of translation rules.
+[BOS] They rescore the weights of rules extracted from the two-step pipeline, by using the similar latent log-linear model as us (Blunsom et al., 2008; Kriinen, 2009) , or incorporating various features using labeled data (Huang and Xiang, 2010) .
+[BOS] Such methods still need to run the heuristic two-step pipeline to extract the grammar, while our method can directly learn the grammar and correspondent weights.
+
+[BOS] Our work also has a connection to the research direction that exploits resources-rich languages to construct similar tools for resource-poor languages.
+[BOS] This can be done with parallel data (Pauls et al., 2010) or without parallel data (Cohen et al., 2011) .
+[BOS] Saers et al. (2009) also propose a cubic biparsing algorithm based on beam pruning.
+[BOS] They apply this algorithm for generative model-based ITG grammar induction.
+

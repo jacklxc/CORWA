@@ -1,0 +1,75 @@
+T1	Multi_summ 0 5	[BOS]
+T2	Transition 203 208	[BOS]
+T3	Multi_summ 317 322	[BOS]
+T4	Transition 509 514	[BOS]
+T5	Transition 573 578	[BOS]
+T6	Single_summ 671 676	[BOS]
+T7	Single_summ 818 823	[BOS]
+T8	Single_summ 884 889	[BOS]
+T9	Reflection 1041 1046	[BOS]
+T10	Transition 1137 1142	[BOS]
+T11	Transition 1280 1285	[BOS]
+T12	Transition 1335 1340	[BOS]
+T13	Single_summ 1429 1434	[BOS]
+T14	Single_summ 1549 1554	[BOS]
+T15	Single_summ 1691 1696	[BOS]
+T16	Single_summ 1840 1845	[BOS]
+T17	Single_summ 1993 1998	[BOS]
+T18	Single_summ 2095 2100	[BOS]
+T19	Multi_summ 2255 2260	[BOS]
+T20	Reflection 2391 2396	[BOS]
+T21	Reflection 2572 2577	[BOS]
+T22	Single_summ 2719 2724	[BOS]
+T23	Single_summ 2957 2962	[BOS]
+T24	Reflection 3099 3104	[BOS]
+T25	Reflection 3237 3242	[BOS]
+T26	Dominant 10 30	(Chung et al., 2014)
+T27	Dominant 39 73	(Hochreiter and Schmidhuber, 1997)
+T28	Dominant 350 372	Gehring et al. (2017a)
+T29	Dominant 436 458	Gehring et al. (2017b)
+T30	Dominant 707 728	Vaswani et al. (2017)
+T31	Dominant 1435 1454	Luong et al. (2015)
+T32	Dominant 1555 1574	Zhang et al. (2016)
+T33	Dominant 1697 1715	Yang et al. (2017)
+T34	Dominant 1846 1866	Zhang et al. (2017a)
+T35	Dominant 1999 2016	Kim et al. (2017)
+T36	Dominant 2101 2119	Shen et al. (2017)
+T37	Dominant 2261 2277	Mi et al. (2016)
+T38	Dominant 2282 2299	Liu et al. (2016)
+T39	Reference 2647 2672	(Srivastava et al., 2015)
+T40	Reference 2698 2715	(He et al., 2015)
+T41	Dominant 2795 2811	Gu et al. (2018)
+T42	Pronoun 336 340	this
+T43	Pronoun 692 697	these
+T44	Pronoun 824 826	It
+T45	Pronoun 1097 1099	it
+T46	Pronoun 1286 1288	It
+T47	Pronoun 2996 3001	their
+T48	B_span 1435 1440	Luong
+T49	E_span 1538 1547	attention
+T50	B_span 1555 1560	Zhang
+T51	E_span 1677 1689	dependencies
+T52	B_span 1697 1701	Yang
+T53	E_span 1833 1838	words
+T54	B_span 1846 1851	Zhang
+T55	E_span 1984 1991	network
+T56	B_span 1999 2002	Kim
+T57	E_span 2087 2093	models
+T58	B_span 2101 2105	Shen
+T59	E_span 2242 2253	information
+T60	B_span 2261 2263	Mi
+T61	E_span 2382 2389	weights
+T62	B_span 2631 2638	highway
+T63	E_span 2667 2671	2015
+T64	B_span 2681 2689	residual
+T65	E_span 2710 2714	2015
+T66	B_span 2725 2727	In
+T67	E_span 3090 3097	quality
+T68	B_span 6 9	GRU
+T69	E_span 196 201	issue
+T70	B_span 350 357	Gehring
+T71	E_span 427 430	RNN
+T72	B_span 436 443	Gehring
+T73	E_span 501 507	system
+T74	B_span 707 714	Vaswani
+T75	E_span 1028 1039	Transformer

@@ -1,0 +1,10 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 96 101	[BOS]
+T3	Single_summ 203 208	[BOS]
+T4	Reflection 352 357	[BOS]
+T5	Dominant 103 122	Leaman et al., 2015
+T6	B_span 103 109	Leaman
+T7	E_span 190 201	performance
+T8	Dominant 209 226	(Lin et al., 2018
+T9	B_span 210 213	Lin
+T10	E_span 341 350	sentences

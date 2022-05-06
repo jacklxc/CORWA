@@ -1,0 +1,12 @@
+[BOS] Paraphrase generation has been recently explored as a statistical machine translation problem in a neural setting.
+[BOS] Prakash et al. (2016) used a stacked-LSTM (Long Short-Term Memory) SEQ2SEQ network with residual connections and demonstrated strong performance over the simple and attentionenhanced SEQ2SEQ models.
+[BOS] They report superior scores on several datasets: the Paraphrase Database corpus (Ganitkevitch et al., 2013, PPDB) , captions from Common Objects in Context (Lin et al., 2014, MSCOCO) , and question pairs from WikiAnswers (Fader et al., 2013) .
+[BOS] Mallinson et al. (2017) adapt the NMT architecture to incorporate bilingual pivoting and report improvements over the baseline in simi-larity prediction, paraphrase identification as well as paraphrase generation.
+
+[BOS] Our work is different in that we focus on transfer learning to improve performance, using state of the art neural models employed mainly for machine translation.
+
+[BOS] Transfer learning has been recently investigated by Mou et al. (2016) , who distinguish two settings: semantically equivalent transfer (where both source and target tasks are natural language inference) and semantically different transfer (where the source task is natural language inference and the target task is paraphrase detection).
+[BOS] They report increased performance only in the former setting.
+[BOS] Zoph et al. (2016) train a parent model on a highresource language pair (such as English-French) in order to improve low-resource language pairs.
+[BOS] They manage to improve the baseline with an average 5.6 BLEU points.
+

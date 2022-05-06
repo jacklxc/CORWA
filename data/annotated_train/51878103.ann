@@ -1,0 +1,47 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 39 44	[BOS]
+T3	Narrative_cite 229 234	[BOS]
+T4	Transition 467 472	[BOS]
+T5	Narrative_cite 652 657	[BOS]
+T6	Narrative_cite 909 914	[BOS]
+T7	Narrative_cite 1130 1135	[BOS]
+T8	Reflection 1307 1312	[BOS]
+T9	Reflection 1442 1447	[BOS]
+T10	Reference 91 111	(Finkel et al., 2005
+T11	Reference 113 140	Jun'ichi and Torisawa, 2007
+T12	Reference 142 164	Ratinov and Roth, 2009
+T13	Reference 166 185	Passos et al., 2014
+T14	Reference 187 207	Radford et al., 2015
+T15	Reference 209 226	Luo et al., 2015)
+T16	Reference 346 376	(dos Santos and Guimares, 2015
+T17	Reference 378 400	Chiu and Nichols, 2016
+T18	Reference 402 421	Lample et al., 2016
+T19	Reference 423 440	Yang et al., 2016
+T20	Reference 443 464	Gillick et al., 2016)
+T21	Reference 727 748	(Florian et al., 2003
+T22	Reference 750 773	Zhang and Johnson, 2003
+T23	Reference 775 802	Jun'ichi and Torisawa, 2007
+T24	Reference 804 826	Ratinov and Roth, 2009
+T25	Reference 828 844	Lin and Wu, 2009
+T26	Reference 846 865	Passos et al., 2014
+T27	Reference 867 887	Radford et al., 2015
+T28	Reference 889 906	Luo et al., 2015)
+T29	Reference 1006 1027	(Florian et al., 2003
+T30	Reference 1029 1052	Zhang and Johnson, 2003
+T31	Reference 1054 1081	Jun'ichi and Torisawa, 2007
+T32	Reference 1083 1105	Ratinov and Roth, 2009
+T33	Reference 1107 1127	Passos et al., 2014)
+T34	Reference 1218 1242	(Durrett and Klein, 2014
+T35	Reference 1244 1264	Radford et al., 2015
+T36	Reference 1266 1282	Luo et al., 2015
+T37	Reference 1284 1304	Nguyen et al., 2016)
+T38	B_span 86 90	CRFs
+T39	E_span 221 225	2015
+T40	B_span 308 311	end
+T41	E_span 459 463	2016
+T42	B_span 702 711	knowledge
+T43	E_span 901 905	2015
+T44	B_span 983 989	entity
+T45	E_span 1122 1126	2014
+T46	B_span 1206 1209	NER
+T47	E_span 1299 1303	2016

@@ -1,0 +1,63 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 142 147	[BOS]
+T3	Narrative_cite 416 421	[BOS]
+T4	Transition 597 602	[BOS]
+T5	Reflection 681 686	[BOS]
+T6	Reflection 911 916	[BOS]
+T7	Reflection 993 998	[BOS]
+T8	Narrative_cite 1099 1104	[BOS]
+T9	Narrative_cite 1235 1240	[BOS]
+T10	Reflection 1464 1469	[BOS]
+T11	Reflection 1523 1528	[BOS]
+T12	Reflection 1657 1662	[BOS]
+T13	Reflection 1898 1903	[BOS]
+T14	Transition 1985 1990	[BOS]
+T15	Multi_summ 2088 2093	[BOS]
+T16	Reflection 2229 2234	[BOS]
+T17	Reflection 2406 2411	[BOS]
+T18	Other 2528 2533	[BOS]
+T19	Other 2592 2597	[BOS]
+T20	Other 2625 2630	[BOS]
+T21	Transition 2669 2674	[BOS]
+T22	Other 2760 2765	[BOS]
+T23	Other 2883 2888	[BOS]
+T24	Other 2927 2932	[BOS]
+T25	Other 2977 2982	[BOS]
+T26	Transition 3035 3040	[BOS]
+T27	Other 3118 3123	[BOS]
+T28	Other 3209 3214	[BOS]
+T29	Transition 3261 3266	[BOS]
+T30	Other 3274 3279	[BOS]
+T31	Reference 95 118	(Church and Hanks, 1990
+T32	Reference 120 139	Brown et al., 1992)
+T33	Reference 239 267	(Tishby and Zaslavsky, 2015)
+T34	Reference 388 413	(Goodfellow et al., 2014)
+T35	Reference 552 574	(Belghazi et al., 2018
+T36	Reference 576 593	Oord et al., 2018
+T37	Reference 805 826	(Brown et al., 1992 )
+T38	Reference 891 908	McAllester (2018)
+T39	Reference 1214 1232	Wang et al., 2015)
+T40	Reference 1440 1461	(Andrew et al., 2013)
+T41	Reference 1582 1599	McAllester (2018)
+T42	Dominant 2094 2111	Lin et al. (2015)
+T43	Dominant 2118 2134	He et al. (2018)
+T44	B_span 6 17	Information
+T45	E_span 134 138	1992
+T46	B_span 223 229	neural
+T47	E_span 262 266	2015
+T48	B_span 349 359	generative
+T49	E_span 408 412	2014
+T50	B_span 533 539	mutual
+T51	E_span 589 593	2018
+T52	B_span 778 783	Brown
+T53	E_span 820 824	1992
+T54	B_span 860 866	mutual
+T55	E_span 903 907	2018
+T56	B_span 1181 1193	unsupervised
+T57	E_span 1227 1231	2015
+T58	B_span 1398 1402	deep
+T59	E_span 1456 1460	2013
+T60	B_span 1582 1592	McAllester
+T61	E_span 1594 1598	2018
+T62	B_span 2094 2097	Lin
+T63	E_span 2217 2227	embeddings

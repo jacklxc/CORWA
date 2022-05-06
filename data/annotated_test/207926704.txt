@@ -1,0 +1,12 @@
+[BOS] Generalization and multi-dataset evaluation Recently there has been some work aimed at exploring the relation and differences between multiple reading comprehension datasets.
+[BOS] MULTIQA (Talmor and Berant, 2019) investigates over ten RC datasets, training on one or more source RC datasets, and evaluating generalization, as well as transfer to a target RC dataset.
+[BOS] This work analyzes the factors that contribute to generalization, and shows that training on a source RC dataset and transferring to a target dataset substantially improves performance.
+[BOS] MultiQA also provides a single format including a model and infrastructure for training and comparing question answering datasets.
+[BOS] We provide no training mechanism, instead focusing on very simple evaluation that is compatible with any training regime, including evaluating on hidden test sets.
+
+[BOS] MRQA19, the Machine Reading for Question Answering workshop, introduced a shared task, which tests whether existing machine reading comprehension systems can generalize beyond the datasets on which they were trained.
+[BOS] The task provides six large-scale datasets for training, and evaluates generalization to ten different hidden test datasets.
+[BOS] However these datasets were modified from there original version, and context was limited to 800 tokens.
+[BOS] In addition this shared task only tests for generalization with no intra-domain evaluation.
+[BOS] In contrast, our evaluation server simply provides a single-model evaluation on many different datasets, with no prescriptions about training regimes.
+

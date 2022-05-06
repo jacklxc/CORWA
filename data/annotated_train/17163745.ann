@@ -1,0 +1,44 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 29 34	[BOS]
+T3	Transition 183 188	[BOS]
+T4	Transition 303 308	[BOS]
+T5	Transition 338 343	[BOS]
+T6	Single_summ 497 502	[BOS]
+T7	Single_summ 618 623	[BOS]
+T8	Transition 751 756	[BOS]
+T9	Transition 850 855	[BOS]
+T10	Single_summ 975 980	[BOS]
+T11	Single_summ 1083 1088	[BOS]
+T12	Transition 1183 1188	[BOS]
+T13	Transition 1413 1418	[BOS]
+T14	Transition 1527 1532	[BOS]
+T15	Narrative_cite 1564 1569	[BOS]
+T16	Narrative_cite 1750 1755	[BOS]
+T17	Reflection 1962 1967	[BOS]
+T18	Reflection 2094 2099	[BOS]
+T19	Reference 108 128	(Litman et al., 2000
+T20	Reference 130 153	Schatzmann et al., 2006
+T21	Reference 155 180	Williams and Young, 2007)
+T22	Dominant 503 523	Ritter et al. (2011)
+T23	Dominant 624 643	Shang et al. (2015)
+T24	Dominant 981 997	Ji et al. (2014)
+T25	Reference 1680 1703	(Wang and Manning, 2010
+T26	Reference 1705 1728	Heilman and Smith, 2010
+T27	Reference 1730 1747	Yih et al., 2013)
+T28	Reference 1811 1827	(Yu et al., 2014
+T29	Reference 1829 1850	Wang and Nyberg, 2015
+T30	Reference 1852 1879	Severyn and Moschitti, 2015
+T31	Pronoun 189 194	These
+T32	Pronoun 1419 1424	These
+T33	B_span 68 72	rule
+T34	E_span 175 179	2007
+T35	B_span 503 509	Ritter
+T36	E_span 612 616	task
+T37	B_span 624 629	Shang
+T38	E_span 745 749	data
+T39	B_span 981 983	Ji
+T40	E_span 1174 1181	domains
+T41	B_span 1649 1653	word
+T42	E_span 1742 1746	2013
+T43	B_span 1783 1789	neural
+T44	E_span 1875 1879	2015

@@ -1,0 +1,23 @@
+[BOS] In this section we briefly summarize the existing work on event extraction and temporal relation extraction.
+[BOS] To the best of our knowledge, there is no prior work on joint event and relation extraction, so we will review joint entity and relation extraction works instead.
+
+[BOS] Existing event extraction methods in the temporal relation domain, as in the TempEval3 workshop (UzZaman et al., 2013) , all use conventional machine learning models (logistic regression, SVM, or Max-entropy) with hand-engineered features (e.g., ClearTK (Bethard, 2013) and NavyTime (Chambers, 2013) ).
+[BOS] While other domains have shown progress on event extraction using neural methods (Nguyen and Grishman, 2015; Nguyen et al., 2016; Feng et al., 2016) , recent progress in the temporal relation domain is focused more on the setting where gold events are provided.
+[BOS] Therefore, we first show the performance of a neural event extractor on this task, although it is not our main contribution.
+
+[BOS] Early attempts on temporal relation extraction use local pair-wise classification with handengineered features (Mani et al., 2006; Verhagen et al., 2007; Chambers et al., 2007; Verhagen and Pustejovsky, 2008) .
+[BOS] Later efforts, such as ClearTK (Bethard, 2013) , UTTime (Laokulrat et al., 2013) , NavyTime (Chambers, 2013) , and CAEVO improve earlier work with better linguistic and syntactic rules.
+[BOS] Yoshikawa et al. (2009); Ning et al. (2017) ; Leeuwenberg and Moens (2017) explore structured learning for this task, and more recently, neural methods have also been shown effective (Tourille et al., 2017; Cheng and Miyao, 2017; Meng et al., 2017; Meng and Rumshisky, 2018) .
+
+[BOS] In practice, we need to extract both events and those temporal relations among them from raw text.
+[BOS] All the works above treat this as two subtasks that are solved in a pipeline.
+[BOS] To the best of our knowledge, there has been no existing work on joint event-temporal relation extraction.
+[BOS] However, the idea of "joint" has been studied for entityrelation extraction in many works.
+[BOS] Miwa and Sasaki (2014) frame their joint model as table filling tasks, map tabular representation into sequential predictions with heuristic rules, and construct global loss to compute the best joint predictions.
+[BOS] Li and Ji (2014) define a global structure for joint entity and relation extraction, encode local and global features based on domain and linguistic knowledge.
+[BOS] and leverage beam-search to find global optimal assignments for entities and relations.
+[BOS] Miwa and Bansal (2016) leverage LSTM architectures to jointly predict both entity and relations, but fall short on ensuring prediction consistency.
+[BOS] Zhang et al. (2017) combine the benefits of both neural net and global optimization with beam search.
+[BOS] Motivated by these works, we propose an end-to-end trainable neural structured support vector machine (neural SSVM) model to simultaneously extract events and their relations from text and ensure the global structure via ILP constraints.
+[BOS] Next, we will describe in detail our proposed method.
+

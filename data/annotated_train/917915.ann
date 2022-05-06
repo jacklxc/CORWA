@@ -1,0 +1,30 @@
+T1	Reflection 0 5	[BOS]
+T2	Multi_summ 270 275	[BOS]
+T3	Single_summ 554 559	[BOS]
+T4	Transition 622 627	[BOS]
+T5	Single_summ 751 756	[BOS]
+T6	Multi_summ 935 940	[BOS]
+T7	Multi_summ 1108 1113	[BOS]
+T8	Multi_summ 1279 1284	[BOS]
+T9	Reflection 1491 1496	[BOS]
+T10	Dominant 276 297	May and Knight (2006)
+T11	Dominant 387 409	Kumar and Byrne (2004)
+T12	Dominant 560 581	Tromble et al. (2008)
+T13	Dominant 780 801	Blunsom et al. (2007)
+T14	Dominant 941 964	Matsusaki et al. (2005)
+T15	Dominant 969 989	Petrov et al. (2006)
+T16	B_span 276 279	May
+T17	E_span 368 379	derivations
+T18	B_span 387 392	Kumar
+T19	E_span 548 552	list
+T20	B_span 560 563	Tro
+T21	E_span 610 620	structures
+T22	B_span 780 783	Blu
+T23	E_span 927 933	search
+T24	B_span 941 945	Mats
+T25	E_span 1489 1490	.
+T26	Pronoun 188 193	their
+T27	Pronoun 589 593	this
+T28	Pronoun 635 640	these
+T29	Pronoun 1285 1289	They
+T30	Pronoun 1693 1697	this

@@ -1,0 +1,45 @@
+T1	Single_summ 0 5	[BOS]
+T2	Narrative_cite 164 169	[BOS]
+T3	Narrative_cite 382 387	[BOS]
+T4	Single_summ 464 469	[BOS]
+T5	Single_summ 602 607	[BOS]
+T6	Single_summ 680 685	[BOS]
+T7	Narrative_cite 789 794	[BOS]
+T8	Narrative_cite 943 948	[BOS]
+T9	Transition 1233 1238	[BOS]
+T10	Reflection 1344 1349	[BOS]
+T11	Dominant 48 66	Wang et al. (1994)
+T12	Reference 361 380	(Niu et al., 2009 )
+T13	Reference 448 461	(Huang, 2008)
+T14	Dominant 470 488	Zhu and Zhu (2010)
+T15	Reference 659 677	Wang et al. (1994)
+T16	Reference 852 876	(Blum and Mitchell, 1998
+T17	Reference 878 902	Sagae and Lavie, 2006b )
+T18	Reference 919 940	(Petrov et al., 2010)
+T19	Reference 1036 1056	(Martinset al., 2008
+T20	Reference 1058 1083	Nivre and McDonald, 2008)
+T21	Reference 1124 1150	(Daum III and Marcu, 2006)
+T22	B_span 6 9	For
+T25	E_span 374 378	2009
+T26	B_span 413 420	limited
+T27	E_span 456 460	2008
+T28	B_span 470 473	Zhu
+T29	E_span 718 730	distinctions
+T30	B_span 840 842	co
+T31	E_span 895 900	2006b
+T32	B_span 907 909	up
+T33	E_span 935 939	2010
+T34	B_span 1006 1016	dependency
+T35	E_span 1078 1082	2008
+T36	B_span 1090 1094	Pred
+T37	E_span 1145 1149	2006
+T38	Pronoun 188 190	it
+T39	Pronoun 218 220	it
+T40	Pronoun 608 613	Their
+T41	Pronoun 695 697	it
+T42	Pronoun 811 815	this
+T44	Pronoun 1387 1391	this
+T23	B_span 314 324	dependency
+T24	E_span 157 162	lists
+T45	B_span 629 640	significant
+T46	E_span 672 676	1994

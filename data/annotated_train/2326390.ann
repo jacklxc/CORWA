@@ -1,0 +1,22 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 185 190	[BOS]
+T3	Single_summ 287 292	[BOS]
+T4	Narrative_cite 411 416	[BOS]
+T5	Narrative_cite 615 620	[BOS]
+T6	Reference 136 155	(Fazly et al., 2009
+T7	Reference 157 182	Nagy T. and Vincze, 2014)
+T8	Dominant 307 330	Diab and Bhutada (2009)
+T9	Reference 544 572	(Blunsom and Baldwin, 2006 )
+T10	Reference 587 611	(Schneider et al., 2014)
+T11	Reference 820 841	(Eryigit et al., 2011
+T12	Reference 843 863	Vincze et al., 2013)
+T13	B_span 114 120	binary
+T14	E_span 177 181	2014
+T15	B_span 293 296	For
+T16	E_span 402 409	English
+T17	B_span 521 531	contiguous
+T18	E_span 566 570	2006
+T19	B_span 576 581	gappy
+T20	E_span 606 610	2014
+T21	B_span 767 771	VMWE
+T22	E_span 858 862	2013

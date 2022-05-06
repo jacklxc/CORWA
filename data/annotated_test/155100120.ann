@@ -1,0 +1,101 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 201 206	[BOS]
+T3	Narrative_cite 359 364	[BOS]
+T4	Transition 458 463	[BOS]
+T5	Narrative_cite 554 559	[BOS]
+T6	Narrative_cite 627 632	[BOS]
+T7	Reflection 782 787	[BOS]
+T8	Transition 944 949	[BOS]
+T9	Transition 1070 1075	[BOS]
+T10	Narrative_cite 1242 1247	[BOS]
+T11	Transition 1314 1319	[BOS]
+T12	Transition 1482 1487	[BOS]
+T13	Narrative_cite 1583 1588	[BOS]
+T14	Transition 1681 1686	[BOS]
+T15	Transition 1813 1818	[BOS]
+T16	Transition 1981 1986	[BOS]
+T17	Reflection 2061 2066	[BOS]
+T18	Narrative_cite 2152 2157	[BOS]
+T19	Single_summ 2522 2527	[BOS]
+T20	Single_summ 2656 2661	[BOS]
+T21	Narrative_cite 2754 2759	[BOS]
+T22	Single_summ 2899 2904	[BOS]
+T23	Single_summ 3103 3108	[BOS]
+T24	Transition 3290 3295	[BOS]
+T25	Transition 3405 3410	[BOS]
+T26	Narrative_cite 3550 3555	[BOS]
+T27	Transition 3676 3681	[BOS]
+T28	Multi_summ 3822 3827	[BOS]
+T29	Single_summ 4048 4053	[BOS]
+T30	Single_summ 4237 4242	[BOS]
+T31	Single_summ 4351 4356	[BOS]
+T32	Transition 4549 4554	[BOS]
+T33	Reference 434 455	(Bordes et al., 2015)
+T34	Reference 566 590	(Rajpurkar et al., 2016)
+T35	Reference 709 729	(Welbl et al., 2018)
+T36	Reference 754 779	(Talmor and Berant, 2018)
+T37	Reference 1287 1311	(Rajpurkar et al., 2016)
+T38	Reference 1654 1678	(Rajpurkar et al., 2016)
+T39	Reference 2240 2264	(Kipf and Welling, 2017)
+T40	Reference 2290 2313	(Velikovi et al., 2018)
+T41	Reference 2344 2364	(Song et al., 2018b)
+T42	Reference 2455 2476	(Dhingra et al., 2018
+T43	Reference 2478 2497	De Cao et al., 2018
+T44	Reference 2499 2518	Song et al., 2018a)
+T45	Dominant 2631 2653	(Dhingra et al., 2018)
+T46	Reference 2832 2852	(Song et al., 2018b)
+T47	Dominant 2914 2934	(Song et al., 2018a)
+T48	Dominant 3121 3141	De Cao et al., 2018)
+T49	Reference 3263 3287	(Kipf and Welling, 2017)
+T50	Reference 3648 3673	(Sukhbaatar et al., 2015)
+T51	Dominant 3828 3852	Munkhdalai and Yu (2017)
+T52	Dominant 3857 3877	Onishi et al. (2016)
+T53	Dominant 4062 4080	Zhou et al., 2018)
+T54	Pronoun 424 428	this
+T55	Pronoun 791 795	this
+T56	Pronoun 1277 1281	this
+T57	Pronoun 1520 1524	this
+T58	Pronoun 1696 1701	these
+T59	Pronoun 1971 1975	they
+T60	Pronoun 2070 2074	this
+T61	Pronoun 2760 2765	These
+T62	Pronoun 2789 2791	it
+T63	Pronoun 3538 3542	this
+T64	Pronoun 4366 4371	these
+T65	Pronoun 4682 4686	they
+T66	B_span 378 393	SimpleQuestions
+T67	E_span 450 454	2015
+T68	B_span 560 565	SQuAD
+T69	E_span 585 589	2016
+T70	B_span 701 708	WikiHop
+T71	E_span 724 728	2018
+T72	B_span 734 753	ComplexWebQuestions
+T73	E_span 774 778	2018
+T75	E_span 1306 1310	2016
+T76	B_span 1633 1639	single
+T77	E_span 1673 1677	2016
+T78	B_span 2214 2219	graph
+T79	E_span 2259 2263	2017
+T80	B_span 2266 2271	graph
+T81	E_span 2308 2312	2018
+T82	B_span 2320 2325	graph
+T83	E_span 2358 2363	2018b
+T84	B_span 2426 2428	QA
+T85	E_span 2512 2517	2018a
+T86	B_span 2528 2533	Coref
+T87	E_span 2746 2752	entity
+T88	B_span 2795 2800	graph
+T89	E_span 2846 2851	2018b
+T90	B_span 2905 2909	MHQA
+T91	E_span 3089 3101	improvements
+T92	B_span 3109 3115	Entity
+T93	E_span 3282 3286	2017
+T94	E_span 3282 3286	2017
+T95	B_span 3211 3221	relational
+T96	B_span 3602 3607	multi
+T97	E_span 3668 3672	2015
+T98	E_span 4042 4046	step
+T99	B_span 3828 3838	Munkhdalai
+T100	B_span 4054 4056	IR
+T101	E_span 4539 4547	question
+T74	B_span 1252 1257	SQuAD

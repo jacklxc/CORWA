@@ -1,0 +1,55 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 82 87	[BOS]
+T3	Single_summ 334 339	[BOS]
+T4	Single_summ 433 438	[BOS]
+T5	Single_summ 700 705	[BOS]
+T6	Transition 871 876	[BOS]
+T7	Single_summ 957 962	[BOS]
+T8	Single_summ 1036 1041	[BOS]
+T9	Reflection 1140 1145	[BOS]
+T10	Multi_summ 1308 1313	[BOS]
+T11	Reflection 1544 1549	[BOS]
+T12	Reference 143 160	(Yin et al., 2015
+T13	Reference 162 178	Tay et al., 2018
+T14	Reference 180 197	Wang et al., 2017
+T15	Reference 199 229	Tymoshenko and Moschitti, 2018
+T16	Reference 231 248	Min et al., 2017)
+T17	Reference 283 303	(Peters et al., 2018
+T18	Reference 305 321	Kim et al., 2018
+T19	Dominant 340 358	(Yin et al., 2015)
+T20	Dominant 442 474	(Tymoshenko and Moschitti, 2018)
+T21	Reference 678 697	(Yang et al., 2015)
+T22	Dominant 706 727	(Peters et al., 2018)
+T23	Reference 846 867	(Bowman et al., 2015)
+T24	Dominant 968 989	(Peters et al., 2017)
+T25	Dominant 1053 1073	(Alec Radford, 2018)
+T26	Dominant 1353 1374	(Devlin et al., 2018)
+T27	Reference 1435 1454	(Wang et al., 2018)
+T28	Reference 1469 1493	(Rajpurkar et al., 2016)
+T29	B_span 120 128	Question
+T30	E_span 247 248	)
+T31	B_span 251 258	Natural
+T32	E_span 317 321	2018
+T33	B_span 340 341	(
+T34	E_span 431 432	.
+T35	B_span 439 441	In
+T36	E_span 696 697	)
+T37	B_span 706 707	(
+T38	E_span 866 867	)
+T39	B_span 963 965	EL
+T40	E_span 1034 1035	.
+T41	B_span 1042 1046	Open
+T42	E_span 1138 1139	.
+T43	B_span 1348 1352	BERT
+T44	B_span 1459 1462	SQu
+T46	E_span 1541 1542	.
+T47	Pronoun 477 481	they
+T48	Pronoun 1160 1164	this
+T49	Pronoun 1553 1557	this
+T50	B_span 671 677	WikiQA
+T51	E_span 694 695	1
+T52	B_span 841 845	SNLI
+T53	E_span 862 866	2015
+T54	B_span 1420 1424	GLUE
+T55	E_span 1449 1453	2018
+T45	E_span 1488 1492	2016

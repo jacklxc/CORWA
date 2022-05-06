@@ -1,0 +1,99 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 150 155	[BOS]
+T3	Transition 247 252	[BOS]
+T4	Single_summ 409 414	[BOS]
+T5	Single_summ 538 543	[BOS]
+T6	Single_summ 708 713	[BOS]
+T7	Single_summ 876 881	[BOS]
+T8	Single_summ 1020 1025	[BOS]
+T9	Single_summ 1134 1139	[BOS]
+T10	Single_summ 1231 1236	[BOS]
+T11	Transition 1330 1335	[BOS]
+T12	Transition 1408 1413	[BOS]
+T13	Single_summ 1482 1487	[BOS]
+T14	Single_summ 1639 1644	[BOS]
+T15	Single_summ 1808 1813	[BOS]
+T16	Single_summ 1938 1943	[BOS]
+T17	Single_summ 2049 2054	[BOS]
+T18	Transition 2172 2177	[BOS]
+T19	Narrative_cite 2285 2290	[BOS]
+T20	Transition 2474 2479	[BOS]
+T21	Single_summ 2718 2723	[BOS]
+T22	Transition 2961 2966	[BOS]
+T23	Single_summ 3153 3158	[BOS]
+T24	Single_summ 3316 3321	[BOS]
+T25	Single_summ 3480 3485	[BOS]
+T26	Multi_summ 3588 3593	[BOS]
+T27	Single_summ 3855 3860	[BOS]
+T28	Single_summ 3955 3960	[BOS]
+T29	Reflection 4006 4011	[BOS]
+T30	Dominant 415 438	(Madnani et al., 2012 )
+T31	Dominant 544 563	(Levy et al., 2014)
+T32	Dominant 714 735	(Ajjour et al., 2017)
+T33	Dominant 882 903	(Goudas et al., 2014)
+T34	Dominant 1026 1050	(Sardianos et al., 2015)
+T35	Dominant 1151 1177	(Stab and Gurevych, 2017 )
+T36	Dominant 1237 1256	(Eger et al., 2017)
+T37	Dominant 1488 1515	(Eckle-Kohler et al., 2015)
+T38	Dominant 1645 1669	(Park and Cardie, 2014 )
+T39	Dominant 1814 1839	(Stab and Gurevych, 2017)
+T40	Dominant 1944 1966	(Persing and Ng, 2016)
+T41	Dominant 2055 2076	(Potash et al., 2016)
+T42	Reference 2382 2405	(Hashimoto et al., 2016
+T43	Reference 2407 2432	Sgaard and Goldberg, 2016
+T44	Reference 2434 2451	Eger et al., 2017
+T45	Reference 2453 2471	Yang et al., 2016)
+T46	Dominant 2724 2737	(Ruder, 2017)
+T47	Dominant 3159 3186	(Sgaard and Goldberg, 2016)
+T48	Dominant 3322 3341	(Yang et al., 2016)
+T49	Dominant 3486 3510	(Hashimoto et al., 2016)
+T50	Reference 3785 3802	(Mou et al., 2016
+T51	Reference 3804 3826	Alonso and Plank, 2016
+T52	Reference 3828 3852	Bingel and Sgaard, 2017)
+T53	Dominant 3861 3883	(Schulz et al., 2018 )
+T54	Pronoun 156 160	This
+T55	Pronoun 970 975	their
+T56	Pronoun 2291 2295	They
+T57	Pronoun 2480 2484	This
+T58	Pronoun 2761 2765	this
+T59	Pronoun 3698 3703	their
+T60	Pronoun 3972 3976	they
+T61	Pronoun 4015 4019	this
+T62	B_span 416 423	Madnani
+T63	E_span 523 536	dissertations
+T64	B_span 545 549	Levy
+T65	E_span 697 706	Wikipedia
+T66	B_span 715 721	Ajjour
+T67	E_span 866 874	comments
+T68	B_span 883 889	Goudas
+T69	E_span 1015 1018	CRF
+T70	B_span 1027 1036	Sardianos
+T71	E_span 1129 1132	CRF
+T72	B_span 1152 1156	Stab
+T73	E_span 1223 1229	essays
+T74	B_span 1237 1238	(
+T75	E_span 1322 1327	texts
+T76	B_span 1489 1494	Eckle
+T77	E_span 1629 1636	Machine
+T78	B_span 1646 1650	Park
+T79	E_span 1798 1806	projects
+T80	B_span 1815 1819	Stab
+T81	E_span 1933 1936	SVM
+T82	B_span 1945 1952	Persing
+T83	E_span 2037 2047	components
+T84	B_span 2055 2056	(
+T85	E_span 2159 2169	components
+T86	B_span 2344 2351	Natural
+T87	E_span 2466 2470	2016
+T88	B_span 2725 2730	Ruder
+T89	E_span 2954 2959	phase
+T90	B_span 3160 3166	Sgaard
+T91	E_span 3303 3314	performance
+T92	B_span 3323 3327	Yang
+T93	E_span 3469 3478	annotated
+T94	B_span 3487 3496	Hashimoto
+T95	E_span 3581 3586	model
+T96	B_span 3727 3731	data
+T97	E_span 3847 3851	2017
+T98	B_span 3862 3868	Schulz
+T99	E_span 3995 4004	promising

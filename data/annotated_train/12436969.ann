@@ -1,0 +1,40 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 81 86	[BOS]
+T3	Transition 345 350	[BOS]
+T4	Transition 454 459	[BOS]
+T5	Transition 536 541	[BOS]
+T6	Narrative_cite 795 800	[BOS]
+T7	Reflection 915 920	[BOS]
+T8	Narrative_cite 1087 1092	[BOS]
+T9	Narrative_cite 1232 1237	[BOS]
+T10	Narrative_cite 1494 1499	[BOS]
+T11	Reflection 1604 1609	[BOS]
+T12	Reference 205 231	(Rozovskaya and Roth, 2011
+T13	Reference 233 258	Rozovskaya and Roth, 2013
+T14	Reference 260 280	Tajiri et al., 2012)
+T15	Reference 319 342	(Mizumoto et al., 2012)
+T16	Reference 891 912	(Futagi et al., 2008)
+T17	Reference 1183 1206	(Schneider et al., 2014
+T18	Reference 1208 1229	Shigeto et al., 2013)
+T19	Reference 1368 1391	(Carpuat and Diab, 2010
+T20	Reference 1393 1410	Ren et al., 2009)
+T21	Reference 1435 1456	(Newman et al., 2012)
+T22	Reference 1476 1490	(Berend, 2011)
+T23	Reference 1559 1582	(Carpuat and Diab, 2010
+T24	Reference 1584 1602	Ren et al., 2009 )
+T25	B_span 164 173	targeting
+T26	E_span 275 279	2012
+T27	B_span 289 298	targeting
+T28	E_span 337 341	2012
+T29	B_span 856 860	MWEs
+T30	E_span 907 911	2008
+T31	B_span 1127 1131	MWEs
+T32	E_span 1224 1228	2013
+T33	B_span 1336 1347	statistical
+T34	E_span 1405 1409	2009
+T35	B_span 1413 1424	information
+T36	E_span 1451 1455	2012
+T37	B_span 1461 1468	opinion
+T38	E_span 1485 1489	2011
+T39	B_span 1544 1547	SMT
+T40	E_span 1596 1600	2009

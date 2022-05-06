@@ -1,0 +1,8 @@
+[BOS] Temporal Relation Data.
+[BOS] Temporal relation corpora such as TimeBank (Pustejovsky et al., 2003) and RED (O'Gorman et al., 2016) facilitate the research in temporal relation extraction.
+[BOS] The common issue in these corpora is missing annotation.
+[BOS] Collecting densely annotated temporal relation corpora with all event pairs fully annotated has been reported to be a challenging task as annotators could easily overlook some pairs Bethard et al., 2007; .
+[BOS] TB-Dense dataset mitigates this issue by forcing annotators to examine all pairs of events within the same or neighboring sentences.
+[BOS] Recent data construction efforts such as MATRES (Ning et al., 2018a) and TCR (Ning et al., 2018b) further enhance the data quality by using a multiaxis annotation scheme and adopting start-point of events to improve inter-annotator agreements.
+[BOS] However, densely annotated datasets are relatively small both in terms of number of documents and event pairs, which restricts the complexity of machine learning models used in previous research.
+

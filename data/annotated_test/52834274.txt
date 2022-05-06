@@ -1,0 +1,24 @@
+[BOS] There is a growing amount of work applying neural variational methods to NLP tasks, including document modeling (Mnih and Gregor, 2014; Miao et al., 2016; Serban et al., 2017) , machine translation (Zhang et al., 2016 ), text generation (Bowman et al., 2016; Serban et al., 2017; Hu et al., 2017) , language modeling (Bowman et al., 2016; Yang et al., 2017b) , and sequence transduction (Zhou and Neubig, 2017 ), but we are not aware of any such work for sequence labeling.
+[BOS] Before the advent of neural variational methods, there were several efforts in latent variable modeling for sequence labeling (Quattoni et al., 2007; Sun and Tsujii, 2009) .
+
+[BOS] There has been a great deal of work on using variational autoencoders in semi-supervised settings Maale et al., 2016; Zhou and Neubig, 2017; Yang et al., 2017b) .
+[BOS] Semi-supervised sequence labeling has a rich history (Altun et al., 2006; Jiao et al., 2006; Mann and McCallum, 2008; Subramanya et al., 2010; Sgaard, 2011) .
+[BOS] The simplest methods, which are also popular currently, use representations learned from large amounts of unlabeled data (Miller et al., 2004; Owoputi et al., 2013; Peters et al., 2017) .
+[BOS] Recently, Zhang et al. (2017) proposed a structured neural autoencoder that can be jointly trained on both labeled and unlabeled data.
+
+[BOS] Our work involves multi-task losses and is therefore also related to the rich literature on multi-task learning for sequence labeling (Plank et al., 2016; Augenstein and Sgaard, 2017; Bingel and Sgaard, 2017; Rei, 2017, inter alia) .
+
+[BOS] Another related thread of work is learning interpretable latent representations.
+[BOS] Zhou and Neubig (2017) factorize an inflected word into lemma and morphology labels, using continuous and categorical latent variables.
+[BOS] Hu et al. (2017) interpret a sentence as a combination of an unstructured latent code and a structured latent code, which can represent attributes of the sentence.
+
+[BOS] There have been several efforts in combining variational autoencoders and recurrent networks (Gregor et al., 2015; Chung et al., 2015; Fraccaro et al., 2016) .
+[BOS] While the details vary, these models typically contain latent variables at each time step in a sequence.
+[BOS] This prior work mainly focused on ways of parameterizing the time dependence between the latent variables, which gives them more power in modeling distributions over observation sequences.
+[BOS] In this paper, we similarly use latent variables at each time step, but we adopt stronger independence assumptions which leads to simpler models and inference procedures.
+[BOS] Also, the models cited above were developed for modeling data distributions, rather than for supervised or semi-supervised learning, which is our focus here.
+
+[BOS] The key novelties in our work compared to the prior work mentioned above are the proposed sequential variational labelers and the investigation of latent variable hierarchies within these models.
+[BOS] The empirical effectiveness of latent hierarchical structure in variational modeling is a key contribution of this paper and may be applicable to the other applications discussed above.
+[BOS] Recent work, contemporaneous with this submission, similarly showed the advantages of combining hierarchical latent variables and variational learning for conversational modeling, in the context of a non-sequential model (Park et al., 2018) .
+

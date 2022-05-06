@@ -1,0 +1,62 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 224 229	[BOS]
+T3	Other 353 358	[BOS]
+T4	Other 935 940	[BOS]
+T5	Other 1020 1025	[BOS]
+T6	Other 1110 1115	[BOS]
+T7	Transition 1203 1208	[BOS]
+T8	Narrative_cite 1359 1364	[BOS]
+T9	Transition 1619 1624	[BOS]
+T10	Reflection 1747 1752	[BOS]
+T11	Reflection 1867 1872	[BOS]
+T12	Reflection 1939 1944	[BOS]
+T13	Reflection 2058 2063	[BOS]
+T14	Reflection 2156 2161	[BOS]
+T15	Reflection 2231 2236	[BOS]
+T16	Narrative_cite 2349 2354	[BOS]
+T17	Reflection 2504 2509	[BOS]
+T18	Reflection 2596 2601	[BOS]
+T19	Reflection 2635 2640	[BOS]
+T20	Reflection 2725 2730	[BOS]
+T21	Narrative_cite 2816 2821	[BOS]
+T22	Transition 2989 2994	[BOS]
+T23	Transition 3037 3042	[BOS]
+T24	Transition 3143 3148	[BOS]
+T25	Narrative_cite 3378 3383	[BOS]
+T26	Reflection 3598 3603	[BOS]
+T27	Dominant 66 89	Flanigan et al. (2016b)
+T28	Dominant 230 248	Song et al. (2017)
+T30	Reference 1463 1487	(Kipf and Welling, 2017)
+T31	Reference 1544 1567	(Bastings et al., 2017)
+T32	Reference 1599 1616	(Xu et al., 2018)
+T33	Reference 2483 2501	(Tai et al., 2015)
+T34	Reference 2965 2986	(Murphy et al., 1999)
+T35	Reference 3403 3426	(Gulcehre et al., 2016)
+T36	Reference 3499 3516	(Gu et al., 2016)
+T37	Reference 3533 3551	(See et al., 2017)
+T38	Reference 3576 3595	(Song et al., 2018)
+T39	Pronoun 2195 2200	their
+T40	Pronoun 2240 2244	this
+T41	Pronoun 2699 2704	their
+T42	B_span 6 11	Among
+T43	E_span 212 222	transducer
+T44	B_span 230 234	Song
+T45	E_span 347 351	time
+T29	B_span 1428 1433	graph
+T46	E_span 1482 1486	2017
+T47	B_span 1517 1523	neural
+T48	E_span 1562 1566	2017
+T49	B_span 1572 1577	graph
+T50	E_span 1611 1615	2018
+T51	B_span 2458 2468	extensions
+T52	E_span 2496 2500	2015
+T53	B_span 2934 2939	loopy
+T54	E_span 2981 2985	1999
+T55	B_span 3490 3498	dialogue
+T56	E_span 3511 3515	2016
+T57	B_span 3519 3532	summarization
+T58	E_span 3546 3550	2017
+T59	B_span 3556 3564	question
+T60	E_span 3590 3594	2018
+T61	B_span 3399 3402	NMT
+T62	E_span 3421 3425	2016

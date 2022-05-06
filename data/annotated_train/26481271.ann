@@ -1,0 +1,46 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 125 130	[BOS]
+T3	Narrative_cite 262 267	[BOS]
+T4	Transition 390 395	[BOS]
+T5	Narrative_cite 526 531	[BOS]
+T6	Single_summ 790 795	[BOS]
+T7	Transition 1087 1092	[BOS]
+T8	Narrative_cite 1195 1200	[BOS]
+T9	Single_summ 1408 1413	[BOS]
+T10	Transition 1664 1669	[BOS]
+T11	Dominant 131 153	Bernardi et al. (2016)
+T12	Reference 336 356	(Young et al., 2014)
+T13	Reference 369 387	(Lin et al., 2014)
+T14	Reference 711 733	Hitschler et al., 2016
+T15	Reference 735 761	Miyazaki and Shimizu, 2016
+T16	Reference 763 786	Yoshikawa et al., 2017)
+T17	Dominant 885 906	Elliott et al. (2015)
+T18	Reference 999 1029	(Simonyan and Zisserman, 2014)
+T19	Reference 1239 1257	(Shah et al., 2016
+T20	Reference 1259 1280	Libovick et al., 2016
+T21	Reference 1282 1305	Hitschler et al., 2016)
+T22	Reference 1340 1361	(Calixto et al., 2016
+T23	Reference 1363 1381	Huang et al., 2016
+T24	Reference 1383 1405	Caglayan et al., 2016)
+T25	Dominant 1558 1576	Shah et al. (2016)
+T26	Pronoun 396 401	These
+T27	Pronoun 604 609	these
+T28	Pronoun 1184 1188	this
+T29	B_span 131 139	Bernardi
+T30	E_span 250 259	developed
+T31	B_span 326 335	Flickr30K
+T32	E_span 351 355	2014
+T33	B_span 361 363	MS
+T34	E_span 382 386	2014
+T35	B_span 691 697	German
+T36	E_span 781 785	2017
+T37	B_span 796 799	The
+T38	E_span 1078 1085	decoder
+T39	B_span 992 995	VGG
+T40	E_span 1024 1028	2014
+T41	B_span 1214 1220	phrase
+T42	E_span 1300 1304	2016
+T43	B_span 1328 1331	NMT
+T44	E_span 1400 1404	2016
+T45	B_span 1558 1562	Shah
+T46	E_span 1656 1662	system

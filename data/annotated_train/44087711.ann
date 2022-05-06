@@ -1,0 +1,45 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 181 186	[BOS]
+T3	Transition 325 330	[BOS]
+T4	Transition 425 430	[BOS]
+T5	Narrative_cite 666 671	[BOS]
+T6	Narrative_cite 800 805	[BOS]
+T7	Transition 968 973	[BOS]
+T8	Single_summ 1069 1074	[BOS]
+T9	Single_summ 1165 1170	[BOS]
+T10	Reflection 1266 1271	[BOS]
+T11	Transition 1344 1349	[BOS]
+T12	Single_summ 1362 1367	[BOS]
+T13	Single_summ 1486 1491	[BOS]
+T14	Single_summ 1597 1602	[BOS]
+T15	Transition 1648 1653	[BOS]
+T16	Transition 1715 1720	[BOS]
+T17	Transition 1799 1804	[BOS]
+T18	Transition 1855 1860	[BOS]
+T19	Reference 127 148	(Axelrod et al., 2011
+T20	Reference 150 178	Santamara and Axelrod, 2017)
+T21	Reference 295 322	(van der Wees et al., 2017)
+T22	Reference 773 797	(Resnik and Smith, 2003)
+T23	Reference 888 914	(Utiyama and Isahara, 2003
+T24	Reference 916 940	Munteanu and Marcu, 2005
+T25	Reference 942 966	Rauf and Schwenk, 2009 )
+T26	Dominant 1089 1116	Grgoire and Langlais (2017)
+T27	Dominant 1368 1393	Bouamor and Sajjad (2018)
+T28	Pronoun 187 189	It
+T29	Pronoun 249 251	it
+T30	Pronoun 331 333	It
+T31	Pronoun 631 635	they
+T32	Pronoun 1305 1309	this
+T33	Pronoun 1868 1873	these
+T34	B_span 109 115	domain
+T35	E_span 173 177	2017
+T36	B_span 291 294	NMT
+T37	E_span 317 321	2017
+T38	B_span 729 731	by
+T39	E_span 792 796	2003
+T40	B_span 846 851	cross
+T41	E_span 960 964	2009
+T42	B_span 1075 1078	For
+T43	E_span 1261 1264	not
+T44	B_span 1368 1375	Bouamor
+T45	E_span 1640 1646	system

@@ -1,0 +1,17 @@
+[BOS] Entity recognition (Florian et al., 2004 (Florian et al., , 2006 Ratinov and Roth, 2009; Florian et al., 2010; Kuru et al., 2016) and relation extraction (Zhao and Grishman, 2005; Jiang and Zhai, 2007; Zhou et al., 2007; Qian and Zhou, 2010; Chan and Roth, 2010; Sun et al., 2011; Plank and Moschitti, 2013; Verga et al., 2016) have received much attention in the NLP community.
+[BOS] The dominant methods treat the two tasks separately, where relation extraction is performed assuming that entity boundaries have been given (Zelenko et al., 2003; Miwa et al., 2009; Chan and Roth, 2011; Lin et al., 2016) .
+
+[BOS] Several studies find that extracting entities and relations jointly can benefit both tasks.
+[BOS] Early work conducts joint inference for separate models (Ji and Grishman, 2005; Yih, 2004, 2007) .
+[BOS] Recent work shows that joint learning and decoding with a single model brings more benefits for the two tasks (Li and Ji, 2014; Miwa and Sasaki, 2014; Miwa and Bansal, 2016; , and we follow this line of work in the study.
+
+[BOS] LSTM features have been extensively exploited for NLP tasks, including tagging Lample et al., 2016) , parsing (Kiperwasser and Goldberg, 2016; Dozat and Manning, 2016) , relation classification Vu et al., 2016; Miwa and Bansal, 2016) and sentiment analysis .
+[BOS] Based on the output of LSTM structures, Wang and Chang (2016) introduce segment features, and apply it to dependency parsing.
+[BOS] The same method is applied to constituent parsing by Cross and Huang (2016) .
+[BOS] We exploit this segmental representation for relation extraction.
+
+[BOS] Global optimization and normalization has been successfully applied on many NLP tasks that involve structural prediction (Lafferty et al., 2001; Collins, 2002; McDonald et al., 2010; Zhang and Clark, 2011) , using traditional discrete features.
+[BOS] For neural models, it has recently received increasing interests (Zhou et al., 2015; Andor et al., 2016; Xu, 2016; Wiseman and Rush, 2016) , and improved performances can be achieved with global optimization accompanied by beam search.
+[BOS] Our work is in line with these efforts.
+[BOS] To our knowledge, we are the first to apply globally optimized neural models for end-to-end relation extraction, achieving the best results on standard benchmarks.
+

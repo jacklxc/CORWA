@@ -1,0 +1,17 @@
+[BOS] Abstractive sentence summarization, a task analogous to headline generation or sentence compression, aims to generate a brief summary given a short source article.
+[BOS] Early studies in this problem mainly focus on statistical or linguistic-rule-based methods, including those based on extractive and compression (Jing and McKeown, 2000; Knight and Marcu, 2002; Clarke and Lapata, 2010) , templates (Zhou and Hovy, 2004) and statistical machine translation (Banko et al., 2000) .
+[BOS] The advent of large-scale summarization corpora accelerates the development of various neural network methods.
+[BOS] Rush et al. (2015) first applied an attention-based sequence-to-sequence model for abstractive summarization, which includes a convolutional neural network (CNN) encoder and a feed-forward network decoder.
+[BOS] Chopra et al. (2016) replaced the decoder with a recurrent neural network (RNN).
+[BOS] further changed the sequence-to-sequence model to a fully RNN-based model.
+[BOS] Besides, Gu et al. (2016) found that this task benefits from copying words from the source articles and proposed the CopyNet correspondingly.
+[BOS] With a similar purpose, proposed to use a switch gate to control when to copy from the source article and when to generate from the vocabulary.
+[BOS] Zhou et al. (2017) employed a selective gate to filter out unimportant information when encoding.
+
+[BOS] Some other work attempts to incorporate external knowledge for abstractive summarization.
+[BOS] For example, proposed to enrich their encoder with handcrafted features such as named entities and part-of-speech (POS) tags.
+[BOS] Guu et al. (2018) also attempted to encode humanwritten sentences to improve neural text generation.
+[BOS] Similar to our work, Cao et al. (2018a) proposed to retrieve a related summary from the training set as soft template to assist with the summarization.
+[BOS] However, their approach tends to oversimplify the role of the template, by directly concatenating a template after the source article encoding.
+[BOS] In contrast, our bi-directional selective mechanism exhibits a novel attempt to selecting key information from the article and the template in a mutual manner, offering greater flexibility in using the template.
+

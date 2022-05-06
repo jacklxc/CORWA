@@ -1,0 +1,11 @@
+[BOS] Sequence-to-sequence models are currently the state-of-the-art for semantic parsing (Jia and Liang, 2016; Dong and Lapata, 2016; Duong et al., 2017) .
+[BOS] In this paper, we also exploit a sequenceto-sequence model to minimise the amount of la-belled training data required to achieve state-ofthe-art semantic parsing results.
+
+[BOS] Active learning has been applied to a variety of machine learning and NLP tasks (Thompson et al., 1999; Tang et al., 2002; Chenguang Wang, 2017) employing various algorithms such as least confidence score (Culotta and McCallum, 2005) , large margin (Settles and Craven, 2008) , entropy based sampling, density weighting method (Settles, 2012) , and reinforcement learning (Fang et al., 2017) .
+[BOS] Nevertheless, there has been limited work applying active learning for deep semantic parsing with the exception of Iyer et al. (2017) .
+[BOS] Different from conventional active learning, they used crowd workers to select what data to annotate for traditional semantic parsing data collection.
+
+[BOS] In this paper, we apply active learning for both traditional and overnight data collection with the focus on overnight approach.
+[BOS] In addition, a limitation of prior active learning work is that the hyperparameters are usually predefined in some way, mostly from different work on the same or similar dataset, or from the authors experience Fang et al., 2017) .
+[BOS] In this paper, we investigate how to efficiently set the hyperparameters for the active learning process.
+

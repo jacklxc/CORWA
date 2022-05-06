@@ -1,0 +1,21 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 176 181	[BOS]
+T3	Single_summ 348 353	[BOS]
+T4	Single_summ 468 473	[BOS]
+T5	Single_summ 621 626	[BOS]
+T6	Single_summ 752 757	[BOS]
+T7	Narrative_cite 872 877	[BOS]
+T8	Narrative_cite 1124 1129	[BOS]
+T9	Dominant 354 371	Cao et al. (2018)
+T10	Dominant 675 697	Pasunuru et al. (2017)
+T11	Reference 965 983	(Liu and Liu, 2008
+T12	Reference 985 998	Graham, 2015)
+T13	Reference 1240 1264	(Toutanova et al., 2016)
+T14	B_span 354 357	Cao
+T15	E_span 610 619	judgments
+T16	B_span 627 632	Multi
+T17	E_span 862 869	decoder
+T18	B_span 952 957	human
+T19	E_span 993 997	2015
+T20	B_span 1193 1204	abstractive
+T21	E_span 1259 1263	2016

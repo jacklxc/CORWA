@@ -1,0 +1,64 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 125 130	[BOS]
+T3	Transition 302 307	[BOS]
+T4	Single_summ 367 372	[BOS]
+T5	Transition 551 556	[BOS]
+T6	Narrative_cite 639 644	[BOS]
+T7	Reflection 727 732	[BOS]
+T8	Single_summ 881 886	[BOS]
+T9	Single_summ 1048 1053	[BOS]
+T10	Reflection 1155 1160	[BOS]
+T11	Narrative_cite 1268 1273	[BOS]
+T12	Narrative_cite 1489 1494	[BOS]
+T13	Single_summ 1584 1589	[BOS]
+T14	Single_summ 1679 1684	[BOS]
+T15	Reflection 1786 1791	[BOS]
+T16	Narrative_cite 1893 1898	[BOS]
+T17	Transition 2148 2153	[BOS]
+T18	Multi_summ 2242 2247	[BOS]
+T19	Multi_summ 2362 2367	[BOS]
+T20	Reflection 2470 2475	[BOS]
+T21	Single_summ 2583 2588	[BOS]
+T22	Dominant 131 149	Llus et al. (2013)
+T23	Dominant 373 397	Naradowsky et al. (2012)
+T24	Reference 683 699	Johansson (2009)
+T25	Reference 704 723	Titov et al. (2009)
+T26	Reference 796 819	Clark and Curran (2007)
+T27	Dominant 933 955	Auli and Lopez (2011a)
+T28	Reference 1381 1411	(Zettlemoyer and Collins, 2009
+T29	Reference 1413 1437	Kwiatkowski et al., 2010
+T30	Reference 1439 1464	Kwiatkowski et al., 2013)
+T31	Reference 1561 1581	(Artzi et al., 2015)
+T32	Dominant 1590 1623	Krishnamurthy and Mitchell (2014)
+T33	Reference 1996 2025	(Gildea and Hockenmaier, 2003
+T34	Reference 2027 2049	Boxwell et al., 2009 )
+T35	Dominant 2248 2272	Klein and Manning (2003)
+T36	Dominant 2277 2299	Auli and Lopez (2011b)
+T37	Dominant 2589 2615	Lewis and Steedman (2014a)
+T38	B_span 131 133	Ll
+T39	E_span 294 300	models
+T40	B_span 373 376	Nar
+T41	E_span 545 549	time
+T42	B_span 645 650	Other
+T45	E_span 722 723	)
+T46	B_span 733 736	CCG
+T47	E_span 818 819	)
+T48	B_span 887 890	The
+T49	E_span 1147 1153	models
+T50	B_span 1334 1338	onto
+T51	E_span 1459 1463	2013
+T52	B_span 1538 1542	wide
+T53	E_span 1580 1581	)
+T54	B_span 1590 1592	Kr
+T55	E_span 1779 1784	verbs
+T56	B_span 1970 1980	predicting
+T57	E_span 2043 2047	2009
+T58	B_span 2248 2253	Klein
+T59	E_span 2468 2469	.
+T60	B_span 2589 2594	Lewis
+T61	E_span 2681 2693	dependencies
+T62	Pronoun 1063 1068	their
+T63	Pronoun 1183 1187	this
+T64	Pronoun 1518 1523	these
+T65	Pronoun 1685 1689	They
+T66	Pronoun 1859 1864	their

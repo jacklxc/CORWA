@@ -1,0 +1,78 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 160 165	[BOS]
+T3	Transition 376 381	[BOS]
+T4	Transition 624 629	[BOS]
+T5	Single_summ 721 726	[BOS]
+T6	Single_summ 907 912	[BOS]
+T7	Single_summ 1035 1040	[BOS]
+T8	Single_summ 1216 1221	[BOS]
+T9	Single_summ 1426 1431	[BOS]
+T10	Transition 1710 1715	[BOS]
+T11	Single_summ 1895 1900	[BOS]
+T12	Single_summ 2263 2268	[BOS]
+T13	Single_summ 2414 2419	[BOS]
+T14	Narrative_cite 2535 2540	[BOS]
+T15	Narrative_cite 2648 2653	[BOS]
+T16	Single_summ 2769 2774	[BOS]
+T17	Single_summ 2982 2987	[BOS]
+T18	Single_summ 3147 3152	[BOS]
+T19	Reflection 3345 3350	[BOS]
+T20	Single_summ 3461 3466	[BOS]
+T21	Single_summ 3605 3610	[BOS]
+T22	Single_summ 3787 3792	[BOS]
+T23	Single_summ 4039 4044	[BOS]
+T24	Reference 349 373	(Wang and Manning, 2012)
+T25	Dominant 770 792	(Le and Mikolov, 2014)
+T26	Dominant 1041 1058	Liu et al. (2017)
+T27	Dominant 1222 1238	Wu et al. (2018)
+T28	Dominant 1432 1450	Tang et al. (2015)
+T29	Dominant 1931 1950	Ji and Smith (2017)
+T30	Reference 2624 2644	(Ji and Smith, 2017)
+T31	Reference 2699 2721	(Li and Jurafsky, 2016
+T32	Reference 2723 2740	Joty et al., 2018
+T33	Reference 2742 2766	Mesgar and Strube, 2018)
+T34	Dominant 2775 2794	Farag et al. (2018)
+T35	Dominant 3153 3177	Mesgar and Strube (2018)
+T36	Dominant 3467 3488	Persing et al. (2010)
+T37	Dominant 3611 3632	Persing and Ng (2015)
+T38	Dominant 3793 3816	Wachsmuth et al. (2016)
+T39	Dominant 4054 4077	Wachsmuth et al. (2016)
+T40	B_span 280 283	bag
+T41	E_span 372 373	)
+T42	B_span 727 730	One
+T44	B_span 1041 1044	Liu
+T45	E_span 1214 1215	.
+T46	B_span 1222 1224	Wu
+T47	E_span 1424 1425	.
+T48	B_span 1432 1436	Tang
+T49	E_span 1708 1709	.
+T51	E_span 2533 2534	.
+T52	B_span 2541 2552	Furthermore
+T53	E_span 2643 2644	)
+T55	E_span 2765 2766	)
+T56	B_span 2775 2778	Far
+T57	E_span 3145 3146	.
+T58	B_span 3153 3156	Mes
+T59	E_span 3342 3343	.
+T60	B_span 3467 3471	Pers
+T61	E_span 3603 3604	.
+T62	B_span 3611 3615	Pers
+T63	E_span 3785 3786	.
+T64	B_span 3793 3795	Wa
+T65	E_span 4037 4038	.
+T66	B_span 4054 4056	Wa
+T67	E_span 4132 4133	.
+T68	Pronoun 19 23	this
+T69	Pronoun 301 306	their
+T70	Pronoun 474 478	they
+T71	Pronoun 1725 1730	these
+T72	Pronoun 1824 1829	their
+T73	Pronoun 2110 2115	their
+T74	Pronoun 2410 2412	it
+T75	Pronoun 2435 2440	their
+T76	Pronoun 2999 3003	they
+T77	Pronoun 3065 3067	it
+T78	Pronoun 3069 3071	it
+T79	E_span 1026 1033	context
+T43	B_span 1931 1933	Ji
+T50	B_span 2676 2683	modeled

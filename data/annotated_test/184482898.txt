@@ -1,0 +1,11 @@
+[BOS] Early studies on hate speech detection focused mainly on lexicon-based approaches (Kwok and Wang, 2013; Gitari et al., 2015) .
+[BOS] However, these approaches prone to failure for detecting hate speech in a microblogging platform where rare terms are evolving incessantly.
+[BOS] Besides some researchers tackled the problem by employing feature (e.g., N-gram, TF-IDF) based supervised learning approach using SVM and Naive-Bayes classifier (Gaydhani et al., 2018; Unsvg and Gambck, 2018) .
+
+[BOS] More recently several researchers tried to address the problem by using state-of-the-art neural network based models.
+[BOS] Among several prominent works, Badjatiya et al. (2017) employed multiple deep learning architectures including CNNs, LSTMs, and fastText to learn semantic word embeddings for hate speech detection.
+[BOS] Golem et al. (2018) utilized the combination of traditional shallow machine learning models and deep learning models for hate speech detection.
+[BOS] Pitsilis et al. (2018) utilized the ensemble of recurrent neural network (RNN) classifiers and incorporated various features associated with user-related information.
+[BOS] Zhang et al. (2018) introduced a new method by combining a convolutional neural network (CNN) and gated recurrent unit (GRU) models.
+[BOS] Djuric et al. (2015) used the comment embeddings for detecting hate speech.
+

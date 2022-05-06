@@ -1,0 +1,37 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 126 131	[BOS]
+T3	Narrative_cite 289 294	[BOS]
+T4	Single_summ 479 484	[BOS]
+T5	Single_summ 573 578	[BOS]
+T6	Single_summ 658 663	[BOS]
+T7	Single_summ 753 758	[BOS]
+T8	Reflection 879 884	[BOS]
+T9	B_span 157 162	rules
+T10	E_span 181 185	2013
+T11	Reference 164 185	Bhagat and Hovy, 2013
+T12	B_span 190 196	corpus
+T13	E_span 281 285	2015
+T14	Reference 218 236	Fader et al., 2013
+T15	Reference 238 263	Ganitkevitch et al., 2013
+T16	Reference 265 285	Pavlick et al., 2015
+T17	B_span 332 341	templates
+T18	E_span 361 365	2014
+T19	Reference 343 365	Berant and Liang, 2014
+T20	B_span 369 377	semantic
+T21	E_span 409 413	2003
+T22	Reference 391 413	Kozlowski et al., 2003
+T23	B_span 419 428	thesaurus
+T24	E_span 445 449	2007
+T25	Reference 430 449	Hassan et al., 2007
+T26	B_span 485 489	Rush
+T27	E_span 558 571	summarization
+T28	Dominant 485 496	Rush (2015)
+T29	Dominant 579 593	Prakash (2016)
+T30	B_span 579 586	Prakash
+T31	E_span 645 656	paraphrases
+T32	B_span 664 667	Cao
+T33	E_span 741 751	generation
+T34	Dominant 664 674	Cao (2017)
+T35	Dominant 759 768	Cao(2018)
+T36	B_span 759 762	Cao
+T37	E_span 872 877	paper

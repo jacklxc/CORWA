@@ -1,0 +1,84 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 45 50	[BOS]
+T3	Narrative_cite 234 239	[BOS]
+T4	Narrative_cite 491 496	[BOS]
+T5	Single_summ 652 657	[BOS]
+T6	Single_summ 827 832	[BOS]
+T7	Reflection 962 967	[BOS]
+T8	Narrative_cite 1058 1063	[BOS]
+T9	Transition 1260 1265	[BOS]
+T10	Transition 1290 1295	[BOS]
+T11	Narrative_cite 1349 1354	[BOS]
+T12	Multi_summ 1519 1524	[BOS]
+T13	Single_summ 1654 1659	[BOS]
+T14	Single_summ 1789 1794	[BOS]
+T15	Reflection 1880 1885	[BOS]
+T16	Reflection 2089 2094	[BOS]
+T17	Reflection 2227 2232	[BOS]
+T18	Narrative_cite 2386 2391	[BOS]
+T19	Transition 2554 2559	[BOS]
+T20	Transition 2584 2589	[BOS]
+T21	Narrative_cite 2657 2662	[BOS]
+T22	Transition 2747 2752	[BOS]
+T23	Transition 2852 2857	[BOS]
+T24	Transition 2895 2900	[BOS]
+T25	Narrative_cite 2929 2934	[BOS]
+T26	Reference 118 137	(Taira et al., 2008
+T27	Reference 139 166	Sasano and Kurohashi, 2011)
+T28	Dominant 173 193	Hangyo et al. (2013)
+T29	Reference 305 324	(Ouchi et al., 2015
+T30	Reference 326 346	Shibata et al., 2016
+T31	Reference 348 365	Iida et al., 2016
+T32	Reference 367 385	Ouchi et al., 2017
+T33	Reference 387 415	Matsubayashi and Inui, 2017)
+T34	Reference 529 550	(Shibata et al., 2016
+T35	Reference 552 569	Iida et al., 2016
+T36	Reference 571 589	Ouchi et al., 2017
+T37	Reference 591 619	Matsubayashi and Inui, 2017)
+T38	Dominant 719 746	Sasano and Kurohashi (2011)
+T39	Reference 1145 1163	(Chen and Ng, 2016
+T40	Reference 1165 1182	Yin et al., 2017)
+T41	Reference 1237 1256	(Zhao and Ng, 2007)
+T42	Reference 1386 1407	(Wiseman et al., 2016
+T43	Reference 1409 1433	Clark and Manning, 2016b
+T44	Reference 1491 1516	(Clark and Manning, 2015)
+T45	Dominant 1525 1546	Wiseman et al. (2016)
+T46	Dominant 1551 1576	Clark and Manning (2016b)
+T47	Dominant 1684 1705	Wiseman et al. (2016)
+T48	Dominant 1795 1820	Clark and Manning (2016b)
+T49	Reference 2449 2467	Iida et al. (2003)
+T50	Reference 2470 2490	Sasano et al. (2007)
+T51	Reference 2725 2743	(Zhou and Xu, 2015
+T52	Reference 3028 3051	(Kobayashi et al., 2016
+T53	Reference 3053 3073	Henaff et al., 2016)
+T54	Reference 3096 3113	(Ji et al., 2017)
+T55	B_span 83 88	intra
+T56	E_span 188 192	2013
+T57	B_span 279 284	intra
+T58	E_span 410 414	2017
+T59	B_span 497 503	Neural
+T60	E_span 614 618	2017
+T61	B_span 719 725	Sasano
+T62	E_span 949 960	performance
+T63	B_span 1113 1119	neural
+T64	E_span 1177 1181	2017
+T65	B_span 1209 1216	machine
+T66	E_span 1251 1255	2007
+T67	B_span 1355 1361	Neural
+T68	E_span 1428 1433	2016b
+T69	B_span 1463 1470	machine
+T70	E_span 1511 1515	2015
+T71	B_span 1525 1532	Wiseman
+T72	E_span 1647 1652	model
+T73	B_span 1684 1691	Wiseman
+T74	E_span 1782 1786	RNNs
+T75	B_span 1795 1800	Clark
+T76	E_span 1864 1878	representation
+T77	B_span 2405 2407	CR
+T78	E_span 2485 2489	2007
+T79	B_span 2663 2669	Neural
+T80	E_span 2739 2743	2015
+T81	B_span 3078 3086	language
+T82	E_span 3108 3112	2017
+T83	B_span 3009 3013	text
+T84	E_span 3068 3072	2016

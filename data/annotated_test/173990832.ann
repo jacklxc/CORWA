@@ -1,0 +1,88 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 227 232	[BOS]
+T3	Narrative_cite 358 363	[BOS]
+T4	Transition 736 741	[BOS]
+T5	Reflection 859 864	[BOS]
+T6	Narrative_cite 976 981	[BOS]
+T7	Transition 1156 1161	[BOS]
+T8	Transition 1310 1315	[BOS]
+T9	Reflection 1481 1486	[BOS]
+T10	Narrative_cite 1617 1622	[BOS]
+T11	Narrative_cite 1872 1877	[BOS]
+T12	Transition 2016 2021	[BOS]
+T13	Multi_summ 2111 2116	[BOS]
+T14	Multi_summ 2424 2429	[BOS]
+T15	Transition 2724 2729	[BOS]
+T16	Transition 2917 2922	[BOS]
+T17	Transition 3016 3021	[BOS]
+T18	Narrative_cite 3149 3154	[BOS]
+T19	Transition 3418 3423	[BOS]
+T20	Reflection 3581 3586	[BOS]
+T21	Reflection 3659 3664	[BOS]
+T22	Reference 90 120	(Carbonell and Goldstein, 1998
+T23	Reference 122 146	Daum III and Marcu, 2006
+T24	Reference 148 181	Galanis and Androutsopoulos, 2010
+T25	Reference 183 200	Hong et al., 2014
+T26	Reference 202 224	Yogatama et al., 2015)
+T27	Reference 508 531	(Knight and Marcu, 2002
+T28	Reference 533 551	Zajic et al., 2007
+T29	Reference 553 576	Martins and Smith, 2009
+T30	Reference 578 606	BergKirkpatrick et al., 2011
+T31	Reference 608 633	Thadani and McKeown, 2013
+T32	Reference 635 652	Wang et al., 2013
+T33	Reference 688 710	Filippova et al., 2015
+T34	Reference 712 733	Durrett et al., 2016)
+T35	Reference 1058 1082	(Gillick and Favre, 2009
+T36	Reference 1084 1110	Takamura and Okumura, 2009
+T37	Reference 1112 1132	Lin and Bilmes, 2010
+T38	Reference 1134 1153	Hirao et al., 2013)
+T39	Reference 1690 1716	(Gillick and Favre, 2009 )
+T40	Reference 1748 1774	(Kulesza and Taskar, 2012)
+T41	Reference 1798 1820	(Lin and Bilmes, 2010)
+T42	Reference 1850 1869	(Shen and Li, 2010)
+T43	Reference 1992 2012	(Zhang et al., 2016)
+T44	Reference 2328 2351	(Cheng and Lapata, 2016
+T45	Reference 2353 2374	Yasunaga et al., 2017
+T46	Reference 2376 2398	Nallapati et al., 2017
+T47	Reference 2400 2421	Narayan et al., 2018)
+T48	Reference 2643 2663	(Paulus et al., 2017
+T49	Reference 2665 2681	Tan et al., 2017
+T50	Reference 2683 2699	Guo et al., 2018
+T51	Reference 2701 2721	Kedzie et al., 2018)
+T52	Reference 3345 3367	(Gehrmann et al., 2018
+T54	Pronoun 233 238	These
+T55	Pronoun 932 936	this
+T56	Pronoun 982 984	It
+T57	Pronoun 1165 1169	this
+T58	Pronoun 1238 1243	their
+T59	Pronoun 1881 1885	this
+T60	Pronoun 2237 2242	these
+T61	Pronoun 2259 2263	they
+T62	Pronoun 2730 2735	These
+T63	Pronoun 3645 3649	this
+T64	B_span 66 70	real
+T65	E_span 219 223	2015
+T67	Reference 654 669	Li et al., 2013
+T68	Reference 670 687	Li et al., , 2014
+T69	E_span 728 732	2016
+T70	B_span 1028 1036	discrete
+T71	E_span 1152 1153	)
+T72	B_span 1663 1670	integer
+T73	E_span 1710 1714	2009
+T74	B_span 1718 1731	determinantal
+T75	E_span 1769 1773	2012
+T76	B_span 1777 1787	submodular
+T77	E_span 1819 1820	)
+T78	B_span 1827 1834	minimum
+T79	E_span 1864 1868	2010
+T80	B_span 1961 1968	various
+T81	E_span 2007 2011	2016
+T82	E_span 2416 2420	2018
+T83	B_span 2132 2138	neural
+T84	E_span 2716 2720	2018
+T85	B_span 2430 2436	Neural
+T53	E_span 3410 3414	2019
+T87	Reference 3391 3414	Lebanoff et al., , 2019
+T88	Reference 3369 3390	Lebanoff et al., 2018
+T66	B_span 393 403	optionally
+T86	B_span 3196 3206	importance

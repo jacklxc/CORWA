@@ -1,0 +1,31 @@
+[BOS] AMR parsing approaches can be categorized into alignment-based, transition-based, grammarbased, and attention-based approaches.
+
+[BOS] Alignment-based approaches were first explored by JAMR (Flanigan et al., 2014) , a pipeline of concept and relation identification with a graphbased algorithm.
+[BOS] improved this by jointly learning concept and relation identification with an incremental model.
+[BOS] Both approaches rely on features based on alignments.
+[BOS] Lyu and Titov (2018) treated alignments as latent variables in a joint probabilistic model, leading to a substantial reported improvement.
+[BOS] Our approach re-quires no explicit alignments, but implicitly learns a source-side copy mechanism using attention.
+
+[BOS] Transition-based approaches began with Wang et al. (2015 Wang et al. ( , 2016 , who incrementally transform dependency parses into AMRs using transitonbased models, which was followed by a line of research, such as Puzikov et al. (2016); Brandt et al. (2016) ; Goodman et al. (2016) ; Damonte et al. (2017) ; Ballesteros and Al-Onaizan (2017); Groschwitz et al. (2018) .
+[BOS] A pre-trained aligner, e.g. Pourdamghani et al. (2014) ; Liu et al. (2018) , is needed for most parsers to generate training data (e.g., oracles for a transition-based parser).
+[BOS] Our approach makes no significant use of external semantic resources, 3 and is aligner-free.
+
+[BOS] Grammar-based approaches are represented by Artzi et al. (2015) ; Peng et al. (2015) who leveraged external semantic resources, and employed CCG-based or SHRG-based grammar induction approaches converting logical forms into AMRs.
+[BOS] Pust et al. (2015) recast AMR parsing as a machine translation problem, while also drawing features from external semantic resources.
+
+[BOS] Attention-based parsing with Seq2Seq-style models have been considered (Barzdins and Gosko, 2016; Peng et al., 2017b) , but are limited by the relatively small amount of labeled AMR data.
+[BOS] Konstas et al. (2017) overcame this by making use of millions of unlabeled data through self-training, while van Noord and Bos (2017b) showed significant gains via a characterlevel Seq2Seq model and a large amount of silverstandard AMR training data.
+[BOS] In contrast, our approach supported by extended pointer generator can be effectively trained on the limited amount of labeled AMR data, with no data augmentation.
+
+[BOS] (2018), and restore wiki links using the DBpedia Spotlight API (Daiber et al., 2013) following Bjerva et al. (2016); van Noord and Bos (2017b) .
+[BOS] We add polarity attributes based on the rules observed from the training data.
+[BOS] More details of preand post-processing are provided in the Appendix.
+[BOS] We conduct experiments on two AMR general releases (available to all LDC subscribers): AMR 2.0 (LDC2017T10) and AMR 1.0 (LDC2014T12).
+[BOS] Our model is trained using ADAM (Kingma and Ba, 2014) for up to 120 epochs, with early stopping based on the development set.
+[BOS] Full model training takes about 19 hours on AMR 2.0 and 7 hours on AMR 1.0, using two GeForce GTX TI-TAN X GPUs.
+[BOS] At training, we have to fix BERT parameters due to the limited GPU memory.
+[BOS] We leave fine-tuning BERT for future work.
+[BOS] Table 1 lists the hyper-parameters used in our full model.
+[BOS] Both encoder and decoder embedding layers have GloVe and POS tag embeddings as well as CharCNN, but their parameters are not tied.
+[BOS] We apply dropout (dropout rate = 0.33) to the outputs of each module.
+

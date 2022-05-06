@@ -1,0 +1,12 @@
+[BOS] Several works have addressed the issue of entitylevel representation (Culotta et al., 2007; Wick et al., 2009; Singh et al., 2011) .
+[BOS] In Wiseman et al. (2016) an RNN is used to model each entity.
+[BOS] While this allows complex entity representations, the assignment of a mention to an RNN is a hard decision, and as such cannot be optimized in an end-to-end manner.
+[BOS] Clark and Manning (2015) use whole-entity representations as obtained from agglomerative clustering.
+[BOS] But again the clustering operation in non-differentiable, requiring the use of imitation learning.
+[BOS] In , entity refinement is more restricted, as it is only obtained from the attention vector at each step.
+[BOS] Thus, we believe that our model is the first to use entity-level representations that correspond directly to the inferred clusters, and are end-to-end differentiable.
+
+[BOS] Mention-entity mappings have been used in the context of optimizing coreference performance measures (Le and Titov, 2017; Clark and Manning, 2016 ).
+[BOS] Here we show that these mappings can also be used for the resolution model itself.
+[BOS] We note that we did not try to optimize for coreference measures as in Le and Titov (2017) , and this is likely to further improve results.
+

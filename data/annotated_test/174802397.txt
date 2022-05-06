@@ -1,0 +1,23 @@
+[BOS] Robust Neural Machine Translation Improving robustness has been receiving increasing attention in NMT.
+[BOS] For example, Belinkov and Bisk (2018) ; ; Karpukhin et al. (2019) ; Sperber et al. (2017) focused on designing effective synthetic and/or natural noise for NMT using black-box methods.
+[BOS] Cheng et al. (2018) proposed adversarial stability training to improve the robustness on arbitrary noise type.
+[BOS] Ebrahimi et al. (2018a) used white-box methods to generate adversarial examples on character-level NMT.
+[BOS] Different from prior work, our work uses a white-box method for the word-level NMT model and introduces a new method using doubly adversarial inputs to both attach and defend the model.
+
+[BOS] We noticed that Michel and Neubig (2018) proposed a dataset for testing the machine translation on noisy text.
+[BOS] Meanwhile they adopt a domain adaptation method to first train a NMT model on a clean dataset and then finetune it on noisy data.
+[BOS] This is different from our setting in which no noisy training data is available.
+[BOS] Another difference is that one of our primary goals is to improve NMT models on the standard clean test data.
+[BOS] This differs from Michel and Neubig (2018) whose goal is to improve models on noisy test data.
+[BOS] We leave the extension to their setting for future work.
+[BOS] Adversarial Examples Generation Our work is inspired by adversarial examples generation, a popular research area in computer vision, e.g. in (Szegedy et al., 2014; Goodfellow et al., 2015; Moosavi-Dezfooli et al., 2016) .
+[BOS] In NLP, many authors endeavored to apply similar ideas to a variety of NLP tasks, such as text classification (Miyato et al., 2017; Ebrahimi et al., 2018b) , machine comprehension (Jia and Liang, 2017) , dialogue generation (Li et al., 2017) , machine translation (Belinkov and Bisk, 2018) , etc.
+[BOS] Closely related to (Miyato et al., 2017) which attacked the text classification models in the embedding space, ours generates adversarial examples based on discrete word replacements.
+[BOS] The experiments show that ours achieve better performance on both clean and noisy data.
+[BOS] Data Augmentation Our approach can be viewed as a data-augmentation technique using adversarial examples.
+
+[BOS] In fact, incorporating monolingual corpora into NMT has been an important topic (Sennrich et al., 2016b; Cheng et al., 2016; Edunov et al., 2018) .
+[BOS] There are also papers augmenting a standard dataset based on the parallel corpora by dropping words (Sennrich et al., 2016a) , replacing words (Wang et al., 2018) , editing rare words (Fadaee et al., 2017) , etc.
+[BOS] Different from these about data-augmentation techniques, our approach is only trained on parallel corpora and outperforms a representative data-augmentation work (Sennrich et al., 2016b) trained with extra monolingual data.
+[BOS] When monolingual data is included, our approach yields further improvements.
+

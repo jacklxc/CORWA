@@ -1,0 +1,43 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 227 232	[BOS]
+T3	Transition 617 622	[BOS]
+T4	Single_summ 776 781	[BOS]
+T5	Single_summ 985 990	[BOS]
+T6	Single_summ 1238 1243	[BOS]
+T7	Single_summ 1393 1398	[BOS]
+T8	Single_summ 1613 1618	[BOS]
+T9	Single_summ 1749 1754	[BOS]
+T10	Multi_summ 1872 1877	[BOS]
+T11	Single_summ 2001 2006	[BOS]
+T12	Dominant 253 273	Agirre et al. (2008)
+T13	Reference 342 357	(Charniak, 2000
+T14	Reference 359 371	Bikel, 2004)
+T15	Reference 532 547	(Collins, 2003)
+T16	Dominant 789 809	Agirre et al. (2011)
+T17	Dominant 991 1014	MacKinlay et al. (2012)
+T18	Dominant 1244 1264	Fujita et al. (2010)
+T19	Dominant 1420 1437	Koo et al. (2008)
+T20	Dominant 1878 1898	Suzuki et al. (2009)
+T21	Dominant 1901 1924	Sagae and Gordon (2009)
+T22	Dominant 1929 1954	Candito and Seddah (2010)
+T23	Dominant 2017 2038	Tckstrm et al. (2012)
+T24	Pronoun 436 441	their
+T25	Pronoun 1755 1759	They
+T26	B_span 233 235	In
+T27	E_span 604 615	generalized
+T28	B_span 303 315	constituency
+T29	E_span 366 370	2004
+T30	B_span 470 478	overcome
+T31	E_span 542 546	2003
+T32	B_span 782 787	Later
+T33	E_span 976 983	classes
+T34	B_span 991 1000	MacKinlay
+T35	E_span 1225 1236	performance
+T36	B_span 1244 1250	Fujita
+T37	E_span 1381 1390	selection
+T38	B_span 1399 1401	On
+T39	E_span 1862 1870	Treebank
+T40	B_span 1878 1884	Suzuki
+T41	E_span 1993 1999	method
+T42	B_span 2007 2015	Recently
+T43	E_span 2181 2189	clusters

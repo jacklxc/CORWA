@@ -1,0 +1,45 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 367 372	[BOS]
+T3	Narrative_cite 570 575	[BOS]
+T4	Single_summ 859 864	[BOS]
+T5	Single_summ 1113 1118	[BOS]
+T6	Multi_summ 1223 1228	[BOS]
+T7	Multi_summ 1388 1393	[BOS]
+T8	Reflection 1588 1593	[BOS]
+T9	Reflection 1889 1894	[BOS]
+T10	Transition 1964 1969	[BOS]
+T11	Single_summ 2187 2192	[BOS]
+T12	Narrative_cite 2305 2310	[BOS]
+T13	Reflection 2453 2458	[BOS]
+T14	Reference 280 290	Jing, 2000
+T15	Reference 292 314	Knight and Marcu, 2002
+T16	Reference 316 339	Clarke and Lapata, 2008
+T17	Reference 341 364	Filippova et al., 2015)
+T18	Reference 794 812	(Rush et al., 2015
+T19	Reference 814 836	Nallapati et al., 2016
+T20	Reference 838 855	See et al., 2017)
+T21	Dominant 1090 1110	(Dagan et al., 2006)
+T22	Dominant 1135 1155	Bowman et al. (2015)
+T23	Dominant 1248 1268	(Mehdad et al., 2013
+T24	Dominant 1270 1289	Gupta et al., 2014)
+T25	Dominant 2193 2212	Luong et al. (2016)
+T26	Reference 2321 2347	Pasunuru and Bansal (2017)
+T27	Pronoun 611 615	this
+T28	Pronoun 1212 1216	this
+T29	Pronoun 1394 1398	They
+T30	Pronoun 1906 1910	this
+T31	Pronoun 2355 2359	this
+T33	E_span 359 363	2015
+T35	E_span 850 854	2017
+T36	B_span 865 876	Recognizing
+T37	E_span 1105 1109	2006
+T38	B_span 1119 1122	The
+T39	E_span 1217 1221	task
+T40	B_span 1229 1233	Some
+T41	E_span 1580 1586	fusion
+T42	B_span 2193 2198	Luong
+T43	E_span 2296 2303	setting
+T44	B_span 2321 2329	Pasunuru
+T32	B_span 280 284	Jing
+T34	B_span 764 776	hierarchical
+T46	E_span 2342 2346	2017

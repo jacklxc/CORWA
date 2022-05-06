@@ -1,0 +1,28 @@
+[BOS] Machine Reading Comprehension.
+[BOS] Benefiting from large-scale machine reading comprehension (MRC) datasets (Hermann et al., 2015; Hill et al., 2016; Rajpurkar et al., 2016; Joshi et al., 2017) , end-to-end neural networks have achieved promising results Yu et al., 2018) .
+[BOS] Wang and Jiang (2017) combine the match-LSTM with pointer networks to predict the answer boundary.
+[BOS] match the context aginst itself to refine the passage representation.
+[BOS] Later, a variety of attention mechanisms have been proposed, such as bi-attention (Seo et al., 2017) , coattention , fully-aware attention and reattention (Hu et al., 2018) .
+[BOS] Among these works, two common traits can be summarized as: 1) compute a similary matrix between the question and the passage; 2) sequentially predict the answer start and end positions.
+[BOS] Our proposed approach is a simple and effective adaptation to existing models by taking advantage of these traits, and do not complicate previous works more than necessary.
+
+[BOS] Efficiency and Robustness in MRC.
+[BOS] Improving efficiency and robustness for reading comprehension system has attracted a lot of interest in recent years.
+[BOS] For efficiency, previous works mostly concentrate on how to scale passage-level models to large corpora such as a document without increasing computation complexity.
+[BOS] Existing approachs (Chen et al., 2017; usually first retrieve relevant passages with a ranking model and then return an answer with a reading model.
+[BOS] As for robustness, Wang and Bansal (2018) train the model with an adversarial data augmentation method.
+[BOS] Min et al. (2018) propose to selectively read salient sentences rather than the entire passage, so as to avoid looking at the adversarial sentence.
+[BOS] Our approach, however, focuses on improving efficiency and robustness by transferring knowledge from a cumbersome ensemble model to a single model.
+[BOS] Knowledge Distillation.
+[BOS] Knowledge distillation is first explored by Bucilu et al. (2006) and Hinton et al. (2014) , which attempts to transfer knowledge defined as soft output distributions from a teacher to a student.
+[BOS] Later works have been proposed to distill not only the final output but also intermediate representation from the teacher (Romero et al., 2015; Zagoruyko and Komodakis, 2017; Huang and Wang, 2017) .
+[BOS] Papernot et al. (2016) show that knowledge distillation can be used to prevent the network from adversarial attacks in image recognition.
+[BOS] Radosavovic et al. (2017) introduce data distillation that annotates large-scale unlabelled data for omni-supervised learning.
+
+[BOS] In natural language processing (NLP), Mou et al. (2016) distill task-specific knowledge from word embeddings.
+[BOS] Kuncoro et al. (2016) propose to learn a single parser from an ensemble of parsers.
+[BOS] Kim and Rush (2016) investigate knowledge distillation for neural machine translation by approximately matching the sequence-level distribution of the teacher.
+[BOS] Nakashole and Flauger (2017) propose to learn bilingual mapping functions through a distilled training objective.
+[BOS] Xu and Yang (2017) tion.
+[BOS] Our work shows that the standard knowledge distillation and its novel variants can be successfully applied to the MRC task.
+

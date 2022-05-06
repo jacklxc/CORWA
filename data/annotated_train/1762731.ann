@@ -1,0 +1,102 @@
+T1	Single_summ 0 5	[BOS]
+T2	Narrative_cite 247 252	[BOS]
+T3	Reflection 359 364	[BOS]
+T4	Transition 552 557	[BOS]
+T5	Transition 636 641	[BOS]
+T6	Narrative_cite 754 759	[BOS]
+T7	Narrative_cite 953 958	[BOS]
+T8	Single_summ 1099 1104	[BOS]
+T9	Narrative_cite 1341 1346	[BOS]
+T10	Reflection 1503 1508	[BOS]
+T11	Narrative_cite 1664 1669	[BOS]
+T12	Single_summ 1781 1786	[BOS]
+T13	Single_summ 1984 1989	[BOS]
+T14	Narrative_cite 2182 2187	[BOS]
+T15	Reflection 2405 2410	[BOS]
+T16	Narrative_cite 2622 2627	[BOS]
+T17	Reflection 2855 2860	[BOS]
+T18	Narrative_cite 2995 3000	[BOS]
+T19	Narrative_cite 3131 3136	[BOS]
+T20	Single_summ 3325 3330	[BOS]
+T21	Narrative_cite 3443 3448	[BOS]
+T22	Narrative_cite 3628 3633	[BOS]
+T23	Narrative_cite 3762 3767	[BOS]
+T24	Narrative_cite 4032 4037	[BOS]
+T25	Dominant 96 118	Sermanet et al., 2014)
+T26	Reference 340 356	(Williams, 1992)
+T27	Reference 931 950	(Choi et al., 2016)
+T28	Reference 1077 1096	(Shen et al., 2016)
+T29	Dominant 1145 1163	Shen et al. (2016)
+T30	Reference 1482 1500	(Lei et al., 2016)
+T31	Reference 1549 1566	Lei et al. (2016)
+T32	Reference 1755 1778	(Bahdanau et al., 2014)
+T33	Dominant 1797 1820	(Hahn and Keller, 2016)
+T34	Reference 2286 2299	(Graves, 2016
+T35	Reference 2301 2322	Jernite et al., 2016)
+T36	Reference 2462 2476	Jernite et al.
+T37	Reference 2730 2743	(Graves, 2016
+T38	Reference 2745 2766	Jernite et al., 2016)
+T39	Reference 3099 3128	(Zaremba and Sutskever, 2015)
+T40	Reference 3149 3178	(Zaremba and Sutskever, 2015)
+T41	Dominant 3355 3376	Zaremba and Sutskever
+T42	Reference 3600 3625	(Hochreiter et al., 2001)
+T43	Reference 3685 3719	(Hochreiter and Schmidhuber, 1997)
+T44	Reference 3924 3946	(Koutnik et al., 2014)
+T45	Reference 3989 4007	(Chan et al., 2015
+T46	Reference 4009 4028	Chung et al., 2016)
+T47	Reference 4279 4299	(Liang et al., 2017)
+T48	Reference 4320 4339	(Shen et al., 2016)
+T49	Reference 4364 4386	(Ranzato et al., 2015)
+T50	Pronoun 489 493	they
+T51	Pronoun 671 673	it
+T52	Pronoun 760 764	This
+T53	Pronoun 1172 1176	they
+T54	Pronoun 1990 1994	They
+T55	Pronoun 3001 3003	It
+T56	Pronoun 3331 3333	It
+T57	Pronoun 3430 3435	their
+T58	Pronoun 3771 3775	this
+T59	B_span 58 64	visual
+T60	E_span 238 245	network
+T61	B_span 320 329	REINFORCE
+T62	E_span 351 355	1992
+T63	B_span 901 908	content
+T64	E_span 945 949	2016
+T65	B_span 1054 1067	reinforcement
+T66	E_span 1091 1095	2016
+T67	B_span 1145 1149	Shen
+T68	E_span 1328 1338	processing
+T69	B_span 1436 1442	neural
+T70	E_span 1495 1499	2016
+T71	B_span 1509 1512	The
+T72	E_span 1655 1662	jumping
+T73	B_span 1727 1731	soft
+T74	E_span 1773 1777	2014
+T75	B_span 1787 1795	Recently
+T76	E_span 2171 2179	learning
+T77	B_span 2188 2191	Our
+T78	E_span 2321 2322	)
+T79	B_span 2462 2469	Jernite
+T80	E_span 2615 2620	texts
+T81	B_span 2628 2632	Even
+T82	E_span 2761 2765	2016
+T83	B_span 3046 3052	Neural
+T84	E_span 3123 3127	2015
+T85	B_span 3137 3145	Compared
+T86	E_span 3173 3177	2015
+T87	B_span 3331 3333	It
+T88	E_span 3436 3441	model
+T89	B_span 3559 3568	vanishing
+T90	E_span 3620 3624	2001
+T91	B_span 3662 3666	Long
+T92	E_span 3714 3718	1997
+T93	B_span 3869 3878	recurrent
+T94	E_span 3941 3945	2014
+T95	B_span 3953 3962	organized
+T96	E_span 4023 4027	2016
+T97	B_span 4255 4261	neural
+T98	E_span 4294 4298	2017
+T99	B_span 4302 4309	machine
+T100	E_span 4334 4338	2016
+T101	B_span 4344 4352	sequence
+T102	E_span 4381 4385	2015

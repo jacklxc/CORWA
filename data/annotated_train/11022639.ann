@@ -1,0 +1,12 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 189 194	[BOS]
+T3	Transition 281 286	[BOS]
+T4	Reflection 444 449	[BOS]
+T5	Reference 55 76	(Hermann et al., 2015
+T6	Reference 78 95	Hill et al., 2015
+T7	Reference 97 114	Chen et al., 2016
+T8	Reference 116 138	Kobayashi et al., 2016
+T9	Pronoun 294 299	these
+T10	Pronoun 479 484	these
+T11	B_span 21 25	deep
+T12	E_span 134 138	2016

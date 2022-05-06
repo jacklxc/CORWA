@@ -1,0 +1,12 @@
+[BOS] A number of studies have explored the use of customer reviews in retrieval and question answering.
+[BOS] Using Amazon data, Yu et al. (2018) develop a framework which returns a ranked list of sentences from reviews or existing question-answer pairs for a given question.
+[BOS] Xu et al. (2019) create a new dataset comprising Amazon laptop reviews and questions and Yelp restaurant reviews and questions, where reviews are used to answer questions in multiple-turn dialogue form.
+[BOS] Bogdanova et al. (2017) and Bogdanova and Foster (2016) ) do not use review data but also focus on QA over usergenerated content, attempting to find similar questions or rank answers in user fora.
+[BOS] We use the same Amazon data as Yu et al. (2018) but consider a wider set of domains (they consider only two), and attempt to directly answer yes/no questions.
+[BOS] To the best of our knowledge, the novelty in our work lies in trying to directly answer customer questions using user-generated reviews.
+
+[BOS] Unlike popular Reading Comprehension datasets such as MovieQA (Tapaswi et al., 2016) and SQuAD (Rajpurkar et al., 2018 (Rajpurkar et al., , 2016 , which are created by crowdsourcing, we work with authentic user-generated data.
+[BOS] This means that the data is collected from sources where users spontaneously created content for their own purposes.
+[BOS] Since there is no guarantee that reviews contain text related to the question, there is no span data that can be reliably used to provide the answer.
+[BOS] This, together with the considerable volume of review text, contributes to the difficulty of the task.
+

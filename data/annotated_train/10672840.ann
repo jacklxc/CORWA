@@ -1,0 +1,28 @@
+T1	Reflection 0 5	[BOS]
+T2	Single_summ 91 96	[BOS]
+T3	Single_summ 261 266	[BOS]
+T4	Single_summ 405 410	[BOS]
+T5	Reflection 463 468	[BOS]
+T6	Reflection 570 575	[BOS]
+T7	Reflection 664 669	[BOS]
+T8	Single_summ 715 720	[BOS]
+T9	Single_summ 822 827	[BOS]
+T10	Single_summ 1064 1069	[BOS]
+T11	Reflection 1190 1195	[BOS]
+T12	Other 1300 1305	[BOS]
+T13	Reference 69 88	Izumi et al. (2003)
+T14	Dominant 100 119	Izumi et al. (2003)
+T15	Dominant 797 819	Mizumoto et al. (2012)
+T16	Pronoun 267 271	They
+T17	Pronoun 411 415	They
+T18	Pronoun 497 503	theirs
+T19	Pronoun 828 832	They
+T20	Pronoun 1103 1107	they
+T21	Pronoun 1120 1125	their
+T22	Pronoun 1221 1225	this
+T24	E_span 455 461	corpus
+T23	B_span 97 99	In
+T25	B_span 797 805	Mizumoto
+T26	B_span 69 74	Izumi
+T27	E_span 83 87	2003
+T28	E_span 1183 1188	model

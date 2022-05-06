@@ -1,0 +1,32 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 133 138	[BOS]
+T3	Narrative_cite 279 284	[BOS]
+T4	Transition 497 502	[BOS]
+T5	Single_summ 621 626	[BOS]
+T6	Single_summ 825 830	[BOS]
+T7	Single_summ 975 980	[BOS]
+T8	Single_summ 1148 1153	[BOS]
+T9	Single_summ 1287 1292	[BOS]
+T10	Reference 88 108	(Kwok and Wang, 2013
+T11	Reference 110 130	Gitari et al., 2015)
+T12	Reference 446 468	(Gaydhani et al., 2018
+T13	Reference 470 493	Unsvg and Gambck, 2018)
+T14	Dominant 658 681	Badjatiya et al. (2017)
+T15	Dominant 831 850	Golem et al. (2018)
+T16	Dominant 981 1003	Pitsilis et al. (2018)
+T17	Dominant 1154 1173	Zhang et al. (2018)
+T18	Dominant 1293 1313	Djuric et al. (2015)
+T19	B_span 63 70	lexicon
+T20	E_span 125 129	2015
+T21	B_span 423 428	Naive
+T22	E_span 488 492	2018
+T23	B_span 658 667	Badjatiya
+T24	E_span 814 823	detection
+T25	B_span 831 836	Golem
+T26	E_span 964 973	detection
+T27	B_span 981 989	Pitsilis
+T28	E_span 1135 1146	information
+T29	B_span 1154 1159	Zhang
+T30	E_span 1279 1285	models
+T31	B_span 1293 1299	Djuric
+T32	E_span 1361 1367	speech

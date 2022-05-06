@@ -1,0 +1,27 @@
+T1	Reflection 0 5	[BOS]
+T2	Transition 231 236	[BOS]
+T3	Narrative_cite 373 378	[BOS]
+T4	Narrative_cite 634 639	[BOS]
+T5	Reflection 871 876	[BOS]
+T6	Transition 1066 1071	[BOS]
+T7	Reference 97 116	(Dinh et al., 2014)
+T8	Reference 159 177	(Dinh et al., 2016
+T9	Reference 179 200	Jacobsen et al., 2018
+T10	Reference 202 228	Kingma and Dhariwal, 2018)
+T11	Reference 454 480	(Kingma and Welling, 2013)
+T12	Reference 589 612	(Miao and Blunsom, 2016
+T13	Reference 614 631	Yin et al., 2018)
+T14	Reference 847 868	(Kingma et al., 2016)
+T15	Reference 967 992	(Goodfellow et al., 2014)
+T16	Pronoun 237 241	This
+T17	Pronoun 697 699	it
+T18	B_span 33 37	flow
+T20	E_span 223 227	2018
+T19	B_span 421 432	variational
+T22	E_span 530 540	likelihood
+T21	B_span 565 570	learn
+T23	E_span 626 630	2018
+T24	B_span 823 835	optimization
+T25	E_span 863 867	2016
+T26	B_span 928 938	generative
+T27	E_span 987 991	2014

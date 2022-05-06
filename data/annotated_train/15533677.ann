@@ -1,0 +1,57 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 87 92	[BOS]
+T3	Multi_summ 309 314	[BOS]
+T4	Narrative_cite 531 536	[BOS]
+T5	Reflection 631 636	[BOS]
+T6	Narrative_cite 768 773	[BOS]
+T7	Transition 1024 1029	[BOS]
+T8	Transition 1193 1198	[BOS]
+T9	Single_summ 1360 1365	[BOS]
+T10	Reflection 1514 1519	[BOS]
+T11	Reflection 1749 1754	[BOS]
+T12	Reflection 1821 1826	[BOS]
+T13	Narrative_cite 1922 1927	[BOS]
+T14	Single_summ 2124 2129	[BOS]
+T15	Single_summ 2276 2281	[BOS]
+T16	Reflection 2378 2383	[BOS]
+T17	Reference 57 84	McDonald and Pereira (2006)
+T18	Reference 215 242	McDonald and Pereira (2006)
+T19	Dominant 315 330	Nakagawa (2007)
+T20	Dominant 335 346	Hall (2007)
+T21	Reference 609 628	Nivre et al. (2006)
+T22	Reference 838 861	Sagae and Lavie (2006b)
+T23	Reference 923 950	Johansson and Nugues (2006)
+T24	Reference 955 973	Duan et al. (2007)
+T25	Reference 1387 1414	Johansson and Nugues (2006)
+T26	Dominant 1417 1444	Johansson and Nugues (2007)
+T27	Reference 2011 2035	(Sagae and Lavie, 2006a)
+T28	Reference 2102 2121	(Hall et al., 2007)
+T29	Dominant 2153 2180	(Nivre and McDonald, 2008 )
+T31	Pronoun 752 756	this
+T32	Pronoun 1298 1303	these
+T33	Pronoun 1520 1524	This
+T34	Pronoun 1809 1813	this
+T35	Pronoun 1860 1862	it
+T36	E_span 241 242	)
+T37	B_span 175 181	linear
+T38	B_span 315 323	Nakagawa
+T39	E_span 516 528	respectively
+T40	B_span 585 598	deterministic
+T41	E_span 623 627	2006
+T42	B_span 808 821	deterministic
+T43	E_span 855 860	2006b
+T44	B_span 923 932	Johansson
+T45	E_span 1015 1022	parsing
+T46	B_span 1366 1371	Based
+T47	E_span 1409 1413	2006
+T48	B_span 1417 1426	Johansson
+T49	E_span 1503 1512	algorithm
+T50	B_span 1993 2001	ensemble
+T51	E_span 2029 2034	2006a
+T52	B_span 2083 2093	dependency
+T53	E_span 2116 2120	2007
+T54	B_span 2130 2131	A
+T55	E_span 2269 2274	other
+T30	Dominant 2282 2316	Both and Nivre and McDonald (2008)
+T56	B_span 2282 2286	Both
+T57	E_span 2370 2376	models

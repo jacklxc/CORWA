@@ -1,0 +1,41 @@
+[BOS] The SQuAD (Rajpurkar et al., 2016) , SQuAD 2.0 (Rajpurkar et al., 2018) , NarrativeQA (Kocisky et al., 2018) , and HotpotQA (Yang et al., 2018) data sets contain questions and answers written by annotators who have first read a short text containing the answer.
+[BOS] The SQuAD data sets contain questions/paragraph/answer triples from Wikipedia.
+[BOS] In the original SQuAD data set, annotators often borrow part of the evidence paragraph to create a question.
+[BOS] Jia and Liang (2017) showed that systems trained on SQuAD could be easily fooled by the insertion of distractor sentences that should not change the answer, and SQuAD 2.0 introduces questions that are designed to be unanswerable.
+[BOS] However, we argue that questions written to be unanswerable can be identified as such with little reasoning, in contrast to NQ's task of deciding whether a paragraph contains all of the evidence required to answer a real question.
+[BOS] Both SQuAD tasks have driven significant advances in reading comprehension, but systems now outperform humans and harder challenges are needed.
+[BOS] NarrativeQA aims to elicit questions that are not close paraphrases of the evidence by separate summary texts.
+[BOS] No human performance upper bound is provided for the full task and, although an extractive system could theoretically perfectly recover all answers, current approaches only just outperform a random baseline.
+[BOS] NarrativeQA may just be too hard for the current state of NLU.
+[BOS] HotpotQA is designed to contain questions that require reasoning over text from separate Wikipedia pages.
+[BOS] As well as answering questions, systems must also identify passages that contain supporting facts.
+[BOS] This is similar in motivation to NQ's long answer task, where the selected passage must contain all of the information required to infer the answer.
+[BOS] Mirroring our identification of acceptable variability in the NQ task definition, HotpotQA's authors observe that the choice of supporting facts is somewhat subjective.
+[BOS] They set high human upper bounds by selecting, for each example, the score maximizing partition of four annotations into one prediction and three references.
+[BOS] The reference labels chosen by this maximization are not representative of the reference labels in HotpotQA's evaluation set, and it is not clear that the upper bounds are achievable.
+[BOS] A more robust approach is to keep the evaluation distribution fixed, and calculate an acheivable upper bound by approximating the expectation over annotations-as we have done for NQ in Section 5.
+
+[BOS] The QuAC (Choi et al., 2018) and CoQA (Reddy et al., 2018) data sets contain dialogues between a questioner, who is trying to learn about a text, and an answerer.
+[BOS] QuAC also prevents the questioner from seeing the evidence text.
+[BOS] Conversational QA is an exciting new area, but it is significantly different from the single turn QA task in NQ.
+[BOS] In both QuAC and CoQA, conversations tend to explore evidence texts incrementally, progressing from the start to the end of the text.
+
+[BOS] This contrasts with NQ, where individual questions often require reasoning over large bodies of text.
+
+[BOS] The WikiQA (Yang et al., 2015) and MS Marco (Nguyen et al., 2016) data sets contain queries sampled from the Bing search engine.
+[BOS] WikiQA contains only 3,047 questions.
+[BOS] MS Marco contains 100,000 questions with freeform answers.
+[BOS] For each question, the annotator is presented with 10 passages returned by the search engine, and is asked to generate an answer to the query, or to say that the answer is not contained within the passages.
+[BOS] Free-form text answers allow more flexibility in providing abstractive answers, but lead to difficulties in evaluation (BLEU score [Papineni et al., 2002 ] is used).
+[BOS] MS Marco's authors do not discuss issues of variability or report quality metrics for their annotations.
+[BOS] From our experience, these issues are critical.
+[BOS] DuReader ) is a Chinese language data set containing queries from Baidu search logs.
+[BOS] Like NQ, DuReader contains real user queries; it requires systems to read entire documents to find answers; and it identifies acceptable variability in answers.
+[BOS] However, as with MS Marco, DuReader is reliant on BLEU for answer scoring, and systems already outperform a humans according to this metric.
+
+[BOS] There are a number of reading comprehension benchmarks based on multiple choice tests (Mihaylov et al., 2018; Richardson et al., 2013; Lai et al., 2017) .
+[BOS] The TriviaQA data set (Joshi et al., 2017) contains questions and answers taken from trivia quizzes found online.
+[BOS] A number of Clozestyle tasks have also been proposed (Hermann et al., 2015; Hill et al., 2015; Paperno et al., 2016; Onishi et al., 2016) .
+[BOS] We believe that all of these tasks are related to, but distinct from, answering information-seeking questions.
+[BOS] We also believe that, because a solution to NQ will have genuine utility, it is better equipped as a benchmark for NLU.
+

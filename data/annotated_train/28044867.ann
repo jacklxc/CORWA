@@ -1,0 +1,24 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 153 158	[BOS]
+T3	Reflection 309 314	[BOS]
+T4	Single_summ 356 361	[BOS]
+T5	Narrative_cite 460 465	[BOS]
+T6	Reflection 660 665	[BOS]
+T7	Reflection 772 777	[BOS]
+T8	Reflection 862 867	[BOS]
+T9	Reference 330 350	(Bruni et al., 2012)
+T10	Dominant 362 388	Silberer and Lapata (2014)
+T11	Reference 546 568	(Faruqui et al., 2016)
+T12	Reference 591 619	Kruszewski and Baroni (2015)
+T13	Pronoun 119 123	they
+T14	Pronoun 666 670	They
+T15	Pronoun 725 729	they
+T16	Pronoun 851 855	this
+T17	B_span 315 317	We
+T18	E_span 345 349	2012
+T19	B_span 362 370	Silberer
+T20	E_span 450 457	ratings
+T21	B_span 539 544	fuzzy
+T22	E_span 563 567	2016
+T23	B_span 571 573	we
+T24	E_span 614 618	2015

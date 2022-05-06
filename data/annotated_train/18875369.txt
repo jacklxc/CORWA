@@ -1,0 +1,2 @@
+[BOS] In this section, we give an overview of previous work on both scope detection and utilization of CNNs in NLP applications.
+

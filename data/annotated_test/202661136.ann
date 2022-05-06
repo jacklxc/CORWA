@@ -1,0 +1,24 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 318 323	[BOS]
+T3	Single_summ 482 487	[BOS]
+T4	Reference 97 118	(Mikolov et al., 2013
+T5	Reference 120 143	Pennington et al., 2014
+T6	Reference 145 163	Grave et al., 2018
+T7	Reference 165 181	Xu et al., 2018)
+T8	Reference 192 214	(Sennrich et al., 2016
+T9	Reference 216 245	Heinzerling and Strube, 2018)
+T10	Reference 262 292	(dos Santos and Zadrozny, 2014
+T11	Reference 294 315	Wieting et al., 2016)
+T12	Dominant 324 344	Lample et al. (2016)
+T13	Dominant 488 505	Liu et al. (2019)
+T14	B_span 92 96	word
+T15	E_span 180 181	)
+T16	B_span 184 187	sub
+T17	E_span 244 245	)
+T18	B_span 252 261	character
+T19	E_span 314 315	)
+T20	B_span 324 328	Lamp
+T21	E_span 480 481	.
+T22	B_span 488 491	Liu
+T23	E_span 611 612	.
+T24	Pronoun 408 413	their

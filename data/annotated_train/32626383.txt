@@ -1,0 +1,15 @@
+[BOS] Research on parsing has mostly concentrated on parsing the traditional treebanks.
+[BOS] Therefore most parsers have statistical models that are optimized for the syntactic annotations in these treebanks and more generally for their language.
+[BOS] This means that such parsers will show a degradation in performance when used for parsing data from another domain.
+[BOS] Thus research has started on adapting parsers to new domains.
+[BOS] One of the first venues at which domain adaptation was targeted was the 2007 CoNLL shared task on dependency parsing, see (Nivre et al., 2007) .
+[BOS] One of the challenges in domain adaptation for parsing is the lack of annotated data in the target domain that could be used for evaluation.
+[BOS] Focusing on the domain of learner texts and their parsing, the great majority of works concern texts of English learners.
+[BOS] We support this fact with a list of learner corpora in Table 1 where their basic characteristics are provided.
+[BOS] Dickinson and Ragheb (2015) consider very carefully the SALLE annotation scheme for syntactically annotating learner English.
+[BOS] 2 Napoles et al. (2016) studied the effect of grammatical errors on the dependency parse.
+[BOS] As the source of the data, they used the NUCLE corpus.
+[BOS] Berzak et al. (2016) benchmarked POS tagging and dependency parsing performance on the TLE dataset and measure the effect of grammatical errors on parsing accuracy.
+[BOS] Cahill et al. (2014) used selftraining parsing technique with both native and non-native training texts.
+[BOS] They found that both training sets performed at about the same level, but that both significantly outperformed the baseline parser trained on traditional labeled data.
+

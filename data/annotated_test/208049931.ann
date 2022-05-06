@@ -1,0 +1,61 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 487 492	[BOS]
+T3	Narrative_cite 644 649	[BOS]
+T4	Single_summ 913 918	[BOS]
+T5	Multi_summ 1205 1210	[BOS]
+T6	Multi_summ 1358 1363	[BOS]
+T7	Single_summ 1543 1548	[BOS]
+T8	Single_summ 1790 1795	[BOS]
+T9	Multi_summ 1891 1896	[BOS]
+T10	Single_summ 2100 2105	[BOS]
+T11	Single_summ 2300 2305	[BOS]
+T12	Single_summ 2490 2495	[BOS]
+T13	Multi_summ 2651 2656	[BOS]
+T14	Reflection 2891 2896	[BOS]
+T15	B_span 224 231	machine
+T16	E_span 337 341	2017
+T17	Reference 245 265	Ranzato et al., 2016
+T18	Reference 267 284	Shen et al., 2016
+T19	Reference 286 301	He et al., 2017
+T20	Reference 303 324	Bahdanau et al., 2017
+T21	Reference 326 341	Li et al., 2017
+T22	B_span 345 349	text
+T23	E_span 414 418	2018
+T24	Reference 365 384	Paulus et al., 2018
+T25	Reference 386 401	Wu and Hu, 2018
+T26	Reference 403 418	Li et al., 2018
+T27	B_span 422 430	dialogue
+T28	E_span 454 458	2016
+T29	Reference 443 458	Li et al., 2016
+T30	B_span 688 700	crosslingual
+T31	E_span 771 775	2017
+T32	Reference 713 733	Artetxe et al., 2016
+T33	Reference 735 753	Zhang et al., 2017
+T34	Reference 755 775	Conneau et al., 2017
+T35	Dominant 932 953	Lample et al. (2018a)
+T36	B_span 932 938	Lample
+T37	E_span 1200 1201	a
+T38	Dominant 1227 1247	Lample et al., 2018a
+T39	Dominant 1251 1273	Artetxe et al. (2018b)
+T40	B_span 1227 1233	Lample
+T42	E_span 1532 1541	procedure
+T41	Dominant 1558 1576	Yang et al. (2018)
+T43	B_span 1558 1562	Yang
+T44	E_span 1881 1889	language
+T45	Dominant 1912 1934	Artetxe et al. (2018a)
+T46	Dominant 1939 1960	Lample et al. (2018b)
+T47	E_span 2095 2098	SMT
+T48	B_span 1912 1919	Artetxe
+T49	Dominant 2119 2140	Lample et al. (2018b)
+T50	B_span 2119 2125	Lample
+T51	E_span 2291 2297	German
+T52	Dominant 2306 2323	Ren et al. (2019)
+T53	B_span 2306 2309	Ren
+T54	E_span 2479 2488	algorithm
+T55	Dominant 2496 2512	Wu et al. (2019)
+T56	E_span 2642 2649	corpora
+T57	B_span 2496 2498	Wu
+T58	Dominant 2657 2682	Lample and Conneau (2019)
+T59	Dominant 2687 2705	Song et al. (2019)
+T60	B_span 2657 2663	Lample
+T61	E_span 2884 2889	model

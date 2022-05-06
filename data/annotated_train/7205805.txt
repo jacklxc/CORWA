@@ -1,0 +1,14 @@
+[BOS] Developing sparse interpretable models holds considerably interest in the broader research community (Letham et al., 2015; Kim et al., 2015) .
+[BOS] The need for interpretability is even more pronounced with recent neural models.
+[BOS] Efforts in this area include analyzing and visualizing state activation (Hermans and Schrauwen, 2013; Karpathy et al., 2015; , learning sparse interpretable word vectors (Faruqui et al., 2015b) , and linking word vectors to semantic lexicons or word properties (Faruqui et al., 2015a; Herbelot and Vecchi, 2015) .
+
+[BOS] Attention based models offer another lens to the inner workings of neural models (Bahdanau et al., 2015; Cheng et al., 2016; Martins and Astudillo, 2016; Chen et al., 2015; Xu and Saenko, 2015; Yang et al., 2015) .
+[BOS] Such models have been successfully applied to many NLP problems, improving both prediction accuracy as well as visualization and interpretability (Rush et al., 2015; Rocktschel et al., 2016; Hermann et al., 2015) .
+
+[BOS] Our work differs from past approaches in terms of what is meant by interpretable models (generating concise yet sufficient rationales) and how interpretation is derived (rationale generation).
+[BOS] We explicitly aim to identify salient portions of the input text to justify predictions.
+[BOS] Moreover, architecturally, we detach the rationale generation from how it is used (encoding) so as to be able to directly control types of rationales that are acceptable, and to facilitate broader modular use in other applications.
+
+[BOS] Finally, we contrast our work with rationale-based classification (Zaidan et al., 2007) which seeks to reduce supervised annotations by relying on richer annotations in the form of human-provided rationales.
+[BOS] In our work, rationales are never given during training, and the goal is to learn to generate them.
+

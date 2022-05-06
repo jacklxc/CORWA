@@ -1,0 +1,21 @@
+[BOS] The studies of encoder-decoder framework (Kalchbrenner and Blunsom, 2013; Sutskever et al., 2014) for this task launched the Neural Machine Translation.
+[BOS] To improve the focus on the information in the encoder, proposed the attention mechanism, which greatly improved the performance of the Seq2Seq model on NMT.
+[BOS] Most of the existing NMT systems are based on the Seq2Seq model and the attention mechanism.
+[BOS] Some of them have variant architectures to capture more information from the inputs (Su et al., 2016; Tu et al., 2016) , and some improve the attention mechanism Meng et al., 2016; Mi et al., 2016; Jean et al., 2015; Feng et al., 2016; Calixto et al., 2017) , which also enhanced the performance of the NMT model.
+
+[BOS] There are also some effective neural networks other RNN.
+[BOS] Gehring et al. (2017) turned the RNN-based model into CNN-based model, which greatly improves the computation speed.
+[BOS] Vaswani et al. (2017) only used attention mechanism to build the model and showed outstanding performance.
+[BOS] Also, some researches incorporated external knowledge and also achieved obvious improvement (Li et al., 2017; Chen et al., 2017) .
+
+[BOS] There is also a study (Zhao et al., 2017) shares a similar name with this work, i.e. bag-of-word loss, our work has significant difference with this study.
+[BOS] First, the methods are very different.
+[BOS] The previous work uses the bag-of-word to constraint the latent variable, and the latent variable is the output of the encoder.
+[BOS] However, we use the bag-of-word to supervise the distribution of the generated words, which is the output of the decoder.
+[BOS] Compared with the previous work, our method directly supervises the predicted distribution to improve the whole model, including the encoder, the decoder and the output layer.
+[BOS] On the contrary, the previous work only supervises the output of the encoder, and only the encoder is trained.
+[BOS] Second, the motivations are quite different.
+[BOS] The bag-of-word loss in the previous work is an assistant component, while the bag of word in this paper is a direct target.
+[BOS] For example, in the paper you mentioned, the bag-of-word loss is a component of variational autoencoder to tackle the vanishing latent variable problem.
+[BOS] In our paper, the bag of word is the representation of the unseen correct translations to tackle the data sparseness problem.
+

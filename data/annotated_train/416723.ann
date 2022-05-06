@@ -1,0 +1,58 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 145 150	[BOS]
+T3	Single_summ 258 263	[BOS]
+T4	Single_summ 379 384	[BOS]
+T5	Single_summ 558 563	[BOS]
+T6	Reflection 690 695	[BOS]
+T7	Narrative_cite 863 868	[BOS]
+T8	Single_summ 1146 1151	[BOS]
+T9	Single_summ 1250 1255	[BOS]
+T10	Narrative_cite 1401 1406	[BOS]
+T11	Transition 1671 1676	[BOS]
+T12	Reflection 1760 1765	[BOS]
+T13	Reflection 1826 1831	[BOS]
+T14	Reflection 2008 2013	[BOS]
+T15	Reflection 2092 2097	[BOS]
+T16	Reflection 2290 2295	[BOS]
+T17	Reference 83 103	(Luong et al., 2015a
+T18	Reference 105 122	Cohn et al., 2016
+T19	Reference 124 142	Feng et al., 2016)
+T20	Dominant 151 171	Luong et al. (2015a)
+T21	Dominant 385 403	Cohn et al. (2016)
+T22	Dominant 564 582	Feng et al. (2016)
+T23	Reference 991 1012	(Graves et al., 2014)
+T24	Reference 1031 1051	(Weston et al., 2014
+T25	Reference 1053 1071	Meng et al., 2015)
+T26	Reference 1106 1124	(Tang et al., 2016
+T27	Dominant 1152 1170	Tang et al. (2016)
+T28	Reference 1545 1566	(Graves et al., 2014)
+T29	Reference 2191 2212	(Graves et al., 2014)
+T30	Reference 2408 2428	(Graves et al., 2014
+T31	Pronoun 264 268	They
+T32	Pronoun 696 701	These
+T33	Pronoun 1256 1260	They
+T34	Pronoun 1677 1682	These
+T35	Pronoun 1978 1980	it
+T36	Pronoun 1985 1987	it
+T37	B_span 66 75	attention
+T38	E_span 137 141	2016
+T39	B_span 151 156	Luong
+T40	E_span 373 377	time
+T41	B_span 385 389	Cohn
+T42	E_span 551 556	pairs
+T43	B_span 564 568	Feng
+T44	E_span 676 688	improvements
+T45	B_span 968 974	neural
+T46	E_span 1007 1011	2014
+T47	B_span 1015 1021	memory
+T48	E_span 1066 1070	2015
+T49	B_span 1090 1098	external
+T50	E_span 1120 1124	2016
+T51	B_span 1522 1528	neural
+T52	E_span 1561 1565	2014
+T53	B_span 1152 1156	Tang
+T54	E_span 1395 1399	once
+T55	B_span 2138 2146	notation
+T56	E_span 2207 2211	2014
+T57	B_span 2322 2326	read
+T58	E_span 2424 2428	2014

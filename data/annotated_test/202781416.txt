@@ -1,0 +1,22 @@
+[BOS] Continuous word representations in real-valued vectors, or commonly known as word embeddings, have been shown to help improve NLP performance.
+[BOS] Initially, exploiting continuous representations was achieved by adding real-valued vectors as classification features (Turian et al., 2010) .
+[BOS] Taghipour and Ng (2015) fine-tuned non-contextualized word embeddings by a feedforward neural network such that those word embeddings were more suited for WSD.
+[BOS] The finetuned embeddings were incorporated into an SVM classifier.
+[BOS] explored different strategies of incorporating word embeddings and found that their best strategy involved exponential decay that decreased the contribution of surrounding word features as their distances to the target word increased.
+[BOS] The neural sequence tagging approach has also been explored for WSD.
+[BOS] Kgebck and Salomonsson (2016) proposed bidirectional long short-term memory (LSTM) (Hochreiter and Schmidhuber, 1997) for WSD.
+[BOS] They concatenated the hidden states of the forward and backward LSTMs and fed the concatenation into an affine transformation followed by softmax normalization, similar to the approach to incorporate a bidirectional LSTM adopted in sequence labeling tasks such as part-ofspeech tagging and named entity recognition (Ma and Hovy, 2016) .
+[BOS] proposed a self-attention layer on top of the concatenated bidirectional LSTM hidden states for WSD and introduced multi-task learning with part-ofspeech tagging and semantic labeling as auxiliary tasks.
+[BOS] However, on average across the test sets, their approach did not outperform SVM with word embedding features.
+[BOS] Subsequently, proposed the incorporation of glosses from WordNet in a bidirectional LSTM for WSD, and reported better results than both SVM and prior bidirectional LSTM models.
+[BOS] A neural language model (LM) is aimed at predicting a word given its surrounding context.
+[BOS] As such, the resulting hidden representation vector captures the context of a word in a sentence.
+[BOS] designed context2vec, which is a one-layer bidirectional LSTM trained to maximize the similarity between the hidden state representation of the LSTM and the target word embedding.
+[BOS] designed ELMo, which is a two-layer bidirectional LSTM language model trained to predict the next word in the forward LSTM and the previous word in the backward LSTM.
+[BOS] In both models, WSD was evaluated by nearest neighbor matching between the test and training instance representations.
+[BOS] However, despite training on a huge amount of raw texts, the resulting accuracies were still lower than those achieved by WSD approaches with pre-trained non-contextualized word representations.
+
+[BOS] End-to-end neural machine translation (NMT) (Sutskever et al., 2014; Bahdanau et al., 2015) learns to generate an output sequence given an input sequence, using an encoder-decoder model.
+[BOS] The encoder captures the contextualized representation of the words in the input sentence for the decoder to generate the output sentence.
+[BOS] Following this intuition, McCann et al. (2017) trained an encoder-decoder model on parallel texts and obtained pre-trained contextualized word representations from the encoder.
+

@@ -1,0 +1,18 @@
+[BOS] Our work is inspired by two lines of research: (1) adversarial learning and (2) data augmentation.
+
+[BOS] Adversarial Learning Generative Adversarial Network (GAN) and its related derivative have been widely applied in computer vision (Radford et al., 2015; Salimans et al., 2016) and natural language processing .
+[BOS] Previous work has constructed adversarial examples to attack trained networks and make networks resist them, which has proved to improve the robustness of networks (Goodfellow et al., 2015; Miyato et al., 2016; Zheng et al., 2016) .
+[BOS] Belinkov and Bisk (2018) introduce adversarial examples to training data for character-based NMT models.
+[BOS] In contrast to theirs, adversarial stability training aims to stabilize both the encoder and decoder in NMT models.
+[BOS] We adopt adversarial learning to learn the perturbation-invariant encoder.
+
+[BOS] Data Augmentation Data augmentation has the capability to improve the robustness of NMT models.
+[BOS] In NMT, there is a number of work that augments the training data with monolingual corpora (Sennrich et al., 2016a; He et al., 2016a; Zhang and Zong, 2016) .
+[BOS] They all leverage complex models such as inverse NMT models to generate translation equivalents for monolingual corpora.
+[BOS] Then they augment the parallel corpora with these pseudo corpora to improve NMT models.
+[BOS] Some authors have recently endeavored to achieve zero-shot NMT through transferring knowledge from bilingual corpora of other language pairs (Chen et al., 2017; Zheng et al., 2017; or monolingual corpora (Lample et al., 2018; Artetxe et al., 2018) .
+[BOS] Our work significantly differs from these work.
+[BOS] We do not resort to any complicated models to generate perturbed data and do not depend on extra monolingual or bilingual corpora.
+[BOS] The way we exploit is more convenient and easy to implement.
+[BOS] We focus more on improving the robustness of NMT models.
+

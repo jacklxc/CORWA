@@ -1,0 +1,46 @@
+T1	Intro 0 5	[BOS]
+T2	Intro 237 242	[BOS]
+T3	Single_summ 306 311	[BOS]
+T4	Single_summ 435 440	[BOS]
+T5	Single_summ 644 649	[BOS]
+T6	Single_summ 690 695	[BOS]
+T7	Narrative_cite 810 815	[BOS]
+T8	Single_summ 977 982	[BOS]
+T9	Single_summ 1054 1059	[BOS]
+T10	Single_summ 1191 1196	[BOS]
+T11	Single_summ 1263 1268	[BOS]
+T12	Single_summ 1365 1370	[BOS]
+T13	Single_summ 1544 1549	[BOS]
+T14	Single_summ 1637 1642	[BOS]
+T15	Single_summ 1809 1814	[BOS]
+T16	Single_summ 2007 2012	[BOS]
+T17	Single_summ 2092 2097	[BOS]
+T18	Other 2174 2179	[BOS]
+T19	Dominant 349 375	Medlock and Briscoe (2007)
+T20	Reference 919 934	(Medlock, 2008)
+T21	Dominant 986 1010	Ganter and Strube (2009)
+T22	Dominant 1269 1297	Morante and Daelemans (2009)
+T23	Dominant 2060 2089	(Morante and Daelemans, 2009)
+T24	Pronoun 246 250	this
+T25	Pronoun 383 388	their
+T26	Pronoun 444 449	their
+T27	Pronoun 650 654	They
+T28	Pronoun 733 738	their
+T29	Pronoun 825 829	they
+T30	Pronoun 1063 1068	their
+T31	Pronoun 1243 1248	their
+T32	Pronoun 1306 1311	their
+T33	Pronoun 1351 1356	their
+T34	Pronoun 1371 1376	Their
+T35	Pronoun 1570 1574	they
+T36	Pronoun 1842 1847	their
+T37	Pronoun 2048 2053	their
+T38	Pronoun 2098 2102	They
+T39	B_span 983 985	In
+T40	B_span 312 315	For
+T41	E_span 1249 1260	experiments
+T42	B_span 1269 1276	Morante
+T43	E_span 2169 2170	2
+T44	E_span 802 807	point
+T45	B_span 902 907	lemma
+T46	E_span 929 933	2008

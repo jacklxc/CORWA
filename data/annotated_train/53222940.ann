@@ -1,0 +1,27 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 362 367	[BOS]
+T3	Reflection 683 688	[BOS]
+T4	Reflection 824 829	[BOS]
+T5	Narrative_cite 964 969	[BOS]
+T6	Reflection 1323 1328	[BOS]
+T7	Reference 154 174	(Barbu et al., 2016)
+T8	Reference 540 566	(Munteanu and Marcu, 2005)
+T9	Reference 589 618	(AbdulRauf and Schwenk, 2009)
+T10	Reference 654 680	(Espaa-Bonet et al., 2017)
+T11	Reference 796 821	Munteanu and Marcu (2005)
+T12	Reference 1297 1320	(Eetemadi et al., 2015)
+T13	Reference 1399 1421	(Axelrod et al., 2011)
+T14	B_span 98 103	First
+T15	E_span 169 173	2016
+T16	B_span 518 527	automatic
+T17	E_span 561 565	2005
+T18	B_span 569 576	machine
+T19	E_span 613 617	2009
+T20	B_span 638 642	word
+T21	E_span 675 679	2017
+T22	B_span 796 804	Munteanu
+T23	E_span 816 820	2005
+T24	B_span 1183 1192	selection
+T25	E_span 1315 1319	2015
+T26	B_span 1344 1354	widespread
+T27	E_span 1416 1420	2011

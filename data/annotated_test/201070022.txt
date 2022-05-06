@@ -1,0 +1,26 @@
+[BOS] The task of detecting offensive language has been studied across a variety of content classes.
+[BOS] Perhaps the most commonly studied class is hate speech, but work has also covered bullying, aggression, and toxic comments (Zampieri et al., 2019) .
+
+[BOS] To this end, various datasets have been created to benchmark progress in the field.
+[BOS] In hate speech detection, recently Davidson et al. (2017) compiled and released a dataset of over 24,000 tweets labeled as containing hate speech, offensive language, or neither.
+[BOS] The TRAC shared task on Aggression Identification, a dataset of over 15,000 Facebook comments labeled with varying levels of aggression, was released as part of a competition (Kumar et al., 2018) .
+[BOS] In order to benchmark toxic comment detection, The Wikipedia Toxic Comments dataset (which we study in this work) was collected and extracted from Wikipedia Talk pages and featured in a Kaggle competition (Wulczyn et al., 2017; Google, 2018) .
+[BOS] Each of these benchmarks examine only single-turn utterances, outside of the context in which the language appeared.
+[BOS] In this work we recommend that future systems should move beyond classification of singular utterances and use contextual information to help identify offensive language.
+
+[BOS] Many approaches have been taken to solve these tasks -from linear regression and SVMs to deep learning (Noever, 2018) .
+[BOS] The best performing systems in each of the competitions mentioned above (for aggression and toxic comment classification) used deep learning approaches such as LSTMs and CNNs (Kumar et al., 2018; Google, 2018) .
+[BOS] In this work we consider a large-pretrained transformer model which has been shown to perform well on many downstream NLP tasks (Devlin et al., 2018) .
+
+[BOS] The broad class of adversarial training is currently a hot topic in machine learning (Goodfellow et al., 2014) .
+[BOS] Use cases include training image generators (Brock et al., 2018) as well as image classifiers to be robust to adversarial examples (Liu et al., 2019) .
+[BOS] These methods find the breaking examples algorithmically, rather than by using humans breakers as we do.
+[BOS] Applying the same approaches to NLP tends to be more challenging because, unlike for images, even small changes to a sentence can cause a large change in the meaning of that sentence, which a human can detect but a lower quality model cannot.
+[BOS] Nevertheless algorithmic approaches have been attempted, for example in text classification (Ebrahimi et al., 2018) , machine translation (Belinkov and Bisk, 2018) , dialogue generation tasks (Li et al., 2017) and reading comprehension (Jia and Liang, 2017 ).
+[BOS] The latter was particularly effective at proposing a more difficult version of the popular SQuAD dataset.
+
+[BOS] As mentioned in the introduction, our approach takes inspiration from "Build it Break it" approaches which have been successfully tried in other domains (Ruef et al., 2016; Ettinger et al., 2017) .
+[BOS] Those approaches advocate finding faults in systems by having humans look for insecurities (in software) or prediction failures (in models), but do not advocate an automated approach as we do here.
+[BOS] Our work is also closely connected to the "Mechanical Turker Descent" algorithm detailed in (Yang et al., 2018) where language to action pairs were collected from crowdworkers by incentivizing them with a game-with-a-purpose technique: a crowdworker receives a bonus if their contribution results in better models than another crowdworker.
+[BOS] We did not gamify our approach in this way, but still our approach has commonalities in the round-based improvement of models through crowdworker interaction.
+

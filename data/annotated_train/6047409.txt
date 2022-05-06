@@ -1,0 +1,36 @@
+[BOS] The Skip-gram model for word embeddings (Mikolov et al., 2013a; Mikolov et al., 2013b) , is trained on a text corpus with the objective of predicting the vectors of the surrounding words of a given word, when conditioned on its vector representation.
+[BOS] Its success inspired to create its sentence analogue, Skipthought vectors, which are trained by predicting the surrounding sentences when conditioned on the current one.
+[BOS] Despite this simple objective, Skipthoughts perform remarkably well on various tasks: semantic relatedness, paraphrase detection, imagesentence ranking, and a number of classification benchmarks.
+[BOS] In this paper we investigate how we can improve their embedding space through injecting small amounts of supervised information.
+
+[BOS] Aside from Skipthoughts, there are numerous sentence encoders.
+[BOS] (Socher et al., 2013; Yin and Schtze, 2015; Wang and Nyberg, 2015; Socher et al., 2014) create sentence encoders which are optimized for a specific task of interest.
+[BOS] On the other hand, methods which aim at constructing "universal" embeddings include (Le and Mikolov, 2014; Socher et al., 2011; Li et al., 2015; Pham et al., 2015) .
+[BOS] Le and Mikolov (2014) learn paragraph embeddings by predicting sentences within a paragraph when conditioned on its representation, Pham et al. (2015) predict context in all levels of a syntactic tree, whereas Socher et al. (2011) and Li et al. (2015) present autoencoder-type models.
+[BOS] Hill et al. (2016) presented an extensive evaluation of unsupervised sentence encoders.
+[BOS] They showed that Bag of Words (BOW) models on average perform on par with non-BOW models.
+[BOS] Our results agree with this and we provide a possible explanation through examining the statistics of the datasets used for evaluation.
+[BOS] An important distinction between our work and theirs is that Hill et al. (2016) focused on models that were trained in an unsupervised fashion, whereas we also present models finetuned or trained on SNLI for natural language inference.
+[BOS] Wieting et al. (2015) learned "universal" sentence vectors by exploiting a database of paraphrases: they optimize an objective which encourages paraphrases to lie closer to each other in space than to negative examples.
+[BOS] Similarly to their work, we also use supervised information to construct informative embeddings, but our supervision comes from the task of natural language inference.
+
+[BOS] Transfer learning is the process of exploiting knowledge from one task or domain in order to benefit from it for a different ("target") task or domain.
+[BOS] This method has enjoyed considerable success in computer vision applications (notably the use of features derived from neural networks trained for object classification such as (Krizhevsky et al., 2012) for other tasks) but is less successful in language applications.
+[BOS] Collobert and Weston (2008) perform mutli-task learning on various natural language processing tasks and report a very small gain for each task.
+[BOS] Mou et al. (2016) presented negative results on their effort to transfer from the task of natural language inference to paraphrase detection.
+[BOS] In this work, we show positive results on transfer from natural language inference to paraphrase detection and to the related task of paraphrase ranking.
+
+[BOS] SICK is comprised of pairs of sentences, each associated with a relatedness score in the range from 1 to 5.
+[BOS] In order to directly evaluate the merit of the embeddings in capturing semantics, we used cosine similarity to estimate the relatedness of each pair.
+[BOS] These similarity scores were then correlated with the human-annotated scores using Pearson's and Spearman's correlation coefficients and mean squared error.
+[BOS] The results are shown in Table 7 : Results on semantic relatedness (SICK) based on cosine distances.
+[BOS] PR, SR, SE: Pearson, Spearman correlation coefficient and mean squared error, resp.
+[BOS] between model scores and human scores.
+
+[BOS] As was the case for the MSRP dataset, we believe that SICK offers an unfair advantage to BOW models, therefore we do not believe that the success of BOW AE and SNLI BOW is necessarily indicative of their quality.
+
+[BOS] We observe that SNLI-Finetuned Skipthoughts outperform Skipthoughts on this task as well, supporting the conjecture that adding supervision through SNLI has lead to a more informative space.
+[BOS] Moreover, the performance of SNLI RNN is impressive, outperforming both Skipthoughtbased models.
+[BOS] Finally, out of the BOW models, the SNLI one performs better than the AE one.
+[BOS] These are indications that SNLI information can aid in inducing a notion of similarity which is compatible with human intuition.
+

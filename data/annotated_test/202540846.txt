@@ -1,0 +1,13 @@
+[BOS] Sentiment Analysis.
+[BOS] There are kinds of sentiment analysis tasks, such as documentlevel (Thongtan and Phienthrakul, 2019) , sentence-level 4 , aspect-level (Pontiki et al., 2014; Wang et al., 2019a) and multimodal (Chen et al., 2018; Akhtar et al., 2019) sentiment analysis.
+[BOS] For the aspect-level sentiment analysis, previous work typically apply attention mechanism (Luong et al., 2015) combining with memory network (Weston et al., 2014) or gating units to solve this task (Tang et al., 2016b; He et al., 2018a; Xue and Li, 2018; Duan et al., 2018; Tang et al., 2019; Yang et al., 2019; Bao et al., 2019) , where an aspect-independent encoder is used to generate the sentence representation.
+[BOS] In addition, some work leverage the aspect-weakly associative encoder to generate aspect-specific sentence representation (Tang et al., 2016a; Wang et al., 2016; Majumder et al., 2018) .
+[BOS] All of these methods make insufficient use of the given aspect information.
+[BOS] There are also some work which jointly extract the aspect term (and opinion term) and predict its sentiment polarity (Schmitt et al., 2018; Li et al., 2018b; Ma et al., 2018; Angelidis and Lapata, 2018; He et al., 2019; Hu et al., 2019; Dai and Song, 2019; Wang et al., 2019b) .
+[BOS] In this paper, we focus on the latter problem and leave aspect extraction (Shu et al., 2017) to future work.
+[BOS] And some work He et al., 2018b; Xu and Tan, 2018; Chen and Qian, 2019; He et al., 2019) employ the well-known BERT (Devlin et al., 2018) or document-level corpora to enhance ABSA tasks, which will be considered in our future work to further improve the performance.
+
+[BOS] Deep Transition.
+[BOS] Deep transition has been proved its superiority in language modeling (Pascanu et al., 2014) and machine translation (Miceli Barone et al., 2017; Meng and Zhang, 2019) .
+[BOS] We follow the deep transition architecture in Meng and Zhang (2019) and extend it by incorporating a novel A-GRU for ABSA tasks.
+

@@ -1,0 +1,40 @@
+T1	Intro 0 5	[BOS]
+T2	Narrative_cite 71 76	[BOS]
+T3	Single_summ 250 255	[BOS]
+T4	Transition 418 423	[BOS]
+T5	Transition 495 500	[BOS]
+T6	Transition 621 626	[BOS]
+T7	Single_summ 785 790	[BOS]
+T8	Transition 964 969	[BOS]
+T9	Transition 1124 1129	[BOS]
+T10	Reflection 1254 1259	[BOS]
+T11	Reflection 1588 1593	[BOS]
+T12	Reflection 1659 1664	[BOS]
+T13	Reflection 1785 1790	[BOS]
+T14	Multi_summ 1929 1934	[BOS]
+T15	Reflection 2340 2345	[BOS]
+T16	Reference 186 205	(Tang et al., 2016b
+T17	Reference 207 225	Wang et al., 2018)
+T18	Dominant 396 415	(Wang et al., 2016)
+T19	Dominant 845 862	Ma et al., (2017)
+T20	Reference 1510 1528	(Liu et al., 2016)
+T21	Reference 1560 1585	(Nguyen and Nguyen, 2018)
+T22	Dominant 2162 2179	(Xu et al., 2018)
+T23	Pronoun 480 485	these
+T24	Pronoun 511 515	this
+T25	Pronoun 735 737	it
+T26	Pronoun 1275 1280	these
+T27	Pronoun 1836 1841	these
+T28	Pronoun 1899 1904	these
+T30	E_span 220 224	2018
+T31	E_span 410 414	2016
+T32	B_span 791 793	An
+T33	E_span 949 962	interactively
+T34	B_span 256 263	Another
+T35	B_span 1490 1495	machi
+T36	E_span 1523 1527	2016
+T37	B_span 1535 1541	police
+T38	E_span 1580 1584	2018
+T39	B_span 2163 2165	Xu
+T40	E_span 2334 2335	t
+T29	B_span 130 135	being

@@ -1,0 +1,35 @@
+[BOS] To the best of our knowledge, there are no datasets for providing answers in natural language with multiple styles except MS MARCO 2.1, although there are some datasets that provide abstractive answers.
+[BOS] DuReader , a Chinese multi-document RC dataset, provides the top-10 ranked entire documents from Baidu Search and Zhidao.
+[BOS] Many of the answers are long and relatively far from the source documents compared with those from MS MARCO.
+[BOS] NarrativeQA (Kocisk et al., 2018) proposed a dataset about stories or summaries of books or movie scripts.
+[BOS] The documents are long, averaging 62,528 (659) words in stories (summaries), while the answers are relatively short, averaging 4.73 words.
+[BOS] Moreover, DuoRC (Saha et al., 2018) and CoQA (Reddy et al., 2018) contain abstractive answers; most of the answers are short phrases.
+
+[BOS] Controllable text generation.
+[BOS] Many studies have been carried out in the framework of style transfer, which is the task of rephrasing the text so that it contains specific styles such as sentiment.
+[BOS] Recent work uses artificial tokens (Sennrich et al., 2016; Johnson et al., 2017) , variational auto-encoders (Hu et al., 2017) , adversarial training (Fu et al., 2018; Tsvetkov et al., 2018) , or prior knowledge (Li et al., 2018b) to separate the content and style on the encoder side.
+[BOS] On the decoder side, conditional language modeling has been used to generate output sentence with the target style.
+[BOS] In addition to style transfer, output length control with conditional language modeling has been well studied (Kikuchi et al., 2016; Takeno et al., 2017; Fan et al., 2018) .
+[BOS] Our style-controllable RC relies on conditional language modeling on the decoder side.
+
+[BOS] Multi-passage RC.
+[BOS] The simplest approach is to concatenate the passages and find the answer from the concatenated one as in (Wang et al., 2017) .
+[BOS] Earlier pipeline models find a small number of relevant passages with a TF-IDF based ranker and pass them to a neural reader , while more recent pipeline models use a neural re-ranker to more accurately select the relevant passages Nishida et al., 2018) .
+[BOS] Also, non-pipelined models (including ours) consider all the provided passages and find the answer by comparing scores between passages .
+[BOS] The most recent models make a proper trade-off between efficiency and accuracy .
+
+[BOS] RC with unanswerable question identification.
+[BOS] The previous work of ( Levy et al., 2017; ) outputs a no-answer score depending on the probability of all answer spans.
+[BOS] Hu et al. (2018) proposed an answer verifier to compare the answer sentence with the question.
+[BOS] Sun et al. (2018a) proposed a unified model that jointly learns an RC model and an answer verifier.
+[BOS] Our model introduces a classifier on the basis of question-passages matching, which is not dependent on the generated answer, unlike the previous methods.
+
+[BOS] Abstractive summarization.
+[BOS] Current state-ofthe-art models use pointer-generator mechanisms (See et al., 2017) .
+[BOS] In particular, content selection approaches, which decide what to summarize, have recently been used with abstractive models.
+[BOS] Most methods select content at the sentence level (Hsu et al., 2018; Chen and Bansal, 2018) and the word level (Pasunuru and Bansal, 2018; Gehrmann et al., 2018) ; our model incorporates content selection at the passage level in the combined attention.
+
+[BOS] Query-based abstractive summarization has been rarely studied.
+[BOS] Nema et al. (2017) proposed an attentional encoder-decoder model, and Saha et al. (2018) reported that it performed worse than BiDAF on DuoRC.
+[BOS] Hasselqvist et al. (2017) proposed a pointer-generator based model; however, it does not consider copying words from the question and multiple passages.
+

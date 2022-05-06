@@ -1,0 +1,26 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 78 83	[BOS]
+T3	Single_summ 296 301	[BOS]
+T4	Single_summ 474 479	[BOS]
+T5	Narrative_cite 658 663	[BOS]
+T6	Transition 909 914	[BOS]
+T7	Reflection 1147 1152	[BOS]
+T8	Dominant 84 104	Yasuda et al. (2008)
+T9	Dominant 109 129	Foster et al. (2010)
+T10	Dominant 302 323	Axelrod et al. (2011)
+T11	Dominant 480 497	Duh et al. (2013)
+T12	Reference 521 543	(Axelrod et al., 2011)
+T13	Reference 706 723	(Duh et al., 2013
+T14	Reference 725 745	Axelrod et al., 2011
+T15	Reference 747 766	Foster et al., 2010
+T16	Reference 768 788	Yasuda et al., 2008)
+T17	B_span 84 90	Yasuda
+T18	E_span 288 294	models
+T19	B_span 302 309	Axelrod
+T20	E_span 466 472	models
+T21	B_span 480 483	Duh
+T22	B_span 511 517	method
+T23	E_span 538 542	2011
+T24	E_span 651 656	model
+T25	B_span 691 695	data
+T26	E_span 783 787	2008

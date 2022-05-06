@@ -1,0 +1,20 @@
+[BOS] Contextual compatibility features have long been studied for pronoun coreference: Dagan and Itai (1990) proposed a heuristics-based approach to pronoun resolution.
+[BOS] It determined the preference of candidates based on predicate-argument frequencies.
+[BOS] Bean and Riloff (2004) present a system, which uses contextual role knowledge to aid coreference resolution.
+[BOS] They used lexical and syntactic heuristics to identify high-confidence coreference relations and used them as training data for learning contextual role knowledge.
+[BOS] They got substantial gains on articles in two specific domains, terrorism and natural disasters.
+[BOS] Yang et al. (2005) use statistically-based semantic compatibility information to improve pronoun resolution.
+[BOS] They use corpus-based and web-based extraction strategies, and their work shows that statistically-based semantic compatibility information can improve coreference resolution.
+
+[BOS] In contrast, Kehler et al. (2004) claimed that the contextual compatibility feature does not help much for pronoun coreference: existing learningbased approaches already performed well; such statistics are simply not good predictors for pronoun interpretation; data is sparse in the collected predicate-argument statistics.
+
+[BOS] The role pair feature has not been studied for general, broad-domain pronoun co-reference, but it has been used for other tasks: Pekar (2006) built pairs of 'templates' which share an 'anchor' argument; these correspond closely to our role pairs.
+[BOS] Association statistics of the template pairs were used to acquire verb entailments.
+[BOS] Abe et al. (2008) looked for pairs appearing in specific syntactic patterns in order to acquire finer-grained event relations.
+[BOS] Chambers and Jurafsky (2008) built narrative event chains, which are partially ordered sets of events related by a common protagonist.
+[BOS] They use high-precision hand-coded rules to get coreference information, extract predicate arguments that link the mentions to verbs, and link the arguments of the coreferred mentions to build a verb entailment model.
+[BOS] Bean and Riloff (2004) used high-precision hand-coded rules to identify coreferent mention pairs, which are then used to acquire role pairs that they refer to as Caseframe Network features.
+[BOS] They use these features to improve coreference resolution for two domain-specific corpora involving terrorism and natural disasters.
+[BOS] Their result raises the natural question as to whether the approach (which may capture domainspecific pairs such as "kidnap-release" in the terrorism domain) can be successfully extended to a general news corpus.
+[BOS] We address this question in the experiments reported here.
+

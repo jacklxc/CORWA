@@ -1,0 +1,50 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 95 100	[BOS]
+T3	Single_summ 444 449	[BOS]
+T4	Reflection 710 715	[BOS]
+T5	Transition 770 775	[BOS]
+T6	Reflection 982 987	[BOS]
+T7	Reflection 1120 1125	[BOS]
+T8	Single_summ 1209 1214	[BOS]
+T9	Single_summ 1323 1328	[BOS]
+T10	Reflection 1534 1539	[BOS]
+T11	Reflection 1681 1686	[BOS]
+T12	Transition 1767 1772	[BOS]
+T13	Multi_summ 1866 1871	[BOS]
+T14	Single_summ 2006 2011	[BOS]
+T15	Single_summ 2144 2149	[BOS]
+T16	Single_summ 2343 2348	[BOS]
+T17	Single_summ 2536 2541	[BOS]
+T18	Reflection 2648 2653	[BOS]
+T19	Dominant 133 164	Kiperwasser and Goldberg (2016)
+T20	Reference 418 441	Chen and Manning (2014)
+T21	Dominant 477 501	Dozat and Manning (2017)
+T22	Dominant 1245 1269	Choe and Charniak (2016)
+T23	Dominant 1872 1890	Zhou et al. (2015)
+T24	Dominant 1895 1914	Andor et al. (2016)
+T25	Reference 1936 1958	Zhang and Clark (2011)
+T26	Dominant 2150 2176	Watanabe and Sumita (2015)
+T27	Dominant 2349 2365	Xu et al. (2016)
+T28	Dominant 2558 2581	Wiseman and Rush (2016)
+T29	Pronoun 716 721	Their
+T30	Pronoun 1196 1198	it
+T31	Pronoun 2012 2016	They
+T32	Pronoun 2722 2727	these
+T33	B_span 101 106	Among
+T34	E_span 436 440	2014
+T35	E_span 436 440	2014
+T36	B_span 330 337	encoder
+T37	B_span 450 455	Among
+T38	E_span 701 708	parsing
+T39	B_span 1215 1216	A
+T40	E_span 1525 1532	parsing
+T41	B_span 1872 1876	Zhou
+T42	E_span 2134 2142	training
+T43	B_span 1926 1932	parser
+T44	E_span 1953 1957	2011
+T45	B_span 2150 2158	Watanabe
+T46	E_span 2334 2341	parsing
+T47	B_span 2349 2351	Xu
+T48	E_span 2528 2534	system
+T49	B_span 2542 2546	More
+T50	E_span 2643 2647	of .

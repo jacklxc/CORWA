@@ -1,0 +1,15 @@
+[BOS] Recent methods such as (Vinyals and Le 2015; Serban et al. 2016; proposed for end-to-end learning of dialogs were aimed at modeling open-domain dialogs.
+[BOS] While they can be used for learning task oriented dialogs, they are not well suited to interface with a structured KB.
+[BOS] To better adapt them to handle task oriented dialogs: 1) Bordes and Weston (2017b) proposed a memory network based architecture to better encode KB tuples and perform inferencing over them and 2) Fung, Wu, and Madotto (2018) incorporated copy mechanism to enable copying of words from the past utterances and words from KB while generating responses.
+[BOS] All successful end-to-end task oriented dialog networks (Eric et al. 2017; Bordes and Weston 2017b; Fung, Wu, and Madotto 2018) make assumptions while designing the architecture: 1) KB results are assumed to be a triple store, 2) KB triples and past utterances are forced to be represented in a shared memory to enable copying over them.
+[BOS] Both these assumptions makes the task of inferencing much harder.
+[BOS] Any two fields linked directly in the KB tuple are now linked indirectly by the subject of the triples.
+[BOS] Further, placing the KB results and the past utterances in same memory forces the architecture to encode them using a single strategy.
+[BOS] In contrast, our work uses two different memories for past utterances and KB results.
+[BOS] The decoder is equipped with the ability to copy from both memories, while generating the response.
+[BOS] The KB results are represented using a multi-level memory which better reflects the natural hierarchy encoded by sets of queries and their corresponding result sets.
+
+[BOS] Memory architectures have also been found to be helpful in other tasks such as question answering.
+[BOS] Work such as (Xu et al. 2016 ) defines a hierarchal memory architecture consisting of sentence level memory followed by word memory for a QA task while (Chandar et al. 2016 ) defines a memory structure that speeds up loading and inferencing over large knowledge bases.
+[BOS] Recent work by (Chen et al. 2018 ) uses a (a) Architecture of our model with multi-level memory attention.
+

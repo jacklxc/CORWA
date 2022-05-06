@@ -1,0 +1,34 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 197 202	[BOS]
+T3	Narrative_cite 338 343	[BOS]
+T4	Reflection 640 645	[BOS]
+T5	Reflection 756 761	[BOS]
+T6	Transition 967 972	[BOS]
+T7	Single_summ 1063 1068	[BOS]
+T8	Single_summ 1196 1201	[BOS]
+T9	Reflection 1308 1313	[BOS]
+T10	Transition 1611 1616	[BOS]
+T11	Single_summ 1722 1727	[BOS]
+T12	Single_summ 1906 1911	[BOS]
+T13	Transition 1992 1997	[BOS]
+T14	Reflection 2071 2076	[BOS]
+T15	Reference 32 54	Bahdanau et al. (2015)
+T16	Reference 427 445	Cohn et al. (2016)
+T17	Dominant 1069 1085	Mi et al. (2016)
+T18	Dominant 1202 1222	Arthur et al. (2016)
+T19	Dominant 1728 1749	Mikolov et al. (2013)
+T20	Dominant 1912 1933	Gehring et al. (2017)
+T22	Pronoun 1322 1327	these
+T23	Pronoun 1998 2003	These
+T24	B_span 24 28	work
+T25	E_span 49 53	2015
+T21	B_span 361 370	attention
+T26	E_span 440 444	2016
+T27	B_span 1069 1071	Mi
+T28	E_span 1301 1306	words
+T29	B_span 1728 1735	Mikolov
+T30	E_span 1895 1904	languages
+T31	B_span 1912 1919	Gehring
+T32	E_span 1985 1990	words
+T33	E_span 1189 1194	pairs
+T34	B_span 1202 1208	Arthur

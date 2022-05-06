@@ -1,0 +1,47 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 27 32	[BOS]
+T3	Reflection 174 179	[BOS]
+T4	Single_summ 339 344	[BOS]
+T5	Other 582 587	[BOS]
+T6	Single_summ 599 604	[BOS]
+T7	Single_summ 720 725	[BOS]
+T8	Reflection 833 838	[BOS]
+T9	Transition 975 980	[BOS]
+T10	Narrative_cite 1000 1005	[BOS]
+T11	Reflection 1204 1209	[BOS]
+T12	Reflection 1325 1330	[BOS]
+T13	Single_summ 1472 1477	[BOS]
+T14	Single_summ 1682 1687	[BOS]
+T15	Reflection 1885 1890	[BOS]
+T16	Narrative_cite 1969 1974	[BOS]
+T17	Reflection 2062 2067	[BOS]
+T18	Reflection 2157 2162	[BOS]
+T19	Dominant 33 49	Ji et al. (2017)
+T20	Dominant 353 375	(Henaff et al., 2016 )
+T21	Dominant 605 623	Yang et al. (2017)
+T22	Dominant 726 749	Kobayashi et al. (2016)
+T23	Reference 1145 1162	(Tai et al., 2015
+T24	Reference 1164 1181	Swayamdipta, 2017
+T25	Reference 1183 1200	Qian et al., 2017
+T26	Reference 1389 1408	(Peng et al., 2017)
+T27	Dominant 1493 1511	Peng et al. (2017)
+T28	Dominant 1703 1725	(Vaswani et al., 2017)
+T29	Reference 2036 2059	(Dhingra et al., 2017b)
+T30	B_span 33 35	Ji
+T31	E_span 162 172	annotation
+T32	B_span 345 352	EntNets
+T33	E_span 569 575	regime
+T34	B_span 605 609	Yang
+T35	E_span 708 718	generation
+T36	B_span 726 735	Kobayashi
+T37	E_span 823 831	mentions
+T38	B_span 1110 1114	RNNs
+T39	E_span 1196 1200	2017
+T40	B_span 1354 1366	structurally
+T41	E_span 1403 1407	2017
+T42	B_span 1478 1485	However
+T43	E_span 1676 1680	task
+T44	B_span 1688 1692	Self
+T45	E_span 1871 1883	dependencies
+T46	B_span 2013 2018	unpub
+T47	E_span 2053 2058	2017b

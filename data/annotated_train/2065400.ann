@@ -1,0 +1,25 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 198 203	[BOS]
+T3	Reflection 387 392	[BOS]
+T4	Transition 614 619	[BOS]
+T5	Narrative_cite 765 770	[BOS]
+T6	Narrative_cite 1131 1136	[BOS]
+T7	Transition 1419 1424	[BOS]
+T8	Reference 929 942	(Ogren, 2006)
+T9	Reference 987 1005	(Kim et al., 2008)
+T10	Reference 1060 1082	(Salgado et al., 2010)
+T11	Reference 1103 1128	(Cunningham et al., 2011)
+T12	Reference 1289 1312	(Tsuruoka et al., 2008)
+T13	Reference 1329 1358	(Martínez-Gómez et al., 2011)
+T14	B_span 891 894	the
+T15	E_span 937 941	2006
+T16	B_span 945 948	the
+T17	E_span 1000 1004	2008
+T18	B_span 1012 1015	the
+T19	E_span 1077 1081	2010
+T20	B_span 1089 1093	GATE
+T21	E_span 1123 1127	2011
+T22	B_span 1271 1277	entity
+T23	E_span 1307 1311	2008
+T24	B_span 1317 1328	translation
+T25	E_span 1353 1357	2011

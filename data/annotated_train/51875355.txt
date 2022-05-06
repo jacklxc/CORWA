@@ -1,0 +1,45 @@
+[BOS] Question answering has been mainly studied in two different settings: KB-based and text-based.
+[BOS] KB-based QA mostly focuses on parsing questions to logical forms (Zelle and Mooney, 1996; Zettlemoyer and Collins, 2012; Berant et al., 2013; Kwiatkowski et al., 2013; in order to better retrieve answer candidates from a knowledge base.
+[BOS] Text-based QA aims to directly answer questions from the input text.
+[BOS] This includes works on early information retrieval-based methods (Banko et al., 2002; Ahn et al., 2004) and methods that build on extracted structured representations from both the question and the input text (Sachan et al., 2015; Sachan and Xing, 2016; Khot et al., 2017; Khashabi et al., 2018b) .
+[BOS] Although these structured presentations make reasoning more effective, they rely on sophisticated NLP pipelines and suffer from error propagation.
+[BOS] More recently, end-to-end neural architectures have been successfully applied to textbased QA, including Memory-augmented neural networks (Sukhbaatar et al., 2015; Miller et al., 2016; Kumar et al., 2016) and attention-based neural networks (Hermann et al., 2015; Chen et al., 2016; Kadlec et al., 2016; Dhingra et al., 2017; Xiong et al., 2017; Seo et al., 2017; Chen et al., 2017) .
+[BOS] In this work, we focus on QA over text (where the text is generated from a supporting KB) and evaluate several state-of-the-art memoryaugmented and attention-based neural architectures on our QA task.
+[BOS] In addition, we consider a sequence-to-sequence model baseline (Bahdanau et al., 2015) , which has been widely used in dialog (Vinyals and Le, 2015; Ghazvininejad et al., 2017) and recently been applied to generating answer values from Wikidata (Hewlett et al., 2016) .
+
+[BOS] There are numerous datasets available for evaluating the capabilities of QA systems.
+[BOS] For example, MCTest (Richardson et al., 2013) contains comprehension questions for fictional stories.
+[BOS] Allen AI Science Challenge (Clark, 2015) contains science questions that can be answered with knowledge from text books.
+[BOS] RACE (Lai et al., 2017) is an English exam dataset for middle and high school Chinese students.
+[BOS] MULTIRC (Khashabi et al., 2018a) is a dataset that focuses on evaluating multi-sentence reasoning skills.
+[BOS] These datasets all require humans to carefully design multiplechoice questions and answers, so that certain aspects of the comprehension and reasoning capabilities are properly evaluated.
+[BOS] As a result, it is difficult to collect them at scale.
+[BOS] Furthermore, as the knowledge required for answering each question is not clearly specified in these datasets, it can be hard to identify the limitations of QA systems and propose improvements.
+[BOS] proposes to use synthetic QA tasks (the BABI dataset) to better understand the limitations of QA systems.
+[BOS] BABI builds on a simulated physical world similar to interactive fiction (Montfort, 2005) with simple objects and relations and includes 20 different reasoning tasks.
+[BOS] Various types of end-to-end neural networks (Sukhbaatar et al., 2015; Lee et al., 2015; Peng et al., 2015) have demonstrated promising accuracies on this dataset.
+[BOS] However, the performance can hardly translate to real-world QA datasets, as BABI uses a small vocabulary (150 words) and short sentences with limited language variations (e.g., nesting sentences, coreference).
+[BOS] A more sophisticated QA dataset with a supporting KB is WIKIMOVIES (Miller et al., 2016) , which contains 100k questions about movies, each of them is answerable by using either a KB or a Wikipedia article.
+[BOS] However, WIKIMOVIES is highly domain-specific, and similar to BABI, the questions are designed to be in simple forms with little compositionality and hence limit the difficulty level of the tasks.
+
+[BOS] Our dataset differs in the above datasets in that (i) it contains five different realistic domains permitting cross-domain evaluation to test the ability of models to generalize beyond a fixed set of KB relations, (ii) it exhibits rich referring expressions and linguistic variations (vocabulary much larger than the BABI dataset), (iii) questions in our dataset are designed to be deeply compositional and can cover multiple relations mentioned across multiple sentences.
+
+[BOS] Other large-scale QA datasets include Clozestyle datasets such as CNN/Daily Mail (Hermann et al., 2015) , Children's Book Test (Hill et al., 2015) , and Who Did What (Onishi et al., 2016) ; datasets with answers being spans in the document, such as SQuAD (Rajpurkar et al., 2016), NewsQA (Trischler et al., 2016) , and TriviaQA (Joshi et al., 2017) ; and datasets with human generated answers, for instance, MS MARCO (Nguyen et al., 2016) and SearchQA (Dunn et al., 2017) .
+[BOS] One common drawback of these datasets is the difficulty in accessing a system's capability of integrating information across a document context.
+[BOS] Koisk et al. (2017) recently emphasized this issue and proposed NarrativeQA, a dataset of fictional stories with questions that reflect the complexity of narratives: characters, events, and evolving relations.
+[BOS] Our dataset contains similar narrative elements, but it is created with a supporting KB and hence it is easier to analyze and interpret results in a controlled setting.
+[BOS] lated user may introduce new knowledge, update existing knowledge or express a state change (e.g., "Homework 3 is now due on Friday" or "Samantha passed her thesis defense").
+[BOS] Each narrative is interleaved with questions about the current state of the world, and questions range in complexity depending on the amount of knowledge that needs to be integrated to answer them.
+[BOS] This allows us to benchmark a range of QA models at their ability to answer questions that require different extents of relational reasoning to be answered.
+
+[BOS] The set of worlds that we simulate as part of this work are as follows:
+
+[BOS] 1.
+[BOS] MEETING WORLD: This world describes situations related to professional meetings, e.g., meetings being set/cancelled, people attending meetings, topics of meetings.
+
+[BOS] 2.
+[BOS] HOMEWORK WORLD: This world describes situations from the first-person perspective of a student, e.g., courses taken, assignments in different courses, deadlines of assignments.
+
+[BOS] 3.
+[BOS] SOFTWARE ENGINEERING WORLD: This world describes situations from the first-person perspective of a software development manager, e.g., task assignment to different project team members, stages of software development, bug tickets.
+

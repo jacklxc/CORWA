@@ -1,0 +1,13 @@
+[BOS] Most systems for Neural Machine Translation are based on the sequence-to-sequence model (Seq2Seq) (Sutskever et al., 2014) , which is an encoder-decoder framework (Kalchbrenner and Blunsom, 2013; Sutskever et al., 2014) .
+[BOS] To improve NMT, a significant mechanism for the Seq2Seq model is the attention mechanism .
+[BOS] Two types of attention are the most common, which are proposed by and respectively.
+[BOS] Though the attention mechanism is powerful for the requirements of alignment in NMT, some prominent problems still exist.
+[BOS] To tackle the impact of the attention historyTu et al. Lin et al. (2018a) take the attention history into consideration.
+[BOS] An important breakthrough in NMT is that Vaswani et al. (2017) applied the fully-attention-based model to NMT and achieved the state-of-the-art performance.
+[BOS] To further evaluate the effect of our attention temperature mechanism, we will implement it to the "Transformer" model in the future.
+[BOS] Besides, the studies on the atSource:        Gold: growth of mobile phone users in mainland china to slow down Seq2Seq: mainland cell phone users slow down SACT: the growth of cell phone users in chinese mainland will slow down (a) Source:   12 ,        ,        Gold: since december last year , the price of crude oil on the international market has kept rising due to the general strike in venezuela and the threat of war in iraq .
+[BOS] Seq2Seq: since december last year , the international market has continued to rise in the international market and the threat of the iraqi war has continued to rise .
+[BOS] SACT: since december last year , the international market of crude oil has continued to rise because of the strike in venezuela and the war in iraq .
+[BOS] tention mechanism have also contributed to some other tasks (Lin et al., 2018b; Liu et al., 2018) Beyond the attention mechanism, there are also important methods for the Seq2Seq that contribute to the improvement of NMT.
+[BOS] Ma et al. (2018) incorporates the information about the bag-of-words of the target for adapting to multiple translations, and Lin et al. (2018c) takes the target context into consideration.
+

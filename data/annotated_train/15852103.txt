@@ -1,0 +1,14 @@
+[BOS] Traditional work on relation classification can be categorized into feature-based methods and kernelbased methods.
+[BOS] The former relies on a large number of human-designed features (Zhou et al., 2005; Jiang and Zhai, 2007; Li and Ji, 2014) while the latter leverages various kernels to implicitly explore a much larger feature space (Bunescu and Mooney, 2005; Nguyen et al., 2009 ).
+[BOS] However, both methods suffer from error propagation problems and poor generalization abilities on unseen words.
+[BOS] The most popular method to solve the two limitations is based on neural networks (NNs), which have been shown successful in extracting meaningful features and generalizing on unseen words for many NLP tasks (Kim, 2014) .
+[BOS] For relation classification, Socher et al. (2012) proposed a recursive matrix-vector model based on constituency parse trees.
+[BOS] Zeng et al. (2014) and dos Santos et al. (2015) respectively proposed a standard and a ranking-based CNN model based on the raw word sequences.
+[BOS] More recently, Xu et al. (2015b) and Miwa and Bansal (2016) respectively proposed a multi-channel sequential LSTM model and a bidirectional tree-LSTM model on the shortest dependency path for relation classification.
+
+[BOS] Although all these models have been shown to be effective, all of them only focus on learning a single representation for each relation instance.
+[BOS] Different from all previous methods, we first design a strategy to generate a mirror instance from each original relation instance and then propose a pairwise relation classification framework to learn a pair of representations for each relation instance.
+
+[BOS] On the other hand, most existing NN-based approaches for relation classification are either based on the shortest dependency path or the raw sequence, although these two representations may complement each other.
+[BOS] In this work, we propose to combine them together based on the multi-channel CNN architecture (Kim, 2014) , aiming to capture long-distance relations without losing any information.
+

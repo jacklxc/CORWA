@@ -1,0 +1,70 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 120 125	[BOS]
+T3	Transition 293 298	[BOS]
+T4	Transition 418 423	[BOS]
+T5	Single_summ 563 568	[BOS]
+T6	Multi_summ 751 756	[BOS]
+T7	Transition 970 975	[BOS]
+T8	Single_summ 1075 1080	[BOS]
+T9	Single_summ 1223 1228	[BOS]
+T10	Transition 1352 1357	[BOS]
+T11	Narrative_cite 1486 1491	[BOS]
+T12	Transition 1800 1805	[BOS]
+T13	Single_summ 1934 1939	[BOS]
+T14	Single_summ 2077 2082	[BOS]
+T15	Single_summ 2224 2229	[BOS]
+T16	Transition 2363 2368	[BOS]
+T17	Single_summ 2535 2540	[BOS]
+T18	Single_summ 2736 2741	[BOS]
+T19	Single_summ 2871 2876	[BOS]
+T20	Reflection 3030 3035	[BOS]
+T21	Reflection 3191 3196	[BOS]
+T22	Reference 99 117	Pang et al. (2002)
+T23	Dominant 569 582	Turney (2002)
+T24	Dominant 757 780	Hassan and Radev (2010)
+T25	Dominant 785 805	Hassan et al. (2011)
+T26	Reference 953 967	(Miller, 1995)
+T27	Dominant 1081 1099	Tang et al. (2014)
+T28	Dominant 1229 1248	Zhou et al. (2015b)
+T29	Reference 1630 1648	(Pang et al., 2002
+T30	Reference 1650 1670	Riloff et al., 2006)
+T31	Reference 1698 1714	(Li et al., 2010
+T32	Reference 1716 1732	Xia et al., 2015
+T33	Reference 1758 1779	(Blitzer et al., 2007
+T34	Reference 1781 1797	He et al., 2011)
+T35	Dominant 1940 1958	Tang et al. (2015)
+T36	Dominant 2083 2099	Xu et al. (2016)
+T37	Dominant 2245 2263	Long et al. (2017)
+T38	Dominant 2551 2569	Wang et al. (2016)
+T39	Dominant 2742 2760	Tang et al. (2016)
+T40	Dominant 2877 2895	Wang et al. (2018)
+T41	B_span 80 90	pioneering
+T42	E_span 112 116	2002
+T43	B_span 569 575	Turney
+T44	E_span 745 749	hits
+T45	B_span 757 763	Hassan
+T46	E_span 962 966	1995
+T47	B_span 945 952	WordNet
+T48	E_span 962 966	1995
+T49	B_span 1081 1085	Tang
+T50	E_span 1212 1221	functions
+T51	B_span 1229 1233	Zhou
+T52	E_span 1341 1350	embedding
+T53	B_span 1610 1620	supervised
+T54	E_span 1665 1669	2006
+T55	B_span 1673 1677	semi
+T56	E_span 1728 1732	2015
+T57	B_span 1740 1746	domain
+T58	E_span 1792 1796	2011
+T59	B_span 1940 1944	Tang
+T60	E_span 2061 2075	classification
+T61	B_span 2083 2085	Xu
+T62	E_span 2217 2222	texts
+T63	B_span 2245 2249	Long
+T64	E_span 2346 2360	classification
+T65	B_span 2551 2555	Wang
+T66	E_span 2726 2734	sentence
+T67	B_span 2742 2746	Tang
+T68	E_span 2858 2869	performance
+T69	B_span 2877 2881	Wang
+T70	E_span 3021 3027	aspect

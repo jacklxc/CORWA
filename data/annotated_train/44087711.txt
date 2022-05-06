@@ -1,0 +1,20 @@
+[BOS] The problem of how to select parts of bitexts has been addressed before, but mainly from the aspect of domain adaptation (Axelrod et al., 2011; Santamara and Axelrod, 2017) .
+[BOS] It was successfully used in many phrase-based MT systems, but it was reported to be less successful for NMT (van der Wees et al., 2017) .
+[BOS] It should be stressed that domain adaptation is different from filtering noisy training data.
+[BOS] Data selection extracts the most relevant bitexts for the test set domain, but does not necessarily remove wrong translations, e.g. source and target sentences are both in-domain and well formed, but they are not mutual translations.
+
+[BOS] There is a huge body of research on mining bitexts, e.g. by analyzing the name of WEB pages or links (Resnik and Smith, 2003) .
+[BOS] Another direction of research is to use cross-lingual information retrieval, e.g. (Utiyama and Isahara, 2003; Munteanu and Marcu, 2005; Rauf and Schwenk, 2009 ).
+[BOS] There are some works which use joint embeddings in the process of filtering or mining bitexts.
+[BOS] For instance, Grgoire and Langlais (2017) first embed sentences into two separate spaces.
+[BOS] Then, a classifier is learned on labeled data to decide whether sentences are parallel or not.
+[BOS] Our approach clearly outperforms this technique on the BUCC corpus (cf.
+[BOS] section 4).
+[BOS] Bouamor and Sajjad (2018) use averaged multilingual word embeddings to calculate a joint embedding of all sen-tences.
+[BOS] However, distances between all sentences are only used to extract a set of potential mutual translation.
+[BOS] The decision is based on a different system.
+[BOS] In NMT systems for Zh  En are learned using a joint encoder.
+[BOS] A sentence representation is obtained as the mean of the last encoder states.
+[BOS] Noisy bitexts are filtered based on the distance.
+[BOS] In all these works, embeddings are learned for two languages only, while we learn one joint embedding for up to nine languages.
+

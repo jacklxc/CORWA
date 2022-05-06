@@ -1,0 +1,38 @@
+[BOS] Relation Networks (RN) were first proposed by (Santoro et al., 2017) in order to help neural models to reason over the relationships between two objects.
+[BOS] Relation networks learn relationships between objects by learning a pairwise score for each object pair.
+[BOS] Relation networks have been applied to CLEVR (Johnson et al., 2017) as well as bAbI (Weston et al., 2015) .
+[BOS] In the CLEVR dataset, the object inputs to the relation network are visual objects in an image, extracted by a CNN, and in bAbI the object inputs are sentence encodings.
+[BOS] In both tasks, the relation network is then used to compute a relationship score over these objects.
+[BOS] Relation Networks were further applied to general reasoning by training the model on images (You et al., 2018) .
+
+[BOS] MAC (Memory, Attention and Composition) networks (Hudson and Manning, 2018) are different models that have also been shown to learn relations from the CLEVR dataset.
+[BOS] MAC networks operate with read and write cells.
+[BOS] Each cell would compute a relation score between a knowledge base and question and write it into memory.
+[BOS] Multiple read and write cells are strung together sequentially in order to model long chains of multihop reasoning.
+[BOS] Although MAC networks do not explicitly reason between pairwise objects as relation networks do, MAC networks are an interesting way of generating multi-hop reasoning between objects within a context.
+[BOS] S and E are hidden states trained by plausible answers.
+[BOS] We then concatenate S and E with the contextual representation to feed into the object extractor.
+[BOS] After we obtain the extracted objects, we then feed into a Relation Network and pass it down for NA predictions.
+
+[BOS] Another similar line of work investigated pretraining relationship embeddings across word pairs on large unlabelled corpus (Jameel et al., 2018; Joshi et al., 2018) .
+[BOS] These pre-trained pairwise relational embeddings were added to the attention layers of BiDAF, where higher level abstract reasoning occurs.
+[BOS] The paper showed an impressive gain of 2.7% on the SQuAD 2.0 development set on top of their version of BiDAF.
+
+[BOS] Many MRC models have been adapted to work on SQuAD 2.0 recently (Hu et al., 2019; Liu et al., 2018a; Sun et al., 2018; Devlin et al., 2018) .
+[BOS] (Hu et al., 2019) added a separately trained answer verifier for no-answer detection with their Mnemonic
+
+[BOS] Reader.
+[BOS] The answer sentence that is proposed by the reader and the question are passed to three combinations of differently configured verifiers for fine-grained local entailment recognition.
+[BOS] (Liu et al., 2018a) just added one layer as the unanswerable binary classifier to their SAN reader.
+[BOS] (Sun et al., 2018) proposed the U-net with a universal node that encodes the fused information from both the question and passage.
+[BOS] The summary Unode, question vector and two context vectors are passed to predict whether the question is answerable.
+[BOS] Plausible answers were used for no-answer pointer prediction, while in our approach, plausible answers were used to augment context vector for object extraction that later help the no-answer prediction.
+
+[BOS] Pretraining embeddings on large unlabelled corpus has been shown to improve many downstream tasks (Peters et al., 2018; Howard and Ruder, 2018; Alec et al., 2018) .
+[BOS] The recently released BERT (Devlin et al., 2018) greatly increased the F1 scores on the SQuAD 2.0 leaderboard.
+[BOS] BERT consists of stacked Transformers (Vaswani et al., 2017) , that are pre-trained on vast amounts of unlabeled data with a masked language model.
+[BOS] The masked language model helps finetuning on downstream tasks, such as SQuAD 2.0.
+[BOS] BERT models contains a special CLS token which is helpful for the SQuAD 2.0 task.
+[BOS] This CLS token is trained to predict if a pair of sentences follow each other during the pre-training, which helps encode entailment information between the sentence pair.
+[BOS] Due to a strong masked language model to help predict answers and a strong CLS token to encode entailment, BERT models are the current state-of-the art for SQuAD 2.0.
+

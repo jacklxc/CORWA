@@ -1,0 +1,13 @@
+[BOS] The approach used in this work is a continuation of the work by Jia et al. [6] where the authors proposed a sequence-tosequence model with an attention-based copying mechanism.
+[BOS] This supervised approach leverages the flexibility of of the encoder-decoder architecture and the authors demonstrate that the model can learn very accurate parsers across three standard semantic parsing datasets.
+[BOS] The augmentation strategy used in this work allows for injecting prior knowledge which improve the generalization power of the model.
+
+[BOS] One disadvantage of this approach is that the decoder outputs are considered unstructured and can lead to invalid logical forms.
+[BOS] Krishnamurthy et al. propose to overcome this problem by imposing a grammar on the decoder that only generates well-typed logical forms [7] .
+[BOS] However, this approach increases the complexity of the system, which was unwarranted in our experiments and most of the results produced by the model in our experiments were valid logical forms (with sufficient training).
+
+[BOS] Moreover, building annotated semantic parsing datasets is highly labor-intensive and parsers built for one domain do not necessarily transfer across domains.
+[BOS] Fan et al. propose a multi-task setup and demonstrate that training using this setup can improve the accuracy in domains with smaller labeled datasets [8] .
+[BOS] This approach is aligned with one of the main contributions in our research.
+[BOS] Our proposed framework allows for pre-training the model in an unsupervied manner with data from multiple tasks that enables transfer learning.
+

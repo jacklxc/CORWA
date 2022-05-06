@@ -1,0 +1,54 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 86 91	[BOS]
+T3	Narrative_cite 250 255	[BOS]
+T4	Transition 381 386	[BOS]
+T5	Narrative_cite 535 540	[BOS]
+T6	Transition 710 715	[BOS]
+T7	Single_summ 822 827	[BOS]
+T8	Narrative_cite 1012 1017	[BOS]
+T9	Single_summ 1149 1154	[BOS]
+T10	Transition 1251 1256	[BOS]
+T11	Single_summ 1369 1374	[BOS]
+T12	Reflection 1575 1580	[BOS]
+T13	Transition 1871 1876	[BOS]
+T14	Reflection 2047 2052	[BOS]
+T15	Reflection 2272 2277	[BOS]
+T16	Dominant 134 146	Wolfe (1976)
+T17	Reference 302 326	(Hirschman et al., 1999)
+T18	Reference 349 366	(Ng et al., 2000)
+T19	Reference 588 611	(Sutskever et al., 2014
+T20	Dominant 828 848	Serban et al. (2016)
+T21	Reference 877 896	Luong et al., 2015)
+T22	Reference 1060 1082	(Kumar et al., 2019a )
+T23	Reference 1124 1146	(Vaswani et al., 2017)
+T24	Dominant 1155 1171	Du et al. (2017)
+T25	Dominant 1396 1416	(Kumar et al., 2018)
+T26	B_span 134 138	Wolf
+T27	E_span 248 249	.
+T28	B_span 285 292	pattern
+T29	E_span 325 326	)
+T30	B_span 331 337	linear
+T31	E_span 365 366	)
+T32	B_span 561 567	neural
+T33	E_span 607 611	2014
+T34	B_span 828 831	Ser
+T35	E_span 1010 1011	.
+T36	B_span 1030 1035	multi
+T37	E_span 1081 1082	)
+T39	E_span 1145 1146	)
+T40	B_span 1155 1157	Du
+T41	E_span 1249 1250	.
+T42	B_span 1396 1397	(
+T43	E_span 1573 1574	.
+T44	Pronoun 92 96	This
+T45	Pronoun 157 162	their
+T46	Pronoun 256 260	This
+T47	Pronoun 387 392	These
+T48	Pronoun 633 638	these
+T49	Pronoun 716 720	This
+T50	Pronoun 1319 1321	it
+T51	Pronoun 2064 2068	this
+T52	Pronoun 2311 2315	this
+T53	B_span 861 870	attention
+T54	E_span 891 895	2015
+T38	B_span 1111 1123	transformers

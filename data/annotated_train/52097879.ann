@@ -1,0 +1,26 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 126 131	[BOS]
+T3	Single_summ 299 304	[BOS]
+T4	Reflection 491 496	[BOS]
+T5	Multi_summ 616 621	[BOS]
+T6	Reflection 806 811	[BOS]
+T7	Multi_summ 965 970	[BOS]
+T8	Dominant 355 378	Aji and Heafield (2017)
+T9	Dominant 644 661	Mao et al. (2018)
+T10	Reference 681 704	Aji and Heafield (2017)
+T11	Reference 993 1017	Shazeer and Stern (2018)
+T12	Reference 1111 1132	(Vaswani et al., 2017
+T13	Pronoun 157 161	this
+T14	Pronoun 305 309	This
+T15	Pronoun 385 389	they
+T16	Pronoun 823 827	they
+T17	B_span 355 362	Aji and
+T18	E_span 482 489	traffic
+T19	B_span 644 647	Mao
+T21	B_span 681 684	Aji
+T22	E_span 699 703	2017
+T20	E_span 951 962	convergence
+T23	B_span 993 1000	Shazeer
+T24	E_span 1128 1132	2017
+T25	B_span 1093 1104	Transformer
+T26	E_span 1128 1132	2017

@@ -1,0 +1,16 @@
+[BOS] In order to reduce the exposure bias and optimize the metrics used to evaluate sequence modeling tasks (like BLEU, ROUGE or METEOR) directly, reinforcement learning (RL) has been widely used in many of recent works on machine translation (Ranzato et al., 2016; Shen et al., 2016; He et al., 2017; Bahdanau et al., 2017; Li et al., 2017) , text summarization (Paulus et al., 2018; Wu and Hu, 2018; Li et al., 2018; , dialogue generation (Li et al., 2016) , and question answering .
+[BOS] However, our proposed method is the first use in combination with reinforcement learning for unsupervised NMT to explicitly enhance back-translation.
+
+[BOS] Recently, motivated by the success of crosslingual embeddings (Artetxe et al., 2016; Zhang et al., 2017; Conneau et al., 2017) , several works have tried to train NMT or SMT models using unsupervised setting, in which the model only has access to unlabeled data.
+[BOS] For example, Lample et al. (2018a) propose a model that consists of a single encoder and a single decoder for both languages, respectively responsible for encoding source and target sentences to a shared latent space and to decode from that latent space to the source or target domain.
+[BOS] Different from (Lample et al., 2018a) , Artetxe et al. (2018b) introduce a shared encoder but two independent decoders with one for each language.
+[BOS] Both of these two works mentioned above utilize denoising auto-encoding to reconstruct their noisy inputs and incorporate back-translation into cross-language training procedure.
+[BOS] Further, Yang et al. (2018) extend the single encoder by using two independent encoders but sharing some partial weights, which are responsible for alleviating the weakness in keeping language-specific characteristics of the shared encoder.
+[BOS] And the entire system is fine-tuned by introducing two global GANs with one for each language.
+[BOS] More recently, Artetxe et al. (2018a) and Lample et al. (2018b) propose an alternative approach based on phrase-based statistical machine translation, which profits from the modular architecture of SMT.
+[BOS] In addition, Lample et al. (2018b) also introduce a novel cross-lingual embedding training method which is particularly suitable for related languages (e.g., English-French and English-German).
+[BOS] Ren et al. (2019) introduce SMT models as posterior regularization, in which SMT and NMT models boost each other through iterative back-translation in a unified EM training algorithm.
+[BOS] Wu et al. (2019) propose an alternative for back-translation, , extract-edit, to extract and then edit real sentences from the target monolingual corpora.
+[BOS] Lample and Conneau (2019) and Song et al. (2019) propose to pretrain cross-lingual language models for the initialization stage of unsupervised neural machine translation, which is critical to the performance of their proposed model.
+[BOS] In contrast to theirs, we propose an effective training method for unsupervised NMT that models future rewards to optimize the global word predictions via neural policy reinforcement learning, which can be applied to arbitrary architectures and language pairs easily.
+

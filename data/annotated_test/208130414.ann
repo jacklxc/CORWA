@@ -1,0 +1,44 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 147 152	[BOS]
+T3	Single_summ 301 306	[BOS]
+T4	Single_summ 402 407	[BOS]
+T5	Single_summ 656 661	[BOS]
+T6	Narrative_cite 872 877	[BOS]
+T7	Single_summ 1095 1100	[BOS]
+T8	Narrative_cite 1188 1193	[BOS]
+T9	Single_summ 1352 1357	[BOS]
+T10	Single_summ 1466 1471	[BOS]
+T11	Single_summ 1555 1560	[BOS]
+T12	Single_summ 1695 1700	[BOS]
+T13	Narrative_cite 2008 2013	[BOS]
+T14	Single_summ 2137 2142	[BOS]
+T15	Reflection 2251 2256	[BOS]
+T16	Reference 96 123	(Paetzold and Specia, 2016b
+T17	Reference 125 144	Yimam et al., 2018)
+T18	Dominant 307 333	Gooding and Kochmar (2018)
+T19	Reference 979 999	(Yimam et al., 2018)
+T20	Dominant 1101 1128	Kajiwara and Komachi (2018)
+T21	Reference 1303 1325	Mizumoto et al. (2011)
+T22	Dominant 1561 1583	Aroyehun et al. (2018)
+T23	Reference 2068 2093	(Pennington et al., 2014)
+T24	Reference 2289 2310	Aroyehun et al. (2018
+T25	Pronoun 153 155	It
+T26	Pronoun 662 664	It
+T27	Pronoun 1024 1028	this
+T28	Pronoun 1046 1048	it
+T29	B_span 6 11	There
+T30	E_span 139 143	2018
+T31	B_span 307 314	Gooding
+T32	E_span 859 870	acquisition
+T33	B_span 958 961	CWI
+T34	E_span 994 998	2018
+T35	B_span 1101 1109	Kajiwara
+T36	E_span 1183 1186	CWI
+T37	B_span 1272 1279	learner
+T38	E_span 1320 1324	2011
+T39	B_span 1561 1569	Aroyehun
+T40	E_span 1998 2006	sentence
+T41	B_span 2046 2051	GloVe
+T42	E_span 2088 2092	2014
+T43	B_span 2257 2260	Our
+T44	E_span 2306 2310	2018

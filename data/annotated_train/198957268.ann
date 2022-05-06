@@ -1,0 +1,21 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 97 102	[BOS]
+T3	Single_summ 236 241	[BOS]
+T4	Single_summ 314 319	[BOS]
+T5	Single_summ 512 517	[BOS]
+T6	Transition 606 611	[BOS]
+T7	Transition 687 692	[BOS]
+T8	Reflection 862 867	[BOS]
+T9	Single_summ 1062 1067	[BOS]
+T10	Single_summ 1248 1253	[BOS]
+T11	Single_summ 1374 1379	[BOS]
+T12	Dominant 103 122	Cheng et al. (2018)
+T13	Dominant 1223 1245	(Vaibhav et al., 2019)
+T14	Pronoun 269 271	it
+T15	Pronoun 518 522	This
+T16	Pronoun 693 697	This
+T17	Pronoun 1254 1258	They
+T18	B_span 103 108	Cheng
+T19	E_span 600 604	data
+T20	B_span 1127 1131	MTNT
+T21	E_span 1460 1464	data

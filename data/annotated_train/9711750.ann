@@ -1,0 +1,24 @@
+T1	Multi_summ 0 5	[BOS]
+T2	Narrative_cite 254 259	[BOS]
+T3	Reflection 517 522	[BOS]
+T4	Reflection 623 628	[BOS]
+T5	Narrative_cite 840 845	[BOS]
+T6	Dominant 84 121	Zhao et al. (2008) Chan et al. (2011)
+T7	Reference 405 425	(Bhagat et al., 2007
+T8	Reference 427 447	Berant et al., 2011)
+T9	Reference 495 514	(Snow et al., 2004)
+T10	Reference 560 576	Xu et al. (2012)
+T11	Reference 815 837	(Faruqui et al., 2015)
+T12	Reference 859 880	Rastogi et al. (2015)
+T13	B_span 6 9	The
+T14	E_span 247 252	model
+T15	B_span 362 370	learning
+T16	E_span 446 447	)
+T17	B_span 452 460	learning
+T18	E_span 513 514	)
+T19	B_span 560 562	Xu
+T20	E_span 610 621	paraphrases
+T21	B_span 797 804	lexical
+T22	E_span 836 837	)
+T23	B_span 859 862	Ras
+T24	E_span 964 974	judgements

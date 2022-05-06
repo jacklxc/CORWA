@@ -1,0 +1,12 @@
+[BOS] Neural Relation Extraction: In the recent years, NN models have shown superior performance over approaches using hand-crafted features in various tasks.
+[BOS] CNN is the first one of the deep learning models that have been applied to relation extrac- tion (Santos et al., 2015) .
+[BOS] Variants of convolutional networks include piecewise-CNN (PCNN) (Zeng et al., 2015) , instance-level selective attention CNN (Lin et al., 2016) , rank CNN (Ye et al., 2017) , attention and memory CNN and syntax-aware CNN (He et al., 2018) .
+[BOS] Recurrent neural networks (RNN) are another popular choice, and have been used in recent works in the form of attention RNNs (Zhou et al., 2016) , context-aware long short-term memory units (LSTMs) (Sorokin and Gurevych, 2017) , graph-LSTMs (Peng et al., 2017) and ensemble LSTMs .
+[BOS] Capsule Network: Recently, the capsule network has been proposed to improve the representation limitations of CNNs and RNNs.
+[BOS] (Sabour et al., 2017) replaced the scalar-output feature detectors of CNNs with vector-output capsules and max-pooling with routing-by-agreement.
+[BOS] (Hinton et al., 2018) ) proposed a new iterative routing procedure among capsule layers, based on the EM algorithm.
+[BOS] For natural language processing tasks, (Zhao et al., 2018) explored capsule networks for text classification.
+[BOS] (Gong et al., 2018) designed two dynamic routing policies to aggregate the outputs of RNN/CNN encoding layer into a final encoding vector.
+[BOS] (Wang et al., 2018b ) proposed a capsule model based on RNN for sentiment analysis.
+[BOS] To the best of our knowledge, there has been no work that investigates the performance of capsule networks in relation extraction tasks at present.
+

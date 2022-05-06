@@ -1,0 +1,10 @@
+[BOS] Many neural networks have been proposed to solve answer span QA task.
+[BOS] Ranking continuous text spans within a passage was proposed by Yu et al. (2016) and Lee et al. (2016) .
+[BOS] Wang and Jiang (2017) combine match-LSTM, originally introduced in (Wang and Jiang, 2016) and pointer networks to produce the boundary of the answer.
+[BOS] Since then, most of the models adopted pointer networks as a prediction layer and then focused on improving other layers.
+[BOS] Some methods focused on devising more accurate attention method; Seo et al. (2017); ; Xiong et al. (2017) employ attention mechanism to match the question context mutually; In addition, apply multi-layer attention and Huang et al. (2017b) expand to multi-level attention to get more enriched attention information.
+[BOS] Other approaches use contextualized word representations to further improve the performance.
+[BOS] Salant and Berant (2017); Peters et al. (2018) utilize embedding from pre-trained language model as an additional feature and Yu et al. (2018) select machine translation model instead.
+[BOS] Also, there are few attempts at augmenting memory capacity of the model (Hu et al., 2017; Pan et al., 2017) .
+[BOS] Hu et al. (2017) refine the contextual representation with multi-hops, and Pan et al. (2017) simply use the encoded query representations as a memory vector for refining the answer prediction, which are not meant to handle long-range dependency that we consider in this work.
+

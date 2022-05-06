@@ -1,0 +1,32 @@
+[BOS] Cross-lingual Sentiment Analysis The most related topic to our work is cross-lingual sentiment analysis.
+[BOS] Some CLSA methods rely on machine translation systems (Wan, 2009; Demirtas and Pechenizkiy, 2013; Xiao and Guo, 2012; Zhou et al., 2016a) to provide cross-lingual supervision, making themselves implicitly dependant on largescale parallel corpus which may not be available for low-resource languages.
+[BOS] Wan (2009) apply the co-training algorithm to translated data while other researchers have proposed multi-view learning (Xiao and Guo, 2012) .
+
+[BOS] Another line of CLSA research bridges the language gap using CLWE, which saves the efforts of training a machine translation system thus requires less cross-lingual resources.
+[BOS] Some work has proposed to map pretrained monolingual embeddings to a shared space (Barnes et al., 2018) to obtain CLWE while others proposed jointly learning CLWE and a sentiment classifier, allowing the embeddings to encode sentiment information (Zhou et al., 2016b; Xu and Wan, 2017) .
+
+[BOS] Very recently, unsupervised CLSA methods that do not require either cross-lingual supervision or target language supervision have been proposed (Chen et al., 2018b,a) .
+[BOS] Chen et al. (2018a) transfer sentiment information from multiple source languages by jointly learning language invariant and language specific features.
+[BOS] Yet, these unsupervised CLSA methods rely on unsupervised CLWE which builds on the assumption that pretrained monolingual embeddings can be properly aligned.
+[BOS] This assumption, however, is not true in low-resource scenarios (Sgaard et al., 2018) .
+
+[BOS] It is worth pointing out that the languageadversarial training model of (Chen et al., 2018b) is able to perform unsupervised CLSA without CLWE.
+[BOS] The proposed model consists of a feature extractor, a sentiment classifier and a language discriminator.
+[BOS] The feature extractor is trained to fool the discriminator so that the extracted features are language invariant.
+[BOS] However, its performance is significantly lower than the variant that uses pretrained CLWE.
+
+[BOS] While traditional CLSA methods assume that data in both languages is within the same domain (e.g. English hotel reviews for training and Chinese hotel review for testing, we refer to this setting as "cross-lingual in-domain sentiment analysis"), the more challenging cross-lingual crossdomain setting has also been explored.
+[BOS] Ziser and Reichart (2018) extend pivot-based monolingual domain adaption methods to the cross-lingual setting.
+[BOS] However, their method is not unsupervised and requires expensive cross-lingual resources.
+
+[BOS] Cross-lingual Language Modeling Our work is also related to cross-lingual language modeling, which is a topic that has been explored by researchers very recently.
+[BOS] Lample and Conneau (2019) , pretrain a language model with a joint vocabulary on the concatenation of multiple largescale monolingual corpora and finetune it on labeled data.
+[BOS] However, this approach exploits crosslingual supervision provided by shared sub-word units, which has been shown to improve performance (Lample et al., 2018) , and it remains a challenge to efficiently perform cross-lingual transfer without exploiting shared identical strings.
+[BOS] In this work, we treat identical words from different languages as different words and thus eliminate any form of cross-lingual supervision.
+
+[BOS] Wada and Iwata (2018) proposed a similar cross-lingual language modeling architecture for unsupervised word translation.
+[BOS] They show that it outperforms mapping based approaches (Artetxe et al., 2018; , but only when a small amount of monolingual data is used.
+[BOS] The difference between their model and ours is that we adopt different parameter sharing strategies and consider the correlation between multiple domains.
+
+[BOS] 3 Cross-lingual In-Domain Sentiment Analysis
+

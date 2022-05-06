@@ -1,0 +1,53 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 123 128	[BOS]
+T3	Narrative_cite 363 368	[BOS]
+T4	Multi_summ 584 589	[BOS]
+T5	Transition 758 763	[BOS]
+T6	Transition 910 915	[BOS]
+T7	Transition 1045 1050	[BOS]
+T8	Transition 1154 1159	[BOS]
+T9	Single_summ 1260 1265	[BOS]
+T10	Single_summ 1400 1405	[BOS]
+T11	Single_summ 1495 1500	[BOS]
+T12	Narrative_cite 1642 1647	[BOS]
+T13	Transition 1814 1819	[BOS]
+T14	Single_summ 2004 2009	[BOS]
+T16	E_span 85 89	2014
+T17	Reference 53 72	Ritter et al., 2011
+T18	Reference 74 89	Ji et al., 2014
+T15	B_span 16 20	data
+T19	B_span 168 177	retrieval
+T20	Reference 193 208	Hu et al., 2014
+T21	Reference 210 225	Ji et al., 2014
+T22	Reference 227 244	Wang et al., 2015
+T23	E_span 240 244	2015
+T24	B_span 250 260	generation
+T25	Reference 276 294	Shang et al., 2015
+T26	Reference 296 316	Vinyals and Le, 2015
+T28	Reference 338 358	Serban et al., 2017a
+T27	Reference 318 336	Li et al., 2016a,b
+T29	B_span 389 398	retrieval
+T30	E_span 468 469	)
+T31	Reference 415 432	Wang et al., 2013
+T32	Reference 434 449	Hu et al., 2014
+T33	Reference 451 468	Wang et al., 2015
+T34	Dominant 617 634	Lowe et al., 2015
+T35	Dominant 636 654	Wu et al., , 2018b
+T36	E_span 753 756	STC
+T37	B_span 600 607	several
+T38	Dominant 1266 1287	Sordoni et al. (2015)
+T39	E_span 1391 1398	decoder
+T40	B_span 1266 1273	Sordoni
+T41	Dominant 1406 1425	Shang et al. (2015)
+T42	B_span 1406 1411	Shang
+T43	E_span 1482 1493	information
+T44	B_span 1660 1666	latent
+T45	E_span 1693 1698	2017b
+T46	Reference 1678 1698	Serban et al., 2017b
+T48	E_span 1751 1755	2018
+T49	Reference 1738 1755	Xing et al., 2018
+T47	B_span 1704 1716	hierarchical
+T50	Dominant 2011 2027	Su et al., 2019)
+T51	B_span 2011 2013	Su
+T52	E_span 2081 2091	annotation
+T53	E_span 353 358	2017a

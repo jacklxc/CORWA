@@ -1,0 +1,46 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 117 122	[BOS]
+T3	Single_summ 348 353	[BOS]
+T4	Single_summ 521 526	[BOS]
+T5	Single_summ 710 715	[BOS]
+T6	Single_summ 867 872	[BOS]
+T7	Single_summ 1084 1089	[BOS]
+T8	Reflection 1283 1288	[BOS]
+T9	Reflection 1538 1543	[BOS]
+T10	Single_summ 1627 1632	[BOS]
+T11	Single_summ 1811 1816	[BOS]
+T12	Single_summ 1961 1966	[BOS]
+T13	Single_summ 2246 2251	[BOS]
+T14	Reflection 2482 2487	[BOS]
+T15	Dominant 123 138	Goldberg (2019)
+T16	Dominant 354 375	Jawahar et al. (2019)
+T17	Dominant 546 564	Tran et al. (2018)
+T18	Dominant 716 733	Liu et al. (2019)
+T19	Dominant 1090 1108	Tang et al. (2018)
+T20	Dominant 1633 1658	Frankle and Carbin (2018)
+T21	Dominant 1817 1832	Goldberg (2019)
+T22	Dominant 1967 1989	Adhikari et al. (2019)
+T23	Dominant 2252 2268	Wu et al. (2019)
+T24	Pronoun 385 389	this
+T25	Pronoun 873 878	Their
+T26	Pronoun 1228 1233	their
+T27	Pronoun 1238 1240	it
+T28	Pronoun 2488 2493	These
+T29	B_span 123 131	Goldberg
+T30	E_span 337 346	agreement
+T31	B_span 354 361	Jawahar
+T32	E_span 508 519	information
+T33	B_span 546 550	Tran
+T34	E_span 696 708	Transformers
+T35	B_span 716 719	Liu
+T36	E_span 1078 1082	RNNs
+T37	B_span 1090 1094	Tang
+T38	E_span 1276 1280	text
+T39	B_span 1633 1640	Frankle
+T40	E_span 1798 1809	performance
+T41	B_span 1817 1825	Goldberg
+T42	E_span 1956 1959	one
+T43	B_span 1967 1975	Adhikari
+T44	E_span 2240 2244	task
+T45	B_span 2252 2254	Wu
+T46	E_span 2472 2480	baseline

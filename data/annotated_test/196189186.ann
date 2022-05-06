@@ -1,0 +1,37 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 114 119	[BOS]
+T3	Single_summ 211 216	[BOS]
+T4	Single_summ 321 326	[BOS]
+T5	Single_summ 496 501	[BOS]
+T6	Narrative_cite 625 630	[BOS]
+T7	Single_summ 874 879	[BOS]
+T8	Single_summ 1028 1033	[BOS]
+T9	Single_summ 1192 1197	[BOS]
+T10	Single_summ 1380 1385	[BOS]
+T11	Dominant 217 241	Dubou and McKeown (2002)
+T12	Dominant 327 353	Barzilay and Lapata (2005)
+T13	Dominant 502 521	Liang et al. (2009)
+T14	Reference 765 786	(Wiseman et al., 2017
+T15	Reference 788 811	Puduppully et al., 2018
+T16	Reference 813 834	Gehrmann et al., 2018
+T17	Reference 836 852	Bao et al., 2018
+T18	Reference 854 871	Qin et al., 2018)
+T19	Dominant 880 900	Lebret et al. (2016)
+T20	Dominant 1198 1219	Wiseman et al. (2018)
+T21	Dominant 1386 1403	Nie et al. (2018)
+T22	B_span 217 220	Dub
+T23	E_span 319 320	.
+T24	B_span 327 330	Bar
+T25	E_span 494 495	.
+T26	B_span 502 507	Liang
+T27	E_span 623 624	.
+T28	B_span 718 724	neural
+T29	E_span 870 871	)
+T30	B_span 880 883	Leb
+T31	E_span 1026 1027	.
+T32	B_span 1198 1202	Wise
+T33	E_span 1378 1379	.
+T34	B_span 1386 1389	Nie
+T35	E_span 1550 1551	.
+T36	Pronoun 6 10	This
+T37	Pronoun 1366 1371	these

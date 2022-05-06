@@ -1,0 +1,85 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 89 94	[BOS]
+T3	Narrative_cite 372 377	[BOS]
+T4	Single_summ 483 488	[BOS]
+T5	Single_summ 587 592	[BOS]
+T6	Other 756 761	[BOS]
+T7	Single_summ 777 782	[BOS]
+T8	Single_summ 899 904	[BOS]
+T9	Single_summ 1039 1044	[BOS]
+T10	Single_summ 1192 1197	[BOS]
+T11	Single_summ 1357 1362	[BOS]
+T12	Single_summ 1510 1515	[BOS]
+T13	Transition 1583 1588	[BOS]
+T14	Single_summ 1658 1663	[BOS]
+T15	Single_summ 1772 1777	[BOS]
+T16	Single_summ 1919 1924	[BOS]
+T17	Single_summ 2054 2059	[BOS]
+T18	Narrative_cite 2196 2201	[BOS]
+T19	Single_summ 2348 2353	[BOS]
+T20	Single_summ 2452 2457	[BOS]
+T21	Single_summ 2615 2620	[BOS]
+T22	Reference 198 215	Jean et al., 2015
+T23	Reference 217 235	Luong et al., 2015
+T24	Reference 259 277	(Rush et al., 2015
+T25	Reference 279 298	Chopra et al., 2016
+T26	Reference 300 322	Nallapati et al., 2016
+T27	Reference 441 459	(Jean et al., 2015
+T28	Reference 461 480	Luong et al., 2015)
+T29	Dominant 489 506	Zhu et al. (2010)
+T30	Dominant 593 619	Woodsend and Lapata (2011)
+T31	Dominant 783 789	(2012)
+T32	Dominant 905 919	Kauchak (2013)
+T33	Dominant 1045 1071	Narayan and Gardent (2014)
+T34	Dominant 1198 1217	Hwang et al. (2015)
+T35	Dominant 1363 1385	Glava andtajner (2015)
+T36	Dominant 1516 1532	Xu et al. (2016)
+T37	Dominant 1664 1684	Nisioi et al. (2017)
+T38	Dominant 1778 1801	Zhang and Lapata (2017)
+T39	Dominant 1925 1942	Cao et al. (2017)
+T40	Dominant 2060 2078	Rush et al. (2015)
+T41	Reference 2309 2323	(Lopyrev, 2015
+T42	Reference 2325 2345	Chopra et al., 2016)
+T43	Dominant 2377 2393	Hu et al. (2015)
+T44	Dominant 2493 2516	Nallapati et al. (2016)
+T45	Dominant 2621 2637	Gu et al. (2016)
+T46	Pronoun 2212 2216	this
+T47	Pronoun 2650 2654	this
+T48	B_span 178 185	machine
+T49	E_span 231 235	2015
+T50	B_span 240 244	text
+T51	E_span 318 322	2016
+T52	B_span 418 424	neural
+T53	E_span 475 479	2015
+T54	B_span 489 492	Zhu
+T55	E_span 580 585	model
+T56	B_span 593 601	Woodsend
+T57	E_span 744 754	operations
+T58	B_span 784 788	2012
+T59	E_span 890 897	outputs
+T60	B_span 905 912	Kauchak
+T61	E_span 1031 1037	corpus
+T62	B_span 1045 1052	Narayan
+T63	E_span 1179 1190	translation
+T64	B_span 1198 1203	Hwang
+T65	E_span 1348 1355	WordNet
+T66	B_span 1363 1368	Glava
+T67	E_span 1501 1508	corpora
+T68	B_span 1516 1518	Xu
+T69	E_span 1567 1581	simplification
+T70	B_span 1664 1670	Nisioi
+T71	E_span 1766 1770	SARI
+T72	B_span 1778 1783	Zhang
+T73	E_span 1912 1917	texts
+T74	B_span 1925 1928	Cao
+T75	E_span 2038 2052	simplification
+T76	B_span 2060 2064	Rush
+T77	E_span 2185 2194	summaries
+T78	B_span 2259 2263	text
+T79	E_span 2340 2344	2016
+T80	B_span 2354 2361	Towards
+T81	E_span 2437 2450	summarization
+T82	B_span 2458 2460	To
+T83	E_span 2608 2613	texts
+T84	B_span 2621 2623	Gu
+T85	E_span 2686 2695	mechanism

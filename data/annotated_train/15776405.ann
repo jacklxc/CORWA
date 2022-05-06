@@ -1,0 +1,32 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 191 196	[BOS]
+T3	Single_summ 522 527	[BOS]
+T4	Single_summ 687 692	[BOS]
+T5	Single_summ 858 863	[BOS]
+T6	Single_summ 989 994	[BOS]
+T7	Single_summ 1131 1136	[BOS]
+T8	Single_summ 1273 1278	[BOS]
+T9	Single_summ 1465 1470	[BOS]
+T10	Single_summ 1644 1649	[BOS]
+T11	Single_summ 1824 1829	[BOS]
+T12	Narrative_cite 2092 2097	[BOS]
+T13	Other 2273 2278	[BOS]
+T14	Dominant 91 103	Malik (2006)
+T15	Dominant 528 547	Saini et al. (2008)
+T16	Dominant 864 885	Durrani et al. (2010)
+T17	Dominant 1137 1159	Lehal and Saini (2012)
+T18	Dominant 1659 1678	Malik et al. (2013)
+T19	Reference 2205 2222	Kak et al. (2010)
+T21	Pronoun 995 999	They
+T22	B_span 6 9	The
+T23	E_span 518 520	on
+T24	B_span 528 533	Saini
+T25	E_span 848 856	reported
+T26	B_span 864 871	Durrani
+T27	E_span 1124 1129	81.4%
+T28	B_span 1137 1142	Lehal
+T29	E_span 1636 1642	corpus
+T30	B_span 1650 1658	Recently
+T31	E_span 2084 2089	works
+T32	B_span 2148 2154	Persio
+T33	E_span 2217 2221	2010

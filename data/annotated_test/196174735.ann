@@ -1,0 +1,55 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 143 148	[BOS]
+T3	Single_summ 308 313	[BOS]
+T4	Single_summ 428 433	[BOS]
+T5	Single_summ 575 580	[BOS]
+T6	Single_summ 697 702	[BOS]
+T7	Reflection 870 875	[BOS]
+T8	Transition 1125 1130	[BOS]
+T9	Transition 1254 1259	[BOS]
+T10	Narrative_cite 1391 1396	[BOS]
+T11	Transition 1583 1588	[BOS]
+T12	Transition 1758 1763	[BOS]
+T13	Transition 1852 1857	[BOS]
+T14	Narrative_cite 1981 1986	[BOS]
+T15	Narrative_cite 2215 2220	[BOS]
+T16	Transition 2363 2368	[BOS]
+T17	Transition 2510 2515	[BOS]
+T18	Transition 2662 2667	[BOS]
+T19	Transition 2853 2858	[BOS]
+T20	Reference 119 140	(Marcus et al., 1993)
+T21	Dominant 327 347	Gimpel et al. (2011)
+T22	Dominant 434 454	Ritter et al. (2011)
+T23	Dominant 783 801	Wang et al. (2014)
+T24	Reference 1472 1493	(Hermann et al., 2015
+T25	Reference 1495 1513	Hill et al., 2015)
+T26	Reference 1537 1561	(Richardson et al., 2013
+T27	Reference 1563 1580	Lai et al., 2017)
+T28	Reference 2121 2145	(Rajpurkar et al., 2016)
+T29	Reference 2157 2178	(Nguyen et al., 2016)
+T30	Reference 2188 2212	(Trischler et al., 2016)
+T31	Reference 2340 2359	(Reddy et al., 2018
+T32	B_span 105 109	Penn
+T33	E_span 139 140	)
+T34	B_span 327 329	Gi
+T35	E_span 426 427	.
+T36	B_span 434 437	Rit
+T37	E_span 695 696	.
+T38	B_span 783 787	Wang
+T39	E_span 863 868	posts
+T40	B_span 1460 1463	clo
+T41	E_span 1512 1513	)
+T42	B_span 1517 1520	qui
+T43	E_span 1579 1580	)
+T44	B_span 2115 2118	SQu
+T45	E_span 2144 2145	)
+T46	B_span 2148 2150	MS
+T47	E_span 2177 2178	)
+T48	B_span 2181 2185	News
+T49	E_span 2211 2212	)
+T50	B_span 2295 2297	QA
+T51	E_span 2355 2359	2018
+T52	Pronoun 581 585	They
+T53	Pronoun 1260 1264	This
+T54	Pronoun 2419 2424	these
+T55	Pronoun 2668 2670	It

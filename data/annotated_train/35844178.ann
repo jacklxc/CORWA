@@ -1,0 +1,39 @@
+T1	Reflection 0 5	[BOS]
+T2	Single_summ 77 82	[BOS]
+T3	Single_summ 176 181	[BOS]
+T4	Reflection 301 306	[BOS]
+T5	Narrative_cite 487 492	[BOS]
+T6	Single_summ 685 690	[BOS]
+T7	Single_summ 892 897	[BOS]
+T8	Single_summ 1081 1086	[BOS]
+T9	Single_summ 1237 1242	[BOS]
+T10	Single_summ 1357 1362	[BOS]
+T11	Other 1513 1518	[BOS]
+T12	Reflection 1618 1623	[BOS]
+T13	Dominant 148 173	Yaser and Papineni (2006)
+T14	Reference 526 545	Luong et al., 2015a
+T15	Reference 547 564	Feng et al., 2016
+T16	Reference 566 581	Tu et al., 2016
+T17	Reference 583 600	Cohn et al., 2016
+T18	Reference 602 619	Meng et al., 2016
+T19	Dominant 780 800	Luong et al. (2015a)
+T20	Dominant 898 916	Cohn et al. (2016)
+T21	Dominant 1087 1105	Feng et al. (2016)
+T22	Dominant 1243 1259	Tu et al. (2016)
+T23	Dominant 1363 1381	Meng et al. (2016)
+T24	Pronoun 182 187	Their
+T25	Pronoun 1624 1629	These
+T26	B_span 83 86	The
+T27	E_span 294 299	words
+T28	B_span 493 496	Our
+T29	E_span 615 619	2016
+T30	B_span 691 693	To
+T31	E_span 881 890	positions
+T32	B_span 898 902	Cohn
+T33	E_span 1071 1079	settings
+T34	B_span 1087 1091	Feng
+T35	E_span 1230 1235	model
+T36	B_span 1243 1245	Tu
+T37	E_span 1343 1355	translations
+T38	B_span 1363 1367	Meng
+T39	E_span 1504 1511	history

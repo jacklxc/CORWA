@@ -1,0 +1,34 @@
+[BOS] The exploration on document summarization can be broadly divided into extractive and abstractive summarization.
+[BOS] The extractive methods (Nallapati et al., 2017; Jadhav and Rajan, 2018; Shi Article: poundland has been been forced to pull decorative plastic easter eggs from their shelves over fears children may choke -because they look like cadbury mini eggs .
+[BOS] trading standards officials in buckinghamshire and surrey raised the alarm over the chinese made decorations , as they were ' likely to contravene food imitation safety rules ' .
+[BOS] the eggs have now been withdrawn nationwide ahead of the easter break .
+[BOS] scroll down for video .
+[BOS] poundland has been been forced to pull decorative plastic easter eggs from their shelves over fears they may choke -because they look like cadbury mini eggs -lrb-pictured is the poundland version -rrb-.
+[BOS] the eggs bear a striking similarity to the sugar-coated chocolate treats with a brown ' speckle ' designed to make it look like a quail 's egg -lrb-cadbury mini eggs are pictured -rrb-.
+[BOS] .
+[BOS] .
+[BOS] . '
+[BOS] parents should also be wary of similar products being offered for sale over the easter period at other stores or online . '
+[BOS] Reference Summary: Trading standards officials in buckinghamshire and surrey raised alarm.
+[BOS] Officers said they were 'likely to contravene food imitation safety rules'.
+[BOS] The eggs bear a striking similarity to the sugar-coated chocolate treats.
+[BOS] PGN: Poundland has been forced to pull decorative plastic easter eggs from their shelves over fears children may chokebecause they look like cadbury mini eggs.
+[BOS] The eggs have now been withdrawn nationwide ahead of the easter break.
+[BOS] The eggs have now been withdrawn nationwide ahead of the easter break.
+[BOS] PGN+Coverage: Trading standards officials in buckinghamshire and surrey raised the alarm over the chinese made decorations , as they were ' likely to contravene food imitation safety rules ' the eggs have now been withdrawn nationwide ahead of the easter break .
+[BOS] the eggs bear a striking similarity to the sugar-coated chocolate treats with a brown ' speckle ' designed to make it look like a quail 's egg .
+[BOS] + ARU: Eggs bear a striking similarity to the sugar-coated chocolate treats with a brown 'speckle' designed to make it look like a quail's egg.
+[BOS] The eggs bear a striking similarity to the sugar-coated chocolate treats with a brown 'speckle' designed to make it look like a quail's egg.
+[BOS] + Variance loss: Trading standards officials in buckinghamshire and surrey raised the alarm over the chinese made decorations, as they were 'likely to contravene food imitation safety rules'.
+[BOS] The eggs have now been withdrawn nationwide ahead of the easter break.
+[BOS] The eggs bear a striking similarity to the sugar-coated chocolate treats with a brown 'speckle'.
+[BOS] (Rush et al., 2015; Nallapati et al., 2016; See et al., 2017; Chen and Bansal, 2018) generates summaries word-by-word after digesting the main content of the document.
+[BOS] Outof-vocabulary(OOV), repetition, and saliency are three conspicuous problems need to be well solved in abstractive document summarization.
+[BOS] Some works (Nallapati et al., 2016; See et al., 2017; Paulus et al., 2018) handle the OOV problem by introducing the pointer network.
+[BOS] See et al. (2017) introduces a coverage mechanism, which is a variant of the coverage vector (Tu et al., 2016) from Neural Machine Translation, to eliminate repetitions.
+[BOS] However, there are just a few studies on saliency problem (Tan et al., 2017; Shi et al., 2018; Gehrmann et al., 2018) .
+[BOS] To obtain more salient in-formation, Chen et al. (2016) proposes a new attention mechanism to distract them in the decoding step to better grasp the overall meaning of input documents.
+[BOS] We optimize attention using an attention refinement unit under the novel variance loss supervision.
+[BOS] As far as we know, we are the first to propose explicit losses to refine the attention model in abstractive document summarization tasks.
+[BOS] Recently many models (Paulus et al., 2018; Celikyilmaz et al., 2018; Chen and Bansal, 2018; Zhou et al., 2018; Jiang and Bansal, 2018) have emerged taking advantage of reinforcement learning (RL) to solve the discrepancy issue in seq2seq model and have yielded the state-of-the-art performance.
+

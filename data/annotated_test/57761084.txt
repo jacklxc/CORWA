@@ -1,0 +1,23 @@
+[BOS] There are studies on the presence of biases in many NLP applications.
+[BOS] Word embeddings can learn biases learn from human generated corpora.
+[BOS] (Bolukbasi et al., 2016) showed that stereotypical analogies are present in word embeddings both for gender and race.
+[BOS] (Caliskan et al., 2017) found also a strong gender and racial bias presence is found in pre-trained embeddings and proposed a method for measuring bias in word embeddings.
+[BOS] (Zhao et al., 2018b) proposed GN-GloVe, an algorithm to generated gender neutral word embeddings.
+[BOS] The approach is to restrict gender information attributes in certain dimensions to keep the remaining free of this attributes.
+[BOS] (Zhao et al., 2018a) shows that sexism present in a coreference resolution system is due to the word embeddings components.
+[BOS] Applications that use these embeddings, such as curriculum filtering, may discriminate candidates because of their gender.
+[BOS] The amplification of biases in downstream applications is a concerning problem also that can enlarge the gap between genders, for example in search engines, for professions where the name of the candidates may be discriminated by the algorithm because of their bias towards a specific gender.
+[BOS] Thus, broadening even further gender inequality for a given field.
+[BOS] (Zhao et al., 2017) shows that gender bias is learned and amplified in models trained from data sets containing web images used in language modelling tasks.
+[BOS] As an example of, the word "cooking" is more probable to be re-lated to females than males and it can be further amplified.
+[BOS] (Park et al., 2018) studies the reduction of such biases in abusive language detection.
+[BOS] These models have a strong bias towards words that identify gender because of the data sets in which they are trained.
+[BOS] Sentences that do not necessarily show sexism are detected as false positives compromising the robustness of the models.
+[BOS] Debiased word embeddings combined with augmenting and swapping gender data is the most effective method for reducing gender bias for this task.
+[BOS] (Prates et al., 2018) performs a case study on gender bias in machine translation.
+[BOS] They build a test set consisting of a list of jobs and gender-specific sentences.
+[BOS] Using English as a target language and a variety of gender neutral languages as a source, i.e. languages that do not explicitly give gender information about the subject, they test these sentences on the translating service Google Translate.
+[BOS] They find that occupations related to science, engineering and mathematics present a strong stereotype toward male subjects.
+[BOS] However, late 2018, Google announced in their developers blog 1 that efforts are put on providing gender-specific translations in Google Translate.
+[BOS] Thus, gives both the translation for female and male when translating from gender-neutral languages.
+

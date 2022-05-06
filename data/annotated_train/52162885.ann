@@ -1,0 +1,86 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 340 345	[BOS]
+T3	Transition 431 436	[BOS]
+T4	Narrative_cite 581 586	[BOS]
+T5	Single_summ 691 696	[BOS]
+T6	Single_summ 862 867	[BOS]
+T7	Single_summ 1008 1013	[BOS]
+T8	Single_summ 1204 1209	[BOS]
+T9	Transition 1447 1452	[BOS]
+T10	Single_summ 1626 1631	[BOS]
+T11	Transition 1786 1791	[BOS]
+T12	Transition 1939 1944	[BOS]
+T13	Transition 2119 2124	[BOS]
+T14	Reflection 2292 2297	[BOS]
+T15	Narrative_cite 2481 2486	[BOS]
+T16	Transition 2686 2691	[BOS]
+T17	Transition 2921 2926	[BOS]
+T18	Reflection 2979 2984	[BOS]
+T19	Reflection 3119 3124	[BOS]
+T20	Reflection 3279 3284	[BOS]
+T21	Transition 3486 3491	[BOS]
+T22	Single_summ 3611 3616	[BOS]
+T23	Single_summ 3807 3812	[BOS]
+T24	Single_summ 4056 4061	[BOS]
+T25	Single_summ 4273 4278	[BOS]
+T26	Reflection 4400 4405	[BOS]
+T27	Transition 4538 4543	[BOS]
+T28	Single_summ 4690 4695	[BOS]
+T29	Narrative_cite 4871 4876	[BOS]
+T30	Transition 5104 5109	[BOS]
+T31	Reflection 5260 5265	[BOS]
+T32	Reflection 5443 5448	[BOS]
+T33	Reference 301 322	(Mikolov et al., 2013
+T34	Reference 324 337	Turney, 2012)
+T35	Reference 640 653	(Linzen, 2016
+T37	Reference 722 746	Levy and Goldberg (2014)
+T38	Reference 837 859	(Mikolov et al., 2013)
+T39	Dominant 1014 1027	Linzen (2016)
+T40	Dominant 1632 1652	Rogers et al. (2017)
+T41	Reference 2629 2648	(Kelly et al., 2014
+T42	Reference 2650 2669	Baroni et al., 2010
+T43	Reference 2671 2683	Barbu, 2008)
+T44	Dominant 3617 3636	Tsvetkov et al. ( ,
+T45	Dominant 4062 4092	Yaghoobzadeh and Schtze (2016)
+T46	Dominant 4696 4719	Fagarasan et al. (2015)
+T47	Reference 5042 5076	(Roller and Schulte im Walde, 2013
+T48	Reference 5078 5101	Lazaridou et al., 2014)
+T49	Pronoun 868 872	They
+T50	Pronoun 1511 1516	these
+T51	Pronoun 2700 2705	these
+T52	Pronoun 2781 2785	they
+T53	Pronoun 2927 2932	Their
+T54	Pronoun 3011 3015	this
+T55	Pronoun 3819 3823	they
+T56	Pronoun 3834 3839	their
+T57	Pronoun 3967 3971	they
+T58	Pronoun 4279 4283	They
+T59	Pronoun 4289 4294	their
+T60	Pronoun 5118 5122	this
+T61	Pronoun 5185 5187	it
+T62	Pronoun 5289 5293	this
+T63	Pronoun 5601 5605	this
+T64	Pronoun 5635 5640	these
+T65	B_span 256 265	analogies
+T66	E_span 332 336	2012
+T67	B_span 615 625	criticized
+T36	Reference 655 673	Drozd et al., 2016
+T68	E_span 669 673	2016
+T69	B_span 818 824	Google
+T70	E_span 854 858	2013
+T71	B_span 697 703	follow
+T72	E_span 1002 1006	size
+T73	B_span 1014 1020	Linzen
+T74	E_span 1196 1202	source
+T75	B_span 1632 1638	Rogers
+T76	E_span 1773 1783	properties
+T77	B_span 2603 2612	naturally
+T78	E_span 2678 2682	2008
+T79	B_span 3617 3625	Tsvetkov
+T81	E_span 4050 4054	well
+T80	B_span 4062 4074	Yaghoobzadeh
+T82	E_span 4389 4398	knowledge
+T83	B_span 4696 4705	Fagarasan
+T84	E_span 4864 4869	norms
+T85	B_span 5019 5023	word
+T86	E_span 5096 5100	2014

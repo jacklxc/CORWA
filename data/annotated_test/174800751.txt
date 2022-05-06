@@ -1,0 +1,10 @@
+[BOS] Recently, several QA datasets have been proposed to test machine comprehension (Richardson, 2013; Weston et al., 2015; Rajpurkar et al., 2016; Trischler et al., 2016a; Nguyen et al., 2016) .
+[BOS] Yatskar (2018) showed that a high performance on these datasets could be achieved without necessarily achieving the capability of making commonsense inferences.
+[BOS] Trischler et al. (2016b) , Kumar et al. (2016) , Liu and Perez (2017) , Min et al. (2018) and Xiong et al. (2016) proposed successful models on those datasets.
+[BOS] To address this issue, new QA datasets which require commonsense reasoning have been proposed (Khashabi et al., 2018; Ostermann et al., 2018; .
+[BOS] Using common sense inferences in Machine Comprehension is a far from solved problem.
+[BOS] There have been several attempts in literature to use inferences to answer questions.
+[BOS] Most of the previous works either attempt to infer the answer from the given text (Sachan and Xing, 2016; or an external commonsense knowledge base (Das et al., 2017; Mihaylov and Frank, 2018; Bauer et al., 2018; Weissenborn et al., 2017) .
+
+[BOS] While neural models can capture some dependencies between choices through shared representations, to the best of our knowledge, inferences capturing the dependencies between answer choices or different questions have been not explicitly modeled.
+

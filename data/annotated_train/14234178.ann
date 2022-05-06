@@ -1,0 +1,95 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 80 85	[BOS]
+T3	Transition 168 173	[BOS]
+T4	Multi_summ 373 378	[BOS]
+T5	Narrative_cite 513 518	[BOS]
+T6	Single_summ 707 712	[BOS]
+T7	Narrative_cite 849 854	[BOS]
+T8	Transition 1099 1104	[BOS]
+T9	Narrative_cite 1243 1248	[BOS]
+T10	Single_summ 1408 1413	[BOS]
+T11	Single_summ 1617 1622	[BOS]
+T12	Single_summ 1776 1781	[BOS]
+T13	Single_summ 1897 1902	[BOS]
+T14	Single_summ 1984 1989	[BOS]
+T15	Single_summ 2082 2087	[BOS]
+T16	Single_summ 2195 2200	[BOS]
+T17	Single_summ 2313 2318	[BOS]
+T18	Transition 2421 2426	[BOS]
+T19	Single_summ 2498 2503	[BOS]
+T20	Single_summ 2653 2658	[BOS]
+T21	Single_summ 2801 2806	[BOS]
+T22	Narrative_cite 2959 2964	[BOS]
+T23	Single_summ 3294 3299	[BOS]
+T24	Reflection 3444 3449	[BOS]
+T25	Dominant 379 395	(Kambhatla, 2004
+T26	Dominant 397 419	Suchanek et al., 2006)
+T27	Reference 572 591	(Qian et al., 2008)
+T28	Dominant 713 740	(Plank and Moschitti, 2013)
+T29	Reference 1007 1026	(Mintz et al., 2009
+T30	Reference 1028 1047	Riedel et al., 2010
+T31	Reference 1049 1070	Hoffmann et al., 2011
+T32	Reference 1072 1095	Takamatsu et al., 2012)
+T33	Reference 1384 1405	(Turian et al., 2010)
+T34	Dominant 1414 1435	(Socher et al., 2012)
+T35	Dominant 1623 1648	(Hashimoto et al., 2013 )
+T36	Dominant 1782 1802	(Zeng et al., 2014 )
+T37	Dominant 1990 2014	(Ebrahimi and Dou, 2015)
+T38	Dominant 2088 2106	(Xu et al., 2015b)
+T39	Dominant 2201 2219	(Xu et al., 2015c)
+T40	Dominant 2319 2336	(Xu et al., 2016)
+T41	Dominant 2504 2527	(Bahdanau et al., 2014)
+T42	Dominant 2807 2825	(Xu et al., 2015a)
+T43	Reference 3040 3058	(Yin et al., 2015)
+T44	Reference 3085 3104	(Yang et al., 2016)
+T45	Reference 3115 3137	(Vinyals et al., 2015)
+T46	Reference 3176 3200	(Sukhbaatar et al., 2015
+T47	Reference 3202 3220	Kumar et al., 2015
+T48	Reference 3222 3243	Hermann et al., 2015)
+T49	Reference 3273 3291	(Lin et al., 2015)
+T50	Dominant 3300 3319	(Wang et al., 2016)
+T51	Pronoun 157 161	this
+T52	Pronoun 1588 1593	their
+T53	Pronoun 1903 1908	These
+T55	Pronoun 2659 2663	This
+T56	Pronoun 3453 3457	this
+T57	B_span 380 389	Kambhatla
+T58	E_span 504 511	vectors
+T59	B_span 548 559	convolution
+T60	E_span 586 590	2008
+T61	B_span 714 719	Plank
+T62	E_span 843 847	only
+T63	B_span 987 994	distant
+T64	E_span 1090 1094	2012
+T65	B_span 1369 1373	word
+T66	E_span 1400 1404	2010
+T67	B_span 1415 1421	Socher
+T68	E_span 1603 1615	relationship
+T69	B_span 1624 1633	Hashimoto
+T70	E_span 1770 1774	task
+T71	B_span 1783 1787	Zeng
+T72	E_span 1976 1982	vector
+T73	B_span 1991 1999	Ebrahimi
+T74	E_span 2072 2080	entities
+T54	B_span 2089 2091	Xu
+T75	E_span 2185 2193	cleaning
+T76	B_span 2202 2204	Xu
+T77	E_span 2303 2311	entities
+T78	B_span 2320 2322	Xu
+T79	E_span 2409 2418	relations
+T80	B_span 2505 2513	Bahdanau
+T81	E_span 2788 2799	translation
+T82	B_span 2808 2810	Xu
+T83	E_span 2949 2957	captions
+T84	B_span 3014 3024	paraphrase
+T85	E_span 3053 3057	2015
+T86	B_span 3061 3069	document
+T87	E_span 3099 3103	2016
+T88	B_span 3107 3114	parsing
+T89	E_span 3132 3136	2015
+T90	B_span 3140 3147	natural
+T91	E_span 3238 3242	2015
+T92	B_span 3248 3253	image
+T93	E_span 3286 3290	2015
+T94	B_span 3301 3305	Wang
+T95	E_span 3432 3442	extraction

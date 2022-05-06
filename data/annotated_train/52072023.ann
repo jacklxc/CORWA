@@ -1,0 +1,36 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 228 233	[BOS]
+T3	Transition 325 330	[BOS]
+T4	Transition 415 420	[BOS]
+T5	Single_summ 543 548	[BOS]
+T6	Single_summ 670 675	[BOS]
+T7	Reflection 833 838	[BOS]
+T8	Other 973 978	[BOS]
+T9	Other 1413 1418	[BOS]
+T10	Other 1586 1591	[BOS]
+T11	Narrative_cite 1742 1747	[BOS]
+T12	Multi_summ 1970 1975	[BOS]
+T13	Reference 104 128	(Sutskever et al., 2014)
+T14	Reference 169 200	(Kalchbrenner and Blunsom, 2013
+T15	Reference 202 225	Sutskever et al., 2014)
+T16	Dominant 594 622	Tu et al. Lin et al. (2018a)
+T17	Dominant 717 738	Vaswani et al. (2017)
+T18	Reference 1808 1826	(Lin et al., 2018b
+T19	Reference 1828 1844	Liu et al., 2018
+T20	Dominant 1976 1992	Ma et al. (2018)
+T21	Dominant 2102 2120	Lin et al. (2018c)
+T22	Pronoun 928 930	it
+T23	B_span 67 75	sequence
+T24	E_span 123 127	2014
+T25	B_span 143 150	encoder
+T26	E_span 223 224	4
+T27	B_span 549 551	To
+T28	E_span 655 668	consideration
+T29	B_span 717 724	Vaswani
+T30	E_span 820 831	performance
+T34	E_span 1844 1845	)
+T35	B_span 1976 1978	Ma
+T36	E_span 2084 2096	translations
+T37	B_span 2102 2105	Lin
+T38	E_span 2151 2164	consideration
+T31	B_span 1748 1755	tention

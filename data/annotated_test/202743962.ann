@@ -1,0 +1,9 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 50 55	[BOS]
+T3	Transition 299 304	[BOS]
+T4	Reflection 389 394	[BOS]
+T5	Reference 239 256	(Dai et al., 2008
+T6	Reference 258 275	Wang et al., 2008
+T7	Reference 277 296	Pan and Yang, 2010)
+T8	B_span 137 149	unsupervised
+T9	E_span 295 296	)

@@ -1,0 +1,13 @@
+[BOS] In the past, a significant number of techniques have been presented to reduce the hierarchical rule table.
+[BOS] He et al. (2009) most entries of the rule table by using the constraint that rules of the target-side are well-formed (WF) dependency structure, but this filtering led to degradation in translation performance.
+[BOS] They obtained improvements by adding an additional dependency language model.
+[BOS] The basic difference of our method from (Shen et al., 2008 ) is that we keep rules that both sides should be relaxed-wellformed dependency structure, not just the target side.
+[BOS] Besides, our system complexity is not increased because no additional language model is introduced.
+[BOS] The feature of head word trigger which we apply to the log-linear model is motivated by the trigger-based approach (Hasan and Ney, 2009 ).
+[BOS] Hasan and Ney (2009) introduced a second word to trigger the target word without considering any linguistic information.
+[BOS] Furthermore, since the second word can come from any part of the sentence, there may be a prohibitively large number of parameters involved.
+[BOS] Besides, He et al. (2008) built a maximum entropy model which combines rich context information for selecting translation rules during decoding.
+[BOS] However, as the size of the corpus increases, the maximum entropy model will become larger.
+[BOS] Similarly, In (Shen et al., 2009 ), context language model is proposed for better rule selection.
+[BOS] Taking the dependency edge as condition, our approach is very different from previous approaches of exploring context information.
+

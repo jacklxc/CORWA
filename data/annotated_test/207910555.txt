@@ -1,0 +1,10 @@
+[BOS] There are two lines of research for paraphrase generation including knowledge based ones and neural network based ones.
+[BOS] Some researchers provide rules (Bhagat and Hovy, 2013) or corpus including knowledge (Fader et al., 2013; Ganitkevitch et al., 2013; Pavlick et al., 2015) .
+[BOS] Other researchers try to make use of templates (Berant and Liang, 2014) , semantic information (Kozlowski et al., 2003) and thesaurus (Hassan et al., 2007) for paraphrase generation.
+
+[BOS] Rush (2015) have applied Seq2Seq model with attention mechanism for text summarization.
+[BOS] Prakash (2016) employ a residual net in Seq2Seq model to generate paraphrases.
+[BOS] Cao (2017) combine a copying decoder and a generative decoder for paraphrase generation.
+[BOS] Cao(2018) try to utilize template information to help text summarization, however, the template is vague in that paper.
+[BOS] We hope to utilize the special structure of question and extract the template explicitly from questions.
+

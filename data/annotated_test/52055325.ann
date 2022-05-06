@@ -1,0 +1,113 @@
+T1	Reflection 0 5	[BOS]
+T2	Transition 82 87	[BOS]
+T3	Narrative_cite 167 172	[BOS]
+T4	Transition 411 416	[BOS]
+T5	Narrative_cite 562 567	[BOS]
+T6	Multi_summ 695 700	[BOS]
+T7	Transition 1150 1155	[BOS]
+T8	Multi_summ 1265 1270	[BOS]
+T9	Reflection 1480 1485	[BOS]
+T10	Reflection 1663 1668	[BOS]
+T11	Reflection 1800 1805	[BOS]
+T12	Multi_summ 1887 1892	[BOS]
+T13	Multi_summ 2035 2040	[BOS]
+T14	Single_summ 2259 2264	[BOS]
+T15	Reflection 2404 2409	[BOS]
+T16	Reflection 2586 2591	[BOS]
+T17	Reflection 2756 2761	[BOS]
+T18	Reflection 2837 2842	[BOS]
+T19	Reflection 2959 2964	[BOS]
+T20	Single_summ 3098 3103	[BOS]
+T21	Single_summ 3229 3234	[BOS]
+T22	Single_summ 3398 3403	[BOS]
+T23	Single_summ 3568 3573	[BOS]
+T24	Single_summ 3686 3691	[BOS]
+T25	Single_summ 3848 3853	[BOS]
+T26	Reflection 3974 3979	[BOS]
+T27	Narrative_cite 4102 4107	[BOS]
+T28	Transition 4412 4417	[BOS]
+T29	Single_summ 4559 4564	[BOS]
+T30	Multi_summ 4786 4791	[BOS]
+T31	Reflection 4981 4986	[BOS]
+T32	Reference 297 317	(Berant et al., 2013
+T33	Reference 319 342	Pasupat and Liang, 2015
+T34	Reference 344 363	Bordes et al., 2015
+T35	Reference 365 382	Saha et al., 2018
+T36	Reference 384 408	Talmor and Berant, 2018)
+T37	Reference 634 653	(Antol et al., 2015
+T38	Reference 655 671	Das et al., 2017
+T39	Reference 673 691	Hori et al., 2018)
+T40	Dominant 839 861	(Hermann et al., 2015)
+T41	Dominant 924 943	Welbl et al., 2018)
+T42	Reference 1001 1019	(Saha et al., 2018
+T43	Reference 1021 1045	Talmor and Berant, 2018)
+T44	Reference 1102 1125	(Rajpurkar et al., 2016
+T45	Reference 1127 1147	Nguyen et al., 2016)
+T46	Reference 1418 1437	(Joshi et al., 2017
+T47	Reference 1439 1456	Dunn et al., 2017
+T48	Reference 1458 1477	Koisk et al., 2018)
+T49	Dominant 1893 1912	Iyyer et al. (2017)
+T50	Dominant 1917 1941	Talmor and Berant (2018)
+T51	Dominant 2064 2081	Das et al. (2017)
+T52	Dominant 2086 2104	Saha et al. (2018)
+T53	Dominant 2290 2308	Choi et al. (2018)
+T54	Dominant 3118 3138	Saeidi et al. (2018)
+T55	Dominant 3404 3426	Elgohary et al. (2018)
+T56	Dominant 3692 3710	Zhou et al. (2018)
+T57	Reference 4229 4242	(Clark, 2015)
+T58	Reference 4288 4312	(Ostermann et al., 2018)
+T59	Reference 4340 4359	(Welbl et al., 2018
+T60	Reference 4361 4382	Khashabi et al., 2018
+T61	Reference 4384 4408	Talmor and Berant, 2018)
+T62	Dominant 4656 4675	Huang et al. (2019)
+T63	Dominant 4806 4823	Zhu et al., 2018)
+T64	Reference 4911 4932	(Devlin et al., 2018)
+T66	Pronoun 440 445	their
+T67	Pronoun 483 485	it
+T68	Pronoun 2495 2500	their
+T69	Pronoun 2600 2605	their
+T70	Pronoun 2692 2697	their
+T71	Pronoun 2818 2824	theirs
+T72	Pronoun 2899 2904	their
+T73	Pronoun 3031 3036	their
+T74	Pronoun 3235 3240	Their
+T75	Pronoun 3574 3579	These
+T76	Pronoun 3854 3859	Their
+T78	E_span 403 407	2018
+T84	E_span 686 690	2018
+T85	B_span 757 762	remov
+T86	E_span 860 861	)
+T87	B_span 864 869	using
+T88	E_span 942 943	)
+T89	B_span 946 958	paraphrasing
+T90	E_span 1040 1044	2018
+T91	B_span 1065 1072	letting
+T92	E_span 1142 1146	2016
+T93	B_span 1286 1295	emphasize
+T94	E_span 1476 1477	)
+T95	B_span 1893 1898	Iyyer
+T96	E_span 2031 2033	QA
+T97	B_span 2064 2067	Das
+T98	E_span 2247 2256	templates
+T99	B_span 2290 2294	Choi
+T100	E_span 2394 2402	passages
+T101	B_span 3118 3124	Saeidi
+T102	E_span 3388 3396	answered
+T103	B_span 3404 3412	Elgohary
+T104	E_span 3672 3683	coreference
+T105	B_span 3692 3696	Zhou
+T106	E_span 3962 3971	answering
+T107	B_span 4209 4218	algebraic
+T108	E_span 4237 4241	2015
+T109	B_span 4265 4271	common
+T110	E_span 4311 4312	)
+T111	B_span 4319 4324	multi
+T112	E_span 4407 4408	)
+T113	E_span 4780 4784	flow
+T114	B_span 4565 4572	Instead
+T115	B_span 4806 4809	Zhu
+T116	E_span 4972 4979	results
+T117	B_span 4906 4910	BERT
+T118	E_span 4931 4932	)
+T65	B_span 208 215	machine
+T77	B_span 589 594	human

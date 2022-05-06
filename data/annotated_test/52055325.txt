@@ -1,0 +1,39 @@
+[BOS] We organize CoQA's relation to existing work under the following criteria.
+
+[BOS] Knowledge source We answer questions about text passages-our knowledge source.
+[BOS] Another common knowledge source is machine-friendly databases, which organize world facts in the form of a table or a graph (Berant et al., 2013; Pasupat and Liang, 2015; Bordes et al., 2015; Saha et al., 2018; Talmor and Berant, 2018) .
+[BOS] However, understanding their structure requires expertise, making it challenging to crowd-source large QA datasets without relying on templates.
+[BOS] Like passages, other human-friendly sources are images and videos (Antol et al., 2015; Das et al., 2017; Hori et al., 2018) .
+
+[BOS] Naturalness There are various ways to curate questions: removing words from a declarative sentence to create a fill-in-the-blank question (Hermann et al., 2015) , using a hand-written grammar to create artificial questions Welbl et al., 2018) , paraphrasing artificial questions to natural questions (Saha et al., 2018; Talmor and Berant, 2018) , or, in our case, letting humans ask natural questions (Rajpurkar et al., 2016; Nguyen et al., 2016) .
+[BOS] While the former enable collecting large and cheap datasets, the latter enable collecting natural questions.
+[BOS] Recent efforts emphasize collecting questions without seeing the knowledge source in order to encourage the independence of question and documents (Joshi et al., 2017; Dunn et al., 2017; Koisk et al., 2018) .
+[BOS] Because we allow a questioner to see the passage, we incorporate measures to increase independence, although complete independence is not attainable in our setup (Section 3.1).
+[BOS] However, an advantage of our setup is that the questioner can validate the answerer on the spot resulting in high agreement data.
+
+[BOS] Conversational Modeling Our focus is on questions that appear in a conversation.
+[BOS] Iyyer et al. (2017) and Talmor and Berant (2018) break down a complex question into a series of simple questions mimicking conversational QA.
+[BOS] Our work is closest to Das et al. (2017) and Saha et al. (2018) , who perform conversational QA on images and a knowledge graph, respectively, with the latter focusing on questions obtained by paraphrasing templates.
+
+[BOS] In parallel to our work, Choi et al. (2018) also created a dataset of conversations in the form of questions and answers on text passages.
+[BOS] In our interface, we show a passage to both the questioner and the answerer, whereas their interface only shows a title to the questioner and the full passage to the answerer.
+[BOS] Because their setup encourages the answerer to reveal more information for the following questions, their average answer length is 15.1 words (our average is 2.7).
+[BOS] While the human performance on our test set is 88.8 F1, theirs is 74.6 F1.
+[BOS] Moreover, although CoQA's answers can be freeform text, their answers are restricted only to extractive text spans.
+[BOS] Our dataset contains passages from seven diverse domains, whereas their dataset is built only from Wikipedia articles about people.
+
+[BOS] Concurrently, Saeidi et al. (2018) created a conversational QA dataset for regulatory text such as tax and visa regulations.
+[BOS] Their answers are limited to yes or no along with a positive characteristic of permitting to ask clarification questions when a given question cannot be answered.
+[BOS] Elgohary et al. (2018) proposed a sequential question answering dataset collected from Quiz Bowl tournaments, where a sequence contains multiple related questions.
+[BOS] These questions are related to the same concept while not focusing on the dialogue aspects (e.g., coreference).
+[BOS] Zhou et al. (2018) is another dialogue dataset based on a single movie-related Wikipedia article, in which two workers are asked to chat about the content.
+[BOS] Their dataset is more like chit-chat style conversations whereas our dataset focuses on multi-turn question answering.
+
+[BOS] Reasoning Our dataset is a testbed of various reasoning phenomena occurring in the context of a conversation (Section 4).
+[BOS] Our work parallels a growing interest in developing datasets that test specific reasoning abilities: algebraic reasoning (Clark, 2015) , logical reasoning , common sense reasoning (Ostermann et al., 2018) , and multi-fact reasoning (Welbl et al., 2018; Khashabi et al., 2018; Talmor and Berant, 2018) .
+
+[BOS] Recent Progress on CoQA Since we first released the dataset in August 2018, the progress of developing better models on CoQA has been rapid.
+[BOS] Instead of simply prepending the current question with its previous questions and answers, Huang et al. (2019) proposed a more sophisticated solution to effectively stack single-turn models along the conversational flow.
+[BOS] Others (e.g., Zhu et al., 2018) attempted to incorporate the most recent pretrained language representation model BERT (Devlin et al., 2018) 12 into CoQA and demonstrated superior results.
+[BOS] As of the time we finalized the paper (Jan 8, 2019), the state-of-art F1 score on the test set was 82.8.
+

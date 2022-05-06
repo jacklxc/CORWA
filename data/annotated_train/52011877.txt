@@ -1,0 +1,16 @@
+[BOS] Recently, Wachsmuth et al. (2017) suggested an argument search framework and a corresponding search engine prototype.
+[BOS] However, the proposed system relies on arguments crawled from dedicated resources that suggest pre-written arguments for various topics, and hence, is only relevant for topics covered in these resources, and cannot be used directly over unstructured textual data.
+[BOS] Stab et al. (2018) tackled the argument mining task in heterogeneous texts retrieved by Google search when queried with a controversial topic.
+[BOS] They show that it is feasible to annotate the retrieved documents via crowd-sourcing and to use these labels in order to build a supervised learning system that finds arguments in the given documents.
+[BOS] Similar to our work, sentences are treated in isolation (ignoring the document context).
+[BOS] The only work we are aware of that tackles corpus wide claim detection, is the work by (Levy et al., 2017) .
+[BOS] Here, we demonstrate how this work can be leveraged to define weak signals for training DNNs to obtain significantly greater performance.
+
+[BOS] Several works used DNN to tackle a variety of computational argumentation tasks, such as argument mining (Eger et al., 2017) , predicting argument convincingness (Habernal and Gurevych, 2016) , detecting context dependent claims and evidence (Laha and Raykar, 2016) and attack and support relations between arguments (Cocarascu and Toni, 2017) .
+[BOS] However, these works used the fully-supervised learning paradigm, which is inherently demanding, especially in the context of argument mining where obtaining labeled data is notoriously difficult .
+[BOS] In addition, Al-Khatib et al. (2016) used a distant supervision approach trained over debate portals' data, to develop a classifier for argumentative texts stored in these portals.
+[BOS] To the best of our knowledge, the present work is the first to demonstrate the value of DNN trained solely with weak supervision (Hearst, 1992) in this challenging field.
+
+[BOS] For a good exposition on the field of argument mining refer to (Lippi and Torroni, 2016) .
+[BOS] Some notable works include (Palau and Moens, 2009 ) who first suggested the argument mining task, Rinott et al., 2015) who focused on mining claims/evidence in the context of a user given controversial topic and several works related to specific text genres such as student essays (Stab and Gurevych, 2014) , legal documents (Wyner et al., 2010; Moens et al., 2007; Grabmair et al., 2015) , user comments on proposed regulations (Park and Cardie, 2014) and newspaper articles (Feng and Hirst, 2011) .
+

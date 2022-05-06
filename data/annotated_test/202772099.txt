@@ -1,0 +1,8 @@
+[BOS] The capsule networks have been recently applied to a number of NLP tasks (Xiao et al., 2018; Gong et al., 2018) .
+[BOS] In particular, Yang et al. (2018) represent text classification labels by a layer of capsules, and take the capsule actions as the classification probability.
+[BOS] Using a similar method, Xia et al. (2018) perform intent detection with the capsule networks.
+[BOS] and Li et al. (2019a) use capsule networks to capture rich features for machine translation.
+[BOS] More closely to our work, and Zhang et al. (2019) adopt the capsule networks for relation extraction.
+[BOS] The previous models apply the capsule networks to problems that have a fixed number of components in the output.
+[BOS] Their approach cannot be directly applied to our setting.
+

@@ -1,0 +1,117 @@
+T1	Reflection 0 5	[BOS]
+T2	Transition 180 185	[BOS]
+T3	Single_summ 265 270	[BOS]
+T4	Single_summ 590 595	[BOS]
+T5	Transition 788 793	[BOS]
+T6	Reflection 1007 1012	[BOS]
+T7	Reflection 1088 1093	[BOS]
+T8	Narrative_cite 1293 1298	[BOS]
+T9	Reflection 1554 1559	[BOS]
+T10	Narrative_cite 1834 1839	[BOS]
+T11	Single_summ 1940 1945	[BOS]
+T12	Single_summ 2227 2232	[BOS]
+T13	Narrative_cite 2387 2392	[BOS]
+T14	Single_summ 2569 2574	[BOS]
+T15	Single_summ 2725 2730	[BOS]
+T16	Single_summ 2845 2850	[BOS]
+T17	Transition 3022 3027	[BOS]
+T18	Transition 3174 3179	[BOS]
+T19	Transition 3204 3209	[BOS]
+T20	Transition 3390 3395	[BOS]
+T21	Transition 3496 3501	[BOS]
+T22	Single_summ 3627 3632	[BOS]
+T23	Single_summ 3809 3814	[BOS]
+T24	Single_summ 4116 4121	[BOS]
+T25	Transition 4268 4273	[BOS]
+T26	Transition 4525 4530	[BOS]
+T27	Transition 4574 4579	[BOS]
+T28	Transition 4665 4670	[BOS]
+T29	Transition 4809 4814	[BOS]
+T30	Reflection 4918 4923	[BOS]
+T31	Reflection 5027 5032	[BOS]
+T32	Single_summ 5210 5215	[BOS]
+T33	Single_summ 5312 5317	[BOS]
+T34	Single_summ 5468 5473	[BOS]
+T35	Single_summ 5554 5559	[BOS]
+T36	Single_summ 5735 5740	[BOS]
+T37	Narrative_cite 5878 5883	[BOS]
+T38	Reflection 6001 6006	[BOS]
+T39	Transition 6262 6267	[BOS]
+T40	Transition 6304 6309	[BOS]
+T41	Multi_summ 6406 6411	[BOS]
+T42	Single_summ 6630 6635	[BOS]
+T43	Single_summ 6780 6785	[BOS]
+T44	Single_summ 6939 6944	[BOS]
+T45	Dominant 292 312	(Cheng et al., 2015)
+T46	Reference 1028 1048	(Cheng et al., 2015)
+T47	Reference 1119 1139	(Cheng et al., 2015)
+T48	Reference 1422 1442	(Cheng et al., 2015)
+T49	Reference 1871 1891	(Cheng et al., 2015)
+T50	Dominant 2078 2098	(Cheng et al., 2015)
+T51	Reference 2525 2545	(Cheng et al., 2015)
+T52	Dominant 2593 2617	Biran and McKeown, 2015)
+T53	Dominant 3633 3670	(Lampouras and Androutsopoulos, 2013)
+T54	Dominant 4122 4149	(Bouayad-Agha et al., 2011)
+T55	Dominant 5229 5266	(Lampouras and Androutsopoulos, 2013)
+T56	Dominant 5483 5508	(Biran and McKeown, 2015)
+T57	Dominant 5772 5799	(Barzilay and Lapata, 2005)
+T58	Reference 5975 5998	(Mohammed et al., 2016)
+T59	Dominant 6427 6452	(Kuznetsova et al., 2012)
+T60	Dominant 6560 6589	(Filippova and Strube, 2008 )
+T61	Dominant 6749 6777	(Filippova and Strube, 2008)
+T62	Dominant 6951 6979	(Filippova and Strube, 2008)
+T63	Pronoun 797 801	this
+T64	Pronoun 1589 1593	this
+T65	Pronoun 1646 1650	they
+T66	Pronoun 2393 2395	It
+T67	Pronoun 2770 2774	they
+T68	Pronoun 2937 2941	they
+T69	Pronoun 2951 2955	they
+T70	Pronoun 2968 2972	this
+T71	Pronoun 3505 3509	this
+T72	Pronoun 3846 3851	their
+T73	Pronoun 4506 4510	this
+T74	Pronoun 4950 4955	these
+T75	Pronoun 4974 4976	it
+T76	Pronoun 5334 5338	they
+T77	Pronoun 5568 5573	their
+T78	Pronoun 5670 5675	their
+T79	Pronoun 5808 5810	it
+T80	Pronoun 6007 6009	It
+T81	Pronoun 6023 6025	it
+T82	Pronoun 6034 6036	it
+T83	Pronoun 6226 6231	their
+T84	B_span 271 277	Entity
+T85	E_span 781 786	facts
+T86	B_span 1013 1015	We
+T87	E_span 1079 1086	methods
+T88	B_span 1120 1125	Cheng
+T89	E_span 1162 1171	summaries
+T90	B_span 1403 1409	graphs
+T91	E_span 1437 1441	2015
+T92	B_span 1840 1843	Our
+T93	E_span 1929 1938	different
+T94	B_span 2464 2467	ILP
+T95	E_span 2540 2544	2015
+T96	B_span 2575 2582	Content
+T97	E_span 3011 3020	relations
+T98	B_span 3634 3643	Lampouras
+T99	E_span 4101 4113	coordination
+T100	B_span 4123 4130	Bouayad
+T101	E_span 4261 4266	facts
+T102	B_span 5217 5218	n
+T103	E_span 5458 5466	coherent
+T104	B_span 5484 5489	Biran
+T105	E_span 5726 5733	triples
+T106	B_span 5773 5781	Barzilay
+T107	E_span 5869 5875	corpus
+T108	B_span 5893 5896	the
+T109	E_span 5993 5997	2016
+T110	B_span 6636 6639	The
+T111	E_span 7158 7165	triples
+T112	B_span 6428 6438	Kuznetsova
+T113	E_span 6551 6555	data
+T114	B_span 6561 6570	Filippova
+T115	E_span 6617 6628	compression
+T116	B_span 2079 2084	Cheng
+T117	E_span 2374 2385	combination

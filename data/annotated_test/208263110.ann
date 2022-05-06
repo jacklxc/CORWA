@@ -1,0 +1,29 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 96 101	[BOS]
+T3	Transition 263 268	[BOS]
+T4	Single_summ 436 441	[BOS]
+T5	Transition 630 635	[BOS]
+T6	Narrative_cite 760 765	[BOS]
+T7	Transition 926 931	[BOS]
+T8	Single_summ 1093 1098	[BOS]
+T9	Single_summ 1257 1262	[BOS]
+T10	Single_summ 1410 1415	[BOS]
+T11	Transition 1649 1654	[BOS]
+T12	Transition 1855 1860	[BOS]
+T13	Dominant 448 466	(Zhu et al., 2018)
+T14	Reference 878 904	(Feldman and ElYaniv, 2019
+T15	Reference 906 923	Das et al., 2019)
+T16	Dominant 1099 1136	Rastogi et al. (Rastogi et al., 2019)
+T17	Dominant 1263 1303	Nogueira et al. (Nogueira and Cho, 2017)
+T18	Dominant 1416 1447	Buck et al. (Buck et al., 2017)
+T19	Pronoun 766 768	It
+T20	B_span 442 447	SDnet
+T21	E_span 621 628	history
+T22	B_span 850 857	machine
+T23	E_span 918 922	2019
+T24	B_span 1099 1106	Rastogi
+T25	E_span 1249 1255	models
+T26	B_span 1263 1271	Nogueira
+T27	E_span 1402 1408	reward
+T28	B_span 1416 1420	Buck
+T29	E_span 1641 1647	system

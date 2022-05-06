@@ -1,0 +1,28 @@
+[BOS] Recently, several MRC datasets have been developed.
+[BOS] The characteristics of each MRC dataset varies, depending on the purpose.
+[BOS] For example, the Childrens Book Test dataset (Hill et al., 2016) was built from books for children, where the 21st sentence that follows the preceeding 20 sentences is employed as a "question."
+[BOS] Additionally, the CNN/Daily dataset (Chen et al., 2016) collects news articles with bullet-pointed summaries, in which each summary is converted into a question.
+[BOS] Among the many MRC datasets, this section introduces two datasets, WIKIQA (Yang et al., 2015) and SQuAD (Rajpurkar et al., 2016) .
+[BOS] Of these, the latter is used in this work.
+[BOS] Additionally, we address potential problems with SQuAD.
+
+[BOS] WIKIQA: WIKIQA is one of the few MRC datasets that contains questions without answers, which is a main concern of this paper.
+[BOS] WIKIQA was created to capture the characteristics of natural queries asked by people in the real world.
+[BOS] Each question in this dataset was taken from a search engine's actual query log, and the corresponding Wikipedia summary paragraph is employed as a text passage, where each of the contained sentences is treated as an answer candidate.
+[BOS] This means that a machine is only required to infer the positive or negative status of each sentence.
+[BOS] This problem can be often solved by only looking at the questions; the ability of reading comprehension is not necessarily required.
+[BOS] WIKIQA maintains 3,047 questions, of which about two thirds are NAQs, as they never have a positive sentence in the corresponding paragraphs.
+[BOS] Moreover, 20.3% of the answers share no content words with the questions, contributing to the elevated difficulty level of the dataset.
+[BOS] Unfortunately, this dataset is relatively small, and the amount of training data is inevitably limited.
+
+[BOS] SQuAD: SQuAD is an MRC dataset accommodating 107,785 question-and-answer (QA) pairs on 536 Wikipedia articles.
+[BOS] A passage is associated with, at most, five QA pairs, and each question has the corresponding answer, forming a span in the associated passage.
+[BOS] The evaluation metrics are exact match (EM) and F1.
+[BOS] An EM score measures the percentage of predictions that match any one of the ground truth answers exactly.
+[BOS] An F1 score is a metric that measures the average overlap between the prediction and the ground truth answer.
+[BOS] Figure 1 , adopted from (Rajpurkar et al., 2016) , exemplifies three QA pairs taken from a paragraph in a Wikipedia article, whose topic is precipitation.
+[BOS] Note that each of the three questions refers to the same passage, and the corresponding answer can be found as a span within the passage.
+[BOS] As detailed in the next section, we create an MRC dataset with NAQs by modifying an existing dataset.
+[BOS] If a good source dataset is properly chosen, this strategy could prevent the shortage of QAs and enjoy the advantages of the existing dataset.
+[BOS] Among the many MRC datasets, we choose SQuAD as the source, because it is a rather large-scaled dataset of the answer-in-the-text style, which functions as a good starting point to pursue the study of genuine machine understanding of a language.
+

@@ -1,0 +1,20 @@
+[BOS] Natural language generation (NLG) module has been gaining importance in wide applications such as dialogue systems (Vinyals and Le, 2015; Shen et al., 2018; Wu et al., 2018; Serban et al., 2017a; Raghu et al., 2018; Li et al., 2016) , question answering systems (Reddy et al., 2017; Duan et al., 2017) , and many other natural language interfaces.
+[BOS] To help the users achieve their desired goals, response generation provides the medium through which a conversational agent is able to communicate with its user.
+[BOS] In (Serban et al., 2017b) , the authors have proposed an hierarchical encoder-decoder model for capturing the dependencies in the utterances of a dialogue.
+[BOS] Conditional auto-encoders have been employed in (Zhao et al., 2017) , that generates diverse replies by capturing discourse-level information in the encoder.
+[BOS] Our work differentiates from these previous works in dialogue generation in a way that we embellish the appropriate response content with courteous phrases and sentences, according to the conversation.
+[BOS] Hence, our system is an accompaniment to any standalone natural language generation system to enhance its acceptability, usefulness and user-friendliness.
+
+[BOS] Emotion classification and analysis (Herzig et al., 2016) in customer support dialogue is important for better understanding of the customer and to provide better customer support.
+[BOS] Lately, a number of works have been done on controlled text generation (Hu et al., 2017; Li et al., 2017; Subramanian et al., 2017; Fedus et al., 2018; in order to generate responses with desired attributes.
+[BOS] Emotion aware text generation (Zhou and Wang, 2018; have gained popularity as it generates responses depending on a specific emotion.
+[BOS] Previous works in conditioned text generation have worked on inducing specific biases and behaviors (Herzig et al., 2017) while generation (like emotion, style, and personality trait).
+[BOS] Our work is different in the sense that it can encompass different emotional states (like joy, excitement, sad-ness, disappointment) and traits (like friendliness, apologetic, thankfulness, empathy), as is the demand of the situation.
+
+[BOS] Style transfer has been an emerging field in natural language processing (NLP).
+[BOS] A couple of works have been done in changing the style of an input text and designing the output text according to some particular styles.
+[BOS] In (Rao and Tetreault, 2018) , a dataset has been introduced for formality style transfer.
+[BOS] Unsupervised text style transfer has encouraged in transforming a given text without parallel data (Shen et al., 2017; Carlson et al., 2017; Fu et al., 2018; Li et al., 2018; Niu and Bansal, 2018) .
+[BOS] Overall our system is novel as it is motivated by the need for inducing specific behavior and style in an existing NLG systems (neural, or template-based) as a means of post editing, by simultaneously being emotionally and contextually consistent.
+[BOS] We have successfully demonstrated this behavior through empirical analysis for a specific application of customer care.
+

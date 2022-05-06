@@ -1,0 +1,55 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 202 207	[BOS]
+T3	Reflection 336 341	[BOS]
+T4	Narrative_cite 441 446	[BOS]
+T5	Transition 749 754	[BOS]
+T6	Transition 997 1002	[BOS]
+T7	Reflection 1174 1179	[BOS]
+T8	Reflection 1259 1264	[BOS]
+T9	Transition 1498 1503	[BOS]
+T10	Transition 1637 1642	[BOS]
+T11	Narrative_cite 1728 1733	[BOS]
+T12	Single_summ 2096 2101	[BOS]
+T13	Single_summ 2265 2270	[BOS]
+T14	Reference 146 175	Johansson and Moschitti, 2013
+T15	Reference 177 199	Yang and Cardie, 2013)
+T16	Reference 293 313	(Zhang and Liu, 2011
+T17	Reference 315 333	Feng et al., 2013)
+T18	Reference 547 570	(Choi and Cardie, 2008)
+T19	Reference 603 623	(Zhang and Liu, 2011
+T20	Reference 625 648	Anand and Reschke, 2010
+T21	Reference 650 674	Reschke and Anand, 2011)
+T22	Reference 726 746	(Goyal et al., 2013)
+T23	Reference 1829 1853	(Punyakanok et al., 2004
+T24	Reference 1855 1878	Punyakanok et al., 2008
+T25	Reference 1880 1897	Das et al., 2012)
+T26	Reference 1951 1969	(Choi et al., 2006
+T27	Reference 1971 1993	Yang and Cardie, 2013)
+T28	Reference 2020 2047	(Denis and Baldridge, 2007)
+T29	Reference 2068 2094	(Martins and Smith, 2009 )
+T30	Dominant 2140 2170	(Somasundaran and Wiebe, 2009)
+T31	Pronoun 770 775	their
+T32	Pronoun 1127 1129	it
+T33	Pronoun 1207 1211	this
+T34	Pronoun 1237 1239	it
+T35	Pronoun 2280 2285	their
+T36	B_span 49 60	classifying
+T37	E_span 194 198	2013
+T38	B_span 273 281	implicit
+T39	E_span 328 332	2013
+T40	B_span 504 508	some
+T41	E_span 565 569	2008
+T42	B_span 573 581	proposes
+T43	E_span 669 673	2011
+T44	B_span 680 689	generates
+T45	E_span 741 745	2013
+T46	B_span 1806 1814	semantic
+T47	E_span 1892 1896	2012
+T48	B_span 1900 1905	joint
+T49	E_span 1988 1992	2013
+T50	B_span 1996 1998	co
+T51	E_span 2042 2046	2007
+T52	B_span 2054 2067	summarization
+T53	E_span 2088 2092	2009
+T54	B_span 2102 2105	The
+T55	E_span 2358 2367	sentences

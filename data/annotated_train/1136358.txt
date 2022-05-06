@@ -1,0 +1,17 @@
+[BOS] Constituency-based and dependency-based parse trees have been explored and applied to improve performance of neural nets for the task of sentiment analysis and semantic relation extraction (Socher et al., 2013; Bowman and Potts, 2015; Tai et al., 2015) .
+[BOS] The focus of these prior studies is on designing new neural network architectures (e.g., tree-structured LSTMs) corresponding to the parse tree structure.
+[BOS] In contrast, our method aims at extracting appropriate event-centered data representations from dependency trees so that the neural net models can effectively concentrate on relevant regions of contexts.
+
+[BOS] Similar to our dependency chains, dependency paths between two nodes in a dependency tree have been widely used as features for various NLP tasks and applications, including relation extraction (Bunescu and Mooney, 2005) , temporal relation identification (Choubey and Huang, 2017) semantic parsing (Moschitti, 2004) and question answering (Cui et al., 2005) .
+[BOS] Differently, our dependency chains are generated with respect to an event word and include words that govern or depend on the event, which therefore are not bounded by two pre-identified nodes in a dependency tree.
+
+[BOS] 3 Dependency Chain Extraction Figure 1 shows the dependency parse tree 1 for the example (1).
+[BOS] To extract the dependency chain for the target event, we have used a two-stage approach to create the chain.
+[BOS] In the first stage, we start from the target event, traverse the dependency parse tree, identify all its direct or indirect governors and dependents and include these words in the chain.
+[BOS] For the example (1), a list of words [launch, describing, protest, their] are included in the dependency chain after the first stage.
+
+[BOS] Then in the second stage, we apply one heuristic rule to extract extra words from the dependency tree.
+[BOS] Specifically, if a word is in a particular dependency relation 2 , aux, auxpass or cop, with a word that is already in the chain after the first stage, then we include this word in the chain as well.
+[BOS] For the example (1), the word "will" is inserted into the dependency chain in the second stage.
+[BOS] The reason we perform this additional step is that context words identified with one of the above three dependency relations usually indicate
+

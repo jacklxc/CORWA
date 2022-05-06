@@ -1,0 +1,24 @@
+[BOS] We are interested in unsupervised topic segmentation in either written or spoken language.
+[BOS] There is a large body of work on unsupervised topic segmentation of text based on lexical cohesion.
+[BOS] It can be characterised by how lexical cohesion is modelled.
+
+[BOS] One branch of this work represents the lexical cohesion in a vector space by exploring the word cooccurrence patterns, e.g., TF or TF-IDF.
+[BOS] Work following this line includes TextTiling (Hearst, 1997) , which calculates the cosine similarity between two adjacent blocks of words purely based on the word frequency; C99 (Choi, 2000) , an algorithm based on divisive clustering with a matrix-ranking scheme; LSeg (Galley et al., 2003) , which uses a lexical chain to identify and weight word repetitions; U00 (Utiyama and Isahara, 2001 ), a probalistic approach using dynamic programming to find a segmentation with a minimum cost; MinCut (Malioutov and Barzilay, 2006) , which casts segmentation as a graph cut problem, and APS (Kazantseva and Szpakowicz, 2011) , which uses affinity propagation to learn clustering for segmentation.
+
+[BOS] The other branch of this work characterises the lexical cohesion using topic models, to which the model introduced in Section 3 belongs.
+[BOS] Lexical cohesion in this line of research is modelled by a probabilistic generative process.
+[BOS] PLDA presented by Purver et al. (2006) is an unsupervised topic modelling approach for segmentation.
+[BOS] It chains a set of LDAs (Blei et al., 2003) by assuming a Markov structure on topic distributions.
+[BOS] A binary topic shift variable is attached to each text passage (i.e., an utterance in (Purver et al., 2006) ).
+[BOS] It is sampled to indicate whether the j th text passage shares the topic distribution with the (j − 1) th passage.
+
+[BOS] Using a similar Markov structure, SITS (Nguyen et al., 2012) chains a set of HDP-LDAs .
+[BOS] Unlike PLDA, SITS assumes each text passage is associated with a speaker identity that is attached to the topic shift variable as supervising in-formation.
+[BOS] SITS further assumes speakers have different topic change probabilities that work as priors on topic shift variables.
+[BOS] Instead of assuming documents in a dataset share the same set of topics, Bayesseg (Eisenstein and Barzilay, 2008) treats words in a segment generated from a segment specific multinomial language model, i.e., it assumes each segment is generated from one topic, and a later hierarchical extension (Eisenstein, 2009) assumes each segment is generated from one topic or its parents.
+[BOS] Other methods using as input the output of topic models include (Sun et al., 2008) , (Misra et al., 2009) , and (Riedl and Biemann, 2012) .
+
+[BOS] In this paper we take a generative approach lying between PLDA and SITS.
+[BOS] In contrast to PLDA, which uses a flat topic model (i.e., LDA), we assume each text has a latent topic structure that can reflect the topic coherence pattern, and the model adapts its parameters to the segments to further improve performance.
+[BOS] Unlike SITS that targets analysing multiparty meeting transcripts, where speaker identities are available, we are interested in more general texts and assume each text has a specific topic change probability, since (1) the identity information is not always available for all kinds of texts (e.g., continuous broadcast news transcripts (Allan et al., 1998) ), (2) even for the same author, topic change probabilities for his/her different articles might be different.
+

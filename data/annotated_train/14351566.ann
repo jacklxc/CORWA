@@ -1,0 +1,40 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 82 87	[BOS]
+T3	Narrative_cite 231 236	[BOS]
+T4	Narrative_cite 518 523	[BOS]
+T5	Single_summ 814 819	[BOS]
+T6	Narrative_cite 914 919	[BOS]
+T7	Single_summ 1149 1154	[BOS]
+T8	Narrative_cite 1295 1300	[BOS]
+T9	Transition 1746 1751	[BOS]
+T10	Narrative_cite 1855 1860	[BOS]
+T11	Reference 308 330	(Hermann et al., 2015)
+T12	Reference 551 570	(Chen et al., 2016)
+T13	Dominant 820 844	Richardson et al. (2013)
+T14	Dominant 1127 1147	(Chen et al., 2016 )
+T15	Dominant 1182 1201	(Hill et al., 2015)
+T16	Reference 1322 1347	(Sukhbaatar et al., 2015)
+T17	Dominant 1620 1638	Hill et al. (2015)
+T18	Reference 1935 1954	(Lowe et al., 2015)
+T19	Pronoun 6 10	This
+T20	Pronoun 133 137	this
+T21	Pronoun 573 577	this
+T22	Pronoun 929 933	this
+T23	Pronoun 1752 1756	This
+T24	Pronoun 1824 1828	this
+T25	B_span 293 296	CNN
+T26	E_span 325 329	2015
+T27	B_span 524 531	However
+T28	E_span 565 569	2016
+T29	B_span 820 830	Richardson
+T30	E_span 906 912	MCTest
+T31	B_span 1097 1108	statistical
+T32	E_span 1141 1145	2016
+T33	B_span 1155 1165	Children's
+T34	E_span 1286 1293	context
+T35	B_span 1301 1308	Despite
+T36	E_span 1342 1346	2015
+T37	B_span 1601 1608	complex
+T38	E_span 1633 1637	2015
+T39	B_span 1911 1917	dialog
+T40	E_span 1949 1953	2015

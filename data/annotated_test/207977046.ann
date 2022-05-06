@@ -1,0 +1,57 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 175 180	[BOS]
+T3	Single_summ 483 488	[BOS]
+T4	Transition 632 637	[BOS]
+T5	Single_summ 783 788	[BOS]
+T6	Narrative_cite 1012 1017	[BOS]
+T7	Single_summ 1047 1052	[BOS]
+T8	Narrative_cite 1241 1246	[BOS]
+T9	Transition 1521 1526	[BOS]
+T10	Transition 1577 1582	[BOS]
+T11	Single_summ 1684 1689	[BOS]
+T12	Reflection 1797 1802	[BOS]
+T13	Reflection 1933 1938	[BOS]
+T14	Reflection 2014 2019	[BOS]
+T15	Reflection 2109 2114	[BOS]
+T16	Other 2290 2295	[BOS]
+T17	Other 2454 2459	[BOS]
+T18	Other 2734 2739	[BOS]
+T19	Other 2827 2832	[BOS]
+T20	Other 2913 2918	[BOS]
+T21	Other 3011 3016	[BOS]
+T22	Other 3242 3247	[BOS]
+T23	Other 3320 3325	[BOS]
+T24	B_span 247 253	Latent
+T25	E_span 294 298	2011
+T26	Reference 279 298	Mohler et al., 2011
+T29	Reference 379 400	Pedersen et al., 2004
+T30	Reference 404 424	Magooda et al., 2016
+T28	E_span 420 424	2016
+T31	B_span 428 432	word
+T32	E_span 475 479	2016
+T33	Reference 460 479	Sultan et al., 2016
+T27	B_span 302 306	edit
+T34	Dominant 499 520	Riordan et al. (2017)
+T35	B_span 499 506	Riordan
+T36	E_span 627 630	SAG
+T37	Dominant 792 815	Sakaguchi et al. (2015)
+T38	B_span 792 801	Sakaguchi
+T39	E_span 1005 1010	model
+T40	B_span 860 864	BLEU
+T41	E_span 883 887	2002
+T42	Reference 866 887	Papineni et al., 2002
+T43	Reference 1018 1044	Ramachandran et al. (2015)
+T44	B_span 1018 1030	Ramachandran
+T45	E_span 1039 1043	2015
+T46	Dominant 1053 1078	Ramachandran et al. (2015
+T47	B_span 1053 1065	Ramachandran
+T48	E_span 1232 1239	pattern
+T49	B_span 1358 1364	neural
+T50	E_span 1415 1419	2017
+T51	Reference 1399 1419	Riordan et al., 2017
+T52	B_span 1690 1697	Horbach
+T53	E_span 1786 1795	instances
+T54	Dominant 1690 1714	Horbach and Palmer (2016
+T55	B_span 533 539	neural
+T56	E_span 604 608	2016
+T57	Reference 586 608	Taghipour and Ng, 2016

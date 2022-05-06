@@ -1,0 +1,50 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 128 133	[BOS]
+T3	Narrative_cite 361 366	[BOS]
+T4	Narrative_cite 564 569	[BOS]
+T5	Transition 806 811	[BOS]
+T6	Reflection 939 944	[BOS]
+T7	Reflection 1060 1065	[BOS]
+T8	Transition 1227 1232	[BOS]
+T9	Transition 1312 1317	[BOS]
+T10	Narrative_cite 1451 1456	[BOS]
+T11	Narrative_cite 1523 1528	[BOS]
+T12	Reference 106 125	(Shen et al., 2017)
+T13	Reference 213 237	Clark and Gardner, 2017)
+T14	Reference 313 337	Swayamdipta et al., 2018
+T15	Reference 339 358	Wang et al., 2018a)
+T16	Reference 468 487	Wang et al. (2018b)
+T17	Reference 637 654	(Yu et al., 2017)
+T18	Reference 724 746	(Bradbury et al., 2017
+T19	Reference 748 764	Seo et al., 2018
+T20	Reference 766 785	Campos et al., 2018
+T21	Reference 787 803	Yu et al., 2018)
+T22	Reference 1457 1476	(Welbl et al., 2017
+T23	Reference 1478 1497	Wadhwa et al., 2018
+T24	Reference 1499 1519	Koisky et al., 2017)
+T25	Reference 1654 1671	(Ba et al., 2015)
+T26	Reference 1704 1722	(Das et al., 2018)
+T27	Reference 1749 1773	(Nogueira and Cho, 2016)
+T28	Pronoun 881 886	these
+T29	Pronoun 948 952	this
+T30	Pronoun 1318 1323	These
+T31	B_span 83 87	fast
+T32	E_span 120 124	2017
+T33	B_span 198 207	processed
+T34	E_span 232 236	2017
+T35	B_span 257 262	cheap
+T36	E_span 352 357	2018a
+T37	B_span 403 410	trained
+T38	E_span 481 486	2018b
+T39	B_span 619 629	sequential
+T40	E_span 649 653	2017
+T41	B_span 670 679	recurrent
+T42	E_span 798 802	2018
+T43	B_span 1458 1463	Welbl
+T44	E_span 1514 1518	2017
+T45	B_span 1648 1653	image
+T46	E_span 1666 1670	2015
+T47	B_span 1689 1698	knowledge
+T48	E_span 1717 1721	2018
+T49	B_span 1728 1737	documents
+T50	E_span 1768 1772	2016

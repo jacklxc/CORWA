@@ -1,0 +1,22 @@
+[BOS] Our work is related to broader work in training neural machine translation models in low-resource settings, work examining effective methods for applying noise to text, as well as work in style transfer.
+
+[BOS] Machine translation Much work in style transfer builds off of work in neural machine translation, in particular recent work on machine translation without parallel data using only a dictionary or aligned word embeddings (Lample et al., 2017; Artetxe et al., 2017) .
+[BOS] These approaches also use backtranslation while introducing token-level corruptions to avoid the problem of copying during an initial autoencoder training phase.
+[BOS] They additionally use an initial dictionary or embedding alignments which may be infeasible to collect for many style transfer tasks.
+[BOS] Finally, our work also draws from work on zero-shot translation between languages given parallel corpora with a pivot language (Johnson et al., 2017) .
+
+[BOS] Noising and denoising To our knowledge, there has been no prior work formulating style transfer as a denoising task outside of using token corruptions to avoid copying between source and target.
+[BOS] Our style transfer method borrows techniques from the field of noising and denoising to correct errors in text.
+[BOS] We apply the noising technique in Xie et al. (2018) that requires an initial noise seed corpus instead of dictionaries or aligned embeddings.
+[BOS] Similar work for using noise to create a parallel corpus includes Ge et al. (2018) .
+
+[BOS] Style transfer Existing work for style transfer often takes the approach of separating content and style, for example by encoding a sentence into some latent space (Bowman et al., 2015; Hu et al., 2017; Shen et al., 2017) and then modifying or augmenting that space towards a different style.
+[BOS] Hu et al. (2017) base their method on variational autoencoders (Kingma and Welling, 2014), while Shen et al. (2017) instead propose two constrained variants of the autoencoder.
+[BOS] Yang et al. (2018) use language models as discriminators instead of a binary classifier as they hypothesize language models provide better training signal for the generator.
+[BOS] In the work perhaps most similar to the method we describe here, Prabhumoye et al. (2018) treat style transfer as a backtranslation problem, using a pivot language to first transform the original text to another language, then encoding the translation to a latent space where they use adversarial techniques to preserve content while removing style.
+
+[BOS] However, such generative models often struggle to produce high-quality outputs.
+[BOS] Li et al. (2018) instead approaches the style transfer task by observing that there are often specific phrases that define the attribute or style of the text.
+[BOS] Their model segments in each sentence the specific phrases associated with the source style, then use a neural network to generate the target sentence with replacement phrases associated with the target style.
+[BOS] While they produce higher quality outputs than previous methods, this method requires manual annotation and may be more limited in capturing rich syntactic differences beyond the annotated phrases.
+

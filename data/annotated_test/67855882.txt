@@ -1,0 +1,24 @@
+[BOS] Several approaches to discontinuous constituency parsing have been proposed.
+[BOS] Hall and Nivre (2008) reduces the problem to non-projective dependency parsing, via a reversible transformation, a strategy developed by Fernndez-Gonzlez and Martins (2015) and Corro et al. (2017) .
+[BOS] Chart parsers are based on probabilistic Linear Context-Free Rewriting Systems (LCFRS) (Evang and Kallmeyer, 2011; Kallmeyer and Maier, 2010) , the Data-Oriented Parsing (DOP) framework (van Cranenburgh and Bod, 2013; van Cranenburgh et al., 2016) , or pseudo-projective parsing (Versley, 2016) .
+[BOS] Some transition-based discontinuous constituency parsers use the swap action, adapted from dependency parsing (Nivre, 2009 ) either with an easy-first strategy (Versley, 2014a,b) or with a shift-reduce strategy (Maier, 2015; Maier and Lichte, 2016; Stanojevi and Garrido Alhama, 2017) .
+[BOS] Nevertheless, the swap strategy tends to produce long derivations (in number of actions) to construct discontinuous constituents; as a result, the choice of an oracle that minimizes the number of swap actions has a substantial positive effect in accuracy (Maier and Lichte, 2016; Stanojevi and Garrido Alhama, 2017) .
+
+[BOS] In contrast, Coavoux and Crabb (2017a) extended a shift-reduce transition system to handle discontinuous constituents.
+[BOS] Their system allows binary reductions to apply to the top element in the stack, and any other element in the stack (instead of the two top elements in standard shift-reduce parsing).
+[BOS] The second constituent for a reduction is chosen dynamically, with an action called GAP that gives access to older elements in the stack and can be performed several times before a reduction.
+[BOS] In practice, they made the following modifications over a standard shift-reduce system: 1.
+[BOS] The stack, that stores subtrees being constructed, is split into two parts S and D;
+
+[BOS] 2. reductions are applied to the respective tops of S and D;
+
+[BOS] 3. the GAP action pops an element from S and adds it to D, making the next element of S available for a reduction.
+
+[BOS] Their parser outperforms swap-based systems.
+[BOS] However, they only experiment with a linear classifier, and assume access to gold part-of-speech (POS) tags for most of their experiments.
+[BOS] All these proposals use a lexicalized model, as defined in the introduction: they assign heads to new constituents and use them as features to inform parsing decisions.
+[BOS] Previous work on unlexicalized transition-based parsing models only focused on projective constituency trees (Dyer et al., 2016; Liu and Zhang, 2017) .
+[BOS] In particular, Cross and Huang (2016b) introduced a system that does not require explicit binarization.
+[BOS] Their system decouples the construction of a tree and the labeling of its nodes by assigning types (structure or label) to each action, and alternating between a structural action for even steps and labeling action for odd steps.
+[BOS] This distinction arguably makes each decision simpler.
+

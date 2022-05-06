@@ -1,0 +1,70 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 224 229	[BOS]
+T3	Narrative_cite 395 400	[BOS]
+T4	Transition 580 585	[BOS]
+T5	Reflection 730 735	[BOS]
+T6	Reflection 865 870	[BOS]
+T7	Transition 1091 1096	[BOS]
+T8	Narrative_cite 1203 1208	[BOS]
+T9	Single_summ 1856 1861	[BOS]
+T10	Single_summ 2028 2033	[BOS]
+T11	Narrative_cite 2248 2253	[BOS]
+T12	Narrative_cite 2482 2487	[BOS]
+T13	Reflection 2726 2731	[BOS]
+T14	Reference 109 125	(Xu et al., 2008
+T15	Reference 127 151	Suzuki and Isozaki, 2008
+T16	Reference 153 177	Haffari and Sarkar, 2008
+T17	Reference 179 201	Tomanek and Hahn, 2009
+T18	Reference 203 221	Wang et al., 2011)
+T19	Reference 478 497	(Zhao and Kit, 2008
+T20	Reference 499 526	Johnson and Goldwater, 2009
+T21	Reference 528 551	Mochihashi et al., 2009
+T22	Reference 553 578	Hewlett and Cohen, 2011 )
+T23	Reference 1296 1318	(Zhang and Clark, 2007
+T24	Reference 1320 1342	Zhang and Clark, 2010)
+T25	Reference 1391 1402	(Zhao, 2009
+T26	Reference 1404 1413	Li, 2011)
+T27	Reference 1476 1485	(Wu, 2003
+T28	Reference 1487 1503	Gao et al., 2004
+T29	Reference 1505 1524	Jiang et al., 2009)
+T30	Reference 1628 1646	(Zhou and Su, 2003
+T31	Reference 1648 1666	Zhang et al., 2003
+T32	Reference 1668 1685	Fung et al., 2004
+T33	Reference 1687 1715	Goldberg and Tsarfaty, 2008)
+T34	Reference 1767 1795	(Nakagawa and Uchimoto, 2007
+T35	Reference 1797 1820	Kruengkrai et al., 2009
+T36	Reference 1822 1839	Wang et al., 2010
+T37	Reference 1841 1852	Sun, 2011b)
+T38	Dominant 1874 1900	Pereira and Schabes (1992)
+T39	Reference 2391 2414	(Nakov and Hearst, 2005
+T40	Reference 2416 2435	Pitler et al., 2010
+T41	Reference 2437 2454	Zhou et al., 2011
+T42	Reference 2456 2479	Bansal and Klein, 2011)
+T43	Reference 2574 2599	(Spitkovsky et al., 2010)
+T44	Pronoun 354 356	it
+T45	Pronoun 489 491	it
+T46	Pronoun 871 873	It
+T47	Pronoun 2034 2036	It
+T48	Pronoun 2109 2111	it
+T49	Pronoun 2132 2134	it
+T50	Pronoun 2746 2751	their
+T51	B_span 69 77	sequence
+T52	E_span 216 220	2011
+T53	B_span 460 464	word
+T54	E_span 572 576	2011
+T55	B_span 1256 1262	global
+T56	E_span 1337 1341	2010
+T57	B_span 1349 1362	investigation
+T58	E_span 1408 1412	2011
+T59	B_span 1420 1430	adjustment
+T60	E_span 1519 1523	2009
+T61	B_span 1531 1541	integrated
+T62	E_span 1710 1714	2008
+T63	B_span 1726 1736	strategies
+T64	E_span 1846 1851	2011b
+T65	B_span 1862 1864	In
+T66	E_span 2242 2246	text
+T67	B_span 2331 2334	raw
+T68	E_span 2474 2478	2011
+T69	B_span 2555 2565	dependency
+T70	E_span 2594 2598	2010

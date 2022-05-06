@@ -1,0 +1,16 @@
+[BOS] The core idea of using the Bible as parallel data in low-resource settings is largely inspired by previous work.
+[BOS] The Bible has been used as a means of alignment for cross-lingual projection, both for POS tagging (Agic et al., 2015) and for dependency parsing (Agic et al., 2016) , as well as for base noun-phrase bracketing, named-entity tagging, and morphological analysis (Yarowsky et al., 2001 ) with promising results.
+[BOS] Peters et al. (2018) introduce ELMo embeddings, contextual word embeddings which incorporate character-level information using a CNN.
+
+[BOS] Both of these properties -sensitivity to context and the ability to capture sub-word informationmake contextual embeddings suitable for the task at hand.
+
+[BOS] In order to make embeddings useful across languages, we need a method for aligning embedding spaces across languages.
+[BOS] Ruder et al. (2017) provide an excellent survey of methods for aligning embedding spaces.
+[BOS] Mikolov et al. (2013a) introduce a translation matrix for aligning embeddings spaces in different languages and show how this is useful for machine translation purposes.
+[BOS] We adopt this approach to do alignment at the verse level.
+[BOS] Alignment with contextual embeddings is more complicated, since the embeddings are dynamic by their very nature (different across different contexts).
+[BOS] In order to align these dynamic embeddings, Schuster et al. (2019) introduce a number of methods, however they all require either a supervised dictionary for each language, or access to the MUSE framework for alignment, neither of which we assume in our work.
+
+[BOS] The UniMorph 2.0 data-set (Kirov et al., 2018) provides resources for morphosyntactic analysis across 111 different languages.
+[BOS] The work described here uses the tag set from UniMorph.
+

@@ -1,0 +1,15 @@
+[BOS] Unsupervised Machine Translation Studies on unsupervised methods have been conducted for both NMT (Lample et al., 2018; Marie and Fujita, 2018) and SMT (Artetxe et al., 2018b Table 4 : Error types for which our best system corrected errors well or mostly did not correct on the dev data.
+[BOS] Top2 denotes the top two errors, and Bottom2 denotes the lowest two errors in terms of the F 0.5 10 .
+
+[BOS] this study, we apply the USMT method of Artetxe et al. (2018b) and Marie and Fujita (2018) to GEC.
+[BOS] The UNMT method (Lample et al., 2018) was ineffective under the GEC setting in our preliminary experiments.
+
+[BOS] GEC with NMT/SMT Several studies that introduce sequence-to-sequence models in GEC heavily rely on large amounts of training data.
+[BOS] Ge et al. (2018) , who presented state-of-the-art results in GEC, proposed a supervised NMT method trained on corpora of a total 5.4 M sentence pairs.
+[BOS] We mainly use the monolingual corpus because the low resource track does not permit the use of the learner corpora.
+[BOS] Despite the success of NMT, many studies on GEC traditionally use SMT (Susanto et al., 2014; Junczys-Dowmunt and Grundkiewicz, 2014) .
+[BOS] These studies apply an offthe-shelf SMT toolkit, Moses, to GEC.
+[BOS] JunczysDowmunt and Grundkiewicz (2014) claimed that the SMT system optimized for BLEU learns to not change the source sentence.
+[BOS] Instead of BLEU, they proposed tuning an SMT system using the M 2 score with annotated development data.
+[BOS] In this study, we also tune the weights with an F 0.5 score measured by the M 2 scorer because the official score is an F 0.5 score.
+

@@ -1,0 +1,17 @@
+T1	Reflection 0 5	[BOS]
+T2	Transition 226 231	[BOS]
+T3	Narrative_cite 565 570	[BOS]
+T4	Multi_summ 666 671	[BOS]
+T5	Single_summ 823 828	[BOS]
+T6	Transition 936 941	[BOS]
+T7	B_span 575 580	FEVER
+T8	E_span 658 662	2019
+T9	Reference 617 637	Thorne et al., 2018;
+T10	Reference 638 662	Thorne and Vlachos, 2019
+T11	B_span 698 707	TwoWingOS
+T13	Dominant 709 727	Yin and Roth, 2018
+T15	E_span 815 821	method
+T16	Dominant 742 761	Popat et al., 2018)
+T17	Dominant 829 845	Ma et al. (2019)
+T18	B_span 829 831	Ma
+T19	E_span 929 934	tuned

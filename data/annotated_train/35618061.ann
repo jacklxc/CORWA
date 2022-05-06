@@ -1,0 +1,41 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 327 332	[BOS]
+T3	Narrative_cite 893 898	[BOS]
+T4	Narrative_cite 1146 1151	[BOS]
+T5	Reflection 1318 1323	[BOS]
+T6	Narrative_cite 1580 1585	[BOS]
+T7	Reflection 1739 1744	[BOS]
+T8	Reflection 1996 2001	[BOS]
+T9	Reference 69 89	(Kgebck et al., 2014
+T10	Reference 91 107	Cao et al., 2015
+T11	Reference 109 126	Yin and Pei, 2015
+T12	Reference 128 145	Cao et al., 2016)
+T13	Reference 276 299	(Cheng and Lapata, 2016
+T14	Reference 301 324	Nallapati et al., 2017)
+T15	Reference 628 646	(Wang et al., 2016
+T16	Reference 668 691	(Cheng and Lapata, 2016
+T17	Reference 693 716	Nallapati et al., 2017)
+T18	Reference 974 991	(Sun et al., 2005
+T19	Reference 993 1011	Svore et al., 2007
+T20	Reference 1013 1038	Woodsend and Lapata, 2010
+T21	Reference 1040 1063	Cheng and Lapata, 2016)
+T22	Reference 1269 1292	(Filippova et al., 2009
+T23	Reference 1294 1315	Parveen et al., 2016)
+T24	Reference 1698 1716	Liu et al., , 2016
+T25	Pronoun 911 915	this
+T26	Pronoun 2002 2006	This
+T27	B_span 38 44	neural
+T28	E_span 140 144	2016
+T29	B_span 251 255	news
+T30	E_span 319 323	2017
+T31	Reference 648 665	Yang et al., 2016
+T32	B_span 587 596	attention
+T33	E_span 711 715	2017
+T34	B_span 943 953	artificial
+T35	E_span 1058 1062	2016
+T36	B_span 1209 1215	domain
+T37	E_span 1310 1314	2016
+T38	Reference 1680 1696	Liu et al., 2015
+T39	Reference 1717 1735	Firat et al., 2016
+T40	B_span 1666 1669	NLP
+T41	E_span 1731 1735	2016

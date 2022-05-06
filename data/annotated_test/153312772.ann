@@ -1,0 +1,69 @@
+T1	Single_summ 0 5	[BOS]
+T2	Multi_summ 168 173	[BOS]
+T3	Multi_summ 394 399	[BOS]
+T4	Multi_summ 577 582	[BOS]
+T5	Transition 697 702	[BOS]
+T6	Single_summ 776 781	[BOS]
+T7	Single_summ 881 886	[BOS]
+T8	Multi_summ 1012 1017	[BOS]
+T9	Single_summ 1153 1158	[BOS]
+T10	Narrative_cite 1278 1283	[BOS]
+T11	Single_summ 1497 1502	[BOS]
+T12	Single_summ 1584 1589	[BOS]
+T13	Reflection 1687 1692	[BOS]
+T14	Reflection 1800 1805	[BOS]
+T15	Reflection 1954 1959	[BOS]
+T16	Reflection 2072 2077	[BOS]
+T17	Single_summ 2181 2186	[BOS]
+T18	Single_summ 2369 2374	[BOS]
+T19	Reflection 2468 2473	[BOS]
+T20	Single_summ 2669 2674	[BOS]
+T21	Reflection 2824 2829	[BOS]
+T22	Dominant 55 73	Zoph et al. (2016)
+T23	Dominant 174 198	Nguyen and Chiang (2017)
+T24	Dominant 203 225	Kocmi and Bojar (2018)
+T25	Reference 513 531	(Dong et al., 2015
+T26	Reference 533 553	Johnson et al., 2017
+T27	Reference 555 574	Firat et al., 2016)
+T28	Dominant 803 825	Alkhouli et al. (2014)
+T29	Dominant 1018 1040	Artetxe et al. (2018b)
+T30	Dominant 1045 1065	Lample et al. (2018)
+T31	Dominant 1159 1175	Qi et al. (2018)
+T32	Reference 1396 1418	(Artetxe et al., 2018b
+T33	Reference 1420 1439	Lample et al., 2018
+T34	Dominant 1503 1523	Neubig and Hu (2018)
+T35	Dominant 2187 2210	Platanios et al. (2018)
+T36	Dominant 2675 2693	Wang et al. (2019)
+T37	Pronoun 302 306	this
+T38	Pronoun 583 588	Their
+T39	Pronoun 641 643	it
+T40	Pronoun 656 661	their
+T41	Pronoun 853 855	it
+T42	Pronoun 1077 1082	their
+T43	Pronoun 1447 1451	they
+T44	Pronoun 1486 1490	this
+T45	Pronoun 1590 1594	They
+T46	Pronoun 1806 1810	They
+T47	Pronoun 2375 2379	They
+T48	Pronoun 2393 2395	it
+T49	Pronoun 2830 2835	Their
+T51	E_span 161 166	units
+T50	B_span 6 14	Transfer
+T52	B_span 174 175	N
+T53	E_span 390 391	e
+T54	B_span 400 403	Mul
+T55	E_span 686 694	language
+T56	B_span 785 788	phr
+T57	E_span 1003 1010	p of it
+T58	B_span 1018 1025	Artetxe
+T59	E_span 1141 1151	embeddings
+T60	B_span 1159 1161	Qi
+T61	E_span 1269 1275	setups
+T63	E_span 1435 1439	2018
+T64	B_span 1503 1509	Neubig
+T65	E_span 1681 1685	pair
+T66	B_span 2187 2196	Platanios
+T67	E_span 2464 2466	it
+T68	B_span 2675 2679	Wang
+T69	E_span 2814 2822	concepts
+T62	B_span 1284 1294	Artificial

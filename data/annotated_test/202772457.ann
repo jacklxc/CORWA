@@ -1,0 +1,81 @@
+T1	Multi_summ 0 5	[BOS]
+T2	Narrative_cite 296 301	[BOS]
+T3	Single_summ 591 596	[BOS]
+T4	Single_summ 781 786	[BOS]
+T5	Multi_summ 974 979	[BOS]
+T6	Single_summ 1139 1144	[BOS]
+T7	Single_summ 1263 1268	[BOS]
+T8	Reflection 1440 1445	[BOS]
+T9	Narrative_cite 1645 1650	[BOS]
+T10	Transition 2080 2085	[BOS]
+T11	Narrative_cite 2155 2160	[BOS]
+T12	Single_summ 2437 2442	[BOS]
+T13	Reflection 2530 2535	[BOS]
+T14	Dominant 46 73	(Gildea and Jurafsky, 2002)
+T15	Reference 223 249	(Carreras and Mrquez, 2005
+T16	Reference 251 272	Surdeanu et al., 2008
+T17	Reference 274 292	Haji et al., 2009)
+T18	Reference 429 453	(FitzGerald et al., 2015
+T19	Reference 455 476	Roth and Lapata, 2016
+T20	Reference 478 495	Qian et al., 2017
+T21	Reference 568 586	Zhou and Xu (2015)
+T22	Dominant 597 619	Roth and Lapata (2016)
+T23	Dominant 796 812	He et al. (2017)
+T24	Dominant 1042 1059	Xia et al. (2019)
+T25	Dominant 1174 1191	Tan et al. (2017)
+T26	Dominant 1269 1291	Strubell et al. (2018)
+T27	Reference 1622 1641	(Shaw et al., 2018)
+T28	Reference 1754 1775	(Palmer et al., 2005)
+T29	Reference 1789 1811	(Meyers et al., 2004 )
+T30	Reference 1846 1872	(Carreras and Mrquez, 2005
+T31	Reference 1888 1907	(Haji et al., 2009)
+T32	Reference 1947 1972	(Weischedel et al., 2011)
+T33	Reference 2046 2066	(Baker et al., 1998)
+T34	Reference 2296 2320	(Banarescu et al., 2013)
+T35	Reference 2359 2379	(White et al., 2016)
+T36	Reference 2414 2434	(Oepen et al., 2015)
+T37	Dominant 2443 2469	Abend and Rappoport (2017)
+T38	B_span 6 17	Traditional
+T39	B_span 204 207	CoN
+T40	E_span 200 203	the
+T41	E_span 291 292	)
+T42	B_span 407 416	syntactic
+T43	E_span 491 495	2017
+T45	E_span 585 586	)
+T46	B_span 597 601	Roth
+T47	E_span 779 780	.
+T48	B_span 796 798	He
+T49	E_span 972 973	.
+T50	B_span 1042 1045	Xia
+T51	E_span 1136 1137	.
+T52	B_span 1172 1173	,
+T53	E_span 1261 1262	.
+T54	B_span 1269 1272	Str
+T55	E_span 1438 1439	.
+T56	B_span 1549 1550	a
+T57	E_span 1640 1641	)
+T58	B_span 1745 1749	Prop
+T59	E_span 1774 1775	)
+T60	B_span 1780 1783	Nom
+T61	E_span 1810 1811	)
+T62	B_span 1835 1838	CoN
+T63	E_span 1868 1872	2005
+T64	B_span 1877 1880	CoN
+T65	E_span 1906 1907	)
+T66	B_span 1925 1929	Onto
+T67	E_span 1971 1972	)
+T68	B_span 2037 2042	Frame
+T69	E_span 2065 2066	)
+T70	B_span 2264 2272	abstract
+T71	E_span 2319 2320	)
+T72	B_span 2323 2332	universal
+T73	E_span 2378 2379	)
+T74	B_span 2386 2394	semantic
+T75	E_span 2433 2434	)
+T76	B_span 2443 2446	Abe
+T77	E_span 2528 2529	.
+T78	Pronoun 856 860	they
+T79	Pronoun 1456 1461	their
+T80	Pronoun 2172 2177	these
+T81	Pronoun 2539 2543	this
+T44	B_span 506 510	pure

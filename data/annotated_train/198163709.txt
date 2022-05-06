@@ -1,0 +1,25 @@
+[BOS] SRL can be seen as either a classification or sequence labeling problem.
+[BOS] The earlier research on SRL was conducted with the classification approach, meaning that each argument is being predicted independently from the others.
+[BOS] Those research focused on how to extract meaningful features out of syntactic parsers (Gildea and Jurafsky, 2002; Gildea and Palmer, 2002; Pradhan et al., 2005) , such as the path to predicate and constituent type.
+[BOS] This syntactic information plays a pivotal role in solving SRL problem (Punyakanok et al., 2008) as it addresses SLR's long distance dependency.
+[BOS] Thus, traditional SRL system heavily depends on the quality of the parsers.
+[BOS] Pradhan et al. (2005) analyzes that most errors of the SRL system were caused by the parser's error.
+[BOS] In addition, those parsers are costly to build, since it needs linguistic experts to annotate the data.
+[BOS] If we want to create an SRL system on another language, one should build a new parser all over again for it.
+
+[BOS] In order to minimize the number of hand-crafted features, Collobert et al. (2011) utilized deep learning for solving NLP tasks including Part-of-Speech (POS) Tagging, Chunking, Named Entity Recognition (NER), and Semantic Role Labeling (SRL).
+[BOS] The research aims to prevent using any task-specific feature in order to achieve state-of-the-art performance.
+[BOS] The word embedding is used as the main feature across tasks, combined with Convolutional Neural Networks (CNN) architecture to train the model.
+[BOS] To achieve competitive result for the SRL, the features engineered from the parser are still needed.
+[BOS] Zhou and Xu (2015) and He et al. (2017) view SRL as a sequence labeling problem in which the arguments are labeled sequentially instead of independently.
+[BOS] They proposed an end-to-end learning of SRL using Deep Bi-Directional Long Short-Term Memories (DB-LSTM), with word embedding as the main feature.
+[BOS] Their analysis suggests that the DB-LSTM model implicitly extracts the syntactic information over the sentences and thus, syntactic parser is not needed.
+[BOS] The research result outperforms the previous state-of-the-art traditional SLR systems.
+[BOS] The research also shows that the performance of the sequence labeling approach using DB-LSTM is better than the classification approach using CNN, since the DB-LSTM architecture can extract syntactic information implicitly.
+
+[BOS] A few number of works on conversational language explore SRL task in the context of Spoken Language Understanding.
+[BOS] Coppola et al. (2009) exploits machine learning of frame semantics on spoken dialogs.
+[BOS] They design and evaluate automatic FrameNet-based parsers both for English written texts and for Italian dialog utterances.
+[BOS] Dinarelli et al. (2009) describe and analyze the annotation process in order to train semantic statistical parsers.
+[BOS] Spoken conversations from both a human-machine and a human-human spoken dialog corpus are semantically annotated with predicate argument structure.
+

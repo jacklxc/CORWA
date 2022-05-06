@@ -1,0 +1,29 @@
+[BOS] We regard source and target words that cannot be paired with each other as unrelated words.
+[BOS] Figure 2(c) shows an example of a pair of unrelated words.
+[BOS] This category is mainly composed of lowfrequency words, such as misspelled words, special characters, and foreign words.
+[BOS] In standard NMT, the embeddings of low-frequency words are usually inadequately trained, resulting in a poor word representation.
+[BOS] These words are often treated as noises and they are generally ignored
+
+[BOS] The example of assembling the source word embedding matrix.
+[BOS] The words in parentheses denote the paired words sharing features with them.
+
+[BOS] by the NMT systems .
+[BOS] Motivated by the frequency clustering methods proposed by Chen et al. (2016) where they cluster the words with similar frequency for training a hierarchical language model, in this work, we propose to use a small vector to model the possible features that might be shared between the source and target words which are unrelated but having similar word frequencies.
+[BOS] In addition, it can be regarded as a way to improve the robustness of learning the embeddings of low-frequency words because of the noisy dimensions .
+
+[BOS] Many previous works focus on improving the word representations of NMT by capturing the fine-grained (character) or coarse-grained (sub-word) monolingual characteristics, such as character-based NMT (Costa-Juss and Fonollosa, 2016; Ling et al., 2015; Cho et al., 2014; Chen et al., 2016) , sub-word NMT (Sennrich et al., 2016b; Johnson et al., 2017; Ataman and Federico, 2018) , and hybrid NMT (Luong and Manning, 2016) .
+[BOS] They effectively consider and utilize the morphological information to enhance the word representations.
+[BOS] Our work aims to enhance word representations through the bilingual features that are cooperatively learned by the source and target words.
+
+[BOS] Recently, Gu et al. (2018) propose to use the pre-trained target (English) embeddings as a universal representation to improve the representation learning of the source (low-resource) languages.
+
+[BOS] In our work, both the source and target embeddings can make use of the common representation unit, i.e. the source and target embedding help each other to learn a better representation.
+
+[BOS] The previously proposed methods have shown the effectiveness of integrating prior word alignments into the attention mechanism (Mi et al., 2016; Cheng et al., 2016; , leading to more accurate and adequate translation results with the assistance of prior guidance.
+[BOS] We provide an alternative that integrates the prior alignments through the sharing of features, which can also leads to a reduction of model parameters.
+[BOS] Kuang et al. (2018) propose to shorten the path length between the related source and target embeddings to enhance the embedding layer.
+[BOS] We believe that the shared features can be seem as the zero distance between the paired word embeddings.
+[BOS] Our proposed method also uses several ideas from the three-way WT method (Press and Wolf, 2017) .
+[BOS] Both of these methods are easy to implement and transparent to different NMT architectures.
+[BOS] The main differences are: 1) we share a part of features instead of all features; 2) the words of different relationship categories are allowed to share with differently sized features; and (3) it is adaptable to any language pairs, making the WT methods more widely used.
+

@@ -1,0 +1,83 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 101 106	[BOS]
+T3	Transition 257 262	[BOS]
+T4	Single_summ 347 352	[BOS]
+T5	Narrative_cite 532 537	[BOS]
+T6	Multi_summ 736 741	[BOS]
+T7	Multi_summ 986 991	[BOS]
+T8	Reflection 1109 1114	[BOS]
+T9	Narrative_cite 1287 1292	[BOS]
+T10	Narrative_cite 1413 1418	[BOS]
+T11	Narrative_cite 1631 1636	[BOS]
+T12	Narrative_cite 1790 1795	[BOS]
+T13	Narrative_cite 1909 1914	[BOS]
+T14	Transition 2067 2072	[BOS]
+T15	Transition 2178 2183	[BOS]
+T16	Narrative_cite 2427 2432	[BOS]
+T17	Transition 2693 2698	[BOS]
+T18	Narrative_cite 2806 2811	[BOS]
+T19	Transition 3010 3015	[BOS]
+T20	Single_summ 3214 3219	[BOS]
+T21	Reflection 3560 3565	[BOS]
+T22	Reference 230 253	(Zampieri et al., 2019)
+T23	Dominant 388 410	Davidson et al. (2017)
+T24	Reference 713 733	(Kumar et al., 2018)
+T25	Dominant 947 968	(Wulczyn et al., 2017
+T26	Dominant 970 983	Google, 2018)
+T27	Reference 1396 1410	(Noever, 2018)
+T28	Reference 1594 1613	(Kumar et al., 2018
+T29	Reference 1615 1628	Google, 2018)
+T30	Reference 1765 1786	(Devlin et al., 2018)
+T31	Reference 1881 1906	(Goodfellow et al., 2014)
+T32	Reference 1959 1979	(Brock et al., 2018)
+T33	Reference 2046 2064	(Liu et al., 2019)
+T34	Reference 2525 2548	(Ebrahimi et al., 2018)
+T35	Reference 2571 2596	(Belinkov and Bisk, 2018)
+T36	Reference 2625 2642	(Li et al., 2017)
+T37	Reference 2669 2691	(Jia and Liang, 2017 )
+T38	Reference 2965 2983	(Ruef et al., 2016
+T39	Reference 2985 3007	Ettinger et al., 2017)
+T40	Dominant 3312 3331	(Yang et al., 2018)
+T41	Pronoun 266 270	this
+T42	Pronoun 845 849	this
+T43	Pronoun 1000 1005	these
+T44	Pronoun 1118 1122	this
+T45	Pronoun 1334 1339	these
+T46	Pronoun 1640 1644	this
+T47	Pronoun 2073 2078	These
+T48	Pronoun 2119 2121	it
+T49	Pronoun 2409 2411	it
+T50	Pronoun 3490 3495	their
+T51	Pronoun 3600 3604	this
+T52	B_span 189 197	bullying
+T53	E_span 248 252	2019
+T54	B_span 388 396	Davidson
+T55	E_span 523 530	neither
+T56	B_span 607 613	15,000
+T57	E_span 728 732	2018
+T59	E_span 1099 1107	appeared
+T61	E_span 1405 1409	2018
+T62	B_span 1382 1386	deep
+T60	B_span 1546 1550	deep
+T63	E_span 1623 1627	2018
+T65	E_span 1781 1785	2018
+T66	B_span 1815 1826	adversarial
+T67	E_span 1901 1905	2014
+T68	B_span 1933 1941	training
+T69	E_span 1974 1978	2018
+T70	B_span 1991 1996	image
+T71	E_span 2059 2063	2019
+T72	B_span 2505 2509	text
+T73	E_span 2543 2547	2018
+T74	B_span 2551 2558	machine
+T75	E_span 2591 2595	2018
+T76	B_span 2599 2607	dialogue
+T77	E_span 2637 2641	2017
+T78	B_span 2647 2654	reading
+T79	E_span 2685 2689	2017
+T80	B_span 2883 2888	Build
+T81	E_span 3002 3006	2017
+T82	B_span 3263 3273	Mechanical
+T83	E_span 3547 3558	crowdworker
+T84	B_span 789 792	The
+T58	B_span 1664 1669	large

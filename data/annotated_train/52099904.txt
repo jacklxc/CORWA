@@ -1,0 +1,15 @@
+[BOS] There is a plethora of literature on learning crosslingual word representations, focusing either on a pair of languages, or multiple languages at the same time (Klementiev et al., 2012; Zou et al., 2013; Mikolov et al., 2013a; Gouws et al., 2015; Coulmance et al., 2015; Ammar et al., 2016; Duong et al., 2017, inter alia) .
+[BOS] One shortcoming of these methods is the dependence on crosslingual supervision such as parallel corpora or bilingual lexica.
+[BOS] Abundant research efforts have been made to alleviate such dependence (Vuli and Moens, 2015; Artetxe et al., 2017; Smith et al., 2017) , but consider only the case of a single pair of languages (BWEs).
+[BOS] Furthermore, fully unsupervised methods exist for learning BWEs (Zhang et al., 2017; Lample et al., 2018b; Artetxe et al., 2018a) .
+[BOS] For unsupervised MWEs, however, previous methods merely rely on a number of independent BWEs to separately map each language into the embedding space of a chosen target language (Smith et al., 2017; Lample et al., 2018b) .
+
+[BOS] Adversarial Neural Networks have been successfully applied to various cross-lingual NLP tasks where annotated data is not available, such as cross-lingual text classification (Chen et al., 2016) , unsupervised BWE induction (Zhang et al., 2017; Lample et al., 2018b) and unsupervised machine translation (Lample et al., 2018a; Artetxe et al., 2018b) .
+[BOS] These works, however, only consider the case of two languages, and our MAT method ( 3.1) is a generalization to multiple languages.
+[BOS] Mikolov et al. (2013a) first propose to learn cross-lingual word representations by learning a linear mapping between the monolingual embedding spaces of a pair of languages.
+[BOS] It has then been observed that enforcing the linear mapping to be orthogonal could significantly improve performance (Xing et al., 2015; Artetxe et al., 2016; Smith et al., 2017) .
+[BOS] These methods solve a linear equation called the orthogonal Procrustes problem for the optimal orthogonal linear mapping between two languages, given a set of word pairs as supervision.
+[BOS] Artetxe et al. (2017) find that when using weak supervision (e.g. digits in both languages), applying this Procrustes process iteratively achieves higher performance.
+[BOS] Lample et al. (2018b) adopt the iterative Procrustes method with pseudo-supervision in a fully unsupervised setting and also obtain good results.
+[BOS] In the MWE task, however, the multilingual mappings no longer have a closed-form solution, and we hence propose the MPSR algorithm ( 3.2) for learning multilingual embeddings using gradient-based optimization methods.
+

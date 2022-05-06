@@ -1,0 +1,21 @@
+[BOS] There is a growing body of research on explainable AI (Koh and Liang, 2017; Ribeiro et al., 2016; Li et al., 2016; , but it is not connected to work on learning with human rationales, which we review below.
+
+[BOS] As discussed above, Zhang et al. (2016) demonstrate increased predictive accuracy of CNN models augmented with human rationales.
+[BOS] Here, we first reproduce their predictive results, and then focus on extracting and evaluating explanations from the models.
+[BOS] Lei et al. (2016) present a model that extracts rationales for predictions without training on rationales.
+[BOS] They compare their extracted rationales to human gold-standard ones through automated evaluations, i.e., precision and recall.
+[BOS] Bao et al. (2018) extend this work by learning a mapping from the human rationales to continuous attention.
+[BOS] They transfer this mapping to low resource target domains as an auxiliary training signal to improve classification accuracy in the target domain.
+[BOS] They compare their learned attention with human rationales by calculating their cosine distance to the 'oracle' attention.
+
+[BOS] None of the above related work asks human users to evaluate the generated explanations.
+[BOS] However, Nguyen (2018) does compare human and automatic evaluations of explanations.
+[BOS] That work finds that human evaluation is moderately, but statistically significantly, correlated with the automatic metrics.
+[BOS] However, it does not evaluate any explanations based on attention, nor do the explanations make use of any extra human supervision.
+
+[BOS] As mentioned above, there has also been some recent criticism of using attention as explanation (Jain and Wallace, 2019) , due to a lack of correlation between the attention weights and gradient based methods which are more "faithful" to the model's reasoning.
+[BOS] However, attention weights offer some insight into at least one point of internal representation in the model, and they also impact the training of the later features.
+[BOS] Our contribution is to measure how useful these attention based explanations are to humans in understanding a model's decision as compared to a different model architecture that explicitly learns to predict which sentences make good explanations.
+
+[BOS] In this work, we have human judges evaluate both attention based machine explanations and machine explanations trained from human rationales, thus connecting learning from human explanations and machine explanations to humans.
+

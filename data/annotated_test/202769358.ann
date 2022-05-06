@@ -1,0 +1,36 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 41 46	[BOS]
+T3	Single_summ 111 116	[BOS]
+T4	Single_summ 214 219	[BOS]
+T5	Single_summ 277 282	[BOS]
+T6	Single_summ 333 338	[BOS]
+T7	Transition 447 452	[BOS]
+T8	Single_summ 602 607	[BOS]
+T9	Single_summ 692 697	[BOS]
+T10	Single_summ 765 770	[BOS]
+T11	Single_summ 827 832	[BOS]
+T12	Transition 923 928	[BOS]
+T13	Narrative_cite 974 979	[BOS]
+T14	Reflection 1108 1113	[BOS]
+T15	Reflection 1247 1252	[BOS]
+T16	Dominant 117 133	Du et al. (2017)
+T17	Dominant 608 626	Song et al. (2018)
+T18	Dominant 698 718	Du and Cardie (2018)
+T19	Dominant 771 788	Kim et al. (2019)
+T20	Dominant 837 856	Kumar et al. (2018)
+T21	Reference 1079 1104	QA Sachan and Xing, 2018)
+T22	B_span 117 119	Du
+T24	B_span 608 612	Song
+T25	E_span 690 691	.
+T26	B_span 698 700	Du
+T27	E_span 763 764	.
+T28	B_span 771 774	Kim
+T29	E_span 825 826	.
+T30	B_span 837 842	Kumar
+T31	E_span 920 921	.
+T32	B_span 1038 1039	Q
+T33	E_span 1103 1104	)
+T34	Pronoun 235 239	they
+T35	Pronoun 339 343	They
+T36	Pronoun 1117 1121	this
+T37	E_span 273 275	QG

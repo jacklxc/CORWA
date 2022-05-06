@@ -1,0 +1,5 @@
+[BOS] Apart from the model of Canny et al. (2013) , there have been a few attempts at using GPUs in NLP contexts before.
+[BOS] Johnson (2011) and Yi et al. (2011) both had early attempts at porting parsing algorithms to the GPU.
+[BOS] However, they did not demonstrate significantly increased speed over a CPU implementation.
+[BOS] In machine translation, He et al. (2013) adapted algorithms designed for GPUs in the computational biology literature to speed up on-demand phrase table extraction.
+

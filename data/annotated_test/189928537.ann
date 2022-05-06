@@ -1,0 +1,65 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 133 138	[BOS]
+T3	Narrative_cite 253 258	[BOS]
+T4	Multi_summ 447 452	[BOS]
+T5	Transition 740 745	[BOS]
+T6	Transition 863 868	[BOS]
+T7	Transition 994 999	[BOS]
+T8	Narrative_cite 1188 1193	[BOS]
+T9	Transition 1496 1501	[BOS]
+T10	Single_summ 1630 1635	[BOS]
+T11	Transition 1821 1826	[BOS]
+T12	Transition 1949 1954	[BOS]
+T13	Single_summ 2058 2063	[BOS]
+T14	Single_summ 2202 2207	[BOS]
+T15	Single_summ 2356 2361	[BOS]
+T16	Single_summ 2464 2469	[BOS]
+T17	Single_summ 2633 2638	[BOS]
+T18	Reflection 2813 2818	[BOS]
+T19	Reflection 2876 2881	[BOS]
+T20	Reflection 3004 3009	[BOS]
+T21	Reflection 3099 3104	[BOS]
+T22	Reference 344 368	(Knight and Yamada, 1999
+T23	Reference 370 389	Knight et al., 2006
+T24	Reference 391 412	Ravi and Knight, 2011
+T25	Reference 414 444	Pourdamghani and Knight, 2017)
+T26	Dominant 493 511	(Nuhn et al., 2013
+T27	Dominant 513 531	Hauer et al., 2014
+T28	Dominant 533 557	Kambhatla et al., 2018 )
+T29	Reference 1345 1367	(Conneau et al., 2017)
+T30	Reference 1374 1392	(Dou et al., 2018)
+T31	Reference 1399 1421	(Haghighi et al., 2008
+T32	Reference 1423 1446	Faruqui and Dyer, 2014)
+T33	Reference 1469 1493	(Mukherjee et al., 2018)
+T34	Reference 1787 1818	(Pourdamghani and Knight, 2017)
+T35	Dominant 2064 2085	(Snyder et al., 2010)
+T36	Dominant 2470 2504	(Berg-Kirkpatrick and Klein, 2011)
+T38	E_span 443 444	)
+T39	B_span 453 460	Besides
+T40	E_span 738 739	.
+T41	B_span 1324 1330	advers
+T42	E_span 1366 1367	)
+T43	B_span 1370 1372	VA
+T44	E_span 1391 1392	)
+T45	B_span 1395 1398	CCA
+T46	E_span 1445 1446	)
+T47	B_span 1450 1456	mutual
+T48	E_span 1492 1493	)
+T49	B_span 1719 1722	non
+T50	E_span 1819 1820	.
+T51	B_span 2064 2065	(
+T52	E_span 2462 2463	.
+T53	B_span 2470 2471	(
+T54	E_span 2811 2812	.
+T55	Pronoun 147 152	these
+T56	Pronoun 259 264	These
+T57	Pronoun 611 615	this
+T58	Pronoun 869 873	This
+T59	Pronoun 1109 1113	this
+T60	Pronoun 1970 1975	these
+T61	Pronoun 2223 2228	their
+T62	Pronoun 2362 2366	This
+T63	Pronoun 2645 2650	their
+T64	Pronoun 2747 2749	it
+T65	Pronoun 2844 2849	these
+T66	B_span 293 304	assumptions

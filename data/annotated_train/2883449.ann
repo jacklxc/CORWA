@@ -1,0 +1,58 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 283 288	[BOS]
+T3	Narrative_cite 501 506	[BOS]
+T4	Narrative_cite 846 851	[BOS]
+T5	Narrative_cite 1027 1032	[BOS]
+T6	Narrative_cite 1297 1302	[BOS]
+T7	Narrative_cite 1478 1483	[BOS]
+T8	Transition 1682 1687	[BOS]
+T9	Multi_summ 1889 1894	[BOS]
+T10	Single_summ 2065 2070	[BOS]
+T11	Reflection 2229 2234	[BOS]
+T12	Reference 80 99	(Vogel et al., 1996
+T13	Reference 101 118	Och and Ney, 2003
+T14	Reference 120 138	Liang et al., 2006
+T15	Reference 140 163	DeNero and Klein, 2008)
+T16	Reference 647 668	(Bouamor et al., 2011
+T17	Reference 670 690	Madnani et al., 2012
+T18	Reference 692 719	Heilman and Madnani, 2012 )
+T19	Reference 980 1003	(Barzilay and Lee, 2003
+T20	Reference 1005 1024	Quirk et al., 2004)
+T21	Reference 1136 1163	(Barzilay and McKeown, 2005
+T22	Reference 1165 1189	Marsi and Krahmer, 2005)
+T23	Reference 1211 1238	(Thadani and McKeown, 2008)
+T24	Reference 1274 1294	(Dagan et al., 2005)
+T25	Reference 1432 1454	(Chambers et al., 2007
+T26	Reference 1456 1475	Chang et al., 2010)
+T27	Reference 1559 1583	MacCartney et al. (2008)
+T28	Reference 1622 1648	Thadani and McKeown (2011)
+T29	Dominant 1895 1918	DeNero and Klein (2008)
+T30	Dominant 1923 1949	Thadani and McKeown (2011)
+T31	Dominant 2071 2090	Chang et al. (2010)
+T32	Pronoun 421 425	this
+T33	Pronoun 749 754	their
+T34	Pronoun 790 794	this
+T35	Pronoun 833 837	this
+T36	Pronoun 2306 2311	these
+T37	B_span 47 54	machine
+T38	E_span 158 162	2008
+T39	B_span 624 635	monolingual
+T40	E_span 713 717	2012
+T41	B_span 958 968	paraphrase
+T42	E_span 1019 1023	2004
+T43	B_span 1120 1128	sentence
+T44	E_span 1184 1188	2005
+T45	B_span 1192 1202	redundancy
+T46	E_span 1233 1237	2008
+T47	B_span 1243 1250	textual
+T48	E_span 1289 1293	2005
+T49	B_span 1381 1387	tokens
+T50	E_span 1470 1474	2010
+T51	B_span 1543 1548	MANLI
+T52	E_span 1578 1582	2008
+T53	B_span 1588 1591	was
+T54	E_span 1643 1647	2011
+T55	B_span 1895 1901	DeNero
+T56	E_span 2051 2063	respectively
+T57	B_span 2071 2076	Chang
+T58	E_span 2212 2227	representations

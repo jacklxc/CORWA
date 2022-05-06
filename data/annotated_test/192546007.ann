@@ -1,0 +1,65 @@
+T1	Single_summ 0 5	[BOS]
+T2	Transition 200 205	[BOS]
+T3	Narrative_cite 300 305	[BOS]
+T4	Single_summ 585 590	[BOS]
+T5	Single_summ 731 736	[BOS]
+T6	Single_summ 853 858	[BOS]
+T7	Single_summ 995 1000	[BOS]
+T8	Single_summ 1176 1181	[BOS]
+T9	Single_summ 1398 1403	[BOS]
+T10	Reflection 1581 1586	[BOS]
+T11	Transition 1668 1673	[BOS]
+T12	Single_summ 1772 1777	[BOS]
+T13	Single_summ 1939 1944	[BOS]
+T14	Single_summ 2085 2090	[BOS]
+T15	Single_summ 2203 2208	[BOS]
+T16	Single_summ 2372 2377	[BOS]
+T17	Single_summ 2430 2435	[BOS]
+T18	Reflection 2629 2634	[BOS]
+T19	Reflection 2679 2684	[BOS]
+T20	Reflection 2806 2811	[BOS]
+T21	Reflection 2965 2970	[BOS]
+T22	Dominant 84 105	Szegedy et al. (2013)
+T23	Reference 391 416	(Goodfellow et al., 2015)
+T24	Reference 467 489	(Papernot et al., 2016
+T25	Dominant 591 613	Ebrahimi et al. (2018)
+T26	Dominant 737 753	Li et al. (2016)
+T27	Dominant 874 892	Yang et al. (2018)
+T28	Dominant 1182 1200	Zhao et al. (2018)
+T29	Dominant 1404 1426	Alzantot et al. (2018)
+T30	Dominant 1791 1811	Jia and Liang (2017)
+T31	Dominant 1945 1964	Cheng et al. (2018)
+T32	Dominant 2091 2115	Belinkov and Bisk (2018)
+T33	Dominant 2215 2234	Iyyer et al. (2018)
+T34	Dominant 2491 2509	Tang et al. (2018)
+T35	B_span 84 86	Sz
+T36	E_span 198 199	.
+T37	B_span 365 369	Fast
+T38	E_span 415 416	)
+T39	B_span 442 444	of
+T40	E_span 485 489	2016
+T41	B_span 591 593	Eb
+T42	E_span 729 730	.
+T43	B_span 737 739	Li
+T44	E_span 851 852	.
+T45	B_span 874 878	Yang
+T46	E_span 1174 1175	.
+T47	B_span 1182 1186	Zhao
+T48	E_span 1396 1397	.
+T49	B_span 1404 1407	Alz
+T50	E_span 1579 1580	.
+T51	B_span 1791 1794	Jia
+T52	E_span 1937 1938	.
+T53	B_span 1945 1950	Cheng
+T54	E_span 2083 2084	.
+T55	B_span 2091 2094	Bel
+T56	E_span 2201 2202	.
+T57	B_span 2215 2217	Iy
+T58	E_span 2428 2429	.
+T59	B_span 2436 2438	In
+T60	E_span 2626 2627	.
+T61	Pronoun 497 501	they
+T62	Pronoun 1001 1005	They
+T63	Pronoun 1505 1509	this
+T64	Pronoun 2635 2639	This
+T65	Pronoun 3118 3123	their

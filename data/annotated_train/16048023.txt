@@ -1,0 +1,8 @@
+[BOS] There are several studies that tried to overcome the limited feature scope of graph-based dependency parsing models .
+[BOS] Nakagawa (2007) proposed a method to deal with the intractable inference problem in a graphbased model by introducing the Gibbs sampling algorithm.
+[BOS] Compared with their approach, our approach is much simpler yet effective.
+[BOS] Hall (2007) used a re-ranking scheme to provide global features while we simply augment the features of an existing parser.
+[BOS] Nivre and McDonald (2008) and Zhang and Clark (2008) proposed stacking methods to combine graph-based parsers with transition-based parsers.
+[BOS] One parser uses dependency predictions made by another parser.
+[BOS] Our results show that our approach can be used in the stacking frameworks to achieve higher accuracy.
+

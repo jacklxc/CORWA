@@ -1,0 +1,37 @@
+[BOS] Alignment-based neural models have explicit dependence on the alignment information either at the input or at the output of the network.
+[BOS] They have been extensively and successfully applied on top of conventional phrase-based systems (Sundermeyer et al., 2014; Tamura et al., 2014; Devlin et al., 2014) .
+[BOS] In this work, we focus on using the models directly to perform standalone neural machine translation.
+
+[BOS] Alignment-based neural models were proposed in (Alkhouli et al., 2016) to perform neural machine translation.
+[BOS] They mainly used feedforward alignment and lexical models in decoding.
+[BOS] Alkhouli and Ney (2017) used recurrent models instead, and presented an attention component biased using external alignment information.
+[BOS] In this work, we explore the use of transformer models in ANMT instead of recurrent models.
+
+[BOS] Deriving neural models for translation based on the hidden Markov model (HMM) framework can also be found in (Yang et al., 2013; Yu et al., 2017) .
+[BOS] Alignment-based neural models were also applied to perform summarization and morphological inflection (Yu et al., 2016) .
+[BOS] Their work used a monotonous alignment model, where training was done by marginalizing over the alignment hidden variables, which is computationally expensive.
+[BOS] In this work, we use non-monotonous alignment models.
+[BOS] In addition, we train using pre-computed Viterbi alignments which speeds up neural training.
+[BOS] In (Yu et al., 2017) , alignmentbased neural models were used to model alignment and translation from the target to the source side (inverse direction), and a language model was included in addition.
+[BOS] They showed results on a small translation task.
+[BOS] In this work, we present results on translation tasks containing tens of millions of words.
+[BOS] We do not include a language model in any of our systems.
+
+[BOS] There is plenty of work on modifying attention models to capture more complex dependencies.
+[BOS] Cohn et al. (2016) introduce structural biases from word-based alignment concepts like fertility and Markov conditioning.
+[BOS] These are internal modifications that leave the model self-contained.
+[BOS] Our modifications introduce alignments as external information to the model.
+[BOS] Arthur et al. (2016) include lexical probabilities to bias attention.
+[BOS] Chen et al. (2016) and Mi et al. (2016) add an extra term dependent on the alignments to the training objective function to guide neural training.
+[BOS] This is only applied during training but not during decoding.
+[BOS] Our work makes use of alignments during training and also during decoding.
+
+[BOS] There are several approaches to perform constrained translation.
+[BOS] One possibility is including this information in training, but this requires knowing the constraints at training time (Crego et al., 2016) .
+[BOS] Post-processing the hypotheses is another possibility, but this comes with the downside that offline modification of the hypotheses happens out of context.
+[BOS] A third possibility is to do constrained decoding (Hokamp and Liu, 2017; Chatterjee et al., 2017; Hasler et al., 2018; Post and Vilar, 2018 ).
+[BOS] This does not require knowledge of the constraints at training time, and it also allows dynamic changes of the rest of the hypothesis when the constraints are activated.
+[BOS] We perform experiments where the translation is guided online during decoding.
+[BOS] We focus on the case where translation suggestions are to be used when a word in the source sentence matches the source side of a pre-defined dictionary entry.
+[BOS] We show that alignment-assisted transformer-based NMT outperforms standard transformer models in such a task.
+

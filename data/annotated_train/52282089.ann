@@ -1,0 +1,54 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 326 331	[BOS]
+T3	Narrative_cite 500 505	[BOS]
+T4	Narrative_cite 789 794	[BOS]
+T5	Narrative_cite 967 972	[BOS]
+T6	Multi_summ 1218 1223	[BOS]
+T7	Single_summ 1668 1673	[BOS]
+T8	Transition 1905 1910	[BOS]
+T9	Reflection 2075 2080	[BOS]
+T10	Reference 99 118	(Stent et al., 2004
+T11	Reference 120 136	Gai et al., 2008
+T12	Reference 138 159	Mairesse et al., 2010
+T13	Reference 161 183	Howcroft et al., 2013)
+T14	Reference 437 454	(Wen et al., 2015
+T15	Reference 456 476	Duek and Jurek, 2016
+T16	Reference 478 497	Nayak et al., 2017)
+T17	Reference 721 740	(Nayak et al., 2017
+T18	Reference 742 764	Novikova et al., 2017a
+T19	Reference 766 785	Oraby et al., 2017)
+T20	Reference 854 876	(Paiva and Evans, 2004
+T21	Reference 878 904	Mairesse and Walker, 2007)
+T22	Reference 1165 1187	(Sennrich et al., 2016
+T23	Reference 1189 1215	Ficler and Goldberg, 2017)
+T24	Dominant 1252 1274	Niu and Carpuat (2017)
+T25	Dominant 1341 1366	Kabbara and Cheung (2016)
+T26	Reference 1501 1526	(Rao and Tetreault, 2018)
+T27	Dominant 1535 1551	Li et al. (2018)
+T28	Dominant 1683 1702	Oraby et al. (2018)
+T29	Pronoun 189 191	it
+T30	Pronoun 425 429	this
+T31	Pronoun 506 511	These
+T32	Pronoun 907 911	this
+T33	Pronoun 2081 2085	This
+T34	Pronoun 2094 2096	it
+T35	B_span 69 72	NLG
+T36	E_span 178 182	2013
+T37	B_span 397 403	tested
+T38	E_span 492 496	2017
+T39	B_span 701 710	stylistic
+T40	E_span 780 784	2017
+T41	B_span 827 836	stylistic
+T42	E_span 899 903	2007
+T43	B_span 1120 1128	semantic
+T44	E_span 1210 1214	2017
+T45	B_span 1252 1255	Niu
+T46	E_span 1329 1339	variations
+T47	B_span 1341 1348	Kabbara
+T48	E_span 1521 1525	2018
+T49	B_span 1480 1489	difficult
+T50	E_span 1521 1525	2018
+T51	B_span 1535 1537	Li
+T52	E_span 1658 1666	transfer
+T53	B_span 1683 1688	Oraby
+T54	E_span 1892 1902	utterances

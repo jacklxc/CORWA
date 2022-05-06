@@ -1,0 +1,17 @@
+[BOS] A successful extension of neural language model is attention mechanism, which can directly capture long-distance dependencies by attending to previously generated words.
+[BOS] Daniluk et al. (2017) proposed a key-value-predict attention to separate the key addressing, value reading, and word predicting functions explicitly.
+[BOS] Im and Cho (2017) and Sperber et al. (2018) adopted self-attention networks for acoustic modeling and natural language inference tasks, respectively.
+[BOS] Vaswani et al. (2017) applied the idea of selfattention to neural machine translation.
+[BOS] Shen et al. (2018a) and Shen et al. (2018b) proposed to improve the self-attention model with directional masks and multi-dimensional features.
+[BOS] Although the standard self-attention model can give more bias toward localness, 6 several studies show that explicitly modeling localness for self-attention model can further improve performance.
+[BOS] For example, Sperber et al. (2018) showed that restricting the self-attention model on the neighboring representations performs better for longer sequences in acoustic modeling and natural language inference tasks.
+[BOS] Closely related to this work, Shaw et al. (2018) introduced relative position encoding to consider the relative distances between sequence elements.
+[BOS] While they modeled localness from static position embedding, we improve locality modeling from dynamically revising attention distribution.
+[BOS] Experimental results show that the two models are complementary to each other, and combining them can further improve performance.
+
+[BOS] Several researches have shown that explicitly modeling phrases is useful for neural machine translation (Wang et al., 2017; .
+[BOS] Our results confirm these findings.
+[BOS] Concerning attention models, Luong et al. (2015) proposed a modification to look at only a subset of input words at a time.
+[BOS] This can be regarded as a "hard" variation of our fixed-window strategy.
+[BOS] In this study, we propose more flexible strategies for placing and zooming the local scope, which yield better results than the fixed scope.
+

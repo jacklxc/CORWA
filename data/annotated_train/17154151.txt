@@ -1,0 +1,8 @@
+[BOS] The existing data selection methods are mostly based on language model.
+[BOS] Yasuda et al. (2008) and Foster et al. (2010) ranked the sentence pairs in the general-domain corpus according to the perplexity scores of sentences, which are computed with respect to in-domain language models.
+[BOS] Axelrod et al. (2011) improved the perplexitybased approach and proposed bilingual crossentropy difference as a ranking function with inand general-domain language models.
+[BOS] Duh et al. (2013) employed the method of (Axelrod et al., 2011) and further explored neural language model for data selection rather than the conventional n-gram language model.
+[BOS] Although previous works in data selection (Duh et al., 2013; Axelrod et al., 2011; Foster et al., 2010; Yasuda et al., 2008) have gained good performance, the methods which only adopt language models to score the sentence pairs are sub-optimal.
+[BOS] The reason is that a sentence pair contains a source language sentence and a target language sentence, while the existing methods are incapable of evaluating the mutual translation probability of sentence pair in the target domain.
+[BOS] Thus, we propose novel methods which are based on translation model and language model for data selection.
+

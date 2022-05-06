@@ -1,0 +1,18 @@
+[BOS] This work is inspired by (Yu, 1993) with many extensions.
+[BOS] (Yu, 1993) proposed MTE evaluation system based on check-points for EnglishChinese machine translation systems with human craft linguistic taxonomy including 3,200 pairs of sentences containing 6 classes of check-points.
+[BOS] Their check-points were manually constructed by human experts, therefore it will be costly to build new test corpus while the check-points in our approach are constructed automatically.
+[BOS] Another limitation of their work is that only binary score is used for credits while we use n-gram matching rate which provides a broader coverage of different levels of matching.
+[BOS] There are many recent work motivated by ngram based approach.
+[BOS] (Callison-Burch et al., 2006) criticized the inadequate accuracy of evaluation at the sentence level.
+[BOS] (Lin and Och, 2004) used longest common subsequence and skipbigram statistics.
+[BOS] (Banerjee and Lavie, 2005) calculated the scores by matching the unigrams on the surface forms, stemmed forms and senses.
+[BOS] (Liu et al., 2005) used syntactic features and unlabeled head-modifier dependencies to evaluate MT quality, outperforming BLEU on sentence level correlations with human judgment.
+[BOS] (Gimenez and Marquez, 2007) showed that linguistic features at more abstract levels such as dependency relation may provide more reliable system rankings.
+[BOS] (Yang et al., 2007) formulates MT evaluation as a ranking problems leading to greater correlation with human assessment at the sentence level.
+
+[BOS] There are many differences between these ngram based methods and our approach.
+[BOS] In ngram approach, a sentence is viewed as a collection of n-grams with different length without differentiating the specific linguistic phenomena.
+[BOS] In our approach, a sentence is viewed as a collection of check-points with different types and depth, conforming to a clear linguistic taxonomy.
+[BOS] Furthermore, in n-gram approach, only one general score at the system level is provided which make it not suitable for system diagnoses, while in our approach we can give scores of linguistic categories and provide much richer information to help developers to find the concrete strength and flaws of the system, in addition to the general score.
+[BOS] The n-gram based metric is not very effective when comparing the systems with different architectures or systems with similar general score, while our approach is more effective in both cases by digging into the multiple linguistic levels and disclosing the latent differences of the systems.
+

@@ -1,0 +1,69 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 274 279	[BOS]
+T3	Narrative_cite 440 445	[BOS]
+T4	Transition 718 723	[BOS]
+T5	Reflection 851 856	[BOS]
+T6	Single_summ 960 965	[BOS]
+T7	Reflection 1077 1082	[BOS]
+T8	Transition 1469 1474	[BOS]
+T9	Reflection 1593 1598	[BOS]
+T10	Single_summ 1768 1773	[BOS]
+T11	Single_summ 2045 2050	[BOS]
+T12	Single_summ 2196 2201	[BOS]
+T13	Single_summ 2448 2453	[BOS]
+T14	Narrative_cite 2523 2528	[BOS]
+T15	Narrative_cite 2803 2808	[BOS]
+T16	Single_summ 2942 2947	[BOS]
+T17	Single_summ 3091 3096	[BOS]
+T18	Reflection 3223 3228	[BOS]
+T19	Reference 228 251	Prabhumoye et al., 2018
+T20	Reference 253 270	Chen et al., 2018
+T24	E_span 266 270	2018
+T25	B_span 486 493	textual
+T26	E_span 593 597	2018
+T27	Reference 504 522	Yang et al., 2018b
+T28	Reference 524 543	Santos et al., 2018
+T29	Reference 545 568	Logeswaran et al., 2018
+T30	Reference 570 597	Nikolov and Hahnloser, 2018
+T31	Dominant 991 1008	Mir et al. (2019)
+T32	B_span 991 994	Mir
+T33	E_span 1070 1075	tasks
+T34	B_span 1240 1248	Yelp dat
+T35	E_span 1283 1287	2019
+T36	Reference 1271 1287	Mir et al. (2019
+T37	Dominant 1886 1902	Hu et al. (2017)
+T39	B_span 1886 1888	Hu
+T38	E_span 2038 2043	style
+T40	Dominant 2051 2077	Ficler and Goldberg (2017)
+T41	B_span 2051 2057	Ficler
+T42	E_span 2186 2194	contexts
+T43	B_span 2617 2628	adversarial
+T44	E_span 2660 2664	2014
+T45	Reference 2641 2664	Goodfellow et al., 2014
+T46	B_span 2693 2700	textual
+T47	E_span 2795 2799	2018
+T48	Reference 2711 2726	Yu et al., 2017
+T49	Reference 2728 2743	Li et al., 2017
+T50	Reference 2745 2763	Yang et al., 2018a
+T51	Reference 2765 2782	Shen et al., 2017
+T52	Reference 2784 2798	Fu et al., 201
+T53	B_span 2890 2896	stable
+T54	E_span 2932 2937	2018b
+T55	Reference 2919 2937	Yang et al., 2018b
+T56	Dominant 2987 3003	Fu et al. (2018)
+T57	B_span 2987 2989	Fu
+T58	E_span 3083 3089	styles
+T59	Dominant 3097 3117	Shetty et al. (2017)
+T60	B_span 3097 3103	Shetty
+T61	E_span 3207 3221	reconstruction
+T62	Reference 3271 3291	Shetty et al. (2017)
+T63	B_span 3233 3238	cycle
+T64	E_span 3286 3290	2017
+T65	B_span 3320 3324	back
+T66	Reference 3381 3401	Artetxe et al., 2017
+T67	Reference 3403 3422	Lample et al., 2017
+T68	E_span 3418 3422	2017
+T69	Reference 3483 3500	Zhu et al. (2017)
+T70	B_span 3463 3468	image
+T71	E_span 3495 3499	2017
+T72	B_span 6 13	Textual

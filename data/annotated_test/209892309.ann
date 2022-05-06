@@ -1,0 +1,47 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 201 206	[BOS]
+T3	Transition 591 596	[BOS]
+T4	Multi_summ 724 729	[BOS]
+T5	Single_summ 936 941	[BOS]
+T6	Single_summ 1074 1079	[BOS]
+T7	Single_summ 1201 1206	[BOS]
+T8	Single_summ 1344 1349	[BOS]
+T9	Single_summ 1517 1522	[BOS]
+T10	Reflection 1589 1594	[BOS]
+T11	Reflection 1745 1750	[BOS]
+T12	Reference 112 134	(Dong and Lapata, 2016
+T13	Reference 136 155	Jia and Liang, 2016
+T14	Reference 157 174	Ling et al., 2016
+T15	Reference 176 198	Dong and Lapata, 2018)
+T16	Reference 271 294	(Dong and Lapata, 2016)
+T17	Reference 317 338	(Susanto and Lu, 2017
+T18	Reference 340 363	Herzig and Berant, 2017
+T19	Reference 365 382	Fan et al., 2017)
+T20	Reference 403 423	(Jia and Liang, 2016
+T21	Reference 425 444	Koisk et al., 2016)
+T22	Reference 484 507	(Dong and Lapata, 2018)
+T23	Dominant 750 774	Herzig and Berant (2017)
+T24	Dominant 779 796	Fan et al. (2017)
+T25	Dominant 964 988	Herzig and Berant (2017)
+T26	Dominant 1113 1130	Fan et al. (2017)
+T27	Dominant 1371 1392	Damonte et al. (2019)
+T28	Pronoun 1216 1221	their
+T29	Pronoun 1523 1527	They
+T30	B_span 95 103	semantic
+T31	E_span 193 197	2018
+T32	B_span 251 260	attention
+T33	E_span 289 293	2016
+T34	B_span 297 302	multi
+T35	E_span 377 381	2017
+T36	B_span 385 389	data
+T37	E_span 439 443	2016
+T38	B_span 449 452	two
+T39	E_span 502 506	2018
+T40	B_span 730 738	Previous
+T41	E_span 926 934	datasets
+T42	B_span 942 945	The
+T43	E_span 1061 1072	performance
+T44	B_span 1099 1102	the
+T45	E_span 1332 1342	unfeasible
+T46	B_span 1350 1353	The
+T47	E_span 1582 1586	work

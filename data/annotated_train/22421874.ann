@@ -1,0 +1,98 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 57 62	[BOS]
+T3	Narrative_cite 235 240	[BOS]
+T4	Reflection 366 371	[BOS]
+T5	Reflection 531 536	[BOS]
+T6	Reflection 736 741	[BOS]
+T7	Single_summ 844 849	[BOS]
+T8	Narrative_cite 1136 1141	[BOS]
+T9	Other 1252 1257	[BOS]
+T10	Transition 1285 1290	[BOS]
+T11	Transition 1345 1350	[BOS]
+T12	Narrative_cite 1595 1600	[BOS]
+T13	Multi_summ 2041 2046	[BOS]
+T14	Reflection 2189 2194	[BOS]
+T15	Reflection 2303 2308	[BOS]
+T16	Single_summ 2417 2422	[BOS]
+T17	Single_summ 2661 2666	[BOS]
+T18	Single_summ 2740 2745	[BOS]
+T19	Transition 2965 2970	[BOS]
+T20	Narrative_cite 2995 3000	[BOS]
+T21	Narrative_cite 3147 3152	[BOS]
+T22	Single_summ 3317 3322	[BOS]
+T23	Reflection 3538 3543	[BOS]
+T24	Narrative_cite 3761 3766	[BOS]
+T25	Single_summ 3931 3936	[BOS]
+T26	Single_summ 4108 4113	[BOS]
+T27	Transition 4199 4204	[BOS]
+T28	Reflection 4276 4281	[BOS]
+T29	Reference 272 293	(Mikolov et al., 2013
+T30	Reference 295 312	Dinu et al., 2014
+T31	Reference 314 336	Lazaridou et al., 2015
+T32	Reference 338 363	Vulic and Korhonen, 2016)
+T33	Dominant 903 929	(Vulic and Korhonen, 2016)
+T34	Reference 1207 1228	(Mikolov et al., 2013
+T35	Reference 1230 1248	Dinu et al., 2014)
+T36	Reference 1703 1726	(Faruqui and Dyer, 2014
+T37	Reference 1728 1747	Ammar et al., 2016)
+T38	Reference 1781 1802	(Mikolov et al., 2013
+T39	Reference 1804 1822	Gouws et al., 2015
+T40	Reference 1824 1849	Vulic and Korhonen, 2016)
+T41	Reference 1860 1877	(Guo et al., 2015
+T42	Reference 1879 1900	Tckstrm et al., 2012)
+T43	Reference 1925 1948	(Vulic and Moens, 2015)
+T44	Reference 1993 2017	(Klementiev et al., 2012
+T45	Reference 2019 2038	Koisk et al., 2014)
+T46	Dominant 2093 2112	Gouws et al., 2015)
+T47	Reference 2280 2300	(Ammar et al., 2016)
+T48	Dominant 2532 2578	Sennrich and Barry (Sennrich and Haddow, 2016)
+T49	Reference 3102 3122	(Bucilu et al., 2006
+T50	Reference 3124 3144	Hinton et al., 2015)
+T51	Reference 3293 3314	(Romero et al., 2014)
+T52	Dominant 3363 3380	(Hu et al., 2016)
+T53	Reference 3849 3872	(Ben-David et al., 2007
+T54	Reference 3874 3888	Daum III, 2007
+T55	Reference 3890 3906	Pan et al., 2010
+T56	Reference 3908 3928	Long and Wang, 2015)
+T57	Dominant 3937 3953	(Daum III, 2007)
+T58	Pronoun 377 382	these
+T59	Pronoun 557 562	these
+T60	Pronoun 878 882	this
+T61	Pronoun 1169 1174	their
+T62	Pronoun 2328 2332	this
+T63	Pronoun 2682 2686	they
+T64	Pronoun 2808 2812	they
+T65	Pronoun 2926 2931	their
+T66	Pronoun 3243 3245	it
+T67	Pronoun 3575 3579	this
+T68	Pronoun 4205 4210	These
+T69	B_span 241 249	Examples
+T70	E_span 358 362	2016
+T71	B_span 850 857	Another
+T72	E_span 1122 1133	reliability
+T73	B_span 1142 1149	However
+T74	E_span 1243 1247	2014
+T75	B_span 1678 1686	semantic
+T76	E_span 1742 1746	2016
+T77	B_span 1748 1756	learning
+T78	E_span 1844 1848	2016
+T79	B_span 1852 1859	parsing
+T80	E_span 1895 1899	2012
+T81	B_span 1903 1914	information
+T82	E_span 1943 1947	2015
+T83	B_span 1955 1960	cross
+T84	E_span 2033 2037	2014
+T85	B_span 2226 2235	bilingual
+T86	E_span 2295 2299	2016
+T87	B_span 2423 2425	On
+T88	E_span 2957 2962	level
+T89	B_span 3001 3010	Knowledge
+T90	E_span 3139 3143	2015
+T91	B_span 3166 3170	from
+T92	E_span 3309 3313	2014
+T93	B_span 3323 3332	Knowledge
+T94	E_span 3531 3536	model
+T95	B_span 3767 3773	Domain
+T96	E_span 3923 3927	2015
+T97	B_span 3938 3942	Daum
+T98	E_span 4186 4197	information

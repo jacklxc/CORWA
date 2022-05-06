@@ -1,0 +1,12 @@
+[BOS] There are large number of works in NMT focusing on integrating document-level information into otherwise sentence-level models Wang et al., 2017; Tiedemann and Scherrer, 2017; Bawden et al., 2018; Voita et al., 2018; Stojanovski and Fraser, 2018; Miculicich et al., 2018; Tu et al., 2018; Maruf and Haffari, 2018) .
+[BOS] These works have shown that improvements in pronoun translation are achieved by better handling coreference resolution.
+[BOS] Smaller improvements are observed for coherence and cohesion.
+[BOS] The main intuition behind the models in these works is that they employ an additional encoder for contextual sentences and integrate the information in the encoder or decoder using a gating mechanism.
+[BOS] Our model is similar to the context-aware Transformer models proposed in these works with some specifics which we discuss in Section 3.
+
+[BOS] We also extend the Transformer model with a simple document representation which we assume provides for a domain signal.
+[BOS] This could be useful for domain disambiguation and improved coherence and cohesion.
+[BOS] This model is similar to previous work on domain adaptation for NMT (Kobus et al., 2017; Tars and Fishel, 2018) where special domain tokens are either added to the beginning of the sentence or concatenated as additional features to the token-level embeddings.
+[BOS] However, they assume a set of known domains in advance which is not the case in our work.
+[BOS] We model the domain implicitly.
+

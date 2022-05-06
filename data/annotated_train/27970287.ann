@@ -1,0 +1,39 @@
+T1	Single_summ 0 5	[BOS]
+T2	Multi_summ 187 192	[BOS]
+T3	Transition 355 360	[BOS]
+T4	Single_summ 464 469	[BOS]
+T5	Transition 552 557	[BOS]
+T6	Narrative_cite 686 691	[BOS]
+T7	Transition 909 914	[BOS]
+T8	Narrative_cite 1031 1036	[BOS]
+T9	Single_summ 1250 1255	[BOS]
+T10	Single_summ 1349 1354	[BOS]
+T11	Narrative_cite 1500 1505	[BOS]
+T12	Reflection 1643 1648	[BOS]
+T13	Dominant 70 88	Rush et al. (2015)
+T14	Dominant 193 216	Nallapati et al. (2016)
+T15	Dominant 221 238	See et al. (2017)
+T16	Dominant 478 495	See et al. (2017)
+T17	Reference 768 788	Bengio et al. (2013)
+T18	Reference 1156 1173	(Rae et al., 2016
+T19	Reference 1175 1195	Shazeer et al., 2017
+T20	Reference 1197 1216	Miller et al., 2016
+T21	Reference 1218 1246	Martins and Astudillo, 2016)
+T22	Dominant 1281 1297	Xu et al. (2015)
+T23	Reference 1584 1602	(Mnih et al., 2014
+T24	Pronoun 368 373	these
+T25	Pronoun 1040 1044	this
+T26	B_span 6 8	In
+T27	E_span 177 185	sentence
+T28	B_span 193 202	Nallapati
+T29	E_span 346 353	dataset
+T30	B_span 470 476	Indeed
+T31	E_span 544 549	train
+T32	B_span 729 740	conditional
+T33	E_span 783 787	2013
+T34	B_span 1097 1110	deterministic
+T35	E_span 1241 1245	2016
+T36	B_span 1256 1258	On
+T37	E_span 1490 1498	location
+T38	B_span 1562 1570	computer
+T39	E_span 1598 1602	2014

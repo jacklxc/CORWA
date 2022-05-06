@@ -1,0 +1,12 @@
+[BOS] There has been a lot of research on domain adaptation in natural language processing (Blitzer et al., 2006; Daume, 2007; Jing and Zhai, 2007; Glorot et al., 2011; Ajakan et al., 2014; Ganin and Lempitsky, 2015) .
+[BOS] Most of the existing domain adaptation methods are based on discrete feature representations and linear classifiers.
+[BOS] There is also recent work on domain adaptation for relation extraction including feature-based systems (Nguyen and Grishman, 2014; and kernelbased system (Plank and Moschitti, 2013) .
+[BOS] Nguyen and Grishman (2014) and both require a few labels in the target domain.
+[BOS] Our proposed method can perform domain adaptation without target labels.
+
+[BOS] Some other methods also do not have such requirement.
+[BOS] Plank and Moschitti (2013) designed the semantic syntactic tree kernel (SSTK) to learn cross-domain patterns.
+[BOS] Nguyen et al. (2015b) constructed a case study comparing feature-based methods and kernel-based models.
+[BOS] They presented some effective features and kernels (e.g. word embedding).We share the same intuition of finding those cross-domain features, but our work differs from such previous work in that they manually designed those features and kernels while we automatically learn cross-domain features from unlabeled target-domain examples with neural networks.
+[BOS] To our best knowledge, this is the first work on neural networks for domain adaptation of relation extraction.
+

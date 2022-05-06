@@ -1,0 +1,73 @@
+T1	Intro 0 5	[BOS]
+T2	Intro 62 67	[BOS]
+T3	Intro 95 100	[BOS]
+T4	Transition 189 194	[BOS]
+T5	Narrative_cite 283 288	[BOS]
+T6	Narrative_cite 481 486	[BOS]
+T7	Narrative_cite 711 716	[BOS]
+T8	Transition 872 877	[BOS]
+T9	Narrative_cite 992 997	[BOS]
+T10	Narrative_cite 1169 1174	[BOS]
+T11	Narrative_cite 1363 1368	[BOS]
+T12	Transition 1692 1697	[BOS]
+T13	Transition 1724 1729	[BOS]
+T14	Narrative_cite 1831 1836	[BOS]
+T15	Transition 2100 2105	[BOS]
+T16	Narrative_cite 2276 2281	[BOS]
+T17	Reflection 2611 2616	[BOS]
+T18	Transition 3207 3212	[BOS]
+T19	Multi_summ 3337 3342	[BOS]
+T20	Single_summ 3484 3489	[BOS]
+T21	Transition 3577 3582	[BOS]
+T22	Reflection 3755 3760	[BOS]
+T23	Reflection 3956 3961	[BOS]
+T24	Reference 456 478	(Mikolov et al. 2013a)
+T25	Reference 669 686	(Xing et al. 2015
+T26	Reference 688 708	Artetxe et al. 2016)
+T27	Reference 829 851	(Faruqui and Dyer 2014
+T28	Reference 853 868	Lu et al. 2015)
+T29	Reference 1144 1167	(Upadhyay et al. 2016 )
+T30	Reference 1260 1279	(Huang et al. 2015)
+T32	Reference 1568 1587	(Gouws et al. 2015)
+T33	Reference 1610 1633	(Coulmance et al. 2015)
+T34	Reference 1666 1689	(Vyas and Carpuat 2016)
+T35	Reference 1914 1933	(Kiros et al. 2015)
+T36	Reference 1972 1991	(Chen et al. 2018a)
+T37	Reference 2404 2420	(Sha et al. 2016
+T38	Reference 2422 2444	Rocktschel et al. 2016
+T39	Reference 2446 2464	Chen et al. 2018a)
+T40	Reference 2529 2548	(Shen et al. 2017 )
+T41	Reference 2579 2608	(Chopra, Auli, and Rush 2016)
+T42	Reference 2710 2741	(Bahdanau, Cho, and Bengio 2015
+T43	Reference 2743 2758	Wu et al. 2016)
+T44	Dominant 3343 3361	Hill et al. (2016)
+T45	Dominant 3366 3383	Xie et al. (2016)
+T46	Dominant 3490 3510	Eisner et al. (2016)
+T47	B_span 433 437	seed
+T48	E_span 472 477	2013a
+T49	B_span 593 606	orthogonality
+T50	E_span 703 707	2016
+T51	B_span 778 789	monolingual
+T52	E_span 863 867	2015
+T53	B_span 1112 1117	cross
+T54	E_span 1161 1165	2016
+T55	B_span 1225 1234	embedding
+T56	E_span 1274 1278	2015
+T57	B_span 1525 1534	bilingual
+T31	E_span 1582 1586	2015
+T58	B_span 1590 1599	bilingual
+T59	E_span 1628 1632	2015
+T60	B_span 1638 1644	sparse
+T61	E_span 1684 1688	2016
+T62	B_span 2388 2392	text
+T63	E_span 2458 2463	2018a
+T64	B_span 2471 2479	sequence
+T65	E_span 2542 2546	2017
+T66	B_span 2553 2564	abstractive
+T67	E_span 2603 2607	2016
+T68	B_span 2677 2683	neural
+T69	E_span 2753 2757	2016
+T70	B_span 3343 3347	Hill
+T71	E_span 3470 3482	associations
+T72	B_span 3490 3496	Eisner
+T73	E_span 3563 3575	descriptions

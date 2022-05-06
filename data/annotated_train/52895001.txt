@@ -1,0 +1,5 @@
+[BOS] Other proposals exist other than the three we analyzed that expand on features in SQuAD (Rajpurkar et al., 2016) .
+[BOS] For example, maintaining question independence of context to reduce the role of string matching and having long context length (Joshi et al., 2017; Kocisk et al., 2017) , higher level reasoning (Khashabi et al., 2018; Yang et al., 2018) , multi-turn information seeking interactions, in either table settings (Iyyer et al., 2017; Talmor and Berant, 2018; Saha et al., 2018) , regulation settings (Saeidi et al., 2018) , or Quiz Bowl settings (Elgohary et al., 2018) .
+[BOS] Other work considers multi-modal contexts where interactions are a single turn (Tapaswi et al., 2016; Antol et al., 2015; Lei et al., 2018) or multi-turn (Das et al., 2017; Pasunuru and Bansal, 2018) .
+[BOS] These efforts contain alternative challenges than ones we analyze in this paper.
+

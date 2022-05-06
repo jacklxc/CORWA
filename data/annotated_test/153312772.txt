@@ -1,0 +1,26 @@
+[BOS] Transfer learning is first introduced for NMT in Zoph et al. (2016) , yet with a small RNN architecture and on top frequent words instead of using subword units.
+[BOS] Nguyen and Chiang (2017) and Kocmi and Bojar (2018) use shared vocabularies of BPE tokens to improve the transfer learning, but this requires retraining of the parent model whenever we transfer to a new child language.
+
+[BOS] Multilingual NMT trains a single model with parallel data of various translation directions jointly from scratch (Dong et al., 2015; Johnson et al., 2017; Firat et al., 2016) .
+[BOS] Their methods also rely on shared subword vocabularies so it is hard for their model to adapt to a new language.
+
+[BOS] Cross-lingual word embedding is studied for the usages in MT as follows.
+[BOS] In phrase-based SMT, Alkhouli et al. (2014) builds translation models with word/phrase embeddings.
+[BOS] uses cross-lingual word embedding as a basic translation model for unsupervised MT and attach other components on top of it.
+[BOS] Artetxe et al. (2018b) and Lample et al. (2018) initialize their unsupervised NMT models with pretrained crosslingual word embeddings.
+[BOS] Qi et al. (2018) do the same initialization for supervised cases, observing only improvements in multilingual setups.
+
+[BOS] Artificial noises for the source sentences are used to counteract word-by-word training data in unsupervised MT (Artetxe et al., 2018b; Lample et al., 2018; , but they are used to regularize the NMT in this work.
+[BOS] Neubig and Hu (2018) study adapting a multilingual NMT system to a new language.
+[BOS] They train for a child language pair with additional parallel data of its similar language pair.
+[BOS] Our synthetic data method does not rely on the relateness of languages but still shows a good performance.
+[BOS] They learn just a separate subword vocabulary for the child language without a further care, which we counteract with cross-lingual word embedding.
+[BOS] show ablation studies on parameter sharing/freezing in one-to-many multilingual setup with shared vocabularies.
+[BOS] Our work conduct the similar experiments in the transfer learning setting with separate vocabularies.
+
+[BOS] Platanios et al. (2018) augment a multilingual model with language-specific embeddings from which the encoder/decoder parameters are inferred with additional linear transformations.
+[BOS] They only mention its potential to transfer to an unseen language without any results on it.
+[BOS] Our work focuses on transferring a pre-trained model to a new language without any change in the model architecture but with an explicit guidance for crosslinguality on the word embedding level.
+[BOS] Wang et al. (2019) address the vocabulary mismatch in multilingual NMT by using shared embeddings of character n-grams and common semantic concepts.
+[BOS] Their method has a strict assumption that the languages should be related with shared alphabets, while our method is not limited to similar languages and directly benefits from advances in cross-lingual word embedding for distant languages.
+

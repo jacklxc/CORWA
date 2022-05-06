@@ -1,0 +1,6 @@
+[BOS] Many semantic parsers have been developed to translate natural language text into structured, symbolic forms, including abstract meaning representation (Lyu and Titov, 2018) , executable programs (e.g. Python, Lisp, Bash) (Allamanis et al., 2015; Rabinovich et al., 2017; Yin and Neubig, 2017; Liang et al., 2017; Lin et al., 2018) , and SQL queries (Dong and Lapata, 2018; Yu et al., 2018b,a; Xu et al., 2017) .
+
+[BOS] For text-to-SQL parsing, the work most closely related to ours is SyntaxSQLNet (Yu et al., 2018b) , which is the state-of-the-art approach for the Spider data set (Yu et al., 2018c) .
+[BOS] SyntaxSQLNet extends prior text-to-SQL models, such as SQL-Net (Xu et al., 2017) and TypeSQL (Yu et al., 2018a) , by encoding both local information from column names and global information from table names.
+[BOS] The primary difference between Syn-taxSQLNet and our work is that we use a novel column embedding technique that additionally includes a graph of the tables, connected through shared column names.
+

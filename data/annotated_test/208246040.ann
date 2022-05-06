@@ -1,0 +1,109 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 295 300	[BOS]
+T3	Narrative_cite 482 487	[BOS]
+T4	Narrative_cite 678 683	[BOS]
+T5	Transition 940 945	[BOS]
+T6	Narrative_cite 1142 1147	[BOS]
+T7	Transition 1284 1289	[BOS]
+T8	Narrative_cite 1378 1383	[BOS]
+T9	Reflection 1981 1986	[BOS]
+T10	Transition 2302 2307	[BOS]
+T11	Multi_summ 2476 2481	[BOS]
+T12	Narrative_cite 2601 2606	[BOS]
+T13	Narrative_cite 2843 2848	[BOS]
+T14	Reflection 3089 3094	[BOS]
+T15	Reflection 3202 3207	[BOS]
+T16	Reflection 3395 3400	[BOS]
+T17	Reflection 3578 3583	[BOS]
+T18	Reference 266 291	(Khargharia et al., 2018)
+T19	Reference 381 404	(Knight and Marcu, 2000
+T20	Reference 406 428	Jing and McKeown, 2000
+T21	Reference 430 447	Dorr et al., 2003
+T22	Reference 449 479	Berg-Kirkpatrick et al., 2011)
+T23	Reference 529 553	(Sutskever et al., 2014)
+T24	Reference 634 652	(Rush et al., 2015
+T25	Reference 654 674	Chopra et al., 2016)
+T26	Reference 753 777	(Cheng and Lapata, 2016)
+T27	Reference 788 805	(Bui et al., 2016
+T28	Reference 807 829	Gehrmann et al., 2018)
+T29	Reference 841 864	(Cheng and Lapata, 2016
+T30	Reference 889 913	Nallapati et al., , 2017
+T31	Reference 1154 1184	Berg-Kirkpatrick et al. (2011)
+T32	Reference 1186 1209	Filippova et al. (2015)
+T33	Reference 1212 1233	Durrett et al. (2016)
+T34	Reference 1438 1462	(Martins and Smith, 2009
+T35	Reference 1464 1487	Gillick and Favre, 2009
+T36	Reference 1489 1509	Boudin et al., 2015)
+T37	Reference 1527 1549	(Erkan and Radev, 2004
+T38	Reference 1589 1611	(Narayan et al., 2018)
+T39	Reference 1666 1684	(Shen et al., 2007
+T40	Reference 1686 1708	Nallapati et al., 2017
+T41	Reference 1710 1732	Chen and Bansal, 2018)
+T42	Reference 1902 1926	(Nallapati et al., 2017)
+T43	Reference 1955 1978	(Chen and Bansal, 2018)
+T44	Reference 2201 2222	(Devlin et al., 2018)
+T45	Reference 2250 2272	(Vaswani et al., 2017)
+T46	Dominant 2482 2509	Barzilay and McKeown (2005)
+T47	Dominant 2512 2534	Cheung and Penn (2014)
+T48	Reference 2646 2670	(Sutskever et al., 2014)
+T49	Reference 2686 2706	Chopra et al., 2016)
+T50	Reference 2724 2740	Gu et al., 2016)
+T51	Reference 2761 2779	(See et al., 2017)
+T52	Reference 2804 2822	(Tan et al., 2017)
+T53	Reference 3038 3058	(Paulus et al., 2017
+T54	Reference 3060 3085	Celikyilmaz et al., 2018)
+T55	Reference 3106 3124	Rush et al. (2015)
+T56	Reference 3127 3149	Chen and Bansal (2018)
+T57	Pronoun 88 90	it
+T58	Pronoun 2570 2575	their
+T59	Pronoun 2959 2963	this
+T60	Pronoun 3614 3618	this
+T61	B_span 301 306	Early
+T62	E_span 474 478	2011
+T63	B_span 92 99	diverse
+T64	E_span 286 290	2018
+T65	B_span 513 519	neural
+T66	E_span 548 552	2014
+T67	B_span 574 579	large
+T68	E_span 669 673	2016
+T69	B_span 735 746	granularity
+T70	E_span 772 776	2016
+T71	B_span 780 787	phrases
+T72	E_span 824 828	2018
+T73	B_span 832 840	sentence
+T74	Reference 866 888	Nallapati et al., 2016
+T75	E_span 909 913	2017
+T76	B_span 1154 1158	Berg
+T77	E_span 1276 1281	level
+T78	B_span 1411 1418	integer
+T79	E_span 1504 1508	2015
+T80	B_span 1512 1517	graph
+T81	E_span 1545 1549	2004
+T82	B_span 1566 1579	reinforcement
+T83	E_span 1606 1610	2018
+T84	B_span 1638 1642	work
+T85	E_span 1727 1731	2018
+T86	B_span 1880 1893	bidirectional
+T87	E_span 1921 1925	2017
+T88	B_span 1932 1945	bidirectional
+T89	E_span 1973 1977	2018
+T90	B_span 2225 2232	machine
+T91	E_span 2267 2271	2017
+T92	B_span 2178 2186	language
+T93	E_span 2217 2221	2018
+T94	B_span 2482 2490	Barzilay
+T95	E_span 2594 2599	trees
+T96	B_span 2618 2626	sequence
+T97	E_span 2665 2669	2014
+T98	B_span 2676 2685	attention
+T99	E_span 2701 2705	2016
+T100	B_span 2709 2713	copy
+T101	E_span 2735 2739	2016
+T102	B_span 2743 2750	pointer
+T103	E_span 2774 2778	2017
+T104	B_span 2782 2787	graph
+T105	E_span 2817 2821	2017
+T106	B_span 3015 3028	reinforcement
+T107	E_span 3080 3084	2018
+T108	B_span 3095 3102	Similar
+T109	E_span 3191 3200	sentences

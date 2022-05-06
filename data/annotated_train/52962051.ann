@@ -1,0 +1,114 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 133 138	[BOS]
+T3	Narrative_cite 277 282	[BOS]
+T4	Narrative_cite 384 389	[BOS]
+T5	Narrative_cite 498 503	[BOS]
+T6	Narrative_cite 738 743	[BOS]
+T7	Single_summ 880 885	[BOS]
+T8	Single_summ 1032 1037	[BOS]
+T9	Single_summ 1170 1175	[BOS]
+T10	Reflection 1355 1360	[BOS]
+T11	Reflection 1515 1520	[BOS]
+T12	Transition 1720 1725	[BOS]
+T13	Single_summ 1838 1843	[BOS]
+T14	Single_summ 1940 1945	[BOS]
+T15	Single_summ 2104 2109	[BOS]
+T16	Single_summ 2242 2247	[BOS]
+T17	Reflection 2470 2475	[BOS]
+T18	Single_summ 2571 2576	[BOS]
+T19	Reflection 2754 2759	[BOS]
+T20	Transition 2885 2890	[BOS]
+T21	Reflection 2938 2943	[BOS]
+T22	Other 3067 3072	[BOS]
+T23	Other 3194 3199	[BOS]
+T24	Other 3225 3230	[BOS]
+T25	Other 3233 3238	[BOS]
+T26	Other 3241 3246	[BOS]
+T27	Other 3312 3317	[BOS]
+T28	Other 3320 3325	[BOS]
+T29	Other 3328 3333	[BOS]
+T30	Other 3461 3466	[BOS]
+T31	Other 3469 3474	[BOS]
+T32	Other 3477 3482	[BOS]
+T33	Reflection 3490 3495	[BOS]
+T34	Reflection 3599 3604	[BOS]
+T35	Reflection 3809 3814	[BOS]
+T36	Reflection 3896 3901	[BOS]
+T37	Reflection 4035 4040	[BOS]
+T38	Narrative_cite 4101 4106	[BOS]
+T39	Narrative_cite 4212 4217	[BOS]
+T40	Reflection 4318 4323	[BOS]
+T41	Reflection 4370 4375	[BOS]
+T42	Narrative_cite 4505 4510	[BOS]
+T43	Transition 4666 4671	[BOS]
+T44	Reflection 4799 4804	[BOS]
+T45	Reflection 4982 4987	[BOS]
+T46	Multi_summ 5109 5114	[BOS]
+T47	Single_summ 5251 5256	[BOS]
+T48	Reference 361 381	(Stent et al., 2004)
+T49	Reference 474 495	(Walker et al., 2007)
+T50	Reference 580 602	(Oh and Rudnicky, 2000
+T51	Reference 604 629	Mairesse and Young, 2014)
+T52	Reference 711 735	(Kondadadi et al., 2013)
+T53	Reference 860 877	Wen et al., 2015)
+T54	Dominant 980 998	Peng et al. (2017)
+T55	Dominant 1047 1069	Ferreira et al. (2017)
+T56	Dominant 1199 1220	Konstas et al. (2017)
+T57	Dominant 1924 1937	Juraska et al
+T58	Dominant 1946 1952	(2018)
+T59	Dominant 2297 2313	Su et al. (2018)
+T60	Dominant 2577 2598	Juraska et al. (2018)
+T61	Reference 3947 3981	(Hochreiter and Schmidhuber, 1997)
+T62	Reference 3998 4020	(Vaswani et al., 2017)
+T63	Reference 4189 4209	(Luong et al., 2015)
+T64	Reference 4292 4315	(Bahdanau et al., 2014)
+T65	Reference 4618 4639	(Konstas et al., 2017
+T66	Reference 4641 4663	Ferreira et al., 2017)
+T67	Dominant 5177 5198	Juraska et al. (2018)
+T68	Dominant 5284 5306	Freitag and Roy (2018)
+T69	Pronoun 390 395	These
+T70	Pronoun 1187 1191	this
+T71	Pronoun 1726 1730	This
+T72	Pronoun 2110 2114	This
+T73	Pronoun 2647 2651	they
+T74	Pronoun 3130 3132	it
+T75	Pronoun 4988 4993	These
+T76	Pronoun 5118 5122	this
+T77	B_span 293 300	surface
+T78	E_span 376 380	2004
+T79	B_span 428 440	hierarchical
+T80	E_span 490 494	2007
+T81	B_span 536 542	phrase
+T82	E_span 624 628	2014
+T83	B_span 680 692	semantically
+T84	E_span 730 734	2013
+T85	B_span 828 831	end
+T86	E_span 872 876	2015
+T87	B_span 886 893	Several
+T88	E_span 1023 1030	problem
+T89	B_span 1047 1055	Ferreira
+T90	E_span 1160 1168	datasets
+T91	B_span 1199 1206	Konstas
+T92	E_span 1348 1353	model
+T93	B_span 1844 1847	For
+T94	E_span 1935 1937	al
+T95	B_span 1947 1951	2018
+T96	E_span 2225 2240	representations
+T97	B_span 2251 2258	account
+T98	E_span 2462 2468	tokens
+T99	E_span 2747 2752	rules
+T100	B_span 2577 2584	Juraska
+T101	B_span 3942 3946	LSTM
+T102	E_span 3976 3980	1997
+T103	B_span 3986 3997	Transformer
+T104	E_span 4015 4019	2017
+T105	B_span 4169 4176	encoder
+T106	E_span 4204 4208	2015
+T107	B_span 4268 4274	hidden
+T108	E_span 4310 4314	2014
+T109	B_span 4543 4547	list
+T110	E_span 4658 4662	2017
+T111	B_span 5177 5184	Juraska
+T112	E_span 5239 5249	attributes
+T113	B_span 5284 5291	Freitag
+T114	E_span 5399 5409	separately

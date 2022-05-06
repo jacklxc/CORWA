@@ -1,0 +1,8 @@
+[BOS] Previous work already proposed the use of explicit proposition structures (Cao et al., 2018) and multi-task learning with NLI Pasunuru et al., 2017) to successfully improve the correctness of abstractive sentence summaries.
+[BOS] In this work, we instead focus on the more challenging single-document summarization, where longer summaries allow for more errors.
+[BOS] Very recently, Fan et al. (2018) showed that with ideas similar to Cao et al. (2018) 's work, the correctness of document summaries can also be improved.
+
+[BOS] Moreover, Guo et al. (2018) and proposed to use NLI-based loss functions or multi-task learning with NLI for document summarization.
+[BOS] But unfortunately, their experiments do not evaluate whether the techniques improve summarization correctness.
+[BOS] We are the first to use NLI in a reranking setup, which is beneficial for this study as it allows to us to clearly isolate the net impact of the NLI component.
+

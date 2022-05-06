@@ -1,0 +1,8 @@
+[BOS] Researchers developed many statistical methods and linguistic-rule-based methods to study automatic summarization (Banko et al., 2000; Dorr et al., 2003; Zajic et al., 2004; Cohn and Lapata, 2008) .
+[BOS] With the development of Neural Network in NLP, more and more researches have appeared in abstractive summarization since it seems possible that Neural Network can help achieve the two goals.
+[BOS] Rush et al. (2015) to-sequence model with attention mechanism to abstractive summarization and realized significant achievements.
+[BOS] Chopra et al. (2016) changed the ABS model with an RNN decoder and Nallapati et al. (2016) changed the system to a fully-RNN sequence-to-sequence model and achieved outstanding performance.
+[BOS] Zhou et al. (2017) proposed a selective gate mechanism to filter secondary information.
+[BOS] proposed a deep recurrent generative decoder to learn latent structure information.
+[BOS] Ma et al. (2018) proposed a model that generates words by querying word embeddings.
+

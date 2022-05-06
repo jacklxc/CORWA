@@ -1,0 +1,54 @@
+[BOS] Our approach has similarity with approaches on entity summarisation, content planning from DBpedia data and ILP (Integer Linear Programming) approaches for content planning.
+[BOS] There is also a vast literature on using ILP for natural language processing.
+
+[BOS] Entity Summarisation (Cheng et al., 2015) presents an approach which focuses on a task very similar to ours, namely the task of selecting, for a given entity e, a subgraph of the knowledge graph whose root is e. The goal is to generate entity summaries that is, sets of facts which adequately summarise a given entity.
+[BOS] The method used extends a standard random surfer model navigating the knowledge graph based on metrics indicating (i) the informativeness of a fact and (ii) the relatedness between two facts.
+[BOS] In this way, the selected subgraphs are both coherent (solutions which maximise relatedness are preferred) and informative (facts that helps distinguishing the entity to be summarised from others are preferred).
+
+[BOS] We depart from (Cheng et al., 2015) both in terms of goals and of methods.
+[BOS] In terms of goals, while (Cheng et al., 2015) aim to produce entity summaries, our goal is to produce a large set of content units that are varied both in terms of content and in terms of structure.
+[BOS] In particular, one important difference is that we produce trees of varying shapes and depths while the graphs produced by (Cheng et al., 2015) are restricted to trees of depth one i.e., set of DBpedia triples whose subject is the entity to be described.
+[BOS] As discussed in Section 5.1, this allows us to produce knowledge trees which, because they vary in shape, will give rise to different linguistic structures and will therefore better support the creation of a linguistically varied benchmark for Natural Language Generation.
+
+[BOS] Our approach also departs from (Cheng et al., 2015) 's in that the methods used are very different.
+[BOS] While we use Integer Linear Programming and language models to select DBpedia subgraphs that are both discourse-and topic-coherent, (Cheng et al., 2015) use a random surfer model, pointwise mutual information and probabilistic estimates to measure relatedness and informativeness.
+[BOS] Generally, the two methods are complementary using different resources, algorithms and metrics thereby opening interesting possibilities for combination.
+[BOS] It would be interesting for instance, to investigate how modifying our ILP formulation to integrate the relatedness metrics used by (Cheng et al., 2015) would impact results.
+
+[BOS] Content Planning (Biran and McKeown, 2015) describes a discourse planning approach applied to the generation of comparison stories from DBpedia data.
+[BOS] Given two DBpedia entity e 1 and e 2 , they first select all DBpedia triples whose subject is either e 1 or e 2 .
+[BOS] Based on the shape of the triples (shared entities or predicates) and on the property they include, they then enrich this set of DBpedia triples with discourse relations.
+[BOS] For instance, if two triples share the same predicate and object, an expansion relation is added between the two triples (e.g., "John has a ball.
+[BOS] Mary also has a ball").
+[BOS] Discourse planning then consists in finding a path through the resulting multigraphs of potential relations between DBpedia triples using an bigram model over discourse relations.
+[BOS] Good discourse plans are those which maximise the probability of a sequence of discourse relations.
+[BOS] In this way, the proposed approach determines both the order of the events and the discourse relation holding between them.
+
+[BOS] (Lampouras and Androutsopoulos, 2013) present an Integer Linear Programming model of content selection, lexicalisation and aggregation for generating text from OWL ontologies.
+[BOS] The objective function used in their ILP model maximises the total importance of selected facts and minimizes the number of distinct elements mentioned in each sentence thereby favouring aggregated sentences i.e., sentences where repeated elements are avoided through e.g., ellipsis or coordination.
+
+[BOS] (Bouayad-Agha et al., 2011) introduces an ontology driven content selection procedure in which a base domain ontology is used to infer new facts.
+[BOS] For instance, given the numerical scores of two teams playing in the same game, a result event will be inferred between the winner and the loser and a causal relation will be inferred between the number of goals of a given team and this result event.
+[BOS] Content selection proceeds in three steps.
+[BOS] First, a set of hand written rules is used to select a subset of the knowledge base.
+[BOS] Second, relevance scores learned from a parallel data/text corpus are used to select the most relevant individual and relation instances.
+[BOS] Third, hand-written templates are used to determine the content to be included in the generated text.
+
+[BOS] Our approach differs from these proposals in that it focuses on content selection from typed RDF data.
+[BOS] Using bigram models whose basic units are DBpedia triples, we maximise global coherence by favouring content where DBpedia properties that often co-occur are selected together.
+[BOS] In contrast, (Lampouras and Androutsopoulos, 2013) assumes that the relevance scores are given.
+[BOS] Moreover, while they focus on selecting content that leads to maximally aggregated content, we focus on selecting content that is discourse coherent.
+[BOS] Like us, (Biran and McKeown, 2015) focus on DBpedia data and use bigram models.
+[BOS] However their approach investigate discourse planning not content selection and relatedly, the basic units of their bigram models are discourse relations rather than triples.
+[BOS] Our approach also differs from (Barzilay and Lapata, 2005) in that it is unsupervised and does not require an aligned data-text corpus.
+
+[BOS] Finally, the work presented here is closely related to a simpler proposal we introduced in (Mohammed et al., 2016) .
+[BOS] It differs from it in that it defines the notions of chain, sibling and mixed models for ngrams of DBpedia properties; relate them to the notion of topic-and discourse-coherence; and provide a comparative evaluation of their impact on content selection.
+
+[BOS] Integer Linear Programming and NLP.
+[BOS] Finally, there has been much work in recent years on using ILP for natural language processing.
+[BOS] In particular, (Kuznetsova et al., 2012) proposes an ILP formulation for the generation of natural image descriptions from visual and text data and (Filippova and Strube, 2008 ) uses ILP to model sentence compression.
+[BOS] The ILP formulation of our content selection method is most similar to that proposed for sentence compression in (Filippova and Strube, 2008) .
+[BOS] One important difference though is both the application (content selection rather than sentence compression) and the way in which relevance is computed.
+[BOS] While (Filippova and Strube, 2008) uses weights derived from a treebank to determine the relative importance of an edge, we use bigram models over DBpedia properties to estimate the relative importance of DBpedia triples.
+

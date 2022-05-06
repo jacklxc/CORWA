@@ -1,0 +1,68 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 67 72	[BOS]
+T3	Narrative_cite 374 379	[BOS]
+T4	Narrative_cite 538 543	[BOS]
+T5	Narrative_cite 820 825	[BOS]
+T6	Narrative_cite 1066 1071	[BOS]
+T7	Narrative_cite 1294 1299	[BOS]
+T8	Single_summ 1496 1501	[BOS]
+T9	Reflection 1690 1695	[BOS]
+T10	Single_summ 1823 1828	[BOS]
+T11	Single_summ 1955 1960	[BOS]
+T12	Reflection 2153 2158	[BOS]
+T13	Transition 2248 2253	[BOS]
+T14	Reflection 2389 2394	[BOS]
+T15	Single_summ 2589 2594	[BOS]
+T16	Narrative_cite 2898 2903	[BOS]
+T17	Transition 3126 3131	[BOS]
+T18	Narrative_cite 3324 3329	[BOS]
+T19	Reference 148 168	(Klein et al., 2003)
+T20	Reference 195 209	(Church, 1993)
+T21	Reference 239 258	(Peng et al., 2003)
+T22	Reference 519 535	(Nakagawa, 2004)
+T23	Reference 672 699	(Frantzeskou et al., 2006 )
+T24	Reference 935 955	(Duong et al., 2015)
+T25	Reference 1246 1264	(Ling et al., 2015
+T26	Reference 1266 1291	Ballesteros et al., 2015)
+T27	Reference 1475 1493	(Kim et al., 2015)
+T28	Dominant 1547 1570	Rohan and Denero (2015)
+T29	Dominant 1868 1894	Collobert et al. 's (2011)
+T30	Dominant 2675 2695	(Zhang et al., 2015)
+T31	Reference 3081 3099	(Chan et al., 2015
+T32	Reference 3101 3123	Bahdanau et al., 2015)
+T33	Reference 3417 3441	Graves and Jaitly (2014)
+T34	Reference 3458 3477	Eyben et al. (2009)
+T35	Pronoun 1711 1715	this
+T36	Pronoun 1961 1965	They
+T37	Pronoun 2237 2241	they
+T38	Pronoun 2449 2454	their
+T39	Pronoun 2777 2782	their
+T40	Pronoun 2821 2825	they
+T41	Pronoun 3223 3228	their
+T42	Pronoun 3330 3334	This
+T43	B_span 144 147	NER
+T44	E_span 163 167	2003
+T45	B_span 171 179	parallel
+T46	E_span 204 208	1993
+T47	B_span 216 226	authorship
+T48	E_span 253 257	2003
+T49	B_span 483 492	languages
+T50	E_span 530 534	2004
+T51	B_span 624 628	byte
+T52	E_span 693 697	2006
+T53	B_span 907 917	parameters
+T54	E_span 950 954	2015
+T55	B_span 1218 1229	independent
+T56	E_span 1286 1290	2015
+T57	B_span 1396 1409	Convolutional
+T58	E_span 1488 1492	2015
+T59	B_span 1502 1508	Rather
+T60	E_span 1675 1688	subcomponents
+T61	B_span 1829 1832	Our
+T62	E_span 2147 2151	task
+T63	B_span 2595 2601	Recent
+T64	E_span 2890 2895	tasks
+T65	B_span 3056 3064	acoustic
+T66	E_span 3118 3122	2015
+T67	B_span 3349 3359	discarding
+T68	E_span 3472 3476	2009

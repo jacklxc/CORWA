@@ -1,0 +1,112 @@
+[BOS] We are not aware of other studies that propose joint models for Bulgarian, and to the best of our knowledge, attemps at combining the three tasks (POS tagging, dependency parsing and coreference resolution) in a joint model have not been described in the literature either.
+
+[BOS] Our approach is inspired by works such as (Finkel and Manning, 2010) , (Bohnet and Nivre, 2012) and (Qian and Liu, 2012) .
+[BOS] Finkel and Manning (2010) report on combining NER and parsing tasks in a joint model.
+[BOS] One similarity with our task is the understanding that the separate tasks can help each other in various not-always-subsequent executions.
+[BOS] Another one is the fact that the explored algorithm is extended.
+[BOS] The difference is that the authors rely on a feature-rich CRF parser, while our algorithm is based on an online largemargin learning algorithm.
+[BOS] Bohnet and Nivre (2012) studies the combination of two tasks (POS tagging and Dependency labeled non-projective parsing) against datasets in four languages, and the reported results indicate an improvement over the pipeline-generated output for all considered languages.
+[BOS] The algorithm behind their architecture is transition-based.
+
+[BOS] The reported results indicate that combining POS tagging and dependency parsing could be a successful step not only for morphologically rich languages (such as Czech and German), but also for languages where POS ambiguities are abundant (such as Chinese).
+[BOS] This work illustrates the superiority of joint models in settings rather similar to our own.
+[BOS] The authors added features for improving the POS tagging task within the combined model.
+[BOS] We also followed this strategy.
+
+[BOS] Our work differs in the choice of an algorithm (Maximum Spanning Tree Model), and in the greater number of problems tackled by the proposed model.
+[BOS] The motivation for choosing the approach of the MSTParser is that two of the tasks that we handle can be non-local, and the algorithm may require information from distant nodes in order to find an appropriate solution.
+[BOS] Therefore, a straight adaptation of the transition-based model is not possible.
+[BOS] Qian and Liu (2012) focuses on the modelling of three tasks for Chinese -word segmentation, POS tagging and parsing.
+[BOS] The models for each task are trained separately, while the unification of predictions is performed during the decoding phase.
+[BOS] As in the previous paper, the authors report improvements over the pipeline results for Chinese.
+[BOS] The similarity is that our approach also considers three tasks in one model for one language with a modified algorithm.
+
+[BOS] Our approach differs in the following aspects: the third task is not identical.
+[BOS] In our case it is the addition of co-reference chains instead of the specific for Chinese word segmentation module.
+[BOS] Bulgarian is a morphologically rich language in comparison to Chinese -hence, the POS tagging model is more complex.
+[BOS] The parsing task uses dependencies instead of the CFGs used in the case of the Chinese parser.
+[BOS] Our model does not train the tasks separately, with specific models, before combining them, and the joint model is used during the development and exploitation of the proposed parser.
+[BOS] Our aim is to combine 3 closely related tasks, which have not been addressed widely in NLP, and to evaluate their impact on the processing of Bulgarian.
+[BOS] The complexity of the joint task is high not only due to the number of modules incorporated in the model, but also to the morphosyntactical richness of the language addressed in our work.
+
+[BOS] Below we describe our dataset, before we continue discussing the algorithm that handles the joint modeling task.
+
+[BOS] 3 The Linguistic Annotation of the Bulgarian Treebank (BulTreeBank)
+
+[BOS] BulTreeBank provides rich linguistic information that goes beyond syntactic annotation.
+[BOS] It comprises the full grammatical tags, lemmas for all wordforms, syntactic relations (HPSG), named entities, as well as co-references within each sentence.
+[BOS] Since parts of speech, syntactic and coreference relations have been incorporated in our joint modeling effort, we will outline the specifics of their annotation within the dataset.
+[BOS] As we have already mentioned, Bulgarian is a morphologically rich language.
+[BOS] Morphological richness has many varieties from a typological point of view.
+[BOS] Bulgarian has a very rich verb system, and it is an inflective language, whose complete part of speech tagset comprises about 680 tags 1 .
+[BOS] As this circumstance causes sparseness and increases the modeling complexity, we opt in for filtering the input with the aid of a rich morphological lexicon and morphological guessers.
+[BOS] Besides the original HPSG-based corpus, there is a dependency version of BulTreeBank, derived from the original dataset.
+[BOS] More details regarding the types of dependency relations available in it are enlisted at http://www.bultreebank.org/dpbtb/.
+
+[BOS] In Figure 1 , an HPSG-based tree of the sentence "Vednaga odobri namerenieto na sestra si" ('Immediately approved intention of sister his', He approved his sister's intention immediately) is shown.
+[BOS] This example illustrates the way in which the HPSG-based version of the dataset encodes dependency information (the "NPA" tag stands for nominal phrases of type head-adjunct).
+[BOS] Another noteworthy detail is the co-reference link between the un-expressed subject and the reflexive possessive pronoun.
+[BOS] In the HPSG-based version of the treebank, the unexpressed subject is represented explicitly only in cases when it participates in a co-reference chain, as shown in the sample sentence.
+[BOS] It is considered to be a property of the verb node, and not part of the constituent structure.
+[BOS] Figure 2 provides a view on the same sentence after its conversion to dependency format.
+[BOS] The head-adjunct relation found within the lowest NPA in the tree has been projected into a head-modifier relation.
+[BOS] Co-reference arcs have not been transferred into the dependency version of the treebank used within the CoNLL 2006 shared task.
+[BOS] We have 1 http://www.bultreebank.org/TechRep/BTB-TR03.pdf added them specially for the modeling effort reported in this paper.
+[BOS] Here, co-references are represented as secondary edges connecting the word nodes, and arc labels are represented as ovals situated between the connected word pairs.
+[BOS] The annotation of BulTreeBank complies with the definition of co-reference resolution as the identification of expressions that reference a common discourse entity (Recasens et al., 2010) .
+[BOS] From a semantic perspective, co-references include three types of relations: "equality", "member-of" and "subset-of".
+[BOS] Reflected linguistic phenomena include: pro-dropness (when coreferentially bound), subject and object control, secondary predication, binding, and nominalizations.
+[BOS] Co-references are found in the following set of dependency relations: coordination, subordination, complementation, adjunction and modification.
+[BOS] The annotated co-reference chains within the treebank amount to 5,312.
+[BOS] On average every third sentence contains at least one co-reference chain.
+[BOS] Thus, the impact of the co-references within Bulgarian grammar is clearly indicated.
+[BOS] analysis of a sentence as a tree that includes some new types of service nodes in addition to the nodes that represent words.
+[BOS] Service nodes connect to either words or other service nodes, in accordance with a set of rules that we describe in detail in 4.2.
+
+[BOS] Let us have a set G of POS tags, and a set D of dependency tags (ROOT  D).
+[BOS] Let us have a sentence x = w 1 , ..., w n .
+[BOS] A tagged dependency graph with co-reference relations is a directed tree T = (V, A, , , C) where:
+
+[BOS] is a set of undirected arcs representing the co-reference equality relation over the nodes of the dependency tree;
+
+[BOS] We will hereafter refer to this structure as a parse graph for the sentence x.
+[BOS] Figure 2 illustrates one such parse graph.
+
+[BOS] As a first step of extending the tree, we assume a range of possible POS tags for each wordform in the sentence.
+[BOS] Such a range of tags has to contain the correct tag for the wordform in the given context.
+[BOS] The straightforward solution of assigning all the tags available in the tagset to each wordform makes the subsequent task of obtaining the correct tag infeasible, due to the great number of tags available in BulTreeBank.
+[BOS] In order to deal with this issue, we incorporate an inflectional lexicon (including a substantial set of entity names), which provides all possible tags for the wordforms available in it.
+[BOS] Furthermore, we enable the handling of unknown words by applying a morphological guesser that suggests up to ten possible tags per wordform.
+[BOS] Thus, we use the described components to yield a highly accurate and compact set of candidate POS tags.
+
+[BOS] These tags are included in the tree as service nodes.
+[BOS] In the linear representation of the sentence, they are inserted after the node for the corresponding wordform, and before the node for the next wordform to the right.
+[BOS] They are connected to the corresponding wordform with a special link $TAG.
+[BOS] In order to indicate the correct tag, we introduce another type of service node.
+[BOS] In the linear representation of the sentence, it is inserted after the last POS tag candidate node, and before the one corresponding to the next wordform to the right.
+[BOS] This node is connected to the correct tag via a special arc $CTAG (correct tag).
+[BOS] In this way, all information about the potential tags and the correct tag is represented in the form of a subtree, attached to the wordform.
+[BOS] Figure 3 depicts the encoding of a word with POS tag ambiguity.
+[BOS] The correct tag is indicated: verb, personal, perfective, transitive, finite, aorist, third person, singular.
+[BOS] The $TAG arcs are represented as red links without labels.
+[BOS] The $CTAG arc is represented as an oval.
+
+[BOS] The next problem is representing the coreferencial relations via the dependency tree.
+[BOS] In order to do this, we introduce yet another type of service node, denoted as $CR.
+[BOS] Such nodes are inserted on the right side of the corresponding wordform node, and to the left of the first POStag candidate node in the linear representation of the sentence.
+[BOS] We classify these nodes into two groups.
+[BOS] The first group consists of nodes, attached to wordforms that do not participate in a co-reference relation with another wordform that precedes them in the sentence.
+[BOS] These $CR nodes are linked to their wordform with an arc labeled $DI (discourse index), which might be linked to an entity in the discourse.
+[BOS] The second group of $CR nodes are those participating in a co-reference relation between their corresponding wordform and another wordform that precedes them in the sentence.
+[BOS] We say that such nodes share a discourse index with a word preceding them in the sentence, and assign the $SDI label to the arcs that interconnect such pairs service nodes.
+[BOS] The nodes in the second group are not connected to their corresponding wordform nodes, but are instead connected to the coreference nodes of the referenced entities.
+[BOS] This approach allows us to represent the co-reference relations as supplementary tree fragments, attached to the original tree.
+[BOS] Figure 4 presents an example of a sentence tree that contains both kinds of coreference nodes and the means through which they are connected to the graph.
+
+[BOS] $DI arcs are depicted as dark blue links.
+[BOS] In cases where a word participates in a co-reference chain with a word that precedes it, there is no link between the word and it's $CR node.
+[BOS] Instead, its $CR node is connected to the $CR node of the first word in the co-reference chain.
+[BOS] Such arcs ($SDI) are depicted as light blue links.
+
+[BOS] Applying the described transformations allows us to obtain a tree representation of a tagged dependency graph that includes co-reference relations.
+

@@ -1,0 +1,15 @@
+[BOS] There has been growing interest in improving the representation power of SANs (Dou et al., 2018 (Dou et al., , 2019 Yang et al., 2018; Wu et al., 2018; Yang et al., 2019a,b; Sukhbaatar et al., 2019) .
+[BOS] Among these approaches, a straightforward strategy is that augmenting the SANs with position representations (Shaw et al., 2018; Ma et al., 2019; Bello et al., 2019; , as the position representations involves elementwise attention computation.
+[BOS] In this work, we propose to augment SANs with structural position representations to model the latent structure of the input sentence.
+
+[BOS] Our work is also related to the structure modeling for SANs, as the proposed model utilizes the dependency tree to generate structural representations.
+[BOS] Recently, Hao et al. (2019c,b) integrate the recurrence into the SANs and empirically demonstrate that the hybrid models achieve better performances by modeling structure of sentences.
+[BOS] Hao et al. (2019a) further make use of the multi-head attention to form the multi-granularity self-attention, to capture the different granularity phrases in source sentences.
+[BOS] The difference is that we treat the position representation as a medium to transfer the structure information from the dependency tree into the SANs.
+[BOS] Table 1 : Impact of the position encoding components on ChineseEnglish NIST02 development dataset using Transformer-Base model.
+[BOS] "Abs."
+[BOS] and "Rel."
+[BOS] denote absolute and relative position encoding, respectively.
+[BOS] "Spd."
+[BOS] denotes the decoding speed (sentences/second) on a Tesla M40, the speed of structural position encoding strategies include the step of dependency parsing.
+

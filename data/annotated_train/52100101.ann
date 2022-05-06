@@ -1,0 +1,30 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 193 198	[BOS]
+T3	Transition 263 268	[BOS]
+T4	Transition 335 340	[BOS]
+T5	Transition 513 518	[BOS]
+T6	Transition 713 718	[BOS]
+T7	Transition 831 836	[BOS]
+T8	Reflection 842 847	[BOS]
+T9	Reflection 975 980	[BOS]
+T10	Reflection 1002 1007	[BOS]
+T11	Transition 1182 1187	[BOS]
+T12	Transition 1345 1350	[BOS]
+T13	Transition 1536 1541	[BOS]
+T14	Transition 1628 1633	[BOS]
+T15	Transition 1698 1703	[BOS]
+T16	Transition 1844 1849	[BOS]
+T17	Reference 91 108	(Lee et al., 2016
+T18	Reference 110 130	Johnson et al., 2016
+T19	Reference 132 149	Gu et al., 2018b)
+T20	Reference 171 190	(Zoph et al., 2016)
+T21	Pronoun 573 578	these
+T22	Pronoun 669 671	it
+T23	Pronoun 889 893	this
+T24	Pronoun 1550 1552	it
+T25	Pronoun 1642 1647	these
+T26	Pronoun 1850 1854	This
+T27	B_span 66 78	multilingual
+T28	E_span 143 148	2018b
+T29	B_span 153 161	transfer
+T30	E_span 185 189	2016

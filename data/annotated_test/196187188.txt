@@ -1,0 +1,20 @@
+[BOS] Earlier studies on machine comprehension mainly focused on the text span selection question.
+[BOS] It is often transformed into a similarity matching problem and solved by feature engineeringbased methods (Smith et al., 2015) or deep neural networks.
+[BOS] The classical features include lexical features (e.g. overlapping of words, Ngram, POS tagging) (Richardson et al., 2013) , syntactic features (Wang et al., 2015) , discourse features (Narasimhan and Barzilay, 2015) , etc.
+[BOS] Besides, the typical networks involve Stanford AR , AS Reader (Kadlec et al., 2016) , BiDAF (Seo et al., 2016) , Match-LSTM (Wang and Jiang, 2017) , etc, which used distributed vectors rather than discrete features to better compute the contextual similarity.
+
+[BOS] To support inference, existing models can be classified into three categories, including predicate based methods (Richardson and Domingos, 2006) , rule-based methods relied on external parser (Sun et al., 2018b) or pre-built tree (Yu et al., 2012) , and multi-layer memory networks (Hill et al., 2015) , such as gated attended net (Dhingra et al., 2016) , double-sided attended net (Cui et al., 2016) , etc.
+[BOS] These models either lack end-to-end design for global training, or no prior structure to subtly guide the reasoning direction.
+[BOS] On the topic of multi-hop reasoning, current models often have to rely on the predefined graph constructed by external tools, such as interpretable network (Zhou et al., 2018) on knowledge graph.
+[BOS] The graph plainly links the facts, from which the intermediate result in the next hop can be directly derived.
+[BOS] However, in this paper, the evidence graph is not explicitly given by embodied in the text semantics.
+
+[BOS] Another related works are on Visual QA, aiming to answer the compositional questions with regards to a given image, such as "What color is the matte thing to the right of the sphere in front of the tiny blue block?"
+[BOS] In particular, Santoro et al. (2017) proposed a relation net, yet the net was restricted to relational question, such as comparison.
+[BOS] Later, Hudson and Manning (2018) introduced an iterative network.
+[BOS] The network separated memory and control to improve interpretability.
+[BOS] Our work leverages such separated design.
+[BOS] Different from previous researches, we dedicate to inferential machine comprehension, where the question may not be compositional, such as why question, but requires reasoning on an unknown evidence chain with uncertain depth.
+[BOS] The chain has to be inferred from the text semantics.
+[BOS] To the best of our knowledge, no previous studies have investigated an end-to-end approach to address this problem.
+

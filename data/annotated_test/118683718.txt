@@ -1,0 +1,34 @@
+[BOS] As evidenced in the introduction of this paper, there have been a number of studies on automatic hate speech identification published in the last few years.
+[BOS] One of the most influential recent papers on hate speech identification is the one by .
+[BOS] In this paper, the authors presented the Hate Speech Detection dataset which contains posts retrieved from social media labeled with three categories: OK (posts not containing profanity or hate speech), Offensive (posts containing swear words and general profanity), and Hate (posts containing hate speech).
+[BOS] It has been noted in , and in other works , that training models to discriminate between general profanity and hate speech is far from trivial due to, for example, the fact that a significant percentage of hate speech posts contain swear words.
+[BOS] It has been ar-gued that annotating texts with respect to the presence of hate speech has an intrinsic degree of subjectivity .
+
+[BOS] Along with the recent studies published, there have been a few related shared tasks organized on the topic.
+[BOS] These include GermEval (Wiegand et al., 2018) for German, TRAC (Kumar et al., 2018) for English and Hindi, and OffensEval 1 (Zampieri et al., 2019b) for English.
+[BOS] The latter is also organized within the scope of SemEval-2019.
+[BOS] OffensEval considers offensive language in general whereas HatEval focuses on hate speech.
+[BOS] Waseem et al. (2017) proposes a typology of abusive language detection sub-tasks taking two factors into account: the target of the message and whether the content is explicit or implicit.
+[BOS] Considering that hate speech is commonly understood as speech attacking a group based on ethnicity, religion, etc, and that cyber bulling, for example, is understood as an attack towards an individual, the target factor plays an important role in the identification and the definition of hate speech when compared to other forms of abusive content.
+
+[BOS] The two SemEval-2019 shared tasks, HatEval and OffensEval, both include a sub-task on target identification as discussed in Waseem et al. (2017) .
+[BOS] HatEval includes the target annotation in its sub-task B with two classes (individual or group) whereas OffensEval includes it in its subtask C with three classes (individual, group or others).
+[BOS] Another important similarity between these two tasks is that both include a more basic binary classification task in sub-task A.
+[BOS] In HatEval, posts are labeled as as to whether they contain hate speech or not and in OffensEval, posts are labeled as being offensive or not.
+[BOS] As OffensEval considers multiple types of offensive contents, the hierarchical annotation model used to annotate OLID (Zampieri et al., 2019a) , the dataset used in OffensEval, includes an annotation level distinguishing between the type of offensive content that posts include with two classes: insults and threats, and general profanity.
+[BOS] This type annotation is used in OffensEval's sub-task B.
+
+[BOS] ten in both English and Spanish.
+
+[BOS] The training, development, trial, and test sets provided for English are composed of 9,000, 1,000, 100 and 3,000 instances, respectively.
+[BOS] The training, development, trial and test sets provided for Spanish are composed of 4,500, 500, 100 and 1,600 instances, respectively.
+[BOS] Each instance is composed of a tweet and three binary labels: One that indicates whether or not hate speech is featured in the tweet, one indicating whether the hate speech targets a group or an individual, and another indicating whether or not the author of the tweet is aggressive.
+[BOS] HatEval has 2 sub-tasks:
+
+[BOS]  Sub-task A: Judging whether or not a tweet is hateful.
+
+[BOS]  Sub-task B: Correctly predicting all three of the aforementioned labels.
+
+[BOS] In this paper, we focus on Task A exclusively, for both English and Spanish.
+[BOS] We participated in the competition using the team name UTFPR.
+

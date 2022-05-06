@@ -1,0 +1,27 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 56 61	[BOS]
+T3	Single_summ 222 227	[BOS]
+T4	Reflection 338 343	[BOS]
+T5	Transition 451 456	[BOS]
+T6	Transition 559 564	[BOS]
+T7	Narrative_cite 700 705	[BOS]
+T8	Transition 844 849	[BOS]
+T9	Transition 943 948	[BOS]
+T10	Transition 1046 1051	[BOS]
+T11	Transition 1142 1147	[BOS]
+T12	Reference 84 98	(Collins, 1999
+T13	Reference 100 114	Charniak, 2000
+T14	Reference 116 136	Petrov et al., 2006)
+T15	Dominant 258 278	Hatori et al. (2011)
+T16	Dominant 393 413	Hatori et al. (2011)
+T17	Reference 777 804	(Charniak and Johnson, 2005
+T18	Reference 806 827	Collins and Koo, 2005
+T19	Reference 829 841	Huang, 2008)
+T20	B_span 65 69	PCFG
+T21	E_span 131 135	2006
+T22	B_span 228 231	For
+T23	E_span 329 336	parsing
+T24	B_span 381 389	adaption
+T25	E_span 442 449	parsing
+T26	B_span 757 768	constituent
+T27	E_span 836 840	2008

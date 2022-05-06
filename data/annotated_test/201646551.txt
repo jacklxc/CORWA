@@ -1,0 +1,7 @@
+[BOS] Scoring span or mention pairs has perhaps been one of the most dominant paradigms in coreference resolution.
+[BOS] The base coreference model used in this paper from belongs to this family of models (Ng and Cardie, 2002; Bengtson and Roth, 2008; Denis and Baldridge, 2008; Fernandes et al., 2012; Durrett and Klein, 2013; Wiseman et al., 2015; Clark and Manning, 2016; Lee et al., 2017) .
+
+[BOS] More recently, advances in coreference resolution and other NLP tasks have been driven by unsupervised contextualized representations (Peters et al., 2018; Devlin et al., 2019; McCann et al., 2017; Joshi et al., 2019; Liu et al., 2019b) .
+[BOS] Of these, BERT (Devlin et al., 2019) notably uses pretraining on passage-level sequences (in conjunction with a bidirectional masked language modeling objective) to more effectively model long-range dependencies.
+[BOS] SpanBERT (Joshi et al., 2019) focuses on pretraining span representations achieving current state of the art results on OntoNotes with the independent variant.
+

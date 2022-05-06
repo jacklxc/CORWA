@@ -1,0 +1,36 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 139 144	[BOS]
+T3	Narrative_cite 271 276	[BOS]
+T4	Single_summ 448 453	[BOS]
+T5	Transition 597 602	[BOS]
+T6	Transition 702 707	[BOS]
+T7	Transition 854 859	[BOS]
+T8	Narrative_cite 964 969	[BOS]
+T9	Reference 97 115	Schtze, 2015, 2017
+T10	Reference 117 136	Murty et al., 2018)
+T11	Reference 324 346	(Yogatama et al., 2015
+T12	Reference 348 368	Ren et al., 2016a,b)
+T13	Dominant 471 489	Choi et al. (2018)
+T14	Reference 1019 1039	(Riedel et al., 2010
+T15	Reference 1041 1062	Hoffmann et al., 2011
+T16	Reference 1064 1085	Surdeanu et al., 2012
+T17	Reference 1087 1110	Takamatsu et al., 2012)
+T18	Reference 1134 1151	(Lin et al., 2016
+T19	Reference 1153 1169	Luo et al., 2017
+T20	Reference 1171 1187	Lei et al., 2018
+T21	Reference 1189 1206	Han et al., 2018)
+T22	Pronoun 157 162	these
+T23	Pronoun 182 186	they
+T24	Pronoun 225 229	they
+T25	Pronoun 396 400	this
+T26	Pronoun 1216 1221	these
+T27	B_span 19 28	denoising
+T28	E_span 131 135	2018
+T29	B_span 299 307	learning
+T30	E_span 365 366	,
+T31	B_span 454 457	The
+T32	E_span 589 594	apply
+T33	B_span 970 973	tic
+T34	E_span 1105 1109	2012
+T35	B_span 1122 1126	deep
+T36	E_span 1201 1205	2018

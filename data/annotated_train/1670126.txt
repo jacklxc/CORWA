@@ -1,0 +1,23 @@
+[BOS] Recently linguistically-motivated models have been intensively investigated in MT.
+[BOS] In particular, source tree-based models (Liu et al., 2006; Huang et al., 2006; Eisner, 2003; Zhang et al., 2008; Liu et al., 2009a; Xie et al., 2011) have received growing interest due to their good abilities in modelling source language syntax for better lexicon selection and reordering.
+[BOS] Alternatively, the hierarchical phrase-based approach (Chiang, 2005) considers the underlying hierarchical structures of sentences but does not require linguistically syntactic trees on either language side.
+
+[BOS] There are several lines of work for augmenting hierarchical phrase-based systems with the use of source language phrase-structure trees.
+[BOS] Liu et al. (2009b) describe novel approaches to translation under multiple translation grammars.
+[BOS] Their approach is very much motivated by system combination, and they develop procedures for joint decoding and optimisation within a single system that give the benefit of combining hypotheses from multiple systems.
+[BOS] They demonstrate their approach by combining full treeto-string and Hiero systems.
+[BOS] Our approach is much simpler and emphasises changes to the grammar rather than the decoder or its parameter optimisation (MERT).
+[BOS] Our aim is to augment the search space of Hiero with linguistically-motivated hypotheses, and not to develop a new decoder that is capable of translation under multiple grammars.
+[BOS] Moreover, we consider Hiero as the backbone model and only introduce tree-to-string rules where they can contribute; we show that extracting tree-to-string rules from just 10% of the data suffices to get good gains.
+[BOS] This results in a small number of tree-to-string rules and does not slow down the decoder.
+
+[BOS] Another related line of work is to introduce syntactic constraints or annotations to hierarchical phrasebased systems.
+[BOS] Marton and Resnik (2008) and Li et al. (2013) proposed several soft or hard constraints to model syntactic compatibility of Hiero derivations and input source language parse trees.
+[BOS] We note that, despite significant development effort, we were not able to improve our baseline through the use of these soft syntactic constraints; it was this experience that led us to develop the hybrid approach described in this paper.
+
+[BOS] Several research groups used syntactic labels as non-terminal symbols in their SCFG rules and develop new features (Zollmann and Venugopal, 2006; Zhao and Al-Onaizan, 2008; Chiang, 2010; Hoang and Koehn, 2010) .
+[BOS] However, all these methods still resort to rule extraction procedures similar to that of the standard phrase/hierarchical rule extraction method.
+[BOS] In contrast, we use the GHKM method which is a mature technique to extract rules from tree-string pairs but does not impose those Hiero-style constraints on rule extraction.
+[BOS] More importantly, we consider the hierarchical syntactic tree structure to make use of well-formed rules in decoding, while such information is not used in standard SCFG-based systems.
+[BOS] We also keep to the simpler non-terminals of Hiero, and do not 'decorate' any non-terminals with syntactic or other information.
+

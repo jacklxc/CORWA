@@ -1,0 +1,11 @@
+[BOS] In recent years, joint segmentation and tagging have been widely investigated (e.g. Zhang and Clark (2010) ; Kruengkrai et al. (2009); Zhang and Clark (2008a); Jiang et al. (2008a); Jiang et al. (2008b) ).
+[BOS] Particularly, our framework of using a single perceptron to solve the joint problem is motivated by Zhang and Clark (2008a) .
+[BOS] Also, our joint parsing framework is an extension of Huang and Sagae (2010)'s framework, which is described in detail in Section 2.2.
+[BOS] In constituency parsing, the parsing naturally involves the POS tagging since the non-terminal symbols are commonly associated with POS tags (e.g. Klein and Manning (2003) ).
+[BOS] Rush et al. (2010) proposed to use dual composition to combine a constituency parser and a trigram POS tagger, showing the effectiveness of taking advantage of these two systems.
+
+[BOS] In dependency parsing, Lee et al. (2011) recently proposed a discriminative graphical model that solves morphological disambiguation and dependency parsing jointly.
+[BOS] However, their main focus was to capture interaction between morphology and syntax in morphologically-rich, highlyinflected languages (such as Latin and Ancient Greek), which are unlike Chinese.
+[BOS] More recently, Li et al. (2011) proposed the first joint model for Chinese POS tagging and dependency parsing in a graph-based parsing framework, which is one of our baseline systems.
+[BOS] On the other hand, our work is the first incremental approach to this joint task.
+

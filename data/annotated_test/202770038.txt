@@ -1,0 +1,12 @@
+[BOS] Neural attention models (Bahdanau et al., 2015) with the seq2seq architecture (Sutskever et al., 2014) have achieved impressive results in text summarization tasks.
+[BOS] However, the attention vector comes from a weighted sum of source information and does not model the source-target alignment in a probabilistic sense.
+[BOS] This makes it difficult to interpret or control model generations through the attention mechanism.
+[BOS] In practice, people do find the attention vector is often blurred and suffers from poor alignment (Koehn and Knowles, 2017; Kiyono et al., 2018; Jain and Wallace, 2019) .
+[BOS] Hard alignment models, on the other hand, explicitly models the alignment relation between each source-target pair.
+[BOS] Though theoretically sound, hard alignment models are hard to train.
+[BOS] Exact marginalization is only feasible for data with limited length (Yu et al., 2016; Aharoni and Goldberg, 2017; Backes et al., 2018) , or by assuming a simple copy generation process (Vinyals et al., 2015; Gu et al., 2016; See et al., 2017) .
+[BOS] Our model can be viewed as a combination of soft attention and hard alignment, where a simple top-k approximation is used to train the alignment part (Shankar et al., 2018; Shankar and Sarawagi, 2019) .
+[BOS] The hard alignment generation probability is designed as a relation summation operation to better fit the sum-marization task.
+[BOS] In this way, the generalized copy mode acts as a hard alignment component to capture the direct word-to-word transitions.
+[BOS] On the contrary, the generation mode is a standard softattention structure to only model words that are purely functional, or need fusion, high-level inference and can be hardly aligned to any specific source context (Daum III and Marcu, 2005) .
+

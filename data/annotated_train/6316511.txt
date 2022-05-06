@@ -1,0 +1,15 @@
+[BOS] Several SMT systems between English and morphologically rich languages are reported.
+[BOS] (Toutonova et al., 2007) reported the improvement of an SMT by applying word form prediction models from a stem using extensive morphological and syntactic information from source and target languages.
+[BOS] Contributions using factored phrase based model and a probabilistic tree transfer model at deep syntactic layer are made by (Bojar and Haji, 2008) of English-to-Czech SMT system.
+[BOS] (Yeniterzi and Oflazer, 2010) reported syntax-to-morphology mapping in factored phrase-based Statistical Machine Translation (Koehn and Hoang, 2007) from English to Turkish relying on syntactic analysis on the source side (English) and then encodes a wide variety of local and non-local syntactic structures as complex structural tags which appear as additional factors in the training data.
+[BOS] On the target side (Turkish), they only perform morphological analysis and disambiguation but treat the complete complex morphological tag as a factor, instead of separating morphemes.
+[BOS] (Bojar et al., 2012) pointed out several pitfalls when designing factored model translation setup.
+[BOS] All the above systems have been developed using one script for each language at the source as well as target.
+
+[BOS] Manipuri is a relatively free word order where the grammatical role of content words is largely determined by their case markers and not just by their positions in the sentence.
+[BOS] Machine Translation systems of Manipuri and English is reported by (Singh and Bandyopadhyay, 2010b) on development of English-Manipuri SMT system using morpho-syntactic and semantic information where the target case markers are generated based on the suffixes and semantic relations of the source sentence.
+[BOS] The above mentioned system is developed using Bengali script based Manipuri text.
+[BOS] SMT systems between English and morphologically rich highly agglutinative language suffer badly if the adequate training and language resource is not available.
+[BOS] Not only this, it is important to note that the linguistic representation of the text has implications on several NLP aspects not only in machine translations systems.
+[BOS] This is our first attempt to build and compare English-Manipuri language pair SMT systems using two different scripts of Manipuri.
+

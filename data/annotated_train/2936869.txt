@@ -1,0 +1,19 @@
+[BOS] Our model architecture is one of many hierarchical models for documents proposed in the literature.
+[BOS] The most similar is proposed by Choi et al. (2017) , which uses a coarse-to-fine approach of first encoding each sentence with a cheap BoW or Conv model, then selecting the top k sentences to form a mini-document which is then processed by a standard seq2seq model.
+[BOS] While they also evaluate their approach on WikiReading, their emphasis is on efficiency rather than model accuracy, with the resulting model performing slightly worse than the full seq2seq model but taking much less time to execute.
+[BOS] SWEAR also requires fewer sequential steps than the document length but still computes at least as many recurrent steps in parallel.
+[BOS] Our model can also be viewed as containing a Memory Network (MemNet) built from a document (Weston et al., 2014; Sukhbaatar et al., 2015) , where the memories are the window encodings.
+[BOS] The core MemNet operation consists of attention over a set of vectors (memories) based on a query encoding, and then reduction of a second set of vectors by weighted sum based on the attention weights.
+[BOS] In particular, Miller et al. (2016) introduce the Key-Value MemNet where the two sets of memories are computed from the keys and values of a map, respectively: In their QA task, each memory entry consists of a potential answer (the value) and its context bag of words (the key).
+
+[BOS] Our reviewer approach is inspired by "Encode, Review, Decode" approach introduced by Yang et al. (2016) , which showed the value of introducing additional computation steps between the encoder and decoder in a seq2seq model.
+
+[BOS] The basic recurrent autoencoder was first introduced by Dai et al. (2015) , a standard seq2seq model with the same input and output.
+[BOS] Fabius et al. (2014) expanded this model into the Variational Recurrent Autoencoder (VRAE), which we describe in Section 4.1.1.
+[BOS] VRAE is an application of the general idea of variational autoencoding, which applies variational approximation to the posterior to reconstruct the input (Kingma and Welling, 2013 ).
+[BOS] While we train window autoencoders, an alternative approach is hierarchical document autoencoders (Li et al., 2015) .
+
+[BOS] The semi-supervised approach of initializing the weights of an RNN encoder with those of a recurrent autoencoder was first studied by Dai et al. (2015) in the context of document classification and further studied by Ramachandran et al. (2016) for traditional sequence-to-sequence tasks such as machine translation.
+[BOS] Our baseline semisupervised model can be viewed as an extension of these approaches to a reading comprehension setting.
+[BOS] Dai et al. (2015) also explore initialization from a language model, but find that the recurrent autoencoder is superior, which is why we do not consider language models in this work.
+

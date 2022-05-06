@@ -1,0 +1,17 @@
+[BOS] An open question is how the training process elicits numeracy for word vectors and contextualized embeddings.
+[BOS] Understanding this, perhaps by tracing numeracy back to the training data, is a fruitful direction to explore further (c.f., influence functions (Koh and Liang, 2017; Brunet et al., 2019) ).
+[BOS] More generally, numeracy is one type of emergent knowledge.
+[BOS] For instance, embeddings may capture the size of objects (Forbes and Choi, 2017) , speed of vehicles, and many other "commonsense" phenomena (Yang et al., 2018) .
+[BOS] Vendrov et al. (2016) introduce methods to encode the order of such phenomena into embeddings for concepts such as hypernymy; our work and Yang et al. (2018) show that a relative ordering naturally emerges for certain concepts.
+
+[BOS] In concurrent work, also explore numeracy in word vectors.
+[BOS] Their methodology is based on variants of nearest neighbors and cosine distance; we use neural network probing classifiers which can capture highly non-linear dependencies between embeddings.
+[BOS] We also explore more powerful embedding methods such as ELMo, BERT, and learned embedding methods.
+
+[BOS] Probing Models Our probes of numeracy parallel work in understanding the linguistic capabilities (literacy) of neural models (Conneau et al., 2018; Liu et al., 2019) .
+[BOS] LSTMs can remember sentence length, word order, and which words were present in a sentence (Adi et al., 2017) .
+[BOS] Khandelwal et al. (2018) show how language models leverage context, while Linzen et al. (2016) demonstrate that language models understand subjectverb agreement.
+[BOS] Spithourakis and Riedel (2018) improve the ability of language models to predict numbers, i.e., they go beyond categorical predictions over a fixed-size vocabulary.
+[BOS] They focus on improving models; our focus is probing embeddings.
+[BOS] Kotnis and Garca-Durn (2019) predict numerical attributes in knowledge bases, e.g., they develop models that try to predict the population of Paris.
+

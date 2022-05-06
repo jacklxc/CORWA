@@ -1,0 +1,23 @@
+[BOS] The successes of sequence-to-sequence architecture (Cho et al., 2014; Sutskever et al., 2014) motivated investigation in dialogue systems that can effectively learn to generate a response sequence given the previous utterance sequence (Shang et al., 2015; Sordoni et al., 2015b; Vinyals and Le, 2015) .
+[BOS] The model is trained to minimize the negative log-likelihood of the training data.
+[BOS] Despite the current progress, the lack of response diversity is a notorious problem, where the model inherently tends to generate short, general responses in spite of different inputs.
+[BOS] Li et al. (2016a) ; Serban et al. (2017); Cao and Clark (2017) suggested that theses boring responses are common in training data and shorter responses are more likely to be given a higher likelihood.
+[BOS] To tackle the problem, Li et al. (2016a) introduced a maximum mutual information training objective.
+[BOS] Serban et al. (2017) , Cao and Clark (2017) and Chen et al. (2018) used latent variables to introduce stochasticity to enhance the response diversity.
+[BOS] Vijayakumar et al. (2016) , Shao et al. (2017) and Li et al. (2016b) recognized that the greedy search decoding process, especially beam-search with a wide beam size, leads the short responses possess higher likelihoods.
+[BOS] They reserved more diverse candidates during beam-search decoding.
+[BOS] In this paper, we present that the absence of background knowledge and common sense is another source of lacking diversity.
+[BOS] We augment the knowledge base to endto-end dialogue generation.
+
+[BOS] Another research line comes from the utilizing of knowledge bases.
+[BOS] A typical application is question-answering (QA) systems.
+[BOS] The end-toend QA also resort to the encoder-decoder framework (Yin et al., 2016; He et al., 2017a) .
+[BOS] Yin et al. (2016) enquired the knowledge-base to achieve one fact and answer the simple factoid questions by referring to the fact.
+[BOS] He et al. (2017a) extended this approach by augmenting the copying mechanism and enabled the output words to copy from the original input sequence.
+[BOS] Eric et al. (2017) noticed that neural task-oriented dialogue systems often struggle to smoothly interface with a knowledge base and they addressed the problem by augmenting the end-to-end structure with a key-value retrieval mechanism where a separate attention is performed over the key of each entry in the KB.
+[BOS] Ghazvininejad et al. (2017) represented the unstructured text as bag of words representation and also performed soft attention over the facts to retrieve a facts vector.
+[BOS] Zhu et al. (2017) generated responses with any number of answer entities in the structured KB, even when these entities never appear in the training set.
+[BOS] Dhingra et al. (2017) proposed a multi-turn dialogue agent which helps users search knowledge base by soft KB lookup.
+[BOS] In our model, we perform not only facts matching to answer factoid inquiries, but also entity diffusion to infer similar entities.
+[BOS] Given previous utterances, we retrieve the relevant facts, diffuse them, and generate responses based on diversified rele-vant knowledge items.
+

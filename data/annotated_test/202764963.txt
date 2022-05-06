@@ -1,0 +1,9 @@
+[BOS] Utilizing pair occurrences for embedding models have been considered before, both as explicit model choices and as negative sampling strategies.
+[BOS] Chang et al. (2014) and use pair occurrences to constrain the set of triples to be used in the optimization procedure.
+[BOS] For methods that rely on SGD with contrastive training, this translates to a special case of our biased sampling method where p = 1. present TATEC, a model that combines bigram and trigram interactions.
+[BOS] The trigram model uses a full matrix representation for relations, and hence has many more parameters compared to our model.
+[BOS] present JointDM and JointComplex, which could be viewed as a simplification of TATEC.
+[BOS] Unlike our model, both of these methods use the bigram terms both in training and evaluation, do not share any of the embeddings between two models, and do not provide supervision based on pair occurrences in the data.
+[BOS] Other methods that have been considered for improving the negative sampling procedure includes adversarial (Cai and Wang, 2018) and self-adversarial training.
+[BOS] None of these methods focus on improving the models to scale to large KGs.
+

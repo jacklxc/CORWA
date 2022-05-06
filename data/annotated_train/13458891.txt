@@ -1,0 +1,13 @@
+[BOS] An early notion of compression was proposed by Dras (1997) as reluctant sentence paraphrasing under length constraints.
+[BOS] Jing and McKeown (2000) analyzed human-generated summaries and identified a heavy reliance on sentence reduction (Jing, 2000) .
+[BOS] The extraction by Knight and Marcu (2000) of a dataset of natural compression instances from the Ziff-Davis corpus spurred interest in supervised approaches to the task (Knight and Marcu, 2002; Riezler et al., 2003; Turner and Charniak, 2005; McDonald, 2006; Unno et al., 2006; Galley and McKeown, 2007; Nomoto, 2007) .
+[BOS] In particular, McDonald (2006) expanded on Knight & Marcu's (2002) transitionbased model by using dynamic programming to recover optimal transition sequences, and Clarke and Lapata (2006a) used ILP to replace pairwise transitions with trigrams.
+[BOS] Other recent work (Filippova and Strube, 2008; Galanis and Androutsopoulos, 2010 ) has used dependency trees directly as sentence representations for compression.
+[BOS] Another line of research has attempted to broaden the notion of compression beyond mere word deletion (Cohn and Lapata, 2009; Ganitkevitch et al., 2011; Napoles et al., 2011a) .
+[BOS] Finally, progress on standalone compression tasks has also enabled document summarization techniques that jointly address sentence selection and compression (Daum and Marcu, 2002; Clarke and Lapata, 2007; Berg-Kirkpatrick et al., 2011; Woodsend and Lapata, 2012) , a number of which also rely on ILP-based inference.
+
+[BOS] Monolingual text-to-text generation research also faces many obstacles common to MT.
+[BOS] Re- Figure 3 : Relative grammaticality of BN test corpus compressions indicated by the absolute difference of RASP relation F 1 % from that of CL08.
+[BOS] cent work in MT decoding has proposed more efficient approaches than ILP to produced text optimally under syntactic and sequential models of language (Rush and Collins, 2011) .
+[BOS] We are currently exploring similar ideas for compression and other text-to-text generation problems.
+

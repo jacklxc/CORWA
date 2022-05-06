@@ -1,0 +1,18 @@
+[BOS] Entity mention extraction (e.g., (Florian et al., 2004; Florian et al., 2006; Florian et al., 2010; Zitouni and Florian, 2008; Ohta et al., 2012) ) and relation extraction (e.g., (Reichartz et al., 2009; Sun et al., 2011; Jiang and Zhai, 2007; Bunescu and Mooney, 2005; Zhao and Grishman, 2005; Culotta and Sorensen, 2004; Zhou et al., 2007; Qian and Zhou, 2010; Qian et al., 2008; Chan and Roth, 2011; Plank and Moschitti, 2013) Table 3 : 5-fold cross-validation on ACE'04 corpus.
+[BOS] Bolded scores indicate highly statistical significant improvement as measured by paired t-test (p < 0.01) usually studied separately.
+[BOS] Most relation extraction work assumed that entity mention boundaries and/or types were given.
+[BOS] Chan and Roth (2011) reported the best results using predicted entity mentions.
+[BOS] Some previous work used relations and entity mentions to enhance each other in joint inference frameworks, including re-ranking (Ji and Grishman, 2005) , Integer Linear Programming (ILP) (Roth and Yih, 2004; Roth and Yih, 2007; Yang and Cardie, 2013) , and Card-pyramid Parsing (Kate and Mooney, 2010).
+[BOS] All these work noted the advantage of exploiting crosscomponent interactions and richer knowledge.
+[BOS] However, they relied on models separately learned for each subtask.
+[BOS] As a key difference, our approach jointly extracts entity mentions and relations using a single model, in which arbitrary soft constraints can be easily incorporated.
+[BOS] Some other work applied probabilistic graphical models for joint extraction (e.g., (Singh et al., 2013; Yu and Lam, 2010) ).
+[BOS] By contrast, our work employs an efficient joint search algorithm without modeling joint distribution over numerous variables, therefore it is more flexible and computationally simpler.
+[BOS] In addition, (Singh et al., 2013) used goldstandard mention boundaries.
+
+[BOS] Our previous work (Li et al., 2013) used structured perceptron with token-based decoder to jointly predict event triggers and arguments based on the assumption that entity mentions and other argument candidates are given as part of the input.
+[BOS] In this paper, we solve a more challenging problem: take raw texts as input and identify the boundaries, types of entity mentions and relations all together in a single model.
+[BOS] Sarawagi and Cohen (2004) proposed a segment-based CRFs model for name tagging.
+[BOS] Zhang and Clark (2008) used a segment-based decoder for word segmentation and pos tagging.
+[BOS] We extended the similar idea to our end-to-end task by incrementally predicting relations along with entity mention segments.
+

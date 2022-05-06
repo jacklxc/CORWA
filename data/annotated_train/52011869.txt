@@ -1,0 +1,30 @@
+[BOS] The issue of story ending prediction is related to several other research topics, such as reading comprehension and common sense learning, which will be briefly surveyed as follows.
+
+[BOS] Reading comprehension is the ability to read and understand text, and it has attracted much attention in natural language processing (NLP) to evaluate the level a machine can reach in understanding text.
+[BOS] Two popular forms of evaluation tasks exist in this field: cloze-style query and text-span matching.
+[BOS] Cloze-style query, such as SQuAD published by Stanford University, focuses on predicting existing text from the original corpus when given a relevant context.
+[BOS] Text-span matching is different from selecting a possible word from the provided text to replenish the blank areas, such as CNN/DailyMail by Hermann and Hinton.
+[BOS] Existing tasks are constructed with fragments, whereas examples from SCT are complete and independent stories that has short and meaningful sentence.
+[BOS] SCT is also different in that it requires the prediction of development of a story, which is not provided in the given hypothesis.
+[BOS] This novel task calls for stronger relation extraction and external inferential capability to identify the correct ending.
+[BOS] Our model paid attention on through structure and proved to be effective during experiments.
+
+[BOS] Common sense learning is a challenging aspect in NLP.
+[BOS] The limitation of other rich knowledge structures is that they mostly either focus on shallower representations, such as semantic roles like PropBank (Palmer et al., 2005) , or pay attention to specific types of knowledge, i.e., unsupervised co-reference in the text (Chambers and Jurafsky, 2009 ) and event temporal relation (Modi and Titov, 2014) .
+[BOS] Learning from structural event knowledge is proposed to enrich this field, including narrative schema (Chambers and Jurafsky, 2009 ) and event frames (Sha et al., 2016) .
+[BOS] Unlike the above tasks, SCT (Mostafazadeh et al., 2016 ) provides large-scale supervised training stories of temporal and causal relations, ensuring a high-quality evaluation for common sense knowledge understanding of mechanisms.
+
+[BOS] However, the published ROCStories could not be used directly in supervised learning.
+[BOS] Considering the use of the training set without negative endings, researchers proposed strategies to generate incorrect options.
+[BOS] A conditional generative adversarial network has been proposed, achieving a moderate result with an accuracy of 60.9% (Wang et al., 2017) .
+[BOS] Roemmele (Roemmele et al., 2017) designed four generative models for fake options, namely, random, backward, nearest-ending and language model.
+[BOS] The best result is produced from samples of all four types of endings (67.2%).
+
+[BOS] Other researchers have attempted to learn from the limit-scale validation set and augment the capability of the relation extractor.
+[BOS] Schwartz (Schwartz et al., 2017) is the champion of the LSDSem 2017 Shared Figure 1 : Architecture of our model.
+[BOS] 1 Task, which achieved a score of 75.2% by associating writing style features in endings and training a linear regression.
+[BOS] HCM (Chaturvedi et al., 2017 ) trained a joint model with feature engineering to obtain representations of event sequence, sentiment, and topic from validation set and a hidden variable approach as a voter, thereby obtaining 77.6%.
+[BOS] The previous NN-based models did not perform well.
+[BOS] Cai (Cai et al., 2017) constructed a model with hierarchical long short-term memory network (LSTM) to encode plot and an ending2sentence attention, then concatenated the two representations through feedforward network and outputting the final prediction, obtaining 74.7% accuracy.
+[BOS] We pursue the same strategy to construct our principal model MANN and see opportunity to utilize external knowledge in the technique of combining semantic sequence information.
+

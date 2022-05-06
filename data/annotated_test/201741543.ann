@@ -1,0 +1,25 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 213 218	[BOS]
+T3	Single_summ 378 383	[BOS]
+T4	Single_summ 601 606	[BOS]
+T5	Single_summ 723 728	[BOS]
+T6	Single_summ 1049 1054	[BOS]
+T7	Dominant 6 47	Dungarwal et al. (Dungarwal et al., 2014)
+T8	Dominant 384 427	Imankulova et al. (Imankulova et al., 2017)
+T9	Dominant 607 647	Sennrich et al. (Sennrich et al., 2016a)
+T10	Dominant 729 778	Ramesh et al. (Ramesh and Sankaranarayanan, 2018)
+T11	Dominant 1055 1096	Choudhary et al. (Choudhary et al., 2018)
+T12	Reference 1257 1281	(Sennrich et al., 2016b)
+T13	Pronoun 219 223	They
+T14	B_span 6 15	Dungarwal
+T15	E_span 367 376	correctly
+T16	B_span 384 394	Imankulova
+T17	E_span 592 599	Russian
+T18	B_span 607 615	Sennrich
+T19	E_span 715 721	system
+T20	B_span 729 735	Ramesh
+T21	E_span 1040 1047	systems
+T22	B_span 1055 1064	Choudhary
+T23	E_span 1309 1314	Words
+T24	B_span 1239 1243	Byte
+T25	E_span 1275 1280	2016b

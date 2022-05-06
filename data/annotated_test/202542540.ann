@@ -1,0 +1,37 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Multi_summ 254 259	[BOS]
+T3	Multi_summ 371 376	[BOS]
+T4	Narrative_cite 541 546	[BOS]
+T5	Single_summ 838 843	[BOS]
+T6	Narrative_cite 1042 1047	[BOS]
+T7	Narrative_cite 1296 1301	[BOS]
+T8	Reflection 1435 1440	[BOS]
+T9	Reference 76 93	(Hsu et al., 2018
+T10	Reference 95 110	Li et al., 2018
+T11	Reference 112 133	Gehrmann et al., 2018
+T12	Reference 135 151	Yao et al., 2019
+T13	Reference 153 176	Moryossef et al., 2019)
+T14	Dominant 260 277	Mei et al. (2016)
+T15	Dominant 284 300	Li et al. (2018)
+T16	Reference 663 683	(Ling and Rush, 2017
+T17	Reference 685 707	Chen and Bansal, 2018)
+T18	Dominant 844 861	Fan et al. (2018)
+T19	Reference 1143 1160	(Wen et al., 2017
+T20	Reference 1162 1187	van den Oord et al., 2017
+T21	Reference 1189 1208	Kaiser et al., 2018
+T22	Reference 1210 1230	Lawson et al., 2018)
+T23	Reference 1391 1411	(Kingma et al., 2016
+T24	Reference 1413 1432	Shen et al., 2018b)
+T25	B_span 46 52	select
+T26	E_span 175 176	)
+T27	B_span 260 262	Me
+T28	E_span 539 540	.
+T29	B_span 628 633	train
+T30	E_span 706 707	)
+T31	B_span 844 847	Fan
+T32	E_span 1039 1040	.
+T33	B_span 1090 1098	discrete
+T34	E_span 1229 1230	)
+T35	B_span 1362 1363	"
+T36	E_span 1431 1432	)
+T37	Pronoun 56 58	it

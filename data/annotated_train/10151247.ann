@@ -1,0 +1,33 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 121 126	[BOS]
+T3	Narrative_cite 326 331	[BOS]
+T4	Single_summ 576 581	[BOS]
+T5	Reflection 797 802	[BOS]
+T6	Single_summ 966 971	[BOS]
+T7	Single_summ 1310 1315	[BOS]
+T8	Single_summ 1378 1383	[BOS]
+T9	Single_summ 1530 1535	[BOS]
+T10	Dominant 127 148	Prakash et al. (2016)
+T14	Reference 553 573	(Fader et al., 2013)
+T15	Dominant 582 605	Mallinson et al. (2017)
+T16	Dominant 1024 1041	Mou et al. (2016)
+T17	Dominant 1384 1401	Zoph et al. (2016
+T18	Pronoun 332 336	They
+T19	Pronoun 1316 1320	They
+T20	Pronoun 1536 1540	They
+T21	B_span 127 134	Prakash
+T22	E_span 318 324	models
+T23	B_span 582 591	Mallinson
+T24	E_span 784 794	generation
+T25	B_span 972 980	Transfer
+T27	B_span 1384 1388	Zoph
+T29	E_span 568 572	2013
+T30	E_span 1369 1376	setting
+T26	E_span 1597 1603	points
+T28	B_span 385 395	Paraphrase
+T11	Reference 413 444	Ganitkevitch et al., 2013, PPDB
+T31	E_span 440 444	PPDB
+T32	B_span 462 468	Common
+T12	Reference 489 513	Lin et al., 2014, MSCOCO
+T13	E_span 507 513	MSCOCO
+T33	B_span 541 552	WikiAnswers

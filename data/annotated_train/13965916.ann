@@ -1,0 +1,24 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 104 109	[BOS]
+T3	Narrative_cite 346 351	[BOS]
+T4	Transition 440 445	[BOS]
+T5	Narrative_cite 578 583	[BOS]
+T6	Single_summ 702 707	[BOS]
+T7	Reflection 945 950	[BOS]
+T8	Dominant 150 176	(Finkelstein et al., 2001)
+T9	Reference 412 435	Faruqui and Dyer (2014)
+T10	Reference 617 640	Faruqui and Dyer (2014)
+T11	Dominant 708 730	Schnabel et al. (2015)
+T12	Pronoun 270 275	these
+T13	Pronoun 446 450	This
+T14	Pronoun 518 523	these
+T15	Pronoun 951 955	This
+T16	Pronoun 988 992	this
+T17	B_span 138 145	WordSim
+T18	E_span 333 343	embeddings
+T19	B_span 598 603	model
+T20	E_span 635 639	2014
+T21	B_span 368 375	lexical
+T22	E_span 430 434	2014
+T23	B_span 708 716	Schnabel
+T24	E_span 932 943	performance

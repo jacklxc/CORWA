@@ -1,0 +1,9 @@
+[BOS] Noising While for images, there are natural noising primitives such as rotations, small translational shifts, and additive Gaussian noise, similar primitives are not as well developed for text data.
+[BOS] Similarly, while denoising autoencoders for images have been shown to help with representation learning (Vincent et al., 2010) , similar methods for learning representations are not well developed for text.
+[BOS] Some recent work has proposed noisingin the form of dropping or replacing individual tokens-as a regularizer when training sequence models, where it has been demonstrated to have a smoothing effect on the softmax output distribution (Bowman et al., 2015; Xie et al., 2017; Dai and Le, 2015; Kumar et al., 2015) .
+[BOS] Grammar correction Recent work by Chollampatt and Ng (2018) has achieved impressive performance on the benchmarks we consider using convolutional encoder-decoder models.
+[BOS] Previous work using data synthesis for grammatical error correction (GEC) has introduced errors by examining the distribution of error types, then applying errors according to those distributions together with lexical or part-of-speech features based on a small context window (Brockett et al., 2006; Felice, 2016) .
+[BOS] While these methods can introduce many possible edits, they are not as flexible as our approach inspired by the backtranslation procedure for machine translation (Sennrich et al., 2015) .
+[BOS] This is important as neural language models not explicitly trained to track long-range linguistic dependencies can fail to capture even simple noun-verb errors (Linzen et al., 2016) .
+[BOS] Recently, in the work perhaps most similar to ours, Rei et al. (2017) propose using statistical machine translation and backtranslation along with syntactic patterns for generating errors, albeit for the error detection task.
+

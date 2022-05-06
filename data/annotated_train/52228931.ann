@@ -1,0 +1,73 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 101 106	[BOS]
+T3	Transition 234 239	[BOS]
+T4	Narrative_cite 303 308	[BOS]
+T5	Narrative_cite 622 627	[BOS]
+T6	Reflection 831 836	[BOS]
+T7	Narrative_cite 1026 1031	[BOS]
+T8	Transition 1191 1196	[BOS]
+T9	Single_summ 1266 1271	[BOS]
+T10	Reflection 1381 1386	[BOS]
+T11	Transition 1501 1506	[BOS]
+T12	Transition 1637 1642	[BOS]
+T13	Multi_summ 1761 1766	[BOS]
+T14	Single_summ 1903 1908	[BOS]
+T15	Single_summ 2012 2017	[BOS]
+T16	Single_summ 2162 2167	[BOS]
+T17	Multi_summ 2392 2397	[BOS]
+T18	Transition 2659 2664	[BOS]
+T19	Multi_summ 2842 2847	[BOS]
+T20	Multi_summ 3112 3117	[BOS]
+T21	Reflection 3234 3239	[BOS]
+T22	Reference 60 78	(Wang et al., 2018
+T23	Reference 80 98	Chen et al., 2017)
+T24	Reference 168 192	(Clark and Gardner, 2018
+T26	Reference 555 576	(Hermann et al., 2015
+T27	Reference 578 600	Rajpurkar et al., 2016
+T28	Reference 602 619	Seo et al., 2017)
+T29	Reference 725 745	(Berant et al., 2013
+T30	Reference 747 769	Berant and Liang, 2014
+T31	Reference 771 794	Yao and Van Durme, 2014
+T32	Reference 796 828	Gardner and Krishnamurthy, 2017)
+T33	Reference 1087 1107	(Berant et al., 2013
+T34	Reference 1109 1127	Joshi et al., 2017
+T35	Reference 1129 1151	Trischler et al., 2017
+T36	Reference 1153 1175	Rajpurkar et al., 2018
+T37	Reference 1177 1188	inter alia)
+T38	Dominant 1272 1290	Saha et al. (2018)
+T39	Dominant 1772 1791	Iyyer et al. (2017)
+T40	Dominant 1796 1820	Talmor and Berant (2018)
+T41	Dominant 1909 1928	Iyyer et al. (2017)
+T42	Dominant 2168 2192	Talmor and Berant (2018)
+T43	Dominant 2423 2441	Choi et al. (2018)
+T44	Dominant 2446 2465	Reddy et al. (2018)
+T45	Dominant 2972 2997	Weissenborn et al. (2017)
+T46	Dominant 3002 3027	Mihaylov and Frank (2018)
+T47	Pronoun 1435 1439	They
+T48	Pronoun 1510 1515	Their
+T49	Pronoun 2018 2022	They
+T50	Pronoun 2274 2279	their
+T51	B_span 31 39	question
+T52	E_span 93 97	2017
+T53	B_span 146 150	base
+T25	Reference 194 218	Swayamdipta et al., 2018
+T54	Reference 220 230	inter alia
+T55	E_span 226 230	alia
+T56	B_span 408 411	sub
+T57	E_span 614 618	2017
+T58	B_span 674 682	question
+T59	E_span 823 827	2017
+T60	B_span 1040 1048	question
+T61	E_span 1183 1187	alia
+T62	B_span 1272 1276	Saha
+T63	E_span 1375 1379	task
+T64	B_span 1772 1777	Iyyer
+T65	E_span 1892 1901	questions
+T66	B_span 1909 1914	Iyyer
+T68	E_span 2151 2160	sequences
+T67	B_span 2168 2174	Talmor
+T69	E_span 2384 2389	rules
+T70	B_span 2423 2427	Choi
+T71	E_span 2647 2656	questions
+T72	B_span 2852 2856	idea
+T73	E_span 3224 3232	entities

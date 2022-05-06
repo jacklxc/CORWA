@@ -1,0 +1,74 @@
+T1	Multi_summ 0 5	[BOS]
+T2	Transition 257 262	[BOS]
+T3	Transition 433 438	[BOS]
+T4	Reflection 635 640	[BOS]
+T5	Transition 771 776	[BOS]
+T6	Narrative_cite 840 845	[BOS]
+T7	Narrative_cite 1012 1017	[BOS]
+T8	Multi_summ 1184 1189	[BOS]
+T9	Single_summ 1475 1480	[BOS]
+T10	Single_summ 1569 1574	[BOS]
+T11	Reflection 1665 1670	[BOS]
+T12	Single_summ 1807 1812	[BOS]
+T13	Single_summ 2049 2054	[BOS]
+T14	Reflection 2275 2280	[BOS]
+T15	Transition 2450 2455	[BOS]
+T16	Narrative_cite 2608 2613	[BOS]
+T17	Single_summ 2883 2888	[BOS]
+T18	Single_summ 3034 3039	[BOS]
+T19	Reflection 3182 3187	[BOS]
+T20	Other 3343 3348	[BOS]
+T21	Reflection 3457 3462	[BOS]
+T22	Reflection 3613 3618	[BOS]
+T23	Other 3776 3781	[BOS]
+T24	Other 3883 3888	[BOS]
+T25	Other 3973 3978	[BOS]
+T26	Reflection 4019 4024	[BOS]
+T27	Reflection 4239 4244	[BOS]
+T28	Reflection 4436 4441	[BOS]
+T29	Reflection 4539 4544	[BOS]
+T30	Reflection 4623 4628	[BOS]
+T31	Reference 46 68	(Mikolov et al., 2013a
+T32	Reference 70 92	Mikolov et al., 2013b)
+T33	Reference 846 866	(Socher et al., 2013
+T34	Reference 868 888	Yin and Schtze, 2015
+T35	Reference 890 911	Wang and Nyberg, 2015
+T36	Reference 913 933	Socher et al., 2014)
+T37	Reference 1102 1123	(Le and Mikolov, 2014
+T38	Reference 1125 1144	Socher et al., 2011
+T39	Reference 1146 1161	Li et al., 2015
+T40	Reference 1163 1181	Pham et al., 2015)
+T41	Dominant 1190 1211	Le and Mikolov (2014)
+T42	Dominant 1322 1340	Pham et al. (2015)
+T43	Dominant 1400 1420	Socher et al. (2011)
+T44	Dominant 1425 1441	Li et al. (2015)
+T45	Dominant 1481 1499	Hill et al. (2016)
+T46	Dominant 1874 1892	Hill et al. (2016)
+T47	Dominant 2055 2076	Wieting et al. (2015)
+T48	Reference 2791 2816	(Krizhevsky et al., 2012)
+T49	Dominant 2889 2916	Collobert and Weston (2008)
+T50	Dominant 3040 3057	Mou et al. (2016)
+T51	B_span 30 34	word
+T52	E_span 86 91	2013b
+T53	B_span 847 853	Socher
+T54	E_span 1002 1010	interest
+T55	B_span 1072 1081	universal
+T56	E_span 1176 1180	2015
+T57	B_span 1190 1192	Le
+T58	E_span 1306 1320	representation
+T59	B_span 1322 1326	Pham
+T60	E_span 1386 1390	tree
+T61	B_span 1400 1406	Socher
+T62	E_span 1467 1473	models
+T63	B_span 1481 1485	Hill
+T64	E_span 1657 1663	models
+T65	B_span 1874 1878	Hill
+T66	E_span 2038 2047	inference
+T67	B_span 2055 2062	Wieting
+T68	E_span 2265 2273	examples
+T69	B_span 2692 2699	notably
+T70	E_span 2811 2815	2012
+T71	B_span 2889 2898	Collobert
+T72	E_span 3028 3032	task
+T73	B_span 3040 3043	Mou
+T74	E_span 3171 3180	detection

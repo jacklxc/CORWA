@@ -1,0 +1,113 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 70 75	[BOS]
+T3	Single_summ 168 173	[BOS]
+T4	Single_summ 251 256	[BOS]
+T5	Single_summ 382 387	[BOS]
+T6	Single_summ 580 585	[BOS]
+T7	Single_summ 673 678	[BOS]
+T8	Single_summ 845 850	[BOS]
+T9	Transition 949 954	[BOS]
+T10	Single_summ 1055 1060	[BOS]
+T11	Single_summ 1239 1244	[BOS]
+T12	Single_summ 1329 1334	[BOS]
+T13	Single_summ 1435 1440	[BOS]
+T14	Transition 1537 1542	[BOS]
+T15	Transition 1685 1690	[BOS]
+T16	Transition 1858 1863	[BOS]
+T17	Transition 1950 1955	[BOS]
+T18	Transition 2152 2157	[BOS]
+T19	Transition 2307 2312	[BOS]
+T20	Single_summ 2412 2417	[BOS]
+T21	Single_summ 2628 2633	[BOS]
+T22	Single_summ 2774 2779	[BOS]
+T23	Single_summ 2913 2918	[BOS]
+T24	Single_summ 3037 3042	[BOS]
+T25	Single_summ 3207 3212	[BOS]
+T26	Single_summ 3354 3359	[BOS]
+T27	Reflection 3438 3443	[BOS]
+T28	Single_summ 3575 3580	[BOS]
+T29	Single_summ 3829 3834	[BOS]
+T30	Reflection 3988 3993	[BOS]
+T31	Reflection 4167 4172	[BOS]
+T32	Transition 4251 4256	[BOS]
+T33	Narrative_cite 4462 4467	[BOS]
+T34	Transition 4613 4618	[BOS]
+T35	Transition 4810 4815	[BOS]
+T36	Transition 4872 4877	[BOS]
+T37	Transition 4979 4984	[BOS]
+T38	Transition 5072 5077	[BOS]
+T39	Transition 5177 5182	[BOS]
+T40	Transition 5256 5261	[BOS]
+T41	Transition 5316 5321	[BOS]
+T42	Single_summ 5370 5375	[BOS]
+T43	Single_summ 5534 5539	[BOS]
+T44	Single_summ 5670 5675	[BOS]
+T45	Single_summ 5784 5789	[BOS]
+T46	Single_summ 5855 5860	[BOS]
+T47	Transition 5977 5982	[BOS]
+T48	Transition 6155 6160	[BOS]
+T49	Reflection 6230 6235	[BOS]
+T50	Single_summ 6365 6370	[BOS]
+T51	Single_summ 6493 6498	[BOS]
+T52	Single_summ 6577 6582	[BOS]
+T53	Single_summ 6753 6758	[BOS]
+T54	Single_summ 6846 6851	[BOS]
+T55	Single_summ 7046 7051	[BOS]
+T56	Reference 150 165	(Shannon, 1948)
+T57	Dominant 389 411	Brill and Moore, 2000)
+T58	Dominant 1062 1088	Yang and Eisenstein, 2013)
+T59	Dominant 2419 2444	Hassan and Menezes, 2013)
+T60	Dominant 2781 2797	Han et al., 2012
+T62	Dominant 3043 3062	(Ling et al., 2013)
+T63	Reference 3478 3493	Sridhard, 2015)
+T64	Dominant 3605 3620	Sridhard, 2015)
+T65	Reference 4496 4516	(Duran et al., 2015)
+T67	Dominant 5451 5471	(Duran et al., 2015)
+T69	Reference 6260 6280	(Duran et al., 2015)
+T71	Dominant 6456 6490	(de Mendonça Almeida et al., 2016)
+T73	B_span 6 11	Early
+T74	E_span 371 380	corrupted
+T75	B_span 389 394	Brill
+T76	E_span 941 946	words
+T77	B_span 1062 1066	Yang
+T78	E_span 1528 1535	weights
+T79	B_span 2419 2425	Hassan
+T80	E_span 2771 2772	%
+T61	B_span 2781 2784	Han
+T81	E_span 3028 3035	context
+T82	B_span 3044 3048	Ling
+T83	E_span 3428 3435	systems
+T84	B_span 3581 3584	The
+T85	E_span 3982 3986	FSMs
+T66	B_span 5376 5381	Since
+T68	E_span 5968 5975	version
+T70	B_span 6371 6378	Another
+T72	E_span 7228 7237	technique
+T86	B_span 134 135	a
+T87	E_span 160 164	1948
+T88	B_span 3478 3486	Sridhard
+T89	E_span 3492 3493	)
+T90	B_span 4496 4497	(
+T91	E_span 4515 4516	)
+T93	E_span 6275 6279	2015
+T92	B_span 6261 6266	Duran
+T94	Pronoun 76 80	This
+T95	Pronoun 174 176	It
+T96	Pronoun 679 683	This
+T97	Pronoun 860 864	this
+T98	Pronoun 1260 1265	these
+T99	Pronoun 1346 1350	this
+T100	Pronoun 1560 1565	these
+T101	Pronoun 2170 2175	these
+T102	Pronoun 2184 2188	this
+T103	Pronoun 2634 2638	They
+T104	Pronoun 2954 2958	this
+T105	Pronoun 3213 3217	They
+T106	Pronoun 3770 3775	these
+T107	Pronoun 4966 4970	they
+T108	Pronoun 5167 5169	it
+T109	Pronoun 5991 5995	this
+T110	Pronoun 6059 6061	it
+T111	Pronoun 6172 6174	it
+T112	Pronoun 6311 6315	they
+T113	Pronoun 6545 6547	it

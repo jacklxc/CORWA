@@ -1,0 +1,22 @@
+[BOS] Textual Transfer Evaluation Recent work has included human evaluation of the three categories (post-transfer style accuracy, semantic preservation, fluency), but does not propose automatic evaluation metrics for all three Prabhumoye et al., 2018; Chen et al., 2018; .
+[BOS] There have been recent proposals for supervised evaluation metrics , but these require annotation and are therefore unavailable for new textual transfer tasks.
+[BOS] There is a great deal of recent work in textual transfer (Yang et al., 2018b; Santos et al., 2018; Logeswaran et al., 2018; Nikolov and Hahnloser, 2018) , but all either lack certain categories of unsupervised metric or lack human validation of them, which we contribute.
+[BOS] Moreover, the textual transfer community lacks discussion of early stopping criteria and methods of holistic model comparison.
+[BOS] We propose a one-number summary for transfer quality, which can be used to select and compare models.
+
+[BOS] In contemporaneous work, Mir et al. (2019) similarly proposed three types of metrics for style transfer tasks.
+[BOS] There are two main differences compared to our work: (1) They use a stylekeyword masking procedure before evaluating semantic similarity, which works on the Yelp dataset (the only dataset Mir et al. (2019) test on) but does not work on our Literature dataset or similarly complicated tasks, because the masking procedure goes against preserving content-specific nonstyle-related words.
+[BOS] (2) They do not provide a way of aggregating three metrics for the purpose of model selection and overall comparison.
+[BOS] We address these two problems, and we also propose metrics that are simple in addition to being effective, which is beneficial for ease of use and widespread adoption.
+
+[BOS] Textual Transfer Models In terms of generating the transferred sentences, to address the lack of parallel data, Hu et al. (2017) used variational autoencoders to generate content representations devoid of style, which can be converted to sentences with a specific style.
+[BOS] Ficler and Goldberg (2017) used conditional language models to generate sentences where the desired content and style are conditioning contexts.
+[BOS] used a feature-based approach that deletes characteristic words from the original sentence, retrieves similar sentences in the target corpus, and generates based on the original sentence and the characteristic words from the retrieved sentences.
+[BOS] integrated reinforcement learning into the textual transfer problem.
+[BOS] Another way to address the lack of parallel data is to use learning frameworks based on adversarial objectives (Goodfellow et al., 2014) ; several have done so for textual transfer (Yu et al., 2017; Li et al., 2017; Yang et al., 2018a; Shen et al., 2017; Fu et al., 2018) .
+[BOS] Recent work uses target-domain language models as discriminators to provide more stable feedback in learning (Yang et al., 2018b) .
+
+[BOS] To preserve semantics more explicitly, Fu et al. (2018) use a multi-decoder model to learn content representations that do not reflect styles.
+[BOS] Shetty et al. (2017) use a cycle constraint that penalizes L 1 distance between input and round-trip transfer reconstruction.
+[BOS] Our cycle consistency loss is inspired by Shetty et al. (2017) , together with the idea of back translation in unsupervised neural machine translation (Artetxe et al., 2017; Lample et al., 2017) , and the idea of cycle constraints in image generation by Zhu et al. (2017) .
+

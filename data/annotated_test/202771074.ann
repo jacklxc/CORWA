@@ -1,0 +1,22 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 81 86	[BOS]
+T3	Multi_summ 220 225	[BOS]
+T4	Multi_summ 366 371	[BOS]
+T5	Single_summ 608 613	[BOS]
+T6	Transition 734 739	[BOS]
+T7	Reflection 903 908	[BOS]
+T8	Dominant 87 104	Shi et al. (2016)
+T9	Dominant 109 127	Qian et al. (2016)
+T10	Dominant 402 424	Karpathy et al. (2015)
+T11	Dominant 533 554	Radford et al. (2017)
+T12	Dominant 634 652	Zhou et al. (2018)
+T13	B_span 87 90	Shi
+T14	E_span 218 219	.
+T15	B_span 376 378	LS
+T16	E_span 521 527	length
+T17	B_span 533 536	Rad
+T18	E_span 605 606	.
+T19	B_span 617 625	computer
+T20	E_span 732 733	.
+T21	Pronoun 909 913	This
+T22	Pronoun 936 940	this

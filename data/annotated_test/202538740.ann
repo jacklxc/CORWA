@@ -1,0 +1,18 @@
+T1	Single_summ 0 5	[BOS]
+T2	Reflection 298 303	[BOS]
+T3	Reflection 506 511	[BOS]
+T4	Reflection 632 637	[BOS]
+T5	Single_summ 788 793	[BOS]
+T6	Single_summ 1077 1082	[BOS]
+T7	Dominant 75 100	Lample and Conneau (2019)
+T8	Dominant 822 840	Song et al. (2019)
+T9	Reference 864 889	Lample and Conneau (2019)
+T10	Pronoun 334 339	their
+T11	Pronoun 1089 1093	this
+T12	Pronoun 1183 1185	it
+T13	B_span 6 14	Training
+T14	E_span 285 296	translation
+T15	B_span 794 806	Concurrently
+T16	B_span 864 870	Lample
+T17	E_span 884 888	2019
+T18	E_span 1299 1305	manner

@@ -1,0 +1,12 @@
+[BOS] This work is mostly related to both table-to-text generation and low resource natural language generation.
+
+[BOS] 4.1 Table- to-text Generation Table- to-text generation is widely applied in many domains.
+[BOS] Dubou and McKeown (2002) proposed to generate the biography by matching the text with a knowledge base.
+[BOS] Barzilay and Lapata (2005) presented an efficient method for automatically learning content selection rules from a corpus and its related database in the sports domain.
+[BOS] Liang et al. (2009) introduced a system with a sequence of local decisions for the sportscasting and the weather forecast.
+[BOS] Recently, thanks to the success of the neural network models, more work focused on the neural generative models in an endto-end style (Wiseman et al., 2017; Puduppully et al., 2018; Gehrmann et al., 2018; Bao et al., 2018; Qin et al., 2018) .
+[BOS] Lebret et al. (2016) constructed a dataset of biographies from Wikipedia, and built a neural model based on the conditional neural language models.
+[BOS] introduced a structure-aware sequence-tosequence architecture to model the inner structure of the tables and the interaction between the tables and the text.
+[BOS] Wiseman et al. (2018) focused on the interpretable and controllable generation process, and proposed a neural model using a hidden semi-markov model decoder to address these issues.
+[BOS] Nie et al. (2018) attempted to improve the fidelity of neural table-to-text generation by utilizing pre-executed symbolic operations in a sequence-to-sequence model.
+

@@ -1,0 +1,109 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 74 79	[BOS]
+T3	Narrative_cite 393 398	[BOS]
+T4	Transition 670 675	[BOS]
+T5	Narrative_cite 764 769	[BOS]
+T6	Narrative_cite 898 903	[BOS]
+T7	Transition 1335 1340	[BOS]
+T8	Transition 1393 1398	[BOS]
+T9	Transition 1421 1426	[BOS]
+T10	Transition 1547 1552	[BOS]
+T11	Narrative_cite 1587 1592	[BOS]
+T12	Multi_summ 1650 1655	[BOS]
+T13	Other 1983 1988	[BOS]
+T14	Other 2262 2267	[BOS]
+T15	Reflection 2323 2328	[BOS]
+T16	Reflection 2451 2456	[BOS]
+T17	Narrative_cite 2514 2519	[BOS]
+T18	Reflection 2796 2801	[BOS]
+T19	Reflection 2874 2879	[BOS]
+T20	Single_summ 2985 2990	[BOS]
+T21	Single_summ 3130 3135	[BOS]
+T22	Narrative_cite 3251 3256	[BOS]
+T23	Transition 3443 3448	[BOS]
+T24	Other 3625 3630	[BOS]
+T25	Other 3961 3966	[BOS]
+T26	Narrative_cite 4022 4027	[BOS]
+T27	Reflection 4145 4150	[BOS]
+T28	Narrative_cite 4246 4251	[BOS]
+T29	Transition 4607 4612	[BOS]
+T30	Transition 4679 4684	[BOS]
+T31	Reference 100 123	(Zeman and Resnik, 2008
+T32	Reference 125 146	McDonald et al., 2011
+T33	Reference 148 166	Cohen et al., 2011
+T34	Reference 168 187	Naseem et al., 2012
+T35	Reference 189 209	Tckstrm et al., 2013
+T36	Reference 211 237	Rosa and Zabokrtsky, 2015)
+T37	Reference 542 567	(Zhang and Barzilay, 2015
+T38	Reference 569 585	Guo et al., 2015
+T39	Reference 587 606	Duong et al., 2015a
+T40	Reference 608 627	Duong et al., 2015b
+T41	Reference 629 645	Guo et al., 2016
+T42	Reference 647 667	Ammar et al., 2016b)
+T43	Reference 805 830	(Zhang and Barzilay, 2015
+T44	Reference 832 848	Guo et al., 2016
+T45	Reference 850 870	Ammar et al., 2016b)
+T46	Reference 1084 1101	(Hwa et al., 2005
+T47	Reference 1103 1123	Ganchev et al., 2009
+T48	Reference 1125 1146	McDonald et al., 2011
+T49	Reference 1148 1164	Ma and Xia, 2014
+T50	Reference 1166 1191	Rasooli and Collins, 2015
+T51	Reference 1593 1613	Lacroix et al., 2016
+T52	Reference 1615 1646	Schlichtkrull and Sgaard, 2017)
+T53	Dominant 1675 1697	Tiedemann et al., 2014
+T54	Dominant 1699 1714	Tiedemann, 2015
+T55	Dominant 1716 1740	Tiedemann and Agi, 2016)
+T56	Reference 1838 1858	(Koehn et al., 2007)
+T57	Reference 2703 2723	(Naseem et al., 2012
+T58	Reference 2725 2745	Tckstrm et al., 2013
+T59	Reference 2747 2771	Zhang and Barzilay, 2015
+T60	Reference 2773 2793	Ammar et al., 2016a)
+T61	Dominant 3006 3028	Wang and Eisner (2016)
+T62	Dominant 3136 3164	Martnez Alonso et al. (2017)
+T63	Reference 3277 3298	(Tckstrm et al., 2012
+T64	Reference 3300 3316	Guo et al., 2015
+T65	Reference 3318 3335	Guo et al., 2016)
+T66	Reference 4070 4090	Duong et al. (2015a)
+T67	Reference 4093 4116	Gouws and Sgaard (2015)
+T68	Reference 4123 4141	Wick et al. (2015)
+T69	Reference 4347 4369	(Baldwin et al., 2010)
+T70	Reference 4380 4400	Duong et al. (2015b)
+T71	Reference 4470 4490	Ammar et al. (2016c)
+T72	Reference 4519 4540	Durrett et al. (2012)
+T73	Pronoun 676 681	These
+T74	Pronoun 885 889	this
+T75	Pronoun 2351 2355	this
+T76	Pronoun 2462 2464	it
+T77	Pronoun 3457 3462	these
+T78	Pronoun 4613 4618	These
+T79	Pronoun 4724 4728	they
+T80	B_span 80 81	A
+T81	E_span 383 391	language
+T82	B_span 472 477	cross
+T83	E_span 661 666	2016b
+T84	B_span 770 772	We
+T85	E_span 890 895	paper
+T86	E_span 1187 1191	2015
+T87	B_span 904 907	The
+T88	B_span 1593 1600	Lacroix
+T89	E_span 1641 1645	2017
+T90	B_span 1832 1837	MOSES
+T91	E_span 1853 1857	2007
+T92	E_span 1973 1981	sentence
+T93	B_span 1656 1661	Other
+T94	B_span 2628 2630	by
+T95	E_span 2787 2792	2016a
+T96	B_span 2991 2995	More
+T97	E_span 3119 3128	languages
+T98	B_span 3136 3143	Martnez
+T99	E_span 3240 3248	approach
+T100	B_span 3257 3258	A
+T101	E_span 3433 3441	transfer
+T102	E_span 4136 4140	2015
+T103	B_span 4028 4031	pus
+T104	B_span 4340 4346	PanLex
+T105	E_span 4394 4399	2015b
+T106	B_span 4442 4448	Google
+T107	E_span 4484 4489	2016c
+T108	B_span 4497 4507	Wiktionary
+T109	E_span 4535 4539	2012

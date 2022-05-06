@@ -1,0 +1,15 @@
+[BOS] Determining textual similarity is relatively new as a stand-alone task since SemEval-2012, but it is often a component of NLP applications such as information retrieval, paraphrase recognition, grading answers to questions and many other tasks.
+[BOS] In this section, we only list the works that are involved in our evaluation systems: the top performers in SemEval 2012 and recent neural network-based approaches in SemEval 2017.
+
+[BOS] The performance of the rule-based models (ari et al., 2012; B r et al., 2012; Banea et al., 2012 ) mostly rely on word pairings and knowledge derived from large corpora, e.g., Wikipedia.
+[BOS] Regardless of details, each word in sent1 is paired with the word in sent2 that is most similar according to some similarity measure.
+[BOS] Then, all similarities are added and normalized by the length of sent1 to obtain the similarity score from sent1 to sent2.
+[BOS] The process is repeated to obtain the similarity score from sent2 to sent1, and both scores are then averaged to determine the overall textual similarity.
+[BOS] Several word to word similarity measures are often combined with other shallow features (e.g. n-gram overlap, syntactic dependencies) to obtain the final similarity score.
+[BOS] Shao (2017) proposed a simple convolutional neural network (CNN) models for STS.
+[BOS] He used a CNN as the sentence embedding component to encode the original sentences into sentence-level vectors and generated a semantic difference vector by concatenating the element-wise absolute difference and the element-wise multiplication of the corresponding sentence vectors.
+[BOS] He then passed the semantic difference vector into a fully connected neural network to perform regression to generate the similarity score on a continuous inclusive scale from 0 to 5.
+[BOS] His model ranked 3rd on the primary track of SemEval 2017.
+[BOS] Prijatelj et al. (2017) wrote a survey on neural networks for semantic textual similarity.
+[BOS] The framework of their model is similar to Shao's, but they explored various neural network architectures, from simple to complex, and reported the results of applying the combination of these neural network models within this framework.
+

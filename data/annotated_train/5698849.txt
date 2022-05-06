@@ -1,0 +1,15 @@
+[BOS] For Japanese PAS analysis research, the NAIST Text Corpus has been used as a standard benchmark (Iida et al., 2007) .
+[BOS] One of the representative researches using the NAIST Text Corpus is Imamura et al. (2009) .
+[BOS] They built three distinct models corresponding to the three case roles by extracting features defined on each pair of a predicate and a candidate argument.
+[BOS] Using each model, they select the best candidate argument for each case per predicate.
+[BOS] Their models are based on maximum entropy model and can easily incorporate various features, resulting in high accuracy.
+[BOS] While in Imamura et al. (2009) one case argument is identified at a time per predicate, the method proposed by Sasano and Kurohashi (2011) simultaneously determines all the three case arguments per predicate by exploiting large-scale case frames obtained from large raw texts.
+[BOS] They focus on identification of implicit arguments (Zero and Inter-Zero), and achieves comparable results to Imamura et al. (2009) .
+
+[BOS] In these approaches, case arguments were identified per predicate without considering interactions between multiple predicates and candidate arguments in a sentence.
+[BOS] In the semantic role labeling (SRL) task, Yang and Zong (2014) pointed out that information of different predicates and their candidate arguments could help each other for identifying arguments taking part in semantic roles.
+[BOS] They exploited a reranking method to capture the interactions between multiple predicates and candidate arguments, and jointly determine argument structures of all predicates in a sentence (Yang and Zong, 2014) .
+[BOS] In this paper, we propose new joint analysis methods for identifying case arguments of all predicates in a sentence capturing interactions between multiple predicates and candidate arguments.
+
+[BOS] 3 Graph-Based Joint Models
+

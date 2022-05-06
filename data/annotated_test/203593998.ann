@@ -1,0 +1,41 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 94 99	[BOS]
+T3	Narrative_cite 227 232	[BOS]
+T4	Narrative_cite 297 302	[BOS]
+T5	Reflection 721 726	[BOS]
+T6	Single_summ 1002 1007	[BOS]
+T7	Reflection 1180 1185	[BOS]
+T8	Transition 1317 1322	[BOS]
+T9	Transition 1485 1490	[BOS]
+T10	Reflection 1772 1777	[BOS]
+T11	Transition 1962 1967	[BOS]
+T12	Reference 234 258	Celikyilmaz et al., 2018
+T13	Reference 260 282	Jadhav and Rajan, 2018
+T14	Reference 284 293	Liu, 2019
+T15	B_span 384 393	exploring
+T16	E_span 496 500	2018
+T17	B_span 504 515	introducing
+T18	E_span 594 598	2018
+T19	B_span 604 617	incorporating
+T20	E_span 713 717	2019
+T21	Reference 435 457	Cheng and Lapata, 2016
+T22	Reference 459 481	Nallapati et al., 2017
+T23	Reference 483 500	Zhou et al., 2018
+T24	Reference 538 558	Narayan et al., 2018
+T25	Reference 560 575	Wu and Hu, 2018
+T26	Reference 577 598	Chen and Bansal, 2018
+T27	Reference 647 666	Peters et al., 2018
+T28	Reference 668 687	Devlin et al., 2018
+T29	Reference 689 698	Liu, 2019
+T30	Reference 700 717	Dong et al., 2019
+T31	B_span 201 211	extractive
+T36	E_span 289 293	2019
+T37	B_span 1035 1039	Jung
+T38	E_span 1174 1178	task
+T39	Dominant 1035 1053	Jung et al., 2019)
+T40	B_span 1633 1640	network
+T41	E_span 1764 1768	2017
+T42	Reference 1682 1702	Schmidt et al., 2018
+T43	Reference 1705 1728	aluja and Fischer, 2017
+T44	Reference 1730 1748	Zhang et al., 2016
+T45	Reference 1750 1768	Arpit et al., 2017

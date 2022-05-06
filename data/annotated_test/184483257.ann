@@ -1,0 +1,33 @@
+T1	Transition 0 5	[BOS]
+T2	Reflection 190 195	[BOS]
+T3	Single_summ 285 290	[BOS]
+T4	Single_summ 386 391	[BOS]
+T5	Single_summ 623 628	[BOS]
+T6	Single_summ 736 741	[BOS]
+T7	Single_summ 794 799	[BOS]
+T8	Single_summ 906 911	[BOS]
+T9	Transition 1044 1049	[BOS]
+T10	Single_summ 1124 1129	[BOS]
+T11	Single_summ 1228 1233	[BOS]
+T12	Single_summ 1347 1352	[BOS]
+T13	Single_summ 1480 1485	[BOS]
+T14	Single_summ 1713 1718	[BOS]
+T15	Single_summ 1817 1822	[BOS]
+T16	Single_summ 1971 1976	[BOS]
+T17	Single_summ 2055 2060	[BOS]
+T18	Single_summ 2183 2188	[BOS]
+T19	Dominant 315 337	Davidson et al. (2017)
+T20	Dominant 742 762	Nobata et al. (2016)
+T21	Dominant 1353 1377	Gambck and Sikdar (2017)
+T22	Dominant 1823 1842	Zhang et al. (2018)
+T23	Dominant 2304 2330	Schmidt and Wiegand (2017)
+T24	B_span 295 301	tweets
+T25	E_span 723 734	classifiers
+T26	B_span 742 748	Nobata
+T27	E_span 1033 1041	features
+T28	B_span 1353 1359	Gambck
+T29	E_span 1811 1815	task
+T30	B_span 1823 1828	Zhang
+T31	E_span 2174 2181	results
+T32	B_span 2210 2219	different
+T33	E_span 2325 2329	2017

@@ -1,0 +1,17 @@
+[BOS] ZP Prediction and Translation ZP resolution is a challenging task which needs lexical, syntactic, discourse knowledge.
+[BOS] Previous studies have been conducted to improves the performance of ZP resolution for different pro-drop languages (Kong and Zhou, 2010; Chen and Ng, 2013; Park et al., 2015; Yin et al., 2017) .
+[BOS] However, directly using results of external ZP resolution systems for translation task shows limited improvements (Chung and Gildea, 2010; Le Nagard and Koehn, 2010; Taira et al., 2012; Xiang et al., 2013) , since such external systems are trained on small-scale data that is non-homologous to MT.
+[BOS] To overcome the data-level gap, Wang et al. (2016) proposed an automatic approach of ZP annotation by utilizing an alignment matrix from a large parallel data.
+[BOS] By using the translation-oriented ZP corpus, they exploited different approaches to alleviate ZP problems for translation models (Wang et al., 2016 (Wang et al., , 2018a .
+[BOS] Note that Wang et al. (2018b) also explored to address the problem of error propagation by jointly predicting ZP words given ZP position information.
+[BOS] However, this method still relies an external model that predicting ZP positions at decoding time.
+[BOS] Instead, this work proposes a unified model without any additional ZP annotations in decoding, thus release reliance on external ZP prediction in practice.
+
+[BOS] Discourse-Aware NMT Recent years, contextaware architecture has been well studied for NMT (Wang et al., 2017; Jean et al., 2017a; Tu et al., 2018) .
+[BOS] Wang et al. (2017) proposed hierarchical recurrent neural networks to summarize inter-sentential context from previous sentences and then integrate it into a standard NMT model with difference strategies.
+[BOS] Jean et al. (2017a) introduced an additional set of an encoder and attention to encode and select part of the previous source sentence for generating each target word.
+[BOS] Besides, Tu et al. (2018) proposed to augment NMT models with a cache-like memory network, which stores the translation history in terms of bilingual hidden representations at decoding steps of previous sentences.
+[BOS] They also evaluated the above three models on different domains of data, showing that the hierarchical encoder performs comparable with the multi-attention model.
+[BOS] More recently, some researchers began to investigate the effects of context-aware NMT on cross-lingual pronoun prediction (Jean et al., 2017b; Bawden et al., 2018; Voita et al., 2018) .
+[BOS] They mainly exploited general anaphora in non-pro-drop languages such as EnglishRussian.
+

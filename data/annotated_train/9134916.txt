@@ -1,0 +1,3 @@
+[BOS] There are roughly two lines of research related to our work: neural machine translation and variational neural model.
+[BOS] We describe them in succession.
+

@@ -1,0 +1,15 @@
+[BOS] Our work is related to two lines of research, and we describe each of them as follows:
+
+[BOS] Model Compactness and Multi-NMT: To reduce the model size in NMT, weight pruning, knowledge distillation, quantization, and weight sharing (Kim and Rush, 2016; See et al., 2016; He et al., 2018; Zhou et al., 2018) have been ex-plored.
+[BOS] Due to the benefit of compactness, multilingual translation has been extensively studied in Dong et al. (2015) , and Johnson et al. (2017) .
+[BOS] Owing to excellent translation performance and ease of use, many researchers (Blackwood et al., 2018; Lakew et al., 2018) have conducted translation based on the framework of Johnson et al. (2017) and Ha et al. (2016) .
+[BOS] Zhou et al. (2019) propose to perform decoding in two translation directions synchronously, which can be applied on different target languages and is a new research area for Multi-NMT.
+[BOS] In our method, we present a compact method for Multi-NMT, which can not only compress the model but also yield superior performance.
+
+[BOS] Low-Resource and Zero-Shot NMT: Many researchers have explored low-resource NMT using transfer learning Neubig and Hu, 2018) and data augmenting (Sennrich et al., 2016a; Zhang and Zong, 2016) approaches.
+[BOS] For zero-shot translation, and utilize a pivot-based method, which bridges the gap between sourceto-pivot and pivot-to-target two steps.
+[BOS] Multilingual translation is another direction to deal with both low-resource and zero-shot translation.
+[BOS] Gu et al. (2018) enable sharing of lexical and sentence representation across multiple languages, especially for extremely low-resource Multi-NMT.
+[BOS] Firat et al. (2016) , Lakew et al. (2017), and Johnson et al. (2017) propose to make use of multilinguality in Multi-NMT to address the zero-shot problem.
+[BOS] In this work, we propose a method for Multi-NMT to boost the accuracy of the multilingual translation, which better fits on both lowresource scenario and zero-shot scenario.
+

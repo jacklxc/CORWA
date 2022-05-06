@@ -1,0 +1,21 @@
+[BOS] A variety of classifier-based and MT-based techniques have been applied to grammatical error correction.
+[BOS] The CoNLL-14 shared task overview paper of Ng et al. (2014) provides a comparative evaluation of approaches.
+[BOS] Two notable advances after the shared task have been in the areas of combining classifiers and phrase-based MT (Rozovskaya and Roth, 2016) and adapting phrase-based MT to the GEC task (Junczys-Dowmunt and Grundkiewicz, 2016) .
+[BOS] The latter work has reported the highest performance to date on the task of 49.5 in F 0.5 score on the CoNLL-14 test set.
+[BOS] This method integrates discriminative training toward the task-specific evaluation function, a rich set of features, and multiple large language models.
+[BOS] Neural approaches to the task are less explored.
+[BOS] We believe that the advances from Junczys-Dowmunt and Grundkiewicz (2016) are complementary to the ones we propose for neural MT, and could be integrated with neural models to achieve even higher performance.
+
+[BOS] Two prior works explored sequence to sequence neural models for GEC (Xie et al., 2016; Yuan and Briscoe, 2016) , while Chollampatt et al. (2016) integrated neural features in a phrase-based system for the task.
+[BOS] Neural models were also applied to the related sub-task of grammatical error identification (Schmaltz et al., 2016) .
+[BOS] Yuan and Briscoe (2016) demonstrated the promise of neural MT for GEC but did not adapt the basic sequence-to-sequence with attention to its unique challenges, falling back to traditional word-alignment models to address vocabulary coverage with a post-processing heuristic.
+[BOS] Xie et al. (2016) built a character-level sequence to sequence model, which achieves open vocabulary and character-level modeling, but has difficulty with global word-level decisions.
+
+[BOS] The primary focus of our work is integration of character and word-level reasoning in neural models for GEC, to capture global fluency errors and local errors in spelling and closely related morphological variants, while obtaining open vocabulary coverage.
+[BOS] This is achieved with the help of character and word-level encoders and decoders with two nested levels of attention.
+[BOS] Our model is inspired by advances in sub-word level modeling in neural machine translation.
+[BOS] We build mostly on the hybrid model of Luong and Manning (2016) to expand its capability to correct rare words by fine-grained character-level attention.
+[BOS] We directly compare our model to the one of Luong and Manning (2016) on the grammar correction task.
+[BOS] Alternative methods for MT include modeling of word pieces to achieve open vocabulary (Sennrich et al., 2016) , and more recently, fully character-level modeling (Lee et al., 2017) .
+[BOS] None of these models integrate two nested levels of attention although an empirical evaluation of these approaches for GEC would also be interesting.
+

@@ -1,0 +1,60 @@
+T1	Reflection 0 5	[BOS]
+T2	Transition 71 76	[BOS]
+T3	Single_summ 219 224	[BOS]
+T4	Single_summ 373 378	[BOS]
+T5	Single_summ 473 478	[BOS]
+T6	Single_summ 629 634	[BOS]
+T7	Single_summ 743 748	[BOS]
+T8	Single_summ 927 932	[BOS]
+T9	Reflection 1054 1059	[BOS]
+T10	Transition 1180 1185	[BOS]
+T11	Transition 1331 1336	[BOS]
+T12	Single_summ 1465 1470	[BOS]
+T13	Single_summ 1633 1638	[BOS]
+T14	Single_summ 1735 1740	[BOS]
+T15	Single_summ 2031 2036	[BOS]
+T16	Transition 2230 2235	[BOS]
+T17	Reflection 2423 2428	[BOS]
+T18	Reflection 2531 2536	[BOS]
+T19	Single_summ 2601 2606	[BOS]
+T20	Single_summ 2736 2741	[BOS]
+T21	Single_summ 2855 2860	[BOS]
+T22	Single_summ 2976 2981	[BOS]
+T23	Single_summ 3077 3082	[BOS]
+T24	Single_summ 3210 3215	[BOS]
+T25	Dominant 241 264	Sakaguchi et al. (2017)
+T26	Dominant 479 500	Heigold et al. (2018)
+T27	Dominant 794 818	Belinkov and Bisk (2017)
+T28	Dominant 1471 1494	(Sperber et al., 2017 )
+T29	Dominant 1835 1859	Belinkov and Bisk (2017)
+T30	Dominant 2075 2096	Anastasopoulos (2019)
+T31	Reference 2452 2474	(Vaibhav et al., 2019)
+T32	Dominant 2664 2680	Tu et al. (2017)
+T33	Dominant 3057 3074	Niu et al. (2019)
+T34	Dominant 3083 3115	Anastasopoulos and Chiang (2018)
+T35	Pronoun 905 910	these
+T36	Pronoun 1639 1644	Their
+T37	Pronoun 1965 1969	they
+T38	Pronoun 2005 2007	it
+T39	Pronoun 2861 2865	This
+T40	Pronoun 2982 2986	This
+T41	B_span 225 234	Denoising
+T42	E_span 463 471	position
+T43	B_span 479 486	Heigold
+T44	E_span 735 741	models
+T45	B_span 749 751	To
+T46	E_span 1048 1052	text
+T47	B_span 1472 1479	Sperber
+T48	E_span 1725 1733	sentence
+T49	B_span 1741 1745	Even
+T50	E_span 2024 2029	noise
+T51	B_span 2075 2089	Anastasopoulos
+T52	E_span 2220 2228	speakers
+T53	B_span 2442 2444	we
+T54	E_span 2518 2529	translation
+T55	B_span 2607 2609	In
+T56	E_span 3069 3073	2019
+T57	B_span 2982 2986	This
+T58	E_span 2963 2974	performance
+T59	B_span 3083 3097	Anastasopoulos
+T60	E_span 3406 3419	transcription

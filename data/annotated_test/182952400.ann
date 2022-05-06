@@ -1,0 +1,68 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 128 133	[BOS]
+T3	Narrative_cite 379 384	[BOS]
+T4	Transition 543 548	[BOS]
+T5	Reflection 713 718	[BOS]
+T6	Narrative_cite 814 819	[BOS]
+T7	Transition 1024 1029	[BOS]
+T8	Narrative_cite 1214 1219	[BOS]
+T9	Narrative_cite 1355 1360	[BOS]
+T10	Narrative_cite 1607 1612	[BOS]
+T11	Transition 1846 1851	[BOS]
+T12	Reflection 1854 1859	[BOS]
+T13	Single_summ 2098 2103	[BOS]
+T14	Narrative_cite 2309 2314	[BOS]
+T15	Multi_summ 2447 2452	[BOS]
+T16	Reference 102 125	Collobert et al. (2011)
+T17	Reference 297 314	(Dai and Le, 2015
+T18	Reference 316 334	Kiros et al., 2015
+T19	Reference 336 353	Hill et al., 2016
+T20	Reference 355 376	Conneau et al., 2017)
+T21	Reference 437 458	(McCann et al., 2017)
+T22	Reference 467 489	(Radford et al., 2018)
+T23	Reference 865 899	(Hochreiter and Schmidhuber, 1997)
+T24	Reference 1262 1284	(Vaswani et al., 2017)
+T25	Reference 1420 1447	(Stickland and Murray, 2019
+T26	Reference 1449 1470	Houlsby et al., 2019)
+T27	Reference 1531 1550	(Phang et al., 2018
+T28	Reference 1552 1569	Liu et al., 2019)
+T29	Reference 1710 1733	(Zhang and Bowman, 2018
+T30	Reference 1735 1755	Peters et al., 2018b
+T31	Reference 1757 1777	Tenney et al., 2019b
+T32	Reference 1779 1798	Peters et al., 2019
+T33	Reference 1800 1820	Tenney et al., 2019a
+T34	Reference 1822 1844	Liu et al., 2019, i.a.
+T35	Dominant 2146 2168	Yogatama et al. (2019)
+T36	Reference 2421 2445	Collobert et al. (2011 )
+T37	Dominant 2453 2471	Luong et al. (2016
+T38	Dominant 2530 2555	Subramanian et al. (2018)
+T39	Dominant 2624 2648	Bingel and Sgaard (2017)
+T40	Dominant 2653 2677	Changpinyo et al. (2018)
+T41	B_span 83 92	multitask
+T42	E_span 120 124	2011
+T43	B_span 217 227	pretrained
+T44	E_span 371 375	2017
+T45	B_span 432 436	CoVe
+T46	E_span 453 457	2017
+T47	B_span 463 466	GPT
+T48	E_span 484 488	2018
+T50	E_span 894 898	1997
+T49	B_span 839 846	forward
+T51	B_span 1239 1249	pretrained
+T52	E_span 1279 1283	2017
+T53	B_span 1389 1407	parameterefficient
+T54	E_span 1465 1469	2019
+T55	B_span 1509 1518	multitask
+T56	E_span 1564 1568	2019
+T57	B_span 1630 1638	sentence
+T58	E_span 1840 1843	i.a
+T59	B_span 2146 2154	Yogatama
+T60	E_span 2296 2306	forgetting
+T61	B_span 2315 2324	Multitask
+T62	E_span 2439 2443	2011
+T63	B_span 2453 2458	Luong
+T64	E_span 2521 2528	parsing
+T65	B_span 2530 2541	Subramanian
+T66	E_span 2610 2618	encoding
+T67	B_span 2624 2630	Bingel
+T68	E_span 2750 2755	tasks

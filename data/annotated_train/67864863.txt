@@ -1,0 +1,6 @@
+[BOS] The current state-of-the-art in compositionality prediction involves the use of word embeddings (Salehi et al., 2015a) .
+[BOS] The vector representations of each component word (e.g. couch and potato) and the overall MWE (e.g. couch potato) are taken as a proxy for their respective meanings, and compositionality of the MWE is then assumed to be proportional to the relative similarity between each of the components and overall MWE embedding.
+[BOS] However, word-level embeddings require token-level identification of each MWE in the training corpus, meaning that if the set of MWEs changes, the model needs to be retrained.
+[BOS] This limitation led to research on character-level models, since character-level models can implic-itly handle an unbounded vocabulary of component words and MWEs (Hakimi Parizi and Cook, 2018) .
+[BOS] There has also been work in the extension of word embeddings to document embeddings that map entire sentences or documents to vectors (Le and Mikolov, 2014; Conneau et al., 2017) .
+

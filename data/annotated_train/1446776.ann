@@ -1,0 +1,34 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 378 383	[BOS]
+T3	Narrative_cite 689 694	[BOS]
+T4	Reflection 835 840	[BOS]
+T5	Transition 948 953	[BOS]
+T6	Narrative_cite 1056 1061	[BOS]
+T7	Transition 1195 1200	[BOS]
+T8	Reflection 1349 1354	[BOS]
+T9	Reference 97 128	(Pantel and Pennacchiotti, 2006
+T10	Reference 130 157	Agichtein and Gravano, 2000
+T11	Reference 159 177	Snow et al., 2006)
+T12	Reference 473 494	(Etzioni et al., 2005
+T13	Reference 496 515	Nadeau et al., 2006
+T14	Reference 517 540	Cafarella et al., 2008)
+T15	Reference 791 816	(Kushmerick et al., 1997)
+T16	Reference 819 831	(Brin, 1998)
+T18	Reference 1170 1192	(Wang and Cohen, 2007)
+T19	Pronoun 304 309	their
+T20	Pronoun 362 367	these
+T21	Pronoun 553 557	they
+T22	Pronoun 624 628	they
+T23	Pronoun 655 657	it
+T24	Pronoun 1062 1066	This
+T25	B_span 65 74	relations
+T26	E_span 172 176	2006
+T27	B_span 443 447	HTML
+T28	E_span 535 539	2008
+T29	B_span 719 728	character
+T30	E_span 826 830	1998
+T17	Reference 873 878	DIPRE
+T31	B_span 856 862	Brin's
+T32	E_span 873 878	DIPRE
+T33	B_span 1135 1141	SEAL's
+T34	E_span 1187 1191	2007

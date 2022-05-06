@@ -1,0 +1,12 @@
+[BOS] Type inventories for the task of fine-grained entity typing (Ling and Weld, 2012; Gillick et al., 2014; Yosef et al., 2012) have grown in size and complexity (Del Corro et al., 2015; Murty et al., 2017; Choi et al., 2018) .
+[BOS] Systems have tried to incorporate hierarchical information on the type distribution in different manners.
+[BOS] Shimaoka et al. (2017) encode the hierarchy through a sparse matrix.
+[BOS] Xu and Barbosa (2018) model the relations through a hierarchy-aware loss function.
+[BOS] Ma et al. (2016) and Abhishek et al. (2017) learn embeddings for labels and feature representations into a joint space in order to facilitate information sharing among them.
+[BOS] Our work resembles Xiong et al. (2019) since they derive hierarchical information in an unrestricted fashion, through type co-occurrence statistics from the dataset.
+[BOS] These models operate under Euclidean assumptions.
+[BOS] Instead, we impose a hyperbolic geometry to enrich the hierarchical information.
+[BOS] Hyperbolic spaces have been applied mostly on complex and social networks modeling (Krioukov et al., 2010; Verbeek and Suri, 2016) .
+[BOS] In the field of Natural Language Processing, they have been employed to learn embeddings for Question Answering (Tay et al., 2018) , in Neural Machine Translation (Gulcehre et al., 2019) , and to model language (Leimeister and Wilson, 2018; Tifrea et al., 2019) .
+[BOS] We build upon the work of Nickel and Kiela (2017) on modeling hierarchical link structure of symbolic data and adapt it with the parameterization method proposed by Dhingra et al. (2018) to cope with feature representations of text.
+

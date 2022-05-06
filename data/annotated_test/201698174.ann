@@ -1,0 +1,49 @@
+T1	Single_summ 0 5	[BOS]
+T2	Narrative_cite 171 176	[BOS]
+T3	Narrative_cite 441 446	[BOS]
+T4	Narrative_cite 698 703	[BOS]
+T5	Single_summ 894 899	[BOS]
+T6	Narrative_cite 1067 1072	[BOS]
+T7	Narrative_cite 1182 1187	[BOS]
+T8	Narrative_cite 1334 1339	[BOS]
+T9	Dominant 68 90	Sha and Pereira (2003)
+T10	Reference 249 267	(Ma and Hovy, 2016
+T11	Reference 269 288	Huang et al., 2017)
+T12	Reference 324 354	(Goldman and Goldberger, 2017)
+T13	Reference 559 582	Wiseman and Rush (2016)
+T14	Reference 663 683	(Andor et al., 2016)
+T15	Reference 844 865	(Mikolov et al., 2013
+T16	Reference 867 891	Pennington et al., 2014)
+T17	Dominant 961 990	Goldman and Goldberger (2017)
+T18	Reference 1147 1164	(Kim et al., 2017
+T19	Reference 1166 1178	Domke, 2013)
+T20	Reference 1257 1280	(Noraset et al., 2018 )
+T21	Reference 1428 1448	(Goyal et al., 2016)
+T22	Reference 1480 1502	(Leblond et al., 2018)
+T23	Reference 1543 1564	(Rennie et al., 2016)
+T24	Pronoun 177 181	They
+T25	Pronoun 997 1001	they
+T26	B_span 6 17	Conditional
+T27	E_span 163 169	models
+T28	B_span 220 226	neural
+T29	E_span 283 287	2017
+T30	B_span 300 308	sequence
+T31	E_span 349 353	2017
+T32	B_span 559 566	Wiseman
+T33	E_span 646 655	framework
+T34	B_span 664 669	Andor
+T35	E_span 688 695	parsing
+T36	B_span 816 823	several
+T37	E_span 886 890	2014
+T38	B_span 900 905	Using
+T39	E_span 1063 1065	do
+T40	B_span 1114 1121	various
+T41	E_span 1173 1177	2013
+T42	B_span 1215 1218	our
+T43	E_span 1274 1278	2018
+T44	B_span 1408 1419	adversarial
+T45	E_span 1443 1447	2016
+T46	B_span 1454 1460	search
+T47	E_span 1497 1501	2018
+T48	B_span 1512 1525	reinforcement
+T49	E_span 1559 1563	2016

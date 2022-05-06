@@ -1,0 +1,22 @@
+[BOS] This work is partially inspired by Qiu et al. (2013) , who propose a model that performs heterogeneous Chinese word segmentation and POS tagging and produces two sets of results following CTB and PD styles respectively.
+[BOS] Different from our CRFbased coupled model, their approach adopts a linear model, which directly combines two separate sets of features based on single-side tags, without considering the interacting joint features between the two annotations.
+[BOS] They adopt an approximate decoding algorithm which tries to find the best single-side tag sequence with reference to tags at the other side.
+[BOS] In contrast, our approach is a direct extension of traditional CRF, and is more theoretically simple from the perspective of modelling.
+[BOS] The use of both joint and separate features is proven to be crucial for the success of our coupled model.
+[BOS] In addition, their work indicates that their model relies on a hand-crafted loose mapping between annotations, which is opposite to our findings.
+[BOS] The naming of the ""coupled"" CRF is borrowed from the work of Qiu et al. (2012) , which treats the joint task of Chinese word segmentation and POS tagging as two coupled sequence labeling problems.
+[BOS] propose a shift-reduce dependency parsing model which can simultaneously learn and produce two heterogeneous parse trees.
+[BOS] However, their approach assumes the existence of data with annotations at both sides, which is obtained by converting phrase-structure trees into dependency trees with different heuristic rules.
+
+[BOS] This work is also closely related with multitask learning, which aims to jointly learn multiple related tasks with the benefit of using interactive features under a share representation (BenDavid and Schuller, 2003; Ando and Zhang, 2005; Parameswaran and Weinberger, 2010) .
+[BOS] However, according to our knowledge, multi-task learning typically assumes the existence of data with labels for multiple tasks at the same time, which is unavailable in our situation.
+
+[BOS] As one reviewer kindly pointed out that our model is a factorial CRF (Sutton et al., 2004) , in the sense that the bundled tags can be factorized two connected latent variables.
+[BOS] Initially, factorial CRFs are designed to jointly model two related (and typically hierarchical) sequential labeling tasks, such as POS tagging and chunking.
+[BOS] In this work, our coupled CRF jointly models two same tasks which have different annotation schemes.
+[BOS] Moreover, this work provides a natural way to learn from incomplete annotations where one sentence only contains one-side labels.
+[BOS] The reviewer also suggests that our objective can be optimized with the latent variable structured perceptron of Sun et al. (2009) , which we leave as future work.
+
+[BOS] Learning with ambiguous labelings are previously explored for classification (Jin and Ghahramani, 2002) , sequence labeling (Dredze et al., 2009) , parsing (Riezler et al., 2002; Täckström et al., 2013; Li et al., 2014a; Li et al., 2014b) .
+[BOS] Recently, researchers derive natural annotations from web data, transform them into ambiguous labelings to supervise Chinese word segmentation models (Jiang et al., 2013; Yang and Vozila, 2014) .
+

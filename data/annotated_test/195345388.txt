@@ -1,0 +1,39 @@
+[BOS] Attention mechanisms have long been utilized in deep neural networks.
+[BOS] Some of its roots are in the salient region detection for the processing of images (Itti et al., 1998) , which takes inspiration from human perception.
+[BOS] The main idea is to focus the attention of the underlying network on pointsof-interest in the input that are often surrounded by irrelevant parts (Mnih et al., 2014) .
+[BOS] This allows the model to put more weight on the important chunks.
+[BOS] While earlier salient detectors were task-specific, newer approaches (e.g. Mnih et al., 2014) can be adapted to different tasks, like image description generation (Xu et al., 2015) , and allow for the parameters of the attention to be tuned during the training.
+[BOS] These additional tasks include sequence processing and the application of such networks to different areas of Natural Language Processing (NLP).
+[BOS] One of the first use-cases for attention mechanisms in the field of NLP was machine translation.
+[BOS] Bahdanau et al. (2014) utilized the attention to improve their NMT model.
+[BOS] A few years later, Vaswani et al. (2017) achieved new State-of-the-Art (SotA) results by presenting an encoder-decoder architecture that is based on the attention mechanism, only adding a position-wise feed-forward network and normalizations in between.
+[BOS] Devlin et al. (2018) picked up on the encoder part of this architecture to pre-train a bidirectional LM.
+[BOS] After fine-tuning, they achieved, again, a new SotA performance on different downstream NLP tasks like Part-of-speech tagging and Questions-Answering.
+[BOS] A possible way of posing the unit segmentation as NLP task is a token-based sequence labeling (Stab, 2017) .
+[BOS] While Tobias et al. (2018) used rather simple, non-recurrent classifiers to approach this problem, others mostly applied recurrent networks to the task of unit boundary prediction.
+[BOS] For example, Eger et al. (2017) reported different Long short-term memory (LSTM) (Hochreiter and Schmidhuber, 1997) architectures.
+[BOS] Further, Ajjour et al. (2017) proposed a setup with three bidirectional LSTMs (Bi-LSTMs) (Schuster and Paliwal, 1997) in total as their best solution.
+
+[BOS] While the first two of them are fully connected and work on word embeddings and task-specific features respectively, the intention for the third is to take the output of the first two as input and learn to correct their errors.
+[BOS] Even though the third Bi-LSTM did not improve on the F1-score metric, it did succeed in resolving some of the wrong consecutive token predictions, without worsening the final results.
+
+[BOS] To the best of the authors' knowledge, the attention mechanism has not been widely utilized so far for the task of argumentative unit segmentation.
+[BOS] Stab et al. (2018) integrated the attention mechanism directly into their Bi-LSTM by calculating it at each time step t to evaluate the importance of the current hidden state h t .
+[BOS] To do that, they employed additive attention.
+[BOS] A similar approach has been applied by Morio and Fujita (2018) for a three-label classification task (claim, premise or non-argumentative).
+
+[BOS] In contrast to that, the approach presented in this paper uses attention as a separate layer that encodes all sequences before they are fed into a Bi-LSTM.
+[BOS] This might enable the recurrent part of the network to learn from better representations that are specific to the task it is trained on.
+[BOS] The aim is further to evaluate the possible applications of attention layers for the task of sequence segmentation and token classification.
+[BOS] A recurrent architecture (Ajjour et al., 2017 ) is compared to multiple modified versions that utilize the attention mechanism.
+
+[BOS] In order to derive a representation of the input text that better resembles the context of the input for a specific task, several approaches have been presented.
+[BOS] Akbik et al. (2018) , for example, pretrain a character-level Bi-LSTM to predict the next character for a given text corpus.
+[BOS] The pre-trained model is able to derive contextualized word embeddings by additionally utilizing the input sequence for a specific task.
+[BOS] This allows it to encode the previous as well as the following words of the given input sequence into the word itself.
+[BOS] In comparison to that, the pre-trained BERT-LM utilizes stacked attention layers (Vaswani et al., 2017) .
+[BOS] By feeding a sequence into it and extracting the output of the last sublayer for each token, the idea is to implicitly use the attention mechanism to derive a better representation for every token.
+[BOS] As is the case for the LM from Akbik et al. (2018) , the BERT embeddings are contextualized by the whole input sequence of the specific task.
+[BOS] This paper will compare the two contextualized approaches described above with the pre-defined GloVe (Pennington et al., 2014) embeddings in the light of their usefulness for AM.
+[BOS] The goal is to encode the features necessary to detect arguments by utilizing the context of a sentence.
+

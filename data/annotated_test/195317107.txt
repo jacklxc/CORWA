@@ -1,0 +1,11 @@
+[BOS] Prior approaches to learning bilingual word embeddings often rely on word or sentence alignment (Ruder et al., 2017) .
+[BOS] In particular, seed lexicon methods (Mikolov et al., 2013a; Faruqui and Dyer, 2014; Guo et al., 2015) learn transformations across different language-specific embedding spaces based on predefined word alignment.
+[BOS] The performance of these approaches is limited by the sufficiency of seed lexicons.
+[BOS] Besides, parallel corpora methods (Gouws et al., 2015; Coulmance et al., 2015) leverage the aligned sentences in different languages and force the representations of corresponding sentence components to be similar.
+[BOS] However, aligned sentences merely provide weak alignment of lexicons that do not accurately capture the one-to-one mapping of words, while such a mapping is well-desired by translation tasks (Upadhyay et al., 2016) .
+[BOS] In addition, a few unsupervised approaches alleviate the use of bilingual resources (Chen and Cardie, 2018; Conneau et al., 2018) .
+[BOS] These models require considerable effort to train and rely heavily on massive monolingual corpora.
+
+[BOS] Monolingual lexical definitions have been used for weak supervision of monolingual word similarities (Tissier et al., 2017) .
+[BOS] Our work demonstrates that dictionary information can be extended to a cross-lingual scenario, for which we develop a simple yet effective induction method to populate fine-grain word alignment.
+

@@ -1,0 +1,2 @@
+[BOS] In this section, we describe the basis of this work: the attention-based encoder-decoder NMT model and the row convolution method.
+

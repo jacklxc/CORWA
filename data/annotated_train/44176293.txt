@@ -1,0 +1,19 @@
+[BOS] Many recent studies have focused on using character-level information in neural machine translation systems.
+[BOS] These efforts could be roughly divided into the following two categories.
+
+[BOS] The first line of research attempted to build neural machine translation models purely on characters without explicit segmentation.
+[BOS] Lee et al. (2017) proposed to directly learn the segmentation from characters by using convolution and pooling layers.
+[BOS] Yang et al. (2016) composed the high-level representation by the character embedding and its surrounding character-level context with a bidirectional and concatenated row convolution network.
+[BOS] Different from their models, our model aims to use characters to enhance words representation instead of depending on characters solely; our model is also much simpler.
+
+[BOS] The other line of research attempted to combine character-level information with word-level information in neural machine translation models, which is more similar with our work.
+[BOS] Ling et al. (2015a) employed a bidirectional LSTM to compose character embeddings to form the word-level information with the help of word boundary information.
+[BOS] Costa-juss and Fonollosa (2016) replaced the word-lookup table with a convolutional network followed by a highway network (Srivastava et al., 2015) , which learned the word-level representation by its constituent characters.
+[BOS] Zhao and Zhang (2016) designed a decimator for their encoder, which effectively uses a RNN to compute a word representation from the characters of the word.
+[BOS] These approaches only consider word boundary information and ignore the word-level meaning information itself.
+[BOS] In contrast, our model can make use of both character-level and wordlevel information.
+[BOS] Luong and Manning (2016) proposed a hybrid scheme that consults character-level information whenever the model encounters an OOV word.
+[BOS] Wu et al. (2016) converted the OOV words in the word-based model into the sequence of its constituent characters.
+[BOS] These methods only focus on dealing with OOV words by augmenting the character-level information.
+[BOS] In our work, we augment the character information to all the words.
+

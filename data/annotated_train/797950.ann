@@ -1,0 +1,31 @@
+T1	Single_summ 0 5	[BOS]
+T2	Reflection 289 294	[BOS]
+T3	Reflection 422 427	[BOS]
+T4	Single_summ 497 502	[BOS]
+T5	Reflection 619 624	[BOS]
+T6	Single_summ 822 827	[BOS]
+T7	Narrative_cite 996 1001	[BOS]
+T8	Reflection 1234 1239	[BOS]
+T9	Dominant 72 89	Koo et al. (2008)
+T10	Reference 258 277	Brown et al. (1992)
+T11	Dominant 503 525	McClosky et al. (2006)
+T12	Dominant 875 894	Sagae et al. (2007)
+T13	Reference 1091 1112	(Martins et al., 2008
+T14	Reference 1114 1139	Nivre and McDonald, 2008)
+T15	Reference 1150 1177	(Henderson and Brill, 1999)
+T16	B_span 72 75	Koo
+T17	E_span 278 287	algorithm
+T18	B_span 503 506	McC
+T19	E_span 609 617	training
+T20	B_span 875 878	Sag
+T21	E_span 988 994	parser
+T22	B_span 1082 1090	stacking
+T23	E_span 1134 1138	2008
+T24	B_span 1143 1149	voting
+T25	E_span 1172 1176	1999
+T26	Pronoun 22 26	this
+T27	Pronoun 428 430	It
+T28	Pronoun 675 677	it
+T29	Pronoun 831 835	this
+T30	B_span 237 242	plain
+T31	E_span 272 276	1992

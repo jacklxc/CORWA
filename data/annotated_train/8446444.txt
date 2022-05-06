@@ -1,0 +1,6 @@
+[BOS] Besides (Frank and Semeck, 2004 )'s work, as mentioned above, there have been several studies on the relationship between deep syntax and semantic parsing.
+[BOS] Although the studies did not focus on direct mappings between deep syntax and shallow semantics, they suggested a strong relationship between the two.
+[BOS] (Miyao and Tsujii, 2004) evaluated the accuracy of an HPSG parser against PropBank semantic annotations, and showed that the HPSG dependants correlated with semantic arguments of the PropBank, particularly with "core" arguments.
+[BOS] In (Gildea and Hockenmaier, 2003) and (Zhang et al., 2008) , features from deep parses were used for semantic parsing, together with features from CFG or dependency parses.
+[BOS] The deep features were reported to contribute to a performance gain.
+

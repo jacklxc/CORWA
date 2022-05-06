@@ -1,0 +1,83 @@
+T1	Intro 0 5	[BOS]
+T2	Reflection 123 128	[BOS]
+T3	Multi_summ 304 309	[BOS]
+T4	Transition 553 558	[BOS]
+T5	Narrative_cite 729 734	[BOS]
+T6	Transition 1021 1026	[BOS]
+T7	Single_summ 1152 1157	[BOS]
+T8	Single_summ 1275 1280	[BOS]
+T9	Reflection 1514 1519	[BOS]
+T10	Narrative_cite 1622 1627	[BOS]
+T11	Transition 1968 1973	[BOS]
+T12	Multi_summ 2037 2042	[BOS]
+T13	Reflection 2308 2313	[BOS]
+T14	Narrative_cite 2423 2428	[BOS]
+T15	Single_summ 2789 2794	[BOS]
+T16	Single_summ 2955 2960	[BOS]
+T17	Single_summ 3128 3133	[BOS]
+T18	Single_summ 3324 3329	[BOS]
+T19	Single_summ 3484 3489	[BOS]
+T20	Dominant 316 334	Rush et al. (2015)
+T21	Reference 446 466	(Takase et al., 2016
+T22	Reference 468 487	Chopra et al., 2016
+T23	Reference 489 508	Kiyono et al., 2017
+T24	Reference 510 528	Ayana et al., 2017
+T25	Reference 530 550	Raffel et al., 2017)
+T26	Reference 835 857	(Woodsend et al., 2010
+T27	Reference 859 881	Alfonseca et al., 2013
+T28	Reference 883 907	Colmenares et al., 2015)
+T29	Dominant 1187 1202	Alotaiby (2011)
+T30	Reference 1688 1711	(Kobayashi et al., 2015
+T31	Reference 1713 1735	Yogatama et al., 2015)
+T32	Reference 2120 2143	(Cheng and Lapata, 2016
+T33	Reference 2145 2168	Nallapati et al., 2017)
+T34	Reference 2559 2581	(Surdeanu et al., 2008
+T35	Reference 2583 2607	Celikyilmaz et al., 2009
+T36	Reference 2609 2622	Bhaskar, 2013
+T37	Reference 2624 2643	Nakov et al., 2017)
+T38	Reference 2675 2692	(Lei et al., 2016
+T39	Reference 2694 2712	Romeo et al., 2016
+T40	Reference 2714 2733	Nakov et al., 2017)
+T41	Reference 2761 2786	(Heilman and Smith, 2010)
+T42	Dominant 2795 2815	Tamura et al. (2005)
+T43	Dominant 3342 3364	Ishigaki et al. (2017)
+T44	Pronoun 9 13	this
+T45	Pronoun 914 918	they
+T46	Pronoun 1043 1048	their
+T47	Pronoun 1100 1104	they
+T48	Pronoun 1520 1524	This
+T49	Pronoun 1770 1774	they
+T50	Pronoun 1852 1857	these
+T51	Pronoun 1974 1978	This
+T52	Pronoun 1997 2001	they
+T53	Pronoun 2970 2975	their
+T54	Pronoun 3051 3053	it
+T55	Pronoun 3147 3151	they
+T56	Pronoun 3251 3253	it
+T57	Pronoun 3397 3401	they
+T58	Pronoun 3490 3495	Their
+T59	Pronoun 3603 3608	their
+T60	Pronoun 3674 3679	their
+T61	Pronoun 3708 3713	their
+T62	B_span 316 320	Rush
+T63	E_span 373 378	model
+T64	B_span 416 420	same
+T65	E_span 545 549	2017
+T66	B_span 791 800	nonneural
+T67	E_span 902 906	2015
+T68	B_span 1187 1195	Alotaiby
+T69	E_span 1508 1512	rank
+T70	B_span 1663 1673	extractive
+T71	E_span 1730 1734	2015
+T72	B_span 2077 2083	neural
+T73	E_span 2163 2167	2017
+T74	B_span 2526 2533	dealing
+T75	E_span 2638 2642	2017
+T76	B_span 2646 2656	retrieving
+T77	E_span 2728 2732	2017
+T78	B_span 2740 2750	generating
+T79	E_span 2781 2785	2010
+T80	E_span 3293 3297	task
+T81	B_span 2795 2801	Tamura
+T82	B_span 3342 3350	Ishigaki
+T83	E_span 3743 3747	task

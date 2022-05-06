@@ -1,0 +1,28 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 98 103	[BOS]
+T3	Single_summ 228 233	[BOS]
+T4	Single_summ 364 369	[BOS]
+T5	Single_summ 510 515	[BOS]
+T6	Multi_summ 666 671	[BOS]
+T7	Reflection 872 877	[BOS]
+T8	Dominant 104 122	Wang et al. (2018)
+T9	Dominant 234 253	Liu and Lane (2016)
+T10	Dominant 370 388	(Goo et al., 2018)
+T11	Dominant 516 539	HakkaniTr et al. (2016)
+T12	Dominant 684 701	Jha et al. (2018)
+T13	Dominant 704 721	Kim et al. (2017)
+T14	Dominant 764 783	Jaech et al. (2016)
+T15	Pronoun 885 890	these
+T16	Pronoun 905 910	their
+T17	B_span 104 108	Wang
+T18	E_span 219 226	filling
+T19	B_span 234 237	Liu
+T20	E_span 355 362	filling
+T21	B_span 371 374	Goo
+T22	E_span 501 508	vectors
+T23	B_span 516 525	HakkaniTr
+T24	E_span 654 664	identifier
+T25	B_span 684 687	Jha
+T26	E_span 864 870	domain
+T27	B_span 764 769	Jaech
+T28	E_span 754 755	i

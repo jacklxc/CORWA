@@ -1,0 +1,36 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 66 71	[BOS]
+T3	Narrative_cite 211 216	[BOS]
+T4	Transition 312 317	[BOS]
+T5	Narrative_cite 487 492	[BOS]
+T6	Reflection 728 733	[BOS]
+T7	Narrative_cite 937 942	[BOS]
+T8	Reflection 1094 1099	[BOS]
+T9	Narrative_cite 1258 1263	[BOS]
+T10	Reference 43 63	Agirre et al. (2012)
+T11	Reference 169 185	(Br et al., 2012
+T12	Reference 187 208	Jimenez et al., 2012)
+T13	Reference 279 290	(Shao, 2017
+T14	Reference 292 309	Tai et al., 2015)
+T15	Reference 552 564	(Shao, 2017)
+T16	Reference 615 637	(Conneau et al., 2017)
+T17	Reference 654 681	(Pagliardini et al., 2017 )
+T18	Reference 1046 1066	(Kannan et al., 2016
+T19	Reference 1068 1091	Henderson et al., 2017)
+T20	Reference 1312 1332	(Kiros et al., 2015)
+T21	B_span 6 9	The
+T22	E_span 58 62	2012
+T23	B_span 97 104	lexical
+T24	E_span 203 207	2012
+T25	B_span 232 236	deep
+T26	E_span 304 308	2015
+T27	B_span 543 546	STS
+T28	E_span 559 563	2017
+T29	B_span 604 614	supervised
+T30	E_span 632 636	2017
+T31	B_span 641 653	unsupervised
+T32	E_span 675 679	2017
+T33	B_span 1020 1025	email
+T34	E_span 1086 1090	2017
+T35	B_span 1291 1295	Skip
+T36	E_span 1327 1331	2015

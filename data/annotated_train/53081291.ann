@@ -1,0 +1,32 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 84 89	[BOS]
+T3	Transition 197 202	[BOS]
+T4	Narrative_cite 325 330	[BOS]
+T5	Transition 778 783	[BOS]
+T6	Transition 889 894	[BOS]
+T7	Narrative_cite 1025 1030	[BOS]
+T8	Single_summ 1262 1267	[BOS]
+T9	Single_summ 1360 1365	[BOS]
+T10	Single_summ 1567 1572	[BOS]
+T11	Reference 470 480	(Ahn, 2006
+T12	Reference 482 503	Ji and Grishman, 2008
+T13	Reference 505 528	Liao and Grishman, 2010
+T14	Reference 530 547	Hong et al., 2011
+T15	Reference 549 572	Huang and Riloff, 2012)
+T16	Reference 674 699	Nguyen and Grishman, 2015
+T17	Reference 701 718	Feng et al., 2016
+T18	Reference 720 737	Chen et al., 2017
+T19	Reference 739 756	Duan et al., 2017
+T20	Reference 758 775	Liu et al., 2017)
+T21	Reference 1094 1116	(McClosky et al., 2011
+T22	Reference 1118 1141	Yang and Mitchell, 2016
+T23	Reference 1143 1161	Liu et al., 2016b)
+T24	Dominant 1268 1288	Nguyen et al. (2016)
+T25	B_span 454 461	feature
+T26	E_span 567 571	2012
+T27	B_span 579 585	neural
+T28	E_span 770 774	2017
+T29	B_span 1072 1079	feature
+T30	E_span 1155 1160	2016b
+T31	B_span 1268 1274	Nguyen
+T32	E_span 1638 1645	problem

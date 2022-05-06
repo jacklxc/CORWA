@@ -1,0 +1,10 @@
+[BOS] Early computational approaches to coreference resolution were built around what is now referred to as mention-pair models.
+[BOS] Such models use two stage resolution; the first stage calculates pairwise scores reflecting the likelihood that a mention and its candidate antecedents are coreferential while the second phase decodes these scores into coreference clusters.
+[BOS] The simplest way to decode is locationally greedy (Soon et al., 2001) , in that the closest candidate with a compatibility score over some threshold is deemed a mention's antecedent.
+[BOS] Anaphoricity determination (determining whether a mention constitutes a good first mention of an entity) is mediated by the threshold since a mention without a sufficiently good candidate antecedent starts a new cluster.
+[BOS] While these local models achieve a reasonable baseline (Soon et al. (2001) achieves MUC F-scores of 62.6 and 60.4 on MUC 6 and 7), they can make global consistency errors which limit their usefulness downstream.
+[BOS] For instance, in the following excerpt from bn/voa/00/voa 0068 of OntoNotes 5, it is possible that a system uses local evidence such as synonymy to misclassify the ship as the antecedent of a huge Norwegian transport vessel and similarly The battered US Navy destroyer Cole as the antecendent of the ship; unfortunately, these local decisions imply a clustering in which Cole is referred to as a Norwegian transport vessel.
+
+[BOS] The battered US Navy destroyer Cole has begun its journey home from Yemen ...
+[BOS] Flanked by other US warships and guarded by aircraft, the ship was towed out of Aden Harbor to rendezvous with a huge
+

@@ -1,0 +1,37 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 207 212	[BOS]
+T3	Narrative_cite 415 420	[BOS]
+T4	Narrative_cite 619 624	[BOS]
+T5	Transition 846 851	[BOS]
+T6	Transition 1084 1089	[BOS]
+T7	Narrative_cite 1318 1323	[BOS]
+T8	Single_summ 1478 1483	[BOS]
+T9	Single_summ 1599 1604	[BOS]
+T10	Single_summ 1777 1782	[BOS]
+T11	Transition 1920 1925	[BOS]
+T12	B_span 306 312	neural
+T13	E_span 359 363	2019
+T14	Reference 347 363	Pan et al., 2019
+T15	B_span 432 435	the
+T16	E_span 464 468	2017
+T17	Reference 453 468	Du et al., 2017
+T18	Reference 490 509	Du and Cardie, 2018
+T19	B_span 472 479	several
+T21	Reference 511 528	Yuan et al., 2017
+T24	Reference 530 547	Tang et al., 2017
+T26	E_span 543 547	2017
+T27	B_span 718 723	SQuAD
+T28	E_span 743 747	2018
+T29	Reference 725 747	Rajpurkar et al., 2018
+T30	B_span 1341 1345	CoQA
+T31	E_span 1361 1365	2019
+T32	Reference 1347 1365	Reddy et al., 2019
+T33	B_span 1371 1375	QuAC
+T34	E_span 1390 1394	2018
+T35	Reference 1377 1394	Choi et al., 2018
+T36	Dominant 1502 1519	Gao et al. (2019)
+T37	B_span 1502 1505	Gao
+T38	E_span 1911 1918	systems
+T20	B_span 1434 1442	relevant
+T22	E_span 1470 1474	2019
+T23	Reference 1461 1474	Yatskar, 2019

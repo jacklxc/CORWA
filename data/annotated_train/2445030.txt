@@ -1,0 +1,11 @@
+[BOS] Our work is directly inspired by posterior regularization (Ganchev et al., 2010) .
+[BOS] The major difference is that we use a log-linear model to represent the desired distribution rather than a constrained posterior set.
+[BOS] Using log-linear models not only enables our approach to incorporate arbitrary knowledge sources as real-valued features, but also is differentiable to be jointly trained with neural translation models efficiently.
+
+[BOS] Our work is closely related to recent work on injecting prior knowledge into NMT (Arthur et al., 2016; Cohn et al., 2016; Tang et al., 2016; Feng et al., 2016; .
+[BOS] The major difference is that our approach aims to provide a general framework for incorporating arbitrary prior knowledge sources while keeping the neural translation model unchanged.
+[BOS] also propose to combine the strengths of neural networks on learning representations and log-linear models on encoding prior knowledge.
+[BOS] But they treat neural translation models as a feature in the log-linear model.
+[BOS] In contrast, we connect the two models via KL divergence to keep the transparency of our approach to model architectures.
+[BOS] This enables our approach to be easily applied to other neural models in NLP.
+

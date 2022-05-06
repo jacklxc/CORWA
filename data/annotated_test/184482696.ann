@@ -1,0 +1,35 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 96 101	[BOS]
+T3	Narrative_cite 296 301	[BOS]
+T4	Transition 431 436	[BOS]
+T5	Single_summ 496 501	[BOS]
+T6	Single_summ 604 609	[BOS]
+T7	Single_summ 804 809	[BOS]
+T8	Single_summ 876 881	[BOS]
+T9	Single_summ 1001 1006	[BOS]
+T10	Single_summ 1082 1087	[BOS]
+T11	Reference 133 153	(Waseem et al., 2017
+T12	Reference 155 177	ElSherief et al., 2018
+T13	Reference 179 202	Gambck and Sikdar, 2017
+T14	Reference 204 223	Zhang et al., 2018)
+T15	Reference 236 263	(Schmidt and Wiegand, 2017)
+T16	Reference 268 293	(Fortuna and Nunes, 2018)
+T17	Reference 365 382	(Su et al., 2017)
+T18	Reference 398 417	(Fier et al., 2017)
+T19	Dominant 528 551	(Ganesan et al., 2018 )
+T20	Dominant 620 641	(Park and Fung, 2017)
+T21	Dominant 888 911	(Pitsilis et al., 2018)
+T22	B_span 120 126	recent
+T23	E_span 218 222	2018
+T24	B_span 228 235	surveys
+T25	E_span 288 292	2018
+T26	B_span 366 368	Su
+T27	E_span 386 393	Chinese
+T28	B_span 399 403	Fier
+T29	E_span 421 428	Slovene
+T30	B_span 529 536	Ganesan
+T31	E_span 594 602	Networks
+T32	B_span 621 625	Park
+T33	E_span 868 874	models
+T34	B_span 889 897	Pitsilis
+T35	E_span 1184 1188	text

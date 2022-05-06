@@ -1,0 +1,32 @@
+[BOS] Zero pronouns have already been studied in other languages, such as Japanese (e.g. Nakaiwa and Shirai, 1996; Okumura and Tamura, 1996) and Spanish (Park and Hong, 2014; Palomar et al., 2001; Ferrndez and Peral, 2000) .
+[BOS] These studies are based on the researches about anaphora resolution.
+[BOS] It has been a wide-open research field since 1970 focusing on English.
+[BOS] Regardless of languages, similar strategies for anaphora resolution have been applied.
+[BOS] Using linguistic information is the most representative technique; constraints and preferences methods are distinguished in the related works (Baldwin, 1997; Lappin and Leass, 1994; Carbonell and Brown, 1988) .
+
+[BOS] Constraints discard possible antecedents and are considered as absolute criteria.
+[BOS] Preferences being proposed as heuristic rules tend to be relative.
+[BOS] After applying constraints, if there are still unresolved candidate antecedents, preferences set priorities among candidate antecedents.
+[BOS] Nakaiwa and Shirai (1996) focus on semantic and pragmatic constraints such as cases, modal expressions, verbal semantic attributes and conjunctions in order to determine the reference of Japanese zero pronouns.
+[BOS] However, they proposed constraints focusing on zero subjects mainly.
+[BOS] Therefore, it is hard to apply their approach on zero object resolution.
+
+[BOS] Centering theory (Grosz et al., 1995) is one of the approaches using heuristic rules.
+[BOS] It is claimed that certain entities mentioned in an utterance are more central than others, and this property has been applied to determine the antecedent of the anaphor.
+[BOS] Walker et al. (1994) applied the centering model on zero pronoun resolution in Japanese.
+[BOS] Roh and Lee (2003) proposed a generation algorithm of zero pronouns using a Cost-based Centering Model which considers the inference cost.
+[BOS] It is known that the most salient element of the given discourse is likely to be realized as a zero pronoun.
+[BOS] We take this into account in selecting the features for ML.
+
+[BOS] Current anaphora resolution methods rely mainly on constraint and preference heuristics, which employ morpho-syntactic information or shallow semantic analysis.
+[BOS] These methods are a deterministic algorithm which always produces the same output in a given particular condition.
+[BOS] However, even if the condition is applied, the output can be wrong.
+[BOS] ML methods which are a non-deterministic algorithm have been studied on anaphora resolution (Connolly et al., 1994; Paul et al., 1999) .
+[BOS] Since ML learns from data and makes predictions of the most likely candidate on the data, it can overcome the limitation of the deterministic method.
+[BOS] Park and Hong (2014) proposed a hybrid approach to resolve Spanish zero subjects that integrates heuristic rules and ML in the context of Spanish to Korean MT.
+[BOS] Since Spanish zero subjects can be restored from the verb ending, they use morphological flections for verbs.
+[BOS] After that, ML is utilized for some ambiguous cases.
+[BOS] Unlike this work, our work deals with Korean zero object.
+[BOS] Morphological information cannot be utilized for Korean because of the difference of the two languages.
+[BOS] For this reason, we use ML method alone to determine the antecedent of the zero objects in spoken Korean.
+

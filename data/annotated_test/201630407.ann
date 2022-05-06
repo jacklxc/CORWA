@@ -1,0 +1,8 @@
+T1	Single_summ 0 5	[BOS]
+T2	Narrative_cite 101 106	[BOS]
+T3	Dominant 39 57	(Yao et al., 2018)
+T4	Reference 155 173	(Yao et al., 2018)
+T5	B_span 10 17	Dynamic
+T6	E_span 99 100	.
+T7	B_span 131 138	Dynamic
+T8	E_span 168 172	2018

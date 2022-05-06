@@ -1,0 +1,9 @@
+[BOS] Although our systems (random forest with length and frequency of the target word) are simple, they achieve competitive results.
+
+[BOS] In the first CWI shared task 2016, numerous systems (Brooke et al., 2016; Davoodi and Kosseim, 2016; Mukherjee et al., 2016; Ronzano et al., 2016) used random forest classifiers.
+[BOS] The length (Wrbel, 2016; Paetzold and Specia, 2016b; Ronzano et al., 2016; Palakurthi and Mamidi, 2016; Quijada and Medero, 2016; Konkol, 2016) and frequency (Wrbel, 2016; Paetzold and Specia, 2016b; Brooke et al., 2016; Ronzano et al., 2016; Palakurthi and Mamidi, 2016; Quijada and Medero, 2016; Konkol, 2016; Kauchak, 2016) features of the CWI shared task 2016.
+[BOS] These are used as baselines, and a majority of the systems use them as part of their features.
+
+[BOS] While previous works counted the word frequency in corpora such as Wikipedia, which is written by native speakers, we used corpora written by language learners.
+[BOS] As anticipated, the word frequency in the learner corpus proved to be a vital feature in the CWI task.
+

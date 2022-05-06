@@ -1,0 +1,31 @@
+[BOS] Embedding evaluation.
+[BOS] Baroni et al. (2014) evaluate embeddings on different intrinsic tests: similarity, analogy, synonym detection, categorization and selectional preference.
+[BOS] Schnabel et al. (2015) introduce tasks with more fine-grained datasets.
+[BOS] The concept categorization datasets used for embedding evaluation are mostly small (<500) (Baroni et al., 2014) and therefore measure the goodness of embeddings by the quality of their clustering.
+[BOS] In contrast, we test embeddings in a classification setting and different subspaces of embeddings are analyzed.
+[BOS] Extrinsic evaluations are also used (Li and Jurafsky, 2015; Khn, 2015; Lai et al., 2015) .
+[BOS] In most tasks, embeddings are used in context/sentence representations with composition involved.
+[BOS] In this work, we evaluate embeddings in isolation, on their ability to represent multiple senses.
+
+[BOS] Related tasks and datasets.
+[BOS] Our proposed task is fine-grained name typing (FNT).
+[BOS] A related task is entity set expansion (ESE): given a set of a few seed entities of a particular class, find other entities (Thelen and Riloff, 2002; Gupta and Manning, 2014) .
+[BOS] We can formulate FNT as ESE, however, there is a difference in the training data assumption.
+[BOS] For our task, we assume to have enough instances for each type available, and, therefore, to be able to use a supervised learning approach.
+[BOS] In contrast, for ESE, mostly only 3-5 seeds are given as training seeds for a set, which makes an evaluation like ours impossible.
+
+[BOS] Named entity recognition (NER) consists of recognizing and classifying mentions of entities locally in a particular context (Finkel et al., 2005) .
+[BOS] Recently, there has been increased interest in finegrained typing of mentions (Ling and Weld, 2012; Yogatama et al., 2015; Ren et al., 2016; Shimaoka et al., 2016) .
+[BOS] One way of solving our task is to collect every mention of a name, use NER to predict the context-dependent types of mentions, and then take all predictions as the global types of the name.
+[BOS] However, our focus in this paper is on how embedding models perform and propose this task as a good evaluation method.
+[BOS] We leave the comparison to an NER-based approach for future work.
+
+[BOS] Corpus-level fine-grained entity typing is the task of predicting all types of entities based on their mentions in a corpus (Yaghoobzadeh and Schtze, 2015; Yaghoobzadeh and Schtze, 2017; Yaghoobzadeh et al., 2018) .
+[BOS] This is similar to our task, FNT, but in FNT the goals is to find the corpus-level types of names.
+[BOS] Corpus-level entity typing has also been used for embedding evaluation (Yaghoobzadeh and Schtze, 2016) .
+[BOS] However, they need an annotated corpus with entities.
+[BOS] For FNT, however, pretrained word embeddings are sufficient for the evaluation.
+[BOS] Finally, there exists some previous work on FNT, e.g., Chesney et al. (2017) .
+[BOS] In contrast to us, they do not explicitly focus on the evaluation of embedding models, such that their dataset only contains a limited number of types.
+[BOS] In contrast, we use 50 different types, making our dataset suitable for the type of evaluation intended.
+

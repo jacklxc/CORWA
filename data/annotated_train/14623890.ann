@@ -1,0 +1,36 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 145 150	[BOS]
+T3	Narrative_cite 223 228	[BOS]
+T4	Reflection 460 465	[BOS]
+T5	Reflection 601 606	[BOS]
+T6	Narrative_cite 810 815	[BOS]
+T7	Transition 1111 1116	[BOS]
+T8	Reflection 1155 1160	[BOS]
+T9	Reference 245 266	(Lewis and Gale, 1994
+T10	Reference 268 289	Tong and Koller, 2001
+T11	Reference 291 310	Laws et al., 2011 )
+T12	Reference 435 456	(Bordes et al., 2005)
+T13	Reference 916 940	(Subramanya et al., 2010
+T14	Reference 942 960	Rush et al., 2012)
+T15	Reference 982 1005	(Choi and Palmer, 2012)
+T16	Reference 1022 1041	(Huang et al., 2009
+T17	Reference 1043 1065	Huang and Yates, 2010)
+T18	Reference 1084 1108	(Kbler and Baucom, 2011)
+T20	Pronoun 473 477	this
+T21	Pronoun 541 545	this
+T22	Pronoun 1124 1128	this
+T23	B_span 229 235	Active
+T24	E_span 304 308	2011
+T25	B_span 386 393	usually
+T26	E_span 451 455	2005
+T27	B_span 892 907	constraintbased
+T28	E_span 955 959	2012
+T29	B_span 963 971	instance
+T30	E_span 1000 1004	2012
+T31	B_span 1008 1012	self
+T32	E_span 1060 1064	2010
+T33	B_span 1072 1074	co
+T34	E_span 1103 1107	2011
+T19	Reference 1219 1244	Daum III and Marcu (2006)
+T35	E_span 1239 1243	2006
+T36	B_span 1198 1208	supervised

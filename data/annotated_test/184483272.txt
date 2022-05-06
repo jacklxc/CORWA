@@ -1,0 +1,17 @@
+[BOS] One of the most effective strategies for tackling this problem is to use computational methods to identify offense, aggression, and hate speech in user-generated content (e.g. posts, comments, microblogs, etc.)
+[BOS] .
+[BOS] This topic has attracted significant attention recently as evidenced in publications from the last two years.
+
+[BOS] Survey papers describing key areas that have been explored for this task include (Schmidt and Wiegand, 2017) , (Fortuna and Nunes, 2018) and (Malmasi and Zampieri, 2017) .
+[BOS] The dataset for this competition is explained in (Zampieri et al., 2019a) and different approaches to the same problem are reported in (Zampieri et al., 2019b) .
+
+[BOS] In order to classify correctly abusive language it is important to analyze its types.
+[BOS] A proposal of typology of abusive language sub-tasks is presented in (Waseem et al., 2017) and (ElSherief et al., 2018) examines the target of the speech: either directed towards a specific person or entity, or generalized towards a group of people sharing a common protected characteristic.
+[BOS] (Fier et al., 2017) proposes a legal framework, dataset and annotation schema of socially unacceptable discourse practices on social networking platforms in Slovenia.
+[BOS] Finally, a recent discussion on identifying profanity vs. hate speech is presented in .
+[BOS] This work highlighted the challenges of distinguishing between profanity, and threatening language which may not actually contain profane language.
+
+[BOS] Approaches to detecting hate speech on Twitter using convolutional neural networks and convolution-GRU based deep neural network are discussed in (Gambck and Sikdar, 2017) and (Zhang et al., 2018) respectively.
+
+[BOS] Additional related work is presented in workshops such as TA-COS 1 , Abusive Language Online 2 , and TRAC 3 and related shared tasks such as GermEval (Wiegand et al., 2018) and TRAC (Kumar et al., 2018) .
+

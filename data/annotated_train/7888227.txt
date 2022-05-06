@@ -1,0 +1,12 @@
+[BOS] String-to-tree SMT approaches also utilize the similarity-based matching constraint on target side to generate target translation.
+[BOS] This paper applies it on source side to reconstruct new similar source parse trees for decoding at the decoding time, which aims to increase the tree-to-string search space for decoding, and improve decoding generalization for tree-to-string translation.
+
+[BOS] The most related work is the forest-based translation method Zhang et al. 2009 ) in which rule extraction and decoding are implemented over k-best parse trees (e.g., in the form of packed forest) instead of one best tree as translation input.
+[BOS] Liu and Liu (2010) proposed a joint parsing and translation model by casting tree-based translation as parsing (Eisner 2003) , in which the decoder does not respect the source tree.
+[BOS] These methods can increase the treeto-string search space.
+[BOS] However, the decoding time complexity of their methods is high, i.e., more than ten or several dozen times slower than typical treeto-string decoding (Liu and Liu 2010) .
+
+[BOS] Some previous efforts utilized the techniques of soft syntactic constraints to increase the search space in hierarchical phrase-based models (Marton and Resnik 2008; Chiang et al. 2009; Huang et al. 2010) , string-to-tree models (Venugopal et al. 2009 ) or tree-to-tree (Chiang 2010) systems.
+[BOS] These methods focus on softening matching constraints on the root label of each rule regardless of its internal tree structure, and often generate many new syntactic categories 3 .
+[BOS] It makes them more difficult to satisfy syntactic constraints for the tree-to-string decoding.
+

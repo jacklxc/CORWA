@@ -1,0 +1,26 @@
+[BOS] Prior work in QG from text can be classified into two broad categories.
+
+[BOS] Rule-based: Rule-based approaches (Heilman, 2011) mainly rely on manually curated rules for transforming a declarative sentence into an interrogative sentence.
+[BOS] The quality of the questions generated using rule-based systems highly depends on the quality of the handcrafted rules.
+[BOS] Manually curating a large number of rules for a new language is a tedious and challenging task.
+[BOS] More recently, Zheng et al. (2018) propose a template-based technique to construct questions from Chinese text, where they rank generated questions using a neural model and select the topranked question as the final output.
+
+[BOS] Neural Network Based: Neural network based approaches do not rely on hand-crafted rules, but instead use an encoder-decoder architecture which can be trained in an end-to-end fashion to automatically generate questions from text.
+[BOS] Several neural network based approaches (Du et al., 2017; Kumar et al., 2018a,b) have been proposed for automatic question generation from text.
+[BOS] Du et al. (2017) propose a sequence to sequence model for automatic question generation from English text.
+[BOS] Kumar et al. (2018a) use a rich set of linguistic features and encode pivotal answers predicted using a pointer network based model to automatically generate a question for the encoded answer.
+[BOS] All existing models optimize a crossentropy based loss function, that suffers from exposure bias (Ranzato et al., 2016) .
+[BOS] Further, existing methods do not directly address the problem of handling important rare words and word repetition in QG.
+[BOS] Kumar et al. (2018b) propose a reinforcement learning based framework which addresses the problem of exposure bias, word repetition and rare words.
+[BOS] Tang et al. (2017) and Wang et al. (2017) propose a joint model to address QG and the question answering problem together.
+[BOS] All prior work on QG assumed access to a sufficiently large number of training instances for a language.
+[BOS] We relax this assumption in our work as we only have access to a small question answering dataset in the primary language.
+[BOS] We show how we can improve QG performance on the primary language by leveraging a larger question answering dataset in a secondary language.
+[BOS] (Similarly in spirit, cross-lingual transfer learning based approaches have been recently proposed for other NLP tasks such as machine translation (Schuster et al., 2019; Lample and Conneau, 2019 In Algorithm 1, we outline our training procedure and Figure 2 illustrates the overall architecture of our QG system.
+[BOS] Our cross-lingual QG model consists of two encoders and two decoders specific to each language.
+[BOS] We also enforce shared layers in both the encoder and the decoder whose weights are updated using data in both languages.
+[BOS] (This weight sharing is discussed in more detail in Section 3.3.)
+[BOS] For the encoder and decoder layers, we use the newly released Transformer (Vaswani et al., 2017) model that has shown great success compared to recurrent neural network-based models in neural machine translation.
+[BOS] Encoders and decoders consist of a stack of four identical layers, of which two layers are independently trained and two are trained in a shared manner.
+[BOS] Each layer of the transformer consists of a multi-headed selfattention model followed by a position-wise fully connected feed-forward network.
+

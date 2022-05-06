@@ -1,0 +1,13 @@
+[BOS] Joint POS tagging with parsing is not a new idea.
+[BOS] In PCFG-based parsing (Collins, 1999; Charniak, 2000; Petrov et al., 2006) , POS tagging is considered as a natural step of parsing by employing lexical rules.
+[BOS] For transition-based parsing, Hatori et al. (2011) proposed to integrate POS tagging with dependency parsing.
+[BOS] Our joint approach can be seen as an adaption of Hatori et al. (2011) 's approach for constituent parsing.
+[BOS] proposed a transition-based constituent parser to process an input sentence from the character level.
+[BOS] However, manual annotation of the word-internal structures need to be added to the original Treebank in order to train such a parser.
+
+[BOS] Non-local features have been successfully used for constituent parsing (Charniak and Johnson, 2005; Collins and Koo, 2005; Huang, 2008) .
+[BOS] However, almost all of the previous work use nonlocal features at the parse reranking stage.
+[BOS] The reason is that the single-stage chart-based parser cannot use non-local structural features.
+[BOS] In contrast, the transition-based parser can use arbitrarily complex structural features.
+[BOS] Therefore, we can concisely utilize non-local features in a single-stage parsing system.
+

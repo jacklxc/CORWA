@@ -1,0 +1,21 @@
+[BOS] Although there are studies on analyzing parsing errors and reordering errors, as far as we know, there is not any work on observing the relationship between these two types of errors.
+
+[BOS] One most relevant work to ours is observing the impact of parsing accuracy on a SMT system introduced in Quirk and Corston-Oliver (2006) .
+[BOS] They showed the general idea that syntax-based SMT models are sensitive to syntactic analysis.
+[BOS] However, they did not further analyze concrete parsing error types that affect task accuracy.
+[BOS] Green (2011) explored the effects of noun phrase bracketing in dependency parsing in English, and further on English to Czech machine translation.
+[BOS] But the work focused on using noun phrase structure to improve a machine translation framework.
+[BOS] In the work of Katz-Brown et al. (2011) , they proposed a training method to improve a parser's performance by using reordering quality to examine the parse quality.
+[BOS] But they did not study the relationship between reordering quality and parse quality.
+
+[BOS] There are more works on parsing error analysis.
+[BOS] For instance, Hara et al. (2009) defined several types of parsing error patterns on predicate argument relation and tested them with a Headdriven phrase structure grammar (HPSG) (Pollard and Sag, 1994) parser (Miyao and Tsujii, 2008) .
+[BOS] McDonald and Nivre (2007) explored parsing errors for data-driven dependency parsing by comparing a graph-based parser with a transitionbased parser, which are representing two dominant parsing models.
+[BOS] At the same time, Dredze et al. (2007) provided a comparison analysis on differences in annotation guidelines among treebanks which were suspected to be responsible for dependency parsing errors in domain adaptation tasks.
+[BOS] Unlike analyzing parsing errors, authors in Yu et al. (2011) focused on the difficulties in Chinese deep parsing by comparing the linguistic properties between Chinese and English.
+
+[BOS] There are also works on reordering error analysis like Han et al. (2012) which examined an existing reordering method and refined it after a detailed linguistic analysis on reordering issues.
+[BOS] Although they discovered that parsing errors affect the reordering quality, they did not observe the concrete relationship.
+[BOS] On the other hand, Gimnez and Mrquez (2008) proposed an automatic error analysis method of machine translation output, by compiling a set of metric variants.
+[BOS] However, they did not provide insight on what SMT component caused low translation performance.
+

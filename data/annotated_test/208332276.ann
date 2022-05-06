@@ -1,0 +1,35 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 119 124	[BOS]
+T3	Narrative_cite 288 293	[BOS]
+T4	Narrative_cite 591 596	[BOS]
+T5	Narrative_cite 728 733	[BOS]
+T6	Reflection 855 860	[BOS]
+T7	Single_summ 949 954	[BOS]
+T8	Reflection 1050 1055	[BOS]
+T9	Reflection 1136 1141	[BOS]
+T10	Reference 38 58	(Gupta et al., 2018)
+T11	Reference 70 87	(Li et al., 2018)
+T12	Reference 410 432	(Prakash et al., 2016)
+T13	Reference 497 515	(Cao et al., 2017)
+T14	Reference 569 587	(Su and Yan, 2017)
+T15	Reference 646 665	(Quirk et al., 2004
+T16	Reference 667 685	Zhao et al., 2008)
+T17	Reference 807 827	(Hassan et al., 2007
+T18	Reference 829 852	Kozlowski et al., 2003)
+T19	Dominant 955 973	Zhao et al. (2018)
+T20	B_span 27 30	VAE
+T21	E_span 53 57	2018
+T22	B_span 63 66	RbM
+T23	E_span 82 86	2018
+T24	B_span 396 404	residual
+T25	E_span 427 431	2016
+T26	B_span 435 437	bi
+T27	E_span 510 514	2017
+T28	B_span 518 527	attention
+T29	E_span 582 586	2017
+T30	B_span 625 633	generate
+T31	E_span 680 684	2008
+T32	B_span 734 739	While
+T33	E_span 847 851	2003
+T34	B_span 955 959	Zhao
+T35	E_span 1040 1048	datasets

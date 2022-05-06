@@ -1,0 +1,7 @@
+[BOS] In addition to the end-to-end span-ranking model (Lee et al., 2017 ) that our proposed model builds upon, there is a large body of literature on coreference resolvers that fundamentally rely on scoring span pairs (Ng and Cardie, 2002; Bengtson and Roth, 2008; Denis and Baldridge, 2008; Fernandes et al., 2012; Durrett and Klein, 2013; Wiseman et al., 2015; Clark and Manning, 2016a) .
+
+[BOS] Motivated by structural consistency issues discussed above, significant effort has also been devoted towards cluster-level modeling.
+[BOS] Since global features are notoriously difficult to define (Wiseman et al., 2016) , they often depend heavily on existing pairwise features or architectures (Bjrkelund and Kuhn, 2014; Manning, 2015, 2016b) .
+[BOS] We similarly use an existing pairwise span-ranking architecture as a building block for modeling more complex structures.
+[BOS] In contrast to Wiseman et al. (2016) who use highly expressive recurrent neural networks to model clusters, we show that the addition of a relatively lightweight gating mechanism is sufficient to effectively model higher-order structures.
+

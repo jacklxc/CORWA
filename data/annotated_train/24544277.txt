@@ -1,0 +1,7 @@
+[BOS] Techniques for analyzing neural network models include visualization of hidden units (Elman, 1991; Karpathy et al., 2015; Kdr et al., 2016; Qian et al., 2016a) , which provide illuminating, but often anecdotal information on how the network works.
+[BOS] A number of studies aim to obtain quantitative correlations between parts of the neural network and linguistic properties, in both speech (Wang et al., 2017; Wu and King, 2016; Table 6 : POS and SEM tagging accuracy with features from different layers of 2/3/4-layer encoders, averaged over all non-English target languages.
+
+[BOS] ishahi et al., 2017) and language processing models (Khn, 2015; Qian et al., 2016a,b; Adi et al., 2016; Linzen et al., 2016) .
+[BOS] Methodologically, our work is most similar to Shi et al. (2016) and , who also used hidden vectors from neural MT models to predict linguistic properties.
+[BOS] However, they focused on relatively lowlevel tasks (syntax and morphology, respectively), while we apply the approach to a semantic task and compare the results with a POS tagging task.
+

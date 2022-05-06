@@ -1,0 +1,21 @@
+[BOS] Entity-based models.
+[BOS] Ji et al. (2017) presented a generative model for jointly predicting the next word in the text and its gold-standard coreference annotation.
+[BOS] The difference in our work is that we look at the task of reading comprehension, and also work in the more practical setting of system extracted coreferences.
+[BOS] EntNets (Henaff et al., 2016 ) also maintain dynamic memory slots for entities, but do not use coreference signals and instead update all memories after reading each sentence, which leads to poor performance in the low-data regime (c.f.
+[BOS] Table 1) .
+[BOS] Yang et al. (2017) model references in text as explicit latent variables, but limit their work to text generation.
+[BOS] Kobayashi et al. (2016) used a pooling operation to aggregate entity information across multiple mentions.
+[BOS] also noted the importance of reference resolution for reading comprehension, and we compare our model to their one-hot pointer reader.
+
+[BOS] Syntactic-recency.
+[BOS] Recent work has used syntax, in the form of dependency trees, to replace the sequential recency bias in RNNs with a syntactic recency bias (Tai et al., 2015; Swayamdipta, 2017; Qian et al., 2017; .
+[BOS] However, syntax only looks at dependencies within sentence boundaries, whereas our focus here is on longer ranges.
+[BOS] Our resulting layer is structurally similar to GraphLSTMs (Peng et al., 2017) , with an additional attention mechanism over the graph edges.
+[BOS] However, while Peng et al. (2017) found that using coreference did not lead to any gains for the task of relation extraction, here we show that it has a positive impact on the reading comprehension task.
+[BOS] Self-Attention (Vaswani et al., 2017) models are becoming popular for modeling long-term dependencies, and may also benefit from coreference information to bias the learning of those dependencies.
+[BOS] Here we focus on recurrent layers and leave such an analysis to future work.
+
+[BOS] Part of this work was described in an unpub- lished preprint (Dhingra et al., 2017b) .
+[BOS] The current paper extends that version and focuses exclusively on coreference relations.
+[BOS] We also report results on the WikiHop dataset, including the performance of the model in the low-data regime.
+

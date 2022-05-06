@@ -1,0 +1,61 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 211 216	[BOS]
+T3	Transition 483 488	[BOS]
+T4	Transition 651 656	[BOS]
+T5	Narrative_cite 791 796	[BOS]
+T6	Transition 950 955	[BOS]
+T7	Reflection 1151 1156	[BOS]
+T8	Reflection 1269 1274	[BOS]
+T9	Narrative_cite 1417 1422	[BOS]
+T10	Narrative_cite 1509 1514	[BOS]
+T11	Multi_summ 1808 1813	[BOS]
+T12	Single_summ 1991 1996	[BOS]
+T13	Single_summ 2171 2176	[BOS]
+T14	Transition 2528 2533	[BOS]
+T15	Single_summ 2614 2619	[BOS]
+T16	Single_summ 2779 2784	[BOS]
+T17	Single_summ 2995 3000	[BOS]
+T18	Reference 437 457	(Lample et al., 2017
+T19	Reference 459 480	Artetxe et al., 2017)
+T20	Reference 924 946	(Johnson et al., 2017)
+T21	Reference 1309 1326	Xie et al. (2018)
+T22	Reference 1489 1505	Ge et al. (2018)
+T23	Reference 1679 1699	(Bowman et al., 2015
+T24	Reference 1701 1716	Hu et al., 2017
+T25	Reference 1718 1736	Shen et al., 2017)
+T26	Dominant 1814 1830	Hu et al. (2017)
+T27	Reference 1877 1903	(Kingma and Welling, 2014)
+T28	Dominant 1911 1929	Shen et al. (2017)
+T29	Dominant 1997 2015	Yang et al. (2018)
+T31	Dominant 2620 2636	Li et al. (2018)
+T32	Pronoun 489 494	These
+T33	Pronoun 657 661	They
+T34	Pronoun 1836 1841	their
+T35	Pronoun 2088 2092	they
+T36	Pronoun 2453 2457	they
+T37	Pronoun 2785 2790	Their
+T38	Pronoun 3007 3011	they
+T39	Pronoun 3066 3070	this
+T40	B_span 344 351	machine
+T41	E_span 475 479	2017
+T42	B_span 1288 1295	noising
+T43	E_span 1405 1415	embeddings
+T44	B_span 1446 1451	noise
+T45	E_span 1500 1504	2018
+T46	B_span 1636 1644	encoding
+T47	E_span 1731 1735	2017
+T48	B_span 1814 1816	Hu
+T49	E_span 1898 1902	2014
+T50	B_span 1852 1863	variational
+T51	E_span 1898 1902	2014
+T52	B_span 1911 1915	Shen
+T53	E_span 1978 1989	autoencoder
+T54	B_span 1997 2001	Yang
+T55	E_span 2160 2169	generator
+T30	Dominant 2242 2266	Prabhumoye et al. (2018)
+T56	B_span 2242 2252	Prabhumoye
+T57	E_span 2520 2525	style
+T58	B_span 2620 2622	Li
+T59	E_span 3190 3197	phrases
+T60	B_span 839 843	zero
+T61	E_span 945 946	)

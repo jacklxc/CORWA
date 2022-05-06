@@ -1,0 +1,34 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 250 255	[BOS]
+T3	Narrative_cite 358 363	[BOS]
+T4	Narrative_cite 534 539	[BOS]
+T5	Single_summ 788 793	[BOS]
+T6	Narrative_cite 999 1004	[BOS]
+T7	Reference 80 102	(Hermann et al., 2015)
+T8	Reference 133 152	(Hill et al., 2016)
+T9	Reference 438 462	(Rajpurkar et al., 2016)
+T10	Reference 472 496	(Trischler et al., 2017)
+T11	Reference 509 530	(Nguyen et al., 2016)
+T12	Reference 592 617	(Richardson et al., 2013)
+T13	Reference 630 649	(Dang et al., 2007)
+T14	Dominant 836 851	Ferrucci (2012)
+T15	Reference 1068 1099	(Andrenucci and Sneiders, 2005)
+T16	Pronoun 407 412	these
+T17	B_span 58 67	DailyMail
+T18	E_span 97 101	2015
+T19	B_span 110 120	Children's
+T20	E_span 147 151	2016
+T21	B_span 432 437	SQuAD
+T22	E_span 457 461	2016
+T23	B_span 465 471	NewsQA
+T24	E_span 491 495	2017
+T25	B_span 501 508	MsMARCO
+T26	E_span 525 529	2016
+T27	B_span 585 591	MCTest
+T28	E_span 612 616	2013
+T29	B_span 622 626	TREC
+T30	E_span 644 648	2007
+T31	B_span 1029 1037	template
+T32	E_span 1094 1098	2005
+T33	B_span 794 805	Traditional
+T34	E_span 986 997	engineering

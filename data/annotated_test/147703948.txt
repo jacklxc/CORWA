@@ -1,0 +1,10 @@
+[BOS] tactic tags.
+[BOS] The method is as effective as Tree-RNN approaches yet more effective.
+[BOS] Noticeably, all these studies focus on constituent trees.
+
+[BOS] There have been several studies for NMT using dependency syntax.
+[BOS] Hashimoto and Tsuruoka (2017) propose to combine the head information with sequential words together as source encoder inputs, where their input trees are latent dependency graphs.
+[BOS] Recently, there are several studies by using convolutional neural structures to represent source dependency trees, where tree nodes are modeled individually (Chen et al., 2017b; Bastings et al., 2017) .
+[BOS] Wu et al. (2017b) build a syntax enhanced encoder by multiple Bi-RNNs over several different word sequences based on different traversing orders over dependency trees, i.e., the original sequential order and several tree-based orders.
+[BOS] All these methods require certain extra efforts to encode the source dependency syntax over a baseline Seq2Seq NMT.
+

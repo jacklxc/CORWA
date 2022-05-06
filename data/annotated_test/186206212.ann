@@ -1,0 +1,34 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 105 110	[BOS]
+T3	Single_summ 277 282	[BOS]
+T4	Multi_summ 486 491	[BOS]
+T5	Reflection 689 694	[BOS]
+T6	Reflection 854 859	[BOS]
+T7	Narrative_cite 998 1003	[BOS]
+T8	Transition 1231 1236	[BOS]
+T9	Transition 1354 1359	[BOS]
+T10	Transition 1510 1515	[BOS]
+T11	Dominant 130 146	Yu et al. (2018)
+T12	Dominant 283 299	Xu et al. (2019)
+T13	Dominant 492 515	Bogdanova et al. (2017)
+T14	Dominant 520 547	Bogdanova and Foster (2016)
+T15	Reference 726 742	Yu et al. (2018)
+T16	Reference 1066 1088	(Tapaswi et al., 2016)
+T18	B_span 111 116	Using
+T19	E_span 275 276	.
+T20	B_span 283 285	Xu
+T21	E_span 484 485	.
+T22	B_span 492 495	Bog
+T23	E_span 687 688	.
+T24	B_span 711 717	Amazon
+T26	B_span 1058 1063	Movie
+T27	E_span 1087 1088	)
+T28	B_span 1093 1096	SQu
+T29	E_span 1144 1148	2016
+T30	Pronoun 780 784	they
+T31	Pronoun 1237 1241	This
+T32	Pronoun 1334 1339	their
+T33	Pronoun 1516 1520	This
+T34	E_span 799 802	two
+T17	Reference 1100 1122	Rajpurkar et al., 2018
+T25	Reference 1124 1148	Rajpurkar et al., , 2016

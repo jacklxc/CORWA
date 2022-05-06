@@ -1,0 +1,24 @@
+[BOS] Decoding of Ciphered Texts Early work on decipherment was primarily focused on man-made ciphers, such as substitution ciphers.
+[BOS] Most of these approaches are based on EM algorithms which are further adjusted for target decipherment scenarios.
+[BOS] These adjustments are informed by assumptions about ciphers used to produce the data (Knight and Yamada, 1999; Knight et al., 2006; Ravi and Knight, 2011; Pourdamghani and Knight, 2017) .
+[BOS] Besides the commonly used EM algorithm, (Nuhn et al., 2013; Hauer et al., 2014; Kambhatla et al., 2018 ) also tackles substitution decipherment and formulate this problem as a heuristic search procedure, with guidance provided by an external language model (LM) for candidate rescoring.
+[BOS] So far, techniques developed for man-made ciphers have not been shown successful in deciphering archaeological data.
+[BOS] This can be attributed to the inherent complexity associated with processes behind language evolution of related languages.
+
+[BOS] Nonparallel Machine Translation Advancements in distributed representations kindled exciting developments in this field, including translations at both the lexical and the sentence level.
+[BOS] Lexical translation is primarily formulated as alignment of monolingual embedding spaces into a crosslingual representation using adversarial training (Conneau et al., 2017) , VAE (Dou et al., 2018) , CCA (Haghighi et al., 2008; Faruqui and Dyer, 2014) or mutual information (Mukherjee et al., 2018) .
+[BOS] The constructed monolingual embedding spaces are usually of high quality due to the large amount of monolingual data available.
+[BOS] The improved quality of distributed representations has similarly strong impact on non-parallel translation systems that operate at the sentence level (Pourdamghani and Knight, 2017) .
+[BOS] In that case, access to a powerful language model can partially compensate for the lack of explicit parallel supervision.
+[BOS] Unfortunately, these methods cannot be applied to ancient texts due to the scarcity of available data.
+[BOS] (Snyder et al., 2010) were the first to demonstrate the feasibility of automatic decipherment of a dead language using non-parallel data.
+[BOS] The success of their approach can be attributed to cleverly designed Bayesian model that structurally incorporated powerful linguistic constraints.
+[BOS] This includes customized priors for alphabet matching, incorporation of morphological structure, etc.
+[BOS] (Berg-Kirkpatrick and Klein, 2011) proposed an alternative decipherment approach based on a relatively simple model paired with sophisticated inference algorithm.
+[BOS] While their model performed well in a noise-free scenario when matching vocabularies only contain cognates, it has not been shown successful in a full decipherment scenario.
+[BOS] Our approach outperforms these models in both scenarios.
+[BOS] Moreover, we have demonstrated that the same architecture deciphers two distinct ancient languages Ugaritic and Linear B.
+[BOS] The latter result is particularly important given that Linear B is a syllabic language.
+
+[BOS] We expect that the derived vocabulary mapping will have sufficient coverage for lost language cognates.
+

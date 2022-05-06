@@ -1,0 +1,8 @@
+[BOS] The current EE approaches can be mainly classified into statistical methods, pattern-based method and hybrid method (Hogenboom et al., 2016) .
+
+[BOS] Statistical method can be divided into two categories: traditional machine learning algorithm based on feature extraction engineering (Ahn, 2006) , (Ji and Grishman, 2008) , (Liao and Grishman, 2010) , (Reichart and Barzilay, 2012) and neural network algorithm based on automatic feature extraction (Chen et al., 2015) , (Nguyen et al., 2016) , .
+[BOS] The pattern method is usually used in industry because it can achieve higher accuracy, but meanwhile a lower recall.
+[BOS] In order to improve recall, there are two main research directions: build relatively complete pattern library and use a semi-automatic method to build trigger dictionary , (Gu et al., 2016) .
+[BOS] Hybrid event-extraction methods combine statistical methods and pattern-based methods together (Jungermann and Morik, 2008) , (Bjorne et al., 2010) .
+[BOS] To our best knowledge, there is no system that automatically generates labeled data, and extracts document-level events automatically from announcements in Chinese financial field.
+

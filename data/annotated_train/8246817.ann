@@ -1,0 +1,42 @@
+T1	Reflection 0 5	[BOS]
+T2	Transition 116 121	[BOS]
+T3	Single_summ 190 195	[BOS]
+T4	Single_summ 365 370	[BOS]
+T5	Single_summ 551 556	[BOS]
+T6	Transition 746 751	[BOS]
+T7	Single_summ 926 931	[BOS]
+T8	Single_summ 1043 1048	[BOS]
+T9	Transition 1182 1187	[BOS]
+T10	Single_summ 1306 1311	[BOS]
+T11	Single_summ 1474 1479	[BOS]
+T12	Single_summ 1584 1589	[BOS]
+T13	Single_summ 1764 1769	[BOS]
+T14	Dominant 196 220	Sukhbaatar et al. (2015)
+T15	Dominant 383 402	Kumar et al. (2015)
+T16	Dominant 571 590	Xiong et al. (2016)
+T17	Dominant 932 951	Zhang et al. (2016)
+T18	Dominant 1049 1067	Wang et al. (2016)
+T19	Dominant 1312 1338	Kalchbrenner et al. (2014)
+T20	Dominant 1480 1490	Kim (2014)
+T21	Dominant 1590 1607	Yin et al. (2015)
+T22	Dominant 1770 1786	Hu et al. (2015)
+T23	B_span 196 206	Sukhbaatar
+T24	E_span 355 363	networks
+T25	B_span 383 388	Kumar
+T26	E_span 542 549	answers
+T27	B_span 571 576	Xiong
+T28	E_span 735 744	questions
+T29	B_span 932 937	Zhang
+T30	E_span 1032 1041	attention
+T31	B_span 1049 1053	Wang
+T32	E_span 1173 1179	models
+T33	B_span 1312 1324	Kalchbrenner
+T34	E_span 1463 1472	sentences
+T35	B_span 1480 1483	Kim
+T36	E_span 1572 1582	benchmarks
+T37	B_span 1590 1593	Yin
+T38	E_span 1757 1762	tasks
+T39	B_span 1770 1772	Hu
+T40	E_span 1840 1849	sentences
+T41	Pronoun 53 57	they
+T42	Pronoun 91 95	this

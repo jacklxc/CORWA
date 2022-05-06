@@ -1,0 +1,60 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 112 117	[BOS]
+T3	Transition 323 328	[BOS]
+T4	Transition 411 416	[BOS]
+T5	Transition 536 541	[BOS]
+T6	Narrative_cite 645 650	[BOS]
+T7	Transition 1015 1020	[BOS]
+T8	Transition 1122 1127	[BOS]
+T9	Transition 1302 1307	[BOS]
+T10	Transition 1491 1496	[BOS]
+T11	Transition 1513 1518	[BOS]
+T12	Transition 1666 1671	[BOS]
+T13	Transition 1789 1794	[BOS]
+T14	Single_summ 1867 1872	[BOS]
+T15	Reflection 2166 2171	[BOS]
+T16	Reflection 2260 2265	[BOS]
+T17	Reflection 2362 2367	[BOS]
+T18	Reflection 2476 2481	[BOS]
+T19	Reflection 2584 2589	[BOS]
+T20	Reflection 2702 2707	[BOS]
+T21	Reflection 2813 2818	[BOS]
+T22	Other 2952 2957	[BOS]
+T23	Other 3019 3024	[BOS]
+T24	Other 3070 3075	[BOS]
+T25	Transition 3085 3090	[BOS]
+T26	Other 3094 3099	[BOS]
+T27	Other 3153 3158	[BOS]
+T28	Other 3225 3230	[BOS]
+T29	Other 3303 3308	[BOS]
+T30	Other 3369 3374	[BOS]
+T31	Other 3390 3395	[BOS]
+T32	Other 3465 3470	[BOS]
+T33	Reference 750 770	(Sekine et al., 1998
+T34	Reference 772 795	Pailouras et al., 2000)
+T35	Reference 818 837	(Zhang et al., 2003
+T36	Reference 839 850	Zhao, 2004)
+T37	Reference 869 888	(Chieu and Ng, 2002
+T38	Reference 890 910	Bender et al., 2003)
+T39	Reference 941 966	(Isozaki and Kazawa, 2002
+T40	Reference 968 994	Takeuchi and Collier, 2002
+T41	Reference 996 1011	Mayfield, 2003)
+T42	Dominant 1950 1972	(Sproat et al., 2001 )
+T43	Pronoun 417 419	It
+T44	Pronoun 582 584	it
+T45	Pronoun 1707 1712	these
+T46	Pronoun 1767 1772	their
+T47	Pronoun 1795 1799	This
+T48	Pronoun 1815 1817	it
+T49	Pronoun 2433 2437	they
+T50	Pronoun 2823 2827	this
+T51	B_span 736 744	decision
+T52	E_span 790 794	2000
+T53	B_span 798 804	Hidden
+T54	E_span 845 849	2004
+T55	B_span 853 860	maximum
+T56	E_span 905 909	2003
+T57	B_span 917 924	support
+T58	E_span 1006 1010	2003
+T59	B_span 1873 1880	Another
+T60	E_span 2157 2164	address

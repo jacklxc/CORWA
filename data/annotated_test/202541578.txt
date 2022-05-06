@@ -1,0 +1,27 @@
+[BOS] Recent work discusses some of the difficulties of learning neural decoders for text generation (Wiseman et al., 2018; Prabhakaran et al., 2018) .
+[BOS] Conventional seq2seq approaches require large amounts of training data, are hard to control and to constrain to desirable outputs.
+[BOS] At the same time, many NLP tasks that appear to be full-fledged text generation tasks are natural testbeds for simpler methods.
+[BOS] In this section we briefly review some of these tasks.
+
+[BOS] Text Simplification is a paraphrasing task that is known to benefit from modeling edit operations.
+[BOS] A simple instance of this type are sentence compression systems that apply a drop operation at the token/phrase level (Filippova and Strube, 2008; Filippova et al., 2015) , while more intricate systems also apply splitting, reordering, and lexical substitution (Zhu et al., 2010) .
+[BOS] Simplification has also been attempted with systems developed for phrasebased MT (Xu et al., 2016a) , as well as with neural encoder-decoder models (Zhang and Lapata, 2017) .
+
+[BOS] Independent of this work, Dong et al. (2019) recently proposed a text-editing model, similar to ours, for text simplification.
+[BOS] The main differences to our work are: (i) They introduce an interpreter module which acts as a language model for the so-far-realized text, and (ii) they generate added tokens one-by-one from a full vocabulary rather than from an optimized set of frequently added phrases.
+[BOS] The latter allows their model to generate more diverse output, but it may negatively effect the inference time, precision, and the data efficiency of their model.
+[BOS] Another recent model similar to ours is called Levenshtein Transformer Gu et al. (2019) , which does text editing by performing a sequence of deletion and insertion actions.
+
+[BOS] Single-document summarization is a task that requires systems to shorten texts in a meaningpreserving way.
+[BOS] It has been approached with deletion-based methods on the token level (Filippova et al., 2015) and the sentence level (Narayan et al., 2018; Liu, 2019) .
+[BOS] Other papers have used neural encoder-decoder methods (Tan et al., 2017; Rush et al., 2015; Paulus et al., 2017) to do abstractive summarization, which allows edits beyond mere deletion.
+[BOS] This can be motivated by the work of Jing and McKeown (2000) , who identified a small number of fundamental high-level editing operations that are useful for producing summaries (reduction, combination, syntactic transformation, lexical paraphrasing, generalization/specification, and reordering).
+[BOS] See et al. (2017) extended a neural encoder-decoder model with a copy mechanism to allow the model to more easily reproduce input tokens during generation.
+
+[BOS] Out of available summarization datasets (Dernoncourt et al., 2018) , we find the one by Toutanova et al. (2016) particularly interesting because (1) it specifically targets abstractive summarization systems, (2) the lengths of texts in this dataset (short paragraphs) seem well-suited for text editing, and (3) an analysis showed that the dataset covers many different summarization operations.
+
+[BOS] In Grammatical Error Correction (Ng et al., 2013 (Ng et al., , 2014 a system is presented with input texts written usually by a language learner, and is tasked with detecting and fixing grammatical (and other) mistakes.
+[BOS] Approaches to this task often incorporate task-specific knowledge, e.g., by designing classifiers for specific error types (Knight and Chander, 1994; Rozovskaya et al., 2014 ) that can be trained without manually labeled data, or by adapting statistical machine-translation methods (JunczysDowmunt and Grundkiewicz, 2014) .
+[BOS] Methods for the sub-problem of error detection are similar in spirit to sentence compression systems, in that they are implemented as word-based neural sequence labelers (Rei, 2017; .
+[BOS] Neural encoderdecoder methods are also commonly applied to the error correction task (Ge et al., 2018; Chollampatt and Ng, 2018; Zhao et al., 2019) , but suffer from a lack of training data, which is why taskspecific tricks need to be applied (Kasewa et al., 2018; Junczys-Dowmunt et al., 2018) .
+

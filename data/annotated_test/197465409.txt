@@ -1,0 +1,18 @@
+[BOS] The exploration of teacher-student models for semi-supervised learning has produced impressive results for image classification (Tarvainen and Valpola, 2017; Laine and Aila, 2016; Rasmus et al., 2015) .
+[BOS] However, they have not yet been well-studied in the context of natural language processing.
+[BOS] Hu et al. (2016) propose a teacherstudent model for the task of sentiment classification and named entity recognition, where the teacher is derived from a manually specified set of rule-templates that regularizes a neural student, thereby allowing one to combine neural and symbolic systems.
+[BOS] Our MT system is different in that the teacher is a simple running average of the students across different epochs of training, which removes the need of human supervision through rules.
+[BOS] More recently, Nagesh and Surdeanu (2018) applied the MT architecture for the task of semisupervised Named Entity Classification, which is a simpler task compared to our RE task.
+[BOS] Recent works Xu et al., 2015; Su et al., 2018) use neural networks to learn syntactic features for relation extraction via traversing the shortest dependency path.
+[BOS] Following this trend, we adapt such syntax-based neural models to both of our student and teacher classifiers in the MT architecture.
+
+[BOS] Both and Su et al. (2018) use neural networks to encode the words and dependencies along the shortest path between the two entities, and Liu et al. additionally encode the dependency subtrees of the words for additional context.
+[BOS] We include this representation (words and dependencies) in our experiments.
+[BOS] While the inclusion of the subtrees gives Liu et al. a slight performance boost, here we opt to focus only on the varying representations of the dependency path between the entities, without the additional context.
+[BOS] Su et al. (2018) use an LSTM to model the shortest path between the entities, but keep their lexical and syntactic sequences in separate channels (and they have other channels for additional information such as part of speech (POS)).
+[BOS] Rather than maintaining distinct channels for the different representations, here we elect to keep both surface and syntactic forms in the same sequence and instead experiment with different degrees of syntactic representation.
+[BOS] We also do not include other types of information (e.g., POS) here, as it is beyond the scope of the current work.
+
+[BOS] There are several more structured (and more complex) models proposed for relation extraction, e.g., tree-based recurrent neural networks (Socher et al., 2010) and tree LSTMs (Tai et al., 2015) .
+[BOS] Our semi-supervised framework is an orthogonal improvement, and it is flexible enough to potentially incorporate any of these more complex models.
+

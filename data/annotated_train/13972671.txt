@@ -1,0 +1,10 @@
+[BOS] There has been a recent line of work on end-to-end character-based neural models which achieve good results for part-of-speech tagging (dos Santos and Zadrozny, 2014; Ling et al., 2015a) , dependency parsing (Ballesteros et al., 2015) , text classification (Zhang et al., 2015) , speech recognition (Chan et al., 2016; Bahdanau et al., 2016) , and language modeling (Kim et al., 2016; Jozefowicz et al., 2016) .
+[BOS] However, success has not been shown for cross-lingual tasks such as machine translation.
+[BOS] 1 Sennrich et al. (2016) propose to segment words into smaller units and translate just like at the word level, which does not learn to understand relationships among words.
+
+[BOS] Our work takes inspiration from (Luong et al., 2013) and (Li et al., 2015) .
+[BOS] Similar to the former, we build representations for rare words on-the-fly from subword units.
+[BOS] However, we utilize recurrent neural networks with characters as the basic units; whereas Luong et al. (2013) use recursive neural networks with morphemes as units, which requires existence of a morphological analyzer.
+[BOS] In comparison with (Li et al., 2015) , our hybrid architecture is also a hierarchical sequence-to-sequence model, but operates at a different granularity level, word-character.
+[BOS] In contrast, Li et al. (2015) build hierarchical models at the sentence-word level for paragraphs and documents.
+

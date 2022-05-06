@@ -1,0 +1,50 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 151 156	[BOS]
+T3	Transition 332 337	[BOS]
+T4	Narrative_cite 413 418	[BOS]
+T5	Single_summ 606 611	[BOS]
+T6	Single_summ 843 848	[BOS]
+T7	Multi_summ 988 993	[BOS]
+T8	Reflection 1210 1215	[BOS]
+T9	Transition 1357 1362	[BOS]
+T10	Single_summ 1473 1478	[BOS]
+T11	Single_summ 1644 1649	[BOS]
+T12	Transition 1849 1854	[BOS]
+T13	Single_summ 1979 1984	[BOS]
+T14	Single_summ 2188 2193	[BOS]
+T15	Single_summ 2260 2265	[BOS]
+T16	Reference 297 310	(Kaplan, 1979
+T17	Reference 312 329	Di Eugenio, 1987)
+T18	Reference 518 535	(Carbonell, 1983)
+T19	Reference 562 586	Allen and Perrault, 1980
+T20	Reference 588 603	Carberry, 1990)
+T21	Dominant 612 640	Raskutti and Zukerman (1997)
+T22	Dominant 1176 1207	Haller, Kobsa, and McRoy, 1999)
+T24	Reference 1226 1254	Chu-Carroll and Brown (1999)
+T25	Dominant 1617 1642	(Smith and Gordon, 1997 )
+T28	Dominant 2266 2292	Donaldson and Cohen (1997)
+T29	B_span 612 620	Raskutti
+T30	E_span 979 985	system
+T23	B_span 1479 1490	Preliminary
+T31	E_span 1636 1640	1997
+T26	Reference 2070 2100	Jordan and Di Eugenio's (1997)
+T27	B_span 2266 2275	Donaldson
+T32	E_span 2437 2442	needs
+T33	B_span 157 162	Early
+T34	E_span 324 328	1987
+T35	B_span 540 548	inferred
+T36	E_span 598 602	1990
+T37	B_span 498 507	preceding
+T38	E_span 530 534	1983
+T39	B_span 994 1002	Research
+T40	E_span 1202 1206	1999
+T41	B_span 1226 1229	Chu
+T42	E_span 1249 1253	1999
+T45	B_span 1650 1652	In
+T46	E_span 1835 1846	constrained
+T47	Dominant 1653 1658	COMIX
+T43	B_span 1985 1993	Previous
+T44	E_span 2249 2258	responses
+T48	Pronoun 849 854	Their
+T49	Pronoun 1366 1370	this
+T50	Pronoun 2203 2207	they

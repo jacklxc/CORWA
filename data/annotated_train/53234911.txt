@@ -1,0 +1,14 @@
+[BOS] Emotion prediction is related to the task of sentiment analysis.
+[BOS] The best performance in sentiment analysis has been attained using supervised techniques as outlined in a survey by Medhat et al. (2014) .
+[BOS] Recent breakthroughs in deep learning have shown strong results in sentence classification (Joulin et al., 2016) , language modeling (Dauphin et al., 2016) and sentence embedding (Peters et al., 2018) .
+[BOS] Our emotion prediction model is also based on deep learning techniques.
+[BOS] Recently, fastText (Joulin et al., 2016) has been proposed for generating word representations which have shown state-of-the-art performance on a number of text related tasks.
+[BOS] Our model makes use of a fastText model for emotion classification.
+[BOS] Chen et al. (2018) introduce an emotion corpus based on conversations taken from Friends TV scripts and propose a similar emotion classification model using a CNN-BiLSTM.
+[BOS] Our model is similar to the model proposed by (Chen et al., 2018 ), but we use a pre-trained ELMo instead of a BiLSTM.
+
+[BOS] Mohammad (2018) have proposed a VAD lexicon for emotion detection systems.
+[BOS] We use VAD features together with ELMo (Peters et al., 2018) .
+[BOS] Recently, the ELMo model has been shown to boost performance on a number of Natural Language Processing (NLP) tasks.
+[BOS] To the best of our knowledge, we are the first to make use of VAD features in a deep learning setting for emotion prediction.
+

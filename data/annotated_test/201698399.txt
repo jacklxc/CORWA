@@ -1,0 +1,13 @@
+[BOS] Semantic parsing models can be trained to produce gold logical forms using an encoder-decoder approach (Suhr et al., 2018) or by filling templates (Xu et al., 2017; Peng et al., 2017; .
+[BOS] When gold logical forms are not available, they are typically treated as latent variables or hidden states and the answers or denotations are used to search for correct logical forms (Yih et al., 2015; Long et al., 2016; Iyyer et al., 2017) .
+[BOS] In some cases, feedback from query execution is used as a reward signal for updating the model through reinforcement learning (Zhong et al., 2017; Agarwal et al., 2019) or for refining parts of the query (Wang et al., 2018) .
+[BOS] In our work, we do not use logical forms or RL, which can be hard to train, but simplify the training process by directly matching questions to table cells.
+
+[BOS] Most of the QA and semantic parsing research focuses on single turn questions.
+[BOS] We are interested in handling multiple turns and therefore in modeling context.
+[BOS] In semantic parsing tasks, logical forms (Iyyer et al., 2017; Sun et al., 2018b; Guo et al., 2018) or SQL statements (Suhr et al., 2018) from previous questions are refined to handle follow up questions.
+[BOS] In our model, we encode answers to previous questions by marking answer rows, columns and cells in the table, in a nonautoregressive fashion.
+
+[BOS] In regards to how structured data is represented, methods range from encoding table information, metadata and/or content, (Gur et al., 2018; Sun et al., 2018b; Petrovski et al., 2018) to encoding relations between the question and table items (Krishnamurthy et al., 2017) or KB entities (Sun et al., 2018a) .
+[BOS] We also encode the table structure and the question in an annotation graph, but use a different modelling approach.
+

@@ -1,0 +1,60 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 133 138	[BOS]
+T3	Transition 381 386	[BOS]
+T4	Narrative_cite 531 536	[BOS]
+T5	Single_summ 759 764	[BOS]
+T6	Multi_summ 955 960	[BOS]
+T7	Single_summ 1220 1225	[BOS]
+T8	Transition 1446 1451	[BOS]
+T9	Single_summ 1531 1536	[BOS]
+T10	Single_summ 1668 1673	[BOS]
+T11	Narrative_cite 1891 1896	[BOS]
+T12	Single_summ 2058 2063	[BOS]
+T13	Single_summ 2311 2316	[BOS]
+T14	B_span 6 15	Automatic
+T15	E_span 125 129	1998
+T16	Reference 81 102	Reiter and Dale, 1997
+T17	Reference 104 129	Tanaka-Ishii et al., 1998
+T18	B_span 206 211	sport
+T19	E_span 278 282	2009
+T20	B_span 286 293	weather
+T21	E_span 330 334	2005
+T22	B_span 340 346	recipe
+T23	E_span 372 376	2016
+T24	Reference 237 262	Barzilay and Lapata, 2005
+T25	Reference 264 282	Liang et al., 2009
+T26	Reference 315 334	Reiter et al., 2005
+T27	Reference 359 376	Yang et al., 2016
+T28	Reference 736 755	McKeown, 2001, 2003
+T29	B_span 600 613	automatically
+T30	E_span 751 755	2003
+T31	Dominant 768 795	(Barzilay and Lapata, 2005)
+T32	B_span 765 767	In
+T33	E_span 948 953	items
+T34	Dominant 986 1005	Stent et al. (2004)
+T35	B_span 965 972	surface
+T36	E_span 1122 1124	it
+T37	B_span 1126 1132	Reiter
+T38	E_span 1213 1218	rules
+T39	Dominant 1126 1146	Reiter et al. (2005)
+T40	Dominant 1226 1246	Angeli et al. (2010)
+T41	B_span 1226 1232	Angeli
+T42	E_span 1436 1443	content
+T43	Dominant 1537 1562	Konstas and Lapata (2012)
+T44	B_span 1537 1544	Konstas
+T45	E_span 1655 1666	realization
+T46	Dominant 1674 1691	Mei et al. (2015)
+T47	B_span 1674 1677	Mei
+T48	E_span 1882 1889	summary
+T49	B_span 1925 1932	encoder
+T50	E_span 2050 2054	2016
+T51	Reference 1997 2014	Yang et al., 2016
+T52	Reference 2016 2031	Gu et al., 2016
+T53	Reference 2033 2054	Gulcehre et al., 2016
+T54	Dominant 2064 2085	Wiseman et al. (2017)
+T55	E_span 2299 2309	evaluation
+T56	Reference 2327 2347	Wiseman et al., 2017
+T57	Dominant 2351 2375	Puduppully et al. (2019)
+T58	B_span 2317 2322	Based
+T61	E_span 2511 2518	dataset
+T62	B_span 2064 2071	Wiseman

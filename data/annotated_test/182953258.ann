@@ -1,0 +1,51 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 698 703	[BOS]
+T3	Transition 780 785	[BOS]
+T4	Narrative_cite 909 914	[BOS]
+T5	Reference 137 157	Mikolov et al., 2013
+T6	Reference 159 182	Pennington et al., 2014
+T7	Reference 184 204	Peters et al., 2018)
+T8	Reference 224 242	Kiros et al., 2015
+T9	Reference 244 264	Conneau et al., 2017
+T10	Reference 266 290	Subramanian et al., 2018
+T11	Reference 292 309	Cer et al., 2018)
+T12	Reference 345 365	Le and Mikolov, 2014
+T13	Reference 367 383	Dai et al., 2015
+T14	Reference 385 403	Iyyer et al., 2015
+T15	Reference 405 420	Li et al., 2015
+T16	Reference 422 432	Chen, 2017
+T17	Reference 434 453	Zhang et al., 2017)
+T18	Reference 590 607	(Shi et al., 2016
+T19	Reference 609 625	Adi et al., 2017
+T20	Reference 627 651	Belinkov et al., 2017a,b
+T21	Reference 653 673	Conneau et al., 2018
+T22	Reference 675 695	Tenney et al., 2019)
+T23	Reference 1006 1026	(Kiros et al., 2015)
+T24	Reference 1042 1068	(Wieting and Gimpel, 2017)
+T25	Reference 1082 1104	(Conneau et al., 2017)
+T26	Reference 1127 1148	(McCann et al., 2017)
+T27	Reference 1161 1182	(Jernite et al., 2017
+T28	Reference 1184 1201	Nie et al., 2017)
+T29	Reference 1226 1246	(Peters et al., 2018
+T30	Reference 1248 1268	Radford et al., 2018
+T31	Reference 1270 1290	Devlin et al., 2018)
+T32	B_span 69 78	obtaining
+T33	E_span 199 203	2018
+T34	B_span 207 216	sentences
+T35	E_span 304 308	2018
+T36	B_span 316 322	larger
+T37	E_span 448 452	2017
+T38	B_span 519 533	classification
+T39	E_span 690 694	2019
+T40	B_span 974 985	surrounding
+T41	E_span 1021 1025	2015
+T42	B_span 1029 1041	paraphrasing
+T43	E_span 1063 1067	2017
+T44	B_span 1071 1081	entailment
+T45	E_span 1099 1103	2017
+T46	B_span 1107 1114	machine
+T47	E_span 1143 1147	2017
+T48	B_span 1151 1160	discourse
+T49	E_span 1196 1200	2017
+T50	B_span 1208 1216	language
+T51	E_span 1285 1289	2018

@@ -1,0 +1,79 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 197 202	[BOS]
+T3	Transition 349 354	[BOS]
+T4	Narrative_cite 502 507	[BOS]
+T5	Transition 793 798	[BOS]
+T6	Transition 928 933	[BOS]
+T7	Narrative_cite 986 991	[BOS]
+T8	Narrative_cite 1163 1168	[BOS]
+T9	Transition 1403 1408	[BOS]
+T10	Narrative_cite 1526 1531	[BOS]
+T11	Narrative_cite 1610 1615	[BOS]
+T12	Narrative_cite 1752 1757	[BOS]
+T13	Narrative_cite 1979 1984	[BOS]
+T14	Transition 2284 2289	[BOS]
+T15	Transition 2400 2405	[BOS]
+T16	Narrative_cite 2626 2631	[BOS]
+T17	Narrative_cite 2734 2739	[BOS]
+T18	B_span 75 82	machine
+T19	E_span 114 118	2014
+T20	Reference 96 118	Sutskever et al., 2014
+T21	B_span 122 135	summarization
+T22	E_span 149 153	2017
+T23	Reference 137 153	See et al., 2017
+T24	B_span 159 164	image
+T25	E_span 189 193	2016
+T26	Reference 177 193	You et al., 2016
+T27	B_span 559 563	CNNs
+T28	Reference 580 601	Rajeswar et al., 2017
+T29	E_span 597 601	2017
+T30	B_span 662 668	SeqGAN
+T31	E_span 681 685	2017
+T32	Reference 670 685	Yu et al., 2017
+T33	B_span 689 696	LeakGAN
+T34	E_span 710 714	2018
+T35	Reference 698 714	Guo et al., 2018
+T36	B_span 754 760	Gumbel
+T37	E_span 784 788	2016
+T38	Reference 771 788	Jang et al., 2016
+T39	B_span 1080 1087	machine
+T40	E_span 1115 1119	2015
+T41	Reference 1101 1119	Luong et al., 2015
+T42	B_span 1125 1137	paraphrasing
+T43	E_span 1155 1159	2016
+T44	Reference 1139 1159	Prakash et al., 2016
+T45	B_span 1169 1180	Variational
+T46	E_span 1257 1261	2013
+T47	Reference 1237 1261	Kingma and Welling, 2013
+T48	B_span 1570 1574	text
+T49	E_span 1602 1606	2016
+T50	Reference 1587 1606	Bowman et al., 2016
+T51	B_span 1616 1627	Conditional
+T52	E_span 1655 1659	2014
+T53	Reference 1640 1659	Kingma et al., 2014
+T54	B_span 1758 1762	CVAE
+T55	E_span 1832 1836	2018
+T56	Reference 1777 1796	Serban et al., 2017
+T57	Reference 1798 1816	Shen et al., 2017;
+T58	Reference 1817 1836	Zhou and Wang, 2018
+T59	B_span 2086 2094	sequence
+T60	E_span 2128 2132	2015
+T61	Reference 2114 2132	Luong et al., 2015
+T62	B_span 2138 2148	generative
+T63	E_span 2172 2176	2016
+T64	Reference 2157 2176	Bowman et al., 2016
+T65	B_span 2230 2234	data
+T66	E_span 2276 2280	2018
+T67	Reference 2247 2263	Yan et al., 2015
+T68	Reference 2265 2280	Hu et al., 2018
+T69	B_span 2674 2683	encourage
+T70	E_span 2726 2730	2011
+T71	Reference 2706 2730	Shima and Mitamura, 2011
+T72	B_span 2826 2836	similarity
+T73	E_span 2892 2896	2002
+T74	Reference 2875 2897	Papineni et al., 2002)
+T75	B_span 2921 2925	held
+T76	Reference 2935 2955	Prakash et al., 2016
+T77	Reference 2957 2978	Rajeswar et al., 2017
+T78	Reference 2980 2995	Yu et al., 2017
+T79	E_span 2991 2995	2017

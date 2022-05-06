@@ -1,0 +1,41 @@
+[BOS] The proposed content transfer task is clearly related to a long series of papers in summarization, including recent work with neural techniques (Rush et al., 2015; Nallapati et al., 2016) .
+[BOS] In particular, one recent paper casts the the task of generating an entire Wikipedia article as a multidocument summarization problem (Liu et al., 2018) .
+[BOS] Their best-performing configuration was a two-stage extractive-abstractive framework; a multi-stage approach helped circumvent the diffiDocument (News Article) anne kirkbride, who portrayed bespectacled, gravelly-voiced deirdre barlow in coronation street for more that four decades, has died.
+[BOS] the 60-year-old, whose first appearance in the soap opera was in 1972, died in a manchester hospital after a short illness.... kirkbride had left the soap opera after she was diagnosed with non-hodgkin's lymphoma in 1993 but returned some months later after treatment and spoke candidly about how she had struggled with depression following the diagnosis... Curated Text (Wikipedia Context) in 1993, kirkbride was diagnosis with non-hodgkin's lymphoma.
+[BOS] she spoke to the british press about her bout of depression following the diagnosis.
+[BOS] she was cured within a year of being diagnosed.
+
+[BOS] Reference Update anne kirkbride died of breast cancer in a manchester hospital on 19 january 2015, aged 60.
+[BOS] Generated Update she was diagnosed with non-hodgkin's lymphoma.
+[BOS] culties of purely abstractive methods given quite large input token sequences.
+
+[BOS] Looking beyond the clear task similarity of authoring Wikipedia style content, there are several crucial differences in our approach.
+[BOS] First, the goal of that paper is to author the whole page, starting from nothing more than a set of primary sources, such as news articles.
+[BOS] In practice, however, Wikipedia articles often contain information outside these primary sources, including common sense knowledge, framing statements to set the article in context, and inferences made from those primary sources.
+[BOS] Our task restricts the focus to content where a human editor explicitly decided to cite some external source.
+[BOS] Hence, it is much more likely that the resulting summary can be derived from the external source content.
+[BOS] Furthermore, we focus on the act of adding information to existing articles, rather than writing a complete article without any context.
+[BOS] These two scenarios are clearly useful yet complementary: sometimes people want to produce a new reference text where nothing existed before; in other cases the goal is to maintain and update an existing reference.
+
+[BOS] Another closely related task is update summarization (Dang and Owczarzak, 2008) , where systems attempt to provide a brief summary of the novel information in a new article assuming the user has read a known set of prior documents.
+[BOS] Our focus on curating an authoritative resource on march 9, 2014, manning signed a one-year contract with the cincinnati bengals.
+[BOS] 4. on oct 10, 2013, barrett signed with the memphis grizzlies.
+[BOS] on feb 9, 2013, barrett signed with the memphis grizzlies.
+[BOS] 5. some people think elvis is still alive, but most of us think he's dead and gone."
+[BOS] some people think elvis, but most of us think he's dead and gone."
+[BOS] 6. it's always the goal of the foreign-language film award executive committee to be as inclusive as possible."
+
+[BOS] it's always the goal of the foreign-entry film award executive to be as possible."
+[BOS] Table 5 : Example generations from the CIG system, paired with the human generated updates.
+
+[BOS] is a substantial difference.
+[BOS] Also our datasets are substantially larger, enabling generative models to be used in this space, where prior update summarization techniques have been primarily extractive (Fisher and Roark, 2008; Li et al., 2015) .
+[BOS] For any generation task, it is important to address both the content ('what' is being said) as well its style ('how' it is being said).
+[BOS] Recently, a great deal of research has focused on the 'how' (Li et al., 2018; Shen et al., 2017) , including efforts to collect a parallel dataset that differs in formality (Rao and Tetreault, 2018) , to control author characteristics in the generated sentences (Prabhumoye et al., 2018) , to control the perceived personality traits of dialog responses (Zhang et al., 2018) .
+[BOS] We believe this research thread is complementary to our efforts on generating the 'what'.
+
+[BOS] Another form of content transfer bridges across modalities: text generation given schematized or semi-structured information.
+[BOS] Recent research has addressed neural natural language generation techniques given a range of structured sources: selecting relevant database records and generating natural language descriptions of them (Mei et al., 2016) , selecting and describing slot-value pairs for task-specific dialog response generation (Wen et al., 2015) , and even generating Wikipedia biography abstracts given Infobox information (Lebret et al., 2016) .
+[BOS] Our task, while grounded in external content, is different in that it leverages linguistic grounding as well as prior text context when generating text.
+[BOS] This challenging setting enables a huge range of grounded generation tasks: there are vast amounts of unstructured textual data.
+

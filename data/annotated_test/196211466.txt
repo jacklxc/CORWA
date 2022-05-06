@@ -1,0 +1,23 @@
+[BOS] Along with the flourishing development of neural networks, the sequence-to-sequence framework has been widely used for conversation response generation (Shang et al., 2015; Sordoni et al., 2015) where the mapping from a query x to a reply y is learned with the negative log likelihood.
+[BOS] However, these models suffer from the "safe" response problem.
+[BOS] To address this problem, various methods have been proposed.
+[BOS] Li et al. (2016a) propose a diversity-promoting objective function to encourage diverse responses during decoding.
+[BOS] Zhou et al. ( , 2018a introduce a responding mechanism between the encoder and decoder to generate various responses.
+[BOS] incorporate topic information to generate informative responses.
+[BOS] However, these models suffer from the deterministic structure when generating multiple diverse responses.
+[BOS] Besides, during the training of these models, response utterances are only used in the loss function and ignored when forward computing, which can confuse the model for pursuing multiple objectives simultaneously.
+
+[BOS] A few works explore to change the deterministic structure of sequence-to-sequence models by introducing stochastic latent variables.
+[BOS] VAE is one of the most popular methods (Bowman et al., 2016; Serban et al., 2017; Cao and Clark, 2017 ), where the discourse-level diversity is modeled by a Gaussian distribution.
+[BOS] However, it is observed that in the CVAE with a fixed Gaussian prior, the learned conditional posteriors tend to collapse to a single mode, resulting in a relatively simple scope (Wang et al., 2017) .
+[BOS] To tackle this, WAE (Gu et al., 2018) which adopts a Gaussian mixture prior network with Wasserstein distance and VAD (Du et al., 2018) which sequentially introduces a series of latent variables to condition each word in the response sequence are proposed.
+[BOS] Although these models overcome the deterministic structure of sequence-to-sequence model, they still ignore the correlation of multiple valid responses and each case is trained separately.
+
+[BOS] To consider the multiple responses jointly, the maximum likelihood strategy is explored.
+[BOS] Zhang et al. (2018a) propose the maximum generated likelihood criteria which model a query with its multiple responses as a bag of instances and proposes to optimize the model towards the most likely answer rather than all possible responses.
+[BOS] Similarly, Rajendran et al. (2018) propose to reward the dialogue system if any valid answer is produced in the reinforcement learning phase.
+[BOS] Though considering multiple responses jointly, the maximum likelihood strategy fails to utilize all the references during training with some cases ig- Figure 2 : The overall architecture of our proposed dialogue system where the two generation steps and testing process are illustrated.
+[BOS] Given an input query x, the model aims to approximate the multiple responses in a bag {y} simultaneously with the continuous common and distinctive features, i.e., the latent variables c and z obtained from the two generation phases respectively.
+[BOS] nored.
+[BOS] In our approach, we consider multiple responses jointly and model each specific response separately by a two-step generation architecture.
+

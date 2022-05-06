@@ -1,0 +1,5 @@
+[BOS] Recent research in CLIR and query-based summarization uses expansive, concept-based definitions of relevance.
+[BOS] For example, given the query agriculture, documents are relevant if they describe fields, pastures, or crops, even if the word agriculture is not used, and the goal of summarization is to show that the document as a whole is relevant.
+[BOS] In contrast, in this work we aim to retrieve documents that meet a more precise notion of relevance, similar to that used for keyword spotting.
+[BOS] This goal influences our retrieval approach, which seeks to account for variation in translation but does not perform more expansive embedding-based query expansion, and the summarization approach, which presents in-context search term matches rather than a narrative summary of the document as a whole.
+

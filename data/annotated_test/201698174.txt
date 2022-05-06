@@ -1,0 +1,13 @@
+[BOS] Conditional Random Fields (CRF) were originally introduced by Sha and Pereira (2003) to overcome label bias, a shortcoming of locally normalized observation models.
+[BOS] They have been applied and integrated into neural-network architectures (Ma and Hovy, 2016; Huang et al., 2017) in various sequence labeling tasks (Goldman and Goldberger, 2017) where the observation space exhibits small cardinality (typically tens to hundreds).
+
+[BOS] The importance of global normalization for sequence generation has only lately been emphasized, most notably by Wiseman and Rush (2016) for conditional generation in a learning-as-searchoptimization framework and by (Andor et al., 2016) for parsing.
+
+[BOS] Word-embeddings have been reported as excellent dense representations of sparse co-occurrence statistics within several learning frameworks (Mikolov et al., 2013; Pennington et al., 2014) .
+[BOS] Using embeddings in pairwise potentials has been proposed by Goldman and Goldberger (2017) , but they do not compute the true log-likelihood during training as we do.
+[BOS] Similar techniques have been applied for various message passing schemata (Kim et al., 2017; Domke, 2013) .
+
+[BOS] Local correlations such as our pairwise potentials have been used by (Noraset et al., 2018 ), yet as an auxiliary loss and not for model design.
+
+[BOS] Other approaches to tackle teacher-forcing have been proposed in an adversarial setting (Goyal et al., 2016) , in search based optimization (Leblond et al., 2018) and in a reinforcement learning setting (Rennie et al., 2016) .
+

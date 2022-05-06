@@ -1,0 +1,22 @@
+[BOS] One important feature of our work is the use of byte inputs.
+[BOS] Character-level inputs have been used with some success for tasks like NER (Klein et al., 2003) , parallel text alignment (Church, 1993) , and authorship attribution (Peng et al., 2003) as an effective way to deal with n-gram sparsity while still capturing some aspects of word choice and morphology.
+[BOS] Such approaches often combine character and word features and have been especially useful for handling languages with large character sets (Nakagawa, 2004) .
+[BOS] However, there is almost no work that explicitly uses bytes -one exception uses byte n-grams to identify source code authorship (Frantzeskou et al., 2006 ) -but there is nothing, to the best of our knowledge, that exploits bytes as a cross-lingual representation of language.
+[BOS] Work on multilingual parsing using Neural Networks that share some subset of the parameters across languages (Duong et al., 2015) seems to benefit the low-resource languages; however, we are sharing all the parameters among all languages.
+
+[BOS] Recent work has shown that modeling the sequence of characters in each token with an LSTM can more effectively handle rare and unknown words than independent word embeddings (Ling et al., 2015; Ballesteros et al., 2015) .
+[BOS] Similarly, language modeling, especially for morphologically complex languages, benefits from a Convolutional Neural Network (CNN) over characters to generate word embeddings (Kim et al., 2015) .
+[BOS] Rather than decompose words into characters, Rohan and Denero (2015) encode rare words with Huffman codes, allowing a neural translation model to learn something about word subcomponents.
+[BOS] In contrast to this line of research, our work has no explicit notion of tokens and operates on bytes rather than characters.
+
+[BOS] Our work is philosophically similar to Collobert et al. 's (2011) experiments with "almost from scratch" language processing.
+[BOS] They avoid taskspecific feature engineering, instead relying on a multilayer feedforward (or convolutional) Neural Network to combine word embeddings to produce features useful for each task.
+[BOS] In the Results section, below, we compare NER performance on the same dataset they used.
+[BOS] The "almost" in the title actually refers to the use of preprocessed (lowercased) tokens as input instead of raw sequences of letters.
+[BOS] Our byte-level models can be seen as a realization of their comment: "A completely from scratch approach would presumably not know anything about words at all and would work from letters only."
+[BOS] Recent work with convolutional neural networks that read character-level inputs (Zhang et al., 2015) shows some interesting results on a variety of classification tasks, but because their models need very large training sets, they do not present comparisons to established baselines on standard tasks.
+
+[BOS] Finally, recent work on Automatic Speech Recognition (ASR) uses a similar sequence-to-sequence LSTM framework to produce letter sequences directly from acoustic frame sequences (Chan et al., 2015; Bahdanau et al., 2015) .
+[BOS] Just as we are discarding the usual intermediate representations used for text processing, their models make no use of phonetic alignments, clustered triphones, or pronunciation dictionaries.
+[BOS] This line of work -discarding intermediate representations in speech -was pioneered by Graves and Jaitly (2014) and earlier, by Eyben et al. (2009) .
+

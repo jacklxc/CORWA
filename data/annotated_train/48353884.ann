@@ -1,0 +1,74 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 99 104	[BOS]
+T3	Narrative_cite 300 305	[BOS]
+T4	Single_summ 442 447	[BOS]
+T5	Single_summ 596 601	[BOS]
+T6	Narrative_cite 723 728	[BOS]
+T7	Narrative_cite 1063 1068	[BOS]
+T8	Transition 1392 1397	[BOS]
+T9	Single_summ 1542 1547	[BOS]
+T10	Narrative_cite 1680 1685	[BOS]
+T11	Narrative_cite 1821 1826	[BOS]
+T12	Single_summ 2016 2021	[BOS]
+T13	Reflection 2133 2138	[BOS]
+T14	Reflection 2232 2237	[BOS]
+T15	Reflection 2398 2403	[BOS]
+T16	Narrative_cite 2497 2502	[BOS]
+T17	Reference 180 204	(Chen and Manning, 2014)
+T18	Reference 230 248	(Dyer et al., 2016
+T19	Reference 250 271	Cross and Huang, 2016
+T20	Reference 273 297	Coavoux and Crabb, 2016)
+T21	Reference 415 439	(Chen and Manning, 2014)
+T22	Dominant 448 469	Vinyals et al. (2015)
+T23	Reference 824 848	(Chen and Manning, 2014)
+T24	Reference 893 911	(Dyer et al., 2016
+T25	Reference 913 934	Liu and Zhang, 2017b)
+T26	Reference 947 964	(Zhu et al., 2013
+T27	Reference 966 991	Watanabe and Sumita, 2015
+T28	Reference 993 1015	Cross and Huang, 2016)
+T29	Reference 1038 1060	(Liu and Zhang, 2017a)
+T30	Reference 1344 1362	(Daum et al., 2009
+T31	Reference 1364 1389	Goldberg and Nivre, 2012)
+T32	Dominant 1548 1569	(Stern et al., 2017b)
+T33	Reference 1769 1794	(Goldberg and Nivre, 2012
+T34	Reference 1796 1818	Cross and Huang, 2016)
+T35	Reference 1887 1911	(Durrett and Klein, 2015
+T36	Reference 1913 1933	Stern et al., 2017a)
+T37	Dominant 2022 2043	(Gaddy et al., 2018 )
+T38	Reference 2572 2589	(Gu et al., 2018)
+T39	Reference 2611 2630	(Oord et al., 2017)
+T40	Pronoun 105 110	These
+T41	Pronoun 616 621	these
+T42	Pronoun 1398 1402	This
+T43	Pronoun 1756 1760	this
+T44	Pronoun 2142 2146	this
+T45	B_span 161 171	dependency
+T46	E_span 199 203	2014
+T47	B_span 209 221	constituency
+T48	E_span 292 296	2016
+T49	B_span 403 408	parse
+T50	E_span 434 438	2014
+T51	B_span 448 455	Vinyals
+T52	E_span 711 719	observed
+T53	B_span 799 809	transition
+T54	E_span 843 847	2014
+T55	B_span 874 877	top
+T56	E_span 928 933	2017b
+T57	B_span 937 943	bottom
+T58	E_span 1010 1014	2016
+T59	B_span 1020 1028	recently
+T60	E_span 1054 1059	2017a
+T61	B_span 1173 1176	the
+T62	E_span 1384 1388	2012
+T63	B_span 1549 1554	Stern
+T64	E_span 1672 1678	models
+T65	B_span 1686 1690	More
+T66	E_span 1813 1817	2016
+T67	B_span 1860 1866	neural
+T68	E_span 1927 1932	2017a
+T69	B_span 2023 2028	Gaddy
+T70	E_span 2123 2130	O(n 3 )
+T71	B_span 2552 2559	machine
+T72	E_span 2584 2588	2018
+T73	B_span 2594 2600	speech
+T74	E_span 2625 2629	2017

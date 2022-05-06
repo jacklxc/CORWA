@@ -1,0 +1,32 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 181 186	[BOS]
+T3	Single_summ 311 316	[BOS]
+T4	Reflection 510 515	[BOS]
+T5	Reflection 612 617	[BOS]
+T6	Reflection 767 772	[BOS]
+T7	Single_summ 963 968	[BOS]
+T8	Single_summ 1133 1138	[BOS]
+T9	Reflection 1299 1304	[BOS]
+T10	Single_summ 1463 1468	[BOS]
+T11	Single_summ 1653 1658	[BOS]
+T12	Single_summ 1799 1804	[BOS]
+T13	Single_summ 1925 1930	[BOS]
+T14	Dominant 212 237	McDonald and Nivre (2007)
+T15	Dominant 969 989	Dredze et al. (2007)
+T16	Dominant 1540 1564	Gimnez and Mrquez (2008)
+T17	Pronoun 71 76	their
+T18	Pronoun 317 321	They
+T19	Pronoun 676 680	they
+T20	Pronoun 773 777	They
+T21	Pronoun 926 928	it
+T22	Pronoun 1139 1143	This
+T23	Pronoun 1659 1663	They
+T24	Pronoun 1841 1845	they
+T25	Pronoun 1938 1943	their
+T26	Pronoun 2045 2050	their
+T27	B_span 187 189	In
+T28	E_span 501 508	outputs
+T29	B_span 969 975	Dredze
+T30	E_span 1286 1297	transitions
+T31	B_span 1469 1473	When
+T32	E_span 2106 2118	improvements

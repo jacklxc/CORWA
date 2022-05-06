@@ -1,0 +1,33 @@
+T1	Reflection 0 5	[BOS]
+T2	Single_summ 127 132	[BOS]
+T3	Single_summ 337 342	[BOS]
+T4	Single_summ 477 482	[BOS]
+T5	Single_summ 577 582	[BOS]
+T6	Transition 715 720	[BOS]
+T7	Transition 912 917	[BOS]
+T8	Multi_summ 1028 1033	[BOS]
+T9	Transition 1150 1155	[BOS]
+T10	Transition 1288 1293	[BOS]
+T11	Single_summ 1447 1452	[BOS]
+T12	Reflection 1642 1647	[BOS]
+T13	Reflection 1846 1851	[BOS]
+T14	Dominant 157 179	(Vinyals and Le, 2015)
+T15	Dominant 350 378	(Ghazvininejad et al., 2018)
+T16	Dominant 487 506	(Zhou et al., 2018)
+T17	Dominant 586 604	Lian et al. (2019)
+T18	Dominant 1043 1061	(Li et al., 2016b)
+T19	Dominant 1456 1473	Yao et al. (2018)
+T20	Pronoun 27 29	it
+T21	Pronoun 1663 1668	these
+T22	B_span 149 156	Seq2Seq
+T23	E_span 326 335	knowledge
+T24	B_span 343 349	MemNet
+T25	E_span 465 475	generation
+T26	B_span 483 486	CCM
+T27	E_span 567 575	response
+T28	B_span 586 590	Lian
+T29	E_span 703 713	generation
+T30	B_span 1037 1039	RL
+T31	E_span 1138 1148	generation
+T32	B_span 1456 1459	Yao
+T33	E_span 1630 1640	generation

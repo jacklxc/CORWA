@@ -1,0 +1,28 @@
+[BOS] State-of-the-art approaches for Open-Domain Question Answering over large collections of documents employ a combination of character-level models, self-attention (Wang et al., 2017) , and biattention (Seo et al., 2016) to operate over unstructured paragraphs without exploiting any structured text representation.
+[BOS] Despite these methods have demonstrated impressive results reaching in some cases super-human performances (Seo et al., 2016; Chen et al., 2017; , recent studies have raised important concerns related to generalisation (Wiese et al., 2017; complex reasoning (Welbl et al., 2018) and explainability .
+[BOS] Specifically, the lack of structured representation makes it hard for current Machine Comprehension models to find meaningful patterns in large corpora, generalise beyond the training domain and justify the answer.
+
+[BOS] Research efforts towards the creation of message-passing architectures with relational inductive bias (Battaglia et al., 2018) have enabled machine learning algorithms to incorporate graphical structures in their training process.
+[BOS] These models, trained over explicit entities and relations, have the potential to boost generalisation, interpretability and abstract reasoning capabilities.
+[BOS] A variety of Graph Neural Network architectures have already demonstrated remarkable results in a large set of applications ranging from Computer Vision, Physical Systems and Protein-Protein In-teraction (Zhou et al., 2018) .
+
+[BOS] Our research is in line with recent trends in Question Answering prone to explore messagepassing architectures over graph-structured representation of documents to enhance performance and overcome challenges involved in dealing with unstructured text.
+[BOS] fuse text corpus with manually-curated knowledge bases to create heterogeneous graphs of KB facts and text sentences.
+[BOS] Their model, GRAFT-Net, built upon Graph Convolutional Networks (Schlichtkrull et al., 2018) , is used to propagate information between heterogeneous nodes in the graph and perform binary classification on entity nodes to select the answer.
+[BOS] Differently from the proposed approach, the latter work focuses on links between whole paragraphs and external entities in a Knowledge Base.
+[BOS] Moreover, GRAFT-Net is designed for single-hop Question Answering, assuming that the question is always about a single entity.
+
+[BOS] The proposed approach is similar to (De Cao et al., 2018) and (Song et al., 2018) , where the aim is to answer complex questions that require the integration of multiple text passages.
+[BOS] However, our research is focused on the identification of supporting facts instead of answer retrieval.
+
+[BOS] Another line of research focuses on narrowing down the context for later Machine Comprehension models by selecting relevant passages as supporting facts.
+[BOS] Work in that direction includes (Watanabe et al., 2017) which present a neural information retrieval system to retrieve a sufficiently small paragraph and (Geva and Berant, 2018) which employ a Deep Q-Network (DQN) to solve the task by learning to navigate over an intra-document tree.
+[BOS] A similar approach is chosen by (Clark and Gardner, 2017) .
+[BOS] However, instead of operating on document structure, they adopt a sampling technique to make the model more robust towards multi-paragraph documents.
+[BOS] These approaches are not directly comparable to our work since they focus either on single paragraphs or intra-document (local) structure.
+
+[BOS] Strongly related to our work is which presents HotpotQA, a novel dataset for multi-hop QA.
+[BOS] The authors highlight the importance of identifying supporting facts for improving reasoning and explainability of current systems.
+[BOS] We compare the proposed architecture with the baseline described in their paper.
+[BOS] The model is based on a state-of-the-art MC model (Seo et al., 2016) that adopts a sequential reading strategy to identifying supporting facts from large collections of documents.
+

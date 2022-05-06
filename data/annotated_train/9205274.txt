@@ -1,0 +1,17 @@
+[BOS] The best-known language model based on dependency parsing is that of Chelba et al. (1997) .
+[BOS] This model writes the probability in the familiar left-toright chain rule decomposition in the linear order of the sentence, conditioning the probability of the next word on the linear trigram context, as well as some part of the dependency graph information relating to the words on its left.
+[BOS] The language models we propose are far simpler to train and compute.
+[BOS] A somewhat similar model to our unlabelled dependency language model was proposed in Graham and van Genabith (2010) .
+[BOS] However they seem to have used different probability estimators which ignore the fact that each node in the dependency tree can have multiple children.
+[BOS] Other research on syntactic language modelling has focused on using phrase structure grammars (Pauls and Klein, 2012; Charniak, 2001; Roark, 2001; Hall and Johnson, 2003) .
+[BOS] The linear complexity of deterministic dependency parsing makes dependency language models such as ours more scalable than these approaches.
+
+[BOS] The most similar task to sentence completion is lexical substitution (McCarthy and Navigli, 2007) .
+[BOS] The main difference between them is that in the latter the word to be substituted provides a very important clue in choosing the right candidate, while in sentence completion this is not available.
+[BOS] Another related task is selectional preference modeling (Saghdha, 2010; Ritter et al., 2010) , where the aim is to assess the plausibility of possible syntactic arguments for a given word.
+
+[BOS] The dependency language models described in this paper assign probabilities to full sentences.
+[BOS] Language models which require full sentences can be used in automatic speech recognition (ASR) and machine translation (MT).
+[BOS] The approach is to use a conventional ASR or MT decoder to produce an N-best list of the most likely candidate sentences and then re-score these with the language model.
+[BOS] This was done by Chelba et al. (1997) for ASR using a dependency language model and by Pauls and Klein (2011) for MT using a PSG-based syntactic language model.
+

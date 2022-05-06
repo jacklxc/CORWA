@@ -1,0 +1,10 @@
+[BOS] The current automated legal consultation applications usually rely on retrieving relevant text information from pre-constructed database containing legal question-answer pairs using text features such as TF-IDF and bag-of-words (BoW).
+[BOS] Do et al. (2017) proposed QA models for legal consultation, and Hang (2017) preformed legal question classification with deep convolutional neural network trained in multi-task manner.
+
+[BOS] Law searching is an unneglectable demand of legal workers such as lawyers and procurators, as they need to support their views with sufficient articles.
+[BOS] In industry, article retrieval applications simply parse inputs into phrases and adopt common IR approaches.
+[BOS] Academically, Zhang et al. (2017) built a Chinese legal consultation sys-tem to improve the precision of retrieving articles and predicting sentences by exploiting legal precedents when performing logical reasoning.
+
+[BOS] Legal document analysis is frequently viewed as text representation and classification task.
+[BOS] Hu et al. (2018) introduces few-shot attributes to enrich the information of mapping from case descriptions to charges, and Sulea et al. (2017) used multiple SVM classifiers as an ensemble to perform law area classification.
+

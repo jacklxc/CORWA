@@ -1,0 +1,11 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 275 280	[BOS]
+T3	Single_summ 442 447	[BOS]
+T4	Reference 251 272	Ghaeini et al. (2016)
+T5	Dominant 326 357	Kiperwasser and Goldberg (2016)
+T6	Pronoun 53 55	it
+T7	Pronoun 497 501	they
+T8	B_span 232 237	event
+T9	E_span 267 271	2016
+T10	B_span 326 337	Kiperwasser
+T11	E_span 553 560	parsing

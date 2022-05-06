@@ -1,0 +1,18 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 133 138	[BOS]
+T3	Narrative_cite 297 302	[BOS]
+T4	Single_summ 489 494	[BOS]
+T5	Transition 692 697	[BOS]
+T6	Transition 837 842	[BOS]
+T7	Transition 987 992	[BOS]
+T8	Transition 1132 1137	[BOS]
+T9	Transition 1257 1262	[BOS]
+T10	Reference 386 420	(Hochreiter and Schmidhuber, 1997)
+T11	Dominant 535 563	(Schuster and Paliwal, 1997)
+T12	Reference 598 623	(Augenstein et al., 2016)
+T13	B_span 358 362	long
+T14	E_span 415 419	1997
+T15	B_span 570 583	bidirectional
+T16	E_span 618 622	2016
+T17	B_span 495 508	Bidirectional
+T18	E_span 686 690	text

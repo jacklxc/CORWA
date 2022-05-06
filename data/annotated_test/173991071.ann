@@ -1,0 +1,86 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 155 160	[BOS]
+T3	Single_summ 335 340	[BOS]
+T4	Multi_summ 520 525	[BOS]
+T5	Reflection 707 712	[BOS]
+T6	Transition 845 850	[BOS]
+T7	Multi_summ 970 975	[BOS]
+T8	Multi_summ 1221 1226	[BOS]
+T9	Narrative_cite 1488 1493	[BOS]
+T10	Narrative_cite 1649 1654	[BOS]
+T11	Narrative_cite 1900 1905	[BOS]
+T12	Transition 2061 2066	[BOS]
+T13	Reflection 2240 2245	[BOS]
+T14	Reflection 2374 2379	[BOS]
+T15	Transition 2537 2542	[BOS]
+T16	Single_summ 2627 2632	[BOS]
+T17	Single_summ 2763 2768	[BOS]
+T18	Single_summ 2873 2878	[BOS]
+T19	Single_summ 3009 3014	[BOS]
+T20	Single_summ 3172 3177	[BOS]
+T21	Single_summ 3433 3438	[BOS]
+T22	Single_summ 3541 3546	[BOS]
+T23	Single_summ 3657 3662	[BOS]
+T24	Transition 3788 3793	[BOS]
+T25	Dominant 161 185	Luong and Manning (2015)
+T26	Dominant 401 420	Britz et al. (2017)
+T27	Dominant 526 544	Joty et al. (2015)
+T28	Dominant 549 567	Wang et al. (2017)
+T29	Dominant 1034 1048	(Schwenk, 2008
+T30	Dominant 1050 1071	Lambert et al., 2011)
+T31	Dominant 1277 1301	(Sennrich et al., 2016a)
+T32	Dominant 1325 1346	(Currey et al., 2017)
+T33	Reference 1599 1620	(Zhang and Zong, 2016
+T34	Reference 1622 1647	ChineaRios et al., 2017 )
+T35	Reference 1817 1837	(Cheng et al., 2016)
+T36	Reference 1870 1897	(Ramachandran et al., 2017)
+T37	Reference 1993 2014	(Artetxe et al., 2018
+T38	Reference 2016 2038	Lample et al., 2018b,a
+T39	Reference 2040 2058	Yang et al., 2018)
+T41	Dominant 2899 2919	Arthur et al. (2016)
+T42	Dominant 3015 3039	Luong and Manning (2015)
+T43	Dominant 3178 3198	Fadaee et al. (2017)
+T44	Dominant 3439 3465	Arcan and Buitelaar (2017)
+T45	Dominant 3547 3565	Zhao et al. (2018)
+T46	Dominant 3663 3683	Kothur et al. (2018)
+T47	Pronoun 2067 2072	These
+T48	Pronoun 2169 2171	it
+T49	Pronoun 2346 2351	these
+T50	Pronoun 2554 2558	this
+T51	Pronoun 2778 2780	it
+T52	Pronoun 3076 3081	their
+T53	Pronoun 3336 3340	this
+T54	Pronoun 3805 3810	these
+T55	B_span 161 166	Luong
+T56	E_span 326 333	problem
+T57	B_span 341 348	Instead
+T58	E_span 507 518	translation
+T59	E_span 699 705	corpus
+T60	B_span 526 530	Joty
+T61	B_span 976 981	Early
+T62	E_span 1215 1219	data
+T63	B_span 1260 1264	back
+T68	E_span 1641 1645	2017
+T69	B_span 1794 1798	auto
+T70	E_span 1832 1836	2016
+T71	B_span 1842 1850	language
+T72	E_span 1892 1896	2017
+T73	B_span 1960 1972	unsupervised
+T74	E_span 2053 2057	2018
+T40	Dominant 2633 2664	Daum III and Jagarlamudi (2011)
+T75	E_span 2865 2871	tables
+T76	B_span 2633 2637	Daum
+T77	B_span 2899 2905	Arthur
+T78	E_span 2995 3007	improvements
+T79	B_span 3015 3020	Luong
+T80	E_span 3160 3170	dictionary
+T81	B_span 3178 3184	Fadaee
+T82	E_span 3424 3431	setting
+T83	B_span 3439 3444	Arcan
+T84	E_span 3531 3539	decoding
+T85	B_span 3547 3551	Zhao
+T86	E_span 3650 3655	words
+T87	B_span 3663 3669	Kothur
+T88	E_span 3779 3786	lexicon
+T64	E_span 1475 1486	translation
+T65	B_span 1546 1550	data

@@ -1,0 +1,10 @@
+[BOS] Despite the dominant focus on machine learning models for IE in the literature, previous work includes several notable rule-based efforts.
+[BOS] For example, GATE (Cunningham et al., 2011) , and the Common Pattern Specification Language (Appelt and Onyshkevych, 1998 ) introduce a rule-based framework for IE, implemented as a cascade of grammars defined using surface patterns.
+[BOS] The ICE system offers an active-learning system that learns named entity and binary relation patterns built on top of syntactic dependencies (He and Grishman, 2011 while a separate tool from the same group, TokensRegex (Chang and Manning, 2014) , defines surface patterns over token sequences.
+[BOS] Chiticariu et al. (2011) demonstrated that a rule-based NER system can match or outperform results achieved with machine learning approaches, but also showed that rule-writing is a labor intensive process even with a language specifically designed for the task.
+
+[BOS] In addition to the above domain-independent frameworks, multiple previous works focused on rule-based systems built around specific domains.
+[BOS] For example, in bioinformatics, several dedicated rule-based systems obtained state-of-the-art performance in the extraction of protein-protein interactions (PPI) (Hunter et al., 2008; Huang et al., 2004) .
+
+[BOS] Our work complements and extends the above efforts with a relatively simple EE platform that: (a) hybridizes syntactic dependency patterns with surface patterns, (b) offers support for the extraction of recursive events; (c) is coupled with a fast runtime environment; and (d) is easily customizable to new domains.
+

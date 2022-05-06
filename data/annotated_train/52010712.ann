@@ -1,0 +1,65 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 179 184	[BOS]
+T3	Transition 304 309	[BOS]
+T4	Single_summ 457 462	[BOS]
+T5	Multi_summ 577 582	[BOS]
+T6	Single_summ 684 689	[BOS]
+T7	Single_summ 813 818	[BOS]
+T8	Single_summ 938 943	[BOS]
+T9	Reflection 1072 1077	[BOS]
+T10	Transition 1189 1194	[BOS]
+T11	Transition 1272 1277	[BOS]
+T12	Single_summ 1368 1373	[BOS]
+T13	Single_summ 1585 1590	[BOS]
+T14	Single_summ 1687 1692	[BOS]
+T15	Single_summ 1781 1786	[BOS]
+T16	Transition 1978 1983	[BOS]
+T17	Single_summ 2142 2147	[BOS]
+T18	Single_summ 2219 2224	[BOS]
+T19	Single_summ 2396 2401	[BOS]
+T20	Single_summ 2510 2515	[BOS]
+T21	Single_summ 2693 2698	[BOS]
+T22	Dominant 463 480	Kim et al. (2016)
+T23	Dominant 583 614	Costa-juss and Fonollosa (2016)
+T24	Dominant 619 636	Lee et al. (2017)
+T25	Dominant 690 714	Luong and Manning (2016)
+T26	Dominant 819 841	Vylomova et al. (2016)
+T27	Dominant 955 975	Burlot et al. (2017)
+T28	Dominant 1374 1392	Huck et al. (2017)
+T29	Dominant 1591 1610	Chung et al. (2016)
+T30	Dominant 2148 2166	Jean et al. (2015)
+T31	Dominant 2225 2244	Luong et al. (2015)
+T32	Dominant 2402 2421	Dalvi et al. (2017)
+T33	Dominant 2699 2713	Passban (2018)
+T34	Pronoun 45 47	it
+T35	Pronoun 243 247	this
+T36	Pronoun 1693 1697	They
+T37	Pronoun 1824 1828	they
+T38	Pronoun 1995 2000	these
+T39	Pronoun 2085 2090	their
+T40	Pronoun 2366 2371	their
+T41	Pronoun 2516 2520	They
+T42	B_span 463 466	Kim
+T43	E_span 567 575	modeling
+T44	E_span 679 682	NMT
+T45	B_span 583 588	Costa
+T46	B_span 690 695	Luong
+T47	E_span 804 811	problem
+T48	B_span 819 827	Vylomova
+T49	E_span 929 936	encoder
+T50	B_span 955 961	Burlot
+T51	E_span 1067 1070	NMT
+T52	B_span 1374 1378	Huck
+T53	E_span 1579 1583	MRLs
+T54	B_span 1591 1596	Chung
+T55	E_span 1772 1779	problem
+T56	B_span 2148 2152	Jean
+T57	E_span 2205 2217	vocabularies
+T58	B_span 2225 2230	Luong
+T59	E_span 2382 2394	translations
+T60	B_span 2402 2407	Dalvi
+T61	E_span 2681 2691	structures
+T62	B_span 2699 2706	Passban
+T63	E_span 2884 2892	settings
+T64	B_span 1787 1795	proposed
+T65	E_span 1965 1975	structures

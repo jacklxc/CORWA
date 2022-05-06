@@ -1,0 +1,11 @@
+[BOS] Modern statistical machine translation systems (Koehn, 2009 ) are based on different translation models.
+[BOS] Syntax-based systems have become widely used because of their ability to handle non-local reordering and other linguistic phenomena better than phrase-based models (Och and Ney, 2004) .
+[BOS] Synchronous tree substitution grammars (STSGs) of Eisner (2003) use a single source and target tree fragment per rule.
+[BOS] In contrast, an MBOT rule contains a single source tree fragment and a sequence of target tree fragments.
+[BOS] MBOTs can also be understood as a restriction of the non-contiguous STSSGs of Sun et al. (2009) , which allow a sequence of source tree fragments and a sequence of target tree fragments.
+[BOS] MBOT rules require exactly one source tree fragment.
+
+[BOS] While the mentioned syntax-based models use tree fragments for source and target (tree-to-tree), Galley et al. (2004) and Galley et al. (2006) use syntactic annotations only on the target language side (string-to-tree).
+[BOS] Further research by DeNeefe et al. (2007) revealed that adding non-minimal rules improves translation quality in this setting.
+[BOS] Here we improve statistical machine translation in this setting even further using non-minimal MBOT rules.
+

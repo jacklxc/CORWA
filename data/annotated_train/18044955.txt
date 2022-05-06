@@ -1,0 +1,14 @@
+[BOS] In relation extraction, we have to identify the relation elements, and then map the arguments to types.
+
+[BOS] We follow an open IE approach (Banko and Etzioni, 2008) and use dependencies to identify the elements.
+[BOS] In contrast to most previous work (Pardo et al., 2006; Yao et al., 2011; Yao et al., 2012) , we have no pre-defined set of types, but try to learn it along with the relations.
+[BOS] Some approaches use types from general data bases such as Wikipedia, Freebase, etc.
+[BOS] (Yan et al., 2009; Eichler et al., 2008; Syed and Viegas, 2010) , sidestepping the question how to construct those DBs in the first place.
+[BOS] We are less concerned with extraction performance, but focus on the accuracy of the learned type system by measuring how well it performs in a prediction task.
+[BOS] Talukdar et al. (2008) and Talukdar and Pereira (2010) present graph-based approaches to the similar problem of class-instance learning.
+[BOS] While this provides a way to discover types, it requires a large graph that does not easily generalize to new instances (transductive), since it produces no predictive model.
+[BOS] The models we use are transductive and can be applied to unseen data.
+[BOS] Our approach follows Hovy et al. (2011) .
+[BOS] However, they only evaluate one model on football by collecting sensibility ratings from Mechanical Turk.
+[BOS] Our method provides extrinsic measures of performance on several domains.
+

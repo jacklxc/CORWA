@@ -1,0 +1,12 @@
+[BOS] Several studies have recently applied adversarial training to NLP tasks, e.g., (Jia and Liang, 2017; Belinkov and Bisk, 2018; Hosseini et al., 2017; Samanta and Mehta, 2017; Miyato et al., 2017; Sato et al., 2018) .
+[BOS] For example, Belinkov and Bisk (2018) ; Hosseini et al. (2017) proposed methods that generate input sentences with random character swaps.
+[BOS] They utilized the generated (input) sentences as additional training data.
+[BOS] However, the main focus of these methods is the incorporation of adversarial examples in the training phase, which is orthogonal to our attention, adversarial regularization, as described in Section 1.
+[BOS] Clark et al. (2018) used virtual adversarial training (VAT), which is a semi-supervised extension of the adversarial regularization technique originally proposed in Miyato et al. (2016) , in their experiments to compare the results with those of their proposed method.
+[BOS] Therefore, the focus of the neural models differs from this paper.
+[BOS] Namely, they focused on sequential labeling, whereas we discuss NMT models.
+
+[BOS] In parallel to our work, Wang et al. (2019) also investigated the effectiveness of the adversarial regularization technique in neural language modeling and NMT.
+[BOS] They also demonstrated the impacts of the adversarial regularization technique in NMT models.
+[BOS] We investigate the effectiveness of the several practical configurations that have not been examined in their paper, such as the combinations with VAT and back-translation.
+

@@ -1,0 +1,18 @@
+[BOS] In the field of neural machine translation, the two most used attention mechanisms are additive attention (Bahdanau et al., 2015) and dot attention (Luong et al., 2015) .
+[BOS] Based on the latter, Vaswani et al. (2017) proposed a multi-head selfattention, that is not only highly parallelizable but also with better performance.
+
+[BOS] However, self-attention, which employs neither recurrence nor convolution, has great difficulty in incorporating position information (Vaswani et al., 2017) .
+[BOS] To tackle this problem, Shaw et al. (2018) presented an extension that can be used to incorporate relative position information for sequence.
+[BOS] And Shen et al. (2018) tried to encode the temporal order and introduced a directional self-attention which only composes of directional order.
+[BOS] On the other hand, although with a global receptive field, the ability of selfattention recently came into question (Tang et al., 2018) .
+[BOS] And modeling localness, either restricting context sizes Wu et al., 2019; Child et al., 2019) or balancing the contribution of local and global information (Xu et al., 2019) , has been shown to be able to improve the expressiveness of self-attention.
+[BOS] In contrast to these studies, we aim to improve the self-attention in a systematic and multifaceted perspective, rather than just paying attention to one specific characteristic.
+
+[BOS] Compared to a conventional NMT model with only a single head, multi-head is assumed to have a stronger ability to extract different features in different subspaces.
+[BOS] However, there are no explicit mechanism that make them distinct (Voita et al., 2019; Michel et al., 2019) .
+[BOS] Li et al. (2018) had shown that using a disagreement regularization to encourage different attention heads to have different behaviors can improve the performance of multi-head attention.
+[BOS] Iida et al. (2019) proposed a multi-hop attention where the second-hop serves as a head gate function to normalize the attentional context of each head.
+[BOS] Not only limited in the field of neural machine translation, Strubell et al. (2018) combined multi-head self-attention with multi-task learning, this led to a promising result for semantic role labeling.
+[BOS] Similar to the above studies, we also attempt to model diversity for multi-head attention.
+[BOS] In this work, we apply dif-ferent attention function to capture different aspects of features in multiple heads directly, which is more intuitive and explicit.
+

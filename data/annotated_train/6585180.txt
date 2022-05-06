@@ -1,0 +1,27 @@
+[BOS] Recent work in distributional semantics has engendered different perspectives on how to characterize the semantics of adjectives and adjective-noun phrases.
+[BOS] Almuhareb (2006) aims at capturing the semantics of adjectives in terms of attributes they denote using lexico-syntactic patterns.
+[BOS] His approach suffers from severe sparsity problems and does not account for the compositional nature of adjective-noun phrases, as it disregards the meaning contributed by the noun.
+[BOS] It is therefore unable to perform disambiguation of adjectives in the context of a noun.
+[BOS] Baroni and Zamparelli (2010) and Guevara (2010) focus on how best to represent compositionality in adjective-noun phrases considering different types of composition operators.
+[BOS] These works adhere to a fully latent representation of meaning, whereas Hartung and Frank (2010) assign symbolic attribute meanings to adjectives, nouns and composed phrases by incorporating attributes as dimensions in a compositional VSM.
+[BOS] By holding the attribute meaning of adjectives and nouns in distinct vector representations and combining them through vector composition, their approach improves on both weaknesses of Almuhareb's work.
+[BOS] However, their account is still closely tied to Almuhareb's pattern-based approach in that counts of co-occurrence patterns linking adjectives and nouns to attributes are used to populate the vector representations.
+[BOS] These, however, are inherently sparse.
+[BOS] The resulting model therefore still suffers from sparsity of co-occurrence data.
+
+[BOS] Finally, Latent Dirichlet Allocation, originally designed for tasks such as text classification and document modeling (Blei et al., 2003) , found its way into lexical semantics.
+[BOS] Ritter et al. (2010) and O Saghdha (2010) , e.g., model selectional restrictions of verb arguments by inducing topic distributions that characterize mixtures of topics observed in verb argument positions.
+[BOS] Lapata (2009, 2010) were the first to use LDA-inferred topics as dimensions in VSMs.
+
+[BOS] Hartung and Frank (2011) adopt a similar approach, by embedding LDA into a VSM for adjective-noun meaning composition, with LDA topics providing latent variables for attribute meanings.
+[BOS] That is, contrary to M&L, LDA is used to convey information about interpretable semantic attributes rather than latent topics.
+[BOS] In fact, Hartung and Frank (2011) are able to show that "injecting" topic distributions inferred from LDA into a VSM alleviates sparsity problems that persisted with the pattern-based VSM of Hartung and Frank (2010) .
+[BOS] highlight two strengths of VSMs that incorporate interpretable dimensions of meaning: cognitive plausibility and effectiveness in concept categorization tasks.
+[BOS] In their model, concepts are characterized in terms of salient properties and relations (e.g., children have parents, grass is green).
+[BOS] However, their approach concentrates on nouns.
+[BOS] Open questions are (i) whether it can be extended to further word classes, and (ii) whether the interpreted meaning layers are interoperable across word classes, to cope with compositionality.
+[BOS] The present paper extends their work by offering a test case for an interpretable, compositional VSM, applied to adjective-noun composition with attributes as a shared meaning layer.
+[BOS] Moreover, to our knowledge, we are the first to expose such a model to a pairwise similarity judgement task.
+
+[BOS] 3 Attribute Modeling based on LDA
+

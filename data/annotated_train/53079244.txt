@@ -1,0 +1,7 @@
+[BOS] In this work, we explore the balancing problem of shared and unique parameters, and attempt to incorporate the language-dependent presentation features to distinguish different target languages under the scenario of one-to-many multilingual translation.
+
+[BOS] Multilingual translation has been extensively studied in Dong et al. (2015) , Firat et al. (2016a) , Luong et al. (2016) and Johnson et al. (2017) .
+[BOS] Owing to excellent translation performance and ease of use, many researchers (Blackwood et al., 2018; Lakew et al., 2018) have conduct translation of multiple languages based on the framework of Johnson et al. (2017) and Ha et al. (2016) .
+[BOS] As for low-resource translation scenario Wang et al., 2017b ), similar to above method, Gu et al. (2018) enable sharing of lexical and sentence representation across multiple languages especially for lowresource multilingual NMT.
+[BOS] Different from previous methods, our work mainly focuses on improving the one-to-many multilingual translation framework while sharing as many parameters as possible.
+

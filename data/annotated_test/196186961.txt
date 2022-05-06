@@ -1,0 +1,18 @@
+[BOS] Existing methods for building an open-domain dialogue system can be categorized into two groups.
+[BOS] The first group learns response generation models under an encoder-decoder framework.
+[BOS] On top of the basic sequence-to-sequence with attention architecture (Vinyals and Le, 2015; Shang et al., 2015; Tao et al., 2018) , various extensions have been made to tackle the "safe response" problem Mou et al., 2016; Zhao et al., 2017; Song et al., 2018) ; to generate responses with specific personas or emotions (Li et al., 2016a; ; and to pursue better optimization strategies (Li et al., 2017b (Li et al., , 2016b .
+
+[BOS] The second group learns a matching model of a human input and a response candidate for response selection.
+[BOS] Along this line, the focus of research starts from single-turn response selection by setting the human input as a single message (Wang et al., 2013; Hu et al., 2014; Wang et al., 2015) , and moves to context-response matching for multi-turn response selection recently.
+[BOS] Representative methods include the dual LSTM model (Lowe et al., 2015) , the deep learning to respond architecture , the multi-view matching model (Zhou et al., 2016) , the sequential matching network , and the deep attention matching network .
+[BOS] Besides model design, some attention is also paid to the learning problem of matching models (Wu et al., 2018a) .
+[BOS] Our work belongs to the second group.
+[BOS] The proposed interaction-over-interaction network is unique in that it performs matching by stacking multiple interaction blocks, and thus extends the shallow interaction in state-of-the-art methods to a deep Figure 1 : Architecture of interaction-over-interaction network.
+
+[BOS] form.
+[BOS] As far as we know, this is the first architecture that realizes deep interaction for multi-turn response selection.
+[BOS] Encouraged by the big success of deep neural architectures such as Resnet (He et al., 2016) and inception (Szegedy et al., 2015) in computer vision, researchers have studied if they can achieve similar results with deep neural networks on NLP tasks.
+[BOS] Although deep models have not yet brought breakthroughs to NLP as they do to computer vision, they have proven effective in a few tasks such as text classification (Conneau et al., 2017) , natural language inference (Kim et al., 2018; Tay et al., 2018) , and question answering (Tay et al., 2018; Kim et al., 2018) , etc.
+[BOS] In this work, we attempt to improve the accuracy of multi-turn response selection in retrieval-based dialogue systems by increasing the depth of context-response interaction in matching.
+[BOS] Through extensive studies on benchmarks, we show that depth can bring significant improvement to model performance on the task.
+

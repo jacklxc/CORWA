@@ -1,0 +1,24 @@
+T1	Transition 0 5	[BOS]
+T2	Reflection 73 78	[BOS]
+T3	Single_summ 240 245	[BOS]
+T4	Single_summ 479 484	[BOS]
+T5	Reflection 535 540	[BOS]
+T6	Reflection 688 693	[BOS]
+T7	Single_summ 772 777	[BOS]
+T8	Single_summ 902 907	[BOS]
+T9	Single_summ 1013 1018	[BOS]
+T10	Transition 1058 1063	[BOS]
+T11	Reflection 1172 1177	[BOS]
+T12	Dominant 246 260	(Bakaya, 2014)
+T13	Dominant 794 818	(Vilarino et al., 2014 )
+T14	Pronoun 88 93	their
+T15	Pronoun 158 162	this
+T16	Pronoun 204 208	they
+T17	Pronoun 705 709	this
+T18	Pronoun 1019 1024	Their
+T19	Pronoun 1243 1247	they
+T20	Pronoun 1313 1317	this
+T21	B_span 247 253	Bakaya
+T22	E_span 526 533	systems
+T23	B_span 778 785	Another
+T24	E_span 1051 1055	ours

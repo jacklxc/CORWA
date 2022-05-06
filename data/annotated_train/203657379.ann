@@ -1,0 +1,50 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 403 408	[BOS]
+T3	Single_summ 714 719	[BOS]
+T4	Single_summ 946 951	[BOS]
+T5	Transition 1086 1091	[BOS]
+T6	Reflection 1178 1183	[BOS]
+T7	Reflection 1341 1346	[BOS]
+T8	Reflection 1523 1528	[BOS]
+T9	Transition 1766 1771	[BOS]
+T10	Narrative_cite 1941 1946	[BOS]
+T11	Transition 2120 2125	[BOS]
+T12	Transition 2285 2290	[BOS]
+T13	Single_summ 2400 2405	[BOS]
+T14	Single_summ 2538 2543	[BOS]
+T15	Narrative_cite 2757 2762	[BOS]
+T16	Reflection 3082 3087	[BOS]
+T17	Reflection 3271 3276	[BOS]
+T18	Reference 478 495	(Tiedemann, 2014)
+T19	Reference 527 547	(Xiao and Guo, 2014)
+T20	Reference 584 609	(Tiedemann and Agic, 2016
+T21	Reference 611 630	Tyers et al., 2018)
+T22	Reference 688 711	(Wang and Eisner, 2018)
+T23	Dominant 720 745	Tiedemann and Agic (2016)
+T24	Reference 2041 2067	(Sahin and Steedman, 2018)
+T25	Reference 2094 2117	(Sennrich et al., 2016)
+T26	Dominant 2406 2419	Jonson (2006)
+T27	Reference 2871 2901	(Bangalore and Johnston, 2004)
+T28	Pronoun 952 956	This
+T29	Pronoun 2559 2564	their
+T30	Pronoun 2763 2767	This
+T31	Pronoun 3091 3095	this
+T32	Pronoun 3277 3281	This
+T33	B_span 461 469	parallel
+T34	E_span 490 494	2014
+T35	B_span 498 510	multilingual
+T36	E_span 542 546	2014
+T37	B_span 550 552	MT
+T38	E_span 625 629	2018
+T39	B_span 650 656	tagged
+T40	E_span 706 710	2018
+T41	B_span 720 729	Tiedemann
+T42	E_span 1074 1084	embeddings
+T43	B_span 2000 2004	data
+T44	E_span 2062 2066	2018
+T45	B_span 2090 2093	NLP
+T46	E_span 2112 2116	2016
+T47	B_span 2406 2412	Jonson
+T48	E_span 3073 3080	domains
+T49	B_span 2852 2856	rule
+T50	E_span 2896 2900	2004

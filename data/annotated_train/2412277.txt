@@ -1,0 +1,4 @@
+[BOS] Because recurrent networks are such a natural fit for modeling languages (given the sequential nature of the latter), bi-directional LSTM networks are becoming increasingly common in all sorts of linguistic tasks, for example event detection in Ghaeini et al. (2016) .
+[BOS] In fact, we discovered after submission that Kiperwasser and Goldberg (2016) have concurrently developed an extremely similar approach to our dependency parser.
+[BOS] Instead of extending it to constituency parsing, they also apply the same idea to graph-based dependency parsing.
+

@@ -1,0 +1,20 @@
+[BOS] The current trend in dependency parsing is directed towards using synthetic treebanks in an attempt to cover unknown languages for which (a) Learning curves for English with N between 1K and 5K samples (b) Learning curves for English with N between 5K and 10K samples Figure 6 : Learning curves shown using bar plots for parsing models of English resources are minimal or do not exist altogether.
+[BOS] Such treebanks rely on various auxiliary resources: parallel corpora (Tiedemann, 2014) , multilingual word-embeddings (Xiao and Guo, 2014) , MT system for the target language (Tiedemann and Agic, 2016; Tyers et al., 2018) or more minimally, tagged corpora in the target language (Wang and Eisner, 2018) .
+[BOS] Tiedemann and Agic (2016) propose a method to generate synthetic treebanks for new languages using machine translation systems to transfer cross-linguistic information from resource-rich language to under-resourced languages.
+[BOS] This work builds on top of many previous approaches to cross-lingual parsing using parallel corpora and multilingual word-embeddings.
+[BOS] The synthetic treebanks generated in the current work are are different in two ways:
+
+[BOS]  we assume multilingual abstraction and the concrete syntaxes are available, namely the GF-RGL to generate language-independent samples in the form of ASTs.
+[BOS]  we also assume that a distribution of the target language is not available and what is available is a distribution on the abstract syntax that generalizes to other languages.
+[BOS] Hence, the resulting treebank is licensed by a grammar, and high-precision cross-linguistic information is specified, but the distribution over the resulting treebank is different from the distribution obtained using the real treebanks.
+[BOS] An alternative to the method of bootstrapping UD treebanks is to use ud2gf as a way to translate existing UD treebanks to GF treebanks, that are licensed by a grammar.
+
+[BOS] The current work also relates to more recent work in data-augmentation for dependency parsing (Sahin and Steedman, 2018) and more generally in NLP (Sennrich et al., 2016) .
+[BOS] The augmentation methods are designed to address data scarcity by exploiting monolingual corpora or generating synthetic samples in multilingual applications.
+[BOS] However, the underlying abstractions used to generate the synthetic data are induced from auxiliary corpora.
+[BOS] Jonson (2006) show that synthetic corpora generated using a GF grammar can be used to build language models for speech recognition.
+[BOS] Experiments in their work show that synthetic indomain examples generated using the grammar when combined with large out-of-domain data result in significant reduction of word error rate of the speech recognizer.
+[BOS] This work falls in line with similar approaches to combine corpus driven approaches with rule-based systems (Bangalore and Johnston, 2004) , as a way to combine the statistical information available from corpora with good coverage resulting from rule-based abstractions especially when working with restricted domains.
+[BOS] In this paper, we restrict ourselves to utilizing synthetic treebanks for parsing, and leave the discussion on ways to combine synthetic treebanks with real treebanks as future work.
+[BOS] This choice is primarily motivated by our interest in grammar-based development of dependency treebanks as opposed to the traditional way of treebanking -by training human annotators.
+

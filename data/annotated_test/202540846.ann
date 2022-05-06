@@ -1,0 +1,78 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 26 31	[BOS]
+T3	Narrative_cite 286 291	[BOS]
+T4	Narrative_cite 710 715	[BOS]
+T5	Transition 903 908	[BOS]
+T6	Narrative_cite 985 990	[BOS]
+T7	Reflection 1270 1275	[BOS]
+T8	Narrative_cite 1385 1390	[BOS]
+T9	Transition 1658 1663	[BOS]
+T10	Narrative_cite 1681 1686	[BOS]
+T11	Reflection 1856 1861	[BOS]
+T12	Reference 99 132	(Thongtan and Phienthrakul, 2019)
+T13	Reference 167 188	(Pontiki et al., 2014
+T14	Reference 190 209	Wang et al., 2019a)
+T15	Reference 225 243	(Chen et al., 2018
+T16	Reference 245 264	Akhtar et al., 2019
+T17	Reference 383 403	(Luong et al., 2015)
+T18	Reference 434 455	(Weston et al., 2014)
+T19	Reference 491 510	(Tang et al., 2016b
+T20	Reference 512 528	He et al., 2018a
+T21	Reference 530 546	Xue and Li, 2018
+T22	Reference 548 565	Duan et al., 2018
+T23	Reference 567 584	Tang et al., 2019
+T24	Reference 586 603	Yang et al., 2019
+T25	Reference 605 622	Bao et al., 2019)
+T26	Reference 838 857	(Tang et al., 2016a
+T27	Reference 859 876	Wang et al., 2016
+T28	Reference 878 900	Majumder et al., 2018)
+T29	Reference 1108 1129	(Schmitt et al., 2018
+T30	Reference 1131 1147	Li et al., 2018b
+T31	Reference 1149 1164	Ma et al., 2018
+T32	Reference 1166 1192	Angelidis and Lapata, 2018
+T33	Reference 1194 1209	He et al., 2019
+T34	Reference 1211 1226	Hu et al., 2019
+T35	Reference 1228 1246	Dai and Song, 2019
+T36	Reference 1248 1267	Wang et al., 2019b)
+T37	Reference 1350 1368	(Shu et al., 2017)
+T38	Reference 1405 1421	He et al., 2018b
+T39	Reference 1423 1439	Xu and Tan, 2018
+T40	Reference 1441 1460	Chen and Qian, 2019
+T41	Reference 1462 1478	He et al., 2019)
+T42	Reference 1506 1527	(Devlin et al., 2018)
+T43	Reference 1756 1778	(Pascanu et al., 2014)
+T44	Reference 1803 1830	(Miceli Barone et al., 2017
+T45	Reference 1832 1853	Meng and Zhang, 2019)
+T46	Reference 1908 1929	Meng and Zhang (2019)
+T47	B_span 85 93	document
+T48	E_span 131 132	)
+T49	B_span 135 143	sentence
+T52	E_span 208 209	)
+T53	B_span 214 224	multimodal
+T54	E_span 263 264	9
+T55	B_span 363 372	attention
+T56	B_span 419 425	memory
+T58	E_span 454 455	)
+T59	B_span 459 465	gating
+T60	E_span 621 622	)
+T61	B_span 752 758	aspect
+T64	E_span 899 900	)
+T65	B_span 1077 1084	predict
+T66	E_span 1266 1267	)
+T67	B_span 1332 1338	aspect
+T68	E_span 1367 1368	)
+T69	B_span 1405 1407	He
+T71	B_span 1490 1494	well
+T72	E_span 1526 1527	)
+T73	B_span 1738 1746	language
+T74	E_span 1777 1778	)
+T75	B_span 1783 1790	machine
+T76	E_span 1852 1853	)
+T77	B_span 1876 1880	deep
+T78	E_span 1928 1929	)
+T79	Pronoun 481 485	this
+T80	Pronoun 916 921	these
+T81	Pronoun 1279 1283	this
+T82	Pronoun 1674 1676	it
+T50	E_span 398 402	2015
+T51	E_span 1570 1575	tasks

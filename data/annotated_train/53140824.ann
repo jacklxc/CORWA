@@ -1,0 +1,41 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 278 283	[BOS]
+T3	Multi_summ 480 485	[BOS]
+T4	Reflection 765 770	[BOS]
+T5	Single_summ 895 900	[BOS]
+T6	Transition 1253 1258	[BOS]
+T7	Single_summ 1377 1382	[BOS]
+T8	Single_summ 1494 1499	[BOS]
+T9	Single_summ 1558 1563	[BOS]
+T10	Single_summ 1696 1701	[BOS]
+T11	Transition 1885 1890	[BOS]
+T12	Reference 215 235	(Hodosh et al., 2013
+T13	Reference 237 255	Young et al., 2014
+T14	Reference 257 275	Chen et al., 2015)
+T15	Reference 457 476	(Chen et al., 2015)
+T16	Dominant 486 514	(van Miltenburg et al., 2016
+T17	Dominant 516 537	van Miltenburg, 2017)
+T18	Dominant 901 924	Schlangen et al. (2016)
+T19	Reference 1033 1058	(Kazemzadeh et al., 2014)
+T20	Reference 1231 1249	(Mao et al., 2016)
+T21	Dominant 1383 1400	Das et al. (2017)
+T22	Dominant 1500 1522	De Vries et al. (2017)
+T23	Dominant 1702 1724	de Vries et al. (2018)
+T24	B_span 169 177	original
+T25	E_span 270 274	2015
+T26	B_span 360 366	design
+T27	E_span 471 475	2015
+T28	B_span 487 490	van
+T29	E_span 754 763	decisions
+T30	B_span 901 910	Schlangen
+T31	E_span 1244 1248	2016
+T32	B_span 1005 1011	pseudo
+T33	E_span 1053 1057	2014
+T34	B_span 1211 1222	monological
+T35	E_span 1244 1248	2016
+T36	B_span 1383 1386	Das
+T37	E_span 1487 1492	image
+T38	B_span 1500 1502	De
+T39	E_span 1688 1694	images
+T40	B_span 1702 1704	de
+T41	E_span 1874 1883	locations

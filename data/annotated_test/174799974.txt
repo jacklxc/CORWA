@@ -1,0 +1,4 @@
+[BOS] Previous work already established that identity terms (e.g. gay, Jew or woman) have a bias to cooccur with abusive language Park et al., 2018) .
+[BOS] In this work, we showed that this problem is not restricted to the small set of identity terms.
+[BOS] Most biases are introduced by the sampling method used on a dataset and they have a huge impact on classification performance.
+

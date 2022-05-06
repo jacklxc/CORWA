@@ -1,0 +1,20 @@
+[BOS] Dialogue: Traditional dialogue systems (see (Jurafsky and Martin, 2009 ) for an historical perspective) are typically grounded, enabling these systems to be reflective of the user's environment.
+[BOS] The lack of grounding has been a stumbling block for the earliest end-to-end dialogue systems, as various researchers have noted that their outputs tend to be bland (Li et al., 2016a; Gao et al., 2019b) , inconsistent (Zhang et al., 2018a; Li et al., 2016b; Zhang et al., 2019) , and lacking in factual content (Ghazvininejad et al., 2018; Agarwal et al., 2018) .
+[BOS] Recently there has been growing interest in exploring different forms of grounding, including images, knowledge bases, and plain texts (Das et al., 2017; Mostafazadeh et al., 2017; Agarwal et al., 2018; Yang et al., 2019) .
+[BOS] A recent survey is included in Gao et al. (2019a) .
+
+[BOS] Prior work, e.g, (Ghazvininejad et al., 2018; Zhang et al., 2018a; Huang et al., 2019) , uses grounding in the form of independent snippets of text: Foursquare tips and background information about a given speaker.
+[BOS] Our notion of grounding is different, as our inputs are much richer, encompassing the full text of a web page and its underlying structure.
+[BOS] Our setting also differs significantly from relatively recent work (Dinan et al., 2019; Moghe et al., 2018) exploiting crowdsourced conversations with detailed grounding labels: we use Reddit because of its very large scale and better characterization of real-world conversations.
+[BOS] We also require the system to learn grounding directly from conversation and document pairs, instead of relying on additional grounding labels.
+[BOS] Moghe et al. (2018) explored directly using a span-prediction QA model for conversation.
+[BOS] Our framework differs in that we combine MRC models with a sequence generator to produce free-form responses.
+
+[BOS] Machine Reading Comprehension: MRC models such as SQuAD-like models, aim to extract answer spans (starting and ending indices) Doc <title> Investigations </title> <p> "Investigations" is the 36th episode of the American science fiction television series from a given document for a given question (Seo et al., 2017; Liu et al., 2018b; Yu et al., 2018) .
+[BOS] These models differ in how they fuse information between questions and documents.
+[BOS] We chose SAN (Liu et al., 2018b ) because of its representative architecture and competitive performance on existing MRC tasks.
+[BOS] We note that other off-theshelf MRC models, such as BERT (Devlin et al., 2018) , can also be plugged in.
+[BOS] We leave the study of different MRC architectures for future work.
+[BOS] Questions are treated as entirely independent in these "single-turn" MRC models, so recent work (e.g., CoQA (Reddy et al., 2019) and QuAC (Choi et al., 2018) ) focuses on multi-turn MRC, modeling sequences of questions and answers in a conversation.
+[BOS] While multi-turn MRC aims to answer complex questions, that body of work is restricted to factual questions, whereas our work-like much of the prior work in end-to-end dialogue-models free-form dialogue, which also encompasses chitchat and non-factual responses.
+

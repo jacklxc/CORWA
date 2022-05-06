@@ -1,0 +1,8 @@
+[BOS] In the linguistic modality, the most closely related work is by Herbelot and Ganesalingam (2013) and Santus et al. (2014) , who use unsupervised distributional generality measures to identify the hypernym in a hyponym-hypernym pair.
+[BOS] Herbelot and Ganesalingam (2013) use KL divergence to compare the probability distribution of context words, given a term, to the background probability distribution of context words.
+[BOS] Santus et al. (2014) use the median entropy of the probability distributions associated with a term's top-weighted con- text words as a measure of information content.
+
+[BOS] In the visual modality, the intuition that visual representations may be useful for detecting lexical entailment is inspired by Deselaers and Ferrari (2011) .
+[BOS] Using manually annotated images from ImageNet (Deng et al., 2009) , they find that concepts and categories with narrower intensions and smaller extensions tend to have less visual variability.
+[BOS] We extend this intuition to the unsupervised setting of Google image search results and apply it to the lexical entailment task.
+

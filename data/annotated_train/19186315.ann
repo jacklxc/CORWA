@@ -1,0 +1,61 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 153 158	[BOS]
+T3	Reflection 399 404	[BOS]
+T4	Single_summ 520 525	[BOS]
+T5	Reflection 715 720	[BOS]
+T6	Reflection 767 772	[BOS]
+T7	Single_summ 941 946	[BOS]
+T8	Single_summ 1093 1098	[BOS]
+T9	Reflection 1193 1198	[BOS]
+T10	Reflection 1251 1256	[BOS]
+T11	Narrative_cite 1454 1459	[BOS]
+T12	Narrative_cite 1651 1656	[BOS]
+T13	Transition 1800 1805	[BOS]
+T14	Single_summ 1927 1932	[BOS]
+T15	Single_summ 2111 2116	[BOS]
+T16	Reflection 2249 2254	[BOS]
+T17	Reflection 2440 2445	[BOS]
+T18	Transition 2537 2542	[BOS]
+T19	Reflection 2658 2663	[BOS]
+T20	Reference 126 150	(Rajpurkar et al., 2016)
+T21	Reference 178 195	(Seo et al., 2016
+T22	Reference 197 217	Wang and Jiang, 2016
+T23	Reference 219 238	Xiong et al., 2016)
+T24	Reference 495 517	(Wang and Jiang, 2016)
+T25	Dominant 557 576	Wang et al. (2017c)
+T26	Dominant 971 990	Xiong et al. (2017)
+T27	Reference 1545 1563	(Dunn et al., 2017
+T28	Reference 1565 1584	Joshi et al., 2017)
+T29	Reference 1610 1630	(Nguyen et al., 2016
+T30	Reference 1632 1648	He et al., 2017)
+T31	Reference 1671 1689	(Shen et al., 2017
+T32	Reference 1691 1710	Wang et al., 2017c)
+T33	Dominant 1969 1988	Wang et al. (2017a)
+T34	Dominant 2117 2134	Tan et al. (2017)
+T35	Reference 2483 2502	Wang et al. (2017b)
+T36	Pronoun 1109 1113	they
+T37	Pronoun 2543 2547	They
+T38	Pronoun 2673 2677	they
+T39	Pronoun 2688 2693	their
+T40	B_span 88 101	singlepassage
+T41	E_span 145 149	2016
+T42	E_span 233 237	2016
+T43	B_span 159 169	Mainstream
+T44	B_span 464 472	boundary
+T45	E_span 512 516	2016
+T46	B_span 526 533	Another
+T47	E_span 706 713	passage
+T48	B_span 947 950	For
+T49	E_span 1184 1191	overlap
+T50	B_span 1536 1544	academic
+T51	E_span 1579 1583	2017
+T52	B_span 1589 1599	industrial
+T53	E_span 1643 1647	2017
+T54	B_span 1657 1662	Early
+T55	E_span 1704 1709	2017c
+T56	B_span 1933 1935	In
+T57	E_span 2100 2109	questions
+T58	B_span 2117 2120	Tan
+T59	E_span 2242 2247	model
+T60	B_span 2446 2454	Speaking
+T61	E_span 2496 2501	2017b

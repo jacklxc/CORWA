@@ -1,0 +1,39 @@
+T1	Single_summ 0 5	[BOS]
+T2	Transition 265 270	[BOS]
+T3	Narrative_cite 382 387	[BOS]
+T4	Single_summ 588 593	[BOS]
+T5	Single_summ 710 715	[BOS]
+T6	Narrative_cite 843 848	[BOS]
+T7	Transition 1060 1065	[BOS]
+T8	Single_summ 1228 1233	[BOS]
+T9	Single_summ 1400 1405	[BOS]
+T10	Single_summ 1576 1581	[BOS]
+T11	Single_summ 1720 1725	[BOS]
+T12	Single_summ 1918 1923	[BOS]
+T13	Dominant 107 130	Hirschman et al. (1999)
+T14	Reference 516 538	(Kushman et al., 2014)
+T15	Dominant 594 618	MacCartney et al. (2006)
+T16	Reference 931 957	(Angeli and Manning, 2014)
+T17	Reference 996 1022	(Lewis and Steedman, 2013)
+T18	Dominant 1295 1316	(Weston et al., 2014)
+T19	Dominant 1603 1624	Hermann et al. (2015)
+T20	Pronoun 716 721	These
+T21	Pronoun 1083 1088	these
+T22	Pronoun 1493 1497	they
+T23	Pronoun 1564 1568	this
+T24	Pronoun 1729 1733	this
+T25	Pronoun 2046 2050	this
+T26	B_span 107 116	Hirschman
+T27	E_span 255 263	sentence
+T28	B_span 494 501	algebra
+T29	E_span 533 537	2014
+T30	B_span 594 604	MacCartney
+T31	E_span 833 841	datasets
+T32	B_span 917 924	Natural
+T33	E_span 952 956	2014
+T34	B_span 962 975	Combinatorial
+T35	E_span 1017 1021	2013
+T36	B_span 1234 1237	The
+T37	E_span 1569 1573	task
+T38	B_span 1582 1583	A
+T39	E_span 2084 2090	MCTest

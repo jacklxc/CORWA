@@ -1,0 +1,18 @@
+[BOS] Neural networks have been used in varieties of AM tasks.
+[BOS] To improve the vanilla LSTM model, Stab et al. (2018a) use attention mechanism to fuse topic and sentence information together.
+[BOS] In the work of Laha and Raykar (2016) , they present several bi-sequence classification models on different datasets.
+[BOS] However, rather than using some sophisticated architecture such as attention, it considers only different concatenation or condition method on the output of LSTM.
+[BOS] Eger et al. (2017) propose an end-to-end training model to mining argument structure, identifying argument components.
+
+[BOS] Besides syntactic and positional information, lexical information is also reported as one of the most used features in argument mining task (Cabrio and Villata, 2018) .
+[BOS] In some similar research fields such as sentiment analysis and emotion mining, a number of works have been proposed to combine lexical information with the NN models.
+[BOS] Teng et al. (2016) use lexical scores as the weights and do the weighted sum over the outputs of the LSTM model, in order to derive the sentence scores.
+[BOS] Zou et al. (2018) determines attention weights using lexicon labels, which lead the model to focus on the lexicon words.
+[BOS] Bar-Haim et al. (2017) proposes an idea of expanding lexicons to improve stance classifying task.
+
+[BOS] However, in AM, seldom works directly combine lexicon with models.
+[BOS] By using discourse feature, Levy et al. (2018) generates weak labels and use weak supervision.
+[BOS] Shnarch et al. (2018) also present a methodology to blend such weak labeled data with high quality but scarce labeled data for AM.
+[BOS] Al-Khatib et al. (2016) consider the distant supervision method.
+[BOS] Most of these works use the end-to-end training paradigm with the outside resources only for generating the weak label, which may not fully leverage the information of the lexicons.
+

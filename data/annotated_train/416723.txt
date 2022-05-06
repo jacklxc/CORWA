@@ -1,0 +1,18 @@
+[BOS] Our work is related to recent works that focus on improving attention models (Luong et al., 2015a; Cohn et al., 2016; Feng et al., 2016) .
+[BOS] Luong et al. (2015a) proposed to use global and local attention models to improve translation performance.
+[BOS] They use a global one to attend to all source words and a local one to look at a subset of source words at a time.
+[BOS] Cohn et al. (2016) extended the attentionbased NMT to include structural biases from word-based alignment models, which achieved improvements across several language pairs.
+[BOS] Feng et al. (2016) added implicit distortion and fertility models to attention-based NMT to achieve translation improvements.
+[BOS] These works are different with our IN-TERACTIVE ATTENTION approach, as we use a rather generic attentive reading while at the same time performing attentive writing.
+
+[BOS] Our work is inspired by recent efforts on attaching an external memory to neural networks, such as neural turing machines (Graves et al., 2014) , memory networks (Weston et al., 2014; Meng et al., 2015) and exploiting an external memory (Tang et al., 2016; during translation.
+[BOS] Tang et al. (2016) exploited a phrase memory for NMT, which stores phrase pairs in symbolic form.
+[BOS] They let the decoder utilize a mixture of word-generating and phrase-generating component, to generate a sequence of multiple words all at once.
+[BOS] extended the NMT decoder by maintaining an external memory, which is operated by reading and writing operations of neural turing machines (Graves et al., 2014) , while keeping a read-only copy of the original source annotations along side the "read-write" memory.
+[BOS] These powerful extensions have been verified on Chinese-English translation tasks.
+[BOS] Our INTERACTIVE ATTENTION is different from previous works.
+[BOS] We take the annotations of source sentence as a memory instead of using an external memory, and we design a mechanism to directly read from and write to it during translation.
+[BOS] Therefore, the original source annotations are not accessible in later steps.
+[BOS] More specially, our model inherited the notation and some simple operations for writing from (Graves et al., 2014) , while NMT IA extends it to "unbounded" memory for representing the source.
+[BOS] In addition, although the read-write operations in INTERACTIVE ATTENTION are not exactly the same with those in (Graves et al., 2014; , our model can also achieve good performance.
+

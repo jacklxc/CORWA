@@ -1,0 +1,55 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 72 77	[BOS]
+T3	Multi_summ 166 171	[BOS]
+T4	Transition 439 444	[BOS]
+T5	Single_summ 521 526	[BOS]
+T6	Single_summ 637 642	[BOS]
+T7	Narrative_cite 698 703	[BOS]
+T8	Single_summ 855 860	[BOS]
+T9	Single_summ 983 988	[BOS]
+T10	Transition 1175 1180	[BOS]
+T11	Narrative_cite 1276 1281	[BOS]
+T12	Transition 1521 1526	[BOS]
+T13	Multi_summ 1596 1601	[BOS]
+T14	Reflection 1748 1753	[BOS]
+T15	Dominant 78 98	Ritter et al. (2011)
+T16	Dominant 188 207	Shang et al. (2015)
+T17	Dominant 283 300	Li et al. (2016b)
+T18	Dominant 527 543	Ji et al. (2014)
+T19	Dominant 643 661	Zhou et al. (2016)
+T20	Reference 734 752	(Song et al., 2018
+T21	Reference 754 769	Li et al., 2017
+T22	Reference 771 791	Zhuang et al., 2017)
+T23	Dominant 861 878	Cai et al. (2018)
+T24	Dominant 989 1006	Guu et al. (2018)
+T25	Reference 1386 1407	(Madotto et al., 2018
+T26	Reference 1409 1425	Wu et al., 2019)
+T27	Reference 1466 1485	(Young et al., 2018
+T28	Reference 1487 1518	Parthasarathi and Pineau, 2018)
+T29	Dominant 1602 1622	Weston et al. (2014)
+T30	Dominant 1625 1644	Shang et al. (2015)
+T31	Dominant 1649 1667	Tian et al. (2017)
+T32	Dominant 1672 1688	Le et al. (2018)
+T33	B_span 78 81	Rit
+T34	E_span 164 165	.
+T35	B_span 188 192	Shan
+T36	E_span 270 275	model
+T37	B_span 283 285	Li
+T38	E_span 436 437	.
+T39	B_span 527 529	Ji
+T40	E_span 635 636	.
+T41	B_span 643 647	Zhou
+T42	E_span 695 696	.
+T43	B_span 722 733	researchers
+T44	E_span 853 854	.
+T45	B_span 861 864	Cai
+T46	E_span 981 982	.
+T47	B_span 989 991	Gu
+T48	E_span 1172 1173	.
+T49	B_span 1362 1366	task
+T50	E_span 1424 1425	)
+T51	B_span 1429 1436	lexical
+T52	E_span 1517 1518	)
+T53	B_span 1602 1606	West
+T54	E_span 1746 1747	.
+T55	Pronoun 79 81	it

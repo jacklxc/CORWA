@@ -1,0 +1,37 @@
+T1	Multi_summ 0 5	[BOS]
+T2	Single_summ 462 467	[BOS]
+T3	Single_summ 689 694	[BOS]
+T4	Single_summ 856 861	[BOS]
+T5	Single_summ 1033 1038	[BOS]
+T6	Single_summ 1194 1199	[BOS]
+T7	Single_summ 1440 1445	[BOS]
+T8	Reference 89 109	Vinyals and Le (2015
+T9	Reference 111 129	Shang et al. (2015
+T10	Reference 131 151	Serban et al. (2015)
+T11	Reference 188 212	(Sutskever et al., 2014)
+T12	Reference 343 367	(Sukhbaatar et al., 2015
+T13	Reference 369 386	Yin et al., 2015)
+T14	Dominant 468 485	Wen et al. (2016)
+T15	Dominant 1039 1058	Dodge et al. (2016)
+T16	Reference 1079 1100	(Weston et al., 2015a
+T17	Reference 1102 1126	Sukhbaatar et al., 2015)
+T18	Dominant 1200 1224	Bordes and Weston (2017)
+T19	B_span 32 35	non
+T20	B_span 158 166	sequence
+T22	E_span 211 212	)
+T23	B_span 309 318	knowledge
+T24	E_span 385 386	)
+T25	B_span 468 471	Wen
+T26	E_span 1031 1032	.
+T27	B_span 1039 1042	Dod
+T28	E_span 1192 1193	.
+T29	B_span 1200 1204	Bord
+T30	E_span 1627 1628	.
+T31	Pronoun 445 450	their
+T32	Pronoun 695 700	Their
+T33	Pronoun 862 866	They
+T34	Pronoun 1446 1450	They
+T35	Pronoun 1587 1591	they
+T21	E_span 146 150	2015
+T36	B_span 1063 1069	Memory
+T37	E_span 1121 1125	2015

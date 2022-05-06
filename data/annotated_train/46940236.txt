@@ -1,0 +1,24 @@
+[BOS] Our Chengyu cloze test task is similar to reading comprehension (Hermann et al., 2015; Cui et al., 2016; Kadlec et al., 2016; Seo et al., 2016 (Xu et al., 2010) and improve Chinese word segmentation (Chan and Chong, 2008; Sun and Xu, 2011; Wang and Xu, 2017) .
+[BOS] Chengyus differ from metaphors in other languages (Tsvetkov et al., 2014; Shutova, 2010) because they do not follow the grammatical structure and syntax of the modern Chinese.
+
+[BOS] 3 Approach Figure 1 shows the overall architecture of our approach.
+[BOS] For a query and the definition of a candidate Chengyu, we first apply a word segmentation tool jieba 2 to segment query and definition into words, and apply a Bi-LSTM network to encode each word with a contextual embedding.
+[BOS] In order to better capture the correlation between a query and a Chengyu, we further compare the representations of the Chengyu definition and the contextual embedding of each word in the query, and Encoding Given a query q and a Chenyu definition d j from the target Chengyu database D = {d 1 , d 2 , ..., d m }, we apply two Bi-LSTM networks to encode them separately.
+[BOS] Each Bi-LSTM network leverages long distance features from the whole sentence to capture the context information by using a memory cell (Hochreiter and Schmidhuber, 1997) .
+[BOS] Each word in q and d j is assigned a contextual embedding.
+
+[BOS] Attention To better capture the correlation between a query and each Chengyu definition, we use an attention mechanism (Bahdanau et al., 2014; Sutskever et al., 2014) to compare the semantic relatedness of each word in the query sentence with the meaning of each Chengyu definition.
+
+[BOS] Given the hidden states H = h 0 , h 1 , ..., h n of the Bi-LSTM encoding the query sentence, where h i denotes the concatenation of the hidden states of word w i with forward and backward LSTMs, the attention layer sum over h i with learnable weight : R = n i=1  i  h i , where R is the weighted sum vector representation of the query.
+[BOS]  i is a learnable weight which is computed by
+
+[BOS] and e i = d T W  h i , where W  is a parameter to capture the relevance between a query and a definition flexibly .
+[BOS] d T is the last hidden hidden state of the Bi-LSTM encoding the definition.
+
+[BOS] Training With the weighted sum vector representation of the query R, we apply a softmax function to compute the probability of each candidate Chengyu d j to be filled into the slot.
+
+[BOS] , where W  maps the final representation of the query into R m , and m is the number of classes.
+[BOS] Then we optimize the log likelihood: L = m j=1 y j log(p j ), where y j is 0 or 1 depending on if the truth is Chengyu d j or not.
+
+[BOS] Prediction For prediction, we take a query with each Chengyu definition (q, d j ), 1  j  m as input, and predict a probability matrix M  R mm , where m is the number of candidates.
+

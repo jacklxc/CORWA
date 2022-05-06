@@ -1,0 +1,40 @@
+T1	Multi_summ 0 5	[BOS]
+T2	Single_summ 142 147	[BOS]
+T3	Single_summ 319 324	[BOS]
+T4	Single_summ 412 417	[BOS]
+T5	Single_summ 518 523	[BOS]
+T6	Single_summ 650 655	[BOS]
+T7	Single_summ 823 828	[BOS]
+T8	Single_summ 932 937	[BOS]
+T9	Single_summ 1091 1096	[BOS]
+T10	Reflection 1318 1323	[BOS]
+T11	Reflection 1460 1465	[BOS]
+T12	Reflection 1793 1798	[BOS]
+T13	Reflection 1890 1895	[BOS]
+T14	Reflection 2053 2058	[BOS]
+T15	Reflection 2272 2277	[BOS]
+T16	Dominant 25 47	Lappin and Leass, 1994
+T17	Dominant 49 76	Kennedy and Boguraev, 1996)
+T18	Dominant 148 170	Bean and Riloff (1999)
+T19	Dominant 418 439	Ng and Cardie (2002a)
+T20	Dominant 656 665	Ng (2004)
+T21	Dominant 829 849	Poesio et al. (2004)
+T22	Dominant 938 955	Luo et al. (2004)
+T23	Dominant 1097 1123	Nicolae and Nicolae (2006)
+T24	Pronoun 325 327	It
+T30	Pronoun 2068 2072	this
+T31	Pronoun 2185 2187	it
+T32	B_span 6 10	Some
+T33	E_span 137 140	not
+T34	B_span 148 152	Bean
+T35	E_span 407 410	run
+T36	B_span 418 420	Ng
+T37	E_span 643 648	model
+T38	B_span 656 658	Ng
+T39	E_span 817 821	best
+T40	B_span 829 835	Poesio
+T41	E_span 918 930	anaphoricity
+T25	B_span 938 941	Luo
+T26	E_span 1081 1089	training
+T27	B_span 1097 1104	Nicolae
+T28	E_span 1309 1316	results

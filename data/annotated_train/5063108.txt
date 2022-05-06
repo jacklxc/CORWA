@@ -1,0 +1,16 @@
+[BOS] Multilingual word embeddings have advanced many multilingual natural language processing tasks, such as machine translation (Zou et al., 2013; Mikolov et al., 2013; Madhyastha and Espaa-Bonet, 2017) , dependency parsing (Guo et al., 2015; Ammar et al., 2016a) , and name tagging Tsai and Roth, 2016) .
+[BOS] Using bilingual aligned words, previous methods project multiple monolingual embeddings into a shared semantic space using linear mappings (Mikolov et al., 2013; Rothe et al., 2016; MarcoBaroni, 2015; Xing et al., 2015) or canonical correlation analysis (CCA) (Ammar et al., 2016b; Faruqui and Dyer, 2014; Lu et al., 2015) .
+[BOS] Compared with CCA, which only optimizes the correlation for each individual pair of languages, linear mapping based methods can jointly optimize all the languages in the common semantic space.
+[BOS] We focus on learning linear mappings to construct the common semantic space and adopt correlational neural networks (Chandar et al., 2016; Rajendran et al., 2015) as the basic model.
+[BOS] In contrast to previous work which only exploited monolingual word semantics, we introduce multiple cluster-level alignments.
+
+[BOS] Beyond word alignment, another branch of approaches for multilingual word embeddings are based on parallel or comparable data, such as parallel sentences (AP Chandar et al., 2014; Gouws et al., 2015; Luong et al., 2015; Hermann and Blunsom, 2014; Schwenk et al., 2017) , phrase translations (Duong et al., 2016) and comparable documents (Vulic and Moens, 2015) .
+[BOS] Moreover, to reduce the need of bilingual alignment, several approaches have been designed to learn crosslingual embeddings based on a small seed dictionary (Vulic and Korhonen, 2016; Artetxe et al., 2017) , or even with no supervision (Cao et al., 2016; Zhang et al., 2017b,a; Conneau et al., 2017) .
+[BOS] However, such methods are still limited to bilingual word embedding learning and remaining to be explored for common semantic space construction.
+[BOS] Figure 1 shows the overview of our neural architecture.
+[BOS] We project all monolingual word embeddings into a common semantic space based on word-level as well as cluster-level alignments and learn the transformation functions.
+[BOS] First, on word-level, we build a neighborhood-consistent CorrNet to augment word representations with neighbor based clusters and align them in the common semantic space.
+[BOS] In addition, we apply a language-independent convolutional neural networks to compose character-level word representation and concatenate it with word representation in the common semantic space.
+[BOS] Finally, we construct clusters based on linguistic properties, such as closed word classes and affixes, and align them in the common semantic space.
+[BOS] We jointly optimize for all the alignments in the common semantic space for each pair of languages.
+

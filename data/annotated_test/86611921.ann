@@ -1,0 +1,83 @@
+T1	Multi_summ 0 5	[BOS]
+T2	Multi_summ 268 273	[BOS]
+T3	Multi_summ 353 358	[BOS]
+T4	Single_summ 468 473	[BOS]
+T5	Reflection 704 709	[BOS]
+T6	Transition 941 946	[BOS]
+T7	Transition 1091 1096	[BOS]
+T8	Transition 1208 1213	[BOS]
+T9	Reflection 1422 1427	[BOS]
+T10	Reflection 1491 1496	[BOS]
+T11	Transition 1603 1608	[BOS]
+T12	Transition 1708 1713	[BOS]
+T13	Transition 1863 1868	[BOS]
+T14	Transition 2038 2043	[BOS]
+T15	Transition 2202 2207	[BOS]
+T16	Reflection 2392 2397	[BOS]
+T17	Multi_summ 2595 2600	[BOS]
+T18	Multi_summ 2764 2769	[BOS]
+T19	Multi_summ 2835 2840	[BOS]
+T20	Multi_summ 2954 2959	[BOS]
+T21	Transition 3095 3100	[BOS]
+T22	Multi_summ 3204 3209	[BOS]
+T23	Multi_summ 3339 3344	[BOS]
+T24	Multi_summ 3383 3388	[BOS]
+T25	Multi_summ 3448 3453	[BOS]
+T26	Narrative_cite 3661 3666	[BOS]
+T27	Transition 3833 3838	[BOS]
+T28	Transition 3944 3949	[BOS]
+T29	Transition 3998 4003	[BOS]
+T30	Transition 4089 4094	[BOS]
+T31	Transition 4256 4261	[BOS]
+T32	Narrative_cite 4404 4409	[BOS]
+T33	Multi_summ 4565 4570	[BOS]
+T34	Narrative_cite 4685 4690	[BOS]
+T35	Reflection 4831 4836	[BOS]
+T36	Reflection 4948 4953	[BOS]
+T37	Dominant 16 40	(Rajpurkar et al., 2016)
+T38	Dominant 53 77	(Rajpurkar et al., 2018)
+T39	Dominant 92 114	(Kocisky et al., 2018)
+T41	Dominant 130 149	(Yang et al., 2018)
+T42	Dominant 474 494	Jia and Liang (2017)
+T43	Dominant 2610 2629	(Choi et al., 2018)
+T44	Dominant 2639 2659	(Reddy et al., 2018)
+T45	Dominant 3221 3240	(Yang et al., 2015)
+T46	Dominant 3254 3275	(Nguyen et al., 2016)
+T47	Reference 3798 3822	[Papineni et al., 2002 ]
+T48	Reference 4496 4518	(Mihaylov et al., 2018
+T49	Reference 4520 4543	Richardson et al., 2013
+T50	Reference 4545 4562	Lai et al., 2017)
+T51	Dominant 4593 4613	(Joshi et al., 2017)
+T52	Reference 4744 4765	(Hermann et al., 2015
+T53	Reference 4767 4784	Hill et al., 2015
+T54	Reference 4786 4806	Paperno et al., 2016
+T55	Reference 4808 4828	Onishi et al., 2016)
+T56	Pronoun 1714 1718	This
+T57	Pronoun 2044 2048	They
+T58	Pronoun 2239 2243	this
+T59	Pronoun 2338 2340	it
+T60	Pronoun 2868 2870	it
+T61	Pronoun 3101 3105	This
+T62	Pronoun 3925 3930	their
+T63	Pronoun 3971 3976	these
+T64	Pronoun 3990 3992	it
+T65	Pronoun 4141 4143	it
+T66	Pronoun 4390 4394	this
+T67	Pronoun 4860 4865	these
+T68	Pronoun 5023 5025	it
+T40	B_span 6 9	The
+T69	E_span 458 466	question
+T70	B_span 474 477	Jia
+T71	E_span 690 702	unanswerable
+T73	B_span 2601 2604	The
+T74	E_span 3088 3092	text
+T75	B_span 3214 3220	WikiQA
+T76	E_span 3651 3659	passages
+T77	B_span 3775 3785	evaluation
+T78	E_span 3816 3820	2002
+T79	B_span 4432 4439	reading
+T80	E_span 4557 4561	2017
+T81	B_span 4575 4583	TriviaQA
+T82	E_span 4677 4683	online
+T83	B_span 4703 4713	Clozestyle
+T84	E_span 4823 4827	2016

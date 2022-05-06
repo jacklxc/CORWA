@@ -1,0 +1,9 @@
+[BOS] The idea of using language models is quite fundamental to the task of Grammatical Error Correction, which has fed a substantial body of work over the years.
+[BOS] More recently, with the availability of web-scale data powering the advances in language modeling, among most of the other advances in NLP, a plethora of language-modeling based approaches have been proposed for the GEC task.
+[BOS] Gamon et al. (2008); Matthieu Hermet and Szpakowicz (2008) and Yi et al. (2008) were some of the early works to successfully leverage language models trained on large amounts of web-scale data into a GEC system, reinforcing the idea that simple models and a lot of data trump more elaborate models based on annotated data (Halevy et al., 2009) .
+
+[BOS] Since then, multiple works based on languagemodels have been proposed for the GEC task (Park and Levy, 2011; Dahlmeier and Ng, 2012a) , either relying entirely on LMs or using them for fine-tuning their systems.
+[BOS] Many of the topranked systems in the CoNLL-2013 GEC shared tasks (Ng et al., 2013 , were either based on language models or had them as integral parts of their systems (Kao et al., 2013; Yoshimoto et al., 2013; Xing et al., 2013; Lee and Lee, 2014; Junczys-Dowmunt and Grundkiewicz, 2014) .
+[BOS] LM-only approaches though took a backseat and were only sporadically used after the shared tasks, as Neural Machine Translationbased approaches took over, but LMs remained an integral part of the GEC systems (JunczysDowmunt and Grundkiewicz, 2016; Ji et al., 2017; Xie et al., 2016; Junczys-Dowmunt et al., 2018; Chollampatt and Ng, 2018) .
+[BOS] However, Bryant and Briscoe (2018) recently revived the idea, achieving competitive performance with the state-ofthe-art, demonstrating the effectiveness of the approaches to the task without using any annotated data for training.
+

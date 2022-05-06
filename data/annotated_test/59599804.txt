@@ -1,0 +1,20 @@
+[BOS] Neural Extractive Summarization Neural networks have shown to be effective in extractive summarization.
+[BOS] Past approaches have structured the decision either as binary classification over sentences (Cheng and Lapata, 2016; Nallapati et al., 2017) or classification followed by ranking (Narayan et al., 2018) .
+[BOS] used a seq-to-seq decoder instead.
+[BOS] For our model, text compression forms a module largely orthogonal to the extraction module, although the joint ora- Table 8 : The compressions actually used by our model on CNN; average lengths and the fraction of that constituency type among compressions taken by our model.
+[BOS] Comp Acc indicates how frequently that compression was taken by the oracle; note that error, especially keeping constituents that we shouldn't, may have minimal impact on summary quality.
+[BOS] Dedup indicates the percentage of chosen compressions which arise from deduplication as opposed to model prediction.
+[BOS] Many PPs are removed in this process contrary to what the oracle states.
+
+[BOS] cle and joint learning are used in our best model.
+[BOS] Additional improvements to extractive modeling might therefore be expected to stack with our approach.
+
+[BOS] Syntactic Compression Prior to the explosion of neural models for summarization, syntactic compression was relatively more common.
+[BOS] Martins and Smith (2009) cast joint extraction and compression as an ILP and used dependency parsing information in their model.
+[BOS] Woodsend and Lapata (2011) induced a quasi-synchronous grammar from Wikipedia for compression.
+[BOS] Several systems explored the usage of constituency parses (Berg-Kirkpatrick et al., 2011; Wang et al., 2013; Li et al., 2014) as well as RST-based approaches (Hirao et al., 2013; Durrett et al., 2016) .
+[BOS] Our approach follows in this vein but could be combined with more sophisticated neural text compression methods as well.
+[BOS] Filippova et al. (2015) presented an LSTM approach to deletionbased sentence compression.
+[BOS] Miao and Blunsom (2016) proposed a deep generative model for text compression.
+[BOS] explored the compression module after the extraction model but the separation of these two modules hurt the performance.
+

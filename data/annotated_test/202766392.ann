@@ -1,0 +1,36 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 220 225	[BOS]
+T3	Single_summ 316 321	[BOS]
+T4	Single_summ 429 434	[BOS]
+T5	Transition 575 580	[BOS]
+T6	Reflection 722 727	[BOS]
+T7	Reflection 869 874	[BOS]
+T8	Single_summ 938 943	[BOS]
+T9	Single_summ 1112 1117	[BOS]
+T10	Single_summ 1181 1186	[BOS]
+T11	Reflection 1271 1276	[BOS]
+T12	Reference 153 172	(Cho et al., 2014a)
+T13	Reference 195 217	(Vinyals and Le, 2015)
+T14	Dominant 322 342	Serban et al. (2016)
+T15	Dominant 466 487	Elsahar et al. (2018)
+T16	Dominant 1061 1078	(Gu et al., 2016)
+T17	Dominant 1118 1135	Bao et al. (2018)
+T18	Dominant 1187 1208	Elsahar et al. (2018)
+T19	B_span 133 140	machine
+T20	E_span 171 172	)
+T21	B_span 177 183	dialog
+T22	E_span 216 217	)
+T23	B_span 322 325	Ser
+T24	E_span 427 428	.
+T25	B_span 466 468	El
+T26	E_span 573 574	.
+T27	B_span 1053 1057	Copy
+T28	E_span 1110 1111	.
+T29	B_span 1118 1120	Ba
+T30	E_span 1179 1180	.
+T31	B_span 1187 1189	El
+T32	E_span 1269 1270	.
+T33	Pronoun 590 595	these
+T34	Pronoun 614 616	it
+T35	Pronoun 697 699	it
+T36	Pronoun 1420 1424	they

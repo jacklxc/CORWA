@@ -1,0 +1,45 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 179 184	[BOS]
+T3	Single_summ 444 449	[BOS]
+T4	Single_summ 642 647	[BOS]
+T5	Transition 861 866	[BOS]
+T6	Single_summ 1036 1041	[BOS]
+T7	Single_summ 1141 1146	[BOS]
+T8	Single_summ 1259 1264	[BOS]
+T9	Single_summ 1404 1409	[BOS]
+T10	Single_summ 1661 1666	[BOS]
+T11	Reflection 1798 1803	[BOS]
+T12	Single_summ 1887 1892	[BOS]
+T13	Reflection 2090 2095	[BOS]
+T14	Reference 156 176	(Chu and Wang, 2018)
+T15	Dominant 185 209	Michel and Neubig (2018)
+T16	Dominant 450 472	Thompson et al. (2018)
+T17	Dominant 648 669	Wuebker et al. (2018)
+T18	Dominant 1083 1097	(Vilar, 2018 )
+T19	Dominant 1480 1501	Rebuffi et al. (2017)
+T20	Dominant 1667 1688	Houlsby et al. (2019)
+T21	Reference 1742 1763	(Devlin et al., 2018)
+T22	Dominant 1893 1914	Houlsby et al. (2019)
+T23	B_span 138 144	domain
+T24	E_span 175 176	)
+T25	B_span 185 191	Michel
+T26	E_span 442 443	.
+T27	B_span 450 458	Thompson
+T28	E_span 640 641	.
+T29	B_span 648 650	Wu
+T30	E_span 859 860	.
+T31	B_span 1042 1050	Learning
+T33	B_span 1410 1418	Residual
+T34	E_span 1659 1660	.
+T35	B_span 1667 1670	Hou
+T36	E_span 1796 1797	.
+T37	B_span 1893 1896	Hou
+T38	E_span 2088 2089	.
+T39	Pronoun 1147 1151	They
+T40	Pronoun 1274 1278	they
+T41	Pronoun 1508 1513	their
+T42	Pronoun 1848 1854	theirs
+T43	Pronoun 2108 2112	this
+T44	B_span 1737 1741	BERT
+T45	E_span 1758 1762	2018
+T46	E_span 1132 1138	spirit

@@ -1,0 +1,7 @@
+[BOS] Dungarwal et al. (Dungarwal et al., 2014) developed a statistical method for machine translation, where phrase based method for Hindi-English and factored based method for English-Hindi SMT system was used.
+[BOS] They had shown improvements to the existing SMT systems using pre-procesing and post-processing components that generated morphological inflections correctly.
+[BOS] Imankulova et al. (Imankulova et al., 2017) showed how backtranslation and filtering from monolingual data can be used to build an effective translation system for a low-resourse language pair like Japanese- Russian.
+[BOS] Sennrich et al. (Sennrich et al., 2016a) shown how back-translation of monolingual data can improve the NMT system.
+[BOS] Ramesh et al. (Ramesh and Sankaranarayanan, 2018) demonstrated how an existing model like bidirectional recurrent neural network can be used to generate parallel sentences for non-English languages like English-Tamil and English-Hindi, which belong to low-resource language pair, to improve the SMT and the NMT systems.
+[BOS] Choudhary et al. (Choudhary et al., 2018) has shown how to build NMT system for low resource parallel corpus language pair like English-Tamil using techniques like word embeddings and Byte-PairEncoding (Sennrich et al., 2016b) to handle OutOf-Vocabulary Words.
+

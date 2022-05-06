@@ -1,0 +1,127 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 101 106	[BOS]
+T3	Transition 344 349	[BOS]
+T4	Narrative_cite 419 424	[BOS]
+T5	Transition 724 729	[BOS]
+T6	Narrative_cite 877 882	[BOS]
+T7	Reflection 1268 1273	[BOS]
+T8	Narrative_cite 1475 1480	[BOS]
+T9	Transition 1752 1757	[BOS]
+T10	Single_summ 1843 1848	[BOS]
+T11	Single_summ 1951 1956	[BOS]
+T12	Single_summ 2078 2083	[BOS]
+T13	Single_summ 2180 2185	[BOS]
+T14	Transition 2292 2297	[BOS]
+T15	Transition 2486 2491	[BOS]
+T16	Transition 2547 2552	[BOS]
+T17	Transition 2747 2752	[BOS]
+T18	Narrative_cite 2859 2864	[BOS]
+T19	Narrative_cite 3032 3037	[BOS]
+T20	Transition 3201 3206	[BOS]
+T21	Single_summ 3417 3422	[BOS]
+T22	Transition 3630 3635	[BOS]
+T23	Reflection 3834 3839	[BOS]
+T24	Narrative_cite 4314 4319	[BOS]
+T25	Transition 4794 4799	[BOS]
+T26	Single_summ 4945 4950	[BOS]
+T27	Reflection 5161 5166	[BOS]
+T28	Transition 5336 5341	[BOS]
+T29	Transition 5517 5522	[BOS]
+T30	Reflection 5721 5726	[BOS]
+T31	Other 5885 5890	[BOS]
+T32	Other 5964 5969	[BOS]
+T33	Other 5973 5978	[BOS]
+T34	Other 6144 6149	[BOS]
+T35	Other 6153 6158	[BOS]
+T36	Other 6337 6342	[BOS]
+T37	Other 6346 6351	[BOS]
+T38	Reference 172 195	(Zelle and Mooney, 1996
+T39	Reference 197 226	Zettlemoyer and Collins, 2012
+T40	Reference 228 247	Berant et al., 2013
+T41	Reference 249 273	Kwiatkowski et al., 2013
+T42	Reference 490 509	(Banko et al., 2002
+T43	Reference 511 528	Ahn et al., 2004)
+T44	Reference 634 654	(Sachan et al., 2015
+T45	Reference 656 677	Sachan and Xing, 2016
+T46	Reference 679 696	Khot et al., 2017
+T47	Reference 698 721	Khashabi et al., 2018b)
+T48	Reference 1021 1045	(Sukhbaatar et al., 2015
+T49	Reference 1047 1066	Miller et al., 2016
+T50	Reference 1068 1087	Kumar et al., 2016)
+T51	Reference 1124 1145	(Hermann et al., 2015
+T52	Reference 1147 1164	Chen et al., 2016
+T53	Reference 1166 1185	Kadlec et al., 2016
+T54	Reference 1187 1207	Dhingra et al., 2017
+T55	Reference 1209 1227	Xiong et al., 2017
+T56	Reference 1229 1245	Seo et al., 2017
+T57	Reference 1247 1265	Chen et al., 2017)
+T58	Reference 1544 1567	(Bahdanau et al., 2015)
+T59	Reference 1607 1628	(Vinyals and Le, 2015
+T60	Reference 1630 1657	Ghazvininejad et al., 2017)
+T61	Reference 1726 1748	(Hewlett et al., 2016)
+T62	Dominant 1869 1894	(Richardson et al., 2013)
+T63	Dominant 1984 1997	(Clark, 2015)
+T64	Dominant 2089 2107	(Lai et al., 2017)
+T65	Dominant 2194 2218	(Khashabi et al., 2018a)
+T66	Reference 2938 2954	(Montfort, 2005)
+T67	Reference 3082 3106	(Sukhbaatar et al., 2015
+T68	Reference 3108 3124	Lee et al., 2015
+T69	Reference 3126 3144	Peng et al., 2015)
+T70	Dominant 3490 3511	(Miller et al., 2016)
+T71	Reference 4401 4423	(Hermann et al., 2015)
+T72	Reference 4447 4466	(Hill et al., 2015)
+T73	Reference 4486 4507	(Onishi et al., 2016)
+T74	Reference 4575 4599	(Rajpurkar et al., 2016)
+T75	Reference 4608 4632	(Trischler et al., 2016)
+T76	Reference 4648 4668	(Joshi et al., 2017)
+T77	Reference 4737 4758	(Nguyen et al., 2016)
+T78	Reference 4772 4791	(Dunn et al., 2017)
+T79	Dominant 4951 4970	Koisk et al. (2017)
+T80	B_span 158 165	logical
+T81	E_span 269 273	2013
+T82	B_span 454 465	information
+T83	E_span 523 527	2004
+T84	B_span 555 564	extracted
+T85	E_span 715 720	2018b
+T86	B_span 988 994	Memory
+T87	E_span 1082 1086	2016
+T88	B_span 1092 1101	attention
+T89	E_span 1260 1264	2017
+T90	B_span 1508 1516	sequence
+T91	E_span 1562 1566	2015
+T92	B_span 1600 1606	dialog
+T93	E_span 1652 1656	2017
+T94	B_span 1717 1725	Wikidata
+T95	E_span 1743 1747	2016
+T96	B_span 1862 1868	MCTest
+T97	E_span 1942 1949	stories
+T98	B_span 1957 1962	Allen
+T99	E_span 2071 2076	books
+T100	B_span 2084 2088	RACE
+T101	E_span 2170 2178	students
+T102	B_span 2186 2193	MULTIRC
+T103	E_span 2284 2290	skills
+T104	B_span 2918 2929	interactive
+T105	E_span 2949 2953	2005
+T106	B_span 3055 3058	end
+T107	E_span 3139 3143	2015
+T108	B_span 3423 3424	A
+T109	E_span 3621 3628	article
+T110	B_span 4386 4389	CNN
+T111	E_span 4418 4422	2015
+T112	B_span 4426 4436	Children's
+T113	E_span 4461 4465	2015
+T114	B_span 4473 4476	Who
+T115	E_span 4502 4506	2016
+T116	B_span 4569 4574	SQuAD
+T117	E_span 4594 4598	2016
+T118	B_span 4601 4607	NewsQA
+T119	E_span 4627 4631	2016
+T120	B_span 4639 4647	TriviaQA
+T121	E_span 4663 4667	2017
+T122	B_span 4728 4730	MS
+T123	E_span 4753 4757	2016
+T124	B_span 4763 4771	SearchQA
+T125	E_span 4786 4790	2017
+T126	B_span 4951 4956	Koisk
+T127	E_span 5150 5159	relations

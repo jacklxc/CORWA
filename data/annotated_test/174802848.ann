@@ -1,0 +1,20 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 101 106	[BOS]
+T3	Single_summ 363 368	[BOS]
+T4	Reflection 575 580	[BOS]
+T5	Transition 768 773	[BOS]
+T6	Single_summ 1013 1018	[BOS]
+T7	Single_summ 1255 1260	[BOS]
+T8	Single_summ 1501 1506	[BOS]
+T9	Dominant 107 132	Venkatraman et al. (2015)
+T10	Dominant 1058 1079	Ranzato et al. (2015)
+T11	Dominant 1261 1279	Shen et al. (2016)
+T12	Dominant 1507 1525	Shao et al. (2018)
+T13	B_span 107 118	Venkatraman
+T14	E_span 354 361	example
+T15	B_span 1022 1027	avoid
+T16	E_span 1244 1253	inference
+T17	B_span 1261 1265	Shen
+T18	E_span 1495 1499	BLEU
+T19	B_span 1507 1511	Shao
+T20	E_span 1664 1672	strategy

@@ -1,0 +1,20 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 172 177	[BOS]
+T3	Single_summ 282 287	[BOS]
+T4	Transition 420 425	[BOS]
+T5	Reflection 552 557	[BOS]
+T6	Narrative_cite 681 686	[BOS]
+T7	Transition 910 915	[BOS]
+T8	Reference 125 145	(Walker et al., 2012
+T9	Reference 147 169	Miyazaki et al., 2015)
+T10	Dominant 178 198	Walker et al. (2012)
+T11	Dominant 288 310	Miyazaki et al. (2015)
+T12	Reference 766 786	(Pan and Yang, 2010)
+T13	B_span 62 74	transforming
+T14	E_span 164 168	2015
+T15	B_span 178 184	Walker
+T16	E_span 273 280	corpora
+T17	B_span 288 296	Miyazaki
+T18	E_span 412 418	corpus
+T19	B_span 687 695	Transfer
+T20	E_span 781 785	2010

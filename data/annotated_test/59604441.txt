@@ -1,0 +1,7 @@
+[BOS] Memory networks provide a general architecture for online updates to a set of distinct memories Sukhbaatar et al., 2015) .
+[BOS] Henaff et al. (2017) used memories to track the states of multiple entities in a text, but they predefined the alignment of entities to memories, rather than learning to align entities with memories using gates.
+[BOS] The incorporation of entities into language models has also been explored in prior work (Yang et al., 2017; Kobayashi et al., 2017) ; similarly, Dhingra et al. (2018) augment the gated recurrent unit (GRU) architecture with additional edges between coreferent mentions.
+[BOS] In general, this line of prior work assumes that coreference information is available at test time (e.g., from a coreference resolution system), rather than determining coreference in an online fashion.
+[BOS] Ji et al. (2017) propose a generative entity-aware language model that incorporates coreference as a discrete latent variable.
+[BOS] For this reason, importance sampling is required for inference, and the model cannot be trained on unlabeled data.
+

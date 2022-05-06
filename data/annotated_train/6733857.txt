@@ -1,0 +1,62 @@
+[BOS] Early work handled text normalization as a noisy channel model.
+[BOS] This model consists of two components: a source model and a channel model (Shannon, 1948) .
+[BOS] It assumes that a signal is transferred through a medium and gets corrupted.
+[BOS] The source model indicates the canonical form of the signal, and the channel model represents how the signal gets corrupted.
+[BOS] (Brill and Moore, 2000) defined the spelling correction problem as finding argmax w P (w|s), being s the canonical word, which was sent by the source model, and w the received corrupted word.
+[BOS] Applying Bayes' Theorem, the noisy channel model is obtained as argmax w P (s|w)P (w).
+[BOS] This model presented significant performance improvements compared to previously proposed models, achieving up to 98% correction accuracy on well-behaved noisy text.
+[BOS] However, this approach requires supervised training data for both canonical and corrupted words.
+
+[BOS] Log-linear models also have been applied as unsupervised statistical models for text normalization.
+[BOS] (Yang and Eisenstein, 2013) proposed a model in which the relationship between standard and nonstandard words may be characterized by a log-linear model with arbitrary features.
+[BOS] The weights of these features can then be trained in maximum-likelihood frameworks.
+[BOS] The use of this type of model requires a study of the problem to get the most significant features.
+[BOS] From the definition of the features, the training process in conducted to optimize the weights.
+[BOS] The advantage of these models is the easy incorporation of new features and the optimization is performed according to an objective function.
+[BOS] Although not being highly dependent of resources and context-driven, the log-linear approach requires well-defined features -which are not easily identifiable in UGC.
+[BOS] Another disadvantage is the total reliance on statistical observations on the corpus.
+[BOS] Hence, the model does not satisfactorily represents the highly semantic specificity of the noise found in UGC, which can occur with low frequency thus not having a significant statistical impact.
+[BOS] Considering these issues, this type of model is not enough to deal with generic domain and high context and semantic dependency found is UGC noise.
+
+[BOS] More recently, social media text normalization was tackled by using contextual graph random walks.
+[BOS] (Hassan and Menezes, 2013) proposed a method that uses random walks on a contextual similarity bipartite graph constructed from n-gram sequences on large unlabeled text corpus to build a normalization lexicon.
+[BOS] They obtained a precision of 92.43% and, using the method as a preprocessing step, improved translation quality of social media text by 6%.
+[BOS] (Han et al., 2012 ) also presented an approach for unsupervised construction of normalization lexicons based on context information.
+[BOS] Instead of a graph representation, this approach uses string similarity measures between word within a given context.
+[BOS] (Ling et al., 2013) proposed a supervised learning technique for learning normalization rules from machine translations of a parallel corpus of microblog messages.
+[BOS] They built two models that learn generalizations of the normalization process -one on the phrase level and the other on the character level.
+[BOS] The approach was shown able to improve multiple machine translation systems.
+
+[BOS] Our technique is most similar to (Sridhard, 2015), since we implement an adaptation of the method presented in the mentioned work.
+[BOS] The method proposed by (Sridhard, 2015) aims to learn distributed representations of words to capture the notion of contextual similarity and subsequently learn normalization lexicons from these representations in a completely unsupervised manner.
+[BOS] The lexicons are represented as finite-state machines (FSMs) and the process of normalization is performed by transducing the noisy words from the FSMs.
+[BOS] Our work makes use of different distributed representation of words, different scoring function for candidate generation and hash structures (dictionaries) instead of FSMs.
+[BOS] We also introduce a method for automatically expanding the learned lexicons.
+
+[BOS] Regarding Brazilian Portuguese, some studies have been performed considering noises in specific domains, such as reviews of products , and some tools have been developed specifically for that same domain.
+[BOS] The normalizer described in (Duran et al., 2015) is, as far as we know, the only tool for text normalization available for Brazilian Portuguese.
+[BOS] The proposed lexicon-based normalizer considers that errors found in UGC are divided into six categories: Common misspellings: context-free orthographic errors, often phonetically-motivated.
+[BOS] Real-word misspellings: contextual orthographic errors.
+[BOS] Words that are contained in the language lexicon, but are wrong considering the context they appear.
+[BOS] Internet slang: abbreviations and expressions often used informally by internet users.
+[BOS] Case use (proper names and acronyms): proper names and acronyms wrongly or not at all capitalized.
+[BOS] Case use (start of sentence): sentences starting with a lower case word.
+[BOS] Glued words: agglutinated words that should be split.
+[BOS] Punctuation: wrong use of sentence delimiters.
+
+[BOS] Since a large part of misspellings found in UGC is phonetically-motivated, (Duran et al., 2015) proposed a phonetic-based speller for correcting such errors.
+[BOS] The speller combines edit distance and several specific phonetic rules for Portuguese in order to generate correction candidates.
+[BOS] The correction of internet slang and proper name and acronyms capitalization is based on a set of lexicons.
+[BOS] Each lexicon contains many pairs of wrong-correct form of words.
+[BOS] The correction is performed by looking up the noisy word in the lexicon and substituting it by the correct version.
+[BOS] Despite this technique achieving good results in the product review domain, it is not scalable and is too restricted, since there is no form of automatic lexicon-learning.
+[BOS] Therefore, it is not suitable for a generic, domain-free normalizer.
+[BOS] The results obtained by (Duran et al., 2015) will be further discussed, as they are the main source of comparison for our work.
+
+[BOS] Another technique specially designed for Brazilian Portuguese is the one proposed by (de Mendonça Almeida et al., 2016) .
+[BOS] The work presents two approaches for dealing with spelling correction of UGC.
+[BOS] The first approach makes use of three phonetic modules, composed by the Soundex algorithm, a grapheme-to-phoneme converter and a set of language-specific phonetic rules.
+[BOS] The second one combines grapheme-to-phoneme conversion and a decision tree classifier.
+[BOS] The classifier is trained on a corpus of noisy text and employs 14 features (including string and phonetic similarity measures) to identify and correct different classes of orthographic errors.
+[BOS] The approach achieves average correction accuracy of 78%, however requires training on an annotated corpus and feature extraction -making it less scalable than an unsupervised technique.
+

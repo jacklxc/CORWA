@@ -1,0 +1,60 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 372 377	[BOS]
+T3	Transition 663 668	[BOS]
+T4	Transition 671 676	[BOS]
+T5	Transition 850 855	[BOS]
+T6	Reflection 940 945	[BOS]
+T7	Multi_summ 1053 1058	[BOS]
+T8	Transition 1443 1448	[BOS]
+T9	Single_summ 1573 1578	[BOS]
+T10	Reflection 1739 1744	[BOS]
+T11	Transition 1878 1883	[BOS]
+T12	Single_summ 1978 1983	[BOS]
+T13	Single_summ 2176 2181	[BOS]
+T14	Single_summ 2359 2364	[BOS]
+T15	Single_summ 2512 2517	[BOS]
+T16	Reflection 2767 2772	[BOS]
+T17	Single_summ 3025 3030	[BOS]
+T18	Single_summ 3152 3157	[BOS]
+T19	Narrative_cite 3332 3337	[BOS]
+T20	Reference 562 589	(Reisinger and Mooney, 2010
+T21	Reference 591 609	Huang et al., 2012
+T22	Reference 611 635	Neelakantan et al., 2015
+T23	Reference 637 655	Arora et al., 2016
+T25	Dominant 1156 1182	Belanger and Kakade (2015)
+T26	Dominant 1289 1315	Vilnis and McCallum (2015)
+T27	Dominant 1624 1647	Rothe and Schtze (2015)
+T28	Dominant 1984 2004	Yu and Dredze (2014)
+T29	Reference 2029 2051	(Mikolov et al., 2013)
+T30	Reference 2210 2232	(Mikolov et al., 2013)
+T31	Dominant 2365 2386	Faruqui et al. (2015)
+T32	Dominant 2529 2554	Johansson and Pina (2015)
+T34	Dominant 3031 3044	Resnik (1993)
+T35	Dominant 3158 3180	Zapirain et al. (2013)
+T36	Reference 3338 3351	Resnik (1993)
+T37	Reference 3354 3377	Brill and Resnik (1994)
+T38	Reference 3380 3393	Agirre (2008)
+T39	B_span 515 520	multi
+T24	E_span 651 655	2016
+T40	B_span 1156 1164	Belanger
+T41	E_span 1273 1283	embeddings
+T42	B_span 1289 1295	Vilnis
+T43	E_span 1434 1441	meaning
+T44	B_span 1624 1629	Rothe
+T45	E_span 1727 1737	embeddings
+T46	B_span 1984 1986	Yu
+T47	E_span 2349 2357	ontology
+T48	B_span 2018 2022	CBOW
+T49	E_span 2046 2050	2013
+T50	B_span 2195 2203	skipgram
+T51	E_span 2227 2231	2013
+T52	B_span 2365 2372	Faruqui
+T53	E_span 2502 2510	ontology
+T54	B_span 2529 2538	Johansson
+T55	E_span 2759 2765	senses
+T33	B_span 3031 3037	Resnik
+T56	E_span 3141 3150	ambiguity
+T57	B_span 3158 3166	Zapirain
+T58	E_span 3322 3330	labeling
+T59	B_span 3338 3344	Resnik
+T60	E_span 3485 3496	predictions

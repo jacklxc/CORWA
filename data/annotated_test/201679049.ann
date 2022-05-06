@@ -1,0 +1,42 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 119 124	[BOS]
+T3	Single_summ 435 440	[BOS]
+T4	Transition 576 581	[BOS]
+T5	Transition 737 742	[BOS]
+T6	Single_summ 861 866	[BOS]
+T7	Single_summ 957 962	[BOS]
+T8	Reflection 1133 1138	[BOS]
+T9	Transition 1198 1203	[BOS]
+T10	Single_summ 1355 1360	[BOS]
+T11	Single_summ 1622 1627	[BOS]
+T12	Reflection 1755 1760	[BOS]
+T13	Reference 224 243	(Agic et al., 2015)
+T14	Reference 271 290	(Agic et al., 2016)
+T15	Reference 386 410	(Yarowsky et al., 2001 )
+T16	Dominant 441 461	Peters et al. (2018)
+T17	Dominant 867 886	Ruder et al. (2017)
+T18	Dominant 963 985	Mikolov et al. (2013a)
+T19	Dominant 1405 1427	Schuster et al. (2019)
+T20	Dominant 1655 1674	Kirov et al., 2018)
+T21	Pronoun 590 595	these
+T22	Pronoun 1084 1088	this
+T23	Pronoun 1148 1152	this
+T24	Pronoun 1298 1303	their
+T25	Pronoun 1379 1384	these
+T26	Pronoun 1467 1471	they
+T27	B_span 212 215	POS
+T28	E_span 238 242	2015
+T29	B_span 252 262	dependency
+T30	E_span 285 289	2016
+T31	B_span 363 376	morphological
+T32	E_span 404 408	2001
+T33	B_span 441 447	Peters
+T34	E_span 570 573	CNN
+T35	B_span 867 872	Ruder
+T36	E_span 949 955	spaces
+T37	B_span 963 970	Mikolov
+T38	E_span 1123 1131	purposes
+T39	B_span 1385 1392	dynamic
+T40	E_span 1615 1619	work
+T41	B_span 1632 1640	UniMorph
+T42	E_span 1744 1753	languages

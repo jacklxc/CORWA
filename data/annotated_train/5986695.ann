@@ -1,0 +1,22 @@
+T1	Multi_summ 0 5	[BOS]
+T2	Single_summ 239 244	[BOS]
+T3	Single_summ 429 434	[BOS]
+T4	Narrative_cite 604 609	[BOS]
+T5	Narrative_cite 769 774	[BOS]
+T6	Reflection 968 973	[BOS]
+T7	Dominant 70 102	Herbelot and Ganesalingam (2013)
+T8	Dominant 107 127	Santus et al. (2014)
+T9	Dominant 245 277	Herbelot and Ganesalingam (2013)
+T10	Dominant 435 455	Santus et al. (2014)
+T11	Reference 738 766	Deselaers and Ferrari (2011)
+T12	Reference 821 840	(Deng et al., 2009)
+T13	B_span 6 8	In
+T14	E_span 233 237	pair
+T15	B_span 245 253	Herbelot
+T16	E_span 422 427	words
+T17	B_span 435 441	Santus
+T18	E_span 594 601	content
+T19	E_span 761 765	2011
+T20	B_span 694 703	detecting
+T21	B_span 812 820	ImageNet
+T22	E_span 835 839	2009

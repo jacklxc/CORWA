@@ -1,0 +1,9 @@
+[BOS] There is a large corpus of work on named entity recognition, with few studies using explicitly non-local information for the task.
+[BOS] One early work by Finkel et al. (Finkel et al., 2005) uses Gibbs sampling to capture long distance structures that are common in language use.
+[BOS] Another article by the same authors uses a joint representation for constituency parsing and NER, improving both techniques.
+[BOS] In addition, dependency structures have also been used to boost the recognition of bio-medical events (McClosky et al., 2011) and for automatic content extraction (Li et al., 2013) .
+
+[BOS] Recently, there has been a significant effort to improve the accuracy of classifiers by going beyond vector representation for sentences.
+[BOS] Notably the work of Peng et al. (Peng et al., 2017) introduces graph LSTMs to encode the meaning of a sentence by using dependency graphs.
+[BOS] Similarly Dhingra et al. (Dhingra et al., 2017) employ Gated Recurrent Units (GRUs) that encode the information of acyclic graphs to achieve state-of-the-art results in co-reference resolution.
+

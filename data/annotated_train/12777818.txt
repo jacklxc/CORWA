@@ -1,0 +1,10 @@
+[BOS] Extensive efforts have been made in the domain of math problem solving (Hosseini et al., 2014; Roy and Roth, 2015) , which aim at obtaining the correct answer to a given math problem.
+[BOS] Other work has focused on learning to map math expressions into formal languages (Roy et al., 2016 a single generative model that attempts to solve the problem while explaining the approach taken.
+[BOS] Our approach is strongly tied with the work on sequence to sequence transduction using the encoder-decoder paradigm (Sutskever et al., 2014; Bahdanau et al., 2014; Kalchbrenner and Blunsom, 2013) , and inherits ideas from the extensive literature on semantic parsing (Jones et al., 2012; Berant et al., 2013; Andreas et al., 2013; Quirk et al., 2015; Liang et al., 2016; Neelakantan et al., 2016) and program generation (Reed and de Freitas, 2016; Graves et al., 2016) , namely, the usage of an external memory, the application of different operators over values in the memory and the copying of stored values into the output sequence.
+
+[BOS] Providing textual explanations for classification decisions has begun to receive attention, as part of increased interest in creating models whose decisions can be interpreted.
+[BOS] Lei et al. (2016) , jointly modeled both a classification decision, and the selection of the most relevant subsection of a document for making the classification decision.
+[BOS] Hendricks et al. (2016) generate textual explanations for visual classification problems, but in contrast to our model, they first generate an answer, and then, conditional on the answer, generate an explanation.
+[BOS] This effectively creates a post-hoc justification for a classification decision rather than a program for deducing an answer.
+[BOS] These papers, like ours, have jointly modeled rationales and answer predictions; however, we are the first to use rationales to guide program induction.
+

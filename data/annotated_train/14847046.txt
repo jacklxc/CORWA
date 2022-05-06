@@ -1,0 +1,35 @@
+[BOS] To date, most work in grammatical error detection has focused on targeting specific error types (usually prepositions or article errors) by using rulebased methods or statistical machine-learning classification algorithms, or a combination of the two.
+[BOS] Leacock et al. (2010) present a survey of the common approaches.
+[BOS] However, targeted errors such as preposition and determiner errors are just two of the many types of grammatical errors present in nonnative writing.
+[BOS] One of the anonymous reviewers for this paper makes the point eloquently: "Given the frequent complexity of learner errors, less holistic, error-type specific approaches are often unable to disentangle compounded errors of style and grammar."
+[BOS] Below we discuss related work that uses machine translation to address targeted errors and some recent work that also focused on whole-sentence error correction.
+[BOS] Brockett et al. (2006) use information about mass noun errors from a Chinese learner corpus to engineer a "parallel" corpus with sentences containing mass noun errors on one side and their corrected counterparts on the other.
+[BOS] With this parallel corpus, the authors use standard statistical machine translation (SMT) framework to learn a translation (correction) model which can then be applied to unseen sentences containing mass noun errors.
+[BOS] This approach was able to correct almost 62% of the errors found in a test set of 150 errors.
+[BOS] In our approach, we do not treat correction directly as a translation problem but instead rely on an MT system to round-trip translate an English sentence back to English.
+
+[BOS] Park and Levy (2011) use a noisy channel model to achieve whole-sentence grammar correction; they learn a noise model from a dataset of errorful sentences but do not rely on SMT.
+[BOS] They show that the corrections produced by their model generally have higher n-gram overlap with human-authored reference corrections than the original errorful sentences.
+
+[BOS] The previous work that is most directly relevant to our approach is that of Hermet and Dsilets (2009) who focused only on sentences containing pre-marked preposition errors and generated a single round-trip translation for such sentences via a single pivot language (French).
+[BOS] They then simply posited this round-trip translation as the "correction" for the original sentence.
+[BOS] In their evaluation on sentences containing 133 unique preposition errors, their round-trip translation system was able to correct 66.4% of the cases.
+[BOS] However, this was outperformed by a simple method based on web counts (68.7%).
+[BOS] They also found that combining the roundtrip method with the web counts method into a hybrid system yielded higher performance (82.1%).
+
+[BOS] In contrast, we use multiple pivot languages to generate several round-trip translations.
+[BOS] In addition, we use a novel alignment algorithm that allows us to combine different parts of different round-trip translations and explore a whole new set of corrections that go beyond the translations themselves.
+[BOS] Finally, we do not restrict our analysis to any single type of error.
+[BOS] In fact, our test sentences contain several different types of grammatical errors.
+
+[BOS] Outside of the literature on grammatical error detection, our combination approach is directly related to the research on machine translation system combination wherein translation hypotheses produced by different SMT systems are combined to allow the extraction of a better, combined hypothesis (Bangalore et al., 2001; Rosti et al., 2007; Feng et al., 2009) .
+[BOS] However, our combination approach is different in that all the round-trip translations are produced by a single system but via different pivot languages.
+
+[BOS] Finally, the idea of combining multiple surface renderings with the same meaning has also been explored in paraphrase generation.
+[BOS] Pang et al. (2003) propose an algorithm to align sets of parallel sentences driven entirely by the syntactic representations of the sentences.
+[BOS] The alignment algorithm outputs a merged lattice from which lexical, phrasal, and sentential paraphrases could simply be read off.
+[BOS] Barzilay and Lee (2003) cluster topically related sentences into slotted word lattices by using multiple sequence alignment for the purpose of downstream paraphrase generation from comparable corpora.
+[BOS] More recently, Zhao et al. (2010) perform round-trip translation of English sentences via different pivot languages and different off-the-shelf SMT systems to generate candidate paraphrases.
+[BOS] However, they do not combine the candidate paraphrases in any way.
+[BOS] A detailed survey of paraphrase generation techniques can be found in (Androutsopoulos and Malakasiotis, 2010) and (Madnani and Dorr, 2010) .
+

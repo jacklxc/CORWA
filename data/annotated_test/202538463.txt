@@ -1,0 +1,18 @@
+[BOS] Simulated environments provide an inexpensive platform for fast prototyping and evaluating new ideas before deploying them into the real world.
+[BOS] Video-game and physics simulators are standard benchmarks in reinforcement learning (Todorov et al., 2012; Mnih et al., 2013; Kempka et al., 2016; Brockman et al., 2016; Vinyals et al., 2017) .
+[BOS] Nevertheless, these environments under-represent the complexity of the world.
+[BOS] Realistic simulators play an important role in sim-to-real approaches, in which an agent is trained with arbitrarily many samples provided by the simulators, then transferred to real settings using sample-efficient transfer learning techniques (Kalashnikov et al., 2018; Andrychowicz et al., 2018; Karttunen et al., 2019) .
+[BOS] While modern techniques are capable of simulating images that can convince human perception (Karras et al., 2017 (Karras et al., , 2018 , simulating language interaction remains challenging.
+[BOS] There are efforts in building complex interactive text-based worlds (Ct et al., 2018; Urbanek et al., 2019) but the lack of a graphical component makes them not suitable for visually grounded learning.
+[BOS] On the other hand, experimentation on real humans and robots, despite expensive and time-consuming, are important for understanding the true complexity of real-world scenarios (Chai et al., 2018 (Chai et al., , 2016 Rybski et al., 2007; Mohan and Laird, 2014; Liu et al., 2016; She et al., 2014) .
+
+[BOS] Recent navigation tasks in photo-realistic simulators have accelerated research on teaching agents to execute human instructions.
+[BOS] Nevertheless, modeling human assistance in these problems remains simplistic (Table 1) : they either do not incorporate the ability to request additional help while executing tasks (Misra et al., 2014 (Misra et al., , 2017 Anderson et al., 2018b; Chen et al., 2019; Das et al., 2018; Misra et al., 2018; Wijmans et al., 2019; Qi et al., 2019) , or mimic human verbal assistance with primitive, highly scripted language (Nguyen et al., 2019; Chevalier-Boisvert et al., 2019) .
+[BOS] HANNA improves the realisticity of the VNLA setup (Nguyen et al., 2019) by using fully natural language instructions.
+
+[BOS] Imitation learning algorithms are a great fit for training agents in simulated environments: access to ground-truth information about the environments allows optimal actions to be computed in many situations.
+[BOS] The "teacher" in standard imitation learning algorithms (Daum III et al., 2009; Ross et al., 2011; Ross and Bagnell, 2014; Chang et al., 2015; Sun et al., 2017; Sharaf and Daum III, 2017) does not take into consideration the agent's capability and behavior.
+[BOS] He et al. (2012) present a coaching method where the teacher gradually increases the complexity of its demonstrations over time.
+[BOS] Welleck et al. (2019) propose an "unlikelihood" objective, which, similar to our curiosity-encouraging objective, penalizes likelihoods of candidate negative actions to avoid mistake repetition.
+[BOS] Our approach takes into account the agent's past and future behavior to determine actions that are most and least beneficial to them, combining the advantages of both model-based and progress-estimating methods (Wang et al., 2018; Ma et al., 2019a,b) .
+

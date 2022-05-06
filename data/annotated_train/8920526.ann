@@ -1,0 +1,22 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 121 126	[BOS]
+T3	Single_summ 228 233	[BOS]
+T4	Single_summ 349 354	[BOS]
+T5	Transition 494 499	[BOS]
+T6	Transition 659 664	[BOS]
+T7	Transition 761 766	[BOS]
+T8	Transition 841 846	[BOS]
+T9	Other 917 922	[BOS]
+T10	Dominant 6 31	Galley and Manning (2008)
+T11	Dominant 355 373	Zens et al. (2004)
+T12	Reference 472 490	(Och et al., 1999)
+T13	B_span 6 10	Gall
+T14	E_span 336 347	constraints
+T15	B_span 355 358	Zen
+T16	E_span 485 489	1999
+T17	Pronoun 234 239	Their
+T18	Pronoun 500 505	Their
+T19	Pronoun 674 679	their
+T20	Pronoun 685 687	it
+T21	E_span 485 489	1999
+T22	B_span 446 455	alignment

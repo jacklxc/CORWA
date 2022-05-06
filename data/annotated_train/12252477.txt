@@ -1,0 +1,9 @@
+[BOS] If we consider traditional cluster encoded word representation, e.g., Brown clusters (Brown et al., 1992) , it only uses a small number of bits to track the path on a hierarchical tree of word clusters to represent each word.
+[BOS] In fact, word embedding generalized the idea of discrete clustering representation to continuous vector representation in language models, with the goal of improving the continuous word analogy prediction and generalization ability (Bengio et al., 2003; Mikolov et al., 2013a; Mikolov et al., 2013b) .
+[BOS] However, it has been proven that Brown clusters as discrete features are even better than continuous word embedding as features for named entity recognition tasks (Ratinov and Roth, 2009 ).
+[BOS] Guo et al. (Guo et al., 2014) further tried to binarize embeddings using a threshold tuned for each dimension, and essentially used less than two bits to represent each dimension.
+[BOS] They have shown that binarization can be comparable to or even better than the original word embeddings when used as features for named entity recognition tasks.
+[BOS] Moreover, Faruqui et al. (Faruqui et al., 2015) showed that imposing sparsity constraints over the embedding vectors can further improve the representation interpretability and performance on several word similarity and text classification benchmark datasets.
+[BOS] These works indicate that, for some tasks, we do not need all the information encoded in "standard" word embeddings.
+[BOS] Nonetheless, it is clear that binarization loses a lot of information, and this calls for a systematic comparison of how many bits are needed to maintain the expressivity needed from word embeddings for different tasks.
+

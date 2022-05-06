@@ -1,0 +1,14 @@
+[BOS] Reading Comprehension Our work builds on span based reading comprehension (Rajpurkar et al., 2016; Joshi et al., 2017; Trischler et al., 2016) , while also incorporating innovations such as curating questions independently of supporting text to reduce trivial lexical overlap (Joshi et al., 2017; Kocisk et al., 2017) and allowing for unanswerable questions (Trischler et al., 2016; Rajpurkar et al., 2018) .
+[BOS] We handle open-ended questions like in MSMARCO (Nguyen et al., 2016) , with multiple references, but we are the first to incorporate these into information-seeking dialog.
+
+[BOS] Sequential QA Our work is similar to sequential question answering against knowledge bases (Iyyer et al., 2017) and the web (Talmor and Berant, 2018) , but instead of decomposing a single question into smaller questions, we rely on the curiosity of the student to generate a sequence of questions.
+[BOS] Such open information seeking was studied in semantic parsing on knowledge bases (Dahl et al., 1994 ) and more recently with modern approaches (Saha et al., 2018) , but with questions paraphrased from templates.
+[BOS] Concurrent to our work, Saeidi et al. (2018) proposed a task of generating and answering yes/no questions for rule focused text (such as traffic laws) by interacting with a user through dialog.
+[BOS] Also concurrently, Reddy et al. (2018) propose conversational question answering (CoQA) from text but allow both students and questioners to see the evidence.
+[BOS] As a result, a large percentage of CoQA answers are named entities or short noun phrases, much like those in SQuAD.
+[BOS] In contrast, the asymmetric nature of forces students to ask more exploratory questions whose answers can be potentially be followed up on.
+[BOS] 19 Dialog fits into an increasing interest in open domain dialog, mostly studied in the context of social chit-chat Ritter et al., 2011; Fang et al., 2017; Ghazvininejad et al., 2018) .
+[BOS] Most related to our effort is visual dialog (Das et al., 2017) , which relies on images as evidence instead of text.
+[BOS] More explicit goal driven scenarios, such as bargaining (Lewis et al., 2017) and item guessing (He et al., 2017) have also been explored, but the language is more constrained than in .
+[BOS] Information-seeking dialog specifically was studied in Stede and Schlangen (2004) .
+

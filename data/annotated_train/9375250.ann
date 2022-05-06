@@ -1,0 +1,38 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 346 351	[BOS]
+T3	Transition 489 494	[BOS]
+T4	Single_summ 593 598	[BOS]
+T5	Single_summ 791 796	[BOS]
+T6	Multi_summ 926 931	[BOS]
+T7	Narrative_cite 1147 1152	[BOS]
+T8	Reflection 1290 1295	[BOS]
+T9	Reference 69 92	(Knight and Marcu, 2000
+T10	Reference 94 108	McDonald, 2006
+T11	Reference 110 134	Galley and McKeown, 2007
+T12	Reference 136 157	Cohn and Lapata, 2008
+T13	Reference 159 195	Clarke and Lapata, 2008, inter alia)
+T14	Reference 218 245	(Barzilay and McKeown, 2005
+T15	Reference 247 270	Marsi and Krahmer, 2005
+T16	Reference 272 298	Filippova and Strube, 2008
+T17	Reference 300 315	Filippova, 2010
+T18	Reference 317 343	Thadani and McKeown, 2013)
+T19	Dominant 599 616	Wan et al. (2008)
+T20	Dominant 797 824	Elsner and Santhanam (2011)
+T21	Reference 980 1003	(Jing and McKeown, 2000
+T22	Dominant 1005 1031	Saggion and Lapalme, 2002)
+T23	Reference 1264 1287	(Cheung and Penn, 2013)
+T24	B_span 48 56	sentence
+T25	E_span 190 194	alia
+T26	B_span 202 210	sentence
+T27	E_span 338 342	2013
+T28	B_span 599 602	Wan
+T29	E_span 783 789	counts
+T30	B_span 797 799	El
+T31	E_span 918 923	above
+T32	B_span 952 955	cut
+T33	E_span 1141 1145	text
+T34	B_span 1241 1252	information
+T35	E_span 1282 1286	2013
+T36	Pronoun 359 363	this
+T37	Pronoun 1296 1300	This
+T38	Pronoun 1315 1319	this

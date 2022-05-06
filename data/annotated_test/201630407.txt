@@ -1,0 +1,3 @@
+[BOS] (a) Dynamic Word Embeddings from (Yao et al., 2018) has a predefined ordering of embeddings U.
+[BOS] Figure 1: Comparison of Dynamic Word Embeddings (Yao et al., 2018) and WEN which can be seen as a generalization of the former.
+

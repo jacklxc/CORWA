@@ -1,0 +1,11 @@
+[BOS] The first attempt to automatically generate AMR structures from sentences was the work of Flanigan et al. (2014) .
+[BOS] They used a graph-based structured prediction algorithm with two stages: the first stage is a semi-Markov model concerned with identification of concepts, the second stage connects these concepts by finding the maximum spanning connected subgraph from a graph where all possible relations between concepts are realized.
+[BOS] They achieve an F-score of 0.58 on the LDC2013E117 corpus.
+[BOS] Werling, Angeli, and Manning (2015) improve the AMR parsing concept of Flanigan et al. (2014) by supporting the critical task of concept identification with a predefined set of actions for concept subgraph generation that are evoked after a statistical classification procedure.
+[BOS] Besides graph-based approaches, there exist also other strategies on AMR parsing: Peng, Song, and Gildea (2015) learn synchronous hyperedge replacement grammar rules from string- graph pairs.
+[BOS] An Earley algorithm with cube-pruning then performs string-to-AMR parsing with these rules.
+[BOS] Pust et al. (2015) treat English and AMR as a language pair and use a machine translation approach to parse AMRs from sentences.
+[BOS] They convert AMRs into into a grammar of string-to-tree rules that can be handled by syntax-based machine translation formalisms and use these rules with a bottomup chart decoder to parse AMRs with given local features and a language model.
+[BOS] Wang, Xue, and S. Pradhan (2015a) use a transition-based system that transforms dependency graphs into AMR structures by evoking specific actions at each reached state while traversing the dependency tree.
+[BOS] As can be seen, there are many different point of views on AMR parsing.
+

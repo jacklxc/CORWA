@@ -1,0 +1,22 @@
+[BOS] Network Pre-training The idea of pre-training neural networks dates back to the early days of deep learning.
+[BOS] Bengio et al. (2007) proposed layer-wise pre-training for deep belief networks (DBN) to tackle the difficulty of training deep neural networks based on a reconstruction objective.
+[BOS] (Erhan et al., 2010; Dahl et al., 2012) showed the effectiveness of pre-training for tasks such as speech recognition.
+[BOS] In the area of computer vision, using ImageNet pre-trained models have become a standard practice.
+[BOS] In NLP community, using pre-trained word embeddings is the most popular way to transfer knowledge from the unlabeled corpus.
+[BOS] There are also work on semi-supervised sequence learning (Dai and Le, 2015; Peters et al., 2017) attempting to incorporate language modeling as an auxiliary task.
+[BOS] Recently, several pre-training methods based on language models are presented, such as ELMo (Peters et al., 2018) , OpenAI GPT (Radford et al., 2018) , BERT (Devlin et al., 2018) , XLM (Lample and Conneau, 2019) etc.
+[BOS] The combination of more compute, larger model capacity and large-scale text corpora lead to significant improvements on NLP benchmarks .
+
+[BOS] Autoencoders have long been used for representation learning of images (Vincent et al., 2010) and text (Li et al., 2015) .
+[BOS] However, precisely reconstructing the clean input is probably too easy for high-capacity models.
+[BOS] Sparse autoencoders (Deng et al., 2013) , contractive autoencoders (Rifai et al., 2011) , and denoising autoencoders (Vincent et al., 2010) are several popular variants.
+[BOS] Denoising autoencoders (DA) are shown to be able to learn better representations for downstream tasks (Vincent et al., 2010 (Vincent et al., , 2008 Hill et al., 2016) .
+[BOS] Freitag and Roy (2018) use seq2seq DAs for unsupervised natural language generation in dialogue, and (Kim et al., 2018) propose to improve the quality of machine translation with DAs.
+
+[BOS] Text Generation covers a wide spectrum of NLP tasks, including machine translation (Wu et al., 2016) , summarization (See et al., 2017) , response generation (Vinyals and Le, 2015) , paraphrase generation, grammatical error correction etc.
+[BOS] Early studies on text generation mainly adopt template-based (Reiter and Dale, 2000) or example-based (Watanabe and Takeda, 1998) methods.
+[BOS] With the emergence of deep learning for NLP, seq2seq models (Sutskever et al., 2014) become a popular choice for text generation tasks and show better performance in terms of both automatic evaluation metrics and human evaluations (Wu et al., 2016) .
+[BOS] There are also studies focusing on text generation from structured data such as SQL-to-text .
+[BOS] Previous pre-training for text generation is usually done by independently pre-training encoder-side or decoder-side language models (Ramachandran et al., 2016) .
+[BOS] Concurrent to our work, Edunov et al. augment encoder representation with ELMostyle models, MASS (Song et al., 2019) masks continuous text fragments for pre-training, and UNILM (Dong et al., 2019) proposes to pre-train for both language understanding and generation tasks.
+

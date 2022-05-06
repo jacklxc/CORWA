@@ -1,0 +1,113 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 157 162	[BOS]
+T3	Single_summ 325 330	[BOS]
+T4	Single_summ 442 447	[BOS]
+T5	Single_summ 650 655	[BOS]
+T6	Single_summ 943 948	[BOS]
+T7	Single_summ 1042 1047	[BOS]
+T8	Single_summ 1227 1232	[BOS]
+T9	Single_summ 1362 1367	[BOS]
+T10	Single_summ 1535 1540	[BOS]
+T11	Single_summ 1652 1657	[BOS]
+T12	Single_summ 1793 1798	[BOS]
+T13	Single_summ 2005 2010	[BOS]
+T14	Single_summ 2123 2128	[BOS]
+T15	Reflection 2244 2249	[BOS]
+T16	Transition 2310 2315	[BOS]
+T17	Narrative_cite 2477 2482	[BOS]
+T18	Reflection 2756 2761	[BOS]
+T19	Reflection 2898 2903	[BOS]
+T20	Transition 2955 2960	[BOS]
+T21	Multi_summ 2964 2969	[BOS]
+T22	Multi_summ 3154 3159	[BOS]
+T23	Reflection 3373 3378	[BOS]
+T24	Reflection 3436 3441	[BOS]
+T25	Transition 3445 3450	[BOS]
+T26	Single_summ 3530 3535	[BOS]
+T27	Reflection 3916 3921	[BOS]
+T28	Multi_summ 4132 4137	[BOS]
+T29	Single_summ 4589 4594	[BOS]
+T30	Dominant 57 84	Khayrallah and Koehn (2018)
+T31	Dominant 461 482	Heigold et al. (2017)
+T32	Dominant 656 680	Sakaguchi et al. (2017a)
+T33	Dominant 994 1018	Belinkov and Bisk (2018)
+T34	Dominant 1233 1254	Sperber et al. (2017)
+T35	Dominant 1869 1885	Li et al. (2017)
+T36	Reference 2727 2751	Belinkov and Bisk (2018)
+T37	Reference 2819 2840	Heigold et al. (2017)
+T38	Reference 2843 2867	Belinkov and Bisk (2018)
+T39	Reference 2874 2895	Sperber et al. (2017)
+T40	Dominant 2970 2994	Belinkov and Bisk (2018)
+T41	Dominant 2999 3020	Sperber et al. (2017)
+T42	Reference 3202 3225	(Sennrich et al., 2017)
+T43	Reference 3234 3255	(Neubig et al., 2018)
+T44	Dominant 3557 3581	Belinkov and Bisk (2018)
+T45	Reference 3974 3999	(Pennington et al., 2014)
+T46	Reference 4012 4037	(Bojanowski et al., 2017)
+T47	Dominant 4309 4348	Junczys-Dowmunt and Grundkiewicz (2016)
+T48	Dominant 4372 4388	Ji et al. (2017)
+T49	Dominant 4453 4477	Sakaguchi et al. (2017b)
+T50	Reference 4691 4717	(Rozovskaya and Roth, 2010
+T51	Reference 4719 4742	Rozovskaya et al., 2014
+T52	Reference 4744 4761	Xie et al., 2016)
+T53	Dominant 4784 4801	Xie et al. (2018)
+T54	Pronoun 163 167	This
+T55	Pronoun 348 352	they
+T56	Pronoun 1031 1035	they
+T57	Pronoun 1075 1079	they
+T58	Pronoun 1183 1185	it
+T59	Pronoun 1592 1596	they
+T60	Pronoun 1673 1677	they
+T61	Pronoun 2030 2035	these
+T62	Pronoun 2052 2056	they
+T63	Pronoun 2174 2179	their
+T64	Pronoun 2504 2506	it
+T65	Pronoun 3027 3032	their
+T66	Pronoun 3172 3176	they
+T67	Pronoun 3301 3303	it
+T68	Pronoun 3323 3328	their
+T69	Pronoun 3683 3687	they
+T70	Pronoun 3731 3736	their
+T71	Pronoun 4109 4113	this
+T72	B_span 10 16	effect
+T73	E_span 434 439	clean
+T74	B_span 461 468	Heigold
+T75	E_span 644 648	hurt
+T76	B_span 656 665	Sakaguchi
+T77	E_span 935 941	system
+T78	B_span 966 975	character
+T80	E_span 1222 1225	set
+T79	B_span 1233 1240	Sperber
+T82	E_span 1786 1790	data
+T81	B_span 1813 1827	linguistically
+T83	E_span 2236 2241	noise
+T84	B_span 2611 2617	errors
+T85	E_span 2746 2750	2018
+T86	B_span 2819 2826	Heigold
+T87	E_span 2835 2839	2017
+T88	B_span 2843 2851	Belinkov
+T89	E_span 2862 2866	2018
+T90	B_span 2874 2881	Sperber
+T91	E_span 2890 2894	2017
+T93	B_span 2970 2978	Belinkov
+T94	B_span 3194 3201	Nematus
+T95	E_span 3220 3224	2017
+T96	B_span 3229 3233	XNMT
+T97	E_span 3292 3299	results
+T98	E_span 3367 3371	data
+T92	B_span 3540 3547	natural
+T99	E_span 3747 3754	version
+T100	B_span 3968 3973	GloVe
+T101	E_span 3994 3998	2014
+T102	B_span 4003 4011	fastText
+T103	E_span 4032 4036	2017
+T105	B_span 4309 4316	Junczys
+T104	E_span 4368 4370	MT
+T106	B_span 4372 4374	Ji
+T107	E_span 4444 4451	systems
+T108	B_span 4453 4462	Sakaguchi
+T109	E_span 4584 4587	art
+T110	B_span 4595 4604	Synthetic
+T111	E_span 4756 4760	2016
+T112	B_span 4784 4787	Xie
+T113	E_span 4872 4875	GEC

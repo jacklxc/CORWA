@@ -1,0 +1,11 @@
+[BOS] Reducing the resources required for decoding neural nets in general and neural machine translation in particular has been the focus of some attention in recent years.
+[BOS] Vanhoucke et al. (2011) explored accelerating convolutional neural nets with 8-bit integer decoding for speech recognition.
+[BOS] They demonstrated that low precision computation could be used with no significant loss of accuracy.
+[BOS] Han et al. (2015) investigated highly compressing image classification neural networks using network pruning, quantization, and Huffman coding so as to fit completely into on-chip cache, seeing significant improvements in speed and energy efficiency while keeping accuracy losses small.
+
+[BOS] Focusing on machine translation, Devlin (2017) implemented 16-bit fixed-point integer math to speed up matrix multiplication operations, seeing a 2.59x improvement.
+[BOS] They show competitive BLEU scores on WMT English-French NewsTest2014 while offering significant speedup.
+[BOS] Similarly, (Wu et al., 2016 ) applies 8-bit end-toend quantization in translation models.
+[BOS] They also show that automatic metrics do not suffer as a result.
+[BOS] In this work, quantization requires modification to model training to limit the size of matrix outputs.
+

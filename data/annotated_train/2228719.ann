@@ -1,0 +1,46 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 92 97	[BOS]
+T3	Single_summ 387 392	[BOS]
+T4	Transition 594 599	[BOS]
+T5	Reflection 716 721	[BOS]
+T6	Transition 834 839	[BOS]
+T7	Single_summ 937 942	[BOS]
+T8	Transition 1120 1125	[BOS]
+T9	Single_summ 1270 1275	[BOS]
+T10	Reflection 1562 1567	[BOS]
+T11	Reflection 1739 1744	[BOS]
+T12	Reflection 1938 1943	[BOS]
+T13	Reference 143 161	(Shi et al., 2015)
+T14	Reference 186 209	(Mitra and Baral, 2015)
+T15	Reference 237 259	(Hosseini et al., 2014
+T16	Reference 285 302	Zhou et al., 2015
+T17	Reference 304 335	Koncel-Kedziorski et al., 2015)
+T18	Reference 365 383	(Seo et al., 2015)
+T19	Dominant 417 435	Zhou et al. (2015)
+T20	Dominant 943 965	Hosseini et al. (2014)
+T21	Dominant 1276 1306	KoncelKedziorski et al. (2015)
+T22	Reference 1760 1784	Richardson et al. (2013)
+T23	Reference 1959 1979	Weston et al. (2015)
+T24	Pronoun 600 605	These
+T25	Pronoun 638 642	they
+T26	Pronoun 1515 1520	these
+T27	B_span 122 128	number
+T28	E_span 156 160	2015
+T29	B_span 164 169	logic
+T30	E_span 204 208	2015
+T31	B_span 212 222	arithmetic
+T32	E_span 255 259	2014
+T33	B_span 263 270	algebra
+T34	E_span 330 334	2015
+T35	B_span 342 350	geometry
+T36	E_span 378 382	2015
+T37	B_span 393 394	A
+T38	E_span 588 592	data
+T39	B_span 943 951	Hosseini
+T40	E_span 1114 1118	text
+T41	B_span 1276 1292	KoncelKedziorski
+T42	E_span 1548 1559	programming
+T43	B_span 1745 1747	In
+T44	E_span 1779 1783	2013
+T45	B_span 1944 1946	In
+T46	E_span 1974 1978	2015

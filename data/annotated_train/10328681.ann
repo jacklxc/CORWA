@@ -1,0 +1,43 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 96 101	[BOS]
+T3	Single_summ 234 239	[BOS]
+T4	Reflection 451 456	[BOS]
+T5	Single_summ 553 558	[BOS]
+T6	Single_summ 833 838	[BOS]
+T7	Single_summ 957 962	[BOS]
+T8	Single_summ 1062 1067	[BOS]
+T9	Single_summ 1210 1215	[BOS]
+T10	Transition 1341 1346	[BOS]
+T11	Narrative_cite 1437 1442	[BOS]
+T12	Transition 1639 1644	[BOS]
+T13	Single_summ 1778 1783	[BOS]
+T14	Narrative_cite 1984 1989	[BOS]
+T15	Other 2141 2146	[BOS]
+T16	Dominant 102 115	Decker (1985)
+T17	Dominant 674 694	(Grosz et al., 1995)
+T18	Dominant 1040 1059	Gamon et al. (2013)
+T19	Reference 1536 1555	(Fader et al., 2011
+T20	Reference 1557 1572	Hu et al., 2013
+T21	Reference 1574 1590	Do et al., 2011)
+T22	Dominant 1797 1814	Sun et al. (2015)
+T23	Reference 2034 2046	(NIST, 2004)
+T24	Reference 2055 2066	(ERE, 2013)
+T25	Pronoun 166 170	they
+T26	Pronoun 240 245	These
+T27	Pronoun 487 492	these
+T28	Pronoun 1216 1220	They
+T29	Pronoun 1901 1905	they
+T30	B_span 102 108	Decker
+T31	E_span 442 449	content
+T34	B_span 963 971	Document
+T33	E_span 946 955	discourse
+T35	E_span 1333 1339	corpus
+T36	B_span 1797 1800	Sun
+T37	E_span 1977 1982	event
+T32	B_span 559 562	The
+T39	E_span 1585 1589	2011
+T40	B_span 2030 2033	ACE
+T41	E_span 2041 2045	2004
+T42	B_span 2051 2054	ERE
+T43	E_span 2061 2065	2013
+T38	B_span 1502 1506	Open

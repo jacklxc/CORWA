@@ -1,0 +1,60 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 165 170	[BOS]
+T3	Single_summ 468 473	[BOS]
+T4	Narrative_cite 633 638	[BOS]
+T5	Single_summ 906 911	[BOS]
+T6	Narrative_cite 1050 1055	[BOS]
+T7	Reflection 1332 1337	[BOS]
+T8	Transition 1428 1433	[BOS]
+T9	Narrative_cite 1524 1529	[BOS]
+T10	Transition 1772 1777	[BOS]
+T11	Reflection 1958 1963	[BOS]
+T12	Reflection 2078 2083	[BOS]
+T13	Transition 2205 2210	[BOS]
+T14	Transition 2307 2312	[BOS]
+T15	Multi_summ 2412 2417	[BOS]
+T16	Reflection 2615 2620	[BOS]
+T17	Transition 2673 2678	[BOS]
+T18	Transition 2941 2946	[BOS]
+T19	Reflection 3098 3103	[BOS]
+T20	Dominant 204 231	Barzilay and McKeown (2005)
+T21	Dominant 504 531	Filippova and Strube (2008)
+T22	Reference 731 756	(Clarke and Lapata, 2008)
+T23	Reference 797 824	(Barzilay and McKeown, 2005
+T24	Reference 826 850	Marsi and Krahmer, 2005)
+T25	Dominant 926 953	Filippova and Strube (2008)
+T26	Reference 1194 1217	(Knight and Marcu, 2000
+T27	Reference 1219 1244	Turner and Charniak, 2005
+T28	Reference 1246 1269	Cohn and Lapata, 2009 )
+T29	Reference 1675 1697	(McKeown et al., 2010)
+T30	Dominant 2418 2445	Filippova and Strube (2008)
+T31	Dominant 2510 2537	Barzilay and McKeown (2005)
+T32	Dominant 2542 2566	Marsi and Krahmer (2005)
+T33	B_span 171 174	The
+T34	E_span 459 465	output
+T36	B_span 504 507	Fil
+T38	E_span 627 631	tree
+T39	B_span 706 716	dependency
+T40	E_span 751 755	2008
+T41	B_span 782 788	fusion
+T42	E_span 845 849	2005
+T43	B_span 912 914	In
+T44	E_span 1044 1048	text
+T45	B_span 1174 1184	supervised
+T46	E_span 1263 1267	2009
+T47	B_span 1651 1656	large
+T48	E_span 1696 1697	)
+T49	B_span 2418 2421	Fil
+T50	E_span 2502 2508	speech
+T51	B_span 2510 2513	Bar
+T52	E_span 2603 2613	similarity
+T53	Pronoun 294 298	they
+T54	Pronoun 891 896	their
+T55	Pronoun 915 920	their
+T56	Pronoun 1338 1342	This
+T57	Pronoun 1475 1477	it
+T58	Pronoun 1597 1602	these
+T59	Pronoun 1787 1791	they
+T60	Pronoun 1799 1804	these
+T61	Pronoun 2317 2322	these
+T62	Pronoun 2471 2473	it

@@ -1,0 +1,49 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 221 226	[BOS]
+T3	Reflection 382 387	[BOS]
+T4	Single_summ 604 609	[BOS]
+T5	Single_summ 807 812	[BOS]
+T6	Transition 952 957	[BOS]
+T7	Single_summ 1026 1031	[BOS]
+T8	Single_summ 1606 1611	[BOS]
+T9	Single_summ 1956 1961	[BOS]
+T10	Multi_summ 2359 2364	[BOS]
+T11	Reflection 2687 2692	[BOS]
+T12	Reference 104 121	(Liu et al., 2005
+T13	Reference 123 151	Ittycheriah and Roukos, 2005
+T14	Reference 153 172	Taskar et al., 2005
+T15	Reference 174 192	Moore et al., 2006
+T16	Reference 194 218	Fraser and Marcu, 2007b)
+T17	Reference 247 272	(Fraser and Marcu, 2007b)
+T18	Dominant 673 698	(Fraser and Marcu, 2007b)
+T19	Dominant 1032 1054	(May and Knight, 2007)
+T20	Dominant 1612 1634	(May and Knight, 2007)
+T21	Dominant 1970 1992	(May and Knight, 2007)
+T22	Dominant 2174 2196	(May and Knight, 2007)
+T24	Dominant 2365 2389	(Lopez and Resnik, 2005)
+T25	Dominant 2394 2419	(Denero and Klein, 2007 )
+T26	Reference 2475 2495	(Vogel et al., 1996)
+T27	Dominant 2550 2573	(Cherry and Lin, 2006 )
+T28	Pronoun 283 288	these
+T29	Pronoun 489 494	these
+T30	Pronoun 1155 1159	they
+T31	Pronoun 1715 1719	they
+T32	Pronoun 2706 2711	these
+T33	B_span 16 30	discriminative
+T34	E_span 212 217	2007b
+T35	B_span 227 234	However
+T36	E_span 266 271	2007b
+T37	B_span 610 612	In
+T38	E_span 945 949	days
+T39	B_span 1033 1036	May
+T44	E_span 2351 2357	corpus
+T23	B_span 2366 2371	Lopez
+T40	E_span 2540 2548	distance
+T41	B_span 2455 2458	HMM
+T42	E_span 2490 2494	1996
+T43	B_span 2551 2557	Cherry
+T45	E_span 2674 2685	constraints
+T46	E_span 1598 1604	system
+T47	B_span 1613 1616	May
+T48	E_span 1950 1954	pair
+T49	B_span 1962 1968	Second

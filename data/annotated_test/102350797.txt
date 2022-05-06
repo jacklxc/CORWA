@@ -1,0 +1,39 @@
+[BOS] In recent years a number of methods have been proposed to learn bilingual dictionary from monolingual word embeddings.
+[BOS] 1 Many of these methods use an initial seed dictionary.
+[BOS] Mikolov et al. (2013a) show that a linear transformation can be learned from a seed dictionary of 5000 pairs by minimizing the squared Euclidean distance.
+[BOS] In their view, the key reason behind the good performance of their model is the similarity of geometric arrangements in vector spaces of the embeddings of different languages.
+[BOS] For translating a new source word, they map the corresponding word embedding to the target space using the learned mapping and find the nearest target word.
+[BOS] In their approach, they found that simple linear mapping works better than non-linear mappings with multilayer neural networks.
+[BOS] Xing et al. (2015) enforce the word vectors to be of unit length during the learning of the embeddings and modify the objective function for learning the mapping to maximize the cosine similarity instead of using Euclidean distance.
+[BOS] To preserve length normalization after mapping, they enforce the orthogonality constraint on the mapper.
+[BOS] Instead of learning a mapping from the source to the target embedding space, Faruqui and Dyer (2014) use a technique based on Canonical Correlation Analysis (CCA) to project both source and target embeddings to a common low-dimensional space, where the correlation of the word pairs in the seed dictionary is maximized.
+[BOS] Artetxe et al. (2016) show that the above methods are variants of the same core optimization objective and propose a closed form solution for the mapper under orthogonality constraint.
+[BOS] Smith et al. (2017) find that this solution is closely related to the orthogonal Procrustes solution.
+[BOS] In their follow-up work, Artetxe et al. (2017) obtain competitive results using a seed dictionary of only 25 word pairs.
+[BOS] They propose a self-learning framework that performs two steps iteratively until convergence.
+[BOS] In the first step, they use the dictionary (starting with the seed) to learn a linear mapping, which is then used in the second step to induce a new dictionary.
+
+[BOS] A more recent line of research attempts to eliminate the seed dictionary totally and learn the map-ping in a purely unsupervised way.
+[BOS] This was first proposed by Miceli Barone (2016) , who initially used an adversarial network similar to Conneau et al. (2018) , and found that the mapper (which is also the encoder) translates everything to a single embedding, known commonly as the mode collapse issue (Goodfellow, 2017) .
+[BOS] To preserve diversity in mapping, he used a decoder to reconstruct the source embedding from the mapped embedding, extending the framework to an adversarial autoencoder.
+[BOS] His preliminary qualitative analysis shows encouraging results but not competitive with methods using bilingual seeds.
+[BOS] He suspected issues with training and with the isomorphic assumption.
+[BOS] In our work, we successfully address these issues with an improved model that also relaxes the isomorphic assumption.
+[BOS] Our model uses two separate autoencoders, one for each language, which allows us to put more constraints to guide the mapping.
+[BOS] We also distinguish the role of an encoder from the role of a mapper.
+[BOS] The encoder projects embeddings to latent code vectors, which are then translated by the mapper.
+[BOS] Zhang et al. (2017a) improved adversarial training with orthogonal parameterization and cycle consistency.
+[BOS] To aid training, they incorporate additional techniques like noise injection which works as a regularizer.
+[BOS] For selecting the best model, they rely on sharp drops of the discriminator accuracy.
+[BOS] In their follow-up work (Zhang et al., 2017b) , they minimize Earth-Mover's distance between the distribution of the transformed source embeddings and the distribution of the target embeddings.
+[BOS] Conneau et al. (2018) show impressive results with adversarial training and refinement with the Procrustes solution.
+[BOS] Instead of using the adversarial loss, Xu et al. (2018a) use Sinkhorn distance and adopt cycle consistency inspired by the CycleGAN (Zhu et al., 2017) .
+[BOS] We also incorporate cycle consistency along with the adversarial loss.
+[BOS] However, while all these methods learn the mapping in the original embedding space, our approach learns it in the latent code space considering both the mapper and the target encoder as adversary.
+[BOS] In addition, we use a postcycle reconstruction to guide the mapping.
+
+[BOS] A number of non-adversarial methods have also been proposed recently.
+[BOS] Artetxe et al. (2018b) learn an initial dictionary by exploiting the structural similarity of the embeddings and use a robust self-learning algorithm to improve it iteratively.
+[BOS] Hoshen and Wolf (2018) align the second moment of word distributions of the two languages using principal component analysis (PCA) and then refine the alignment iteratively using a variation of the Iterative Closest Point (ICP) method used in computer vision.
+[BOS] Alvarez-Melis and Jaakkola (2018) cast the problem as an optimal transport problem and exploit the Gromov-Wasserstein distance which measures how similarities between pairs of words relate across languages.
+

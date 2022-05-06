@@ -1,0 +1,80 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 42 47	[BOS]
+T3	Transition 306 311	[BOS]
+T4	Single_summ 441 446	[BOS]
+T5	Narrative_cite 658 663	[BOS]
+T6	Multi_summ 796 801	[BOS]
+T7	Narrative_cite 929 934	[BOS]
+T8	Single_summ 1087 1092	[BOS]
+T9	Narrative_cite 1265 1270	[BOS]
+T10	Transition 1568 1573	[BOS]
+T11	Single_summ 1611 1616	[BOS]
+T12	Single_summ 1757 1762	[BOS]
+T13	Multi_summ 1864 1869	[BOS]
+T14	Single_summ 1978 1983	[BOS]
+T15	Narrative_cite 2089 2094	[BOS]
+T16	Narrative_cite 2199 2204	[BOS]
+T17	Dominant 147 161	(Mitkov, 1998)
+T18	Dominant 447 473	Nicolae and Nicolae (2006)
+T19	Reference 685 706	Culotta et al. (2007)
+T20	Reference 709 730	Cai and Strube (2010)
+T21	Reference 735 755	Sapena et al. (2010)
+T22	Dominant 802 822	Sapena et al. (2010)
+T23	Dominant 827 848	Cai and Strube (2010)
+T24	Reference 1000 1021	(Pradhan et al., 2011
+T25	Reference 1023 1042	Sapena et al., 2011
+T26	Reference 1044 1062	Cai et al., 2011b)
+T27	Dominant 1109 1127	Cai et al. (2011b)
+T28	Reference 1149 1172	Martschat et al. (2012)
+T29	Reference 1240 1262	(Pradhan et al., 2012)
+T30	Reference 1325 1349	(Fernandes et al., 2012)
+T31	Reference 1473 1498	Raghunathan et al. (2010)
+T32	Reference 1503 1520	Lee et al. (2011)
+T33	Dominant 1617 1643	Cardie and Wagstaff (1999)
+T34	Dominant 1763 1786	Angheluta et al. (2004)
+T35	Dominant 1870 1895	Haghighi and Klein (2007)
+T36	Dominant 1898 1907	Ng (2008)
+T37	Dominant 1912 1938	Charniak and Elsner (2009)
+T38	Dominant 1984 2008	Poon and Domingos (2008)
+T39	Dominant 2186 2196	(Ng, 2008)
+T40	Reference 2238 2263	Raghunathan et al. (2010)
+T41	Pronoun 312 316	This
+T42	Pronoun 364 368	this
+T43	Pronoun 535 539	they
+T44	Pronoun 935 940	These
+T45	Pronoun 1796 1801	their
+T46	Pronoun 2095 2100	These
+T47	B_span 100 106	factor
+T48	E_span 156 160	1998
+T49	B_span 447 454	Nicolae
+T50	E_span 649 656	weights
+T51	B_span 677 681	work
+T52	E_span 786 794	entirely
+T53	B_span 802 808	Sapena
+T54	E_span 917 927	approaches
+T55	B_span 979 984	CoNLL
+T56	E_span 1056 1061	2011b
+T57	B_span 1093 1096	The
+T58	B_span 1137 1145	modified
+T59	E_span 1167 1171	2012
+T60	B_span 1219 1224	CoNLL
+T61	E_span 1257 1261	2012
+T62	E_span 1257 1261	2012
+T63	B_span 1304 1309	CoNLL
+T64	E_span 1344 1348	2012
+T65	B_span 1444 1449	multi
+T66	E_span 1493 1497	2010
+T67	B_span 1503 1506	Lee
+T68	E_span 1561 1565	task
+T69	B_span 1617 1623	Cardie
+T70	E_span 1747 1755	approach
+T71	B_span 1763 1772	Angheluta
+T72	E_span 1852 1862	algorithms
+T73	B_span 1870 1878	Haghighi
+T74	E_span 1970 1976	models
+T75	B_span 1984 1988	Poon
+T76	E_span 2077 2087	resolution
+T77	B_span 2170 2176	system
+T78	E_span 2191 2195	2008
+T79	B_span 2209 2214	multi
+T80	E_span 2258 2262	2010

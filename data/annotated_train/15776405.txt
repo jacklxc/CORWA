@@ -1,0 +1,15 @@
+[BOS] The first transliteration system for a Perso-Arabic to Indic script was presented by Malik (2006) , where he described a Shahmukhi to Gurmukhi transliteration system with 98% accuracy.
+[BOS] But the accuracy was achieved only when the input text had all necessary diacritical marks for removing ambiguities, even though the process of putting missing diacritical marks is not practically possible due to many reasons like large input size, manual intervention, person having knowledge of both the scripts and so on.
+[BOS] Saini et al. (2008) developed a system, which could automatically insert the missing diacritical marks in the Shahmukhi text and convert the text to Gurmukhi.
+[BOS] The system had been implemented with various research techniques based on corpus analysis of both scripts and an accuracy of 91.37% at word level had been reported.
+[BOS] Durrani et al. (2010) presented an approach to integrate transliteration into Hindi-to-Urdu statistical machine translation.
+[BOS] They proposed two probabilistic models, based on conditional and joint probability formulations and have reported an accuracy of 81.4%.
+[BOS] Lehal and Saini (2012) presented an Urdu to Hindi transliteration system and had claimed achieving an accuracy of 97.74% at word level.
+[BOS] The various challenges such as multiple/zero character mappings, missing diacritic marks in Urdu, multiple Hindi words mapped to an Urdu word, word segmentation issues in Urdu text etc.
+[BOS] have been handled by generating special rules and using various lexical resources such as n-gram language models at word and character level and Urdu-Hindi parallel corpus.
+[BOS] Recently Malik et al. (2013) have analysed the application of statistical machine translation for solving the problem of Urdu-Hindi transliteration using a parallel lexicon.
+[BOS] The authors reported a word level accuracy of 77.8% when the input Urdu text contained all necessary diacritical marks and 77% when the input Urdu text did not contain all necessary diacritical marks, which is much below the accuracy reported in earlier works.
+
+[BOS] A rule based converter for Kashmiri language from Persio-Arabic to Devanagari script has been developed by Kak et al. (2010) and authors have claimed 90% conversion accuracy.
+[BOS] Leghari and Rehman (2010)
+

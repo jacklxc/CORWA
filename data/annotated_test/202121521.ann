@@ -1,0 +1,39 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 94 99	[BOS]
+T3	Transition 473 478	[BOS]
+T4	Single_summ 662 667	[BOS]
+T5	Single_summ 782 787	[BOS]
+T6	Single_summ 926 931	[BOS]
+T7	Single_summ 1062 1067	[BOS]
+T8	Narrative_cite 1281 1286	[BOS]
+T9	Reflection 1448 1453	[BOS]
+T10	Reflection 1685 1690	[BOS]
+T11	Reflection 1824 1829	[BOS]
+T12	Reflection 2067 2072	[BOS]
+T13	Reference 214 238	(Rajpurkar et al., 2016)
+T14	Reference 313 334	(Wang and Jiang, 2016
+T15	Reference 336 352	Seo et al., 2016
+T16	Reference 354 372	Xiong et al., 2016
+T17	Reference 449 470	(Devlin et al., 2019)
+T18	Dominant 668 686	Asai et al. (2018)
+T19	Reference 1391 1415	(Rajpurkar et al., 2016)
+T20	Reference 1995 2013	(Cui et al., 2019)
+T21	Reference 2045 2064	(Shao et al., 2018)
+T22	Pronoun 788 792	They
+T23	Pronoun 941 945	they
+T24	Pronoun 1293 1297	they
+T25	Pronoun 1557 1561	this
+T26	B_span 208 213	SQuAD
+T27	E_span 233 237	2016
+T28	B_span 287 293	neural
+T29	E_span 368 372	2016
+T30	B_span 444 448	BERT
+T31	E_span 465 469	2019
+T32	B_span 668 672	Asai
+T33	E_span 1436 1445	realistic
+T34	B_span 1385 1390	SQuAD
+T35	E_span 1410 1414	2016
+T36	B_span 1964 1968	CMRC
+T37	E_span 2008 2012	2019
+T38	B_span 2018 2022	DRCD
+T39	E_span 2059 2063	2018

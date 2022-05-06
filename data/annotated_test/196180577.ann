@@ -1,0 +1,64 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 418 423	[BOS]
+T3	Single_summ 519 524	[BOS]
+T4	Single_summ 692 697	[BOS]
+T5	Single_summ 778 783	[BOS]
+T6	Transition 835 840	[BOS]
+T7	Narrative_cite 975 980	[BOS]
+T8	Reflection 1561 1566	[BOS]
+T9	Transition 1722 1727	[BOS]
+T10	Transition 1866 1871	[BOS]
+T11	Transition 1959 1964	[BOS]
+T12	Reflection 2068 2073	[BOS]
+T13	Reflection 2172 2177	[BOS]
+T14	Reference 55 76	(Gehring et al., 2017
+T15	Reference 78 106	Vaswani et al., 2017) 2018b)
+T16	Reference 118 145	(Chollampatt and Ng, 2018a)
+T17	Reference 178 194	(Ge et al., 2018
+T18	Reference 196 219	Lichtarge et al., 2018)
+T19	Reference 232 250	(Xie et al., 2018)
+T20	Reference 279 303	(Lichtarge et al., 2018)
+T21	Reference 341 371	(Junczys-Dowmunt et al., 2018)
+T22	Dominant 545 567	Flor and Futagi (2012)
+T23	Dominant 698 717	Zheng et al. (2018)
+T24	Reference 1143 1172	(Tiedemann and Scherrer, 2017
+T25	Reference 1174 1194	Bawden et al., 2018)
+T26	Reference 1262 1280	(Jean et al., 2017
+T27	Reference 1282 1299	Wang et al., 2017
+T28	Reference 1301 1320	Bawden et al., 2018
+T29	Reference 1322 1340	Voita et al., 2018
+T30	Reference 1342 1365	Miculicich et al., 2018
+T31	Reference 1392 1412	(Kuang et al., 2018)
+T32	Reference 1433 1449	(Tu et al., 2018
+T33	Reference 1451 1475	Maruf and Haffari, 2018)
+T34	B_span 20 28	sequence
+T35	E_span 105 106	)
+T36	B_span 108 112	resc
+T37	E_span 144 145	)
+T38	B_span 148 157	iterative
+T39	E_span 218 219	)
+T40	B_span 222 231	synthetic
+T41	E_span 249 250	)
+T42	B_span 255 259	semi
+T43	E_span 302 303	)
+T44	B_span 321 329	specific
+T45	E_span 370 371	)
+T46	B_span 525 528	For
+T47	E_span 690 691	.
+T48	B_span 698 703	Zheng
+T49	E_span 832 833	.
+T50	B_span 1042 1053	translating
+T51	E_span 1193 1194	)
+T52	B_span 1201 1206	using
+T53	E_span 1361 1365	2018
+T54	B_span 1383 1391	discrete
+T55	B_span 1416 1426	continuous
+T56	E_span 1413 1415	or
+T57	E_span 1476 1486	mechanisms
+T58	Pronoun 407 411	this
+T59	Pronoun 793 797	they
+T60	Pronoun 1611 1615	this
+T61	Pronoun 2085 2089	this
+T62	Pronoun 2178 2180	It
+T63	Pronoun 2204 2208	this
+T64	Pronoun 2266 2268	it

@@ -1,0 +1,19 @@
+[BOS] There has been done a lot of research regarding the automatic detection of hate speech on social media, in particular Twitter.
+[BOS] A great deal of different approaches to solve this task had been implemented in different works.
+[BOS] The majority of these studies was done on English texts.
+[BOS] It is clear that there is quite some overlap between each of these approaches.
+[BOS] However, direct comparison of previous approaches is not straightforward, as different datasets were used.
+
+[BOS] Most papers tried one or multiple different classifiers, albeit with different features, but in general SVM classifiers usually achieve the best performance (Saleem et al., 2016; Davidson et al., 2017) .
+
+[BOS] Some papers divided the 'hate' class into two classes.
+[BOS] For example, Watanabe et al. (2018) and Davidson et al. (2017) used the classes 'offensive' and 'hate', and Del Vigna et al. (2017) classified comments as 'weak hate' and 'strong hate'.
+
+[BOS] Both the j48graft algorithm in Watanabe et al. (2018) , and the SVM and LSTM in Del Vigna et al. (2017) performed better on a binary classification rather than a multiclass classification.
+[BOS] Davidson et al. (2017) also tried different classifiers including Naive Bayes, decision trees, SVM and logistic regression.
+[BOS] Their logistic regression and SVM classifiers achieved the best results.
+[BOS] Waseem and Hovy (2016) tried different features for a logistic regression classifier, among which the character n-grams up to length of four in combination with the user's gender information performed the best.
+
+[BOS] Other approaches are based on neural networks, like Zhang and Luo (2018) .
+[BOS] Their base convolutional neural network with a gap window (skipped CNN) had higher results than their SVM.
+

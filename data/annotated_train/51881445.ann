@@ -1,0 +1,70 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 309 314	[BOS]
+T3	Transition 398 403	[BOS]
+T4	Multi_summ 589 594	[BOS]
+T5	Single_summ 796 801	[BOS]
+T6	Multi_summ 903 908	[BOS]
+T7	Multi_summ 1060 1065	[BOS]
+T8	Multi_summ 1287 1292	[BOS]
+T9	Reflection 1360 1365	[BOS]
+T10	Reflection 1490 1495	[BOS]
+T11	Transition 1561 1566	[BOS]
+T12	Transition 1634 1639	[BOS]
+T13	Narrative_cite 1698 1703	[BOS]
+T14	Single_summ 1805 1810	[BOS]
+T15	Single_summ 1943 1948	[BOS]
+T16	Single_summ 2097 2102	[BOS]
+T17	Single_summ 2417 2422	[BOS]
+T18	Single_summ 2593 2598	[BOS]
+T19	Single_summ 2753 2758	[BOS]
+T20	Reflection 2877 2882	[BOS]
+T21	Reflection 3014 3019	[BOS]
+T22	Reference 57 74	(Cho et al., 2014
+T23	Reference 76 99	Sutskever et al., 2014)
+T24	Reference 241 260	(Shang et al., 2015
+T25	Reference 262 283	Sordoni et al., 2015b
+T26	Reference 285 306	Vinyals and Le, 2015)
+T27	Dominant 595 612	Li et al. (2016a)
+T28	Dominant 615 635	Serban et al. (2017)
+T29	Dominant 637 657	Cao and Clark (2017)
+T30	Dominant 825 842	Li et al. (2016a)
+T31	Dominant 909 929	Serban et al. (2017)
+T32	Dominant 932 952	Cao and Clark (2017)
+T33	Dominant 957 975	Chen et al. (2018)
+T34	Dominant 1066 1091	Vijayakumar et al. (2016)
+T35	Dominant 1094 1112	Shao et al. (2017)
+T36	Dominant 1117 1134	Li et al. (2016b)
+T37	Reference 1766 1783	(Yin et al., 2016
+T38	Reference 1785 1802	He et al., 2017a)
+T39	Dominant 1811 1828	Yin et al. (2016)
+T40	Dominant 1949 1966	He et al. (2017a)
+T41	Dominant 2103 2121	Eric et al. (2017)
+T42	Dominant 2423 2450	Ghazvininejad et al. (2017)
+T43	Dominant 2599 2616	Zhu et al. (2017)
+T44	Dominant 2759 2780	Dhingra et al. (2017)
+T45	B_span 1704 1707	The
+T46	B_span 23 31	sequence
+T47	E_span 94 98	2014
+T48	E_span 301 305	2015
+T49	B_span 127 135	dialogue
+T50	B_span 595 597	Li
+T51	E_span 784 794	likelihood
+T52	B_span 825 827	Li
+T53	E_span 892 901	objective
+T54	B_span 909 915	Serban
+T55	E_span 1049 1058	diversity
+T56	B_span 1066 1077	Vijayakumar
+T57	E_span 1350 1358	decoding
+T58	E_span 1796 1801	2017a
+T59	B_span 1811 1814	Yin
+T60	E_span 1937 1941	fact
+T61	B_span 1949 1951	He
+T62	E_span 2087 2095	sequence
+T63	B_span 2103 2107	Eric
+T64	E_span 2413 2415	KB
+T65	B_span 2423 2436	Ghazvininejad
+T66	E_span 2585 2591	vector
+T67	B_span 2599 2602	Zhu
+T68	E_span 2748 2751	set
+T69	B_span 2759 2766	Dhingra
+T70	E_span 2869 2875	lookup

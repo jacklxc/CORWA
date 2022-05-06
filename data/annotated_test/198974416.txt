@@ -1,0 +1,8 @@
+[BOS] Early studies on named entity recognition heavily relied on language-specific knowledge resources, such as hand-crafted features or gazetteers (Lafferty et al., 2001; Ratinov and Roth, 2009; Tsai et al., 2016) .
+[BOS] However, this approach was costly for new languages and domains.
+[BOS] Thus, end-toend approaches that do not rely on any external knowledge were proposed.
+[BOS] Sobhana et al. (2010) proposed to use a CRF without any external resources, to leverage the label dependencies.
+[BOS] Then, neural-based approaches, such as LSTM with a CRF (Lample et al., 2016; Lin et al., 2017; Greenberg et al., 2018) and LSTM with a CNN (Chiu and Nichols, 2016) showed a significant improvement in performance.
+[BOS] Liu et al. (2018) ; Trivedi et al. (2018) proposed a character-level LSTM to capture the underlying style and structure, such as word boundaries and spellings.
+[BOS] Finally, wordembedding ensemble techniques and preprocessing techniques, such as tokenization and normal-ization have been introduced to reduce OOV issues (Winata et al., 2018b; .
+

@@ -1,0 +1,16 @@
+[BOS] This work largely follows the methodology and experimental settings of (Mikolov et al., 2013b) , while we normalize the embedding and use an orthogonal transform to conduct bilingual translation.
+
+[BOS] Multilingual learning can be categorized into projection-based approaches and regularizationbased approaches.
+[BOS] In the projection-based approaches, the embedding is performed for each language individually with monolingual data, and then one or several projections are learned using multilingual data to represent the relation between languages.
+[BOS] Our method in this paper and the linear projection method in (Mikolov et al., 2013b ) both belong to this category.
+[BOS] Another interesting work proposed by (Faruqui and Dyer, 2014) learns linear transforms that project word vectors of all languages to a common low-dimensional space, where the correlation of the multilingual word pairs is maximized with the canonical correlation analysis (CCA).
+
+[BOS] The regularization-based approaches involve the multilingual constraint in the objective function for learning the embedding.
+[BOS] For example, (Zou et al., 2013) adds an extra term that reflects the distances of some pairs of semantically related words from different languages into the objective funtion.
+[BOS] A similar approach is proposed in (Klementiev et al., 2012) , which casts multilingual learning as a multitask learning and encodes the multilingual information in the interaction matrix.
+
+[BOS] All the above methods rely on a multilingual lexicon or a word/pharse alignment, usually from a machine translation (MT) system.
+[BOS] (Blunsom et al., 2014) proposed a novel approach based on a joint optimization method for word alignments and the embedding.
+[BOS] A simplified version of this approach is proposed in (Hermann and Blunsom, 2014) , where a sentence is represented by the mean vector of the words involved.
+[BOS] Multilingual learning is then reduced to maximizing the overall distance of the parallel sentences in the training corpus, with the distance computed upon the sentence vectors.
+

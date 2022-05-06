@@ -1,0 +1,13 @@
+[BOS] Given a range of application areas, such as intelligent tutoring systems, dialogue systems and question answering systems, question generation has attracted larger research attention in NLP community.
+[BOS] The major trend in question generation has shifted from template-based generation systems to neural network-based end-to-end methods (Pan et al., 2019) , which generally employs encoder-decoder models.
+[BOS] Succeeding the pioneering work (Du et al., 2017) , several proposals Du and Cardie, 2018; Yuan et al., 2017; Tang et al., 2017) have been made to chiefly improve the quality of generated questions.
+[BOS] These methods all deal with text-based question answering, which relies on datasets, such as SQuAD (Rajpurkar et al., 2018) , which was originally developed for the machine reading for question answering (MRQA) research.
+[BOS] In the context of the present work, however, it should be noted that the majority of these methods are answer-aware, which means that a generation system requires the corresponding answer to a to-be-generated question is supplied.
+
+[BOS] Recently, research interests in MRQA have been extended to conversational-style QA, in which a series of inter-related QA turns is performed in the expectation that it would simulate more natural interactions involving a human.
+[BOS] Datasets such as CoQA (Reddy et al., 2019) and QuAC (Choi et al., 2018) have been developed to facilitate the relevant research efforts (Yatskar, 2019) .
+[BOS] Given this trend, Gao et al. (2019) was first to propose a framework for conversational question generation (CQG).
+[BOS] Their proposal has initiated the dedicated field of CQG by particularly considering coreferences and conversion flows, both may be essential elements in conversational QA.
+[BOS] Their proposal, however, remained answeraware, which may somehow restrict its application areas, in particular such as dialogue systems.
+[BOS] Thus answer-unaware conversational question generation first to offered by the present work would be a natural research direction to go.
+

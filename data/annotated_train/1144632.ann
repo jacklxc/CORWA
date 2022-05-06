@@ -1,0 +1,23 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 73 78	[BOS]
+T3	Narrative_cite 289 294	[BOS]
+T4	Narrative_cite 469 474	[BOS]
+T5	Narrative_cite 652 657	[BOS]
+T6	Reflection 770 775	[BOS]
+T7	Reference 143 167	(Collobert et al., 2011)
+T8	Reference 244 263	(Huang et al., 2012
+T9	Reference 265 286	Mikolov et al., 2013)
+T10	Reference 446 466	(Ling et al., 2015a)
+T11	Reference 527 546	(Tang et al., 2014)
+T12	Reference 744 767	(Bahdanau et al., 2014)
+T13	Pronoun 658 662	This
+T15	E_span 281 285	2013
+T17	E_span 460 465	2015a
+T21	E_span 762 766	2014
+T14	B_span 118 127	recurrent
+T22	E_span 162 166	2011
+T23	B_span 245 250	Huang
+T16	B_span 435 445	embeddings
+T24	E_span 541 545	2014
+T19	B_span 724 731	machine
+T18	B_span 506 512	vision

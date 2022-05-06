@@ -1,0 +1,39 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 59 64	[BOS]
+T3	Single_summ 216 221	[BOS]
+T4	Transition 282 287	[BOS]
+T5	Single_summ 421 426	[BOS]
+T6	Single_summ 595 600	[BOS]
+T7	Single_summ 786 791	[BOS]
+T8	Single_summ 864 869	[BOS]
+T9	Single_summ 1023 1028	[BOS]
+T10	Transition 1118 1123	[BOS]
+T11	Single_summ 1169 1174	[BOS]
+T12	Single_summ 1277 1282	[BOS]
+T13	Single_summ 1391 1396	[BOS]
+T14	Single_summ 1562 1567	[BOS]
+T15	Dominant 79 101	(Vaswani et al., 2018)
+T16	Dominant 435 456	(Klein et al., 2017 )
+T17	Dominant 611 642	(Junczys-Dowmunt et al., 2018 )
+T19	Dominant 876 893	(Hu et al., 2018)
+T20	Dominant 1186 1209	(Burtsev et al., 2018 )
+T21	Dominant 1449 1469	(Dinan et al., 2019)
+T23	Dominant 1575 1597	(Miller et al., 2017 )
+T24	Pronoun 222 224	It
+T25	Pronoun 792 794	It
+T26	Pronoun 1029 1031	It
+T27	Pronoun 1283 1285	It
+T28	B_span 65 78	Tensor2Tensor
+T29	E_span 271 280	baselines
+T30	B_span 427 434	OpenNMT
+T31	E_span 583 593	TensorFlow
+T32	B_span 601 610	MarianNMT
+T34	E_span 855 862	systems
+T18	B_span 870 875	Texar
+T33	E_span 1110 1115	tools
+T35	B_span 1175 1185	DeepPavlov
+T36	E_span 1375 1389	classification
+T37	B_span 1431 1438	ConvAI2
+T38	E_span 1553 1560	dataset
+T22	B_span 1568 1574	ParlAI
+T39	E_span 1799 1800	.

@@ -1,0 +1,65 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 96 101	[BOS]
+T3	Single_summ 243 248	[BOS]
+T4	Other 409 414	[BOS]
+T5	Other 462 467	[BOS]
+T6	Other 669 674	[BOS]
+T7	Single_summ 830 835	[BOS]
+T8	Other 945 950	[BOS]
+T9	Transition 1099 1104	[BOS]
+T10	Transition 1164 1169	[BOS]
+T11	Transition 1260 1265	[BOS]
+T12	Transition 1380 1385	[BOS]
+T13	Single_summ 1571 1576	[BOS]
+T14	Single_summ 1826 1831	[BOS]
+T15	Single_summ 1994 1999	[BOS]
+T16	Transition 2173 2178	[BOS]
+T17	Transition 2275 2280	[BOS]
+T18	Transition 2467 2472	[BOS]
+T19	Single_summ 2530 2535	[BOS]
+T20	Single_summ 2643 2648	[BOS]
+T21	Single_summ 2765 2770	[BOS]
+T22	Single_summ 2942 2947	[BOS]
+T23	Multi_summ 3195 3200	[BOS]
+T24	Single_summ 3339 3344	[BOS]
+T25	Transition 3458 3463	[BOS]
+T26	Transition 3530 3535	[BOS]
+T27	Reflection 3693 3698	[BOS]
+T28	Reflection 3898 3903	[BOS]
+T29	Dominant 127 147	Sasano et al. (2013)
+T30	Dominant 1577 1596	Saito et al. (2014)
+T31	Dominant 2000 2027	Kaji and Kitsuregawa (2014)
+T32	Dominant 2549 2569	Sasaki et al. (2013)
+T33	Dominant 3024 3046	Han and Baldwin (2011)
+T34	Dominant 3201 3218	Han et al. (2012)
+T35	Dominant 3223 3248	Hassan and Menezes (2013)
+T36	Dominant 3345 3371	Yang and Eisenstein (2013)
+T37	Pronoun 249 254	Their
+T38	Pronoun 447 451	this
+T39	Pronoun 525 527	It
+T40	Pronoun 845 850	their
+T41	Pronoun 954 958	this
+T42	Pronoun 1148 1153	their
+T43	Pronoun 1221 1226	these
+T44	Pronoun 1338 1342	they
+T45	Pronoun 1706 1711	these
+T46	Pronoun 1841 1845	this
+T47	Pronoun 1909 1911	it
+T48	Pronoun 1973 1978	their
+T50	Pronoun 2434 2436	it
+T51	Pronoun 3467 3472	these
+T52	Pronoun 3825 3830	these
+T53	B_span 102 105	The
+T54	E_span 401 407	lookup
+T49	B_span 1577 1582	Saito
+T55	E_span 1979 1992	normalization
+T56	B_span 2000 2004	Kaji
+T57	E_span 2166 2171	rules
+T58	B_span 2549 2555	Sasaki
+T59	E_span 2933 2939	tokens
+T60	B_span 3024 3027	Han
+T61	E_span 3180 3192	similarities
+T62	B_span 3201 3204	Han
+T63	E_span 3330 3337	English
+T64	B_span 3345 3349	Yang
+T65	E_span 3451 3456	model

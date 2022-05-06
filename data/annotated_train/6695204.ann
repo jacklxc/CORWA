@@ -1,0 +1,38 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 160 165	[BOS]
+T3	Transition 271 276	[BOS]
+T4	Transition 384 389	[BOS]
+T5	Transition 481 486	[BOS]
+T6	Transition 565 570	[BOS]
+T7	Transition 644 649	[BOS]
+T8	Transition 725 730	[BOS]
+T9	Single_summ 842 847	[BOS]
+T10	Reflection 947 952	[BOS]
+T11	Transition 1116 1121	[BOS]
+T12	Transition 1258 1263	[BOS]
+T13	Other 1322 1327	[BOS]
+T14	Other 1517 1522	[BOS]
+T15	Other 1760 1765	[BOS]
+T16	Other 1831 1836	[BOS]
+T17	Narrative_cite 1923 1928	[BOS]
+T18	Reflection 2039 2044	[BOS]
+T19	Reflection 2152 2157	[BOS]
+T20	Other 2240 2245	[BOS]
+T21	Reference 103 115	(Sun, 2010b)
+T22	Reference 132 157	(Sun and Uszkoreit, 2012)
+T23	Dominant 848 867	Huang et al. (2009)
+T24	Reference 1942 1969	Surdeanu and Manning (2010)
+T25	B_span 77 84	Chinese
+T26	E_span 109 114	2010b
+T27	B_span 120 123	POS
+T28	E_span 156 157	)
+T29	B_span 848 853	Huang
+T30	E_span 934 945	annotations
+T31	B_span 1942 1945	Sur
+T32	E_span 1973 1981	findings
+T33	Pronoun 277 282	Their
+T34	Pronoun 487 489	It
+T35	Pronoun 1264 1266	It
+T36	Pronoun 1842 1846	this
+T37	Pronoun 2079 2083	this
+T38	Pronoun 2221 2226	these

@@ -1,0 +1,42 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 118 123	[BOS]
+T3	Transition 386 391	[BOS]
+T4	Single_summ 525 530	[BOS]
+T5	Single_summ 679 684	[BOS]
+T6	Single_summ 763 768	[BOS]
+T7	Single_summ 900 905	[BOS]
+T8	Single_summ 1032 1037	[BOS]
+T9	Single_summ 1170 1175	[BOS]
+T10	Single_summ 1280 1285	[BOS]
+T11	Reflection 1462 1467	[BOS]
+T12	Narrative_cite 1631 1636	[BOS]
+T13	Other 1690 1695	[BOS]
+T14	Other 1824 1829	[BOS]
+T15	Other 1894 1899	[BOS]
+T16	Transition 1960 1965	[BOS]
+T17	Transition 2082 2087	[BOS]
+T18	Reference 191 214	(Waseem and Hovy, 2016)
+T19	Reference 227 249	(Wulczyn et al., 2016)
+T20	Reference 263 288	(Samghabadi et al., 2017)
+T21	Dominant 531 551	Nobata et al. (2016)
+T22	Dominant 769 791	Davidson et al. (2017)
+T23	Dominant 906 927	Van Hee et al. (2015)
+T24	Dominant 1038 1062	Samghabadi et al. (2017)
+T25	Dominant 1295 1322	Malmasi and Zampieri (2018)
+T26	Reference 1667 1687	Kumar et al. (2018b)
+T27	B_span 183 190	Twitter
+T28	E_span 209 213	2016
+T29	B_span 217 226	Wikipedia
+T30	E_span 244 248	2016
+T31	B_span 531 537	Nobata
+T32	E_span 753 761	features
+T33	B_span 769 777	Davidson
+T34	E_span 894 898	data
+T35	B_span 906 909	Van
+T36	E_span 1024 1030	ask.fm
+T37	B_span 1038 1048	Samghabadi
+T38	E_span 1270 1277	sources
+T39	B_span 1286 1291	Based
+T40	E_span 1452 1460	comments
+T41	B_span 1637 1640	The
+T42	E_span 1681 1686	2018b

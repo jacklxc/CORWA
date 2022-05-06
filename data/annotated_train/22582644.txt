@@ -1,0 +1,18 @@
+[BOS] In the last few years, several solutions have been proposed to the problem of building common representations for images and text with the goal of enabling cross-domain search [1, 2, 3, 4, 5] .
+[BOS] This paper builds upon the methodology described by Kiros et al. [1] , which is in turn based on previous works in the area of Neural Machine Translation [14] .
+[BOS] In their work, Kiros et al. [1] define a vectorized representation of an input text by using GRU RNNs.
+[BOS] In this setting, each word in the text is codified into a vector using a word dictionary, vectors which are then fed one by one into the GRUs.
+[BOS] Once the last word vector has been processed, the activations of the GRUs at the last time step conveys the representation of the whole input text in the multimodal embedding space.
+[BOS] In parallel, images are processed through a Convolutional Neural Network (CNN) pre-trained on ImageNet [15] , extracting the activations of the last fully connected layer to be used as a representation of the images.
+[BOS] To solve the dimensionality matching between both representations (the output of the GRUs and the last fully-connected of the CNN) an affine transformation is applied on the image representation.
+
+[BOS] Similarly to the approach of Kiros et al. [1] , most image annotation and image retrieval approaches rely on the use of CNN features for image representation.
+[BOS] The current best overall performing model (considering both image annotation and image retrieval tasks) is the Fisher Vector (FV) [4] , although its performance is most competitive on the image retrieval task.
+[BOS] FV are computed with respect to the parameters of a Gaussian Mixture Model (GMM) and an Hybrid Gaussian-Laplacian Mixture Model (HGLMM).
+[BOS] For both images and text, FV are build using deep neural network features; a VGG [16] CNN for images features, and a word2vec [17] for text features.
+[BOS] For the specific problem of image annotation, the current state-of-art is obtained with the Word2VisualVec (W2VV) model [18] .
+[BOS] This approach uses as a multimodal embedding space the same visual space where images are represented, involving a deeper text processing.
+[BOS] Finally for the largest dataset we consider (MSCOCO), the best results in certain metrics are obtained by MatchCNN (m-CNN) [5] , which is based on the use of CNNs to encode both image and text.
+[BOS] the FNE, which results in the architecture shown in Figure 1 .
+[BOS] Next we describe these components in further detail.
+

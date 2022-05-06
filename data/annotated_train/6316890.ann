@@ -1,0 +1,24 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 127 132	[BOS]
+T3	Single_summ 402 407	[BOS]
+T4	Single_summ 508 513	[BOS]
+T5	Reflection 653 658	[BOS]
+T6	Reflection 927 932	[BOS]
+T7	Reflection 999 1004	[BOS]
+T8	Reflection 1137 1142	[BOS]
+T9	Dominant 133 159	Chooi-Ling Goh et al. [16]
+T10	Dominant 162 185	Jianfeng Gao et al. [8]
+T11	Dominant 190 207	Huaping Zhang [3]
+T12	Dominant 266 274	Luo [11]
+T13	Dominant 277 290	Yao Meng [12]
+T14	Dominant 295 312	Shengfen Luo [17]
+T15	Dominant 408 419	T. Nakagawa
+T17	Dominant 514 536	Hwee Tou Ng et al. [5]
+T18	B_span 133 138	Chooi
+T19	E_span 256 261	words
+T20	B_span 266 269	Luo
+T21	E_span 390 400	extraction
+T22	B_span 408 410	T.
+T23	E_span 489 501	segmentation
+T16	B_span 514 518	Hwee
+T24	E_span 643 651	analyzer

@@ -1,0 +1,23 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 160 165	[BOS]
+T3	Reflection 263 268	[BOS]
+T4	Reflection 405 410	[BOS]
+T5	Reflection 486 491	[BOS]
+T6	Narrative_cite 651 656	[BOS]
+T7	Single_summ 835 840	[BOS]
+T8	Narrative_cite 1006 1011	[BOS]
+T9	Reference 110 131	(Germann et al., 2001
+T10	Reference 133 157	Riedel and Clarke, 2006)
+T11	Reference 762 787	(Punyakanok et al., 2004)
+T12	Dominant 841 868	Meza-Ruiz and Riedel (2009)
+T13	Reference 1171 1195	(Toutanova et al., 2005)
+T14	Pronoun 411 415	This
+T15	Pronoun 965 969	this
+T16	B_span 85 92	Integer
+T17	E_span 152 156	2006
+T18	B_span 736 742	unique
+T19	E_span 782 786	2004
+T20	B_span 841 845	Meza
+T21	E_span 994 1004	constraint
+T22	B_span 1108 1112	such
+T23	E_span 1190 1194	2005

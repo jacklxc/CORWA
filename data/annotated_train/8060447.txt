@@ -1,0 +1,3 @@
+[BOS] Apart from the work on direct/projected transfer and annotation projection mentioned above, the proposed method can be seen as a more explicit kind of domain adaptation, similar to Titov (2011) or Blitzer et al. (2006) .
+[BOS] It is also somewhat similar in spirit to Mikolov et al. (2013b) , where a small number of word translation pairs are used to estimate a mapping between distributed representations of words in two different languages and build a word translation model.
+

@@ -1,0 +1,34 @@
+[BOS] Bilingual Lexicon Induction Previous research has used different sources for estimating transla-1 http://www.cis.upenn.edu/%7Ederry/translations.html tions from monolingual corpora.
+[BOS] Signals such as contextual, temporal, topical, and ortographic similarities between words are used to measure their translation equivalence (Schafer and Yarowsky, 2002; Klementiev and Roth, 2006; Callison-Burch, 2013, 2017) .
+[BOS] With the increasing popularity of word embeddings, many recent works approximate similarities between words in different languages by constructing a shared bilingual embedding space (Klementiev et al., 2012b; Zou et al., 2013; Vuli and Moens, 2013; Mikolov et al., 2013a; Faruqui and Dyer, 2014; Chandar A P et al., 2014; Gouws et al., 2015; Luong et al., 2015; Lu et al., 2015; Upadhyay et al., 2016) .
+[BOS] In the shared space, words from different languages are represented in a language-independent manner such that similar words, regardless of language, have similar representations.
+[BOS] Similarities between words can then be measured in the shared space.
+[BOS] One approach to induce this shared space is to learn a mapping function between the languages' monolingual semantic spaces (Mikolov et al., 2013a; Dinu et al., 2014) .
+[BOS] The mapping relies on seed translations which can be from existing dictionaries or be reliably chosen from pseudo-bilingual corpora of comparable texts e.g., Wikipedia with interlanguage links.
+[BOS] Vuli and Moens (2015) show that by learning a linear function with a reliably chosen seed lexicon, they outperform other models with more expensive bilingual signals for training on benchmark data.
+
+[BOS] Most prior work on BLI however, either makes use of only one monolingual signal or uses unsupervised methods (e.g., rank combination) to aggregate the signals.
+[BOS] Irvine and Callison-Burch (2016) show that combining monolingual signals in a supervised logistic regression model produces higher accuracy word translations than unsupervised models.
+[BOS] More recently, show that their multi-modal model that employs a simple weighted-sum of word embeddings and visual similarities can improve translation accuracy.
+[BOS] These works show that there is a need for combining diverse, multi-modal monolingual signals of translations.
+[BOS] In this paper, we take this step further by combining the monolingual signals with bilingual signals of translations from existing bilingual dictionaries of related, "third" languages.
+
+[BOS] Bayesian Personalized Ranking (BPR) Our approach is based on extensions to the probabilis-tic model of MF in collaborative filtering (Koren et al., 2009; Rendle et al., 2009) .
+[BOS] We represent our translation task as a matrix with source words in the columns and target words in the rows (Figure 1) .
+[BOS] Based on some observed translations in the matrix found in a seed dictionary, our model learns low-dimensional feature vectors that encode the latent properties of the words in the row and the words in the column.
+[BOS] The dot product of these vectors, which indicate how "aligned" the source and the target word properties are, captures how likely they are to be translations.
+
+[BOS] Since we do not observe false translations in the seed dictionary, the training data in the matrix consists only of positive translations.
+[BOS] The absence of values in the matrix does not imply that the corresponding words are not translations.
+[BOS] In fact, we seek to predict which of these missing values are true.
+[BOS] The BPR approach to MF (Rendle et al., 2009) formulates the task of predicting missing values as a ranking task.
+[BOS] With the assumption that observed true translations should be given higher values than unobserved translations, BPR learns to optimize the difference between values assigned to the observed translations and values assigned to the unobserved translations.
+
+[BOS] However, due to the sparsity of existing bilingual dictionaries (for some language pairs such dictionaries may not exist), the traditional formulation of MF with BPR suffers from the "cold start" issue (Gantner et al., 2010; He and McAuley, 2016; Verga et al., 2016) .
+[BOS] In our case, these are situations in which some source words have no translations to any word in the target or related languages.
+[BOS] For these words, additional information, e.g., monolingual signals of translation equivalence or language-independent representations such as visual representations, must be used.
+
+[BOS] We use bilingual translations from the source to the target language, English, obtained from Wikipedia page titles with interlanguage links.
+[BOS] Since Wikipedia pages in the source language may be linked to pages in languages other than English, we also use high accuracy, crowdsourced translations (Pavlick et al., 2014 ) from these third languages to English as additional bilingual translations.
+[BOS] To alleviate the cold start issue, when a source word has no existing known translation to English or other third languages, our model backsoff to additional signals of translation equivalence estimated based on its word embedding and visual representations.
+

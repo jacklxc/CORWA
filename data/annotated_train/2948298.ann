@@ -1,0 +1,121 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 109 114	[BOS]
+T3	Multi_summ 412 417	[BOS]
+T4	Narrative_cite 607 612	[BOS]
+T5	Transition 809 814	[BOS]
+T6	Transition 954 959	[BOS]
+T7	Multi_summ 1053 1058	[BOS]
+T8	Multi_summ 1230 1235	[BOS]
+T9	Single_summ 1426 1431	[BOS]
+T10	Single_summ 1706 1711	[BOS]
+T11	Single_summ 1778 1783	[BOS]
+T12	Single_summ 1955 1960	[BOS]
+T13	Single_summ 2069 2074	[BOS]
+T14	Reflection 2253 2258	[BOS]
+T15	Transition 2408 2413	[BOS]
+T16	Single_summ 2629 2634	[BOS]
+T17	Single_summ 2812 2817	[BOS]
+T18	Single_summ 3053 3058	[BOS]
+T19	Single_summ 3192 3197	[BOS]
+T20	Single_summ 3397 3402	[BOS]
+T21	Transition 3465 3470	[BOS]
+T22	Transition 3579 3584	[BOS]
+T23	Reflection 3727 3732	[BOS]
+T24	Reflection 3788 3793	[BOS]
+T25	Reflection 3994 3999	[BOS]
+T26	Reflection 4358 4363	[BOS]
+T27	Reflection 4445 4450	[BOS]
+T28	Reflection 4574 4579	[BOS]
+T29	Reflection 4748 4753	[BOS]
+T30	Reflection 4850 4855	[BOS]
+T31	Reflection 5006 5011	[BOS]
+T32	Reflection 5159 5164	[BOS]
+T33	Reflection 5389 5394	[BOS]
+T34	Single_summ 5460 5465	[BOS]
+T35	Single_summ 5547 5552	[BOS]
+T36	Transition 5783 5788	[BOS]
+T37	Transition 5924 5929	[BOS]
+T38	Single_summ 6054 6059	[BOS]
+T39	Single_summ 6215 6220	[BOS]
+T40	Single_summ 6320 6325	[BOS]
+T41	Single_summ 6536 6541	[BOS]
+T42	Reflection 6704 6709	[BOS]
+T43	Reference 122 139	Fang et al., 2015
+T44	Reference 141 172	Chen and Lawrence Zitnick, 2015
+T45	Reference 174 194	Donahue et al., 2015
+T46	Reference 196 222	Karpathy and Fei-Fei, 2015
+T47	Reference 224 244	Vinyals et al., 2015
+T48	Reference 426 444	Antol et al., 2015
+T49	Reference 446 472	Malinowski and Fritz, 2014
+T50	Reference 474 497	Malinowski et al., 2015
+T51	Reference 499 516	Ren et al., 2015)
+T52	Reference 765 787	(Bernardi et al., 2016
+T53	Reference 789 805	Wu et al., 2016)
+T54	Reference 1164 1181	(Ren et al., 2015
+T55	Reference 1183 1203	Agrawal et al., 2016
+T56	Reference 1205 1227	Kafle and Kanan, 2016)
+T57	Dominant 1374 1392	Jabri et al., 2016
+T58	Dominant 1394 1423	Hodosh and Hockenmaier, 2016)
+T59	Dominant 1432 1451	Zhang et al. (2016)
+T60	Dominant 1527 1546	Antol et al. (2015)
+T61	Dominant 2075 2094	Jabri et al. (2016)
+T64	Dominant 2635 2654	Zhang et al. (2016)
+T65	Dominant 2818 2838	Goyal et al. (2016a)
+T66	Reference 2863 2882	Antol et al. (2015)
+T68	Dominant 3059 3088	Hodosh and Hockenmaier (2016)
+T69	Reference 3273 3293	(Young et al., 2014)
+T73	Dominant 6060 6085	Elliott and Keller (2014)
+T74	Dominant 6356 6378	Anderson et al. (2016)
+T76	B_span 1432 1437	Zhang
+T77	E_span 2054 2067	architectures
+T78	B_span 2075 2080	Jabri
+T79	E_span 2244 2251	systems
+T62	B_span 2635 2640	Zhang
+T63	E_span 2804 2810	errors
+T80	B_span 2818 2823	Goyal
+T67	E_span 3043 3051	question
+T81	B_span 3059 3065	Hodosh
+T82	E_span 3383 3394	distractors
+T70	Dominant 3444 3462	Ding et al. (2016)
+T71	B_span 3403 3407	Most
+T72	E_span 3719 3725	decoys
+T83	B_span 5466 5473	Finally
+T84	E_span 5771 5780	questions
+T85	B_span 6060 6067	Elliott
+T86	E_span 6308 6318	judgements
+T75	B_span 6326 6328	In
+T87	E_span 6698 6702	them
+T88	B_span 115 117	In
+T89	E_span 405 410	image
+T90	B_span 418 420	In
+T91	E_span 600 605	image
+T92	B_span 747 753	recent
+T93	E_span 800 804	2016
+T94	B_span 1093 1099	Recent
+T95	E_span 1222 1226	2016
+T96	B_span 1236 1240	Even
+T97	E_span 1418 1422	2016
+T98	B_span 3263 3272	Flickr30K
+T99	E_span 3292 3293	)
+T100	Pronoun 160 162	it
+T101	Pronoun 823 828	their
+T102	Pronoun 838 840	it
+T103	Pronoun 1549 1553	they
+T104	Pronoun 1602 1606	this
+T105	Pronoun 1784 1788	This
+T106	Pronoun 1961 1965	They
+T107	Pronoun 2273 2277	this
+T108	Pronoun 3198 3203	Their
+T109	Pronoun 3480 3484	they
+T110	Pronoun 3585 3589	They
+T111	Pronoun 3801 3806	their
+T112	Pronoun 3881 3883	it
+T113	Pronoun 5021 5026	their
+T114	Pronoun 5165 5169	This
+T115	Pronoun 5283 5285	it
+T116	Pronoun 5553 5557	This
+T117	Pronoun 5930 5932	It
+T118	Pronoun 6221 6226	Their
+T119	Pronoun 6542 6546	They
+T120	Pronoun 6713 6717	this
+T121	Pronoun 6735 6739	this

@@ -1,0 +1,9 @@
+[BOS] The reports of the shared task in NEWS 2009 (Li et al., 2009 ) and NEWS 2010 (Li et al., 2010 highlighted two particularly popular approaches for transliteration generation among the participating systems.
+[BOS] One is phrase-based statistical machine transliteration (e.g. Song et al., 2010; Finch and Sumita, 2010 ) and the other is Conditional Random Fields which treats the task as one of sequence labelling (e.g. Shishtla et al., 2009) .
+[BOS] Besides these popular methods, for instance, Huang et al. (2011) used a non-parametric Bayesian learning approach in a recent study.
+
+[BOS] Regarding the basic unit of transliteration, traditional systems are mostly phoneme-based (e.g. Knight and Graehl, 1998) .
+[BOS] Li et al. (2004) suggested a grapheme-based Joint SourceChannel Model within the Direct Orthographic Mapping framework.
+[BOS] Models based on characters (e.g. Shishtla et al., 2009) , syllables (e.g. Wutiwiwatchai and Thangthai, 2010) , as well as hybrid units (e.g. Oh and Choi, 2005) , are also seen.
+[BOS] In addition to phonetic features, others like temporal, semantic, and tonal features have also been found useful in transliteration (e.g. Tao et al., 2006; Li et al., 2007; Kwong, 2009) .
+

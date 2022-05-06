@@ -1,0 +1,11 @@
+[BOS] This work falls under a large body of work on incorporating linguistically sound structures into neural networks for more effective text representation.
+[BOS] One such line of work is sub-lexical models.
+[BOS] In these models, word representations are enriched by explicitly modeling characters (Ma and Hovy, 2016; Kim et al., 2016) or morphemes (Luong et al., 2013; Botha and Blunsom, 2014; Cotterell et al., 2016) .
+[BOS] For languages with complex orthography, sub-character models have also been proposed.
+[BOS] Previous works consider modeling graphical components of Chinese characters called radicals (Sun et al., 2014; Yin et al., 2016) and syllable-blocks of Korean characters-either as atomic (Choi et al., 2017) or as non-linear functions of underlying jamo letters through Unicode decomposition (Stratos, 2017) .
+[BOS] The present work also aims to incorporate subword information into word embeddings, and does so by modeling morphology.
+[BOS] However, this work differs from those above in the means of composition, as our method is based principally on function application.
+[BOS] Here, we take derivational morphemes (i.e. affixes) as functions, and stems as arguments.
+[BOS] Broadly speaking, this work can be seen as an extension of Baroni et al. (2014) 's compositional distributional semantic framework to the sub-word level.
+[BOS] At a more narrow level, our work is reminiscent of Baroni and Zamparelli (2010) , who model adjectives as matrices and nouns as vectors, and work like Hartung et al. (2017) , which seeks to learn composition functions in addition to vector representations.
+

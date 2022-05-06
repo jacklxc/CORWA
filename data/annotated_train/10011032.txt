@@ -1,0 +1,62 @@
+[BOS] The current peace is awarded to peace-operation-related groups.
+
+[BOS] the only difference is the existence of the last word S; however, whether or not this word exists changes the whole syntactic structure and segmentation of the sentence.
+[BOS] This is an example in which word segmentation cannot be handled properly without considering long-range syntactic information.
+
+[BOS] Syntactic information is also considered beneficial to improve the segmentation of out-ofvocabulary (OOV) words.
+[BOS] Unlike languages such as Japanese that use a distinct character set (i.e. katakana) for foreign words, the transliterated words in Chinese, many of which are OOV words, frequently include characters that are also used as common or function words.
+[BOS] In the current systems, the existence of these characters causes numerous oversegmentation errors for OOV words.
+
+[BOS] Based on these observations, we aim at building a joint model that simultaneously processes word segmentation, POS tagging, and dependency parsing, trying to capture global interaction among these three tasks.
+[BOS] To handle the increased computational complexity, we adopt the incremental parsing framework with dynamic programming (Huang and Sagae, 2010) , and propose an efficient method of character-based decoding over candidate structures.
+
+[BOS] Two major challenges exist in formalizing the joint segmentation and dependency parsing task in the character-based incremental framework.
+[BOS] First, we must address the problem of how to align comparable states effectively in the beam.
+[BOS] Because the number of dependency arcs varies depending on how words are segmented, we devise a step alignment scheme using the number of character-based arcs, which enables effective joint decoding for the three tasks.
+
+[BOS] Second, although the feature set is fundamentally a combination of those used in previous works (Zhang and Clark, 2010; Huang and Sagae, 2010) , to integrate them in a single incremental framework is not straightforward.
+[BOS] Because we must perform decisions of three kinds (segmentation, tagging, and parsing) in an incremental framework, we must adjust which features are to be activated when, and how they are combined with which action labels.
+[BOS] We have also found that we must balance the learning rate between features for segmentation and tagging decisions, and those for dependency parsing.
+
+[BOS] We perform experiments using the Chinese Treebank (CTB) corpora, demonstrating that the accuracies of the three tasks can be improved significantly over the pipeline combination of the state-of-the-art joint segmentation and POS tagging model, and the dependency parser.
+[BOS] We also perform comparison experiments with partially joint models, and investigate the tradeoff between the running speed and the model performance.
+
+[BOS] In Chinese, Luo (2003) proposed a joint constituency parser that performs segmentation, POS tagging, and parsing within a single character-based framework.
+[BOS] They reported that the POS tags contribute to segmentation accuracies by more than 1%, but the syntactic information has no substantial effect on the segmentation accuracies.
+[BOS] In contrast, we built a joint model based on a dependency-based framework, with a rich set of structural features.
+[BOS] Using it, we show the first positive result in Chinese that the segmentation accuracies can be improved using the syntactic information.
+
+[BOS] Another line of work exists on lattice-based parsing for Semitic languages (Cohen and Smith, 2007; Goldberg and Tsarfaty, 2008) .
+[BOS] These methods first convert an input sentence into a lattice encoding the morphological ambiguities, and then conduct joint morphological segmentation and PCFG parsing.
+[BOS] However, the segmentation possibilities considered in those studies are limited to those output by an existing morphological analyzer.
+[BOS] In addition, the lattice does not include word segmentation ambiguities crossing boundaries of space-delimited tokens.
+[BOS] In contrast, because the Chinese language does not have spaces between words, we fundamentally need to consider the lattice structure of the whole sentence.
+[BOS] Therefore, we place no restriction on the segmentation possibilities to consider, and we assess the full potential of the joint segmentation and dependency parsing model.
+
+[BOS] Among the many recent works on joint segmentation and POS tagging for Chinese, the linear-time incremental models by Zhang and Clark (2008) and Zhang and Clark (2010) largely inspired our model.
+[BOS] Zhang and Clark (2008) proposed an incremental joint segmentation and POS tagging model, with an effective feature set for Chinese.
+[BOS] However, it requires to computationally expensive multiple beams to compare words of different lengths using beam search.
+[BOS] More recently, Zhang and Clark (2010) proposed an efficient character-based decoder for their word-based model.
+[BOS] In their new model, a single beam suffices for decoding; hence, they reported that their model is practically ten times as fast as their original model.
+[BOS] To incorporate the word-level features into the character-based decoder, the features are decomposed into substring-level features, which are effective for incomplete words to have comparable scores to complete words in the beam.
+[BOS] Because we found that even an incremental approach with beam search is intractable if we perform the wordbased decoding, we take a character-based approach to produce our joint model.
+
+[BOS] The incremental framework of our model is based on the joint POS tagging and dependency parsing model for Chinese (Hatori et al., 2011) , which is an extension of the shift-reduce dependency parser with dynamic programming (Huang and Sagae, 2010) .
+[BOS] They specifically modified the shift action so that it assigns the POS tag when a word is shifted onto the stack.
+[BOS] However, because they regarded word segmentation as given, their model did not consider the interaction between segmentation and POS tagging.
+[BOS] Based on the joint POS tagging and dependency parsing model by Hatori et al. (2011) , we build our joint model to solve word segmentation, POS tagging, and dependency parsing within a single framework.
+[BOS] Particularly, we change the role of the shift action and additionally use the append action, inspired by the character-based actions used in the joint segmentation and POS tagging model by Zhang and Clark (2010) .
+[BOS] The list of actions used is the following:
+
+[BOS]  A: append the first character in the queue to the word on top of the stack.
+
+[BOS]  SH(t): shift the first character in the input queue as a new word onto the stack, with POS tag t.
+
+[BOS]  RL/RR: reduce the top two trees on the stack,
+
+[BOS] Although SH(t) is similar to the one used in Hatori et al. (2011) , now it shifts the first character in the queue as a new word, instead of shifting a word.
+[BOS] Following Zhang and Clark (2010) , the POS tag is assigned to the word when its first character is shifted, and the word-tag pairs observed in the training data and the closed-set tags (Xia, 2000) are used to prune unlikely derivations.
+[BOS] Because 33 tags are defined in the CTB tag set (Xia, 2000) , our model exploits a total of 36 actions.
+[BOS] To train the model, we use the averaged perceptron with the early update (Collins and Roark, 2004) .
+[BOS] In our joint model, the early update is invoked by mistakes in any of word segmentation, POS tagging, or dependency parsing.
+

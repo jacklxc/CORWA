@@ -1,0 +1,21 @@
+[BOS] The goal of the summarization task is condensing a piece of text into a shorter version that covers the main points succinctly.
+[BOS] In the abstractive approach important pieces of information are presented using words and phrases not necessarily appearing in the source text.
+[BOS] This requires natural language generation techniques with high level of semantic understanding (Chopra et al., 2016; Rush et al., 2015; Khandelwal et al., 2019; Zhang et al., 2019; See et al., 2017; Chen and Bansal, 2018; Gehrmann et al., 2018) .
+
+[BOS] Major research efforts have focused so far on summarization of single-speaker documents like news (e.g., Nallapati et al. (2016) ) or scientific publications (e.g., Nikolov et al. (2018) ).
+[BOS] One of the reasons is the availability of large, high-quality news datasets with annotated summaries, e.g., CNN/Daily Mail (Hermann et al., 2015; Nallapati et al., 2016) .
+[BOS] Such a comprehensive dataset for dialogues is lacking.
+
+[BOS] The challenges posed by the abstractive dialogue summarization task have been discussed in the literature with regard to AMI meeting corpus (McCowan et al., 2005) , e.g. Banerjee et al. (2015) , Mehdad et al. (2014) , Goo and Chen (2018) .
+[BOS] Since the corpus has a low number of summaries (for 141 dialogues), Goo and Chen (2018) proposed to use assigned topic descriptions as gold references.
+[BOS] These are short, label-like goals of the meeting, e.g., costing evaluation of project process; components, materials and energy sources; chitchat.
+[BOS] Such descriptions, however, are very general, lacking the messenger-like structure and any information about the speakers.
+
+[BOS] To benefit from large news corpora, Ganesh and Dingliwal (2019) built a dialogue summarization model that first converts a conversation into a structured text document and later applies an attention-based pointer network to create an abstractive summary.
+[BOS] Their model, trained on structured text documents of CNN/Daily Mail dataset, was evaluated on the Argumentative Dialogue Summary Corpus (Misra et al., 2015) , which, however, contains only 45 dialogues.
+
+[BOS] In the present paper, we further investigate the problem of abstractive dialogue summarization.
+[BOS] With the growing popularity of online conversations via applications like Messenger, What-sApp and WeChat, summarization of chats between a few participants is a new interesting direction of summarization research.
+[BOS] For this purpose we have created the SAMSum Corpus 1 which contains over 16k chat dialogues with manually annotated summaries.
+[BOS] The dataset is freely available for the research community 2 .
+

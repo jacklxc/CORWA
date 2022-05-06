@@ -1,0 +1,23 @@
+[BOS] We provide here a brief review of prior work on summarization biases.
+[BOS] Lin and Hovy (1997) studied the position hypothesis, especially in the news article writing (Hong and Nenkova, 2014; Narayan et al., 2018a) but not in other domains such as conversations (Kedzie et al., 2018) .
+[BOS] Narayan et al. (2018a) collected a new corpus to address the bias by compressing multiple contents of source document in the single target summary.
+[BOS] In the bias analysis of systems, Lin and Bilmes (2012, 2011) studied the sub-aspect hypothesis of summarization systems.
+[BOS] Our study extends the hypothesis to various corpora as well as systems.
+[BOS] With a specific focus on importance aspect, a recent work (Peyrard, 2019a) divided it into three subcategories; redundancy, relevance, and informativeness, and provided quantities of each to measure.
+[BOS] Compared to this, ours provide broader scale of sub-aspect analysis across various corpora and systems.
+
+[BOS] We analyze the sub-aspects on different domains of summarization corpora: news articles (Nallapati et al., 2016; Grusky et al., 2018; Narayan et al., 2018a) , academic papers or journals (Kang et al., 2018; Kedzie et al., 2018) , movie scripts (Gorinski and Lapata, 2015) , books (Mihalcea and Ceylan, 2007) , personal posts (Ouyang et al., 2017) , and meeting minutes (Carletta et al., 2005) as described further in 5.
+
+[BOS] Beyond the corpora themselves, a variety of summarization systems have been developed: Mihalcea and Tarau (2004); Erkan and Radev (2004) used graph-based keyword ranking algorithms.
+[BOS] Lin and Bilmes (2010) ; Carbonell and Goldstein (1998) found summary sentences which are highly relevant but less redundant.
+[BOS] Yogatama et al. (2015) used semantic volumes of bigram features for extractive summarization.
+[BOS] Internal structures of documents have been used in summarization: syntactic parse trees (Woodsend and Lapata, 2011; Cohn and Lapata, 2008) , topics (Zajic et al., 2004; Lin and Hovy, 2000) , semantic word graphs Gerani et al., 2014; Ganesan et al., 2010; Filippova, 2010; Boudin and Morin, 2013) , and abstract meaning representation .
+[BOS] Concept-based Integer-Linear Programming (ILP) solver (McDonald, 2007) is used for optimizing the summarization problem (Gillick and Favre, 2009; Banerjee et al., 2015; Boudin et al., 2015; Berg-Kirkpatrick et al., 2011) .
+[BOS] Durrett et al. (2016) optimized the problem with grammatical and anarphorcity constraints.
+
+[BOS] With a large scale of corpora for training, neural network based systems have recently been developed.
+[BOS] In abstractive systems, Rush et al. (2015) proposed a local attention-based sequenceto-sequence model.
+[BOS] On top of the seq2seq framework, many other variants have been studied using convolutional networks (Cheng and Lapata, 2016; Allamanis et al., 2016) , pointer networks (See et al., 2017) , scheduled sampling (Bengio et al., 2015) , and reinforcement learning (Paulus et al., 2017) .
+[BOS] In extractive systems, different types of encoders (Cheng and Lapata, 2016; Nallapati et al., 2017; Kedzie et al., 2018) and optimization techniques (Narayan et al., 2018b) have been developed.
+[BOS] Our goal is to explore which types of systems learns which sub-aspect of summarization.
+

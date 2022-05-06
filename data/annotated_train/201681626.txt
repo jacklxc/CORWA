@@ -1,0 +1,10 @@
+[BOS] Transfer learning has been applied to NMT in many forms.
+[BOS] Luong and Manning (2015) use transfer learning to adapt a general model to indomain data.
+[BOS] Zoph et al. (2016) use multilingual transfer learning to improve NMT for lowresource languages.
+[BOS] Chu et al. (2017) introduce mixed fine-tuning, which carries out transfer learning to a new domain combined with some original domain data.
+[BOS] Kobus et al. (2017) train a single model on multiple domains using domain tags.
+[BOS] Khan et al. (2018) sequentially adapt across multiple biomedical domains to obtain one singledomain model.
+
+[BOS] At inference time, Freitag and Al-Onaizan (2016) use uniform ensembles of general and finetuned models.
+[BOS] Our Bayesian Interpolation experiments extend previous work by Allauzen and Riley (2011) on Bayesian Interpolation for language model combination.
+

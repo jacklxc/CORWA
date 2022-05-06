@@ -1,0 +1,21 @@
+[BOS] Semi-supervised learning for text classification.
+[BOS] Using unlabeled data for text classification is an important subject and there exists much previous research (Zhu et al., 2003; Nigam et al., 2006; Zhu, 2008 , to name but a few).
+[BOS] Notably, the work of Xu et al. (2017) applies the semi-supervised VAE (Kingma et al., 2014) to the single-sentence text classification problem.
+[BOS] Zhao et al. (2018) ; Shen et al. (2018a) present VAE models for the semisupervised text sequence matching, while their models have drawbacks as mentioned in 3.
+
+[BOS] When the use of external corpora is allowed, the performance can further be increased.
+[BOS] Dai and Le (2015); Ramachandran et al. (2017) train an encoder-decoder network on large corpora and fine-tune the learned encoder on a specific task.
+[BOS] Recently, there have been remarkable improvements in pre-trained language representations (Peters et al., 2018; Radford et al., 2018; Devlin et al., 2018) , where language models trained on extremely large data brought a huge performance boost.
+[BOS] These methods are orthogonal to our work, and additional enhancements are expected when they are used together with our model.
+
+[BOS] Cross-sentence generating LVMs.
+[BOS] There exists some prior work on cross-sentence generating LVMs.
+[BOS] Shen et al. (2017) introduce a similar data generation assumption to ours and apply the idea to unaligned style transfer and natural language generation.
+[BOS] Serban et al. (2017) use latent variable models for machine translation and dialogue generation.
+[BOS] Kang et al. (2018) propose a data augmentation framework for natural language inference that generates a sentence, however unlabeled data are not considered in their work.
+[BOS] Deudon (2018) build a sentence-reformulating deep generative model whose objective is to measure the semantic similarity between a sentence pair.
+[BOS] However their work cannot be applied to a multi-class classification problem, and the generative objective is only used in pre-training, not considering the joint optimization of the generative and the discriminative objective.
+[BOS] To the best of our knowledge, our work is the first work on introducing the concept of crosssentence generating LVM to the semi-supervised text matching problem.
+[BOS] Table 5 : Results of evaluation of generated artificial datasets.
+[BOS] distinct-1 and distinct-2 compute the ratio of the number of unique unigrams or bigrams to that of the total generated tokens .
+

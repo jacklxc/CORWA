@@ -1,0 +1,62 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 108 113	[BOS]
+T3	Narrative_cite 212 217	[BOS]
+T4	Transition 384 389	[BOS]
+T5	Transition 480 485	[BOS]
+T6	Transition 589 594	[BOS]
+T7	Narrative_cite 754 759	[BOS]
+T8	Transition 939 944	[BOS]
+T9	Transition 1071 1076	[BOS]
+T10	Transition 1133 1138	[BOS]
+T11	Single_summ 1235 1240	[BOS]
+T12	Single_summ 1357 1362	[BOS]
+T13	Single_summ 1533 1538	[BOS]
+T14	Transition 1693 1698	[BOS]
+T15	Single_summ 1835 1840	[BOS]
+T16	Multi_summ 1944 1949	[BOS]
+T17	Transition 2072 2077	[BOS]
+T18	Single_summ 2221 2226	[BOS]
+T19	Single_summ 2350 2355	[BOS]
+T20	B_span 81 86	ELIZA
+T21	E_span 100 104	1966
+T22	Reference 88 104	Weizenbaum, 1966
+T23	B_span 143 146	nfo
+T24	E_span 204 208	2014
+T25	Reference 176 191	Ji et al., 2014
+T26	Reference 193 208	Hu et al., 2014
+T27	B_span 228 231	end
+T28	E_span 344 348	2015
+T29	Reference 267 287	Vinyals and Le, 2015
+T30	Reference 289 308	Serban et al., 2016
+T31	Reference 310 326	Li et al., 2016a
+T32	Reference 328 348	Sordoni et al., 2015
+T33	Reference 780 796	Li et al., 2016b
+T34	Reference 798 815	Xing et al., 2017
+T35	Reference 817 843	Ghazvininejad et al., 2018
+T36	Reference 845 862	Zhou et al., 2018
+T37	Reference 864 880	Liu et al., 2018
+T38	Reference 882 899	Tian et al., 2019
+T41	B_span 760 767	Various
+T51	Dominant 1241 1261	Weston et al. (2018)
+T52	E_span 1348 1355	encoder
+T53	B_span 1241 1247	Weston
+T54	B_span 1411 1413	Wu
+T55	E_span 1526 1531	query
+T56	Dominant 1548 1568	Pandey et al. (2018)
+T57	B_span 1548 1554	Pandey
+T58	E_span 1679 1691	conversation
+T59	Dominant 1855 1872	Guu et al. (2018)
+T60	B_span 1855 1858	Guu
+T61	E_span 1932 1942	generation
+T62	Dominant 1950 1970	Wiseman et al. (2017
+T63	Dominant 1971 1994	Wiseman et al. ( , 2018
+T64	B_span 1950 1957	Wiseman
+T65	E_span 2060 2070	generation
+T66	Dominant 2250 2269	Clark et al. (2018)
+T67	B_span 2227 2231	Also
+T68	E_span 2343 2348	input
+T69	Dominant 2356 2372	Gu et al. (2018)
+T70	B_span 2356 2358	Gu
+T71	E_span 2445 2450	model
+T72	Dominant 1411 1426	Wu et al. (2019
+T39	E_span 895 899	2019

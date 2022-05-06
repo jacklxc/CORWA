@@ -1,0 +1,15 @@
+[BOS] Text Style Transfer.
+[BOS] Text style transfer using neural networks has been widely studied in the past few years.
+[BOS] A common paradigm is to first disentangle latent space as content and style features, and then generate stylistic sentences by tweaking the style-relevant features and passing through a decoder.
+[BOS] Hu et al. (2017); Fu et al. (2018) ; ; ; Gong et al. (2019) ; Lin et al. (2017) explored this direction by assuming the disentanglement can be achieved in an auto-encoding procedure with a suitable style regularization, implemented by either adversarial discriminators or style classifiers.
+[BOS] ; Xu et al. (2018) ; Zhang et al. (2018c) achieved disentanglement by filtering the stylistic words of input sentences.
+[BOS] Recently, Prabhumoye et al. (2018) has proposed to use back-translation for text style transfer with a de-noising auto-encoding objective (Logeswaran et al., 2018; Subramanian et al., 2018) .
+[BOS] Our work differs from the above in that we leverage domain adaptation to deal with limited target domain data, whereas previous methods require massive target domain style-labelled samples.
+[BOS] Domain Adaptation.
+[BOS] Domain adaptation has been studied in various natural language processing tasks, such as sentiment classification (Qu et al., 2019) , dialogue system (Wen et al., 2016) , abstractive summarization (Hua and Wang, 2017; Zhang et al., 2018b) , machine translation (Koehn and Schroeder, 2007; Axelrod et al., 2011; Sennrich et al., 2016b; Michel and Neubig, 2018) , etc.
+[BOS] However, no work has been done for exploring domain adaptation on text style transfer.
+[BOS] To our best knowledge, we are the first to explore the adaptation of text style transfer models for a new domain with limited non-parallel data available.
+[BOS] The task requires both style transfer and domain-specific generation on the target domain.
+[BOS] To differentiate different domains, Sennrich et al. (2016a) ; Chu et al. (2017) appended domain tokens to the input sentences.
+[BOS] Our model uses learnable domain vectors combining domain-specific style classifiers, which force the model to learn distinct stylized information in each domain.
+

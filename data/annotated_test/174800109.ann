@@ -1,0 +1,37 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 172 177	[BOS]
+T3	Transition 233 238	[BOS]
+T4	Transition 376 381	[BOS]
+T5	Single_summ 477 482	[BOS]
+T6	Single_summ 630 635	[BOS]
+T7	Transition 765 770	[BOS]
+T8	Transition 915 920	[BOS]
+T9	Narrative_cite 1015 1020	[BOS]
+T10	Single_summ 1213 1218	[BOS]
+T11	Single_summ 1381 1386	[BOS]
+T12	Transition 1461 1466	[BOS]
+T13	Narrative_cite 1541 1546	[BOS]
+T14	Narrative_cite 1704 1709	[BOS]
+T15	Reference 141 169	(Zirikly and Hagiwara, 2015)
+T16	Dominant 486 503	Lee et al. (2017)
+T17	Dominant 639 657	Yang et al. (2017)
+T18	Reference 1144 1171	(Zirikly and Hagiwara, 2015
+T19	Reference 1173 1189	Kim et al., 2017
+T20	Reference 1191 1210	Dabre et al., 2017)
+T21	Dominant 1222 1240	Yang et al. (2017)
+T22	Reference 1683 1701	(Lee et al., 2017)
+T23	Reference 1927 1951	(Ben-David et al., 2010)
+T24	B_span 119 123	hand
+T25	E_span 164 168	2015
+T26	B_span 486 489	Lee
+T27	E_span 622 628	though
+T28	B_span 639 643	Yang
+T29	E_span 754 763	languages
+T30	B_span 1118 1121	NER
+T31	E_span 1205 1209	2017
+T32	B_span 1222 1226	Yang
+T33	E_span 1451 1458	trivial
+T35	E_span 1946 1950	2010
+T36	B_span 1565 1567	TL
+T37	E_span 1696 1700	2017
+T38	B_span 1747 1752	phase

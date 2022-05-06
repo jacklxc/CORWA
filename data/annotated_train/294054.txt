@@ -1,0 +1,10 @@
+[BOS] The majority of NLG focuses on the satisfaction of a communicative goal, with examples such as Belz (2008) which produces weather reports from structured data or Mitchell et al. (2013) which generates descriptions of objects from images.
+[BOS] Our work is more similar to NLG work that concentrates on structural constraints such as generative poetry (Greene et al., 2010) (Colton et al., 2012 ) (Jiang and Zhou, 2008) or song lyrics (Wu et al., 2013) (Ramakrishnan A et al., 2009) , where specified meter or rhyme schemes are enforced.
+[BOS] In these papers soft semantic goals are sometimes also introduced that seek responses to previous lines of poetry or lyric.
+
+[BOS] Computational creativity is another subfield of NLG that often does not fix an a priori meaning in its output.
+[BOS] Examples such aszbal et al. (2013) and Valitutti et al. (2013) use template filling techniques guided by quantified notions of humor or how catchy a phrase is.
+
+[BOS] Our motivation for generation of material for language education exists in work such as Sumita et al. (2005) and Mostow and Jang (2012) , which deal with automatic generation of classic fill in the blank questions.
+[BOS] Our work is naturally complementary to these efforts, as their methods require a corpus of in-vocab text to serve as seed sentences.
+

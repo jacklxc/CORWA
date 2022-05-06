@@ -1,0 +1,15 @@
+[BOS] One approach of using target monolingual corpora is to construct a recurrent neural network language model and combine the model with the decoder (Glehere et al., 2015; Sriram et al., 2017) .
+[BOS] Similarly, there is a method of training language models, jointly with the translator, using multitask learning (Domhan and Hieber, 2017) .
+[BOS] These Another approach of using monolingual corpora of the target language is to learn models using synthetic parallel sentences.
+[BOS] The method of Sennrich et al. (2016a) generates synthetic parallel corpora through back-translation and learns models from such corpora.
+[BOS] Our proposed method is an extension of this method.
+[BOS] Currey et al. (2017) generated synthetic parallel sentences by copying target sentences to the source.
+[BOS] This method utilizes a feature in which some words, such as named entities, are often identical across the source and target languages and do not require translation.
+[BOS] However, this method provides no benefits to language pairs having different character sets, such as English and Japanese.
+
+[BOS] On the other hand, the basis of source monolingual corpora, a pre-training method based on an autoencoder has been proposed to enhance the encoder (Zhang and Zong, 2016) .
+[BOS] However, the decoder is not enhanced by this method.
+[BOS] trained two autoencoders using source and target monolingual corpora, while translation models are trained using a parallel corpus.
+[BOS] This method enhances both the encoder and decoder, but it requires two monolingual corpora, respectively.
+[BOS] Our proposed method enhances not only the decoder but also the encoder and attention using target monolingual corpora.
+

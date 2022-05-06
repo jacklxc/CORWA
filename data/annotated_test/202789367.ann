@@ -1,0 +1,38 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 104 109	[BOS]
+T3	Single_summ 322 327	[BOS]
+T4	Reflection 519 524	[BOS]
+T5	Single_summ 612 617	[BOS]
+T6	Transition 918 923	[BOS]
+T7	Single_summ 996 1001	[BOS]
+T8	Single_summ 1162 1167	[BOS]
+T9	Single_summ 1340 1345	[BOS]
+T10	Transition 1519 1524	[BOS]
+T11	Single_summ 1631 1636	[BOS]
+T12	Multi_summ 1770 1775	[BOS]
+T13	Reflection 1924 1929	[BOS]
+T14	Dominant 110 132	Forbes and Choi (2017)
+T15	B_span 110 116	Forbes
+T16	E_span 317 320	set
+T17	Dominant 328 347	Zhang et al. (2017)
+T18	E_span 510 516	likely
+T19	B_span 328 333	Zhang
+T20	B_span 646 655	Capturing
+T22	Dominant 683 701	Krebs et al., 2018
+T23	E_span 836 844	concepts
+T21	Dominant 1002 1035	Pavlick and Callison-Burch (2016)
+T24	B_span 1002 1009	Pavlick
+T25	E_span 1154 1160	models
+T26	Dominant 1168 1186	Wang et al. (2018)
+T27	B_span 1168 1172	Wang
+T28	E_span 1330 1337	actions
+T29	Dominant 1346 1370	Lucy and Gauthier (2017)
+T30	B_span 1346 1350	Lucy
+T31	E_span 1507 1517	embeddings
+T32	Dominant 1637 1654	Rei et al. (2018)
+T33	B_span 1637 1640	Rei
+T34	E_span 1758 1768	entailment
+T35	Dominant 1788 1806	Bulat et al., 2016
+T36	Dominant 1808 1830	Fagarasan et al., 2015
+T37	B_span 1776 1781	Prior
+T38	E_span 1885 1891	proper

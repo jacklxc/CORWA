@@ -1,0 +1,26 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 150 155	[BOS]
+T3	Transition 503 508	[BOS]
+T4	Narrative_cite 626 631	[BOS]
+T5	Narrative_cite 824 829	[BOS]
+T6	Transition 980 985	[BOS]
+T7	Reference 122 146	(Hogenboom et al., 2016)
+T8	Reference 290 301	(Ahn, 2006)
+T9	Reference 304 327	(Ji and Grishman, 2008)
+T10	Reference 330 355	(Liao and Grishman, 2010)
+T11	Reference 358 387	(Reichart and Barzilay, 2012)
+T12	Reference 455 474	(Chen et al., 2015)
+T13	Reference 477 498	(Nguyen et al., 2016)
+T14	Reference 804 821	(Gu et al., 2016)
+T15	Reference 925 953	(Jungermann and Morik, 2008)
+T16	Reference 956 977	(Bjorne et al., 2010)
+T17	B_span 62 73	statistical
+T18	E_span 141 145	2016
+T19	B_span 259 266	feature
+T20	E_span 382 386	2012
+T21	B_span 392 398	neural
+T22	E_span 493 497	2016
+T23	B_span 700 705	build
+T24	E_span 816 820	2016
+T25	B_span 870 881	statistical
+T26	E_span 972 976	2010

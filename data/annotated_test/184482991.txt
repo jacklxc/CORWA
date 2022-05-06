@@ -1,0 +1,15 @@
+[BOS] This issue has gathered a lot of attention over the past few years with various types of hate speech detection models.
+
+[BOS] Papers published in the last two years include the surveys by Schmidt and Wiegand (2017) and Fortuna and Nunes (2018) where the authors extract features from the text like sentiment, linguistic features, utilize different lexical resources to tag an offensive tweet, and another paper by presenting the Hate Speech Detection data set used in Malmasi and Zampieri (2017) where the authors perform a three way classification -Hate Speech, Offensive and None.
+[BOS] By classifying these, the authors talk about specific patterns related to offensive terms.
+[BOS] It is found that the usage of cuss words like b*tch and n*gga is fond in both offensive and casual setting, while f*ggot and n*gger were predominantly used in hateful contexts.
+[BOS] One of the major takeaways was that lexical methods are effective to identify potentially offensive terms, but are inaccurate at identifying hate speech Other work include: ElSherief et al. (2018) ; Gambck and Sikdar (2017); Zhang et al. (2018) .
+
+[BOS] A proposal of typology of abusive language sub-tasks is presented in Waseem et al. (2017) where the author talks about how an offensive tweet can be categorized into four segments -Explicit, Implicit, Directed and Generalized abuse.
+
+[BOS] These help in creating segment wise features to capture them separately.
+[BOS] Finally, methods in identifying profanity vs. hate speech is talked by Malmasi and Zampieri (2018) .
+[BOS] This work highlighted the challenges of distinguishing between profanity, and threatening language which may not actually contain profane language.
+
+[BOS] The description of the current task is presented in detail in Zampieri et al. (2019b) , which clearly provides the context and underlying problem statement for this paper.
+

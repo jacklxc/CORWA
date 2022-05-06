@@ -1,0 +1,102 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 227 232	[BOS]
+T3	Narrative_cite 341 346	[BOS]
+T4	Transition 706 711	[BOS]
+T5	Single_summ 858 863	[BOS]
+T6	Single_summ 1072 1077	[BOS]
+T7	Single_summ 1234 1239	[BOS]
+T8	Single_summ 1378 1383	[BOS]
+T9	Narrative_cite 1494 1499	[BOS]
+T10	Transition 1965 1970	[BOS]
+T11	Single_summ 2110 2115	[BOS]
+T12	Transition 2289 2294	[BOS]
+T13	Reflection 2520 2525	[BOS]
+T14	Narrative_cite 2580 2585	[BOS]
+T15	Transition 2890 2895	[BOS]
+T16	Reflection 3011 3016	[BOS]
+T17	Single_summ 3137 3142	[BOS]
+T18	Transition 3367 3372	[BOS]
+T19	Narrative_cite 3541 3546	[BOS]
+T20	Narrative_cite 3793 3798	[BOS]
+T21	Reference 142 166	(Knight and Marcu, 2002)
+T22	Reference 205 224	(Dorr et al., 2003)
+T23	Reference 315 338	(Cohn and Lapata, 2008)
+T24	Reference 501 525	(Nallapati et al., 2017)
+T25	Reference 542 560	(Rush et al., 2015
+T26	Reference 562 581	Chopra et al., 2016
+T27	Reference 583 605	Nallapati et al., 2016
+T28	Reference 607 626	Paulus et al., 2017
+T29	Reference 628 645	Fan et al., 2017)
+T30	Reference 685 703	(See et al., 2017)
+T31	Dominant 864 887	Miao and Blunsom (2016)
+T32	Reference 1657 1678	(Mikolov et al., 2013
+T33	Reference 1680 1703	Lazaridou et al., 2015)
+T34	Reference 1746 1765	(Zhang et al., 2017
+T35	Reference 1767 1789	Conneau et al., 2017b)
+T36	Reference 1831 1853	(Artetxe et al., 2018)
+T37	Reference 1919 1940	(Artetxe et al., 2017
+T38	Reference 1942 1962	Lample et al., 2017)
+T39	Dominant 2116 2135	Wang and Lee (2018)
+T40	Reference 2610 2632	(Vincent et al., 2008)
+T41	Reference 2725 2744	(Hill et al., 2016)
+T42	Reference 2788 2810	(Artetxe et al., 2017)
+T43	Reference 2864 2887	(Freitag and Roy, 2018)
+T45	Reference 3644 3663	Biran et al. (2011)
+T46	Reference 3856 3879	Filippova et al. (2015)
+T47	Pronoun 721 726	these
+T48	Pronoun 775 779	they
+T49	Pronoun 799 804	their
+T50	Pronoun 905 909	this
+T51	Pronoun 1082 1087	their
+T52	Pronoun 1100 1104	they
+T53	Pronoun 1240 1244	They
+T54	Pronoun 1301 1306	their
+T55	Pronoun 1335 1340	their
+T56	Pronoun 1393 1398	their
+T57	Pronoun 1623 1625	it
+T58	Pronoun 2009 2014	these
+T59	Pronoun 2106 2108	it
+T60	Pronoun 2427 2432	their
+T61	Pronoun 2459 2463	they
+T62	Pronoun 3123 3128	these
+T63	Pronoun 3226 3228	it
+T64	Pronoun 3560 3565	these
+T65	B_span 128 135	learned
+T66	E_span 161 165	2002
+T67	B_span 170 193	linguisticallymotivated
+T68	E_span 219 223	2003
+T69	B_span 281 288	learned
+T70	E_span 337 338	)
+T71	B_span 490 500	extractive
+T72	E_span 520 524	2017
+T73	B_span 530 541	abstractive
+T74	E_span 640 644	2017
+T75	B_span 669 676	hybrids
+T76	E_span 698 702	2017
+T77	B_span 864 868	Miao
+T78	E_span 1487 1491	data
+T79	B_span 1632 1637	small
+T80	E_span 1698 1702	2015
+T81	B_span 1706 1717	adversarial
+T82	E_span 1783 1788	2017b
+T83	B_span 1801 1808	distant
+T84	E_span 1848 1852	2018
+T85	B_span 1886 1898	unsupervised
+T86	E_span 1957 1961	2017
+T87	B_span 2116 2120	Wang
+T88	E_span 2282 2287	pairs
+T89	B_span 2586 2595	Denoising
+T90	E_span 2627 2631	2008
+T92	B_span 2705 2713	sentence
+T91	E_span 2739 2743	2016
+T93	B_span 2756 2768	unsupervised
+T94	E_span 2805 2809	2017
+T95	B_span 2849 2855	narrow
+T96	E_span 2882 2886	2018
+T97	B_span 3151 3159	sentence
+T44	Reference 3180 3195	Shardlow (2014)
+T98	E_span 3190 3194	2014
+T99	B_span 3615 3622	lexical
+T100	E_span 3658 3662	2011
+T101	B_span 3825 3828	end
+T102	E_span 3923 3931	deletion

@@ -1,0 +1,26 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 109 114	[BOS]
+T3	Reflection 302 307	[BOS]
+T4	Multi_summ 568 573	[BOS]
+T5	Multi_summ 720 725	[BOS]
+T6	Multi_summ 866 871	[BOS]
+T7	Multi_summ 918 923	[BOS]
+T8	Reflection 1007 1012	[BOS]
+T9	Reference 85 102	Lee et al. (2017)
+T10	Dominant 160 170	Lee et al.
+T11	Dominant 603 628	Clark and Manning (2016a)
+T12	Dominant 633 650	Yin et al. (2018)
+T13	Reference 1086 1098	(Mnih et al.
+T14	Reference 1101 1125	Eysenbach et al., 2019 )
+T15	B_span 42 45	end
+T16	E_span 101 102	)
+T17	B_span 139 147	pipeline
+T20	B_span 603 608	Clark
+T23	B_span 1033 1040	entropy
+T24	E_span 1124 1125	)
+T25	Pronoun 317 322	their
+T26	Pronoun 726 730	They
+T27	Pronoun 872 876	They
+T28	Pronoun 938 943	their
+T29	E_span 293 300	parsers
+T18	E_span 1002 1005	end

@@ -1,0 +1,8 @@
+[BOS] This work directly extends (Goldberg and Elhadad, 2010 ) with beam search and global learning.
+[BOS] We show that both the easy-first POS tagger and dependency parser can be significantly impr- PTB CTB (Collins, 2002 ) 97.11 (Hatori et al., 2012 93.82 (Shen et al., 2007) 97.33 (Li et al., 2012) 93.88 (Huang et al., 2012) oved using beam search and global learning.
+[BOS] This work can also be considered as applying (Huang et al., 2012) to the systems that exhibit spurious ambiguity.
+[BOS] One future direction might be to apply the training method to transitionbased parsers with dynamic oracle (Goldberg and Nivre, 2012) and potentially further advance performances of state-of-the-art transition-based parsers.
+[BOS] Shen et al., (2007) and (Shen and Joshi, 2008) also proposed bi-directional sequential classification with beam search for POS tagging and LTAG dependency parsing, respectively.
+[BOS] The main difference is that their training method aims to learn a classifier which distinguishes between each local action while our training method aims to distinguish between action sequences.
+[BOS] Our method can also be applied to their framework.
+

@@ -1,0 +1,13 @@
+[BOS] The work that is most similar to ours is (Xie et al., 2014) .
+[BOS] However, there are several significant differences between these two work.
+[BOS] First They incorporate well-formed dependency rules during decoding by modify the matched dependency rules "on the fly".
+[BOS] For example, assume there is a matched rule "X1:NR X2:AD X3:VV X1:     X2: ||| X1 X2 X3 provide X5 X4" for the headdependents structure in Figure 1 (b) .
+[BOS] in order to use the phrase "||| us won't" during decoding, they will compress the three nodes into one pseudo node "NR AD VV".
+[BOS] Then the above rule will become "X1:NR AD VV X2: *      X3:||| X1 provide X3 X2".
+[BOS] This new rule will inherit the translation probabilities from the original rule.
+[BOS] In the case that there is no matched rule or the probability estimation is unreliable due to sparsity, this method won't work well.
+[BOS] Another difference is that they only use phrasal rules corresponding to well formed dependency structures, while we allow variables to be contained in the well-formed dependency rules.
+
+[BOS] The two problems of parsing error and flatness also exist in constituency tree .
+[BOS] In order to make full use of the sub-structures, there have been a lot of work, including tree sequence to string translation (Liu et al., 2007) , tree binarization (Zhang et al., 2006) , forest-based translation (Mi et al., 2008) and fuzzy rule matching (Zhang et al., 2011) .
+

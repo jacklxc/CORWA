@@ -1,0 +1,80 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 420 425	[BOS]
+T3	Transition 668 673	[BOS]
+T4	Narrative_cite 835 840	[BOS]
+T5	Other 1032 1037	[BOS]
+T6	Other 1067 1072	[BOS]
+T7	Other 1127 1132	[BOS]
+T8	Other 1190 1195	[BOS]
+T9	Narrative_cite 1237 1242	[BOS]
+T10	Narrative_cite 1377 1382	[BOS]
+T11	Narrative_cite 1536 1541	[BOS]
+T12	Narrative_cite 1776 1781	[BOS]
+T13	Narrative_cite 1921 1926	[BOS]
+T14	Reflection 2298 2303	[BOS]
+T15	Narrative_cite 2454 2459	[BOS]
+T16	Narrative_cite 2625 2630	[BOS]
+T17	Reflection 2955 2960	[BOS]
+T18	Reference 55 77	(Chodorow et al., 2007
+T19	Reference 79 105	De Felice and Pulman, 2008
+T20	Reference 107 123	Han et al., 2010
+T21	Reference 125 145	Leacock et al., 2010
+T22	Reference 147 170	Tetreault et al., 2010a
+T23	Reference 172 197	Dale and Kilgarriff, 2011
+T24	Reference 281 306	Chollampatt and Ng (2018)
+T25	Reference 324 363	Grundkiewicz and Junczys-Dowmunt (2018)
+T26	Reference 887 927	(Grundkiewicz and Junczys-Dowmunt, 2018)
+T27	Reference 1255 1277	(Brockett et al., 2006
+T28	Reference 1279 1294	Ng, 2011, 2012a
+T29	Reference 1296 1318	Yoshimoto et al., 2013
+T30	Reference 1320 1341	Yuan and Felice, 2013
+T31	Reference 1343 1374	Behera and Bhattacharyya, 2013)
+T32	Reference 1419 1442	Rozovskaya et al., 2014
+T33	Reference 1444 1482	JunczysDowmunt and Grundkiewicz, 2014)
+T34	Reference 1574 1601	Chollampatt et al., 2016b,a
+T35	Reference 1603 1628	Rozovskaya and Roth, 2016
+T36	Reference 1630 1668	Junczys-Dowmunt and Grundkiewicz, 2016
+T37	Reference 1670 1698	Mizumoto and Matsumoto, 2016
+T38	Reference 1700 1718	Hoang et al., 2016
+T39	Reference 1720 1747	Yannakoudakis et al., 2017)
+T40	Reference 1809 1825	Xie et al., 2016
+T41	Reference 1827 1842	Ji et al., 2017
+T42	Reference 1844 1865	Schmaltz et al., 2017
+T43	Reference 1867 1892	Chollampatt and Ng, 2018)
+T44	Reference 2184 2206	(Brockett et al., 2006
+T45	Reference 2208 2233	Foster and Andersen, 2009
+T46	Reference 2235 2251	Roth, 2010, 2011
+T47	Reference 2253 2276	Rozovskaya et al., 2012
+T48	Reference 2278 2294	Xie et al., 2016
+T49	Reference 2603 2621	(Xia et al., 2017)
+T50	Reference 2725 2746	(Leacock et al., 2010
+T51	Reference 2748 2775	Rei and Yannakoudakis, 2016
+T52	Reference 2777 2797	Kaneko et al., 2017)
+T53	Reference 2817 2841	(Tetreault et al., 2010b
+T54	Reference 2843 2863	Madnani et al., 2011
+T55	Reference 2865 2888	Dahlmeier and Ng, 2012c
+T56	Reference 2890 2910	Napoles et al., 2015
+T57	Reference 2912 2931	Bryant et al., 2017
+T58	Reference 2933 2952	Asano et al., 2017)
+T59	B_span 23 26	GEC
+T60	E_span 193 197	2011
+T61	B_span 201 204	The
+T62	E_span 358 362	2018
+T63	B_span 865 868	SMT
+T64	E_span 922 926	2018
+T65	B_span 1246 1248	MT
+T66	E_span 1369 1373	2013
+T67	B_span 1396 1399	top
+T68	E_span 1477 1481	2014
+T69	B_span 1552 1556	many
+T70	E_span 1771 1774	GEC
+T71	B_span 1794 1801	seq2seq
+T72	E_span 1910 1919	attention
+T73	B_span 2050 2057	dynamic
+T74	E_span 2290 2294	2016
+T75	B_span 2517 2522	multi
+T76	E_span 2616 2620	2017
+T77	B_span 2697 2708	grammatical
+T78	E_span 2792 2796	2017
+T79	B_span 2802 2805	GEC
+T80	E_span 2947 2951	2017

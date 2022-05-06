@@ -1,0 +1,93 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 246 251	[BOS]
+T3	Transition 350 355	[BOS]
+T4	Transition 379 384	[BOS]
+T5	Narrative_cite 501 506	[BOS]
+T6	Narrative_cite 675 680	[BOS]
+T7	Narrative_cite 799 804	[BOS]
+T8	Narrative_cite 998 1003	[BOS]
+T9	Transition 1205 1210	[BOS]
+T10	Single_summ 1297 1302	[BOS]
+T11	Narrative_cite 1536 1541	[BOS]
+T12	Reflection 1678 1683	[BOS]
+T13	Narrative_cite 1787 1792	[BOS]
+T14	Transition 1974 1979	[BOS]
+T15	Transition 2002 2007	[BOS]
+T16	Transition 2077 2082	[BOS]
+T17	Multi_summ 2202 2207	[BOS]
+T18	Narrative_cite 2378 2383	[BOS]
+T19	Narrative_cite 2530 2535	[BOS]
+T20	Single_summ 2658 2663	[BOS]
+T21	Transition 2869 2874	[BOS]
+T22	Transition 2906 2911	[BOS]
+T23	Narrative_cite 3066 3071	[BOS]
+T24	Reflection 3304 3309	[BOS]
+T25	Reflection 3456 3461	[BOS]
+T26	Multi_summ 3553 3558	[BOS]
+T27	Transition 3701 3706	[BOS]
+T28	Multi_summ 3770 3775	[BOS]
+T29	Transition 3928 3933	[BOS]
+T30	Other 4190 4195	[BOS]
+T31	Reference 604 626	(Mikolov et al., 2013a
+T32	Reference 628 645	Dinu et al., 2014
+T33	Reference 647 672	Vulic and Korhonen, 2016)
+T34	Reference 757 775	(Xing et al., 2015
+T35	Reference 777 796	Smith et al., 2017)
+T36	Reference 942 965	(Lazaridou et al., 2015
+T37	Reference 967 995	Nakashole and Flauger, 2017)
+T38	Reference 1117 1139	(Haghighi et al., 2008
+T39	Reference 1141 1163	Faruqui and Dyer, 2014
+T40	Reference 1165 1180	Lu et al., 2015
+T41	Reference 1182 1201	Ammar et al., 2016)
+T42	Dominant 1318 1341	(Artetxe et al., 2018a)
+T43	Reference 1634 1653	(Zhao et al., 2015)
+T44	Reference 1947 1970	(Roweis and Saul, 2000)
+T45	Dominant 2211 2233	(Artetxe et al., 2017)
+T46	Reference 2471 2484	(Barone, 2016
+T47	Reference 2486 2504	Zhang et al., 2017
+T48	Reference 2506 2527	Conneau et al., 2018)
+T49	Reference 2636 2655	(Xing et al., 2015)
+T50	Dominant 2734 2755	(Sgaard et al., 2018)
+T51	Reference 3170 3189	(Dinu et al., 2014)
+T52	Reference 3209 3229	(Smith et al., 2017)
+T53	Reference 3279 3301	(Conneau et al., 2018)
+T54	Dominant 3621 3643	(Artetxe et al., 2018a
+T55	Dominant 3645 3666	Conneau et al., 2018)
+T56	Dominant 3826 3849	(Artetxe et al., 2018a)
+T57	Dominant 3854 3876	(Conneau et al., 2018)
+T58	Pronoun 1427 1431	they
+T59	Pronoun 3562 3567	these
+T60	Pronoun 3755 3760	these
+T61	Pronoun 3776 3780	This
+T62	B_span 588 594	target
+T63	E_span 667 671	2016
+T64	B_span 727 740	orthogonality
+T65	E_span 791 795	2017
+T66	B_span 923 928	least
+T67	E_span 990 994	2017
+T68	B_span 1071 1074	map
+T69	E_span 1200 1201	)
+T70	B_span 1319 1326	Artetxe
+T71	E_span 1524 1533	reduction
+T73	E_span 1648 1652	2015
+T74	B_span 1593 1598	local
+T72	B_span 1912 1921	nonlinear
+T75	E_span 1965 1969	2000
+T76	B_span 2212 2219	Artetxe
+T77	E_span 2366 2376	dictionary
+T78	B_span 2450 2461	adversarial
+T79	E_span 2522 2526	2018
+T80	B_span 2572 2580	learning
+T81	E_span 2650 2654	2015
+T82	E_span 2750 2754	2018
+T83	B_span 2668 2679	limitations
+T84	B_span 3134 3142	inverted
+T85	E_span 3184 3188	2014
+T86	B_span 3192 3200	inverted
+T87	E_span 3224 3228	2017
+T88	B_span 3234 3239	Cross
+T89	E_span 3296 3300	2018
+T91	E_span 3695 3699	maps
+T93	E_span 3919 3925	points
+T94	B_span 3784 3792	contrast
+T92	B_span 3559 3561	On

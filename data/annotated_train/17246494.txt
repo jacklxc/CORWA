@@ -1,0 +1,26 @@
+[BOS] The literature on paraphrasing is vast with methods varying according to the type of paraphrase being induced (lexical or structural), the type of data used (e.g., monolingual or parallel corpus), the underlying representation (surface form or syntax trees), and the acquisition method itself.
+[BOS] For an overview of these issues we refer the interested reader to Madnani and Dorr (2010) .
+[BOS] We focus on bilingual pivoting methods and aspects of neural machine translation pertaining to our model.
+[BOS] We also discuss related work on paraphrastic embeddings.
+
+[BOS] Bilingual Pivoting Paraphrase extraction using bilingual parallel corpora was proposed by Bannard and Callison-Burch (2005) .
+[BOS] Their method first extracts a bilingual phrase table and then obtains English paraphrases by pivoting through foreign language phrases.
+[BOS] Paraphrases for a given phrase are ranked using a paraphrase probability defined in terms of the translation model probabilities P( f |e) and P(e| f ) where f and e are the foreign and English strings, respectively.
+
+[BOS] Motivated by the wish to model sentential paraphrases, follow-up work focused on syntaxdriven techniques again within the bilingual pivoting framework.
+[BOS] Extensions include representing paraphrases via rules obtained from a synchronous context free grammar (Ganitkevitch et al., 2011; Madnani et al., 2007) as well as labeling paraphrases with linguistic annotations such as CCG categories (Callison-Burch, 2008 ) and partof-speech tags (Zhao et al., 2008) .
+
+[BOS] In contrast, our model is syntax-agnostic, paraphrases are represented on the surface level without knowledge of any underlying grammar.
+[BOS] We capture paraphrases at varying levels of granularity, words, phrases or sentences without having to explicitly create a phrase table.
+
+[BOS] Neural Machine Translation There has been a surge of interest recently in repurposing sequence transduction neural network models for machine translation (Sutskever et al., 2014) .
+[BOS] Central to this approach is an encoder-decoder architecture implemented by recurrent neural networks.
+[BOS] The encoder reads the source sequence into a list of continuous-space representations from which the decoder generates the target sequence.
+[BOS] An attention mechanism (Bahdanau et al., 2014 ) is used to generate the region of focus during decoding.
+
+[BOS] We employ NMT as the backbone of our paraphrasing model.
+[BOS] In its simplest form our model exploits a one-to-one NMT architecture: the source English sentence is translated into k candidate foreign sentences and then back-translated into English.
+[BOS] Inspired by multi-way machine translation which has shown performance gains over single-pair models (Zoph and Knight, 2016; Dong et al., 2015; Firat et al., 2016a) , we also explore an alternative pivoting technique which uses multiple languages rather than a single one.
+[BOS] Our model inherits advantages from NMT such as a small memory footprint and conceptually easy decoding (implemented as beam search).
+[BOS] Beyond paraphrase generation, we experimentally show that the representations learned by our model are useful in semantic relatedness tasks.
+

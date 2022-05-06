@@ -1,0 +1,14 @@
+[BOS] Machine Reading Comprehension (MRC) has been a trending research topic in recent years.
+[BOS] Among various types of MRC tasks, spanextraction reading comprehension has been enormously popular (such as SQuAD (Rajpurkar et al., 2016) ), and we have seen a great progress on related neural network approaches (Wang and Jiang, 2016; Seo et al., 2016; Xiong et al., 2016; , especially those were built on pre-trained language models, such as BERT (Devlin et al., 2019) .
+[BOS] While massive achievements have been made by the community, reading comprehension in other than English has not been well-studied mainly due to the lack of large-scale training data.
+[BOS] Asai et al. (2018) proposed to use runtime machine translation for multilingual extractive reading comprehension.
+[BOS] They first translate the data from the target language to English and then obtain an answer using an English reading comprehension model.
+[BOS] Finally, they recover the corresponding answer in the original language using soft-alignment attention scores from the NMT model.
+[BOS] However, though an interesting attempt has been made, the zero-shot results are quite low, and alignments between different languages, especially for those have different word orders, are significantly different.
+[BOS] Also, they only evaluate on a rather small dataset (hundreds of samples) that was translated from SQuAD (Rajpurkar et al., 2016) , which is not that realistic.
+
+[BOS] To solve the issues above and better exploit large-scale rich-resourced reading comprehension data, in this paper, we propose several zeroshot approaches which yield state-of-the-art performances on Japanese and French SQuAD data.
+[BOS] Moreover, we also propose a supervised approach for the condition that there are training samples available for the target language.
+[BOS] To evaluate the effectiveness of our approach, we carried out experiments on two realistic public Chinese reading comprehension data: CMRC 2018 (simplified Chinese) (Cui et al., 2019) and DRCD (traditional Chinese) (Shao et al., 2018) .
+[BOS] Experimental results demonstrate the effectiveness by modeling training samples in a bilingual environment.
+

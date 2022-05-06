@@ -1,0 +1,84 @@
+T1	Intro 0 5	[BOS]
+T2	Intro 143 148	[BOS]
+T3	Single_summ 360 365	[BOS]
+T4	Single_summ 511 516	[BOS]
+T5	Single_summ 624 629	[BOS]
+T6	Single_summ 773 778	[BOS]
+T7	Multi_summ 907 912	[BOS]
+T8	Single_summ 1208 1213	[BOS]
+T9	Single_summ 1397 1402	[BOS]
+T10	Single_summ 1577 1582	[BOS]
+T11	Single_summ 1721 1726	[BOS]
+T12	Single_summ 1981 1986	[BOS]
+T13	Reflection 2234 2239	[BOS]
+T14	Reflection 2512 2517	[BOS]
+T15	Single_summ 2633 2638	[BOS]
+T16	Single_summ 2870 2875	[BOS]
+T17	Narrative_cite 2982 2987	[BOS]
+T18	Reflection 3099 3104	[BOS]
+T19	Single_summ 3278 3283	[BOS]
+T20	Single_summ 3403 3408	[BOS]
+T21	Single_summ 3573 3578	[BOS]
+T22	Transition 3751 3756	[BOS]
+T23	Transition 3861 3866	[BOS]
+T24	Transition 3869 3874	[BOS]
+T25	Transition 3877 3882	[BOS]
+T26	Other 3886 3891	[BOS]
+T27	Dominant 405 424	Glehre et al. (2015
+T28	Dominant 517 541	Domhan and Hieber (2017)
+T29	Dominant 630 653	Sennrich et al. (2015a)
+T30	Dominant 779 800	Zhang and Zong (2016)
+T31	Dominant 944 962	Chen et al. (2016)
+T33	Dominant 1258 1282	Luong and Manning (2015)
+T34	Dominant 1403 1421	Wang et al. (2017a
+T35	Dominant 1583 1600	Chu et al. (2017)
+T36	Dominant 1727 1746	Wang et al. (2017b)
+T37	Dominant 1987 2006	Britz et al. (2017)
+T38	Dominant 2674 2692	Zeng et al. (2018)
+T39	Reference 3051 3070	(Ganin et al., 2016
+T40	Reference 3072 3096	Goodfellow et al., 2014)
+T41	Dominant 3284 3301	Chen et al. (2017
+T42	Dominant 3409 3426	Gui et al. (2017)
+T43	Dominant 3579 3596	Kim et al. (2017)
+T44	Pronoun 374 376	it
+T45	Pronoun 557 561	this
+T46	Pronoun 1489 1494	their
+T47	Pronoun 2240 2244	They
+T48	Pronoun 2900 2904	they
+T49	Pronoun 3117 3122	these
+T50	Pronoun 3761 3766	these
+T51	B_span 405 411	Glehre
+T52	E_span 501 509	decoding
+T53	B_span 517 523	Domhan
+T54	E_span 615 622	jointly
+T55	B_span 630 638	Sennrich
+T56	E_span 767 771	data
+T57	B_span 779 784	Zhang
+T58	E_span 897 905	training
+T59	B_span 944 948	Chen
+T60	E_span 1036 1043	decoder
+T32	Dominant 1048 1067	Kobus et al. (2017)
+T61	B_span 1048 1053	Kobus
+T62	E_span 1200 1205	style
+T63	B_span 1258 1263	Luong
+T64	E_span 1391 1395	data
+T65	B_span 1403 1407	Wang
+T66	E_span 1571 1575	data
+T67	B_span 1583 1586	Chu
+T68	E_span 1715 1719	data
+T69	B_span 1727 1731	Wang
+T70	E_span 1968 1979	propagation
+T71	B_span 1987 1992	Britz
+T72	E_span 2225 2232	decoder
+T73	B_span 2674 2678	Zeng
+T74	E_span 2862 2868	proper
+T75	B_span 3052 3057	Ganin
+T76	E_span 3068 3070	16
+T77	B_span 3072 3074	Go
+T78	E_span 3093 3095	14
+T79	B_span 3284 3288	Chen
+T80	B_span 3409 3412	Gui
+T81	E_span 3564 3571	problem
+T82	B_span 3579 3582	Kim
+T83	E_span 3742 3749	problem
+T84	E_span 3393 3401	criteria

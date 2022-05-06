@@ -1,0 +1,32 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 77 82	[BOS]
+T3	Transition 231 236	[BOS]
+T4	Narrative_cite 295 300	[BOS]
+T5	Single_summ 531 536	[BOS]
+T6	Transition 915 920	[BOS]
+T7	Transition 1069 1074	[BOS]
+T8	Reference 211 228	Kuo and Li, 2008)
+T9	Reference 343 367	Knight and Graehl, 1998)
+T10	Reference 391 407	Li et al., 2004)
+T11	Reference 417 436	(Oh and Choi, 2005)
+T12	Reference 466 483	Tao et al., 2006)
+T13	Reference 503 519	Li et al., 2007)
+T14	Dominant 573 584	Li et al. '
+T15	Dominant 586 592	(2004)
+T16	B_span 138 144	transl
+T19	E_span 223 227	2008
+T20	B_span 323 328	phone
+T21	E_span 362 366	1998
+T22	B_span 370 375	graph
+T23	E_span 402 406	2004
+T24	B_span 410 416	hybrid
+T25	E_span 431 435	2005
+T26	B_span 451 459	phonetic
+T27	E_span 478 482	2006
+T28	B_span 488 496	semantic
+T29	E_span 514 518	2007
+T30	B_span 573 575	Li
+T31	E_span 901 912	terminology
+T32	Pronoun 301 306	These
+T33	Pronoun 895 900	their
+T34	Pronoun 942 947	their

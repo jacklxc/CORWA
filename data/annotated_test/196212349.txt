@@ -1,0 +1,18 @@
+[BOS] Our work is largely built on top of Pereira et al. (2018) , which to date is the most extensive attempt at decoding meaning representations from brain imaging data.
+[BOS] In this study (Experiment 1), fMRI images of 180 different content words were collected for 16 participants.
+[BOS] The stimulus words were presented in three different ways: the written word plus an image representing the word, the word in a word cloud, and the word in a sentence.
+[BOS] Thus, the dataset consists of 1803 = 540 images per participant.
+[BOS] Additionally, a combined representation was created for each word by averaging the images from the three stimulus presentation paradigms.
+[BOS] Note that data for different participants cannot be directly combined due to differences in brain organization; 1 decoders are always trained for each participant individually.
+
+[BOS] The vocabulary was selected by clustering a pre-trained GloVe space (Pennington et al., 2014) 2 consisting of 30,000 words into regions, and then manually selecting a word from each region, yielding a set of 180 content words that include nouns (both concrete and abstract), verbs, and adjectives.
+[BOS] Next, for every participant, a vector space was created whose dimensions are voxel activation values in that participant's brain scan.
+[BOS] 3 This (approximately) 200,000-dimensional space can be optionally reduced to 5,000 dimensions using a complex feature selection process.
+[BOS] Finally, for every participant, a ridge regression model was trained for mapping this brain space to the GloVe space.
+[BOS] Crucially, this model predicts each of the 300 GloVe dimensions separately, the authors' hypothesis being that variation in each dimension of semantic space corresponds to specific brain activation patterns.
+
+[BOS] The literature relating distributional semantics to neural data started with Mitchell et al. (2008) , who predicted fMRI brain activity patterns from distributional representations for 60 hand-picked nouns from 12 different semantic categories (e.g. 'animals', 'vegetables', etc.).
+[BOS] Many later studies built on top of this; for example, Sudre et al. (2012) was a similar experiment using MEG, another neuroimaging technique.
+[BOS] Other studies (e.g., Xu et al. 2016) reused Mitchell et al. (2008) 's original dataset but experimented with different word embedding models, including distributional models such as word2vec (Mikolov et al., 2013) or GloVe, perceptual models (Anderson et al., 2013; Abnar et al., 2018) and dependency-based models (Abnar et al., 2018) .
+[BOS] Similarly, Gauthier and Ivanova (2018) reused Pereira et al. (2018) 's data and regression model but tested it on alternative sentence embedding models.
+

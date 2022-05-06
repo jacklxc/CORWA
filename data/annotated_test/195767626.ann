@@ -1,0 +1,96 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 163 168	[BOS]
+T3	Transition 312 317	[BOS]
+T4	Narrative_cite 462 467	[BOS]
+T5	Transition 677 682	[BOS]
+T6	Single_summ 742 747	[BOS]
+T7	Single_summ 908 913	[BOS]
+T8	Single_summ 1061 1066	[BOS]
+T9	Transition 1196 1201	[BOS]
+T10	Single_summ 1396 1401	[BOS]
+T11	Single_summ 1559 1564	[BOS]
+T12	Single_summ 1726 1731	[BOS]
+T13	Transition 1840 1845	[BOS]
+T14	Reflection 2055 2060	[BOS]
+T15	Reflection 2156 2161	[BOS]
+T16	Reflection 2329 2334	[BOS]
+T17	Transition 2495 2500	[BOS]
+T18	Transition 2658 2663	[BOS]
+T19	Narrative_cite 2775 2780	[BOS]
+T20	Transition 2894 2899	[BOS]
+T21	Transition 3006 3011	[BOS]
+T22	Transition 3194 3199	[BOS]
+T23	Narrative_cite 3285 3290	[BOS]
+T24	Transition 3478 3483	[BOS]
+T25	Narrative_cite 3561 3566	[BOS]
+T26	Transition 3755 3760	[BOS]
+T27	Narrative_cite 3898 3903	[BOS]
+T28	Reflection 4187 4192	[BOS]
+T29	Reflection 4303 4308	[BOS]
+T30	Reflection 4390 4395	[BOS]
+T31	Reference 238 251	(Firth, 1957)
+T32	Reference 623 646	(Lazaridou et al., 2017
+T33	Reference 648 674	Herbelot and Baroni, 2017)
+T34	Dominant 748 771	Lazaridou et al. (2017)
+T35	Reference 846 870	(Lazaridou et al., 2017)
+T36	Dominant 914 940	Herbelot and Baroni (2017)
+T37	Dominant 1067 1087	Khodak et al. (2018)
+T38	Dominant 1415 1434	Luong et al. (2013)
+T39	Dominant 1565 1589	Bojanowski et al. (2017)
+T40	Dominant 1732 1752	Pinter et al. (2017)
+T41	Reference 2836 2857	(Donahue et al., 2014
+T42	Reference 2859 2871	Bengio, 2012
+T43	Reference 2873 2891	Zoph et al., 2016)
+T44	Reference 3404 3426	(Vinyals et al., 2016)
+T45	Reference 3455 3475	(Snell et al., 2017)
+T46	Reference 3681 3701	(Finn et al., 2017 )
+T47	Reference 3725 3752	(Ravi and Larochelle, 2017)
+T48	Reference 4037 4060	(Vinyals et al., 2016 )
+T49	Reference 4104 4121	(Gu et al., 2018)
+T50	Reference 4146 4165	(Xiong et al., 2018
+T51	Reference 4167 4184	Gao et al., 2019)
+T52	Reference 4522 4541	(Finn et al., 2017)
+T53	B_span 200 207	follows
+T54	E_span 303 310	context
+T55	B_span 560 563	new
+T56	E_span 673 674	)
+T57	B_span 748 751	Laz
+T58	E_span 906 907	.
+T59	B_span 914 918	Herb
+T60	E_span 1059 1060	.
+T61	B_span 1067 1069	Kh
+T62	E_span 1193 1194	.
+T63	B_span 1415 1418	Luo
+T64	E_span 1557 1558	.
+T65	B_span 1565 1567	Bo
+T66	E_span 1724 1725	.
+T67	B_span 1732 1735	Pin
+T68	E_span 1838 1839	.
+T69	B_span 2802 2805	pre
+T70	E_span 2890 2891	)
+T71	B_span 3386 3394	Matching
+T72	E_span 3425 3426	)
+T73	B_span 3433 3438	Proto
+T74	E_span 3474 3475	)
+T76	B_span 3676 3679	MAM
+T78	E_span 3700 3701	)
+T79	B_span 3708 3714	better
+T80	E_span 3751 3752	)
+T81	B_span 4018 4026	language
+T82	E_span 4059 4060	)
+T84	B_span 4084 4091	machine
+T86	E_span 4120 4121	)
+T87	B_span 4128 4136	relation
+T88	E_span 4183 4184	)
+T89	B_span 4486 4491	model
+T90	E_span 4540 4541	)
+T91	Pronoun 1855 1860	these
+T92	Pronoun 1908 1912	they
+T93	Pronoun 2781 2785	They
+T94	Pronoun 2940 2942	it
+T95	Pronoun 3273 3277	they
+T96	Pronoun 3520 3522	it
+T97	Pronoun 3761 3765	This
+T98	Pronoun 4196 4200	this
+T99	B_span 810 817	average
+T100	E_span 865 869	2017

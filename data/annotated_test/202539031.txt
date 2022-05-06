@@ -1,0 +1,22 @@
+[BOS] Researchers have raised concerns about bias in many datasets.
+[BOS] For example, many joint natu-1 github.com/chrisc36/debias ral language processing and vision datasets can be partially solved by models that ignore the vision aspect of the task (Jabri et al., 2016; Anand et al., 2018; Caglayan et al., 2019) .
+[BOS] Some questions in recent multi-hop QA datasets (Yang et al., 2018; Welbl et al., 2018) can be solved by single-hop models (Chen and Durrett, 2019; Min et al., 2019) .
+[BOS] Additional examples include story completion (Schwartz et al., 2017) and multiple choice questions (Clark et al., 2016 .
+[BOS] Recognizing that bias is a concern in diverse domains, our work is the first to perform an evaluation across multiple datasets spanning language and vision.
+
+[BOS] Recent dataset construction protocols have tried to avoid certain kinds of bias.
+[BOS] For example, both CoQA (Reddy et al., 2019) and QuAC ) take steps to prevent annotators from using words that occur in the context passage, VQA 2.0 (Goyal et al., 2018) selects examples to limit the effectiveness of question-only models, and others have filtered examples solvable by simple baselines (Yang et al., 2018; Zhang et al., 2018b; Zellers et al., 2018) .
+[BOS] While reducing bias is important, developing ways to prevent models from using known biases will allow us to continue to leverage existing datasets, and update our methods as our understanding of what biases we want to avoid evolve.
+
+[BOS] Recent work has focused on biases that come from ignoring parts of the input (e.g., guessing the answer to a question before seeing the evidence).
+[BOS] Solutions include generative objectives to force models to understand all the input (Lewis and Fan, 2019) , carefully designed model architecture (Agrawal et al., 2018; , or adversarial removal of class-indicative features from model's internal representations (Ramakrishnan et al., 2018; Zhang et al., 2018a; Belinkov et al., 2019; Grand and Belinkov, 2019) .
+[BOS] In contrast, we consider biases beyond partial-input cases (Feng et al., 2019) , and show our method is superior on VQA-CP.
+[BOS] Concurrently, He et al. (2019) also suggested using a product-of-experts ensemble to train unbiased models, but we consider a wider variety of ensembling approaches and test on additional domains.
+
+[BOS] A related task is preventing models from using particular problematic dataset features, which is often studied from the perspective of fairness (Zhao et al., 2017; Burns et al., 2018) .
+[BOS] A popular approach is to use an adversary to remove information about a target feature, often gender or ethnicity, from a model's internal representations (Edwards and Storkey, 2016; Kim et al., 2019) .
+[BOS] In contrast, the biases we consider are related to features that are essential to the overall task, so they cannot simply be ignored.
+
+[BOS] Evaluating models on out-of-domain examples built by applying minor perturbations to existing examples has also been the subject of recent study (Szegedy et al., 2014; Belinkov and Bisk, 2018; Carlini and Wagner, 2018; Glockner et al., 2018) .
+[BOS] The domain shifts we consider involve larger changes to the input distribution, built to uncover higher-level flaws in existing models.
+

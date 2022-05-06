@@ -1,0 +1,31 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 124 129	[BOS]
+T3	Single_summ 222 227	[BOS]
+T4	Single_summ 384 389	[BOS]
+T5	Single_summ 477 482	[BOS]
+T6	Single_summ 604 609	[BOS]
+T7	Narrative_cite 887 892	[BOS]
+T8	Transition 1027 1032	[BOS]
+T9	Single_summ 1199 1204	[BOS]
+T10	Single_summ 1430 1435	[BOS]
+T11	Reflection 1649 1654	[BOS]
+T12	Other 1848 1853	[BOS]
+T13	Reference 102 121	(Iida et al., 2007)
+T14	Dominant 198 219	Imamura et al. (2009)
+T15	Dominant 619 640	Imamura et al. (2009)
+T16	Dominant 721 748	Sasano and Kurohashi (2011)
+T17	Reference 1002 1023	Imamura et al. (2009)
+T18	Dominant 1247 1267	Yang and Zong (2014)
+T19	Dominant 1625 1646	(Yang and Zong, 2014)
+T20	B_span 83 91	standard
+T21	E_span 116 120	2007
+T22	B_span 130 133	One
+T23	E_span 594 602	accuracy
+T24	B_span 619 626	Imamura
+T25	E_span 687 696	predicate
+T26	B_span 698 701	the
+T27	E_span 880 885	texts
+T28	B_span 925 933	implicit
+T29	E_span 1018 1022	2009
+T30	B_span 1247 1251	Yang
+T31	E_span 1641 1645	2014

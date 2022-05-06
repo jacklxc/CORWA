@@ -1,0 +1,18 @@
+[BOS] Work on reusable sentence encoders can be traced back at least as far as the multitask model of Collobert et al. (2011) .
+[BOS] Several works focused on learning reusable sentence-to-vector encodings, where the pretrained encoder produces a fixed-size representation for each input sentence (Dai and Le, 2015; Kiros et al., 2015; Hill et al., 2016; Conneau et al., 2017) .
+[BOS] More recent reusable sentence encoders such as CoVe (McCann et al., 2017) and GPT (Radford et al., 2018) instead represent sentences as sequences of vectors.
+[BOS] These methods work well, but most use distinct pretraining objectives, and none offers a substantial investigation of the choice of objective like we conduct here.
+[BOS] We build on two methods for pretraining sentence encoders on language modeling: ELMo and BERT.
+[BOS] ELMo consists of a forward and backward LSTM (Hochreiter and Schmidhuber, 1997), the hidden states of which are used to produce a contextual vector representation for each token in the inputted sequence.
+[BOS] ELMo is adapted to target tasks by freezing the model weights and only learning a set of task-specific scalar weights that are used to compute a linear combination of the LSTM layers.
+[BOS] BERT consists of a pretrained Transformer (Vaswani et al., 2017) , and is adapted to downstream tasks by fine-tuning the entire model.
+[BOS] Follow-up work has explored parameterefficient fine-tuning (Stickland and Murray, 2019; Houlsby et al., 2019) and better target task adaptation via multitask fine-tuning (Phang et al., 2018; Liu et al., 2019) , but work in this area is nascent.
+
+[BOS] The successes of sentence encoder pretraining have sparked a line of work analyzing these models (Zhang and Bowman, 2018; Peters et al., 2018b; Tenney et al., 2019b; Peters et al., 2019; Tenney et al., 2019a; Liu et al., 2019, i.a.)
+[BOS] .
+[BOS] Our work also attempts to better understand what is learned by pretrained encoders, but we study this question entirely through the lens of pretraining and fine-tuning tasks, rather than architectures or specific linguistic capabilities.
+[BOS] Some of our experiments resemble those of Yogatama et al. (2019) , who also empirically investigate transfer performance with limited amounts of data and find similar evidence of catastrophic forgetting.
+
+[BOS] Multitask representation learning in NLP is well studied, and again can be traced back at least as far as Collobert et al. (2011 ).
+[BOS] Luong et al. (2016 show promising results combining translation and parsing; Subramanian et al. (2018) benefit from multitask learning in sentence-to-vector encoding; and Bingel and Sgaard (2017) and Changpinyo et al. (2018) offer studies of when multitask learning is helpful for lower-level NLP tasks.
+

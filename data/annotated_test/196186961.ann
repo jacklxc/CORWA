@@ -1,0 +1,69 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 103 108	[BOS]
+T3	Narrative_cite 195 200	[BOS]
+T4	Transition 627 632	[BOS]
+T5	Narrative_cite 740 745	[BOS]
+T6	Narrative_cite 1016 1021	[BOS]
+T7	Narrative_cite 1267 1272	[BOS]
+T8	Reflection 1387 1392	[BOS]
+T9	Reflection 1431 1436	[BOS]
+T10	Transition 1712 1717	[BOS]
+T11	Transition 1724 1729	[BOS]
+T12	Narrative_cite 1846 1851	[BOS]
+T13	Narrative_cite 2102 2107	[BOS]
+T14	Reflection 2430 2435	[BOS]
+T15	Reflection 2623 2628	[BOS]
+T16	Reference 270 291	(Vinyals and Le, 2015
+T17	Reference 293 311	Shang et al., 2015
+T18	Reference 313 330	Tao et al., 2018)
+T19	Reference 405 421	Mou et al., 2016
+T20	Reference 423 440	Zhao et al., 2017
+T21	Reference 442 460	Song et al., 2018)
+T22	Reference 520 537	(Li et al., 2016a
+T23	Reference 604 623	(Li et al., , 2016b
+T24	Reference 875 893	(Wang et al., 2013
+T25	Reference 895 910	Hu et al., 2014
+T26	Reference 912 930	Wang et al., 2015)
+T27	Reference 1073 1092	(Lowe et al., 2015)
+T28	Reference 1169 1188	(Zhou et al., 2016)
+T29	Reference 1366 1384	(Wu et al., 2018a)
+T30	Reference 1926 1943	(He et al., 2016)
+T31	Reference 1958 1980	(Szegedy et al., 2015)
+T32	Reference 2272 2294	(Conneau et al., 2017)
+T33	Reference 2324 2341	(Kim et al., 2018
+T34	Reference 2343 2360	Tay et al., 2018)
+T35	Reference 2386 2403	(Tay et al., 2018
+T36	Reference 2405 2422	Kim et al., 2018)
+T37	B_span 221 229	sequence
+T38	E_span 329 330	)
+T39	B_span 381 382	"
+T40	E_span 459 460	)
+T41	B_span 466 474	generate
+T42	E_span 536 537	a
+T43	B_span 548 554	pursue
+T44	E_span 622 623	b
+T45	B_span 843 848	human
+T46	E_span 929 930	)
+T47	B_span 1057 1061	dual
+T48	E_span 1091 1092	)
+T49	B_span 1143 1148	multi
+T50	E_span 1187 1188	)
+T51	B_span 1350 1358	matching
+T52	E_span 1383 1384	)
+T53	B_span 1919 1922	Res
+T54	E_span 1942 1943	)
+T55	B_span 1948 1951	inc
+T56	E_span 1979 1980	)
+T57	B_span 2252 2256	text
+T58	E_span 2293 2294	)
+T59	B_span 2297 2304	natural
+T60	E_span 2359 2360	)
+T61	B_span 2367 2375	question
+T62	E_span 2421 2422	)
+T63	Pronoun 752 756	this
+T64	Pronoun 1128 1130	it
+T65	Pronoun 1749 1753	this
+T66	Pronoun 2029 2033	they
+T67	Pronoun 2174 2178	they
+T68	Pronoun 2202 2206	they
+T69	Pronoun 2439 2443	this

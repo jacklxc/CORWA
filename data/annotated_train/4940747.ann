@@ -1,0 +1,43 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 337 342	[BOS]
+T3	Single_summ 564 569	[BOS]
+T4	Single_summ 747 752	[BOS]
+T5	Single_summ 757 762	[BOS]
+T6	Single_summ 995 1000	[BOS]
+T7	Reflection 1277 1282	[BOS]
+T8	Narrative_cite 1523 1528	[BOS]
+T9	Single_summ 1743 1748	[BOS]
+T10	Single_summ 1891 1896	[BOS]
+T11	Reflection 2267 2272	[BOS]
+T12	Reference 286 307	(Szegedy et al., 2014
+T13	Reference 309 333	Goodfellow et al., 2015)
+T14	Dominant 364 384	Jia and Liang (2017)
+T15	Dominant 806 826	Jia and Liang (2017)
+T16	Reference 908 925	(Hu et al., 2017)
+T17	Dominant 1033 1053	(Huang et al., 2018)
+T18	Reference 1693 1717	(Goodfellow et al., 2015
+T19	Reference 1719 1740	Kurakin et al., 2017)
+T20	Dominant 1770 1790	Jia and Liang (2017)
+T21	Reference 1822 1840	(Seo et al., 2017)
+T22	Pronoun 114 116	it
+T23	Pronoun 570 572	It
+T24	Pronoun 778 783	these
+T25	Pronoun 1387 1389	it
+T26	Pronoun 1391 1393	it
+T27	Pronoun 1550 1552	It
+T28	B_span 224 229	image
+T29	E_span 328 332	2015
+T30	B_span 343 345	In
+T31	E_span 742 745	Sec
+T32	B_span 806 809	Jia
+T33	E_span 988 992	task
+T34	B_span 888 891	the
+T35	E_span 920 924	2017
+T36	B_span 1013 1016	the
+T37	E_span 1271 1275	task
+T38	B_span 1659 1665	robust
+T39	E_span 1735 1739	2017
+T40	B_span 1749 1751	In
+T41	E_span 2257 2264	context
+T42	B_span 1816 1821	BiDAF
+T43	E_span 1835 1839	2017

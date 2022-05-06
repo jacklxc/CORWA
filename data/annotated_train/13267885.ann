@@ -1,0 +1,84 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 292 297	[BOS]
+T3	Narrative_cite 487 492	[BOS]
+T4	Transition 666 671	[BOS]
+T5	Multi_summ 765 770	[BOS]
+T6	Single_summ 957 962	[BOS]
+T7	Single_summ 1101 1106	[BOS]
+T8	Single_summ 1265 1270	[BOS]
+T9	Single_summ 1364 1369	[BOS]
+T10	Narrative_cite 1443 1448	[BOS]
+T11	Transition 1763 1768	[BOS]
+T12	Single_summ 1877 1882	[BOS]
+T13	Reflection 2092 2097	[BOS]
+T14	Single_summ 2221 2226	[BOS]
+T15	Multi_summ 2506 2511	[BOS]
+T16	Multi_summ 2710 2715	[BOS]
+T17	Narrative_cite 2871 2876	[BOS]
+T18	Single_summ 3032 3037	[BOS]
+T19	Single_summ 3170 3175	[BOS]
+T20	Transition 3270 3275	[BOS]
+T21	Reference 109 132	(Bohnet and Nivre, 2012
+T22	Reference 134 153	Bohnet et al., 2013
+T23	Reference 155 174	Wang and Xue, 2014)
+T24	Reference 248 268	(Hatori et al., 2012
+T25	Reference 270 289	Zhang et al., 2014)
+T26	Dominant 331 351	Hatori et al. (2012)
+T27	Reference 558 586	(Goldberg and Tsarfaty, 2008
+T28	Reference 588 609	Goldberg et al., 2009
+T29	Reference 611 634	Green and Manning, 2010
+T30	Reference 636 663	Goldberg and Elhadad, 2011)
+T31	Reference 816 834	Wang et al. (2013)
+T32	Dominant 839 858	Zhang et al. (2015)
+T33	Dominant 981 1003	Goldberg et al. (2009)
+T34	Dominant 1151 1170	Qian and Liu (2012)
+T35	Reference 1662 1678	(van Noord, 2007
+T36	Reference 1680 1696	Koo et al., 2008
+T37	Reference 1698 1715	Chen et al., 2009
+T38	Reference 1717 1734	Zhou et al., 2011
+T39	Reference 1736 1759	Bansal and Klein, 2011)
+T40	Dominant 1897 1917	Morita et al. (2015)
+T41	Dominant 2227 2256	Kawahara and Kurohashi (2006)
+T42	Dominant 2512 2537	Kudo and Matsumoto (2002)
+T43	Dominant 2540 2554	Sassano (2004)
+T44	Dominant 2557 2571	Iwatate (2012)
+T45	Dominant 2576 2608	Yoshinaga and Kitsuregawa (2014)
+T46	Reference 2967 2996	Kawahara and Kurohashi (2006)
+T47	Reference 3001 3015	Sassano (2004)
+T48	Dominant 3040 3060	Tawara et al. (2015)
+T49	Pronoun 28 30	it
+T50	Pronoun 672 677	These
+T51	Pronoun 966 971	these
+T52	Pronoun 1271 1275	They
+T53	Pronoun 1344 1349	these
+T54	Pronoun 1370 1374	This
+T55	Pronoun 1778 1783	these
+T56	Pronoun 2108 2112	this
+T57	Pronoun 2716 2721	These
+T58	Pronoun 3185 3189	they
+T59	B_span 85 88	POS
+T60	E_span 169 173	2014
+T61	B_span 185 192	Chinese
+T62	E_span 284 288	2014
+T63	B_span 298 300	As
+T64	E_span 473 484	ambiguities
+T65	B_span 540 546	Hebrew
+T66	E_span 658 662	2011
+T67	B_span 771 779	Starting
+T68	E_span 943 955	respectively
+T69	B_span 963 965	Of
+T70	E_span 1087 1098	preferences
+T71	B_span 1107 1109	As
+T72	E_span 1431 1440	knowledge
+T73	B_span 1568 1572	word
+T74	E_span 1754 1758	2011
+T75	B_span 1883 1886	For
+T76	E_span 2083 2090	parsing
+T77	B_span 2227 2235	Kawahara
+T78	E_span 2472 2477	model
+T79	B_span 2512 2516	Kudo
+T80	E_span 2862 2869	parsing
+T81	B_span 2886 2889	KNP
+T82	E_span 3010 3014	2004
+T83	B_span 3040 3046	Tawara
+T84	E_span 3260 3267	methods

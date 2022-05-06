@@ -1,0 +1,13 @@
+[BOS] Several property-listing studies have been conducted with human participants in order to build property norms -datasets of normalized humanverbalizable feature listings for lexical concepts (McRae et al., 2005; .
+
+[BOS] One use of feature norms is to critically examine distributional semantic models on their ability to encode grounded, human-elicited semantic knowledge.
+[BOS] For example, Rubinstein et al. (2015) demonstrated that state-of-the-art distributional semantic models fail to predict attributive properties of concept words (e.g. the properties is-red and is-round for the word apple) as accurately as taxonomic properties (e.g. is-a-fruit).
+[BOS] Similarly, Sommerauer and Fokkens (2018) investigated the types of semantic knowledge encoded within pretrained word embeddings, concluding that some properties cannot be learned by supervised classifiers.
+[BOS] Collell and Moens (2016) compared linguistic and visual representations of object concepts on their ability to represent different types of property knowledge.
+[BOS] Research has shown that state-of-the-art distributional semantic models built from text corpora fail to capture important aspects of meaning related to grounded perceptual information, as this kind of information is not adequately represented in the statistical regularities of text data (Li and Gauthier, 2017; Kelly et al., 2014) .
+[BOS] Motivated by these issues, Silberer (2017) constructed multimodal semantic models from text and image data, with the goal of grounding word meaning using visual attributes.
+[BOS] More recently, Derby et al. (2018) built similar models with the added constraint of sparsity, demonstrating that sparse multimodal vectors provide a more faithful representation of human semantic representations.
+[BOS] Finally, the work that most resembles ours is that of Fagarasan et al. (2015) , who use Partial Least Squares Regression (PLSR) to learn a mapping from a word embedding model onto specific conceptual properties.
+[BOS] Concurrent work recently undertaken by Li and Summers-Stay (2019) replaces the PLSR model with a feedforward neural network.
+[BOS] In our work, we instead map property knowledge directly into vector space models of word meaning, rather than learning a supervised predictive function from concept embedding dimensions to feature terms.
+

@@ -1,0 +1,56 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 76 81	[BOS]
+T3	Single_summ 151 156	[BOS]
+T4	Single_summ 275 280	[BOS]
+T5	Single_summ 453 458	[BOS]
+T6	Single_summ 557 562	[BOS]
+T7	Single_summ 690 695	[BOS]
+T8	Transition 820 825	[BOS]
+T9	Transition 949 954	[BOS]
+T10	Transition 1248 1253	[BOS]
+T11	Single_summ 1321 1326	[BOS]
+T12	Single_summ 1484 1489	[BOS]
+T13	Single_summ 1614 1619	[BOS]
+T14	Transition 1708 1713	[BOS]
+T15	Transition 1833 1838	[BOS]
+T16	Transition 1960 1965	[BOS]
+T17	Single_summ 2110 2115	[BOS]
+T18	Single_summ 2199 2204	[BOS]
+T19	Single_summ 2287 2292	[BOS]
+T20	Single_summ 2535 2540	[BOS]
+T21	Transition 2666 2671	[BOS]
+T22	Transition 2820 2825	[BOS]
+T23	Dominant 157 181	(Bolukbasi et al., 2016)
+T24	Dominant 281 304	(Caliskan et al., 2017)
+T25	Dominant 459 479	(Zhao et al., 2018b)
+T26	Dominant 696 716	(Zhao et al., 2018a)
+T27	Dominant 1327 1346	(Zhao et al., 2017)
+T28	Dominant 1620 1639	(Park et al., 2018)
+T29	Dominant 2116 2137	(Prates et al., 2018)
+T30	Pronoun 673 677	this
+T31	Pronoun 848 853	these
+T32	Pronoun 935 940	their
+T33	Pronoun 1210 1215	their
+T34	Pronoun 1298 1300	it
+T35	Pronoun 1714 1719	These
+T36	Pronoun 1815 1819	they
+T37	Pronoun 2099 2103	this
+T38	Pronoun 2205 2209	They
+T39	Pronoun 2464 2468	they
+T40	Pronoun 2474 2479	these
+T41	Pronoun 2541 2545	They
+T42	Pronoun 2712 2717	their
+T43	B_span 158 167	Bolukbasi
+T44	E_span 269 273	race
+T45	B_span 282 290	Caliskan
+T46	E_span 441 451	embeddings
+T47	B_span 460 464	Zhao
+T48	E_span 678 688	attributes
+T49	B_span 697 701	Zhao
+T50	E_span 808 818	components
+T51	B_span 1328 1332	Zhao
+T52	E_span 1603 1612	amplified
+T53	B_span 1621 1625	Park
+T54	E_span 1697 1706	detection
+T55	B_span 2117 2123	Prates
+T56	E_span 2276 2285	sentences

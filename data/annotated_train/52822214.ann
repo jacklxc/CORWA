@@ -1,0 +1,37 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 96 101	[BOS]
+T3	Multi_summ 128 133	[BOS]
+T4	Transition 311 316	[BOS]
+T5	Multi_summ 342 347	[BOS]
+T6	Multi_summ 506 511	[BOS]
+T7	Multi_summ 588 593	[BOS]
+T8	Transition 803 808	[BOS]
+T9	Multi_summ 838 843	[BOS]
+T10	Multi_summ 1140 1145	[BOS]
+T11	Multi_summ 1246 1251	[BOS]
+T12	Transition 1363 1368	[BOS]
+T13	Single_summ 1407 1412	[BOS]
+T14	Single_summ 1518 1523	[BOS]
+T15	Narrative_cite 1626 1631	[BOS]
+T17	Dominant 357 377	(Joshi et al., 2017)
+T18	Dominant 391 410	(Dunn et al., 2017)
+T19	Dominant 874 894	(Welbl et al., 2018)
+T20	Dominant 920 945	(Talmor and Berant, 2018)
+T21	Dominant 1422 1443	(Nguyen et al., 2016)
+T22	Reference 1760 1783	(Novikova et al., 2017)
+T23	Pronoun 235 239	they
+T24	Pronoun 512 516	This
+T25	Pronoun 1660 1665	these
+T26	Pronoun 1698 1702	they
+T16	Dominant 141 163	Rajpurkar et al., 2016
+T27	Dominant 165 189	Rajpurkar et al., , 2018
+T28	B_span 134 139	SQuAD
+T29	E_span 302 308	answer
+T30	E_span 791 800	documents
+T31	B_span 348 356	TriviaQA
+T32	B_span 865 873	QAngaroo
+T33	E_span 1357 1360	KBs
+T34	B_span 1413 1415	MS
+T35	E_span 1618 1624	BLEU-1
+T36	B_span 1722 1731	correlate
+T37	E_span 1778 1782	2017

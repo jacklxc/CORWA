@@ -1,0 +1,2 @@
+[BOS] Previous work is related either in terms of the neural architectures for NLI (Section 4.1), or in terms of work on training data permutations in learning (Section 4.2).
+

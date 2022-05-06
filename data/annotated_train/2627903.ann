@@ -1,0 +1,80 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 211 216	[BOS]
+T3	Transition 298 303	[BOS]
+T4	Transition 531 536	[BOS]
+T5	Single_summ 704 709	[BOS]
+T6	Single_summ 904 909	[BOS]
+T7	Single_summ 1074 1079	[BOS]
+T8	Transition 1313 1318	[BOS]
+T9	Single_summ 1548 1553	[BOS]
+T10	Single_summ 1882 1887	[BOS]
+T11	Single_summ 1984 1989	[BOS]
+T12	Single_summ 2076 2081	[BOS]
+T13	Single_summ 2258 2263	[BOS]
+T14	Single_summ 2351 2356	[BOS]
+T15	Single_summ 2491 2496	[BOS]
+T16	Transition 2702 2707	[BOS]
+T17	Single_summ 2837 2842	[BOS]
+T18	Single_summ 3087 3092	[BOS]
+T19	Transition 3305 3310	[BOS]
+T20	Transition 3617 3622	[BOS]
+T21	Transition 3678 3683	[BOS]
+T22	Transition 3858 3863	[BOS]
+T23	Transition 3979 3984	[BOS]
+T24	Transition 4124 4129	[BOS]
+T25	Single_summ 4276 4281	[BOS]
+T26	Transition 4519 4524	[BOS]
+T27	Single_summ 4679 4684	[BOS]
+T28	Single_summ 4804 4809	[BOS]
+T29	Single_summ 4984 4989	[BOS]
+T30	Transition 5140 5145	[BOS]
+T31	Single_summ 5285 5290	[BOS]
+T32	Single_summ 5622 5627	[BOS]
+T33	Transition 5780 5785	[BOS]
+T34	Reference 44 65	(Silva et. al., 2004)
+T35	Reference 87 107	(Chen and Lin, 2000)
+T36	Reference 110 132	(Rauber et. al., 2001)
+T37	Reference 135 151	(Lawrence, 2003)
+T38	Reference 154 181	(Steinberger et. al., 2002)
+T39	Reference 184 206	(Mathieu et. al, 2004)
+T40	Dominant 714 729	Lawrence, 2003)
+T41	Dominant 940 959	(Kirk et al., 2004)
+T43	Dominant 1558 1579	Mathieu et. al, 2004)
+T44	Dominant 2085 2108	(Rauber et. al., 2001 )
+T46	Dominant 2864 2883	Chen and Lin, 2000)
+T47	Dominant 4285 4313	(Steinberger et. al., 2002 )
+T49	Dominant 4715 4736	(Silva et. al., 2004)
+T51	B_span 710 712	In
+T52	E_span 896 902	system
+T53	B_span 910 920	Columbia's
+T42	E_span 1304 1310	system
+T54	B_span 1554 1556	In
+T55	E_span 2066 2074	features
+T56	B_span 2082 2084	In
+T57	E_span 2692 2700	clusters
+T58	B_span 2843 2847	This
+T59	E_span 3294 3302	entities
+T60	B_span 4282 4284	In
+T48	E_span 4509 4516	Eurovoc
+T50	B_span 4685 4687	In
+T61	E_span 5126 5137	monolingual
+T62	B_span 5291 5293	In
+T63	E_span 5613 5620	Eurovoc
+T64	B_span 5628 5630	In
+T65	E_span 5770 5777	systems
+T45	B_span 35 43	parallel
+T66	E_span 60 64	2004
+T67	B_span 69 79	comparable
+T68	E_span 201 205	2004
+T69	Pronoun 837 842	these
+T70	Pronoun 987 989	it
+T71	Pronoun 1384 1386	it
+T72	Pronoun 1410 1415	these
+T73	Pronoun 1901 1905	they
+T74	Pronoun 2616 2620	they
+T75	Pronoun 2843 2847	This
+T76	Pronoun 3199 3203	they
+T77	Pronoun 3261 3265	they
+T78	Pronoun 4063 4067	they
+T79	Pronoun 4145 4147	it
+T80	Pronoun 4198 4200	it

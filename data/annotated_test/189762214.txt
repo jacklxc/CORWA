@@ -1,0 +1,48 @@
+[BOS] Dialogue tasks.
+[BOS] Recently, there has been growing interest in question answering (QA) in a dialogue setting (Choi et al., 2018; Reddy et al., 2019) .
+[BOS] CMR (Saeidi et al., 2018) differs from dialogue QA in the domain covered (regulatory text vs Wikipedia).
+[BOS] A consequence of this is that CMR requires the interpretation of complex decision rules in order to answer high-level questions, whereas dialogue QA typically contains questions whose answers are directly extractable from the text.
+[BOS] In addition, CMR requires the formulation of free-form follow-up questions in order to identify whether the user satisfies decision rules, whereas dialogue QA does not.
+[BOS] There has also been significant work on task-oriented dialogue, where the system must inquire about miss-ing information in order to help the user achieve a goal (Williams et al., 2013; Henderson et al., 2014; Young et al., 2013) .
+[BOS] However, these tasks are typically constrained to a fixed ontology (e.g. restaurant reservation), instead of a latent ontology specified via natural language documents.
+
+[BOS] Dialogue systems.
+[BOS] One traditional approach for designing dialogue systems divides the task into language understanding/state-tracking Zhong et al., 2018) , reasoning/policy learning (Su et al., 2016) , and response generation (Wen et al., 2015) .
+[BOS] The models for each of these subtasks are then combined to form a full dialogue system (Young et al., 2013; .
+[BOS] The previous best system for ShARC (Saeidi et al., 2018 ) similarly breaks the CMR task into subtasks and combines handdesigned sub-models for decision classification, entailment, and follow-up generation.
+[BOS] In contrast, the core reasoning (e.g. non-editor) components of E 3 are jointly trained, and does not require complex hand-designed features.
+
+[BOS] Extracting latent rules from text.
+[BOS] There is a long history of work on extracting knowledge automatically from text (Moulin and Rousseau, 1992) .
+[BOS] Relation extraction typically assumes that there is a fixed ontology onto which extracted knowledge falls (Mintz et al., 2009; Riedel et al., 2013) .
+[BOS] Other works forgo the ontology by using, for example, natural language (Angeli and Manning, 2014; Angeli et al., 2015) .
+[BOS] These extractions from text are subsequently used for inference over a knowledge base (Bordes et al., 2013; Dettmers et al., 2018; Lin et al., 2018) and rationalizing model predictions (Lei et al., 2016) .
+[BOS] Our work is more similar with the latter type in which knowledge extracted are not confined to a fixed ontology and instead differ on a document basis.
+[BOS] In addition, the rules extracted by our model are used for inference over natural language documents.
+[BOS] Finally, these rules provide rationalization for the model's decision making, in the sense that the user can visualize what rules the model extracted and which rules are entailed by previous turns.
+
+[BOS] w 5 i f P i v D s f y 9 a C k 8 + c w h 8 4 n z / J n Y 8 m < / l a t e x i t > < l a t e x i t s h a 1 _ b a s e 6 4 = " C U 4 D P r y C j v 9 j 5 0
+
+[BOS] w 5 i f P i v D s f y 9 a C k 8 + c w h 8 4 n z / J n Y 8 m < / l a t e x i t > < l a t e x i t s h a 1 _ b a s e 6 4 = " C U 4 D P r y C j v 9 j 5 0
+
+[BOS] w 5 i f P i v D s f y 9 a C k 8 + c w h 8 4 n z / J n Y 8 m < / l a t e x i t > < l a t e x i t s h a 1 _ b a s e 6 4 = " C U 4 D P r y C j v 9 j 5 0
+
+[BOS] w 5 i f P i v D s f y 9 a C k 8 + c w h 8 4 n z / J n Y 8 m < / l a t e x i t > x H,1 < l a t e x i t s h a 1 _ b a s e 6 4 = " C U 4 D P r y C j v 9 j 5 0
+
+[BOS] w 5 i f P i v D s f y 9 a C k 8 + c w h 8 4 n z / J n Y 8 m < / l a t e x i t > < l a t e x i t s h a 1 _ b a s e 6 4 = " C U 4 D P r y C j v 9 j 5 0
+
+[BOS] w 5 i f P i v D s f y 9 a C k 8 + c w h 8 4 n z / J n Y 8 m < / l a t e x i t > < l a t e x i t s h a 1 _ b a s e 6 4 = " C U 4 D P r y C j v 9 j 5 0
+
+[BOS] w 5 i f P i v D s f y 9 a C k 8 + c w h 8 4 n z / J n Y 8 m < / l a t e x i t > < l a t e x i t s h a 1 _ b a s e 6 4 = " C U 4 D P r y C j v 9 j 5 0 rules.
+[BOS] The user presents a scenario describing their situation, and asks the system an underspecified question.
+
+[BOS] In order to answer the user's question, the system must ask the user a series of follow-up questions to determine whether the user satisfies the set of decision rules.
+
+[BOS] The key challenges in CMR are to identify implicit rules present in the document, understand which rules are necessary to answer the question, and inquire about necessary rules that are not entailed by the conversation history by asking follow-up questions.
+[BOS] The three core modules of E 3 , the extraction, entailment, and decision modules, combine to address these challenges.
+[BOS] Figure 2 illustrates the components of E 3 .
+
+[BOS] For ease of exposition, we describe E 3 for a single turn in the conversation.
+[BOS] To make the references concrete in the following sections, we use as an example the inputs and outputs from Figure 1 .
+[BOS] This example describes a turn in a conversation in which the system helps the user determine whether they need to pay UK taxes on their pension.
+

@@ -1,0 +1,42 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 111 116	[BOS]
+T3	Transition 292 297	[BOS]
+T4	Single_summ 385 390	[BOS]
+T5	Reflection 602 607	[BOS]
+T6	Transition 717 722	[BOS]
+T7	Transition 825 830	[BOS]
+T8	Single_summ 1021 1026	[BOS]
+T9	Single_summ 1093 1098	[BOS]
+T10	Reflection 1263 1268	[BOS]
+T11	Reflection 1515 1520	[BOS]
+T12	Reflection 1650 1655	[BOS]
+T13	Narrative_cite 1848 1853	[BOS]
+T14	Reference 267 289	(Jurgens et al., 2012)
+T15	Reference 467 490	(Mikolov et al., 2013b)
+T16	Dominant 535 558	(Gladkova et al., 2016)
+T17	Reference 1069 1090	Kutuzov et al. (2017)
+T18	Reference 1807 1828	Kutuzov et al. (2018)
+T19	Reference 1833 1844	Tang (2018)
+T20	Reference 1947 1968	(Rogers et al., 2017)
+T21	Pronoun 298 302	This
+T22	Pronoun 350 354	they
+T23	Pronoun 645 649	this
+T24	Pronoun 764 768	they
+T25	Pronoun 793 798	their
+T26	Pronoun 1099 1103	They
+T27	Pronoun 1279 1284	their
+T28	Pronoun 1350 1352	it
+T29	Pronoun 1503 1507	this
+T30	Pronoun 1538 1543	their
+T31	B_span 191 198	SemEval
+T32	E_span 284 288	2012
+T33	B_span 439 443	word
+T34	E_span 484 489	2013b
+T36	E_span 593 600	answers
+T35	B_span 439 443	word
+T37	B_span 1055 1063	workflow
+T38	E_span 1257 1261	year
+T39	B_span 1796 1803	surveys
+T40	E_span 1839 1843	2018
+T41	B_span 1891 1901	analogical
+T42	E_span 1963 1967	2017

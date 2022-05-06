@@ -1,0 +1,5 @@
+[BOS] Most of the tools available for automatic keyphrase extraction only implement one approach, and are often outdated with respect to the current state-of-the-art.
+[BOS] These tools also rely on in-house text preprocessing and candidate selection/filtering pipelines, which makes it difficult to compare results across several approaches.
+[BOS] One notable exception to this is the DKPro Keyphrases Java framework (Erbs et al., 2014) , which provides a UIMA-based workbench for developing and evaluating new keyphrase extraction approaches.
+[BOS] However, this framework requires users to learn UIMA before they can get started, and does not provide supervised approaches that are known to perform better (Hasan and Ng, 2014) .
+

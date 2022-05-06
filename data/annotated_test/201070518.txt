@@ -1,0 +1,23 @@
+[BOS] Our work is related to the grammar-based constrained decoding approaches for semantic parsing (Yin and Neubig, 2017; Rabinovich et al., 2017; Iyer et al., 2018) .
+[BOS] While their approaches are focused on general purpose code generation, we instead focus on SQL-specific grammar to address the text-to-SQL task.
+[BOS] Our task differs from code generation in two aspects.
+[BOS] First, it takes a database schema as an input in addition to natural language.
+[BOS] To predict SQL correctly, a model should fully understand the relationship between the question and the schema.
+[BOS] Second, as SQL is a non-procedural language, predictions of SQL clauses do not need to be done sequentially.
+
+[BOS] For text-to-SQL generation, several SQLspecific approaches have been proposed (Zhong et al., 2017; Xu et al., 2017; Huang et al., 2018; Yu et al., 2018a; Dong and Lapata, 2018; Yavuz et al., 2018) based on WikiSQL dataset (Zhong et al., 2017) .
+[BOS] However, all of them are limited to the specific WikiSQL SQL sketch, which only supports very simple queries.
+[BOS] It includes only the SELECT and WHERE clauses, only a single expression in the SELECT clause, and works only for a single table.
+[BOS] To predict more complex SQL queries, sequence-to-sequence (Iyer et al., 2017; Finegan-Dollak et al., 2018) and template-based (Finegan-Dollak et al., 2018; Lee et al., 2019) approaches have been proposed.
+[BOS] However, they focused only on specific databases such as ATIS (Price, 1990) and GeoQuery (Zelle and Mooney, 1996) .
+[BOS] Because they only considered question and SQL pairs without requiring an understanding of database schema, their approaches cannot generalize to unseen databases.
+
+[BOS] SyntaxSQLNet (Yu et al., 2018b) is the first and state-of-the-art model for the Spider (Yu et al., 2018c) , a complex and cross-domain text-to-SQL task.
+[BOS] They proposed an SQL specific syntax tree-based decoder with SQL generation history.
+[BOS] Our approach differs from their model in the following aspects.
+[BOS] First, taking into account that SQL corresponds to non-procedural language, we develop a clause-specific decoder for each SQL clause, where SyntaxSQLNet predicts SQL tokens sequentially.
+[BOS] For example, in SyntaxSQL-Net, a single column prediction module works both in the SELECT and WHERE clauses, depending on the SQL decoding history.
+[BOS] In contrast, we define and train decoding modules separately for each SQL clause to fully utilize clausedependent context.
+[BOS] Second, we apply sequenceto-sequence architecture to predict columns instead of using the sequence-to-set framework from SyntaxSQLNet, because correct ordering is essential for the GROUP BY and ORDER BY clauses.
+[BOS] Finally, we introduce a self-attention mechanism (Lin et al., 2017) to efficiently encode database schema, which includes multiple tables.
+

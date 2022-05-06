@@ -1,0 +1,37 @@
+T1	Reflection 0 5	[BOS]
+T2	Transition 203 208	[BOS]
+T3	Transition 319 324	[BOS]
+T4	Narrative_cite 559 564	[BOS]
+T5	Single_summ 681 686	[BOS]
+T6	Transition 966 971	[BOS]
+T7	Single_summ 1098 1103	[BOS]
+T8	Single_summ 1280 1285	[BOS]
+T9	Transition 1475 1480	[BOS]
+T10	Single_summ 1610 1615	[BOS]
+T11	Single_summ 1741 1746	[BOS]
+T12	Single_summ 1904 1909	[BOS]
+T13	Reference 77 100	(Mikolov et al., 2013b)
+T14	Reference 626 650	(Mikolov et al., 2013b )
+T15	Dominant 724 748	(Faruqui and Dyer, 2014)
+T16	Dominant 1117 1135	(Zou et al., 2013)
+T17	Dominant 1320 1345	(Klementiev et al., 2012)
+T18	Dominant 1616 1638	(Blunsom et al., 2014)
+T19	Dominant 1800 1827	(Hermann and Blunsom, 2014)
+T20	Pronoun 6 10	This
+T21	Pronoun 579 583	this
+T22	Pronoun 666 670	this
+T23	Pronoun 1771 1775	this
+T24	B_span 36 47	methodology
+T25	E_span 94 99	2013b
+T26	B_span 598 604	linear
+T27	E_span 643 648	2013b
+T28	B_span 687 694	Another
+T29	E_span 959 962	CCA
+T30	B_span 1104 1107	For
+T31	E_span 1271 1278	funtion
+T32	B_span 1286 1287	A
+T33	E_span 1466 1472	matrix
+T34	B_span 1617 1624	Blunsom
+T35	E_span 1730 1739	embedding
+T36	B_span 1747 1748	A
+T37	E_span 2078 2085	vectors

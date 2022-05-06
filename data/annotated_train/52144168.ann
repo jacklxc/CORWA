@@ -1,0 +1,19 @@
+T1	Reflection 0 5	[BOS]
+T2	Transition 78 83	[BOS]
+T3	Narrative_cite 95 100	[BOS]
+T4	Narrative_cite 234 239	[BOS]
+T5	Narrative_cite 418 423	[BOS]
+T6	Narrative_cite 582 587	[BOS]
+T7	Transition 710 715	[BOS]
+T8	Reference 216 231	(Wolpert, 1992)
+T9	Reference 344 367	(Toutanova et al., 2008
+T10	Reference 369 392	Yang and Mitchell, 2017
+T11	Reference 394 415	Wiseman et al., 2016)
+T12	Reference 563 579	He et al., 2013)
+T13	Reference 687 707	Finkel et al., 2006)
+T15	E_span 226 230	1992
+T16	B_span 314 322	semantic
+T17	E_span 410 414	2016
+T18	B_span 191 197	define
+T14	B_span 540 543	the
+T19	E_span 574 578	2013

@@ -1,0 +1,75 @@
+T1	Intro 0 5	[BOS]
+T2	Transition 110 115	[BOS]
+T3	Single_summ 254 259	[BOS]
+T4	Single_summ 441 446	[BOS]
+T5	Single_summ 516 521	[BOS]
+T6	Single_summ 670 675	[BOS]
+T7	Single_summ 830 835	[BOS]
+T8	Single_summ 963 968	[BOS]
+T9	Single_summ 1038 1043	[BOS]
+T10	Multi_summ 1105 1110	[BOS]
+T11	Single_summ 1274 1279	[BOS]
+T12	Single_summ 1378 1383	[BOS]
+T13	Single_summ 1442 1447	[BOS]
+T14	Single_summ 1573 1578	[BOS]
+T15	Single_summ 1671 1676	[BOS]
+T16	Single_summ 1773 1778	[BOS]
+T17	Transition 1904 1909	[BOS]
+T18	Transition 1994 1999	[BOS]
+T19	Transition 2117 2122	[BOS]
+T20	Transition 2226 2231	[BOS]
+T21	Single_summ 2359 2364	[BOS]
+T22	Single_summ 2500 2505	[BOS]
+T23	Single_summ 2592 2597	[BOS]
+T24	Single_summ 2672 2677	[BOS]
+T25	Single_summ 2833 2838	[BOS]
+T26	Transition 2897 2902	[BOS]
+T27	Transition 3012 3017	[BOS]
+T28	Reflection 3137 3142	[BOS]
+T29	Reflection 3300 3305	[BOS]
+T30	Dominant 418 438	(Brown et al., 1990)
+T32	Dominant 543 562	Berger et al., 1996
+T33	Dominant 750 773	Wang and Waible in 1998
+T34	Dominant 836 852	Och et al., 1999
+T35	Dominant 978 989	Och and Ney
+T36	Dominant 1052 1057	Koehn
+T37	Dominant 1208 1221	Philipp Koehn
+T38	Dominant 1254 1272	Koehn et al., 2007
+T40	Dominant 1648 1660	Zens and Ney
+T41	Dominant 2678 2702	Nguyen and Shimazu, 2006
+T31	B_span 260 273	Probabilistic
+T42	E_span 509 514	model
+T43	B_span 522 524	In
+T44	E_span 662 668	models
+T45	B_span 836 839	Och
+T46	E_span 953 961	accuracy
+T47	B_span 969 971	In
+T48	E_span 1033 1036	SMT
+T49	B_span 1044 1046	In
+T50	E_span 1094 1103	weighting
+T39	Dominant 1288 1308	Koehn, Och and Marcu
+T51	B_span 1280 1282	In
+T52	E_span 1555 1572	Chinese-English).
+T53	B_span 1579 1588	Loglinear
+T54	E_span 1894 1901	quality
+T55	B_span 2365 2367	In
+T56	E_span 2667 2670	set
+T57	Dominant 2373 2395	Goldwater and McClosky
+T58	B_span 2678 2684	Nguyen
+T59	E_span 2889 2894	score
+T60	B_span 676 685	Alignment
+T61	E_span 822 828	corpus
+T62	B_span 1111 1113	In
+T63	E_span 1268 1272	2007
+T64	Pronoun 9 13	this
+T65	Pronoun 456 460	they
+T66	Pronoun 1114 1118	this
+T67	Pronoun 1384 1388	They
+T68	Pronoun 1448 1452	They
+T69	Pronoun 1677 1681	They
+T70	Pronoun 1746 1748	it
+T71	Pronoun 2506 2510	This
+T72	Pronoun 2598 2603	Their
+T73	Pronoun 2852 2857	their
+T74	Pronoun 3067 3071	they
+T75	Pronoun 3347 3351	this

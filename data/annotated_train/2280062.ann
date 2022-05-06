@@ -1,0 +1,69 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 136 141	[BOS]
+T3	Single_summ 232 237	[BOS]
+T4	Multi_summ 382 387	[BOS]
+T5	Transition 628 633	[BOS]
+T6	Transition 736 741	[BOS]
+T7	Single_summ 847 852	[BOS]
+T8	Single_summ 1032 1037	[BOS]
+T9	Transition 1123 1128	[BOS]
+T10	Single_summ 1219 1224	[BOS]
+T11	Single_summ 1371 1376	[BOS]
+T12	Reflection 1504 1509	[BOS]
+T13	Transition 1591 1596	[BOS]
+T14	Single_summ 1710 1715	[BOS]
+T15	Single_summ 1897 1902	[BOS]
+T16	Multi_summ 2115 2120	[BOS]
+T17	Multi_summ 2328 2333	[BOS]
+T18	Transition 2496 2501	[BOS]
+T19	Reflection 2645 2650	[BOS]
+T20	Narrative_cite 2931 2936	[BOS]
+T21	Transition 3165 3170	[BOS]
+T22	Reflection 3402 3407	[BOS]
+T23	Reference 113 133	Wilson et al., 2009)
+T24	Dominant 238 260	Choi and Cardie (2008)
+T25	Dominant 388 417	Yessenalina and Cardie (2011)
+T26	Dominant 422 442	Socher et al. (2013)
+T27	Dominant 862 884	Choi and Cardie (2008)
+T28	Dominant 1225 1244	Breck et al. (2007)
+T29	Dominant 1377 1399	Yang and Cardie (2012)
+T30	Dominant 1716 1738	Choi and Cardie (2010)
+T31	Reference 1875 1894	(Zhao et al., 2008)
+T32	Dominant 2121 2151	Johansson and Moschitti (2011)
+T33	Dominant 2156 2186	Johansson and Moschitti (2013)
+T34	Reference 3051 3074	Punyakanok et al., 2004
+T35	Reference 3076 3100	Finkel and Manning, 2010
+T36	Reference 3102 3119	Rush et al., 2010
+T37	Reference 3121 3138	Choi et al., 2006
+T38	Reference 3140 3162	Yang and Cardie, 2013)
+T39	Pronoun 641 646	these
+T40	Pronoun 1038 1042	This
+T41	Pronoun 1060 1062	it
+T42	Pronoun 1513 1517	this
+T43	Pronoun 1925 1930	their
+T44	Pronoun 1948 1950	it
+T45	Pronoun 2070 2075	their
+T46	Pronoun 2355 2360	their
+T47	Pronoun 2415 2417	it
+T48	Pronoun 2839 2843	they
+T49	Pronoun 3411 3415	this
+T50	B_span 67 71	fine
+T51	E_span 128 132	2009
+T52	B_span 238 242	Choi
+T53	E_span 366 380	classification
+T54	B_span 388 399	Yessenalina
+T55	E_span 617 626	intensity
+T56	B_span 853 855	In
+T57	E_span 1109 1120	expressions
+T58	B_span 1225 1230	Breck
+T59	E_span 1366 1369	not
+T60	B_span 1377 1381	Yang
+T61	E_span 1494 1502	features
+T62	B_span 1716 1720	Choi
+T63	E_span 2108 2113	level
+T64	B_span 1843 1847	CRFs
+T65	E_span 1889 1893	2008
+T66	B_span 2121 2130	Johansson
+T67	E_span 2488 2494	stages
+T68	B_span 3041 3044	NLP
+T69	E_span 3157 3161	2013

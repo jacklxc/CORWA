@@ -1,0 +1,56 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 337 342	[BOS]
+T3	Reflection 638 643	[BOS]
+T4	Narrative_cite 879 884	[BOS]
+T5	Transition 1128 1133	[BOS]
+T6	Single_summ 1439 1444	[BOS]
+T7	Reflection 1614 1619	[BOS]
+T8	Transition 1721 1726	[BOS]
+T9	Narrative_cite 1803 1808	[BOS]
+T10	Reflection 2294 2299	[BOS]
+T11	Reference 200 221	(Blitzer et al., 2006
+T12	Reference 223 238	Daum III, 2007)
+T13	Reference 296 315	(Jiang et al., 2009
+T14	Reference 317 334	Zhu et al., 2011)
+T15	Reference 467 493	(Cahill and Mccarthy, 2002
+T16	Reference 495 525	Hockenmaier and Steedman, 2007
+T17	Reference 527 550	Clark and Curran, 2009)
+T18	Reference 600 617	(Gao et al., 2004
+T19	Reference 619 635	Mi et al., 2008)
+T20	Reference 1005 1019	(Sarkar, 2001)
+T21	Dominant 1560 1577	(Daum III, 2009 )
+T22	Reference 1882 1904	(Zhang and Clark, 2007
+T23	Reference 1906 1928	Zhang and Clark, 2010)
+T24	Reference 1968 1978	(Li, 2011)
+T25	Reference 2033 2061	(Nakagawa and Uchimoto, 2007
+T26	Reference 2063 2086	Kruengkrai et al., 2009
+T27	Reference 2088 2105	Wang et al., 2010
+T28	Reference 2107 2117	Sun, 2011)
+T29	Reference 2193 2211	Zhao and Kit, 2008
+T30	Reference 2213 2240	Johnson and Goldwater, 2009
+T31	Reference 2242 2265	Mochihashi et al., 2009
+T32	Reference 2267 2291	Hewlett and Cohen, 2011)
+T33	Pronoun 644 648	This
+T34	Pronoun 930 934	this
+T35	Pronoun 959 961	it
+T36	Pronoun 1629 1633	this
+T38	E_span 329 333	2011
+T40	E_span 630 634	2008
+T43	B_span 1445 1448	The
+T44	E_span 1605 1612	parsing
+T46	E_span 2286 2290	2011
+T37	B_span 150 157	domains
+T47	E_span 233 237	2007
+T48	B_span 285 295	guidelines
+T39	B_span 447 455	treebank
+T49	E_span 545 549	2009
+T50	B_span 557 561	word
+T51	E_span 1014 1018	2001
+T42	B_span 1842 1848	global
+T45	E_span 1923 1927	2010
+T52	B_span 1935 1948	investigation
+T53	E_span 1973 1977	2011
+T54	B_span 1985 1995	strategies
+T55	E_span 2107 2110	Sun
+T56	B_span 2128 2142	semisupervised
+T41	B_span 972 974	co

@@ -1,0 +1,20 @@
+[BOS] Our event-aspect model is related to a number of previous extensions of LDA models.
+[BOS] Chemudugunta et al. (2007) proposed to introduce a background topic and document-specific topics.
+[BOS] Our background and document language models are similar to theirs.
+[BOS] However, they still treat documents as bags of words rather then sets of sentences as in our models.
+[BOS] Titov and McDonald (2008) exploited the idea that a short paragraph within a document is likely to be about the same aspect.
+[BOS] The way we separate words into stop words, background words, document words and aspect words bears similarity to that used in (Daum III and Marcu, 2006; Haghighi and Vanderwende, 2009 ).
+[BOS] proposed a topic-aspect model for simultaneously finding topics and aspects.
+[BOS] The most related extension is entityaspect model proposed by Li et al. (2010) .
+[BOS] The main difference between event-aspect model and entityaspect model is our model further consider aspect granularity and add a layer to model topic-related events.
+[BOS] Filippova and Strube (2008) proposed a dependency tree based sentence compression algorithm.
+[BOS] Their approach need a large corpus to build language model for compression, whereas we prune dependency tree using grammatical rules.
+[BOS] proposed to modify LexRank algorithm using their topic-aspect model.
+[BOS] But their task is to summarize contrastive viewpoints in opinionated text.
+[BOS] Furthermore, they use a simple greedy approach for constructing summary.
+
+[BOS] McDonald (2007) proposed to use Integer Linear Programming framework in multi-document sum-marization.
+[BOS] And Sauper and Barzilay (2009) use integer linear programming framework to automatically generate Wikipedia articles.
+[BOS] There is a fundamental difference between their method and ours.
+[BOS] They used trained perceptron algorithm for ranking excerpts, whereas we give an extended LexRank with integer linear programming to optimize sentence selection for our aspect-oriented multi-document summarization.
+

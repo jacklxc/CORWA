@@ -1,0 +1,54 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 230 235	[BOS]
+T3	Single_summ 342 347	[BOS]
+T4	Single_summ 417 422	[BOS]
+T5	Multi_summ 506 511	[BOS]
+T6	Single_summ 686 691	[BOS]
+T7	Single_summ 858 863	[BOS]
+T8	Reflection 914 919	[BOS]
+T9	Narrative_cite 1001 1006	[BOS]
+T10	Narrative_cite 1140 1145	[BOS]
+T11	Narrative_cite 1410 1415	[BOS]
+T12	Reference 66 86	(Ling and Weld, 2012
+T13	Reference 88 108	Gillick et al., 2014
+T14	Reference 110 129	Yosef et al., 2012)
+T15	Reference 164 187	(Del Corro et al., 2015
+T16	Reference 189 207	Murty et al., 2017
+T17	Reference 209 227	Choi et al., 2018)
+T18	Dominant 348 370	Shimaoka et al. (2017)
+T19	Dominant 423 444	Xu and Barbosa (2018)
+T20	Dominant 512 528	Ma et al. (2016)
+T21	Dominant 533 555	Abhishek et al. (2017)
+T22	Dominant 711 730	Xiong et al. (2019)
+T23	Reference 1090 1112	(Krioukov et al., 2010
+T24	Reference 1114 1137	Verbeek and Suri, 2016)
+T25	Reference 1258 1276	(Tay et al., 2018)
+T26	Reference 1309 1332	(Gulcehre et al., 2019)
+T27	Reference 1357 1385	(Leimeister and Wilson, 2018
+T28	Reference 1387 1407	Tifrea et al., 2019)
+T29	Reference 1442 1465	Nickel and Kiela (2017)
+T30	Reference 1581 1602	Dhingra et al. (2018)
+T31	B_span 39 43	fine
+T32	E_span 124 128	2012
+T33	B_span 144 148	size
+T34	E_span 222 226	2018
+T35	B_span 348 356	Shimaoka
+T36	E_span 409 415	matrix
+T37	B_span 423 425	Xu
+T38	E_span 496 504	function
+T39	B_span 512 514	Ma
+T40	E_span 680 684	them
+T41	B_span 692 695	Our
+T42	E_span 901 912	assumptions
+T43	B_span 1053 1060	complex
+T44	E_span 1132 1136	2016
+T45	B_span 1224 1234	embeddings
+T46	E_span 1271 1275	2018
+T47	B_span 1282 1288	Neural
+T48	E_span 1327 1331	2019
+T49	B_span 1342 1347	model
+T50	E_span 1402 1406	2019
+T51	B_span 1442 1448	Nickel
+T52	E_span 1518 1522	data
+T53	B_span 1545 1561	parameterization
+T54	E_span 1597 1601	2018

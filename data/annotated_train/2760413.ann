@@ -1,0 +1,46 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 346 351	[BOS]
+T3	Narrative_cite 547 552	[BOS]
+T4	Narrative_cite 924 929	[BOS]
+T5	Transition 1186 1191	[BOS]
+T6	Reflection 1425 1430	[BOS]
+T7	Reflection 1561 1566	[BOS]
+T8	Narrative_cite 1573 1578	[BOS]
+T9	Narrative_cite 1754 1759	[BOS]
+T10	Narrative_cite 2075 2080	[BOS]
+T11	Reflection 2364 2369	[BOS]
+T12	Reference 110 131	(Krahmer et al., 2008
+T13	Reference 133 157	Marsi and Krahmer, 2005)
+T14	Reference 629 652	(Jing and McKeown, 2000
+T15	Reference 654 680	Barzilay and McKeown, 2005
+T16	Reference 682 710	Filippova and Strube, 2008b)
+T17	Reference 1043 1069	(Turner and Charniak, 2005
+T18	Reference 1071 1085	McDonald, 2006
+T19	Reference 1087 1110	Clarke and Lapata, 2008
+T20	Reference 1112 1139	Filippova and Strube, 2008a
+T21	Reference 1141 1162	Cohn and Lapata, 2009
+T22	Reference 1164 1183	Marsi et al., 2010)
+T23	Reference 1708 1727	(Dagan et al., 2005
+T24	Reference 1729 1751	Bar-Haim et al., 2006)
+T25	Reference 1858 1883	(Bensley and Hickl, 2008)
+T26	Reference 2164 2188	(Clarke and Lapata, 2008
+T27	Reference 2190 2217	Filippova and Strube, 2008b
+T28	Reference 2219 2241	Woodsend et al., 2010)
+T29	Pronoun 553 557	This
+T30	Pronoun 930 934	This
+T31	Pronoun 1373 1375	it
+T32	Pronoun 1448 1452	this
+T33	Pronoun 2373 2377	this
+T34	Pronoun 2507 2512	these
+T35	B_span 94 102	sentence
+T36	E_span 152 156	2005
+T37	B_span 590 601	traditional
+T38	E_span 704 709	2008b
+T39	B_span 963 968	field
+T40	E_span 1178 1182	2010
+T41	B_span 1692 1699	textual
+T42	E_span 1746 1750	2006
+T43	B_span 1760 1769	Automatic
+T44	E_span 1878 1882	2008
+T45	B_span 2115 2119	text
+T46	E_span 2236 2240	2010

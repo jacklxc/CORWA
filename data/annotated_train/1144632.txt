@@ -1,0 +1,7 @@
+[BOS] Many methods have been proposed for learning word representations.
+[BOS] Earlier work learns embeddings using a recurrent language model (Collobert et al., 2011) , while several simpler and more lightweight adaptations have been proposed (Huang et al., 2012; Mikolov et al., 2013) .
+[BOS] While most of the learnt vectors are semantically oriented, work has been done in order to extend the model to learn syntactically oriented embeddings (Ling et al., 2015a) .
+[BOS] Attention models are common in vision related tasks (Tang et al., 2014) , where models learn to pay attention to certain parts of a image in order to make accurate predictions.
+[BOS] This idea has been recently introduced in many NLP tasks, such as machine translation (Bahdanau et al., 2014) .
+[BOS] In the area of word representation learning, no prior work that uses attention models exists to our knowledge.
+

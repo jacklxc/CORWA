@@ -1,0 +1,23 @@
+[BOS] Computer Assisted Translation (CAT) has been an area of active research.
+[BOS] We focus on offering suggestions during the translation process with an Figure 1 .
+[BOS] Example TransAhead responses to a source text under the translation (a) "we" and (b) "we play an important role".
+[BOS] Note that the grammar/text predictions of (a) and (b) are not placed directly under the caret (current input focus) for space limit.
+[BOS] (c) and (d) depict predominant grammar constructs which follow and (e) summarizes the confident translations of the source's character-based ngrams.
+[BOS] The frequency of grammar pattern is shown in round brackets while the history (i.e., keyword) based on the user input is shown in shades.
+
+[BOS] emphasis on language learning.
+[BOS] Specifically, our goal is to build a translation assistant to help translator (or learner-translator) with inline grammar help and translation.
+[BOS] Unlike recent research focusing on professional (e.g., Brown and Nirenburg, 1990) , we target on both professional and student translators.
+
+[BOS] More recently, interactive MT (IMT) systems have begun to shift the user's role from postediting machine output to collaborating with the machine to produce the target text.
+[BOS] Foster et al (2000) describe TransType, a pioneering system that supports next word predictions.
+[BOS] Along the similar line, Koehn (2009) develops caitra which predicts and displays phrasal translation suggestions one phrase at a time.
+[BOS] The main difference between their systems and TransAhead is that we also display grammar patterns to provide the general patterns of predicted translations so a student translator can learn and become more proficient.
+
+[BOS] Recent work has been done on using fullyfledged statistical MT systems to produce target hypotheses completing user-validated translation prefix in IMT paradigm.
+[BOS] Barrachina et al. (2008) investigate the applicability of different MT kernels within IMT framework.
+[BOS] Nepveu et al. (2004) and Ortiz-Martinez et al. (2011) further exploit user feedbacks for better IMT systems and user experience.
+[BOS] Instead of triggered by user correction, our method is triggered by word delimiter and assists both translation and learning the target language.
+
+[BOS] In contrast to the previous CAT research, we present a writing assistant that suggests grammar constructs as well as lexical translations following users' partial translation, aiming to provide users with choice to ease mental burden and enhance performance.
+

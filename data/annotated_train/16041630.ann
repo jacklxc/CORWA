@@ -1,0 +1,49 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 130 135	[BOS]
+T3	Transition 327 332	[BOS]
+T4	Transition 387 392	[BOS]
+T5	Narrative_cite 729 734	[BOS]
+T6	Transition 904 909	[BOS]
+T7	Transition 1174 1179	[BOS]
+T8	Narrative_cite 1417 1422	[BOS]
+T9	Transition 1627 1632	[BOS]
+T10	Narrative_cite 1717 1722	[BOS]
+T11	Single_summ 2042 2047	[BOS]
+T12	Multi_summ 2163 2168	[BOS]
+T13	Transition 2510 2515	[BOS]
+T14	Transition 2631 2636	[BOS]
+T15	Reflection 2766 2771	[BOS]
+T16	Reflection 2908 2913	[BOS]
+T17	Reference 877 901	(Kotlerman et al., 2010)
+T18	Reference 1578 1591	(Hearst, 1992
+T19	Reference 1593 1624	Pantel and Pennacchiotti, 2006)
+T20	Reference 1806 1827	(Weeds and Weir, 2003
+T21	Reference 1829 1847	Weeds et al., 2004
+T22	Reference 1849 1862	Clarke, 2009)
+T23	Reference 2020 2038	Erk (2009a; 2009b)
+T24	Dominant 2088 2111	Kotlerman et al. (2010)
+T25	Dominant 2229 2270	Zhitomirsky-Geffet and Dagan (2005; 2009)
+T26	Reference 2789 2812	Kotlerman et al. (2010)
+T27	Pronoun 359 364	these
+T28	Pronoun 399 403	they
+T29	Pronoun 495 499	they
+T30	Pronoun 566 571	these
+T31	Pronoun 750 754	this
+T32	Pronoun 910 915	These
+T33	Pronoun 1272 1277	their
+T34	Pronoun 2554 2558	this
+T35	Pronoun 2646 2648	it
+T36	B_span 829 840	directional
+T37	E_span 896 900	2010
+T38	B_span 1536 1540	semi
+T39	E_span 1619 1623	2006
+T40	B_span 1751 1760	hypernyms
+T41	E_span 1857 1861	2009
+T42	B_span 1889 1903	Distributional
+T43	E_span 2032 2037	2009b
+T44	B_span 2169 2175	Within
+T45	E_span 2505 2508	one
+T46	B_span 2048 2051	The
+T47	E_span 2148 2159	entailments
+T48	B_span 2772 2783	Differently
+T49	E_span 2807 2811	2010

@@ -1,0 +1,15 @@
+[BOS] Transfer learning with encoder-decoder networks.
+[BOS] Encoder-decoder RNNs were introduced by Cho et al. (2014) and Sutskever et al. (2014) and extended by an attention mechanism by Bahdanau et al. (2015) .
+[BOS] Lately, much work was done on multi-task learning and transfer learning with encoder-decoder RNNs.
+[BOS] Luong et al. (2015) investigated multi-task setups for sequence-to-sequence learning, combining multiple encoders and decoders.
+[BOS] In contrast, in our experiments, we use only one encoder and one decoder.
+[BOS] There exists much work on multi-task learning with encoderdecoder RNNs for machine translation (Johnson et al., 2016; Dong et al., 2015; Firat et al., 2016; Ha et al., 2016) .
+[BOS] Alonso and Plank (2016) explored multi-task learning empirically, analyzing when it improves performance.
+[BOS] Here, we focus on how transfer via multi-task learning works.
+
+[BOS] Paradigm completion.
+[BOS] SIGMORPHON hosted two shared tasks on paradigm completion (Cotterell et al., 2016 (Cotterell et al., , 2017 , in order to encourage the development of systems for the task.
+[BOS] One approach is to treat it as a string transduction problem by applying an alignment model with a semi-Markov model (Durrett and DeNero, 2013; Nicolai et al., 2015) .
+[BOS] Recently, neural sequenceto-sequence models are also widely used (Faruqui et al., 2016; Kann and Schtze, 2016; Aharoni and Goldberg, 2017; Zhou and Neubig, 2017) .
+[BOS] All the above mentioned work were designed for one single language.
+

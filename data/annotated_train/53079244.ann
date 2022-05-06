@@ -1,0 +1,25 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 261 266	[BOS]
+T3	Multi_summ 416 421	[BOS]
+T4	Single_summ 662 667	[BOS]
+T5	Reflection 898 903	[BOS]
+T6	Reference 324 342	Dong et al. (2015)
+T7	Reference 345 365	Firat et al. (2016a)
+T8	Reference 368 387	Luong et al. (2016)
+T9	Reference 392 413	Johnson et al. (2017)
+T10	Dominant 499 522	(Blackwood et al., 2018
+T11	Dominant 524 543	Lakew et al., 2018)
+T12	Reference 617 638	Johnson et al. (2017)
+T13	Reference 643 659	Ha et al. (2016)
+T14	Reference 709 729	Wang et al., 2017b )
+T15	Dominant 756 772	Gu et al. (2018)
+T16	B_span 267 279	Multilingual
+T17	E_span 408 412	2017
+T18	B_span 499 500	(
+T19	E_span 654 658	2016
+T20	B_span 604 613	framework
+T21	E_span 654 658	2016
+T22	B_span 675 678	low
+T23	E_span 722 727	2017b
+T24	B_span 756 758	Gu
+T25	E_span 893 896	NMT

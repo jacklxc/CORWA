@@ -1,0 +1,41 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 83 88	[BOS]
+T3	Single_summ 201 206	[BOS]
+T4	Single_summ 422 427	[BOS]
+T5	Single_summ 540 545	[BOS]
+T6	Single_summ 643 648	[BOS]
+T7	Transition 756 761	[BOS]
+T8	Transition 912 917	[BOS]
+T9	Narrative_cite 1031 1036	[BOS]
+T10	Single_summ 1140 1145	[BOS]
+T11	Single_summ 1222 1227	[BOS]
+T12	Transition 1413 1418	[BOS]
+T13	Single_summ 1581 1586	[BOS]
+T14	Single_summ 1704 1709	[BOS]
+T15	Dominant 207 227	(Zhang et al., 2000)
+T16	Dominant 428 447	(Chen et al., 2013)
+T17	Dominant 546 565	(Lin and Chu, 2015)
+T18	Dominant 649 668	(Yeh et al., 2017 )
+T19	Reference 1117 1137	(Zheng et al., 2016)
+T20	Dominant 1146 1168	(Huang and WANG, 2016)
+T21	Dominant 1228 1248	(Shiue et al., 2017)
+T22	Dominant 1587 1607	(Liao et al., 2017 )
+T23	Dominant 1710 1729	(yang et al., 2017)
+T24	B_span 208 213	Zhang
+T25	E_span 415 420	model
+T26	B_span 429 433	Chen
+T27	E_span 531 538	results
+T28	B_span 547 550	Lin
+T29	E_span 634 641	options
+T30	B_span 650 653	Yeh
+T31	E_span 743 753	candidates
+T32	B_span 1094 1102	sequence
+T33	E_span 1132 1136	2016
+T34	B_span 1147 1152	Huang
+T35	E_span 1212 1220	sentence
+T36	B_span 1229 1234	Shiue
+T37	E_span 1406 1411	ngram
+T38	B_span 1588 1592	Liao
+T39	E_span 1694 1702	messages
+T40	B_span 1711 1715	yang
+T41	E_span 1829 1837	features

@@ -1,0 +1,22 @@
+[BOS] Research on revision concentrates on detecting edits and aligning sentences between versioned text documents.
+[BOS] Considering sentences from the first and last draft of essays, Zhang and Litman (2014; 2015) proposed an automated approach to detect whether a sentence has been edited between these versions.
+[BOS] Their proposed method starts with sen- Figure 1 : Taxonomy for revision analysis (Faigley and Witte, 1981) tence alignment, and then identifies the sequence of edits (i.e., the edit operations of Add, Modify, Delete and Keep) between the two sentences.
+[BOS] They further consider automated classification of the reason for a revision (i.e., claim, evidence, rebuttal, etc.
+[BOS] ), which they hypothesised can help writers to improve their writing.
+[BOS] Classifying revisions based on the reasons of revision does not indicate the significance of revision changes.
+[BOS] What we are attempting is to represent these revision changes in a meaningful way to assist in assessment of the significance.
+[BOS] We concentrate on identification of significant revision changes, or revision changes that have higher impact of meaning change for the purpose of prioritising revision changes, especially in multi-author revision.
+[BOS] Nevertheless, the work by Zhang and Litman (2014; 2015) provides insights to revisions from a different perspective.
+
+[BOS] Research has shown that predefined edit categories such as fluency edits (i.e. edits to improve on style and readability) and factual edits (i.e. edits that alter the meaning) in Wikipedia, where revision history data is abundant, can be classified using a supervised approach (Bronner and Monz, 2012; Daxenberger and Gurevych, 2013) .
+[BOS] The distinction of the edits can be linked to Faigley and Witte's (1981) taxonomy: fluency edits to surface changes and factual edits to text-base changes.
+[BOS] Supervised classification would be difficult to apply to other types of revised documents, due to more limited training data in most domain-specific contexts.
+[BOS] They too did not consider the significance of edits.
+
+[BOS] As our task is to align words between versioned sentences to assist in identification of significant changes between versioned texts, it is important to consider the semantics of sentences.
+[BOS] Lee et. al. (2014) reviewed the limitations of information retrieval methods (i.e., the Boolean model, the vector space model and the statistical probability model) that calculate the similarity of natural language sentences, but did not consider the meaning of the sentences.
+[BOS] Their proposal was to use link grammar to measure similarity based on grammatical structures, combined with the use of an ontology to measure the similarity of the meaning.
+[BOS] Their method was shown to be effective for the problem of paraphrase.
+[BOS] Paraphrase addresses detecting alternative ways of conveying the same information (Ibrahim et al., 2003) and we observe paraphrase problem as a subset to our task because sentence re-phrasing is part of revision.
+[BOS] However, the paraphrase problem effectively try to normalize away differences, while versioned sentences analysis focuses more directly on evaluating the meaning impact of differences.
+

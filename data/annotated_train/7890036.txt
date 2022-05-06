@@ -1,0 +1,22 @@
+[BOS] Substitute vectors (Yuret, 2012) represent contexts as a probabilistic distribution over the potential gap-filler words for the target slot, pruned to its top-k most probable words.
+[BOS] While using this representation showed interesting potential (Yatbaz et al., 2012; Melamud et al., 2015a) , it can currently be generated efficiently only with n-gram language models and hence is limited to fixed-size context windows.
+[BOS] It is also high dimensional and sparse, in contrast to our proposed representations.
+[BOS] Syntactic dependency context embeddings have been proposed recently (Levy and Goldberg, 2014a; Bansal et al., 2014) .
+[BOS] They depend on the availability of a high-quality dependency parser, and can be viewed as a 'bag-of-dependencies' rather than a single representation for the entire sentential context.
+[BOS] However, we believe that incorporating such dependency-based information in our model is an interesting future direction.
+
+[BOS] A couple of recent works extended word2vec's CBOW by replacing its internal context representation.
+[BOS] Ling et al. (2015b) proposed a continuous window, which is a simple linear projection of the context window embeddings into a low dimensional vector.
+[BOS] Ling et al. (2015a) proposed 'CBOW with attention', which is used for finding the relevant features in a context window.
+[BOS] In contrast to our model, both approaches confine the context to a fixed-size window.
+[BOS] Furthermore, they limit their scope to using these context representations only internally to improve the learning of target words embeddings, rather than evaluate the benefit of using them directly in NLP tasks, as we do.
+[BOS] represent words in context using bidirectional LSTMs and multilingual supervision.
+[BOS] In contrast, our model is focused on representing the context alone.
+[BOS] Yet, as shown in our lexical substitution and word sense disambiguation evaluations, it can easily be used for modeling the meaning of words in context as well.
+
+[BOS] Finally, there is considerable work on using recurrent neural networks to represent word sequences, such as phrases or sentences (Socher et al., 2011; Kiros et al., 2015) .
+[BOS] We note that the techniques used for learning sentence representations have much in common with those we use for sentential context representations.
+[BOS] Yet, sentential context representations aim to reflect the information in the sentence only inasmuch as it is relevant to the target slot.
+[BOS] Specifically, different target positions in the same sentence can yield completely different context representations.
+[BOS] In contrast, sentence representations aim to reflect the entire contents of the sentence.
+

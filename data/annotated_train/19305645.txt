@@ -1,0 +1,10 @@
+[BOS] Several neural network based approaches have been proposed to solve the SQuAD QA problem, which we briefly review from three aspects: candidate answer generation, representation learning and attention mechanism.
+
+[BOS] Two ways were investigated for candidate answer generation: (1) chunking: candidates are preselected based on lexical and syntactic analysis, such as constituent parsing (Rajpurkar et al., 2016) and part-of-speech pattern (Yu et al., 2016) ; (2) directly predicting the start and end position of the answer span, using feed-forward neural network , LSTM (Seo et al., 2016) , pointer network (Vinyals et al., 2015; Wang and Jiang, 2016) , dynamic pointer decoder (Xiong et al., 2016) .
+
+[BOS] The representation learning in previous approaches is conducted over individual words using the following encoders: LSTM in Xiong et al., 2016) ; bi-directional gated recurrent unit (Chung et al., 2014) in (Yu et al., 2016) ; match-LSTM in (Wang and Jiang, 2016) ; bi-directional LSTM in (Seo et al., 2016) .
+
+[BOS] In previous approaches, the attention (Bahdanau et al., 2014; Xu et al., 2015) mechanism is mostly word-based and flat-structured (Kadlec et al., 2016; Sordoni et al., 2016; Wang and Jiang, 2016; Yu et al., 2016) : the attention scores are computed between individual words, are normalized globally and are used to summarize word-level encodings in a flat manner.
+[BOS] Cui et al. (2016) ; Xiong et al. (2016) explored a coattention mechanism to learn question-topassage and passage-to-question summaries.
+[BOS] Seo et al. (2016) proposed to directly use the attention weights as augmented features instead of applying them for early summarization.
+

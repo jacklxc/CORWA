@@ -1,0 +1,38 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 197 202	[BOS]
+T3	Multi_summ 364 369	[BOS]
+T4	Narrative_cite 530 535	[BOS]
+T5	Transition 680 685	[BOS]
+T6	Transition 771 776	[BOS]
+T7	Narrative_cite 863 868	[BOS]
+T8	Transition 1111 1116	[BOS]
+T9	Reference 85 102	(Richardson, 2013
+T10	Reference 104 123	Weston et al., 2015
+T11	Reference 125 147	Rajpurkar et al., 2016
+T12	Reference 149 172	Trischler et al., 2016a
+T13	Reference 174 194	Nguyen et al., 2016)
+T14	Dominant 203 217	Yatskar (2018)
+T15	Dominant 370 394	Trischler et al. (2016b)
+T16	Dominant 397 416	Kumar et al. (2016)
+T17	Dominant 419 439	Liu and Perez (2017)
+T18	Dominant 442 459	Min et al. (2018)
+T19	Dominant 464 483	Xiong et al. (2016)
+T20	Reference 630 652	(Khashabi et al., 2018
+T21	Reference 654 676	Ostermann et al., 2018
+T22	Reference 951 973	(Sachan and Xing, 2016
+T23	Reference 1017 1034	(Das et al., 2017
+T24	Reference 1036 1060	Mihaylov and Frank, 2018
+T25	Reference 1062 1080	Bauer et al., 2018
+T26	Reference 1082 1107	Weissenborn et al., 2017)
+T27	B_span 63 70	machine
+T28	E_span 189 193	2016
+T29	B_span 203 210	Yatskar
+T30	E_span 352 362	inferences
+T31	B_span 370 379	Trischler
+T32	E_span 520 528	datasets
+T33	B_span 589 600	commonsense
+T34	E_span 672 676	2018
+T35	B_span 903 910	attempt
+T36	E_span 969 973	2016
+T37	B_span 981 989	external
+T38	E_span 1102 1106	2017

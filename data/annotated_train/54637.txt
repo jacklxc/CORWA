@@ -1,0 +1,6 @@
+[BOS] In fact, the effectiveness of using dependency information of words has been reported in some previous NLP tasks, for example, in dependencybased word embeddings, relation classification and sentence classification tasks (Liu et al., 2015; Socher et al., 2014; Levy and Goldberg, 2014; Komnios, 2016; Ono and Hatano, 2014) .
+[BOS] It has been shown that the combination of words and their dependency information can boost performance.
+[BOS] Besides, in the work of Vinyals et al. , they also represent output as a linearized tree structure, but their work showed that generic sequence-to-sequence approaches can achieve excellent results on syntactic constituency parsing.
+[BOS] At a glance, our proposed method is a little similar to the works of Dyer et al., Aharoni et al., Eriguchi et al., Wu et al. (Dyer et al., 2016; Aharoni and Goldberg, 2017; Eriguchi et al., 2017; Wu et al., 2017) On the other hand, our proposed model's decoder directly predicts the linearized dependency tree itself in a single neural network in Depth-first preorder order so that the next-word token is generated based on syntactic relations and tree construction itself.
+[BOS] In other words, our model is able to learn and produce a tree of words and their dependency relations by itself.
+

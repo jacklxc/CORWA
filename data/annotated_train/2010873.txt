@@ -1,0 +1,48 @@
+[BOS] Due to space limitation, here we only review kernel-based methods used in relation extraction.
+[BOS] For those interested in feature-based methods, please refer to Zhou et al. (2005) for more details.
+[BOS] Zelenko et al. (2003) described a kernel between shallow parse trees to extract semantic relations, where a relation instance is transformed into the least common sub-tree connecting the two entity nodes.
+[BOS] The kernel matches the nodes of two corresponding sub-trees from roots to leaf nodes recursively layer by layer in a topdown manner.
+[BOS] Their method shows successful results on two simple extraction tasks.
+[BOS] Culotta and Sorensen (2004) proposed a slightly generalized version of this kernel between dependency trees, in which a successful match of two relation instances requires the nodes to be at the same layer and in the identical path starting from the roots to the current nodes.
+[BOS] These strong constraints make their kernel yield high precision but very low recall on the ACE RDC 2003 corpus.
+[BOS] Bunescu and Mooney (2005) develop a shortest path dependency tree kernel, which simply counts the number of common word classes at each node in the shortest paths between two entities in dependency trees.
+[BOS] Similar to Culotta and Sorensen (2004) , this method also suffers from high precision but low recall.
+[BOS] Zhang et al. (2006) describe a convolution tree kernel (CTK, Collins and Duffy, 2001 ) to investigate various structured information for relation extraction and find that the Shortest Pathenclosed Tree (SPT) achieves the F-measure of 67.7 on the 7 relation types of the ACE RDC 2004 corpus.
+[BOS] One problem with SPT is that it loses the contextual information outside SPT, which is usually critical for relation extraction.
+[BOS] Zhou et al. (2007) point out that both SPT and the convolution tree kernel are context-free.
+[BOS] They expand SPT to CS-SPT by dynamically including necessary predicate-linked path information and extending the standard CTK to contextsensitive CTK, obtaining the F-measure of 73.2 on the 7 relation types of the ACE RDC 2004 corpus.
+[BOS] However, the CS-SPT only recovers part of contextual information and may contain noisy information as much as SPT.
+
+[BOS] In order to fully utilize the advantages of feature-based methods and kernel-based methods, researchers turn to composite kernel methods.
+[BOS] Zhao and Grishman (2005) In this paper, we will further study how to dynamically determine a concise and effective tree span for a relation instance by exploiting constituent dependencies inherent in the parse tree derivation.
+[BOS] We also attempt to fully capture both the structured syntactic parse information and entity-related semantic information, especially combined entity features, via a unified parse and semantic tree.
+[BOS] Finally, we validate the effectiveness of a composite kernel for relation extraction, which combines a tree kernel and a linear kernel.
+
+[BOS] Entity semantic features, such as entity headword, entity type and subtype etc., impose a strong constraint on relation types in terms of relation definition by the ACE RDC task.
+[BOS] Experiments by Zhang et al. (2006) show that linear kernel using only entity features contributes much when combined with the convolution parse tree kernel.
+[BOS] Qian et al. (2007) further indicates that among these entity features, entity type, subtype, and mention type, as well as the base form of predicate verb, contribute most while the contribution of other features, such as entity class, headword and GPE role, can be ignored.
+
+[BOS] In order to effectively capture entity-related semantic features, and their combined features as well, especially bi-gram or tri-gram features, we build an Entity-related Semantic Tree (EST) in three ways as illustrated in Figure 2 .
+[BOS] In the example sentence "they 're here", which is excerpted from the ACE RDC 2004 corpus, there exists a relationship "Physical.Located" between the entities "they" [PER] and "here" [GPE.
+[BOS] Population-Center] .
+[BOS] The features are encoded as "TP", "ST", "MT" and "PVB", which denote type, subtype, mention-type of the two entities, and the base form of predicate verb if existing (nearest to the 2 nd entity along the path connecting the two entities) respectively.
+[BOS] For example, the tag "TP1" represents the type of the 1 st entity, and the tag "ST2" represents the subtype of the 2 nd entity.
+[BOS] The three entity-related semantic tree setups are depicted as follows: (a) Bag of Features (BOF, e.g. Fig.
+[BOS] 2(a) ): all feature nodes uniformly hang under the root node, so the tree kernel simply counts the number of common features between two relation instances.
+[BOS] This tree setup is similar to linear entity kernel explored by Zhang et al. (2006) .
+
+[BOS] (b) Feature-Paired Tree (FPT, e.g. Fig.
+[BOS] 2(b) ): the features of two entities are grouped into different types according to their feature names, e.g. "TP1" and "TP2" are grouped to "TP".
+[BOS] This tree setup is aimed to capture the additional similarity of the single feature combined from different entities, i.e., the first and the second entities.
+
+[BOS] (c) Entity-Paired Tree (EPT, e.g. Fig.
+[BOS] 2(c) ): all the features relating to an entity are grouped to nodes "E1" or "E2", thus this tree kernel can further explore the equivalence of combined entity features only relating to one of the entities between two relation instances.
+
+[BOS] In fact, the BOF only captures the individual entity features, while the FPT/EPT can additionally capture the bi-gram/tri-gram features respectively.
+
+[BOS] Rather than constructing a composite kernel, we incorporate the EST into the DSPT to produce a Unified Parse and Semantic Tree (UPST) to investigate the contribution of the EST to relation extraction.
+[BOS] The entity features can be attached under the top node, the entity nodes, or directly combined with the entity nodes as in Figure 1 .
+[BOS] However, detailed evaluation (Qian et al., 2007) indicates that the UPST achieves the best performance when the feature nodes are attached under the top node.
+[BOS] Hence, we also attach three kinds of entity-related semantic trees (i.e. BOF, FPT and EPT) under the top node of the DSPT right after its original children.
+[BOS] Thereafter, we employ the standard CTK (Collins and Duffy, 2001) to compute the similarity between two UPSTs, since this CTK and its variations are successfully applied in syntactic parsing, semantic role labeling (Moschitti, 2004) and relation extraction (Zhang et al., 2006; Zhou et al., 2007) as well.
+

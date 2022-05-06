@@ -1,0 +1,48 @@
+T1	Multi_summ 0 5	[BOS]
+T2	Reflection 606 611	[BOS]
+T3	Single_summ 806 811	[BOS]
+T4	Single_summ 979 984	[BOS]
+T5	Transition 1222 1227	[BOS]
+T6	Transition 1417 1422	[BOS]
+T7	Single_summ 1540 1545	[BOS]
+T8	Single_summ 1755 1760	[BOS]
+T9	Single_summ 1889 1894	[BOS]
+T10	Transition 2076 2081	[BOS]
+T11	Transition 2238 2243	[BOS]
+T12	Single_summ 2458 2463	[BOS]
+T13	Single_summ 2554 2559	[BOS]
+T14	Single_summ 2663 2668	[BOS]
+T15	Single_summ 2771 2776	[BOS]
+T16	Single_summ 2999 3004	[BOS]
+T17	Reflection 3136 3141	[BOS]
+T18	Single_summ 3268 3273	[BOS]
+T19	Single_summ 3436 3441	[BOS]
+T20	Single_summ 3531 3536	[BOS]
+T21	Single_summ 3726 3731	[BOS]
+T22	Dominant 129 158	(Abdul-Rauf and Schwenk, 2009
+T23	Dominant 160 191	Irvine and Callison-Burch, 2013
+T24	Dominant 193 218	Yasuda and Sumita, 2008 )
+T25	Reference 577 603	(Munteanu and Marcu, 2005)
+T26	Dominant 812 837	Munteanu and Marcu (2005)
+T27	Dominant 1580 1605	Barrn-Cedeo et al. (2015)
+T28	Dominant 2464 2493	Abdul-Rauf and Schwenk (2009)
+T29	Dominant 3409 3433	Yasuda and Sumita (2008)
+T30	Pronoun 988 992	this
+T31	Pronoun 1423 1427	This
+T32	Pronoun 1764 1768	this
+T33	Pronoun 2777 2781	This
+T34	Pronoun 3005 3009	This
+T35	Pronoun 3151 3155	this
+T36	Pronoun 3442 3446	They
+T37	B_span 6 7	A
+T38	E_span 598 602	2005
+T39	B_span 521 525	word
+T40	E_span 598 602	2005
+T41	B_span 812 820	Munteanu
+T42	E_span 1215 1220	pairs
+T43	B_span 1546 1553	Similar
+T44	E_span 2068 2074	corpus
+T45	E_span 3125 3134	sentences
+T46	B_span 2464 2469	Abdul
+T47	B_span 3274 3277	Yet
+T48	E_span 3844 3849	pairs

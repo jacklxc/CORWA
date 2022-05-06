@@ -1,0 +1,39 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 71 76	[BOS]
+T3	Narrative_cite 216 221	[BOS]
+T4	Reflection 425 430	[BOS]
+T5	Single_summ 503 508	[BOS]
+T6	Reflection 685 690	[BOS]
+T7	Single_summ 759 764	[BOS]
+T8	Reflection 936 941	[BOS]
+T9	Single_summ 1062 1067	[BOS]
+T10	Reflection 1143 1148	[BOS]
+T11	Transition 1212 1217	[BOS]
+T12	Reflection 1335 1340	[BOS]
+T13	Reference 193 213	Medhat et al. (2014)
+T14	Reference 313 334	(Joulin et al., 2016)
+T15	Reference 355 377	(Dauphin et al., 2016)
+T16	Reference 401 422	(Peters et al., 2018)
+T17	Dominant 528 549	(Joulin et al., 2016)
+T18	Dominant 765 783	Chen et al. (2018)
+T19	Reference 988 1008	(Chen et al., 2018 )
+T20	Dominant 1068 1083	Mohammad (2018)
+T21	Reference 1188 1209	(Peters et al., 2018)
+T22	B_span 144 154	supervised
+T23	E_span 208 212	2014
+T25	E_span 417 421	2018
+T26	B_span 519 527	fastText
+T27	E_span 678 683	tasks
+T28	B_span 765 769	Chen
+T29	E_span 928 934	BiLSTM
+T30	B_span 989 993	Chen
+T31	E_span 1053 1059	BiLSTM
+T32	B_span 1068 1076	Mohammad
+T33	E_span 1134 1141	systems
+T34	B_span 1183 1187	ELMo
+T35	E_span 1208 1209	)
+T36	B_span 289 297	sentence
+T24	E_span 329 333	2016
+T37	B_span 337 345	language
+T38	E_span 372 376	2016
+T39	B_span 382 390	sentence

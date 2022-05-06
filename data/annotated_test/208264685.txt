@@ -1,0 +1,20 @@
+[BOS] There are several previous attempts of incorporating knowledge from other NLP tasks into NMT.
+[BOS] Early work incorporated word sense disambiguation (WSD) into existing machine translation pipelines (Chan et al., 2007; Carpuat and Wu, 2007; Vickrey et al., 2005) .
+[BOS] Recently, Liu et al. (2018) demonstrated that existing NMT systems have significant problems properly translating ambiguous words.
+[BOS] They proposed to use WSD to enhance the system's ability to capture contextual knowledge in translation.
+[BOS] Their work showed improvement on sentences with contextual information, but this method does not apply to sentences which do not have strong contextual information.
+[BOS] Rios et al. (2017) pass sense embeddings as additional input to NMT, extracting lexical chains based on sense embeddings from the document and integrating it into the NMT model.
+[BOS] Their method improved lexical choice, especially for rare word senses, but did not improve the overall translation performance as measured by BLEU.
+[BOS] Pu et al. (2018) incorporate weakly supervised word sense disambiguation into NMT to improve translation quality and accuracy of ambiguous words.
+[BOS] However, these works focused on cases where there is only one correct sense for the source sentences.
+[BOS] This differs from our goal, which is to tackle cases where both sentiments are correct interpretations of the source sentence.
+[BOS] He et al. (2010) used machine translation to learn lexical prior knowledge of English sentiment lexicons and incorporated the prior knowledge into latent Dirichlet allocation (LDA), where sentiment labels are considered as topics for sentiment analysis.
+[BOS] In contrast, our work incorporates lexical information from sentiment analysis directly into the NMT process.
+[BOS] Sennrich et al. (2016) attempt to control politeness of the translations via incorporating side constraints.
+[BOS] Similar to our approach, they also have a two-stage pipeline where they first automatically annotate the T-V distinction of the target sentences in the training set and then they add the annotations as special tokens at the end of the source text.
+[BOS] The attentional encoder-decoder framework is then trained to learn to pay attention to the side constraints during training.
+[BOS] However, there are several differences between our work and theirs: 1) instead of politeness, we control the sentiment of the translations; 2) instead of annotating Original He is so proud that nobody likes him.
+[BOS] AddLabel neg He is so proud that nobody likes him.
+[BOS] InsertLabel He is so neg proud that nobody likes him.
+[BOS] the politeness (in our case the sentiment) using linguistic rules, we train a BERT classifier to do automatic sentiment labeling; 3) instead of having only sentence-level annotation, we have sentiment annotation for the specific sentiment ambiguous lexicons; 4) instead of always adding the special politeness token at the end of the source sentence, we explored adding the special tokens at the front as well as right next to the corresponding sentiment ambiguous word; 5) we also propose a methodValence Sensitive Embedding -to better control the sentiment of the translations.
+

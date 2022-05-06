@@ -1,0 +1,14 @@
+[BOS] Most work in sentiment analysis focuses on classifying explicit sentiments and extracting explicit opinion expressions, holders and targets Johansson and Moschitti, 2013; Yang and Cardie, 2013) .
+[BOS] There is some work investigating features that directly indicate implicit sentiments (Zhang and Liu, 2011; Feng et al., 2013) .
+[BOS] In contrast, we focus on how we can bridge between explicit and implicit sentiments via inference.
+[BOS] To infer the implicit sentiments related to gfbf events, some work mines various syntactic patterns (Choi and Cardie, 2008) , proposes linguistic templates (Zhang and Liu, 2011; Anand and Reschke, 2010; Reschke and Anand, 2011) , or generates a lexicon of patient polarity verbs (Goyal et al., 2013) .
+[BOS] Different from their work, which do not cover all cases relevant to gfbf events, ) defines a generalized set of implicature rules and proposes a graph-based model to achieve sentiment propagation between the agents and themes of gfbf events.
+[BOS] However, that system requires all of the gfbf information (Q1)-(Q4) to be input from the manual annotations; the only ambiguity it resolves is sentiments toward entities.
+[BOS] In contrast, the method in this paper tackles four ambiguities simultaneously.
+[BOS] Further, as we will see below in Section 6, the improvement over the local detectors by the current method is greater than that by the previous method, even though it operates over the noisy output of local components automatically.
+[BOS] Different from pipeline architectures, where each step is computed independently, joint inference has often achieved better results.
+[BOS] formulate the task of information extraction using Integer Linear Programming (ILP).
+[BOS] Since then, ILP has been widely used in various tasks in NLP, including semantic role labeling (Punyakanok et al., 2004; Punyakanok et al., 2008; Das et al., 2012) , joint extraction of opinion entities and relations (Choi et al., 2006; Yang and Cardie, 2013) , co-reference resolution (Denis and Baldridge, 2007) , and summarization (Martins and Smith, 2009 ).
+[BOS] The most similar ILP model to ours is (Somasundaran and Wiebe, 2009) , which improves opinion polarity classification using discourse constraints in an ILP model.
+[BOS] However, their work addresses discourse relations among explicit opinions in different sentences.
+

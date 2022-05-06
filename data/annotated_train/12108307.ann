@@ -1,0 +1,43 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 179 184	[BOS]
+T3	Transition 346 351	[BOS]
+T4	Narrative_cite 480 485	[BOS]
+T5	Transition 643 648	[BOS]
+T6	Narrative_cite 742 747	[BOS]
+T7	Transition 990 995	[BOS]
+T8	Transition 1038 1043	[BOS]
+T9	Narrative_cite 1156 1161	[BOS]
+T10	Single_summ 1298 1303	[BOS]
+T11	Single_summ 1398 1403	[BOS]
+T12	Single_summ 1516 1521	[BOS]
+T13	Reference 185 195	(Ahn, 2006
+T14	Reference 197 218	Ji and Grishman, 2008
+T15	Reference 220 237	Hong et al., 2011
+T16	Reference 239 260	McClosky et al., 2011
+T17	Reference 262 321	Li et al., 2013 Li et al., , 2014 Nguyen and Grishman, 2015
+T18	Reference 323 343	Nguyen et al., 2016)
+T19	Reference 570 598	(Chambers and Jurafsky, 2011
+T20	Reference 600 619	Cheung et al., 2013
+T21	Reference 621 640	Huang et al., 2016)
+T22	Reference 847 866	(Mintz et al., 2009
+T23	Reference 868 887	Hinton et al., 2012
+T24	Reference 889 908	Krause et al., 2012
+T25	Reference 910 942	Krishnamurthy and Mitchell, 2012
+T26	Reference 944 963	Berant et al., 2013
+T27	Reference 965 986	Surdeanu et al., 2012
+T28	Reference 1232 1251	(Wang et al., 2016)
+T29	Reference 1262 1283	(Nguyen et al., 2016)
+T30	Dominant 1304 1325	Reschke et al. (2014)
+T31	Pronoun 361 366	these
+T33	E_span 338 342	2016
+T35	E_span 635 639	2016
+T37	E_span 982 986	2012
+T40	B_span 1304 1311	Reschke
+T32	B_span 186 189	Ahn
+T34	B_span 557 564	labeled
+T36	B_span 833 841	training
+T38	B_span 1233 1237	Wang
+T42	E_span 1246 1250	2016
+T43	B_span 1263 1269	Nguyen
+T44	E_span 1278 1282	2016
+T39	E_span 1599 1612	automatically

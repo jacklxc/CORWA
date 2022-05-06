@@ -1,0 +1,26 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 239 244	[BOS]
+T3	Single_summ 466 471	[BOS]
+T4	Single_summ 623 628	[BOS]
+T5	Single_summ 828 833	[BOS]
+T6	Single_summ 1052 1057	[BOS]
+T7	Reference 186 208	(Brockett et al., 2006
+T8	Reference 210 236	Rozovskaya and Roth, 2010)
+T9	Reference 419 441	(Felice and Yuan, 2014
+T10	Reference 443 463	Kasewa et al., 2018)
+T11	Dominant 472 489	Xie et al. (2018)
+T12	Reference 808 825	(Ng et al., 2014)
+T13	Dominant 834 850	Ge et al. (2018)
+T14	Pronoun 629 633	They
+T15	Pronoun 681 685	this
+T16	Pronoun 1058 1063	Their
+T17	B_span 154 167	grammatically
+T18	E_span 231 235	2010
+T19	B_span 379 386	methods
+T20	E_span 458 462	2018
+T21	B_span 472 475	Xie
+T22	E_span 820 824	2014
+T23	B_span 787 792	CoNLL
+T24	E_span 820 824	2014
+T25	B_span 834 836	Ge
+T26	E_span 1157 1161	sets

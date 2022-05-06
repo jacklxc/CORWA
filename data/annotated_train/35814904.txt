@@ -1,0 +1,34 @@
+[BOS] Several studies have been conducted on Japanese morphological analysis and normalization.
+[BOS] The approach proposed by Sasano et al. (2013) developed heuristics to flexibly search by using a simple, manually created derivational rule.
+[BOS] Their system generates a normalized character sequence based on derivational rules and adds new nodes when generating the word lattice using dictionary lookup.
+[BOS] Figure 1 presents an example of this approach.
+[BOS] If the non-standard written sentence " (totemo tanoshii, It is such fun)" is input, the traditional dictionary-based system generates nodes that are described using solid lines, as shown in Figure 1 .
+[BOS] Since " (totemo, such)" and " (tanoshii, fun)" are Out Of Vocabulary (OOVs), the traditional system cannot generate the correct word segments or POS tags.
+[BOS] However, their system generates additional nodes for the OOVs, shown as broken line rectangles in Figure 1 .
+[BOS] In this case, derivational rules are used that substitute " " with "null" and " (i)" with " (i)", and the system can generate the standard forms "
+
+[BOS] (totemo, such)" and " (tanoshii, fun)" and their POS tags.
+[BOS] If we can generate sufficiently appropriate rules, these approaches seem to be effective.
+[BOS] However, there are many types of derivational patterns in SNS text, and they are difficult to all cover manually.
+[BOS] Moreover, how to set the path score for appropriately Figure 2 : Overview of proposed system ranking the word lattice when the number of candidates increases becomes a serious problem.
+[BOS] Saito et al. (2014) proposed supervised extraction of derivational patterns (we call them transformation patterns), incorporated these patterns into a word lattice, and formulated morphological analysis and normalization using a discriminate model.
+[BOS] Although this approach can generate broad-coverage normalization candidates, it needs a large amount of annotation data of variant words and their normalization.
+[BOS] Kaji and Kitsuregawa (2014) also proposed morphological analysis and normalization based on a discriminative model and created variant words on the basis of handmade rules.
+[BOS] As far as we know, automatic extraction of variant-normalization pairs has not been researched.
+[BOS] If we can extract variant-normalization pairs automatically, we can decrease the annotation cost and possibly increase accuracy by combining our method with other conventional methods.
+
+[BOS] Several studies have applied a character-based approach.
+[BOS] For example, Sasaki et al. (2013) proposed a character-level sequential labeling method for normalization.
+[BOS] However, it handles only oneto-one character transformations and does not take the word-level context into account.
+[BOS] The proposed method can handle many-to-many character transformations and takes word-level context into account, so it has a wider scope for handling nonstandard tokens.
+
+[BOS] Many studies have been done on text normalization for English; for example, Han and Baldwin (2011) classifies whether or not OOVs are non-standard tokens and estimates standard forms on the basis of contextual, string, and phonetic similarities.
+
+[BOS] Han et al. (2012) and Hassan and Menezes (2013) developed the method of extracting variant-normalization pairs automatically for English.
+[BOS] Yang and Eisenstein (2013) introduced a highly accurate unsupervised normalization model using log-linear model.
+[BOS] In these studies, clear word segmentations were assumed to exist.
+[BOS] However, since Japanese is unsegmented, the normalization problem needs to be treated as a joint normalization, word segmentation, and POS tagging problem.
+
+[BOS] Thus, we propose automatically extracting normalization candidates from unlabeled data and present a method for incorporating these candidates into Japanese morphological analysis and normalization.
+[BOS] Our method can extract new variant patterns from real text.
+

@@ -1,0 +1,23 @@
+[BOS] In recent years, research on text mining in the biomedical domain has experienced substantial progress, as shown in reviews of work done in this field (Krallinger and Valencia, 2005; Ananiadou and McNaught, 2006; Krallinger et al., 2008b) .
+[BOS] Some corpora have been annotated with event level information of different types: PropBank-style frames (Wattarujeekrit et al., 2004; Chou et al., 2006) , frame independent roles (Kim et al., 2008) , and specific roles for certain event types (Sasaki et al., 2008) .
+[BOS] The focus on extraction of event frames using machine learning techniques is relatively new because there were no corpora available.
+
+[BOS] Most work focuses on extracting biological relations from corpora, which consists of finding associations between entities within a text phrase.
+[BOS] For example, Bundschus et al. (2008) develop a Conditional Random Fields (CRF) system to identify relations between genes and diseases from a set of GeneRIF (Gene Reference Into Function) phrases.
+[BOS] A shared task was organised in the framework of the Language Learning in Logic Workshop 2005 devoted to the extraction of relations from biomedical texts (Ndellec, 2005) .
+[BOS] Extracting protein-protein interactions has also produced a lot of research, and has been the focus of the BioCreative II competition (Krallinger et al., 2008a) .
+
+[BOS] As for event extraction, Yakushiji et al. (2001) present work on event extraction based on fullparsing and a large-scale, general-purpose grammar.
+[BOS] They implement an Argument Structure Extractor.
+[BOS] The parser is used to convert sentences that describe the same event into an argument structure for this event.
+[BOS] The argument structure contains arguments such as semantic subject and object.
+[BOS] Information extraction itself is performed using pattern matching on the argument structure.
+[BOS] The system extracts 23 % of the argument structures uniquely, and 24% with ambiguity.
+[BOS] Sasaki et al. (2008) present a supervised machine learning system that extracts event frames from a corpus in which the biological process E. coli gene regulation was linguistically annotated by domain experts.
+[BOS] The frames being extracted specify all potential arguments of gene regulation events.
+[BOS] Arguments are assigned domain-independent roles (Agent, Theme, Location) and domain-dependent roles (Condition, Manner).
+[BOS] Their system works in three steps: (i) CRF-based named entity recognition to assign named entities to word sequences; (ii) CRF-based semantic role labeling to assign semantic roles to word sequences with named entity labels; (iii) Comparison of word sequences with event patterns derived from the corpus.
+[BOS] The system achieves 50% recall and 20% precision.
+
+[BOS] We are not aware of work that has been carried out on the data set of the BioNLP Shared Task 2009 before the task took place.
+

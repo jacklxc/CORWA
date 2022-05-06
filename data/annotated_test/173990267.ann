@@ -1,0 +1,40 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 112 117	[BOS]
+T3	Multi_summ 212 217	[BOS]
+T4	Transition 399 404	[BOS]
+T5	Single_summ 488 493	[BOS]
+T6	Single_summ 690 695	[BOS]
+T7	Single_summ 867 872	[BOS]
+T8	Single_summ 1031 1036	[BOS]
+T9	Single_summ 1163 1168	[BOS]
+T10	Reference 88 109	(Palmer et al., 2005)
+T11	Dominant 218 244	Carreras and Mrquez (2005)
+T12	Dominant 247 268	Pradhan et al. (2013)
+T13	Dominant 333 351	Haji et al. (2009)
+T14	Dominant 494 519	Swayamdipta et al. (2018)
+T15	Dominant 696 718	Roth and Lapata (2016)
+T16	Dominant 873 902	Marcheggiani and Titov (2017)
+T17	Reference 935 957	(Niepert et al., 2016)
+T18	Dominant 1037 1054	Xia et al. (2019)
+T19	Dominant 1169 1191	Strubell et al. (2018)
+T20	Pronoun 405 409	This
+T21	Pronoun 849 854	their
+T22	Pronoun 1002 1007	their
+T23	B_span 59 67	PropBank
+T24	E_span 104 108	2005
+T25	B_span 218 226	Carreras
+T27	E_span 314 325	information
+T28	B_span 333 337	Haji
+T29	E_span 385 396	information
+T26	B_span 494 505	Swayamdipta
+T30	E_span 684 688	here
+T31	B_span 696 700	Roth
+T32	E_span 859 865	system
+T33	B_span 873 885	Marcheggiani
+T34	E_span 1023 1029	system
+T35	B_span 907 912	Graph
+T36	E_span 952 956	2016
+T37	B_span 1037 1040	Xia
+T38	E_span 1156 1161	model
+T39	B_span 1169 1177	Strubell
+T40	E_span 1296 1301	model

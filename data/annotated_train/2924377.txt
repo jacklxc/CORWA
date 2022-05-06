@@ -1,0 +1,33 @@
+[BOS] In this section, previous works in Statistical machine translation on different languages are reviewed.
+[BOS] Various researchers have improved the quality of statistical machine translation system by using different methods on different language.
+[BOS] Probabilistic, models is created for simulating the translation process, in the models using bilingual corpora and then decoding a test sentence by searching (Brown et al., 1990) .
+[BOS] In 1993, they took the translation process as a noisy-channel model.
+[BOS] In terms of modeling Berger et al., 1996 appended context-based information based on the Maximum Entropy principle to enrich the word-based models.
+[BOS] Alignment model which is based on phrase structure is firstly proposed by Wang and Waible in 1998, which was automatically acquired from parallel corpus.
+[BOS] Och et al., 1999 used beam search algorithm, which could make use of pruning strategies for balancing efficiency and accuracy.
+[BOS] In 2002, Och and Ney first introduced the log-linear model into SMT.
+[BOS] In 2004 Koehn suggested using features of lexical weighting.
+[BOS] In this year, the famous phrase-based decoder, Pharaoh, was released to be a free SMT toolkit by Philipp Koehn and further updated to Moses by Koehn et al., 2007.
+[BOS] In 2003 Koehn, Och and Marcu, used noisy channel based translation model and beam search decoder.
+[BOS] They achieved fast decoding, while ensuring high quality.
+[BOS] They presented experiential result on many languages (English-German, French-English, Swedish-English, and Chinese-English).
+[BOS] Loglinear based statistical machine translation model is proposed by Zens and Ney in 2004 .
+[BOS] They solve search problem using dynamic programming and beam search with three pruning methods.
+[BOS] A comparison with Moses showed that the presented decoder is significantly faster at the same level of translation quality.
+
+[BOS] A few researches investigated the use of morphology to improve translation quality.
+[BOS] If source language is morphology rich language (such as German, Spanish, Czech), phrase-based model has limitations.
+[BOS] When a form of a word does not occur in the training data, current systems are unable to translate it.
+[BOS] Data sparseness problem can be overcome by using large training data or morphology analysis of source or/and target languages.
+[BOS] In 2005 Goldwater and McClosky used morphological analysis of Czech to improve a Czech-English statistical machine translation system.
+[BOS] This system solve data sparse problem caused by the highly inflected nature of Czech.
+[BOS] Their combine model achieved high BLEU score of development and test set.
+[BOS] Nguyen and Shimazu, 2006 proposed morphological transformational rules and Bayes' formula based transformational model to translate English to Vietnamese.
+[BOS] The score of their system is better than baseline score.
+
+[BOS] An ideal system for machine translation would take advantage of both empirical data and linguistic analysis.
+[BOS] Different authors have different objectives that they attempt to achieve high translation precision on many languages.
+[BOS] Our translation model aims is to get correct translation phrases with very limited bilingual corpus for Statistical Myanmar to English machine translation.
+
+[BOS] Because of the lack of prior research on this task, we are unable to compare to our results to those of other researches; but the results do seem promising.
+

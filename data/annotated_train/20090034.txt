@@ -1,0 +1,34 @@
+[BOS] There has been several studies on semi-supervised word alignment models.
+[BOS] Callison-Burch et al. (2004) improve alignment and translation quality by interpolating hand-annotated, word-aligned data and automatic sentence-aligned data.
+[BOS] They showed 4 We should note that these incorrectly predicted alignments are only kept out of the confusion matrix.
+[BOS] All alignments, correct or incorrect, are included in all the results we show in the other tables.
+[BOS] that a much higher weight should be assigned to the model trained on word-aligned data.
+[BOS] Fraser and Marcu (2006) propose a semi-supervised training approach to word alignment, based on IBM Model 4, that alternates the EM step which is applied on a large training corpus with a discriminative error training step on a small hand-annotated sub-511 corpus.
+[BOS] The alignment problem is viewed as a search problem over a log-linear space with features (submodels) coming from the IBM Model 4.
+[BOS] In the proposed algorithm, discriminative training controls the contribution of sub-models while an EM-like procedure is used to estimate the sub-model parameters.
+[BOS] Unlike previous approaches (Och and Ney, 2003; Fraser and Marcu, 2006; Fraser and Marcu, 2007) that use discriminative methods to tune the weights of generative models, Gao et al. (2010b) proposes a semi-supervised word alignment technique that integrates discriminative and generative methods.
+[BOS] They propose to use a discriminative word aligner to produce high precision partial alignments that can serve as constraints for the EM algorithm.
+[BOS] The discriminative word aligner uses the generative aligner's output as features.
+[BOS] This feedback loop iteratively improves the quality of both aligners.
+[BOS] Niehues and Vogel (2008) propose a discriminative model that directly models the alignment matrix.
+[BOS] Although the discriminative model provides the flexibility to use manually word-aligned data to tune its weights, it still relies on the model parameters of IBM models and alignment links from GIZA++ as features.
+[BOS] Gao et al. (2010a) present a semi-supervised algorithm that extends IBM Model 4 by using partial manual alignments.
+[BOS] Partial alignments are fixed and treated as constraints into the EM training.
+[BOS] DeNero and Klein (2010) present a supervised model for extracting phrase pairs under a discriminative model by using word alignments.
+[BOS] They consider two types of alignment links, sure and possible, that are extracted from the manually word-aligned data.
+[BOS] Possible alignment links dictate which phrase pairs can be extracted from a sentence pair.
+
+[BOS] Among the unsupervised methods, (Toutanova et al., 2002) utilizes additional source of information apart from the parallel sentences.
+[BOS] Part-of-speech tags of the words in the sentence pair are incorporated as a linguistic constraint on the HMM-based word alignment.
+[BOS] The part-of-speech tag translation probabilities in this model are then learned along with other probabilities using the EM algorithm.
+[BOS] POS tags as used in Toutanova et al. (2002) were also utilized to act similarly to word classes in (Och and Ney, 2000a; Och and Ney, 2000b) ; however, the improvements provided by the HMM with POS tag model over HMM alignment model of Och and Ney (2000b) was for small training data sizes (<50K parallel corpus).
+
+[BOS] All previous studies on word alignment have assumed that word alignments are untyped.
+[BOS] To our knowledge, the alignment types for word alignment provided by the LDC as annotations on word alignment links, have never been used to improve word alignment.
+[BOS] Our work differs from the previous works as it proposes a new task of jointly predicting word alignment and alignment types.
+[BOS] A semisupervised learning algorithm is presented to solve this task.
+[BOS] Our method is semi-supervised as it combines LDC data, which is annotated with alignment and alignment types, with sentence aligned (but not word aligned) data from the HK Hansards corpus.
+[BOS] Our generative algorithm makes use of the gold alignment and alignment types data to initialize the alignment type parameters.
+[BOS] The EM training is then used to re-estimate the parameters of the model in an unsupervised manner.
+[BOS] We also use POS tags to smooth the alignment type parameters, unlike the approach in (Toutanova et al., 2002) .
+

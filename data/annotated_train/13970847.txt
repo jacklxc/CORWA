@@ -1,0 +1,6 @@
+[BOS] Besides those cited in Section 1, there are some other related work on using bilingual constraints for grammar induction (rather than parsing).
+[BOS] For example, Hwa et al. (2005) use simple heuristics to project English trees to Spanish and Chinese, but get discouraging accuracy results learned from those projected trees.
+[BOS] Following this idea, Ganchev et al. (2009) and Smith and Eisner (2009) use constrained EM and parser adaptation techniques, respectively, to perform more principled projection, and both achieve encouraging results.
+
+[BOS] Our work, by constrast, never uses bilingual tree pairs not tree projections, and only uses word alignment alone to enhance a monolingual grammar, which learns to prefer target-side contiguity.
+

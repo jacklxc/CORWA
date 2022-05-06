@@ -1,0 +1,37 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 273 278	[BOS]
+T3	Single_summ 442 447	[BOS]
+T4	Single_summ 652 657	[BOS]
+T5	Narrative_cite 842 847	[BOS]
+T6	Single_summ 1071 1076	[BOS]
+T7	Single_summ 1214 1219	[BOS]
+T8	Reference 193 214	(Baroni et al., 2012)
+T9	Reference 232 251	(Weeds et al., 2014
+T10	Reference 253 269	Fu et al., 2014)
+T11	Dominant 448 466	Levy et al. (2015)
+T12	Dominant 658 679	Roller and Erk (2016)
+T13	Reference 825 839	(Hearst, 1992)
+T14	Reference 1020 1041	(Shwartz et al., 2017
+T15	Reference 1043 1068	Sanchez and Riedel, 2017)
+T16	Dominant 1077 1095	Levy et al. (2015)
+T17	Pronoun 480 484	they
+T18	Pronoun 717 722	these
+T19	Pronoun 864 868	they
+T20	Pronoun 916 921	their
+T21	Pronoun 1161 1166	their
+T22	Pronoun 1220 1224	They
+T23	Pronoun 1318 1322	this
+T24	B_span 177 183	Concat
+T25	E_span 209 213	2012
+T26	B_span 218 222	Diff
+T27	E_span 264 268	2014
+T28	B_span 448 452	Levy
+T29	E_span 649 650	)
+T30	B_span 658 664	Roller
+T31	E_span 834 838	1992
+T32	E_span 834 838	1992
+T33	B_span 809 815	Hearst
+T34	B_span 1015 1019	data
+T35	E_span 1063 1067	2017
+T36	B_span 1077 1081	Levy
+T37	E_span 1385 1396	integration

@@ -1,0 +1,20 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 89 94	[BOS]
+T3	Reflection 229 234	[BOS]
+T4	Narrative_cite 451 456	[BOS]
+T5	Reflection 619 624	[BOS]
+T6	Transition 809 814	[BOS]
+T7	Transition 951 956	[BOS]
+T8	Reflection 1036 1041	[BOS]
+T9	Reflection 1164 1169	[BOS]
+T10	Reference 64 86	(Ganchev et al., 2010)
+T11	Reference 538 558	(Arthur et al., 2016
+T12	Reference 560 577	Cohn et al., 2016
+T13	Reference 579 596	Tang et al., 2016
+T14	Reference 598 615	Feng et al., 2016
+T15	Pronoun 961 965	they
+T16	Pronoun 1170 1174	This
+T17	B_span 39 48	posterior
+T18	E_span 81 85	2010
+T19	B_span 519 528	knowledge
+T20	E_span 611 615	2016

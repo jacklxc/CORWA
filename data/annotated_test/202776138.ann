@@ -1,0 +1,81 @@
+T1	Reflection 0 5	[BOS]
+T2	Multi_summ 138 143	[BOS]
+T3	Multi_summ 400 405	[BOS]
+T4	Transition 630 635	[BOS]
+T5	Multi_summ 728 733	[BOS]
+T6	Single_summ 874 879	[BOS]
+T7	Transition 1065 1070	[BOS]
+T8	Single_summ 1150 1155	[BOS]
+T9	Single_summ 1243 1248	[BOS]
+T10	Single_summ 1351 1356	[BOS]
+T11	Reflection 1533 1538	[BOS]
+T12	Reflection 1798 1803	[BOS]
+T13	Reflection 1939 1944	[BOS]
+T14	Reflection 2033 2038	[BOS]
+T15	Reflection 2354 2359	[BOS]
+T16	Narrative_cite 2463 2468	[BOS]
+T17	Reflection 2769 2774	[BOS]
+T18	Single_summ 2970 2975	[BOS]
+T19	Reflection 3091 3096	[BOS]
+T20	Single_summ 3185 3190	[BOS]
+T21	Single_summ 3675 3680	[BOS]
+T22	Reference 172 196	(Luong and Manning, 2015
+T23	Reference 198 215	Zoph et al., 2016
+T24	Reference 217 237	Servan et al., 2016)
+T25	Dominant 428 445	Chu et al. (2017)
+T26	Dominant 531 560	Freitag and Al-Onaizan (2016)
+T27	Dominant 734 753	Wang et al. (2017a)
+T28	Dominant 758 777	Wang et al. (2017b)
+T29	Dominant 880 900	Zhang et al. (2019a)
+T30	Dominant 1166 1178	Vilar (2018)
+T31	Dominant 1249 1268	Chu and Wang (2018)
+T32	Dominant 1357 1373	Gu et al. (2019)
+T33	Reference 1635 1651	(He et al., 2016
+T34	Reference 1653 1673	Zhang et al., 2019b)
+T35	Reference 2258 2279	(Hinton et al., 2015)
+T36	Reference 2312 2331	(Kim and Rush, 2016
+T37	Reference 2333 2350	Tan et al., 2019)
+T38	Reference 2634 2653	(Kobus et al., 2016
+T39	Reference 2655 2676	Tars and Fishel, 2018
+T40	Reference 2678 2699	Farajian et al., 2017
+T41	Reference 2701 2721	Pryzant et al., 2017
+T42	Reference 2723 2742	Sajjad et al., 2017
+T43	Reference 2744 2766	Bapna and Firat, 2019)
+T44	Dominant 3016 3033	Tan et al. (2019)
+T45	Reference 3139 3157	(Tan et al., 2019)
+T46	Dominant 3195 3212	Tan et al. (2019)
+T47	Reference 3509 3528	(Tan et al., 2019 )
+T48	Reference 3738 3756	(Tan et al., 2019)
+T49	Pronoun 147 151	this
+T50	Pronoun 951 956	their
+T51	Pronoun 964 966	it
+T52	B_span 160 164	fine
+T53	E_span 232 236	2016
+T54	B_span 428 431	Chu
+T55	E_span 520 525	model
+T56	B_span 531 538	Freitag
+T57	E_span 622 628	method
+T58	B_span 734 738	Wang
+T59	E_span 864 872	strategy
+T60	B_span 880 885	Zhang
+T61	E_span 1055 1063	training
+T62	B_span 1166 1171	Vilar
+T63	E_span 1236 1241	model
+T64	B_span 1249 1252	Chu
+T65	E_span 1346 1349	NMT
+T66	B_span 1357 1359	Gu
+T67	E_span 1523 1530	domains
+T68	B_span 1631 1634	NMT
+T69	E_span 1667 1672	2019b
+T70	B_span 2239 2245	speech
+T71	E_span 2274 2278	2015
+T72	B_span 2284 2291	natural
+T73	E_span 2345 2349	2019
+T74	B_span 2535 2542	unified
+T75	E_span 2761 2765	2019
+T76	B_span 3016 3019	Tan
+T77	E_span 3086 3089	NMT
+T78	B_span 3106 3109	our
+T79	E_span 3175 3182	aspects
+T80	B_span 3195 3198	Tan
+T81	E_span 3764 3769	fixed

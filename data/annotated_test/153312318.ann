@@ -1,0 +1,70 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 196 201	[BOS]
+T3	Other 357 362	[BOS]
+T4	Other 657 662	[BOS]
+T5	Other 1116 1121	[BOS]
+T6	Other 1207 1212	[BOS]
+T7	Other 1262 1267	[BOS]
+T8	Other 1376 1381	[BOS]
+T9	Transition 1446 1451	[BOS]
+T10	Reflection 1532 1537	[BOS]
+T11	Transition 1672 1677	[BOS]
+T12	Transition 1818 1823	[BOS]
+T13	Reflection 2054 2059	[BOS]
+T14	Reflection 2170 2175	[BOS]
+T15	Reflection 2282 2287	[BOS]
+T16	Transition 2425 2430	[BOS]
+T17	Single_summ 2647 2652	[BOS]
+T18	Reflection 2885 2890	[BOS]
+T19	Other 3021 3026	[BOS]
+T20	Other 3090 3095	[BOS]
+T21	Other 3155 3160	[BOS]
+T22	Other 3246 3251	[BOS]
+T23	Other 3319 3324	[BOS]
+T24	Other 3438 3443	[BOS]
+T25	Other 3527 3532	[BOS]
+T26	Reflection 3626 3631	[BOS]
+T27	Narrative_cite 3661 3666	[BOS]
+T28	Transition 3883 3888	[BOS]
+T29	Narrative_cite 4025 4030	[BOS]
+T30	Reflection 4408 4413	[BOS]
+T31	Transition 4505 4510	[BOS]
+T32	Narrative_cite 4637 4642	[BOS]
+T33	Reflection 5074 5079	[BOS]
+T34	Reflection 5233 5238	[BOS]
+T35	Reference 150 168	(Rush et al., 2015
+T36	Reference 170 193	Nallapati et al., 2016)
+T37	Reference 336 354	(Liu et al., 2018)
+T38	Dominant 2706 2732	(Dang and Owczarzak, 2008)
+T39	Reference 3839 3862	(Fisher and Roark, 2008
+T40	Reference 3864 3880	Li et al., 2015)
+T41	Reference 4091 4107	(Li et al., 2018
+T42	Reference 4109 4127	Shen et al., 2017)
+T43	Reference 4204 4229	(Rao and Tetreault, 2018)
+T44	Reference 4293 4318	(Prabhumoye et al., 2018)
+T45	Reference 4385 4405	(Zhang et al., 2018)
+T46	Reference 4845 4863	(Mei et al., 2016)
+T47	Reference 4953 4971	(Wen et al., 2015)
+T48	Reference 5050 5071	(Lebret et al., 2016)
+T49	B_span 132 138	neural
+T50	E_span 188 192	2016
+T51	B_span 2653 2660	Another
+T52	E_span 2874 2883	documents
+T53	B_span 3770 3775	prior
+T54	E_span 3875 3879	2015
+T55	B_span 4085 4086	'
+T56	B_span 4140 4147	efforts
+T57	E_span 4224 4228	2018
+T58	B_span 4235 4242	control
+T59	E_span 4313 4317	2018
+T60	B_span 4324 4331	control
+T61	E_span 4400 4404	2018
+T62	B_span 4756 4765	selecting
+T63	E_span 4858 4862	2016
+T64	B_span 4866 4875	selecting
+T65	E_span 4966 4970	2015
+T66	B_span 4978 4982	even
+T67	E_span 5066 5070	2016
+T68	B_span 300 313	multidocument
+T69	E_span 349 353	2018
+T70	E_span 4122 4126	2017

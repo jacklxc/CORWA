@@ -1,0 +1,19 @@
+[BOS] Recent work in CQA has used simple concatenation (Elgohary et al., 2018) , sequential neural models (Huang et al., 2019) , and transformers (Qu et al., 2019a) for modeling the interaction between the conversation history, the question and reference documents.
+[BOS] Some of the components in those models, such as relevant history turn selection (Qu et al., 2019b) , can be adopted in question rewriting models for our task.
+[BOS] An interesting avenue for future work is to incorporate deeper context, either from other modalities (Das et al., 2017) or from other dialog comprehension tasks .
+[BOS] Parallel to our work, Rastogi et al. (2019) and Su et al. (2019) introduce utterance rewriting datasets for dialog state tracking.
+[BOS] Rastogi et al. (2019) covers a narrow set of domains and the rewrites of Su et al. (2019) are based on Chinese dialog with two-turn fixed histories.
+[BOS] In contrast, CANARD has histories of variable turn lengths, covers wider topics, and is based on CQA.
+[BOS] Training question rewriting using reinforcement learning with the task accuracy as reward signal is explored in retrieval-based QA (Liu et al., 2019) and in MRC (Buck et al., 2018) .
+[BOS] A natural question is whether reinforcement learning could learn to retain the necessary context to rewrite questions in CQA.
+[BOS] However, our dataset could be used to pretrain a question rewriter that can further be refined using reinforcement learning.
+
+[BOS] More broadly, we hope CANARD can drive human-computer collaboration in QA .
+[BOS] While questions typically vary in difficulty (Sugawara et al., 2018) , existing research either introduces new benchmarks of difficult (adversarial) stand-alone questions (Dua et al., 2019; Wallace et al., 2019, inter alia) , or models that simplify hard questions through paraphrasing (Dong et al., 2017) or decomposition (Talmor and Berant, 2018) .
+[BOS] We aim at studying QA models that can ask for human assistance (feedback) when they struggle to answer a question.
+
+[BOS] The reading comprehension setup of CQA provides a controlled environment where the main source of difficulty is interpreting a question in its context.
+[BOS] The interactive component of CQA also provides a natural mechanism for improving rewriting.
+[BOS] When the computer cannot understand (rewrite) a question because of complicated context, missing world knowledge, or upstream errors (Peskov et al., 2019) in the course of a conversation, it should be able to ask its interlocutor, "can you unpack that?"
+[BOS] This dataset helps start that conversation; the next steps are developing and evaluating models that efficiently decide when to ask for human assistance, and how to best use this assistance.
+

@@ -1,0 +1,15 @@
+[BOS] The distinction between intersection and union of text was introduced in the context of sentence fusion (Krahmer et al., 2008; Marsi and Krahmer, 2005) in order to distinguish between traditional fusion strategies that attempted to include only common content and fusions that attempted to include all non-redundant content from the input.
+[BOS] We focus here on strict sentence intersection, explicitly incorporating a constraint that requires that a produced fusion must not contain information that is not present in all input sentences.
+[BOS] This distinguishes our approach from traditional sentence fusion approaches (Jing and McKeown, 2000; Barzilay and McKeown, 2005; Filippova and Strube, 2008b) which generally attempt to retain common information but are typically evaluated in an abstractive summarization context in which additional information in the fusion output does not negatively impact judgments.
+
+[BOS] This task is also related to the field of sentence compression which has received much attention in recent years (Turner and Charniak, 2005; McDonald, 2006; Clarke and Lapata, 2008; Filippova and Strube, 2008a; Cohn and Lapata, 2009; Marsi et al., 2010) .
+[BOS] Intersections can be viewed as guided com-pressions in which the redundancy of information content across input sentences in a multidocument setting is assumed to directly indicate its salience, thereby consigning it to the output.
+
+[BOS] Additionally, in this work, we frequently consider the sentence intersection task from the perspective of textual entailment (cf.
+[BOS] 5.1).
+[BOS] The textual entailment task involves automatically determining whether a given hypothesis can be inferred from a textual premise (Dagan et al., 2005; Bar-Haim et al., 2006) .
+[BOS] Automatic construction of positive and negative entailment examples has been explored in the past (Bensley and Hickl, 2008) to provide training data for entailment systems; however the production of text that is simultaneously entailed by two (or more) sentences is a far more constrained and difficult challenge.
+
+[BOS] ILP has been used extensively for text-to-text generation problems in recent years (Clarke and Lapata, 2008; Filippova and Strube, 2008b; Woodsend et al., 2010) , including techniques which incorporate syntax directly into the decoding to imporove the fluency of the resulting text.
+[BOS] In this paper, we focus on generating valid intersections and do not incorporate syntactic and semantic constraints into our ILP models; these are areas we intend to explore in the future.
+

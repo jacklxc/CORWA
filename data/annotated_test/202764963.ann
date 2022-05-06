@@ -1,0 +1,17 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 151 156	[BOS]
+T3	Reflection 276 281	[BOS]
+T4	Reflection 485 490	[BOS]
+T5	Transition 616 621	[BOS]
+T6	Reflection 708 713	[BOS]
+T7	Narrative_cite 933 938	[BOS]
+T8	Transition 1098 1103	[BOS]
+T9	Dominant 157 176	Chang et al. (2014)
+T10	Reference 1046 1066	(Cai and Wang, 2018)
+T11	B_span 157 162	Chang
+T12	E_span 274 275	.
+T13	B_span 1034 1040	advers
+T14	E_span 1065 1066	)
+T15	Pronoun 338 342	this
+T16	Pronoun 740 745	these
+T17	Pronoun 1112 1117	these

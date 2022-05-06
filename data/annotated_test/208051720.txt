@@ -1,0 +1,33 @@
+[BOS] For the purposes of this work we considered previous work matching the following criteria:
+
+[BOS]  reporting reasonably good results;
+
+[BOS]  accompanied by open-source code available to use;
+
+[BOS]  with instructions sufficient to run the code;
+
+[BOS]  using only the resources from the shared task whitelist.
+[BOS] Peng et al. (2017) presented a neural parser that was designed to work with three semantic dependency graph frameworks, namely, DM, PAS and PSD.
+[BOS] The authors proposed a single-task and two multitask learning approaches and extended their work with a new approach (Peng et al., 2018) to learning semantic parsers from multiple datasets.
+
+[BOS] The first specialized parser for UCCA was presented by Hershcovich et al. (2017) .
+[BOS] It utilized novel transition set and features based on bidirectional LSTMs and was developed to deal with specific features of UCCA graphs, such as DAG structure of the graph, discontinuous structures, and non-terminal nodes corresponding to complex semantic units.
+[BOS] The work saw further development in (Hershcovich et al., 2018) , where authors presented a generalized solution for transition-based parsing of DAGs and explored multitask learning across several representations, showing that using other formalisms in joint learning significantly improved UCCA parsing.
+[BOS] Buys and Blunsom (2017) proposed a neural encoder-decoder transition-based parser for full MRS-based semantic graphs.
+[BOS] The decoder is extended with stack-based embedding features which allows the graphs to be predicted jointly with unlexicalized predicates and their token alignments.
+[BOS] The parser was evaluated on DMRS, EDS and AMR graphs.
+[BOS] Lexicon extraction partially relies on Propbank (Palmer et al., 2005) , which is not in the shared task whitelist.
+[BOS] Unfortunately, we were not able to replace it with an analogous white-listed resource, therefore we did not use it.
+[BOS] Flanigan et al. (2014) presented the first approach to AMR parsing, which is based around the idea of identifying concepts and relations in source sentences utilizing a novel training algorithm and additional linguistic knowledge.
+[BOS] The parser was further improved for the SemEval 2016 Shared Task 8 (Flanigan et al., 2016) .
+[BOS] JAMR parser utilizes a rule-based aligner to match word spans in a sentence to concepts they evoke, which is applied in a pipeline before training the parser.
+[BOS] Damonte et al. (2017) proposed a transitionbased parser for AMR not dissimilar to the ARC-EAGER transition system for dependency tree parsing, which parses sentences left-to-right in real time.
+[BOS] Lyu and Titov (2018) presented an AMR parser that jointly learns to align and parse treating alignments as latent variables in a joint probabilistic model.
+[BOS] The authors argue that simultaneous learning of alignment and parses benefits the parsing in the sense that alignment is directly informed by the parsing objective thus producing overall better alignments.
+[BOS] Zhang et al. (2019a) and (Zhang et al., 2019b ) recently reported results that outperform all previously reported SMATCH scores, on both AMR 2.0 and AMR 1.0.
+[BOS] The proposed attention-based model is aligner-free and deals with AMR parsing as sequence-to-graph task.
+[BOS] Additionally, the authors proposed an alternative view on reentrancy converting an AMR graph into a tree by duplicating nodes that have reentrant relations and then adding an extra layer of annotation by assigning an index to each node so that the duplicates of the same node would have the same id and could be merged to recover the original AMR graph.
+[BOS] This series of papers looks very promising, but unfortunately we were not able to test the parser due to them being published after the end of the shared task.
+
+[BOS] 3 System Description
+

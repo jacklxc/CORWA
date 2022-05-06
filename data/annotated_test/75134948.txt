@@ -1,0 +1,16 @@
+[BOS] Several recent papers attempt to explain neural network performance by investigating hidden state activation patterns on auxiliary or downstream tasks.
+[BOS] On the word level, Linzen et al. (2016) trained LSTM language models, evaluated their performance on grammatical agreement detection, and analyzed activation patterns within specific hidden units.
+[BOS] We build on this analysis strategy as we aggregate (character-) sequence activation patterns across all hidden units in a model into quantitative measures.
+
+[BOS] Substantial prior work exists on the character level as well (Karpathy et al., 2015; Vania and Lopez, 2017; Kementchedjhieva and Lopez, 2018; Gerz et al., 2018) .
+[BOS] Smith et al. (2018) examined the character component in multilingual parsing models empirically, comparing it to the contribution of POS embeddings and pre-trained embeddings.
+[BOS] Chaudhary et al. (2018) leveraged crosslingual character-level correspondence to train NER models for low-resource languages.
+[BOS] Most related to our work is Godin et al. (2018) , who compared CNN and LSTM character models on a type-level prediction task on three languages, using the post-network softmax values to see which models identify useful character sequences.
+[BOS] Unlike their analysis, we examine a more applied token-level task (POS tagging), and focus on the hidden states within the LSTM model in order to analyze its raw view of word composition.
+
+[BOS] Our analysis assumes a characterization of unit roles, where each hidden unit is observed to have some specific function.
+[BOS] Findings from Linzen et al. (2016) and others suggest that a single hidden unit can learn to track complex syntactic rules.
+[BOS] Radford et al. (2017) find that a character-level language model can implicitly assign a single unit to track sentiment, without being directly supervised.
+[BOS] (Kementchedjhieva and Lopez, 2018 ) also examine individual units in a character model and find complex behavior by inspecting activation patterns by hand.
+[BOS] In contrast, our metrics are motivated by discovering these units automatically, and capturing unit-level contributions quantitatively.
+

@@ -1,0 +1,55 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 30 35	[BOS]
+T3	Transition 245 250	[BOS]
+T4	Single_summ 346 351	[BOS]
+T5	Single_summ 515 520	[BOS]
+T6	Single_summ 677 682	[BOS]
+T7	Single_summ 846 851	[BOS]
+T8	Single_summ 945 950	[BOS]
+T9	Single_summ 1061 1066	[BOS]
+T10	Single_summ 1275 1280	[BOS]
+T11	Transition 1401 1406	[BOS]
+T12	Transition 1547 1552	[BOS]
+T13	Transition 1780 1785	[BOS]
+T14	Transition 1815 1820	[BOS]
+T15	Single_summ 2037 2042	[BOS]
+T16	Single_summ 2172 2177	[BOS]
+T17	Single_summ 2271 2276	[BOS]
+T18	Narrative_cite 2393 2398	[BOS]
+T19	Single_summ 2599 2604	[BOS]
+T20	Single_summ 2710 2715	[BOS]
+T21	Single_summ 2868 2873	[BOS]
+T22	Reference 194 219	(Punyakanok et al., 2008)
+T23	Dominant 365 389	FitzGerald et al. (2015)
+T24	Dominant 521 543	Roth and Lapata (2016)
+T25	Dominant 683 706	Collobert et al. (2011)
+T26	Dominant 859 877	Zhou and Xu (2015)
+T27	Dominant 1067 1083	He et al. (2017)
+T28	Dominant 2043 2064	Vinyals et al. (2015)
+T29	Dominant 2277 2299	Dong and Lapata (2016)
+T30	Reference 2471 2493	Karpathy and Li (2015)
+T31	Reference 2496 2518	Chisholm et al. (2017)
+T32	Dominant 2686 2707	Konstas et al. (2017)
+T33	Dominant 2883 2902	Zhang et al. (2017)
+T34	B_span 167 174	Integer
+T35	E_span 214 218	2008
+T36	B_span 365 375	FitzGerald
+T37	E_span 502 513	constraints
+T38	B_span 521 525	Roth
+T39	E_span 666 675	arguments
+T40	B_span 683 692	Collobert
+T41	E_span 837 844	problem
+T42	B_span 859 863	Zhou
+T43	E_span 1051 1059	sentence
+T44	B_span 1067 1069	He
+T45	E_span 1390 1398	CoNLL-12
+T46	B_span 2043 2050	Vinyals
+T47	E_span 2262 2269	dataset
+T48	B_span 2277 2281	Dong
+T49	E_span 2387 2391	form
+T50	B_span 2399 2406	Seq2seq
+T51	E_span 2513 2517	2017
+T52	B_span 2605 2609	More
+T53	E_span 2857 2866	sentences
+T54	B_span 2874 2881	Finally
+T55	E_span 3171 3179	training

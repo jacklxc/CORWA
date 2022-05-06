@@ -1,0 +1,32 @@
+[BOS] Prior research has demonstrated the usefulness of content models for discourse-level tasks.
+[BOS] Examples of such tasks include sentence ordering (Barzilay and Lee, 2004; Elsner et al., 2007) , extraction-based summarization (Haghighi and Vanderwende, 2009 ) and text segmentation .
+[BOS] Since these tasks are inherently tied to document structure, a content model is essential to performing them successfully.
+[BOS] In contrast, the applications considered in this paper are typically developed without any discourse information, focusing on capturing sentencelevel relations.
+[BOS] Our goal is to augment these models with document-level content information.
+
+[BOS] Several applications in information extraction and sentiment analysis are close in spirit to our work (Pang and Lee, 2004; Patwardhan and Riloff, 2007; McDonald et al., 2007) .
+[BOS] These approaches consider global contextual information when determining whether a given sentence is relevant to the underlying analysis task.
+[BOS] All assume that relevant sentences have been annotated.
+[BOS] For instance, Pang and Lee (2004) refine the accuracy of sentiment analysis by considering only the subjective sentences of a review as determined by an independent classifier.
+[BOS] Patwardhan and Riloff (2007) take a similar approach in the context of information extraction.
+[BOS] Rather than applying their extractor to all the sentences in a document, they limit it to eventrelevant sentences.
+[BOS] Since these sentences are more likely to contain information of interest, the extraction performance increases.
+
+[BOS] Another approach, taken by Choi and Cardie (2008) and Somasundaran et al. (2009) uses linguistic resources to create a latent model in a taskspecific fashion to improve performance, rather than assuming sentence-level task relevancy.
+[BOS] Choi and Cardie (2008) address a sentiment analysis task by using a heuristic decision process based on wordlevel intermediate variables to represent polarity.
+[BOS] Somasundaran et al. (2009) similarly uses a bootstrapped local polarity classifier to identify sentence polarity.
+[BOS] McDonald et al. (2007) propose a model which jointly identifies global polarity as well as paragraph-and sentence-level polarity, all of which are observed in training data.
+[BOS] While our approach uses a similar hierarchy, McDonald et al. (2007) is concerned with recovering the labels at all levels, whereas in this work we are interested in using latent document content structure as a means to benefit task predictions.
+
+[BOS] While our method also incorporates contextual information into existing text analysis applications, our approach is markedly different from the above approaches.
+[BOS] First, our representation of context encodes more than the relevance-based binary distinction considered in the past work.
+[BOS] Our algorithm adjusts the content model dynamically for a given task rather than pre-specifying it.
+[BOS] Second, while previous work is fully supervised, in our case relevance annotations are readily available for only a few applications and are prohibitively expensive to obtain for many others.
+[BOS] To overcome this drawback, our method induces a content model in an unsupervised fashion and connects it via latent variables to the target model.
+[BOS] This design not only eliminates the need for additional annotations, but also allows the algorithm to leverage large quantities of raw data for training the content model.
+[BOS] The tight coupling of rel-evance learning with the target analysis task leads to further performance gains.
+
+[BOS] Finally, our work relates to supervised topic models in Blei and McAullife (2007) .
+[BOS] In this work, latent topic variables are used to generate text as well as a supervised sentiment rating for the document.
+[BOS] However, this architecture does not permit the usage of standard discriminative models which condition freely on textual features.
+

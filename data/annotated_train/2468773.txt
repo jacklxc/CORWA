@@ -1,0 +1,12 @@
+[BOS] Most recent work on morphological reinflection was done in the context of the SIGMOR-PHON 2016 and the CoNLL-SIGMORPHON 2017 shared tasks.
+
+[BOS] The first edition of the shared task in 2016 (Cotterell et al., 2016) resulted in 3 different types of systems: "pipeline approaches" (unsupervised alignment algorithms applied to the source-target pairs, followed by a model which predicts edit operations), "neural approaches", and "linguistically inspired systems".
+[BOS] The winning system was a neural network, namely a character-based RNN encoder-decoder model with attention, similar to the one we use here (Kann and Schtze, 2016) .
+[BOS] Hence, neural models gained popularity in the 2017 edition of the shared task (Cotterell et al., 2017a) .
+[BOS] In 2017, explicit low-resource settings were first introduced to the shared task.
+[BOS] These settings demonstrated the effectiveness of hard attention in neural sequence-to-sequence models if training data are limited (Makarov et al., 2017) .
+
+[BOS] Research not immediately done for the shared tasks included papers on multi-source reinflection Kann et al., 2017a) , cross-lingual transfer for reinflection (Kann et al., 2017b) , or first intents of neural inflection systems which make use of context for lemmatization (Bergmanis and Goldwater, 2018) .
+
+[BOS] Older work on morphological inflection includes Ahlberg et al. (2014) ; Durrett and DeNero (2013) ; Nicolai et al. (2015) ; Faruqui et al. (2016) , inter alia.
+

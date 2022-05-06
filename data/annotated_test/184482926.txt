@@ -1,0 +1,9 @@
+[BOS] Natural language processing in social media as an emergent area has attracted a lot of attention (Poria et al., 2017) , especially from the recent advances in applying neural network methods with pre-trained embeddings (Eisner et al., 2016) .
+
+[BOS] To achieve generalization and robustness in social media sentiment analysis, pre-trained embeddings should contain the representations of not only words from natural language but also emotion-related symbols, such as emoticons and emoji (Eisner et al., 2016) .
+[BOS] Both pre-trained embeddings GloVe (Pennington et al., 2014) and word2vec (Mikolov et al., 2013) do not contain representations for emotion-related symbols, which restricts the performance of sentiment analysis in social media.
+[BOS] Although pre-trained emoji2vec embedding contains Unicode emoji representation, not all emotion-related symbols are included, such as emoticons.
+
+[BOS] As emotion detection is a part of sentiment analysis, and the data from the task organizers contains emoticons and emoji for emotion expressions, we can utilize a neural network method with pretrained embedding to solve this task.
+[BOS] We also need to address the lack of representations of emotionrelated symbols.
+

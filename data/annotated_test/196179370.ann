@@ -1,0 +1,7 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 116 121	[BOS]
+T3	Reflection 357 362	[BOS]
+T4	Reflection 507 512	[BOS]
+T5	Pronoun 190 194	they
+T6	Pronoun 379 383	this
+T7	Pronoun 513 517	This

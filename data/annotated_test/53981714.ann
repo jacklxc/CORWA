@@ -1,0 +1,30 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 259 264	[BOS]
+T3	Single_summ 436 441	[BOS]
+T4	Narrative_cite 551 556	[BOS]
+T5	Transition 762 767	[BOS]
+T6	Reflection 873 878	[BOS]
+T7	Reference 34 54	(Mintz et al., 2009)
+T8	Reference 118 138	(Riedel et al., 2010
+T9	Reference 140 161	Hoffmann et al., 2011
+T10	Reference 163 184	Surdeanu et al., 2012
+T11	Reference 186 203	Zeng et al., 2015
+T12	Reference 205 221	Lin et al., 2016
+T13	Reference 223 238	Ji et al., 2017
+T14	Reference 240 256	Wu et al., 2017)
+T15	Dominant 265 282	(Su et al., 2018)
+T16	Reference 627 648	(Riedel et al., 2013)
+T17	Reference 715 738	(Toutanova et al., 2015
+T18	Reference 740 759	Verga et al., 2016)
+T19	Pronoun 471 476	their
+T20	Pronoun 810 815	their
+T21	B_span 6 13	Distant
+T22	E_span 49 53	2009
+T23	B_span 6 13	Distant
+T24	E_span 251 255	2017
+T25	B_span 266 268	Su
+T27	E_span 535 548	distributions
+T26	B_span 610 619	universal
+T28	E_span 758 759	)
+T29	E_span 662 672	extraction
+T30	B_span 674 676	KB

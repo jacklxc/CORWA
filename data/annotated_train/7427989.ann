@@ -1,0 +1,39 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 136 141	[BOS]
+T3	Single_summ 297 302	[BOS]
+T4	Single_summ 451 456	[BOS]
+T5	Transition 663 668	[BOS]
+T6	Single_summ 783 788	[BOS]
+T7	Transition 978 983	[BOS]
+T8	Multi_summ 1104 1109	[BOS]
+T9	Reflection 1348 1353	[BOS]
+T10	Reflection 1560 1565	[BOS]
+T11	Reflection 1624 1629	[BOS]
+T12	Dominant 155 175	Galley et al. (2006)
+T13	Dominant 467 487	Galley et al. (2006)
+T14	Dominant 789 810	DeNeefe et al. (2007)
+T15	Reference 953 973	(Galley et al., 2006
+T16	Dominant 1123 1147	(Venugopal et al., 2008)
+T17	Dominant 1152 1172	(Mi and Huang, 2008)
+T18	Reference 1749 1770	(Galley et al., 2006)
+T19	Reference 1823 1847	(Venugopal et al., 2008)
+T20	B_span 155 161	Galley
+T21	E_span 443 449	system
+T22	B_span 467 471	Gall
+T24	B_span 789 792	DeN
+T25	E_span 969 973	2006
+T26	B_span 1123 1124	(
+T27	E_span 1338 1345	results
+T28	B_span 1734 1738	rule
+T29	E_span 1765 1769	2006
+T30	B_span 1789 1793	rule
+T31	E_span 1842 1846	2008
+T32	Pronoun 303 308	Their
+T33	Pronoun 424 429	their
+T34	Pronoun 640 645	their
+T35	Pronoun 1566 1568	It
+T36	Pronoun 1665 1669	this
+T37	Pronoun 1677 1679	it
+T38	B_span 929 933	rule
+T39	E_span 969 973	2006
+T40	E_span 655 661	models

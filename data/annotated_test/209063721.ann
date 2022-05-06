@@ -1,0 +1,68 @@
+T1	Multi_summ 0 5	[BOS]
+T2	Transition 238 243	[BOS]
+T3	Narrative_cite 411 416	[BOS]
+T4	Reflection 675 680	[BOS]
+T5	Narrative_cite 850 855	[BOS]
+T6	Reflection 1194 1199	[BOS]
+T7	Narrative_cite 1369 1374	[BOS]
+T8	Narrative_cite 1621 1626	[BOS]
+T9	Reflection 1895 1900	[BOS]
+T10	Narrative_cite 2126 2131	[BOS]
+T11	Single_summ 2228 2233	[BOS]
+T12	Reflection 2378 2383	[BOS]
+T13	Single_summ 2531 2536	[BOS]
+T14	Reflection 2667 2672	[BOS]
+T15	Single_summ 2850 2855	[BOS]
+T16	Transition 3030 3035	[BOS]
+T17	Reflection 3191 3196	[BOS]
+T18	Dominant 23 43	Weston et al. (2014)
+T19	Dominant 46 70	Sukhbaatar et al. (2016)
+T20	Reference 542 561	(Kumar et al., 2016
+T21	Reference 563 580	Tran et al., 2016
+T22	Reference 582 598	Xu et al., 2019)
+T23	Reference 648 667	(Jung et al., 2018)
+T24	Reference 952 972	(Bordes et al., 2015
+T25	Reference 974 994	tau Yih et al., 2015
+T26	Reference 996 1011	Xu et al., 2016
+T27	Reference 1013 1023	Jain, 2016
+T28	Reference 1025 1041	Yin et al., 2016
+T29	Reference 1043 1062	Dubey et al., 2018)
+T30	Reference 1512 1529	(Seo et al., 2017
+T31	Reference 1579 1595	Cao et al., 2019
+T32	Reference 1597 1618	tau Yih et al., 2015)
+T33	Reference 1701 1719	(Yang et al., 2018
+T34	Reference 1721 1739	Welbl et al., 2018
+T35	Reference 1741 1759	Bauer et al., 2018
+T36	Reference 1761 1780	Clark et al., 2018)
+T37	Reference 1808 1826	(Choi et al., 2018
+T38	Reference 1828 1847	Reddy et al., 2018)
+T39	Reference 2205 2224	(Antol et al., 2015
+T40	Dominant 2259 2280	(Kottur et al., 2018)
+T41	Dominant 2537 2556	Jiang et al. (2018)
+T42	Dominant 2929 2955	(Hudson and Manning, 2019)
+T43	Pronoun 437 441	this
+T44	Pronoun 1228 1232	this
+T45	B_span 6 12	Memory
+T46	E_span 226 236	capability
+T47	B_span 601 614	reinforcement
+T48	E_span 662 666	2018
+T49	E_span 593 597	2019
+T50	B_span 488 495	dynamic
+T51	B_span 879 884	often
+T52	E_span 1057 1061	2018
+T53	B_span 1472 1481	typically
+T54	Reference 1531 1553	Rajpurkar et al., 2016
+T55	Reference 1554 1578	Rajpurkar et al., , 2018
+T56	E_span 1613 1617	2015
+T57	B_span 1655 1660	multi
+T58	E_span 1775 1779	2018
+T59	B_span 1784 1798	conversational
+T60	E_span 1842 1846	2018
+T61	B_span 2132 2138	Visual
+T62	E_span 2220 2224	2015
+T63	B_span 2244 2250	neural
+T64	E_span 2373 2376	etc
+T65	B_span 2537 2542	Jiang
+T66	E_span 2659 2665	albums
+T67	B_span 2856 2863	Another
+T68	E_span 3020 3028	contexts

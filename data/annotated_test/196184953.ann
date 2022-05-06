@@ -1,0 +1,41 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 220 225	[BOS]
+T3	Transition 444 449	[BOS]
+T4	Multi_summ 555 560	[BOS]
+T5	Narrative_cite 771 776	[BOS]
+T6	Narrative_cite 978 983	[BOS]
+T7	Multi_summ 1183 1188	[BOS]
+T8	Transition 1412 1417	[BOS]
+T9	Reflection 1588 1593	[BOS]
+T10	Narrative_cite 1742 1747	[BOS]
+T11	Transition 1888 1893	[BOS]
+T12	Transition 2000 2005	[BOS]
+T13	Other 2108 2113	[BOS]
+T14	Other 2130 2135	[BOS]
+T15	Reference 245 266	(Mikolov et al., 2013
+T16	Reference 268 292	Pennington et al., 2014)
+T17	Dominant 561 578	Dai and Le (2015)
+T18	Dominant 580 606	Ramachandran et al. (2016)
+T19	Reference 905 926	(Johnson et al., 2017
+T20	Reference 928 948	Wada and Iwata, 2018
+T21	Reference 950 975	Lample and Conneau, 2019)
+T22	Reference 1135 1154	(Kiros et al., 2015
+T23	Reference 1156 1180	Jozefowicz et al., 2016)
+T24	Dominant 1199 1220	Radford et al. (2019)
+T25	Dominant 1357 1375	Wolf et al. (2019)
+T26	Reference 1796 1817	(Zhang et al., 2018b)
+T27	B_span 231 236	early
+T28	E_span 442 443	.
+T29	B_span 561 564	Dai
+T30	E_span 769 770	.
+T31	B_span 816 820	used
+T32	E_span 974 975	)
+T33	B_span 1085 1099	classification
+T34	E_span 1179 1180	)
+T35	B_span 1199 1202	Rad
+T36	B_span 1357 1361	Wolf
+T38	E_span 1409 1410	.
+T39	B_span 1764 1771	typical
+T40	E_span 1816 1817	)
+T41	Pronoun 175 177	it
+T37	E_span 1341 1352	translation

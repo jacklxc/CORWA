@@ -1,0 +1,13 @@
+[BOS] There has been interest in recent years in the task of generating image descriptions (also known as image captioning).
+[BOS] Bernardi et al. (2016) provide a detailed discussion on various image description generation approaches that have been developed.
+
+[BOS] Currently, the two largest image description datasets are Flickr30K (Young et al., 2014) and MS COCO (Lin et al., 2014) .
+[BOS] These datasets are constructed in English and are aimed at advancing research on the generation of image descriptions in English.
+[BOS] Recent attempts have been made to incorporate multilinguality into both these largescale datasets, with the datasets being extended to other languages such as German and Japanese Hitschler et al., 2016; Miyazaki and Shimizu, 2016; Yoshikawa et al., 2017) .
+
+[BOS] The first known attempt at using NMT for machine translation of image descriptions is by Elliott et al. (2015) , who conditioned an NMT system with a CNN image embedding (the penultimate layer of VGG-16 (Simonyan and Zisserman, 2014) ) at the beginning of either the encoder or the decoder.
+[BOS] The WMT16 shared task on Multimodal Machine Translation has further encouraged research in this area.
+[BOS] At the time, phrase-based SMT systems (Shah et al., 2016; Libovick et al., 2016; Hitschler et al., 2016) performed better than NMT systems (Calixto et al., 2016; Huang et al., 2016; Caglayan et al., 2016) .
+[BOS] Participants used either the penultimate fully connected layer or a convolutional layer of a CNN as image representation, with the exception of Shah et al. (2016) who used the classification output of VGG-16 as features to a phrase-based SMT system.
+[BOS] In all cases, image information were found to provide only marginal improvements.
+

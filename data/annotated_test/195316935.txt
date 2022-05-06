@@ -1,0 +1,13 @@
+[BOS] There have been several attempts to increase the robustness of MT systems in recent years.
+[BOS] Cheng et al. (2018) employ an adversarial training scheme in a multi-task learning setup in order to increase the system robustness.
+[BOS] For each training example, its noisy counterpart is randomly generated.
+[BOS] The network is trained to yield such input representations such that it is not possible to train a discriminator that decides (based on the input representation) which input is the noisy one.
+[BOS] This method improves both the robustness and the translation quality on the clean data.
+[BOS] attempt to make the translation more robust towards noise from homophones.
+[BOS] This type of noise is common in languages with non-phonetic writing systems and concerns words or phrases which are pronounced in the same way, but spelled differently.
+[BOS] The authors of the paper train the word embeddings to capture the phonetic information which eventually leads not only to bigger robustness but also to improved translation quality in general.
+
+[BOS] To our knowledge, the only work that specifically uses the MTNT dataset attempts to improve the system robustness by emulating the noise in the clean data (Vaibhav et al., 2019) .
+[BOS] They introduce two techniques for noise induction, one employing hand-crafted rules, and one based on back-translation.
+[BOS] The techniques offer a similar translation quality gains as fine-tuning on MTNT data.
+

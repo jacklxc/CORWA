@@ -1,0 +1,64 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 148 153	[BOS]
+T3	Transition 258 263	[BOS]
+T4	Narrative_cite 471 476	[BOS]
+T5	Narrative_cite 644 649	[BOS]
+T6	Transition 869 874	[BOS]
+T7	Single_summ 1019 1024	[BOS]
+T8	Transition 1147 1152	[BOS]
+T9	Single_summ 1248 1253	[BOS]
+T10	Single_summ 1363 1368	[BOS]
+T11	Single_summ 1460 1465	[BOS]
+T12	Single_summ 1548 1553	[BOS]
+T13	Transition 1659 1664	[BOS]
+T14	Single_summ 1748 1753	[BOS]
+T15	Single_summ 1884 1889	[BOS]
+T16	Single_summ 2024 2029	[BOS]
+T17	Single_summ 2154 2159	[BOS]
+T18	Reflection 2277 2282	[BOS]
+T19	Single_summ 2375 2380	[BOS]
+T20	Reference 124 145	(Chopra et al., 2016)
+T21	Reference 198 213	(Saggion, 2017)
+T22	Reference 478 498	Zhou and Hovy, 2004)
+T23	Reference 524 547	(Knight and Marcu, 2002
+T24	Reference 549 573	Clarke and Lapata, 2008)
+T25	Reference 621 641	(Banko et al., 2000)
+T26	Reference 800 819	(Rush et al., 2015a
+T27	Reference 821 840	Chopra et al., 2016
+T28	Reference 842 865	Nallapati et al., 2016)
+T29	Dominant 1038 1061	Nallapati et al. (2016)
+T30	Dominant 1254 1270	Gu et al. (2016)
+T31	Dominant 1476 1493	See et al. (2017)
+T32	Dominant 1554 1572	Cao et al. (2017b)
+T33	Dominant 1768 1787	Ayana et al. (2016)
+T34	Dominant 1890 1910	Paulus et al. (2017)
+T35	Dominant 2030 2047	Guu et al. (2017)
+T36	Dominant 2391 2408	Guu et al. (2017)
+T37	B_span 6 17	Abstractive
+T38	E_span 140 144	2016
+T39	B_span 154 158	This
+T40	E_span 250 256	refine
+T41	B_span 478 482	Zhou
+T42	E_span 493 497	2004
+T43	B_span 501 510	syntactic
+T44	E_span 568 572	2008
+T45	B_span 578 589	statistical
+T46	E_span 636 640	2000
+T47	B_span 683 694	attentional
+T48	E_span 860 864	2016
+T49	B_span 1038 1047	Nallapati
+T50	E_span 1141 1145	tags
+T51	B_span 1254 1256	Gu
+T52	E_span 1448 1458	generation
+T53	B_span 1476 1479	See
+T54	E_span 1536 1546	repetition
+T55	B_span 1554 1557	Cao
+T56	E_span 1645 1657	faithfulness
+T57	B_span 1768 1773	Ayana
+T58	E_span 1873 1882	summaries
+T59	B_span 1890 1896	Paulus
+T60	E_span 2016 2022	scores
+T61	B_span 2030 2033	Guu
+T62	E_span 2269 2275	corpus
+T63	B_span 2391 2394	Guu
+T64	E_span 2548 2562	simultaneously

@@ -1,0 +1,16 @@
+[BOS] Most previous studies use textual features as input.
+[BOS] Some use KL divergence between the distribution of a users words and the words used in each region (Wing and Baldridge, 2011; Roller et al., 2012) , regional topic distributions (Eisenstein et al., 2010; Ahmed et al., 2013; Hong et al., 2012) , or feature selection/weighting to find words indicative of location (Priedhorsky et al., 2014; Han et al., 2012 Han et al., , 2014 Wing and Baldridge, 2014) .
+
+[BOS] All these studies require relatively large training sets to fit the models, and can be heavily biased by major events during the time of collection, such as an election or a disaster.
+[BOS] In contrast to our work, most do not consider multi-word NEs.
+
+[BOS] Only few text-based studies consider NEs, and if so, focus on location names using gazetteers like GeoNames, limiting the methods to the completeness of these gazetteers.
+[BOS] Since they usually also use other text-based models, it is hard to determine how much location names contribute.
+[BOS] These approaches depend on a namedisambiguation phase, using Wikipedia, DBPedia, or OpenStreetMap, since location names can refer to multiple locations (Brunsting et al., 2016) .
+[BOS] Chi et al. (2016) explicitly study the contributions of city and country names, hashtags, and user mentionings, to geolocation.
+[BOS] Their results suggested that a combination of city and country names, as well as hashtags, are good location predictors.
+[BOS] Pavalanathan and Eisenstein (2015) suggest that non-standard words are more locationspecific, and also, more likely to occur in geotagged tweets.
+[BOS] In contrast to this paper, none of the previous works study how much various NE types reveal about the user location.
+[BOS] Similarly, Salehi and Søgaard (2017) evaluate common hypotheses about language and location.
+[BOS] However, they do not explicitly study named entities.
+

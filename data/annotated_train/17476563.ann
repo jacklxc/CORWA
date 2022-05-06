@@ -1,0 +1,85 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 81 86	[BOS]
+T3	Transition 409 414	[BOS]
+T4	Narrative_cite 509 514	[BOS]
+T5	Single_summ 674 679	[BOS]
+T6	Narrative_cite 807 812	[BOS]
+T7	Narrative_cite 965 970	[BOS]
+T8	Single_summ 1105 1110	[BOS]
+T9	Single_summ 1245 1250	[BOS]
+T10	Reflection 1425 1430	[BOS]
+T11	Narrative_cite 1534 1539	[BOS]
+T12	Reflection 1834 1839	[BOS]
+T13	Reflection 1941 1946	[BOS]
+T14	Narrative_cite 2018 2023	[BOS]
+T15	Narrative_cite 2119 2124	[BOS]
+T16	Narrative_cite 2282 2287	[BOS]
+T17	Dominant 94 120	(Richardson et al., 2013 )
+T18	Dominant 267 290	(Rajpurkar et al., 2016
+T19	Dominant 292 311	Xiong et al., 2016)
+T20	Dominant 323 348	(Trischler et al., 2016a)
+T21	Reference 555 576	(Hermann et al., 2015
+T22	Reference 578 597	Onishi et al., 2016
+T23	Reference 599 617	Hill et al., 2015)
+T24	Dominant 719 740	(Nguyen et al., 2016)
+T25	Reference 867 892	(Voorhees and Tice, 2000)
+T26	Reference 901 921	(Yang et al., 2016b)
+T27	Reference 932 954	(Jurczyk et al., 2016)
+T28	Reference 1004 1026	(Wang and Nyberg, 2015
+T29	Reference 1028 1055	Severyn and Moschitti, 2015
+T30	Reference 1057 1081	dos Santos et al., 2016)
+T31	Dominant 1111 1131	Sultan et al. (2016)
+T32	Dominant 1251 1275	Trischler et al. (2016b)
+T33	Reference 1651 1671	(Yang et al., 2016b)
+T34	Reference 1699 1723	(Cheng and Lapata, 2016)
+T35	Reference 1746 1763	(Ba et al., 2014)
+T36	Reference 1787 1812	(Yessenalina et al., 2010
+T37	Reference 1814 1831	Lei et al., 2016)
+T38	Reference 2099 2116	(Xu et al., 2015)
+T39	Reference 2165 2187	Sachan and Xing (2016)
+T40	Reference 2378 2403	(Clark and Manning, 2016)
+T41	Reference 2429 2454	(Narasimhan et al., 2016)
+T42	Reference 2474 2496	(Andreas et al., 2016)
+T43	Reference 2515 2539	(Narasimhan et al., 2015
+T44	Reference 2541 2557	He et al., 2016)
+T45	Pronoun 2194 2198	they
+T46	B_span 87 93	MCTest
+T47	E_span 246 255	reasoning
+T48	B_span 261 266	SQuAD
+T49	E_span 399 407	document
+T50	B_span 515 520	Cloze
+T51	E_span 663 672	questions
+T52	B_span 680 683	The
+T53	E_span 797 804	answers
+T54	B_span 859 863	TREC
+T55	E_span 887 891	2000
+T56	B_span 894 900	WikiQA
+T57	E_span 915 920	2016b
+T58	B_span 926 931	SelQA
+T59	E_span 949 953	2016
+T60	B_span 981 987	neural
+T61	E_span 1091 1103	improvements
+T62	B_span 1111 1117	Sultan
+T63	E_span 1238 1243	parts
+T64	B_span 1251 1260	Trischler
+T65	E_span 1414 1423	questions
+T66	B_span 1631 1635	text
+T67	E_span 1665 1670	2016b
+T68	B_span 1674 1684	extractive
+T69	E_span 1718 1722	2016
+T70	B_span 1726 1733	machine
+T71	E_span 1758 1762	2014
+T72	B_span 1768 1777	sentiment
+T73	E_span 1826 1830	2016
+T74	B_span 2080 2087	caption
+T75	E_span 2111 2115	2015
+T76	B_span 2125 2135	Curriculum
+T77	E_span 2182 2186	2016
+T78	B_span 2355 2366	coreference
+T79	E_span 2398 2402	2016
+T80	B_span 2406 2417	information
+T81	E_span 2449 2453	2016
+T82	B_span 2457 2465	semantic
+T83	E_span 2491 2495	2016
+T84	B_span 2501 2508	textual
+T85	E_span 2552 2556	2016

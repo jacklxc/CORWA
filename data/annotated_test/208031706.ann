@@ -1,0 +1,31 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 420 425	[BOS]
+T3	Narrative_cite 610 615	[BOS]
+T4	Reflection 824 829	[BOS]
+T5	B_span 126 134	abstract
+T6	E_span 174 178	2018
+T7	Reference 159 178	Lyu and Titov, 2018
+T8	B_span 182 192	executable
+T9	E_span 332 336	2018
+T10	Reference 229 251	Allamanis et al., 2015
+T11	Reference 253 276	Rabinovich et al., 2017
+T12	Reference 278 298	Yin and Neubig, 2017
+T13	Reference 300 318	Liang et al., 2017
+T14	Reference 320 336	Lin et al., 2018
+T15	B_span 344 347	SQL
+T16	E_span 411 415	2017
+T17	Reference 357 379	Dong and Lapata, 2018;
+T18	Reference 380 398	Yu et al., 2018b,a
+T19	Reference 400 415	Xu et al., 2017
+T20	B_span 492 504	SyntaxSQLNet
+T21	E_span 517 522	2018b
+T22	Reference 506 522	Yu et al., 2018b
+T23	B_span 573 579	Spider
+T24	E_span 601 606	2018c
+T25	Reference 590 606	Yu et al., 2018c
+T26	B_span 671 674	SQL
+T27	E_span 691 695	2017
+T28	Reference 680 694	Xu et al., 201
+T29	B_span 701 708	TypeSQL
+T30	E_span 721 726	2018a
+T31	Reference 710 726	Yu et al., 2018a

@@ -1,0 +1,53 @@
+T1	Reflection 0 5	[BOS]
+T2	Transition 157 162	[BOS]
+T3	Narrative_cite 324 329	[BOS]
+T4	Single_summ 577 582	[BOS]
+T5	Narrative_cite 729 734	[BOS]
+T6	Transition 867 872	[BOS]
+T7	Single_summ 953 958	[BOS]
+T8	Narrative_cite 1097 1102	[BOS]
+T9	Narrative_cite 1261 1266	[BOS]
+T10	Single_summ 1491 1496	[BOS]
+T11	Narrative_cite 1708 1713	[BOS]
+T12	Narrative_cite 1874 1879	[BOS]
+T13	Single_summ 1995 2000	[BOS]
+T14	Single_summ 2096 2101	[BOS]
+T15	Reference 471 488	(Gu et al., 2018)
+T16	Reference 529 548	(Wang et al., 2019)
+T17	Dominant 620 643	Nishimura et al. (2018)
+T18	Reference 818 839	(Artetxe et al., 2018
+T19	Reference 841 864	Lample et al., 2018a,c)
+T20	Dominant 1029 1046	Ren et al. (2019)
+T21	Reference 1211 1236	(Subramanian et al., 2019
+T22	Reference 1238 1257	Zhang et al., 2018)
+T23	Reference 1421 1439	(Xie et al., 2018)
+T24	Reference 1465 1488	(Litschko et al., 2018)
+T25	Dominant 1497 1517	Hassan et al. (2017)
+T26	Reference 1819 1847	(De Gispert and Marino, 2006
+T27	Reference 1849 1871	Cohn and Lapata, 2007)
+T28	Reference 1915 1943	(Levinboim and Chiang, 2015)
+T29	Dominant 2102 2121	Lakew et al. (2018)
+T30	B_span 412 422	leveraging
+T31	E_span 483 487	2018
+T32	B_span 495 500	using
+T33	E_span 543 547	2019
+T34	B_span 620 629	Nishimura
+T35	E_span 715 726	translation
+T36	B_span 776 784	training
+T37	E_span 859 863	8a,c
+T38	B_span 962 975	incorporating
+T39	E_span 1093 1095	MT
+T40	B_span 1184 1195	nonparallel
+T41	E_span 1252 1256	2018
+T42	B_span 1396 1401	named
+T43	E_span 1434 1438	2018
+T44	B_span 1443 1454	information
+T45	E_span 1483 1487	2018
+T46	B_span 1497 1503	Hassan
+T47	E_span 1695 1705	dictionary
+T48	B_span 1804 1815	phrasebased
+T49	E_span 1866 1870	2007
+T50	B_span 1905 1911	Neural
+T51	E_span 1938 1942	2015
+T52	B_span 2102 2107	Lakew
+T53	E_span 2210 2218	language

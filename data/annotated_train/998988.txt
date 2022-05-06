@@ -1,0 +1,29 @@
+[BOS] The IOB tagging approach adopted in this work is not a new idea.
+[BOS] It was first implemented in Chinese word segmentation by (Xue and Shen, 2003) using the maximum entropy methods.
+[BOS] Later, (Peng and McCallum, 2004) implemented the idea using the CRF-based approach, which yielded better results than the maximum entropy approach because it could solve the label bias problem (Lafferty et al., 2001 ).
+[BOS] However, as we mentioned before, this approach does not take advantage of the prior knowledge of in-vocabulary words; It produced a higher R-oov but a lower R-iv.
+[BOS] This problem has been observed by some participants in the Bakeoff 2005 (Asahara et al., 2005) , where they applied the IOB tagging to recognize OOVs, and added the OOVs to the lexicon used in the HMMbased or CRF-based approaches.
+[BOS] (Nakagawa, 2004) used hybrid HMM models to integrate word level and character level information seamlessly.
+[BOS] We used confidence measure to determine a better balance between R-oov and R-iv.
+[BOS] The idea of using the confidence measure has appeared in (Peng and McCallum, 2004) , where it was used to recognize the OOVs.
+[BOS] In this work we used it more than that.
+[BOS] By way of the confidence measure we combined results from the dictionary-based and the IOBtagging-based and as a result, we could achieve the optimal performance.
+
+[BOS] Our main contribution is to extend the IOB tagging approach from being a character-based to a subword-based one.
+[BOS] We proved that the new approach enhanced the word segmentation significantly in all the experiments, MaxEnts, CRFs and using confidence measure.
+[BOS] We tested our approach using the standard Sighan Bakeoff 2005 data set in the closed test.
+[BOS] In Table 7 we align our results with some top runners' in the Bakeoff 2005.
+
+[BOS] Our results were compared with the best performers' results in the Bakeoff 2005.
+[BOS] Two participants' results were chosen as bases: No.15-b, ranked the first in the AS corpus, and No.14, the best performer in CITYU, MSR and PKU.
+[BOS] .
+[BOS] The No.14 used CRF-modeled IOB tagging while No.15-b used MaxEnt-modeled IOB tagging.
+[BOS] Our results produced by the MaxEnt are denoted as "ours(ME)" while "ours(CRF)" for the CRF approaches.
+[BOS] We achieved the highest F-scores in three corpora except the AS corpus.
+[BOS] We think the proposed subwordbased approach played the important role for the achieved good results.
+
+[BOS] A second advantage of the subword-based IOB tagging over the character-based is its speed.
+[BOS] The subword-based approach is faster because fewer words than characters needed to be labeled.
+[BOS] We observed a speed increase in both training and testing.
+[BOS] In the training stage, the subword approach was almost two times faster than the character-based.
+

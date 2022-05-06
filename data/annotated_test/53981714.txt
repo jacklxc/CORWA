@@ -1,0 +1,8 @@
+[BOS] Distant supervision methods (Mintz et al., 2009) for relation extraction have been studied by a number of works (Riedel et al., 2010; Hoffmann et al., 2011; Surdeanu et al., 2012; Zeng et al., 2015; Lin et al., 2016; Ji et al., 2017; Wu et al., 2017) .
+[BOS] (Su et al., 2018) use global co-occurrence statistics of 1 https://github.com/czyssrs/GloREPlus textual and KB relations to effectively combat the wrong labeling problem.
+[BOS] But the global statistics in their work is limited to NYT dataset, capturing domain-specific distributions.
+
+[BOS] Another line of research that relates to ours is the universal schema (Riedel et al., 2013) for relation extraction, KB completion, as well as its extensions (Toutanova et al., 2015; Verga et al., 2016) .
+[BOS] Wrong labeling problem still exists since their embedding is learned based on individual relation facts.
+[BOS] In contrast, we use the global cooccurrence statistics as explicit supervision signal.
+

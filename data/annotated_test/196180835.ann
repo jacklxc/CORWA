@@ -1,0 +1,41 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Multi_summ 222 227	[BOS]
+T3	Single_summ 367 372	[BOS]
+T4	Reflection 448 453	[BOS]
+T5	Single_summ 656 661	[BOS]
+T6	Single_summ 931 936	[BOS]
+T7	Single_summ 1004 1009	[BOS]
+T8	Single_summ 1087 1092	[BOS]
+T9	Single_summ 1254 1259	[BOS]
+T10	Reflection 1354 1359	[BOS]
+T11	Reference 85 105	(Jia and Liang, 2017
+T12	Reference 107 130	Belinkov and Bisk, 2018
+T13	Reference 132 153	Hosseini et al., 2017
+T14	Reference 155 178	Samanta and Mehta, 2017
+T15	Reference 180 199	Miyato et al., 2017
+T16	Reference 201 219	Sato et al., 2018)
+T17	Dominant 241 265	Belinkov and Bisk (2018)
+T18	Dominant 268 290	Hosseini et al. (2017)
+T19	Dominant 662 681	Clark et al. (2018)
+T20	Reference 827 847	Miyato et al. (2016)
+T21	Dominant 1118 1136	Wang et al. (2019)
+T23	E_span 218 219	)
+T24	B_span 241 244	Bel
+T25	E_span 446 447	.
+T26	B_span 662 667	Clark
+T28	B_span 1093 1095	In
+T29	B_span 1118 1122	Wang
+T30	E_span 1116 1117	,
+T31	E_span 1352 1353	.
+T32	Pronoun 373 377	They
+T33	Pronoun 481 486	these
+T34	Pronoun 853 858	their
+T35	Pronoun 908 913	their
+T36	Pronoun 992 996	this
+T37	Pronoun 1018 1022	they
+T38	Pronoun 1260 1264	They
+T39	Pronoun 1464 1469	their
+T40	B_span 44 55	adversarial
+T22	B_span 767 778	adversarial
+T41	E_span 842 846	2016
+T27	E_span 1078 1084	models

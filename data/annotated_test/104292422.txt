@@ -1,0 +1,15 @@
+[BOS] Prior work in question-answering has largely focused on the development of reading comprehension-based question-answering and resulted in the creation of several large datasets for factoid extraction such as SQuAD (Rajpurkar et al., 2016 (Rajpurkar et al., , 2018 and the Google Natural Questions datasets (Kwiatkowski et al., 2019) .
+[BOS] In these tasks, extraction of correct answers from the provided context requires little external world knowledge, understanding of intents, or other commonsense knowledge.
+
+[BOS] Earlier work has established multiple benchmarks for natural language inference and linguistic entailment with the release SNLI (Bowman et al., 2015) and MultiNLI datasets (Williams et al., 2018) .
+[BOS] In these tasks, systems must identify whether a hypothesis agrees with or contradicts a provided premise.
+[BOS] In these datasets, determining entailment solely relies upon the provided premise and does not require a questionanswering system to utilize external knowledge.
+[BOS] More recently, the SWAG dataset (Zellers et al., 2018) directly targets natural language inference that leverages commonsense knowledge.
+[BOS] SWAG multiple choice completion questions are constructed using a video caption as the ground truth with incorrect counterfactuals created using adversarially filtered generations from an LSTM language model.
+
+[BOS] State-of-the-art models for natural language inference have rapidly improved and approach human performance, which leaves little room for continued improvement on current benchmarks.
+
+[BOS] Generation of adversarial examples has also been used to increase the robustness of NLP systems as part of the Build it, Break It, The Language Edition Workshop (Ettinger et al., 2017) .
+[BOS] In this workshop, builders designed systems for Sentiment Analysis and Question-Answer Driven Semantic Role Labeling tasks and were evaluated on the accuracy of their models on adversarial test cases designed by breakers.
+[BOS] Whereas Build It Break It adversarial generation required submissions to match the format of a starter dataset and offered limited adversarial access to the target NLP systems, the AQuA construction procedure allows for entirely new questions and provide adversaries with a target model throughout the submission process, allowing workers to experiment.
+

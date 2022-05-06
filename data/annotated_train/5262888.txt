@@ -1,0 +1,4 @@
+[BOS] Our work is motivated by JAMR (Flanigan et al., 2014) , which is based on a pipelined model, resulting in a large drop in overall performance when moving from gold concepts to system concepts.
+[BOS] Wang et al. (2015a) uses a two-stage approach; dependency parses are modified by executing a sequence of actions to resolve dis-crepancies between dependency tree and AMR structure.
+[BOS] Goodman et al. (2016) improves the transition-based parser with the imitation learning algorithms, achieving almost the same performance as that of Wang et al.
+

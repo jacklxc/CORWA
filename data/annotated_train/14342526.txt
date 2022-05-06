@@ -1,0 +1,24 @@
+[BOS] Many research has been attempting to bring nonlinearity into the training of SMT.
+[BOS] These efforts could be roughly divided into the following three categories.
+
+[BOS] The first line of research attempted to reinterpret original features via feature transformation or additional learning.
+[BOS] For example, Maskey and Zhou (2012) use a deep belief network to learn representations of the phrase translation and lexical translation probability features.
+[BOS] Clark et al. (2014) used discretization to transform realvalued dense features into a set of binary indicator features.
+[BOS] Lu et al. (2014) learned new features using a semi-supervised deep auto encoder.
+[BOS] These work focus on the explicit representation of the features and usually employ extra learning procedure.
+[BOS] Our proposed method only take the original feature with no transformation as input.
+[BOS] Feature transformation or combination are performed implicitly during the training of the network and integrated with the optimization of translation quality.
+
+[BOS] The second line of research attempted to use non-linear models instead of log-linear models, which is most similar in spirit with our work.
+[BOS] Duh and Kirchhoff (2008) used the boosting method to combine several results of MERT and achieved improvement in a re-ranking setting.
+[BOS] Liu et al. (2013) proposed an additive neural network which employed a two-layer neural network for embedding-based features.
+[BOS] To avoid local minimum, they still rely on a pre-training and posttraining from MERT or PRO.
+[BOS] Comparing to these efforts, our proposed method takes a further step that it is integrated with iterative training, instead of re-ranking, and works without the help of any pre-trained linear models.
+
+[BOS] The third line of research attempted to add non-linear features/components into the loglinear learning framework.
+
+[BOS] Neural network based models are trained as language models (Vaswani et al., 2013; Auli and Gao, 2014) , translation models or joint language and translation models (Auli et al., 2013; Devlin et al., 2014) .
+[BOS] Liu et al. (2013) also introduced word embedding for source and target side of translation rule as local features.
+[BOS] In this paper we focus on enhancing the expressive power of the modeling, which is independent of the research of enhancing translation system with new designed features.
+[BOS] We believe additional improvement could be achieved by incorporating more features into our framework.
+

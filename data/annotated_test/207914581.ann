@@ -1,0 +1,32 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 170 175	[BOS]
+T3	Single_summ 411 416	[BOS]
+T4	Single_summ 683 688	[BOS]
+T5	Single_summ 810 815	[BOS]
+T6	Reflection 935 940	[BOS]
+T7	Reflection 1268 1273	[BOS]
+T8	Single_summ 1468 1473	[BOS]
+T9	Single_summ 1581 1586	[BOS]
+T10	Single_summ 1672 1677	[BOS]
+T11	Single_summ 1759 1764	[BOS]
+T12	Single_summ 1870 1875	[BOS]
+T13	Reflection 2031 2036	[BOS]
+T14	B_span 74 85	incorporate
+T15	E_span 162 166	2017
+T16	Reference 126 143	Tang et al., 2016
+T17	Reference 145 166	Dahlmann et al., 2017
+T18	B_span 262 268	phrase
+T19	E_span 305 309	2003
+T20	Reference 291 309	Koehn et al., 2003
+T21	B_span 417 422	Huang
+T22	E_span 924 932	overhead
+T23	Dominant 417 436	Huang et al. (2017)
+T24	B_span 1474 1483	Fertility
+T26	Dominant 1485 1503	Brown et al., 1993
+T27	B_span 1534 1540	phrase
+T28	E_span 1573 1577	2003
+T29	Reference 1559 1578	Koehn et al., 2003)
+T25	E_span 1751 1757	tables
+T30	Dominant 1765 1781	Tu et al. (2016)
+T31	B_span 1765 1767	Tu
+T32	E_span 2026 2029	far

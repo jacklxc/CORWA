@@ -1,0 +1,82 @@
+T1	Reflection 0 5	[BOS]
+T2	Transition 65 70	[BOS]
+T3	Reflection 327 332	[BOS]
+T4	Reflection 439 444	[BOS]
+T5	Reflection 527 532	[BOS]
+T6	Single_summ 621 626	[BOS]
+T7	Single_summ 759 764	[BOS]
+T8	Single_summ 1000 1005	[BOS]
+T9	Single_summ 1181 1186	[BOS]
+T10	Transition 1288 1293	[BOS]
+T11	Single_summ 1384 1389	[BOS]
+T12	Single_summ 1575 1580	[BOS]
+T13	Single_summ 1850 1855	[BOS]
+T14	Single_summ 1919 1924	[BOS]
+T15	Single_summ 2233 2238	[BOS]
+T16	Single_summ 2511 2516	[BOS]
+T17	Narrative_cite 2648 2653	[BOS]
+T18	Multi_summ 2781 2786	[BOS]
+T19	Narrative_cite 3136 3141	[BOS]
+T20	Transition 3318 3323	[BOS]
+T21	Single_summ 3408 3413	[BOS]
+T22	Single_summ 3549 3554	[BOS]
+T23	Reflection 3814 3819	[BOS]
+T24	Reflection 3995 4000	[BOS]
+T25	Dominant 734 756	Ghader and Monz (2017)
+T26	Dominant 1187 1204	Lee et al. (2017)
+T27	Dominant 1390 1411	Tang et al. (2018a,b)
+T28	Dominant 1925 1954	Raganato and Tiedemann (2018)
+T29	Dominant 2313 2337	Nguyen and Chiang (2018)
+T30	Reference 2743 2759	(Mi et al., 2016
+T31	Reference 2761 2778	Liu et al., 2016)
+T32	Dominant 2839 2860	Legrand et al. (2016)
+T33	Dominant 2863 2881	Wang et al. (2018)
+T34	Dominant 2958 2978	Zenkel et al. (2019)
+T35	Reference 3241 3263	Simonyan et al. (2013)
+T36	Reference 3265 3291	Springenberg et al. (2014)
+T37	Reference 3294 3315	Smilkov et al. (2017)
+T38	Dominant 3444 3460	Li et al. (2016)
+T39	Dominant 3591 3609	Ding et al. (2017)
+T40	Reference 3654 3671	Bach et al. 2015)
+T41	B_span 627 630	For
+T42	E_span 1179 1180	.
+T43	B_span 1187 1190	Lee
+T44	E_span 1285 1286	.
+T45	B_span 1390 1394	Tang
+T46	E_span 1917 1918	.
+T47	B_span 1925 1928	Rag
+T48	E_span 2230 2231	.
+T49	B_span 2239 2245	Beyond
+T50	E_span 2646 2647	.
+T51	B_span 2723 2729	during
+T52	E_span 2777 2778	)
+T53	B_span 2790 2795	terms
+T54	E_span 2943 2950	systems
+T55	B_span 2958 2961	Zen
+T56	E_span 3133 3134	.
+T57	B_span 3213 3219	visual
+T58	E_span 3314 3315	)
+T59	B_span 3444 3446	Li
+T60	E_span 3547 3548	.
+T61	B_span 3591 3595	Ding
+T62	E_span 3812 3813	.
+T63	Pronoun 83 87	this
+T64	Pronoun 387 391	this
+T65	Pronoun 428 432	this
+T66	Pronoun 765 769	They
+T67	Pronoun 1015 1019	they
+T68	Pronoun 1040 1044	they
+T69	Pronoun 1602 1606	they
+T70	Pronoun 1657 1661	they
+T71	Pronoun 1856 1860	They
+T72	Pronoun 1884 1888	this
+T73	Pronoun 1903 1908	their
+T74	Pronoun 2044 2048	they
+T75	Pronoun 2517 2522	Their
+T76	Pronoun 2572 2576	they
+T77	Pronoun 3065 3069	they
+T78	Pronoun 3176 3180	this
+T79	Pronoun 3324 3326	It
+T80	Pronoun 3348 3353	these
+T81	B_span 3615 3620	Layer
+T82	E_span 3666 3670	2015

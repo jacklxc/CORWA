@@ -1,0 +1,14 @@
+[BOS] Story generation Automatic story generation has attracted interest over the past few years.
+[BOS] Recently, many approaches are proposed to generate a better story in terms of coherence (Jain et al., 2017; , rationality , topic-consistence (Yao et al., 2018a) .
+[BOS] However, most of story generation methods lack the ability to receive guidance from users to achieve a specific goal.
+[BOS] There are only a few works focus on the controllability of story generation, especially on sentiment.
+[BOS] Tambwekar et al. (2018) introduces a policy gradient learning approach to ensure that the model ends with a specific type of event given in advance.
+[BOS] Yao et al. (2018b) uses manually annotated story data to control the ending valence and storyline of story generation.
+[BOS] Different from them, our proposed framework can acquire distant sentiment labels without the dependence on the human annotations.
+
+[BOS] Sentimental Text Generation Generating sentimental and emotional texts is a key step towards building intelligent and controllable natural language generation systems.
+[BOS] To date several works of dialogue generation Zhou and Wang, 2018 ) and text sentiment transfer task Luo et al., 2019) have studied on generating emotional or sentimental text.
+[BOS] They always pre-define a binary sentiment label (positive/negative) or a small limited set of emotions, such as "anger", "love".
+[BOS] Different from them, controlling the fine-grained sentiment (a numeric value) for story ending generation is not limited to several emotional labels, thus we can not embed each sentiment label into a separate vector as usual.
+[BOS] Therefore, we propose to introduce the numeric sentiment value via a Gaussian Kernel Layer.
+

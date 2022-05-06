@@ -1,0 +1,9 @@
+[BOS] Previous work has shown that modeling locality benefits SANs for certain tasks.
+[BOS] Luong et al. (2015) proposed a Gaussian-based local attention with a predictable position; Sperber et al. (2018) differently applied a local method with variable window size for acoustic task; Yang et al. (2018) investigated the affect of the dynamical local Gaussian bias by combining these two approaches for the translation task.
+[BOS] Different from these methods using a learnable local scope, Yang et al. (2019b) and Wu et al. (2019) restricted the attention area with fixed size by borrowing the concept of convolution into SANs.
+[BOS] Although both these methods yield considerable improvements, they to some extent discard long-distance dependencies and the global information.
+[BOS] On the contrary, other researchers observed that global feature fusion is one of the salient advantages of SANs.
+[BOS] Shen et al. (2018) and Yu et al. (2018) succeeded to employ SANs on capturing global context for their downstream NLP tasks.
+[BOS] Recent works also suggested that such the contextual information can improve word sense disambiguation (Zhang et al., 2017a) , dependency parsing (Choi et al., 2017) and semantic modeling (Yang et al., 2019a) .
+[BOS] For exploring the contribution of them, our work integrates both the local and global information under a unified framework.
+

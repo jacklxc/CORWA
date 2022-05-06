@@ -1,0 +1,37 @@
+[BOS] There has recently been a great deal of work on syntactic transfer.
+[BOS] A number of methods (Zeman and Resnik, 2008; McDonald et al., 2011; Cohen et al., 2011; Naseem et al., 2012; Tckstrm et al., 2013; Rosa and Zabokrtsky, 2015) directly learn delexicalized models that can be trained on universal treebank data from one or more source languages, then applied to the target language.
+[BOS] More recent work has introduced cross-lingual representationsfor example cross-lingual word-embeddings-that can be used to improve performance (Zhang and Barzilay, 2015; Guo et al., 2015; Duong et al., 2015a; Duong et al., 2015b; Guo et al., 2016; Ammar et al., 2016b) .
+[BOS] These cross-lingual representations are usually learned from parallel translation data.
+[BOS] We show results of several methods (Zhang and Barzilay, 2015; Guo et al., 2016; Ammar et al., 2016b) in Table 7 of this paper.
+
+[BOS] The annotation projection approach, where dependencies from one language are transferred through translation alignments to another language, has been considered by several authors (Hwa et al., 2005; Ganchev et al., 2009; McDonald et al., 2011; Ma and Xia, 2014; Rasooli and Collins, 2015;  Table 10 : Precision, recall and f-score of different dependency relations on the English development data of the Google universal treebank.
+[BOS] The major columns show the dependency labels ("dep.
+[BOS] "), frequency ("freq.
+[BOS] "), the baseline delexicalized model ("delex"), and our method using the Bible and Europarl ("EU") as translation data.
+[BOS] The rows are sorted by frequency.
+[BOS] Lacroix et al., 2016; Schlichtkrull and Sgaard, 2017) .
+
+[BOS] Other recent work (Tiedemann et al., 2014; Tiedemann, 2015; Tiedemann and Agi, 2016) has considered treebank translation, where a statistical machine translation system (e.g., MOSES (Koehn et al., 2007) ) is used to translate a source language treebank into the target language, complete with reordering of the input sentence.
+[BOS] The lexicalization Table 11 : Accuracy of unlabeled dependencies by POS of the modifier word, for three groups of languages for the universal dependencies experiments in Table 9 : G1 (languages with UAS  80), G2 (languages with 70  UAS < 80), G3 (languages with UAS < 70).
+[BOS] The rows are sorted by frequency in the G1 languages.
+
+[BOS] approach described in this paper is a simple form of treebank translation, where we use a word-to-word translation model.
+[BOS] In spite of its simplicity, it is an effective approach.
+[BOS] A number of authors have considered incorporating universal syntactic properties, such as dependency order, by selectively learning syntactic attributes from similar source languages (Naseem et al., 2012; Tckstrm et al., 2013; Zhang and Barzilay, 2015; Ammar et al., 2016a) .
+[BOS] Selective sharing of syntactic properties is complementary to our work.
+[BOS] We used a very limited form of selective sharing, through the WALS properties, in our baseline approach.
+[BOS] More recently, Wang and Eisner (2016) have developed a synthetic treebank as a universal treebank to help learn parsers for new languages.
+[BOS] Martnez Alonso et al. (2017) try a very different approach in cross-lingual transfer by using a ranking approach.
+
+[BOS] A number of authors (Tckstrm et al., 2012; Guo et al., 2015; Guo et al., 2016) have introduced methods that learn cross-lingual representations that are then used in syntactic transfer.
+[BOS] Most of these approaches introduce constraints to a clustering or embedding algorithm that encourage words that are translations of each other to have similar representations.
+[BOS] Our method of deriving a cross-lingual cor- Table 12 : Precision, recall and f-score of unlabeled dependency attachment for different POS tags as head for three groups of languages for the universal dependencies experiments in Table 9 : G1 (languages with UAS  80), G2 (languages with 70  UAS < 80), G3 (languages with UAS < 70).
+[BOS] The rows are sorted by frequency in the G1 languages.
+
+[BOS] pus (see Figure 1 ) is closely related to Duong et al. (2015a) ; Gouws and Sgaard (2015) ; and Wick et al. (2015) .
+
+[BOS] Our work has made use of dictionaries that are automatically extracted from bilingual corpora.
+[BOS] An alternative approach would be to use hand-crafted translation lexicons, for example, PanLex (Baldwin et al., 2010) (e.g. see Duong et al. (2015b) ), which covers 1253 language varieties, Google translate (e.g., see Ammar et al. (2016c) ), or Wiktionary (e.g., see Durrett et al. (2012) for an approach that uses Wiktionary for cross-lingual transfer).
+[BOS] These resources are potentially very rich sources of information.
+[BOS] Future work should investigate whether they can give improvements in performance.
+

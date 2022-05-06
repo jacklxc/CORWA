@@ -1,0 +1,56 @@
+T1	Single_summ 0 5	[BOS]
+T2	Narrative_cite 145 150	[BOS]
+T3	Single_summ 522 527	[BOS]
+T4	Transition 800 805	[BOS]
+T5	Reflection 984 989	[BOS]
+T6	Reflection 1109 1114	[BOS]
+T7	Single_summ 1268 1273	[BOS]
+T8	Reflection 1458 1463	[BOS]
+T9	Narrative_cite 1615 1620	[BOS]
+T10	Transition 1797 1802	[BOS]
+T11	Transition 1934 1939	[BOS]
+T12	Reflection 2143 2148	[BOS]
+T13	Reflection 2286 2291	[BOS]
+T14	Reflection 2419 2424	[BOS]
+T15	Transition 2618 2623	[BOS]
+T16	Transition 2805 2810	[BOS]
+T17	Narrative_cite 3016 3021	[BOS]
+T18	Transition 3127 3132	[BOS]
+T19	Transition 3338 3343	[BOS]
+T20	Dominant 29 49	Miller et al. (1997)
+T21	Reference 219 240	(Marcus et al., 1993)
+T22	Reference 308 332	(Chinchor et al., 1997 )
+T23	Dominant 548 573	Finkel and Manning (2009)
+T24	Reference 664 683	(Hovy et al., 2006)
+T25	Dominant 1274 1300	Finkel and Manning (2009b)
+T26	Reference 1745 1765	(Riedel et al., 2009
+T27	Reference 1767 1794	Poon and Vanderwende, 2010)
+T28	Reference 3081 3103	(Surdeanu et al., 2008
+T29	Reference 3105 3124	Hajic et al., 2009)
+T30	Pronoun 151 155	They
+T31	Pronoun 469 473	this
+T32	Pronoun 820 825	these
+T33	Pronoun 1395 1399	this
+T34	Pronoun 1467 1471	this
+T35	Pronoun 1542 1544	it
+T36	Pronoun 2100 2102	it
+T37	Pronoun 3004 3008	this
+T38	Pronoun 3065 3070	their
+T39	Pronoun 3136 3140	this
+T40	Pronoun 3351 3355	this
+T41	B_span 6 9	The
+T42	E_span 133 143	extraction
+T43	B_span 198 202	Penn
+T44	E_span 235 239	1993
+T45	B_span 246 252	entity
+T46	E_span 326 330	1997
+T47	B_span 529 530	n
+T48	E_span 787 798	recognition
+T49	B_span 585 594	syntactic
+T50	E_span 678 682	2006
+T51	B_span 1717 1723	Markov
+T52	E_span 1789 1793	2010
+T53	B_span 3022 3028	mantic
+T54	E_span 3119 3123	2009
+T55	B_span 1274 1280	Finkel
+T56	E_span 1445 1456	annotations

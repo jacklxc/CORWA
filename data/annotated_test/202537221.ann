@@ -1,0 +1,76 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 324 329	[BOS]
+T3	Single_summ 508 513	[BOS]
+T4	Multi_summ 646 651	[BOS]
+T5	Multi_summ 868 873	[BOS]
+T6	Transition 1005 1010	[BOS]
+T7	Narrative_cite 1093 1098	[BOS]
+T8	Narrative_cite 1334 1339	[BOS]
+T9	Narrative_cite 1591 1596	[BOS]
+T10	Transition 1714 1719	[BOS]
+T11	Narrative_cite 1820 1825	[BOS]
+T12	Transition 2037 2042	[BOS]
+T13	Reflection 2149 2154	[BOS]
+T14	Reflection 2252 2257	[BOS]
+T15	Transition 2454 2459	[BOS]
+T16	Transition 2479 2484	[BOS]
+T17	Other 2530 2535	[BOS]
+T18	Other 2538 2543	[BOS]
+T19	Transition 2546 2551	[BOS]
+T20	Transition 2626 2631	[BOS]
+T21	Transition 2824 2829	[BOS]
+T22	Reflection 2960 2965	[BOS]
+T23	Reflection 3057 3062	[BOS]
+T24	Reflection 3232 3237	[BOS]
+T25	Reflection 3305 3310	[BOS]
+T26	Reflection 3664 3669	[BOS]
+T27	Reflection 3851 3856	[BOS]
+T28	Transition 3981 3986	[BOS]
+T29	Reflection 4208 4213	[BOS]
+T30	Reflection 4281 4286	[BOS]
+T31	Reference 225 243	(Wang et al., 2019
+T32	Reference 245 268	Goodfellow et al., 2015
+T33	Reference 270 289	Nguyen et al., 2015
+T34	Reference 291 321	Moosavi-Dezfooli et al., 2017)
+T35	Dominant 514 536	Ebrahimi et al. (2017)
+T36	Reference 796 814	(Gao et al., 2018)
+T37	Reference 845 865	(Liang et al., 2017)
+T38	Dominant 874 898	Samanta and Mehta (2017)
+T39	Dominant 901 923	Alzantot et al. (2018)
+T40	Reference 1288 1308	(Meng and Chen, 2017
+T41	Reference 1310 1331	Gu and Rigazio, 2014)
+T42	Reference 1419 1443	(Goodfellow et al., 2015
+T43	Reference 1445 1463	Iyyer et al., 2018
+T44	Reference 1465 1488	Marzinotto et al., 2019
+T45	Reference 1490 1508	Cheng et al., 2019
+T46	Reference 1688 1711	(Alzantot et al., 2018)
+T47	Reference 1846 1864	(Mays et al., 1991
+T48	Reference 1866 1890	Islam and Inkpen, 2009 )
+T49	Reference 1920 1944	(Sakaguchi et al., 2017)
+T50	Pronoun 112 116	they
+T51	Pronoun 1606 1611	these
+T52	Pronoun 1720 1724	This
+T53	Pronoun 2052 2056	they
+T54	Pronoun 2261 2265	this
+T55	Pronoun 2969 2973	this
+T56	Pronoun 3442 3444	it
+T57	B_span 162 167	image
+T58	E_span 316 320	2017
+T59	B_span 514 522	Ebrahimi
+T60	E_span 635 644	operation
+T61	B_span 779 786	scoring
+T62	E_span 809 813	2018
+T63	B_span 818 826	gradient
+T64	E_span 860 864	2017
+T65	B_span 874 881	Samanta
+T66	E_span 994 1002	examples
+T67	B_span 1251 1259	Gaussian
+T68	E_span 1326 1330	2014
+T69	B_span 1406 1412	robust
+T70	E_span 1504 1508	2019
+T71	B_span 1670 1677	genetic
+T72	E_span 1706 1710	2018
+T73	B_span 1826 1834	Spelling
+T74	E_span 1884 1888	2009
+T75	B_span 1895 1902	grammar
+T76	E_span 1939 1943	2017

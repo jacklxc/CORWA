@@ -1,0 +1,116 @@
+T1	Other 0 5	[BOS]
+T2	Other 71 76	[BOS]
+T3	Other 247 252	[BOS]
+T4	Other 381 386	[BOS]
+T5	Other 500 505	[BOS]
+T6	Other 753 758	[BOS]
+T7	Other 873 878	[BOS]
+T8	Reflection 1089 1094	[BOS]
+T10	Reflection 1472 1477	[BOS]
+T11	Reflection 1572 1577	[BOS]
+T12	Narrative_cite 1798 1803	[BOS]
+T13	Reflection 2025 2030	[BOS]
+T14	Reflection 2254 2259	[BOS]
+T15	Reflection 2410 2415	[BOS]
+T16	Reflection 2687 2692	[BOS]
+T17	Single_summ 2844 2849	[BOS]
+T18	Single_summ 3006 3011	[BOS]
+T19	Reflection 3187 3192	[BOS]
+T20	Reflection 3308 3313	[BOS]
+T21	Narrative_cite 3452 3457	[BOS]
+T22	Transition 3588 3593	[BOS]
+T23	Transition 3763 3768	[BOS]
+T24	Transition 3904 3909	[BOS]
+T25	Reflection 4029 4034	[BOS]
+T26	Reflection 4192 4197	[BOS]
+T27	Narrative_cite 4370 4375	[BOS]
+T28	Single_summ 4571 4576	[BOS]
+T29	Single_summ 4709 4714	[BOS]
+T30	Single_summ 4837 4842	[BOS]
+T31	Single_summ 4955 4960	[BOS]
+T32	Transition 5114 5119	[BOS]
+T33	Reflection 5350 5355	[BOS]
+T34	Narrative_cite 5541 5546	[BOS]
+T35	Transition 5796 5801	[BOS]
+T36	Transition 5916 5921	[BOS]
+T37	Reflection 6064 6069	[BOS]
+T38	Reflection 6272 6277	[BOS]
+T39	Reflection 6492 6497	[BOS]
+T40	Reflection 6542 6547	[BOS]
+T41	Reflection 6626 6631	[BOS]
+T42	Reflection 6732 6737	[BOS]
+T43	Narrative_cite 6786 6791	[BOS]
+T44	Narrative_cite 6950 6955	[BOS]
+T45	Narrative_cite 7193 7198	[BOS]
+T46	Reflection 7302 7307	[BOS]
+T47	Reflection 7409 7414	[BOS]
+T48	Reference 1213 1236	(Huang and Sagae, 2010)
+T49	Reference 1900 1922	(Zhang and Clark, 2010
+T50	Reference 1924 1946	Huang and Sagae, 2010)
+T52	Reference 3533 3555	(Cohen and Smith, 2007
+T53	Reference 3557 3585	Goldberg and Tsarfaty, 2008)
+T54	Reference 4493 4515	Zhang and Clark (2008)
+T55	Reference 4520 4542	Zhang and Clark (2010)
+T56	Dominant 4577 4599	Zhang and Clark (2008)
+T57	Dominant 4858 4880	Zhang and Clark (2010)
+T58	Reference 5661 5682	(Hatori et al., 2011)
+T59	Reference 5770 5793	(Huang and Sagae, 2010)
+T60	Reference 6133 6153	Hatori et al. (2011)
+T61	Reference 6467 6489	Zhang and Clark (2010)
+T62	Reference 6837 6857	Hatori et al. (2011)
+T63	Reference 6966 6988	Zhang and Clark (2010)
+T65	Reference 7246 7257	(Xia, 2000)
+T66	Reference 7381 7406	(Collins and Roark, 2004)
+T67	Pronoun 158 162	this
+T68	Pronoun 253 257	This
+T69	Pronoun 800 805	these
+T70	Pronoun 888 893	these
+T71	Pronoun 1070 1075	these
+T72	Pronoun 2210 2214	they
+T73	Pronoun 3012 3016	They
+T75	Pronoun 3594 3599	These
+T76	Pronoun 3688 3690	it
+T77	Pronoun 4931 4936	their
+T78	Pronoun 4964 4969	their
+T79	Pronoun 5025 5029	they
+T80	Pronoun 5044 5049	their
+T81	Pronoun 5092 5097	their
+T82	Pronoun 5802 5806	They
+T83	Pronoun 5854 5856	it
+T84	Pronoun 5939 5943	they
+T85	Pronoun 5981 5986	their
+T87	Reflection 1328 1331	BOS
+T9	Pronoun 1871 1876	those
+T51	Dominant 2862 2872	Luo (2003)
+T89	E_span 3175 3185	accuracies
+T90	B_span 4577 4582	Zhang
+T91	E_span 4829 4835	search
+T93	E_span 5107 5113	model.
+T94	B_span 5602 5607	joint
+T97	Pronoun 3823 3828	those
+T86	B_span 2850 2852	In
+T92	B_span 4843 4847	More
+T105	B_span 1193 1200	dynamic
+T106	E_span 1231 1235	2010
+T107	B_span 1901 1906	Zhang
+T108	E_span 1941 1945	2010
+T88	B_span 3515 3522	Semitic
+T96	E_span 3580 3584	2008
+T95	E_span 5677 5681	2011
+T109	B_span 5750 5757	dynamic
+T110	E_span 5788 5792	2010
+T111	B_span 4459 4465	linear
+T112	E_span 4537 4541	2010
+T74	E_span 6148 6152	2011
+T99	B_span 6837 6843	Hatori
+T100	E_span 6852 6856	2011
+T101	B_span 6966 6971	Zhang
+T102	B_span 7234 7237	CTB
+T115	B_span 7382 7389	Collins
+T116	E_span 7401 7405	2004
+T98	B_span 6089 6092	POS
+T113	E_span 6983 6987	2010
+T114	B_span 7125 7131	closed
+T117	E_span 7147 7151	2000
+T64	Reference 7142 7151	Xia, 2000
+T103	E_span 7252 7256	2000

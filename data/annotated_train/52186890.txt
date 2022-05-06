@@ -1,0 +1,29 @@
+[BOS] We divide the related work into supervised and unsupervised categories.
+[BOS] Representative methods in both categories are included in our comparative evaluation (Section 3.4).
+[BOS] We also discuss some related work in unsupervised domain transfer in addition.
+
+[BOS] Supervised Methods: There is a rich body of supervised methods for learning cross-lingual transfer of word embeddings based on bilingual dictionaries (Mikolov et al., 2013; Faruqui and Dyer, 2014; Artetxe et al., 2016; Xing et al., 2015; Duong et al., 2016; Gouws and Sgaard, 2015) , sentence-aligned corpora (Koisk et al., 2014; Hermann and Blunsom, 2014; and document-aligned corpora (Vuli and Moens, 2016; Sgaard et al., 2015) .
+[BOS] The most relevant line of work is that by Mikolov et al. (2013) where they showed monolingual word embeddings are likely to share similar geometric properties across languages although they are trained separately and hence cross-lingual mapping can be captured by a linear transformation across embedding spaces.
+[BOS] Several follow-up studies tried to improve the cross-lingual transformation in various ways (Faruqui and Dyer, 2014; Artetxe et al., 2016; Xing et al., 2015; Duong et al., 2016; Ammar et al., 2016; Artetxe et al., 2016; Zhang et al., 2016; Shigeto et al., 2015) .
+[BOS] Nevertheless, all these methods require bilingual lexicons for supervised learning.
+[BOS] Vuli and Korhonen (2016) showed that 5000 high-quality bilingual lexicons are sufficient for learning a reasonable cross-lingual mapping.
+
+[BOS] Unsupervised Methods have been studied to establish cross-lingual mapping without any humanannotated supervision.
+[BOS] Earlier work simply relied on word occurrence information only (Rapp, 1995; Fung, 1996) while later efforts have considered more sophisticated statistics in addition (Haghighi et al., 2008) .
+[BOS] The main difficulty in unsupervised learning of cross-lingual mapping is the formulation of the objective function, i.e., how to measure the goodness of an induced mapping without any supervision is a non-trivial question.
+[BOS] Cao et al. (2016) tried to match the mean and standard deviation of the embedded word vectors in two different languages after mapping the words in the source language to the target language.
+[BOS] However, such an approach has shown to be sub-optimal because the objective function only carries the first and second order statistics of the mapping.
+[BOS] Artetxe et al. (2017) tried to impose an orthogonal constraint to their linear transformation model and minimize the distance between the transferred source-word embedding and its nearest neighbor in the target embedding space.
+[BOS] Their method, however, requires a seed bilingual dictionary as the labeled training data and hence is not fully unsupervised.
+[BOS] (Zhang et al., 2017a; Barone, 2016 ) adapted a generative adversarial network (GAN) to make the transferred embedding of each source-language word indistinguishable from its true translation in the target embedding space (Goodfellow et al., 2014) .
+[BOS] The adversarial model could be optimized in a purely unsupervised manner but is often suffered from unstable training, i.e. the adversarial learning does not always improve the performance over simpler baselines.
+[BOS] Zhang et al. (2017b) , Conneau et al. (2017) and Artetxe et al. (2017) also tried adversarial approaches for the induction of seed bilingual dictionaries, as a sub-problem in the crosslingual transfer of word embedding.
+
+[BOS] Unsupervised Domain Transfer: Generally speaking, learning the cross-lingual transfer of word embedding can be viewed as a domain transfer problem, where the domains are word sets in different languages.
+[BOS] Thus various work in the field of unsupervised domain adaptation or unsupervised transfer learning can shed light on our problem.
+[BOS] For example, He et al. (2016) proposed a semi-supervised method for machine translation to utilize large monolingual corpora.
+[BOS] Shen et al. (2017) used unsupervised learning to transfer sentences of different sentiments.
+[BOS] Recent work in computer vision addresses the problem of image style transfer without any annotated training data (Zhu et al., 2017; Taigman et al., 2016; Yi et al., 2017) .
+[BOS] Among those, our work is mostly inspired by the work on CycleGAN (Zhu et al., 2017) , and we adopt their cycled consistent loss over images into our back-translation loss.
+[BOS] One key difference of our method from CycleGAN is that they used the training loss of an adversarial classifier as an indicator of the distributional distance, but instead, we introduce the Sinkhorn distance in our objective function and demonstrate its superiority over the representative method using adversarial loss (Zhang et al., 2017a) .
+

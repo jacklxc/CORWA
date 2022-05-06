@@ -1,0 +1,23 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 331 336	[BOS]
+T3	Single_summ 441 446	[BOS]
+T4	Narrative_cite 679 684	[BOS]
+T5	Reflection 1159 1164	[BOS]
+T6	Reference 227 244	(Liu et al., 2015
+T7	Reference 246 265	Socher et al., 2014
+T8	Reference 267 290	Levy and Goldberg, 2014
+T9	Reference 292 305	Komnios, 2016
+T10	Reference 307 328	Ono and Hatano, 2014)
+T12	Dominant 471 485	Vinyals et al.
+T13	Reference 754 765	Dyer et al.
+T14	Reference 767 781	Aharoni et al.
+T15	Reference 783 828	Eriguchi et al., Wu et al. (Dyer et al., 2016
+T16	Reference 830 856	Aharoni and Goldberg, 2017
+T17	Reference 858 879	Eriguchi et al., 2017
+T18	Reference 881 896	Wu et al., 2017
+T20	E_span 323 327	2014
+T19	B_span 136 146	dependency
+T11	B_span 447 454	Besides
+T21	E_span 670 677	parsing
+T22	B_span 698 701	our
+T23	E_span 892 896	2017

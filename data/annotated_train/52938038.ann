@@ -1,0 +1,54 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 402 407	[BOS]
+T3	Other 684 689	[BOS]
+T4	Other 734 739	[BOS]
+T5	Other 802 807	[BOS]
+T6	Other 853 858	[BOS]
+T7	Other 913 918	[BOS]
+T8	Reflection 1093 1098	[BOS]
+T9	Other 1256 1261	[BOS]
+T10	Narrative_cite 1269 1274	[BOS]
+T11	Reflection 1646 1651	[BOS]
+T12	Reflection 1696 1701	[BOS]
+T13	Single_summ 1781 1786	[BOS]
+T14	Reflection 1929 1934	[BOS]
+T15	Single_summ 1976 1981	[BOS]
+T16	Reference 131 149	(Gong et al., 2011
+T17	Reference 151 173	Hardmeier et al., 2012
+T18	Reference 175 196	Xiong et al., 2013a,b
+T19	Reference 198 218	Garcia et al., 2014)
+T20	Reference 227 245	(Jean et al., 2017
+T21	Reference 247 265	Kuang et al., 2017
+T22	Reference 267 295	Tiedemann and Scherrer, 2017
+T23	Reference 297 314	Wang et al., 2017
+T24	Reference 316 339	Maruf and Haffari, 2018
+T25	Reference 341 360	Bawden et al., 2018
+T26	Reference 362 377	Tu et al., 2018
+T27	Reference 379 398	Voita et al., 2018)
+T30	Reference 1406 1424	(Jean et al., 2017
+T31	Reference 1426 1454	Tiedemann and Scherrer, 2017
+T32	Reference 1456 1473	Wang et al., 2017
+T33	Reference 1475 1498	Maruf and Haffari, 2018
+T34	Reference 1500 1519	Voita et al., 2018)
+T35	Reference 1606 1625	(Kuang et al., 2017
+T36	Reference 1627 1643	Tu et al., 2018)
+T37	Dominant 1787 1806	Voita et al. (2018)
+T38	Dominant 1988 2007	Voita et al. (2018)
+T39	Pronoun 787 791	this
+T40	Pronoun 841 845	this
+T41	Pronoun 1275 1280	These
+T42	B_span 114 126	conventional
+T43	E_span 213 217	2014
+T44	B_span 223 226	NMT
+T45	E_span 393 397	2018
+T28	Reference 525 539	Bahdanau et al
+T46	B_span 508 517	RNNsearch
+T47	E_span 537 539	al
+T29	B_span 1342 1351	computing
+T48	E_span 1514 1518	2018
+T49	B_span 1524 1529	using
+T50	E_span 1638 1642	2018
+T51	B_span 1787 1792	Voita
+T52	E_span 1917 1927	strategies
+T53	B_span 1988 1993	Voita
+T54	E_span 2129 2136	context

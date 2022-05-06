@@ -1,0 +1,30 @@
+[BOS] Our heuristics and annotation are motivated by unintended biases (Levesque, 2014) and evaluation overfitting (Whiteson et al., 2011) , respectively.
+
+[BOS] Unintended biases: The MRC task tests a reading process that involves retrieving stored information and performing inferences (Sutcliffe et al., 2013) .
+[BOS] However, it is difficult to construct datasets that comprehensively require those skills.
+[BOS] As Levesque (2014) discussed as a desideratum for testing AI, we should avoid creating questions that can be solved by matching patterns, using unintended biases, and selectional restrictions.
+[BOS] For the unintended biases, one suggestive example is the Story Cloze Test (Mostafazadeh et al., 2016) , in which a system chooses a sentence among candidates to conclude a given paragraph of the story.
+[BOS] A recent attempt at this task showed that recognizing superficial features in the correct candidate is critical to achieve the state of the art (Schwartz et al., 2017) .
+
+[BOS] Similarly, in MRC, Weissenborn et al. (2017) proposed context/type matching heuristic to develop a simple neural system.
+[BOS] Min et al. (2018) observed that 92% of answerable questions in SQuAD can be answered only using a single context sentence.
+[BOS] In visual question answering, Agrawal et al. (2016) analyzed the behavior of models with the variable length of the first question words.
+[BOS] More recently, Khashabi et al. (2018) proposed a dataset that has questions for multisentence reasoning.
+
+[BOS] Evaluation overfitting:
+
+[BOS] The theory behind evaluating AI distinguishes between taskand skill-oriented approaches (Hernndez-Orallo, 2017) .
+[BOS] In the task-oriented approach, we usually develop a system and test it on a specific dataset.
+[BOS] Sometimes the developed system lacks generality but achieves the state of the art for that specific dataset.
+[BOS] Further, it becomes difficult to verify and explain the solution to tasks.
+[BOS] The situation in which we are biased to the specific tasks is called evaluation overfitting (Whiteson et al., 2011) .
+[BOS] By contrast, with the skill-oriented approach, we aim to interpret the relationships between tasks and skills.
+[BOS] This orientation can encourage the development of more realistic NLU systems.
+
+[BOS] As one of our goals was to investigate whether easy questions are dominant in recent datasets, it did not necessarily require a detailed classification of reasoning types.
+[BOS] Nonetheless, we recognize there are more fine-grained classifications of required skills for NLU.
+[BOS] For example, Weston et al. (2015) defined 20 skills as a set of toy tasks.
+[BOS] Sugawara et al. (2017) also organized 10 prerequisite skills for MRC.
+[BOS] LoBue and Yates (2011) and Sammons et al. (2010) analyzed entailment phenomena using detailed classifications in RTE.
+[BOS] For the ARC dataset, Boratko et al. (2018) proposed knowledge and reasoning types.
+

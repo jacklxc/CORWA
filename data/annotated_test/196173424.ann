@@ -1,0 +1,21 @@
+T1	Reflection 0 5	[BOS]
+T2	Single_summ 78 83	[BOS]
+T3	Single_summ 204 209	[BOS]
+T4	Transition 385 390	[BOS]
+T5	Transition 554 559	[BOS]
+T6	Single_summ 651 656	[BOS]
+T7	Single_summ 790 795	[BOS]
+T8	Single_summ 886 891	[BOS]
+T9	Single_summ 1083 1088	[BOS]
+T10	Dominant 84 104	Jia and Liang (2017)
+T11	Dominant 657 678	Ribeiro et al. (2018)
+T12	Dominant 892 915	Rychalska et al. (2018)
+T13	B_span 84 87	Jia
+T14	E_span 383 384	.
+T15	B_span 657 660	Rib
+T16	E_span 884 885	.
+T17	B_span 892 894	Ry
+T18	E_span 1212 1213	.
+T19	Pronoun 33 37	this
+T20	Pronoun 216 220	this
+T21	Pronoun 1089 1094	These

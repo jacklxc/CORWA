@@ -1,0 +1,14 @@
+[BOS] As discussed in the introduction, our work is related to previous work on integrating word embeddings into discrete models (Turian et al., 2010; Yu et al., 2013; Guo et al., 2014) .
+[BOS] Along this line, there has also been work that uses a neural network to automatically vectorize the structures of a sentence, and then taking the resulting vector as features in a linear NLP model (Socher et al., 2012; Tang et al., 2014; Yu et al., 2015) .
+[BOS] Our results show that the use of a hidden neural layer gives superior results compared with both direct integration and integration via a hard-coded transformation function (e.g binarization or clustering).
+
+[BOS] There has been recent work integrating continuous and discrete features for the task of POS tagging (Ma et al., 2014b; Tsuboi, 2014) .
+[BOS] Both models have essentially the same structure as our model.
+[BOS] In contrast to their work, we systematically compare various ways to integrate discrete and continuous features, for the dependency parsing task.
+[BOS] Our model is also different from Ma et al. (2014b) in the hidden layer.
+[BOS] While they use a form of restricted Boltzmann machine to pre-train the embeddings and hidden layer from large-scale ngrams, we fully rely on supervised learning to train complex feature combinations.
+[BOS] Wang and Manning (2013) consider integrating embeddings and discrete features into a neural CRF.
+[BOS] They show that combined neural and discrete features work better without a hidden layer (i.e. Turian et al. (2010) ).
+[BOS] They argue that nonlinear structures do not work well with high dimensional features.
+[BOS] We find that using a hidden layer specifically for embedding features gives better results compared with using no hidden layers.
+

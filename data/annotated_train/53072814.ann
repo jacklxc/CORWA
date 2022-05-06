@@ -1,0 +1,23 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 243 248	[BOS]
+T3	Transition 329 334	[BOS]
+T4	Reflection 474 479	[BOS]
+T5	Reflection 578 583	[BOS]
+T6	Reflection 698 703	[BOS]
+T7	Single_summ 806 811	[BOS]
+T8	Reflection 934 939	[BOS]
+T9	Narrative_cite 990 995	[BOS]
+T10	Reflection 1162 1167	[BOS]
+T11	Transition 1334 1339	[BOS]
+T12	Reference 95 114	(Mintz et al., 2009
+T13	Reference 116 135	Riedel et al., 2010
+T14	Reference 137 158	Hoffmann et al., 2011
+T15	Reference 160 182	Surdeanu et al., 2012)
+T16	Dominant 821 839	(Lin et al., 2016)
+T17	Reference 1085 1107	(Pontiki et al., 2016)
+T18	B_span 75 83	Relation
+T19	E_span 177 181	2012
+T20	B_span 822 825	Lin
+T21	E_span 922 932	extraction
+T22	B_span 1061 1070	sentiment
+T23	E_span 1102 1106	2016

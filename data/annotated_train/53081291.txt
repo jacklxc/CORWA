@@ -1,0 +1,13 @@
+[BOS] Event detection is an increasingly hot and challenging research topic in NLP.
+[BOS] Generally, existing approaches could roughly be divided into two groups: separate and collective methods.
+
+[BOS] Separate methods: These methods regard multiple events in one sentence as independent ones and recognize them separately.
+[BOS] These methods include feature-based methods which exploit a diverse set of strategies to convert classification clues into feature vectors (Ahn, 2006; Ji and Grishman, 2008; Liao and Grishman, 2010; Hong et al., 2011; Huang and Riloff, 2012) , and neural-based methods which use neural networks to automatically capture clues from plain texts Nguyen and Grishman, 2015; Feng et al., 2016; Chen et al., 2017; Duan et al., 2017; Liu et al., 2017) .
+[BOS] Though effective these methods, they neglect event interdependency by separately predicting each event.
+
+[BOS] Collective methods: These methods try to model the event interdependency and detect multiple events in one sentence collectively.
+[BOS] However, nearly all of these methods are feature-based methods (McClosky et al., 2011; Yang and Mitchell, 2016; Liu et al., 2016b) , which rely on elaborately designed features and suffer error propagation from existing NLP tools.
+[BOS] Nguyen et al. (2016) exploits a neural-based method to detect multiple events collectively.
+[BOS] However, they only use the sentence-level information and ne-glect document-level clues, and can only capture the interdependencies between the current event candidate and its former predicted events.
+[BOS] Moreover, there method can not handle the multiple words trigger problem.
+

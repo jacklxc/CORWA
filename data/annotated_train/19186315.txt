@@ -1,0 +1,20 @@
+[BOS] Machine reading comprehension made rapid progress in recent years, especially for singlepassage MRC task, such as SQuAD (Rajpurkar et al., 2016) .
+[BOS] Mainstream studies (Seo et al., 2016; Wang and Jiang, 2016; Xiong et al., 2016) treat reading comprehension as extracting answer span from the given passage, which is usually achieved by predicting the start and end position of the answer.
+[BOS] We implement our boundary model similarly by employing the boundary-based pointer network (Wang and Jiang, 2016) .
+[BOS] Another inspiring work is from Wang et al. (2017c) , where the authors propose to match the passage against itself so that the representation can aggregate evidence from the whole passage.
+[BOS] Our verification model adopts a similar idea.
+[BOS] However, we collect information across passages and our attention is based on the answer representation, which is much more efficient than attention over all passages.
+[BOS] For the model training, Xiong et al. (2017) argues that the boundary loss encourages exact answers at the cost of penalizing overlapping answers.
+[BOS] Therefore they propose a mixed objective that incorporates rewards derived from word overlap.
+[BOS] Our joint training approach has a similar function.
+[BOS] By taking the content and verification loss into consideration, our model will give less loss for overlapping answers than those unmatched answers, and our loss function is totally differentiable.
+[BOS] Recently, we also see emerging interests in multi-passage MRC from both the academic (Dunn et al., 2017; Joshi et al., 2017) and industrial community (Nguyen et al., 2016; He et al., 2017) .
+[BOS] Early studies (Shen et al., 2017; Wang et al., 2017c) usually concat those passages and employ the same models designed for singlepassage MRC.
+[BOS] However, more and more latest studies start to design specific methods that can read multiple passages more effectively.
+[BOS] In the aspect of passage selection, Wang et al. (2017a) introduced a pipelined approach that rank the passages first and then read the selected passages for answering questions.
+[BOS] Tan et al. (2017) treats the passage ranking as an auxiliary task that can be trained jointly with the reading comprehension model.
+[BOS] Actually, the target of our answer verification is very similar to that of the passage selection, while we pay more attention to the answer content and the answer verification process.
+[BOS] Speaking of the answer verification, Wang et al. (2017b) has a similar motivation to ours.
+[BOS] They attempt to aggregate the evidence from different passages and choose the final answer from n-best candidates.
+[BOS] However, they implement their idea as a separate reranking step after reading comprehension, while our answer verification is a component of the whole model that can be trained end-to-end.
+

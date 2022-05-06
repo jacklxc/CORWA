@@ -1,0 +1,5 @@
+[BOS] Our system is inspired by previous work on multitask learning and multi-lingual learning, mainly building on two intuitions: (1) jointly learning related tasks tends to be beneficial (Caruana, 1997; Bjerva et al., 2016; Bjerva, 2017b) ; and (2) jointly learning related languages in an MTL-inspired framework tends to be beneficial (Bjerva, 2017a; Johnson et al., 2017; de Lhoneux et al., 2018) .
+[BOS] In the context of computational morphology, multilingual approaches have previously been employed for morphological reinflection (Bergmanis et al., 2017) and for paradigm completion .
+[BOS] In both of these cases, however, the available datasets covered more languages, 40 and 21, respectively, which allowed for linguistically-motivated language groupings and for parameter sharing directly on the level of characters.
+[BOS] De Lhoneux et al. (2018) explore parameter sharing between related languages for dependency parsing, and find that sharing is more beneficial in the case of closely related languages.
+

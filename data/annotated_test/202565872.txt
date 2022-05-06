@@ -1,0 +1,34 @@
+[BOS] Text style transfer is a related but distinct task.
+[BOS] It usually preserves the content (Yang et al., 2018; Hu et al., 2017; Fu et al., 2018; Gong et al., 2019) .
+[BOS] In contrast, content of conversational responses in a given context can be semantically diverse.
+[BOS] Various approaches have been proposed for non-parallel data setup.
+[BOS] Fu et al. (2018) proposed to use separate decoders for different styles and a classifier to measure style strength.
+[BOS] proposed to map texts of two different styles into a shared latent space where the "content" information is preserved and "style" information is discarded.
+[BOS] An adversarial discriminator is used to align the latent spaces of two different styles.
+[BOS] However, Yang et al. (2018) point out the difficulty of training an adversarial discriminator and proposed instead the use of language models as discriminator.
+[BOS] Like ; Yang et al. (2018) , we align latent spaces for different styles.
+[BOS] However we also align latent spaces encoded by different models (S2S and AE).
+
+[BOS] Stylized response generation is a relatively new task.
+[BOS] Akama et al. (2017) use a stylized conversation corpus to fine-tune a conversation model pretrained on a background conversation dataset.
+[BOS] However, stylized texts are usually in non-conversational format, as in the present setting.
+[BOS] Niu and Bansal (2018) proposed a method that takes the weighted average of the token probability distribution predicted by a S2S trained on background conversational dataset and that predicted by a LM trained on style dataset as the token probability.
+[BOS] They observed reduced relevance and attributed this to the fact that the LM was not trained to attend to conversation context and S2S was not trained to learn style during training.
+[BOS] In contrast, we jointly learn from conversation and style datasets during training.
+[BOS] Niu and Bansal (2018) have proposed label-fine-tuning, but this is limited to scenarios where a reasonable portion of the conversational dataset is in the target style, which is not always the case.
+
+[BOS] Persona-grounded conversation modeling Li et al. (2016b) ; Luan et al. (2017) aim to generate responses mimicking a speaker.
+[BOS] It is closely related to the present task, since persona is, broadly speaking, the manifestation of a type of style.
+[BOS] Li et al. (2016b) feeds a speaker ID to the decoder to promote generation of response for that target speaker.
+[BOS] However non-conversational data cannot be used.
+[BOS] Luan et al. (2017) applied a multi-task learning approach to utilize non-conversational data.
+[BOS] A S2S model, taking in conversational data, and an autoencoder (AE), taking in nonconversational data, share the decoder and are trained alternately.
+[BOS] However, Gao et al. (2019b) observed that sharing the decoder may not truly allow S2S and AE to share the latent space, and thus S2S may not fully utilize what is learned by AE.
+[BOS] Unlike Li et al. (2016b) using labelled persona IDs, have proposed using a self-supervised method to extract persona features from conversation history.
+[BOS] This allows modeling persona dynamically, which agrees with the fact that even the same person can speak in different style in different scenarios.
+[BOS] Zhang et al. (2017) aggregates the strengths of each specific task, and induces regularization effects as the model is trained to learn a more universal representation.
+[BOS] However a simple multi-task approach (Luan et al., 2017) may learn separate representations for each dataset (Gao et al., 2019b) .
+[BOS] To address this, in previous work (Gao et al., 2019b) , we proposed the SPACEFUSION model featuring a regularization technique that explicitly encourages alignment of latent spaces for a universal representation.
+[BOS] SPACEFUSION, however, is only designed for paired samples.
+[BOS] We generalize SPACEFUSION to non-parallel datasets in this paper.
+

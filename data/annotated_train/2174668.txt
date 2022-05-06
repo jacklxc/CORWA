@@ -1,0 +1,21 @@
+[BOS] LSTM encoder structures have been used in both transition-based and graph-based parsing.
+[BOS] Among transition-based parsers, Kiperwasser and Goldberg (2016) use two-layer encoder to encode input sentence, extracting 11 different features from a given state in order to predict the next transition action, showing that the encoder structure lead to significant accuracy improvements over the baseline parser of Chen and Manning (2014) .
+[BOS] Among graph-based parsers, Dozat and Manning (2017) exploit 4-layer LSTM encoder over the input, using conceptually simple biaffine attention mechanism to model dependency arcs over the encoder, resulting in the stat-of-the-art accuracy in dependency parsing.
+[BOS] Their success forms a strong motivation of our work.
+
+[BOS] The only existing method that directly applies the encoder-decoder structure of NMT to parsing is , who applied two-lay LSTM for the encoder, and two-layer LSTM decoder to generate bracket syntactic trees.
+[BOS] To our knowledge, we are the first to try a straight forward attention over the encoder-decoder structure for shift-reduce parsing.
+[BOS] can also be understood as building a language model over bracket constitute trees.
+[BOS] A similar idea is proposed by Choe and Charniak (2016) , who directly use LSTMs to model such output forms.
+[BOS] The language model is used to rerank candidate trees from a baseline parser, and trained over large automatically parsing data using tri-training, achieving a current best results for constituent parsing.
+[BOS] Our work is similar in that it can be regarded as a form of language model, over shift-reduce actions rather than bracketed syntactic trees.
+[BOS] Hence, our model can potentially be used for under tri-training settings also.
+
+[BOS] There has also been a strand of work applying global optimization to neural network parsing.
+[BOS] Zhou et al. (2015) and Andor et al. (2016) extend the parser of Zhang and Clark (2011) , using beam search and early update training.
+[BOS] They set a max-likelihood training objective, using probability mass in the beam to approximate partition function of CRF training.
+[BOS] Watanabe and Sumita (2015) study constituent parsing by using a large-margin objective, where the negative example is the expected score of all states in the beam for transition-based parsing.
+[BOS] Xu et al. (2016) build CCG parsing models with a training objective of maximizing the expected F1 score of all items in the beam when parsing finishes, under the transition-based system.
+[BOS] More relatedly, Wiseman and Rush (2016) use beam search and global maxmargin training for the method of .
+[BOS] In contrast, we use greedy local model; our method is orthogonal to these techniques.
+

@@ -1,0 +1,32 @@
+[BOS] There are three papers that are most relevant to ours that relate to ITG pre-ordering.
+[BOS] DeNero and Uszkoreit (2011) induce binary source trees first and learn pre-reordering rules for these binary trees from parallel data.
+[BOS] Neubig et al. (2012) discriminatively train an ITG parser with CYK parsing for pre-reordering, essentially combining the two steps in DeNero and Uszkoreit (2011) into one.
+[BOS] Nakagawa (2015) improve upon Neubig et al. (2012) with a linear time top-down ITG parsing algorithm.
+[BOS] They all rely on feature engineering as they use linear models for training.
+[BOS] None of them does transition-based parsing for ITG.
+
+[BOS] There are two papers most relevant to ours that relate to combining transition systems with RNNs.
+[BOS] Dyer et al. (2015) propose a stack-LSTM for transition-based parsing.
+[BOS] The difference with our approach to modeling is that we do not encode the entire stack explicitly.
+[BOS] At each time step, we only feed the context indexed by the current stack and buffer configuration.
+[BOS] We do not have an stack RNN, which can be expensive.
+[BOS] Our transition RNN can be viewed as a special case of DRAGNN (Kong et al., 2017) which combines fixed features as input with recurrence links at each time step.
+[BOS] Our recurrence link is only to the previous time step.
+
+[BOS] For the approach of incorporating syntactic constraints into neural translation, the following papers are most relevant.
+[BOS] Eriguchi et al. (2016) and Chen et al. (2017) assume the existence of source parse trees and enhance the encoder and the attention mechanism to attend to both words and syntactic phrases.
+[BOS] We do not rely on external parsers.
+[BOS] Stahlberg et al. (2016) let a hierarchical phrase-based decoder guide neural machine translation decoding.
+[BOS] Reordering decisions can only be indirectly influenced by the hierarchical decoder.
+[BOS] In contrast, we have an explicit hierarchical reordering model applied pre-translation.
+[BOS] Eriguchi et al. (2017) train a joint parsing and translation model to maximize the log likelihood of output sequence and input parsing action sequence.
+[BOS] This is similar to our multi-task training setup.
+[BOS] The key difference is our subtask is ITG parsing for reordering instead of linguistically-motivated parsing.
+
+[BOS] The idea of adding a reordering layer into neural MT models has also been studied by Huang et al. (2018) .
+[BOS] They use a simple feed-forward soft and local reordering layer similar to the soft attention mechanism.
+[BOS] A fixed window size is used for local reordering.
+[BOS] Our RNN reordering layer can handle long distance reordering.
+[BOS] Another important difference is that we use discrete variables (permutations) for reordering while the soft reordering mechanism has no latent variables.
+[BOS] We leave it as future work to train the end-to-end system by treating ITG transitions and permutations as latent variables.
+

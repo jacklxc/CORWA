@@ -1,0 +1,21 @@
+[BOS] Various criteria have been proposed to prune a phrase table without decreasing translation quality, e.g., Fisher's exact test (Johnson et al., 2007) or relative entropy (Ling et al., 2012; Zens et al., 2012) .
+[BOS] Although those methods are easily applied for pruning a rule table, they heavily rely on the heuristically determined threshold parameter to trade off the translation quality and decoding speed of an MT system.
+[BOS] Previously, EM-algorithm based generative models were exploited for generating compact phrase and rule tables.
+[BOS] Joint phrase alignment model (Marcu and Wong, 2002) can directly express many-to-many word aligments without heuristic phrase extraction.
+[BOS] DeNero et al. (2006) proposed IBM Model 3 based many-to-many alignment model.
+[BOS] Rule arithmetic method (Cmejrek and Zhou, 2010) can generate SCFG rules by combining other rule pairs through an insideoutside algorithm.
+[BOS] However, those previous attempts were restricted in that the rules and phrases were induced by heuristic combination.
+
+[BOS] Bayesian SCFG models can induce a compact model by incorporating sophisticated nonparametric Bayesian models for an SCFG, such as a dirichlet process (DeNero et al., 2008; Blunsom et al., 2009; Chung et al., 2014) or Pitman-Yor process (Levenberg et al., 2012; Peng and Gildea, 2014) .
+[BOS] A model is learned by sampling derivation trees in a parallel corpus and by accumulating the rules in the sampled trees into the model.
+[BOS] Due to the O(|f | 3 |e| 3 ) time complexity for bi-parsing a bilingual sentence, previous studies relied on biparsing at the initialization step, and conducted Gibbs sampling by local operators (Blunsom et al., 2009; Levenberg et al., 2012) or sampling on fixed word alignments (Chung et al., 2014; Peng and Gildea, 2014) .
+[BOS] As a result, the inference can easily result in local optimum, wherein induced derivation trees may strongly depend on the initial trees.
+[BOS] Xiao et al. (2012) proposed a two-step approach for bi-parsing a bilingual sentence in O(|f | 3 ) in the context of inducing SCFG rules discriminatively; however, their approach violates the detailed balance due to its heuristic k-best pruning.
+[BOS] Blunsom and Cohn (2010) proposed a slice sampling for an SCFG, in the same manner as that for Infinite Hiden Markov Model (iHMM) (Van Gael et al., 2008) , which can efficiently prune a space of possible derivations on the basis of dynamic programming.
+[BOS] Although slice sampling can prune spans without violating the detailed balance, its time complexity of O(|f | 3 |e| 3 ) is still impractical for a large-scale experiment.
+[BOS] We efficiently carried out large-scale experiments on the basis of the two-step bi-parsing of Xiao et al. combined with slice sampling of Blunsom and Cohn.
+[BOS] After learning a Bayesian model, it is not directly used in a decoder since it is composed of only minimum rules without considering phrases of various granularities.
+[BOS] As a consequence, it is a standard practice to obtain word alignment from derivation trees and to extract SCFG rules heuristically from the word-aligned data (Cohn and Haffari, 2013) .
+[BOS] The work by Neubig et al. (2011) was the first attempt to directly use the learned model on the basis of a Bayesian ITG in which phrases of many granularities were encoded in the model by employing a hierarchical back-off procedure.
+[BOS] Our work is strongly motivated by their work, but greatly differs in that our model can incorporate many arbitrary Hiero rules, not limited to ITGstyle binary branching rules.
+

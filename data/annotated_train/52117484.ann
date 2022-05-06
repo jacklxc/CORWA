@@ -1,0 +1,56 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 167 172	[BOS]
+T3	Narrative_cite 313 318	[BOS]
+T4	Transition 614 619	[BOS]
+T5	Single_summ 735 740	[BOS]
+T6	Single_summ 867 872	[BOS]
+T7	Single_summ 1007 1012	[BOS]
+T8	Transition 1129 1134	[BOS]
+T9	Narrative_cite 1267 1272	[BOS]
+T10	Transition 1542 1547	[BOS]
+T11	Transition 1771 1776	[BOS]
+T12	Narrative_cite 1958 1963	[BOS]
+T13	Narrative_cite 2156 2161	[BOS]
+T14	Narrative_cite 2353 2358	[BOS]
+T15	Reference 420 442	(Yarowsky et al., 2001
+T16	Reference 444 464	Das and Petrov, 2011
+T17	Reference 466 486	Tckstrm et al., 2013
+T18	Reference 488 508	Fang and Cohn, 2016)
+T19	Reference 529 556	(Zitouni and Florian, 2008)
+T20	Reference 569 586	(Hwa et al., 2005
+T21	Reference 588 610	McDonald et al., 2011)
+T22	Dominant 755 782	Zirikly and Hagiwara (2015)
+T23	Dominant 873 891	Tsai et al. (2016)
+T24	Dominant 1023 1039	Ni et al. (2017)
+T25	Reference 1475 1495	(Ammar et al., 2016a
+T26	Reference 1497 1520	Cotterell and Duh, 2017
+T27	Reference 1522 1539	Lin et al., 2018)
+T28	Reference 2104 2130	(Hermann and Blunsom, 2014
+T29	Reference 2132 2153	Chandar et al., 2014)
+T30	Reference 2312 2329	(Zou et al., 2013
+T31	Reference 2331 2350	Gouws et al., 2015)
+T32	Reference 2517 2536	(Zhang et al., 2017
+T33	Reference 2538 2558	Artetxe et al., 2017
+T34	Reference 2560 2580	Lample et al., 2018)
+T35	Pronoun 1135 1140	These
+T36	Pronoun 1239 1241	it
+T37	B_span 408 411	POS
+T38	E_span 503 507	2016
+T39	B_span 511 518	mention
+T40	E_span 551 555	2008
+T41	B_span 561 568	parsing
+T42	E_span 605 609	2011
+T43	B_span 755 762	Zirikly
+T44	E_span 859 865	copora
+T45	B_span 873 877	Tsai
+T46	E_span 999 1005	models
+T47	B_span 1023 1025	Ni
+T48	E_span 1119 1127	features
+T49	B_span 1340 1345	multi
+T50	E_span 1534 1538	2018
+T51	B_span 2009 2014	learn
+T52	E_span 2148 2152	2014
+T53	B_span 2296 2304	parallel
+T54	E_span 2345 2349	2015
+T55	B_span 2453 2461	learning
+T56	E_span 2575 2579	2018

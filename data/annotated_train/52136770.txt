@@ -1,0 +1,23 @@
+[BOS] Our work builds off a recent body of work that focuses on using neural networks to explicitly track the states of entities while reading long texts.
+[BOS] These works have focused on answering simple commonsense questions (Henaff et al., 2017) , tracking entity states in scientific processes , tracking ingredients in cooking recipes , and tracking the emotional reactions and motivations of characters in simple stories (Rashkin et al., 2018) .
+[BOS] Our work extends these methods and addresses their most common issues by using background knowledge about entities to prune the set of state changes they can experience as the model reads new text.
+
+[BOS] Prior to these neural approaches, some earlier systems for process comprehension did make use of world knowledge, and motivated this work.
+[BOS] Like us, the system ProRead (Berant et al., 2014; Scaria et al., 2013 ) also treated process comprehension as structure prediction, using an Integer Linear Programming (ILP) formalism to enforce global constraints (e.g., if the result of event1 is the agent of event2, then event1 must enable event2).
+[BOS] Similarly, Kiddon et al. (2015) used corpus-based priors to guide extraction of an "action graph" from recipes.
+
+[BOS] Our work here can viewed as incorporating these approaches within the neural paradigm.
+
+[BOS] Neural methods for structure prediction have been used extensively in other areas of NLP, and we leverage these methods here.
+[BOS] In particular we use a neural encoder-decoder architecture with beam search decoding, representative of several current state-of-the-art systems (Bahdanau et al., 2014; Wiseman and Rush, 2016; Vinyals et al., 2015) .
+[BOS] As our model's only supervision signal comes from the final prediction (of state changes), our work is similar to previous work in semantic parsing that extracts structured outputs from text with no intermediate supervision (Krishnamurthy et al., 2017) .
+
+[BOS] State tracking also appears in other areas of AI, such as dialog.
+[BOS] A typical dialog state tracking task (e.g., the DSTC competitions) involves gradually uncovering the user's state (e.g., their constraints, preferences, and goals for booking a restaurant), until an answer can be provided.
+[BOS] Although this context is somewhat different (the primary goal being state discovery from weak dialog evidence), state tracking techniques originally designed for procedural text have been successfully applied in this context also (Liu and Perez, 2017) .
+[BOS] Finally, our model learns to search over the best candidate structures using hard constraints and soft KB priors.
+[BOS] Previous work in Neural Machine Translation (NMT) has used sets of example-specific lexical constraints in beam search decoding to only produce translations that satisfy every constraint in the set (Hokamp and Liu, 2017) .
+[BOS] In contrast, our work uses a set of global example-free constraints to prune the set of possible paths the search algorithm can explore.
+[BOS] Simultaneously, a recent body of work has explored encoding soft constraints as an additional loss term in the training objective for dialogue (Wen et al., 2015) , machine translation (Tu et al., 2016) , and recipe generation (Kiddon et al., 2016) .
+[BOS] Our work instead uses soft constraints to re-rank candidate structures and is not directly encoded in the loss function.
+

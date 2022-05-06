@@ -1,0 +1,30 @@
+[BOS] Predicate Argument Structure Analysis.
+[BOS] Early studies have handled both intra-and intersentential anaphora (Taira et al., 2008; Sasano and Kurohashi, 2011) , and Hangyo et al. (2013) present a method for handling exophora.
+[BOS] Recent studies, however, focus on only intra-sentential anaphora (Ouchi et al., 2015; Shibata et al., 2016; Iida et al., 2016; Ouchi et al., 2017; Matsubayashi and Inui, 2017) , because the analysis of intersentential anaphora is extremely difficult.
+[BOS] Neural network-based approaches (Shibata et al., 2016; Iida et al., 2016; Ouchi et al., 2017; Matsubayashi and Inui, 2017) have improved its performance.
+
+[BOS] Although most of studies did not consider the notion entity, Sasano and Kurohashi (2011) consider an entity, and its salience score is calculated based on simple rules.
+[BOS] However, they used gold coreference links to form the entities, and reported the salience score did not improve the performance.
+[BOS] In contrast, we perform CR automatically, and capture the entity salience by using RNNs.
+
+[BOS] For Chinese, where zero anaphors are often used, neural network-based approaches (Chen and Ng, 2016; Yin et al., 2017) outperformed conventional machine learning approaches (Zhao and Ng, 2007) .
+
+[BOS] Coreference Resolution.
+[BOS] CR has been actively studied in English and Chinese.
+[BOS] Neural networkbased approaches (Wiseman et al., 2016; Clark and Manning, 2016b,a; outperformed conventional machine learning approaches (Clark and Manning, 2015) .
+[BOS] Wiseman et al. (2016) and Clark and Manning (2016b) learn an entity representation and integrate this into a mentionbased model.
+[BOS] Our work is inspired by Wiseman et al. (2016) , which learn the entity representation by using Recurrent Neural Networks (RNNs).
+[BOS] Clark and Manning (2016b) adopt a clustering approach for the entity representation.
+[BOS] The reason why we do not use this is that if we take a clustering approach in our setting, zero pronouns need to be first identified before clustering, and thus, it is hard to perform CR and PA jointly.
+[BOS] take an end-to-end approach, aiming at not relying on hand-engineering mention detector (consider all spans as potential mentions).
+[BOS] In used Japanese evaluation corpora, since the basic unit for the annotations and our analyses (CR and PA) is fixed, we do not need consider all spans.
+
+[BOS] In Japanese, CR has not been actively studied other than Iida et al. (2003) ; Sasano et al. (2007) since the use of zero pronouns is more common and problematic.
+[BOS] Semantic Role Labeling.
+[BOS] Japanese PA is similar to Semantic Role Labeling (SRL) in English.
+[BOS] Neural network-based approaches have improved the performance (Zhou and Xu, 2015; .
+[BOS] In these approaches, an appropriate argument for a predicate is searched among mentions in a text.
+[BOS] The notion entity is not considered.
+[BOS] Other Entity-Centric Study.
+[BOS] There are several studies that consider the notion entity in other areas: text comprehension (Kobayashi et al., 2016; Henaff et al., 2016) and language modeling (Ji et al., 2017) .
+

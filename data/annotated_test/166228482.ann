@@ -1,0 +1,70 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 153 158	[BOS]
+T3	Transition 355 360	[BOS]
+T4	Reflection 423 428	[BOS]
+T5	Reflection 485 490	[BOS]
+T6	Transition 652 657	[BOS]
+T7	Transition 862 867	[BOS]
+T8	Single_summ 1012 1017	[BOS]
+T9	Single_summ 1184 1189	[BOS]
+T10	Single_summ 1337 1342	[BOS]
+T11	Single_summ 1478 1483	[BOS]
+T12	Single_summ 1662 1667	[BOS]
+T13	Single_summ 1849 1854	[BOS]
+T14	Single_summ 2029 2034	[BOS]
+T15	Single_summ 2294 2299	[BOS]
+T16	Transition 2567 2572	[BOS]
+T17	Transition 2762 2767	[BOS]
+T18	Transition 2846 2851	[BOS]
+T19	Reflection 2967 2972	[BOS]
+T20	Reflection 3173 3178	[BOS]
+T21	Reflection 3261 3266	[BOS]
+T22	Reflection 3389 3394	[BOS]
+T23	Reflection 3506 3511	[BOS]
+T24	Reflection 3588 3593	[BOS]
+T25	Reflection 3681 3686	[BOS]
+T26	Reflection 3937 3942	[BOS]
+T27	Reflection 4062 4067	[BOS]
+T28	Reflection 4227 4232	[BOS]
+T29	Reference 57 80	(Sennrich et al., 2016)
+T30	Reference 93 110	(Wu et al., 2016)
+T31	Reference 138 150	(Kudo, 2018)
+T32	Dominant 1031 1053	Sennrich et al. (2016)
+T33	Dominant 1311 1334	(Sennrich et al., 2017)
+T34	Dominant 1343 1359	Wu et al. (2016)
+T35	Dominant 1484 1511	Denkowski and Neubig (2017)
+T36	Dominant 1674 1701	Denkowski and Neubig (2017)
+T37	Dominant 2111 2131	Cherry et al. (2018)
+T38	Dominant 2310 2337	Renduchintala et al. (2018)
+T39	Reference 3791 3813	Sennrich et al. (2017)
+T40	Pronoun 432 436	this
+T41	Pronoun 939 943	they
+T42	Pronoun 1190 1194	They
+T43	Pronoun 1238 1243	their
+T44	Pronoun 1768 1773	their
+T45	Pronoun 1855 1859	They
+T46	Pronoun 1957 1959	it
+T47	Pronoun 2465 2470	their
+T48	Pronoun 2573 2575	It
+T49	Pronoun 2855 2859	this
+T50	Pronoun 3395 3397	It
+T51	Pronoun 3512 3516	This
+T52	Pronoun 3889 3893	this
+T58	E_span 145 149	2018
+T59	B_span 1031 1039	Sennrich
+T60	E_span 1329 1333	2017
+T61	B_span 1190 1194	They
+T62	E_span 1179 1182	BPE
+T63	E_span 1470 1476	method
+T64	B_span 1343 1345	Wu
+T65	B_span 1484 1493	Denkowski
+T66	E_span 1647 1660	architectures
+T67	B_span 1674 1683	Denkowski
+T70	E_span 2017 2026	sentences
+T68	B_span 2111 2117	Cherry
+T69	E_span 2282 2292	operations
+T71	B_span 2310 2323	Renduchintala
+T72	E_span 2558 2565	setting
+T73	B_span 3791 3799	Sennrich
+T74	E_span 3808 3812	2017
+T53	B_span 26 32	common

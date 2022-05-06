@@ -1,0 +1,13 @@
+[BOS] System combination has benefited various NLP tasks in recent years, such as products-of-experts (e.g., (Smith and Eisner, 2005) ) and ensemblebased parsing (e.g., (Henderson and Brill, 1999) ).
+
+[BOS] In machine translation, confusion-network based combination techniques (e.g., (Rosti et al., 2007; He et al., 2008) ) have achieved the state-of-theart performance in MT evaluations.
+[BOS] From a dif- ferent perspective, we try to combine different approaches directly in decoding phase by using hypergraphs.
+[BOS] While system combination techniques manipulate only the final translations of each system, our method opens the possibility of exploiting much more information.
+[BOS] first distinguish between max-derivation decoding and max-translation decoding explicitly.
+[BOS] They show that max-translation decoding outperforms max-derivation decoding for the latent variable model.
+[BOS] While they train the parameters using a maximum a posteriori estimator, we extend the MERT algorithm (Och, 2003) to take the evaluation metric into account.
+
+[BOS] Hypergraphs have been successfully used in parsing (Klein and Manning., 2001; Huang and Chiang, 2005; Huang, 2008) and machine translation (Huang and Chiang, 2007; .
+[BOS] Both and use a translation hypergraph to represent search space.
+[BOS] The difference is that their hypergraphs are specifically designed for the forest-based tree-to-string model and the hierarchical phrase-based model, respectively, while ours is more general and can be applied to arbitrary models.
+

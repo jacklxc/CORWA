@@ -1,0 +1,44 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 326 331	[BOS]
+T3	Multi_summ 567 572	[BOS]
+T4	Multi_summ 792 797	[BOS]
+T5	Reflection 938 943	[BOS]
+T6	Transition 1017 1022	[BOS]
+T7	Narrative_cite 1220 1225	[BOS]
+T8	Multi_summ 1409 1414	[BOS]
+T9	Multi_summ 1575 1580	[BOS]
+T10	Reflection 1795 1800	[BOS]
+T11	Reference 47 70	(Sutskever et al., 2014
+T12	Reference 72 89	Cho et al., 2014a
+T13	Reference 91 112	Bahdanau et al., 2015
+T14	Reference 114 134	Gehring et al., 2017
+T15	Reference 136 158	Vaswani et al., 2017 )
+T16	Reference 259 283	(Koehn and Knowles, 2017
+T17	Reference 285 306	Isabelle et al., 2017
+T18	Reference 308 323	Sennrich, 2017)
+T19	Reference 478 500	(Gulcehre et al., 2015
+T20	Reference 502 524	Sennrich et al., 2016a
+T21	Reference 526 541	He et al., 2016
+T22	Reference 543 563	Zhang and Zong, 2016
+T23	Dominant 583 604	Lample et al. (2018a)
+T24	Dominant 607 628	Artetxe et al. (2018)
+T25	Dominant 631 652	Lample et al. (2018b)
+T26	Reference 1357 1374	Marcu, 2002, 2006
+T27	Reference 1376 1406	Hewavitharana and Vogel, 2011)
+T28	Dominant 1444 1460	Chu et al., 2016
+T31	Pronoun 811 816	these
+T32	Pronoun 1590 1595	these
+T33	B_span 35 46	NMT systems
+T34	E_span 152 156	2017
+T35	B_span 234 236	tr
+T36	E_span 319 322	017
+T37	B_span 380 383	uti
+T38	E_span 560 563	016
+T39	B_span 583 585	La
+T41	B_span 1422 1431	neural-ba
+T29	Dominant 1462 1484	Grover and Mitra, 2017
+T30	Dominant 1486 1512	Grgoire and Langlais, 2018
+T40	E_span 928 936	training
+T43	B_span 1335 1339	huma
+T44	E_span 1402 1405	011
+T42	E_span 1784 1793	resources

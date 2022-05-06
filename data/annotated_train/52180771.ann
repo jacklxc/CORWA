@@ -1,0 +1,28 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 502 507	[BOS]
+T3	Reflection 655 660	[BOS]
+T4	Reflection 779 784	[BOS]
+T5	Transition 905 910	[BOS]
+T6	Narrative_cite 1044 1049	[BOS]
+T7	Reflection 1271 1276	[BOS]
+T8	Reflection 1571 1576	[BOS]
+T9	Reflection 1682 1687	[BOS]
+T10	Reference 143 165	(Mikolov et al., 2013a
+T11	Reference 167 193	Lebret and Collobert, 2014
+T12	Reference 195 218	Pennington et al., 2014
+T13	Reference 455 479	(Pennington et al., 2014
+T14	Reference 481 499	Levy et al., 2015)
+T15	Reference 1114 1132	(Dinh et al., 2014
+T16	Reference 1134 1159	Rezende and Mohamed, 2015
+T17	Reference 1161 1181	Kingma et al., 2016)
+T18	Reference 1418 1437	(Dinh et al., 2014)
+T19	Pronoun 49 51	it
+T20	Pronoun 725 727	it
+T21	B_span 98 105	context
+T22	E_span 214 218	2014
+T23	B_span 439 443	word
+T24	E_span 494 498	2015
+T25	B_span 1093 1096	non
+T26	E_span 1176 1180	2016
+T27	B_span 1377 1386	bijective
+T28	E_span 1432 1436	2014

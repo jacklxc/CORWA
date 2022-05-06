@@ -1,0 +1,5 @@
+[BOS] Deep Models.
+
+[BOS] Deep models have been explored in the context of neural machine translation since the emergence of RNN-based models.
+[BOS] To ease optimization, researchers tried to reduce the number of non-linear transitions (Zhou et al.,
+

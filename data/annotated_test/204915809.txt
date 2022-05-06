@@ -1,0 +1,11 @@
+[BOS] Training semantic embeddings based on multilingual data was studied by MUSE (Conneau et al., 2017) and LASER (Artetxe and Schwenk, 2018) at the word and sentence levels respectively.
+[BOS] Multitask training for disentangling semantic and syntactic information was studied in (Chen et al., 2019) .
+[BOS] This work also used a nearest neighbour method to evaluate the syntactic properties of models, though their focus was on disentanglement rather than embedding quality.
+
+[BOS] The syntactic content of language models was studied by examining syntax trees (Hewitt and Manning, 2019) , subject-object agreement (Goldberg, 2019) , and evaluation on syntactically altered datasets (Linzen et al., 2016; Marvin and Linzen, 2018) .
+[BOS] These works did not examine multilingual models.
+
+[BOS] Distant supervision (Fang and Cohn, 2016; Plank and Agic, 2018) has been used to learn POS taggers for low-resource languages using crosslingual corpora.
+[BOS] The goal of these works is to learn word-level POS tags, rather than sentence-level syntactic embeddings.
+[BOS] Furthermore, our method does not require explicit POS sequences for the low-resource language, which results in a simpler training process than distant supervision.
+

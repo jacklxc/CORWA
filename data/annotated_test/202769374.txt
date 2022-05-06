@@ -1,0 +1,31 @@
+[BOS] Several lines of research seek to combine the strength of pretrained word embeddings and the elegance of set-or bag-of-words (BoW) representations.
+[BOS] Any method that determines semantic similarity between sentences by comparing the corresponding sets of word embeddings is directly related to our work.
+
+[BOS] Perhaps the most obvious such approaches are based on elementary pooling operations such as average-, max-and min-pooling (Mitchell and Lapata, 2008; De Boom et al., 2015 .
+[BOS] While seemingly over-simplistic, numerous studies have confirmed their impressive performance on the downstream tasks (Arora et al., 2017; Wieting et al., 2016; Wieting and Gimpel, 2018; Zhelezniak et al., 2019b) One step further, Zhao and Mao (2017) ; Zhelezniak et al. (2019b) introduce fuzzy bags-of-words (FBoW) where degrees of membership in a fuzzy set are given by the similarities between word embeddings.
+[BOS] Zhelezniak et al. (2019b) show a close connection between FBoW and max-pooled word vectors.
+
+[BOS] Some approaches do not seek to build an explicit representation and instead focus directly on designing a similarity function between sets.
+[BOS] Word Mover's Distance (WMD) (Kusner et al., 2015) is an instance of the Earth Mover's Distance (EMD) computed between normalised BoW, with the cost matrix given by Euclidean distances between word embeddings.
+[BOS] In the soft cardinality framework of (Jimenez et al., 2010 (Jimenez et al., , 2015 , the contribution of a word to the cardinality of a set depends on its similarities to other words in the same set.
+[BOS] Such sets are then compared using an appropriately defined Jaccard index or related measures.
+[BOS] DynaMax (Zhelezniak et al., 2019b) uses universe-constrained fuzzy sets designed explicitly for similarity computations.
+
+[BOS] Approaches that see word embeddings as statistical objects are very closely related to our work.
+[BOS] Virtually all of them treat word embeddings as observations from some D-variate parametric family, where D is the embedding dimension.
+[BOS] Arora et al. (2016 Arora et al. ( , 2017 introduce a latent discourse model and show the maximum likelihood estimate (MLE) for the discourse vector to be the weighted average of word embeddings in a sentence, where the weights are given by smooth inverse frequencies (SIF).
+[BOS] Nikolentzos et al. (2017) ; Torki (2018) treat sets of word embeddings as observations from D-variate Gaussians, and compare such sets with cosine similarity between the parameters (means and covariances) estimated by maximum likelihood.
+[BOS] Vargas et al. (2019) measure semantic similarity through penalised likelihood ratio between the joint and factorised models and explore Gaussian and von Mises-Fisher likelihoods.
+
+[BOS] Cosine similarity between covariances is an instance of the RV coefficient and its uncentered version was applied in the context of word embeddings before (Botev et al., 2017) .
+[BOS] We arrive at a similar coefficient (but with different centering) as a special case of CKA, which in the general case makes no parametric assumptions about disbtributions whatsoever.
+[BOS] In particular our version is suitable for comparing sets containing just one word vector, whereas the method of Nikolentzos et al. (2017) ; Torki (2018) requires at least two vectors in each set.
+[BOS] Very recently, Kornblith et al. (2019) used CKA to compare representations between layers of the same or different neural networks.
+[BOS] This is again an instance of treating such representations as observations from a D-variate distribution, where D is the dimension of the hidden layer in question.
+[BOS] Our use of CKA is completely different from theirs.
+
+[BOS] Unlike all of the above approaches, (Zhelezniak et al., 2019a) see each word embedding itself as D (e.g. 300) observations from some scalar random variable.
+[BOS] They cast semantic similarity as correlations between these random variables and study their properties using simple tools from univariate statistics.
+[BOS] While they consider correlations between individual word vectors and averaged word vectors, they do not formally explore correlations between word vector sets.
+[BOS] We review their framework in Section 3 and then proceed to formalise and generalise it to the case of sets of word embeddings.
+

@@ -1,0 +1,26 @@
+[BOS] As a new paradigm for machine translation, the encoder-decoder based NMT has drawn more and more attention.
+[BOS] Most of the existing methods mainly focus on designing better alignment mechanisms (attention model) for the decoder network (Cheng et al., 2016a; Luong et al., 2015b; Cohn et al., 2016; Feng et al., 2016; Tu et al., 2016; , better objective functions for BLEU evaluation and better strategies for handling unknown words (Luong et al., 2015c; Sennrich et al., 2015; or large vocabularies (Jean et al., 2015; Mi et al., 2016c) .
+
+[BOS] Our focus in this work is aiming to make full use of the source-side large-scale monolingual data in NMT, which is not fully explored before.
+[BOS] The most related works lie in three aspects: 1) applying target-side monolingual data in NMT, 2) targeting knowledge sharing with multi-task NMT, and 3) using source-side monolingual data in conventional SMT and NMT.
+[BOS] Gulcehre et al. (2015) first investigate the targetside monolingual data in NMT.
+[BOS] They propose shallow and deep fusion methods to enhance the decoder network by training a big language model on targetside large-scale monolingual data.
+[BOS] Sennrich et al. (2015) further propose a new approach to use targetside monolingual data.
+[BOS] They generate the synthetic bilingual data by translating the target monolingual sentences to source language sentences and retrain NMT with the mixture of original bilingual data and the synthetic parallel data.
+[BOS] It is similar to our selflearning algorithm in which we concern the sourceside monolingual data.
+[BOS] Furthermore, their method requires to train an additional NMT from target language to source language, which may negatively influence the attention model in the decoder network.
+[BOS] Dong et al. (2015) propose a multi-task learning method for translating one source language into multiple target languages in NMT so that the encoder network can be shared when dealing with several sets of bilingual data.
+[BOS] , and Firat et al. (2016) further deal with more complicated cases (e.g. multi-source languages).
+[BOS] Note that all these methods require bilingual training corpus.
+[BOS] Instead, we adapt the multitask learning framework to better accommodate the source-side monolingual data.
+[BOS] Ueffing et al. (2007) and Wu et al. (2008) explore the usage of source-side monolingual data in conventional SMT with a self-learning algorithm.
+[BOS] Although we apply self-learning in this work, we use it to enhance the encoder network in NMT rather than generating more translation rules in SMT and we also adapt a multi-task learning framework to take full advantage of the source-side monolingual data.
+[BOS] Luong et al. (2015a) also investigate the source-side monolingual data in the multi-task learning framework, in which a simple autoencoder or skip-thought vectors are employed to model the monolingual data.
+[BOS] Our sentence reordering model is more powerful than simple autoencoder in encoder enhancement.
+[BOS] Furthermore, they do not carefully prepare the monolingual data for which we show that only related monolingual data leads to big improvements.
+[BOS] In parallel to our work, Cheng et al. (2016b) propose a similar semi-supervised framework to handle both source and target language monolingual data.
+[BOS] If source-side monolingual data is considered, a reconstruction framework including two NMTs is employed.
+[BOS] One NMT translates the source-side monolingual data into target language translations, from which the other NMT attempts to reconstruct the original source-side monolingual data.
+[BOS] In contrast to their approach, we propose a sentence reordering model rather than the sentence reconstruction model.
+[BOS] Furthermore, we carefully investigate the relationship between the monolingual data quality and the translation performance improvement.
+

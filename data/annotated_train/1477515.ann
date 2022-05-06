@@ -1,0 +1,49 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 85 90	[BOS]
+T3	Narrative_cite 262 267	[BOS]
+T4	Narrative_cite 460 465	[BOS]
+T5	Narrative_cite 554 559	[BOS]
+T6	Transition 838 843	[BOS]
+T7	Narrative_cite 1046 1051	[BOS]
+T8	Reflection 1344 1349	[BOS]
+T9	Reflection 1464 1469	[BOS]
+T10	Reflection 1624 1629	[BOS]
+T11	Reflection 1852 1857	[BOS]
+T12	Reflection 2009 2014	[BOS]
+T13	Reflection 2133 2138	[BOS]
+T14	Reflection 2260 2265	[BOS]
+T15	Reflection 2503 2508	[BOS]
+T16	Other 2642 2647	[BOS]
+T17	Reference 339 353	(Harris, 1954)
+T18	Reference 530 551	(Turney et al., 2010)
+T19	Reference 650 675	(Cover and Thomas, 2012 )
+T20	Reference 699 724	(Salton and McGill, 1986)
+T21	Reference 759 777	(Hare et al., 2009
+T22	Reference 779 802	Lapesa and Evert, 2013)
+T23	Reference 813 835	(Santus et al., 2016a)
+T24	Reference 1141 1157	(A. Hearst, 1992
+T25	Reference 1159 1176	Snow et al., 2004
+T26	Reference 1178 1200	Nakashole et al., 2012
+T27	Reference 1202 1226	Necsulescu et al., 2015)
+T28	Pronoun 204 209	their
+T29	Pronoun 268 272	This
+T30	Pronoun 854 858	this
+T31	Pronoun 1229 1233	they
+T32	Pronoun 1557 1559	it
+T33	Pronoun 1727 1731	this
+T34	Pronoun 1819 1821	it
+T35	Pronoun 1823 1825	it
+T36	B_span 313 327	distributional
+T37	E_span 348 352	1954
+T38	B_span 511 521	similarity
+T39	E_span 546 550	2010
+T40	B_span 636 638	KL
+T41	E_span 669 673	2012
+T42	B_span 677 686	Jaccard's
+T43	E_span 719 723	1986
+T44	B_span 745 753	neighbor
+T45	E_span 797 801	2013
+T46	B_span 807 812	APSyn
+T47	E_span 829 834	2016a
+T48	B_span 1108 1116	semantic
+T49	E_span 1221 1225	2015

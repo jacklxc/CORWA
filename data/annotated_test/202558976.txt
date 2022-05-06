@@ -1,0 +1,4 @@
+[BOS] Pretrained language models Pretrained language models based on an LSTM (Peters et al., 2018a; Howard and Ruder, 2018 ) and a Transformer (Radford et al., 2018; Devlin et al., 2018) have been proposed.
+[BOS] Recent work (Peters et al., 2018b) suggests that-all else being equal-an LSTM outperforms the Transformer in terms of downstream performance.
+[BOS] For this reason, we use a variant of the LSTM as our language model.
+

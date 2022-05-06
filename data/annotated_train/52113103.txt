@@ -1,0 +1,7 @@
+[BOS] Our approach is related to flow-based generative models, which are first described in NICE (Dinh et al., 2014) and have recently received more attention (Dinh et al., 2016; Jacobsen et al., 2018; Kingma and Dhariwal, 2018) .
+[BOS] This relevant work mostly adopts simple (e.g. Gaussian) and fixed priors and does not attempt to learn interpretable latent structures.
+[BOS] Another related generative model class is variational auto-encoders (VAEs) (Kingma and Welling, 2013) that optimize a lower bound on the marginal data likelihood, and can be extended to learn latent structures (Miao and Blunsom, 2016; Yin et al., 2018) .
+[BOS] Against the flow-based models, VAEs remove the invertibility constraint but sacrifice the merits of exact inference and exact log likelihood computation, which potentially results in optimization challenges (Kingma et al., 2016) .
+[BOS] Our approach can also be viewed in connection with generative adversarial networks (GANs) (Goodfellow et al., 2014) that is a likelihood-free framework to learn implicit generative models.
+[BOS] However, it is nontrivial for a gradient-based method like GANs to propagate gradients through discrete structures.
+

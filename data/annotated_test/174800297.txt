@@ -1,0 +1,34 @@
+[BOS] Our novel treatment of FrameNet groups nouns using its collection of sense-annotated sentences.
+[BOS] Although all of the frame elements in these sentences were annotated by hand, the words filling the FEs are not, adding a component of randomness.
+[BOS] Especially with more semantically general frames, frame elements can be realized by a large number of words.
+[BOS] This contrasts with FrameNet frames, in which the placement of word senses are painstakingly deliberated, and a particular sense can only be put into one frame.
+
+[BOS] PropBank (Bonial et al., 2014 ) is a large semantically-annotated corpus.
+[BOS] The semantic roles ("rolesets") in PropBank are defined with respect to individual verb and noun word senses.
+[BOS] The types of words that fill these roles are presumably less varied than those that fill the semantically broader FrameNet frame elements.
+[BOS] Additionally, PropBank is considerably larger than FrameNet.
+[BOS] Consequently, we might predict that retrofitting word vectors to PropBank would yield stronger gains in word similarity judgment than to the FrameNet annotation data.
+[BOS] We leave this task for future research.
+
+[BOS] Grouping nouns using the FrameNet annotation data led to large drops in correlation against word similarity benchmarks.
+[BOS] However, these same data yielded large gains in RMSE performance.
+[BOS] It might be inferred that semantic resources which have a similar stochastic component may result lower correlation.
+[BOS] The PPDB is automatically generated, introducing a similar element of randomness, but this is curtailed by its conservative criteria: paraphrases must be attested as translation equivalents.
+
+[BOS] BabelNet (Navigli and Ponzetto, 2012) and ConceptNet (Speer et al., 2017) are knowledge resources derived from a number of collaborativelyconstructed sources, such as Wikipedia and Wiktionary.
+[BOS] Though their collaborative nature likely makes them less accurate than hand-curated resources such as WordNet, they have potential in improving the quality of word vectors (e.g. Speer and Chin, 2016) .
+[BOS] As we observed with FN-ANNO, RMSE may be a more informative measure of comparison than correlation in future retrofitting experiments involving heterogeneous resources.
+
+[BOS] More generally, there does not seem to be a strong theoretical reason to prefer correlationbased measures over residual-based ones.
+[BOS] Although the current practice is to report the Spearman's rank correlation coefficient between the vector cosine similarities and human word similarity judgments, for over a decade the standard was to report Pearson product-moment correlation coefficient.
+[BOS] When Resnik (1995) pioneered the technique of comparing computed measures of similarity with human similarity ratings, he used (Pearson) correlation as "one reasonable way to judge [computational measures of semantic similarity]".
+
+[BOS] The switch to Spearman correlation appears to have occurred in Gabrilovich and Markovitch (2007) , who employed it without comment.
+[BOS] Agirre et al. (2009) did provide a justification, saying, "In our belief Pearson is less informative, as the Pearson correlation suffers much when the scores of two systems are not linearly correlated, something which happens often due to the different nature of the techniques applied."
+[BOS] Unfortunately, Agirre et al. (2009) mischaracterized the popularity of Spearman correlation by claiming that all researchers have used Spearman in evaluating WordSim-353 dataset (Finkelstein et al., 2002) .
+[BOS] This likely stems from a misinterpretation of Gabrilovich and Markovitch's Table 4 , which compares their methodology with earlier studies using Spearman correlation.
+[BOS] The latter authors apparently recomputed word relatedness with the associated algorithms, as the cited studies report Pearson correlation values.
+[BOS] Willmott (1981; 1982) specifically argues that Pearson correlation should not be used to evaluate model performance, and that RMSE is superior at comparing observed and simulated data.
+[BOS] 3 However, as far as we know, no previous work has seriously considered evaluating the performance of computed word similarity scores using RMSE.
+[BOS] Reliance on Spearman correlation may lead to incorrect conclusions regarding the quality of word vectors.
+

@@ -1,0 +1,27 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 135 140	[BOS]
+T3	Transition 248 253	[BOS]
+T4	Reflection 368 373	[BOS]
+T5	Narrative_cite 503 508	[BOS]
+T6	Single_summ 733 738	[BOS]
+T7	Single_summ 911 916	[BOS]
+T8	Reflection 1111 1116	[BOS]
+T9	Dominant 30 52	Flanigan et al. (2014)
+T10	Reference 634 655	Damonte et al. (2017)
+T11	Reference 658 678	Brandt et al. (2016)
+T12	Reference 681 702	Puzikov et al. (2016)
+T13	Reference 709 730	Goodman et al. (2016)
+T14	Dominant 739 758	Artzi et al. (2015)
+T15	Reference 888 908	Bjerva et al. (2016)
+T16	Dominant 917 935	Pust et al. (2015)
+T17	Reference 1030 1057	(Pourdamghani et al., 2014)
+T18	B_span 6 15	Alignment
+T19	E_span 241 246	model
+T20	B_span 623 630	similar
+T21	E_span 725 729	2016
+T22	B_span 739 742	Art
+T23	E_span 903 907	2016
+T24	B_span 917 920	Pus
+T25	E_span 1100 1109	resources
+T26	B_span 1006 1018	unsupervised
+T27	E_span 1052 1056	2014

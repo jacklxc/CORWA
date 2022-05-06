@@ -1,0 +1,40 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Multi_summ 259 264	[BOS]
+T3	Multi_summ 488 493	[BOS]
+T4	Transition 574 579	[BOS]
+T5	Multi_summ 811 816	[BOS]
+T6	Single_summ 984 989	[BOS]
+T7	Transition 1225 1230	[BOS]
+T8	Single_summ 1337 1342	[BOS]
+T9	Single_summ 1554 1559	[BOS]
+T10	Reflection 1679 1684	[BOS]
+T11	Reference 176 198	(Waseem and Hovy, 2016
+T12	Reference 200 212	Waseem, 2016
+T13	Reference 214 233	Founta et al., 2018
+T14	Reference 235 256	Wulczyn et al., 2017)
+T15	Reference 414 437	(Badjatiya et al., 2017
+T16	Reference 439 458	Park and Fung, 2017
+T17	Reference 460 485	Pavlopoulos et al., 2017)
+T18	Dominant 817 840	Bolukbasi et al. (2016)
+T19	Reference 919 941	(Mikolov et al., 2013)
+T20	Dominant 990 1012	Caliskan et al. (2017)
+T21	Dominant 1343 1374	Kiritchenko and Mohammad (2018)
+T22	Dominant 1560 1578	Zhao et al. (2018)
+T23	Pronoun 503 508	these
+T24	Pronoun 559 564	their
+T25	Pronoun 1456 1461	their
+T26	Pronoun 1722 1727	these
+T28	E_span 251 255	2017
+T29	B_span 265 269	Many
+T30	E_span 565 571	models
+T31	B_span 817 826	Bolukbasi
+T32	E_span 978 982	them
+T33	B_span 910 918	word2vec
+T34	E_span 936 940	2013
+T35	B_span 990 998	Caliskan
+T36	E_span 1219 1223	race
+T37	B_span 1343 1354	Kiritchenko
+T38	E_span 1545 1552	systems
+T39	B_span 1560 1564	Zhao
+T40	E_span 1672 1677	tasks
+T27	B_span 41 49	defining

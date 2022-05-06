@@ -1,0 +1,12 @@
+[BOS] This section starts with an introduction of the primary elements of MemN2N.
+[BOS] Then, we review two key elements relevant to this work, namely shortcut connections in neural networks in and memory dynamics in such models.
+
+[BOS] Apart from the datasets adopted in our experiments, the CNN/Daily Mail (Hermann et al., 2015) has been used for the task of machine reading formalized as a problem of text extraction from k (u k ) patterns on T6 of the Dialog bAbI dataset a source conditioned on a given question.
+[BOS] However, as pointed out in (Chen et al., 2016) , this dataset not only is noisy but also requires little reasoning and inference, which is evidenced by a manual analysis of a randomly selected subset of the questions, showing that only 2% of the examples call for multi-sentence inference.
+[BOS] Richardson et al. (2013) constructed an open-domain reading comprehension task, named MCTest.
+[BOS] Although this corpus demands various reasoning capabilities from multiple sentences, its rather limited size (660 paragraphs, each associated with 4 questions) renders training statistical models infeasible (Chen et al., 2016 ).
+[BOS] Children's Book Test (CBT) (Hill et al., 2015) was designed to measure the ability of models to exploit a wide range of linguistic context.
+[BOS] Despite the claim in (Sukhbaatar et al., 2015) that increasing the number of hops is crucial for the performance improvements on some tasks, which can be seen as enabling MemN2N to accommodate more supporting facts, making such performance boost particularly more pronounced on those tasks requiring complex reasoning, Hill et al. (2015) admittedly reported little improvement in performance by stacking more hops and chose a single-hop MemN2N.
+[BOS] This suggests that the ne- cessity of multi-sentence based reasoning on this dataset is not mandatory.
+[BOS] In the future, we plan to investigate into larger dialog datasets such as (Lowe et al., 2015) .
+

@@ -1,0 +1,17 @@
+[BOS] Data-to-text generation is an important task in natural language generation which has been studied for decades (Kukich, 1983; Holmes-Higgin, 1994; Reiter and Dale, 1997) .
+[BOS] This task is broadly divided into two subproblems: content selection (Kukich, 1983; Reiter and Dale, 1997; Duboue and McKeown, 2003; Barzilay and Lapata, 2005) and surface realization (Goldberg et al., 1994; Re-iter et al., 2005) .
+
+[BOS] With the advent of neural text generation, the distinction between content selection and surface realization becomes blurred.
+[BOS] For example, Mei et al. (2016) proposed an end-to-end encoder-aligner-decoder model to learn both content selection and surface realization jointly which shows good results on WeatherGov and RoboCub datasets.
+[BOS] Wiseman et al. (2017) generate long descriptive game summaries from a database of basketball games where they show the current state-of-the-art neural models are quite good at generating fluent outputs, but perform poorly in content selection and capturing long-term structure.
+[BOS] Our work falls into the task of single sentence generation from Wikipedia infoboxes.
+[BOS] The model structure ranges from feed-forward networks work (Lebret et al., 2016) to encoderdecoder models Bao et al., 2018; Nema et al., 2018) .
+[BOS] Recently, Perez-Beltrachini and Lapata (2018) generalize this task to multi-sentence text generation, where they focus on bootstrapping generators from loosely aligned data.
+[BOS] However, most of the work mentioned above assume all the writing knowledge can be learned from massive parallel pairs of training data.
+[BOS] Different from the previous work, we exploit incorporating external knowledge into this task to improve the fidelity of generated text.
+
+[BOS] Our work is also relevant to recent works on integrating external knowledge into neural models for other NLP tasks.
+[BOS] The motivations of incorporating external knowledge range from enriching the context information (Mihaylov and Frank, 2018) in reading comprehension, improving the inference ability of models (Chen et al., 2018) in natural language inference, to providing the model a knowledge source to copy from in language modelling (Ahn et al., 2016) .
+[BOS] Our model, KBAtt, is most relevant to Mihaylov and Frank (2018) , where they focus on similarity calculation but we focus on generation in this paper.
+[BOS] Moreover, in addition to demonstrating the positive effect of incorporating external knowledge as previous work, we also design a new metric to quantify the potential gains of external knowledge for a specific dataset which can explain when and why our model is effective.
+

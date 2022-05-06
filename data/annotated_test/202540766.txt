@@ -1,0 +1,22 @@
+[BOS] Sentence representation learning is an active research area due to its importance in various downstream tasks.
+[BOS] Early studies employed supervised learning where a sentence representation is learned in an end-to-end manner using an annotated corpus.
+[BOS] Among these, the importance of phrase structures in representation learning has been discussed (Tai et al., 2015; Wu et al., 2018) .
+
+[BOS] In this paper, we use structural relations in sentence pairs for sentence representations.
+[BOS] Specifically, we employ phrasal paraphrase relations that introduce the notion of a phrase to the model.
+
+[BOS] The research focus of sentence representation learning has moved toward unsupervised learning in order to exploit the gigantic corpus.
+[BOS] SkipThought, which was an early learning attempt, learns to generate surrounding sentences given a sentence in a document .
+[BOS] This can be interpreted as an extension of the distributional hypothesis on sentences.
+[BOS] Quick-Thoughts, a successor of Skip-Thought, conducts classification to discriminate surrounding sentences instead of generation (Logeswaran and Lee, 2018) .
+[BOS] GenSen combines these approaches in massive multi-task learning (Subramanian et al., 2018) based on the premise that learning dependent tasks enriches sentence representations.
+
+[BOS] Embeddings from Language Models (ELMo) made a significant step forward (Peters et al., 2018) .
+[BOS] ELMo uses language modeling with bidirectional recurrent neural networks (RNN) to improve word embeddings.
+[BOS] ELMo's embedding contributes to the performance of various downstream tasks.
+[BOS] OpenAI GPT (Radford et al., 2018) replaced ELMo's bidirectional RNN for language modeling with the Transformer (Vaswani et al., 2017) decoder.
+[BOS] More recently, BERT combined the approaches of Quick-Thoughts (i.e., a nextsentence prediction approach) and language modeling on top of the deep bidirectional Transformer.
+[BOS] BERT broke the records of the previous stateof-the-art methods in eleven different NLP tasks.
+[BOS] While BERT's pre-training generates generic representations that are broadly transferable to various NLP tasks, we aim to fit them for semantic equivalence assessment by injecting paraphrasal relations.
+[BOS] Liu et al. (2019) showed that BERT's performance improves when fine-tuning with a multi-task learning setting, which is applicable to our trained model for further improvement.
+

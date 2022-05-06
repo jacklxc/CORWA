@@ -1,0 +1,19 @@
+[BOS] Joint Segmentation, POS tagging and Syntactic Parsing It has been widely recognized that joint prediction is an appealing alternative for pipeline architectures (Goldberg and Tsarfaty, 2008; Hatori et al., 2012; Habash and Rambow, 2005; GahbicheBraham et al., 2012; Zhang and Clark, 2008; Bohnet and Nivre, 2012) .
+[BOS] These approaches have been particularly prominent for languages with difficult preprocessing, such as morphologically rich languages (e.g., Arabic and Hebrew) and languages that require word segmentation (e.g., Chinese).
+[BOS] For the former, joint prediction models typically rely on a lattice structure to represent alternative morphological analyses (Goldberg and Tsarfaty, 2008; Tratz, 2013; Cohen and Smith, 2007) .
+[BOS] For instance, transitionbased models intertwine operations on the lattice with operations on a dependency tree.
+[BOS] Other joint architectures are more decoupled: in Goldberg and Tsarfaty (2008) , a lattice is used to derive the best morphological analysis for each part-of-speech alternative, which is in turn provided to the parsing algorithm.
+[BOS] In both cases, tractable inference is achieved by limiting the representation power of the scoring function.
+[BOS] Our model also uses a lattice to encode alternative analyses.
+[BOS] However, we employ this structure in a different way.
+[BOS] The model samples the full path from the lattice, which corresponds to a valid segmentation and POS tagging assignment.
+[BOS] Then the model improves the path and the corresponding tree via a hill-climbing strategy.
+[BOS] This architecture allows us to incorporate arbitrary features for segmentation, POS tagging and parsing.
+
+[BOS] In joint prediction models for Chinese, lattice structures are not typically used.
+[BOS] Commonly these models are formulated in a transition-based framework at the character level (Zhang and Clark, 2008; Zhang et al., 2014a; Wang and Xue, 2014) .
+[BOS] While this formulation can handle a large space of possible word segmentations, it can only capture features that are instantiated based on the stack and queue status.
+[BOS] Our approach offers two advantages over prior work:
+
+[BOS] (1) we can incorporate arbitrary features for word segmentation and parsing; (2) we demonstrate that a lattice-based approach commonly used for other languages can be effectively utilized for Chinese.
+

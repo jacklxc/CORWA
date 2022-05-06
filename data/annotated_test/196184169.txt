@@ -1,0 +1,25 @@
+[BOS] Graph structures have been extended to model text representation, giving competitive results for a number of NLP tasks.
+[BOS] By introducing context neighbors, the graph structure is added to the sequence modeling tool LSTMs, which improves performance on text classification, POS tagging and NER tasks (Zhang et al., 2018a) .
+[BOS] Based on syntactic dependency trees, DAG LSTMs (Peng et al., 2017) and GCNs (Zhang et al., 2018b) are used to improve the performance of relation extraction task.
+[BOS] Based on the AMR semantic graph representation, graph state LSTMs , GCNs (Bastings et al., 2017) and gated GNNs (Beck et al., 2018) are used as encoder to construct graph-to-sequence learning.
+[BOS] To our knowledge, we are the first to investigate GNNs for dependency parsing task.
+
+[BOS] The design of the node representation network is a key problem in neural graph-based parsers.
+[BOS] Kiperwasser and Goldberg (2016b) use BiRNNs to obtain node representation with sentence-level information.
+[BOS] To better characterize the direction of edge, Dozat and Manning (2017) feed BiRNNs outputs to two MLPs to distinguish word as head or dependent, and then construct a biaffine mapping for prediction.
+[BOS] It also performs well on multilingual UD datasets (Che et al., 2018) .
+
+[BOS] Given a graph, a GNN can embed the node by recursively aggregating the node representations of its neighbors (Battaglia et al., 2018) .
+[BOS] Based on a biaffine mapping, GNNs can enhance the node representation by recursively integrating neighbors' information.
+[BOS] The message passing neural network (MPNN) (Gilmer et al., 2017) and the non-local neural network (NLNN) are two popular GNN methods.
+[BOS] Due to the convenience of self-attention in handling variable sentence length, we use a GAT-like network (Velikovi et al., 2018) belonging to NLNN.
+[BOS] Then, we further explore its aggregating functions and update methods on special task.
+
+[BOS] Apply the GAT to a directed complete graph similar to the Transformer encoder (Vaswani et al., 2017) .
+[BOS] But the transformer framework focuses only on head-dep-like dependency, we further explore it to capture high-order information on dependency parsing.
+[BOS] Several works have investigated high-order features in neural parsing.
+[BOS] Kiperwasser and Goldberg (2016b) uses a bottom-up tree-encoding to extract hard high-order features from an intermediate predicted tree.
+[BOS] Zheng (2017) uses an incremental refinement framework to extract hard high-order features from a whole predicted tree.
+[BOS] Ma et al. (2018) uses greedy decoding to replace the MST decoding and extract local 2-order features at the current decoding time.
+[BOS] Comparing with the previous work, GNNs can efficiently capture global and soft high-order features.
+

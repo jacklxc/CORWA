@@ -1,0 +1,63 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 163 168	[BOS]
+T3	Single_summ 300 305	[BOS]
+T4	Single_summ 488 493	[BOS]
+T5	Multi_summ 583 588	[BOS]
+T6	Single_summ 765 770	[BOS]
+T7	Single_summ 1011 1016	[BOS]
+T8	Single_summ 1220 1225	[BOS]
+T9	Transition 1442 1447	[BOS]
+T10	Transition 1487 1492	[BOS]
+T11	Narrative_cite 1575 1580	[BOS]
+T12	Multi_summ 1759 1764	[BOS]
+T13	Multi_summ 1970 1975	[BOS]
+T14	Single_summ 2062 2067	[BOS]
+T15	Single_summ 2254 2259	[BOS]
+T16	Single_summ 2387 2392	[BOS]
+T17	Single_summ 2611 2616	[BOS]
+T18	Single_summ 2777 2782	[BOS]
+T19	Single_summ 2918 2923	[BOS]
+T20	Transition 2971 2976	[BOS]
+T21	Reflection 3170 3175	[BOS]
+T22	Reflection 3359 3364	[BOS]
+T23	Other 3475 3480	[BOS]
+T24	Dominant 169 185	Almuhareb (2006)
+T25	Dominant 589 617	Baroni and Zamparelli (2010)
+T26	Dominant 622 636	Guevara (2010)
+T27	Dominant 843 867	Hartung and Frank (2010)
+T28	Reference 1699 1718	(Blei et al., 2003)
+T29	Dominant 1765 1785	Ritter et al. (2010)
+T30	Dominant 1790 1806	O Saghdha (2010)
+T31	Dominant 1976 1995	Lapata (2009, 2010)
+T32	Dominant 2068 2092	Hartung and Frank (2011)
+T33	Dominant 2402 2426	Hartung and Frank (2011)
+T34	Reference 2584 2608	Hartung and Frank (2010)
+T35	B_span 169 171	Al
+T36	E_span 577 581	noun
+T37	B_span 589 593	Baro
+T38	E_span 826 834	meaning,
+T39	B_span 843 847	Hart
+T40	E_span 1425 1440	representations
+T41	B_span 1657 1661	text
+T42	E_span 1713 1717	2003
+T43	B_span 1765 1768	Rit
+T44	E_span 1959 1968	positions
+T45	B_span 1976 1980	Lapa
+T46	E_span 2055 2059	VSMs
+T47	B_span 2068 2072	Hart
+T48	E_span 2379 2385	topics
+T50	B_span 2402 2409	Hartung
+T52	E_span 2603 2607	2010
+T53	Pronoun 255 259	they
+T54	Pronoun 344 346	it
+T55	Pronoun 494 496	It
+T56	Pronoun 771 776	These
+T57	Pronoun 1156 1161	their
+T58	Pronoun 1235 1240	their
+T59	Pronoun 1448 1453	These
+T60	Pronoun 2786 2791	their
+T61	Pronoun 2933 2938	their
+T62	Pronoun 3008 3010	it
+T63	Pronoun 3202 3207	their
+T49	E_span 2964 2969	nouns
+T51	B_span 2563 2570	pattern

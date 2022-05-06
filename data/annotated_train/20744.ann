@@ -1,0 +1,70 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 488 493	[BOS]
+T3	Transition 628 633	[BOS]
+T4	Single_summ 728 733	[BOS]
+T5	Narrative_cite 814 819	[BOS]
+T6	Transition 1123 1128	[BOS]
+T7	Transition 1228 1233	[BOS]
+T8	Reflection 1302 1307	[BOS]
+T9	Narrative_cite 1475 1480	[BOS]
+T10	Reflection 1606 1611	[BOS]
+T11	Single_summ 1798 1803	[BOS]
+T12	Single_summ 1877 1882	[BOS]
+T13	Reflection 2126 2131	[BOS]
+T14	Single_summ 2308 2313	[BOS]
+T15	Single_summ 2394 2399	[BOS]
+T16	Reflection 2491 2496	[BOS]
+T17	Reference 39 60	(Florian et al., 2004
+T18	Reference 62 82	Florian et al., 2006
+T19	Reference 84 104	Florian et al., 2010
+T20	Reference 106 131	Zitouni and Florian, 2008
+T21	Reference 133 151	Ohta et al., 2012)
+T22	Reference 185 208	(Reichartz et al., 2009
+T23	Reference 210 226	Sun et al., 2011
+T24	Reference 228 248	Jiang and Zhai, 2007
+T25	Reference 250 274	Bunescu and Mooney, 2005
+T26	Reference 276 299	Zhao and Grishman, 2005
+T27	Reference 301 327	Culotta and Sorensen, 2004
+T28	Reference 329 346	Zhou et al., 2007
+T29	Reference 348 367	Qian and Zhou, 2010
+T30	Reference 369 386	Qian et al., 2008
+T31	Reference 388 407	Chan and Roth, 2011
+T32	Reference 409 435	Plank and Moschitti, 2013)
+T33	Dominant 734 754	Chan and Roth (2011)
+T34	Reference 948 971	(Ji and Grishman, 2005)
+T35	Reference 1007 1026	(Roth and Yih, 2004
+T36	Reference 1028 1046	Roth and Yih, 2007
+T37	Reference 1048 1070	Yang and Cardie, 2013)
+T38	Reference 1098 1121	(Kate and Mooney, 2010)
+T39	Reference 1564 1583	(Singh et al., 2013
+T40	Reference 1585 1602	Yu and Lam, 2010)
+T41	Dominant 1817 1837	(Singh et al., 2013)
+T42	Dominant 1901 1918	(Li et al., 2013)
+T43	Dominant 2314 2339	Sarawagi and Cohen (2004)
+T44	Dominant 2400 2422	Zhang and Clark (2008)
+T45	Pronoun 1133 1138	these
+T46	Pronoun 1243 1247	they
+T47	Pronoun 1362 1364	it
+T48	Pronoun 2135 2139	this
+T49	B_span 6 12	Entity
+T50	E_span 146 150	2012
+T51	B_span 158 166	relation
+T52	E_span 430 434	2013
+T53	B_span 734 738	Chan
+T54	E_span 804 812	mentions
+T55	B_span 937 939	re
+T56	E_span 966 970	2005
+T57	B_span 974 981	Integer
+T58	E_span 1065 1069	2013
+T59	B_span 1077 1081	Card
+T60	E_span 1116 1120	2010
+T61	B_span 1505 1518	probabilistic
+T62	E_span 1597 1601	2010
+T63	B_span 1804 1806	In
+T64	E_span 1864 1874	boundaries
+T65	B_span 1883 1886	Our
+T66	E_span 2119 2124	input
+T67	B_span 2314 2322	Sarawagi
+T68	E_span 2385 2392	tagging
+T69	B_span 2400 2405	Zhang
+T70	E_span 2482 2489	tagging

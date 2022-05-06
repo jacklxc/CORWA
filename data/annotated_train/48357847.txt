@@ -1,0 +1,28 @@
+[BOS] The use of image search for obtaining word representations is not new.
+[BOS] Table 1 illustrates existing methods that utilize image search and the tasks considered in their work.
+[BOS] There has also been other work using other image sources such as ImageNet (Kiela and Bottou, 2014; Collell and Moens, 2016) over the WordNet synset vocabulary, and using Flickr photos and captions (Joulin et al., 2016) .
+[BOS] Our approach differs from the above methods in three main ways: a) we obtain searchgrounded representations for over 2 million words as opposed to a few thousand, b) we apply our representations to a higher diversity of tasks than previously considered, and c) we introduce a multimodal gating mechanism that allows for a more flexible integration of features than mere concatenation.
+[BOS] Our work also relates to existing multimodal models combining different representations of the data .
+[BOS] Various work has Method tasks (Bergsma and Durme, 2011) bilingual lexicons (Bergsma and Goebel, 2011) lexical preference word similarity (Kiela et al., 2015a) lexical entailment detection (Kiela et al., 2015b) bilingual lexicons (Shutova et al., 2016) metaphor identification (Bulat et al., 2015) predicting property norms (Kiela, 2016) toolbox (Vulic et al., 2016) bilingual lexicons word similarity (Anderson et al., 2017) decoding brain activity (Glavas et al., 2017) semantic text similarity (Bhaskar et al., 2017) abstract vs concrete nouns (Hartmann and Sogaard, 2017) bilingual lexicons (Bulat et al., 2017) decoding brain activity Table 1 : Existing methods that use image search for grounding and their corresponding tasks.
+
+[BOS] also fused text-based representations with imagebased representations (Bruni et al., 2014; Lazaridou et al., 2015; Chrupala et al., 2015; Mao et al., 2016; Silberer et al., 2017; Collell et al., 2017; Zablocki et al., 2018) and representations derived from a knowledge-graph (Thoma et al., 2017) .
+[BOS] More recently, gating-based approaches have been developed for fusing traditional word embeddings with visual representations.
+[BOS] Arevalo et al. (2017) introduce a gating mechanism inspired by the LSTM while Kiela et al. (2018) describe an asymmetric gate that allows one modality to 'attend' to the other.
+[BOS] The work that most closely matches ours is that of who also consider fusing Glove embeddings with visual features.
+[BOS] However, their analysis is restricted to word similarity tasks and they require text-to-image regression to obtain visual embeddings for unseen words, due to the use of ImageNet.
+[BOS] The use of image search allows us to obtain visual embeddings for a virtually unlimited vocabulary without needing a mapping function.
+
+[BOS] We next consider experiments on 3 pairwise prediction datasets: SNLI (Bowman et al., 2015) , MultiNLI (Williams et al., 2017) and SICK (Marelli et al., 2014) .
+[BOS] The first two are natural language inference tasks and the third is a sentence semantic relatedness task.
+[BOS] We explore the use of two types of sentential encoders: Bag-of-Words (BoW) and BiLSTM-Max (Conneau et al., 2017a (Tai et al., 2015) .
+[BOS] Due to the small size of the dataset, we only experiment with BoW on SICK.
+[BOS] The full details of hyperparameters are discussed in Appendix B.
+[BOS] Table 4 displays our results.
+[BOS] For BoW models, adding Picturebook embeddings to Glove results in significant gains across all three tasks.
+[BOS] For BiLSTM-Max, our contextual gating sets a new state-of-the-art on SNLI sentence encoding methods (methods without interaction layers), outperforming the recently proposed methods of Im and Cho (2017) ; Shen et al. (2018) .
+[BOS] It is worth noting the effect that different encoders have when using our embeddings.
+[BOS] While non-contextual gating is sufficient to improve bag-of-words methods, with BiLSTM-Max it slightly hurts performance over the Glove baseline.
+[BOS] Adding contextual gating was necessary to improve over the Glove baseline on SNLI.
+[BOS] Finally we note the strength of our own Glove baseline over the reported results of Conneau et al. (2017a) , from which we improve on their accuracy from 85.0 to 86.8 on the development set.
+[BOS] 3
+

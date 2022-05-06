@@ -1,0 +1,42 @@
+[BOS] Cross-lingual Word Embeddings.
+[BOS] We conduct our experiments using a popular projection-based approach that learns an orthogonal mapping between pretrained embeddings (Xing et al., 2015; Artetxe et al., 2016) .
+[BOS] The orthogonality of the mapping is crucial as it preserves monolingual invariance and is empirically proven to be more robust (Smith et al., 2017; Xing et al., 2015) .
+[BOS] This projection-based method can be applied post-hoc on pretrained monolingual embeddings with an exact analytical solution.
+[BOS] Moreover, its performance is often competitive to that of jointly trained crosslingual models using additional bilingual signals in the form of parallel or comparable corpora .
+
+[BOS] However, projection-based cross-lingual embeddings are still predominantly concerned with static word embeddings Mohiuddin and Joty, 2019) .
+[BOS] Learning crosslingual contextualized embeddings is still a large unexplored area with only two concurrent papers at the moment.
+[BOS] First, Aldarmaki and Diab (2019) adopt the same projection-based approach as our paper to align contextualized embeddings on the token-level using parallel data.
+[BOS] They find that context-aware mapping using parallel data outperforms context-independent mappings from static dictionaries on a parallel Sentence Retrieval task.
+[BOS] Second, Schuster et al. (2019) introduce anchor embeddings as the average of contextualized embeddings of a word to perform alignment for contextualized models, and show its effectiveness in cross-lingual dependency parsing.
+[BOS] These two studies are not directly comparable, whereas our paper provides a comprehensive and systematic comparison of various methods for learning cross-lingual contextualized embeddings and introduces a new and more challenging evaluation task.
+
+[BOS] Evaluation of (Contextualized) Cross-lingual Embeddings.
+[BOS] The traditional task to evaluate cross-lingual embeddings is Bilingual Dictionary Induction (BDI) (Vuli and Moens, 2013; Mikolov et al., 2013a; Gouws et al., 2015) : given a source query word, the task is to retrieve the translation word in the target language.
+[BOS] The test words in BDI are out-of-context and polysemy cannot be addressed properly.
+[BOS] The same issue is found in another relevant lexical task, Cross-lingual Semantic Similarity.
+[BOS] (Camacho-Collados et al., 2017) .
+
+[BOS] The only context-aware dataset for evaluating cross-lingual embeddings on the word level is Bilingual Contextual Word Similarity (BCWS) (Chi and Chen, 2018) .
+[BOS] It challenges a system to predict similarity scores between cross-lingual word pairs with sentential context provided in both languages.
+[BOS] However, BCWS does not explicitly test for the retrieval of meaning-equivalent cross-lingual contextualized embeddings, which is explicitly tested in our test.
+[BOS] Also, BCWS is only available for one language pair: English-Chinese.
+
+[BOS] Another task used for evaluating contextualized embeddings is Sentence Retrieval (Aldarmaki and Diab, 2019) : given a query source sentence, the task is to retrieve the corresponding parallel sentence in the target language.
+[BOS] Sentences can be represented as averages of contextualized embeddings of their constituent words.
+[BOS] As the task does not explicitly evaluate at the word level, even if a system cannot accurately capture polysemy, it can rely on other words in the sentence to retrieve the correct parallel sentence.
+[BOS] Therefore, Sentence Retrieval may lead to superficially high scores.
+
+[BOS] Cross-lingual Word Sense Disambiguation.
+
+[BOS] Our new task is also related to Cross-lingual Word Sense Disambiguation (Lefever and Hoste, 2009 ): given a source language word in context, a system needs to provide the correct sense labels as clustered translation words in a number of target languages.
+[BOS] Another related task is Cross-lingual Lexical Substitution (Sinha et al., 2009) : the model must provide plausible target language translations for the source language lexical item in the source language context.
+[BOS] In contrast, our BTSR task: (1) directly evaluates token-level word representations without the need to predict sense labels from a sense inventory and (2) it contextualizes both the source query and the target candidates ensuring full sense disambiguation.
+[BOS] The core differences between the three tasks are illustrated in the following examples below:
+
+[BOS] (1) Cross-lingual Word Sense Disambigution:
+
+[BOS] source query: the national [coach] of the Irish teams ... answer: allenatore (Italian); Fubaltrainer; Nationaltrainer; Trainer (German); entrenador(Spanish) ...
+
+[BOS] (2) Cross-lingual Lexical Substitution : 3 Methods
+

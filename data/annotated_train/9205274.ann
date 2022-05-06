@@ -1,0 +1,46 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 98 103	[BOS]
+T3	Reflection 398 403	[BOS]
+T4	Single_summ 473 478	[BOS]
+T5	Single_summ 597 602	[BOS]
+T6	Narrative_cite 755 760	[BOS]
+T7	Transition 934 939	[BOS]
+T8	Narrative_cite 1082 1087	[BOS]
+T9	Transition 1188 1193	[BOS]
+T10	Narrative_cite 1392 1397	[BOS]
+T11	Reflection 1588 1593	[BOS]
+T12	Transition 1689 1694	[BOS]
+T13	Transition 1820 1825	[BOS]
+T14	Multi_summ 1996 2001	[BOS]
+T15	Reference 75 95	Chelba et al. (1997)
+T16	Dominant 564 594	Graham and van Genabith (2010)
+T17	Reference 855 877	(Pauls and Klein, 2012
+T18	Reference 879 893	Charniak, 2001
+T19	Reference 895 906	Roark, 2001
+T20	Reference 908 931	Hall and Johnson, 2003)
+T21	Reference 1157 1185	(McCarthy and Navigli, 2007)
+T22	Reference 1454 1468	(Saghdha, 2010
+T23	Reference 1470 1490	Ritter et al., 2010)
+T24	Dominant 2019 2039	Chelba et al. (1997)
+T25	Dominant 2089 2111	Pauls and Klein (2011)
+T26	B_span 6 9	The
+T27	E_span 94 95	)
+T28	B_span 479 480	A
+T29	E_span 745 753	children
+T30	B_span 829 835	phrase
+T31	E_span 926 930	2003
+T32	B_span 1136 1143	lexical
+T33	E_span 1180 1184	2007
+T34	B_span 1422 1431	selection
+T35	E_span 1485 1489	2010
+T37	B_span 2019 2023	Chel
+T39	E_span 2076 2081	model
+T40	B_span 2086 2088	by
+T41	E_span 2161 2162	.
+T42	Pronoun 104 108	This
+T43	Pronoun 611 615	they
+T44	Pronoun 1063 1068	these
+T45	Pronoun 1369 1373	this
+T46	Pronoun 1638 1642	this
+T47	Pronoun 1965 1970	these
+T48	Pronoun 2002 2006	This

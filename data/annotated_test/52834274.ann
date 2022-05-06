@@ -1,0 +1,88 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 480 485	[BOS]
+T3	Narrative_cite 661 666	[BOS]
+T4	Narrative_cite 830 835	[BOS]
+T5	Narrative_cite 995 1000	[BOS]
+T6	Single_summ 1189 1194	[BOS]
+T7	Narrative_cite 1331 1336	[BOS]
+T8	Transition 1572 1577	[BOS]
+T9	Single_summ 1659 1664	[BOS]
+T10	Single_summ 1801 1806	[BOS]
+T11	Narrative_cite 1972 1977	[BOS]
+T12	Transition 2138 2143	[BOS]
+T13	Transition 2249 2254	[BOS]
+T14	Reflection 2444 2449	[BOS]
+T15	Reflection 2621 2626	[BOS]
+T16	Reflection 2786 2791	[BOS]
+T17	Reflection 2988 2993	[BOS]
+T18	Narrative_cite 3180 3185	[BOS]
+T19	Reference 118 140	(Mnih and Gregor, 2014
+T20	Reference 142 159	Miao et al., 2016
+T21	Reference 161 181	Serban et al., 2017)
+T22	Reference 204 225	(Zhang et al., 2016 )
+T23	Reference 243 263	(Bowman et al., 2016
+T24	Reference 265 284	Serban et al., 2017
+T25	Reference 286 302	Hu et al., 2017)
+T26	Reference 323 343	(Bowman et al., 2016
+T27	Reference 345 364	Yang et al., 2017b)
+T28	Reference 393 417	(Zhou and Neubig, 2017 )
+T29	Reference 612 634	(Quattoni et al., 2007
+T30	Reference 636 657	Sun and Tsujii, 2009)
+T31	Reference 765 783	Maale et al., 2016
+T32	Reference 785 806	Zhou and Neubig, 2017
+T33	Reference 808 827	Yang et al., 2017b)
+T34	Reference 889 908	(Altun et al., 2006
+T35	Reference 910 927	Jiao et al., 2006
+T36	Reference 929 952	Mann and McCallum, 2008
+T37	Reference 954 977	Subramanya et al., 2010
+T38	Reference 979 992	Sgaard, 2011)
+T39	Reference 1122 1142	(Miller et al., 2004
+T40	Reference 1144 1164	Owoputi et al., 2013
+T41	Reference 1166 1186	Peters et al., 2017)
+T42	Dominant 1205 1224	Zhang et al. (2017)
+T43	Reference 1471 1490	(Plank et al., 2016
+T44	Reference 1492 1519	Augenstein and Sgaard, 2017
+T45	Reference 1521 1544	Bingel and Sgaard, 2017
+T46	Reference 1546 1568	Rei, 2017, inter alia)
+T47	Dominant 1665 1687	Zhou and Neubig (2017)
+T48	Dominant 1807 1823	Hu et al. (2017)
+T49	Reference 2071 2091	(Gregor et al., 2015
+T50	Reference 2093 2111	Chung et al., 2015
+T51	Reference 2113 2135	Fraccaro et al., 2016)
+T52	Reference 3407 3426	(Park et al., 2018)
+T53	Pronoun 2168 2173	these
+T54	Pronoun 2255 2259	This
+T55	Pronoun 2453 2457	this
+T56	Pronoun 2974 2979	these
+T57	Pronoun 3104 3108	this
+T58	Pronoun 3220 3224	this
+T59	B_span 100 108	document
+T60	E_span 180 181	)
+T61	B_span 184 191	machine
+T62	E_span 219 223	2016
+T63	B_span 227 231	text
+T64	E_span 297 301	2017
+T65	B_span 305 313	language
+T66	E_span 358 363	2017b
+T67	B_span 371 379	sequence
+T68	E_span 411 415	2017
+T69	B_span 565 571	latent
+T70	E_span 652 656	2009
+T71	B_span 740 744	semi
+T72	E_span 821 826	2017b
+T73	B_span 836 840	Semi
+T74	E_span 987 991	2011
+T75	B_span 1061 1076	representations
+T76	E_span 1181 1185	2017
+T77	B_span 1205 1210	Zhang
+T78	E_span 1324 1328	data
+T79	B_span 1429 1434	multi
+T80	E_span 1563 1567	alia
+T81	B_span 1665 1669	Zhou
+T82	E_span 1790 1799	variables
+T83	B_span 1807 1809	Hu
+T84	E_span 1961 1969	sentence
+T85	B_span 2013 2022	combining
+T86	E_span 2130 2134	2016
+T87	B_span 3386 3389	non
+T88	E_span 3421 3425	2018

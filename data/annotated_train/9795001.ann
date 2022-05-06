@@ -1,0 +1,113 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 74 79	[BOS]
+T3	Single_summ 104 109	[BOS]
+T4	Multi_summ 317 322	[BOS]
+T5	Single_summ 433 438	[BOS]
+T6	Single_summ 612 617	[BOS]
+T7	Single_summ 733 738	[BOS]
+T8	Single_summ 835 840	[BOS]
+T9	Single_summ 959 964	[BOS]
+T10	Single_summ 1042 1047	[BOS]
+T11	Transition 1122 1127	[BOS]
+T12	Other 1265 1270	[BOS]
+T13	Single_summ 1397 1402	[BOS]
+T14	Other 1583 1588	[BOS]
+T15	Single_summ 1676 1681	[BOS]
+T16	Transition 1859 1864	[BOS]
+T17	Multi_summ 1938 1943	[BOS]
+T18	Single_summ 2076 2081	[BOS]
+T19	Single_summ 2171 2176	[BOS]
+T20	Single_summ 2374 2379	[BOS]
+T21	Transition 2532 2537	[BOS]
+T22	Transition 2618 2623	[BOS]
+T23	Narrative_cite 2854 2859	[BOS]
+T24	Transition 3104 3109	[BOS]
+T25	Transition 3251 3256	[BOS]
+T26	Single_summ 3370 3375	[BOS]
+T27	Single_summ 3742 3747	[BOS]
+T28	Single_summ 3847 3852	[BOS]
+T29	Single_summ 3931 3936	[BOS]
+T30	Single_summ 4085 4090	[BOS]
+T31	Single_summ 4259 4264	[BOS]
+T32	Single_summ 4441 4446	[BOS]
+T33	Single_summ 4596 4601	[BOS]
+T34	Transition 4686 4691	[BOS]
+T35	Other 4810 4815	[BOS]
+T36	Single_summ 4869 4874	[BOS]
+T37	Single_summ 4945 4950	[BOS]
+T38	Single_summ 5122 5127	[BOS]
+T39	Single_summ 5219 5224	[BOS]
+T40	Single_summ 5312 5317	[BOS]
+T41	Transition 5408 5413	[BOS]
+T42	Reflection 5583 5588	[BOS]
+T43	Dominant 110 134	(Knight and Marcu, 2002)
+T44	Dominant 323 350	(Turner and Charniak, 2005)
+T45	Dominant 355 381	(Galley and McKeown, 2007)
+T46	Dominant 439 455	(McDonald, 2006)
+T47	Dominant 739 762	(Cohn and Lapata, 2007)
+T48	Reference 1555 1580	(Bannard and Burch, 2005)
+T49	Dominant 1682 1705	(Cohn and Lapata, 2013)
+T50	Dominant 1944 1969	(Coster and Kauchak, 2011
+T51	Dominant 1971 1988	Zhu et al., 2010)
+T52	Dominant 2177 2204	(Woodsend and Lapata, 2011)
+T53	Dominant 2380 2401	(Wubben et al., 2012)
+T54	Reference 2978 3001	Sutskever et al., 2014)
+T55	Reference 3021 3046	(Vinyals et 42 al., 2015)
+T56	Reference 3076 3100	(Filippova et al., 2015)
+T57	Dominant 3574 3602	(Hochreiter and Schmidhuber,
+T58	Dominant 4902 4921	(Rush et al., 2015)
+T59	B_span 110 111	(
+T60	E_span 308 315	grammar
+T61	B_span 323 324	(
+T62	E_span 423 430	results
+T63	B_span 439 440	(
+T64	E_span 720 731	compression
+T65	B_span 739 740	(
+T66	E_span 1112 1119	decoder
+T67	B_span 1538 1547	bilingual
+T68	E_span 1575 1579	2005
+T69	B_span 1682 1683	(
+T70	E_span 1851 1856	level
+T71	B_span 1944 1945	(
+T72	E_span 2162 2169	actions
+T73	B_span 2177 2178	(
+T74	E_span 2361 2372	programming
+T75	B_span 2380 2381	(
+T76	E_span 2522 2529	results
+T77	B_span 2958 2965	machine
+T78	E_span 2996 3000	2014
+T79	B_span 3004 3009	image
+T80	E_span 3041 3045	2015
+T81	B_span 3051 3058	extract
+T82	E_span 3095 3099	2015
+T83	B_span 3445 3448	the
+T84	E_span 4676 4684	segments
+T85	B_span 4875 4876	A
+T86	E_span 5400 5406	scores
+T87	Pronoun 393 397	this
+T88	Pronoun 685 690	their
+T89	Pronoun 845 849	this
+T90	Pronoun 856 860	they
+T91	Pronoun 1048 1053	These
+T92	Pronoun 1407 1412	their
+T93	Pronoun 1589 1593	They
+T94	Pronoun 1661 1666	their
+T95	Pronoun 2082 2087	Their
+T96	Pronoun 2860 2864	This
+T97	Pronoun 3110 3114	This
+T98	Pronoun 3510 3515	these
+T99	Pronoun 3759 3763	this
+T100	Pronoun 3853 3857	This
+T101	Pronoun 3937 3941	They
+T102	Pronoun 4265 4269	This
+T103	Pronoun 4274 4276	it
+T104	Pronoun 4411 4416	these
+T105	Pronoun 4447 4451	This
+T106	Pronoun 4605 4609	this
+T107	Pronoun 4692 4696	This
+T108	Pronoun 4951 4955	They
+T109	Pronoun 5128 5132	They
+T110	Pronoun 5225 5229	They
+T111	Pronoun 5378 5382	they
+T112	Pronoun 5414 5418	This
+T113	Pronoun 5599 5603	this

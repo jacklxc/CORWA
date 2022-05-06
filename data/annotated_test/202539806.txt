@@ -1,0 +1,17 @@
+[BOS] Automatically generating questions and answers from text is a challenging task.
+[BOS] This task can be traced back to 1976 when Wolfe (1976) presented their system AUTOQUEST, which examined the generation of Wh-questions from single sentences.
+[BOS] This was followed by several pattern matching (Hirschman et al., 1999) and linear regression (Ng et al., 2000) based models.
+[BOS] These approaches are heavily dependent on either rules or question templates, and require deep linguistic knowledge, yet are not exhaustive enough.
+[BOS] Recent successes in neural machine translation (Sutskever et al., 2014; have helped address these issues by letting deep neural nets learn the implicit rules from data.
+[BOS] This approach has inspired application of sequence-to-sequence learning to automated question generation.
+[BOS] Serban et al. (2016) proposed an attention-based Luong et al., 2015) approach to question generation from a pre-defined template of knowledge base triples (subject, relation, object).
+[BOS] We proposed multi-hop question generation (Kumar et al., 2019a ) from knowledge graphs using transformers (Vaswani et al., 2017) .
+[BOS] Du et al. (2017) proposed an attention-based sequence learning approach to question generation.
+[BOS] Most existing work focuses on generating questions from text without concerning itself with answ er generation.
+[BOS] In our previous work (Kumar et al., 2018), we presented a pointer networkbased model that predicts candidate answers and generates a question by providing a pivotal answer as an input to the decoder.
+[BOS] Our model for question generation combines a rich set of linguistic features, pointer network-based answer selection, and an improved decoder, and is able to generate questions that are relatively more relevant to the given sentence than the questions generated without the answer signal.
+
+[BOS] Overall, the broad finding has been that it is important to either be provided with or learn to choose pivotal answer spans to ask questions about from an input passage.
+[BOS] Founded on this observation, our system facilitates users with an option to either choose answer spans from the pre-populated set of named entities and noun phrases or manually select custom answer spans interactively.
+[BOS] Our system, ParaQG, presented in this paper uses a novel four-stage procedure: (1) text review, (2) pivotal answer selection (3) automatic question generation pertaining to the selected answer, and (4) filtering and grouping questions based on confidence scores and different facets of the selected answer.
+

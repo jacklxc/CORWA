@@ -1,0 +1,36 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 219 224	[BOS]
+T3	Narrative_cite 342 347	[BOS]
+T4	Narrative_cite 532 537	[BOS]
+T5	Reflection 617 622	[BOS]
+T6	Transition 697 702	[BOS]
+T7	Single_summ 757 762	[BOS]
+T8	Single_summ 873 878	[BOS]
+T9	Reflection 983 988	[BOS]
+T10	Reflection 1344 1349	[BOS]
+T11	Reference 91 112	(Blitzer et al., 2006
+T12	Reference 114 125	Daume, 2007
+T13	Reference 127 146	Jing and Zhai, 2007
+T14	Reference 148 167	Glorot et al., 2011
+T15	Reference 169 188	Ajakan et al., 2014
+T16	Reference 190 216	Ganin and Lempitsky, 2015)
+T17	Reference 451 477	(Nguyen and Grishman, 2014
+T18	Reference 502 529	(Plank and Moschitti, 2013)
+T19	Reference 538 564	Nguyen and Grishman (2014)
+T20	Dominant 763 789	Plank and Moschitti (2013)
+T21	Dominant 879 900	Nguyen et al. (2015b)
+T22	Pronoun 989 993	They
+T23	Pronoun 1183 1187	they
+T24	Pronoun 1373 1377	this
+T25	B_span 63 70	natural
+T26	E_span 211 215	2015
+T27	B_span 429 436	feature
+T28	E_span 473 477	2014
+T29	B_span 483 489	kernel
+T30	E_span 524 528	2013
+T31	B_span 538 544	Nguyen
+T32	E_span 609 615	domain
+T33	B_span 763 768	Plank
+T34	E_span 863 871	patterns
+T35	B_span 879 885	Nguyen
+T36	E_span 975 981	models

@@ -1,0 +1,27 @@
+[BOS] A variety of learning paradigms have been applied to relation extraction.
+[BOS] As mentioned earlier, supervised methods have shown to perform well in this task.
+[BOS] In the supervised paradigm, relation classification is considered as a multi-classification problem, and researchers concentrate on extracting complex features, either feature-based or kernel-based.
+[BOS] (Kambhatla, 2004; Suchanek et al., 2006) converted the classification clues (such as sequences and parse trees) into feature vectors.
+[BOS] Various kernels, such as the convolution tree kernel (Qian et al., 2008) , subsequence kernel and dependency tree kernel , have been proposed to solve the relation classification problem.
+[BOS] (Plank and Moschitti, 2013) introduced semantic information into kernel methods in addition to considering structural information only.
+[BOS] However, the reliance on manual annotation, which is expensive to produce and thus limited in quantity has provided the impetus for distant-supervision (Mintz et al., 2009; Riedel et al., 2010; Hoffmann et al., 2011; Takamatsu et al., 2012) .
+
+[BOS] With the recent revival of interest in deep neural networks, many researchers have concentrated on using deep networks to learn features.
+[BOS] In NLP, such methods are primarily based on learning a distributed representation for each word, which is also called a word embedding (Turian et al., 2010) .
+[BOS] (Socher et al., 2012) presented a recursive neural network (RNN) for relation classification to learn vectors in the syntactic tree path connecting two nominals to determine their semantic relationship.
+[BOS] (Hashimoto et al., 2013 ) also employed a neural relation extraction model allowing for the explicit weighting of important phrases for the target task.
+[BOS] (Zeng et al., 2014 ) exploited a convolutional deep neural network to extract lexical and sentence level features.
+[BOS] These two levels of features were concatenated to form the final feature vector.
+[BOS] (Ebrahimi and Dou, 2015) rebuilt an RNN on the dependency path between two marked entities.
+[BOS] (Xu et al., 2015b) used the convolutional network and proposed a ranking loss function with data cleaning.
+[BOS] (Xu et al., 2015c) leveraged heterogeneous information along the shortest dependency path between two entities.
+[BOS] (Xu et al., 2016) proposed a data augmentation method by leveraging the directionality of relations.
+
+[BOS] Another line of research is the attention mechanism for deep learning.
+[BOS] (Bahdanau et al., 2014) posed the attention mechanism in machine translation task, which is also the first use of it in natural language processing.
+[BOS] This attention mechanism is used to select the reference words in the original language for words in the foreign language before translation.
+[BOS] (Xu et al., 2015a) used the attention mechanism in image caption generation to select the relevant image regions when generating words in the captions.
+[BOS] Further uses of the attention mechanism included paraphrase identification (Yin et al., 2015) , document classification (Yang et al., 2016) , parsing (Vinyals et al., 2015) , natural language question answering (Sukhbaatar et al., 2015; Kumar et al., 2015; Hermann et al., 2015) and image question answering (Lin et al., 2015) .
+[BOS] (Wang et al., 2016) introduced attention mechanism into relation classification which relied on two levels of attention for pattern extraction.
+[BOS] In this paper, we will explore the word level attention mechanism in order to discover better patterns in heterogeneous contexts for the relation classification task.
+

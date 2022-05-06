@@ -1,0 +1,36 @@
+T1	Transition 0 5	[BOS]
+T2	Reflection 137 142	[BOS]
+T3	Narrative_cite 399 404	[BOS]
+T4	Single_summ 648 653	[BOS]
+T5	Single_summ 836 841	[BOS]
+T6	Narrative_cite 901 906	[BOS]
+T7	Narrative_cite 1079 1084	[BOS]
+T8	Transition 1378 1383	[BOS]
+T9	Transition 1565 1570	[BOS]
+T10	Reference 466 485	Zhang et al. 2009 )
+T11	Dominant 654 672	Liu and Liu (2010)
+T12	Reference 765 778	(Eisner 2003)
+T13	Reference 1057 1075	(Liu and Liu 2010)
+T14	Reference 1226 1249	(Marton and Resnik 2008
+T15	Reference 1251 1269	Chiang et al. 2009
+T16	Reference 1271 1289	Huang et al. 2010)
+T17	Reference 1314 1338	(Venugopal et al. 2009 )
+T18	Reference 1355 1368	(Chiang 2010)
+T19	B_span 434 440	forest
+T20	E_span 479 483	2009
+T21	B_span 654 657	Liu
+T22	E_span 894 899	space
+T23	B_span 1026 1033	typical
+T24	E_span 1070 1074	2010
+T25	B_span 1193 1205	hierarchical
+T26	E_span 1284 1288	2010
+T27	B_span 1292 1298	string
+T28	E_span 1332 1336	2009
+T29	B_span 1342 1346	tree
+T30	E_span 1363 1367	2010
+T31	Pronoun 143 147	This
+T32	Pronoun 162 164	it
+T33	Pronoun 842 847	These
+T34	Pronoun 948 953	their
+T35	Pronoun 1384 1389	These
+T36	Pronoun 1571 1573	It

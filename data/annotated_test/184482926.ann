@@ -1,0 +1,19 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 250 255	[BOS]
+T3	Multi_summ 517 522	[BOS]
+T4	Transition 750 755	[BOS]
+T5	Transition 902 907	[BOS]
+T6	Reflection 1139 1144	[BOS]
+T7	Reference 103 123	(Poria et al., 2017)
+T8	Reference 225 246	(Eisner et al., 2016)
+T9	Reference 493 514	(Eisner et al., 2016)
+T10	Dominant 557 582	(Pennington et al., 2014)
+T11	Dominant 596 618	(Mikolov et al., 2013)
+T12	B_span 6 13	Natural
+T13	E_span 118 122	2017
+T14	B_span 202 205	pre
+T15	E_span 241 245	2016
+T16	B_span 473 482	emoticons
+T17	E_span 513 514	)
+T18	B_span 551 556	GloVe
+T19	E_span 743 748	media

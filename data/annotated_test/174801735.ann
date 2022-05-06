@@ -1,0 +1,52 @@
+T1	Reflection 0 5	[BOS]
+T2	Transition 98 103	[BOS]
+T3	Transition 163 168	[BOS]
+T4	Transition 290 295	[BOS]
+T5	Transition 426 431	[BOS]
+T6	Other 504 509	[BOS]
+T7	Other 570 575	[BOS]
+T8	Transition 654 659	[BOS]
+T9	Single_summ 681 686	[BOS]
+T10	Single_summ 1052 1057	[BOS]
+T11	Narrative_cite 1210 1215	[BOS]
+T12	Transition 1638 1643	[BOS]
+T13	Reflection 1749 1754	[BOS]
+T14	Single_summ 1896 1901	[BOS]
+T15	Reflection 2098 2103	[BOS]
+T16	Narrative_cite 2291 2296	[BOS]
+T17	Reflection 2561 2566	[BOS]
+T18	Single_summ 2720 2725	[BOS]
+T19	Reflection 2862 2867	[BOS]
+T20	Reflection 2973 2978	[BOS]
+T21	Reflection 3077 3082	[BOS]
+T22	Reflection 3175 3180	[BOS]
+T23	Dominant 745 763	Chen et al. (2016)
+T24	Reference 1415 1446	(Costa-Juss and Fonollosa, 2016
+T25	Reference 1448 1465	Ling et al., 2015
+T26	Reference 1467 1483	Cho et al., 2014
+T27	Reference 1485 1503	Chen et al., 2016)
+T28	Reference 1519 1542	(Sennrich et al., 2016b
+T29	Reference 1544 1564	Johnson et al., 2017
+T30	Reference 1566 1592	Ataman and Federico, 2018)
+T31	Reference 1610 1635	(Luong and Manning, 2016)
+T32	Dominant 1912 1928	Gu et al. (2018)
+T33	Reference 2424 2440	(Mi et al., 2016
+T34	Reference 2442 2460	Cheng et al., 2016
+T35	Dominant 2726 2745	Kuang et al. (2018)
+T36	Reference 3052 3074	(Press and Wolf, 2017)
+T37	B_span 687 696	Motivated
+T38	E_span 1196 1206	dimensions
+T39	B_span 1395 1404	character
+T40	E_span 1498 1502	2016
+T41	B_span 1506 1509	sub
+T42	E_span 1587 1591	2018
+T43	B_span 1599 1605	hybrid
+T44	E_span 1630 1634	2016
+T45	B_span 1912 1914	Gu
+T46	E_span 2086 2095	languages
+T47	B_span 2404 2413	attention
+T48	E_span 2456 2460	2016
+T49	B_span 2726 2731	Kuang
+T50	E_span 2855 2860	layer
+T51	B_span 3032 3037	three
+T52	E_span 3069 3073	2017

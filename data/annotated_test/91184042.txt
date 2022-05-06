@@ -1,0 +1,19 @@
+[BOS] Existing data creation techniques have focused on collecting paraphrases, e.g. from co-captions for images (Lin et al., 2014) , tweets with shared URLs (Lan et al., 2017) , subtitles (Creutz, 2018) , and back translation .
+[BOS] Unlike all previous work, we emphasize the collection of challenging negative examples.
+
+[BOS] Our work closely relates to the idea of crafting adversarial examples to break NLP systems.
+[BOS] Existing approaches mostly focused on adding labelpreserving perturbations to inputs, but with the effect of distracting systems from correct answers.
+[BOS] Example perturbation rules include adding noise to inputs (Jia and Liang, 2017; Chen et al., 2018) , word replacements (Alzantot et al., 2018; Ribeiro et al., 2018) , and syntactic transformation .
+[BOS] A notable exception is Glockner et al. (2018) : they generated both entailment and contradiction examples by replacing words with their synonyms or antonyms.
+[BOS] Our work presents two main departures.
+[BOS] We propose a novel method that generates challenging examples with balanced class labels and more word reordering variations than previous work.
+[BOS] In addition, we release to public a large set of 108k example pairs with highquality human labels.
+[BOS] We believe the new dataset will benefit future research on both adversarial example generation and improvement of model robustness.
+
+[BOS] In our work, we demonstrate the importance of capturing non-local contextual information in the problem of paraphrase identification.
+[BOS] This relates to prior work on probing sentence representations for their linguistic properties, such as how much syntactic information is encoded in representations (Conneau et al., 2018; Tenney et 2019; Ettinger et al., 2018) .
+[BOS] There also exists prior work that directly uses structural information in modeling (Filice et al., 2015; Liu et al., 2018) .
+[BOS] All these prior approaches were evaluated on existing datasets.
+[BOS] In contrast, we perform studies on PAWS, a new dataset that emphasizes the importance of capturing structural information in representation learning.
+[BOS] While developing new models is beyond the scope of this paper, this new dataset can facilitate research in this direction.
+

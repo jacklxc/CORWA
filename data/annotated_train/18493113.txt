@@ -1,0 +1,12 @@
+[BOS] Deep residual learning proposed in learns a residual representation with a deep neural network.
+[BOS] As stacking new layers does not lengthen the backprop path of early layers, residual learning enables the training of very deep networks, such as those with 1000 layers.
+[BOS] Deep residual nets won the 1st place in ILSVRC 2015 classification task.
+[BOS] The success of deep residual learning gives the insight of a better deep architecture of neural nets.
+[BOS] Beyond the success of residual learning, applying this technique to recurrent nets is a promising direction, which is researched in several previous works.
+[BOS] Recurrent Highway Networks (Srivastava et al., 2015) enhance the LSTM by adding an extra residual computation in each step.
+[BOS] The experiments show the Recurrent Highway Networks can achieve better perplexity in language modeling task with a limited parameter budget.
+[BOS] (Liao and Poggio, 2016) achieved similar classification performance when using shared weights in a ResNet, which is exactly a RNN.
+[BOS] Pixel Recurrent Neural Networks (van den Oord et al., 2016) demonstrates a novel architecture of neural nets with two-dimensional recurrent neural nets using residual connections.
+[BOS] Their models achieved better log-likelihood on image generation tasks.
+[BOS] Remarkably, the neural network architecture described in a lecture report 3 is similar to our models in spirit, where they applied stochastic residual learning to both depth and horizontal timesteps, which leads to better classification accuracy in Stanford Sentiment Treebank dataset.
+

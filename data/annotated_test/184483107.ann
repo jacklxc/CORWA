@@ -1,0 +1,42 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 151 156	[BOS]
+T3	Narrative_cite 231 236	[BOS]
+T4	Single_summ 391 396	[BOS]
+T5	Single_summ 678 683	[BOS]
+T6	Single_summ 766 771	[BOS]
+T7	Single_summ 879 884	[BOS]
+T8	Single_summ 1007 1012	[BOS]
+T9	Single_summ 1126 1131	[BOS]
+T10	Single_summ 1205 1210	[BOS]
+T11	Transition 1322 1327	[BOS]
+T12	Single_summ 1355 1360	[BOS]
+T13	Single_summ 1462 1467	[BOS]
+T14	Single_summ 1583 1588	[BOS]
+T15	Single_summ 1688 1693	[BOS]
+T16	Single_summ 1854 1859	[BOS]
+T17	Single_summ 1971 1976	[BOS]
+T18	Single_summ 2095 2100	[BOS]
+T19	Reference 199 228	(Warner and Hirschberg, 2012)
+T20	Reference 299 320	(Razavi et al., 2010)
+T21	Reference 337 354	(Xu et al., 2012)
+T22	Reference 368 387	(Kumar et al., 2018
+T23	Dominant 397 421	(Davidson et al., 2017 )
+T24	Dominant 1132 1159	(Schmidt and Wiegand, 2017)
+T25	Dominant 1694 1720	(Gambck and Sikdar, 2017 )
+T26	Dominant 1977 1997	(Zhang et al., 2018)
+T27	B_span 173 177	hate
+T28	E_span 223 227	2012
+T29	B_span 280 289	offensive
+T30	E_span 315 319	2010
+T31	B_span 323 336	cyberbullying
+T32	E_span 349 353	2012
+T33	B_span 357 367	aggression
+T34	E_span 383 387	2018
+T35	B_span 398 406	Davidson
+T36	E_span 1117 1124	Forests
+T37	B_span 1133 1140	Schmidt
+T38	E_span 1317 1320	etc
+T39	B_span 1695 1701	Gambck
+T40	E_span 1959 1969	characters
+T41	B_span 1978 1983	Zhang
+T42	E_span 2197 2205	datasets

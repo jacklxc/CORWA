@@ -1,0 +1,43 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 198 203	[BOS]
+T3	Narrative_cite 328 333	[BOS]
+T4	Single_summ 552 557	[BOS]
+T5	Single_summ 693 698	[BOS]
+T6	Single_summ 812 817	[BOS]
+T7	Transition 891 896	[BOS]
+T8	Transition 998 1003	[BOS]
+T9	Dominant 6 23	Klein and Manning
+T10	Reference 111 134	Klein and Manning, 2003
+T11	Reference 150 173	(Matsuzaki et al., 2005
+T12	Reference 175 195	Petrov et al., 2006)
+T13	Dominant 219 232	Petrov et al.
+T14	Reference 395 422	(Yamada and Matsumoto, 2003
+T15	Reference 424 446	Nivre and Scholz, 2004
+T16	Reference 448 468	Isozaki et al., 2004
+T17	Reference 470 491	McDonald et al., 2005
+T18	Reference 493 519	McDonald and Pereira, 2006
+T19	Reference 521 549	Corston-Oliver et al., 2006)
+T20	Dominant 572 588	Nivre and Scholz
+T21	Reference 666 690	(Nivre and Scholz, 2004)
+T22	Dominant 699 714	McDonald et al.
+T23	Reference 786 809	(McDonald et al., 2005)
+T24	Pronoun 916 921	their
+T25	Pronoun 1004 1009	These
+T26	B_span 6 11	Klein
+T27	E_span 190 194	2006
+T28	B_span 135 144	splitting
+T29	E_span 190 194	2006
+T30	E_span 130 134	2003
+T31	B_span 87 98	lexicalized
+T32	B_span 204 206	In
+T33	E_span 319 326	parsers
+T34	B_span 334 344	Dependency
+T35	E_span 544 548	2006
+T36	B_span 558 561	For
+T37	E_span 685 689	2004
+T38	E_span 685 689	2004
+T39	B_span 644 650	memory
+T40	B_span 699 707	McDonald
+T41	E_span 804 808	2005
+T42	B_span 767 777	dependency
+T43	E_span 804 808	2005

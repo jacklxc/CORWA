@@ -1,0 +1,34 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 103 108	[BOS]
+T3	Narrative_cite 211 216	[BOS]
+T4	Narrative_cite 418 423	[BOS]
+T5	Narrative_cite 576 581	[BOS]
+T6	Transition 810 815	[BOS]
+T7	Multi_summ 871 876	[BOS]
+T8	Multi_summ 1171 1176	[BOS]
+T9	Reflection 1239 1244	[BOS]
+T10	Transition 1410 1415	[BOS]
+T11	Reference 375 397	(Ruder and Plank, 2017
+T12	Reference 399 415	Ye et al., 2018)
+T13	Reference 530 551	(Faruqui et al., 2015
+T14	Reference 553 573	Kiela et al., 2018b)
+T15	Reference 699 725	(Kirkpatrick et al., 2017)
+T16	Reference 736 757	(Kiela et al., 2018b)
+T17	Reference 782 806	(Hashimoto et al., 2017)
+T18	Dominant 877 902	Dingwall and Potts (2018)
+T19	Dominant 1038 1062	Bollegala and Bao (2018)
+T20	Pronoun 424 428	This
+T21	Pronoun 487 489	it
+T22	Pronoun 1291 1295	they
+T23	B_span 263 273	supervised
+T24	E_span 410 414	2018
+T25	B_span 438 447	injecting
+T26	E_span 567 572	2018b
+T27	B_span 676 685	exploited
+T28	E_span 720 724	2017
+T29	B_span 728 735	jointly
+T30	E_span 751 756	2018b
+T31	B_span 765 770	joint
+T32	E_span 801 805	2017
+T33	B_span 877 885	Dingwall
+T34	E_span 1233 1237	ours

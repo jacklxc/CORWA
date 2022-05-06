@@ -1,0 +1,7 @@
+[BOS] The accuracy of NN models improves as the model sizes and data increases.
+[BOS] Thus, it is necessary to use multiple GPUs when training NN models within a short turnaround time.
+
+[BOS] There are two common approaches for using multiple GPUs in training.
+[BOS] One is data parallelism, involving sending different data to different GPUs with the replicas of the same model.
+[BOS] The other is model parallelism, involving sending the same data to different GPUs having different parts of the model.
+

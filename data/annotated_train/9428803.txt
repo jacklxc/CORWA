@@ -1,0 +1,15 @@
+[BOS] Two popular annotation and visualization tools for coreference are PAlinkA (Orsan, 2003) and MMAX2 (Mller and Strube, 2006) , which focus on a (customizable) textual visualization with highlighting of clusters.
+[BOS] The TrED (Pajas an Stpnek, 2009 ) project is a very flexible multilevel annotation tool centered around tree-based annotations that can be used to annotate and visualize coreference.
+[BOS] It also features a powerful search engine.
+[BOS] Recent annotation tools include the web-based BRAT (Stenetorp et al., 2012) and its extension WebAnno (Yimam et al., 2013) .
+[BOS] A dedicated query and exploration tool for multi-level annotations is ANNIS (Zeldes et al., 2009) .
+
+[BOS] The aforementioned tools are primarily meant as annotation tools.
+[BOS] They have a tendency of locking the user into one type of visualization (tree-or text-based), while often lacking advanced search functionality.
+[BOS] In contrast to them, ICE is not meant to be yet another annotation tool, but was designed as a dedicated coreference exploration tool, which enables the user to swiftly switch between different views.
+[BOS] Moreover, none of the existing tools provide an entity-grid view.
+
+[BOS] ICE is also the only tool that can graphically compare predictions of a system to a gold standard with a fine-grained distinction on the types of differences.
+[BOS] Kummerfeld and Klein (2013) present an algorithm that transforms a predicted coreference clustering into a gold clustering and records the necessary transformations, thereby quantifying different types of errors.
+[BOS] However, their algorithm only works on clusterings (sets of mentions), not pairwise links, and is therefore not able to pinpoint some of the mistakes that ICE can (such as the foreign antecedent described in Section 3).
+

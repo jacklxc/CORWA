@@ -1,0 +1,100 @@
+T1	Single_summ 0 5	[BOS]
+T2	Transition 195 200	[BOS]
+T3	Single_summ 265 270	[BOS]
+T4	Single_summ 356 361	[BOS]
+T5	Single_summ 451 456	[BOS]
+T6	Single_summ 585 590	[BOS]
+T7	Single_summ 654 659	[BOS]
+T8	Transition 736 741	[BOS]
+T9	Reflection 840 845	[BOS]
+T10	Narrative_cite 954 959	[BOS]
+T11	Transition 1041 1046	[BOS]
+T12	Single_summ 1120 1125	[BOS]
+T13	Single_summ 1268 1273	[BOS]
+T14	Single_summ 1370 1375	[BOS]
+T15	Narrative_cite 1504 1509	[BOS]
+T16	Narrative_cite 1688 1693	[BOS]
+T17	Transition 1847 1852	[BOS]
+T18	Narrative_cite 1931 1936	[BOS]
+T19	Transition 2094 2099	[BOS]
+T20	Narrative_cite 2237 2242	[BOS]
+T21	Single_summ 2489 2494	[BOS]
+T22	Transition 2575 2580	[BOS]
+T23	Single_summ 2690 2695	[BOS]
+T24	Single_summ 2852 2857	[BOS]
+T25	Single_summ 2978 2983	[BOS]
+T26	Dominant 42 61	(Chen et al., 2017)
+T27	Dominant 271 290	(Wang et al., 2018)
+T28	Dominant 362 380	(Min et al., 2018)
+T29	Dominant 457 482	(Clark and Gardner, 2017)
+T30	Dominant 591 609	(Lin et al., 2018)
+T31	Dominant 660 680	(Wang et al., 2017a)
+T32	Reference 1017 1038	(Bengio et al., 2009)
+T33	Dominant 1146 1166	(Jiang et al., 2015)
+T34	Dominant 1287 1311	(Sachan and Xing, 2016 )
+T35	Dominant 1406 1427	(Graves et al., 2017)
+T36	Reference 1605 1622	(Seo et al., 2016
+T37	Reference 1624 1645	Wang and Jiang, 2016b
+T38	Reference 1647 1665	Xiong et al., 2016
+T39	Reference 1667 1685	Tay et al., 2018c)
+T40	Reference 1709 1730	(Vaswani et al., 2017
+T41	Reference 1732 1751	Wang et al., 2017b)
+T42	Reference 1800 1818	(Wang et al., 2018
+T43	Reference 1820 1844	Clark and Gardner, 2017)
+T44	Reference 2034 2054	(Tay et al., 2018c,b
+T45	Reference 2056 2071	Hu et al., 2018
+T46	Reference 2073 2091	Tay et al., 2018a)
+T47	Reference 2330 2353	(Wang and Jiang, 2016b)
+T48	Reference 2387 2410	(Wang and Jiang, 2016a)
+T49	Reference 2468 2486	(Tan et al., 2017)
+T50	Dominant 2501 2519	(Tan et al., 2017)
+T51	Dominant 2745 2764	(See et al., 2017 )
+T52	Dominant 2895 2912	(Gu et al., 2016)
+T53	Dominant 3092 3113	(McCann et al., 2018)
+T54	Pronoun 1229 1233	this
+T55	Pronoun 1277 1281	this
+T56	Pronoun 1862 1864	it
+T57	Pronoun 2109 2113	this
+T58	Pronoun 2275 2279	this
+T59	E_span 189 193	over
+T60	B_span 272 276	Wang
+T61	E_span 348 354	reward
+T62	B_span 362 363	(
+T63	E_span 441 449	question
+T64	B_span 458 463	Clark
+T65	E_span 576 583	setting
+T66	B_span 592 595	Lin
+T67	E_span 642 652	techniques
+T68	B_span 661 665	Wang
+T69	E_span 727 734	ranking
+T70	B_span 992 1002	curriculum
+T71	E_span 1033 1037	2009
+T72	B_span 1126 1130	Self
+T73	E_span 1259 1266	problem
+T74	B_span 1288 1294	Sachan
+T75	E_span 1359 1368	answering
+T76	B_span 1376 1385	Automatic
+T77	E_span 1493 1501	progress
+T79	E_span 1679 1684	2018c
+T80	B_span 1694 1698	Self
+T81	E_span 1745 1750	2017b
+T82	B_span 1778 1785	reading
+T83	E_span 1839 1843	2017
+T89	E_span 2085 2090	2018a
+T90	B_span 2307 2311	span
+T91	E_span 2347 2352	2016b
+T92	B_span 2361 2369	multiple
+T93	E_span 2404 2409	2016a
+T94	B_span 2448 2458	generation
+T95	E_span 2481 2485	2017
+T96	B_span 2495 2496	S
+T97	E_span 2563 2572	framework
+T98	B_span 2719 2735	PointerGenerator
+T99	E_span 2837 2850	summarization
+T100	B_span 2887 2894	CopyNet
+T101	E_span 2968 2976	learning
+T102	B_span 2984 2991	Pointer
+T103	E_span 3108 3112	2018
+T104	B_span 27 31	open
+T78	B_span 1580 1585	cross
+T84	B_span 1950 1959	truncated

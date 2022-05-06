@@ -1,0 +1,36 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 157 162	[BOS]
+T3	Narrative_cite 335 340	[BOS]
+T4	Single_summ 735 740	[BOS]
+T5	Single_summ 877 882	[BOS]
+T6	Reflection 1035 1040	[BOS]
+T7	Narrative_cite 1170 1175	[BOS]
+T8	Reflection 1407 1412	[BOS]
+T9	Reference 90 110	(Jia and Liang, 2016
+T10	Reference 112 133	Dong and Lapata, 2016
+T11	Reference 135 154	Duong et al., 2017)
+T12	Reference 421 443	(Thompson et al., 1999
+T13	Reference 445 462	Tang et al., 2002
+T14	Reference 464 485	Chenguang Wang, 2017)
+T15	Reference 546 574	(Culotta and McCallum, 2005)
+T16	Reference 590 616	(Settles and Craven, 2008)
+T17	Reference 668 683	(Settles, 2012)
+T18	Reference 713 732	(Fang et al., 2017)
+T19	Dominant 856 874	Iyer et al. (2017)
+T20	Reference 1386 1403	Fang et al., 2017
+T21	B_span 73 81	semantic
+T22	E_span 149 153	2017
+T23	B_span 390 397	machine
+T24	E_span 480 484	2017
+T25	B_span 529 539	confidence
+T26	E_span 569 573	2005
+T27	B_span 577 582	large
+T28	E_span 611 615	2008
+T29	B_span 619 626	entropy
+T30	E_span 678 682	2012
+T31	B_span 690 703	reinforcement
+T32	E_span 727 731	2017
+T33	B_span 741 753	Nevertheless
+T34	E_span 1022 1032	collection
+T35	E_span 1399 1403	2017
+T36	B_span 1296 1302	mostly

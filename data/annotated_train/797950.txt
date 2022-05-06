@@ -1,0 +1,10 @@
+[BOS] Many aspects of this research were inspired by the recent work of Koo et al. (2008) , who reported impressive results on improving dependency parsing accuracy using a second order edge-factored model and word clusters derived from plain text using the Brown et al. (1992) algorithm.
+[BOS] Our clustering approach is significantly different, focusing on the use of parsed data to produce strictly syntactic clusters.
+[BOS] It is possible that using both types of clusters may be beneficial.
+
+[BOS] McClosky et al. (2006) used a large corpus of parsed text to obtain improved parsing results through self-training.
+[BOS] A key difference in our general framework is that it allows for a parser with one type of syntactic representation to improve the accuracy of a different parser with a different type of formalism.
+[BOS] In this regard, our work is related to that of Sagae et al. (2007) , who used a stacking-like framework to allow a surface dependency parser to improve an HPSG parser.
+[BOS] In that work, however, as in other work that combines different parsers through stacking (Martins et al., 2008; Nivre and McDonald, 2008) or voting (Henderson and Brill, 1999) , multiple parsers need to process new text at runtime.
+[BOS] In our approach for leveraging diverse parsers, one of the parsers is used only to create a parsed corpus from which we extract clusters of words that have similar syntactic behaviors, and only one parser is needed at run-time.
+

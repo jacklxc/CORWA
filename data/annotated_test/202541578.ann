@@ -1,0 +1,106 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 152 157	[BOS]
+T3	Transition 289 294	[BOS]
+T4	Intro 423 428	[BOS]
+T5	Transition 485 490	[BOS]
+T6	Narrative_cite 590 595	[BOS]
+T7	Narrative_cite 878 883	[BOS]
+T8	Single_summ 1060 1065	[BOS]
+T9	Single_summ 1193 1198	[BOS]
+T10	Single_summ 1472 1477	[BOS]
+T11	Single_summ 1641 1646	[BOS]
+T12	Transition 1822 1827	[BOS]
+T13	Narrative_cite 1935 1940	[BOS]
+T14	Narrative_cite 2095 2100	[BOS]
+T15	Single_summ 2288 2293	[BOS]
+T16	Single_summ 2592 2597	[BOS]
+T17	Narrative_cite 2755 2760	[BOS]
+T18	Multi_summ 3157 3162	[BOS]
+T19	Narrative_cite 3383 3388	[BOS]
+T20	Narrative_cite 3713 3718	[BOS]
+T21	Narrative_cite 3903 3908	[BOS]
+T22	Reference 101 122	(Wiseman et al., 2018
+T23	Reference 124 149	Prabhakaran et al., 2018)
+T24	Reference 714 741	(Filippova and Strube, 2008
+T25	Reference 743 766	Filippova et al., 2015)
+T26	Reference 857 875	(Zhu et al., 2010)
+T27	Reference 965 983	(Xu et al., 2016a)
+T28	Reference 1032 1056	(Zhang and Lapata, 2017)
+T29	Dominant 1092 1110	Dong et al. (2019)
+T31	Dominant 1718 1734	Gu et al. (2019)
+T32	Reference 2011 2035	(Filippova et al., 2015)
+T33	Reference 2059 2080	(Narayan et al., 2018
+T34	Reference 2082 2092	Liu, 2019)
+T35	Reference 2155 2172	(Tan et al., 2017
+T36	Reference 2174 2191	Rush et al., 2015
+T37	Reference 2193 2213	Paulus et al., 2017)
+T38	Dominant 2331 2354	Jing and McKeown (2000)
+T39	Dominant 2598 2615	See et al. (2017)
+T40	Reference 2801 2827	(Dernoncourt et al., 2018)
+T41	Reference 2849 2872	Toutanova et al. (2016)
+T42	Dominant 3212 3230	(Ng et al., , 2014
+T43	Reference 3512 3537	(Knight and Chander, 1994
+T44	Reference 3539 3564	Rozovskaya et al., 2014 )
+T45	Reference 3671 3710	(JunczysDowmunt and Grundkiewicz, 2014)
+T46	Reference 3889 3899	(Rei, 2017
+T47	Reference 3994 4010	(Ge et al., 2018
+T48	Reference 4012 4036	Chollampatt and Ng, 2018
+T49	Reference 4038 4056	Zhao et al., 2019)
+T50	Reference 4152 4172	(Kasewa et al., 2018
+T51	Reference 4174 4203	Junczys-Dowmunt et al., 2018)
+T52	B_span 85 89	text
+T53	E_span 148 149	)
+T54	B_span 671 672	a
+T57	E_span 765 766	)
+T58	B_span 809 818	splitting
+T59	E_span 874 875	)
+T60	B_span 950 956	phrase
+T61	E_span 982 983	)
+T62	B_span 1002 1008	neural
+T63	E_span 1055 1056	)
+T64	B_span 1092 1096	Dong
+T66	B_span 1647 1654	Another
+T69	E_span 1819 1820	.
+T70	B_span 1999 2004	token
+T71	E_span 2034 2035	)
+T72	B_span 2044 2052	sentence
+T73	E_span 2091 2092	)
+T74	B_span 2124 2130	neural
+T75	E_span 2212 2213	)
+T76	B_span 2323 2327	work
+T79	E_span 2590 2591	.
+T80	B_span 2598 2601	See
+T81	E_span 2752 2753	.
+T82	B_span 2778 2784	summar
+T83	E_span 2826 2827	)
+T84	B_span 2846 2848	by
+T85	E_span 2871 2872	)
+T86	B_span 3163 3165	In
+T87	E_span 3381 3382	.
+T88	B_span 3475 3486	classifiers
+T91	E_span 3563 3564	)
+T92	B_span 3622 3630	adapting
+T93	E_span 3709 3710	)
+T95	E_span 3895 3899	2017
+T96	B_span 3972 3977	error
+T97	E_span 4055 4056	)
+T98	B_span 4113 4118	tasks
+T99	E_span 4202 4203	)
+T100	Pronoun 432 436	this
+T101	Pronoun 471 476	these
+T102	Pronoun 617 621	this
+T103	Pronoun 1081 1085	this
+T104	Pronoun 1241 1245	They
+T105	Pronoun 1348 1352	they
+T106	Pronoun 1496 1501	their
+T107	Pronoun 1545 1547	it
+T108	Pronoun 1628 1633	their
+T109	Pronoun 1941 1943	It
+T110	Pronoun 2294 2298	This
+T111	Pronoun 2415 2417	it
+T112	Pronoun 2997 3001	this
+T113	Pronoun 3403 3407	this
+T114	Pronoun 3829 3833	they
+T55	E_span 1634 1639	model
+T30	Dominant 3196 3211	Ng et al., 2013
+T56	B_span 3853 3857	word

@@ -1,0 +1,2 @@
+[BOS] We will first focus on bilingual embedding mappings, which are the basis of our proposals, and then on other unsupervised and weakly supervised methods to learn bilingual word embeddings.
+

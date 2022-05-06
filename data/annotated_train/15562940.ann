@@ -1,0 +1,53 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 170 175	[BOS]
+T3	Single_summ 260 265	[BOS]
+T4	Single_summ 375 380	[BOS]
+T5	Single_summ 545 550	[BOS]
+T6	Single_summ 648 653	[BOS]
+T7	Single_summ 763 768	[BOS]
+T8	Single_summ 946 951	[BOS]
+T9	Single_summ 1277 1282	[BOS]
+T10	Single_summ 1530 1535	[BOS]
+T11	Single_summ 1620 1625	[BOS]
+T12	Single_summ 1753 1758	[BOS]
+T13	Single_summ 1894 1899	[BOS]
+T14	Single_summ 2118 2123	[BOS]
+T15	Single_summ 2314 2319	[BOS]
+T16	Reflection 2453 2458	[BOS]
+T17	Reflection 2672 2677	[BOS]
+T19	Dominant 266 288	Bean and Riloff (2004)
+T20	Dominant 654 672	Yang et al. (2005)
+T21	Dominant 965 985	Kehler et al. (2004)
+T22	Dominant 1412 1424	Pekar (2006)
+T23	Dominant 1626 1643	Abe et al. (2008)
+T24	Dominant 1759 1787	Chambers and Jurafsky (2008)
+T25	Dominant 2124 2146	Bean and Riloff (2004)
+T27	Pronoun 381 385	They
+T28	Pronoun 551 555	They
+T29	Pronoun 769 773	They
+T30	Pronoun 832 837	their
+T31	Pronoun 893 895	it
+T32	Pronoun 1486 1491	these
+T33	Pronoun 1900 1904	They
+T34	Pronoun 2269 2273	they
+T35	Pronoun 2320 2324	They
+T36	Pronoun 2329 2334	these
+T37	Pronoun 2459 2464	Their
+T38	Pronoun 2689 2693	this
+T26	Dominant 88 109	Dagan and Itai (1990)
+T18	B_span 88 93	Dagan
+T39	E_span 247 258	frequencies
+T40	B_span 266 270	Bean
+T41	E_span 637 646	disasters
+T42	B_span 654 658	Yang
+T43	E_span 933 943	resolution
+T44	B_span 952 954	In
+T45	E_span 1264 1274	statistics
+T46	B_span 1412 1417	Pekar
+T47	E_span 1607 1618	entailments
+T48	B_span 1626 1629	Abe
+T49	E_span 1742 1751	relations
+T50	B_span 1759 1767	Chambers
+T51	E_span 2111 2116	model
+T52	B_span 2124 2128	Bean
+T53	E_span 2442 2451	disasters

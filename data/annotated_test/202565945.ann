@@ -1,0 +1,91 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 270 275	[BOS]
+T3	Single_summ 374 379	[BOS]
+T4	Single_summ 506 511	[BOS]
+T5	Single_summ 632 637	[BOS]
+T6	Transition 917 922	[BOS]
+T7	Transition 1077 1082	[BOS]
+T8	Transition 1167 1172	[BOS]
+T9	Single_summ 1387 1392	[BOS]
+T10	Single_summ 1579 1584	[BOS]
+T11	Single_summ 1927 1932	[BOS]
+T12	Reflection 2102 2107	[BOS]
+T13	Transition 2200 2205	[BOS]
+T14	Narrative_cite 2392 2397	[BOS]
+T15	Narrative_cite 2689 2694	[BOS]
+T16	Transition 2880 2885	[BOS]
+T17	Transition 2951 2956	[BOS]
+T18	Narrative_cite 3114 3119	[BOS]
+T19	Single_summ 3343 3348	[BOS]
+T20	Single_summ 3554 3559	[BOS]
+T21	Reflection 3752 3757	[BOS]
+T22	Reflection 4044 4049	[BOS]
+T23	Narrative_cite 4168 4173	[BOS]
+T24	Transition 4458 4463	[BOS]
+T25	Transition 4720 4725	[BOS]
+T26	Reference 147 169	(Hermann et al., 2015)
+T27	Reference 187 206	(Yang et al., 2015)
+T28	Reference 242 267	(Rajpurkar et al., , 2018
+T29	Dominant 380 399	Joshi et al. (2017)
+T30	Dominant 529 550	(Weston et al., 2016)
+T31	Dominant 638 657	Welbl et al. (2017)
+T32	Dominant 1419 1437	Min et al. (2019b)
+T33	Reference 2405 2428	(Andreas et al., 2016b)
+T34	Reference 2437 2454	(Hu et al., 2017)
+T35	Reference 2463 2485	(Johnson et al., 2017)
+T36	Reference 2494 2518	(Mascharka et al., 2018)
+T37	Reference 2727 2750	(Andreas et al., 2016b)
+T38	Reference 2770 2786	(Hu et al., 2017
+T39	Reference 2788 2808	Johnson et al., 2017
+T40	Reference 2810 2833	Mascharka et al., 2018)
+T41	Reference 3324 3340	(Williams, 1992)
+T42	Dominant 3349 3365	Hu et al. (2018)
+T43	Dominant 3597 3613	Hu et al. (2018)
+T44	Reference 3916 3933	(Seo et al., 2017
+T45	Reference 3935 3954	Xiong et al., 2017)
+T46	Reference 4283 4301	(Zoph and Le, 2016
+T47	Reference 4303 4320	Pham et al., 2018
+T48	Reference 4322 4339	Liu et al., 2018)
+T49	B_span 130 133	clo
+T50	E_span 168 169	)
+T51	B_span 172 176	open
+T52	E_span 205 206	)
+T53	B_span 213 217	more
+T54	E_span 263 267	2018
+T55	B_span 380 383	Jos
+T56	E_span 504 505	.
+T57	B_span 512 515	The
+T58	E_span 630 631	.
+T59	B_span 638 641	Wel
+T60	E_span 915 916	.
+T61	B_span 1419 1422	Min
+T63	B_span 2401 2403	NM
+T64	E_span 2427 2428	)
+T65	B_span 2431 2432	N
+T66	E_span 2453 2454	)
+T67	B_span 2457 2459	PG
+T68	E_span 2484 2485	)
+T69	B_span 2490 2492	Tb
+T70	E_span 2517 2518	)
+T71	B_span 2720 2726	parser
+T72	E_span 2751 2753	or
+T73	B_span 2756 2762	layout
+T74	E_span 2832 2833	)
+T75	B_span 3314 3323	Reinforce
+T76	E_span 3339 3340	)
+T77	B_span 3349 3351	Hu
+T78	E_span 3552 3553	.
+T79	B_span 3597 3599	Hu
+T81	B_span 3903 3905	bi
+T82	E_span 3953 3954	)
+T83	B_span 4250 4256	Neural
+T84	E_span 4338 4339	)
+T85	Pronoun 1083 1085	It
+T86	Pronoun 1594 1599	their
+T87	Pronoun 1734 1738	this
+T88	Pronoun 1943 1947	they
+T89	Pronoun 2695 2699	This
+T90	Pronoun 2712 2714	it
+T91	Reference 219 241	Rajpurkar et al., 2016
+T92	E_span 2094 2100	output
+T62	E_span 3744 3750	inputs

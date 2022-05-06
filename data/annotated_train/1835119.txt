@@ -1,0 +1,22 @@
+[BOS] Both the baseline (Berkeley parser) and the current state-of-the-art model on the SPMRL Shared Task 2014 (Bjrkelund et al., 2014) rely on probabilistic context free grammar (PCFG)-based features.
+[BOS] The latter uses a product of PCFG with latent annotation based models (Petrov, 2010) , with a coarse-to- O : B-SQ I-SQ I-SQ E-SQ Figure 1 : Greedy parsing algorithm (3 iterations), on the sentence "Did you hear the falling bombs ?".
+[BOS] I W , I T and O stand for input words (or composed word representations R i ), input syntactic tags (parsing or part-of-speech) and output tags (parsing), respectively.
+[BOS] The tree produced after 3 greedy iterations can be reconstructed as the following: (SQ (VBD Did) (NP (PRP you)) (VP (VB hear) (NP (DT the) (VBG falling) (NNS bombs))) (.
+[BOS] ?
+[BOS] )).
+
+[BOS] fine decoding strategy.
+[BOS] The output is then discriminatively reranked (Charniak and Johnson, 2005) to select the best analysis.
+[BOS] In contrast, the parser used in this paper constructs the parse tree in a greedy manner and relies only on word, POS tags and morphological embeddings.
+[BOS] Several other papers have reported results for the SPMRL Shared Task 2014.
+[BOS] (Hall et al., 2014) introduced an approach where, instead of propagating contextual information from the leaves of the tree to internal nodes in order to refine the grammar, the structural complexity of the grammar is minimized.
+[BOS] This is done by moving as much context as possible onto local surface features.
+[BOS] This work was refined in (Durrett and Klein, 2015) , taking advantage of continuous word representations.
+[BOS] The system used in this paper also leverages words embeddings but has two major differences.
+[BOS] First, it proceeds step-by-step in a greedy manner (Durrett and Klein, 2015) by using structured inference (CKY).
+[BOS] Second, it leverages a compositional node feature which propagates information from the leaves to internal nodes, which is exactly what is claimed not to be done.
+[BOS] (Fernndez-Gonzlez and Martins, 2015) proposed a procedure to turn a dependency tree into a constituency tree.
+[BOS] They showed that encoding order information in the dependency tree make it isomorphic to the constituent tree, allowing any dependency parser to produce constituents.
+[BOS] Like the parser we used, their parser do not need to binarize the treebank as most of the others constituency parsers.
+[BOS] Unlike this system, we do not use the dependency structure as an intermediate representation and directly perform constituency parsing over raw words.
+

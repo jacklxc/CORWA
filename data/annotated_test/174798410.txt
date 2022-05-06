@@ -1,0 +1,15 @@
+[BOS] Since this work aims at investigating and gaining an understanding of the kinds of information a generative neural response model learns to use, the most relevant pieces of work are where sim- Khandelwal et al. (2018) .
+[BOS] They empirically demonstrate that models are sensitive to perturbations only in the nearby context and typically use only about 150 words of context.
+[BOS] On the other hand, in conditional language modeling tasks like machine translation, models are adversely affected by both synthetic and natural noise introduced anywhere in the input (Belinkov and Bisk, 2017) .
+[BOS] Understanding what information is learned or contained in the representations of neural networks has also been studied by "probing" them with linear or deep models (Adi et al., 2016; Subramanian et al., 2018; Conneau et al., 2018) .
+[BOS] Several works have recently pointed out the presence of annotation artifacts in common text and multi-modal benchmarks.
+[BOS] For example, Gururangan et al. (2018) demonstrate that hypothesisonly baselines for natural language inference obtain results significantly better than random guessing.
+[BOS] Kaushik and Lipton (2018) report that reading comprehension systems can often ignore the entire question or use only the last sentence of a document to answer questions.
+[BOS] Anand et al. (2018) show that an agent that does not navigate or even see the world around it can answer questions about it as well as one that does.
+[BOS] These pieces of work suggest that while neural methods have the potential to learn the task specified, its design could lead them to do so in a manner that doesn't use all of the available information within the task.
+
+[BOS] Recent work has also investigated the inductive biases that different sequence models learn.
+[BOS] For example, Tran et al. (2018) find that recurrent models are better at modeling hierarchical structure while Tang et al. (2018) find that feedforward architectures like the transformer and convolutional models are not better than RNNs at modeling long-distance agreement.
+[BOS] Transformers however excel at word-sense disambiguation.
+[BOS] We analyze whether the choice of architecture and the use of an attention mechanism affect the way in which dialog systems use information available to them.
+

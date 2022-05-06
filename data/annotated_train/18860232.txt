@@ -1,0 +1,48 @@
+[BOS] NIL expression recognition, in particular, can be considered as a subtask of information extraction (IE).
+[BOS] Named entity recognition (NER) happens to hold similar objective with NIL expression recognition, i.e. to extract meaningful text segments from unstructured text according to certain predefined criteria.
+
+[BOS] NER is a key technology for NLP applications such as IE and question & answering.
+[BOS] It typically aims to recognize names for person, organization, location, and expressions of number, time and currency.
+[BOS] The objective is achieved by employing either handcrafted knowledge or supervised learning techniques.
+[BOS] The latter is currently dominating in NER amongst which the most popular methods are decision tree (Sekine et al., 1998; Pailouras et al., 2000) , Hidden Markov Model (Zhang et al., 2003; Zhao, 2004) , maximum entropy (Chieu and Ng, 2002; Bender et al., 2003) , and support vector machines (Isozaki and Kazawa, 2002; Takeuchi and Collier, 2002; Mayfield, 2003) .
+
+[BOS] From the linguistic perspective, NIL expressions are rather different from named entities in nature.
+[BOS] Firstly, named entity is typically noun or noun phrase (NP), but NIL expression can be any kind, e.g. number "94" in NIL represents " " which is a verb meaning "exactly be".
+[BOS] Secondly, named entities often have well-defined meanings in text and are tractable from a standard dictionary; but NIL expressions are either unknown to the dictionary or ambiguous.
+[BOS] For example, "
+
+[BOS] " appears in conventional dictionary with the meaning of Chinese porridge, but in NIL text it represents " " which surprisingly represents "like".
+[BOS] The issue that concerns us is that these expressions like " " may also appear in NIL text with their formal meaning.
+[BOS] This leads to ambiguity and makes it more difficult in NIL processing.
+
+[BOS] Another notable work is the project of "Normalization of Non-standard Words" (Sproat et al., 2001 ) which aims to detect and normalize the "Non-Standard Words (NSW)" such as digit sequence; capital word or letter sequence; mixed case word; abbreviation; Roman numeral; URL and e-mail address.
+[BOS] In our work, we consider most types of the NSW in English except URL and email address.
+[BOS] Moreover, we consider Chinese NIL expressions that contain same characters as the normal words.
+[BOS] For example, " " and " " both appear in common dictionaries, but they carry anomalous meanings in NIL text.
+[BOS] Ambiguity arises and basically brings NIL expressions recognition beyond the scope of NSW detection.
+
+[BOS] According to the above observations, we propose to employ the existing IE techniques to handle NIL expressions.
+[BOS] Our goal is to develop a NIL expression recognition system to facilitate network-mediated communication.
+[BOS] For this purpose, we first construct the required NIL knowledge resources, namely, a NIL dictionary and n-gram statistical features.
+[BOS] Number 1 "W" represents " (wan4)" and means "ten thousand".
+
+[BOS] Pronoun 9 " " represents " " and means "I".
+
+[BOS] Noun 29
+
+[BOS] "
+
+[BOS] LG" represents " (lao3 gong1)" and means "husband".
+
+[BOS] Adjective 250 "FB" represents " (fu3 bai4)" and means "corrupt".
+
+[BOS] Verb 34 " (cong1 bai2)" represents " (chong3 bai4)" and means "adore".
+
+[BOS] Adverb 10 " (fen3)" represents " (hen3)" and means "very".
+
+[BOS] Exclamation 9
+
+[BOS] " (nie0)" represents " (ne0)" and equals a descriptive exclamation.
+
+[BOS] Phrase 309 "AFK" represents "Away From Keyboard".
+

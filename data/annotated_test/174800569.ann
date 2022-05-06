@@ -1,0 +1,60 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 354 359	[BOS]
+T3	Single_summ 522 527	[BOS]
+T4	Single_summ 684 689	[BOS]
+T5	Reflection 848 853	[BOS]
+T6	Reflection 1056 1061	[BOS]
+T7	Narrative_cite 1218 1223	[BOS]
+T8	Narrative_cite 1405 1410	[BOS]
+T9	Single_summ 1619 1624	[BOS]
+T10	Narrative_cite 1759 1764	[BOS]
+T11	Reflection 1950 1955	[BOS]
+T12	Transition 2192 2197	[BOS]
+T13	Transition 2278 2283	[BOS]
+T14	Multi_summ 2423 2428	[BOS]
+T15	Narrative_cite 2520 2525	[BOS]
+T16	Reflection 2725 2730	[BOS]
+T17	Reflection 2979 2984	[BOS]
+T18	Reference 121 142	(Vinyals and Le, 2015
+T19	Reference 144 161	Shen et al., 2018
+T20	Reference 163 178	Wu et al., 2018
+T21	Reference 180 200	Serban et al., 2017a
+T22	Reference 202 220	Raghu et al., 2018
+T23	Reference 222 238	Li et al., 2016)
+T24	Reference 268 287	(Reddy et al., 2017
+T25	Reference 289 307	Duan et al., 2017)
+T26	Dominant 531 553	(Serban et al., 2017b)
+T27	Dominant 738 757	(Zhao et al., 2017)
+T28	Reference 1260 1281	(Herzig et al., 2016)
+T29	Reference 1482 1498	(Hu et al., 2017
+T30	Reference 1500 1515	Li et al., 2017
+T31	Reference 1517 1541	Subramanian et al., 2017
+T32	Reference 1543 1561	Fedus et al., 2018
+T33	Dominant 1655 1675	(Zhou and Wang, 2018
+T34	Reference 1865 1886	(Herzig et al., 2017)
+T35	Dominant 2432 2457	(Rao and Tetreault, 2018)
+T36	Reference 2625 2643	(Shen et al., 2017
+T37	Reference 2645 2665	Carlson et al., 2017
+T38	Reference 2667 2682	Fu et al., 2018
+T39	Reference 2684 2699	Li et al., 2018
+T40	Reference 2701 2722	Niu and Bansal, 2018)
+T41	B_span 104 112	dialogue
+T42	E_span 233 237	2016
+T43	B_span 241 249	question
+T44	E_span 302 306	2017
+T45	B_span 532 538	Serban
+T46	E_span 674 682	dialogue
+T47	B_span 690 701	Conditional
+T48	E_span 839 846	encoder
+T49	B_span 1224 1231	Emotion
+T50	E_span 1276 1280	2016
+T51	B_span 1455 1465	controlled
+T52	E_span 1557 1561	2018
+T53	B_span 1625 1632	Emotion
+T54	E_span 1750 1757	emotion
+T55	B_span 1826 1834	inducing
+T56	E_span 1881 1885	2017
+T57	B_span 2433 2436	Rao
+T58	E_span 2510 2518	transfer
+T59	B_span 2577 2589	transforming
+T60	E_span 2717 2721	2018

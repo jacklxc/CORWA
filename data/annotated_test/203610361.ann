@@ -1,0 +1,65 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 320 325	[BOS]
+T3	Transition 626 631	[BOS]
+T4	Narrative_cite 848 853	[BOS]
+T5	Transition 1085 1090	[BOS]
+T6	Narrative_cite 1249 1254	[BOS]
+T7	Reflection 1482 1487	[BOS]
+T8	Transition 1740 1745	[BOS]
+T9	Narrative_cite 1864 1869	[BOS]
+T10	Transition 2111 2116	[BOS]
+T11	Transition 2258 2263	[BOS]
+T12	Narrative_cite 2392 2397	[BOS]
+T13	Reflection 2583 2588	[BOS]
+T14	Transition 2694 2699	[BOS]
+T15	Multi_summ 2854 2859	[BOS]
+T16	Single_summ 3146 3151	[BOS]
+T17	Single_summ 3212 3217	[BOS]
+T18	Transition 3368 3373	[BOS]
+T19	Transition 3514 3519	[BOS]
+T20	Transition 3611 3616	[BOS]
+T21	Reflection 3749 3754	[BOS]
+T22	Reflection 3836 3841	[BOS]
+T23	B_span 153 157	self
+T24	E_span 182 186	2017
+T25	Reference 169 186	Wang et al., 2017
+T26	B_span 194 205	biattention
+T27	E_span 219 223	2016
+T28	Reference 207 223	Seo et al., 2016
+T29	B_span 408 413	super
+T30	E_span 465 469	2017
+T31	Reference 434 450	Seo et al., 2016
+T32	Reference 452 469	Chen et al., 2017
+T33	B_span 530 544	generalisation
+T34	E_span 599 603	2018
+T35	Reference 546 564	Wiese et al., 2017
+T36	B_span 566 568	co
+T37	Reference 585 603	Welbl et al., 2018
+T38	E_span 560 564	2017
+T39	B_span 883 891	creation
+T40	E_span 975 979	2018
+T41	Reference 957 979	Battaglia et al., 2018
+T42	B_span 1430 1437	Protein
+T43	E_span 1473 1477	2018
+T44	Reference 1460 1477	Zhou et al., 2018
+T45	B_span 1905 1910	Graph
+T46	E_span 1957 1961	2018
+T47	Reference 1935 1961	Schlichtkrull et al., 2018
+T48	Reference 2435 2454	De Cao et al., 2018
+T49	Reference 2461 2478	Song et al., 2018
+T50	B_span 2435 2437	De
+T51	E_span 2450 2454	2018
+T52	B_span 2461 2465	Song
+T53	E_span 2474 2478	2018
+T54	B_span 2893 2901	Watanabe
+T55	E_span 3001 3010	paragraph
+T56	B_span 3016 3020	Geva
+T57	E_span 3140 3144	tree
+T58	Dominant 3016 3038	Geva and Berant, 2018)
+T59	Dominant 2893 2914	Watanabe et al., 2017
+T62	Dominant 3185 3209	Clark and Gardner, 2017)
+T63	E_span 3357 3366	documents
+T60	B_span 3154 3161	similar
+T61	B_span 3866 3871	state
+T64	E_span 3905 3909	2016
+T65	Reference 3893 3909	Seo et al., 2016

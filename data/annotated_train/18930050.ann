@@ -1,0 +1,55 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 185 190	[BOS]
+T3	Transition 397 402	[BOS]
+T4	Multi_summ 487 492	[BOS]
+T5	Multi_summ 651 656	[BOS]
+T6	Transition 835 840	[BOS]
+T7	Narrative_cite 1029 1034	[BOS]
+T8	Transition 1204 1209	[BOS]
+T9	Transition 1393 1398	[BOS]
+T10	Transition 1587 1592	[BOS]
+T11	Transition 1697 1702	[BOS]
+T12	Transition 1890 1895	[BOS]
+T13	Transition 2060 2065	[BOS]
+T14	Narrative_cite 2158 2163	[BOS]
+T15	Narrative_cite 2337 2342	[BOS]
+T16	Transition 2525 2530	[BOS]
+T17	Transition 2607 2612	[BOS]
+T18	Transition 2718 2723	[BOS]
+T19	Transition 2855 2860	[BOS]
+T20	Transition 3022 3027	[BOS]
+T21	Transition 3145 3150	[BOS]
+T22	Reference 322 337	Gao and Li 2005
+T23	Reference 339 347	Xue 2003
+T24	Reference 349 369	Sproat and Shih 2002
+T25	Reference 371 394	Wang, Liu and Qin 2006)
+T26	Reference 749 769	Sproat and Shih 2002
+T27	Reference 771 778	Li 1999
+T28	Reference 780 789	Kwok 1997
+T29	Reference 791 832	Peng, Huang, Schuurmans and Cercone 2002)
+T30	Reference 1132 1150	(Qiu and Frei 1993
+T31	Reference 1152 1174	Sun, Ong and Chua 2006
+T32	Reference 1176 1201	Robertson and Jones 1976)
+T33	Reference 2269 2283	(Rocchio 1997)
+T34	Reference 2308 2334	(Robertson and Jones 1976)
+T35	Reference 2379 2409	(Kwok, Grunfeld and Chan 2000)
+T36	Reference 2493 2522	(Smeaton and Rijsbergen 1983)
+T38	E_span 389 393	2006
+T37	B_span 191 200	Therefore
+T39	B_span 493 500	Several
+T40	E_span 827 831	2002
+T41	B_span 1035 1041	Pseudo
+T42	E_span 1200 1201	)
+T43	B_span 2240 2242	tf
+T44	E_span 2278 2282	1997
+T45	B_span 2288 2301	probabilistic
+T46	E_span 2329 2333	1976
+T47	B_span 2343 2348	Query
+T48	E_span 2434 2439	terms
+T49	B_span 2444 2448	some
+T50	E_span 2517 2521	1983
+T51	Pronoun 657 661	This
+T52	Pronoun 844 848	this
+T53	Pronoun 1473 1478	these
+T54	Pronoun 1593 1598	These
+T55	Pronoun 3028 3033	These

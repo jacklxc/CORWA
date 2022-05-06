@@ -1,0 +1,50 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 191 196	[BOS]
+T3	Single_summ 336 341	[BOS]
+T4	Single_summ 437 442	[BOS]
+T5	Single_summ 537 542	[BOS]
+T6	Single_summ 690 695	[BOS]
+T7	Single_summ 792 797	[BOS]
+T8	Single_summ 964 969	[BOS]
+T9	Transition 1057 1062	[BOS]
+T10	Multi_summ 1111 1116	[BOS]
+T11	Single_summ 1353 1358	[BOS]
+T12	Single_summ 1561 1566	[BOS]
+T13	Single_summ 1790 1795	[BOS]
+T14	Single_summ 1978 1983	[BOS]
+T15	Single_summ 2176 2181	[BOS]
+T16	Single_summ 2306 2311	[BOS]
+T17	Single_summ 2470 2475	[BOS]
+T18	Dominant 302 333	Quirk and Corston-Oliver (2006)
+T19	Dominant 543 555	Green (2011)
+T20	Dominant 813 837	Katz-Brown et al. (2011)
+T21	Dominant 1131 1149	Hara et al. (2009)
+T22	Reference 1295 1318	(Pollard and Sag, 1994)
+T23	Reference 1326 1350	(Miyao and Tsujii, 2008)
+T24	Dominant 1359 1384	McDonald and Nivre (2007)
+T25	Dominant 1585 1605	Dredze et al. (2007)
+T26	Dominant 1840 1856	Yu et al. (2011)
+T27	Dominant 2039 2056	Han et al. (2012)
+T28	Dominant 2331 2355	Gimnez and Mrquez (2008)
+T29	B_span 197 200	One
+T30	E_span 527 535	accuracy
+T31	B_span 543 548	Green
+T32	E_span 781 790	framework
+T33	B_span 798 800	In
+T34	E_span 1047 1054	quality
+T35	B_span 1131 1135	Hara
+T36	E_span 1345 1349	2008
+T37	E_span 1345 1349	2008
+T38	B_span 1319 1325	parser
+T39	E_span 1313 1317	1994
+T40	B_span 1252 1262	Headdriven
+T41	B_span 1359 1367	McDonald
+T42	E_span 1553 1559	models
+T43	B_span 1585 1591	Dredze
+T44	E_span 1783 1788	tasks
+T45	B_span 1840 1842	Yu
+T46	E_span 1968 1975	English
+T47	B_span 1984 1989	There
+T48	E_span 2292 2304	relationship
+T49	B_span 2331 2337	Gimnez
+T50	E_span 2559 2570	performance

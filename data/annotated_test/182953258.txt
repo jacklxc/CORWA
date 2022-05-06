@@ -1,0 +1,6 @@
+[BOS] Text embeddings and probe tasks A variety of methods exist for obtaining fixed-length dense vector representations of words (e.g., Mikolov et al., 2013; Pennington et al., 2014; Peters et al., 2018) , sentences (e.g., Kiros et al., 2015; Conneau et al., 2017; Subramanian et al., 2018; Cer et al., 2018) , and larger bodies of text (e.g., Le and Mikolov, 2014; Dai et al., 2015; Iyyer et al., 2015; Li et al., 2015; Chen, 2017; Zhang et al., 2017) To analyze word and sentence embeddings, recent work has studied classification tasks that probe them for various linguistic properties (Shi et al., 2016; Adi et al., 2017; Belinkov et al., 2017a,b; Conneau et al., 2018; Tenney et al., 2019) .
+[BOS] In this paper, we extend the notion of probe tasks to the paragraph level.
+
+[BOS] Transfer learning Another line of related work is transfer learning, which has been the driver of recent successes in NLP.
+[BOS] Recently-proposed objectives for transfer learning include surrounding sentence prediction (Kiros et al., 2015) , paraphrasing (Wieting and Gimpel, 2017) , entailment (Conneau et al., 2017) , machine translation (McCann et al., 2017) , discourse (Jernite et al., 2017; Nie et al., 2017) , and language modeling (Peters et al., 2018; Radford et al., 2018; Devlin et al., 2018) .
+

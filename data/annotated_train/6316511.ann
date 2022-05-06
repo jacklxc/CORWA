@@ -1,0 +1,31 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 91 96	[BOS]
+T3	Single_summ 299 304	[BOS]
+T4	Single_summ 484 489	[BOS]
+T5	Single_summ 882 887	[BOS]
+T6	Single_summ 1073 1078	[BOS]
+T7	Transition 1178 1183	[BOS]
+T8	Transition 1295 1300	[BOS]
+T9	Single_summ 1479 1484	[BOS]
+T10	Single_summ 1792 1797	[BOS]
+T11	Transition 1880 1885	[BOS]
+T12	Transition 2047 2052	[BOS]
+T13	Reflection 2221 2226	[BOS]
+T14	Dominant 97 121	(Toutonova et al., 2007)
+T15	Dominant 429 451	(Bojar and Haji, 2008)
+T16	Dominant 490 519	(Yeniterzi and Oflazer, 2010)
+T17	Reference 615 638	(Koehn and Hoang, 2007)
+T18	Dominant 1079 1099	(Bojar et al., 2012)
+T19	Dominant 1552 1584	(Singh and Bandyopadhyay, 2010b)
+T20	B_span 98 107	Toutonova
+T21	E_span 288 297	languages
+T22	B_span 305 318	Contributions
+T23	E_span 476 482	system
+T24	B_span 491 500	Yeniterzi
+T25	E_span 1062 1071	morphemes
+T26	B_span 570 576	phrase
+T27	E_span 633 637	2007
+T28	B_span 1080 1085	Bojar
+T29	E_span 1171 1176	setup
+T30	B_span 1485 1492	Machine
+T31	E_span 1874 1878	text

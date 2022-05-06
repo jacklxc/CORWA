@@ -1,0 +1,4 @@
+[BOS] The first success of sentiment analysis based on convolutional neural networks (CNN) was triggered by text classification (Kim, 2014) .
+[BOS] This work provided simple and effective In order to consider local n-gram features and long term dependency, various models which combined both CNN and LSTM were proposed (Zhang, 2017) .
+[BOS] Our model improves this approach.
+

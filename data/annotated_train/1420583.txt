@@ -1,0 +1,11 @@
+[BOS] We are not aware of previous work that discusses the issue of monsters, but there has been work on a different, length problem with PRO (Nakov et al., 2012) .
+[BOS] We have seen that its solution, fix the smoothing in BLEU+1, did not work for us.
+
+[BOS] The stability of MERT has been improved using regularization (Cer et al., 2008) , random restarts (Moore and Quirk, 2008) , multiple replications (Clark et al., 2011) , and parameter aggregation (Cettolo et al., 2011) .
+
+[BOS] With the emergence of new optimization techniques, there have been studies that compare stability between MIRA-MERT (Chiang et al., 2008; Chiang et al., 2009; Cherry and Foster, 2012) , PRO-MERT (Hopkins and May, 2011) , MIRA-PRO-MERT (Cherry and Foster, 2012; Gimpel and Smith, 2012; Nakov et al., 2012) .
+
+[BOS] Pathological verbosity can be an issue when tuning MERT on recall-oriented metrics such as METEOR (Lavie and Denkowski, 2009; Denkowski and Lavie, 2011) .
+[BOS] Large variance between the results obtained with MIRA has also been reported (Simianer et al., 2012) .
+[BOS] However, none of this work has focused on monsters.
+

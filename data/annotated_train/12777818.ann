@@ -1,0 +1,41 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 190 195	[BOS]
+T3	Narrative_cite 393 398	[BOS]
+T4	Transition 1036 1041	[BOS]
+T5	Single_summ 1219 1224	[BOS]
+T6	Single_summ 1397 1402	[BOS]
+T7	Single_summ 1616 1621	[BOS]
+T8	Reflection 1748 1753	[BOS]
+T9	Reference 77 99	(Hosseini et al., 2014
+T10	Reference 101 120	Roy and Roth, 2015)
+T12	Reference 515 538	(Sutskever et al., 2014
+T13	Reference 540 561	Bahdanau et al., 2014
+T14	Reference 563 594	Kalchbrenner and Blunsom, 2013)
+T15	Reference 666 685	(Jones et al., 2012
+T16	Reference 687 706	Berant et al., 2013
+T17	Reference 708 728	Andreas et al., 2013
+T18	Reference 730 748	Quirk et al., 2015
+T19	Reference 750 768	Liang et al., 2016
+T20	Reference 770 795	Neelakantan et al., 2016)
+T21	Reference 819 845	(Reed and de Freitas, 2016
+T22	Reference 847 867	Graves et al., 2016)
+T23	Dominant 1225 1242	Lei et al. (2016)
+T24	Dominant 1403 1426	Hendricks et al. (2016)
+T25	Pronoun 1523 1527	they
+T26	Pronoun 1622 1626	This
+T27	Pronoun 1754 1759	These
+T28	B_span 56 60	math
+T29	E_span 115 119	2015
+T11	Reference 278 294	Roy et al., 2016
+T30	B_span 490 497	encoder
+T31	E_span 589 593	2013
+T32	B_span 649 657	semantic
+T33	E_span 790 794	2016
+T34	B_span 800 807	program
+T35	E_span 862 866	2016
+T36	B_span 1225 1228	Lei
+T37	E_span 1387 1395	decision
+T38	B_span 1403 1412	Hendricks
+T39	E_span 1740 1746	answer
+T40	B_span 238 242	math
+T41	E_span 290 294	2016

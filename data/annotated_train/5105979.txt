@@ -1,0 +1,17 @@
+[BOS] Most research in the field of parsing has focused on the Wall Street Journal corpus.
+[BOS] Several researchers have addressed the portability of these WSJ parsers to other domains, but mostly without addressing the issue of how a parser can be designed specifically for porting to another domain.
+[BOS] Unfortunately, no direct empirical comparison is possible between our results and results with other parsers, because there is no standard portability benchmark to date where a small amount of data from a target domain is used.
+[BOS] (Ratnaparkhi, 1999) performed portability experiments with a Maximum Entropy parser and demonstrated that the parser trained on WSJ achieves far worse results on the Brown corpus sections.
+[BOS] Adding a small amount of data from the target domain improves the results, but accuracy is still much lower than the results on the WSJ.
+[BOS] They reported results when their parser was trained on the WSJ training set plus a portion of 2,000 sentences from a Brown corpus section.
+[BOS] They achieved 80.9%/80.3% recall/precision for section K, and 80.6%/81.3% for section N. 7 Our analogous method (TOP-Focus) achieved much better accuracy (3.7% and 4.9% better F 1 , respectively).
+
+[BOS] In addition to portability experiments with the parsing model of (Collins, 1997) , (Gildea, 2001) provided a comprehensive analysis of parser portability.
+[BOS] On the basis of this analysis, a technique for parameter pruning was proposed leading to a significant reduction in the model size without a large decrease of accuracy.
+[BOS] Gildea (2001) only reports results on sentences of 40 or less words on all the Brown corpus sections combined, for which he reports 80.3%/81.0% recall/precision when training only on data from the WSJ corpus, and 83.9%/84.8% when training on data from the WSJ corpus and all sections of the Brown corpus.
+[BOS] (Roark and Bacchiani, 2003) performed experiments on supervised and unsupervised PCFG adaptation to the target domain.
+[BOS] They propose to use the statistics from a source domain to define priors over weights.
+[BOS] However, in their experiments they used only trivial sub-cases of this approach, namely, count merging and model interpolation.
+[BOS] They achieved very good improvement over their baseline and over (Gildea, 2001) , but the absolute accuracies were still relatively low (as discussed above).
+[BOS] They report results with combined Brown data (on sentences of 100 words or less), achieving 81.3%/80.9% when training only on the WSJ corpus and 85.4%/85.9% with their best method using the data from both domains.
+

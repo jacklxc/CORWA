@@ -1,0 +1,5 @@
+[BOS] As paraphrase acquisition from a corpus, a study with a parallel corpus and comparable corpus has been performed.
+[BOS] Barzilay and McKeown paraphrase text using plural English translations made from the same document (Barzilay and McKeown, 2001 ).
+[BOS] In addition, Shinyama and Sekine paraphrase using plural newspaper articles that report the same event (Shinyama and Sekine, 2003) .
+[BOS] In a text sim-
+

@@ -1,0 +1,25 @@
+[BOS] Opinion relation extraction is an important task for fine-grained sentiment analysis.
+[BOS] If human annotations are provided (e.g. MPQA corpus (Deng and Wiebe, 2015) ), we could formulate the task into a supervised relation extraction problem as (Kobayashi et al., 2007; Johansson and Moschitti, 2013) .
+[BOS] Two types of models have been applied: pipeline models which first extract candidates of opinion expressions and targets then identify correct relations (Wu et al., 2009; Yang and Cardie, 2012) , and joint models which extract opinion expressions, targets and relations using a unified joint model (Yang and Cardie, 2013; Yang and Cardie, 2014) .
+[BOS] One consideration of applying supervised methods is their dependencies on the domains and human annotations.
+
+[BOS] Semi-supervised and unsupervised models are also applied for extracting opinion relations.
+[BOS] Approaches include rule-based bootstrapping (Qiu et al., 2011) , graph propagation algorithms (Xu et al., 2013; Liu et al., 2014; Brody and Elhadad, 2010) , integer programming (Lu et al., 2011) , and probabilistic topic models (Titov and McDonald, 2008; Mukherjee and Liu, 2012) .
+
+[BOS] Our model is inspired by previous distantly supervised algorithms (Snow et al., 2004; Mintz et al., 2009) .
+[BOS] They use relations from WordNet or knowledge bases as distant supervision.
+[BOS] Since we don't have similar resources for opinion relation extraction, we use patterns to generate relations.
+[BOS] Neural network classifiers are popular for relation extraction recently.
+[BOS] Many of them focus on fully supervised settings, recurrent neural networks (RNN) and convolutional neural networks (CNN) (Vu et al., 2016; Zeng et al., 2015; Xu et al., 2015a; Xu et al., 2015b; Zhang and Wang, 2015) , sequence models and tree models are investigated (Li et al., 2015; dos Santos et al., 2015) .
+[BOS] One similar network structure to our model is proposed in (Miwa and Bansal, 2016) .
+[BOS] They jointly extract entities and relations using two LSTM models.
+[BOS] Another recent work (Jebbara and Cimiano, 2016) uses stacked RNNs and CNNs for aspect and opinion detection.
+[BOS] Different from models there, we will learn representations for different lexical and syntactic features explicitly.
+[BOS] Our formulation follows the features in traditional relation classifiers, which helps to interpret the learned vectors.
+
+[BOS] A closely related task is aspect-based opinion mining (Zhao et al., 2010; Yu et al., 2011; .
+[BOS] Instead of locating the opinion expressions, aspect-based opinion mining directly analyzes polarities of different opinion targets.
+[BOS] The targets are usually constrained to be some predefined set.
+[BOS] Shared tasks (SemEval2014, SemEval2015) have been held on the task, and various systems are proposed and evaluated (Pontiki et al., 2014; Pontiki et al., 2015) .
+[BOS] Comparing with aspect-based opinion mining, we will extract opinion expressions which are more informative, and we won't constrain opinion target types which helps us to handle open domain texts.
+

@@ -1,0 +1,37 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 88 93	[BOS]
+T3	Transition 248 253	[BOS]
+T4	Transition 370 375	[BOS]
+T5	Narrative_cite 438 443	[BOS]
+T6	Transition 589 594	[BOS]
+T7	Transition 736 741	[BOS]
+T8	Reflection 864 869	[BOS]
+T9	Single_summ 981 986	[BOS]
+T10	Single_summ 1113 1118	[BOS]
+T11	Single_summ 1209 1214	[BOS]
+T12	Single_summ 1270 1275	[BOS]
+T13	Single_summ 1441 1446	[BOS]
+T14	Single_summ 1552 1557	[BOS]
+T15	Reference 566 586	(Nivre et al., 2007)
+T16	Dominant 987 1014	Dickinson and Ragheb (2015)
+T17	Dominant 1121 1142	Napoles et al. (2016)
+T18	Dominant 1276 1296	Berzak et al. (2016)
+T19	Dominant 1447 1467	Cahill et al. (2014)
+T20	Pronoun 193 198	these
+T21	Pronoun 232 237	their
+T22	Pronoun 254 258	This
+T23	Pronoun 786 791	their
+T24	Pronoun 881 885	this
+T25	Pronoun 939 944	their
+T26	Pronoun 1242 1246	they
+T27	Pronoun 1558 1562	They
+T28	B_span 516 520	2007
+T29	E_span 581 585	2007
+T30	B_span 987 996	Dickinson
+T31	E_span 1104 1111	English
+T32	B_span 1121 1128	Napoles
+T33	E_span 1262 1268	corpus
+T34	B_span 1276 1282	Berzak
+T35	E_span 1431 1439	accuracy
+T36	B_span 1447 1453	Cahill
+T37	E_span 1720 1724	data

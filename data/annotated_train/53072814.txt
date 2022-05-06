@@ -1,0 +1,13 @@
+[BOS] The idea of distant supervision has been proposed and used widely in Relation Extraction (Mintz et al., 2009; Riedel et al., 2010; Hoffmann et al., 2011; Surdeanu et al., 2012) , where the source of labels is an external knowledge base.
+[BOS] The label assignment is done via aligning entities from knowledge base to text.
+[BOS] In alignment, relation extraction has the problem that not every entity pair expresses the semantic relation stored in the knowledge base.
+[BOS] We can view our crowdsourced attribute labels as a knowledge base of places and their attributes.
+[BOS] The label alignment in our case is much simpler, since both attributes and reviews are associated with the place.
+[BOS] The review text, on the other hand, may or may not express the attribute acquired from crowdsourcing.
+[BOS] Recently (Lin et al., 2016) used neural methods to achieve state-of-the-art for distantly supervised relation extraction.
+[BOS] We thus focus on neural methods in our modeling.
+
+[BOS] The attribute detection task is also similar to the aspect-based sentiment analysis task (Pontiki et al., 2016) , but contains both subjective and objective aspects.
+[BOS] We take a completely different approach in this paper to tackle the problem by using distant supervision and create significantly larger amount of the training data.
+[BOS] It might be an interesting direction to use this distant supervision way to create more training data for the aspect-based sentiment analysis.
+

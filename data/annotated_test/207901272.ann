@@ -1,0 +1,37 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 131 136	[BOS]
+T3	Narrative_cite 524 529	[BOS]
+T4	Reflection 868 873	[BOS]
+T5	Reflection 1188 1193	[BOS]
+T6	B_span 254 260	linear
+T7	E_span 288 292	2011
+T8	Reference 271 292	(Lin and Bilmes, 2011
+T9	B_span 317 324	integer
+T10	E_span 390 394	2015
+T11	Reference 351 373	Nayeem and Chali, 2017
+T12	Reference 375 394	Boudin et al., 2015
+T13	B_span 398 409	conditional
+T14	E_span 444 448	2007
+T15	Reference 431 448	Shen et al., 2007
+T16	B_span 455 460	graph
+T17	E_span 516 520	2004
+T18	Reference 473 497	Parveen and Strube, 2015
+T19	Reference 499 520	Erkan and Radev, 2004
+T20	B_span 577 584	encoder
+T21	E_span 621 625	2014
+T22	Reference 604 625	Bahdanau et al., 2014
+T23	B_span 647 652	learn
+T24	E_span 720 724	2016
+T25	Reference 678 700	Jadhav and Rajan, 2018
+T26	Reference 702 724	Nallapati et al., 2016
+T27	B_span 737 747	minimizing
+T28	E_span 790 794	2017
+T29	Reference 772 794	Nallapati et al., 2017
+T30	B_span 799 812	reinforcement
+T31	E_span 860 864	2017
+T32	Reference 823 843	Narayan et al., 2018
+T33	Reference 845 864	Paulus et al., 2017
+T34	B_span 898 903	query
+T35	E_span 965 969	2017
+T36	Reference 926 943	Nema et al., 2017
+T37	Reference 945 969	Hasselqvist et al., 2017

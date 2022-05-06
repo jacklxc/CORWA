@@ -1,0 +1,12 @@
+[BOS] Deep neural network architectures have demonstrated strong results on natural language generation tasks (Xie, 2017) .
+[BOS] Recurrent neural networks using combinations of shared parameter matrices across time-steps (Sutskever et al., 2014; Mikolov et al., 2010; Cho et al., 2014) with different gating mechanisms for easing optimization (Hochreiter & Schmidhuber, 1997; Cho et al., 2014) have found some success in modeling natural language.
+[BOS] Another approach is to use convolutional neural networks that reuse kernels across time-steps with attention mechanism to perform language generation tasks (Kalchbrenner et al., 2016; .
+
+[BOS] Supervised learning with deep neural networks in the framework of encoder-decoder models has become the state-of-the-art methods for approaching NLP problems (Young et al., 2017) .
+[BOS] Recent text generation models use a wide variety of GANs such as gradient policy based sequence generation framework (Yu et al., 2016) and an actor-critic conditional GAN to fill missing text conditioned on surrounding text (Fedus et al., 2018) for performing natural language generation tasks.
+[BOS] Other architectures such as those proposed in with RNN and variational autoencoder generator with CNN discriminator and in arXiv:1808.08703v2 [cs.CL] 13 Nov 2018 (Guo et al., 2017) with leaky discriminator to guide generator through high-level extracted features have also shown great results.
+
+[BOS] Using adversarial examples of word and character level embeddings for natural language text generation has been explored in (Rajeswar et al., 2017) .
+[BOS] Models trained using generative adversarial networks or variational autoencoders have been shown to learn representations of continuous structures by leveraging deep latent variables such as text embeddings (Zhao et al., 2017) .
+[BOS] This work explores injecting sentence embeddings produced using the Skip Thought architecture into GANs with different setups.
+

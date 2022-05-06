@@ -1,0 +1,48 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 63 68	[BOS]
+T3	Single_summ 197 202	[BOS]
+T4	Single_summ 321 326	[BOS]
+T5	Single_summ 490 495	[BOS]
+T6	Narrative_cite 616 621	[BOS]
+T7	Transition 791 796	[BOS]
+T8	Single_summ 964 969	[BOS]
+T9	Single_summ 1123 1128	[BOS]
+T10	Single_summ 1250 1255	[BOS]
+T11	Transition 1355 1360	[BOS]
+T12	Single_summ 1428 1433	[BOS]
+T13	Single_summ 1529 1534	[BOS]
+T14	Single_summ 1666 1671	[BOS]
+T15	Transition 1737 1742	[BOS]
+T16	Dominant 104 123	Stab et al. (2018a)
+T17	Dominant 218 240	Laha and Raykar (2016)
+T18	Dominant 496 514	Eger et al. (2017)
+T19	Reference 762 788	(Cabrio and Villata, 2018)
+T20	Dominant 970 988	Teng et al. (2016)
+T21	Dominant 1129 1146	Zou et al. (2018)
+T23	Dominant 1462 1480	Levy et al. (2018)
+T24	Dominant 1535 1556	Shnarch et al. (2018)
+T27	Pronoun 243 247	they
+T28	Pronoun 377 379	it
+T29	Pronoun 1751 1756	these
+T30	B_span 72 79	improve
+T31	E_span 187 195	together
+T32	B_span 218 222	Laha
+T33	E_span 484 488	LSTM
+T34	B_span 496 500	Eger
+T35	E_span 603 613	components
+T36	B_span 668 675	lexical
+T37	E_span 783 787	2018
+T38	B_span 970 974	Teng
+T39	E_span 1115 1121	scores
+T40	B_span 1129 1132	Zou
+T41	E_span 1243 1248	words
+T22	Dominant 1256 1278	Bar-Haim et al. (2017)
+T42	B_span 1256 1259	Bar
+T43	E_span 1348 1352	task
+T44	B_span 1437 1442	using
+T45	E_span 1516 1527	supervision
+T46	B_span 1535 1542	Shnarch
+T47	E_span 1662 1664	AM
+T25	Dominant 1672 1695	Al-Khatib et al. (2016)
+T26	B_span 1672 1673	A
+T48	E_span 1733 1735	od

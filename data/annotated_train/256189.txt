@@ -1,0 +1,2 @@
+[BOS] Our work is inspired by two lines of research: (1) exploiting monolingual corpora for machine translation and (2) autoencoders in unsupervised and semi-supervised learning.
+

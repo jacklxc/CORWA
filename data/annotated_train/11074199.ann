@@ -1,0 +1,47 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 113 118	[BOS]
+T3	Transition 363 368	[BOS]
+T4	Multi_summ 466 471	[BOS]
+T5	Single_summ 781 786	[BOS]
+T6	Other 1037 1042	[BOS]
+T7	Single_summ 1271 1276	[BOS]
+T8	Single_summ 1586 1591	[BOS]
+T9	Multi_summ 1709 1714	[BOS]
+T10	Single_summ 1886 1891	[BOS]
+T11	Single_summ 1998 2003	[BOS]
+T12	Single_summ 2196 2201	[BOS]
+T13	Reference 282 305	(Bahdanau et al., 2015)
+T14	Dominant 568 589	Wang and Jiang (2016)
+T15	Dominant 713 735	(Vinyals et al., 2015)
+T16	Dominant 787 806	Xiong et al. (2017)
+T17	Dominant 1344 1364	Kadlec et al. (2016)
+T18	Dominant 1592 1610	Chen et al. (2016)
+T19	Dominant 1750 1768	Hill et al. (2015)
+T20	Dominant 1858 1883	(Sukhbaatar et al., 2015)
+T21	Dominant 1892 1913	Dhingra et al. (2016)
+T22	Dominant 2042 2064	(Sordoni et al., 2016)
+T23	Dominant 2202 2220	Shen et al. (2017)
+T24	Pronoun 127 131	this
+T25	Pronoun 369 374	These
+T28	B_span 568 572	Wang
+T29	E_span 654 659	query
+T31	E_span 772 779	context
+T32	B_span 787 792	Xiong
+T33	E_span 1031 1035	span
+T35	E_span 1580 1584	ones
+T36	B_span 1592 1596	Chen
+T37	E_span 1701 1707	query.
+T38	B_span 1750 1754	Hill
+T39	E_span 1878 1882	2015
+T40	B_span 1892 1899	Dhingra
+T41	E_span 1987 1996	mechanism
+T42	B_span 2004 2007	The
+T43	E_span 2185 2194	iteration
+T44	B_span 2202 2206	Shen
+T45	E_span 2378 2384	answer
+T26	B_span 236 245	recurrent
+T46	E_span 300 304	2015
+T27	B_span 672 683	introducing
+T30	B_span 1277 1279	In
+T34	E_span 1801 1807	memory
+T47	B_span 1809 1811	by

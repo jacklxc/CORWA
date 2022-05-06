@@ -1,0 +1,35 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 261 266	[BOS]
+T3	Reflection 422 427	[BOS]
+T4	Narrative_cite 633 638	[BOS]
+T5	Reflection 1000 1005	[BOS]
+T6	Other 1222 1227	[BOS]
+T7	Other 1322 1327	[BOS]
+T8	Other 1437 1442	[BOS]
+T9	Other 1630 1635	[BOS]
+T10	Other 1771 1776	[BOS]
+T11	Other 1880 1885	[BOS]
+T12	Other 2086 2091	[BOS]
+T13	Other 2188 2193	[BOS]
+T14	Reference 196 215	Socher et al., 2013
+T15	Reference 220 239	man and Potts, 2015
+T16	Reference 241 258	Tai et al., 2015)
+T17	Reference 833 859	(Bunescu and Mooney, 2005)
+T18	Reference 895 920	(Choubey and Huang, 2017)
+T19	Reference 938 955	(Moschitti, 2004)
+T20	Reference 979 997	(Cui et al., 2005)
+T21	Pronoun 280 285	these
+T22	Pronoun 1604 1609	these
+T23	Pronoun 1703 1708	their
+T24	Pronoun 2054 2058	this
+T25	Pronoun 2216 2220	this
+T29	E_span 992 996	2005
+T30	B_span 813 821	relation
+T28	E_span 854 858	2005
+T31	B_span 862 870	temporal
+T32	E_span 915 919	2017
+T33	B_span 921 929	semantic
+T34	E_span 950 954	2004
+T35	B_span 960 968	question
+T26	B_span 143 152	sentiment
+T36	E_span 253 257	2015

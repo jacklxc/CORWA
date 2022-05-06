@@ -1,0 +1,36 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 176 181	[BOS]
+T3	Reflection 458 463	[BOS]
+T4	Single_summ 535 540	[BOS]
+T5	Single_summ 597 602	[BOS]
+T6	Single_summ 711 716	[BOS]
+T7	Reflection 904 909	[BOS]
+T8	Narrative_cite 1047 1052	[BOS]
+T9	Narrative_cite 1294 1299	[BOS]
+T10	Reflection 1425 1430	[BOS]
+T11	B_span 59 70	Transformer
+T12	E_span 88 92	2017
+T13	B_span 108 117	different
+T14	E_span 168 172	2019
+T15	Reference 72 92	Vaswani et al., 2017
+T16	Reference 129 147	Lakew et al., 2018
+T17	Reference 149 172	Imankulova et al., 2019
+T18	B_span 182 190	MultiNMT
+T19	E_span 244 248	2017
+T20	Reference 228 248	Johnson et al., 2017
+T21	B_span 271 279	language
+T22	E_span 351 355	2018
+T23	Reference 315 333	Lakew et al., 2018
+T24	Reference 335 355	Rikters et al., 2018
+T25	Dominant 570 594	Imankulova et al. (2019)
+T26	B_span 570 580	Imankulova
+T27	E_span 894 902	interest
+T28	B_span 1173 1177	such
+T29	E_span 1286 1290	2016
+T30	Reference 1269 1290	Sennrich et al., 2016
+T31	B_span 1332 1336	base
+T32	E_span 1417 1421	2017
+T33	Reference 1398 1421	Imankulova et al., 2017
+T34	B_span 372 374	bi
+T35	E_span 450 454	2019
+T36	Reference 431 454	Imankulova et al., 2019

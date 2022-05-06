@@ -1,0 +1,79 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 385 390	[BOS]
+T3	Transition 615 620	[BOS]
+T4	Narrative_cite 713 718	[BOS]
+T5	Narrative_cite 818 823	[BOS]
+T6	Narrative_cite 1047 1052	[BOS]
+T7	Single_summ 1312 1317	[BOS]
+T8	Narrative_cite 1444 1449	[BOS]
+T9	Reflection 1528 1533	[BOS]
+T10	Narrative_cite 1601 1606	[BOS]
+T11	Narrative_cite 1852 1857	[BOS]
+T12	Reflection 2094 2099	[BOS]
+T13	Reflection 2140 2145	[BOS]
+T14	Reference 71 93	Ratinov and Roth, 2009
+T15	Reference 95 115	Florian et al., 2010
+T16	Reference 117 135	Kuru et al., 2016)
+T17	Reference 160 184	(Zhao and Grishman, 2005
+T18	Reference 186 206	Jiang and Zhai, 2007
+T19	Reference 208 225	Zhou et al., 2007
+T20	Reference 227 246	Qian and Zhou, 2010
+T21	Reference 248 267	Chan and Roth, 2010
+T22	Reference 269 285	Sun et al., 2011
+T23	Reference 287 312	Plank and Moschitti, 2013
+T24	Reference 314 332	Verga et al., 2016
+T25	Reference 531 552	(Zelenko et al., 2003
+T26	Reference 554 571	Miwa et al., 2009
+T27	Reference 573 592	Chan and Roth, 2011
+T28	Reference 594 611	Lin et al., 2016)
+T29	Reference 775 797	(Ji and Grishman, 2005
+T30	Reference 799 815	Yih, 2004, 2007)
+T31	Reference 934 950	(Li and Ji, 2014
+T32	Reference 952 973	Miwa and Sasaki, 2014
+T33	Reference 975 996	Miwa and Bansal, 2016
+T34	Reference 1132 1152	Lample et al., 2016)
+T35	Reference 1163 1194	(Kiperwasser and Goldberg, 2016
+T36	Reference 1196 1220	Dozat and Manning, 2016)
+T37	Reference 1247 1262	Vu et al., 2016
+T38	Reference 1264 1286	Miwa and Bansal, 2016)
+T39	Dominant 1358 1379	Wang and Chang (2016)
+T40	Reference 1503 1525	Cross and Huang (2016)
+T41	Reference 1728 1750	(Lafferty et al., 2001
+T42	Reference 1752 1765	Collins, 2002
+T43	Reference 1767 1788	McDonald et al., 2010
+T44	Reference 1790 1812	Zhang and Clark, 2011)
+T45	Reference 1923 1941	(Zhou et al., 2015
+T46	Reference 1943 1961	Andor et al., 2016
+T47	Reference 1963 1971	Xu, 2016
+T48	Reference 1973 1996	Wiseman and Rush, 2016)
+T49	Pronoun 1014 1018	this
+T50	Pronoun 1094 1096	it
+T51	Pronoun 1545 1549	this
+T52	Pronoun 1825 1827	it
+T53	Pronoun 2125 2130	these
+T54	Reference 26 46	Florian et al., 2004
+T55	Reference 48 70	Florian et al., , 2006
+T56	B_span 6 12	Entity
+T57	E_span 130 134	2016
+T58	B_span 140 148	relation
+T59	E_span 328 332	2016
+T60	B_span 497 503	entity
+T61	E_span 606 610	2016
+T62	B_span 719 724	Early
+T63	E_span 810 814	2007
+T64	B_span 847 852	joint
+T65	E_span 992 996	2016
+T66	B_span 1124 1131	tagging
+T67	E_span 1147 1151	2016
+T68	B_span 1155 1162	parsing
+T69	E_span 1215 1219	2016
+T70	B_span 1223 1231	relation
+T71	E_span 1281 1285	2016
+T72	B_span 1318 1323	Based
+T73	E_span 1435 1442	parsing
+T74	B_span 1480 1491	constituent
+T75	E_span 1520 1524	2016
+T76	B_span 1706 1716	structural
+T77	E_span 1807 1811	2011
+T78	B_span 1858 1861	For
+T79	E_span 1991 1995	2016

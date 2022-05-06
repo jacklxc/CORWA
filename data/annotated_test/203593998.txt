@@ -1,0 +1,16 @@
+[BOS] We briefly outline connections and differences to following related lines of research.
+
+[BOS] Neural Extractive Summarization Recently, neural network-based models have achieved great success in extractive summarization.
+[BOS] (Celikyilmaz et al., 2018; Jadhav and Rajan, 2018; Liu, 2019) .
+[BOS] Existing works on text summarization can roughly fall into one of three classes: exploring networks' structures with suitable bias (Cheng and Lapata, 2016; Nallapati et al., 2017; Zhou et al., 2018) ; introducing new training schemas (Narayan et al., 2018; Wu and Hu, 2018; Chen and Bansal, 2018) and incorporating large pre-trained knowledge (Peters et al., 2018; Devlin et al., 2018; Liu, 2019; Dong et al., 2019) .
+[BOS] Instead of exploring the possibility for a new state-of-the-art along one of above three lines, in this paper, we aim to bridge the gap between the lack of understanding of the characteristics for the datasets and the increasing development of above three learning methods.
+
+[BOS] Concurrent with our work, (Jung et al., 2019) conducts a quite similar analysis on datasets biases and proposes three factors which matter for the text summarization task.
+[BOS] One major difference between these two works is that we additionally focus on how dataset biases influence the designs of models.
+
+[BOS] Understanding the Generalization Ability of Neural Networks While neural networks have shown superior generalization ability, yet it remains largely unexplained.
+[BOS] Recently, some researchers begin to take a step towards understanding the generalization behaviour of neural networks from the perspective of network architectures or optimization procedure (Schmidt et al., 2018; Baluja and Fischer, 2017; Zhang et al., 2016; Arpit et al., 2017) .
+[BOS] Different from these work, in this paper, we claim that interpreting the generalization ability of neural networks is built on a good understanding of the characteristic of the data.
+
+[BOS] 3 Learning Methods and Datasets
+

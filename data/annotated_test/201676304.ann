@@ -1,0 +1,57 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 108 113	[BOS]
+T3	Narrative_cite 221 226	[BOS]
+T4	Narrative_cite 424 429	[BOS]
+T5	Transition 531 536	[BOS]
+T6	Narrative_cite 664 669	[BOS]
+T7	Narrative_cite 798 803	[BOS]
+T8	Narrative_cite 942 947	[BOS]
+T9	Single_summ 1134 1139	[BOS]
+T10	Narrative_cite 1299 1304	[BOS]
+T11	Narrative_cite 1510 1515	[BOS]
+T12	Reference 82 105	Piskorski et al. (2017)
+T13	Reference 307 330	(Mayfield et al., 2017)
+T14	Reference 397 421	(Marciczuk et al., 2017)
+T15	Reference 512 527	(Sharoff, 2018)
+T16	Reference 717 741	(Ratinov and Roth, 2009)
+T17	Reference 773 795	(Manning et al., 2014)
+T18	Reference 894 917	(Chiu and Nichols, 2016
+T19	Reference 919 939	Lample et al., 2016)
+T20	Reference 1018 1038	(Devlin et al., 2019
+T21	Reference 1040 1059	Akbik et al., 2018)
+T22	Reference 1194 1215	(Devlin et al., 2019)
+T23	Reference 1485 1506	(Wu and Dredze, 2019)
+T24	Reference 1665 1687	(Zoph and Knight, 2016
+T25	Reference 1689 1709	Johnson et al., 2017
+T26	Reference 1711 1737	Currey and Heafield, 2018)
+T27	Reference 1748 1762	(Tckstrm, 2012
+T28	Reference 1764 1781	Tsai et al., 2016
+T29	Reference 1783 1802	Mayhew et al., 2017
+T30	Reference 1804 1824	Rahimi et al., 2019)
+T31	Pronoun 251 255	this
+T32	Pronoun 468 472	this
+T33	Pronoun 546 548	it
+T34	B_span 10 15	first
+T35	E_span 100 104	2017
+T36	B_span 272 277	model
+T37	E_span 325 329	2017
+T38	B_span 337 342	model
+T39	E_span 416 420	2017
+T40	B_span 487 492	cross
+T41	E_span 522 526	2018
+T42	B_span 697 705	averaged
+T43	E_span 736 740	2009
+T44	B_span 748 759	conditional
+T45	E_span 790 794	2014
+T46	B_span 868 874	BiLSTM
+T47	E_span 934 938	2016
+T48	B_span 996 1006	contextual
+T49	E_span 1054 1058	2018
+T50	B_span 1170 1182	multilingual
+T51	E_span 1210 1214	2019
+T52	B_span 1402 1410	emergent
+T53	E_span 1501 1505	2019
+T54	B_span 1645 1652	machine
+T55	E_span 1732 1736	2018
+T56	B_span 1744 1747	NER
+T57	E_span 1819 1823	2019

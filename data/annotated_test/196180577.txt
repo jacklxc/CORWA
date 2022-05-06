@@ -1,0 +1,16 @@
+[BOS] Sophisticated sequence-to-sequence architectures (Gehring et al., 2017; Vaswani et al., 2017) 2018b), rescoring (Chollampatt and Ng, 2018a) , iterative decoding strategies (Ge et al., 2018; Lichtarge et al., 2018) , synthetic (Xie et al., 2018) and semi-supervised corpora (Lichtarge et al., 2018) , and other task-specific techniques (Junczys-Dowmunt et al., 2018) has achieved impressive results on this task.
+[BOS] However, all prior work ignores document-wide context for GEC, and uses sentence-level models.
+[BOS] For spell checking, Flor and Futagi (2012) used document-level context to check if a candidate correction for a misspelled word had been used earlier in the document.
+[BOS] Zheng et al. (2018) proposed splitting runon sentences into separate sentences.
+[BOS] However, they did not use cross-sentence context.
+
+[BOS] On the other hand, there are a number of studies recently on integrating cross-sentence context for neural machine translation (NMT).
+[BOS] There are three major approaches for document-level NMT: (1) translating an extended source (context concatenated with the source) to a single or extended target (Tiedemann and Scherrer, 2017; Bawden et al., 2018) ; (2) using an additional encoder to capture document-wide context (Jean et al., 2017; Wang et al., 2017; Bawden et al., 2018; Voita et al., 2018; Miculicich et al., 2018; ; and (3) using discrete (Kuang et al., 2018) or continuous cache (Tu et al., 2018; Maruf and Haffari, 2018) mechanisms during translation for storing and retrieving document-level information.
+[BOS] We investigated the first two approaches in this paper as we believe that most of the ambiguities can be resolved by considering a few previous sentences.
+[BOS] Since GEC is a monolingual rewriting task, most of the disambiguating information is in the source sentence itself, unlike bilingual NMT.
+[BOS] All approaches for document-level NMT extended recurrent models or Transformer models.
+[BOS] There is no prior work that extends convolutional sequence-to-sequence models for document-level NMT.
+
+[BOS] The aim of this paper is to demonstrate the necessity of modeling cross-sentence context for GEC.
+[BOS] It is beyond the scope of this paper to comprehensively evaluate all approaches to exploit document-level context, and we leave it to future work to evaluate more sophisticated models such as memory networks to capture entire documentlevel context or incorporate external knowledge sources.
+

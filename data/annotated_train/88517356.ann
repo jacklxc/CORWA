@@ -1,0 +1,45 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 273 278	[BOS]
+T3	Single_summ 419 424	[BOS]
+T4	Reflection 611 616	[BOS]
+T5	Reflection 890 895	[BOS]
+T6	Narrative_cite 987 992	[BOS]
+T7	Single_summ 1171 1176	[BOS]
+T8	Single_summ 1392 1397	[BOS]
+T9	Reflection 1552 1557	[BOS]
+T10	Single_summ 1739 1744	[BOS]
+T11	Transition 1957 1962	[BOS]
+T12	Reflection 2179 2184	[BOS]
+T13	Reflection 2301 2306	[BOS]
+T14	Reflection 2420 2425	[BOS]
+T15	Reference 85 117	(Costa-juss and Fonollosa, 2016)
+T16	Reference 159 176	Kim et al. (2016)
+T17	Dominant 393 416	(Belinkov et al., 2017)
+T18	Reference 685 703	(Kim et al., 2016)
+T19	Reference 863 887	(Miyamoto and Cho, 2016)
+T20	Reference 1107 1125	(Ling et al., 2015
+T21	Reference 1127 1145	Chung et al., 2016
+T22	Reference 1147 1168	Passban et al., 2018)
+T23	Dominant 1221 1241	Cherry et al. (2018)
+T24	Dominant 1779 1802	(Sennrich et al., 2016)
+T25	Pronoun 425 429	They
+T26	Pronoun 1250 1254	this
+T27	Pronoun 1327 1331	they
+T28	Pronoun 1398 1402	They
+T29	Pronoun 2449 2454	these
+T30	B_span 29 38	character
+T31	E_span 112 116	2016
+T32	B_span 133 141	language
+T33	E_span 175 176	)
+T34	B_span 279 286	Further
+T36	E_span 597 609	improvements
+T35	B_span 651 665	characteraware
+T37	E_span 698 702	2016
+T38	B_span 837 845	language
+T39	E_span 882 886	2016
+T40	B_span 1040 1049	character
+T41	E_span 1163 1167	2018
+T42	B_span 1221 1227	Cherry
+T43	E_span 1545 1550	pairs
+T44	B_span 1754 1758	Byte
+T45	E_span 1946 1955	fragments

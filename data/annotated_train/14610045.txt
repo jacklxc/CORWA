@@ -1,0 +1,9 @@
+[BOS] Most of previous event extraction work focused on learning supervised models based on symbolic features (Ji and Grishman, 2008; Miwa et al., 2009; Liao and Grishman, 2010; Liu et al., 2010; Hong et al., 2011; McClosky et al., 2011; Sebastian and Andrew, 2011; Chen and Ng, 2012; Li et al., 2013) or distributional features through deep learning (Chen et al., 2015; Nguyen and Grishman, 2015) .
+[BOS] They usually rely on a predefined event schema and a large amount of training data.
+[BOS] Compared with other paradigms such as Open Information Extraction (Etzioni et al., 2005; Banko et al., 2007; Banko et al., 2008; Etzioni et al., 2011; Ritter et al., 2012) , Preemptive IE (Shinyama and Sekine, 2006) , Ondemand IE (Sekine, 2006) and semantic frame based event discovery (Kim et al., 2013) , our approach can explicitly name each event type and argument role.
+[BOS] Some recent work focused on universal schema discovery (Chambers and Jurafsky, 2011; Pantel et al., 2012; Yao et al., 2012; Yao et al., 2013; Chambers, 2013; .
+[BOS] However, the schemas discovered from these methods are rather static and they are not customized for any specific input corpus.
+[BOS] Our work is also related to efforts at composing word embeddings using syntactic structures (Hermann and Blunsom, 2013; Socher et al., 2013a; Socher et al., 2013b; Bowman et al., 2014; .
+[BOS] Our trigger sense representation is similar to Word Sense Induction (Navigli, 2009; Bordag, 2006; Pinto et al., 2007; Brody and Lapata, 2009; Manandhar et al., 2010; Navigli and Lapata, 2010; Van de Cruys and Apidianaki, 2011; Wang et al., 2015b) .
+[BOS] Besides word sense, we exploit related concepts to enrich trigger representation.
+

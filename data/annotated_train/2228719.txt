@@ -1,0 +1,16 @@
+[BOS] Recently, automatically solving math word problems has attracted several researchers.
+[BOS] Specific topics include number word problems (Shi et al., 2015) , logic puzzle problems (Mitra and Baral, 2015) , arithmetic word problems (Hosseini et al., 2014; , algebra word problems Zhou et al., 2015; Koncel-Kedziorski et al., 2015) , and geometry word problems (Seo et al., 2015) .
+
+[BOS] A few recent works, and Zhou et al. (2015) focus on solving math word problems by matching quantities and variables (nouns) extracted from the problem text to templates appearing in the training data.
+[BOS] These methods have a broad scope, but they rely heavily on overlap between templates in the training and test data.
+[BOS] As shown in our experiments, when that overlap is reduced, the performance of the systems drops significantly.
+
+[BOS] Other work has focused on more limited domains, but aims to reduce the reliance on data overlap.
+[BOS] Hosseini et al. (2014) solve addition and subtraction problems by learning to categorize verbs for the purpose of updating a world representation derived from the problem text.
+[BOS] treat arithmetic word problem templates as equation trees and introduce a method for learning the least governing node for two text quantities.
+[BOS] KoncelKedziorski et al. (2015) focus on single equation problems and use typed semantically-rich equation trees where nodes correspond to numbers and an associated type derived from the problem text, and efficiently enumerate the space of these trees using integer linear programming.
+
+[BOS] Our work is also inspired by the recent work in introducing datasets to evaluate question answering and reading comprehension tasks that require reasoning and entailment.
+[BOS] In contrast to Richardson et al. (2013) , our work is focused on making a dataset for math word problems to evaluate robustness, scalability, and scope of algorithms in quantitative reasoning.
+[BOS] In contrast to Weston et al. (2015) , our work has more natural text and a larger vocabulary, does not use synthetic data, and is only focused on math word problems which is an extension of the counting sub-category introduced in that work.
+

@@ -1,0 +1,21 @@
+[BOS] Tweet NLP Traditional core NLP research typically focuses on English newswire datasets such as the Penn Treebank (Marcus et al., 1993) .
+[BOS] In recent years, with the increasing usage of social media platforms, several NLP techniques and datasets for processing social media text have been proposed.
+[BOS] For example, Gimpel et al. (2011) build a Twitter part-of-speech tagger based on 1,827 manually annotated tweets.
+[BOS] Ritter et al. (2011) annotated 800 tweets, and performed an empirical study for partof-speech tagging and chunking on a new Twitter dataset.
+[BOS] They also investigated the task of Twitter Named Entity Recognition, utilizing a dataset of 2,400 annotated tweets.
+[BOS] annotated 929 tweets, and built the first dependency parser for tweets, whereas Wang et al. (2014) built the Chinese counterpart based on 1,000 annotated Weibo posts.
+[BOS] To the best of our knowledge, question answering and reading comprehension over short and noisy social media data are rarely studied in NLP, and our annotated dataset is also an order of magnitude large than the above public social-media datasets.
+
+[BOS] Reading Comprehension Machine reading comprehension (RC) aims to answer questions by comprehending evidence from passages.
+[BOS] This direction has recently drawn much attention due to the fast development of deep learning techniques and large-scale datasets.
+[BOS] The early development of the RC datasets focuses on either the cloze-style (Hermann et al., 2015; Hill et al., 2015) or quiz-style problems (Richardson et al., 2013; Lai et al., 2017) .
+[BOS] The former one aims to generate single-token answers from automatically constructed pseudo-questions while the latter requires choosing from multiple answer candidates.
+[BOS] However, such unnatural settings make them fail to serve as the standard QA benchmarks.
+[BOS] Instead, researchers started to ask human annotators to create questions and answers given passages in a crowdsourced way.
+[BOS] Such efforts give the rise of large-scale human-annotated RC datasets, many of which are quite popular in the community such as SQuAD (Rajpurkar et al., 2016) , MS MARCO (Nguyen et al., 2016) , NewsQA (Trischler et al., 2016) .
+[BOS] More recently, researchers propose even challenging datasets that require QA within dialogue or conversational context (Reddy et al., 2018; .
+[BOS] According to the difference of the answer format, these datasets can be further divided to two major categories: extractive and abstractive.
+[BOS] In the first category, the answers are in text spans of the given passages, while in the latter case, the answers may not appear in the passages.
+[BOS] It is worth mentioning that in almost all previously developed datasets, the passages are from Wikipedia, news articles or fiction stories, which are considered as the formal language.
+[BOS] Yet, there is little effort on RC over informal one like tweets.
+

@@ -1,0 +1,58 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 292 297	[BOS]
+T3	Transition 361 366	[BOS]
+T4	Single_summ 428 433	[BOS]
+T5	Single_summ 549 554	[BOS]
+T6	Single_summ 673 678	[BOS]
+T7	Single_summ 744 749	[BOS]
+T8	Transition 856 861	[BOS]
+T9	Transition 1077 1082	[BOS]
+T10	Narrative_cite 1216 1221	[BOS]
+T11	Narrative_cite 1402 1407	[BOS]
+T12	Multi_summ 1609 1614	[BOS]
+T13	Transition 1872 1877	[BOS]
+T14	Transition 2068 2073	[BOS]
+T15	Single_summ 2163 2168	[BOS]
+T16	Single_summ 2412 2417	[BOS]
+T17	Reflection 2560 2565	[BOS]
+T18	Reflection 2853 2858	[BOS]
+T19	Reflection 3106 3111	[BOS]
+T20	Reflection 3119 3124	[BOS]
+T21	Reference 158 177	(Shang et al., 2015
+T22	Reference 179 200	Sordoni et al., 2015)
+T23	Dominant 434 451	Li et al. (2016a)
+T24	Dominant 555 576	Zhou et al. ( , 2018a
+T25	Reference 1261 1281	(Bowman et al., 2016
+T26	Reference 1283 1302	Serban et al., 2017
+T27	Reference 1304 1325	Cao and Clark, 2017 )
+T28	Reference 1587 1606	(Wang et al., 2017)
+T30	Dominant 1635 1652	(Gu et al., 2018)
+T31	Dominant 1733 1750	(Du et al., 2018)
+T32	Dominant 2169 2189	Zhang et al. (2018a)
+T33	Dominant 2429 2452	Rajendran et al. (2018)
+T34	Pronoun 307 312	these
+T35	Pronoun 378 382	this
+T36	Pronoun 759 764	these
+T37	Pronoun 894 899	these
+T38	Pronoun 1359 1361	it
+T39	Pronoun 1625 1629	this
+T40	Pronoun 1887 1892	these
+T41	Pronoun 1968 1972	they
+T42	B_span 125 137	conversation
+T43	E_span 195 199	2015
+T44	B_span 434 436	Li
+T45	E_span 539 547	decoding
+T46	B_span 555 559	Zhou
+T47	E_span 662 671	responses
+T48	B_span 1222 1225	VAE
+T49	E_span 1319 1323	2017
+T50	B_span 1444 1448	CVAE
+T51	E_span 1601 1605	2017
+T29	B_span 1631 1634	WAE
+T52	E_span 1716 1724	distance
+T53	B_span 1729 1732	VAD
+T54	E_span 1862 1870	proposed
+T55	B_span 2169 2174	Zhang
+T56	E_span 2401 2410	responses
+T57	B_span 2429 2438	Rajendran
+T58	E_span 2553 2558	phase

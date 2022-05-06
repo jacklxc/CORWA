@@ -1,0 +1,23 @@
+[BOS] In early work of semantic role labeling, most of researchers were dedicated to feature engineering (Pradhan et al., 2005; Punyakanok et al., 2008; Zhao et al., 2009b Zhao et al., , 2013 .
+[BOS] The first neural SRL model was proposed by Collobert et al. (2011) , which used convolutional neural network but their efforts fell short.
+[BOS] Later, Foland and Martin (2015) effectively extended their work by using syntactic features as input.
+[BOS] Roth and Lapata (2016) introduced syntactic paths to guide neural architectures for dependency SRL.
+
+[BOS] However, putting syntax aside has sparked much research interest since Zhou and Xu (2015) employed deep BiLSTMs for span SRL.
+[BOS] A series of neural SRL models without syntactic inputs were proposed.
+[BOS] applied a simple LSTM model with effective word representation, achieving encouraging results on English, Chinese, Czech and Spanish.
+[BOS] built a full end-to-end SRL model with biaffine attention and provided strong performance on English and Chinese.
+[BOS] Li et al. (2019) also proposed an end-to-end model for both dependency and span SRL with a unified argument representation, obtaining favorable results on English.
+
+[BOS] Despite the success of syntax-agnostic SRL models, more recent work attempts to further improve performance by integrating syntactic information, with the impressive success of deep neural networks in dependency parsing (Zhang et al., 2016; .
+[BOS] Marcheggiani and Titov (2017) used graph convolutional network to encode syntax into dependency SRL.
+[BOS] proposed an extended k-order argument pruning algorithm based on syntactic tree and boosted SRL performance.
+[BOS] presented a unified neural framework to provide multiple methods for syntactic integration.
+[BOS] Our method is closely related to the one of , designed to prune as many unlikely arguments as possible.
+
+[BOS] Multilingual SRL To promote NLP applications, the CoNLL-2009 shared task advocated performing SRL for multiple languages.
+[BOS] Among the participating systems, Zhao et al. (2009a) proposed an integrated approach by exploiting largescale feature set, while Bjrkelund et al. (2009) used a generic feature selection procedure.
+[BOS] Until now, only a few of work (Lei et al., 2015; Swayamdipta et al., 2016; Mulcaire et al., 2018) seriously considered multilingual SRL.
+[BOS] Among them, Mulcaire et al. (2018) built a polyglot model (training one model on multiple languages) for multilingual SRL, but their results were far from satisfactory.
+[BOS] Therefore, this work aims to complete the overall upgrade since CoNLL-2009 shared task and leaves polyglot training as our future work.
+

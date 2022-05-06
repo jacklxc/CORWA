@@ -1,0 +1,31 @@
+T1	Single_summ 0 5	[BOS]
+T2	Multi_summ 203 208	[BOS]
+T3	Multi_summ 382 387	[BOS]
+T4	Narrative_cite 483 488	[BOS]
+T5	Transition 645 650	[BOS]
+T6	Reflection 781 786	[BOS]
+T7	Reflection 1004 1009	[BOS]
+T8	Transition 1120 1125	[BOS]
+T9	Single_summ 1257 1262	[BOS]
+T10	Single_summ 1368 1373	[BOS]
+T11	Dominant 24 42	(Dietterich, 2000)
+T12	Dominant 209 236	(Surdeanu and Manning, 2010
+T13	Dominant 238 259	Haffari et al., 2011)
+T14	Reference 465 479	(Eisner, 1996)
+T15	Reference 569 591	(Sagae and Lavie, 2006
+T16	Reference 593 615	Sagae and Tsujii, 2007
+T17	Reference 617 642	Zeman an Zabokrtsk, 2005)
+T18	Dominant 1281 1307	(Nivre and McDonald, 2008)
+T19	B_span 6 14	Ensemble
+T20	E_span 194 201	success
+T21	B_span 209 210	(
+T22	E_span 474 478	1996
+T23	B_span 489 495	Parser
+T24	E_span 637 641	2005
+T25	B_span 1278 1280	in
+T26	E_span 1519 1528	framework
+T27	Pronoun 396 401	their
+T28	Pronoun 419 423	they
+T29	Pronoun 1263 1267	This
+T30	E_span 474 478	1996
+T31	B_span 432 440	Eisner's

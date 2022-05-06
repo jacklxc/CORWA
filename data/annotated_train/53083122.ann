@@ -1,0 +1,46 @@
+T1	Transition 0 5	[BOS]
+T2	Reflection 63 68	[BOS]
+T3	Transition 238 243	[BOS]
+T4	Transition 410 415	[BOS]
+T5	Single_summ 573 578	[BOS]
+T6	Single_summ 705 710	[BOS]
+T7	Single_summ 879 884	[BOS]
+T8	Multi_summ 1025 1030	[BOS]
+T9	Narrative_cite 1210 1215	[BOS]
+T10	Reflection 1397 1402	[BOS]
+T11	Narrative_cite 1533 1538	[BOS]
+T12	Single_summ 1737 1742	[BOS]
+T13	Single_summ 1948 1953	[BOS]
+T14	Single_summ 2066 2071	[BOS]
+T15	Reflection 2230 2235	[BOS]
+T16	Reflection 2360 2365	[BOS]
+T17	Dominant 615 632	(He et al., 2016)
+T18	Dominant 737 758	(Huang et al., 2017 )
+T19	Dominant 885 901	Yu et al. (2018)
+T20	Dominant 1063 1081	Meng et al. (2016)
+T21	Dominant 1086 1104	Zhou et al. (2016)
+T22	Reference 1333 1349	(Wu et al., 2016
+T23	Reference 1351 1371	Gehring et al., 2017
+T24	Reference 1373 1394	Vaswani et al., 2017)
+T25	Reference 1709 1733	(Zeiler and Fergus, 2014
+T26	Dominant 1789 1806	Shi et al. (2016)
+T27	Dominant 1954 1986	Anastasopoulos and Chiang (2018)
+T28	Dominant 2072 2092	Peters et al. (2018)
+T29	B_span 608 614	ResNet
+T30	E_span 693 703	operations
+T31	B_span 711 718	Densely
+T32	E_span 871 877	stages
+T33	B_span 885 887	Yu
+T34	E_span 1016 1022	fusion
+T35	B_span 1063 1067	Meng
+T36	E_span 1196 1208	counterparts
+T37	B_span 1257 1261	skip
+T38	E_span 1389 1393	2017
+T39	B_span 1603 1612	visualize
+T40	E_span 1729 1733	2014
+T41	B_span 1743 1753	Concerning
+T42	E_span 1940 1946	layers
+T43	B_span 1954 1968	Anastasopoulos
+T44	E_span 2058 2064	layers
+T45	B_span 2072 2078	Peters
+T46	E_span 2222 2228	syntax

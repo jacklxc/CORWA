@@ -1,0 +1,42 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 149 154	[BOS]
+T3	Single_summ 298 303	[BOS]
+T4	Single_summ 464 469	[BOS]
+T5	Single_summ 537 542	[BOS]
+T6	Transition 778 783	[BOS]
+T7	Single_summ 853 858	[BOS]
+T8	Single_summ 986 991	[BOS]
+T9	Single_summ 1329 1334	[BOS]
+T10	Single_summ 1539 1544	[BOS]
+T11	Single_summ 1655 1660	[BOS]
+T12	Transition 1838 1843	[BOS]
+T13	Transition 1934 1939	[BOS]
+T14	Single_summ 2038 2043	[BOS]
+T15	Single_summ 2224 2229	[BOS]
+T16	Transition 2397 2402	[BOS]
+T17	Transition 2522 2527	[BOS]
+T18	Multi_summ 2724 2729	[BOS]
+T19	Multi_summ 2917 2922	[BOS]
+T20	Single_summ 3062 3067	[BOS]
+T21	B_span 250 264	classification
+T22	E_span 290 294	2010
+T23	Reference 275 294	Turian et al., 2010
+T24	Dominant 304 327	Taghipour and Ng (2015)
+T25	B_span 304 313	Taghipour
+T26	E_span 767 776	increased
+T27	Dominant 859 888	Kgebck and Salomonsson (2016)
+T28	B_span 898 911	bidirectional
+T29	E_span 971 975	1997
+T30	Reference 943 975	Hochreiter and Schmidhuber, 1997
+T31	B_span 859 865	Kgebck
+T32	E_span 1321 1325	2016
+T33	Reference 1308 1325	Ma and Hovy, 2016
+T34	B_span 1282 1287	named
+T35	E_span 1321 1325	2016
+T36	B_span 2730 2733	End
+T37	E_span 3052 3060	sentence
+T38	Dominant 2775 2797	Sutskever et al., 2014
+T39	Dominant 2799 2820	Bahdanau et al., 2015
+T40	Dominant 3094 3114	McCann et al. (2017)
+T41	B_span 3094 3100	McCann
+T42	E_span 3236 3243	encoder

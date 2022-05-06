@@ -1,0 +1,11 @@
+[BOS] Our work is directly comparable to JAMR (Flanigan et al., 2014) , the first published AMR parser.
+[BOS] JAMR performs AMR parsing in two stages: concept identification and relation identification.
+[BOS] They treat concept identification as a sequence labeling task and utilize a semi-Markov model to map spans of words in a sentence to concept graph fragments.
+[BOS] For relation identification, they adopt the graph-based techniques for non-projective dependency parsing.
+[BOS] Instead of finding maximum-scoring trees over words, they propose an algorithm to find the maximum spanning connected subgraph (MSCG) over concept fragments obtained from the first stage.
+[BOS] In contrast, we adopt a transition-based approach that finds its root in transition-based dependency parsing (Yamada and Matsumoto, 2003; Nivre, 2003; Sagae and Tsujii, 2008) , where a series of actions are performed to transform a sentence to a dependency tree.
+[BOS] As should be clear from our description, however, the actions in our parser are very different in nature from the actions used in transition-based dependency parsing.
+
+[BOS] There is also another line of research that attempts to design graph grammars such as hyperedge replacement grammar (HRG) (Chiang et al., 2013) and efficient graph-based algorithms for AMR parsing.
+[BOS] Existing work along this line is still theoretical in nature and no empirical results have been reported yet.
+

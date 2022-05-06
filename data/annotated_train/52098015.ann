@@ -1,0 +1,85 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 272 277	[BOS]
+T3	Narrative_cite 582 587	[BOS]
+T4	Narrative_cite 775 780	[BOS]
+T5	Transition 1005 1010	[BOS]
+T6	Single_summ 1126 1131	[BOS]
+T7	Single_summ 1361 1366	[BOS]
+T8	Single_summ 1621 1626	[BOS]
+T9	Reflection 1778 1783	[BOS]
+T10	Single_summ 1917 1922	[BOS]
+T11	Single_summ 2122 2127	[BOS]
+T12	Transition 2318 2323	[BOS]
+T13	Single_summ 2435 2440	[BOS]
+T14	Single_summ 2720 2725	[BOS]
+T15	Single_summ 2944 2949	[BOS]
+T16	Single_summ 3094 3099	[BOS]
+T17	Reflection 3286 3291	[BOS]
+T18	Reflection 3386 3391	[BOS]
+T19	Reflection 3531 3536	[BOS]
+T20	Narrative_cite 3736 3741	[BOS]
+T21	Reflection 3859 3864	[BOS]
+T22	Reflection 4148 4153	[BOS]
+T23	Reflection 4388 4393	[BOS]
+T24	Reflection 4443 4448	[BOS]
+T25	Reflection 4564 4569	[BOS]
+T26	Reflection 4784 4789	[BOS]
+T27	Reflection 4942 4947	[BOS]
+T28	Reflection 5048 5053	[BOS]
+T29	Reflection 5099 5104	[BOS]
+T30	Reflection 5465 5470	[BOS]
+T31	Reflection 5567 5572	[BOS]
+T32	Reference 530 552	(Calixto et al., 2017a
+T33	Reference 554 579	Helcl and Libovick, 2017)
+T34	Reference 732 754	(Calixto et al., 2017b
+T35	Reference 756 772	Ma et al., 2017)
+T36	Reference 981 1001	(Zhang et al., 2017)
+T37	Dominant 1132 1152	(Huang et al., 2016)
+T38	Reference 1218 1236	(Ren et al., 2015)
+T39	Dominant 1426 1449	(Caglayan et al., 2017)
+T40	Dominant 1923 1943	(Kiros et al., 2014)
+T41	Dominant 2128 2151	(Karpathy and Li, 2014)
+T42	Dominant 2441 2465	(Calixto et al., 2017c )
+T43	Dominant 2726 2746	(Gella et al., 2017)
+T44	Reference 2768 2791	(Calixto et al., 2017c)
+T45	Dominant 2959 2982	(Elliott and Kdr, 2017)
+T46	Reference 3329 3352	(Elliott and Kdr, 2017)
+T47	Reference 3833 3856	(Elliott and Kdr, 2017)
+T48	Reference 4523 4546	(Bahdanau et al., 2014)
+T49	Pronoun 844 849	their
+T50	Pronoun 875 879	they
+T51	Pronoun 1341 1346	their
+T52	Pronoun 1633 1637	this
+T53	Pronoun 2202 2207	their
+T54	Pronoun 3100 3105	Their
+T55	Pronoun 3755 3760	these
+T56	B_span 301 307	learns
+T57	E_span 574 578	2017
+T58	B_span 631 637	global
+T59	E_span 767 771	2017
+T60	B_span 914 923	monomodal
+T61	E_span 996 1000	2017
+T62	B_span 1133 1138	Huang
+T63	E_span 1231 1235	2015
+T64	B_span 1194 1200	region
+T65	E_span 1351 1359	baseline
+T66	B_span 1376 1386	multimodal
+T67	E_span 1770 1775	minor
+T68	B_span 1924 1929	Kiros
+T69	E_span 2112 2120	captions
+T70	B_span 2129 2137	Karpathy
+T71	E_span 2309 2316	caption
+T72	B_span 2442 2449	Calixto
+T73	E_span 2714 2718	task
+T74	B_span 2727 2732	Gella
+T75	B_span 2769 2776	Calixto
+T76	E_span 2790 2791	)
+T77	E_span 2934 2942	training
+T78	B_span 2960 2967	Elliott
+T79	E_span 3269 3283	reconstruction
+T80	B_span 3296 3299	VAG
+T81	E_span 3347 3351	2017
+T82	B_span 3782 3793	improvement
+T83	E_span 3851 3855	2017
+T84	B_span 4477 4486	attention
+T85	E_span 4541 4545	2014

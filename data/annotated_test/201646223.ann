@@ -1,0 +1,34 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 117 122	[BOS]
+T3	Single_summ 386 391	[BOS]
+T4	Single_summ 576 581	[BOS]
+T5	Single_summ 713 718	[BOS]
+T6	Single_summ 808 813	[BOS]
+T7	Reflection 903 908	[BOS]
+T8	Narrative_cite 1065 1070	[BOS]
+T9	Reference 89 114	(Koehn and Knowles, 2017)
+T10	Dominant 123 151	Sountsov and Sarawagi (2016)
+T11	Dominant 423 447	Murray and Chiang (2018)
+T12	Dominant 582 607	Kumar and Sarawagi (2019)
+T13	Dominant 719 736	Ott et al. (2018)
+T14	Dominant 814 832	Chen et al. (2018)
+T15	Reference 1246 1268	(Niehues et al., 2017)
+T16	Reference 1284 1309	(Stahlberg et al., 2018b)
+T17	Pronoun 163 167	this
+T18	Pronoun 1101 1105	this
+T19	B_span 45 50	large
+T20	E_span 109 113	2017
+T21	B_span 123 131	Sountsov
+T22	E_span 380 384	data
+T23	B_span 423 429	Murray
+T24	E_span 554 560	longer
+T25	B_span 582 587	Kumar
+T26	E_span 701 711	deficiency
+T27	B_span 719 722	Ott
+T28	E_span 802 806	role
+T29	B_span 814 818	Chen
+T30	E_span 892 901	decidable
+T31	B_span 1229 1232	via
+T32	E_span 1263 1267	2017
+T33	B_span 1272 1283	constraints
+T34	E_span 1303 1308	2018b

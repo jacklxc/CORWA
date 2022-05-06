@@ -1,0 +1,27 @@
+[BOS] Abstractive summarization.
+[BOS] Abstractive summarization is a task to generate a short summary that captures the core meaning of the original text.
+[BOS] Rush et al. (2015) used a neural attention model, and See et al. (2017) introduced a pointergenerator network to copy out-of-vocabulary (OOV) words from the input text.
+[BOS] Hsu et al. (2018) combined abstractive and extractive summarization with an inconsistency loss to encourage consistency between word-level attention weights of the abstracter and sentence-level attention weights of the extractor.
+[BOS] Abstractive summarization techniques are generally applied to a headline generation because this is a similar task (Shen et al., 2017; Tan et al., 2017) .
+
+[BOS] Multi-task learning.
+
+[BOS] Multi-task learning, which trains different tasks in one unified model, has achieved success in many natural language processing tasks (Luong et al., 2016; Liu et al., 2019) .
+[BOS] Typical multi-task learning models have a structure with a shared encoder to encode the input text and multiple decoders to generate outputs of each task.
+[BOS] Multitask learning has a benefit in that the shared encoder captures common features among tasks; in addition, the encoder focuses more on relevant and beneficial features, and disregards irrelevant and noisy features (Ruder, 2017) .
+[BOS] Although a multi-task learning model is beneficial in training a shared encoder, it is still difficult to share information among task-specific decoders.
+
+[BOS] Some studies have constructed a multi-task learning model using techniques that encourages information sharing among decoders.
+[BOS] Isonuma et al. (2017) proposed an extractive summarization model that the outputs of the sentence extractor are directly used for a document classifier.
+[BOS] Anastasopoulos and Chiang (2018) introduced a triangle model to transfer the decoder information of the second task to the decoder of the first task.
+[BOS] Tan et al. (2017) introduced a coarse-to-fine model to generate headlines using important sentences chosen in the extracter.
+[BOS] These methods are cascade models that additionally input the information of the first tasks directly into the second tasks.
+[BOS] They consider the hierarchy among tasks, but these models suffer from the errors of the previous tasks.
+[BOS] Guo et al. (2018) proposed a decoder sharing method with soft-parameter sharing to train the summarization and entailment tasks.
+[BOS] Softparameter sharing has a benefit in that it provides more flexibility between the layer of summarization and entailment tasks; however, this method does not consider the hierarchy among tasks.
+
+[BOS] Our study extends the method in Hsu et al. (2018) to a multi-task learning model in which the models need to generate multiple outputs with consistency.
+[BOS] Hierarchical consistency loss combines two advantages.
+[BOS] This loss considers the hierarchy among tasks, and has flexibility among tasks, similar to soft-parameter sharing methods.
+[BOS] We assess the advantages of this loss in Section 4.2.
+

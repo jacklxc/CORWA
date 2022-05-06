@@ -1,0 +1,2 @@
+[BOS] In this section, we briefly review recent advancement in encoder-decoder models and CVAE-based models for response generation.
+

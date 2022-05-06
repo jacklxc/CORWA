@@ -1,0 +1,21 @@
+[BOS] Data-to-text generation is a task of natural language generation (NLG) (Gatt and Krahmer, 2018) .
+[BOS] Previous research has focused on individual content selection (Kukich, 1983; Reiter and Dale, 1997; Dubou and McKeown, 2003; Barzilay and Lapata, 2005) and surface realization (Goldberg et al., 1994; Soricut and Marcu, 2006; Wong and Mooney, 2007) .
+
+[BOS] Recent work avoids the distinction of the content selection and sentence realization.
+[BOS] Chen and Mooney (2008) use an SMT based approach to learn alignments between comments and their corresponding event records.
+[BOS] Angeli et al. (2010) transform the problem into a sequence of local decisions using a log-linear model.
+[BOS] Konstas and Lapata (2012) employ a PCFG to simultaneously optimize the content selection and surface realization problem.
+
+[BOS] In the field of neural text generation, Mei et al. (2016) uses a neural encoder-decoder approach for end-to-end training.
+[BOS] Some have focused on conditional language generation based on tables (Yang et al., 2017) , short biographies generation from Wikipedia tables (Lebret et al., 2016; Chisholm et al., 2017) and comments generation based on stock prices (Murakami et al., 2017) .
+[BOS] However, none of these methods consider incorporating the facts that can be inferred from the input data to guide the process of generation.
+[BOS] Murakami et al. (2017) post-process the price by extending the copy mechanism and replacing numerical values with defined arithmetic operations after generation.
+[BOS] While our model, OpAtt utilizes information from pre-computed operations on raw data to guide the generation.
+
+[BOS] Our work is related to research areas on deep learning models for program induction and question answering from a knowledge base (Neelakantan et al., 2016; Liang et al., 2017; .
+[BOS] Neelakantan et al. (2016) solve the problem of semantic parsing from structured data and generate programs using pre-defined arithmetic operations.
+[BOS] Liang et al. (2017) design a set of executable operators and obtain the answers by the generated logic forms.
+[BOS] design a set of operators to generate the latent program for math problem solving.
+[BOS] However, data-to-text is a different task.
+[BOS] The operations for these methods are designed to find the answers, while we use the operations to guide the process of generation.
+

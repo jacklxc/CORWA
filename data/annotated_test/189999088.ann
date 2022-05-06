@@ -1,0 +1,96 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 133 138	[BOS]
+T3	Narrative_cite 402 407	[BOS]
+T4	Multi_summ 770 775	[BOS]
+T5	Narrative_cite 932 937	[BOS]
+T6	Transition 1125 1130	[BOS]
+T7	Reflection 1259 1264	[BOS]
+T8	Reflection 1432 1437	[BOS]
+T9	Narrative_cite 1715 1720	[BOS]
+T10	Narrative_cite 1891 1896	[BOS]
+T11	Single_summ 2168 2173	[BOS]
+T12	Single_summ 2271 2276	[BOS]
+T13	Single_summ 2472 2477	[BOS]
+T14	Reflection 2636 2641	[BOS]
+T15	Narrative_cite 2753 2758	[BOS]
+T16	Narrative_cite 3047 3052	[BOS]
+T17	Narrative_cite 3333 3338	[BOS]
+T18	Narrative_cite 3625 3630	[BOS]
+T19	Narrative_cite 3777 3782	[BOS]
+T20	Reflection 3923 3928	[BOS]
+T21	Reference 200 223	(Bahdanau et al., 2015)
+T22	Reference 343 360	(He et al., 2016)
+T23	Reference 505 526	(Elliott et al., 2015
+T24	Reference 528 549	Caglayan et al., 2017
+T25	Reference 551 575	Madhyastha et al., 2017)
+T26	Reference 639 662	(Caglayan et al., 2017)
+T27	Dominant 776 798	Elliott and Kdr (2017)
+T28	Dominant 803 822	Helcl et al. (2018)
+T29	Reference 1026 1049	(Bahdanau et al., 2015)
+T30	Reference 1105 1122	(Xu et al., 2015)
+T31	Reference 1288 1307	Helcl et al. (2018)
+T32	Reference 1798 1820	(Grnroos et al., 2018)
+T33	Reference 1868 1888	(Huang et al., 2016)
+T34	Reference 2022 2040	(Shah et al., 2016
+T35	Reference 2042 2064	Hitschler et al., 2016
+T36	Dominant 2174 2196	Caglayan et al. (2019)
+T37	Dominant 2478 2500	Caglayan et al. (2019)
+T38	Reference 3020 3044	(Hardmeier et al., 2012)
+T39	Reference 3217 3237	(Novak et al., 2016)
+T40	Reference 3312 3330	(Lee et al., 2018)
+T41	Reference 3440 3461	(Niehues et al., 2016
+T42	Reference 3463 3501	Junczys-Dowmunt and Grundkiewicz, 2017
+T43	Reference 3503 3527	Chatterjee et al., 2018)
+T44	Reference 3756 3774	(Xia et al., 2017)
+T45	Reference 3902 3919	(Xia et al., 2017
+T49	E_span 222 223	)
+T51	B_span 321 327	object
+T53	E_span 359 360	)
+T54	B_span 486 493	encoder
+T55	E_span 574 575	)
+T57	B_span 615 621	source
+T59	E_span 661 662	)
+T60	B_span 776 780	Elli
+T61	E_span 929 930	.
+T62	B_span 1006 1015	attention
+T63	E_span 1048 1049	)
+T65	E_span 1121 1122	)
+T66	B_span 1265 1268	Cag
+T67	E_span 1306 1307	)
+T68	B_span 1769 1775	single
+T69	E_span 1819 1820	)
+T70	B_span 1830 1833	for
+T71	E_span 1887 1888	)
+T72	B_span 1976 1980	text
+T73	E_span 2060 2064	2016
+T74	B_span 2174 2177	Cag
+T75	E_span 2470 2471	.
+T76	B_span 2478 2481	Cag
+T77	E_span 2634 2635	.
+T78	B_span 2984 2988	hill
+T79	E_span 3043 3044	)
+T80	B_span 3197 3206	attention
+T81	E_span 3236 3237	)
+T82	B_span 3288 3290	on
+T83	E_span 3329 3330	)
+T84	B_span 3387 3395	learning
+T85	E_span 3526 3527	)
+T87	E_span 3773 3774	)
+T89	E_span 3915 3919	2017
+T90	Pronoun 54 58	they
+T91	Pronoun 84 88	they
+T92	Pronoun 101 105	this
+T93	Pronoun 1618 1622	this
+T94	Pronoun 2277 2281	They
+T95	Pronoun 2645 2649	this
+T96	Pronoun 2671 2675	this
+T97	Pronoun 3534 3538	this
+T98	Pronoun 3601 3606	their
+T99	Pronoun 3859 3863	this
+T100	Pronoun 3939 3943	this
+T101	Pronoun 3956 3958	it
+T102	B_span 162 165	RNN
+T46	B_span 1057 1063	output
+T47	Reference 1265 1287	Caglayan et al. (2017)
+T48	B_span 3695 3702	jointly
+T50	B_span 3787 3793	second

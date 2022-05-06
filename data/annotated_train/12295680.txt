@@ -1,0 +1,7 @@
+[BOS] In the past two years, several papers have published about applying Mechanical Turk to a diverse set of natural language processing tasks, including: creating question-answer sentence pairs (Kaisser and Lowe, 2008) , evaluating machine translation quality and crowdsouring translations ), paraphrasing noun-noun compouds for SemEval (Butnariu et al., 2009) , human evaluation of topic models (Chang et al., 2009) , and speech transcription (McGraw et al., 2010; Marge et al., 2010a; Novotney and Callison-Burch, 2010a) .
+[BOS] Others have used MTurk for novel research directions like nonsimulated active learning for NLP tasks such as sentiment classification (Hsueh et al., 2009) or doing quixotic things like doing human-in-the-loop minimum error rate training for machine translation (Zaidan and Callison-Burch, 2009 ).
+
+[BOS] Some projects have demonstrated the superscalability of crowdsourced efforts.
+[BOS] Deng et al. (2009) used MTurk to construct ImageNet, an annotated image database containing 3.2 million that are hierarchically categorized using the WordNet ontology (Fellbaum, 1998) .
+[BOS] Because Mechanical Turk allows researchers to experiment with crowdsourcing by providing small incentives to Turkers, other successful crowdsourcing efforts like Wikipedia or Games with a Purpose (von Ahn and Dabbish, 2008) also share something in common with MTurk.
+

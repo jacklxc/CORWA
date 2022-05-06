@@ -1,0 +1,22 @@
+[BOS] Machine Reading Comprehension In the last few years, a number of datasets have been created for MRC, e.g., CNN/DM (Hermann et al., 2015) , SQuAD (Rajpurkar et al., 2016 (Rajpurkar et al., , 2018 , SearchQA (Dunn et al., 2017) , TriviaQA (Joshi et al., 2017) , and MS-MARCO (Nguyen et al., 2016) .
+[BOS] These datasets have led to advances like Match-LSTM (Wang and Jiang, 2017) , BiDAF (Seo et al., 2017) , AoA Reader (Cui et al., 2017) , DCN (Xiong et al., 2017) , R-Net , and QANet (Yu et al., 2018) .
+[BOS] These end-to-end neural models have similar architectures, starting off with an encoding layer to encode every question/passage word as a vector, passing through various attention-based interaction layers and finally a prediction layer.
+
+[BOS] More recently, LMs such as ELMo (Peters et al., 2018b) , GPT (Radford et al., 2018) , and BERT (Devlin et al., 2018) have been devised.
+[BOS] They pre-train deep LMs on large-scale unlabeled corpora to obtain contextual representations of text.
+[BOS] When used in downstream tasks including MRC, the pre-trained contextual representations greatly improve the performance in either a fine-tuning or feature-based way.
+[BOS] Built upon pre-trained LMs, our work further explores the potential of incorporating structured knowledge from KBs, combining the strengths of both text and knowledge representations.
+
+[BOS] Incorporating KBs Several MRC datasets that require external knowledge have been proposed, such as ReCoRD (Zhang et al., 2018) , ARC , MCScript (Ostermann et al., 2018) , OpenBookQA and CommonsenseQA (Talmor et al., 2018) .
+[BOS] ReCoRD can be viewed as an extractive MRC dataset, while the later four are multi-choice MRC datasets, with relatively smaller size than ReCoRD.
+[BOS] In this paper, we focus on the extractive MRC task.
+[BOS] Hence, we choose ReCoRD and SQuAD in the experiments.
+
+[BOS] Some previous work attempts to leverage structured knowledge from KBs to deal with the tasks of MRC and QA.
+[BOS] Weissenborn et al. (2017) , Bauer et al. (2018) , Mihaylov and Frank (2018) , Pan et al. (2019) , , follow a retrieve-then-encode paradigm, i.e., they first retrieve relevant knowledge from KBs, and only the retrieved knowledge relevant locally to the reading text will be encoded and integrated.
+[BOS] By contrast, we leverage pre-trained KB embeddings which encode whole KBs.
+[BOS] Then we use attention mechanisms to select and integrate knowledge that is relevant locally to the reading text.
+[BOS] Zhong et al. (2018) try to leverage pre-trained KB embeddings to solve the multi-choice MRC task.
+[BOS] However, the knowledge and text modules are not integrated,but used independently to predict the answer.
+[BOS] And the model cannot be applied to extractive MRC.
+

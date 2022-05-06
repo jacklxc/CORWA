@@ -1,0 +1,24 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 104 109	[BOS]
+T3	Single_summ 203 208	[BOS]
+T4	Single_summ 367 372	[BOS]
+T5	Single_summ 479 484	[BOS]
+T6	Narrative_cite 673 678	[BOS]
+T7	Reflection 942 947	[BOS]
+T8	Narrative_cite 1116 1121	[BOS]
+T9	Transition 1320 1325	[BOS]
+T10	Dominant 46 69	(Flanigan et al., 2014)
+T11	Reference 788 815	(Yamada and Matsumoto, 2003
+T12	Reference 817 828	Nivre, 2003
+T13	Reference 830 853	Sagae and Tsujii, 2008)
+T14	Reference 1244 1265	(Chiang et al., 2013)
+T15	Pronoun 209 213	They
+T16	Pronoun 402 406	they
+T17	Pronoun 538 542	they
+T18	Pronoun 1346 1350	this
+T19	B_span 41 45	JAMR
+T20	E_span 666 671	stage
+T21	B_span 752 762	transition
+T22	E_span 848 852	2008
+T23	B_span 1208 1217	hyperedge
+T24	E_span 1260 1264	2013

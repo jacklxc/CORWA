@@ -1,0 +1,28 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 93 98	[BOS]
+T3	Single_summ 346 351	[BOS]
+T4	Single_summ 407 412	[BOS]
+T5	Single_summ 554 559	[BOS]
+T6	Single_summ 638 643	[BOS]
+T7	Single_summ 715 720	[BOS]
+T8	Reflection 801 806	[BOS]
+T9	Reflection 928 933	[BOS]
+T10	Reference 157 182	(Zhang and Patrick, 2005)
+T11	Reference 278 297	(Finch et al., 2005
+T12	Reference 299 315	Wan et al., 2006
+T13	Reference 317 343	Corley and Mihalcea, 2005)
+T14	Dominant 352 369	Qiu et al. (2006)
+T15	Dominant 443 452	Wu (2005)
+T16	Reference 527 537	(Wu, 1997)
+T17	Pronoun 543 547	this
+T18	Pronoun 1046 1050	this
+T19	B_span 143 147	edit
+T20	E_span 177 181	2005
+T21	B_span 251 258	shallow
+T22	E_span 338 342	2005
+T23	B_span 352 355	Qiu
+T24	E_span 394 405	annotations
+T25	B_span 443 445	Wu
+T27	B_span 504 511	context
+T28	E_span 532 536	1997
+T26	E_span 793 799	method

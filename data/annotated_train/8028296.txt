@@ -1,0 +1,32 @@
+[BOS] Early coreference resolution systems were mainly rule-based systems (Lappin and Leass, 1994; Baldwin, 1997) .
+[BOS] The success of statistical approaches in different NLP tasks together with the availability of coreference annotated corpora (like MUC-6 (Chinchor and Sundheim, 2003) and MUC-7 (Chinchor, 2001) ) facilitated a shift from deploying rule-based methods to machine learning approaches in coreference research in the 1990s.
+
+[BOS] The increasing importance of multilingual processing, brought the deployment of semi-supervised and unsupervised methods into attention for automatic processing of limited resource languages.
+[BOS] There are several works which treat coreference resolution as an unsupervised problem (Cardie and Wagstaff, 1999; Angheluta et al., 2004; Haghighi and Klein, 2007; Ng, 2008; Poon and Domingos, 2008; Haghighi and Klein, 2009; Haghighi and Klein, 2010; Kobdani et al., 2011) .
+[BOS] We compare our results with the unsupervised systems of Haghighi and Klein (2007) , Poon and Domingos (2008) , Klein (2009), and Kobdani et al. (2011) .
+[BOS] The Haghighi and Klein (2010) approach is an almost unsupervised approach, and we do not include this system in our comparisons.
+
+[BOS] We use the expectation maximization algorithm for unsupervised learning.
+[BOS] EM has been previously used for coreference resolution (Cherry and Bergsma, 2005; Ng, 2008; Charniak and Elsner, 2009 ).
+[BOS] Cherry and Bergsma (2005) and Charniak and Elsner (2009) use EM for pronoun resolution, and Ng (2008) models coreference resolution as EM clustering.
+[BOS] The model parameters of Ng (2008) are of the form P (f 1 , .
+[BOS] .
+[BOS] .
+[BOS] , f k |C ij ), where f i is a feature, and C ij corresponds to the coreference decision of two mentions m i and m j .
+[BOS] These parameters along with the entity set, are two sets of unknown variables in Ng (2008) .
+[BOS] He computes the posterior probabilities of entities in the E-step, and determines the parameters from the N-best clustering (i.e. estimated entities) in the M-step.
+[BOS] Ng (2008) starts from an initial guess about the entities and determines the parameters based on this initial guess (M-step).
+[BOS] In order to compute the N-best clustering, Ng (2008) uses the Bell tree approach of Luo et al. (2004) .
+
+[BOS] The informativeness scores of mention pair relations (Section 3.2.1) are our unknown parameters.
+[BOS] Our inference method only requires the ranking of the informativeness scores (and not their exact values).
+[BOS] Therefore, it is much easier to estimate the ranking of these parameters than parameters like P (f 1 , .
+[BOS] .
+[BOS] .
+[BOS] , f k |C ij ), and our search space for finding an optimized ranking of the informativeness scores is very small.
+[BOS] Since it is easier to have an initial guess about the ranking of informativeness scores (rather than guessing an initial entity set), we start from an E-step with a random ranking.
+
+[BOS] In our experiments, EM converges very fast regardless of the initial state.
+[BOS] Indeed, in the M-step, we use our new inference method for computing an estimation of entities.
+[BOS] The use of the EM algorithm in our approach is discussed in more detail in Section 3.3.
+

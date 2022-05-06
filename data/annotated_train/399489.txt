@@ -1,0 +1,12 @@
+[BOS] The AL models considered here are very standard.
+[BOS] We take a small seed of data points, train a sequential labeling, and iterate over an unlabeled pool of data, selecting the data points our labeler is least confident about.
+[BOS] In the AL literature, the selected data points are often those close to a decision boundary or those most likely to decrease overall uncertainty.
+[BOS] This obviously leads to biased sampling, which can sometimes be avoided using different techniques, e.g., by exploiting cluster structure in the data.
+
+[BOS] Generally, active learning for sequential labeling has received less attention than for classification (Settles and Craven, 2008; Marcheggiani and Artieres, 2014) .
+[BOS] Our experiments were simple, and several things can be done to improve results, i.e., by reducing sampling bias.
+[BOS] In particular, several techniques have been introduced for improving out-of-domain performance using active learning.
+[BOS] Rai et al. (2010) perform target-domain AL with a seed of source-domain data.
+[BOS] Among other things, they propose to use the source and target unlabeled data to train a classifier to learn what target domain data points are similar to the source domain, in a way similar to Plank et al. (2014) .
+[BOS] For more work along these lines, see Chan and Ng (2007) and Xiao and Guo (2013) .
+

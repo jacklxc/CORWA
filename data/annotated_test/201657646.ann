@@ -1,0 +1,53 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 268 273	[BOS]
+T3	Single_summ 416 421	[BOS]
+T4	Single_summ 613 618	[BOS]
+T5	Narrative_cite 782 787	[BOS]
+T6	Narrative_cite 920 925	[BOS]
+T7	Transition 1178 1183	[BOS]
+T8	Single_summ 1297 1302	[BOS]
+T9	Single_summ 1619 1624	[BOS]
+T10	Reflection 1916 1921	[BOS]
+T11	Transition 1986 1991	[BOS]
+T12	Single_summ 2350 2355	[BOS]
+T13	Single_summ 2560 2565	[BOS]
+T14	Single_summ 2794 2799	[BOS]
+T15	Single_summ 2912 2917	[BOS]
+T16	Reference 222 242	(Ritter et al., 2011
+T17	Reference 244 265	Vinyals and Le, 2015)
+T18	Dominant 526 547	(Serban et al., 2016)
+T19	Reference 895 917	(Vinyals and Le, 2015)
+T20	Reference 1154 1175	(Serban et al., 2017)
+T21	Dominant 1303 1321	(Liu et al., 2018)
+T22	Dominant 1625 1653	(Ghazvininejad et al., 2018)
+T23	Dominant 2366 2386	(Zhang et al., 2018)
+T24	Dominant 2566 2585	(Li et al., 2016a )
+T25	Dominant 2821 2841	(Raghu et al., 2018)
+T26	Dominant 2958 2978	(Zhang et al., 2018)
+T27	Pronoun 280 285	these
+T28	Pronoun 350 354	they
+T29	Pronoun 432 436	this
+T30	Pronoun 1554 1559	these
+T31	Pronoun 1925 1929	this
+T32	Pronoun 2536 2541	their
+T33	Pronoun 2921 2925	this
+T34	B_span 169 177	generate
+T35	E_span 260 264	2015
+T36	B_span 449 453	have
+T37	E_span 776 780	RNNs
+T38	B_span 797 807	utterances
+T39	E_span 912 916	2015
+T40	B_span 1139 1144	VHRED
+T41	E_span 1170 1174	2017
+T42	B_span 1304 1307	Liu
+T43	E_span 1614 1617	RNN
+T44	B_span 1626 1639	Ghazvininejad
+T45	E_span 1905 1914	responses
+T46	B_span 2367 2372	Zhang
+T47	E_span 2551 2558	persona
+T48	B_span 2567 2569	Li
+T49	E_span 2787 2792	input
+T50	B_span 2821 2822	(
+T51	E_span 2903 2910	problem
+T52	B_span 2959 2964	Zhang
+T53	E_span 3085 3092	persona

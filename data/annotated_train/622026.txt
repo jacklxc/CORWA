@@ -1,0 +1,13 @@
+[BOS] NMT with Various Granularities.
+[BOS] A line of previous work propose to utilize other granularities besides words for NMT.
+[BOS] By further exploiting the character level (Ling et al., 2015; Costajuss and Fonollosa, 2016; Chung et al., 2016; Luong et al., 2016; Lee et al., 2016) , or the sub-word level Garca-Martnez et al., 2016) information, the corresponding NMT models capture the information inside the word and alleviate the problem of unknown words.
+[BOS] While most of them focus on decomposing words into characters or sub-words, our work aims at composing words into phrases.
+
+[BOS] Incorporating Syntactic Information in NMT Syntactic information has been widely used in SMT (Liu et al., 2006; Marton and Resnik, 2008; Shen et al., 2008) , and a lot of previous work explore to incorporate the syntactic information in NMT, which shows the effectiveness of the syntactic information (Stahlberg et al., 2016) .
+[BOS] Shi et al. (2016) give some empirical results that the deep networks of NMT are able to capture some useful syntactic information implicitly.
+[BOS] Luong et al. (2016) propose to use a multi-task framework for NMT and neural parsing, achieving promising results.
+[BOS] Eriguchi et al. (2016) propose a string-totree NMT system by end-to-end training.
+[BOS] Different to previous work, we try to incorporate the syntactic information in the target side of NMT.
+[BOS] Ishiwatari et al. (2017) concurrently propose to use chunk-based decoder to cope with the problem of free word-order languages.
+[BOS] Differently, they adopt word-level attention, and predict the end of chunk by generating end-of-chunk tokens instead of using boundary gate.
+

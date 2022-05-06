@@ -1,0 +1,45 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 211 216	[BOS]
+T3	Transition 511 516	[BOS]
+T4	Narrative_cite 754 759	[BOS]
+T5	Single_summ 1000 1005	[BOS]
+T6	Single_summ 1137 1142	[BOS]
+T7	Narrative_cite 1482 1487	[BOS]
+T8	Narrative_cite 1621 1626	[BOS]
+T9	Narrative_cite 1970 1975	[BOS]
+T10	Transition 2266 2271	[BOS]
+T11	Reference 146 169	(Alexa and Zuell, 2000)
+T12	Dominant 308 334	(Pennebaker et al., 2001 )
+T13	Reference 432 453	Iker and Klein, 1974)
+T14	Reference 818 831	(Bucci, 2002)
+T15	Reference 858 882	(Bucci and Maskit, 2006)
+T17	Reference 953 974	(Hölzer et al., 1997)
+T18	Dominant 1106 1134	(Chung and Pennebaker, 2008)
+T20	Reference 1740 1761	Stone and Hunt, 1963)
+T21	Reference 2012 2039	Esuli and Sebastiani, 2006)
+T22	Reference 2113 2137	(Devitt and Ahmad, 2007)
+T23	Reference 2249 2263	(Turney, 2002)
+T24	B_span 288 291	the
+T25	E_span 383 387	text
+T16	Dominant 1500 1529	(Roussos and O'Connell, 2005)
+T19	B_span 1488 1491	For
+T26	E_span 1610 1618	activity
+T27	B_span 147 152	Alexa
+T28	E_span 164 168	2000
+T29	B_span 410 416	theory
+T30	E_span 504 508	data
+T31	B_span 771 778	Bucci's
+T32	E_span 899 907	language
+T33	B_span 912 919	Höltzer
+T34	E_span 990 998	language
+T35	B_span 1006 1009	The
+T36	E_span 1474 1480	others
+T37	B_span 1688 1691	the
+T38	E_span 1791 1803	applications
+T39	B_span 1985 1988	the
+T40	E_span 2132 2136	2007
+T41	E_span 2132 2136	2007
+T42	B_span 2084 2091	various
+T43	B_span 2140 2145	other
+T44	E_span 2258 2262	2002
+T45	Pronoun 1143 1147	This

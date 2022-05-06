@@ -1,0 +1,80 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 180 185	[BOS]
+T3	Single_summ 301 306	[BOS]
+T4	Narrative_cite 525 530	[BOS]
+T5	Single_summ 773 778	[BOS]
+T6	Narrative_cite 1011 1016	[BOS]
+T7	Narrative_cite 1307 1312	[BOS]
+T8	Narrative_cite 1516 1521	[BOS]
+T9	Transition 1841 1846	[BOS]
+T10	Single_summ 1910 1915	[BOS]
+T11	Single_summ 2117 2122	[BOS]
+T12	Narrative_cite 2380 2385	[BOS]
+T13	Narrative_cite 2590 2595	[BOS]
+T14	Transition 3009 3014	[BOS]
+T15	Reflection 3104 3109	[BOS]
+T16	Reference 153 177	(Gatt and Krahmer, 2018)
+T17	Reference 277 298	(Brooke et al., 2010)
+T18	Dominant 321 346	Sheikha and Inkpen (2011)
+T19	Reference 396 415	(Gatt et al., 2009)
+T20	Reference 686 711	(Ballesteros et al., 2015
+T21	Reference 713 738	Di Fabbrizio et al., 2008
+T22	Reference 740 770	Krahmer and van Deemter, 2012)
+T24	Dominant 832 859	(Mairesse and Walker, 2011)
+T25	Reference 1154 1170	(Hu et al., 2017
+T26	Reference 1172 1193	Jhamtani et al., 2017
+T27	Reference 1195 1214	Melnyk et al., 2017
+T28	Reference 1216 1236	Mueller et al., 2017
+T29	Reference 1238 1256	Zhang et al., 2018
+T30	Reference 1258 1281	Prabhumoye et al., 2018
+T31	Reference 1283 1304	Niu and Bansal, 2018)
+T32	Reference 1477 1495	(Shen et al., 2017
+T33	Reference 1497 1513	Fu et al., 2018)
+T34	Reference 1616 1638	(Salimans et al., 2016
+T35	Reference 1640 1665	Arjovsky and Bottou, 2017
+T36	Reference 1667 1690	Bousmalis et al., 2017)
+T37	Reference 1770 1787	(Li et al., 2018)
+T38	Dominant 1916 1932	Li et al. (2018)
+T39	Reference 2491 2515	(dos Santos et al., 2018
+T40	Reference 2517 2540	Logeswaran et al., 2018
+T41	Reference 2542 2561	Lample et al., 2019
+T42	Reference 2563 2587	Prabhumoye et al., 2018)
+T43	Reference 2674 2693	(Fung and Yee, 1998
+T44	Reference 2695 2716	Munteanu et al., 2004
+T45	Reference 2718 2737	Smith et al., 2010)
+T46	Reference 2775 2797	(Conneau et al., 2017b
+T47	Reference 2799 2818	Lample et al., 2017
+T48	Reference 2820 2841	Artetxe et al., 2017)
+T49	B_span 125 129	styl
+T50	E_span 176 177	)
+T51	B_span 252 257	rules
+T52	E_span 297 298	)
+T53	B_span 321 324	She
+T54	E_span 522 523	)
+T55	B_span 601 605	data
+T56	E_span 769 770	)
+T57	B_span 792 795	Mai
+T58	E_span 1008 1009	.
+T59	B_span 1122 1128	neural
+T60	E_span 1303 1304	)
+T61	B_span 1374 1383	similarly
+T62	E_span 1512 1513	)
+T63	B_span 1596 1604	training
+T64	E_span 1689 1690	)
+T65	B_span 1722 1724	of
+T68	E_span 1786 1787	)
+T69	B_span 1916 1918	Li
+T70	E_span 2377 2378	.
+T71	B_span 2474 2478	back
+T72	E_span 2586 2587	)
+T73	B_span 2623 2635	unsupervised
+T74	E_span 2736 2737	)
+T75	B_span 2742 2748	Neural
+T76	E_span 2840 2841	)
+T77	Pronoun 209 213	this
+T78	Pronoun 1558 1563	these
+T79	Pronoun 2596 2598	It
+T80	Pronoun 2720 2722	it
+T81	Pronoun 3039 3043	this
+T82	B_span 377 386	SimpleNLG
+T83	E_span 410 414	2009

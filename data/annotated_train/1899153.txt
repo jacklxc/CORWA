@@ -1,0 +1,11 @@
+[BOS] In terms of methodology, our work is closely related to previous works that incorporate copying mechanism with neural models (Glehre et al., 2016; Gu et al., 2016; Ling et al., 2016; .
+[BOS] Our models are similar to models proposed in Merity et al., 2016) where the generation of each word can be conditioned on a particular entry in knowledge lists and previous words.
+[BOS] In our work, we describe a model with broader applications, allowing us to condition, on databases, lists and dynamic lists.
+[BOS] In terms of applications, our work is related to chit-chat dialogue Sordoni et al., 2015; Serban et al., 2016; Shang et al., 2015) and task oriented dialogue (Wen et al., 2015; Bordes and Weston, 2016; Williams and Zweig, 2016; Wen et al., 2016) .
+[BOS] Most of previous works on task oriented dialogues embed the seq2seq model in traditional dialogue systems, in which the table query part is not differentiable, while our model queries the database directly.
+[BOS] Recipe generation was proposed in (Kiddon et al., 2016) .
+[BOS] They use attention mechanism over the checklists, whereas our work models explicit references to them.
+[BOS] Context dependent language models (Mikolov et al., 2010; Jozefowicz et al., 2016; Mikolov et al., 2010; Wang and Cho, 2015) are proposed to capture long term dependency of text.
+[BOS] There are also lots of works on coreference resolution (Haghighi and Klein, 2010; Wiseman et al., 2016) .
+[BOS] We are the first to combine coreference with language modeling, to the best of our knowledge.
+

@@ -1,0 +1,20 @@
+[BOS] Most studies in AMR-to-text generation regard it as a translation problem and are motivated by the recent advances in both statistical machine translation (SMT) and neural machine translation (NMT).
+[BOS] Flanigan et al. (2016) first transform an AMR graph into a tree, then specify a number of tree-to-string transduction rules based on alignments that are used to drive a tree-based SMT model (Graehl and Knight, 2004) .
+[BOS] Pourdamghani et al. (2016) develop a method that learns to linearize AMR graphs into AMR strings, and then feed them into a phrase-based SMT model (Koehn et al., 2003) .
+[BOS] Song et al. (2017) use synchronous node replacement grammar (SNRG) to generate text.
+[BOS] Different from synchronous context-free grammar in hierarchical phrase-based SMT (Chiang, 2007) , SNRG is a grammar over graphs.
+
+[BOS] Moving to neural seq2seq approaches, Konstas et al. (2017) successfully apply seq2seq model together with large-scale unlabeled data for both text-to-AMR parsing and AMR-to-text generation.
+[BOS] With special interest in the target side syntax, Cao and Clark (2019) use seq2seq models to generate target syntactic structure, and then the surface form.
+[BOS] To prevent the information loss in linearizing AMR graphs into sequences, (Song et al., 2018; Beck et al., 2018) propose graphto-sequence models to encode graph structure directly.
+[BOS] Focusing on reentrancies, Damonte and Cohen (2019) propose stacking encoders which consist of BiLSTM (Graves et al., 2013) , TreeLSTMs (Tai et al., 2015) , and Graph Convolutional Network (GCN) (Duvenaud et al., 2015; Kipf and Welling, 2016) .
+[BOS] Guo et al. (2019) propose densely connected GCN to better capture both local and non-local features.
+[BOS] However, all the aforementioned graph-based models only consider the relations between nodes that are directly connected, thus lose the structural information between nodes that are indirectly connected via an edge path.
+
+[BOS] Recent studies also extend the Transformer to encode structural information for other NLP applications.
+[BOS] Shaw et al. (2018) propose relationaware self-attention to capture relative positions of word pairs for neural machine translation.
+[BOS] Ge et al. (2019) extend the relation-aware selfattention to capture syntactic and semantic structures.
+[BOS] Our model is inspired by theirs but aims to encode structural label sequences of concept pairs.
+[BOS] Koncel-Kedziorski et al. (2019) propose graph Transformer to encode graph structure.
+[BOS] Similar to the GCN, it focuses on the relations between directly connected nodes.
+

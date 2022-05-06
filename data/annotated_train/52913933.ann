@@ -1,0 +1,53 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 97 102	[BOS]
+T3	Single_summ 252 257	[BOS]
+T4	Single_summ 441 446	[BOS]
+T5	Single_summ 572 577	[BOS]
+T6	Single_summ 805 810	[BOS]
+T7	Transition 949 954	[BOS]
+T8	Transition 1177 1182	[BOS]
+T9	Transition 1326 1331	[BOS]
+T10	Transition 1436 1441	[BOS]
+T11	Transition 1615 1620	[BOS]
+T12	Transition 1682 1687	[BOS]
+T13	Transition 1859 1864	[BOS]
+T14	Single_summ 2062 2067	[BOS]
+T15	Single_summ 2180 2185	[BOS]
+T16	Single_summ 2294 2299	[BOS]
+T17	Reflection 2402 2407	[BOS]
+T18	Single_summ 2471 2476	[BOS]
+T19	Single_summ 2596 2601	[BOS]
+T20	Single_summ 2816 2821	[BOS]
+T21	Single_summ 3018 3023	[BOS]
+T22	Reflection 3113 3118	[BOS]
+T23	Dominant 258 275	Min et al. (2018)
+T24	Dominant 578 599	Nishida et al. (2018)
+T25	Dominant 2068 2090	Khashabi et al. (2017)
+T26	Dominant 2492 2513	Boratko et al. (2018)
+T27	Reference 2925 2944	(Chen et al., 2017)
+T28	Pronoun 460 464	this
+T29	Pronoun 478 482	they
+T30	Pronoun 519 523	this
+T31	Pronoun 774 776	it
+T32	Pronoun 964 969	these
+T33	Pronoun 1335 1339	this
+T34	Pronoun 1442 1446	This
+T35	Pronoun 2040 2044	this
+T36	Pronoun 2186 2190	They
+T37	Pronoun 2300 2304	They
+T38	Pronoun 2420 2424	this
+T39	Pronoun 2690 2694	they
+T40	Pronoun 2947 2951	they
+T41	Pronoun 3024 3028	This
+T42	Pronoun 3102 3106	this
+T43	Pronoun 3131 3135	this
+T44	B_span 258 261	Min
+T45	E_span 565 570	model
+T46	B_span 578 585	Nishida
+T47	E_span 943 947	span
+T48	B_span 2068 2076	Khashabi
+T49	E_span 2395 2400	terms
+T50	B_span 2492 2499	Boratko
+T53	B_span 2892 2895	pre
+T54	E_span 2939 2943	2017
+T55	E_span 3107 3111	task

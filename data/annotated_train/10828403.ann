@@ -1,0 +1,10 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 120 125	[BOS]
+T3	Narrative_cite 256 261	[BOS]
+T4	Other 395 400	[BOS]
+T6	Reference 225 254	(Barzilay and McKeown, 2001 )
+T8	Reference 365 392	(Shinyama and Sekine, 2003)
+T9	E_span 248 252	2001
+T10	E_span 387 391	2003
+T5	B_span 216 224	document
+T7	B_span 359 364	event

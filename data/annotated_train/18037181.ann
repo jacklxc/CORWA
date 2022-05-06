@@ -1,0 +1,34 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 121 126	[BOS]
+T3	Single_summ 447 452	[BOS]
+T4	Single_summ 512 517	[BOS]
+T5	Single_summ 797 802	[BOS]
+T6	Single_summ 995 1000	[BOS]
+T7	Single_summ 1093 1098	[BOS]
+T8	Single_summ 1228 1233	[BOS]
+T9	Single_summ 1475 1480	[BOS]
+T10	Transition 1687 1692	[BOS]
+T11	Dominant 96 118	Flanigan et al. (2014)
+T12	Dominant 518 553	Werling, Angeli, and Manning (2015)
+T13	Reference 589 611	Flanigan et al. (2014)
+T14	Dominant 885 914	Peng, Song, and Gildea (2015)
+T15	Dominant 1099 1117	Pust et al. (2015)
+T16	Dominant 1481 1514	Wang, Xue, and S. Pradhan (2015a)
+T17	Pronoun 127 131	They
+T18	Pronoun 308 313	these
+T19	Pronoun 453 457	They
+T20	Pronoun 1080 1085	these
+T21	Pronoun 1234 1238	They
+T22	Pronoun 1371 1376	these
+T23	B_span 6 9	The
+T24	E_span 504 510	corpus
+T25	B_span 566 569	AMR
+T26	E_span 606 610	2014
+T27	B_span 518 525	Werling
+T28	E_span 786 795	procedure
+T29	B_span 803 810	Besides
+T30	E_span 1086 1091	rules
+T31	B_span 1099 1103	Pust
+T32	E_span 1468 1473	model
+T33	B_span 1481 1485	Wang
+T34	E_span 1681 1685	tree

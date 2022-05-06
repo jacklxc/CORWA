@@ -1,0 +1,9 @@
+[BOS] Neural Machine Translation A number of attention-based neural architectures have proven to be very effective for NMT.
+[BOS] For RNMT models, both the encoder and decoder were implemented as deep Recurrent Neural Networks (RNNs), interacting via a soft-attention mechanism Chen et al., 2018) .
+[BOS] It is the pioneering paradigm achieving the state-ofthe-art performance.
+[BOS] Following RNMT, convolutional sequence-to-sequence (ConvS2S) models take advantages of modern fast computing devices which outperform RNMT with faster training speed (Kalchbrenner et al., 2016; Gehring et al., 2017a) .
+[BOS] Most recently, the Transformer model, which is based solely on a self-attention mechanism and feed-forward connections, has further advanced the field of NMT, both in terms of translation quality and speed of convergence (Vaswani et al., 2017; Dehghani et al., 2018) .
+[BOS] The attention mechanism plays a crucial role in the success of all these models to achieve the state-of-the-art results, as the memory capacity of a single dense vector in the typical encoder-decoder model seems not powerful enough to store the necessary information of the source sentence.
+[BOS] Despite the generally good performance, the attention based models have running time that is super-linear in the length of the source sequences, burdening the inference speed as the length of the sequences increases.
+[BOS] Different from the attention based approach, CAPSNMT runs in time that is linear in the length of the sequences.
+

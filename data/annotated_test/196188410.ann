@@ -1,0 +1,49 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 94 99	[BOS]
+T3	Narrative_cite 335 340	[BOS]
+T4	Narrative_cite 482 487	[BOS]
+T5	Single_summ 708 713	[BOS]
+T6	Reflection 899 904	[BOS]
+T7	Narrative_cite 1039 1044	[BOS]
+T8	Transition 1249 1254	[BOS]
+T9	Transition 1392 1397	[BOS]
+T10	Single_summ 1502 1507	[BOS]
+T11	Multi_summ 1655 1660	[BOS]
+T12	Reflection 1816 1821	[BOS]
+T13	Reference 239 258	(Kim and Rush, 2016
+T14	Reference 260 276	See et al., 2016
+T15	Reference 278 293	He et al., 2018
+T16	Reference 295 313	Zhou et al., 2018)
+T17	Reference 433 451	Dong et al. (2015)
+T18	Reference 458 479	Johnson et al. (2017)
+T19	Reference 565 588	(Blackwood et al., 2018
+T20	Reference 590 609	Lakew et al., 2018)
+T21	Reference 663 684	Johnson et al. (2017)
+T22	Reference 689 705	Ha et al. (2016)
+T23	Dominant 714 732	Zhou et al. (2019)
+T24	Reference 1149 1169	Neubig and Hu, 2018)
+T25	Reference 1190 1213	(Sennrich et al., 2016a
+T26	Reference 1215 1236	Zhang and Zong, 2016)
+T27	Dominant 1508 1524	Gu et al. (2018)
+T28	Dominant 1661 1680	Firat et al. (2016)
+T29	Dominant 1683 1702	Lakew et al. (2017)
+T30	Dominant 1708 1729	Johnson et al. (2017)
+T32	E_span 312 313	)
+T34	E_span 478 479	)
+T35	B_span 553 564	researchers
+T36	E_span 704 705	)
+T37	B_span 714 718	Zhou
+T38	E_span 897 898	.
+T39	B_span 1131 1139	transfer
+T40	E_span 1168 1169	)
+T41	B_span 1174 1178	data
+T42	E_span 1235 1236	)
+T43	B_span 1508 1510	Gu
+T44	E_span 1653 1654	.
+T45	B_span 1661 1664	Fir
+T46	E_span 1814 1815	.
+T47	Pronoun 1825 1829	this
+T48	B_span 161 164	NMT
+T31	B_span 376 388	multilingual
+T33	B_span 650 659	framework
+T49	E_span 700 704	2016

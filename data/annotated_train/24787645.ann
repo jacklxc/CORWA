@@ -1,0 +1,13 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reference 68 86	(Tsai et al., 2016
+T3	Reference 88 108	Littell et al., 2016
+T4	Reference 110 128	Zhang et al., 2016
+T5	Reference 130 148	Yang et al., 2017)
+T6	Reference 182 203	(McNamee et al., 2011
+T7	Reference 205 231	Spitkovsky and Chang, 2011
+T8	Reference 233 255	Sil and Florian, 2016)
+T9	Pronoun 289 293	this
+T10	B_span 43 48	lowre
+T11	E_span 143 147	2017
+T12	B_span 153 158	cross
+T13	E_span 250 254	2016

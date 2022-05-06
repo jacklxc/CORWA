@@ -1,0 +1,56 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 173 178	[BOS]
+T3	Single_summ 368 373	[BOS]
+T4	Single_summ 638 643	[BOS]
+T5	Single_summ 908 913	[BOS]
+T6	Single_summ 1119 1124	[BOS]
+T7	Single_summ 1276 1281	[BOS]
+T8	Transition 1402 1407	[BOS]
+T9	Transition 1641 1646	[BOS]
+T10	Single_summ 1752 1757	[BOS]
+T11	Single_summ 2008 2013	[BOS]
+T12	Single_summ 2064 2069	[BOS]
+T13	Single_summ 2335 2340	[BOS]
+T14	Single_summ 2422 2427	[BOS]
+T15	Single_summ 2576 2581	[BOS]
+T16	Narrative_cite 2680 2685	[BOS]
+T17	Transition 2947 2952	[BOS]
+T18	Single_summ 2981 2986	[BOS]
+T19	Single_summ 3126 3131	[BOS]
+T20	Single_summ 3305 3310	[BOS]
+T21	Single_summ 3472 3477	[BOS]
+T22	Single_summ 3618 3623	[BOS]
+T23	Dominant 35 56	Rastogi et al. (2017)
+T24	Dominant 653 671	(Ren et al., 2018)
+T25	Dominant 1131 1148	(Wu et al., 2019)
+T26	Dominant 1766 1784	(Gao et al., 2019)
+T27	Dominant 2399 2419	Peters et al. (2018)
+T28	Reference 2738 2758	Devlin et al. (2018)
+T29	Dominant 3104 3123	(Yang et al., 2018)
+T30	Reference 3401 3419	(Cho et al., 2014)
+T31	B_span 6 10	Semi
+T32	E_span 635 636	.
+T33	B_span 644 649	State
+T34	E_span 1116 1117	.
+T35	B_span 1125 1130	TRADE
+T36	E_span 1400 1401	.
+T37	B_span 1758 1760	DS
+T38	E_span 2332 2333	.
+T39	B_span 2341 2351	Contextual
+T40	E_span 2678 2679	.
+T42	B_span 2716 2724	language
+T44	E_span 2793 2797	data
+T47	B_span 3381 3390	attention
+T49	Pronoun 188 192	they
+T50	Pronoun 254 258	they
+T51	Pronoun 387 392	their
+T52	Pronoun 472 474	it
+T53	Pronoun 606 608	it
+T54	Pronoun 1027 1031	this
+T55	Pronoun 1048 1050	it
+T56	Pronoun 2070 2074	This
+T57	Pronoun 2109 2111	it
+T58	Pronoun 3185 3189	they
+T41	E_span 3694 3701	decoder
+T43	E_span 3414 3418	2014
+T48	B_span 2997 3005	sequence

@@ -1,0 +1,18 @@
+[BOS] The mechanism of the proposed multi-hop attention for the Transformer was inspired by the hierarchical attention in multi-source sequenceto-sequence model (Libovick and Helcl, 2017) .
+[BOS] The term "multi-hop is borrowed from the end-to-end memory network (Sukhbaatar et al., 2015) and the title "attention over heads" is inspired by Attention-over-Attention neural network (Cui et al., 2017) , respectively.
+[BOS] Ahmed et al. (2018) proposed Weighted Transformer which replaces multi-head attention by multiple self-attention branches that learn to combine during the training process.
+[BOS] They reported that it slightly outperformed the baseline Transformer (0.5 BLEU points on the WMT 2014 English-to-German translation task) and converges 15-40% faster.
+[BOS] They linearly combined the multiple sources of attention, while we com-bined multiple attention non-linearly using softmax function in the second hop.
+
+[BOS] It is well known that the Transformer is difficult to train (Popel and Bojar, 2018) .
+[BOS] As it has a large number of parameters, it takes time to converge and sometimes it does not do so at all without appropriate hyper parameter tuning.
+[BOS] Considering the experimental results of our multi-hop attention experiments, and that of the Weight Transformer, an appropriate design of the network to combine multi-head attention could result in faster and more stable convergence of the Transformer.
+[BOS] As the Transformer is used as a building block for the recently proposed pre-trained language models such as BERT (Devlin et al., 2019 ) which takes about a month for training, we think it is worthwhile to pursue this line of research including the proposed multi-hop attention.
+
+[BOS] Universal Transformer (Dehghani et al., 2019) can be thought of variable-depth recurrent attention.
+[BOS] It obtained Turing-complete expressive power in exchange for a vast increase in the number of parameters and training time.
+[BOS] As shown in Table 4 , we have proposed an efficient method to increase the depth of recurrence in terms of the number of parameters and training time.
+[BOS] Recently, Voita et al. (2019) and Michel et al. (2019) independently reported that only a certain subset of the heads plays an important role in the Transformer.
+[BOS] They performed analyses by pruning heads from an already trained model, while we have proposed a method to assign weights to heads automatically.
+[BOS] We assume our method (multi-hop attention or attention-over-heads) selects important heads in the early stage of training, which results in faster convergence than the original Transformer.
+

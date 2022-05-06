@@ -1,0 +1,17 @@
+[BOS] The method proposed in this paper is a kind of domain adaptation technique.
+[BOS] There are many previous work on domain adaptation for machine translation (Britz et al., 2017; Wang et al., 2017; Chu et al., 2017; Chu and Wang, 2018) , which leverages out-of-domain parallel corpora and indomain monolingual corpora to improve translation.
+[BOS] The difference between our method and previous work lies in that we use back-translation (Sennrich et al., 2015a) for domain adaptation.
+[BOS] Different from some previous work using adversarial training tion (Zheng et al., 2018a) to differentiate multiple tasks, we simply assign different starting symbol for multiple tasks (Lample et al., 2018) .
+
+[BOS] A similar method was proposed in (Xie et al., 2018) in the context of grammar correction, where a model is trained to add noises on original sentences to produce noisy sentences.
+[BOS] However, instead of learn how to generate arbitrary "noises", our goal is to learn "social-media-style" translations.
+[BOS] Singh et al. (2019) injects artificial noise in the clean data according to the distribution of noisy data.
+[BOS] Liu et al. (2019a) propose to leverage phonetic information to reduce the noises in data.
+
+[BOS] Another group of work related to this paper is data augmentation in machine translation.
+[BOS] Although data augmentation is very popular in general learning tasks, such as image processing, it is non-trivial to do so in machine translation because even slight modifications of sentences can make huge difference in semantics.
+[BOS] To our best knowledge, there are two categories of successful data augmentation approaches for machine translation.
+[BOS] The first one is based on backtranslation ( (Sennrich et al., 2015a) ) which augments monolingual data into training set.
+[BOS] The second one is based on word replacement, such as (Sennrich et al., 2016) and .
+[BOS] Zheng et al. (2018b) make the use of multiple references and generates even more pseudoreferences and achieve improvement in both machine translation and image captioning.
+

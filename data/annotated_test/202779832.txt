@@ -1,0 +1,21 @@
+[BOS] Open domain dialog system has been a long goal for the NLP community since ELIZA (Weizenbaum, 1966) .
+[BOS] Early data-driven work uses information retrieval techniques (Ji et al., 2014; Hu et al., 2014) .
+[BOS] Recently, end-to-end neural sequence generation (Vinyals and Le, 2015; Serban et al., 2016; Li et al., 2016a; Sordoni et al., 2015) has attracted the most attention.
+[BOS] A major issue of such end-to-end sequence generation method is the safe response problem.
+[BOS] The generated responses tend to be universal and unengaging (e.g., "I don't know", "I think so" etc.).
+[BOS] One of the rea- sons is that for most queries, the set of possible responses is considerably large and the query alone cannot specify an informative response.
+[BOS] Various approaches (Li et al., 2016b; Xing et al., 2017; Ghazvininejad et al., 2018; Zhou et al., 2018; Liu et al., 2018; Tian et al., 2019; have been proposed for this problem.
+
+[BOS] Some previous studies have been about using the results of traditional retrieval systems for informative response generation.
+[BOS] introduced an extra encoder for the retrieved response.
+[BOS] The encoder's output, together with that of the query encoder, is utilized to feed the decoder.
+[BOS] Weston et al. (2018) simply concatenated the original query and the retrieved response as the input to the encoder.
+[BOS] Instead of solely using the retrieved response, Wu et al. (2019) further introduced to encodes the lexical differences between the current query and the retrieved query.
+[BOS] Besides, Pandey et al. (2018) proposed to weight different training instances by context similarity, yet their work is done in close domain conversation.
+[BOS] The idea of editing some prototype materials rather than generating from scratch has also been explored in other text generation tasks.
+[BOS] For examples, Guu et al. (2018) proposed a prototypethen-edit model for unconditional text generation.
+[BOS] Wiseman et al. (2017 Wiseman et al. ( , 2018 used either fixed template or learned templates for data-to-text generation.
+[BOS] conditioned the next sentence generation on a skeleton that is extracted from the source input and the already generated text in storytelling.
+[BOS] Also for storytelling, Clark et al. (2018) proposed to extract the entities in sentences and use them as additional input.
+[BOS] Gu et al. (2018) uses retrieved translation as a reference to the generative translation model.
+

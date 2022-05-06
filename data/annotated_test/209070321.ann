@@ -1,0 +1,55 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 445 450	[BOS]
+T3	Transition 649 654	[BOS]
+T4	Narrative_cite 799 804	[BOS]
+T5	Reflection 1081 1086	[BOS]
+T6	Transition 1129 1134	[BOS]
+T7	Reflection 1263 1268	[BOS]
+T8	Narrative_cite 1330 1335	[BOS]
+T9	Reflection 1601 1606	[BOS]
+T10	Reflection 1818 1823	[BOS]
+T11	Reflection 1938 1943	[BOS]
+T12	Reflection 2067 2072	[BOS]
+T13	Reflection 2245 2250	[BOS]
+T14	Narrative_cite 2400 2405	[BOS]
+T15	Transition 2569 2574	[BOS]
+T16	Reflection 2849 2854	[BOS]
+T17	Reflection 3025 3030	[BOS]
+T18	Narrative_cite 3254 3259	[BOS]
+T19	Reference 127 149	McDonald et al. (2005)
+T20	Reference 258 282	(Billot and Lang, 1989 )
+T21	Reference 599 626	(Kuhlmann and Jonsson, 2015
+T22	Reference 628 645	Cao et al., 2017)
+T23	Reference 899 927	(Gmez-Rodrguez et al., 2008)
+T24	Reference 985 1016	(Kiperwasser and Goldberg, 2016
+T25	Reference 1018 1035	Shi et al., 2017)
+T26	Reference 1507 1527	(Corro et al., 2017)
+T27	Reference 2499 2523	(Kitaev and Klein, 2018)
+T28	Reference 3001 3021	(Greff et al., 2017)
+T29	Reference 3228 3250	(Coavoux et al., 2018)
+T30	Reference 3399 3422	(Strubell et al., 2018)
+T31	Pronoun 474 478	this
+T32	Pronoun 829 833	this
+T33	Pronoun 1824 1828	This
+T34	Pronoun 2642 2647	these
+T35	Pronoun 2743 2747	they
+T36	B_span 110 113	MST
+T37	E_span 144 148	2005
+T38	B_span 221 227	phrase
+T39	E_span 276 280	1989
+T40	B_span 549 552	non
+T41	E_span 640 644	2017
+T42	B_span 880 883	arc
+T43	E_span 922 926	2008
+T44	B_span 962 965	non
+T45	E_span 1030 1034	2017
+T46	B_span 1491 1501	derivation
+T47	E_span 1522 1526	2017
+T48	B_span 2490 2498	instance
+T49	E_span 2518 2522	2018
+T50	B_span 2971 2979	unrolled
+T51	E_span 3016 3020	2017
+T52	B_span 3206 3215	auxiliary
+T53	E_span 3245 3249	2018
+T54	B_span 3372 3375	SRL
+T55	E_span 3417 3421	2018

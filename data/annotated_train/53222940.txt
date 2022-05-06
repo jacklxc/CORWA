@@ -1,0 +1,8 @@
+[BOS] The WMT 2018 parallel corpus filtering shared task partially shares its objectives with the First Automatic Translation Memory Cleaning Shared Task (Barbu et al., 2016) , where participants had to automatically classify translation memory segments according to whether the target language (TL) side was translation of the source language (SL) side or not.
+[BOS] This task is, in turn, very similar to the detection of parallel sentences in comparable corpora, that can be tackled by combining bilingual data and automatic classifiers (Munteanu and Marcu, 2005) , machine translation (AbdulRauf and Schwenk, 2009) or, more recently, word embeddings (Espaa-Bonet et al., 2017) .
+[BOS] In fact, the approach we follow to detect sentences that are mutual translations is similar to the work of Munteanu and Marcu (2005) .
+[BOS] Their approach differs from ours in the fact that we make use of a larger set of shallow features not related to lexical similarity.
+
+[BOS] However, since the size of the data sets that participants must produce in this task is smaller than the number of parallel sentences that are mutual translations, this task is also related to the data selection: selection of a subset of data that maximizes translation quality, avoiding redundancy and matching a given domain (Eetemadi et al., 2015) .
+[BOS] Instead of the widespread language-model based data selection methods (Axelrod et al., 2011) , we replaced words with placeholders in order to not take into account the domain of the text.
+

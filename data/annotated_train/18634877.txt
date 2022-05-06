@@ -1,0 +1,24 @@
+[BOS] Existing approaches for cross-lingual dependency parsing can be divided into three categories: crosslingual annotation projection methods, jointly modeling methods and cross-lingual representation learning methods.
+
+[BOS] The cross-lingual annotation projection method is first proposed in for shallower NLP tasks (POS tagging, NER, etc.)
+[BOS] .
+[BOS] The central idea is to project the syntactic annotations from a resource-rich language to the target language through word alignments, and then train a supervised parser on the projected noisy annotations (Hwa et al., 2005; Smith and Eisner, 2009; Zhao et al., 2009; Jiang et al., 2011; Tiedemann, 2014; Tiedemann, 2015) .
+[BOS] Noises and errors introduced by the word alignment and annotation projection processes can be reduced with robust projection methods by using graph-based label propagation Kim and Lee, 2012) , or by incorporating auxiliary resources Khapra et al., 2010) .
+
+[BOS] The jointly modeling methods integrates the monolingual grammar induction with bilinguallyprojected dependency information regularization (Ganchev et al., 2009 ), manually constructed universal dependency parsing rules (Naseem et al., 2010) and manually specified typological features (Naseem et al., 2012) .
+[BOS] Besides dependency parsing, the joint modeling method has also been applied for other multilingual NLP tasks, including NER (Che et al., 2013; Wang and Manning, 2014) , SRL (Zhuang and Zong, 2010; and WSD (Guo and Diab, 2010) .
+
+[BOS] The cross-lingual representation learning method aims at building connections across different languages by inducing languageindependent feature representations.
+[BOS] After that, a parser can be trained at the source-language side within the induced feature space, and directly be applied to the target language.
+[BOS] Typical approaches include cross-lingual word clustering (Tckstrm et al., 2012) which is employed in this paper as a baseline, projection features (Durrett et al., 2012) .
+[BOS] Xiao and Guo (2014) learns cross-lingual word embeddings and apply them with MSTParser for linguistic transfer, which inspires this work.
+
+[BOS] It is worth mentioning that remarkable results on the universal dependency treebanks have been achieved by using annotation projection method (Tiedemann, 2014) , treebank translation method (Tiedemann and Nivre, 2014) , and distribution transferring method (Ma and Xia, 2014) .
+[BOS] Unlike our approach, all of these methods involve training a parser at the target language side.
+[BOS] Parallel bitexts are required in these methods, which limits their scalability to lower-resource languages.
+[BOS] That said, these methods have the advantage that they are capable of capturing some language-specific syntactic patterns which our approach cannot.
+
+[BOS] 15 These two kinds of approaches 15 For example, in Spanish and French, adjectives often appears after nouns, thus forming a right-directed arc labeled by amod, whereas in English, the amod arcs are mostly leftdirected.
+
+[BOS] are complementary, and can be integrated to push the performance further.
+

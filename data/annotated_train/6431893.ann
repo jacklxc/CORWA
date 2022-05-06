@@ -1,0 +1,52 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 161 166	[BOS]
+T3	Narrative_cite 272 277	[BOS]
+T4	Narrative_cite 536 541	[BOS]
+T5	Single_summ 759 764	[BOS]
+T6	Single_summ 969 974	[BOS]
+T7	Single_summ 1152 1157	[BOS]
+T8	Single_summ 1523 1528	[BOS]
+T9	Single_summ 1693 1698	[BOS]
+T10	Transition 1760 1765	[BOS]
+T11	Transition 2037 2042	[BOS]
+T12	Transition 2311 2316	[BOS]
+T13	Transition 2475 2480	[BOS]
+T14	Transition 2715 2720	[BOS]
+T15	Transition 2839 2844	[BOS]
+T16	Transition 2932 2937	[BOS]
+T17	Transition 3040 3045	[BOS]
+T18	Transition 3111 3116	[BOS]
+T19	Reflection 3218 3223	[BOS]
+T20	Reference 434 459	Riloff and Shepherd, 1997
+T21	Reference 461 470	Lin, 1998
+T22	Reference 472 487	Caraballo, 1999
+T23	Reference 489 512	Thelen and Riloff, 2002
+T24	Reference 514 533	You and Chen, 2006)
+T25	Reference 721 742	Tokunaga et al., 1997
+T26	Reference 744 757	Pekar, 2004 )
+T27	Dominant 800 813	Hearst (1992)
+T28	Dominant 975 991	Ciaramita (2002)
+T29	Dominant 1171 1183	Tseng (2003)
+T30	Dominant 1529 1550	Kwong and Tsou (2007)
+T31	B_span 380 387	corpora
+T32	E_span 528 532	2006
+T33	B_span 642 650	thesauri
+T34	E_span 756 757	)
+T35	B_span 800 804	Hear
+T36	E_span 960 967	WordNet
+T37	B_span 975 977	Ci
+T38	E_span 1142 1150	features
+T39	B_span 1158 1161	For
+T40	E_span 1515 1521	corpus
+T41	B_span 1529 1534	Kwong
+T42	E_span 1754 1758	task
+T43	Pronoun 692 697	their
+T44	Pronoun 787 791	this
+T45	Pronoun 1699 1703	They
+T46	Pronoun 2317 2319	It
+T47	Pronoun 2492 2496	this
+T48	Pronoun 2531 2535	they
+T49	Pronoun 2701 2705	this
+T50	Pronoun 2845 2849	This
+T51	Pronoun 2938 2940	It
+T52	Pronoun 3265 3269	this

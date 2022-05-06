@@ -1,0 +1,37 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 68 73	[BOS]
+T3	Narrative_cite 156 161	[BOS]
+T4	Reflection 341 346	[BOS]
+T5	Narrative_cite 419 424	[BOS]
+T6	Reflection 557 562	[BOS]
+T7	Transition 733 738	[BOS]
+T8	Single_summ 828 833	[BOS]
+T9	Single_summ 973 978	[BOS]
+T10	Single_summ 1160 1165	[BOS]
+T11	Single_summ 1270 1275	[BOS]
+T12	Dominant 74 95	Elliott et al. (2015)
+T13	Reference 184 207	(Bahdanau et al., 2014)
+T14	Reference 293 315	(Caglayan et al., 2016
+T15	Reference 531 554	(Elliott and Kdr, 2017)
+T16	Dominant 834 853	Dabre et al. (2017)
+T17	Dominant 979 1001	Zoph and Knight (2016)
+T18	Dominant 1276 1299	Nishimura et al. (2018)
+T19	Pronoun 378 383	these
+T20	Pronoun 488 492	they
+T21	Pronoun 566 570	this
+T22	Pronoun 1176 1181	their
+T23	Pronoun 1500 1504	this
+T24	B_span 74 81	Elliott
+T25	E_span 149 154	model
+T26	B_span 167 176	attentive
+T27	E_span 202 206	2014
+T28	B_span 214 224	additional
+T29	E_span 311 315	2016
+T30	B_span 446 451	image
+T31	E_span 549 553	2017
+T32	B_span 834 839	Dabre
+T33	E_span 964 971	encoder
+T34	B_span 979 983	Zoph
+T36	E_span 1260 1268	baseline
+T35	B_span 1276 1285	Nishimura
+T37	E_span 1505 1509	work

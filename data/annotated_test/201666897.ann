@@ -1,0 +1,109 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 109 114	[BOS]
+T3	Reflection 263 268	[BOS]
+T4	Reflection 365 370	[BOS]
+T5	Reflection 384 389	[BOS]
+T6	Transition 404 409	[BOS]
+T7	Narrative_cite 498 503	[BOS]
+T8	Narrative_cite 659 664	[BOS]
+T9	Reflection 868 873	[BOS]
+T10	Transition 1204 1209	[BOS]
+T11	Transition 1356 1361	[BOS]
+T12	Multi_summ 1412 1417	[BOS]
+T13	Transition 1583 1588	[BOS]
+T14	Single_summ 1720 1725	[BOS]
+T15	Reflection 1846 1851	[BOS]
+T16	Narrative_cite 2039 2044	[BOS]
+T17	Reflection 2184 2189	[BOS]
+T18	Narrative_cite 2256 2261	[BOS]
+T19	Narrative_cite 2485 2490	[BOS]
+T20	Narrative_cite 2665 2670	[BOS]
+T21	Narrative_cite 2850 2855	[BOS]
+T22	Transition 3219 3224	[BOS]
+T23	Reflection 3419 3424	[BOS]
+T24	Transition 3542 3547	[BOS]
+T25	Single_summ 3621 3626	[BOS]
+T26	Narrative_cite 3829 3834	[BOS]
+T27	Reference 213 233	(Golub et al., 2017)
+T28	Reference 582 599	(Seo et al., 2017
+T29	Reference 601 619	Xiong et al., 2017
+T30	Reference 621 638	Shen et al., 2017
+T31	Reference 640 656	Yu et al., 2018)
+T32	Reference 772 796	(Rajpurkar et al., 2016)
+T33	Reference 806 830	(Trischler et al., 2016)
+T34	Reference 844 864	(Bajaj et al., 2016)
+T35	Dominant 1431 1450	Chung et al. (2018)
+T36	Dominant 1511 1530	Wiese et al. (2017)
+T37	Dominant 1763 1783	(Golub et al., 2017)
+T38	Reference 2097 2113	(Xu et al., 2019
+T39	Reference 2115 2128	Caruana, 1997
+T40	Reference 2130 2146	Liu et al., 2015
+T41	Reference 2455 2482	(Ganin and Lempitsky, 2015)
+T42	Reference 2624 2642	(Gong et al., 2012
+T43	Reference 2644 2662	Long et al., 2015)
+T44	Reference 2751 2773	(Glorot et al., 2011 )
+T45	Reference 2806 2825	(Ganin et al., 2016
+T46	Reference 2827 2846	Tzeng et al., 2017)
+T47	Reference 2948 2968	(Tzeng et al., 2017)
+T48	Reference 2990 3012	(Doulaty et al., 2015)
+T49	Reference 3040 3059	(Ganin et al., 2016
+T50	Reference 3083 3104	(Johnson et al., 2017
+T51	Reference 3106 3124	Zoph et al., 2016)
+T52	Reference 3147 3164	(Fu et al., 2017)
+T53	Reference 3197 3216	(Shah et al., 2018)
+T54	Dominant 3684 3703	Ganin et al. (2016)
+T55	Reference 3908 3927	(Long et al., 2017)
+T56	Reference 3956 3975	(Long et al., 2016)
+T57	Reference 4013 4034	(Saito et al., 2018 )
+T58	Pronoun 572 576	this
+T59	Pronoun 689 694	these
+T60	Pronoun 1307 1311	this
+T61	Pronoun 1401 1405	this
+T62	Pronoun 2193 2197	this
+T63	Pronoun 3237 3242	these
+T64	B_span 206 212	SynNet
+T65	E_span 228 232	2017
+T66	B_span 506 511	large
+T67	E_span 651 655	2018
+T68	B_span 766 771	SQuAD
+T69	E_span 791 795	2016
+T70	B_span 799 805	NewsQA
+T71	E_span 825 829	2016
+T72	B_span 835 837	MS
+T73	E_span 859 863	2016
+T74	B_span 1431 1436	Chung
+T75	E_span 1575 1581	domain
+T76	B_span 1756 1762	SynNet
+T77	E_span 1841 1844	MRC
+T78	B_span 2077 2082	multi
+T79	E_span 2142 2146	2015
+T80	E_span 2477 2481	2015
+T81	B_span 2280 2286	Domain
+T82	B_span 2544 2554	transiting
+T83	E_span 2657 2661	2015
+T84	B_span 2718 2724	domain
+T85	E_span 2767 2771	2011
+T86	B_span 2785 2796	adversarial
+T87	E_span 2841 2845	2017
+T88	B_span 2927 2932	image
+T89	E_span 2963 2967	2017
+T90	B_span 2971 2977	speech
+T91	E_span 3007 3011	2015
+T92	B_span 3015 3024	sentiment
+T93	E_span 3055 3059	2016
+T94	B_span 3063 3070	machine
+T95	E_span 3119 3123	2016
+T96	B_span 3127 3135	relation
+T97	E_span 3159 3163	2017
+T98	B_span 3171 3181	paraphrase
+T99	E_span 3211 3215	2018
+T100	B_span 3684 3689	Ganin
+T101	E_span 3821 3827	domain
+T102	B_span 3887 3890	MMD
+T103	E_span 3922 3926	2017
+T104	B_span 3930 3938	residual
+T105	E_span 3970 3974	2016
+T106	B_span 3982 3989	maximum
+T107	E_span 4028 4032	2018
+T108	E_span 1498 1505	dataset
+T109	B_span 1511 1516	Wiese

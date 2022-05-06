@@ -1,0 +1,28 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 67 72	[BOS]
+T3	Transition 240 245	[BOS]
+T4	Transition 405 410	[BOS]
+T5	Transition 518 523	[BOS]
+T6	Other 612 617	[BOS]
+T7	Transition 795 800	[BOS]
+T8	Narrative_cite 988 993	[BOS]
+T9	Narrative_cite 1146 1151	[BOS]
+T10	Narrative_cite 1296 1301	[BOS]
+T12	Reference 1187 1215	(Malmasi and Zampieri, 2017)
+T13	Reference 1218 1242	(ElSherief et al., 2018)
+T14	Reference 1245 1270	(Gambck and Sikdar, 2017)
+T15	Reference 1273 1293	(Zhang et al., 2018)
+T16	Reference 1396 1424	(Malmasi and Zampieri, 2018)
+T17	B_span 995 1004	Schofield
+T11	Reference 995 1023	Schofield and Davidson, 2017
+T18	E_span 1019 1023	2017
+T19	B_span 1188 1195	Malmasi
+T20	E_span 1210 1214	2017
+T21	B_span 1219 1228	ElSherief
+T22	E_span 1237 1241	2018
+T23	B_span 1246 1252	Gambck
+T24	E_span 1265 1269	2017
+T25	B_span 1274 1279	Zhang
+T26	E_span 1288 1292	2018
+T27	B_span 1371 1375	hate
+T28	E_span 1419 1423	2018

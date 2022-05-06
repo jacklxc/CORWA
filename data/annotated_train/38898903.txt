@@ -1,0 +1,22 @@
+[BOS] Argumentation is an important skill in higher education and the workplace; students are expected to show sound reasoning and use relevant evidence (Council of Chief State School Officers & National Governors Association, 2010).
+[BOS] The increase in argumentative writing tasks, in both instructional and assessment contexts, results in a high demand for automated feedback on and scoring of arguments.
+
+[BOS] Automated analysis of argumentative writing has mostly concentrated on argument structurenamely, presence of claims and premises, and relationships between them (Ghosh et al., 2016; Nguyen and Litman, 2016; Persing and Ng, 2016; Ong et al., 2014; Stab and Gurevych, 2014) .
+[BOS] Addressing the content of arguments in on-line debates, Habernal and Gurevych (2016) ranked arguments on the same topic by convincingness; they showed that convincingness can be automatically predicted, to an extent, in a cross-topics fashion, as they trained their systems on 31 debates and tested on a new one.
+[BOS] Swanson et al. (2015) reported that annotation of argument quality is challenging, with inter-annotator agreement (ICC) around 0.40.
+[BOS] They also showed that automated acrosstopics prediction is very hard; for some topics, no effective prediction was achieved.
+[BOS] Song et al. (2014) developed an annotation protocol for analyzing argument critiques in students' essays, drawing on the theory of argumentation schemes (Walton et al., 2008; Walton, 1996) .
+[BOS] According to this theory, different types of arguments invite specific types of critiques.
+[BOS] For example, an argument from authority made in the promptAccording to X, Y is the case -avails critiques along the lines of whether X has the necessary knowledge and is an unbiased source of information about Y. Analyzing prompts used in an assessment of argument critique skills, Song et al. (2014) identified a number of common schemes, such as arguments from policy, sample, example, and used the argumentation schemes theory to specify what critiques would count as "good" for arguments from the given scheme.
+[BOS] Once a prompt is associated with a specific set of argumentation schemes, it follows that those critiques that count as good under one of the schemes used in the prompt would be considered as good critiques in essays responding to that prompt.
+[BOS] The goal of the annotation was to identify all sentences in an essay that participate in making a good critique, according to the above definition.
+[BOS] Every sentence in an essay is annotated with the label of the critique that it raises, or "generic" if none.
+[BOS] In the current paper, we build upon this earlier work.
+
+[BOS] In practical large-scale automated scoring contexts, new essay prompts are often introduced without rebuilding the scoring system, which is typically subject to a periodic release schedule.
+[BOS] Therefore, the assumption that the system will have seen essays responding to each of the prompts it could encounter at deployment time is often unwarranted.
+[BOS] Further, not only should a system be able to handle responses to an unseen prompt, it must do it gracefully, since a large disparity in the system's performance across different prompts might raise fairness concerns.
+
+[BOS] Our practical goal is thus a development of a robust argument critique analysis system for essays.
+[BOS] Our theoretical goal is the investigation of the extent that it is at all possible to capture aspects of argument content in a fashion that would generalize across various essay topics.
+

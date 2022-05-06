@@ -1,0 +1,18 @@
+[BOS] Early approaches to text summarization were based in first finding and then reordering (reranking) the most important sentences in a document based on their word frequency or some sentence-similarity metric.
+[BOS] Then, a simple extraction of the top k highest scoring sentences from the source document could produce a grammatical correct, albeit incoherent, summary.
+
+[BOS] The need for more human-like, abstractive summary creation led to the modern sequence-tosequence models with attention.
+[BOS] These neural networks are able to generate any word from their vocabulary, even novel words and phrases unseen in the source document, but can also copy from it when generating an out of vocabulary word is called for.
+
+[BOS] However, problems like repetitive, generic, or ungrammatical summary generation, with limited abstraction and easily fooled by irrelevant information remained intact for the standard neural network summarizers.
+[BOS] Several extensions to their basic encoder-decoder architecture or their end-toend learning strategy developed accordingly.
+
+[BOS] In (Lin et al., 2018) the authors use a convolutional gated unit to help control the information flow between the encoder and decoder networks aiming to filter the secondary and preserve only the core information, while Zhou et al. (2017) de- sign a selective gate network with the same goal.
+[BOS] In order to avoid generating fake facts in a summary, Cao et al. (2018b) extract actual factual descriptions from the source text leveraging information retrieval techniques.
+[BOS] A task-agnostic diverse beam search procedure is proposed in (Vijayakumar et al., 2018) that modifies the standard beam search algorithm in the direction of more diverse text generation.
+
+[BOS] Other works explore abstractive sentence compression with paraphrasing (Nayeem et al., 2019), different network training regimes (Ayana et al., 2016) or architectures that jointly learn summarization and semantic parsing (Fan et al., 2018) .
+[BOS] The authors in (Guo et al., 2018 ) propose a multitask model with parallel training of three tasks: summary generation, question generation, and entailment generation and find it provides useful guidance for summarization.
+[BOS] While we share their motivation to make the model input richer, our work presents a much simpler approach.
+[BOS] Another recent attempt to produce rich pre-trained encoder representations for many downstream tasks, including summarization, is BERT (Dev (Lin et al., 2018) ).
+

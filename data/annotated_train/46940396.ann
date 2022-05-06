@@ -1,0 +1,66 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 124 129	[BOS]
+T3	Transition 247 252	[BOS]
+T4	Narrative_cite 298 303	[BOS]
+T5	Narrative_cite 483 488	[BOS]
+T6	Narrative_cite 651 656	[BOS]
+T7	Narrative_cite 835 840	[BOS]
+T8	Transition 1378 1383	[BOS]
+T9	Transition 1683 1688	[BOS]
+T10	Narrative_cite 1750 1755	[BOS]
+T11	Single_summ 1858 1863	[BOS]
+T12	Reference 93 121	(Paetzold and Specia, 2016a)
+T13	Reference 452 480	(Paetzold and Specia, 2016b)
+T14	Reference 620 648	(Paetzold and Specia, 2016a)
+T15	Reference 818 831	(Wrbel, 2016)
+T16	Reference 896 907	(Kuru, 2016
+T17	Reference 909 934	Choubey and Pateria, 2016
+T18	Reference 936 952	S P et al., 2016
+T19	Reference 970 996	(Davoodi and Kosseim, 2016
+T20	Reference 998 1020	Mukherjee et al., 2016
+T21	Reference 1022 1041	Brooke et al., 2016
+T22	Reference 1043 1064	Ronzano et al., 2016)
+T23	Reference 1083 1103	(Bingel et al., 2016
+T24	Reference 1105 1115	Nat, 2016)
+T25	Reference 1133 1158	(Quijada and Medero, 2016
+T26	Reference 1190 1219	(Palakurthi and Mamidi, 2016)
+T27	Reference 1234 1258	(Mukherjee et al., 2016)
+T28	Reference 1290 1305	(Kauchak, 2016)
+T29	Reference 1330 1343	(Konkol, 2016
+T30	Reference 1345 1375	Martnez Martnez and Tan, 2016)
+T31	Reference 1806 1820	(Wilson, 1988)
+T32	Reference 1829 1855	Davoodi and Kosseim (2016)
+T33	Dominant 1882 1895	Konkol (2016)
+T34	Pronoun 307 311	this
+T35	Pronoun 489 493	This
+T36	Pronoun 594 598	this
+T37	B_span 65 72	complex
+T38	E_span 115 120	2016a
+T39	B_span 892 895	SVM
+T40	E_span 948 952	2016
+T41	B_span 956 962	Random
+T42	E_span 1059 1063	2016
+T43	B_span 1067 1073	Neural
+T44	E_span 1110 1114	2016
+T45	B_span 1118 1126	Decision
+T46	E_span 1154 1158	2016
+T47	B_span 1162 1169	Nearest
+T48	E_span 1214 1218	2016
+T49	B_span 1222 1227	Naive
+T50	E_span 1253 1257	2016
+T51	B_span 1261 1270	threshold
+T52	E_span 1300 1304	2016
+T53	B_span 1310 1317	Entropy
+T54	E_span 1370 1374	2016
+T55	B_span 1776 1779	MRC
+T56	E_span 1815 1819	1988
+T57	B_span 1821 1825	used
+T58	E_span 1850 1854	2016
+T59	B_span 1864 1871	Another
+T60	E_span 2010 2020	classifier
+T61	B_span 342 346	soft
+T62	E_span 474 479	2016b
+T63	B_span 607 614	SemEval
+T64	E_span 642 647	2016a
+T65	B_span 780 786	Simple
+T66	E_span 826 830	2016

@@ -1,0 +1,22 @@
+[BOS] This work is related to various lines of research within the NLP community: dealing with synonymy and homonymy in word representations both in the context of distributed embeddings and more traditional vector spaces; hybrid models of distributional and knowledge based semantics; and selectional preferences and their relation with syntactic and semantic relations.
+[BOS] The need for going beyond a single vector per word-type has been well established for a while, and many efforts were focused on building multi-prototype vector space models of meaning (Reisinger and Mooney, 2010; Huang et al., 2012; Neelakantan et al., 2015; Arora et al., 2016, etc.)
+[BOS] .
+[BOS] However, the target of all these approaches is obtaining multisense word vector spaces, either by incorporating sense tagged information or other kinds of external context.
+[BOS] The number of vectors learned is still fixed, based on the preset number of senses.
+[BOS] In contrast, our focus is on learning a context dependent distribution over those concept representations.
+[BOS] Other work not necessarily related to multisense vectors, but still related to our work includes Belanger and Kakade (2015) 's work which proposed a Gaussian linear dynamical system for estimating token-level word embeddings, and Vilnis and McCallum (2015)'s work which proposed mapping each word type to a density instead of a point in a space to account for uncertainty in meaning.
+[BOS] These approaches do not make use of lexical ontologies and are not amenable for joint training with a downstream NLP task.
+
+[BOS] Related to the idea of concept embeddings is Rothe and Schtze (2015) who estimated WordNet synset representations, given pre-trained typelevel word embeddings.
+[BOS] In contrast, our work focuses on estimating token-level word embeddings as context sensitive distributions of concept em- beddings.
+
+[BOS] There is a large body of work that tried to improve word embeddings using external resources.
+[BOS] Yu and Dredze (2014) extended the CBOW model (Mikolov et al., 2013) by adding an extra term in the training objective for generating words conditioned on similar words according to a lexicon.
+[BOS] extended the skipgram model (Mikolov et al., 2013) by representing word senses as latent variables in the generation process, and used a structured prior based on the ontology.
+[BOS] Faruqui et al. (2015) used belief propagation to update pre-trained word embeddings on a graph that encodes lexical relationships in the ontology.
+[BOS] Similarly, Johansson and Pina (2015) improved word embeddings by representing each sense of the word in a way that reflects the topology of the semantic network they belong to, and then representing the words as convex combinations of their senses.
+[BOS] In contrast to previous work that was aimed at improving type level word representations, we propose an approach for obtaining context-sensitive embeddings at the token level, while jointly optimizing the model parameters for the NLP task of interest.
+[BOS] Resnik (1993) showed the applicability of semantic classes and selectional preferences to resolving syntactic ambiguity.
+[BOS] Zapirain et al. (2013) applied models of selectional preferences automatically learned from WordNet and distributional information, to the problem of semantic role labeling.
+[BOS] Resnik (1993) ; Brill and Resnik (1994) ; Agirre (2008) and others have used WordNet information towards improving prepositional phrase attachment predictions.
+

@@ -1,0 +1,9 @@
+[BOS] Alternative Interpretation Methods We focus on gradient-based methods (saliency maps and adversarial attacks) but numerous other instancelevel model interpretation methods exist.
+[BOS] For example, a common practice in NLP is to visualize attention weights (Bahdanau et al., 2015) or to isolate the effect of individual neurons (Karpathy et al., 2016) .
+[BOS] We focus on gradient-based methods because they are applicable to many models.
+
+[BOS] Existing Interpretation Toolkits In computer vision, various open-source toolkits exist for explaining and attacking models (e.g., Papernot et al. (2016) ; Ozbulak (2019), inter alia); some toolkits also include interactive demos (Norton and Qi, 2017) .
+[BOS] Similar toolkits for NLP are significantly scarcer, and most toolkits focus on specific models or tasks.
+[BOS] For instance, , Strobelt et al. (2019) , and Vig (2019) visualize attention weights for specific NLP models, while apply adversarial attacks to reading comprehension systems.
+[BOS] Our toolkit differs because it is flexible and diverse; we can interpret and attack any AllenNLP model.
+

@@ -1,0 +1,20 @@
+[BOS] Inspired by neural machine translation, early work applies the sequence-to-sequence with attention model (Shang et al., 2015) to open domain response generation, and gets promising results.
+[BOS] Later, the basic architecture is extended to suppress generic responses Zhao et al., 2017; Xing et al., 2017) ; to model the structure of conversation contexts ; and to incorporate different types of knowledge into generation (Li et al., 2016a; .
+[BOS] In addition to model design, how to learn a generation model (Li et al., 2016c (Li et al., , 2017 , and how to evaluate the models (Liu et al., 2016; Tao et al., 2018) , are drawing attention in the community of open domain dialogue generation.
+[BOS] In this work, we study how to learn a response generation model from limited pairs, which breaks the assumption made by existing work.
+[BOS] We propose response generation with paired and unpaired data.
+[BOS] As far as we know, this is the first work on low-resource response generation for open domain dialogue systems.
+
+[BOS] Traditional template-based text generation (Becker, 2002; Foster and White, 2004; Gatt and Reiter, 2009 ) relies on handcrafted templates that are expensive to obtain.
+[BOS] Recently, some work explores how to automatically mine templates from plain text and how to integrate the templates into neural architectures to enhance interpretability of generation.
+[BOS] Along this line, Duan et al. (2017) mine patterns from related questions in community QA websites and leverage the patterns with a retrieval-based approach and a generation-based approach for question generation.
+[BOS] Wiseman et al. (2018) exploit a hidden semi-markov model for joint template extraction and text generation.
+[BOS] In addition to structured templates, raw text retrieved from indexes is also used as "soft templates" in various natural language generation tasks (Guu et al., 2018; Pandey et al., 2018; Cao et al., 2018; Peng et al., 2019) .
+[BOS] In this work, we leverage templates for open domain response generation.
+[BOS] Our idea is inspired by (Wiseman et al., 2018) , but latent templates estimated from one source are transferred to another source in order to handle the low-resource problem, and the generation model is learned by an adversarial approach rather than by maximum likelihood estimation.
+
+[BOS] Before us, the low-resource problem has been studied in tasks such as machine translation (Gu et al., 2018b,a) , pos tagging (Kann et al., 2018) , word embedding (Jiang et al., 2018) , automatic speech recognition (Tske et al., 2014) , taskoriented dialogue systems (Tran and Nguyen, 2018; Mi et al., 2019) , etc.
+[BOS] In this work, we pay attention to low-resource open domain response generation which is untouched by existing work.
+[BOS] We propose attacking the problem with unpaired data, which is related to the effort in low-resource machine translation with monolingual data (Gulcehre et al., 2015; Sennrich et al., 2015; Zhang and Zong, 2016) .
+[BOS] Our method is unique in that rather than using the unpaired data through multitask learning (Zhang and Zong, 2016) or backtranslation (Sennrich et al., 2015) , we extract linguistic knowledge from the data as latent templates and use the templates as prior in generation.
+

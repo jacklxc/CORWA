@@ -1,0 +1,22 @@
+[BOS] Early computational attempts to TempRel extraction include Mani et al. (2006); Chambers et al. (2007); Bethard et al. (2007); Verhagen and Pustejovsky (2008) , which aimed at building classic learning algorithms (e.g., perceptron, SVM, and logistic regression) using hand-engineered features extracted for each pair of events.
+[BOS] The frontier was later pushed forward through continuous efforts in a series of SemEval workshops (Verhagen et al., 2007 (Verhagen et al., , 2010 UzZaman et al., 2013; Bethard et al., 2015 Bethard et al., , 2016 , and significant progresses were made in terms of data annotation (Styler IV et al., 2014; Cassidy et al., 2014; Mostafazadeh et al., 2016; O'Gorman et al., 2016) , structured inference (Chambers and Jurafsky, 2008a; Do et al., 2012; Chambers et al., 2014; Ning et al., 2018a) , and structured machine learning (Yoshikawa et al., 2009; Leeuwenberg and Moens, 2017; Ning et al., 2017) .
+
+[BOS] Since TempRel is a specific relation type, it is natural to borrow recent neural relation extraction approaches (Zeng et al., 2014; Zhang and Wang, 2015; Xu et al., 2016) .
+[BOS] There have indeed been such attempts, e.g., in clinical narratives (Dligach et al., 2017; Lin et al., 2017; Tourille et al., 2017) and in newswire (Cheng and Miyao, 2017; Meng and Rumshisky, 2018; Leeuwenberg and Moens, 2018) .
+[BOS] However, their improvements over feature-based methods were moderate (Lin et al. (2017) even showed negative results).
+[BOS] Given the low IAAs in those datasets, it was unclear whether it was simply due to the low data quality or neural methods inherently do not work well for this task.
+
+[BOS] A recent annotation scheme, Ning et al. (2018c) , introduced the notion of multi-axis to represent the temporal structure of text, and identified that one of the sources of confusions in human annotation is asking annotators for TempRels across different axes.
+[BOS] When annotating only sameaxis TempRels, along with some other improvements to the annotation guidelines, MATRES was able to achieve much higher IAAs.
+[BOS] 3 This dataset opens up opportunities to study neural methods for this problem.
+[BOS] In Sec.
+[BOS] 3, we will explain our proposed LSTM system, and also highlight the major differences from previous neural attempts.
+
+[BOS] agate to subsequent modules.
+[BOS] Here we study the usage of LSTM networks 4 on the TempRel extraction problem as an end-to-end approach that only takes a sequence of word embeddings as input (assuming that the position of events are known).
+[BOS] Conceptually, we need to feed those word embeddings to LSTMs and obtain a vector representation for a particular pair of events, which is followed by a fully-connected, feed-forward neural network (FFNN) to generate confidence scores for each output label.
+[BOS] Based on the confidence scores, global inference is performed via integer linear programming (ILP), which is a standard procedure used in many existing works to enforce the transitivity property of time (Chambers and Jurafsky, 2008b; Do et al., 2012; Ning et al., 2017 ).
+[BOS] An overview of the proposed network structure and corresponding parameters can be found in Fig.
+[BOS] 1 .
+[BOS] Below we also explain the main components.
+

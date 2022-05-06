@@ -1,0 +1,16 @@
+[BOS] Earlier summarization work focused more towards extractive (and compression) based summarization, i.e., selecting which sentences to keep vs discard, and also compressing based on choosing grammatically correct sub-sentences having the most important pieces of information (Jing, 2000; Knight and Marcu, 2002; Clarke and Lapata, 2008; Filippova et al., 2015) .
+[BOS] Bigger datasets and neural models have allowed the addressing of the complex reasoning involved in abstractive summarization, i.e., rewriting and compressing the input document into a new summary.
+[BOS] Several advances have been made in this direction using machine translation inspired encoder-aligner-decoder models, convolution-based encoders, switching pointer and copy mechanisms, and hierarchical attention models (Rush et al., 2015; Nallapati et al., 2016; See et al., 2017) .
+
+[BOS] Recognizing textual entailment (RTE) is the classification task of predicting whether the relationship between a premise and hypothesis sentence is that of entailment (i.e., logically follows), contradiction, or independence (Dagan et al., 2006) .
+[BOS] The SNLI corpus Bowman et al. (2015) allows training accurate end-to-end neural networks for this task.
+[BOS] Some previous work (Mehdad et al., 2013; Gupta et al., 2014) has explored the use of textual entailment recognition for redundancy detection in summarization.
+[BOS] They label relationships between sentences, so as to select the most informative and non-redundant sentences for summarization, via sentence connectivity and graphbased optimization and fusion.
+[BOS] Our focus, on the other hand, is entailment generation and not recognition, i.e., to teach summarization models the general natural language inference skill of generating a compressed sentence that logically entails the original longer sentence, so as to produce more effective short summaries.
+[BOS] We achieve this via multi-task learning with entailment generation.
+
+[BOS] Multi-task learning involves sharing parameters between related tasks, whereby each task benefits from extra information in the training signals of the related tasks, and also improves its generalization performance.
+[BOS] Luong et al. (2016) showed improvements on translation, captioning, and parsing in a shared multi-task setting.
+[BOS] Recently, Pasunuru and Bansal (2017) extend this idea to video captioning with two related tasks: video completion and entailment generation.
+[BOS] We demonstrate that abstractive text summarization models can also be improved by sharing parameters with an entailment generation task.
+

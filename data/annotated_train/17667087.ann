@@ -1,0 +1,71 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 114 119	[BOS]
+T3	Reflection 549 554	[BOS]
+T4	Transition 697 702	[BOS]
+T5	Single_summ 920 925	[BOS]
+T6	Single_summ 1007 1012	[BOS]
+T7	Single_summ 1166 1171	[BOS]
+T8	Single_summ 1262 1267	[BOS]
+T9	Reflection 1481 1486	[BOS]
+T10	Single_summ 1584 1589	[BOS]
+T11	Single_summ 1768 1773	[BOS]
+T12	Single_summ 1996 2001	[BOS]
+T13	Transition 2100 2105	[BOS]
+T14	Reflection 2169 2174	[BOS]
+T15	Multi_summ 2282 2287	[BOS]
+T16	Reflection 2433 2438	[BOS]
+T17	Single_summ 2696 2701	[BOS]
+T18	Reflection 2909 2914	[BOS]
+T19	Reflection 3010 3015	[BOS]
+T20	Single_summ 3160 3165	[BOS]
+T21	Single_summ 3316 3321	[BOS]
+T22	Single_summ 3428 3433	[BOS]
+T23	Reflection 3613 3618	[BOS]
+T24	Reflection 3736 3741	[BOS]
+T25	Reference 245 265	(Cheng et al., 2016a
+T26	Reference 267 286	Luong et al., 2015b
+T27	Reference 288 305	Cohn et al., 2016
+T28	Reference 307 324	Feng et al., 2016
+T29	Reference 326 341	Tu et al., 2016
+T30	Reference 441 461	(Luong et al., 2015c
+T31	Reference 463 484	Sennrich et al., 2015
+T32	Reference 508 526	(Jean et al., 2015
+T33	Reference 528 545	Mi et al., 2016c)
+T34	Dominant 926 948	Gulcehre et al. (2015)
+T35	Dominant 1172 1194	Sennrich et al. (2015)
+T36	Dominant 1774 1792	Dong et al. (2015)
+T37	Dominant 2008 2027	Firat et al. (2016)
+T38	Dominant 2288 2309	Ueffing et al. (2007)
+T39	Dominant 2314 2330	Wu et al. (2008)
+T40	Dominant 2702 2722	Luong et al. (2015a)
+T41	Dominant 3191 3211	Cheng et al. (2016b)
+T42	Pronoun 568 572	this
+T43	Pronoun 1013 1017	They
+T44	Pronoun 1268 1272	They
+T45	Pronoun 1487 1489	It
+T46	Pronoun 1603 1608	their
+T47	Pronoun 2120 2125	these
+T48	Pronoun 2474 2478	this
+T49	Pronoun 2492 2494	it
+T50	Pronoun 3029 3033	they
+T51	Pronoun 3634 3639	their
+T52	B_span 229 236	decoder
+T53	E_span 337 341	2016
+T54	B_span 345 351	better
+T55	E_span 480 484	2015
+T56	B_span 489 494	large
+T57	E_span 539 544	2016c
+T58	B_span 926 934	Gulcehre
+T59	E_span 1160 1164	data
+T60	B_span 1172 1180	Sennrich
+T61	E_span 1759 1766	network
+T62	B_span 1774 1778	Dong
+T63	E_span 1990 1994	data
+T64	B_span 2008 2013	Firat
+T65	E_span 2088 2097	languages
+T66	B_span 2288 2295	Ueffing
+T67	E_span 2422 2431	algorithm
+T68	B_span 2702 2707	Luong
+T69	E_span 2903 2907	data
+T70	B_span 3191 3196	Cheng
+T71	E_span 3607 3611	data

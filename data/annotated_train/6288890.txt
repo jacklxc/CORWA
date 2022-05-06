@@ -1,0 +1,11 @@
+[BOS] Unsupervised systems specify the assumption of same-head coreference in several ways: by as-sumption (Haghighi and Klein, 2009 ), using a head-prediction clause (Poon and Domingos, 2008) , and using a sparse Dirichlet prior on word emissions (Haghighi and Klein, 2007) .
+[BOS] (These three systems, perhaps not coincidentally, use gold mentions.)
+[BOS] An exception is Ng (2008) , who points out that head identity is not an entirely reliable cue and instead uses exact string match (minus determiners) for common NPs and an alias detection system for proper NPs.
+[BOS] This work uses mentions extracted with an NP chunker.
+[BOS] No specific results are reported for same-head NPs.
+[BOS] However, while using exact string match raises precision, many non-matching phrases are still coreferent, so this approach cannot be considered a full solution to the problem.
+
+[BOS] Supervised systems do better on the task, but not perfectly.
+[BOS] Recent work (Stoyanov et al., 2009) attempts to determine the contributions of various categories of NP to coreference scores, and shows (as stated above) that common NPs which partially match an earlier mention are not well resolved by the state-of-the-art RECONCILE system, which uses pairwise classification.
+[BOS] They also show that using gold mention boundaries makes the coreference task substantially easier, and argue that this experimental setting is "rather unrealistic".
+

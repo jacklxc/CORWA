@@ -1,0 +1,14 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 178 183	[BOS]
+T3	Other 417 422	[BOS]
+T4	Single_summ 514 519	[BOS]
+T5	Reflection 621 626	[BOS]
+T6	Reflection 702 707	[BOS]
+T7	Reflection 774 779	[BOS]
+T8	Reflection 866 871	[BOS]
+T9	Reference 144 167	(Mikolov et al., 2013a)
+T10	Dominant 529 543	(Harris, 1954)
+T11	B_span 135 143	word2vec
+T12	E_span 161 166	2013a
+T13	B_span 520 528	pothesis
+T14	E_span 612 619	modeled

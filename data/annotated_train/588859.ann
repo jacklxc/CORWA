@@ -1,0 +1,35 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 233 238	[BOS]
+T3	Single_summ 391 396	[BOS]
+T4	Narrative_cite 706 711	[BOS]
+T5	Single_summ 1099 1104	[BOS]
+T6	Single_summ 1304 1309	[BOS]
+T7	Transition 1467 1472	[BOS]
+T8	Reflection 1535 1540	[BOS]
+T9	Narrative_cite 1611 1616	[BOS]
+T10	Single_summ 1642 1647	[BOS]
+T11	Narrative_cite 1821 1826	[BOS]
+T12	Dominant 458 478	Park and Levy (2011)
+T13	Reference 913 940	(Dale and Kilgarriff, 2011)
+T14	Reference 1077 1096	(Dale et al., 2012)
+T15	Dominant 1132 1148	(Ng et al., 2013
+T16	Dominant 1347 1365	(Ng et al., 2014 4
+T17	Reference 1617 1639	(Napoles et al., 2015)
+T18	Dominant 1662 1682	Felice et al. (2014)
+T19	Reference 1978 2003	(Rozovskaya et al., 2014)
+T20	B_span 458 462	Park
+T21	E_span 696 703	workers
+T22	B_span 947 950	the
+T23	E_span 1091 1095	2012
+T24	E_span 935 939	2011
+T25	B_span 800 807	Helping
+T26	B_span 1105 1108	The
+T27	E_span 1293 1302	Singapore
+T28	B_span 1310 1313	The
+T29	E_span 1456 1464	learners
+T30	E_span 1634 1638	2015
+T31	B_span 1618 1625	Napoles
+T32	B_span 1648 1651	The
+T33	E_span 1814 1819	model
+T34	B_span 1834 1837	non
+T35	E_span 1998 2002	2014

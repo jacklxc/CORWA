@@ -1,0 +1,6 @@
+[BOS] Our work is related to many previous work.
+
+[BOS] Unsupervised Transfer Learning There has been previous work aiming at solving an unsupervised learning task of a target domain with the help of knowledge learned from a source domain (Dai et al., 2008; Wang et al., 2008; Pan and Yang, 2010) .
+[BOS] There is no labeled data in both the source and the target domains during training.
+[BOS] Our transfer grammar induction setting can be seen as an instance of unsupervised transfer learning.
+

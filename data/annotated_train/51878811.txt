@@ -1,0 +1,21 @@
+[BOS] Abstractive sentence summarization aims to produce a shorter version of a given sentence while preserving its meaning (Chopra et al., 2016) .
+[BOS] This task is similar to text simplification (Saggion, 2017) and facilitates headline design and refine.
+[BOS] Early studies on sentence summariza-Source anny ainge said thursday he had two one-hour meetings with the new owners of the boston celtics but no deal has been completed for him to return to the franchise .
+[BOS] (Zhou and Hovy, 2004) , syntactic tree pruning (Knight and Marcu, 2002; Clarke and Lapata, 2008) and statistical machine translation techniques (Banko et al., 2000) .
+[BOS] Recently, the application of the attentional seq2seq framework has attracted growing attention and achieved state-of-the-art performance on this task (Rush et al., 2015a; Chopra et al., 2016; Nallapati et al., 2016) .
+
+[BOS] In addition to the direct application of the general seq2seq framework, researchers attempted to integrate various properties of summarization.
+[BOS] For example, Nallapati et al. (2016) enriched the encoder with hand-crafted features such as named entities and POS tags.
+[BOS] These features have played important roles in traditional feature based summarization systems.
+[BOS] Gu et al. (2016) found that a large proportion of the words in the summary were copied from the source text.
+[BOS] Therefore, they proposed CopyNet which considered the copying mechanism during generation.
+[BOS] Recently, See et al. (2017) used the coverage mechanism to discourage repetition.
+[BOS] Cao et al. (2017b) encoded facts extracted from the source sentence to enhance the summary faithfulness.
+[BOS] There were also studies to modify the loss function to fit the evaluation metrics.
+[BOS] For instance, Ayana et al. (2016) applied the Minimum Risk Training strategy to maximize the ROUGE scores of generated summaries.
+[BOS] Paulus et al. (2017) used the reinforcement learning algorithm to optimize a mixed objective function of likelihood and ROUGE scores.
+[BOS] Guu et al. (2017) also proposed to encode human-written sentences to improvement the performance of neural text generation.
+[BOS] However, they handled the task of Language Modeling and randomly picked an existing sentence in the training corpus.
+[BOS] In comparison, we develop an IR system to find proper existing summaries as soft templates.
+[BOS] Moreover, Guu et al. (2017) used a general seq2seq framework while we extend the seq2seq framework to conduct template reranking and template-aware summary generation simultaneously.
+

@@ -1,0 +1,9 @@
+[BOS] Due to the increasing demand for model interpretability, many previous works have been proposed for making sense of NLP models by examining individual predictions as well as the model mechanism as a whole.
+[BOS] In recent work, Li et al. (2015) investigated the composability of the vector-based text representations using instancelevel attribution techniques that originated from the vision community (e.g., Zeiler and Fergus, 2014) .
+[BOS] In a study of the representation of erasure, Li et al. (2016) explained neural model decisions by exploring the impact of altering or removing the components of the model (i.e., changing the dimension count of hidden units or input words) on the prediction performance.
+[BOS] Besides interpreting the model via carefully designed experiments, several interactive demo/visualization systems, such as AllenNLP's demos (http://demo.allennlp.org/), often rely on visual encodings to summarize the model predictions.
+[BOS] These systems provide a flexible environment in which the user can experiment with the various inputs and perform error analysis.
+[BOS] The hidden state properties of the LSTM are visualized and investigated in the LSTMvis visualization system (Strobelt et al., 2018) .
+[BOS] Lee et al. (2017) visualized the beam search and attention component in neural machine translation models, in which the user can dynamically change the probability for the next step of the search tree or change the weight of the attention.
+[BOS] In the visualization work on question answering (Rckl and Gurevych, 2017) , the system shows the text context and highlights the critical phrase that is used to answer the question.
+

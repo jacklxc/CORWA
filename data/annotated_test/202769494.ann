@@ -1,0 +1,63 @@
+T1	Single_summ 0 5	[BOS]
+T2	Narrative_cite 275 280	[BOS]
+T3	Single_summ 525 530	[BOS]
+T4	Single_summ 670 675	[BOS]
+T5	Transition 862 867	[BOS]
+T6	Single_summ 1037 1042	[BOS]
+T7	Single_summ 1182 1187	[BOS]
+T8	Transition 1308 1313	[BOS]
+T9	Single_summ 1418 1423	[BOS]
+T10	Single_summ 1521 1526	[BOS]
+T11	Single_summ 1607 1612	[BOS]
+T12	Transition 1714 1719	[BOS]
+T13	Transition 1968 1973	[BOS]
+T14	Single_summ 2088 2093	[BOS]
+T15	Single_summ 2325 2330	[BOS]
+T16	Transition 2439 2444	[BOS]
+T17	Reflection 2524 2529	[BOS]
+T18	Narrative_cite 2664 2669	[BOS]
+T19	Other 2935 2940	[BOS]
+T20	Reflection 2943 2948	[BOS]
+T21	Dominant 94 115	(Palmer et al., 1986)
+T22	Reference 281 304	Dalrymple et al. (1991)
+T23	Reference 309 330	Shieber et al. (1996)
+T24	Dominant 531 545	Nielsen (2003)
+T25	Dominant 676 693	Liu et al. (2016)
+T26	Dominant 1043 1072	Uryupina and Moschitti (2013)
+T27	Dominant 1188 1206	Peng et al. (2015)
+T28	Dominant 1424 1448	Clark and Manning (2016)
+T29	Dominant 1527 1544	Lee et al. (2017)
+T30	Dominant 1613 1630	Lee et al. (2018)
+T31	Dominant 2094 2116	Kumar and Joshi (2016)
+T32	Dominant 2331 2350	Zheng et al. (2018)
+T33	Reference 2800 2822	(Rudnicky et al., 1999
+T34	Reference 2863 2889	(Eric and Manning, 2017a,b
+T35	B_span 80 83	PUN
+T36	E_span 265 273	explicit
+T37	B_span 281 284	Dal
+T38	E_span 329 330	)
+T39	B_span 531 538	Nielsen
+T40	E_span 668 669	.
+T41	B_span 676 679	Liu
+T42	E_span 859 860	.
+T43	B_span 1043 1045	Ur
+T44	E_span 1180 1181	.
+T45	B_span 1188 1192	Peng
+T46	E_span 1306 1307	.
+T47	B_span 1424 1429	Clark
+T48	E_span 1519 1520	.
+T49	B_span 1527 1530	Lee
+T50	E_span 1605 1606	.
+T51	B_span 1613 1616	Lee
+T52	E_span 1711 1712	.
+T53	B_span 2094 2099	Kumar
+T54	E_span 2323 2324	.
+T55	B_span 2331 2336	Zheng
+T57	B_span 2765 2772	modular
+T58	E_span 2818 2822	1999
+T59	B_span 2834 2837	end
+T60	E_span 2888 2889	b
+T61	Pronoun 1289 1294	their
+T62	Pronoun 1849 1853	they
+T63	Pronoun 2454 2459	these
+T64	E_span 2429 2437	ellipsis

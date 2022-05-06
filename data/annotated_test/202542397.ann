@@ -1,0 +1,70 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 110 115	[BOS]
+T3	Transition 301 306	[BOS]
+T4	Transition 473 478	[BOS]
+T5	Single_summ 534 539	[BOS]
+T6	Single_summ 621 626	[BOS]
+T7	Single_summ 736 741	[BOS]
+T8	Single_summ 944 949	[BOS]
+T9	Reflection 1049 1054	[BOS]
+T10	Single_summ 1177 1182	[BOS]
+T11	Single_summ 1340 1345	[BOS]
+T12	Single_summ 1515 1520	[BOS]
+T13	Single_summ 1644 1649	[BOS]
+T14	Single_summ 1772 1777	[BOS]
+T15	Single_summ 1851 1856	[BOS]
+T16	Single_summ 1954 1959	[BOS]
+T17	Single_summ 2097 2102	[BOS]
+T18	Single_summ 2299 2304	[BOS]
+T19	Single_summ 2393 2398	[BOS]
+T20	Narrative_cite 2487 2492	[BOS]
+T21	Narrative_cite 2682 2687	[BOS]
+T22	Narrative_cite 2790 2795	[BOS]
+T23	Transition 2942 2947	[BOS]
+T24	Dominant 540 562	Waseem and Hovy (2016)
+T25	Dominant 1183 1205	Davidson et al. (2017)
+T26	Reference 1365 1387	Waseem and Hovy (2016)
+T27	Dominant 1650 1671	Golbeck et al. (2017)
+T28	Dominant 1778 1798	Founta et al. (2018)
+T29	Dominant 2129 2152	Chatzakou et al. (2017)
+T30	Reference 2564 2586	(Waseem and Hovy, 2016
+T31	Reference 2588 2604	Gao et al., 2017
+T32	Reference 2606 2631	Burnap and Williams, 2016
+T33	Reference 2633 2655	Badjatiya et al., 2017
+T34	Reference 2657 2679	Davidson et al., 2017)
+T35	Reference 2760 2780	(Zhong et al., 2016)
+T36	Reference 2796 2824	(Warner and Hirschberg, 2012
+T37	Reference 2826 2846	Nobata et al., 2016)
+T38	Reference 2860 2882	(Van Hee et al., 2015)
+T39	B_span 540 543	Was
+T41	B_span 1183 1191	Davidson
+T43	B_span 1360 1364	from
+T45	B_span 1650 1653	Gol
+T46	E_span 1770 1771	.
+T47	B_span 1778 1780	Fo
+T49	B_span 2103 2106	The
+T52	E_span 2678 2679	)
+T53	B_span 2750 2754	Inst
+T54	E_span 2779 2780	)
+T55	B_span 2783 2785	Ya
+T56	E_span 2845 2846	)
+T57	B_span 2853 2856	Ask
+T58	E_span 2881 2882	)
+T59	Pronoun 307 309	It
+T60	Pronoun 353 358	their
+T61	Pronoun 384 388	this
+T62	Pronoun 493 498	these
+T63	Pronoun 950 954	This
+T64	Pronoun 1064 1068	this
+T65	Pronoun 1390 1394	this
+T66	Pronoun 1521 1525	This
+T67	Pronoun 1883 1887	this
+T68	Pronoun 2012 2016	this
+T69	Pronoun 2193 2195	it
+T70	E_span 1042 1047	users
+T40	E_span 1382 1386	2016
+T42	E_span 1635 1642	studies
+T44	E_span 2086 2094	datasets
+T48	E_span 2479 2484	3.4%)
+T50	Reference 2538 2562	Kennedy III et al. (2017
+T71	B_span 2504 2512	datasets

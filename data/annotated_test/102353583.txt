@@ -1,0 +1,12 @@
+[BOS] Unsupervised NMT The current NMT systems (Sutskever et al., 2014; Cho et al., 2014a; Bahdanau et al., 2015; Gehring et al., 2017; Vaswani et al., 2017 ) are known to easily overfit and result in an inferior performance when the training data is limited (Koehn and Knowles, 2017; Isabelle et al., 2017; Sennrich, 2017) .
+[BOS] Many research efforts have been spent on how to utilize the monolingual data to improve the NMT system when only limited supervision is available (Gulcehre et al., 2015; Sennrich et al., 2016a; He et al., 2016; Zhang and Zong, 2016; .
+[BOS] Recently, Lample et al. (2018a) ; Artetxe et al. (2018) ; Lample et al. (2018b) make encouraging progress on unsupervised NMT structure mainly based on initialization, denoising language modeling, and back-translation.
+[BOS] However, all these unsupervised models are based on the back-translation learning framework to generate pseudo language pairs for training.
+[BOS] Our work leverages the information from real target language sentences.
+
+[BOS] Comparable Corpora Mining Comparable corpora mining aims at extracting parallel sentences from comparable monolingual corpora such as news stories written on the same topic in different languages.
+[BOS] Most of the previous methods align the documents based on metadata and then extract parallel sentences using humandefined features Marcu, 2002, 2006; Hewavitharana and Vogel, 2011) .
+[BOS] Recent neural-based methods (Chu et al., 2016; Grover and Mitra, 2017; Grgoire and Langlais, 2018) learn to identify parallel sentences in the semantic spaces.
+[BOS] However, these methods require large amounts of parallel sentence pairs to train the systems first and then test the performance on raw comparable corpora, which does not apply to languages with limited resources.
+[BOS] Instead, we explore the corpora mining in an unsupervised fashion and propose a joint training framework with machine translation.
+

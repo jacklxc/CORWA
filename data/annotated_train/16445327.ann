@@ -1,0 +1,50 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 116 121	[BOS]
+T3	Single_summ 315 320	[BOS]
+T4	Single_summ 574 579	[BOS]
+T5	Single_summ 695 700	[BOS]
+T6	Reflection 771 776	[BOS]
+T7	Reflection 888 893	[BOS]
+T8	Reflection 1021 1026	[BOS]
+T9	Multi_summ 1242 1247	[BOS]
+T10	Narrative_cite 1366 1371	[BOS]
+T11	Single_summ 1708 1713	[BOS]
+T12	Single_summ 1870 1875	[BOS]
+T13	Single_summ 2035 2040	[BOS]
+T14	Reflection 2095 2100	[BOS]
+T15	Single_summ 2291 2296	[BOS]
+T16	Single_summ 2574 2579	[BOS]
+T17	Single_summ 2753 2758	[BOS]
+T18	Reflection 2829 2834	[BOS]
+T19	Reflection 3048 3053	[BOS]
+T20	Dominant 185 214	Zhang and Litman (2014; 2015)
+T21	Dominant 402 427	(Faigley and Witte, 1981)
+T22	Dominant 1274 1303	Zhang and Litman (2014; 2015)
+T23	Reference 1649 1672	(Bronner and Monz, 2012
+T24	Reference 1674 1705	Daxenberger and Gurevych, 2013)
+T28	Dominant 2297 2315	Lee et. al. (2014)
+T29	Reference 2917 2939	(Ibrahim et al., 2003)
+T30	Pronoun 299 304	these
+T31	Pronoun 321 326	Their
+T32	Pronoun 580 584	They
+T33	Pronoun 710 714	they
+T34	Pronoun 756 761	their
+T35	Pronoun 933 938	these
+T36	Pronoun 2041 2045	They
+T38	Pronoun 2580 2585	Their
+T39	Pronoun 2759 2764	Their
+T40	B_span 122 133	Considering
+T41	E_span 305 313	versions
+T42	B_span 371 379	Taxonomy
+T43	E_span 762 769	writing
+T44	B_span 1248 1260	Nevertheless
+T45	E_span 1352 1363	perspective
+T46	B_span 1629 1639	supervised
+T47	E_span 1700 1704	2013
+T48	B_span 1714 1717	The
+T25	Dominant 1760 1786	Faigley and Witte's (1981)
+T26	E_span 2087 2092	edits
+T27	B_span 2297 2300	Lee
+T37	E_span 2817 2827	paraphrase
+T49	B_span 2835 2845	Paraphrase
+T50	E_span 2934 2938	2003

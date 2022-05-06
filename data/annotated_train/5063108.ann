@@ -1,0 +1,63 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 308 313	[BOS]
+T3	Transition 639 644	[BOS]
+T4	Narrative_cite 838 843	[BOS]
+T5	Reflection 1027 1032	[BOS]
+T6	Narrative_cite 1160 1165	[BOS]
+T7	Narrative_cite 1529 1534	[BOS]
+T8	Transition 1837 1842	[BOS]
+T9	Reflection 1989 1994	[BOS]
+T10	Reflection 2051 2056	[BOS]
+T11	Reflection 2225 2230	[BOS]
+T12	Reflection 2402 2407	[BOS]
+T13	Reflection 2604 2609	[BOS]
+T14	Reflection 2759 2764	[BOS]
+T15	Reference 130 147	(Zou et al., 2013
+T16	Reference 149 169	Mikolov et al., 2013
+T17	Reference 171 204	Madhyastha and Espaa-Bonet, 2017)
+T18	Reference 226 243	(Guo et al., 2015
+T19	Reference 245 265	Ammar et al., 2016a)
+T20	Reference 285 305	Tsai and Roth, 2016)
+T21	Reference 453 474	(Mikolov et al., 2013
+T22	Reference 476 494	Rothe et al., 2016
+T23	Reference 496 513	MarcoBaroni, 2015
+T24	Reference 515 533	Xing et al., 2015)
+T25	Reference 574 594	(Ammar et al., 2016b
+T26	Reference 596 618	Faruqui and Dyer, 2014
+T27	Reference 620 636	Lu et al., 2015)
+T28	Reference 960 981	(Chandar et al., 2016
+T29	Reference 983 1006	Rajendran et al., 2015)
+T30	Reference 1321 1344	AP Chandar et al., 2014
+T31	Reference 1346 1364	Gouws et al., 2015
+T32	Reference 1366 1384	Luong et al., 2015
+T33	Reference 1386 1411	Hermann and Blunsom, 2014
+T34	Reference 1413 1434	Schwenk et al., 2017)
+T35	Reference 1457 1477	(Duong et al., 2016)
+T36	Reference 1503 1526	(Vulic and Moens, 2015)
+T37	Reference 1692 1717	(Vulic and Korhonen, 2016
+T38	Reference 1719 1740	Artetxe et al., 2017)
+T39	Reference 1771 1788	(Cao et al., 2016
+T40	Reference 1790 1811	Zhang et al., 2017b,a
+T41	Reference 1813 1834	Conneau et al., 2017)
+T42	B_span 110 117	machine
+T43	E_span 199 203	2017
+T44	B_span 207 217	dependency
+T45	E_span 259 264	2016a
+T46	B_span 272 276	name
+T47	E_span 300 304	2016
+T48	B_span 416 424	semantic
+T49	E_span 528 532	2015
+T50	B_span 537 546	canonical
+T51	E_span 631 635	2015
+T52	B_span 898 904	common
+T53	E_span 1001 1005	2015
+T54	B_span 1301 1309	parallel
+T55	E_span 1429 1433	2017
+T56	B_span 1437 1443	phrase
+T57	E_span 1472 1476	2016
+T58	B_span 1482 1492	comparable
+T59	E_span 1521 1525	2015
+T60	B_span 1676 1680	seed
+T61	E_span 1735 1739	2017
+T62	B_span 1746 1750	even
+T63	E_span 1829 1833	2017

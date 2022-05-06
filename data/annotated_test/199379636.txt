@@ -1,0 +1,12 @@
+[BOS] There is a large body of work on information transfer between supervised and unsupervised tasks.
+[BOS] First and foremost unsupervisedto-supervised transfer includes using embeddings for supervised tasks.
+[BOS] However, transfer also works vice versa, in a supervised-to-unsupervised setup to (learn to) specialize embeddings to better fit a specific supervised signal (Ruder and Plank, 2017; Ye et al., 2018) .
+[BOS] This includes injecting generally relevant semantics via retrofitting or auxiliary multi-task supervision (Faruqui et al., 2015; Kiela et al., 2018b) .
+[BOS] Supervised-to-supervised methods provide knowledge transfer between supervised tasks which is exploited successively (Kirkpatrick et al., 2017) , jointly (Kiela et al., 2018b) and in joint-succession (Hashimoto et al., 2017) .
+
+[BOS] Unsupervised-to-unsupervised transfer is less studied.
+[BOS] Dingwall and Potts (2018) proposed a GloVe model-modification that retrofits publicly available GloVe embeddings to produce specialized domain embeddings, while Bollegala and Bao (2018) propose meta-embeddings via denoising autoencoders to merge diverse (Fasttext and GloVe) embeddings spaces.
+[BOS] The later, is also a low-effort approach and closest to ours.
+[BOS] However, it focuses on embedding merging that they tuned on a single semantic similarity task, while MORTY provides an overview of tuning for 19 different settings.
+[BOS] Furthermore, MORTY requires only a single embedding space, which contributes to the literature by outlining that meta-embedding improvements may partly stem from re-encoding rather than only from semantic merging.
+

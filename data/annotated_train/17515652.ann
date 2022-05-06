@@ -1,0 +1,64 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 163 168	[BOS]
+T3	Single_summ 173 178	[BOS]
+T4	Narrative_cite 359 364	[BOS]
+T5	Transition 618 623	[BOS]
+T6	Narrative_cite 782 787	[BOS]
+T7	Narrative_cite 1078 1083	[BOS]
+T8	Transition 1186 1191	[BOS]
+T9	Transition 1490 1495	[BOS]
+T10	Transition 1575 1580	[BOS]
+T11	Transition 1664 1669	[BOS]
+T12	Transition 1798 1803	[BOS]
+T13	Transition 1927 1932	[BOS]
+T14	Transition 2249 2254	[BOS]
+T15	Transition 2347 2352	[BOS]
+T16	Transition 2573 2578	[BOS]
+T17	Transition 2685 2690	[BOS]
+T18	Transition 2935 2940	[BOS]
+T19	Narrative_cite 3127 3132	[BOS]
+T20	Narrative_cite 3385 3390	[BOS]
+T21	Narrative_cite 3602 3607	[BOS]
+T22	Dominant 179 201	Upadhyay et al. (2016)
+T23	Reference 499 516	(Zou et al., 2013
+T24	Reference 518 544	Hermann and Blunsom, 2014a
+T25	Reference 546 564	Koisk et al., 2014
+T26	Reference 566 592	Hermann and Blunsom, 2014b
+T27	Reference 594 615	Chandar et al., 2014)
+T28	Reference 968 992	(Klementiev et al., 2012
+T29	Reference 994 1012	Gouws et al., 2015
+T30	Reference 1014 1032	Soyer et al., 2015
+T31	Reference 1034 1050	Shi et al., 2015
+T32	Reference 1052 1075	Coulmance et al., 2015)
+T33	Reference 1141 1161	(Luong et al., 2015)
+T34	Reference 3151 3173	(Mikolov et al., 2013a
+T35	Reference 3175 3197	Faruqui and Dyer, 2014
+T36	Reference 3549 3576	(Hermann and Blunsom, 2014b
+T37	Reference 3578 3599	Chandar et al., 2014)
+T38	Reference 3640 3664	(Klementiev et al., 2012
+T39	Reference 3666 3684	Gouws et al., 2015
+T40	Reference 3686 3704	Soyer et al., 2015
+T41	Reference 3706 3729	Coulmance et al., 2015)
+T42	Pronoun 389 393	This
+T43	Pronoun 690 695	these
+T44	Pronoun 823 828	These
+T45	Pronoun 1496 1498	It
+T46	Pronoun 1840 1844	This
+T47	Pronoun 2255 2259	This
+T48	Pronoun 2812 2817	these
+T49	Pronoun 2987 2992	These
+T50	Pronoun 3355 3359	they
+T51	B_span 179 187	Upadhyay
+T52	E_span 347 356	induction
+T53	B_span 487 491	data
+T54	E_span 610 614	2014
+T55	B_span 926 931	cross
+T56	E_span 1070 1074	2015
+T57	B_span 1118 1128	simplified
+T58	E_span 1156 1160	2015
+T59	B_span 3628 3634	models
+T60	E_span 3724 3728	2015
+T61	B_span 3133 3136	All
+T62	E_span 3193 3197	2014
+T63	B_span 3528 3536	parallel
+T64	E_span 3594 3598	2014

@@ -1,0 +1,36 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 185 190	[BOS]
+T3	Single_summ 342 347	[BOS]
+T4	Single_summ 472 477	[BOS]
+T5	Single_summ 582 587	[BOS]
+T6	Transition 714 719	[BOS]
+T7	Single_summ 781 786	[BOS]
+T8	Single_summ 879 884	[BOS]
+T9	Narrative_cite 1062 1067	[BOS]
+T10	Single_summ 1147 1152	[BOS]
+T11	Dominant 6 21	Yarowsky (1995)
+T12	Dominant 397 422	Eisner and Karakos (2005)
+T13	Dominant 588 607	Eisner and Karakos'
+T14	Dominant 787 810	Brody and Lapata (2009)
+T16	Reference 1120 1144	(Agirre and Soroa, 2007)
+T17	Dominant 1153 1170	Lau et al. (2012)
+T18	Pronoun 195 199	this
+T19	Pronoun 478 483	Their
+T20	Pronoun 638 643	their
+T21	Pronoun 885 889	They
+T22	Pronoun 1068 1073	Their
+T23	B_span 6 14	Yarowsky
+T24	E_span 331 340	algorithm
+T25	B_span 348 350	In
+T26	E_span 577 580	end
+T27	B_span 588 594	Eisner
+T28	E_span 705 711	senses
+T29	B_span 787 792	Brody
+T30	E_span 1055 1060	topic
+T15	Reference 852 869	Blei et al., 2003
+T31	B_span 817 823	Latent
+T32	E_span 865 869	2003
+T33	B_span 1097 1104	SemEval
+T34	E_span 1139 1143	2007
+T35	B_span 1153 1156	Lau
+T36	E_span 1256 1260	data

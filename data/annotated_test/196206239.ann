@@ -1,0 +1,39 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 86 91	[BOS]
+T3	Multi_summ 425 430	[BOS]
+T4	Multi_summ 629 634	[BOS]
+T5	Transition 779 784	[BOS]
+T6	Multi_summ 898 903	[BOS]
+T7	Narrative_cite 1029 1034	[BOS]
+T8	Reflection 1246 1251	[BOS]
+T9	Dominant 92 111	Luong et al. (2015)
+T10	Dominant 183 204	Sperber et al. (2018)
+T11	Dominant 285 303	Yang et al. (2018)
+T12	Dominant 491 510	Yang et al. (2019b)
+T13	Dominant 515 531	Wu et al. (2019)
+T14	Dominant 904 922	Shen et al. (2018)
+T15	Dominant 927 943	Yu et al. (2018)
+T16	Reference 1138 1159	(Zhang et al., 2017a)
+T17	Reference 1181 1200	(Choi et al., 2017)
+T18	Reference 1223 1243	(Yang et al., 2019a)
+T19	Pronoun 378 383	these
+T20	Pronoun 446 451	these
+T21	Pronoun 649 654	these
+T22	Pronoun 696 700	they
+T23	Pronoun 1001 1006	their
+T24	B_span 92 97	Luong
+T25	E_span 173 181	position
+T26	B_span 183 190	Sperber
+T27	E_span 279 283	task
+T28	B_span 285 289	Yang
+T29	E_span 419 423	task
+T30	B_span 460 465	using
+T31	E_span 766 777	information
+T32	B_span 904 908	Shen
+T33	E_span 1022 1027	tasks
+T34	B_span 1112 1116	word
+T35	E_span 1153 1158	2017a
+T36	B_span 1162 1172	dependency
+T37	E_span 1195 1199	2017
+T38	B_span 1205 1213	semantic
+T39	E_span 1237 1242	2019a

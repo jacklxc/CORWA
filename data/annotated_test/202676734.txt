@@ -1,0 +1,16 @@
+[BOS] We detail related work on text summarization and prototype editing.
+
+[BOS] Text summarization can be classified into extractive and abstractive methods.
+[BOS] Extractive methods (Narayan et al., 2018b; Chen et al., 2018) directly select salient sentences from an article to compose a summary.
+[BOS] One shortcoming of these models is that they tend to suffer from redundancy.
+[BOS] Recently, with the emergence of neural network models for text generation, a vast majority of the literature on summarization (Ma et al., 2018; Gao et al., 2019a; Chen et al., 2019) is dedicated to abstractive summarization, which aims to generate new content that concisely paraphrases a document from scratch.
+
+[BOS] Another line of research focuses on prototype editing.
+[BOS] (Guu et al., 2018) proposed the first prototype editing model, which samples a prototype sentence from training data and then edits it into a new sentence.
+[BOS] Following this work, proposed a new paradigm for response generation, which first retrieves a prototype response from a pre-defined index and then edits the prototype response.
+[BOS] (Cao et al., 2018) applied this method on summarization, where they employed existing summaries as soft templates to generate new summary without modeling the dependency between the prototype document, summary and input document.
+[BOS] Different from these soft attention methods, (Cai et al., 2018) proposed a hard-editing skeleton-based model to promote the coherence of generated stories.
+[BOS] Template-based summarization is also a hard-editing method (Oya et al., 2014) , where a multi-sentence fusion algorithm is extended in order to generate summary templates.
+
+[BOS] Different from all above works, our model focuses on patternized summary generation, which is more challenging than traditional news summarization and short sentence prototype editing.
+

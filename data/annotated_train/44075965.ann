@@ -1,0 +1,31 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 482 487	[BOS]
+T3	Narrative_cite 620 625	[BOS]
+T4	Transition 717 722	[BOS]
+T5	Reflection 885 890	[BOS]
+T6	Reflection 1006 1011	[BOS]
+T7	Reference 114 129	(Caruana, 1993)
+T8	Reference 217 235	(Dong et al., 2015
+T9	Reference 237 256	Luong et al., 2016)
+T10	Reference 293 322	(Augenstein and Sgaard, 2018)
+T11	Reference 333 364	(Martnez Alonso and Plank, 2017
+T12	Reference 366 386	Bjerva et al., 2016)
+T13	Reference 417 442	(Bingel and Bjerva, 2018)
+T14	Reference 568 599	Martnez Alonso and Plank (2017)
+T15	Reference 601 617	Bjerva (2017a,b)
+T16	Reference 686 711	Sgaard and Goldberg (2016
+T17	Pronoun 1016 1020	this
+T18	B_span 72 76	hard
+T19	E_span 124 128	1993
+T20	B_span 197 204	machine
+T21	E_span 251 255	2016
+T22	B_span 259 268	keyphrase
+T23	E_span 317 321	2018
+T24	B_span 325 332	tagging
+T25	E_span 381 385	2016
+T26	B_span 389 396	complex
+T27	E_span 437 441	2018
+T28	B_span 488 491	For
+T29	E_span 609 616	2017a,b
+T30	B_span 626 628	An
+T31	E_span 707 711	2016

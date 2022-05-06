@@ -1,0 +1,55 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 310 315	[BOS]
+T3	Transition 501 506	[BOS]
+T4	Reflection 616 621	[BOS]
+T5	Multi_summ 741 746	[BOS]
+T6	Transition 929 934	[BOS]
+T7	Single_summ 1053 1058	[BOS]
+T8	Single_summ 1184 1189	[BOS]
+T9	Single_summ 1295 1300	[BOS]
+T10	Single_summ 1376 1381	[BOS]
+T11	Single_summ 1469 1474	[BOS]
+T12	Other 1612 1617	[BOS]
+T13	Single_summ 1823 1828	[BOS]
+T14	Single_summ 1975 1980	[BOS]
+T15	Transition 2130 2135	[BOS]
+T16	Transition 2244 2249	[BOS]
+T17	Narrative_cite 2276 2281	[BOS]
+T18	Reflection 2446 2451	[BOS]
+T19	Transition 2604 2609	[BOS]
+T20	Transition 2702 2707	[BOS]
+T21	Transition 2802 2807	[BOS]
+T22	Reference 281 307	(Christensen et al., 2011)
+T23	Reference 401 421	(Dalvi et al., 2012)
+T24	Dominant 771 796	(Banko and Etzioni, 2008)
+T25	Dominant 822 842	(Fader et al., 2011)
+T26	Dominant 1089 1116	SONEX (Merhav et al., 2012)
+T27	Dominant 1307 1329	(Mausam et al., 2012 )
+T28	Dominant 1844 1861	(Xu et al., 2013)
+T29	Reference 2417 2443	(Christensen et al., 2011)
+T30	Reference 2539 2567	(Johansson and Nugues, 2008)
+T31	Reference 2578 2601	(Surdeanu et al., 2003)
+T32	Pronoun 622 626	This
+T33	Pronoun 1190 1194	They
+T34	Pronoun 1249 1254	these
+T35	Pronoun 1382 1384	It
+T36	Pronoun 1462 1464	it
+T37	Pronoun 1679 1681	it
+T38	B_span 178 182	deep
+T39	E_span 302 306	2011
+T40	B_span 374 384	industrial
+T41	E_span 416 420	2012
+T42	B_span 747 754	Shallow
+T43	E_span 919 927	patterns
+T44	B_span 1059 1068	Following
+T45	E_span 1286 1293	partmod
+T46	B_span 1301 1306	OLLIE
+T47	E_span 1604 1610	ReVerb
+T48	B_span 1829 1832	The
+T49	E_span 2122 2128	kernel
+T50	B_span 2349 2362	effectiveness
+T51	E_span 2438 2442	2011
+T52	B_span 2534 2538	Lund
+T53	E_span 2562 2566	2008
+T54	B_span 2572 2577	SwiRL
+T55	E_span 2596 2600	2003

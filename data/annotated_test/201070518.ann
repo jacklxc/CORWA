@@ -1,0 +1,65 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 169 174	[BOS]
+T3	Reflection 320 325	[BOS]
+T4	Reflection 380 385	[BOS]
+T5	Transition 465 470	[BOS]
+T6	Transition 583 588	[BOS]
+T7	Narrative_cite 699 704	[BOS]
+T8	Transition 950 955	[BOS]
+T9	Transition 1066 1071	[BOS]
+T10	Narrative_cite 1201 1206	[BOS]
+T11	Narrative_cite 1412 1417	[BOS]
+T12	Transition 1534 1539	[BOS]
+T13	Multi_summ 1704 1709	[BOS]
+T14	Multi_summ 1863 1868	[BOS]
+T15	Reflection 1954 1959	[BOS]
+T16	Reflection 2024 2029	[BOS]
+T17	Reflection 2217 2222	[BOS]
+T18	Reflection 2371 2376	[BOS]
+T19	Reflection 2500 2505	[BOS]
+T20	Reflection 2718 2723	[BOS]
+T21	Reference 100 121	(Yin and Neubig, 2017
+T22	Reference 123 146	Rabinovich et al., 2017
+T23	Reference 148 166	Iyer et al., 2018)
+T24	Reference 783 802	(Zhong et al., 2017
+T25	Reference 804 819	Xu et al., 2017
+T26	Reference 821 839	Huang et al., 2018
+T27	Reference 841 857	Yu et al., 2018a
+T28	Reference 859 880	Dong and Lapata, 2018
+T29	Reference 882 901	Yavuz et al., 2018)
+T30	Reference 927 947	(Zhong et al., 2017)
+T31	Reference 1265 1283	(Iyer et al., 2017
+T32	Reference 1285 1313	Finegan-Dollak et al., 2018)
+T33	Reference 1333 1361	(Finegan-Dollak et al., 2018
+T34	Reference 1363 1380	Lee et al., 2019)
+T35	Reference 1480 1493	(Price, 1990)
+T36	Reference 1507 1531	(Zelle and Mooney, 1996)
+T37	Dominant 1723 1741	(Yu et al., 2018b)
+T38	Dominant 1797 1815	(Yu et al., 2018c)
+T39	Reference 2773 2791	(Lin et al., 2017)
+T40	Pronoun 181 186	their
+T41	Pronoun 393 395	it
+T42	Pronoun 1072 1074	It
+T43	Pronoun 1427 1431	they
+T44	Pronoun 1548 1552	they
+T45	Pronoun 1647 1652	their
+T46	Pronoun 1869 1873	They
+T47	Pronoun 1986 1991	their
+T48	B_span 33 40	grammar
+T49	E_span 161 165	2018
+T50	B_span 733 740	several
+T51	E_span 896 900	2018
+T52	B_span 911 918	WikiSQL
+T53	E_span 942 946	2017
+T54	B_span 1244 1252	sequence
+T55	E_span 1308 1312	2018
+T56	B_span 1318 1326	template
+T57	E_span 1375 1379	2019
+T58	B_span 1475 1479	ATIS
+T59	E_span 1488 1492	1990
+T60	B_span 1498 1506	GeoQuery
+T61	E_span 1526 1530	1996
+T62	B_span 1710 1722	SyntaxSQLNet
+T63	E_span 1945 1952	history
+T64	B_span 2748 2752	self
+T65	E_span 2786 2790	2017

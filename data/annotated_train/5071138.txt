@@ -1,0 +1,21 @@
+[BOS] Over the past few years, there has been a surge in datasets for Reading Comprehension.
+[BOS] Most of these datasets differ in the manner in which questions and answers are created.
+[BOS] For example, in SQuAD (Rajpurkar et al., 2016a) , NewsQA (Trischler et al., 2016) , TriviaQA (Joshi et al., 2017) and MovieQA (Tapaswi et al., 2016 ) the answers correspond to a span in the document.
+[BOS] MS-MARCO uses web queries as questions and the answers are synthesized by workers from documents relevant to the query.
+[BOS] On the other hand, in most cloze-style datasets (Mostafazadeh et al., 2016; Onishi et al., 2016 ) the questions are created automatically by deleting a word/entity from a sentence.
+[BOS] There are also some datasets for RC with multiple choice questions (Richardson et al., 2013; Berant et al., 2014; Lai et al., 2017) where the task is to select one among k given candidate answers.
+
+[BOS] Another notable RC Dataset is NarrativeQA(s Kocisk et al., 2018) which contains 40K QA pairs created from plot summaries of movies.
+[BOS] It poses two tasks, where the first task involves reading the plot summaries from which the QA pairs were annotated and the second task is read the entire book or movie script (which is usually 60K words long) instead of the summary to answer the question.
+[BOS] As acknowledged by the authors, while the first task is similar in scope to the previous datasets, the second task is at present, intractable for existing neural models, owing to the length of the passage.
+[BOS] Due to the kind of the challenges presented by their second task, it is not comparable to our dataset and is much more futuristic in nature.
+
+[BOS] Given that there are already a few datasets for RC, a natural question to ask is "Do we really need any more datasets?".
+[BOS] We believe that the answer to this question is yes.
+[BOS] Each new dataset brings in new challenges and contributes towards building better QA systems.
+[BOS] It keeps researchers on their toes and prevents research from stagnating once state-of-theart results are achieved on one dataset.
+[BOS] A classic example of this is the CoNLL NER dataset (Tjong Kim Sang and De Meulder, 2003) .
+[BOS] While several NER systems (Passos et al., 2014) gave close to human performance on this dataset, NER on general web text, domain specific text, noisy social media text is still an unsolved problem (mainly due to the lack of representative datasets which cover the real-world challenges of NER).
+[BOS] In this context, DuoRC presents 4 new challenges mentioned earlier which are not exhibited in existing RC datasets and would thus enable exploring novel neural approaches in complex language understanding.
+[BOS] The hope is that all these datasets (including ours) will collectively help in addressing a wide range of challenges in QA and prevent stagnation via overfitting on a single dataset.
+

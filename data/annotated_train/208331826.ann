@@ -1,0 +1,43 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 321 326	[BOS]
+T3	Reflection 457 462	[BOS]
+T4	Narrative_cite 665 670	[BOS]
+T5	Narrative_cite 881 886	[BOS]
+T6	Multi_summ 1107 1112	[BOS]
+T7	Single_summ 1348 1353	[BOS]
+T8	Reflection 1541 1546	[BOS]
+T9	Reference 118 136	(Yang et al., 2018
+T10	Reference 138 158	Yang et al., 2019a,b
+T11	Reference 160 176	Guo et al., 2019
+T12	Reference 178 202	Sukhbaatar et al., 2019)
+T13	Reference 237 257	(Bello et al., 2019)
+T14	Reference 291 313	(Mohamed et al., 2019)
+T15	Reference 850 864	(Chomsky, 1965
+T16	Reference 866 878	Bever, 1970)
+T17	Reference 1030 1051	(Socher et al., 2013)
+T18	Reference 1060 1078	(Tai et al., 2015)
+T19	Reference 1086 1104	(Mou et al., 2016)
+T20	Dominant 1126 1144	Hao et al. (2019a)
+T21	Dominant 1147 1163	Ma et al. (2019)
+T22	Dominant 1383 1401	Hao et al. (2019b)
+T23	Pronoun 330 335	these
+T24	Pronoun 466 470	this
+T25	Pronoun 1564 1568	this
+T26	B_span 108 111	NLP
+T27	E_span 197 201	2019
+T28	B_span 216 221	image
+T29	E_span 252 256	2019
+T30	B_span 262 271	automatic
+T31	E_span 308 312	2019
+T32	B_span 826 838	hierarchical
+T33	E_span 873 877	1970
+T34	B_span 1004 1013	Recursive
+T35	E_span 1046 1050	2013
+T36	B_span 1054 1059	LSTMs
+T37	E_span 1073 1077	2015
+T38	B_span 1081 1085	CNNs
+T39	E_span 1099 1103	2016
+T40	B_span 1126 1129	Hao
+T41	E_span 1335 1345	structures
+T42	B_span 1383 1386	Hao
+T43	E_span 1524 1539	representations

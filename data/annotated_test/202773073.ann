@@ -1,0 +1,18 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Multi_summ 226 231	[BOS]
+T3	Multi_summ 437 442	[BOS]
+T4	Reflection 614 619	[BOS]
+T5	Reference 115 139	(Yang and Mitchell, 2017
+T6	Reference 141 165	Mihaylov and Frank, 2018
+T7	Reference 167 184	Weissenborn, 2017
+T8	Reference 186 204	Bauer et al., 2018
+T9	Reference 206 223	Pan et al., 2019)
+T10	Dominant 232 257	Mihaylov and Frank (2018)
+T11	Dominant 353 372	Bauer et al. (2018)
+T12	B_span 79 88	knowledge
+T13	E_span 222 223	)
+T14	B_span 232 234	Mi
+T15	E_span 338 347	knowledge
+T16	B_span 353 358	Bauer
+T17	E_span 612 613	.
+T18	Pronoun 443 447	They

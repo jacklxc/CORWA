@@ -1,0 +1,45 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 358 363	[BOS]
+T3	Single_summ 461 466	[BOS]
+T4	Narrative_cite 589 594	[BOS]
+T5	Multi_summ 752 757	[BOS]
+T6	Transition 871 876	[BOS]
+T7	Transition 997 1002	[BOS]
+T8	Transition 1166 1171	[BOS]
+T9	Narrative_cite 1270 1275	[BOS]
+T10	Reference 179 201	(Hermann et al., 2015)
+T11	Reference 219 238	(Yang et al., 2015)
+T12	Reference 288 313	(Rajpurkar et al., , 2018
+T13	Reference 334 355	(Nguyen et al., 2016)
+T14	Dominant 467 486	Joshi et al. (2017)
+T15	Reference 690 701	(Jain, 2016
+T16	Reference 703 720	Lin et al., 2018)
+T17	Reference 731 749	(Yin et al., 2015)
+T18	Reference 786 806	(Welbl et al., 2017)
+T19	Reference 1374 1394	(Xiong et al., 2017)
+T20	Reference 1427 1445	(Seo et al., 2017)
+T21	Reference 1468 1490	(Dhingra et al., 2017)
+T22	B_span 147 150	clo
+T23	E_span 200 201	)
+T24	B_span 204 208	open
+T25	E_span 237 238	)
+T26	B_span 241 247	answer
+T27	E_span 309 313	2018
+T28	B_span 320 330	generative
+T29	E_span 354 355	)
+T30	B_span 467 470	Jos
+T31	E_span 587 588	.
+T32	B_span 675 684	knowledge
+T33	E_span 719 720	)
+T34	B_span 724 730	tables
+T35	E_span 748 749	)
+T37	E_span 805 806	)
+T38	B_span 1362 1366	coat
+T39	E_span 1393 1394	)
+T40	B_span 1397 1399	bi
+T41	E_span 1444 1445	)
+T42	B_span 1452 1457	gated
+T43	E_span 1489 1490	)
+T44	Pronoun 877 881	They
+T45	Reference 265 287	Rajpurkar et al., 2016
+T46	B_span 779 785	MedHop

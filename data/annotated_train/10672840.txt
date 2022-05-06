@@ -1,0 +1,15 @@
+[BOS] For the noun number errors, we improved the system proposed by Izumi et al. (2003) .
+[BOS] In Izumi et al. (2003) , a noun number error detection method is a part of an automatic error detection system for transcribed spoken English by Japanese learners.
+[BOS] They used a maximum entropy method whose features are unigrams, bigrams and trigrams of surface words, of POS tags and of the root forms.
+[BOS] They trained a classifier on only a learner corpus.
+[BOS] The main difference between theirs and ours is a domain of the training corpus and features we used.
+[BOS] We trained a classifier on the mixed corpus of the leaner corpus and the native corpus.
+[BOS] We employ a treepath feature in our system.
+
+[BOS] Our SMT system for correcting preposition and determiner errors is based on Mizumoto et al. (2012) .
+[BOS] They constructed a translation model from the data of the language-exchange social network service Lang-8 1 and evaluated its performance for 18 error types, including preposition and determiner errors in the Konan-JIEM Learner Corpus.
+[BOS] On preposition error correction, they showed that their SMT system outperformed a system using a maximum entropy model.
+[BOS] The main difference with this work is that our new corpus collection here is about three times larger.
+
+[BOS] 3 System Architecture
+

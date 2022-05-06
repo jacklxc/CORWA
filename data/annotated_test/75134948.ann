@@ -1,0 +1,47 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 158 163	[BOS]
+T3	Reflection 361 366	[BOS]
+T4	Narrative_cite 524 529	[BOS]
+T5	Single_summ 693 698	[BOS]
+T6	Single_summ 875 880	[BOS]
+T7	Single_summ 1007 1012	[BOS]
+T8	Reflection 1253 1258	[BOS]
+T9	Reflection 1448 1453	[BOS]
+T10	Multi_summ 1576 1581	[BOS]
+T11	Single_summ 1706 1711	[BOS]
+T12	Single_summ 1868 1873	[BOS]
+T13	Reflection 2030 2035	[BOS]
+T14	Dominant 183 203	Linzen et al. (2016)
+T15	Reference 591 613	(Karpathy et al., 2015
+T16	Reference 615 636	Vania and Lopez, 2017
+T17	Reference 638 670	Kementchedjhieva and Lopez, 2018
+T18	Reference 672 690	Gerz et al., 2018)
+T19	Dominant 699 718	Smith et al. (2018)
+T20	Dominant 881 904	Chaudhary et al. (2018)
+T21	Dominant 1041 1060	Godin et al. (2018)
+T22	Dominant 1596 1616	Linzen et al. (2016)
+T23	Dominant 1712 1733	Radford et al. (2017)
+T24	Dominant 1874 1909	(Kementchedjhieva and Lopez, 2018 )
+T25	Pronoun 244 249	their
+T26	Pronoun 379 383	this
+T27	Pronoun 480 482	it
+T28	Pronoun 1266 1271	their
+T29	Pronoun 2090 2095	these
+T30	B_span 164 166	On
+T31	E_span 354 359	units
+T32	B_span 567 576	character
+T33	E_span 685 689	2018
+T34	B_span 699 704	Smith
+T35	E_span 863 873	embeddings
+T36	B_span 881 890	Chaudhary
+T37	E_span 996 1005	languages
+T38	B_span 1041 1046	Godin
+T39	E_span 1242 1251	sequences
+T40	B_span 1282 1284	we
+T41	E_span 1434 1445	composition
+T42	B_span 1596 1602	Linzen
+T43	E_span 1699 1704	rules
+T44	B_span 1712 1719	Radford
+T45	E_span 1856 1866	supervised
+T46	B_span 1875 1891	Kementchedjhieva
+T47	E_span 2024 2028	hand

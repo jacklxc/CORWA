@@ -1,0 +1,15 @@
+[BOS] Morphological inflection has been addressed from different perspectives within the area of Compu-tational Linguistics, commonly for morphological rich languages, such as German, Spanish, Finnish or Arabic, as well as less morphological rich languages such as English.
+
+[BOS] Previous work has used supervised or semisupervised learning (Durrett and DeNero, 2013; Ahlberg et al., 2014; Nicolai et al., 2015; Faruqui et al., 2016) to learn from large datasets of morphological rules on word forms in order to apply them to inflect the desired words.
+[BOS] Other approaches have relied on linguistic information, such as morphemes and phonology (Cotterell et al., 2016) ; morphosyntactic disambiguation rules (Surez et al., 2005) ; and, graphical models (Dreyer and Eisner, 2009 ).
+
+[BOS] Recently, the morphological inflection has been also addressed at SIGMORPHON 2016 Shared Task (Cotterell et al., 2016) where, given a lemma with its part-of-speech, a target inflected form had to be generated (task 1).
+[BOS] This task was addressed through several approaches, including align and transduce (Alegria and Etxeberria, 2016; Nicolai et al., 2016; Liu and Mao, 2016) ; recurrent neural networks (Kann and Schtze, 2016; Aharoni et al., 2016; stling, 2016) ; and, linguisticinspired heuristics approaches (Taji et al., 2016; Sorokin, 2016) .
+[BOS] Overall, recurrent neural networks approaches performed better, being (Kann and Schtze, 2016) the best performing system in the shared task, obtaining around 98%.
+[BOS] Furthermore, the work described here differs from existing statistical surface realisation methods which use phrase-based learning (e.g., (Konstas and Lapata, 2012)) since they do not usually include morphological inflection.
+[BOS] In this respect, our work is more similar to (Duek and Jurek, 2013) , where the inflected word forms are learnt through multi-class logistic regression by predicting edit scripts.
+[BOS] The aforementioned data-driven methods achieve high accuracy in predicting the appropriate inflection by learning from huge datasets.
+[BOS] For example, Durret and DeNero (2013) use 11400 amount of data (i.e. the total number of instances or rules used to predict the inflections of a verb).
+[BOS] In contrast, we use almost half to train our system (4556 instances), and we achieve comparable or better results for Spanish.
+[BOS] Finally, the work presented here relies on ensembles of classifiers which has been proved successful for content selection in data-to-text systems (Gkatzia et al., 2014) .
+

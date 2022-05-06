@@ -1,0 +1,115 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 174 179	[BOS]
+T3	Narrative_cite 381 386	[BOS]
+T4	Transition 760 765	[BOS]
+T5	Transition 859 864	[BOS]
+T6	Reflection 1065 1070	[BOS]
+T7	Narrative_cite 1186 1191	[BOS]
+T8	Transition 1375 1380	[BOS]
+T9	Narrative_cite 1628 1633	[BOS]
+T10	Single_summ 1757 1762	[BOS]
+T11	Narrative_cite 1932 1937	[BOS]
+T12	Narrative_cite 2176 2181	[BOS]
+T13	Narrative_cite 2432 2437	[BOS]
+T14	Single_summ 2717 2722	[BOS]
+T15	Reflection 2917 2922	[BOS]
+T16	Narrative_cite 3299 3304	[BOS]
+T17	Transition 3485 3490	[BOS]
+T18	Narrative_cite 3634 3639	[BOS]
+T19	Reflection 3744 3749	[BOS]
+T20	Transition 3911 3916	[BOS]
+T21	Narrative_cite 4092 4097	[BOS]
+T22	Reflection 4364 4369	[BOS]
+T23	Reflection 4580 4585	[BOS]
+T24	Transition 4773 4778	[BOS]
+T25	Other 4915 4920	[BOS]
+T26	Other 5075 5080	[BOS]
+T27	Other 5290 5295	[BOS]
+T28	Other 5343 5348	[BOS]
+T29	Other 5492 5497	[BOS]
+T30	Other 5539 5544	[BOS]
+T31	Other 5663 5668	[BOS]
+T32	Other 5848 5853	[BOS]
+T33	Other 5980 5985	[BOS]
+T34	Other 6141 6146	[BOS]
+T35	Other 6265 6270	[BOS]
+T36	Other 6418 6423	[BOS]
+T37	Other 6514 6519	[BOS]
+T38	Other 6579 6584	[BOS]
+T39	Other 6771 6776	[BOS]
+T40	B_span 94 106	representing
+T41	E_span 166 170	2014
+T42	Reference 127 146	Bengio et al., 2013
+T43	Reference 148 170	Chen and Manning, 2014
+T44	B_span 283 291	training
+T45	E_span 373 377	2010
+T46	Reference 329 352	Mikolov et al., 2013a,b
+T47	Reference 354 377	Turney and Pantel, 2010
+T48	B_span 581 592	relatedness
+T49	E_span 685 689	2017
+T50	B_span 695 705	dependency
+T51	E_span 752 756	2015
+T52	Reference 616 637	Mikolov et al., 2013a
+T53	Reference 639 662	Pennington et al., 2014
+T54	Reference 664 689	Wilson and Mihalcea, 2017
+T55	Reference 715 737	Chen and Manning, 2014
+T56	Reference 739 756	Dyer et al., 2015
+T57	B_span 1143 1148	whole
+T58	E_span 1177 1181	2017
+T59	Reference 1166 1181	Ji et al., 2017
+T60	B_span 1249 1256	dynamic
+T61	E_span 1368 1372	2017
+T62	Reference 1287 1306	Henaff et al., 2016
+T63	Reference 1308 1323	Ji et al., 2017
+T64	Reference 1325 1347	Kobayashi et al., 2016
+T65	Reference 1348 1372	Kobayashi et al., , 2017
+T66	B_span 1407 1411	rely
+T67	E_span 1621 1625	2017
+T68	Reference 1577 1599	Kobayashi et al., 2016
+T69	Reference 1601 1625	Kobayashi et al., , 2017
+T70	B_span 1701 1715	representation
+T71	E_span 1749 1753	2017
+T72	Reference 1738 1753	Ji et al., 2017
+T73	Dominant 1763 1783	Henaff et al. (2016)
+T74	B_span 1763 1769	Henaff
+T75	E_span 1922 1930	sentence
+T76	B_span 2147 2151	bAbi
+T77	E_span 2172 2173	)
+T78	Reference 2153 2172	Weston et al., 2015
+T79	B_span 2324 2328	lack
+T80	E_span 2424 2428	2018
+T81	Reference 2411 2428	Azab et al., 2018
+T82	B_span 2438 2442	Most
+T83	E_span 2709 2713	2018
+T84	Reference 2658 2678	Tapaswi et al., 2016
+T85	Reference 2680 2695	Na et al., 2017
+T86	Reference 2697 2714	Lei et al., 2018)
+T87	Dominant 2733 2749	Li et al. (2016)
+T88	B_span 2733 2735	Li
+T89	E_span 2909 2915	models
+T90	Reference 2931 2947	Ji et al., 2017;
+T91	Reference 2948 2963	Li et al., 2016
+T92	B_span 2931 2933	Ji
+T93	E_span 2942 2946	2017
+T94	B_span 2948 2950	Li
+T95	E_span 2959 2963	2016
+T96	B_span 3305 3316	Identifying
+T97	E_span 3477 3481	2016
+T98	Reference 3396 3416	Agarwal et al., 2013
+T99	Reference 3418 3441	Makazhanov et al., 2014
+T100	Reference 3443 3461	Elson et al., 2010
+T101	Reference 3463 3481	Iyyer et al., 2016
+T102	B_span 3677 3686	summarize
+T103	E_span 3736 3740	2010
+T104	Reference 3722 3740	Elson et al., 2010
+T105	B_span 4224 4228	word
+T106	E_span 4306 4310	2016
+T107	Reference 4241 4262	Schnabel et al., 2015
+T108	Reference 4264 4287	Yih and Qazvinian, 2012
+T109	Reference 4289 4310	Upadhyay et al., 2016
+T110	B_span 4316 4322	phrase
+T111	E_span 4356 4360	2017
+T112	Reference 4335 4360	Wilson and Mihalcea, 2017
+T113	B_span 5026 5034	publicly
+T114	E_span 5067 5071	2018
+T115	Reference 5054 5071	Azab et al., 2018

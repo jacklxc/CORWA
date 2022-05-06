@@ -1,0 +1,44 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 730 735	[BOS]
+T3	Single_summ 864 869	[BOS]
+T4	Single_summ 1012 1017	[BOS]
+T5	Single_summ 1089 1094	[BOS]
+T6	Single_summ 1256 1261	[BOS]
+T7	Narrative_cite 1410 1415	[BOS]
+T8	Reference 408 424	Hu and Liu 2004]
+T9	Reference 583 597	Wu et al. 2009
+T10	Reference 685 706	Kobayashi et al. 2007
+T11	Reference 709 726	Ding and Liu 2010
+T12	Reference 787 822	Jansen et al. [Jansen et al. 2009 ]
+T13	Reference 827 861	Silva et al. [Silva and TEAM 2011]
+T14	Dominant 870 883	Jansen et al.
+T15	Dominant 1095 1129	Silva et al. [Silva and TEAM 2011]
+T16	Reference 1612 1633	[Jansen et al. 2009 ]
+T17	Reference 1699 1720	[Silva and TEAM 2011]
+T18	Pronoun 1018 1022	They
+T19	Pronoun 1029 1034	their
+T20	Pronoun 1262 1266	They
+T21	Pronoun 1439 1444	these
+T22	Pronoun 1485 1490	their
+T23	Pronoun 1538 1542	they
+T24	Pronoun 1638 1642	they
+T25	Reference 382 406	Grefenstette et al. 2004
+T26	Reference 563 580	Kim and Hovy 2006
+T27	Reference 544 560	Ding et al. 2008
+T28	B_span 341 343	to
+T29	E_span 419 423	2004
+T30	B_span 506 508	to
+T31	E_span 593 597	2009
+T32	Reference 658 682	Popescu and Etzioni 2005
+T33	B_span 626 633	machine
+T34	E_span 722 726	2010
+T35	B_span 736 740	More
+T36	E_span 856 860	2011
+T37	B_span 870 876	Jansen
+T38	E_span 1077 1086	detection
+T39	B_span 1095 1100	Silva
+T40	E_span 1403 1407	them
+T41	B_span 1538 1542	they
+T42	E_span 1627 1631	2009
+T43	B_span 1638 1642	they
+T44	E_span 1715 1719	2011

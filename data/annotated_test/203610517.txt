@@ -1,0 +1,14 @@
+[BOS] Relevance-based interpretation is a common technique in analyzing predictions in neural models.
+[BOS] In this method, inputs of a predictor are assigned a scalar value quantifying the importance of that particular input on the final decision.
+[BOS] Saliency methods use the gradient of the inputs to define importance (Li et al., 2016a; Ghaeini et al., 2018; Ding et al., 2019) .
+[BOS] Layer-wise relevance propagation that assigns relevance to neurons based on their contribution to activation of higher-layer neurons is also investigated in NLP (Arras et al., 2016; Ding et al., 2017; Arras et al., 2017) .
+[BOS] Another method to measure relevance is by removing the input, and tracking the difference in in network's output (Li et al., 2016b) .
+[BOS] While these methods focus on explaining a model's decision, Shi et al. (2016) ; Kdr et al. (2017) ; Calvillo and Crocker (2018) investigate how a particular concept is represented in the network.
+[BOS] Analyzing and interpreting the attention mechanism in NLP (Koehn and Knowles, 2017; Ghader and Monz, 2017; Tang and Nivre, 2018; Clark et al., 2019; Vig and Belinkov, 2019) is another direction that has drawn major interest.
+[BOS] Although attention weights have been implicitly or explicitly used to explain a model's decisions, the reliability of this approach is not proven.
+[BOS] Several attempts have been made to investigate the reliability of this approach for explaining a models' decision in NLP (Serrano and Smith, 2019; Baan et al., 2019; , and also in information retrieval (Jain and Madhyastha, 2019) .
+
+[BOS] Our work was inspired by .
+[BOS] However, in this work we have focused on similar issues in neural machine translation which is has different challenges compared to text classification in terms of objective and architecture.
+[BOS] Moreover, our paper studies the effect of different counterfactual attention methods.
+

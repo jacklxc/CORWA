@@ -1,0 +1,41 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 172 177	[BOS]
+T3	Transition 311 316	[BOS]
+T4	Narrative_cite 473 478	[BOS]
+T5	Single_summ 551 556	[BOS]
+T6	Transition 992 997	[BOS]
+T7	Reflection 1147 1152	[BOS]
+T8	Reflection 1264 1269	[BOS]
+T9	Single_summ 1368 1373	[BOS]
+T10	Reflection 1556 1561	[BOS]
+T11	Reflection 1783 1788	[BOS]
+T12	Reflection 2000 2005	[BOS]
+T13	Reference 249 272	(Ordonez et al., 2011 )
+T14	Reference 483 504	Ferraro et al. (2015)
+T15	Dominant 646 666	Specia et al. (2016)
+T16	Reference 862 881	Huang et al. (2016)
+T17	Reference 967 988	Calixto et al. (2017)
+T19	Reference 1322 1347	Wschle and Riezler (2015)
+T20	Reference 1757 1780	Hitschler et al. (2016)
+T21	Reference 2122 2145	Hitschler et al. (2016)
+T22	Pronoun 31 35	this
+T23	Pronoun 326 330	this
+T24	Pronoun 888 892	they
+T25	Pronoun 1374 1379	Their
+T26	Pronoun 1804 1809	their
+T27	Pronoun 2078 2080	it
+T28	Pronoun 2192 2197	their
+T29	B_span 221 224	SBU
+T30	E_span 266 270	2011
+T31	B_span 830 839	attention
+T32	E_span 876 880	2016
+T33	B_span 897 901	back
+T34	E_span 983 987	2017
+T35	B_span 483 490	Ferraro
+T36	E_span 540 548	datasets
+T18	B_span 1270 1273	Our
+T37	E_span 1362 1366	data
+T38	B_span 1691 1702	monolingual
+T39	E_span 1775 1779	2016
+T40	B_span 2088 2099	monolingual
+T41	E_span 2140 2144	2016

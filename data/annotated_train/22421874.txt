@@ -1,0 +1,32 @@
+[BOS] Cross Vector Space Mapping with Seed Dictionaries.
+[BOS] Our work is most related to models that do zero-shot learning for bilingual dictionary induction, using maps between vector spaces with seed dictionaries as training data.
+[BOS] Examples include the models of (Mikolov et al., 2013; Dinu et al., 2014; Lazaridou et al., 2015; Vulic and Korhonen, 2016) .
+[BOS] Like these approaches, we first learn word embeddings for each language, then use a seed dictionary to train a mapping function between the two vector spaces.
+[BOS] In a departure from these prior methods, we propose to distill knowledge from trilingual paths of nearby languages for languages with small seed dictionaries using a distillation training objective.
+[BOS] Additionally, we model linguistic information in the vector space of the source and target languages.
+[BOS] Another line of research in this vein is the work of (Vulic and Korhonen, 2016) , who analyze how properties of the seed dictionary affect bilingual dictionary induction across different dimensions (i.e., lexicon source, lexicon size, translation method, translation pair reliability).
+[BOS] However, methodologically, their approach is based on prior work (Mikolov et al., 2013; Dinu et al., 2014) .
+
+[BOS] Bilingual word embeddings.
+[BOS] There is a rich body of work on bilingual embeddings.
+[BOS] Bilingual word embedding learning methods produce a shared bilingual word embedding space where words from two languages are represented in the new space so that similar words, which may be in different languages, have similar representations.
+[BOS] Such bilingual word embeddings have been used in a number of tasks including semantic word similarity (Faruqui and Dyer, 2014; Ammar et al., 2016) learning bilingual word lexicons (Mikolov et al., 2013; Gouws et al., 2015; Vulic and Korhonen, 2016) , parsing (Guo et al., 2015; Tckstrm et al., 2012) , information retrieval (Vulic and Moens, 2015) , and cross-lingual document classification (Klementiev et al., 2012; Koisk et al., 2014) .
+[BOS] Some bilingual word embedding methods such as Gouws et al., 2015) require sentence or word aligned data, which our approach does not require.
+[BOS] We compare our approach to the bilingual embeddings produced by the recent method of (Ammar et al., 2016) .
+[BOS] Like our approach, this work does not require availability of parallel corpora but only a seed dictionary.
+
+[BOS] On the aspect of enriching word embeddings with linguistic knowledge for the purpose of machine translation, Sennrich and Barry (Sennrich and Haddow, 2016) introduce linguistic features in sequence to sequence neural machine translation.
+[BOS] Like our work, they also represent such features in the embedding layer.
+[BOS] In addition to part-ofspeech tags and morphological features, they also use syntactic dependency labels which are not applicable to our model since we work at the word level while their model is at the sentence level.
+
+[BOS] Knowledge Distillation.
+[BOS] Knowledge distillation was introduced for model compression to learn small models from larger models (Bucilu et al., 2006; Hinton et al., 2015) .
+[BOS] For example, from a large neural network model a smaller model can be distilled such that it generalizes in the same way as the large model (Romero et al., 2014) .
+[BOS] Knowledge distillation was also used by (Hu et al., 2016) to distill knowledge from logical rules in the tasks of named entity recognition and sentiment analysis, thereby enforcing constraints on the trained model.
+[BOS] Our approach is different from this prior work on knowledge distillation in that we distill knowledge from mapping functions of related languages into mapping functions of languages with only small seed dictionaries.
+[BOS] Domain adaptation, for which there is a long history, is also related to our work (Ben-David et al., 2007; Daum III, 2007; Pan et al., 2010; Long and Wang, 2015) .
+[BOS] (Daum III, 2007) proposed feature augmentation, suggesting that a model should have features that are general across domains, as well as features that are domainspecific.
+[BOS] Thus the model learns from all domains while preserving domain-specific information.
+[BOS] These kinds of models have to be retrained when a new domain is added.
+[BOS] Our work however only has to train mapping functions that involve a new language, all others can be distilled without retraining them.
+

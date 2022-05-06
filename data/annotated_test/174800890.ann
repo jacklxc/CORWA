@@ -1,0 +1,42 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 138 143	[BOS]
+T3	Single_summ 384 389	[BOS]
+T4	Single_summ 540 545	[BOS]
+T5	Transition 751 756	[BOS]
+T6	Transition 833 838	[BOS]
+T7	Single_summ 941 946	[BOS]
+T8	Single_summ 1073 1078	[BOS]
+T9	Single_summ 1162 1167	[BOS]
+T10	Transition 1283 1288	[BOS]
+T11	Single_summ 1574 1579	[BOS]
+T12	Single_summ 1755 1760	[BOS]
+T13	Transition 1910 1915	[BOS]
+T14	Narrative_cite 2031 2036	[BOS]
+T15	Reflection 2256 2261	[BOS]
+T16	Dominant 147 168	(Berant et al., 2013)
+T17	Dominant 393 414	(Berant et al., 2013)
+T18	Dominant 549 567	(Yih et al., 2016)
+T19	Dominant 950 971	(Bordes et al., 2015)
+T20	Dominant 1593 1626	(Petrochuk and Zettlemoyer, 2018)
+T21	Dominant 1764 1790	(Vlad Serban et al., 2016)
+T22	Reference 2158 2182	(Rajpurkar et al., 2016)
+T23	Reference 2197 2218	(Nguyen et al., 2016)
+T24	Reference 2233 2253	(Joshi et al., 2017)
+T25	B_span 148 154	Berant
+T26	E_span 372 382	approaches
+T27	B_span 394 400	Berant
+T28	E_span 528 538	annotators
+T29	B_span 549 550	(
+T30	E_span 742 748	WebQSP
+T31	B_span 951 957	Bordes
+T32	E_span 1275 1281	triple
+T33	B_span 1580 1589	According
+T34	E_span 1746 1753	account
+T35	B_span 1765 1769	Vlad
+T36	E_span 1898 1908	variations
+T37	B_span 2149 2154	SQuAD
+T38	E_span 2177 2181	2016
+T39	B_span 2185 2187	MS
+T40	E_span 2213 2217	2016
+T41	B_span 2221 2229	TriviaQA
+T42	E_span 2248 2252	2017

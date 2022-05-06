@@ -1,0 +1,12 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 227 232	[BOS]
+T3	Reference 187 199	Titov (2011)
+T4	Reference 203 224	Blitzer et al. (2006)
+T5	Dominant 274 296	Mikolov et al. (2013b)
+T6	B_span 157 163	domain
+T7	E_span 198 199	)
+T8	B_span 203 205	Bl
+T9	E_span 223 224	)
+T10	B_span 264 270	spirit
+T11	E_span 483 484	.
+T12	Pronoun 233 235	It

@@ -1,0 +1,16 @@
+[BOS] Learning bilingual compositional representations can be achieved by optimizing a bilingual objective on parallel corpora.
+[BOS] In Pham et al. (2015) , distributed representations for bilingual phrases and sentences are learned using an extended version of the paragraph vector model (Le and Mikolov, 2014) by forcing parallel sentences to share one vector.
+[BOS] In Soyer et al. (2014) , cross-lingual compositional embeddings are learned by optimizing a joint bilingual objective that aligns parallel source and target representations by minimizing the Euclidean distances between them, and a monolingual objective that maximizes the similarity between similar phrases.
+[BOS] The monolingual objective was implemented by maximizing the similarity between random phrases and subphrases within the same sentence.
+[BOS] Cross-lingual representations can also be induced implicitly within a machine learning framework that is trained jointly for multiple language pairs.
+[BOS] In Schwenk and Douze (2017) , encoders and decoders for the given languages are trained jointly using a neural sequence to sequence model (Sutskever et al., 2014) using parallel corpora that are partially aligned; that is, each language within a pair is also part of at least one other parallel corpus.
+[BOS] Neural machine translation can also be achieved with a single encoder and decoder that handles several input languages (Johnson et al., 2017) , but the latter has not been evaluated as a general-purpose sentence representation model.
+[BOS] According to Hill et al. (2016) , the quality of the representations induced using a machine translation objective is lower than other neural models trained with different compositional objectives, such as Denoising Auto-Encoders and Skip-Thought (Kiros et al., 2015) .
+[BOS] Mono-lingual evaluation of sentence representation models can be found in Hill et al. (2016) , , and Conneau and Kiela (2018) .
+
+[BOS] In Aldarmaki and Diab (2016) , a modular training objective has been proposed for cross-lingual sentence embedding.
+[BOS] However, their application was limited to the specific matrix factorization model they discussed.
+[BOS] More recently, proposed a modular transfer learning objective and evaluated it on neural sentence encoders using cross-lingual natural language inference classification.
+[BOS] Our representation transfer framework is very similar to their approach, although we use a simpler loss function.
+[BOS] In addition, we evaluate the framework as a general-purpose sentence encoder and compare it to other frameworks.
+

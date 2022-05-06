@@ -1,0 +1,20 @@
+[BOS] Various recently-proposed large-scale QA datasets can be categorized in four categories.
+
+[BOS] Single-document datasets.
+[BOS] SQuAD (Rajpurkar et al., 2016 (Rajpurkar et al., , 2018 questions that are relatively simple because they usually require no more than one sentence in the paragraph to answer.
+
+[BOS] Multi-document datasets.
+[BOS] TriviaQA (Joshi et al., 2017) and SearchQA (Dunn et al., 2017) contain question answer pairs that are accompanied with more than one document as the context.
+[BOS] This further challenges QA systems' ability to accommodate longer contexts.
+[BOS] However, since the supporting documents are collected after the question answer pairs with information retrieval, the questions are not guaranteed to involve interesting reasoning between multiple documents.
+
+[BOS] KB-based multi-hop datasets.
+[BOS] Recent datasets like QAngaroo (Welbl et al., 2018) and COM-PLEXWEBQUESTIONS (Talmor and Berant, 2018) explore different approaches of using pre-existing knowledge bases (KB) with pre-defined logic rules to generate valid QA pairs, to test QA models' capability of performing multi-hop reasoning.
+[BOS] The diversity of questions and answers is largely limited by the fixed KB schemas or logical forms.
+[BOS] Furthermore, some of the questions might be answerable by one text sentence due to the incompleteness of KBs.
+
+[BOS] Free-form answer-generation datasets.
+[BOS] MS MARCO (Nguyen et al., 2016) contains 100k user queries from Bing Search with human generated answers.
+[BOS] Systems generate free-form answers and are evaluated by automatic metrics such as ROUGE-L and BLEU-1.
+[BOS] However, the reliability of these metrics is questionable because they have been shown to correlate poorly with human judgement (Novikova et al., 2017) .
+

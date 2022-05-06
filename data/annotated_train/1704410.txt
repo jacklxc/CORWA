@@ -1,0 +1,24 @@
+[BOS] Recent work has made significant progress on unsupervised POS tagging (Mrialdo, 1994; Smith and Eisner, 2005; Haghighi and Klein, 2006; Johnson, 2007; Goldwater and Griffiths, 2007; Gao and Johnson, 2008; Ravi and Knight, 2009 ).
+[BOS] Our work is closely related to recent approaches that incorporate the sparsity constraint into the POS induction process.
+[BOS] This line of work has been motivated by empirical findings that the standard EM-learned unsupervised HMM does not exhibit sufficient word tag sparsity.
+
+[BOS] The extent to which this constraint is enforced varies greatly across existing methods.
+[BOS] On one end of the spectrum are clustering approaches that assign a single POS tag to each word type (Schutze, 1995; Lamar et al., 2010) .
+[BOS] These clusters are computed using an SVD variant without relying on transitional structure.
+[BOS] While our method also enforces a singe tag per word constraint, it leverages the transition distribution encoded in an HMM, thereby benefiting from a richer representation of context.
+
+[BOS] Other approaches encode sparsity as a soft constraint.
+[BOS] For instance, by altering the emission distribution parameters, Johnson (2007) encourages the model to put most of the probability mass on few tags.
+[BOS] This design does not guarantee "structural zeros," but biases towards sparsity.
+[BOS] A more forceful approach for encoding sparsity is posterior regularization, which constrains the posterior to have a small number of expected tag assignments (Graa et al., 2009 ).
+[BOS] This approach makes the training objective more complex by adding linear constraints proportional to the number of word types, which is rather prohibitive.
+[BOS] A more rigid mechanism for modeling sparsity is proposed by Ravi and Knight (2009) , who minimize the size of tagging grammar as measured by the number of transition types.
+[BOS] The use of ILP in learning the desired grammar significantly increases the computational complexity of this method.
+
+[BOS] In contrast to these approaches, our method directly incorporates these constraints into the structure of the model.
+[BOS] This design leads to a significant reduction in the computational complexity of training and inference.
+
+[BOS] Another thread of relevant research has explored the use of features in unsupervised POS induction (Smith and Eisner, 2005; Berg-Kirkpatrick et al., 2010; Hasan and Ng, 2009) .
+[BOS] These methods demonstrated the benefits of incorporating linguistic features using a log-linear parameterization, but requires elaborate machinery for training.
+[BOS] In our work, we demonstrate that using a simple nave-Bayes approach also yields substantial performance gains, without the associated training complexity.
+

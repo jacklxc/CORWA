@@ -1,0 +1,15 @@
+[BOS] Language identification is an active field of research, where in recent years increased attention has been given to the identification of closely related languages, language variants and dialects, which are harder to distinguish.
+[BOS] The three editions of the DSL shared task on detecting similar languages have provided a forum for benchmarking various approaches.
+[BOS] For a detailed overview of the previous editions and their related work, we refer to the overview papers of Zampieri et al. (2014) and Zampieri et al. (2015) .
+
+[BOS] State-of-the-art approaches to related language identification rely heavily on word and character ngram representations.
+[BOS] Other features include the use of blacklists and whitelists, language models, POS tag distributions and language-specific orthographical conventions (Bali, 2006; Zampieri and Gebre, 2012) .
+[BOS] For systems, a wide range of machine learning algorithms have been applied (Naive Bayes and SVM classifiers in particular), with work on optimization and dimensionality reduction (Goutte et al., 2014) , and on ensembling and cascading, which yielded the best-performing systems in the 2015 edition (Goutte and Lger, 2015; Malmasi and Dras, 2015) .
+
+[BOS] Previous approaches for Arabic dialect detection, a new task introduced in this shared task edition, use similar approaches.
+[BOS] Sadat et al. (2014) argue that character n-gram models are well suited for dialect identification tasks because most of the variation is based on affixation, which can be easily modeled at the character level.
+
+[BOS] Also new to this edition of the shared task is the evaluation on social media data.
+[BOS] In 2014, the Tweet-LID shared task specifically addressed the problem of language identification in very short texts (Zubiaga et al., 2014) .
+[BOS] This brought to light some of the challenges inherent to the genre: a need for a better external resources to train systems, low accuracy on underrepresented languages and the inability to identify multilingual tweets.
+

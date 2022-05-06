@@ -1,0 +1,38 @@
+T1	Reflection 0 5	[BOS]
+T2	Single_summ 104 109	[BOS]
+T3	Transition 292 297	[BOS]
+T4	Single_summ 430 435	[BOS]
+T5	Single_summ 545 550	[BOS]
+T6	Single_summ 726 731	[BOS]
+T7	Single_summ 842 847	[BOS]
+T8	Single_summ 934 939	[BOS]
+T9	Single_summ 1071 1076	[BOS]
+T10	Narrative_cite 1235 1240	[BOS]
+T11	Dominant 110 129	Luong et al. (2015)
+T12	Reference 267 289	Bahdanau et al. (2014)
+T13	Reference 471 488	(Xu et al., 2015)
+T14	Dominant 551 567	Wu et al. (2016)
+T15	Dominant 732 758	Kalchbrenner et al. (2016)
+T16	Dominant 848 869	Gehring et al. (2016)
+T17	Dominant 940 970	de Brbisson and Vincent (2016)
+T18	Dominant 1077 1097	Raffel et al. (2017)
+T19	Reference 1329 1356	Aharoni and Goldberg (2016)
+T20	B_span 110 113	Luo
+T21	E_span 284 288	2014
+T22	B_span 436 445	Efficient
+T23	E_span 483 487	2015
+T24	B_span 551 553	Wu
+T25	E_span 719 724	layer
+T26	B_span 732 735	Kal
+T27	E_span 832 840	networks
+T28	B_span 848 850	Ge
+T29	E_span 929 932	NMT
+T30	B_span 940 942	de
+T31	E_span 1060 1069	retrieval
+T32	B_span 1077 1080	Raf
+T33	E_span 1224 1233	monotonic
+T34	B_span 1290 1303	morphological
+T35	E_span 1355 1356	)
+T36	Pronoun 307 312	these
+T37	B_span 241 249	original
+T38	E_span 284 288	2014

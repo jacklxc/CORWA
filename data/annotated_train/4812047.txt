@@ -1,0 +1,29 @@
+[BOS] Our research is built upon an attention-based sequence-to-sequence model (Bahdanau et al., 2015) , but is also related to coverage modeling, future modeling, and functionality separation.
+[BOS] We discuss these topics in the following.
+
+[BOS] Coverage Modeling.
+[BOS] Tu et al. (2016) and Mi et al. (2016) maintain a coverage vector to indicate which source words have been translated and which source words have not.
+[BOS] These vectors are updated by accumulating attention probabilities at each decoding step, which provides an opportunity for the attention model to distinguish translated source words from untranslated ones.
+[BOS] Viewing coverage vectors as a (soft) indicator of translated source contents, following this idea, we take one step further.
+[BOS] We model translated and untranslated source contents by directly manipulating the attention vector (i.e., the source contents that are being translated) instead of attention probability (i.e., the probability of a source word being translated).
+
+[BOS] In addition, we explicitly model both translated (with PAST-RNN) and untranslated (with FUTURE-RNN) instead of using a single coverage vector to indicate translated source words.
+[BOS] The difference with Tu et al. (2016) is that the PAST and FUTURE contents in our model are fed not only to the attention mechanism but also the decoder's states.
+
+[BOS] In the context of semantic-level coverage, and Meng et al. (2016) propose a memory-enhanced attention model.
+[BOS] Both implement the memory with a Neural Turing Machine (Graves et al., 2014) , in which the reading and writing operations are expected to erase translated contents and highlight untranslated contents.
+[BOS] However, their models lack an explicit objective to guide such intuition, which is one of the key ingredients for the success in this work.
+[BOS] In addition, we use two separate layers to explicitly model translated and untranslated contents, which is another distinguishing feature of the proposed approach.
+
+[BOS] Future Modeling.
+[BOS] Standard neural sequence decoders generate target sentences from left to right, thus failing to estimate some desired properties in the future (e.g., the length of target sentence).
+[BOS] To address this problem, actor-critic algorithms are employed to predict future properties Bahdanau et al., 2017) , in their models, an interpolation of the actor (the standard generation policy) and the critic (a value function that estimates the future values) is used for decision making.
+[BOS] Concerning the future generation at each decoding step, Weng et al. (2017) guide the decoder's hidden states to not only generate the current target word, but also predict the target words that remain untranslated.
+[BOS] Along the direction of future modeling, we introduce a FUTURE layer to maintain the untranslated source contents, which is updated at each decoding step by subtracting the source content being translated (i.e., attention vector) from the last state (i.e., the untranslated source content so far).
+
+[BOS] Functionality Separation.
+[BOS] Recent work has revealed that the overloaded use of representations makes model training difficult, and such problems can be alleviated by explicitly separating these functions (Reed and Freitas, 2015; Ba et al., 2016; Miller et al., 2016; Gulcehre et al., 2016; Rocktschel et al., 2017) .
+[BOS] For example, Miller et al. (2016) separate the functionality of look-up keys and memory contents in memory networks (Sukhbaatar et al., 2015) .
+[BOS] Rocktschel et al. (2017) propose a keyvalue-predict attention model, which outputs three vectors at each step: the first is used to predict the next-word distribution; the second serves as the key for decoding; and the third is used for the attention mechanism.
+[BOS] In this work, we further separate PAST and FUTURE functionalities from the decoder's hidden representations.
+

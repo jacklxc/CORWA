@@ -1,0 +1,18 @@
+[BOS] Abstractive Multi-document summarization.
+[BOS] Previous researches have shown that human write summaries through sentence aggregation and fusion (Cheung and Penn, 2013) .
+[BOS] Abstraction-based approaches that gather information across sentences boundaries have become more and more popular in recent years.
+[BOS] Different abstractive summarization methods can be summarized into four technique routes: (1) sentence fusion based methods (Barzilay and McKeown, 2005; Filippova and Strube, 2008; Banerjee et al., 2015) first cluster sentences into several themes and then generate a new sentence for each cluster by fusing the common information of all sentences in the cluster; (2) information extraction based methods (Genest and Lapalme, 2011; Li, 2015) extract information units, such as Information Items or Basic Semantic Unit, as components for generating sentences; (3) summary revision based methods (Nenkova, 2008; Siddharthan et al., 2011) try to improve quality of summary by noun phrases rewriting and co-reference resolution; (4) pattern-based sentence generation methods (Wang and Cardie, 2013; Pighin et al., 2014; generate new sentences based on a set of sentence generation patterns learned from corpus or designed templates.
+
+[BOS] Recently, some works studied the use of deep learning techniques for abstractive summarization tasks, which use sequence-to-sequence generation techniques on single document or sentence summarization (Rush et al., 2015; Chopra et al., 2016) .
+[BOS] A multi-dimensional summarization methodology was proposed to transform the paradigm of traditional summarization research through multi-disciplinary fundamental exploration on semantics, dimension, knowledge, computing and cyber-physical society (Zhuge, 2016) .
+
+[BOS] Event extraction.
+[BOS] Event extraction is a traditional task in Information Extraction, which aims to recognize event mentions and arguments of predefined types (such as the ACE tasks).
+[BOS] The works on event extraction either divide the task into separate subtasks, such as event-trigger extraction and argument extraction (Liao and Grishman, 2010; Hong et al., 2011) or model it jointly Li and Ji, 2014) .
+[BOS] These works mainly focus on predefined event and argument types.
+[BOS] However, we focus on open-domain and more fine-grained event information extraction for multi-document summarization.
+
+[BOS] Abstract representations.
+[BOS] With the development of Abstract Meaning Representation (AMR) (Banarescu et al., 2012) , representing semantic information with graphs has been studied in such tasks as summarization (Liu et al., 2015) and event detection (Kai and Grishman, 2015) .
+[BOS] Although several techniques on parsing sentences to AMR (Flanigan et al., 2014; Wang et al., 2015) have been developed, the performance of AMR parsing is very limited at the present.
+

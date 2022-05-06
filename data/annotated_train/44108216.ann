@@ -1,0 +1,50 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 159 164	[BOS]
+T3	Transition 323 328	[BOS]
+T4	Narrative_cite 422 427	[BOS]
+T5	Transition 743 748	[BOS]
+T6	Single_summ 806 811	[BOS]
+T7	Single_summ 929 934	[BOS]
+T8	Narrative_cite 1042 1047	[BOS]
+T9	Single_summ 1180 1185	[BOS]
+T10	Transition 1342 1347	[BOS]
+T11	Transition 1387 1392	[BOS]
+T12	Reflection 1521 1526	[BOS]
+T13	Reflection 1649 1654	[BOS]
+T14	Reflection 1831 1836	[BOS]
+T15	Transition 1948 1953	[BOS]
+T16	Transition 1999 2004	[BOS]
+T17	Transition 2130 2135	[BOS]
+T18	Reflection 2289 2294	[BOS]
+T19	Reference 47 78	(Kalchbrenner and Blunsom, 2013
+T20	Reference 80 103	Sutskever et al., 2014)
+T21	Reference 512 528	(Su et al., 2016
+T22	Reference 530 546	Tu et al., 2016)
+T23	Reference 590 607	Meng et al., 2016
+T24	Reference 609 624	Mi et al., 2016
+T25	Reference 626 643	Jean et al., 2015
+T26	Reference 645 662	Feng et al., 2016
+T27	Reference 664 685	Calixto et al., 2017)
+T28	Dominant 812 833	Gehring et al. (2017)
+T29	Dominant 935 956	Vaswani et al. (2017)
+T30	Reference 1140 1156	(Li et al., 2017
+T31	Reference 1158 1176	Chen et al., 2017)
+T32	Dominant 1208 1227	(Zhao et al., 2017)
+T33	Pronoun 108 112	this
+T34	Pronoun 1255 1259	this
+T35	Pronoun 1330 1334	this
+T36	Pronoun 2099 2103	this
+T37	B_span 812 819	Gehring
+T38	E_span 922 927	speed
+T39	B_span 935 942	Vaswani
+T40	E_span 1029 1040	performance
+T41	B_span 1054 1058	some
+T42	E_span 1171 1175	2017
+T43	B_span 1186 1191	There
+T44	E_span 1335 1340	study
+T45	B_span 484 495	information
+T46	E_span 541 545	2016
+T47	B_span 570 579	attention
+T48	E_span 680 684	2017
+T49	B_span 21 28	encoder
+T50	E_span 98 102	2014

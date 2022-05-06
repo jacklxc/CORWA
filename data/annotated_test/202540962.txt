@@ -1,0 +1,13 @@
+[BOS] The most related work is recently proposed by Wang et al. (2019) , who introduced a multi-agent algorithm for dual learning.
+[BOS] However, the major differences are 1) the training in their work is conducted on the two agents while fixing the parameters of other agents.
+[BOS] 2) they use identical agent with different initialization seeds.
+[BOS] 3) our model is simple yet effective.
+[BOS] Actually, it is easy to incorporate additional agent trained with their dual learning strategy in our model, to further improve the performance.
+[BOS] More importantly, both of our work and their work indicate that using more agents can improve the translation quality significantly.
+
+[BOS] Another related work is ensemble knowledge distillation (Fukuda et al., 2017; Freitag et al., 2017; Zhu et al., 2018) , in which the ensemble model of all agents is leveraged as the Teacher network, to distill the knowledge for the corresponding Student network.
+[BOS] However, as described in the previous section, the knowledge distillation is one particular case of our model, as the performance of the Teacher in their model is fixed, and cannot be further improved by the learning process.
+
+[BOS] Our work is also motivated by the work of training with two agents, including dual learning (He et al., 2016; Xia et al., 2017 Xia et al., , 2018 , and bidirectional decoding Zhang et al., 2018 Zhang et al., , 2019b .
+[BOS] Our method can be viewed as a general learning framework to train multiple agents, which explores the relationship among all agents to enhance the performance of each agent efficiently.
+

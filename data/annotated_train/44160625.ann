@@ -1,0 +1,53 @@
+T1	Single_summ 0 5	[BOS]
+T2	Multi_summ 141 146	[BOS]
+T3	Narrative_cite 550 555	[BOS]
+T4	Single_summ 757 762	[BOS]
+T5	Other 873 878	[BOS]
+T6	Single_summ 998 1003	[BOS]
+T7	Transition 1272 1277	[BOS]
+T8	Reflection 1397 1402	[BOS]
+T9	Transition 1532 1537	[BOS]
+T10	Single_summ 1627 1632	[BOS]
+T11	Single_summ 1732 1737	[BOS]
+T12	Single_summ 1910 1915	[BOS]
+T13	Single_summ 2007 2012	[BOS]
+T14	Transition 2188 2193	[BOS]
+T15	Transition 2365 2370	[BOS]
+T16	Reflection 2523 2528	[BOS]
+T17	Dominant 44 71	(Nenkova and McKeown, 2011)
+T18	Dominant 242 258	(Filippova, 2010
+T19	Dominant 260 289	Berg-Kirkpatrick et al., 2011
+T20	Dominant 291 313	Banerjee et al., 2015)
+T21	Reference 497 519	(Wang and Cardie, 2013
+T22	Reference 521 546	Genest and Lapalme, 2011)
+T23	Reference 641 665	(Sutskever et al., 2014)
+T24	Dominant 763 781	Rush et al. (2015)
+T25	Dominant 1004 1021	See et al. (2017)
+T26	Reference 1161 1185	(Gulcehre et al., 2016 )
+T27	Reference 1210 1232	(Vinyals et al., 2015)
+T28	Dominant 1633 1652	Lin and Hovy (2000)
+T29	Dominant 2013 2033	Conroy et al. (2006)
+T30	Pronoun 1291 1296	these
+T31	Pronoun 1940 1945	these
+T32	Pronoun 2207 2212	these
+T33	Pronoun 2507 2511	this
+T34	B_span 6 17	Traditional
+T35	E_span 132 139	summary
+T36	B_span 162 173	abstractive
+T37	E_span 541 545	2011
+T38	B_span 452 461	summaries
+T39	E_span 541 545	2011
+T40	B_span 624 628	text
+T41	E_span 660 664	2014
+T42	B_span 763 767	Rush
+T43	E_span 862 871	sentences
+T44	B_span 1004 1007	See
+T45	E_span 1265 1270	words
+T46	B_span 1146 1152	source
+T47	E_span 1179 1183	2016
+T48	B_span 1194 1201	pointer
+T49	E_span 1227 1231	2015
+T50	B_span 1633 1636	Lin
+T51	E_span 1994 2005	summarizing
+T52	B_span 2013 2019	Conroy
+T53	E_span 2180 2185	words

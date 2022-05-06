@@ -1,0 +1,43 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 238 243	[BOS]
+T3	Single_summ 410 415	[BOS]
+T4	Single_summ 596 601	[BOS]
+T5	Single_summ 782 787	[BOS]
+T6	Single_summ 931 936	[BOS]
+T7	Single_summ 1135 1140	[BOS]
+T8	Transition 1314 1319	[BOS]
+T9	Single_summ 1409 1414	[BOS]
+T10	Transition 1555 1560	[BOS]
+T11	Single_summ 1599 1604	[BOS]
+T12	Single_summ 1720 1725	[BOS]
+T13	Transition 1962 1967	[BOS]
+T14	Reference 211 235	(Zampieri et al., , 2019
+T15	Dominant 244 265	(Lui and Cook, 2013 )
+T16	Dominant 416 443	(Zampieri and Gebre, 2012 )
+T17	Dominant 602 626	(Ciobanu and Dinu, 2016)
+T18	Dominant 788 818	(Clematide and Makarov, 2017 )
+T19	Dominant 937 965	(Kreutz and Daelemans, 2018)
+T20	Dominant 1141 1162	(ltekin et al., 2018)
+T21	Dominant 1415 1437	(Huang and Lee, 2008 )
+T22	Dominant 1605 1622	(Xu et al., 2016)
+T23	Pronoun 1726 1730	They
+T24	Reference 164 185	Zampieri et al., 2017
+T25	Reference 187 210	Zampieri et al., , 2018
+T26	B_span 134 141	VarDial
+T27	E_span 231 235	2019
+T28	B_span 245 248	Lui
+T29	E_span 401 408	English
+T30	B_span 417 425	Zampieri
+T31	E_span 585 594	Brazilian
+T32	B_span 603 610	Ciobanu
+T33	E_span 770 780	classifier
+T34	B_span 789 798	Clematide
+T35	E_span 915 929	identification
+T36	B_span 938 944	Kreutz
+T37	E_span 1128 1133	Dutch
+T38	B_span 1142 1148	ltekin
+T39	E_span 1306 1311	tasks
+T40	B_span 1416 1421	Huang
+T41	E_span 1544 1552	Mandarin
+T42	B_span 1606 1608	Xu
+T43	E_span 1949 1960	performance

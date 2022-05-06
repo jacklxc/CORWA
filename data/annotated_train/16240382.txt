@@ -1,0 +1,28 @@
+[BOS] The present work ties together several strands of previous studies.
+
+[BOS] Semantic Role Labeling A great deal of previous SRL research has been dedicated to designing rich and expressive features, pioneered by Gildea and Jurafsky (2002) .
+[BOS] For instance, the top performing system on the CoNLL-2009 shared task employs over 50 language-specific feature templates (Che et al., 2009 ).
+[BOS] These features mostly involve the predicate, the candidate argument, their contexts and the syntactic path between them (Surdeanu et al., 2003; Xue and Palmer, 2004; Pradhan et al., 2005) .
+[BOS] Besides, higher-order features involving several arguments or multiple predicates have also been explored (Toutanova et al., 2008; Martins and Almeida, 2014; Yang and Zong, 2014) .
+
+[BOS] Several approaches have been studied to alleviate the intensive feature engineering in SRL and get better generalization.
+[BOS] Moschitti et al. (2008) introduce different kinds of tree kernels for capturing the structural similarity of syntactic trees.
+[BOS] While attractive in automatic feature learning, the kernel-based approaches typically suffer from high computational cost.
+[BOS] Lei et al. (2015) instead use low-rank tensors for automatic feature composition based on four kinds of basic feature sets.
+[BOS] However, tensor-based approaches cannot well generalize the high-sparsity structural features like syntactic path.
+[BOS] Besides, they still need a relatively small amount of feature engineering to make use of the local contexts.
+[BOS] Another line of research focuses on neural models (Collobert et al., 2011; Zhou and Xu, 2015; FitzGerald et al., 2015) , which have shown great effectiveness in automatic feature learning on a variety of NLP tasks.
+[BOS] Most recently, Roth and Lapata (2016) employ LSTM-based recurrent neural networks to obtain the representations of syntactic path features, which is similar to our work.
+[BOS] Aside from the distributed path features, they also use a set of binary input feature sets from Anders et al. (2010) .
+[BOS] In contrast to these prior work, our model jointly leverages both global contexts and syntactic path features using bidirectional LSTMs.
+
+[BOS] Relation Classification Early research on RC has also been relying heavily on human-engineered features (Rink and Harabagiu, 2010) .
+[BOS] Recent years have seen a great deal of work on using neural networks to alleviate the intensive engineering on contextual and syntactic features.
+[BOS] For example, Socher et al. (2012) propose recursive neural networks for modeling the syntactic paths between the two entities whose relation is to be determined.
+[BOS] Zeng et al. (2014) use convolutional neural network for learning sentence-level features of contexts and obtain good performance even without using syntactic features.
+[BOS] Later approaches have used more sophisticated models for better handling long-term dependencies, such as sequential LSTMs and tree LSTMs (Liu et al., 2015; Xu et al., 2015b; Miwa and Bansal, 2016) .
+[BOS] In addition, Yu et al. (2014) and (2015) investigate tensor-based approaches for learning the combination of embedding features and lexicalized sparse features.
+
+[BOS] Therefore, despite that relation classification has mostly been studied separately from SRL, they have a substantial amount of commonalities.
+[BOS] It inspires us to develop a potentially unified architecture to take advantage of the progress in each research direction.
+

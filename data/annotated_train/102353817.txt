@@ -1,0 +1,18 @@
+[BOS] The Stanford Contextual Word Similarity (SCWS) dataset (Huang et al., 2012) comprises 2003 word pairs and is analogous to standard word similarity datasets, such as RG-65 (Rubenstein and Goodenough, 1965) and SimLex (Hill et al., 2015) , in which the task is to automatically estimate the semantic similarity of word pairs.
+[BOS] Ideally, the estimated similarity scores should have high correlation with those given by human annotators.
+[BOS] However, there is a fundamental difference between SCWS and other word similarity datasets: each word in SCWS is associated with a context which triggers a specific meaning of the word.
+[BOS] The unique property of the dataset makes it a suitable benchmark for multiprototype and contextualized word embeddings.
+[BOS] However, in the following, we highlight some of the limitations of the dataset which hinder its suitability for evaluating existing techniques.
+
+[BOS] Inter-rater agreement (IRA) is widely accepted as a metric to assess the annotation quality of a dataset.
+[BOS] The metric reflects the homogeneity of ratings which is expected to be high for a welldefined task and a qualified set of annotators.
+[BOS] For each word pair in SCWS ten scores were obtained through crowdsourcing.
+[BOS] We computed the pairwise IRA to be 0.35 (in terms of Spearman  correlation) which is a very low figure.
+[BOS] The mean IRA (between each annotator and the average of others), which can be taken as a human-level performance upperbound, is 0.52.
+[BOS] Moreover, most of the instances in SCWS have context pairs with different target words.
+[BOS] 14 This makes it possible to test context-independent models, which only considers word pairs in isolation, on the dataset.
+[BOS] Importantly, such a context-independent model can easily surpass the human-level performance upperbound.
+[BOS] For instance, we computed the performance of the Google News Word2vec pretrained word embeddings (Mikolov et al., 2013b) on the dataset to be 0.65 (), which is significantly higher than the optimistic IRA for the dataset.
+[BOS] In fact, Dubossarsky et al. (2018) showed how the reported high performance of multi-prototype techniques in this dataset was not due to an accurate sense representation, but rather to a subsampling effect, which had not been controlled for in similarity datasets.
+[BOS] In contrast, a context-insensitive word embedding model would perform no better than a random baseline on our dataset.
+

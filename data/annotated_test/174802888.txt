@@ -1,0 +1,17 @@
+[BOS] Recursive neural networks are a type of neural network which incorporates syntactic structures for sentence-level understanding tasks.
+[BOS] Typically, recursive neural network models assume that an annotated treebank or a pretrained syntactic parser is available (Socher et al., 2013; Tai et al., 2015; Kim et al., 2019a) , but recent work pays more attention to learning syntactic structures in an unsupervised manner.
+[BOS] Yogatama et al. (2017) propose to use reinforcement learning, and Maillard et al. (2017) introduce the Tree-LSTM to jointly learn sentence embeddings and syntax trees, later combined with a Straight-Through Gumbel-Softmax estimator by Choi et al. (2018) .
+[BOS] In addition to sentence classification tasks, recent research has focused on unsupervised structure learning for language modeling (Shen et al., 2018 (Shen et al., , 2019 Drozdov et al., 2019; Kim et al., 2019b) .
+[BOS] In our work, we explore the possibility for combining the merits of both sentence classification and language modeling.
+
+[BOS] Unsupervised parsing is also related to differentiation through discrete variables, where researchers have proposed to use reinforcement learning with sampling (Williams, 1992) , neural attention for marginalization (Deng et al., 2018) , and proximal gradient methods (Jang et al., 2017; Peng et al., 2018) .
+[BOS] Our work follows the framework of Mou et al. (2017) , who couple neural and symbolic systems for table querying by pretraining an reinforcement learning executor with neural attention.
+[BOS] We extend this idea to syntactic parsing and show the relationship between parsing and downstream tasks.
+[BOS] Such a framework couples diverse models at the intermediate output level (latent trees in our case); its flexibility allows us to make use of heterogeneous models, such as the PRPN and the Tree-LSTM.
+
+[BOS] The knowledge transfer between the PRPN and the Tree-LSTM applies a simple imitation learning procedure, where an agent learns from a teacher (a human or a well-trained model) based on demonstrations (i.e., predictions of the teacher).
+[BOS] Typical approaches to imitation learning include behavior cloning (step-by-step supervised learning) and inverse reinforcement learning (Hussein et al., 2017) .
+[BOS] If the environment/simulator is available, the agent can refine its policy after learning from demonstrations (Gao et al., 2018) .
+[BOS] Our work also adopts a two-step strategy: learning from demonstrations and refining policy.
+[BOS] Policy refinement is needed in our approach because the teacher is imperfect, and experiments show the benefit of policy refinement in our case.
+

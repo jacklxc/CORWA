@@ -1,0 +1,29 @@
+[BOS] Distant Supervision.
+[BOS] The term 'distant supervision' was coined by Mintz et al. (2009) Table 2 : Weights assigned to sentences by our baseline and our best model.
+[BOS] The baseline incorrectly predicts "no relation", while our best model correctly predicts "neighbourhood of" for this bag.
+
+[BOS] a text corpus where two related entities are mentioned, then developed a classifier to predict the relation.
+[BOS] Researchers have since extended this approach further (e.g., Takamatsu et al., 2012; Min et al., 2013; Riedel et al., 2013; Koch et al., 2014) .
+[BOS] A key source of noise in distant supervision is that sentences may mention two related entities without expressing the relation between them.
+[BOS] Hoffmann et al. (2011) used multi-instance learning to address this problem by developing a graphical model for each entity pair which includes a latent variable for each sentence to explicitly indicate the relation expressed by that sentence, if any.
+[BOS] Our model can be viewed as an extension of Hoffmann et al. (2011) where the sentence-bound latent variables can also be directly supervised in some of the training examples.
+
+[BOS] Neural Models for Distant Supervision.
+[BOS] More recently, neural models have been effectively used to model textual relations (e.g., Hashimoto et al., 2013; Zeng et al., 2014; Nguyen and Grishman, 2015) .
+[BOS] Focusing on distantly supervised models, Zeng et al. (2015) proposed a neural implementation of multi-instance learning to leverage multiple sentences which mention an entity pair in distantly supervised relation extraction.
+[BOS] However, their model picks only one sentence to represent an entity pair, which wastes the information in the neglected sentences.
+[BOS] Jiang et al. (2016) addresses this limitation by max pooling the vector encodings of all input sentences for a given entity pair.
+[BOS] independently proposed to use attention to address the same limitation, and Du et al. (2018) improved by using multilevel self-attention.
+[BOS] To account for the noise in distant supervision labels, ; Wang et al. (2018) suggested different ways of using "soft labels" that do not necessarily agree with the distant supervision labels.
+[BOS] Ye et al. (2017) proposed a method for leveraging dependencies between different relations in a pairwise ranking framework, while arranged the relation types in a hierarchy aiming for better generalization for relations that do not have enough training data.
+[BOS] To improve using additional resources, Vashishth et al. (2018) used graph convolution over dependency parse, OpenIE extractions and entity type constraints, and used parse trees to prune irrelevant information from the sentences.
+
+[BOS] Combining Direct and Distant Supervision.
+[BOS] Despite the substantial amount of work on both directly and distantly supervised relation extraction, the question of how to combine both signals has not received the same attention.
+[BOS] Pershina et al. (2014) trained MIML-RE from (Surdeanu et al., 2012) on both types of supervision by locking the latent variables on the sentences to the supervised labels.
+[BOS] Angeli et al. (2014) and presented active learning models that select sentences to annotate and incorporate in the same manner.
+[BOS] Pershina et al. (2014) and also tried simple baseline of including the labeled sentences as singleton bags.
+[BOS] Pershina et al. (2014) did not find this beneficial, which agrees with our results in Section 4.2, while found the addition of singleton bags to work well.
+
+[BOS] Our work is addressing the same problem, but combining both signals in a state-of-the-art neural network model, and we do not require the two datasets to have the same set of relation types.
+

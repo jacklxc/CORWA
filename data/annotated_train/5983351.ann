@@ -1,0 +1,85 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 270 275	[BOS]
+T3	Transition 434 439	[BOS]
+T4	Narrative_cite 617 622	[BOS]
+T5	Transition 870 875	[BOS]
+T6	Transition 970 975	[BOS]
+T7	Narrative_cite 1067 1072	[BOS]
+T8	Single_summ 1212 1217	[BOS]
+T9	Single_summ 1340 1345	[BOS]
+T10	Reflection 1487 1492	[BOS]
+T11	Narrative_cite 1645 1650	[BOS]
+T12	Single_summ 1768 1773	[BOS]
+T13	Single_summ 1909 1914	[BOS]
+T14	Reflection 2115 2120	[BOS]
+T15	Transition 2364 2369	[BOS]
+T16	Single_summ 2526 2531	[BOS]
+T17	Narrative_cite 2638 2643	[BOS]
+T18	Narrative_cite 2729 2734	[BOS]
+T19	Reflection 2957 2962	[BOS]
+T20	Narrative_cite 3118 3123	[BOS]
+T21	Single_summ 3345 3350	[BOS]
+T22	Multi_summ 3454 3459	[BOS]
+T23	Single_summ 3697 3702	[BOS]
+T24	Reference 105 128	Sutskever et al., 2014)
+T25	Reference 244 267	(Vinyals et al., 2015b)
+T26	Reference 782 806	(Chorowski et al., 2015)
+T27	Reference 826 843	(Xu et al., 2015)
+T28	Reference 1159 1181	(Elliott et al., 2015)
+T29	Reference 1186 1209	(Zoph and Knight, 2016)
+T30	Dominant 1232 1253	Elliott et al. (2015)
+T31	Dominant 1357 1379	Zoph and Knight (2016)
+T32	Reference 1744 1765	(Luong et al., 2015a)
+T33	Dominant 1789 1808	Firat et al. (2016)
+T34	Dominant 1924 1943	Firat et al. (2016)
+T35	Dominant 2544 2566	(Khapra et al., 2010 )
+T36	Reference 2655 2673	(Wu and Wang, 2007
+T37	Reference 2675 2692	Zhu et al., 2014)
+T38	Reference 2823 2839	(Nirenburg, 1994
+T39	Reference 2841 2859	Dorr et al., 2010)
+T40	Reference 3222 3246	(Klementiev et al., 2012
+T41	Reference 3248 3268	Chandar et al., 2014
+T42	Reference 3270 3295	Hermann and Blunsom, 2014
+T43	Reference 3297 3317	Chandar et al., 2016
+T44	Reference 3319 3342	Rajendran et al., 2015)
+T45	Dominant 3364 3384	Andrew et al. (2013)
+T46	Dominant 3460 3481	(Chandar et al., 2014
+T47	Dominant 3483 3504	Chandar et al., 2016)
+T48	Dominant 3582 3605	Rajendran et al. (2015)
+T49	Dominant 3766 3789	Rajendran et al. (2015)
+T50	B_span 46 54	sequence
+T51	E_span 123 127	2014
+T52	B_span 147 154	Machine
+T53	E_span 261 266	2015b
+T54	B_span 763 769	speech
+T55	E_span 801 805	2015
+T56	B_span 809 814	image
+T57	E_span 838 842	2015
+T58	B_span 1073 1080	Encoder
+T59	E_span 1204 1208	2016
+T60	B_span 1232 1239	Elliott
+T61	E_span 1331 1338	caption
+T62	B_span 1357 1361	Zoph
+T63	E_span 1479 1485	German
+T64	B_span 1651 1657	Single
+T65	E_span 1759 1764	2015a
+T66	B_span 1789 1794	Firat
+T67	E_span 1896 1907	Translation
+T68	B_span 1924 1929	Firat
+T69	E_span 2104 2113	available
+T70	B_span 2545 2551	Khapra
+T71	E_span 2621 2636	transliteration
+T72	B_span 2656 2658	Wu
+T73	E_span 2716 2727	translation
+T74	B_span 2785 2796	interlingua
+T75	E_span 2854 2858	2010
+T76	B_span 3145 3151	common
+T77	E_span 3337 3341	2015
+T78	B_span 3364 3370	Andrew
+T79	E_span 3447 3452	views
+T80	B_span 3461 3468	Chandar
+T81	E_span 3569 3577	learning
+T82	B_span 3582 3591	Rajendran
+T83	E_span 3687 3695	learning
+T84	B_span 3703 3707	From
+T85	E_span 3944 3952	language

@@ -1,0 +1,14 @@
+[BOS] Automatic extraction of parallel sentences has a long history (Varga et al., 2005) , and usually statistical methods and dictionaries are used.
+[BOS] By contrast, our data collection solely relies on the XML structure, because the original data have been well structured and aligned.
+[BOS] Recently, collecting training corpora is the most important in training NLP models, and thus it is recommended to maintain well-aligned documents and structures when building multilingual online services.
+[BOS] That will significantly contribute to the research of language technologies.
+[BOS] We followed the syntax-based NMT models (Eriguchi et al., 2016 (Eriguchi et al., , 2017 Aharoni and Goldberg, 2017) to handle the XML structures.
+[BOS] One significant difference between the syntax-based NMT and our task is that we need to output sourceconditioned structures that are able to be parsed as XML, whereas the syntax-based NMT models do not always need to follow formal rules for their output structures.
+[BOS] In that sense, it would be interesting to relate our task to source code generation (Oda et al., 2015) in future work.
+
+[BOS] Our dataset has significant potential to be further expanded.
+[BOS] Following the context-sensitive translation (Bawden et al., 2018; Mller et al., 2018; Zhang et al., 2018; Miculicich et al., 2018) , our dataset includes translations of multiple sentences.
+[BOS] However, the translatable XML tags are separated, so the page-level global information is missing.
+[BOS] One promising direction is thus to create page-level translation examples.
+[BOS] Finally, considering the recent focus on multilingual NMT models (Johnson et al., 2017) , multilingually aligning the text will enrich our dataset.
+

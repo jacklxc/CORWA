@@ -1,0 +1,42 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 112 117	[BOS]
+T3	Transition 231 236	[BOS]
+T4	Multi_summ 399 404	[BOS]
+T5	Multi_summ 603 608	[BOS]
+T6	Multi_summ 744 749	[BOS]
+T7	Transition 893 898	[BOS]
+T8	Narrative_cite 1104 1109	[BOS]
+T9	Transition 1357 1362	[BOS]
+T10	Single_summ 1461 1466	[BOS]
+T11	Single_summ 1618 1623	[BOS]
+T12	Single_summ 1772 1777	[BOS]
+T13	Transition 1906 1911	[BOS]
+T14	Transition 2129 2134	[BOS]
+T15	Transition 2207 2212	[BOS]
+T16	Transition 2336 2341	[BOS]
+T17	Reference 157 179	(Manning et al., 2014)
+T18	Reference 187 206	(Bird et al., 2009)
+T19	Dominant 410 435	(Cunningham et al., 2002)
+T20	Dominant 445 471	(Ferrucci and Lally, 2004)
+T21	Reference 1177 1202	(Pedregosa et al., 2011 )
+T22	Reference 1221 1250	Theano Development Team, 2016
+T24	Reference 1266 1286	(Abadi et al., 2015)
+T25	Dominant 1523 1545	(Gardner et al., 2017)
+T26	Pronoun 241 246	these
+T27	Pronoun 899 901	It
+T28	Pronoun 1385 1389	they
+T29	Pronoun 1624 1626	It
+T30	B_span 149 156	CORENLP
+T31	E_span 174 178	2014
+T32	B_span 182 186	NLTK
+T33	E_span 201 205	2009
+T34	B_span 405 409	GATE
+T35	E_span 883 891	language
+T36	B_span 1164 1170	SCIKIT
+T37	E_span 1196 1200	2011
+T23	B_span 1204 1211	PYTORCH
+T38	E_span 1246 1250	2016
+T39	B_span 1255 1261	TENSOR
+T40	E_span 1281 1285	2015
+T41	B_span 1467 1470	The
+T42	E_span 1894 1902	optional

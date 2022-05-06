@@ -1,0 +1,22 @@
+[BOS] In this section, we briefly explain several related studies from two aspects: headline generation task and CQA data.
+[BOS] As discussed below, our work is the first attempt to address an extractive headline generation task for a CQA service based on learning to rank the substrings of a question.
+
+[BOS] After Rush et al. (2015) proposed a neural headline generation model, there have been many studies on the same headline generation task (Takase et al., 2016; Chopra et al., 2016; Kiyono et al., 2017; Ayana et al., 2017; Raffel et al., 2017) .
+[BOS] However, all of them are abstractive methods that can yield erroneous output, and the training for them requires a lot of paired data, i.e., news articles and headlines.
+[BOS] There have also been several classical studies based on nonneural approaches to headline generation (Woodsend et al., 2010; Alfonseca et al., 2013; Colmenares et al., 2015) , but they basically addressed sentence compression after extracting important linguistic units such as phrases.
+[BOS] In other words, their methods can still yield erroneous output, although they would be more controllable than neural models.
+[BOS] One exception is the work of Alotaiby (2011) , where fixed-sized substrings were considered for headline generation.
+[BOS] Although that approach is similar to ours, Alotaiby only considered an unsupervised method based on similarity to the original text (almost the same as SimTfidf in Section 5.2), in contrast to our proposal based on learning to rank.
+[BOS] This implies that Alotaiby's method will also not perform well for our task, as shown in Section 5.4.
+[BOS] There have been several studies on extractive summarization (Kobayashi et al., 2015; Yogatama et al., 2015) based on sentence embeddings, but they were basically developed for extracting multiple sentences, which means that these methods are almost the same as SimEmb in Section 5.2 for our purpose, i.e., extraction of the best candidate.
+[BOS] This also implies that they will not be suitable for our task.
+[BOS] Furthermore, recent sophisticated neural models for extractive summarization (Cheng and Lapata, 2016; Nallapati et al., 2017) basically require large-scale paired data (e.g., article-headline) to automatically label candidates, as manual annotation is very costly.
+[BOS] However, such paired data do not always exist for real applications, as in our task described in Section 1.
+
+[BOS] There have been many studies using CQA data, but most of them are different from our task, i.e., dealing with answering questions (Surdeanu et al., 2008; Celikyilmaz et al., 2009; Bhaskar, 2013; Nakov et al., 2017) , retrieving similar questions (Lei et al., 2016; Romeo et al., 2016; Nakov et al., 2017) , and generating questions (Heilman and Smith, 2010) .
+[BOS] Tamura et al. (2005) focused on extracting a core sentence and identifying the question type as classification tasks for answering multiple-sentence questions.
+[BOS] Although their method is useful to retrieve important information, we cannot directly use it since our task requires shorter expressions for headlines than sentences.
+[BOS] In addition, they used a support vector machine as a classifier, which is almost the same as SVM in Section 5.2, and it is not expected to be suitable for our task, as shown in Section 5.4.
+[BOS] The work of Ishigaki et al. (2017) is the most related one in that they summarized lengthy questions by using both abstractive and extractive approaches.
+[BOS] Their work is promising because our task is regarded as the construction of short summaries, but the training of their models requires a lot of paired data consisting of questions and their headlines, which means that their method cannot be used to our task.
+

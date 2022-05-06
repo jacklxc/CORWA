@@ -1,0 +1,46 @@
+[BOS] Our work is closely related to the recent body of work on text attribute transfer with unaligned data, where the key challenge to disentangle attribute and content in an unsupervised way.
+[BOS] Most existing work (Shen et al., 2017; Fu et al., 2018; Melnyk et al., 2017) uses adversarial training to separate attribute and content: the content encoder aims to fool the attribute discriminator by removing attribute information from the content embedding.
+[BOS] However, we find that empirically it is often easy to fool the discriminator without ac- Figure 3: Trade-off curves between matching the target attribute (measured by classifier scores) and preserving the content (measured by BLEU).
+[BOS] Bigger points on the curve correspond to settings used for both training and our official evaluation.
+
+[BOS] tually removing the attribute information.
+[BOS] Therefore, we explicitly separate attribute and content by taking advantage of the prior knowledge that the attribute is localized to parts of the sentence.
+[BOS] To address the problem of unaligned data, Hu et al. (2017) relies on an attribute classifier to guide the generator to produce sentences with a desired attribute (e.g. sentiment, tense) in the Variational Autoencoder (VAE) framework.
+[BOS] Similarly, used a regularized autoencoder in the adversarial training framework; however, they also find that these models require extensive hyperparameter tuning and the content tends to be changed during the transfer.
+[BOS] Shen et al. (2017) used a discriminator to align target sentences and sentences transfered to the target domain from the source domain.
+[BOS] More recently, unsupervised machine translation models (Artetxe et al., 2017; Lample et al., 2017) used a cycle loss similar to Jun-Yan et al. (2017) to ensure that the content is preserved during the transformation.
+[BOS] These methods often rely on bilinguial word vectors to provide word-for-word translations, which are then finetune by back-translation.
+[BOS] Thus they can be used to further improve our results.
+
+[BOS] Our method of detecting attribute markers is reminiscent of Naive Bayes, which is a strong baseline for tasks like sentiment classification (Wang and Manning, 2012) .
+[BOS] Deleting these attribute markers can be viewed as attacking a Naive Bayes classifier by deleting the most informative features (Globerson and Roweis, 2006) , similarly to how adversarial methods are trained to fool an attribute classifier.
+[BOS] One difference is that our classifier is fixed, not jointly trained with the model.
+
+[BOS] To conclude, we have described a simple method for text attribute transfer that outperforms previous models based on adversarial training.
+[BOS] The main leverage comes from the inductive bias that attributes are usually manifested in localized discriminative phrases.
+[BOS] While many prior works on linguistic style analysis confirm our observation that attributes often manifest in idiosyncratic phrases (Recasens et al., 2013; Schwartz et al., 2017; Newman et al., 2003) , we recognize the fact that in some problems (e.g., Pavlick and Tetreault (2017) ), content and attribute cannot be so cleanly separated along phrase boundaries.
+[BOS] Looking forward, a fruitful direction is to develop a notion of attributes more general than n-grams, but with more inductive bias than arbitrary latent vectors.
+
+[BOS] Reproducibility.
+[BOS] All code, data, and experiments for this paper are available on the CodaLab platform at https://worksheets.
+[BOS] codalab.org/worksheets/ 0xe3eb416773ed4883bb737662b31b4948/.
+[BOS] From factual to humorous (CAPTIONS) SOURCE a black and white dog is running through shallow water .
+[BOS] CROSSALIGNED two dogs are playing on a field to win the water .
+[BOS] STYLEEMBEDDING a black and white dog is running through shallow water .
+[BOS] MULTIDECODER a black and white dog is running through grassy water .
+[BOS] TEMPLATEBASED a black and white dog is running through shallow water looking for .
+[BOS] RETRIEVEONLY a black and white dog is slowly running through a snowy field .
+[BOS] DELETEANDRETRIEVE a black and white dog is running through shallow water to search for bones .
+[BOS] DELETEONLY a black and white dog is running through shallow water like a fish .
+[BOS] From positive to negative (AMAZON) SOURCE i would definitely recommend this for a cute case .
+[BOS] CROSSALIGNED i would not recommend this for a long time .
+[BOS] STYLEEMBEDDING i would definitely recommend this for a cute case .
+[BOS] MULTIDECODER i would definitely recommend this for a bra does it .
+[BOS] TEMPLATEBASED skip this one for a cute case .
+[BOS] RETRIEVEONLY cute while it lasted .
+[BOS] .
+[BOS] .
+[BOS] so if you want to have a NUM night stand case , this is your case .
+[BOS] DELETEONLY i would not recommend it for a cute case .
+[BOS] DELETEANDRETRIEVE i would not recommend this for a cute case .
+

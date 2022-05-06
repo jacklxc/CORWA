@@ -1,0 +1,26 @@
+[BOS] Although there have been quite a few distinct designs for event extraction systems, most are loosely based on using patterns to detect instances of events, where the patterns consist of a predicate, event trigger, and constraints on its local syntactic context.
+[BOS] The constraints may involve specific lexical items or semantic classes.
+
+[BOS] Efforts to improve event extraction performance have focused largely on either improving the pattern-matching kernel or adding new reasonable features.
+[BOS] Most event extraction frameworks are feature-based systems.
+[BOS] Some of the featurebased systems are based on phrase or sentence level extraction.
+[BOS] Several recent studies use highlevel information to aid local event extraction systems.
+[BOS] For example, (Finkel et al., 2005) , (Maslennikov and Chua, 2007) , (Ji and Grishman, 2008) and (Patwardhan and Riloff, 2007) tried to use discourse, document, or cross-document information to improve information extraction.
+[BOS] Other research extends these approaches by introducing cross-event information to enhance the performance of multi-event-type extraction systems.
+[BOS] (Liao and Grishman, 2010) use information about other types of events to make predictions or resolve ambiguities regarding a given event.
+[BOS] (Li et al., 2013 ) implements a joint model via structured prediction with cross-event features.
+
+[BOS] There have been several efforts over the past decade to develop semi-supervised methods for learning such pattern sets.
+[BOS] One thread began with Riloff's observation that patterns occurring with substantially higher frequency in relevant documents than in irrelevant documents are likely to be good extraction patterns (Riloff, 1996) .
+[BOS] (Sudo et al., 2003) sorted relevant from irrelevant documents using a topic description and information retrieval engine.
+[BOS] (Yangarber et al., 2000; Yangarber, 2003 ) developed a bootstrapping approach, starting with some seed patterns, using these patterns to identify some relevant documents, using these documents to identify additional patterns, etc.
+[BOS] This approach was further refined in (Surdeanu et al., 2006) , which explored alternative pattern ranking strategies.
+[BOS] An alternative approach was adopted in (Stevenson and Greenwood, 2005) , which used Wordnet-based similarity to expand an initial set of event patterns.
+[BOS] (Huang and Riloff, 2012 ) developed a bootstrapping system to discover new triggers with selected roles.
+[BOS] For example, the word "sniper" is very likely to be the agent of a Die event.
+
+[BOS] There has been growing interest over the last few years in applying active learning methods to reduce the annotation burden involved in developing corpus-trained NLP modules.
+[BOS] Active learning has been applied to a variety of Information Extraction tasks, including name tagging, parsing, partial parsing, relation extraction, etc.
+[BOS] (Majidi and Crane, 2013) We have previously investigated active learning methods based on co-testing for training relation extractors for ACE relations (Fu and Grishman, 2013) .
+[BOS] We have also applied such methods for the active learning of ACE event extractors, although with a very different approach (based on the distribution of event triggers across sentences) from that proposed here (Liao and Grishman, 2011) .
+

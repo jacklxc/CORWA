@@ -1,0 +1,26 @@
+[BOS] Semi-supervised approaches to dependency parsing can be roughly categorized into two groups: those that use unannotated data and those that use automatically-parsed data.
+[BOS] Our proposed method falls in the second group.
+
+[BOS] Among the words that use unannotated data, the dominant approach is to derive either word clusters (Koo et al., 2008) or word vectors (Chen and Manning, 2014 ) based on unparsed data, and use these as additional features for a supervised parsing model.
+[BOS] While the word representations used in such methods are not specifically designed for the parsing task, they do provide useful features for parsing, and in particular the method of (Koo et al., 2008) , relying on features derived using the Brown-clustering algorithm, provides very competitive state-of-the-art results.
+[BOS] To the best of our knowledge, we are the first to show a substantial improvement over using Brown-clustering derived features without using Brown-cluster features as a component.
+
+[BOS] Among the words that use auto-parsed data, a dominant approach is self-training (McClosky et al., 2006) , in which a parser A (possibly an ensemble) is used to parse large amounts of data, and a parser B is then trained over the union of the gold data and the auto-parsed data produced by parser A.
+[BOS] In the context of dependency-parsing, successful uses of self-training require parser A to be stronger than parser B (Petrov et al., 2010) or use a selection criteria for training only on highquality parses produced by parser A (Sagae and Tsujii, 2007; Weiss et al., 2015) .
+[BOS] In contrast, our work uses the same parser (modulo the feature-set) for producing the auto-parsed data and for training the final model, and does not employ a highquality parse selection criteria when creating the auto-parsed corpus.
+[BOS] It is possible that high-quality parse selection can improve our proposed method even further.
+
+[BOS] Works that derive features from auto-parsed data include (Sagae and Gordon, 2009; Bansal et al., 2014) .
+[BOS] Such works assign a representation (either cluster or vector) for individual word in the vocabulary based on their syntactic behavior.
+[BOS] In contrast, our learned features are designed to capture interactions between words.
+[BOS] As discussed in sections (1) and (2), most similar to ours is the work of (Chen et al., 2009; Van Noord, 2007) .
+[BOS] We extend their approach to take into account not only direct word-word interactions but also the lexical surroundings in which these interactions occur.
+
+[BOS] Another recent approach that takes into account various syntactic interactions was recently introduced by , who propose to learn to embed complex features that are being used in a graph-based parser based on other features they co-occur with in auto-parsed data.
+[BOS] Similar to our approach, the embedded features are then used as additional features in a conventional graph-based model.
+[BOS] The approaches are to a large extent complementary, and could be combined.
+
+[BOS] Finally, our work adds additional features to a graph-based parser which is based on a linearmodel.
+[BOS] Recently, progress in dependency parsing has been made by introducing non-linear, neuralnetwork based models (Pei et al., 2015; Chen and Manning, 2014; Weiss et al., 2015; Dyer et al., 2015; Zhou et al., 2015) .
+[BOS] Adapting our approach to work with such models is an interesting research direction.
+

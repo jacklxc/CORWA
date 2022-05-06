@@ -1,0 +1,80 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 82 87	[BOS]
+T3	Narrative_cite 288 293	[BOS]
+T4	Multi_summ 363 368	[BOS]
+T5	Single_summ 549 554	[BOS]
+T6	Transition 675 680	[BOS]
+T7	Single_summ 832 837	[BOS]
+T8	Single_summ 1153 1158	[BOS]
+T9	Reflection 1359 1364	[BOS]
+T10	Reflection 1431 1436	[BOS]
+T11	Narrative_cite 1607 1612	[BOS]
+T12	Narrative_cite 1775 1780	[BOS]
+T13	Single_summ 1899 1904	[BOS]
+T14	Single_summ 2042 2047	[BOS]
+T15	Transition 2209 2214	[BOS]
+T16	Reflection 2432 2437	[BOS]
+T17	Single_summ 2506 2511	[BOS]
+T18	Single_summ 2671 2676	[BOS]
+T19	Reflection 2826 2831	[BOS]
+T20	Transition 2906 2911	[BOS]
+T21	Single_summ 3076 3081	[BOS]
+T22	Single_summ 3190 3195	[BOS]
+T23	Single_summ 3325 3330	[BOS]
+T24	Reference 180 197	(Luo et al., 2004
+T25	Reference 199 217	Yang et al., 2008)
+T26	Reference 237 263	(Denis and Baldridge, 2008
+T27	Reference 265 285	Rahman and Ng, 2009)
+T28	Reference 351 360	Ng (2010)
+T29	Dominant 399 413	Klenner (2007)
+T30	Dominant 418 443	Finkel and Manning (2008)
+T31	Dominant 555 574	Chang et al. (2011)
+T32	Dominant 918 946	(McCallum and Wellner, 2005)
+T33	Dominant 1159 1185	Finley and Joachims (2005)
+T34	Reference 1704 1728	(Poon and Domingos, 2009
+T35	Reference 1730 1752	Yoshikawa et al., 2009
+T36	Reference 1754 1772	Che and Liu, 2010)
+T37	Reference 1872 1896	Poon and Domingos (2008)
+T38	Dominant 1905 1929	Poon and Domingos (2008)
+T39	Dominant 2097 2121	Poon and Domingos (2008)
+T40	Dominant 2512 2531	Huang et al. (2009)
+T41	Dominant 3082 3103	Daum and Marcu (2005)
+T42	Dominant 3196 3216	Rahman and Ng (2009)
+T43	Dominant 3331 3357	Denis and Baldridge (2007)
+T44	Pronoun 688 693	these
+T45	Pronoun 1082 1087	these
+T46	Pronoun 1116 1118	it
+T47	Pronoun 2325 2330	these
+T48	Pronoun 2406 2411	their
+T49	Pronoun 2448 2450	it
+T50	Pronoun 2686 2690	they
+T51	Pronoun 2744 2748	they
+T52	Pronoun 2839 2844	their
+T53	B_span 159 165	entity
+T54	E_span 212 216	2008
+T55	B_span 222 229	ranking
+T56	E_span 280 284	2009
+T57	B_span 294 304	Interested
+T58	E_span 355 359	2010
+T59	B_span 369 374	Under
+T60	E_span 540 547	results
+T61	B_span 555 560	Chang
+T62	E_span 665 673	clusters
+T63	B_span 838 840	To
+T64	E_span 1145 1151	models
+T65	B_span 1159 1165	Finley
+T66	E_span 1347 1357	resolution
+T67	B_span 1667 1674	natural
+T68	E_span 1767 1771	2010
+T69	B_span 1833 1845	unsupervised
+T70	E_span 1891 1895	2008
+T71	B_span 1905 1909	Poon
+T72	E_span 2196 2207	nominatives
+T73	B_span 2512 2517	Huang
+T74	E_span 2812 2824	sequentially
+T75	B_span 3082 3086	Daum
+T76	E_span 3179 3188	framework
+T77	B_span 3196 3202	Rahman
+T78	E_span 3313 3323	resolution
+T79	B_span 3331 3336	Denis
+T80	E_span 3494 3498	task

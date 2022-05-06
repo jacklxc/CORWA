@@ -1,0 +1,59 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 126 131	[BOS]
+T3	Single_summ 260 265	[BOS]
+T4	Multi_summ 586 591	[BOS]
+T5	Narrative_cite 837 842	[BOS]
+T6	Narrative_cite 1006 1011	[BOS]
+T7	Narrative_cite 1190 1195	[BOS]
+T8	Transition 1514 1519	[BOS]
+T9	Transition 1605 1610	[BOS]
+T10	Narrative_cite 1760 1765	[BOS]
+T11	Reflection 1943 1948	[BOS]
+T12	Dominant 53 64	Dras (1997)
+T13	Dominant 132 155	Jing and McKeown (2000)
+T14	Reference 245 257	(Jing, 2000)
+T15	Dominant 284 307	Knight and Marcu (2000)
+T16	Reference 435 458	(Knight and Marcu, 2002
+T17	Reference 460 480	Riezler et al., 2003
+T18	Reference 482 507	Turner and Charniak, 2005
+T19	Reference 509 523	McDonald, 2006
+T20	Reference 525 542	Unno et al., 2006
+T21	Reference 544 568	Galley and McKeown, 2007
+T22	Reference 570 583	Nomoto, 2007)
+T23	Dominant 607 622	McDonald (2006)
+T26	Dominant 755 780	Clarke and Lapata (2006a)
+T27	Reference 861 888	(Filippova and Strube, 2008
+T28	Reference 890 925	Galanis and Androutsopoulos, 2010 )
+T29	Reference 1114 1136	(Cohn and Lapata, 2009
+T30	Reference 1138 1163	Ganitkevitch et al., 2011
+T31	Reference 1165 1187	Napoles et al., 2011a)
+T32	Reference 1353 1374	(Daum and Marcu, 2002
+T33	Reference 1376 1399	Clarke and Lapata, 2007
+T34	Reference 1401 1430	Berg-Kirkpatrick et al., 2011
+T35	Reference 1432 1458	Woodsend and Lapata, 2012)
+T36	Reference 1916 1940	(Rush and Collins, 2011)
+T37	B_span 6 8	An
+T38	E_span 113 124	constraints
+T39	B_span 132 136	Jing
+T40	E_span 252 256	2000
+T41	E_span 252 256	2000
+T42	B_span 226 234	sentence
+T43	B_span 266 269	The
+T44	E_span 578 582	2007
+T45	E_span 578 582	2007
+T46	B_span 401 411	supervised
+T24	Reference 635 658	Knight & Marcu's (2002)
+T25	B_span 592 594	In
+T47	E_span 740 749	sequences
+T48	B_span 635 641	Knight
+T49	E_span 653 657	2002
+T50	B_span 755 761	Clarke
+T51	E_span 827 835	trigrams
+T52	B_span 843 848	Other
+T53	E_span 919 923	2010
+T54	B_span 1100 1104	word
+T55	E_span 1181 1186	2011a
+T56	B_span 1310 1317	address
+T57	E_span 1453 1457	2012
+T58	B_span 1872 1881	syntactic
+T59	E_span 1935 1939	2011

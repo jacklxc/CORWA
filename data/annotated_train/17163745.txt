@@ -1,0 +1,21 @@
+[BOS] For modeling dialogue.
+[BOS] Previous works mainly focused on rule-based or learning-based approaches (Litman et al., 2000; Schatzmann et al., 2006; Williams and Young, 2007) .
+[BOS] These methods require efforts on designing rules or labeling data for training, which suffer the coverage issue.
+
+[BOS] For short text conversation.
+[BOS] With the fast development of social media, such as microblog and CQA services, large scale conversation data and data-driven approaches become possible.
+[BOS] Ritter et al. (2011) proposed an SMT based method, which treats response generation as a machine translation task.
+[BOS] Shang et al. (2015) presented an RNN based method, which is trained based on a large number of single round conversation data.
+[BOS] Grammatical and fluency problems are the biggest issue for such generation-based approaches.
+[BOS] Retrievalbased methods selects the most suitable response to the current utterance from the large number of Q-R pairs.
+[BOS] Ji et al. (2014) built a conversation system using learning to rank and semantic matching techniques.
+[BOS] However, collecting enough Q-R pairs to build chatbots is often intractable for many domains.
+[BOS] Compared to previous methods, DocChat learns internal relationships between utterances and responses based on statistical models at different levels of granularity, and relax the dependency on Q-R pairs as response sources.
+[BOS] These make DocChat as a general response generation solution to chatbots, with high adaptation capability.
+
+[BOS] For answer sentence selection.
+[BOS] Prior work in measuring the relevance between question and answer is mainly in word-level and syntactic-level (Wang and Manning, 2010; Heilman and Smith, 2010; Yih et al., 2013) .
+[BOS] Learning representation by neural network architecture (Yu et al., 2014; Wang and Nyberg, 2015; Severyn and Moschitti, 2015) has become a hot research topic to go beyond word-level or phrase-level methods.
+[BOS] Compared to previous works we find that, (i) Large scale existing resources with noise have more advantages as training data.
+[BOS] (ii) Knowledge-based semantic models can play important roles.
+

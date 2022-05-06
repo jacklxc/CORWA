@@ -1,0 +1,45 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 164 169	[BOS]
+T3	Other 345 350	[BOS]
+T4	Other 520 525	[BOS]
+T5	Other 647 652	[BOS]
+T6	Other 718 723	[BOS]
+T7	Other 786 791	[BOS]
+T8	Other 843 848	[BOS]
+T9	Narrative_cite 920 925	[BOS]
+T10	Transition 945 950	[BOS]
+T11	Single_summ 977 982	[BOS]
+T12	Narrative_cite 1255 1260	[BOS]
+T13	Transition 1436 1441	[BOS]
+T14	Reflection 1632 1637	[BOS]
+T15	Reflection 1701 1706	[BOS]
+T16	Reflection 1936 1941	[BOS]
+T17	Dominant 29 35	(2016)
+T18	Reference 926 941	(Roberts, 2016)
+T19	Dominant 1002 1019	Zhu et al. (2018)
+T20	Reference 1230 1252	(Johnson et al., 2016)
+T21	Reference 1416 1433	(Si et al., 2019)
+T22	Reference 1781 1802	(Yin and Schtze, 2016
+T23	Reference 1804 1824	Muromgi et al., 2017
+T24	Reference 1826 1849	Bollegala et al., 2018)
+T25	Reference 1913 1933	(Kiela et al., 2018)
+T26	B_span 13 17	work
+T28	B_span 926 927	(
+T29	E_span 936 940	2016
+T30	B_span 1002 1005	Zhu
+T31	E_span 1251 1252	)
+T32	B_span 1392 1397	large
+T33	E_span 1432 1433	)
+T34	B_span 1741 1747	static
+T35	E_span 1848 1849	)
+T36	B_span 1859 1866	dynamic
+T37	E_span 1932 1933	)
+T38	Pronoun 849 853	This
+T39	Pronoun 1276 1281	these
+T40	Pronoun 1487 1492	these
+T41	Pronoun 1651 1655	this
+T42	Pronoun 1710 1714	this
+T43	Pronoun 1945 1949	this
+T44	E_span 342 343	3
+T27	B_span 1220 1225	MIMIC
+T45	E_span 1247 1251	2016

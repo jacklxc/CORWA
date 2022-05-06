@@ -1,0 +1,47 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 77 82	[BOS]
+T3	Narrative_cite 244 249	[BOS]
+T4	Reflection 476 481	[BOS]
+T5	Multi_summ 558 563	[BOS]
+T6	Transition 697 702	[BOS]
+T7	Single_summ 836 841	[BOS]
+T8	Narrative_cite 923 928	[BOS]
+T9	Single_summ 1144 1149	[BOS]
+T10	Single_summ 1266 1271	[BOS]
+T11	Reflection 1353 1358	[BOS]
+T12	B_span 314 322	emotions
+T13	E_span 337 341	2018
+T14	Reference 324 341	Zhou et al., 2018
+T15	B_span 345 352	persona
+T16	E_span 365 370	2016b
+T17	Reference 354 370	Li et al., 2016b
+T18	B_span 374 380	vision
+T19	E_span 413 417	2018
+T20	Reference 382 400	Huber et al., 2018
+T21	Reference 402 417	Wu et al., 2018
+T22	B_span 423 431	thinking
+T23	E_span 468 472	2017
+T24	Reference 456 472	Zhu et al., 2017
+T25	B_span 564 567	But
+T26	E_span 687 694	account
+T27	Dominant 590 607	Zhao et al., 2017
+T28	Dominant 609 630	Serban et al., 2017a)
+T29	Dominant 842 859	Li et al. (2016a)
+T30	B_span 842 844	Li
+T31	E_span 912 921	objective
+T32	B_span 992 995	max
+T33	E_span 1031 1036	2016a
+T34	Reference 1020 1036	Li et al., 2016a
+T35	B_span 1040 1053	reinforcement
+T36	E_span 1074 1079	2016c
+T37	Reference 1063 1079	Li et al., 2016c
+T38	B_span 1085 1096	adversarial
+T39	E_span 1135 1140	2017a
+T40	Reference 1107 1122	Xu et al., 2017
+T41	Reference 1124 1140	Li et al., 2017a
+T42	Dominant 1150 1171	Serban et al. (2017b)
+T43	B_span 1150 1156	Serban
+T44	E_span 1255 1264	framework
+T45	Dominant 1272 1290	Zhao et al. (2017)
+T46	B_span 1272 1276	Zhao
+T47	E_span 1347 1351	CVAE

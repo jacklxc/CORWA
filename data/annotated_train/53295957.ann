@@ -1,0 +1,99 @@
+T1	Reflection 0 5	[BOS]
+T2	Transition 88 93	[BOS]
+T3	Transition 128 133	[BOS]
+T4	Narrative_cite 216 221	[BOS]
+T5	Transition 460 465	[BOS]
+T6	Narrative_cite 588 593	[BOS]
+T7	Reflection 1057 1062	[BOS]
+T8	Reflection 1231 1236	[BOS]
+T9	Transition 1486 1491	[BOS]
+T10	Transition 1516 1521	[BOS]
+T11	Narrative_cite 1596 1601	[BOS]
+T12	Narrative_cite 1851 1856	[BOS]
+T13	Single_summ 1888 1893	[BOS]
+T14	Single_summ 2016 2021	[BOS]
+T15	Reflection 2142 2147	[BOS]
+T16	Single_summ 2274 2279	[BOS]
+T17	Single_summ 2492 2497	[BOS]
+T18	Single_summ 2676 2681	[BOS]
+T19	Single_summ 2795 2800	[BOS]
+T20	Reflection 2927 2932	[BOS]
+T21	Transition 3084 3089	[BOS]
+T22	Narrative_cite 3114 3119	[BOS]
+T23	Multi_summ 3257 3262	[BOS]
+T24	Single_summ 3493 3498	[BOS]
+T25	Single_summ 3599 3604	[BOS]
+T26	Single_summ 3718 3723	[BOS]
+T27	Reflection 3837 3842	[BOS]
+T28	Reference 332 350	(Rush et al., 2015
+T29	Reference 352 371	Chopra et al., 2016
+T30	Reference 373 395	Nallapati et al., 2016
+T31	Reference 397 415	Cohan et al., 2018
+T32	Reference 417 433	Hsu et al., 2018
+T33	Reference 435 457	Gehrmann et al., 2018)
+T34	Reference 667 690	(Miao and Blunsom, 2016
+T35	Reference 692 708	Li et al., 2017)
+T36	Reference 733 751	(Tan et al., 2017)
+T37	Reference 779 797	(See et al., 2017)
+T38	Reference 824 842	(Liu et al., 2018)
+T39	Reference 868 888	(Paulus et al., 2018
+T40	Reference 890 916	Pasunuru and Bansal, 2018)
+T41	Reference 946 972	(Celikyilmaz et al., 2018)
+T42	Reference 1012 1029	(Hsu et al., 2018
+T43	Reference 1031 1053	Gehrmann et al., 2018)
+T44	Reference 1657 1676	(Over et al., 2007)
+T45	Reference 1688 1710	(Napoles et al., 2012)
+T46	Reference 1727 1750	(Nallapati et al., 2016
+T47	Reference 1752 1773	Hermann et al., 2015)
+T48	Reference 1785 1806	(Grusky et al., 2018)
+T49	Reference 1816 1840	(Narayan et al., 2018a )
+T50	Reference 1857 1875	Cohan et al. (2018
+T51	Dominant 1894 1910	Hu et al. (2015)
+T52	Dominant 2316 2337	(Wang and Ling, 2016)
+T53	Reference 3220 3235	Na et al., 2017
+T54	Reference 3237 3254	Yoo et al., 2019)
+T55	Dominant 3263 3283	Weston et al. (2014)
+T56	Reference 3424 3448	(Sukhbaatar et al., 2015
+T57	Reference 3450 3468	Kumar et al., 2016
+T58	Reference 3470 3490	Miller et al., 2016)
+T59	Dominant 3499 3517	Park et al. (2017)
+T60	Dominant 3645 3664	Singh et al. (2017)
+T61	Pronoun 34 36	it
+T62	Pronoun 251 253	it
+T63	Pronoun 2369 2373	they
+T64	Pronoun 2701 2705	this
+T65	Pronoun 3733 3737	they
+T66	B_span 304 313	attention
+T67	E_span 452 456	2018
+T68	B_span 635 646	variational
+T69	E_span 707 708	)
+T70	B_span 711 716	graph
+T71	E_span 746 750	2017
+T72	B_span 754 761	pointer
+T73	E_span 792 796	2017
+T74	B_span 800 804	self
+T75	E_span 837 841	2018
+T76	B_span 845 858	reinforcement
+T77	E_span 911 915	2018
+T78	B_span 919 929	contextual
+T79	E_span 967 971	2018
+T80	B_span 977 988	integration
+T81	E_span 1048 1052	2018
+T82	B_span 1602 1606	News
+T83	E_span 1833 1838	2018a
+T84	B_span 1857 1862	Cohan
+T85	E_span 1871 1875	2018
+T86	E_span 2128 2140	institutions
+T87	B_span 1894 1896	Hu
+T88	B_span 2280 2286	Rotten
+T90	E_span 2919 2925	formal
+T89	B_span 3132 3139	network
+T91	E_span 3249 3253	2019
+T92	B_span 3263 3269	Weston
+T93	E_span 3356 3357	)
+T94	B_span 3376 3382	memory
+T96	E_span 3485 3489	2016
+T95	B_span 3499 3503	Park
+T97	E_span 3590 3597	tioning
+T98	B_span 3645 3650	Singh
+T99	E_span 3829 3835	memory

@@ -1,0 +1,10 @@
+[BOS] Based on the recent advances of neural networkbased approaches (Kgebck et al., 2014; Cao et al., 2015; Yin and Pei, 2015; Cao et al., 2016) , an attentional encoder-decoder for extractive single-document summarization and its application to the news corpus was proposed (Cheng and Lapata, 2016; Nallapati et al., 2017) .
+[BOS] Although we employ an encoder-decoder architecture in the predictor component of our summarization framework, the framework can be applied to all models of sentence extraction using distributed representation as inputs, including recently advanced other attention-based encoder-decoder networks (Wang et al., 2016; Yang et al., 2016 ) (Cheng and Lapata, 2016; Nallapati et al., 2017) argue that a stumbling block to applying neural network models to extractive summarization is the lack of training data and documents with sentences labeled as summary-worthy.
+[BOS] To overcome this, several studies have used artificial reference summaries (Sun et al., 2005; Svore et al., 2007; Woodsend and Lapata, 2010; Cheng and Lapata, 2016) compiled by collecting documents and corresponding highlights from other sources.
+[BOS] However, preparing such a parallel corpus often requires domain-specific or expert knowledge depending on the domain (Filippova et al., 2009; Parveen et al., 2016) .
+[BOS] Our summarization uses document-associated information as pseudo rough reference summaries, which enables us to learn feature representations for both document classification and sentence identification with smaller amounts of actual reference summaries.
+
+[BOS] Neural networks based multi-task learning has recently proven effective in many NLP problems (Liu et al., 2015 (Liu et al., , 2016 Firat et al., 2016; .
+[BOS] Aiming at single document summarization with relatively small amounts of reference summaries, we demonstrated document summarization in the framework of multi-task learning with curriculum learning for sentence extraction and document classification.
+[BOS] This enabled us to obtain better feature representations to extract sentences from documents.
+

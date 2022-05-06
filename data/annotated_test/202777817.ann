@@ -1,0 +1,87 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 196 201	[BOS]
+T3	Narrative_cite 449 454	[BOS]
+T4	Reflection 700 705	[BOS]
+T5	Reflection 841 846	[BOS]
+T6	Reflection 909 914	[BOS]
+T7	Narrative_cite 1028 1033	[BOS]
+T8	Transition 1202 1207	[BOS]
+T9	Single_summ 1393 1398	[BOS]
+T10	Single_summ 1612 1617	[BOS]
+T11	Narrative_cite 1726 1731	[BOS]
+T12	Reflection 1958 1963	[BOS]
+T13	Narrative_cite 2037 2042	[BOS]
+T14	Narrative_cite 2328 2333	[BOS]
+T15	Reflection 2648 2653	[BOS]
+T16	Narrative_cite 2770 2775	[BOS]
+T17	Reflection 2989 2994	[BOS]
+T18	Reference 111 131	(Shang et al., 2015)
+T19	Reference 274 291	Zhao et al., 2017
+T20	Reference 293 311	Xing et al., 2017)
+T21	Reference 428 445	(Li et al., 2016a
+T22	Reference 534 552	(Li et al., , 2017
+T23	Reference 586 603	(Liu et al., 2016
+T24	Reference 605 622	Tao et al., 2018)
+T25	Reference 1077 1090	(Becker, 2002
+T26	Reference 1092 1114	Foster and White, 2004
+T27	Reference 1116 1139	Gatt and Reiter, 2009 )
+T28	Dominant 1416 1434	Duan et al. (2017)
+T29	Dominant 1618 1639	Wiseman et al. (2018)
+T30	Reference 1879 1896	(Guu et al., 2018
+T31	Reference 1898 1917	Pandey et al., 2018
+T32	Reference 1919 1935	Cao et al., 2018
+T33	Reference 1937 1955	Peng et al., 2019)
+T34	Reference 2067 2089	(Wiseman et al., 2018)
+T35	Reference 2424 2444	(Gu et al., 2018b,a)
+T36	Reference 2460 2478	Kann et al., 2018)
+T37	Reference 2496 2516	(Jiang et al., 2018)
+T38	Reference 2548 2567	(Tske et al., 2014)
+T39	Reference 2600 2622	(Tran and Nguyen, 2018
+T40	Reference 2624 2640	Mi et al., 2019)
+T41	Reference 2918 2940	(Gulcehre et al., 2015
+T42	Reference 2942 2963	Sennrich et al., 2015
+T43	Reference 2965 2986	Zhang and Zong, 2016)
+T44	Reference 3087 3109	(Zhang and Zong, 2016)
+T45	Reference 3129 3152	(Sennrich et al., 2015)
+T46	Pronoun 709 713	this
+T47	Pronoun 934 938	this
+T48	Pronoun 1405 1409	this
+T49	Pronoun 1967 1971	this
+T50	Pronoun 2657 2661	this
+T51	B_span 69 77	sequence
+T52	E_span 126 130	2015
+T53	B_span 256 263	generic
+T54	E_span 306 310	2017
+T55	B_span 317 322	model
+T56	E_span 440 445	2016a
+T57	Reference 517 533	Li et al., 2016c
+T58	B_span 499 509	generation
+T59	E_span 548 552	2017
+T60	B_span 559 562	how
+T61	E_span 617 621	2018
+T62	B_span 1034 1045	Traditional
+T63	E_span 1133 1137	2009
+T64	B_span 1416 1420	Duan
+T65	E_span 1600 1610	generation
+T66	B_span 1618 1625	Wiseman
+T67	E_span 1714 1724	generation
+T68	B_span 1769 1772	raw
+T69	E_span 1950 1954	2019
+T70	B_span 2043 2046	Our
+T71	E_span 2084 2088	2018
+T72	B_span 2404 2411	machine
+T73	E_span 2436 2444	2018b,a)
+T74	B_span 2447 2450	pos
+T75	E_span 2473 2477	2018
+T76	B_span 2481 2485	word
+T77	E_span 2511 2515	2018
+T78	B_span 2519 2528	automatic
+T79	E_span 2562 2566	2014
+T80	B_span 2570 2582	taskoriented
+T81	E_span 2635 2639	2019
+T82	B_span 2863 2866	low
+T83	E_span 2981 2985	2016
+T84	B_span 3068 3077	multitask
+T85	E_span 3104 3108	2016
+T86	B_span 3113 3128	backtranslation
+T87	E_span 3147 3151	2015

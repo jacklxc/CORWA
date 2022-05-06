@@ -1,0 +1,20 @@
+[BOS] A number of workshops that dealt with offensive content, hate speech and aggression were organized in the past several years, which points to the increasing interest in the field.
+[BOS] Due to important contributions of publications from TA-COS 1 , Abusive Language Online 2 , and TRAC 3 , hate speech detection became better understood and established as a hard problem.
+[BOS] The report on shared task from the TRAC workshop (Kumar et al., 2018) shows that of 45 systems trying to identify hateful content in English and Hindi Facebook posts, the best-performing ones achieved weighted macro-averaged F-scores of just over 0.6.
+[BOS] Schmidt and Wiegand (2017) note in their survey that supervised learning approaches are predominantly used for hate speech detection.
+[BOS] Among those, the most widespread are support vector machines (SVM) and recurrent neural networks, which are emerging in recent times (Pavlopoulos et al., 2017) .
+[BOS] Zhang et al. (2018) devised a neural network architecture combining convolutional and gated recurrent layers for detecting hate speech, achieving state-of-the-art performance on several Twitter datasets.
+[BOS] used SVMs with different surface-level features, such as surface n-grams, word skip-grams and word representation n-grams induced with Brown clustering.
+[BOS] They concluded that surface n-grams perform well for hate speech detection but also noted that these features might not be enough to discriminate between profanity and hate speech with high accuracy and that deeper linguistic features might be required for this scenario.
+
+[BOS] A common difficulty that arises with supervised approaches for hate speech and aggression detection is a skewed class distribution in datasets.
+[BOS] note that in the dataset used in the study only 5% of tweets were labeled as hate speech.
+[BOS] To counteract this, datasets are often resampled with different techniques to improve on the predictive power of the systems over all classes.
+[BOS] Aroyehun and Gelbukh (2018) increased the size of the used dataset by translating examples to four different languages, namely French, Spanish, German, and Hindi, and translating them back to English.
+[BOS] Their system placed first in the Aggression Detection in Social Media Shared Task of the aforementioned TRAC workshop.
+
+[BOS] A recently emerging technique in the field of natural language processing (NLP) is the employment of transfer learning (Howard and Ruder, 2018; Devlin et al., 2018) .
+[BOS] The main idea of these approaches is to pretrain a neural language model on large general corpora and then fine-tune this model for a task at hand by adding an additional task-specific layer on top of the language model and train it for a couple of additional epochs.
+[BOS] A recent model called Bidirectional encoder representations from transformers (BERT) (Devlin et al., 2018) was pretrained on the concatenation of BooksCorpus (800M words) (Zhu et al., 2015) and English Wikipedia (2,500M words) and then successfully applied to a number of NLP tasks without changing its core architecture and with relatively inexpensive fine-tuning for each specific task.
+[BOS] According to our knowledge, it has not been applied on a hate speech detection task yet, however it reached state-of-the-art results in the question answering task on the SQuAD dataset (Rajpurkar et al., 2016) as well as beat the baseline models in several language inference tasks.
+

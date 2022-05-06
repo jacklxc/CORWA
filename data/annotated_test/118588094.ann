@@ -1,0 +1,50 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 128 133	[BOS]
+T3	Single_summ 364 369	[BOS]
+T4	Single_summ 678 683	[BOS]
+T5	Transition 819 824	[BOS]
+T6	Multi_summ 975 980	[BOS]
+T7	Narrative_cite 1284 1289	[BOS]
+T8	Multi_summ 1524 1529	[BOS]
+T9	Narrative_cite 1800 1805	[BOS]
+T10	Single_summ 1935 1940	[BOS]
+T11	Single_summ 2057 2062	[BOS]
+T12	Transition 2161 2166	[BOS]
+T13	Reflection 2337 2342	[BOS]
+T14	Reflection 2457 2462	[BOS]
+T15	Dominant 137 155	Pham et al. (2015)
+T16	Reference 290 312	(Le and Mikolov, 2014)
+T17	Dominant 373 392	Soyer et al. (2014)
+T18	Dominant 984 1008	Schwenk and Douze (2017)
+T19	Reference 1119 1143	(Sutskever et al., 2014)
+T20	Reference 1409 1431	(Johnson et al., 2017)
+T21	Dominant 1543 1561	Hill et al. (2016)
+T22	Reference 1777 1797	(Kiros et al., 2015)
+T23	Reference 1880 1898	Hill et al. (2016)
+T24	Reference 1907 1931	Conneau and Kiela (2018)
+T25	Dominant 1944 1969	Aldarmaki and Diab (2016)
+T26	Pronoun 2072 2077	their
+T27	Pronoun 2145 2149	they
+T28	Pronoun 2243 2245	it
+T29	Pronoun 2400 2405	their
+T30	Pronoun 2469 2471	it
+T31	B_span 137 141	Pham
+T32	B_span 267 276	paragraph
+T33	E_span 307 311	2014
+T34	E_span 356 362	vector
+T35	E_span 809 817	sentence
+T36	B_span 373 378	Soyer
+T37	B_span 984 991	Schwenk
+T38	E_span 1276 1282	corpus
+T39	B_span 1085 1091	neural
+T40	E_span 1138 1142	2014
+T42	E_span 1426 1430	2017
+T43	B_span 1530 1533	Acc
+T44	E_span 1794 1796	15
+T45	B_span 1764 1768	Skip
+T46	E_span 1794 1796	15
+T47	B_span 1806 1813	Mono-li
+T48	E_span 1930 1931	)
+T49	B_span 1944 1953	Aldarmaki
+T50	E_span 2150 2159	discussed
+T41	B_span 1290 1296	Neural

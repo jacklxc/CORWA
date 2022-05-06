@@ -1,0 +1,62 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 295 300	[BOS]
+T3	Transition 602 607	[BOS]
+T4	Transition 737 742	[BOS]
+T5	Narrative_cite 889 894	[BOS]
+T6	Transition 1299 1304	[BOS]
+T7	Multi_summ 1419 1424	[BOS]
+T8	Single_summ 1645 1650	[BOS]
+T9	Single_summ 1812 1817	[BOS]
+T10	Single_summ 1996 2001	[BOS]
+T11	Transition 2212 2217	[BOS]
+T12	Single_summ 2482 2487	[BOS]
+T13	Other 2688 2693	[BOS]
+T14	Single_summ 2782 2787	[BOS]
+T15	Single_summ 2991 2996	[BOS]
+T16	Reflection 3395 3400	[BOS]
+T17	Dominant 53 75	Strubell et al. (2018)
+T18	Dominant 428 450	Roth and Lapata (2016)
+T19	Reference 931 952	(Pradhan et al., 2005
+T20	Reference 954 975	Surdeanu et al., 2007
+T21	Reference 977 1003	Johansson and Nugues, 2008
+T22	Reference 1005 1027	Toutanova et al., 2008
+T23	Reference 1029 1053	Punyakanok et al., 2008)
+T24	Reference 1098 1125	(Carreras and Mrquez, 2005)
+T25	Dominant 1484 1510	Sutton and McCallum (2005)
+T26	Dominant 1579 1598	Lewis et al. (2015)
+T27	Dominant 1651 1674	Collobert et al. (2011)
+T28	Dominant 2002 2026	FitzGerald et al. (2015)
+T29	Dominant 2488 2506	Zhou and Xu (2015)
+T30	Reference 2662 2685	(Lafferty et al., 2001)
+T31	Dominant 2872 2894	Strubell et al. (2018)
+T32	Dominant 3012 3029	Tan et al. (2018)
+T33	Dominant 3208 3228	Peters et al. (2018)
+T34	Reference 3356 3373	Tan et al. (2018)
+T35	B_span 39 43	LISA
+T36	E_span 70 74	2018
+T37	B_span 404 409	CoNLL
+T38	E_span 445 449	2016
+T39	B_span 895 899	Many
+T40	E_span 1048 1052	2008
+T41	B_span 1056 1067	spearheaded
+T42	E_span 1120 1124	2005
+T43	B_span 1484 1490	Sutton
+T44	E_span 1568 1573	model
+T45	B_span 1579 1584	Lewis
+T46	E_span 1636 1643	parsing
+T47	B_span 1651 1660	Collobert
+T48	E_span 1986 1994	chunking
+T49	B_span 2002 2012	FitzGerald
+T50	E_span 2206 2208	of
+T51	B_span 2488 2492	Zhou
+T52	E_span 2680 2684	2001
+T53	B_span 2624 2630	linear
+T54	E_span 2680 2684	2001
+T55	B_span 2872 2880	Strubell
+T56	E_span 2980 2989	detection
+T57	B_span 3012 3015	Tan
+T58	E_span 3154 3167	selfattention
+T59	B_span 3173 3175	on
+T61	B_span 3327 3340	outperforming
+T62	E_span 3368 3372	2018
+T60	E_span 3368 3372	2018

@@ -1,0 +1,28 @@
+[BOS] Our work focuses on inducing effective unsupervised tree structures, and meanwhile, resolving the incompatibility problem between tree structures and word alignment for tree-based translation.
+
+[BOS] Several researchers have studied unsupervised tree structure induction for different objectives.
+[BOS] Blunsom et al. (2008 Blunsom et al. ( , 2009 Blunsom et al. ( , 2010 utilized Bayesian methods to learn synchronous context free grammar (SCFG) from a parallel corpus.
+[BOS] The obtained SCFG grammar is further used in a phrase-based and hierarchical phrase-based system (Chiang, 2007) .
+[BOS] Denero and Uszkoreit (2011) adopted a parallel parsing model to induce unlabeled tree structures for syntactic pre-reordering.
+[BOS] Different from above works, we concentrate on producing effective and labeled unsupervised trees for tree-based translation models.
+[BOS] Moreover, since most of the current tree-based translation models are based on synchronous tree substitution grammar (STSG), our unsupervised trees are thus learned according to STSG, rather than SCFG.
+
+[BOS] On relieving the incompatibility problem between tree structures and word alignment for translation, previous works mainly focus on two directions:
+
+[BOS] One direction is to adapt the parse tree structure.
+[BOS] Wang et al., (2007) binarized the parse trees and adopted an EM algorithm to select the best binary tree from their parallel binarization forest.
+[BOS] Mi et al., (2008b) and Liu et al., (2009) compressed thousands of parse trees into packed forests.
+[BOS] Zhang et al. (2011a) applied a CKY binarization method on parse trees to get binary forests for forest-to-string model.
+[BOS] Burkett and Klein (2012) adopted a transformation-based method to learn a sequence of monolingual tree transformations for translation.
+[BOS] They differ from our work in that they were all based on parse trees.
+[BOS] Compared with them, we construct effective unsupervised tree structures according to the word alignment and do not need any syntactic resource.
+
+[BOS] The other direction is to integrate the alignment information into parsing.
+[BOS] Burkett and Klein (2008) and Burkett et al. (2010) made efforts to do joint parsing and alignment.
+[BOS] They utilized the bilingual Treebank to train a joint model and achieved better results on both parsing and word alignment.
+[BOS] Liu et al. (2012) re-trained the linguistic parsers bilingually based on word alignment.
+[BOS] Our work is different from theirs in that we are pursuing better unsupervised tree structures for better translation performance.
+
+[BOS] As a whole, compared with previous works, our unsupervised trees are generated fully depending on word alignment.
+[BOS] Therefore, by using our tree structures, the incompatibility problem between tree structures and word alignment can be well resolved.
+

@@ -1,0 +1,81 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 27 32	[BOS]
+T3	Reflection 174 179	[BOS]
+T4	Transition 303 308	[BOS]
+T5	Narrative_cite 418 423	[BOS]
+T6	Transition 569 574	[BOS]
+T7	Single_summ 717 722	[BOS]
+T8	Single_summ 975 980	[BOS]
+T9	Transition 1156 1161	[BOS]
+T10	Multi_summ 1201 1206	[BOS]
+T11	Single_summ 1369 1374	[BOS]
+T12	Single_summ 1600 1605	[BOS]
+T13	Single_summ 1737 1742	[BOS]
+T14	Single_summ 1873 1878	[BOS]
+T15	Single_summ 2017 2022	[BOS]
+T16	Single_summ 2215 2220	[BOS]
+T17	Single_summ 2480 2485	[BOS]
+T18	Transition 2717 2722	[BOS]
+T19	Transition 2765 2770	[BOS]
+T20	Single_summ 2954 2959	[BOS]
+T21	Single_summ 3132 3137	[BOS]
+T22	Single_summ 3266 3271	[BOS]
+T23	Single_summ 3380 3385	[BOS]
+T24	Reflection 3543 3548	[BOS]
+T25	Reference 78 97	Mintz et al. (2009)
+T26	Reference 485 507	Takamatsu et al., 2012
+T27	Reference 509 525	Min et al., 2013
+T28	Reference 527 546	Riedel et al., 2013
+T29	Reference 548 566	Koch et al., 2014)
+T30	Dominant 723 745	Hoffmann et al. (2011)
+T31	Dominant 1024 1046	Hoffmann et al. (2011)
+T32	Reference 1297 1319	Hashimoto et al., 2013
+T33	Reference 1321 1338	Zeng et al., 2014
+T34	Reference 1340 1366	Nguyen and Grishman, 2015)
+T35	Dominant 1416 1433	Zeng et al. (2015
+T36	Dominant 1743 1762	Jiang et al. (2016)
+T37	Dominant 1955 1971	Du et al. (2018)
+T38	Dominant 2081 2099	Wang et al. (2018)
+T39	Dominant 2221 2237	Ye et al. (2017)
+T40	Dominant 2525 2548	Vashishth et al. (2018)
+T41	Dominant 2960 2982	Pershina et al. (2014)
+T42	Dominant 3004 3027	(Surdeanu et al., 2012)
+T43	Dominant 3138 3158	Angeli et al. (2014)
+T44	Dominant 3272 3294	Pershina et al. (2014)
+T45	Dominant 3386 3408	Pershina et al. (2014)
+T46	Pronoun 292 296	this
+T47	Pronoun 456 460	this
+T48	Pronoun 786 790	this
+T49	Pronoun 1615 1620	their
+T50	Pronoun 1773 1777	this
+T51	Pronoun 3422 3426	this
+T52	B_span 78 83	Mintz
+T53	E_span 94 96	09
+T54	B_span 485 487	Ta
+T55	E_span 563 565	14
+T56	B_span 723 731	Hoffmann
+T57	E_span 970 973	any
+T58	B_span 1024 1032	Hoffmann
+T59	E_span 1145 1153	examples
+T60	B_span 1266 1271	model
+T61	E_span 1361 1365	2015
+T62	B_span 1416 1420	Zeng
+T63	E_span 1726 1735	sentences
+T64	B_span 1743 1748	Jiang
+T65	E_span 1867 1871	pair
+T66	E_span 2006 2015	attention
+T67	B_span 1879 1892	independently
+T68	B_span 2026 2033	account
+T69	E_span 2207 2213	labels
+T70	B_span 2221 2223	Ye
+T71	E_span 2474 2478	data
+T72	B_span 2525 2534	Vashishth
+T73	E_span 2705 2714	sentences
+T74	B_span 2960 2968	Pershina
+T75	E_span 3124 3130	labels
+T76	B_span 3138 3144	Angeli
+T77	E_span 3258 3264	manner
+T78	B_span 3272 3280	Pershina
+T79	E_span 3374 3378	bags
+T80	B_span 3386 3394	Pershina
+T81	E_span 3536 3540	well

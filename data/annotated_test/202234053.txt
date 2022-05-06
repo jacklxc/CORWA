@@ -1,0 +1,42 @@
+[BOS] There have been several attempts at using machine reading to generate natural answers in the QA field.
+[BOS] Tan et al. (2018) took a generative approach where they added a decoder on top of their extractive model to leverage the extracted evidence for answer synthesis.
+[BOS] However, this model still relies heavily on the extraction to perform the generation and thus needs to have start and end labels (a span) for every QA pair.
+[BOS] Mitra (2017) proposed a seq2seq-based model that learns alignment between a question and passage words to produce rich question-aware passage representation by which it directly decodes an answer.
+[BOS] Gao et al. (2019) focused on product-aware answer generation based on large-scale unlabeled e-commerce reviews and product attributes.
+[BOS] Furthermore, natural answer generation can be reformulated as query-focused summarization which is addressed by Nema et al. (2017) .
+
+[BOS] The role of knowledge in certain types of QA tasks has been remarked on.
+[BOS] Mihaylov and Frank (2018) showed improvements on a cloze-style task by incorporating commonsense knowledge via a context-to-commonsense attention.
+[BOS] Zhong et al. (2018) proposed commonsense-based pre-training to improve answer selection.
+[BOS] Long et al. (2017) made use of knowledge in the form of entity descriptions to predict missing entities in a given document.
+[BOS] There have also been a few studies on incorporating knowledge into QA models without passage reading.
+[BOS] GenQA (Yin et al., 2016) combines knowledge retrieval and seq2seq learning to produce fluent answers, but it only deals with simple questions containing one single fact.
+[BOS] COREQA (He et al., 2017) extends it with a copy mechanism to learn to copy words from a given question.
+[BOS] Moreover, Fu and Feng (2018) introduced a new attention mechanism that attends across the generated history and memory to explicitly avoid repetition, and incorporated knowledge to enrich generated answers.
+
+[BOS] Some work on knowledge-enhanced natural language (NLU) understanding can be adapted to the question answering task.
+[BOS] CRWE (Weissenborn, 2017) dynamically integrates background knowledge in a NLU model in the form of free-text statements, and yields refined word representations to a task-specific NLU architecture that reprocesses the task inputs with these representations.
+[BOS] In contrast, KBLSTM (Yang and Mitchell, 2017) leverages continuous representations of knowledge bases to enhance the learning of recurrent neural networks for machine reading.
+[BOS] Furthermore, Bauer et al. (2018) proposed MHPGM, a QA architecture that fills in the gaps of inference with commonsense knowledge.
+[BOS] The model, however, does not allow an answer word to come directly from knowledge.
+[BOS] We adapt these knowledge-enhanced NLU architectures to answer generation, as baselines for our experiments.
+
+[BOS] 3 Knowledge-aware Answer Generation Knowledge-aware answer generation is a question answering paradigm, where a QA model is expected to generate an abstractive answer to a given question by leveraging both the contextual passage and external knowledge.
+[BOS] More formally, given a knowledge base K and two sequences of input words: question .
+[BOS] .
+[BOS] , w r Nr }.
+[BOS] The knowledge base K contains a set of facts, each of which is represented as a triple f = (subject, relation, object) where subject and object can be multi-word expressions and relation is a relation type, e.g., (bridge, U sedF or, cross water).
+
+[BOS] Due to the size of a knowledge base and the large amount of unnecessary information, we need an effective way of extracting a set of candidate facts which provide novel information while being related to a given question and passage.
+
+[BOS] For each instance (q, p), we first extract facts with the subject or object that occurs in question q or passage p. Scores are added to each extracted fact according to the following rules:
+
+[BOS]  Score+4, if the subject occurs in q, and the object occurs in p.
+
+[BOS]  Score+2, if the subject and the object both occur in p.
+
+[BOS]  Score+1, if the subject occurs in q or p.
+
+[BOS] The scoring rules are set heuristically such that they model relative fact importance in different interactions.
+[BOS] Next, we sort the fact triples in descending order of their scores, and take the top N f facts from the sorted list as the related facts for subsequent processing.
+

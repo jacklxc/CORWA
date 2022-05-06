@@ -1,0 +1,27 @@
+[BOS] Here, we discuss how the MT community handles the noise problem.
+[BOS] In general, there are mainly two kinds of approaches: the first attempts to denoise text, and the second proposes training with noisy texts.
+
+[BOS] Denoising text: Sakaguchi et al. (2017) proposes semi-character level recurrent neural network (scRNN) to correct words with scrambling characters.
+[BOS] Each word is represented as a vector with elements corresponding to the characters' position.
+[BOS] Heigold et al. (2018) investigates the robustness of character-based word embeddings in machine translation against word scrambling and random noise.
+[BOS] The experiments show that the noise has a larger influence on character-based models than BPE-based models.
+[BOS] To minimize the influence of word structure, Belinkov and Bisk (2017) proposes to represent word as its average character embeddings, which is invariant to these kinds of noise.
+[BOS] The proposed method enables the MT system to be more robust to scrambling noise even training the model with clean text.
+[BOS] Instead of handling noise at the word level, we try to recover the clean text from the noisy one at the sentence level.
+[BOS] Besides noise like word scrambling, the sentence level denoising could potentially better deal with more complex noise like grammatical errors.
+
+[BOS] Training with noisy data: designs methods to generate noise in the text, mainly focusing on syntactic noise and semantic noise.
+[BOS] (Sperber et al., 2017 ) proposes a noise model based on automatic speech recognizer (ASR) error types, which consists of substitutions, deletions and insertions.
+[BOS] Their noise model samples the positions of words that should be altered in the source sentence.
+[BOS] Even training with synthetic noise data brings a large improvement in translating noisy data, Belinkov and Bisk (2017) shows that models mainly perform well on the same kind of noise that is introduced at training time, and they mostly fail to generalize to text with other kinds of noise.
+[BOS] Similar findings were outlined in and Anastasopoulos (2019) , which evaluated MT systems on natural and natural-like grammatical noise, specifically on English produced by non-native speakers.
+[BOS] Natural noise appears to be richer and more complex compared to synthetic noise, making it challenging to manually design a comprehensive set of noise to approximate real world settings.
+[BOS] In our work, we follow (Vaibhav et al., 2019) and synthesize the noisy text through back-translation.
+[BOS] There is no need to manually control the distribution of noise.
+[BOS] In terms of multi-task learning for machine translation, Tu et al. (2017) proposes to add a reconstructor on top of the decoder.
+[BOS] The auxiliary objective is to reconstruct the source sentence from the hidden layers of the translation decoder.
+[BOS] This encourages the decoder to embed complete source information, which helps improve the translation performance.
+[BOS] This approach was found to be helpful in low-resource MT scenarios also by Niu et al. (2019) .
+[BOS] Anastasopoulos and Chiang (2018) proposes a tied multitask learning model architecture to improve the speech translation task.
+[BOS] The intuition is that, speech transcription as an intermediate task, should improve the performance of speech translation if the speech translation is based on both the input speech and its transcription.
+

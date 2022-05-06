@@ -1,0 +1,26 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 180 185	[BOS]
+T3	Reflection 302 307	[BOS]
+T4	Narrative_cite 426 431	[BOS]
+T5	Transition 654 659	[BOS]
+T6	Reflection 797 802	[BOS]
+T7	Reference 95 116	(Blitzer et al., 2007
+T8	Reference 118 138	Florian et al., 2004
+T9	Reference 140 155	Daume III, 2007
+T10	Reference 157 177	Foster et al., 2010)
+T11	Reference 256 275	(Sandu et al., 2010
+T12	Reference 277 299	Wang and Cardie, 2013)
+T13	Reference 548 566	(Rush et al., 2015
+T14	Reference 568 587	Takase et al., 2016
+T15	Reference 589 604	Gu et al., 2016
+T16	Reference 606 628	Nallapati et al., 2016
+T17	Reference 630 651	Ranzato et al., 2015)
+T18	B_span 61 68	natural
+T19	E_span 172 176	2010
+T20	B_span 234 247	summarization
+T21	E_span 294 298	2013
+T22	B_span 529 535	system
+T23	E_span 646 650	2015
+T24	Pronoun 660 662	It
+T25	Pronoun 803 807	This
+T26	Pronoun 843 847	this

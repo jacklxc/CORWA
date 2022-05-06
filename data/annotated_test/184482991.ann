@@ -1,0 +1,31 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 126 131	[BOS]
+T3	Multi_summ 589 594	[BOS]
+T4	Transition 686 691	[BOS]
+T5	Narrative_cite 869 874	[BOS]
+T6	Single_summ 1123 1128	[BOS]
+T7	Transition 1363 1368	[BOS]
+T8	Single_summ 1442 1447	[BOS]
+T9	Single_summ 1549 1554	[BOS]
+T10	Single_summ 1704 1709	[BOS]
+T11	Dominant 194 220	Schmidt and Wiegand (2017)
+T12	Dominant 225 249	Fortuna and Nunes (2018)
+T13	Dominant 474 501	Malmasi and Zampieri (2017)
+T14	Reference 1048 1071	ElSherief et al. (2018)
+T15	Reference 1074 1098	Gambck and Sikdar (2017)
+T16	Reference 1100 1119	Zhang et al. (2018)
+T17	Dominant 1198 1218	Waseem et al. (2017)
+T18	Dominant 1519 1546	Malmasi and Zampieri (2018)
+T19	Dominant 1772 1795	Zampieri et al. (2019b)
+T20	B_span 194 201	Schmidt
+T21	E_span 392 397	tweet
+T23	B_span 435 439	Hate
+T24	E_span 679 684	terms
+T25	B_span 990 1000	inaccurate
+T26	E_span 1114 1118	2018
+T27	B_span 1131 1139	proposal
+T29	B_span 1457 1464	methods
+T30	E_span 1693 1701	language
+T31	B_span 1772 1780	Zampieri
+T32	E_span 1875 1880	paper
+T22	E_span 1355 1360	abuse

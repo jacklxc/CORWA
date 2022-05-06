@@ -1,0 +1,27 @@
+[BOS] Delete-based sentence compression.
+[BOS] A large number of work is devoted to delete-based sentence compression.
+[BOS] Jing (2000) presented a system that used multiple sources of knowledge to decide which phrases in a sentence can be removed.
+[BOS] Knight and Marcu (2000) proposed statistical approaches to mimic the sentence compression process, they used both noisy-channel and decision-tree to solve the problem.
+[BOS] McDonald (2006) presented a discriminative large-margin learning framework coupled with a feature set and syntactic representations for sentence compression.
+[BOS] Clarke and Lapata (2006) compared different models for sentence compression across domains and assessed a number of automatic evaluation measures.
+[BOS] Clarke and Lapata (2008) used integer linear programming to infer globally optimal compression with linguistically motivated constraints.
+[BOS] Berg-Kirkpatrick et al. (2011) proposed a joint model of sentence extraction and compression for multi-document summarization.
+[BOS] Filippova and Altun (2013) presented a method for automatically building delete-based sentence compression corpus and proposed an compression method which used structured prediction.
+
+[BOS] Abstractive sentence compression.
+[BOS] Abstractive sentence compression extends delete-based compression methods with additional operations, such as substitution, reordering and insertion.
+[BOS] Cohn and Lapata (2008) proposed a discriminative tree-to-tree transduction model which incorporated a grammar extraction method and used a language model for coherent output.
+[BOS] Galanis and Androutsopoulos (2011) presented a dataset for extractive and abstractive sentence compression and proposed a SVR based abstractive sentence compressor which utilized additional PMI-based and LDA-based features.
+[BOS] Shafieibavani et al. (2016) proposed a word graph-based model which can improve both informativeness and grammaticality of the sentence at the same time.
+
+[BOS] Neural sentence compression.
+[BOS] Filippova et al. (2015) proposed a delete-based sentence compression system which took as input a sentence and output a binary sequence corresponding to word deletion decisions in the sentence.
+[BOS] The model was trained on a set of 2 millions sentence pairs which was constructed by the same approach used in Filippova and Altun (2013) .
+[BOS] There are also some neural approaches for abstractive sentence compression.
+[BOS] Rush et al. (2015) proposed a fully data-driven approach which utilized neural language models for abstractive sentence compression.
+[BOS] They tried different kinds of encoders to encode the input sentence into vector representation of fixed dimensions.
+[BOS] Chopra et al. (2016) further improved the model with Recurrent Neural Networks.
+[BOS] However, both works used vocabularies of fixed size for target sentence generation.
+[BOS] Wubben et al. (2016) used a Seq2Seq model with bi-directional LSTMs for abstractive compression of captions.
+[BOS] Toutanova et al. (2016) manually created a multi-reference dataset for sentence and short paragraph compression and studied the correlations between several automatic evaluation metrics and human judgment.
+

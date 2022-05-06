@@ -1,0 +1,43 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 230 235	[BOS]
+T3	Transition 386 391	[BOS]
+T4	Single_summ 518 523	[BOS]
+T5	Single_summ 659 664	[BOS]
+T6	Reflection 868 873	[BOS]
+T7	Reflection 1052 1057	[BOS]
+T8	Single_summ 1220 1225	[BOS]
+T9	Reflection 1458 1463	[BOS]
+T10	Reflection 1541 1546	[BOS]
+T11	Reflection 1697 1702	[BOS]
+T12	Single_summ 1838 1843	[BOS]
+T13	Reflection 1986 1991	[BOS]
+T14	Reflection 2042 2047	[BOS]
+T15	Single_summ 2131 2136	[BOS]
+T16	Reference 60 82	Sagae and Lavie (2006)
+T17	Reference 87 114	Surdeanu and Manning (2010)
+T18	Dominant 236 249	Petrov (2010)
+T19	Dominant 559 578	Bucil et al. (2006)
+T20	Dominant 680 701	Ba and Caruana (2014)
+T21	Reference 896 916	Hinton et al. (2015)
+T22	Dominant 1226 1247	Tckstrm et al. (2013)
+T23	Dominant 1844 1863	Kim and Rush (2016)
+T24	Dominant 2145 2164	Kim and Rush (2016)
+T26	B_span 18 28	ensembling
+T28	E_span 109 113	2010
+T29	B_span 236 240	Petr
+T30	E_span 375 384	marginals
+T31	B_span 524 529	Model
+T32	E_span 646 657	classifiers
+T33	B_span 680 682	Ba
+T34	E_span 857 866	detection
+T35	B_span 874 877	Our
+T36	E_span 911 915	2015
+T37	B_span 1226 1233	Tckstrm
+T38	E_span 1448 1456	language
+T39	B_span 1844 1847	Kim
+T40	E_span 1973 1984	translation
+T41	B_span 2145 2148	Kim
+T42	E_span 2275 2280	model
+T43	Pronoun 147 151	this
+T44	Pronoun 1058 1063	These
+T45	Pronoun 2031 2035	this

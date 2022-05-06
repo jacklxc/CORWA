@@ -1,0 +1,15 @@
+[BOS] Interests in nested NER detection have increased in recent years, but it is still the case that NER models deals with only one flat level at a time.
+[BOS] Zhou et al. (2004) detected nested entities in a bottom-up way.
+[BOS] They detected the innermost flat entities and then found other NEs containing the flat entities as substrings using rules derived from the detected entities.
+[BOS] The authors reported an improvement of around 3% in the F-score under certain conditions on the GENIA corpus (Collier et al., 1999) .
+[BOS] Katiyar and Cardie (2018) proposed a neural network-based approach that learns hypergraph representation for nested entities using features extracted from a recurrent neural network (RNN).
+[BOS] The authors reported that the model outperformed the existing state-of-the-art featurebased approaches.
+
+[BOS] Recent studies show that the conditional random fields (CRFs) can significantly produce higher tagging accuracy in flat (Athavale et al., 2016) or nested (stacking flat NER to nested representation) (Son and Minh, 2017) NERs.
+[BOS] Ju et al. (2018) proposed a novel neural model to address nested entities by dynamically stacking flat NER layers until no outer entities are extracted.
+[BOS] A cascaded CRF layer is used after the LSTM output in each flat layer.
+[BOS] The authors reported that the model outperforms state-of-the-art results by achieving 74.5% in terms of F-score.
+[BOS] Finkel and Manning (2009) proposed a tree-based representation to represent each sentence as a constituency tree of nested entities.
+[BOS] All entities were treated as phrases and represented as subtrees following the whole tree structure and used a CRFbased approach driven by entity-level features to detect nested entities.
+[BOS] We demonstrate that the performance can be improved significantly without CRFs, by training an exhaustive neural model that learns which regions are entity mentions and how to best classify the regions.
+

@@ -1,0 +1,2 @@
+[BOS] Related work can be divided into two categories: NER and NEN.
+

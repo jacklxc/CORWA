@@ -1,0 +1,28 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 218 223	[BOS]
+T3	Narrative_cite 462 467	[BOS]
+T4	Other 699 704	[BOS]
+T5	Other 1040 1045	[BOS]
+T6	Other 1129 1134	[BOS]
+T7	Other 1242 1247	[BOS]
+T8	Single_summ 1355 1360	[BOS]
+T9	Reflection 1436 1441	[BOS]
+T10	Reflection 1576 1581	[BOS]
+T11	Reference 335 355	(Walker et al., 2001
+T12	Reference 357 375	Stent et al., 2004
+T13	Reference 377 399	Paiva and Evans, 2005)
+T14	Reference 437 459	(Duek and Jurek, 2015)
+T15	Reference 579 601	(Wong and Mooney, 2007
+T16	Reference 603 628	Konstas and Lapata, 2013)
+T17	Reference 675 696	(Angeli et al., 2010)
+T18	Dominant 1361 1380	[ Mei et al. (2015)
+T19	B_span 313 317	hand
+T20	E_span 394 398	2005
+T21	B_span 409 416	percept
+T22	E_span 454 458	2015
+T23	B_span 535 543	factored
+T24	E_span 623 627	2013
+T25	B_span 636 644	pipeline
+T26	E_span 691 695	2010
+T27	B_span 1361 1362	[
+T28	E_span 1432 1434	us

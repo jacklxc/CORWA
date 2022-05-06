@@ -1,0 +1,25 @@
+[BOS] In recent years, reading comprehension has made remarkable progress in methodology and dataset construction.
+[BOS] Most existing approaches mainly focus on modeling sophisticated interactions between questions and passages, then use the pointer networks (Vinyals et al., 2015) to directly model the answers (Dhingra et al., 2017a; Wang and Jiang, 2017; Seo et al., 2017; .
+[BOS] These methods prove to be effective in existing close-domain datasets (Hermann et al., 2015; Hill et al., 2015; Rajpurkar et al., 2016) .
+
+[BOS] More recently, open-domain RC has attracted increasing attention (Nguyen et al., 2016; Dunn et al., 2017; Dhingra et al., 2017b; He et al., 2017) and raised new challenges for question answering techniques.
+[BOS] In these scenarios, a question is paired with multiple passages, which are often collected by exploiting unstructured documents or web data.
+[BOS] Aforementioned approaches often rely on recurrent neural networks and sophisticated attentions, which are prohibitively time-consuming if passages are concatenated altogether.
+[BOS] Therefore, some work tried to alleviate this problem in a coarse-to-fine schema.
+[BOS] Wang et al. (2018a) combined a ranker for selecting the relevant passage and a reader for producing the answer from it.
+[BOS] However, this approach only depended on one passage when producing the answer, hence put great demands on the precisions of both components.
+[BOS] Worse still, this framework cannot handle the situation where multiple passages are needed to answer correctly.
+[BOS] In consideration of evidence aggregation, Wang et al. (2018b) proposed a re-ranking method to resolve the above issue.
+[BOS] However, their re-ranking stage was totally isolated from the candidate extraction procedure.
+[BOS] Being different from the re-ranking perspective, we propose a novel selection model to combine the information from all the extracted candidates.
+[BOS] Moreover, with reinforcement learning, our candidate extraction and answer selection models can be learned in a joint manner.
+[BOS] Trischler et al. (2016) also proposed a two-step extractor-reasoner model, which first extracted K most probable single-token answer candidates and then compared the hypotheses with all the sentences in the passage.
+[BOS] However, in their work, each candidate was considered isolatedly, and their objective only took into account the ground truths compared with our RL treatment.
+
+[BOS] The training strategy employed in our paper is reinforcement learning, which is inspired by recent work exploiting it into question answering problem.
+[BOS] The above mentioned coarse-to-fine framework (Choi et al., 2017; Wang et al., 2018a) treated sentence selection as a latent variable and jointly trained the sentence selection module with the answer generation module via RL.
+[BOS] Shen et al. (2017) modeled the multi-hop reasoning procedure with a termination state to decide when it is adequate to produce an answer.
+[BOS] RL is suitable to capture this stochastic behavior.
+[BOS] Hu et al. (2018) merely modeled the extraction process, using F1 as rewards in addition to maximum likelihood estimation.
+[BOS] RL was utilized in their training process, as the F1 measure is not differentiable.
+

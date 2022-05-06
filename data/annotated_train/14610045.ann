@@ -1,0 +1,65 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 400 405	[BOS]
+T3	Narrative_cite 490 495	[BOS]
+T4	Narrative_cite 871 876	[BOS]
+T5	Transition 1037 1042	[BOS]
+T6	Narrative_cite 1171 1176	[BOS]
+T7	Narrative_cite 1364 1369	[BOS]
+T8	Reflection 1619 1624	[BOS]
+T9	Reference 110 132	(Ji and Grishman, 2008
+T10	Reference 134 151	Miwa et al., 2009
+T11	Reference 153 176	Liao and Grishman, 2010
+T12	Reference 178 194	Liu et al., 2010
+T13	Reference 196 213	Hong et al., 2011
+T14	Reference 215 236	McClosky et al., 2011
+T15	Reference 238 264	Sebastian and Andrew, 2011
+T16	Reference 266 283	Chen and Ng, 2012
+T17	Reference 285 301	Li et al., 2013)
+T18	Reference 351 369	(Chen et al., 2015
+T19	Reference 371 397	Nguyen and Grishman, 2015)
+T20	Reference 562 583	(Etzioni et al., 2005
+T21	Reference 585 603	Banko et al., 2007
+T22	Reference 605 623	Banko et al., 2008
+T23	Reference 625 645	Etzioni et al., 2011
+T24	Reference 647 667	Ritter et al., 2012)
+T25	Reference 684 711	(Shinyama and Sekine, 2006)
+T26	Reference 726 740	(Sekine, 2006)
+T27	Reference 782 800	(Kim et al., 2013)
+T28	Reference 932 960	(Chambers and Jurafsky, 2011
+T29	Reference 962 981	Pantel et al., 2012
+T30	Reference 983 999	Yao et al., 2012
+T31	Reference 1001 1017	Yao et al., 2013
+T32	Reference 1019 1033	Chambers, 2013
+T33	Reference 1269 1295	(Hermann and Blunsom, 2013
+T34	Reference 1297 1317	Socher et al., 2013a
+T35	Reference 1319 1339	Socher et al., 2013b
+T36	Reference 1341 1360	Bowman et al., 2014
+T37	Reference 1438 1452	(Navigli, 2009
+T38	Reference 1454 1466	Bordag, 2006
+T39	Reference 1468 1486	Pinto et al., 2007
+T40	Reference 1488 1510	Brody and Lapata, 2009
+T41	Reference 1512 1534	Manandhar et al., 2010
+T42	Reference 1536 1560	Navigli and Lapata, 2010
+T43	Reference 1562 1595	Van de Cruys and Apidianaki, 2011
+T44	Reference 1597 1616	Wang et al., 2015b)
+T45	Pronoun 406 410	They
+T46	Pronoun 1080 1085	these
+T47	Pronoun 1116 1120	they
+T48	B_span 92 100	symbolic
+T49	E_span 296 300	2013
+T50	B_span 305 319	distributional
+T51	E_span 392 396	2015
+T52	B_span 534 538	Open
+T53	E_span 662 666	2012
+T54	B_span 670 680	Preemptive
+T55	E_span 706 710	2006
+T56	B_span 714 722	Ondemand
+T57	E_span 735 739	2006
+T58	B_span 745 753	semantic
+T59	E_span 795 799	2013
+T60	B_span 905 914	universal
+T61	E_span 1029 1033	2013
+T62	B_span 1248 1257	syntactic
+T63	E_span 1356 1360	2014
+T64	B_span 1417 1421	Word
+T65	E_span 1610 1615	2015b

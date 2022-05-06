@@ -1,0 +1,80 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 303 308	[BOS]
+T3	Transition 510 515	[BOS]
+T4	Narrative_cite 754 759	[BOS]
+T5	Transition 896 901	[BOS]
+T6	Transition 1005 1010	[BOS]
+T7	Reflection 1177 1182	[BOS]
+T8	Narrative_cite 1368 1373	[BOS]
+T9	Transition 1598 1603	[BOS]
+T10	Reflection 1749 1754	[BOS]
+T11	Reflection 1807 1812	[BOS]
+T12	Transition 1868 1873	[BOS]
+T13	Multi_summ 1982 1987	[BOS]
+T14	Reflection 2285 2290	[BOS]
+T15	Reflection 2366 2371	[BOS]
+T16	Single_summ 2485 2490	[BOS]
+T17	Single_summ 2589 2594	[BOS]
+T18	Single_summ 2700 2705	[BOS]
+T19	Reference 120 142	(Hermann et al., 2015)
+T20	Reference 175 200	(Rajpurkar et al., , 2018
+T21	Reference 212 231	(Dunn et al., 2017)
+T22	Reference 243 263	(Joshi et al., 2017)
+T23	Reference 279 300	(Nguyen et al., 2016)
+T24	Reference 361 383	(Wang and Jiang, 2017)
+T25	Reference 392 410	(Seo et al., 2017)
+T26	Reference 424 442	(Cui et al., 2017)
+T27	Reference 449 469	(Xiong et al., 2017)
+T28	Reference 490 507	(Yu et al., 2018)
+T29	Reference 792 814	(Peters et al., 2018b)
+T30	Reference 821 843	(Radford et al., 2018)
+T31	Reference 855 876	(Devlin et al., 2018)
+T32	Reference 1480 1500	(Zhang et al., 2018)
+T33	Reference 1518 1542	(Ostermann et al., 2018)
+T34	Reference 1574 1595	(Talmor et al., 2018)
+T35	Dominant 1988 2013	Weissenborn et al. (2017)
+T36	Dominant 2016 2035	Bauer et al. (2018)
+T37	Dominant 2038 2063	Mihaylov and Frank (2018)
+T38	Dominant 2066 2083	Pan et al. (2019)
+T39	Dominant 2491 2510	Zhong et al. (2018)
+T40	B_span 113 116	CNN
+T41	E_span 141 142	)
+T42	B_span 145 148	SQu
+T43	E_span 196 200	2018
+T44	B_span 203 209	Search
+T45	E_span 230 231	)
+T46	B_span 234 237	Tri
+T47	E_span 262 263	)
+T48	B_span 270 272	MS
+T49	E_span 299 300	)
+T50	B_span 350 355	Match
+T51	E_span 382 383	)
+T52	B_span 386 389	BiD
+T53	E_span 409 410	)
+T54	B_span 413 415	Ao
+T55	E_span 441 442	)
+T56	B_span 445 447	DC
+T57	E_span 468 469	)
+T58	B_span 484 486	QA
+T59	E_span 506 507	)
+T60	B_span 787 789	EL
+T61	E_span 813 814	)
+T62	B_span 817 819	GP
+T63	E_span 842 843	)
+T64	B_span 850 854	BERT
+T65	E_span 875 876	)
+T66	B_span 1473 1479	ReCoRD
+T67	E_span 1499 1500	)
+T68	B_span 1503 1506	ARC
+T69	E_span 1541 1542	)
+T70	B_span 1545 1549	Open
+T73	E_span 1594 1595	)
+T74	B_span 1988 1993	Weiss
+T75	E_span 2283 2284	.
+T76	B_span 2491 2496	Zhong
+T78	Pronoun 309 314	These
+T79	Pronoun 516 521	These
+T80	Pronoun 902 906	They
+T81	Pronoun 1758 1762	this
+T82	Pronoun 2134 2138	they
+T71	E_span 2752 2755	MRC

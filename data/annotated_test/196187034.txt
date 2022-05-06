@@ -1,0 +1,9 @@
+[BOS] While BLI has been previously tackled using count-based vector space models (Vuli and Moens, 2013) and statistical decipherment (Ravi and Knight, 2011; Dou and Knight, 2012) , these methods have recently been superseded by crosslingual embedding mappings, which work by aligning independently trained word embeddings in different languages.
+[BOS] For that purpose, early methods required a training dictionary, which was used to learn a linear transformation that mapped these embeddings into a shared crosslingual space (Mikolov et al., 2013; Artetxe et al., 2018a) .
+[BOS] The resulting cross-lingual embeddings are then used to induce the translations of words that were missing in the training dictionary by taking their nearest neighbor in the target language.
+[BOS] The amount of required supervision was later reduced through self-learning methods (Artetxe et al., 2017) , and then completely eliminated through adversarial training (Zhang et al., 2017a; or more robust iterative approaches combined with initialization heuristics (Artetxe et al., 2018b; Hoshen and Wolf, 2018) .
+[BOS] At the same time, several recent methods have formulated embedding mappings as an optimal transport problem (Zhang et al., 2017b; Alvarez-Melis and Jaakkola, 2018) .
+
+[BOS] In addition to that, a large body of work has focused on addressing the hubness problem that arises when directly inducing bilingual dictionaries from cross-lingual embeddings, either through the retrieval method Smith et al., 2017; or the mapping itself Shigeto et al., 2015; .
+[BOS] While all these previous methods directly induce bilingual dictionaries from cross-lingually mapped embeddings, our proposed method combines them with unsupervised machine translation techniques, outperforming them all by a substantial margin.
+

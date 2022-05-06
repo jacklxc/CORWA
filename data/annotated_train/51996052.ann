@@ -1,0 +1,38 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 159 164	[BOS]
+T3	Narrative_cite 210 215	[BOS]
+T4	Transition 424 429	[BOS]
+T5	Narrative_cite 516 521	[BOS]
+T6	Transition 831 836	[BOS]
+T7	Reflection 957 962	[BOS]
+T8	Reflection 1096 1101	[BOS]
+T9	Narrative_cite 1192 1197	[BOS]
+T10	Single_summ 1352 1357	[BOS]
+T11	Reference 301 319	(Ma and Hovy, 2016
+T12	Reference 321 338	Kim et al., 2016)
+T13	Reference 352 371	(Luong et al., 2013
+T14	Reference 373 396	Botha and Blunsom, 2014
+T15	Reference 398 421	Cotterell et al., 2016)
+T16	Reference 614 631	(Sun et al., 2014
+T17	Reference 633 650	Yin et al., 2016)
+T18	Reference 709 728	(Choi et al., 2017)
+T19	Reference 813 828	(Stratos, 2017)
+T20	Reference 1257 1277	Baroni et al. (2014)
+T21	Dominant 1409 1437	Baroni and Zamparelli (2010)
+T22	Reference 1509 1530	Hartung et al. (2017)
+T23	B_span 281 289	modeling
+T24	E_span 333 337	2016
+T25	B_span 342 351	morphemes
+T26	E_span 416 420	2016
+T27	B_span 579 586	Chinese
+T28	E_span 645 649	2016
+T29	B_span 655 663	syllable
+T30	E_span 723 727	2017
+T31	B_span 735 738	non
+T32	E_span 823 827	2017
+T33	B_span 1257 1263	Baroni
+T34	E_span 1345 1350	level
+T35	B_span 1409 1415	Baroni
+T37	B_span 1499 1503	work
+T38	E_span 1525 1529	2017
+T36	E_span 1598 1613	representations

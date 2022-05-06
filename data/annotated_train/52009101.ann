@@ -1,0 +1,51 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 58 63	[BOS]
+T3	Single_summ 138 143	[BOS]
+T4	Single_summ 338 343	[BOS]
+T5	Narrative_cite 506 511	[BOS]
+T6	Reflection 643 648	[BOS]
+T7	Reflection 692 697	[BOS]
+T8	Transition 755 760	[BOS]
+T9	Transition 887 892	[BOS]
+T10	Transition 997 1002	[BOS]
+T11	Transition 1238 1243	[BOS]
+T12	Transition 1346 1351	[BOS]
+T13	Transition 1485 1490	[BOS]
+T14	Transition 1633 1638	[BOS]
+T15	Transition 1775 1780	[BOS]
+T16	Transition 1886 1891	[BOS]
+T17	Transition 2003 2008	[BOS]
+T18	Transition 2153 2158	[BOS]
+T19	Transition 2211 2216	[BOS]
+T20	Transition 2324 2329	[BOS]
+T21	Single_summ 2440 2445	[BOS]
+T22	Transition 2601 2606	[BOS]
+T23	Reflection 2745 2750	[BOS]
+T24	Reflection 2853 2858	[BOS]
+T25	Reflection 3002 3007	[BOS]
+T26	Dominant 189 208	(Hill et al., 2016)
+T27	Dominant 380 399	(Chen et al., 2016)
+T28	Reference 586 605	(Yang et al., 2015)
+T29	Reference 616 640	(Rajpurkar et al., 2016)
+T30	Dominant 2470 2494	(Rajpurkar et al., 2016)
+T31	Pronoun 541 545	this
+T32	Pronoun 652 657	these
+T33	Pronoun 681 685	this
+T34	Pronoun 875 879	this
+T35	Pronoun 1020 1024	this
+T36	Pronoun 1244 1248	This
+T37	Pronoun 1352 1356	This
+T38	Pronoun 1564 1568	they
+T39	Pronoun 1796 1800	this
+T40	Pronoun 2904 2908	this
+T41	Pronoun 3076 3078	it
+T42	B_span 161 170	Childrens
+T43	E_span 327 335	question
+T44	B_span 362 365	CNN
+T45	E_span 496 504	question
+T46	B_span 579 585	WIKIQA
+T47	E_span 600 604	2015
+T48	B_span 610 615	SQuAD
+T49	E_span 635 639	2016
+T50	B_span 2471 2480	Rajpurkar
+T51	E_span 2586 2599	precipitation

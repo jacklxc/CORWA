@@ -1,0 +1,18 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 124 129	[BOS]
+T3	Reflection 278 283	[BOS]
+T4	Single_summ 358 363	[BOS]
+T5	Multi_summ 488 493	[BOS]
+T6	Multi_summ 635 640	[BOS]
+T7	Reflection 704 709	[BOS]
+T8	Dominant 130 145	Nakagawa (2007)
+T9	Dominant 364 375	Hall (2007)
+T10	Dominant 494 519	Nivre and McDonald (2008)
+T11	Dominant 524 546	Zhang and Clark (2008)
+T12	Pronoun 298 303	their
+T13	B_span 130 138	Nakagawa
+T14	E_span 267 276	algorithm
+T15	B_span 364 368	Hall
+T16	E_span 480 486	parser
+T17	B_span 494 499	Nivre
+T18	E_span 696 702	parser

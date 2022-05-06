@@ -1,0 +1,38 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 111 116	[BOS]
+T3	Narrative_cite 220 225	[BOS]
+T4	Transition 402 407	[BOS]
+T5	Narrative_cite 492 497	[BOS]
+T6	Reflection 637 642	[BOS]
+T7	Multi_summ 803 808	[BOS]
+T8	Multi_summ 946 951	[BOS]
+T9	Reflection 1127 1132	[BOS]
+T10	Single_summ 1203 1208	[BOS]
+T11	Transition 1251 1256	[BOS]
+T12	Reflection 1363 1368	[BOS]
+T13	Reference 147 172	(Banko and Etzioni, 2008)
+T14	Reference 260 279	(Pardo et al., 2006
+T15	Reference 281 297	Yao et al., 2011
+T16	Reference 299 316	Yao et al., 2012)
+T17	Reference 498 515	(Yan et al., 2009
+T18	Reference 517 537	Eichler et al., 2008
+T19	Reference 539 561	Syed and Viegas, 2010)
+T20	Dominant 809 831	Talukdar et al. (2008)
+T21	Dominant 836 863	Talukdar and Pereira (2010)
+T22	Reference 1230 1248	Hovy et al. (2011)
+T23	Pronoun 373 375	it
+T24	Pronoun 383 385	it
+T25	Pronoun 958 962	this
+T26	Pronoun 997 999	it
+T27	Pronoun 1094 1096	it
+T28	Pronoun 1266 1270	they
+T29	B_span 117 119	We
+T30	E_span 167 171	2008
+T31	B_span 226 228	In
+T32	E_span 311 315	2012
+T33	B_span 499 502	Yan
+T34	E_span 630 635	place
+T35	B_span 809 817	Talukdar
+T36	E_span 1120 1125	model
+T37	B_span 1209 1212	Our
+T38	E_span 1243 1247	2011

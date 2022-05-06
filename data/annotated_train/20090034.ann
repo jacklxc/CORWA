@@ -1,0 +1,74 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 79 84	[BOS]
+T3	Single_summ 244 249	[BOS]
+T4	Transition 366 371	[BOS]
+T5	Transition 471 476	[BOS]
+T6	Single_summ 565 570	[BOS]
+T7	Single_summ 836 841	[BOS]
+T8	Single_summ 973 978	[BOS]
+T9	Single_summ 1143 1148	[BOS]
+T10	Single_summ 1444 1449	[BOS]
+T11	Single_summ 1597 1602	[BOS]
+T12	Single_summ 1685 1690	[BOS]
+T13	Single_summ 1761 1766	[BOS]
+T14	Single_summ 1866 1871	[BOS]
+T15	Single_summ 2085 2090	[BOS]
+T16	Single_summ 2207 2212	[BOS]
+T17	Single_summ 2291 2296	[BOS]
+T18	Single_summ 2431 2436	[BOS]
+T19	Transition 2556 2561	[BOS]
+T20	Single_summ 2654 2659	[BOS]
+T21	Single_summ 2794 2799	[BOS]
+T22	Single_summ 2931 2936	[BOS]
+T23	Single_summ 3072 3077	[BOS]
+T24	Transition 3392 3397	[BOS]
+T25	Reflection 3484 3489	[BOS]
+T26	Reflection 3655 3660	[BOS]
+T27	Reflection 3786 3791	[BOS]
+T28	Reflection 3861 3866	[BOS]
+T29	Reflection 4056 4061	[BOS]
+T30	Reflection 4189 4194	[BOS]
+T31	Reflection 4294 4299	[BOS]
+T32	Dominant 85 113	Callison-Burch et al. (2004)
+T33	Dominant 571 594	Fraser and Marcu (2006)
+T34	Reference 1176 1194	(Och and Ney, 2003
+T35	Reference 1196 1218	Fraser and Marcu, 2006
+T36	Reference 1220 1243	Fraser and Marcu, 2007)
+T37	Dominant 1318 1336	Gao et al. (2010b)
+T38	Dominant 1767 1791	Niehues and Vogel (2008)
+T39	Dominant 2091 2109	Gao et al. (2010a)
+T40	Dominant 2297 2320	DeNero and Klein (2010)
+T41	Dominant 2692 2716	(Toutanova et al., 2002)
+T42	Dominant 3098 3121	Toutanova et al. (2002)
+T43	Reference 3177 3196	(Och and Ney, 2000a
+T44	Reference 3198 3217	Och and Ney, 2000b)
+T45	Reference 3313 3332	Och and Ney (2000b)
+T46	Reference 4385 4409	(Toutanova et al., 2002)
+T47	Pronoun 250 254	They
+T48	Pronoun 284 289	these
+T49	Pronoun 1450 1454	They
+T50	Pronoun 1691 1695	This
+T51	Pronoun 1710 1712	it
+T52	Pronoun 2437 2441	They
+T53	Pronoun 2989 2993	this
+T54	Pronoun 3024 3026	it
+T55	Pronoun 3850 3854	this
+T56	Pronoun 3900 3902	it
+T57	B_span 85 93	Callison
+T58	E_span 358 364	matrix
+T59	B_span 571 577	Fraser
+T60	E_span 1131 1141	parameters
+T61	B_span 1149 1155	Unlike
+T64	E_span 1751 1759	aligners
+T65	B_span 1767 1774	Niehues
+T66	E_span 2075 2083	features
+T67	B_span 2091 2094	Gao
+T68	E_span 2281 2289	training
+T69	B_span 2297 2303	DeNero
+T70	E_span 2550 2554	data
+T71	B_span 2660 2665	Among
+T72	E_span 3061 3070	algorithm
+T73	B_span 3078 3081	POS
+T74	E_span 3382 3388	corpus
+T79	B_span 4362 4368	unlike
+T80	E_span 4404 4408	2002

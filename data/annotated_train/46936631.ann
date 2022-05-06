@@ -1,0 +1,60 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 149 154	[BOS]
+T3	Transition 685 690	[BOS]
+T4	Narrative_cite 899 904	[BOS]
+T5	Transition 1088 1093	[BOS]
+T6	Transition 1260 1265	[BOS]
+T7	Transition 1402 1407	[BOS]
+T8	Narrative_cite 1645 1650	[BOS]
+T9	Single_summ 2046 2051	[BOS]
+T10	Reflection 2224 2229	[BOS]
+T11	Reflection 2411 2416	[BOS]
+T12	Narrative_cite 2596 2601	[BOS]
+T13	Transition 2840 2845	[BOS]
+T14	Reflection 2968 2973	[BOS]
+T15	Reflection 3109 3114	[BOS]
+T16	Reference 277 303	(Daume III and Marcu, 2002
+T17	Reference 305 333	BergKirkpatrick et al., 2011
+T18	Reference 335 360	Thadani and McKeown, 2013
+T19	Reference 362 383	Durrett et al., 2016)
+T20	Reference 452 467	(McDonald, 2006
+T21	Reference 469 492	Clarke and Lapata, 2008
+T22	Reference 494 517	Filippova et al., 2015)
+T23	Reference 574 593	(Zajic et al., 2007
+T24	Reference 595 628	Galanis and Androutsopoulos, 2010
+T25	Reference 630 647	Wang et al., 2013
+T26	Reference 649 664	Li et al., 2013
+T27	Reference 666 682	Li et al., 2014)
+T28	Reference 986 1007	(Kikuchi et al., 2016
+T29	Reference 1009 1026	Chen et al., 2016
+T30	Reference 1028 1045	Zhou et al., 2017
+T31	Reference 1047 1063	Tan et al., 2017
+T32	Reference 1065 1085	Paulus et al., 2017)
+T33	Reference 1717 1743	(Carenini and Cheung, 2008
+T34	Reference 1745 1764	Gerani et al., 2014
+T35	Reference 1766 1788	Fabbrizio et al., 2014
+T36	Reference 1790 1806	Liu et al., 2015
+T37	Reference 1808 1829	Takase et al., 2016 )
+T38	Reference 2022 2043	(Pighin et al., 2014)
+T39	Dominant 2067 2084	Cao et al. (2018)
+T40	Reference 2720 2737	(Li et al., 2017a
+T41	Reference 2739 2757	Chen et al., 2017)
+T42	Pronoun 2267 2271	this
+T43	Pronoun 2417 2419	It
+T44	Pronoun 3135 3139	this
+T45	B_span 213 220	extract
+T46	E_span 378 382	2016
+T47	B_span 391 399	pipeline
+T48	E_span 512 516	2015
+T49	B_span 525 533	sentence
+T50	E_span 677 681	2014
+T51	B_span 914 920	neural
+T52	E_span 1080 1084	2017
+T53	B_span 1651 1658	Natural
+T54	E_span 1823 1827	2016
+T55	B_span 2008 2014	OpenIE
+T56	E_span 2038 2042	2014
+T57	B_span 2067 2070	Cao
+T58	E_span 2213 2222	summaries
+T59	B_span 2687 2693	neural
+T60	E_span 2752 2756	2017

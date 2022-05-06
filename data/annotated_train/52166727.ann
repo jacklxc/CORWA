@@ -1,0 +1,47 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 133 138	[BOS]
+T3	Transition 440 445	[BOS]
+T4	Narrative_cite 628 633	[BOS]
+T5	Transition 804 809	[BOS]
+T6	Reflection 970 975	[BOS]
+T7	Single_summ 1126 1131	[BOS]
+T8	Single_summ 1278 1283	[BOS]
+T9	Single_summ 1511 1516	[BOS]
+T10	Reflection 1716 1721	[BOS]
+T11	Reflection 1830 1835	[BOS]
+T12	Narrative_cite 1951 1956	[BOS]
+T13	Narrative_cite 2198 2203	[BOS]
+T14	Reflection 2503 2508	[BOS]
+T15	Reference 392 414	(Ravi and Knight, 2011
+T16	Reference 416 437	Dou and Knight, 2012)
+T17	Reference 740 762	(Dou and Knight, 2013)
+T18	Reference 783 801	(Dou et al., 2015)
+T19	Dominant 1147 1169	Artetxe et al. (2018c)
+T20	Dominant 1553 1571	Yang et al. (2018)
+T21	Reference 2042 2065	(Sennrich et al., 2016)
+T22	Reference 2414 2433	Knight, 2012, 2013)
+T23	Reference 2462 2480	(Zhao et al., 2015
+T24	Reference 2482 2500	Wang et al., 2016)
+T25	Pronoun 225 227	it
+T26	Pronoun 674 679	these
+T27	Pronoun 824 829	these
+T28	Pronoun 1302 1306	they
+T29	Pronoun 1517 1521	This
+T30	Pronoun 1645 1650	their
+T31	Pronoun 2519 2524	these
+T32	B_span 347 360	probabilistic
+T33	E_span 432 436	2012
+T34	B_span 720 729	syntactic
+T35	E_span 757 761	2013
+T36	B_span 767 771	word
+T37	E_span 796 800	2015
+T38	B_span 1147 1154	Artetxe
+T39	E_span 1501 1509	training
+T40	B_span 1553 1557	Yang
+T41	E_span 1706 1714	networks
+T42	B_span 1976 1986	generation
+T43	E_span 2060 2064	2016
+T44	B_span 2381 2392	statistical
+T45	E_span 2428 2432	2013
+T46	B_span 2437 2442	cross
+T47	E_span 2495 2499	2016

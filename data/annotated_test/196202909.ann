@@ -1,0 +1,58 @@
+T1	Intro 0 5	[BOS]
+T2	Single_summ 97 102	[BOS]
+T3	Single_summ 288 293	[BOS]
+T4	Single_summ 391 396	[BOS]
+T5	Transition 537 542	[BOS]
+T6	Transition 699 704	[BOS]
+T7	Single_summ 794 799	[BOS]
+T8	Narrative_cite 918 923	[BOS]
+T9	Single_summ 1036 1041	[BOS]
+T10	Single_summ 1228 1233	[BOS]
+T11	Single_summ 1356 1361	[BOS]
+T12	Transition 1574 1579	[BOS]
+T13	Single_summ 1767 1772	[BOS]
+T14	Single_summ 1996 2001	[BOS]
+T15	Single_summ 2129 2134	[BOS]
+T16	Single_summ 2319 2324	[BOS]
+T17	Single_summ 2455 2460	[BOS]
+T18	Transition 2624 2629	[BOS]
+T19	Reflection 2905 2910	[BOS]
+T20	Dominant 103 122	Liang et al. (2018)
+T21	Dominant 800 824	Samanta and Mehta (2017)
+T22	Reference 968 993	(Goodfellow et al., 2015)
+T23	Dominant 1042 1065	Papernot et al. (2016b)
+T24	Reference 1122 1146	(Papernot et al., 2016a)
+T25	Dominant 1234 1252	Yang et al. (2018)
+T26	Dominant 1461 1479	Sato et al. (2018)
+T27	Dominant 1915 1937	Alzantot et al. (2018)
+T28	Dominant 2002 2019	Gao et al. (2018)
+T29	Dominant 2325 2347	Ebrahimi et al. (2018)
+T30	Pronoun 298 303	their
+T31	Pronoun 425 427	it
+T32	Pronoun 727 732	these
+T33	Pronoun 762 766	they
+T34	Pronoun 924 928	They
+T35	Pronoun 1725 1729	they
+T36	Pronoun 2135 2139	They
+T37	Pronoun 2260 2262	it
+T38	Pronoun 2519 2523	they
+T39	B_span 103 108	Liang
+T40	E_span 525 534	insertion
+T41	B_span 800 807	Samanta
+T42	E_span 908 916	keywords
+T43	B_span 935 939	Fast
+T44	E_span 988 992	2015
+T45	B_span 1042 1050	Papernot
+T46	E_span 1221 1226	space
+T47	B_span 1103 1110	forward
+T48	E_span 1140 1145	2016a
+T49	B_span 1234 1238	Yang
+T50	E_span 1346 1354	learning
+T51	B_span 1362 1368	Aiming
+T52	E_span 1566 1571	space
+T53	B_span 1773 1775	To
+T54	E_span 1985 1994	algorithm
+T55	B_span 2002 2005	Gao
+T56	E_span 2309 2317	distance
+T57	B_span 2325 2333	Ebrahimi
+T58	E_span 2615 2621	humans

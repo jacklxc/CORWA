@@ -1,0 +1,107 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 95 100	[BOS]
+T3	Narrative_cite 251 256	[BOS]
+T4	Transition 433 438	[BOS]
+T5	Transition 609 614	[BOS]
+T6	Transition 779 784	[BOS]
+T7	Narrative_cite 897 902	[BOS]
+T8	Transition 1078 1083	[BOS]
+T9	Narrative_cite 1165 1170	[BOS]
+T10	Narrative_cite 1346 1351	[BOS]
+T11	Narrative_cite 1631 1636	[BOS]
+T12	Narrative_cite 1909 1914	[BOS]
+T13	Narrative_cite 2086 2091	[BOS]
+T14	Narrative_cite 2273 2278	[BOS]
+T15	Narrative_cite 2504 2509	[BOS]
+T16	Single_summ 2694 2699	[BOS]
+T17	Transition 2900 2905	[BOS]
+T18	Narrative_cite 3012 3017	[BOS]
+T19	Transition 3185 3190	[BOS]
+T20	Transition 3274 3279	[BOS]
+T21	Narrative_cite 3374 3379	[BOS]
+T22	Transition 3567 3572	[BOS]
+T23	Multi_summ 3730 3735	[BOS]
+T24	Single_summ 3910 3915	[BOS]
+T25	Single_summ 4060 4065	[BOS]
+T26	Single_summ 4135 4140	[BOS]
+T27	Reflection 4371 4376	[BOS]
+T28	Reflection 4542 4547	[BOS]
+T29	Reflection 4715 4720	[BOS]
+T30	Reference 400 430	(Molnar; Caruana et al., 2015)
+T31	Reference 1016 1033	(Li et al., 2016b
+T32	Reference 1035 1053	Avati et al., 2017
+T33	Reference 1055 1075	Suresh et al., 2017)
+T34	Reference 1300 1319	(Erhan et al., 2009
+T35	Reference 1321 1343	Simonyan et al., 2013)
+T36	Reference 1525 1554	(Engelbrecht and Cloete, 1998
+T37	Reference 1556 1577	Simonyan et al., 2013
+T38	Reference 1579 1606	Aubakirova and Bansal, 2016
+T39	Reference 1608 1628	Sushil et al., 2018)
+T40	Reference 1726 1744	(Bach et al., 2015
+T41	Reference 1746 1767	Montavon et al., 2017
+T42	Reference 1769 1788	Arras et al., 2017)
+T43	Reference 1881 1906	(Kindermans et al., 2016)
+T44	Reference 2059 2083	(Shrikumar et al., 2017)
+T45	Reference 2200 2221	(Ribeiro et al., 2016
+T46	Reference 2223 2245	Lundberg and Lee, 2017
+T47	Reference 2247 2270	Lakkaraju et al., 2017)
+T48	Reference 2482 2501	(Chen et al., 2018)
+T49	Reference 2631 2652	(Hermann et al., 2015
+T50	Reference 2654 2671	Yang et al., 2016
+T51	Reference 2673 2691	Choi et al., 2016)
+T52	Dominant 2700 2721	Poerner et al. (2018)
+T53	Reference 3120 3139	(Erhan et al., 2009
+T54	Reference 3141 3162	Simonyan et al., 2013
+T55	Reference 3164 3182	Olah et al., 2018)
+T56	Reference 3454 3475	(Hermann et al., 2015
+T57	Reference 3477 3495	Li et al., 2016a,b
+T58	Reference 3497 3514	Yang et al., 2016
+T59	Reference 3516 3543	Aubakirova and Bansal, 2016
+T60	Reference 3545 3564	Arras et al., 2017)
+T61	Reference 3861 3882	(Andrews et al., 1995
+T62	Reference 3884 3907	Lakkaraju et al., 2017)
+T63	Dominant 3916 3928	Thrun (1993)
+T64	Dominant 4141 4164	Lakkaraju et al. (2017)
+T65	Reference 4562 4585	Lakkaraju et al. (2017)
+T66	Pronoun 531 536	these
+T67	Pronoun 627 631	this
+T68	Pronoun 3087 3092	these
+T69	Pronoun 3191 3196	These
+T70	Pronoun 3629 3634	their
+T71	Pronoun 3697 3701	this
+T72	Pronoun 3748 3752	this
+T73	Pronoun 4808 4813	these
+T74	B_span 367 373	linear
+T75	E_span 425 429	2015
+T76	B_span 922 927	input
+T77	E_span 1070 1074	2017
+T78	B_span 1207 1215	gradient
+T79	E_span 1338 1342	2013
+T80	B_span 1477 1490	infinitesimal
+T81	E_span 1623 1627	2018
+T82	B_span 1688 1697	layerwise
+T83	E_span 1787 1788	)
+T84	B_span 1836 1840	prod
+T85	E_span 1901 1905	2016
+T86	B_span 1968 1975	setting
+T87	E_span 2078 2082	2017
+T88	B_span 2115 2123	separate
+T89	E_span 2265 2269	2017
+T90	B_span 2453 2460	feature
+T91	E_span 2496 2500	2018
+T92	B_span 2605 2612	feature
+T93	E_span 2686 2690	2016
+T94	B_span 2700 2707	Poerner
+T95	E_span 2894 2897	NLP
+T96	B_span 3077 3086	visualize
+T97	E_span 3177 3181	2018
+T98	B_span 3436 3440	text
+T99	E_span 3559 3563	2017
+T100	B_span 3795 3799	rule
+T101	E_span 3902 3906	2017
+T102	B_span 3916 3921	Thrun
+T104	E_span 4124 4133	instances
+T103	B_span 4141 4150	Lakkaraju
+T105	E_span 4359 4368	explained
+T106	B_span 4562 4571	Lakkaraju
+T107	E_span 4619 4624	model

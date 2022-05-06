@@ -1,0 +1,15 @@
+T1	Reflection 0 5	[BOS]
+T2	Single_summ 102 107	[BOS]
+T3	Single_summ 219 224	[BOS]
+T4	Narrative_cite 368 373	[BOS]
+T5	Transition 450 455	[BOS]
+T6	Reflection 615 620	[BOS]
+T7	Dominant 125 152	Goldberg and Elhadad (2010)
+T8	Reference 399 420	(Tratz and Hovy, 2011
+T9	Reference 422 447	Goldberg and Nivre, 2013)
+T10	Pronoun 225 230	Their
+T11	Pronoun 374 378	This
+T12	B_span 108 114	Greedy
+T13	E_span 359 366	parsers
+T14	B_span 374 378	This
+T15	E_span 442 446	2013

@@ -1,0 +1,12 @@
+T1	Transition 1 4	BOS
+T2	B_span 169 172	Hwa
+T3	E_span 325 330	trees
+T4	Dominant 169 186	Hwa et al. (2005)
+T5	Single_summ 151 154	BOS
+T6	B_span 359 366	Ganchev
+T7	E_span 544 551	results
+T8	Dominant 359 380	Ganchev et al. (2009)
+T9	Dominant 385 408	Smith and Eisner (2009)
+T10	Multi_summ 333 336	BOS
+T11	Reflection 555 558	BOS
+T12	Pronoun 348 352	this

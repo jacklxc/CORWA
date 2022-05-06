@@ -1,0 +1,42 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 165 170	[BOS]
+T3	Narrative_cite 309 314	[BOS]
+T4	Transition 513 518	[BOS]
+T5	Transition 632 637	[BOS]
+T6	Transition 736 741	[BOS]
+T7	Transition 837 842	[BOS]
+T8	Narrative_cite 909 914	[BOS]
+T9	Reflection 1157 1162	[BOS]
+T10	Reflection 1326 1331	[BOS]
+T11	Narrative_cite 1484 1489	[BOS]
+T12	Single_summ 1595 1600	[BOS]
+T13	Single_summ 1685 1690	[BOS]
+T14	Reference 402 423	(May and Knight, 2007
+T15	Reference 425 447	DeNero and Klein, 2010
+T16	Reference 449 467	Pauls et al., 2010
+T17	Reference 469 489	Burkett et al., 2010
+T18	Reference 491 510	Riesa et al., 2011)
+T19	Reference 1038 1059	(Blunsom et al., 2008
+T20	Reference 1061 1075	Kriinen, 2009)
+T21	Reference 1131 1154	(Huang and Xiang, 2010)
+T22	Reference 1526 1546	(Pauls et al., 2010)
+T23	Reference 1572 1592	(Cohen et al., 2011)
+T24	Dominant 1601 1620	Saers et al. (2009)
+T25	B_span 376 382	phrase
+T26	E_span 505 509	2011
+T27	B_span 1008 1014	latent
+T28	E_span 1070 1074	2009
+T29	B_span 1118 1125	labeled
+T30	E_span 1149 1153	2010
+T31	B_span 1512 1520	parallel
+T32	E_span 1541 1545	2010
+T33	B_span 1558 1566	parallel
+T34	E_span 1587 1591	2011
+T35	B_span 1601 1604	Sae
+T36	E_span 1756 1765	induction
+T37	Pronoun 641 645	this
+T38	Pronoun 651 655	they
+T39	Pronoun 915 919	They
+T40	Pronoun 1490 1494	This
+T41	Pronoun 1691 1695	They
+T42	Pronoun 1702 1706	this

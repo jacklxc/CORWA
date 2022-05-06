@@ -1,0 +1,15 @@
+[BOS] Sequence labeling.
+[BOS] Linguistic sequence labeling is one of the fundamental tasks in NLP, encompassing various applications including POS tagging, chunking, and NER.
+[BOS] Many attempts have been made to conduct end-to-end learning and build reliable models without handcrafted features (Chiu and Nichols, 2016; Lample et al., 2016; Ma and Hovy, 2016) .
+
+[BOS] Language modeling.
+[BOS] Language modeling is a core task in NLP.
+[BOS] Many attempts have been paid to develop better neural language models (Zilly et al., 2017; Inan et al., 2016; Godin et al., 2017; Melis et al., 2017) .
+[BOS] Specifically, with extensive corpora, language models can be well trained to generate high-quality sentences from scratch (Jzefowicz et al., 2016; Grave et al., 2017; Li et al., 2018; Shazeer et al., 2017) .
+[BOS] Meanwhile, initial attempts have been made to improve the performance of other tasks with these methods.
+[BOS] Some methods treat the language modeling as an additional supervision, and conduct co-training for knowledge transfer (Dai and Le, 2015; Liu et al., 2018; Rei, 2017) .
+[BOS] Others, including this paper, aim to construct additional features (referred as contextualized representations) with the pre-trained language models (Peters et al., 2017 (Peters et al., , 2018 .
+[BOS] Neural Network Acceleration.
+[BOS] There are mainly three kinds of NN acceleration methods, i.e., prune network into smaller sizes (Han et al., 2015; Wen et al., 2016) , converting float operation into customized low precision arithmetic (Hubara et al., 2018; Courbariaux et al., 2016) , and using shallower networks to mimic the output of deeper ones (Hinton et al., 2015; Romero et al., 2014) .
+[BOS] However, most of them require costly retraining.
+

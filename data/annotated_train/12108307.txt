@@ -1,0 +1,13 @@
+[BOS] Most of previous event extraction work focused on supervised learning paradigm and trained event extractors on human-annotated data which yield relatively high performance.
+[BOS] (Ahn, 2006; Ji and Grishman, 2008; Hong et al., 2011; McClosky et al., 2011; Li et al., 2013 Li et al., , 2014 Nguyen and Grishman, 2015; Nguyen et al., 2016) .
+[BOS] However, these supervised methods depend on the quality of the training data and labeled training data is expensive to produce.
+[BOS] Unsupervised methods can extract large numbers of events without using labeled data (Chambers and Jurafsky, 2011; Cheung et al., 2013; Huang et al., 2016) .
+[BOS] But extracted events may not be easy to be mapped to events for a particular knowledge base.
+[BOS] Distant supervision have been used in relation extraction for automatically labeling training data (Mintz et al., 2009; Hinton et al., 2012; Krause et al., 2012; Krishnamurthy and Mitchell, 2012; Berant et al., 2013; Surdeanu et al., 2012; .
+[BOS] But DS for RE cannot directly use for EE.
+[BOS] For the reasons that an event is more complicated than a relation and the task of EE is more difficult than RE.
+[BOS] The best reported supervised RE and EE system got a F1-score of 88.0% (Wang et al., 2016) and 55.4% (Nguyen et al., 2016) respectively.
+[BOS] Reschke et al. (2014) extended the distant supervision approach to fill slots in plane crash.
+[BOS] However, the method can only extract arguments of one plane crash type and need flight number strings as input.
+[BOS] In other words, the approach cannot extract whole event with different types automatically.
+

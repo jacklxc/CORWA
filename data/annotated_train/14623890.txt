@@ -1,0 +1,11 @@
+[BOS] Online learning usually refers to supervised learning algorithms that update the model each time after processing a few training examples.
+[BOS] Many supervised learning algorithms are online or have online versions.
+[BOS] Active learning (Lewis and Gale, 1994; Tong and Koller, 2001; Laws et al., 2011 ) is another supervised learning framework that processes training examples -usually obtained interactively -in small batches (Bordes et al., 2005) .
+
+[BOS] All of this work on supervised online learning is not directly relevant to this paper since we address the problem of unsupervised DA.
+[BOS] Unlike online supervised learners, we keep the statistical model unchanged during DA and adopt a representation learning approach: each unlabeled context of a word is used to update its representation.
+
+[BOS] There is much work on unsupervised DA for POS tagging, including work using constraintbased methods (Subramanya et al., 2010; Rush et al., 2012) , instance weighting (Choi and Palmer, 2012) , self-training (Huang et al., 2009; Huang and Yates, 2010) , and co-training (Kbler and Baucom, 2011) .
+[BOS] All of this work uses batch learning.
+[BOS] For space reasons, we do not discuss supervised DA (e.g., Daum III and Marcu (2006) ).
+

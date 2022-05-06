@@ -1,0 +1,47 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 133 138	[BOS]
+T3	Transition 236 241	[BOS]
+T4	Transition 299 304	[BOS]
+T5	Transition 384 389	[BOS]
+T6	Narrative_cite 498 503	[BOS]
+T7	Transition 709 714	[BOS]
+T8	Multi_summ 770 775	[BOS]
+T9	Narrative_cite 963 968	[BOS]
+T10	Single_summ 1158 1163	[BOS]
+T11	Single_summ 1288 1293	[BOS]
+T12	Single_summ 1367 1372	[BOS]
+T13	Single_summ 1585 1590	[BOS]
+T14	Single_summ 1666 1671	[BOS]
+T15	Reference 661 681	(Saleem et al., 2016
+T16	Reference 683 705	Davidson et al., 2017)
+T17	Dominant 789 811	Watanabe et al. (2018)
+T18	Dominant 816 838	Davidson et al. (2017)
+T19	Dominant 884 907	Del Vigna et al. (2017)
+T20	Reference 1000 1022	Watanabe et al. (2018)
+T21	Reference 1049 1072	Del Vigna et al. (2017)
+T22	Dominant 1164 1186	Davidson et al. (2017)
+T23	Dominant 1373 1395	Waseem and Hovy (2016)
+T24	Dominant 1643 1663	Zhang and Luo (2018)
+T25	B_span 608 611	SVM
+T26	E_span 704 705	)
+T27	B_span 789 797	Watanabe
+T28	E_span 877 878	'
+T29	B_span 884 887	Del
+T30	E_span 960 961	.
+T31	B_span 978 979	j
+T32	E_span 1021 1022	)
+T33	B_span 1033 1036	SVM
+T34	E_span 1071 1072	)
+T35	B_span 1164 1172	Davidson
+T36	E_span 1365 1366	.
+T37	B_span 1373 1376	Was
+T38	E_span 1582 1583	.
+T40	E_span 1777 1778	.
+T41	Pronoun 185 189	this
+T42	Pronoun 258 263	these
+T43	Pronoun 305 307	It
+T44	Pronoun 366 371	these
+T45	Pronoun 1294 1299	Their
+T46	Pronoun 1672 1677	Their
+T47	Pronoun 1768 1773	their
+T39	B_span 1621 1627	neural

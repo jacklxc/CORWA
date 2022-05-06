@@ -1,0 +1,13 @@
+[BOS] The closest work to ours lies in the area of opendomain dialogue system incorporating unstructured knowledge.
+[BOS] Ghazvininejad et al. (2018) uses an extended Encoder-Decoder where the decoder is provided with an encoding of both the context and the external knowledge.
+[BOS] Parthasarathi and Pineau (2018) uses an architecture containing a Bag-of-Words Memory Network fact encoder and an RNN decoder.
+[BOS] Dinan et al. (2018) combines Memory Network architectures to retrieve, read and condition on knowledge, and Transformer architectures to provide text representation and generate outputs.
+[BOS] Different from these works, we greatly enhance the Transformer architectures to handle the document knowledge in multi-turn dialogue from two aspects: 1) using attention mechanism to combine document knowledge and context utterances; and 2) exploiting incremental encoding scheme to encode multi-turn knowledge aware conversations.
+
+[BOS] Our work is also inspired by several works in other areas.
+[BOS] Zhang et al. (2018) introduces document context into Transformer on document-level Neural Machine Translation (NMT) task.
+[BOS] devises the incremental encoding scheme based on rnn for story ending generation task.
+[BOS] In our work, we design an Incremental Transformer to achieve a knowledge-aware context representation using an incremental encoding scheme.
+[BOS] Xia et al. (2017) first proposes Deliberation Network based on rnn on NMT task.
+[BOS] Our Deliberation Decoder is different in two aspects: 1) We clearly devise the two decoders targeting context and knowledge respectively; 2) Our second pass decoder directly fine tunes the first pass result, while theirs uses both the hidden states and results from the first pass.
+

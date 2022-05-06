@@ -1,0 +1,31 @@
+[BOS] Early work on incorporating monolingual data into NMT concentrated on target-side monolingual data.
+[BOS] Jean et al. (2015) and Gulcehre et al. (2015) used a 5-gram language model and a recurrent neural network language model (RNNLM), respectively, to re-rank NMT outputs.
+[BOS] Gulcehre et al. (2015) also integrated a pre-trained RNNLM into NMT by concatenating hidden states.
+[BOS] Sennrich et al. (2016b) added monolingual target data directly to NMT using null source sentences and freezing encoder parameters while training with the monolingual data.
+[BOS] Our method is similar, although instead of using a null source sentence, we use a copy of the target sentence and train the encoder parameters on the copied sentence.
+[BOS] Sennrich et al. (2016b) also created synthetic parallel data by translating target-language monolingual text into the source language.
+[BOS] To perform this process, dubbed back-translation, they first trained an initial targetsource machine translation system on the available parallel data.
+[BOS] They then used this model to translate the monolingual corpus from the target language to the source language.
+[BOS] The resulting back-translated data was combined with the original parallel data and used to train the final sourcetarget NMT system.
+[BOS] Since this back-translation method outperforms previous methods that only train the decoder (Gulcehre et al., 2015; Sennrich et al., 2016b) , we use it as our baseline.
+[BOS] In addition, our method stacks with back-translation in both the targetsource and sourcetarget systems; we can use source text to improve the back-translations and target text to improve the final outputs.
+
+[BOS] In the mirror image of back-translation, Zhang and Zong (2016) added source-side monolingual data to NMT by first translating the source data into the target language using an initial machine translation system and then using this translated data and the original parallel data to train their NMT system.
+[BOS] Our method is orthogonal: it could improve the initial system or be used alongside the translated data in the final system.
+[BOS] They also considered a multitask shared encoder setup where the monolingual source data is used in a sentence reordering task.
+
+[BOS] More recent approaches have used both source and target monolingual data while simultaneously training sourcetarget and targetsource NMT systems.
+[BOS] Cheng et al. (2016) accomplished this by concatenating sourcetarget and targetsource NMT systems to create an autoencoder.
+[BOS] Monolingual data was then introduced by adding an autoencoder objective.
+[BOS] This can be interpreted as back-translation with joint training.
+[BOS] similarly used a small amount of parallel data to pre-train sourcetarget and targetsource NMT systems; they then added monolingual data to the systems by translating a sentence from the monolingual corpus into the other language and then translating it back into the original language, using reinforcement learning with rewards based on the language model score of the translated sentence and the similarity of the reconstructed sentence to the original.
+[BOS] Our approach also employs an autoencoder, but rather than concatenate two NMT systems, we have flattened them into one standard NMT system.
+
+[BOS] Our approach is related to multitask systems.
+[BOS] Luong et al. (2016) proposed conjoined translation and autoencoder networks; we use a single shared encoder.
+[BOS] Further work used the same encoder and decoder for multi-way translation (Johnson et al., 2016) .
+[BOS] We have repurposed the idea to inject monolingual text for low-resource NMT.
+[BOS] Their work combined multiple translation directions (e.g. FrenchEnglish, GermanEnglish, and EnglishGerman) into one system.
+[BOS] Our work combines e.g. EnglishEnglish and TurkishEnglish into one system for the purpose of improving TurkishEnglish quality.
+[BOS] They used only parallel data; our goal is to inject monolingual data.
+

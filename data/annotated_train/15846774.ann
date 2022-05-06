@@ -1,0 +1,91 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 147 152	[BOS]
+T3	Transition 433 438	[BOS]
+T4	Single_summ 550 555	[BOS]
+T5	Single_summ 675 680	[BOS]
+T6	Single_summ 916 921	[BOS]
+T7	Multi_summ 1090 1095	[BOS]
+T8	Transition 1403 1408	[BOS]
+T9	Single_summ 1506 1511	[BOS]
+T10	Narrative_cite 1639 1644	[BOS]
+T11	Transition 1878 1883	[BOS]
+T12	Transition 2037 2042	[BOS]
+T13	Single_summ 2138 2143	[BOS]
+T14	Narrative_cite 2387 2392	[BOS]
+T15	Transition 2689 2694	[BOS]
+T16	Multi_summ 2826 2831	[BOS]
+T17	Multi_summ 3071 3076	[BOS]
+T18	Single_summ 3210 3215	[BOS]
+T19	Single_summ 3470 3475	[BOS]
+T20	Single_summ 3608 3613	[BOS]
+T21	Single_summ 3792 3797	[BOS]
+T22	Transition 3850 3855	[BOS]
+T23	Single_summ 3998 4003	[BOS]
+T24	Multi_summ 4280 4285	[BOS]
+T25	Reflection 4546 4551	[BOS]
+T26	Dominant 29 60	Swampillai and Stevenson (2011)
+T27	Dominant 556 578	Gerber and Chai (2010)
+T28	Dominant 999 1025	(Ruppenhofer et al., 2010)
+T29	Reference 1258 1284	(Silberer and Frank, 2012)
+T30	Reference 1375 1400	(Laparra and Rigau, 2013)
+T31	Dominant 1525 1537	Girju (2003)
+T32	Reference 1847 1876	(Subba and Di Eugenio, 2009 )
+T33	Dominant 2183 2206	Kilicoglu et al. (2013)
+T34	Reference 2590 2613	(Yoshikawa et al., 2011
+T35	Reference 2615 2632	Miwa et al., 2012
+T36	Reference 2634 2661	Kilicoglu and Bergler, 2012
+T37	Reference 2663 2684	Lavergne et al., 2015
+T38	Dominant 2852 2870	(Kim et al., 2008)
+T39	Dominant 2891 2913	(Pyysalo et al., 2007)
+T40	Reference 3189 3207	(Kim et al., 2012)
+T41	Dominant 3239 3259	(Mihil et al., 2013)
+T42	Dominant 3497 3518	(Prasad et al., 2011)
+T43	Dominant 3614 3640	Mihil and Ananiadou (2014)
+T44	Dominant 4036 4053	(Xu et al., 2016)
+T45	Dominant 4318 4337	(Pons et al., 2016)
+T46	Dominant 4422 4447	UET-CAM (Le et al., 2015)
+T47	Pronoun 344 348	they
+T48	Pronoun 681 686	Their
+T49	Pronoun 967 972	their
+T50	Pronoun 1884 1886	It
+T51	Pronoun 2259 2264	their
+T52	Pronoun 2717 2721	they
+T53	Pronoun 3097 3102	these
+T54	Pronoun 3751 3756	their
+T55	Pronoun 3798 3802	They
+T56	Pronoun 3954 3958	they
+T57	Pronoun 4584 4589	these
+T58	B_span 6 8	In
+T59	E_span 421 431	extraction
+T60	B_span 556 562	Gerber
+T61	E_span 905 914	arguments
+T62	B_span 989 998	Discourse
+T63	E_span 1020 1024	2010
+T64	B_span 1233 1241	anaphora
+T65	E_span 1279 1283	2012
+T66	B_span 1354 1363	predicate
+T67	E_span 1395 1399	2013
+T68	B_span 1512 1515	For
+T69	E_span 1628 1637	answering
+T70	B_span 1827 1836	discourse
+T71	E_span 1870 1874	2009
+T72	B_span 2144 2152	Focusing
+T73	E_span 2375 2385	resolution
+T74	B_span 2548 2559	coreference
+T76	E_span 2680 2684	2015
+T75	B_span 2832 2834	GE
+T77	E_span 3202 3206	2012
+T78	B_span 3174 3182	relation
+T79	E_span 3202 3206	2012
+T80	B_span 3216 3218	In
+T81	E_span 3459 3468	annotated
+T82	B_span 3476 3478	In
+T83	E_span 3597 3606	causality
+T84	B_span 3614 3619	Mihil
+T86	B_span 4004 4007	The
+T87	E_span 4275 4278	CTD
+T88	B_span 4286 4295	Similarly
+T89	E_span 4413 4420	systems
+T90	B_span 4422 4425	UET
+T91	E_span 4534 4544	classifier
+T85	E_span 3838 3847	causality

@@ -1,0 +1,103 @@
+T1	Reflection 0 5	[BOS]
+T2	Transition 105 110	[BOS]
+T3	Transition 239 244	[BOS]
+T4	Transition 439 444	[BOS]
+T5	Narrative_cite 560 565	[BOS]
+T6	Transition 679 684	[BOS]
+T7	Narrative_cite 837 842	[BOS]
+T8	Single_summ 1075 1080	[BOS]
+T9	Narrative_cite 1298 1303	[BOS]
+T10	Transition 1583 1588	[BOS]
+T11	Single_summ 1711 1716	[BOS]
+T12	Single_summ 1866 1871	[BOS]
+T13	Transition 2143 2148	[BOS]
+T14	Narrative_cite 2240 2245	[BOS]
+T15	Reflection 2439 2444	[BOS]
+T16	Reflection 2569 2574	[BOS]
+T17	Narrative_cite 2698 2703	[BOS]
+T18	Transition 2935 2940	[BOS]
+T19	Narrative_cite 3085 3090	[BOS]
+T20	Narrative_cite 3194 3199	[BOS]
+T21	Transition 3411 3416	[BOS]
+T22	Transition 3576 3581	[BOS]
+T23	Single_summ 3746 3751	[BOS]
+T24	Single_summ 3914 3919	[BOS]
+T25	Single_summ 4035 4040	[BOS]
+T26	Narrative_cite 4210 4215	[BOS]
+T27	Transition 4365 4370	[BOS]
+T28	Multi_summ 4531 4536	[BOS]
+T29	Transition 4750 4755	[BOS]
+T30	Narrative_cite 4851 4856	[BOS]
+T31	Single_summ 4998 5003	[BOS]
+T32	Single_summ 5250 5255	[BOS]
+T33	Narrative_cite 5385 5390	[BOS]
+T34	Reflection 5512 5517	[BOS]
+T35	Narrative_cite 5860 5865	[BOS]
+T36	Reflection 6006 6011	[BOS]
+T37	Reflection 6080 6085	[BOS]
+T38	Single_summ 6201 6206	[BOS]
+T39	Reflection 6405 6410	[BOS]
+T40	Reference 653 676	(McDonald et al., 2011)
+T41	Reference 1008 1026	(Hwa et al., 2005)
+T42	Reference 1050 1072	(Lacroix et al., 2016)
+T43	Dominant 1081 1098	Agi et al. (2016)
+T44	Reference 1561 1579	(Ma and Xia, 2014)
+T45	Dominant 1731 1749	Lynn et al. (2014)
+T46	Reference 2414 2436	(Vilares et al., 2015)
+T47	Reference 2912 2932	(Nivre et al., 2016)
+T48	Reference 3173 3190	(Tiedemann, 2015)
+T49	Reference 3386 3407	(Zeman et al., , 2018
+T50	Dominant 3777 3800	Zeman and Resnik (2008)
+T51	Dominant 4041 4063	McDonald et al. (2011)
+T52	Reference 4334 4362	(Dryer and Haspelmath, 2013)
+T53	Dominant 4537 4557	Naseem et al. (2012)
+T54	Dominant 4562 4587	Zhang and Barzilay (2015)
+T55	Dominant 4653 4672	Ponti et al. (2018)
+T56	Reference 4894 4921	(stling and Tiedemann, 2017
+T57	Reference 4923 4944	Bjerva et al., 2019 )
+T58	Dominant 5004 5025	Tckstrm et al. (2013)
+T59	Reference 5316 5336	Naseem et al. (2012)
+T60	Reference 5489 5509	(Ammar et al., 2016)
+T61	Reference 5955 5976	(Naseem et al., 2012)
+T62	Dominant 6216 6235	Ammar et al. (2016)
+T63	B_span 630 633	low
+T64	E_span 671 675	2011
+T65	B_span 997 1007	heuristics
+T66	E_span 1021 1025	2005
+T67	B_span 1030 1037	partial
+T68	E_span 1067 1071	2016
+T69	B_span 1081 1084	Agi
+T70	E_span 1286 1296	alignments
+T71	B_span 1539 1542	low
+T72	E_span 1574 1578	2014
+T73	B_span 1717 1720	For
+T74	E_span 2134 2140	tested
+T75	B_span 2395 2406	monolingual
+T76	E_span 2431 2435	2015
+T77	B_span 2894 2904	dependency
+T78	E_span 2927 2931	2016
+T79	B_span 3151 3156	cross
+T80	E_span 3185 3189	2015
+T81	Reference 3367 3385	Zeman et al., 2017
+T82	B_span 3313 3319	highly
+T83	E_span 3403 3407	2018
+T84	B_span 3756 3764	approach
+T85	E_span 4026 4033	related
+T86	B_span 4041 4049	McDonald
+T87	E_span 4200 4207	parsers
+T88	B_span 4311 4320	structure
+T89	E_span 4357 4361	2013
+T90	B_span 4537 4543	Naseem
+T91	E_span 4742 4747	order
+T92	B_span 4874 4882	language
+T93	E_span 4938 4942	2019
+T94	B_span 5004 5011	Tckstrm
+T96	E_span 5376 5382	useful
+T97	B_span 5272 5283	typological
+T98	E_span 5331 5335	2012
+T95	B_span 5469 5481	multilingual
+T99	E_span 5504 5508	2016
+T100	B_span 5950 5954	WALS
+T101	E_span 5971 5975	2012
+T102	B_span 6216 6221	Ammar
+T103	E_span 6398 6403	clear

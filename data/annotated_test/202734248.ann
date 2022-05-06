@@ -1,0 +1,58 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 236 241	[BOS]
+T3	Transition 462 467	[BOS]
+T4	Transition 585 590	[BOS]
+T5	Reflection 736 741	[BOS]
+T6	Narrative_cite 841 846	[BOS]
+T7	Transition 1048 1053	[BOS]
+T8	Single_summ 1274 1279	[BOS]
+T9	Single_summ 1465 1470	[BOS]
+T10	Single_summ 1587 1592	[BOS]
+T11	Single_summ 1699 1704	[BOS]
+T12	Single_summ 1832 1837	[BOS]
+T13	Single_summ 1956 1961	[BOS]
+T14	Single_summ 2119 2124	[BOS]
+T15	Single_summ 2281 2286	[BOS]
+T16	Single_summ 2436 2441	[BOS]
+T17	Reflection 2600 2605	[BOS]
+T18	Reflection 2838 2843	[BOS]
+T19	Reference 99 120	(Walker et al., 2001)
+T20	Reference 412 432	(Ritter et al., 2011
+T21	Reference 434 459	Higashinaka et al., 2014)
+T22	Reference 992 1008	(Lu and Li, 2013
+T23	Reference 1010 1025	Ji et al., 2014
+T24	Reference 1027 1045	Wang et al., 2015)
+T25	Dominant 1287 1305	Lowe et al. (2015)
+T26	Dominant 1471 1491	Kadlec et al. (2015)
+T27	Dominant 1705 1724	Baudi et al. (2016)
+T28	Dominant 1838 1856	Zhou et al. (2016)
+T29	Dominant 1971 1987	Xu et al. (2017)
+T30	Dominant 2125 2141	Wu et al. (2017)
+T31	Dominant 2287 2306	Zhang et al. (2018)
+T32	Dominant 2442 2460	Zhou et al. (2018)
+T33	B_span 80 85	rules
+T34	E_span 119 120	)
+T35	B_span 381 385	open
+T36	E_span 458 459	)
+T37	B_span 946 950	only
+T38	E_span 1044 1045	)
+T39	B_span 1287 1290	Low
+T40	E_span 1463 1464	.
+T41	B_span 1471 1474	Kad
+T43	B_span 1705 1707	Ba
+T44	E_span 1830 1831	.
+T45	B_span 1838 1842	Zhou
+T46	E_span 1954 1955	.
+T47	B_span 1971 1973	Xu
+T48	E_span 2117 2118	.
+T49	B_span 2125 2127	Wu
+T50	E_span 2279 2280	.
+T51	B_span 2287 2292	Zhang
+T52	E_span 2434 2435	.
+T53	B_span 2442 2446	Zhou
+T54	E_span 2597 2598	.
+T55	Pronoun 745 749	this
+T56	Pronoun 1060 1062	it
+T57	Pronoun 1155 1160	their
+T58	Pronoun 2188 2193	their
+T59	E_span 1690 1697	network

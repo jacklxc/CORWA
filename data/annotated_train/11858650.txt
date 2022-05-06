@@ -1,0 +1,13 @@
+[BOS] Recently, data-driven approaches to modeling temporal relations for written text have been gaining momentum.
+[BOS] Boguraev and Ando (2005) apply a semi-supervised learning technique to recognize events and to infer temporal relations between time expressions and their anchored events.
+[BOS] Mani et al. (2006) model temporal relations between events as well as between events and time expressions using maximum entropy classifiers.
+[BOS] The participants of TempEval-1 investigate a variety of techniques for temporal analysis of text (Verhagen et al., 2007) .
+
+[BOS] While most data-driven techniques model temporal relations as local pairwise classifiers, this approach has the limitation that there is no systematic mechanism to ensure global consistencies among predicted temporal relations (e.g., if event A happens before event B and event B happens before event C, then A should happen before C).
+[BOS] To avoid this drawback, a line of research has explored techniques for the global optimization of local classifier decisions.
+[BOS] Chambers and Jurafsky (2008) add global constraints over local classifiers using Integer Linear Programming.
+[BOS] Yoshikawa et al. (2009) jointly model related temporal classification tasks using ML.
+[BOS] These approaches are shown to improve the accuracy of temporal relation models.
+
+[BOS] Our work is most closely related to Yoshikawa et al. (2009)
+

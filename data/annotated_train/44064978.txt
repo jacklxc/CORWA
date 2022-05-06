@@ -1,0 +1,11 @@
+[BOS] This study focuses on generic summarization.
+[BOS] It is different from the query-based summarization (Daum III and Marcu, 2006; Dang and Owczarzak, 2008) , where systems are trained to select text pieces related to predefined queries.
+[BOS] In this work we have no predefined queries but the system carefully generates questions from human abstracts and learns to produce generic summaries that are capable of answering all questions.
+[BOS] Cloze questions have been used in reading comprehension (Richardson et al., 2013; Weston et al., 2016; Mostafazadeh et al., 2016; Rajpurkar et al., 2016) to test the system's ability to perform reasoning and language understanding.
+[BOS] Hermann et al. (2015) describe an approach to extract (context, question, answer) triples from news articles.
+[BOS] Our work draws on this approach to automatically create questions from human abstracts.
+
+[BOS] Reinforcement learning (RL) has been recently applied to a number of NLP applications, including dialog generation (Li et al., 2017) , machine translation (MT) (Ranzato et al., 2016; Gu et al., 2018) , question answering (Choi et al., 2017) , and summarization and sentence simplification (Zhang and Lapata, 2017; Paulus et al., 2017; Chen and Bansal, 2018; Narayan et al., 2018) .
+[BOS] This study leverages RL to explore the space of possible extractive summaries.
+[BOS] The summaries are encouraged to preserve salient source content useful for answering questions as well as sharing common words with the abstracts.
+

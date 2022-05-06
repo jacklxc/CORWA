@@ -1,0 +1,15 @@
+[BOS] There has been much work on incorporating tree structures into deep models for syntax-aware language modeling, both for unconditional (Emami and Jelinek, 2005; Buys and Blunsom, 2015; Dyer et al., 2016) and conditional (Yin and Neubig, 2017; Alvarez-Melis and Jaakkola, 2017; Rabinovich et al., 2017; Aharoni and Goldberg, 2017; Eriguchi et al., 2017; Wang et al., 2018; Gu et al., 2018) cases.
+[BOS] These approaches generally rely on annotated parse trees during training and maximizes the joint likelihood of sentence-tree pairs.
+[BOS] Prior work on combining language modeling and unsupervised tree learning typically embed soft, tree-like structures as hidden layers of a deep net- 23 The main time bottleneck is the dynamic compution graph, since the dynamic programming algorithm can be batched (however the latter is a significant memory bottleneck).
+[BOS] We manually batch the SHIFT and REDUCE operation as much as possible, though recent work on auto-batching could potentially make this easier/faster.
+[BOS] 24 Many prior works that induce trees directly from words often employ additional heuristics based on punctuation (Seginer, 2007; Ponvert et al., 2011; Spitkovsky et al., 2013; Parikh et al., 2014) , as punctuation (e.g. comma) is usually a reliable signal for start/end of constituent spans.
+[BOS] In contrast the URNNG still has to learn to rely on punctuation.
+[BOS] We also reiterate that punctuation is used during training but ignored during evaluation (except in Table 4 ), as with the prior works mentioned above.
+
+[BOS] work (Cho et al., 2014; Chung et al., 2017; Shen et al., 2018 Shen et al., , 2019 .
+[BOS] In contrast, Buys and Blunsom (2018) make Markov assumptions and perform exact marginalization over latent dependency trees.
+[BOS] Our work is also related to the recent line of work on learning latent trees as part of a deep model through supervision on other tasks, typically via differentiable structured hidden layers (Kim et al., 2017; Bradbury and Socher, 2017; Tran and Bisk, 2018; Peng et al., 2018; Niculae et al., 2018; , policy gradient-based approaches (Yogatama et al., 2017; Williams et al., 2018; Havrylov et al., 2019) , or differentiable relaxations (Choi et al., 2018; Maillard and Clark, 2018) .
+
+[BOS] The variational approximation uses amortized inference (Kingma and Welling, 2014; Mnih and Gregor, 2014; Rezende et al., 2014) , in which an inference network is used to obtain the variational posterior for each observed x.
+[BOS] Since our inference network is structured (i.e., a CRF), it is also related to CRF autoencoders (Ammar et al., 2014) and structured VAEs (Johnson et al., 2016; Krishnan et al., 2017) , which have been used previously for unsupervised (Cai et al., 2017; Drozdov et al., 2019; Li et al., 2019) and semi-supervised (Yin et al., 2018; Corro and Titov, 2019) parsing.
+

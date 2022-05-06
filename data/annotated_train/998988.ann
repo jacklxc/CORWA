@@ -1,0 +1,53 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 71 76	[BOS]
+T3	Single_summ 190 195	[BOS]
+T4	Single_summ 415 420	[BOS]
+T5	Single_summ 584 589	[BOS]
+T6	Single_summ 821 826	[BOS]
+T7	Reflection 935 940	[BOS]
+T8	Single_summ 1022 1027	[BOS]
+T9	Reflection 1154 1159	[BOS]
+T10	Reflection 1200 1205	[BOS]
+T11	Reflection 1370 1375	[BOS]
+T12	Reflection 1489 1494	[BOS]
+T13	Reflection 1640 1645	[BOS]
+T14	Reflection 1737 1742	[BOS]
+T15	Reflection 1820 1825	[BOS]
+T16	Other 1907 1912	[BOS]
+T17	Other 2058 2063	[BOS]
+T18	Other 2066 2071	[BOS]
+T19	Reflection 2158 2163	[BOS]
+T20	Reflection 2267 2272	[BOS]
+T21	Reflection 2345 2350	[BOS]
+T22	Transition 2453 2458	[BOS]
+T23	Transition 2550 2555	[BOS]
+T24	Reflection 2651 2656	[BOS]
+T25	Reflection 2716 2721	[BOS]
+T26	Reference 134 154	(Xue and Shen, 2003)
+T27	Dominant 203 228	(Peng and McCallum, 2004)
+T28	Reference 389 413	(Lafferty et al., 2001 )
+T29	Dominant 662 684	(Asahara et al., 2005)
+T30	Dominant 827 843	(Nakagawa, 2004)
+T31	Reference 1085 1110	(Peng and McCallum, 2004)
+T32	B_span 105 112	Chinese
+T33	E_span 149 153	2003
+T34	B_span 203 204	(
+T35	E_span 407 411	2001
+T36	B_span 624 628	some
+T37	E_span 809 819	approaches
+T38	B_span 827 828	(
+T39	E_span 923 933	seamlessly
+T40	B_span 1028 1031	The
+T41	E_span 1148 1152	OOVs
+T42	Pronoun 42 46	this
+T43	Pronoun 77 79	It
+T44	Pronoun 351 353	it
+T45	Pronoun 454 458	this
+T46	Pronoun 539 541	It
+T47	Pronoun 590 594	This
+T48	Pronoun 693 697	they
+T49	Pronoun 1119 1121	it
+T50	Pronoun 1163 1167	this
+T51	Pronoun 1181 1183	it
+T52	E_span 407 411	2001
+T53	B_span 370 375	label

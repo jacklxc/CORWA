@@ -1,0 +1,50 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 300 305	[BOS]
+T3	Reflection 398 403	[BOS]
+T4	Reflection 510 515	[BOS]
+T5	Single_summ 574 579	[BOS]
+T6	Single_summ 706 711	[BOS]
+T7	Single_summ 848 853	[BOS]
+T8	Transition 1071 1076	[BOS]
+T9	Narrative_cite 1229 1234	[BOS]
+T10	Reflection 1541 1546	[BOS]
+T11	Reflection 1684 1689	[BOS]
+T12	Narrative_cite 1828 1833	[BOS]
+T13	Transition 2015 2020	[BOS]
+T14	Transition 2123 2128	[BOS]
+T15	Single_summ 2269 2274	[BOS]
+T16	Reflection 2381 2386	[BOS]
+T17	Reflection 2444 2449	[BOS]
+T18	Narrative_cite 2637 2642	[BOS]
+T19	Reflection 2915 2920	[BOS]
+T20	Reflection 3054 3059	[BOS]
+T21	Reference 372 395	Madnani and Dorr (2010)
+T22	Dominant 670 703	Bannard and Callison-Burch (2005)
+T23	Reference 1338 1364	(Ganitkevitch et al., 2011
+T24	Reference 1366 1387	Madnani et al., 2007)
+T25	Reference 1471 1494	(Callison-Burch, 2008 )
+T26	Reference 1518 1537	(Zhao et al., 2008)
+T27	Reference 1988 2012	(Sutskever et al., 2014)
+T28	Dominant 2298 2322	(Bahdanau et al., 2014 )
+T29	Reference 2743 2765	(Zoph and Knight, 2016
+T30	Reference 2767 2784	Dong et al., 2015
+T31	Reference 2786 2805	Firat et al., 2016a
+T32	Pronoun 325 330	these
+T33	Pronoun 712 717	Their
+T34	Pronoun 2032 2036	this
+T35	B_span 306 309	For
+T36	E_span 390 394	2010
+T37	B_span 580 589	Bilingual
+T38	E_span 1056 1068	respectively
+T39	B_span 1305 1316	synchronous
+T40	E_span 1382 1386	2007
+T41	B_span 1399 1407	labeling
+T42	E_span 1488 1492	2008
+T43	B_span 1499 1505	partof
+T44	E_span 1532 1536	2008
+T45	B_span 1920 1928	sequence
+T46	E_span 2007 2011	2014
+T47	B_span 2275 2277	An
+T48	E_span 2370 2378	decoding
+T49	B_span 2724 2730	single
+T50	E_span 2800 2805	2016a

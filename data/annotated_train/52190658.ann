@@ -1,0 +1,87 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 143 148	[BOS]
+T3	Reflection 316 321	[BOS]
+T4	Single_summ 425 430	[BOS]
+T5	Single_summ 541 546	[BOS]
+T6	Single_summ 618 623	[BOS]
+T7	Reflection 761 766	[BOS]
+T8	Multi_summ 860 865	[BOS]
+T9	Single_summ 1014 1019	[BOS]
+T10	Single_summ 1142 1147	[BOS]
+T11	Reflection 1308 1313	[BOS]
+T12	Reflection 1368 1373	[BOS]
+T13	Single_summ 1467 1472	[BOS]
+T14	Single_summ 1673 1678	[BOS]
+T15	Reflection 1728 1733	[BOS]
+T16	Reflection 1826 1831	[BOS]
+T17	Transition 1891 1896	[BOS]
+T18	Single_summ 1989 1994	[BOS]
+T19	Single_summ 2117 2122	[BOS]
+T20	Reflection 2193 2198	[BOS]
+T21	Single_summ 2276 2281	[BOS]
+T22	Multi_summ 2352 2357	[BOS]
+T23	Multi_summ 2505 2510	[BOS]
+T24	Reflection 2573 2578	[BOS]
+T25	Transition 2655 2660	[BOS]
+T26	Narrative_cite 2726 2731	[BOS]
+T27	Transition 2873 2878	[BOS]
+T28	Narrative_cite 3035 3040	[BOS]
+T29	Transition 3184 3189	[BOS]
+T30	Reflection 3360 3365	[BOS]
+T31	Reflection 3445 3450	[BOS]
+T32	Reflection 3611 3616	[BOS]
+T33	Reference 245 270	(Sundermeyer et al., 2014
+T34	Reference 272 291	Tamura et al., 2014
+T35	Reference 293 313	Devlin et al., 2014)
+T36	Dominant 478 501	(Alkhouli et al., 2016)
+T37	Dominant 624 647	Alkhouli and Ney (2017)
+T38	Dominant 975 993	(Yang et al., 2013
+T39	Dominant 995 1011	Yu et al., 2017)
+T40	Dominant 1122 1139	(Yu et al., 2016)
+T41	Dominant 1476 1493	(Yu et al., 2017)
+T42	Dominant 1995 2013	Cohn et al. (2016)
+T43	Dominant 2282 2302	Arthur et al. (2016)
+T44	Dominant 2358 2376	Chen et al. (2016)
+T45	Dominant 2381 2397	Mi et al. (2016)
+T46	Reference 2850 2870	(Crego et al., 2016)
+T47	Reference 3091 3112	(Hokamp and Liu, 2017
+T48	Reference 3114 3137	Chatterjee et al., 2017
+T49	Reference 3139 3158	Hasler et al., 2018
+T50	Reference 3160 3182	Post and Vilar, 2018 )
+T51	Pronoun 149 153	They
+T52	Pronoun 325 329	this
+T53	Pronoun 547 551	They
+T54	Pronoun 770 774	this
+T55	Pronoun 1148 1153	Their
+T56	Pronoun 1317 1321	this
+T57	Pronoun 1679 1683	They
+T58	Pronoun 1737 1741	this
+T59	Pronoun 2123 2128	These
+T60	Pronoun 2511 2515	This
+T61	Pronoun 2761 2765	this
+T62	Pronoun 2795 2799	this
+T63	Pronoun 2938 2942	this
+T64	Pronoun 3190 3194	This
+T65	Pronoun 3263 3265	it
+T66	B_span 211 223	conventional
+T67	E_span 308 312	2014
+T68	B_span 431 440	Alignment
+T70	E_span 608 616	decoding
+T69	B_span 624 632	Alkhouli
+T71	E_span 748 759	information
+T72	B_span 866 874	Deriving
+T73	E_span 1006 1010	2017
+T74	B_span 1020 1029	Alignment
+T75	E_span 1297 1306	expensive
+T76	B_span 1473 1475	In
+T77	E_span 1722 1726	task
+T78	B_span 1995 1999	Cohn
+T79	E_span 2182 2191	contained
+T80	B_span 2282 2288	Arthur
+T81	E_span 2341 2350	attention
+T82	B_span 2358 2362	Chen
+T84	E_span 2563 2571	decoding
+T83	B_span 2809 2816	knowing
+T85	E_span 2865 2869	2016
+T86	B_span 3070 3081	constrained
+T87	E_span 3176 3180	2018

@@ -1,0 +1,23 @@
+[BOS] We first provide a brief review on related works for attacking text classification models.
+[BOS] Liang et al. (2018) propose to find appropriate words for insertion, deletion and replacement by calculating the word frequency and the highest gradient magnitude of the cost function.
+[BOS] But their method involves considerable human participation in crafting the adversarial examples.
+[BOS] To maintain semantic similarity and avoid human detection, it requires human efforts such as searching related facts online for insertion.
+
+[BOS] Therefore, subsequent research are mainly based on the word substitution strategy so as to avoid artificial fabrications and achieve automatic generations.
+[BOS] The key difference of these subsequent methods is on how they generate substitute words.
+[BOS] Samanta and Mehta (2017) propose to build a candidate pool that includes synonyms, typos and genre specific keywords.
+[BOS] They adopt Fast Gradient Sign Method (FGSM) (Goodfellow et al., 2015) to pick a candidate word for replacement.
+[BOS] Papernot et al. (2016b) perturb a word vector by calculating forward derivative (Papernot et al., 2016a) and map the perturbed word vector to a closest word in the word embedding space.
+[BOS] Yang et al. (2018) derive two methods, Greedy Attack based on perturbation, and Gumbel Attack based on scalable learning.
+[BOS] Aiming to restore the interpretability of adversarial attacks based on word substitution strategy, Sato et al. (2018) restrict the direction of perturbations towards existing words in the input embedding space.
+
+[BOS] As the above methods all need to calculate the gradient with access to the model structure, model parameters, and the feature set of the inputs, they are classified as white-box attacks.
+[BOS] To achieve attack under a black-box setting, which assumes no access to the details of the model or the feature representation of the inputs, Alzantot et al. (2018) propose to use a population-based optimization algorithm.
+[BOS] Gao et al. (2018) present a DeepWordBug algorithm to generate small perturbations in the character-level for black-box attack.
+[BOS] They sort the tokens based on the importance evaluated by four functions, and make random token transformations such as substitution and deletion with the constraint of edit distance.
+[BOS] Ebrahimi et al. (2018) also propose a token transformation method, and it is based on the gradients of the one-hot input vectors.
+[BOS] The downside of the character-level perturbations is that they usually lead to lexical errors, which hurts the readability and can easily be perceived by humans.
+
+[BOS] The related works have achieved good results for text adversarial attacks, but there is still much room for improvement regarding the percentage of modifications, attacking success rate, maintenance on lexical as well as grammatical correctness and semantic similarity, etc.
+[BOS] Based on the synonyms substitution strategy, we propose a novel blackbox attack method called PWWS for the NLP classification tasks and contribute to the field of adversarial machine learning.
+

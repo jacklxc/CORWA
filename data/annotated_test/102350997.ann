@@ -1,0 +1,81 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 401 406	[BOS]
+T3	Transition 539 544	[BOS]
+T4	Reflection 865 870	[BOS]
+T5	Narrative_cite 1020 1025	[BOS]
+T6	Transition 1319 1324	[BOS]
+T7	Reflection 1390 1395	[BOS]
+T8	Narrative_cite 1549 1554	[BOS]
+T9	Single_summ 1639 1644	[BOS]
+T10	Narrative_cite 1770 1775	[BOS]
+T11	Narrative_cite 2261 2266	[BOS]
+T12	Narrative_cite 2491 2496	[BOS]
+T13	Reference 140 164	(Emami and Jelinek, 2005
+T14	Reference 166 188	Buys and Blunsom, 2015
+T15	Reference 190 208	Dyer et al., 2016)
+T16	Reference 225 246	(Yin and Neubig, 2017
+T17	Reference 248 280	Alvarez-Melis and Jaakkola, 2017
+T18	Reference 282 305	Rabinovich et al., 2017
+T19	Reference 307 333	Aharoni and Goldberg, 2017
+T20	Reference 335 356	Eriguchi et al., 2017
+T21	Reference 358 375	Wang et al., 2018
+T22	Reference 377 393	Gu et al., 2018)
+T23	Reference 1140 1154	(Seginer, 2007
+T24	Reference 1156 1176	Ponvert et al., 2011
+T25	Reference 1178 1201	Spitkovsky et al., 2013
+T26	Reference 1203 1223	Parikh et al., 2014)
+T27	Reference 1560 1577	(Cho et al., 2014
+T28	Reference 1579 1597	Chung et al., 2017
+T30	Dominant 1658 1681	Buys and Blunsom (2018)
+T31	Reference 1967 1984	(Kim et al., 2017
+T32	Reference 1986 2011	Bradbury and Socher, 2017
+T33	Reference 2013 2032	Tran and Bisk, 2018
+T34	Reference 2034 2051	Peng et al., 2018
+T35	Reference 2053 2073	Niculae et al., 2018
+T36	Reference 2110 2132	(Yogatama et al., 2017
+T37	Reference 2134 2155	Williams et al., 2018
+T38	Reference 2157 2179	Havrylov et al., 2019)
+T39	Reference 2212 2230	(Choi et al., 2018
+T40	Reference 2232 2257	Maillard and Clark, 2018)
+T41	Reference 2322 2347	(Kingma and Welling, 2014
+T42	Reference 2349 2370	Mnih and Gregor, 2014
+T43	Reference 2372 2393	Rezende et al., 2014)
+T44	Reference 2593 2613	(Ammar et al., 2014)
+T45	Reference 2634 2655	(Johnson et al., 2016
+T46	Reference 2657 2679	Krishnan et al., 2017)
+T47	Reference 2731 2748	(Cai et al., 2017
+T48	Reference 2750 2770	Drozdov et al., 2019
+T49	Reference 2772 2788	Li et al., 2019)
+T50	Reference 2809 2826	(Yin et al., 2018
+T51	Reference 2828 2850	Corro and Titov, 2019)
+T52	Pronoun 407 412	These
+T53	Pronoun 1000 1004	this
+T54	Pronoun 1100 1102	it
+T56	B_span 126 139	unconditional
+T74	E_span 390 392	18
+T55	B_span 213 224	conditional
+T57	E_span 205 207	16
+T58	B_span 1128 1139	punctuation
+T59	E_span 1218 1222	2014
+T60	B_span 1561 1564	Cho
+T65	E_span 1632 1636	2019
+T29	Reference 1599 1616	Shen et al., 2018
+T66	Reference 1617 1636	Shen et al., , 2019
+T69	B_span 1658 1662	Buys
+T70	E_span 1763 1768	trees
+T71	B_span 1927 1934	differe
+T72	E_span 2070 2073	018
+T73	B_span 2077 2083	policy
+T75	E_span 2174 2179	2019)
+T76	B_span 2185 2189	diff
+T77	E_span 2252 2257	2018)
+T78	B_span 2302 2308	amorti
+T79	E_span 2388 2392	2014
+T80	B_span 2576 2579	CRF
+T81	E_span 2608 2612	2014
+T82	B_span 2618 2620	st
+T83	E_span 2674 2678	2017
+T84	B_span 2718 2720	un
+T85	E_span 2784 2787	019
+T86	B_span 2793 2795	se
+T87	E_span 2846 2849	019

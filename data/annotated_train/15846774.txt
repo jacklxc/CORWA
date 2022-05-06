@@ -1,0 +1,29 @@
+[BOS] In the general domain, Swampillai and Stevenson (2011) used an SVM-based approach to address inter-sentential relations in the MUC6 dataset.
+[BOS] Adapting structural features used for intra-sentential relation extraction (e.g., parse trees) to the inter-sentential case and addressing the data sparsity problem by hyperplane adjustment, they were able to obtain comparable performance to intra-sentential relation extraction.
+[BOS] A relevant research thread in semantic role labeling (SRL) is concerned with implicit arguments of predicates.
+[BOS] Gerber and Chai (2010) studied implicit arguments of a small number of nominal predicates, such as price and shipping.
+[BOS] Their model used a variety of features such as VerbNet classes and semantic roles for predicates and arguments, sentence distance, predicate frequency, and pointwise mutual information between arguments to identify implicit arguments.
+[BOS] The SemEval-2010 Task 10: Linking Events and their Participants in Discourse (Ruppenhofer et al., 2010) addressed the same problem on a larger set of event predicates.
+[BOS] The participating systems performed very poorly; however, more recent studies were able to improve results, by casting the problem as an anaphora resolution task (Silberer and Frank, 2012) and by using the previously identified explicit arguments of a given predicate in linking (Laparra and Rigau, 2013) .
+[BOS] Causal relations have also been studied in the general domain from a wide range of perspectives.
+[BOS] For example, Girju (2003) learned patterns indicating causal relationships between noun phrases to improve question answering.
+[BOS] Other research focused on causal relations between discourse segments (rather than individual entities) and generally reported poorer results on causal relations than other types of discourse relations (Subba and Di Eugenio, 2009 ).
+[BOS] It should be noted that most research on implicit arguments and causal relations assume the presence of explicit triggers (e.g., produce, as a result).
+
+[BOS] In the biomedical domain, there is little work that specifically addresses implicit arguments.
+[BOS] Focusing on consumer health questions, Kilicoglu et al. (2013) incorporated resolution of anaphora and ellipsis to their question frame extraction pipeline and reported an 18 point improvement in F 1 score due to implicit argument resolution.
+[BOS] Coreference resolution has been studied as a strategy to recover implicit arguments and improve event extraction and varying degrees of improvement due to coreference resolution have been reported (Yoshikawa et al., 2011; Miwa et al., 2012; Kilicoglu and Bergler, 2012; Lavergne et al., 2015; .
+
+[BOS] Regardless of whether they are expressed implicitly, a wide range of causal relations have also been addressed in biomedical text.
+[BOS] GE-NIA event corpus (Kim et al., 2008) and BioInfer corpus (Pyysalo et al., 2007) contain causal relationships between genes/proteins (e.g., REG-ULATION, POSITIVE REGULATION, and NEGA-TIVE REGULATION), in addition to other relation types.
+[BOS] Causal relations in these corpora were often found to be more challenging to identify than other relation types (Kim et al., 2012) .
+[BOS] In the BioCause corpus (Mihil et al., 2013) , causality was addressed as a discourse coherence relation and 850 causal discourse relations from fulltext journal articles on infectious diseases (94% of which have explicit causal triggers) were annotated.
+[BOS] In the BioDRB corpus (Prasad et al., 2011) , a larger number of discourse relation types were annotated, one of which is causality.
+[BOS] Mihil and Ananiadou (2014) focused on discourse causality in BioCause and used a semi-supervised method to recognize causal triggers and their arguments in biomedical discourse.
+[BOS] They did not address implicit discourse causality.
+
+[BOS] BioCreative V CID task involved chemicaldisease relationships at the discourse level, even though they were often not specifically addressed.
+[BOS] The top-ranked system (CD-REST) (Xu et al., 2016) incorporated a discourse-level classifier, which interestingly performed better than the sentence-level classifier; however, most of the performance gain was due to features extracted from curated resources, particularly CTD.
+[BOS] Similarly, the next best system (Pons et al., 2016) used domain knowledge from various databases, and one of better performing systems, UET-CAM (Le et al., 2015) , incorporated features from coreference resolution into an intra-sentential relation classifier.
+[BOS] The present study diverges from these studies by specifically addressing implicit, discourse-level causality and focusing on textual characteristics.
+

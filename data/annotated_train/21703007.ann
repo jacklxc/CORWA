@@ -1,0 +1,73 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 115 120	[BOS]
+T3	Narrative_cite 379 384	[BOS]
+T4	Narrative_cite 524 529	[BOS]
+T5	Transition 737 742	[BOS]
+T6	Transition 884 889	[BOS]
+T7	Transition 1066 1071	[BOS]
+T8	Single_summ 1153 1158	[BOS]
+T9	Single_summ 1279 1284	[BOS]
+T10	Single_summ 1426 1431	[BOS]
+T11	Single_summ 1544 1549	[BOS]
+T12	Single_summ 1669 1674	[BOS]
+T13	Reflection 1769 1774	[BOS]
+T14	Reflection 1921 1926	[BOS]
+T15	Single_summ 2053 2058	[BOS]
+T16	Single_summ 2275 2280	[BOS]
+T17	Reflection 2441 2446	[BOS]
+T18	Multi_summ 2598 2603	[BOS]
+T19	Single_summ 2829 2834	[BOS]
+T20	Transition 2973 2978	[BOS]
+T21	Single_summ 3031 3036	[BOS]
+T22	Single_summ 3159 3164	[BOS]
+T23	Reference 260 282	(Vinyals et al., 2015)
+T24	Reference 313 335	(Dhingra et al., 2017a
+T25	Reference 337 357	Wang and Jiang, 2017
+T26	Reference 359 375	Seo et al., 2017
+T27	Reference 455 476	(Hermann et al., 2015
+T28	Reference 478 495	Hill et al., 2015
+T29	Reference 497 520	Rajpurkar et al., 2016)
+T30	Reference 595 615	(Nguyen et al., 2016
+T31	Reference 617 634	Dunn et al., 2017
+T32	Reference 636 657	Dhingra et al., 2017b
+T33	Reference 659 675	He et al., 2017)
+T34	Dominant 1159 1178	Wang et al. (2018a)
+T35	Dominant 1592 1611	Wang et al. (2018b)
+T36	Dominant 2059 2082	Trischler et al. (2016)
+T37	Dominant 2649 2667	(Choi et al., 2017
+T38	Dominant 2669 2688	Wang et al., 2018a)
+T39	Dominant 2835 2853	Shen et al. (2017)
+T40	Dominant 3037 3053	Hu et al. (2018)
+T41	Pronoun 385 390	These
+T42	Pronoun 746 751	these
+T43	Pronoun 1112 1116	this
+T44	Pronoun 1275 1277	it
+T45	Pronoun 1294 1298	this
+T46	Pronoun 1445 1449	this
+T47	Pronoun 1684 1689	their
+T48	Pronoun 2293 2298	their
+T49	Pronoun 2351 2356	their
+T50	Pronoun 2418 2420	it
+T51	Pronoun 2556 2558	it
+T52	Pronoun 3005 3009	this
+T53	Pronoun 3184 3189	their
+T54	B_span 243 250	pointer
+T55	E_span 277 281	2015
+T56	B_span 286 294	directly
+T57	E_span 371 375	2017
+T58	B_span 433 438	close
+T59	E_span 515 519	2016
+T60	B_span 545 549	open
+T61	E_span 670 674	2017
+T62	B_span 1159 1163	Wang
+T63	E_span 1533 1542	correctly
+T64	B_span 1550 1552	In
+T65	E_span 1758 1767	procedure
+T66	B_span 2059 2068	Trischler
+T67	E_span 2429 2438	treatment
+T68	B_span 2604 2607	The
+T69	E_span 2825 2827	RL
+T70	B_span 2835 2839	Shen
+T71	E_span 2965 2971	answer
+T72	B_span 3037 3039	Hu
+T73	E_span 3233 3247	differentiable

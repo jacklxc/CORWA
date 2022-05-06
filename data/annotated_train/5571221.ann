@@ -1,0 +1,41 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 54 59	[BOS]
+T3	Single_summ 188 193	[BOS]
+T4	Single_summ 349 354	[BOS]
+T5	Single_summ 511 516	[BOS]
+T6	Transition 573 578	[BOS]
+T7	Single_summ 659 664	[BOS]
+T8	Single_summ 801 806	[BOS]
+T9	Single_summ 917 922	[BOS]
+T10	Narrative_cite 1016 1021	[BOS]
+T11	Single_summ 1136 1141	[BOS]
+T12	Transition 1299 1304	[BOS]
+T13	Single_summ 1463 1468	[BOS]
+T14	Reflection 1598 1603	[BOS]
+T15	Dominant 60 88	De Gispert and Marino (2006)
+T16	Dominant 358 384	Utiyama and Isahara (2007)
+T17	Dominant 517 535	Wu and Wang (2007)
+T18	Dominant 665 684	Nakov and Ng (2012)
+T19	Dominant 807 826	Dabre et al. (2014)
+T20	Dominant 923 941	Paul et al. (2013)
+T21	Reference 1106 1133	(Kunchukuttan et al., 2014)
+T22	Dominant 1142 1171	Goldwater and McClosky (2005)
+T23	Dominant 1488 1507	Dabre et al. (2014)
+T24	B_span 60 62	De
+T25	E_span 340 347	English
+T26	B_span 358 365	Utiyama
+T27	E_span 498 509	translation
+T28	B_span 517 519	Wu
+T29	E_span 567 570	viz
+T30	B_span 665 670	Nakov
+T31	E_span 795 799	task
+T32	B_span 807 812	Dabre
+T33	E_span 908 915	corpora
+T34	B_span 923 927	Paul
+T35	E_span 1006 1014	language
+T36	B_span 1040 1052	segmentation
+T37	E_span 1128 1132	2014
+T38	B_span 1142 1151	Goldwater
+T39	E_span 1289 1296	English
+T40	B_span 1488 1493	Dabre
+T41	E_span 1589 1596	systems

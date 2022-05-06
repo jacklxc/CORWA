@@ -1,0 +1,86 @@
+T1	Reflection 0 5	[BOS]
+T2	Transition 118 123	[BOS]
+T3	Narrative_cite 235 240	[BOS]
+T4	Reflection 322 327	[BOS]
+T5	Narrative_cite 438 443	[BOS]
+T6	Transition 600 605	[BOS]
+T7	Single_summ 765 770	[BOS]
+T8	Narrative_cite 917 922	[BOS]
+T9	Narrative_cite 1046 1051	[BOS]
+T10	Single_summ 1201 1206	[BOS]
+T11	Reflection 1428 1433	[BOS]
+T12	Reflection 1585 1590	[BOS]
+T13	Narrative_cite 1655 1660	[BOS]
+T14	Single_summ 1832 1837	[BOS]
+T15	Single_summ 2030 2035	[BOS]
+T16	Narrative_cite 2136 2141	[BOS]
+T17	Reflection 2315 2320	[BOS]
+T18	Single_summ 2539 2544	[BOS]
+T19	Narrative_cite 2655 2660	[BOS]
+T20	Reflection 2911 2916	[BOS]
+T21	Narrative_cite 3094 3099	[BOS]
+T22	Reflection 3329 3334	[BOS]
+T23	Reference 260 284	(Sutskever et al., 2011)
+T24	Reference 512 534	(Sordoni et al., 2015)
+T25	Reference 579 597	(Lau et al., 2017)
+T26	Dominant 824 845	Sordoni et al. (2015)
+T27	Reference 1024 1042	(Lau et al., 2017)
+T28	Reference 1178 1198	(Grosz et al., 1995)
+T29	Dominant 1244 1260	Ji et al. (2017)
+T30	Reference 1808 1829	(Kiddon et al., 2016)
+T31	Dominant 1838 1860	Bosselut et al. (2018)
+T32	Reference 2247 2270	(Dale and Reiter, 1995)
+T33	Reference 2293 2312	(Modi et al., 2017)
+T34	Dominant 2545 2575	Krahmer and Van Deemter (2012)
+T35	Reference 2773 2792	(Hill et al., 2016)
+T36	Reference 2818 2839	(Onishi et al., 2016)
+T37	Reference 2887 2908	Hermann et al. (2015)
+T38	Reference 3211 3232	(Martin et al., 2017)
+T39	Reference 3280 3300	(Rishes et al., 2013
+T40	Reference 3302 3326	Elson and McKeown, 2009)
+T41	Reference 3463 3483	Walker et al. (2011)
+T42	Reference 3485 3511	Cavazza and Charles (2005)
+T43	Reference 3518 3539	Cavazza et al. (2002)
+T44	Pronoun 311 315	this
+T45	Pronoun 407 411	they
+T46	Pronoun 444 448	This
+T47	Pronoun 1996 2001	their
+T48	Pronoun 2023 2025	it
+T49	Pronoun 2933 2938	these
+T50	Pronoun 3338 3342	this
+T51	B_span 255 259	RNNs
+T52	E_span 279 283	2011
+T53	B_span 488 502	conversational
+T54	E_span 529 533	2015
+T55	B_span 539 543	text
+T56	E_span 592 596	2017
+T57	B_span 791 799	scenario
+T58	E_span 908 915	context
+T59	B_span 991 999	language
+T60	E_span 1037 1041	2017
+T61	B_span 1161 1170	Centering
+T62	E_span 1193 1197	1995
+T63	B_span 1221 1225	ENTI
+T64	E_span 1416 1426	generation
+T65	B_span 1720 1727	special
+T66	E_span 1828 1829	)
+T67	B_span 1838 1846	Bosselut
+T68	E_span 2126 2133	updated
+T69	B_span 2225 2235	expression
+T70	E_span 2265 2269	1995
+T71	B_span 2275 2281	entity
+T72	E_span 2307 2311	2017
+T73	B_span 2545 2552	Krahmer
+T74	E_span 2642 2652	generation
+T75	B_span 2752 2762	Children's
+T76	E_span 2787 2791	2016
+T77	B_span 2800 2803	Who
+T78	E_span 2834 2838	2016
+T79	B_span 2850 2853	CNN
+T80	E_span 2903 2907	2015
+T81	B_span 3173 3180	context
+T82	E_span 3227 3231	2017
+T83	B_span 3236 3244	semantic
+T84	E_span 3321 3325	2009
+T85	B_span 3386 3392	entity
+T86	E_span 3534 3538	2002

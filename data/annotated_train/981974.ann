@@ -1,0 +1,57 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 101 106	[BOS]
+T3	Single_summ 236 241	[BOS]
+T4	Single_summ 434 439	[BOS]
+T5	Single_summ 619 624	[BOS]
+T6	Reflection 833 838	[BOS]
+T7	Single_summ 934 939	[BOS]
+T8	Single_summ 1158 1163	[BOS]
+T9	Reflection 1367 1372	[BOS]
+T10	Reflection 1509 1514	[BOS]
+T11	Reflection 1669 1674	[BOS]
+T12	Single_summ 1880 1885	[BOS]
+T13	Reflection 2031 2036	[BOS]
+T14	Single_summ 2140 2145	[BOS]
+T15	Single_summ 2344 2349	[BOS]
+T16	Single_summ 2550 2555	[BOS]
+T17	Narrative_cite 2675 2680	[BOS]
+T18	Reflection 2960 2965	[BOS]
+T19	Dominant 107 130	(Chen and Rambow, 2003)
+T20	Dominant 321 344	(Chen and Rambow, 2003)
+T21	Dominant 975 1005	(Gildea and Hockenmaier, 2003)
+T22	Reference 1527 1549	(Liu and Sarkar, 2006)
+T23	Dominant 1905 1927	(Liu and Sarkar, 2006)
+T24	Dominant 2152 2174	(Liu and Sarkar, 2006)
+T25	Dominant 2411 2433	(Shen and Joshi, 2005)
+T26	Reference 2864 2881	(Moschitti, 2004)
+T27	B_span 107 108	(
+T28	B_span 321 322	(
+T29	E_span 319 320	,
+T30	E_span 831 832	.
+T31	B_span 940 941	A
+T32	E_span 1365 1366	.
+T33	B_span 1527 1528	(
+T34	E_span 1548 1549	)
+T35	B_span 1886 1889	The
+T36	E_span 2021 2029	features
+T37	B_span 2152 2153	(
+T38	E_span 2338 2341	SRL
+T39	B_span 2370 2377	similar
+T40	E_span 2668 2672	task
+T42	B_span 2786 2795	predicate
+T44	E_span 2880 2881	)
+T45	Pronoun 446 450	this
+T46	Pronoun 458 462	they
+T47	Pronoun 638 643	their
+T48	Pronoun 1182 1186	they
+T49	Pronoun 1242 1246	they
+T50	Pronoun 1459 1464	these
+T51	Pronoun 1496 1500	this
+T52	Pronoun 1658 1662	this
+T53	Pronoun 1693 1697	this
+T54	Pronoun 1809 1813	this
+T55	Pronoun 1855 1857	it
+T56	Pronoun 2286 2290	they
+T57	Pronoun 2308 2313	their
+T58	Pronoun 2391 2393	it
+T59	Pronoun 2564 2569	their

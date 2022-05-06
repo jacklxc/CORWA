@@ -1,0 +1,25 @@
+[BOS] Currently, the most accurate parser in terms of labeled and unlabeled attachment scores is the neural network graph-based dependency parser of Dozat and Manning (2017) .
+[BOS] Their parser builds token representations with a bidirectional LSTM over word embeddings, followed by head and dependent MLPs.
+[BOS] Compatibility between heads and dependents is then scored using a biaffine model, and the highest scoring head for each dependent is selected.
+
+[BOS] Previously, (Chen and Manning, 2014) pioneered neural network paring with a transitionbased dependency parser which used features from a fast feed-forward neural network over word, token and label embeddings.
+[BOS] Many improved upon this work by increasing the size of the network and using a structured training objective (Weiss et al., 2015; Andor et al., 2016) .
+[BOS] (Kiperwasser and Goldberg, 2016) were the first to present a graph-based neural network parser, employing an MLP with bidirectional LSTM inputs to score arcs and labels.
+[BOS] (Cheng et al., 2016) propose a similar network, except with additional forward and backward encoders to allow for conditioning on previous predictions.
+[BOS] (Kuncoro et al., 2016) take a different approach, distilling a consensus of many LSTM-based transition-based parsers into one graph-based parser.
+[BOS] (Ma and Hovy, 2017) employ a similar model, but add a CNN over characters as an additional word representation and perform structured training using the Matrix-Tree Theorem.
+[BOS] Hashimoto et al. (2017) train a large network which performs many NLP tasks including part-of-speech tagging, chunking, graph-based parsing, and entailment, observing benefits from multitasking with these tasks.
+
+[BOS] Despite their success in the area of computer vision, in NLP convolutional neural networks have mainly been relegated to tasks such as sentence classification, where each input sequence is mapped to a single label (rather than a label for each token) Kim (2014) ; Kalchbrenner et al. (2014); Zhang et al. (2015) ; Toutanova et al. (2015) .
+[BOS] As described above, CNNs have also been used to encode token representations from embeddings of their characters, which similarly perform a pooling operation over characters.
+[BOS] Lei et al. (2015) present a CNN variant where convolutions adaptively skip neighboring words.
+[BOS] While the flexibility of this model is powerful, its adaptive behavior is not well-suited to GPU acceleration.
+
+[BOS] More recently, inspired by the success of deep dilated CNNs for image segmentation in computer vision (Yu and Koltun, 2016; , convolutional neural networks have been employed as fast models for tagging, speech generation and machine translation.
+[BOS] use dilated CNNs to efficiently generate speech, and describes an encoder-decoder model for machine translation which uses dilated CNNs over bytes in both the encoder and decoder.
+[BOS] Strubell et al. (2017) first described the one-dimensional ID-CNN architecture which is the basis for this work, demonstrating its success as a fast and accurate NER tagger.
+[BOS] Gehring et al. (2017) report state-ofthe-art results and much faster training from using many CNN layers with gated activations as encoders and decoders for a sequence-to-sequence model.
+[BOS] While our architecture is similar to the encoder architecture of these models, ours is differentiated by (1) being tailored to smaller-data regimes such as parsing via our iterated architecture and loss, and (2) employing two-dimensional convolutions to model the adjacency matrix of the parse tree.
+[BOS] We are the first to our knowledge to use dilated convolutions for parsing, or to use twodimensional dilated convolutions for NLP.
+[BOS] Kiperwasser and Goldberg (2016) 93.9 91.9 Cheng et al. (2016) 94.10 91.49 Kuncoro et al. (2016) 94.3 92.1 Hashimoto et al. (2017) 94.67 92.90 Ma and Hovy (2017) 94.9 93.0 Dozat and Manning (2017) 95
+

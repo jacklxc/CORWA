@@ -1,0 +1,20 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 172 177	[BOS]
+T3	Single_summ 267 272	[BOS]
+T4	Transition 515 520	[BOS]
+T5	Single_summ 630 635	[BOS]
+T6	Transition 847 852	[BOS]
+T7	Reference 83 100	Lee et al. (2017)
+T8	Reference 103 124	Johnson et al. (2017)
+T9	Reference 127 145	Zoph et al. (2016)
+T10	Reference 150 169	Firat et al. (2016)
+T11	Dominant 273 294	Johnson et al. (2017)
+T12	Dominant 636 657	Artetxe et al. (2018)
+T13	Pronoun 195 200	these
+T14	Pronoun 232 234	it
+T15	B_span 6 11	Multi
+T16	E_span 164 168	2016
+T17	B_span 273 280	Johnson
+T18	E_span 504 513	languages
+T19	B_span 636 643	Artetxe
+T20	E_span 841 845	only

@@ -1,0 +1,115 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 305 310	[BOS]
+T3	Narrative_cite 606 611	[BOS]
+T4	Transition 1061 1066	[BOS]
+T5	Narrative_cite 1218 1223	[BOS]
+T6	Reflection 1408 1413	[BOS]
+T7	Narrative_cite 1474 1479	[BOS]
+T8	Transition 1675 1680	[BOS]
+T9	Transition 1992 1997	[BOS]
+T10	Reflection 2226 2231	[BOS]
+T11	Other 2482 2487	[BOS]
+T12	Reflection 2555 2560	[BOS]
+T13	Reflection 2661 2666	[BOS]
+T14	Other 2792 2797	[BOS]
+T15	Other 2932 2937	[BOS]
+T16	Other 3065 3070	[BOS]
+T17	Other 3216 3221	[BOS]
+T18	Reflection 3367 3372	[BOS]
+T19	Reflection 3525 3530	[BOS]
+T20	Other 3579 3584	[BOS]
+T21	Other 3730 3735	[BOS]
+T22	Other 3868 3873	[BOS]
+T23	Reflection 4053 4058	[BOS]
+T24	Reflection 4115 4120	[BOS]
+T25	Reflection 4196 4201	[BOS]
+T26	Other 4293 4298	[BOS]
+T27	Other 4444 4449	[BOS]
+T28	Other 4757 4762	[BOS]
+T29	Reflection 4905 4910	[BOS]
+T30	Reflection 4983 4988	[BOS]
+T31	Reflection 5222 5227	[BOS]
+T32	Reflection 5355 5360	[BOS]
+T33	Reflection 5445 5450	[BOS]
+T34	Reflection 5623 5628	[BOS]
+T35	Reflection 5838 5843	[BOS]
+T36	Reflection 5961 5966	[BOS]
+T37	Reflection 6060 6065	[BOS]
+T38	Reflection 6290 6295	[BOS]
+T39	Other 6402 6407	[BOS]
+T40	Transition 6918 6923	[BOS]
+T41	Narrative_cite 7187 7192	[BOS]
+T42	Reflection 7339 7344	[BOS]
+T43	Single_summ 7539 7544	[BOS]
+T44	Reflection 7706 7711	[BOS]
+T45	Reference 103 118	(Kameyama, 1986
+T46	Reference 120 139	Walker et al., 1994
+T47	Reference 141 165	Okumura and Tamura, 1996
+T48	Reference 167 192	Nakaiwa and Shirai, 1996)
+T49	Reference 282 302	(Grosz et al., 1995)
+T50	Reference 687 705	(Zhao and Ng, 2007
+T51	Reference 707 725	Chen and Ng, 2013)
+T52	Reference 737 755	(Seki et al., 2002
+T53	Reference 757 780	Isozaki and Hirao, 2003
+T54	Reference 782 800	Iida et al., 2007a
+T55	Reference 802 820	Taira et al., 2008
+T56	Reference 822 841	Sasano et al., 2008
+T57	Reference 843 862	Sasano et al., 2009
+T58	Reference 864 884	Imamura et al., 2009
+T59	Reference 886 907	Watanabe et al., 2010
+T60	Reference 909 931	Hayashibe et al., 2011
+T61	Reference 933 954	Iida and Poesio, 2011
+T62	Reference 956 978	Yoshikawa et al., 2011
+T63	Reference 980 999	Hangyo et al., 2013
+T64	Reference 1001 1022	Yoshino et al., 2013)
+T65	Reference 1035 1058	(Iida and Poesio, 2011)
+T66	Reference 1240 1262	Watanabe et al. (2010)
+T67	Reference 1265 1287	Iida and Poesio (2011)
+T68	Reference 1292 1315	Yoshikawa et al. (2011)
+T69	Reference 1579 1598	(Yang et al., 2005)
+T70	Reference 1625 1647	(Bean and Riloff, 2004
+T71	Reference 1649 1672	Bansal and Klein, 2012)
+T72	Reference 3498 3522	(Iida and Poesio, 2011 )
+T73	Reference 5165 5179	(Vapnik, 1998)
+T74	Reference 7304 7327	(Iida and Poesio, 2011)
+T75	Dominant 7571 7593	Iida and Poesio (2011)
+T76	B_span 87 96	heuristic
+T77	E_span 187 191	1996
+T78	B_span 265 271	Center
+T79	E_span 297 301	1995
+T80	B_span 679 686	Chinese
+T81	E_span 720 724	2013
+T82	B_span 728 736	Japanese
+T83	E_span 1017 1021	2013
+T84	B_span 1027 1034	Italian
+T85	E_span 1057 1058	)
+T86	B_span 1224 1230	Recent
+T87	E_span 1396 1406	resolution
+T88	B_span 1559 1569	pronominal
+T89	E_span 1593 1597	2005
+T90	B_span 1602 1613	coreference
+T91	E_span 1671 1672	)
+T92	B_span 3481 3483	IL
+T93	E_span 3516 3520	2011
+T96	B_span 5142 5149	Support
+T97	E_span 5178 5179	)
+T98	B_span 7262 7265	ILP
+T99	E_span 7326 7327	)
+T100	B_span 7548 7551	the
+T101	E_span 7635 7643	resolved
+T102	Pronoun 1433 1438	these
+T103	Pronoun 1684 1689	these
+T104	Pronoun 2564 2568	this
+T105	Pronoun 3057 3059	it
+T106	Pronoun 3647 3651	they
+T107	Pronoun 3807 3809	it
+T108	Pronoun 4254 4256	it
+T109	Pronoun 6069 6073	this
+T110	Pronoun 6414 6418	this
+T111	Pronoun 7011 7013	it
+T112	Pronoun 7108 7112	they
+T113	Pronoun 7221 7226	these
+T114	Pronoun 7345 7349	This
+T115	Pronoun 7652 7656	this
+T116	Pronoun 7721 7726	their
+T117	Pronoun 7835 7840	their

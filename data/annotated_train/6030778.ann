@@ -1,0 +1,24 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 145 150	[BOS]
+T3	Narrative_cite 385 390	[BOS]
+T4	Single_summ 685 690	[BOS]
+T5	Transition 954 959	[BOS]
+T6	Narrative_cite 1101 1106	[BOS]
+T7	Reflection 1315 1320	[BOS]
+T8	Dominant 169 194	(Cunningham et al., 2011)
+T9	Dominant 243 274	(Appelt and Onyshkevych, 1998 )
+T10	Reference 532 554	(He and Grishman, 2011
+T11	Reference 610 635	(Chang and Manning, 2014)
+T12	Dominant 691 715	Chiticariu et al. (2011)
+T13	Reference 1270 1290	(Hunter et al., 2008
+T14	Reference 1292 1311	Huang et al., 2004)
+T15	B_span 164 168	GATE
+T16	E_span 375 383	patterns
+T17	B_span 509 518	syntactic
+T18	E_span 550 554	2011
+T19	B_span 598 609	TokensRegex
+T20	E_span 630 634	2014
+T21	B_span 691 701	Chiticariu
+T22	E_span 947 951	task
+T23	B_span 1235 1242	protein
+T24	E_span 1306 1310	2004

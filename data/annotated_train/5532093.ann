@@ -1,0 +1,40 @@
+T1	Reflection 0 5	[BOS]
+T2	Single_summ 90 95	[BOS]
+T3	Reflection 194 199	[BOS]
+T4	Reflection 267 272	[BOS]
+T5	Single_summ 374 379	[BOS]
+T6	Narrative_cite 505 510	[BOS]
+T7	Transition 698 703	[BOS]
+T8	Narrative_cite 781 786	[BOS]
+T9	Reflection 867 872	[BOS]
+T10	Single_summ 1039 1044	[BOS]
+T11	Single_summ 1138 1143	[BOS]
+T12	Other 1278 1283	[BOS]
+T13	Transition 1353 1358	[BOS]
+T14	Single_summ 1434 1439	[BOS]
+T15	Single_summ 1514 1519	[BOS]
+T16	Single_summ 1623 1628	[BOS]
+T17	Reflection 1747 1752	[BOS]
+T18	Reflection 1818 1823	[BOS]
+T19	Dominant 96 122	Chemudugunta et al. (2007)
+T20	Dominant 380 405	Titov and McDonald (2008)
+T21	Reference 637 662	(Daum III and Marcu, 2006
+T22	Reference 664 696	Haghighi and Vanderwende, 2009 )
+T23	Reference 848 864	Li et al. (2010)
+T24	Dominant 1045 1072	Filippova and Strube (2008)
+T25	Dominant 1520 1535	McDonald (2007)
+T26	Dominant 1633 1659	Sauper and Barzilay (2009)
+T27	B_span 96 108	Chemudugunta
+T28	E_span 186 192	topics
+T29	B_span 380 385	Titov
+T30	E_span 497 503	aspect
+T31	B_span 542 546	stop
+T32	E_span 690 694	2009
+T33	B_span 817 829	entityaspect
+T34	E_span 859 863	2010
+T35	B_span 1045 1054	Filippova
+T36	E_span 1271 1276	rules
+T37	B_span 1520 1528	McDonald
+T38	E_span 1611 1621	marization
+T39	B_span 1633 1639	Sauper
+T40	E_span 1737 1745	articles

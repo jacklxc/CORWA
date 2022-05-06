@@ -1,0 +1,21 @@
+[BOS] Conversation Modeling.
+[BOS] One popular approach for conversation modeling is to use RNN-based encoders and decoders, such as (Vinyals and Le, 2015; Sordoni et al., 2015b; Shang et al., 2015) .
+[BOS] Hierarchical recurrent encoder-decoder (HRED) models (Sordoni et al., 2015a; Serban et al., , 2017 consist of utterance encoder and decoder, and a context RNN which runs over utterance representations to model long-term temporal structure of conversation.
+
+[BOS] Recently, latent variable models such as VAEs have been adopted in language modeling (Bowman et al., 2016; Zhang et al., 2016; Serban et al., 2017) .
+[BOS] The VHRED model (Serban et al., 2017) integrates the VAE with the HRED to model Twitter and Ubuntu IRC conversations by introducing an utterance latent variable.
+[BOS] This makes a conditional VAE where the generation process is conditioned on the context of conversation.
+[BOS] Zhao et al. (2017) further make use of discourse act labels to capture the diversity of conversations.
+
+[BOS] Degeneracy of Variational Autoencoders.
+[BOS] For sequence modeling, VAEs are often merged with the RNN encoder-decoder structure (Bowman et al., 2016; Serban et al., 2017; Zhao et al., 2017) where the encoder predicts the posterior distribution of a latent variable z, and the decoder models the output distributions conditioned on z.
+[BOS] However, Bowman et al. (2016) report that a VAE with a RNN decoder easily degenerates; that is, it learns to ignore the latent variable z and falls back to a vanilla RNN.
+[BOS] They propose two techniques to alleviate this issue: KL annealing and word drop.
+[BOS] Chen et al. (2017) interpret this degeneracy in the context of bits-back coding and show that a VAE equipped with autoregressive models such as RNNs often ignores the latent variable to minimize the code length needed for describing data.
+[BOS] They propose to constrain the decoder to selectively encode the information of interest in the latent variable.
+[BOS] However, their empirical results are limited to an image domain.
+[BOS] Zhao et al. (2017) use an auxiliary bag-of-words loss on the latent variable to force the model to use z.
+[BOS] That is, they train an auxiliary network that predicts bag-of-words representation of the target utterance based on z.
+[BOS] Yet this loss works in an opposite di-rection to the original objective of VAEs that minimizes the minimum description length.
+[BOS] Thus, it may be in danger of forcibly moving the information that is better modeled in the decoder to the latent variable.
+

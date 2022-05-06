@@ -1,0 +1,44 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 117 122	[BOS]
+T3	Narrative_cite 260 265	[BOS]
+T4	Reflection 400 405	[BOS]
+T5	Reflection 497 502	[BOS]
+T6	Transition 609 614	[BOS]
+T7	Transition 750 755	[BOS]
+T8	Transition 880 885	[BOS]
+T9	Narrative_cite 973 978	[BOS]
+T10	Narrative_cite 1137 1142	[BOS]
+T11	Narrative_cite 1321 1326	[BOS]
+T12	Transition 1422 1427	[BOS]
+T13	Transition 1535 1540	[BOS]
+T14	Single_summ 1618 1623	[BOS]
+T15	Transition 1767 1772	[BOS]
+T16	Transition 1946 1951	[BOS]
+T17	Reflection 2046 2051	[BOS]
+T18	Single_summ 2255 2260	[BOS]
+T19	Reference 361 378	(Tai et al., 2015
+T20	Reference 380 396	Wu et al., 2018)
+T21	Reference 1108 1134	(Logeswaran and Lee, 2018)
+T22	Reference 1207 1233	(Subramanian et al., 2018)
+T23	Reference 1398 1419	(Peters et al., 2018)
+T24	Dominant 1635 1657	(Radford et al., 2018)
+T25	Reference 1735 1757	(Vaswani et al., 2017)
+T26	Dominant 2261 2278	Liu et al. (2019)
+T27	B_span 294 296	of
+T28	E_span 395 396	)
+T29	B_span 979 984	Quick
+T30	E_span 1133 1134	)
+T31	B_span 1179 1186	massive
+T32	E_span 1232 1233	)
+T33	B_span 1327 1337	Embeddings
+T34	E_span 1420 1421	.
+T35	B_span 1624 1628	Open
+T36	E_span 1758 1765	decoder
+T37	B_span 2261 2264	Liu
+T38	E_span 2436 2437	.
+T39	Pronoun 272 277	these
+T40	Pronoun 409 413	this
+T41	Pronoun 886 890	This
+T42	Pronoun 1159 1164	these
+T43	B_span 1723 1734	Transformer
+T44	E_span 1752 1756	2017

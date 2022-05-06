@@ -1,0 +1,36 @@
+T1	Single_summ 0 5	[BOS]
+T2	Reflection 175 180	[BOS]
+T3	Reflection 261 266	[BOS]
+T4	Reflection 425 430	[BOS]
+T5	Single_summ 606 611	[BOS]
+T6	Single_summ 841 846	[BOS]
+T7	Single_summ 1006 1011	[BOS]
+T8	Single_summ 1171 1176	[BOS]
+T9	Narrative_cite 1306 1311	[BOS]
+T10	Dominant 39 59	Hoang et al. (2016a)
+T11	Reference 557 580	(Sennrich et al., 2016a
+T12	Reference 582 603	Johnson et al., 2017)
+T13	Dominant 653 676	Jehl and Riezler (2018)
+T14	Dominant 1018 1042	Michel and Neubig (2018)
+T15	Reference 1473 1492	(Dong et al., 2015)
+T16	Reference 1525 1548	(Zoph and Knight, 2016)
+T17	Reference 1579 1601	(Johnson et al., 2017)
+T18	Pronoun 198 202	this
+T19	Pronoun 321 325	this
+T20	Pronoun 847 851	They
+T21	Pronoun 927 931	they
+T22	Pronoun 1177 1181	They
+T23	B_span 39 44	Hoang
+T24	E_span 167 173	models
+T25	B_span 447 460	incorporating
+T26	E_span 598 602	2017
+T27	B_span 612 616	Also
+T28	E_span 995 1003	baseline
+T29	B_span 1018 1024	Michel
+T30	E_span 1297 1303	method
+T31	B_span 1410 1417	jointly
+T32	E_span 1487 1491	2015
+T33	B_span 1495 1502	jointly
+T34	E_span 1543 1547	2016
+T35	B_span 1552 1556	both
+T36	E_span 1596 1600	2017

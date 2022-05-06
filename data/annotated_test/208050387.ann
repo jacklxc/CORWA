@@ -1,0 +1,92 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 45 50	[BOS]
+T3	Single_summ 168 173	[BOS]
+T4	Narrative_cite 243 248	[BOS]
+T5	Narrative_cite 440 445	[BOS]
+T6	Narrative_cite 814 819	[BOS]
+T7	Narrative_cite 1024 1029	[BOS]
+T8	Reflection 1258 1263	[BOS]
+T9	Reflection 1367 1372	[BOS]
+T10	Reflection 1432 1437	[BOS]
+T11	Narrative_cite 1603 1608	[BOS]
+T12	Reflection 1736 1741	[BOS]
+T13	Transition 1988 1993	[BOS]
+T14	Narrative_cite 2050 2055	[BOS]
+T15	Single_summ 2259 2264	[BOS]
+T16	Single_summ 2425 2430	[BOS]
+T17	Reflection 2559 2564	[BOS]
+T18	Single_summ 2648 2653	[BOS]
+T19	Single_summ 2856 2861	[BOS]
+T20	Single_summ 2956 2961	[BOS]
+T21	Transition 3083 3088	[BOS]
+T22	Transition 3199 3204	[BOS]
+T23	Transition 3231 3236	[BOS]
+T24	Narrative_cite 3375 3380	[BOS]
+T25	Narrative_cite 3484 3489	[BOS]
+T26	Transition 3704 3709	[BOS]
+T27	Reflection 3841 3846	[BOS]
+T28	Dominant 51 73	Mikolov et al. (2013b)
+T29	B_span 51 58	Mikolov
+T30	E_span 235 241	spaces
+T31	B_span 300 307	mapping
+T32	E_span 432 436	2017
+T33	Reference 309 331	Faruqui and Dyer, 2014
+T34	Reference 333 350	Xing et al., 2015
+T35	Reference 352 374	Lazaridou et al., 2015
+T36	Reference 376 394	Ammar et al., 2016
+T37	Reference 396 416	Artetxe et al., 2017
+T38	Reference 418 436	Smith et al., 2017
+T39	B_span 586 595	character
+T40	E_span 654 658	2016
+T41	Reference 603 633	Costa-juss and Fonollosa, 2016
+T42	Reference 635 658	Luong and Manning, 2016
+T43	B_span 662 674	subwordlevel
+T44	E_span 739 743	2016
+T45	Reference 676 702	Anwarus Salam et al., 2012
+T46	Reference 704 720	Rei et al., 2016
+T47	Reference 722 743	Sennrich et al., 2016
+T48	B_span 751 753	bi
+T49	E_span 806 810	2017
+T50	Reference 778 810	Madhyastha and Espaa-Bonet, 2017
+T51	B_span 935 947	unsupervised
+T52	E_span 1015 1019	2018
+T53	Reference 957 975	Zhang et al., 2017
+T54	Reference 977 997	Conneau et al., 2017
+T55	Reference 999 1019	Artetxe et al., 2018
+T56	B_span 1095 1102	combine
+T57	E_span 1250 1254	2017
+T58	Reference 1154 1170	Zou et al., 2013
+T59	Reference 1172 1195	Klementiev et al., 2012
+T60	Reference 1197 1215	Luong et al., 2015
+T61	Reference 1217 1235	Ammar et al., 2016
+T62	Reference 1237 1254	Vuli et al., 2017
+T63	B_span 1408 1415	Conneau
+T64	E_span 1424 1428	2017
+T65	Reference 1408 1428	Conneau et al., 2017
+T67	E_span 1681 1685	2017
+T68	Reference 1665 1685	Conneau et al., 2017
+T66	B_span 1618 1630	multilingual
+T69	B_span 2135 2142	neglect
+T70	E_span 2179 2183	2016
+T71	Reference 2164 2183	Tsai and Roth, 2016
+T72	B_span 2205 2213	parallel
+T73	E_span 2251 2255	2018
+T74	Reference 2239 2255	Cao et al., 2018
+T75	Dominant 2265 2285	Tsai and Roth (2016)
+T76	B_span 2265 2269	Tsai
+T78	E_span 2554 2557	one
+T77	Dominant 2654 2671	Cao et al. (2018)
+T79	B_span 2654 2657	Cao
+T81	E_span 3010 3017	jointly
+T80	B_span 3412 3421	bilingual
+T82	E_span 3476 3480	2004
+T83	Reference 3459 3480	Fung and Cheung, 2004
+T84	B_span 3528 3537	bilingual
+T85	E_span 3573 3577	2017
+T86	Reference 3555 3577	Marie and Fujita, 2017
+T87	B_span 3583 3591	sentence
+T88	E_span 3613 3617	2018
+T89	Reference 3604 3617	Schwenk, 2018
+T90	B_span 3622 3628	detect
+T91	E_span 3696 3700	2019
+T92	Reference 3677 3700	Hangya and Fraser, 2019

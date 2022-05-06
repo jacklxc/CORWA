@@ -1,0 +1,80 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 26 31	[BOS]
+T3	Multi_summ 174 179	[BOS]
+T4	Single_summ 377 382	[BOS]
+T5	Narrative_cite 502 507	[BOS]
+T6	Transition 836 841	[BOS]
+T7	Multi_summ 910 915	[BOS]
+T8	Single_summ 1123 1128	[BOS]
+T9	Transition 1278 1283	[BOS]
+T10	Single_summ 1424 1429	[BOS]
+T11	Single_summ 1555 1560	[BOS]
+T12	Single_summ 1716 1721	[BOS]
+T13	Transition 1868 1873	[BOS]
+T14	Transition 1891 1896	[BOS]
+T15	Transition 2044 2049	[BOS]
+T16	Single_summ 2231 2236	[BOS]
+T17	Single_summ 2366 2371	[BOS]
+T18	Single_summ 2642 2647	[BOS]
+T19	Single_summ 2892 2897	[BOS]
+T20	Reflection 3014 3019	[BOS]
+T21	Single_summ 3371 3376	[BOS]
+T22	Single_summ 3457 3462	[BOS]
+T23	Dominant 32 63	Kiperwasser and Goldberg (2016)
+T24	Dominant 68 90	Cross and Huang (2016)
+T25	Dominant 383 400	Shi et al. (2017)
+T26	Reference 618 639	(Wang and Chang, 2016
+T27	Reference 641 673	Vilares and Gmez-Rodrguez, 2018)
+T28	Reference 749 767	(Shi et al., 2017)
+T29	Reference 787 815	(Gmez-Rodrguez et al., 2018)
+T30	Reference 940 971	(Kiperwasser and Goldberg, 2016
+T31	Reference 973 997	Dozat and Manning, 2016)
+T32	Reference 1098 1120	(Wang and Chang, 2016)
+T33	Dominant 1139 1160	Wang and Chang (2016)
+T34	Dominant 1454 1478	de Lhoneux et al. (2019)
+T35	Reference 1641 1659	Dyer et al. (2015)
+T36	Dominant 2237 2254	Shi et al. (2016)
+T37	Dominant 2372 2392	Linzen et al. (2016)
+T38	Reference 2616 2638	(Kuncoro et al., 2018)
+T39	Dominant 2648 2669	Blevins et al. (2018)
+T40	Dominant 2907 2928	Conneau et al. (2018)
+T41	Dominant 3413 3432	Gaddy et al. (2018)
+T42	Pronoun 413 417	this
+T43	Pronoun 1083 1088	their
+T44	Pronoun 1491 1495	this
+T45	Pronoun 1561 1565	They
+T46	Pronoun 2008 2012	they
+T47	Pronoun 2100 2104	they
+T48	Pronoun 2584 2588	this
+T49	Pronoun 3044 3048	this
+T50	Pronoun 3485 3490	their
+T51	B_span 32 43	Kiperwasser
+T52	E_span 364 375	performance
+T53	B_span 383 386	Shi
+T54	E_span 493 500	systems
+T56	E_span 668 672	2018
+T57	B_span 708 714	search
+T58	E_span 827 834	systems
+T59	B_span 1089 1097	distance
+T60	E_span 1115 1119	2016
+T61	B_span 941 952	Kiperwasser
+T62	E_span 1115 1119	2016
+T63	B_span 1139 1143	Wang
+T64	E_span 1267 1275	accuracy
+T65	B_span 1454 1456	de
+T66	E_span 1854 1865	information
+T67	B_span 1616 1625	recursive
+T69	B_span 2237 2240	Shi
+T70	E_span 2355 2364	relations
+T71	B_span 2372 2378	Linzen
+T72	E_span 2633 2637	2018
+T73	B_span 2599 2609	sequential
+T74	E_span 2633 2637	2018
+T75	B_span 2648 2655	Blevins
+T76	E_span 2879 2890	supervision
+T77	B_span 2907 2914	Conneau
+T78	E_span 3004 3011	methods
+T79	B_span 3392 3404	constituency
+T80	E_span 3627 3635	lexicons
+T68	E_span 1654 1658	2015
+T55	B_span 508 518	Decreasing

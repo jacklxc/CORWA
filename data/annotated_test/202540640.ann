@@ -1,0 +1,73 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 205 210	[BOS]
+T3	Single_summ 429 434	[BOS]
+T4	Single_summ 605 610	[BOS]
+T5	Narrative_cite 696 701	[BOS]
+T6	Single_summ 832 837	[BOS]
+T7	Single_summ 1028 1033	[BOS]
+T8	Multi_summ 1190 1195	[BOS]
+T9	Single_summ 1377 1382	[BOS]
+T10	Single_summ 1627 1632	[BOS]
+T11	Transition 1734 1739	[BOS]
+T12	Transition 1962 1967	[BOS]
+T13	Single_summ 2072 2077	[BOS]
+T14	Single_summ 2210 2215	[BOS]
+T15	Reflection 2319 2324	[BOS]
+T16	Single_summ 2421 2426	[BOS]
+T17	Single_summ 2512 2517	[BOS]
+T18	Dominant 211 233	Flanigan et al. (2016)
+T19	Reference 401 426	(Graehl and Knight, 2004)
+T20	Dominant 435 461	Pourdamghani et al. (2016)
+T21	Reference 582 602	(Koehn et al., 2003)
+T22	Dominant 611 629	Song et al. (2017)
+T23	Reference 783 797	(Chiang, 2007)
+T24	Dominant 875 896	Konstas et al. (2017)
+T25	Dominant 1083 1103	Cao and Clark (2019)
+T26	Dominant 1270 1288	(Song et al., 2018
+T27	Dominant 1290 1308	Beck et al., 2018)
+T28	Dominant 1409 1433	Damonte and Cohen (2019)
+T29	Reference 1484 1505	(Graves et al., 2013)
+T30	Reference 1518 1536	(Tai et al., 2015)
+T31	Reference 1577 1599	(Duvenaud et al., 2015
+T32	Reference 1601 1624	Kipf and Welling, 2016)
+T33	Dominant 1633 1650	Guo et al. (2019)
+T34	Dominant 2078 2096	Shaw et al. (2018)
+T35	Dominant 2216 2232	Ge et al. (2019)
+T36	Dominant 2427 2458	Koncel-Kedziorski et al. (2019)
+T37	B_span 211 213	Fl
+T38	E_span 425 426	)
+T39	B_span 435 439	Pour
+T40	E_span 601 602	)
+T41	B_span 611 615	Song
+T42	E_span 694 695	.
+T43	B_span 729 736	context
+T44	E_span 796 797	)
+T45	B_span 875 878	Kon
+T46	E_span 1026 1027	.
+T47	B_span 1039 1046	special
+T49	E_span 1188 1189	.
+T50	E_span 1375 1376	.
+T51	B_span 1395 1398	ree
+T52	B_span 1508 1512	Tree
+T54	E_span 1623 1624	)
+T55	B_span 1633 1636	Guo
+T56	E_span 1732 1733	.
+T57	B_span 2078 2082	Shaw
+T58	E_span 2208 2209	.
+T59	B_span 2216 2218	Ge
+T60	E_span 2317 2318	.
+T61	B_span 2427 2430	Kon
+T63	Pronoun 52 54	it
+T64	Pronoun 2350 2356	theirs
+T65	Pronoun 2538 2540	it
+T66	B_span 380 384	tree
+T67	E_span 421 425	2004
+T68	B_span 559 565	phrase
+T69	E_span 597 601	2003
+T48	B_span 1199 1206	prevent
+T70	B_span 1477 1483	BiLSTM
+T71	E_span 1500 1504	2013
+T72	E_span 1531 1535	2015
+T53	E_span 1619 1623	2016
+T73	B_span 1543 1548	Graph
+T74	E_span 2593 2598	nodes

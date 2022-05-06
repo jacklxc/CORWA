@@ -1,0 +1,19 @@
+[BOS] Automatic summarization has been investigated in two main paradigms: the extractive method and the abstractive method.
+[BOS] The former extracts important pieces of source document and concatenates them sequentially (Jing and McKeown, 2000; Knight and Marcu, 2000; Neto et al., 2002) , while the latter grasps the core meaning of the source text and re-state it in short text as abstractive summary (Banko et al., 2000; Rush et al., 2015) .
+[BOS] In this paper, we focus on abstractive summarization, and especially on abstractive sentence summarization.
+[BOS] Previous work deals with the abstractive sentence summarization task by using either rule based methods (Dorr et al., 2003) , or statistical methods utilizing a source-summary parallel corpus to train a machine translation model (Banko et al., 2000) , or a syntax based transduction model (Cohn and Lapata, 2008; Woodsend et al., 2010) .
+
+[BOS] In recent years, sequence-to-sequence neural framework becomes predominant on this task by encoding long source texts and decoding into short summaries together with the attention mechanism.
+[BOS] RNN is the most commonly adopted and extensively explored architecture (Chopra et al., 2016; Li et al., 2017) .
+[BOS] A CNN-based architecture is recently employed by Gehring et al. (2017) using ConvS2S, which applies CNN on both encoder and decoder.
+[BOS] Later, Wang et al. (2018) build upon ConvS2S with topic words embedding and encoding, and train the system with reinforcement learning.
+
+[BOS] The most related work to our contrastive attention mechanism is in the field of computer vision.
+[BOS] Song et al. (2018a) first propose the contrastive attention mechanism for person re-identification.
+[BOS] In their work, based on a pre-provided person and background segmentation, the two regions are contrastively attended so that they can be easily discriminated.
+[BOS] In comparison, we apply the contrastive attention mechanism for sentence level summarization by contrastively attending to relevant parts and irrelevant or less relevant parts.
+[BOS] Furthermore, we propose a novel softmax softmin functionality to train the attention mechanism, which is different to Song et al. (2018a) , who use mean squared error loss for attention training.
+
+[BOS] Other explorations with respect to the characteristics of the abstractive summarization task include copying mechanism that copies words from source sequences for composing summaries (Gu et al., 2016; Song et al., 2018b) , the selection mechanism that elaborately selects important parts of source sentences (Zhou et al., 2017; Lin et al., 2018) , the distraction mechanism that avoids repeated attention on the same area (Chen et al., 2016) , and the sequence level training that avoids exposure bias in teacher forcing methods (Ayana et al., 2016; Li et al., 2018; Edunov et al., 2018) .
+[BOS] Such methods are built on conventional attention, and are orthogonal to our proposed contrastive attention mechanism.
+

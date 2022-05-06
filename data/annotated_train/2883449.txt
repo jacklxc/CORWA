@@ -1,0 +1,15 @@
+[BOS] Text alignment is a crucial component of machine translation (MT) systems (Vogel et al., 1996; Och and Ney, 2003; Liang et al., 2006; DeNero and Klein, 2008) ; however, the general goal of multilingual aligners is the production of wide-coverage phrase tables for translation.
+[BOS] In contrast, monolingual alignment is often consumed directly in applications like paraphrasing and textual entailment recognition; this task therefore involves substantially different challenges and tradeoffs.
+
+[BOS] 1 Nevertheless, modern MT evaluation metrics have recently been found to be remarkably effective for tasks requiring monolingual alignments (Bouamor et al., 2011; Madnani et al., 2012; Heilman and Madnani, 2012 )-even used off-the-shelf with their default parameter settings-and for this reason we use Meteor as a baseline in this paper.
+
+[BOS] Monolingual token-based alignment has been used for many natural language processing applications such as paraphrase generation (Barzilay and Lee, 2003; Quirk et al., 2004) .
+[BOS] Dependency arc-based alignment has seen similar widespread use in applications such as sentence fusion (Barzilay and McKeown, 2005; Marsi and Krahmer, 2005) , redundancy removal (Thadani and McKeown, 2008) and textual entailment recognition (Dagan et al., 2005) .
+[BOS] Furthermore, joint aligners that simultaneously account for the similarity of tokens and dependency arcs have also been explored (Chambers et al., 2007; Chang et al., 2010) .
+[BOS] Monolingual phrasebased alignment was first tackled by the MANLI system of MacCartney et al. (2008) and was subsequently expanded upon by Thadani and McKeown (2011) to incorporate exact inference.
+
+[BOS] ILP has seen widespread use in natural language problems involving formulations which cannot be decoded efficiently with dynamic programming but can be expressed as relatively compact linear programs.
+[BOS] DeNero and Klein (2008) and Thadani and McKeown (2011) proposed ILP approaches to finding phrase-based alignments in a multilingual and monolingual context respectively.
+[BOS] Chang et al. (2010) describe a joint token-based and arc-based alignment technique using ILP to ensure consistency between the two alignment representations.
+[BOS] Our proposed joint phrasal and arc-based aligner generalizes over both these alignment techniques.
+

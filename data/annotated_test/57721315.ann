@@ -1,0 +1,93 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 209 214	[BOS]
+T3	Transition 337 342	[BOS]
+T4	Single_summ 452 457	[BOS]
+T5	Single_summ 565 570	[BOS]
+T6	Multi_summ 710 715	[BOS]
+T7	Transition 851 856	[BOS]
+T8	Transition 887 892	[BOS]
+T9	Narrative_cite 1060 1065	[BOS]
+T10	Transition 1352 1357	[BOS]
+T11	Narrative_cite 1474 1479	[BOS]
+T12	Reflection 1654 1659	[BOS]
+T13	Transition 1748 1753	[BOS]
+T14	Narrative_cite 1772 1777	[BOS]
+T15	Narrative_cite 1905 1910	[BOS]
+T16	Transition 2167 2172	[BOS]
+T17	Transition 2311 2316	[BOS]
+T18	Transition 2399 2404	[BOS]
+T19	Single_summ 2451 2456	[BOS]
+T20	Single_summ 2577 2582	[BOS]
+T21	Single_summ 2678 2683	[BOS]
+T22	Reflection 2784 2789	[BOS]
+T23	Transition 2946 2951	[BOS]
+T24	Narrative_cite 2979 2984	[BOS]
+T25	Transition 3070 3075	[BOS]
+T26	Narrative_cite 3202 3207	[BOS]
+T27	Transition 3462 3467	[BOS]
+T28	Multi_summ 3531 3536	[BOS]
+T29	Single_summ 3680 3685	[BOS]
+T30	Dominant 471 491	Kocisk et al., 2018)
+T31	Dominant 732 751	(Saha et al., 2018)
+T32	Dominant 761 781	(Reddy et al., 2018)
+T33	Reference 1101 1123	(Sennrich et al., 2016
+T34	Reference 1125 1146	Johnson et al., 2017)
+T35	Reference 1175 1192	(Hu et al., 2017)
+T36	Reference 1216 1232	(Fu et al., 2018
+T37	Reference 1234 1256	Tsvetkov et al., 2018)
+T38	Reference 1278 1296	(Li et al., 2018b)
+T39	Reference 1590 1611	(Kikuchi et al., 2016
+T40	Reference 1613 1632	Takeno et al., 2017
+T41	Reference 1634 1651	Fan et al., 2018)
+T42	Reference 1883 1902	(Wang et al., 2017)
+T43	Reference 2143 2164	Nishida et al., 2018)
+T44	Dominant 2478 2500	( Levy et al., 2017; )
+T45	Dominant 2583 2599	Hu et al. (2018)
+T46	Dominant 2684 2702	Sun et al. (2018a)
+T47	Reference 3049 3067	(See et al., 2017)
+T48	Reference 3258 3275	(Hsu et al., 2018
+T49	Reference 3277 3299	Chen and Bansal, 2018)
+T50	Reference 3319 3345	(Pasunuru and Bansal, 2018
+T51	Reference 3347 3369	Gehrmann et al., 2018)
+T52	Dominant 3537 3555	Nema et al. (2017)
+T53	Dominant 3607 3625	Saha et al. (2018)
+T54	Dominant 3686 3711	Hasselqvist et al. (2017)
+T55	Pronoun 101 103	it
+T56	Pronoun 427 429	it
+T57	Pronoun 1013 1015	it
+T58	B_span 458 469	NarrativeQA
+T59	E_span 703 708	words
+T60	B_span 726 731	DuoRC
+T61	E_span 841 848	phrases
+T62	B_span 1083 1093	artificial
+T63	E_span 1346 1350	side
+T64	E_span 1141 1145	2017
+T65	B_span 1149 1160	variational
+T66	E_span 1187 1191	2017
+T67	B_span 1195 1206	adversarial
+T68	E_span 1251 1255	2018
+T69	B_span 1262 1267	prior
+T70	B_span 1511 1517	output
+T71	E_span 1650 1651	)
+T72	B_span 1806 1817	concatenate
+T73	E_span 1897 1901	2017
+T74	B_span 2078 2084	neural
+T75	E_span 2159 2163	2018
+T76	B_span 2480 2484	Levy
+T77	E_span 2570 2575	spans
+T78	B_span 2583 2585	Hu
+T79	E_span 2668 2676	question
+T80	B_span 2684 2687	Sun
+T81	E_span 2774 2782	verifier
+T82	B_span 3020 3027	pointer
+T83	E_span 3062 3066	2017
+T84	B_span 3221 3227	select
+T85	E_span 3294 3298	2018
+T86	B_span 3308 3312	word
+T87	E_span 3364 3368	2018
+T88	B_span 3537 3541	Nema
+T89	E_span 3596 3601	model
+T90	B_span 3607 3611	Saha
+T91	E_span 3673 3678	DuoRC
+T92	B_span 3686 3697	Hasselqvist
+T93	E_span 3829 3837	passages

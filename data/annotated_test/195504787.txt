@@ -1,0 +1,27 @@
+[BOS] Many recent advances in neural GEC aim at overcoming the mentioned data sparsity problem.
+[BOS] Ge et al. (2018a) proposed fluency-boost learning that generates additional training examples during training from an independent backward model or the forward model being trained.
+[BOS] Xie et al. (2018) supplied their model with noisy examples synthesized from clean sentences.
+[BOS] Junczys-Dowmunt et al. (2018b) utilized a large amount of monolingual data by pre-training decoder parameters with a language model, and Lichtarge et al. (2018 Lichtarge et al. ( , 2019 , on the other hand, used a large-scale out-of-domain parallel corpus extracted from Wikipedia revisions to pre-train their models.
+[BOS] We also pre-train a neural sequence-to-sequence model, but we do so solely on synthetic data.
+
+[BOS] Although our unsupervised method for synthesising parallel data by means of an (inverted) spellchecker is novel, the idea of generating artificial errors has been explored in the literature before, as summarized by Felice (2016) .
+[BOS] Previously proposed methods usually require a errorannotated corpus as a seed to generate artificial errors reflecting linguistic properties and error distributions observed in natural-error corpora (Foster and Andersen, 2009; Felice and Yuan, 2014) .
+[BOS] Artificial error generation methods spanned conditional probabilistic models for specific error types only (Rozovskaya and Roth, 2010; Rozovskaya et al., 2014; Felice and Yuan, 2014) , statistical or neural MT systems trained on reversed source and target sides (Rei et al., 2017; Kasewa et al., 2018) or neural sequence transduction models (Xie et al., 2018) .
+[BOS] None of these methods is unsupervised.
+
+[BOS] Other recent work focuses on improving model inference.
+[BOS] Ge et al. (2018a) proposed correcting a sentence more than once through multi-round model inference.
+[BOS] Lichtarge et al. (2018) introduced iterative decoding to incrementally correct a sentence with a high-precision system.
+[BOS] The multiround correction approach has been further extended (Ge et al., 2018b) by interchanging decoding of a standard left-to-right model with a right-toleft model.
+[BOS] The authors claim that the two models display unique advantages for specific error types as they decode with different contexts.
+[BOS] Inspired by this finding, we adapt a common technique from NMT (Sennrich et al., 2016 ) that reranks with a right-to-left model, but without multiple rounds.
+[BOS] We contend that multiple rounds are only necessary if the system has low recall.
+
+[BOS] 4 System overview 4.1 Transformer models Our neural GEC systems are based on Transformer models (Vaswani et al., 2017) very good results (Junczys-Dowmunt et al., 2018b; Lichtarge et al., 2018) .
+[BOS] We apply GEC-specific adaptations proposed by Junczys-Dowmunt et al. (2018b) with some modifications.
+[BOS] Following the paper, we use extensive regularization to avoid overfitting to the limited labelled data, including dropping out entire source embeddings (Sennrich et al., 2016) , and additional dropout on attention and feed-forward network transformer layers.
+[BOS] For the sake of simplicity, we replace averaging the best four model checkpoints with exponential smoothing (Gardner, 1985) .
+[BOS] We increase the size of mini-batches as this improved the performance in early experiments.
+[BOS] Parameters of the full model are pre-trained on synthetic parallel data, instead of pre-training only the decoder parameters (Ramachandran et al., 2017) .
+[BOS] We also experiment with larger Transformer models as described in Section 5.3.
+

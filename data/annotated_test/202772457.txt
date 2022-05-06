@@ -1,0 +1,17 @@
+[BOS] Traditional semantic role labeling task (Gildea and Jurafsky, 2002) presumes that the syntactic structure of the sentence is given, either being a constituent tree or a dependency tree, like in the CoNLL shared tasks (Carreras and Mrquez, 2005; Surdeanu et al., 2008; Haji et al., 2009) .
+
+[BOS] Recent neural-network-based approaches can be roughly categorized into two classes: 1) making use of the syntactic information (FitzGerald et al., 2015; Roth and Lapata, 2016; Qian et al., 2017; , and 2) pure endto-end learning from tokens to semantic labels, e.g., Zhou and Xu (2015) ; .
+[BOS] Roth and Lapata (2016) utilize an LSTM model to obtain embeddings from the syntactic dependency paths; while construct Graph Convolutional Networks to encode the dependency structure.
+[BOS] Although He et al. (2017) 's approach is a pure end-to-end learning, they have included an analysis of adding syntactic dependency information into English SRL in the discussion section.
+[BOS] have compared syntax-agnostic and syntax-aware approaches and Xia et al. (2019) have compared different ways to represent and encode the syntactic knowledge.
+
+[BOS] In another line of research, Tan et al. (2017) utilize the Transformer network for the encoder instead of the BiLSTM.
+[BOS] Strubell et al. (2018) present a novel and effective multi-head self-attention model to incorporate syntax, which is called LISA (Linguistically-Informed Self-Attention).
+[BOS] We follow their approach of replacing one attention head with the dependency head information, but use a softer way to capture the pairwise relationship between input elements (Shaw et al., 2018) .
+
+[BOS] For the datasets and annotations of the SRL task, most of the previous research focuses on 1) PropBank (Palmer et al., 2005) and Nom-Bank (Meyers et al., 2004 ) annotations, i.e., the CoNLL 2005 (Carreras and Mrquez, 2005 and CoNLL 2009 (Haji et al., 2009) shared tasks; 2) OntoNotes annotations (Weischedel et al., 2011) , i.e., the CoNLL 2005 and CoNLL 2012 datasets and more; 3) and FrameNet (Baker et al., 1998) annotations.
+[BOS] For the non-English languages, not all of them are widely available.
+[BOS] Apart from these, in the broad range of semantic processing, other formalisms non-exhaustively include abstract meaning representation (Banarescu et al., 2013) , universal decompositional semantics (White et al., 2016) , and semantic dependency parsing (Oepen et al., 2015) .
+[BOS] Abend and Rappoport (2017) give a better overview of various semantic representations.
+[BOS] In this paper, we primarily work on the Chinese and English datasets from the CoNLL-2009 shared task and focus on the effectiveness of incorporating syntax into the Chinese SRL task.
+

@@ -1,0 +1,84 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 37 42	[BOS]
+T3	Single_summ 282 287	[BOS]
+T4	Single_summ 387 392	[BOS]
+T5	Narrative_cite 463 468	[BOS]
+T6	Transition 644 649	[BOS]
+T7	Reflection 836 841	[BOS]
+T8	Other 1016 1021	[BOS]
+T9	Transition 1056 1061	[BOS]
+T10	Transition 1180 1185	[BOS]
+T11	Single_summ 1352 1357	[BOS]
+T12	Single_summ 1507 1512	[BOS]
+T13	Single_summ 1617 1622	[BOS]
+T14	Reflection 1771 1776	[BOS]
+T15	Other 1925 1930	[BOS]
+T16	Multi_summ 1955 1960	[BOS]
+T17	Multi_summ 2156 2161	[BOS]
+T18	Single_summ 2361 2366	[BOS]
+T19	Single_summ 2505 2510	[BOS]
+T20	Single_summ 2639 2644	[BOS]
+T21	Single_summ 2755 2760	[BOS]
+T22	Single_summ 2845 2850	[BOS]
+T23	Single_summ 3011 3016	[BOS]
+T24	Narrative_cite 3131 3136	[BOS]
+T25	Reflection 3162 3167	[BOS]
+T26	Reference 116 137	(Hermann et al., 2015
+T27	Reference 139 156	Hill et al., 2016
+T28	Reference 158 180	Rajpurkar et al., 2016
+T29	Reference 182 201	Joshi et al., 2017)
+T30	Reference 263 279	Yu et al., 2018)
+T31	Dominant 288 309	Wang and Jiang (2017)
+T32	Reference 551 569	(Seo et al., 2017)
+T33	Reference 624 641	(Hu et al., 2018)
+T34	Dominant 1377 1395	(Chen et al., 2017
+T35	Dominant 1532 1554	Wang and Bansal (2018)
+T36	Dominant 1623 1640	Min et al. (2018)
+T37	Dominant 2005 2025	Bucilu et al. (2006)
+T38	Dominant 2030 2050	Hinton et al. (2014)
+T39	Reference 2284 2304	(Romero et al., 2015
+T40	Reference 2306 2335	Zagoruyko and Komodakis, 2017
+T41	Reference 2337 2358	Huang and Wang, 2017)
+T42	Dominant 2367 2389	Papernot et al. (2016)
+T43	Dominant 2511 2536	Radosavovic et al. (2017)
+T44	Dominant 2683 2700	Mou et al. (2016)
+T45	Dominant 2761 2782	Kuncoro et al. (2016)
+T46	Dominant 2851 2870	Kim and Rush (2016)
+T47	Dominant 3017 3045	Nakashole and Flauger (2017)
+T48	Reference 3137 3155	Xu and Yang (2017)
+T49	Pronoun 656 661	these
+T50	Pronoun 943 948	these
+T51	B_span 71 78	machine
+T52	E_span 196 200	2017
+T53	B_span 204 207	end
+T54	E_span 274 278	2018
+T55	B_span 288 292	Wang
+T56	E_span 447 461	representation
+T57	B_span 538 540	bi
+T58	E_span 636 640	2018
+T59	E_span 568 569	)
+T60	B_span 612 623	reattention
+T61	B_span 1378 1379	C
+T62	E_span 1500 1505	model
+T63	B_span 1520 1530	robustness
+T64	E_span 1609 1615	method
+T65	B_span 1623 1626	Min
+T66	E_span 1761 1769	sentence
+T67	B_span 2005 2011	Bucilu
+T68	E_span 2147 2154	student
+T69	B_span 2162 2167	Later
+T70	E_span 2353 2357	2017
+T71	B_span 2367 2375	Papernot
+T72	E_span 2492 2503	recognition
+T73	B_span 2511 2522	Radosavovic
+T74	E_span 2628 2636	learning
+T75	B_span 2683 2686	Mou
+T76	E_span 2743 2753	embeddings
+T77	B_span 2761 2768	Kuncoro
+T78	E_span 2836 2843	parsers
+T79	B_span 2851 2854	Kim
+T80	E_span 3002 3009	teacher
+T81	B_span 3017 3026	Nakashole
+T82	E_span 3120 3129	objective
+T83	B_span 3137 3139	Xu
+T84	E_span 3154 3155	)

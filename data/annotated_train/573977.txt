@@ -1,0 +1,20 @@
+[BOS] Unsupervised transliteration has not been widely explored.
+[BOS] Chinnakotla et al. (2010) generate transliteration candidates using manually developed character mapping rules and rerank them with a character language model.
+[BOS] The major limitations are: (i) character transliteration probability is not learnt, so there is undue reliance on the language model to handle ambiguity, and (ii) significant manual effort for good coverage of mapping rules.
+[BOS] Ravi and Knight (2009) propose a decipherment framework based approach (Knight et al., 2006) to learn phoneme mappings for transliteration without parallel data.
+[BOS] In theory, it should be able to learn transliteration probabilities and is a generalization of Chinnakotla et al. (2010) 's approach.
+[BOS] But its performance is very poor due to lack of linguistic knowledge and has a reasonable performance only when a unigram word-level LM is used.
+[BOS] This signal essentially reduces the approach to a lookup for the generated transliterations in a target language word list; the method resembles transliteration mining.
+[BOS] It will perform well only if the unigram LM has a good coverage of all named entities in the source word list.
+[BOS] For morphologically rich target languages, it may be difficult to find the exact surface words in the unigram LM.
+
+[BOS] Our character level model approach is a further generalization of Ravi and Knight (2009) 's work since it also allows modelling of prior linguistic knowledge in the learning process.
+[BOS] This overcomes the most significant gap in their work.
+
+[BOS] Some approaches to transliteration mining are also relevant to the present work.
+[BOS] Tao et al. (2006) show improvement in transliteration mining performance using phonetic feature vectors resembling the ones we have used.
+[BOS] Jagarlamudi and Daum III (2012) use phonemic representa- We use a substring-based log-linear model in our second stage.
+[BOS] There are some parallels to this approach in the transliteration mining litereature.
+[BOS] Some transliteration mining approaches have used a log-linear classifier to incorporate features to distinguish transliterations from non-transliterations (Klementiev and Roth, 2006; Chang et al., 2009 ).
+[BOS] Sajjad et al. (2011) use a substring-based log-linear model trained on a noisy, intermediate transliteration corpus to iteratively remove bad (lowscoring) transliteration pairs found in the discovery process.
+

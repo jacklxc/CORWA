@@ -1,0 +1,54 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 260 265	[BOS]
+T3	Single_summ 468 473	[BOS]
+T4	Reflection 620 625	[BOS]
+T5	Single_summ 706 711	[BOS]
+T6	Narrative_cite 827 832	[BOS]
+T7	Reflection 1005 1010	[BOS]
+T8	Reflection 1125 1130	[BOS]
+T9	Reflection 1283 1288	[BOS]
+T10	Transition 1479 1484	[BOS]
+T11	Narrative_cite 1554 1559	[BOS]
+T12	Reflection 1966 1971	[BOS]
+T13	Reflection 2053 2058	[BOS]
+T14	Narrative_cite 2131 2136	[BOS]
+T15	Reflection 2294 2299	[BOS]
+T16	Transition 2459 2464	[BOS]
+T17	Narrative_cite 2501 2506	[BOS]
+T18	Reference 173 195	(Wong and Mooney, 2006
+T19	Reference 197 214	Wu and Fung, 2009
+T20	Reference 216 236	Liu and Gildea, 2010
+T21	Reference 238 257	Baker et al., 2012)
+T22	Dominant 266 285	Jones et al. (2012)
+T23	Dominant 722 748	Marcheggiani et al. (2018)
+T24	Reference 924 948	(Kipf and Welling, 2017)
+T25	Reference 1449 1475	Marcheggiani et al. (2018)
+T26	Reference 1757 1779	(Vaswani et al., 2017)
+T27	Reference 2254 2271	(Li et al., 2015b
+T28	Reference 2273 2291	Beck et al., 2018)
+T29	Reference 2565 2587	Bahdanau et al. (2015)
+T30	Reference 2624 2658	(Hochreiter and Schmidhuber, 1997)
+T31	Reference 2680 2698	(Cho et al., 2014)
+T32	Pronoun 474 479	Their
+T33	Pronoun 566 571	their
+T34	Pronoun 597 599	it
+T35	B_span 102 112	usefulness
+T36	E_span 252 256	2012
+T37	B_span 266 271	Jones
+T38	E_span 609 618	sentences
+T39	B_span 722 734	Marcheggiani
+T40	E_span 821 824	NMT
+T41	B_span 883 888	graph
+T42	E_span 943 947	2017
+T45	B_span 2152 2156	GRNs
+T46	E_span 2286 2290	2018
+T47	B_span 2519 2528	attention
+T48	E_span 2582 2586	2015
+T49	B_span 2613 2617	LSTM
+T50	E_span 2653 2657	1997
+T51	B_span 2670 2673	GRU
+T52	E_span 2693 2697	2014
+T53	B_span 1379 1385	doubly
+T54	E_span 1470 1474	2018
+T43	B_span 1745 1756	Transformer
+T55	E_span 1774 1778	2017

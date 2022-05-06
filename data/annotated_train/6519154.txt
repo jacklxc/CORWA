@@ -1,0 +1,14 @@
+[BOS] There have been several studies on transferring SRL systems Lapata, 2005, 2009; Mukund et al., 2010; van der Plas et al., 2011 van der Plas et al., , 2014 Kozhevnikov and Titov, 2013; Akbik et al., 2015) .
+[BOS] Pad and Lapata (2005) , as one of the earliest studies on annotation projection for SRL using parallel resources, apply different heuristics and techniques to improve the quality of their model by focusing on having better word and constituent alignments.
+[BOS] van der Plas et al. (2011) improve an annotation projection model by jointly training a transfer system for parsing and SRL.
+[BOS] They solely focus on fully projected annotations and train only on verbs.
+[BOS] In this work, we train on all predicates as well as exploit partial annotation.
+[BOS] Kozhevnikov and Titov (2013) define shared feature representations between the source and target languages in annotation projection.
+[BOS] The benefit of using shared representations is complementary to our work encouraging us to use it in future work.
+
+[BOS] Akbik et al. (2015) introduce an iterative selftraining approach using different types of linguistic heuristics and alignment filters to improve the quality of projected roles.
+[BOS] Unlike our work that does not use any external resources, Akbik et al. (2015) make use of bilingual dictionaries.
+[BOS] Our work also leverages self-training but with a different approach: first of all, ours does not apply any heuristics to filter out projections.
+[BOS] Second, it trains and relabels all projected instances, either labeled or unlabeled, at every epoch and does not gradually introduce new unlabeled data.
+[BOS] Instead, we find it more useful to let the target language SRL system rule out noisy projections via relabeling.
+

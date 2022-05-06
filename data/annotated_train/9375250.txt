@@ -1,0 +1,10 @@
+[BOS] A relatively large body of work exists in sentence compression (Knight and Marcu, 2000; McDonald, 2006; Galley and McKeown, 2007; Cohn and Lapata, 2008; Clarke and Lapata, 2008, inter alia) , and sentence fusion (Barzilay and McKeown, 2005; Marsi and Krahmer, 2005; Filippova and Strube, 2008; Filippova, 2010; Thadani and McKeown, 2013) .
+[BOS] Unlike this work, our sentence enhancement algorithm considers the entire source text and is not limited to the initial input sentences.
+[BOS] Few previous papers focus on combining the content of diverse sentences into one output sentence.
+[BOS] Wan et al. (2008) propose sentence augmentation by identifying "seed" words in a single original sentence, then adding information from auxiliary sentences based on word co-occurrence counts.
+[BOS] Elsner and Santhanam (2011) investigate the idea of fusing disparate sentences with a supervised algorithm, as discussed above.
+
+[BOS] Previous studies on cut-and-paste summarization (Jing and McKeown, 2000; Saggion and Lapalme, 2002) investigate the operations that human summarizers perform on the source text in order to produce the summary text.
+[BOS] Our previous work argued that current extractive systems rely too heavily on notions of information centrality (Cheung and Penn, 2013) .
+[BOS] This paper extends this work by identifying specific linguistic factors correlated with the use of source-text-external elements.
+

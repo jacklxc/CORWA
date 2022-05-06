@@ -1,0 +1,25 @@
+[BOS] Most studies on multimodal machine translation are divided into two categories: visual feature adaptation and data augmentation.
+[BOS] First, in visual feature adaptation, visual features are extracted using image processing techniques and then integrated into a machine translation model.
+[BOS] In contrast, most multitask learning models use latent space learning as their auxiliary task.
+[BOS] Elliott and Kdr (2017) proposed the IMAGINATION model that learns to construct the corresponding visual feature from the textual hidden states of a source sentence.
+[BOS] The visual model shares its encoder with the machine translation model; this helps in improving the textual encoder.
+
+[BOS] Second, in data augmentation, parallel corpora without images are widely used as additional trainImage Source un homme en vlo pdale devant une vote .
+[BOS] quatre hommes , dont trois portent des kippas , sont assis sur un tapis motifs bleu et vert olive .
+
+[BOS] Reference a man on a bicycle pedals through an archway .
+[BOS] four men , three of whom are wearing prayer caps , are sitting on a blue and olive green patterned mat .
+
+[BOS] NMT a man on a bicycle pedal past an arch .
+[BOS] four men , three of whom are wearing aprons , are sitting on a blue and green speedo carpet .
+
+[BOS] IMAG+ a man on a bicycle pedals outside a monument .
+[BOS] four men , three of them are wearing alaska , are sitting on a blue patterned carpet and green green seating .
+
+[BOS] Ours a man on a bicycle pedals in front of a archway .
+[BOS] four men , three are wearing these are wearing these are sitting on a blue and green patterned mat .
+[BOS] ing data.
+[BOS] Grnroos et al. (2018) trained their multimodal model with parallel corpora and achieved state-of-the-art performance in the WMT 2018.
+[BOS] However, the use of monolingual corpora has seldom been studied in multimodal machine translation.
+[BOS] Our study proposes using word embeddings that are pretrained on monolingual corpora.
+

@@ -1,0 +1,49 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 110 115	[BOS]
+T3	Transition 320 325	[BOS]
+T4	Reflection 361 366	[BOS]
+T5	Transition 643 648	[BOS]
+T6	Transition 837 842	[BOS]
+T7	Transition 960 965	[BOS]
+T8	Reflection 1040 1045	[BOS]
+T9	Reflection 1097 1102	[BOS]
+T10	Transition 1207 1212	[BOS]
+T11	Single_summ 1344 1349	[BOS]
+T12	Single_summ 1479 1484	[BOS]
+T13	Narrative_cite 1580 1585	[BOS]
+T14	Reflection 1789 1794	[BOS]
+T15	Single_summ 1916 1921	[BOS]
+T16	Single_summ 2012 2017	[BOS]
+T17	Single_summ 2097 2102	[BOS]
+T18	Reference 208 231	(Cheng and Lapata, 2016
+T19	Reference 233 256	Nallapati et al., 2017)
+T20	Reference 295 317	(Narayan et al., 2018)
+T21	Dominant 1350 1374	Martins and Smith (2009)
+T22	Dominant 1485 1511	Woodsend and Lapata (2011)
+T23	Reference 1644 1674	(Berg-Kirkpatrick et al., 2011
+T24	Reference 1676 1693	Wang et al., 2013
+T25	Reference 1695 1711	Li et al., 2014)
+T26	Reference 1744 1763	(Hirao et al., 2013
+T27	Reference 1765 1786	Durrett et al., 2016)
+T28	Dominant 1922 1945	Filippova et al. (2015)
+T29	Dominant 2018 2041	Miao and Blunsom (2016)
+T30	Pronoun 990 994	this
+T31	Pronoun 1466 1471	their
+T32	Pronoun 1819 1823	this
+T33	Pronoun 2184 2189	these
+T34	B_span 137 147	structured
+T35	E_span 251 255	2017
+T36	B_span 260 274	classification
+T37	E_span 312 316	2018
+T38	B_span 1350 1357	Martins
+T39	E_span 1472 1477	model
+T40	B_span 1485 1493	Woodsend
+T41	E_span 1567 1578	compression
+T42	B_span 1615 1620	usage
+T43	E_span 1706 1710	2014
+T44	B_span 1723 1726	RST
+T45	E_span 1781 1785	2016
+T46	B_span 1922 1931	Filippova
+T47	E_span 1999 2010	compression
+T48	B_span 2018 2022	Miao
+T49	E_span 2211 2222	performance

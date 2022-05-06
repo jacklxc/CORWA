@@ -1,0 +1,16 @@
+[BOS] Minimum error rate training (Och, 2003) is perhaps the most popular discriminative training for SMT.
+[BOS] However, it fails to scale to large number of features.
+[BOS] Researchers have propose many learning algorithms to train many features: perceptron (Shen et al., 2004; Liang et al., 2006) , minimum risk (Smith and Eisner, 2006; , MIRA (Watanabe et al., 2007; Chiang et al., 2009) , gradient descent .
+[BOS] The complexity of n-best lists or packed forests generation hamper these algorithms to scale to a large amount of data.
+
+[BOS] For efficiency, we only use neighboring derivations for training.
+[BOS] Such motivation is same as contrastive estimation (Smith and Eisner, 2005; Poon et al., 2009) .
+[BOS] The difference lies in that the previous work actually care about their latent variables (pos tags, segmentation, dependency trees, etc), while we are only interested in their marginal distribution.
+[BOS] Furthermore, we focus on how to fast generate translation forest for training.
+
+[BOS] The local operators lexicalize/generalize are use for greedy decoding.
+[BOS] The idea is related to "pegging" algorithm (Brown et al., 1993) and greedy decoding (Germann et al., 2001) .
+[BOS] Such types of local operators are also used in Gibbs sampler for synchronous grammar induction ).
+[BOS] apply our forest on other learning algorithms.
+[BOS] Finally, we hope to exploit more features such as reordering features and syntactic features so as to further improve the performance.
+

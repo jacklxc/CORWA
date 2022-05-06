@@ -1,0 +1,9 @@
+[BOS] Existing work on creating evaluations for word embeddings has focused on lexical semantics tasks.
+[BOS] An example of such tasks is WordSim-353 (Finkelstein et al., 2001) , in which a series of word pairs are assigned similarity judgments by human annotators, and these are compared to the similarity scores obtained from word embeddings.
+
+[BOS] A thorough such lexical semantics evaluation was created by Faruqui and Dyer (2014) 1 .
+[BOS] This website allows a user to upload a set of embeddings, and evaluates these embeddings on a series of word similarity benchmarks.
+[BOS] We follow the model presented in Faruqui and Dyer (2014) , but extend to a series of more realistic downstream tasks.
+[BOS] Schnabel et al. (2015) carried out both a thorough intrinsic evaluation of word vectors, and a limited extrinsic evaluation showing that an embedding's intrinsic performance did not necessarily correlate with its real-world performance.
+[BOS] This finding is a key motivation for this work -we aim to create a metric which does correlate with downstream performance.
+

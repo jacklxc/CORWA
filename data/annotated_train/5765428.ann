@@ -1,0 +1,22 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 137 142	[BOS]
+T3	Single_summ 286 291	[BOS]
+T4	Narrative_cite 417 422	[BOS]
+T5	Transition 607 612	[BOS]
+T6	Single_summ 751 756	[BOS]
+T7	Single_summ 896 901	[BOS]
+T8	Dominant 161 196	Finkel et al. (Finkel et al., 2005)
+T9	Reference 525 548	(McClosky et al., 2011)
+T10	Reference 586 603	(Li et al., 2013)
+T11	Dominant 777 808	Peng et al. (Peng et al., 2017)
+T12	Dominant 912 949	Dhingra et al. (Dhingra et al., 2017)
+T13	B_span 161 167	Finkel
+T14	E_span 281 284	use
+T15	B_span 491 502	recognition
+T16	E_span 543 547	2011
+T17	B_span 557 566	automatic
+T18	E_span 598 602	2013
+T19	B_span 777 781	Peng
+T20	E_span 888 894	graphs
+T21	B_span 912 919	Dhingra
+T22	E_span 1084 1094	resolution

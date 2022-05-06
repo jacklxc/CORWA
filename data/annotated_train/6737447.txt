@@ -1,0 +1,42 @@
+[BOS] Our research covers a wide range of topics, uses diverse natural language processing strategies, and includes the development of multiple algorithms for all steps, from term extraction to query generation to collocation search.
+[BOS] As our purpose in this article is to present a proof of concept of an integrated system, we do not present any quantitative comparisons with other algorithms or systems, but rather highlight some research related to corpus building and analysis.
+
+[BOS] Our research relies mainly on the principle of ""Web as corpus""
+
+[BOS] 7 [17] and exploiting the Web for language learners and translators.
+[BOS] In the book Corpus Linguistics and the Web [16] , a distinction is made between ""accessing the web as corpus"" and ""compiling corpora from the internet"".
+[BOS] Our system relates to both views.
+
+[BOS] The hit count specificity/generality approximations relate to the former view.
+[BOS] The corpus building modules gathering results from the query generation module relates to the latter view.
+
+[BOS] Search for Web documents is usually associated to the field of information retrieval.
+[BOS] A large body of research exists within that area and we borrow from it.
+[BOS] Searching for a particular document to answer a particular question (an information retrieval task) is different than searching for domain-specific documents to ""augment"" a user's knowledge.
+[BOS] The former has a specific goal, finding an answer to a question, and the latter has a discovery purpose.
+
+[BOS] Nevertheless our query generation module faces the same problems as those of query expansion in information retrieval [12, 27] .
+[BOS] Query expansion is a delicate task, as using general terms which tend to be polysemous can lead to off-topic documents, and using very specific terms will not help as they will not return any documents.
+[BOS] Our approach was to allow the inclusion of domain-words for restriction and then do a random selection of terms for expansion.
+
+[BOS] Our query generation module was inspired by the work of Baroni [3, 4] who suggested query combinations of common words to build a corpus of general knowledge or specialized language.
+[BOS] Earlier work by Ghani et al. [11] presented a similar idea for minority languages.
+[BOS] TerminoWeb includes a unique re-ranking of documents based on an ""informative score"" as defined in [1] .
+[BOS] It then builds informative sub-corpora from the Web.
+
+[BOS] Although, systems such as WebCorp [24] and KWiCFinder [13] do not build sub-corpora, they use the Web as a large corpus to find collocations and concordances, providing user with easy-to-use realtime systems.
+
+[BOS] For corpus analysis per se, TerminoWeb combines different modules performing term extraction, collocation extraction and concordance findings.
+[BOS] A large pool of research exists in computational terminology around the problem of term extraction.
+[BOS] Although a simple frequency based approach is implemented in TerminoWeb, there are more sophisticated algorithms being developed in the community (see [8] for a review of earlier systems and [9] for a new trend of term extraction based on comparing corpora).
+[BOS] For collocations, we refer the reader to Smadja [25] for the algorithm we implemented, and to [10] for a review of different measures.
+[BOS] Finding concordances does not require any statistical corpus linguistic knowledge, and is simply a window of text capture.
+
+[BOS] The Sketch Engine [18] system provides a good comparison point to position TerminoWeb.
+[BOS] Overall, TerminoWeb's corpus analysis capabilities are simpler than the ones in Sketch Engine.
+[BOS] The purpose is quite different, as TerminoWeb's main objective is to provide an integrated platform for understanding terms related to a domain or a source text.
+[BOS] For doing so, the emphasis is on easy real-time construction and simple analysis of disposable corpora.
+[BOS] No textpreprocessing is necessary, but then, no part-of-speech analysis is available either.
+[BOS] We want the user to be able to quickly search for specialized information on the Web to understand important concepts via an integrated system for term extraction and term collocation and concordances finding.
+[BOS] This is different from studying language patterns and understanding the uses of words or phrases as can be done in a better way in Sketch Engine [18] .
+

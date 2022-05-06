@@ -1,0 +1,76 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 341 346	[BOS]
+T3	Single_summ 498 503	[BOS]
+T4	Transition 664 669	[BOS]
+T5	Narrative_cite 806 811	[BOS]
+T6	Transition 1062 1067	[BOS]
+T7	Multi_summ 1186 1191	[BOS]
+T8	Reflection 1408 1413	[BOS]
+T9	Transition 1562 1567	[BOS]
+T10	Narrative_cite 1707 1712	[BOS]
+T11	Narrative_cite 1808 1813	[BOS]
+T12	Single_summ 2004 2009	[BOS]
+T13	Transition 2171 2176	[BOS]
+T14	Reflection 2368 2373	[BOS]
+T15	Reflection 2493 2498	[BOS]
+T16	Narrative_cite 2763 2768	[BOS]
+T17	Transition 2997 3002	[BOS]
+T18	Reflection 3112 3117	[BOS]
+T19	Narrative_cite 3412 3417	[BOS]
+T20	Reflection 3567 3572	[BOS]
+T21	Reference 52 74	(Miwa and Bansal, 2016
+T22	Reference 76 94	Zhang et al., 2017
+T23	Reference 96 114	Singh et al., 2013
+T24	Reference 116 140	Yang and Mitchell, 2016)
+T25	Reference 167 189	(Peng and Dredze, 2015
+T26	Reference 191 208	Peng et al., 2017
+T29	Dominant 387 406	Luan et al. (2018a)
+T30	Reference 955 978	(Collobert et al., 2011
+T31	Reference 980 999	Lample et al., 2016
+T32	Reference 1001 1018	Ma and Hovy, 2016
+T33	Reference 1020 1037	Luan et al., 2017
+T34	Reference 1039 1059	Luan et al., , 2018b
+T36	Reference 1740 1758	(Yang et al., 2015
+T37	Reference 1760 1781	Bordes et al., 2013 )
+T38	Reference 1963 1981	(Peng et al., 2017
+T39	Reference 1983 2000	Song et al., 2018
+T40	Dominant 2010 2037	Christopoulou et al. (2018)
+T42	Reference 2917 2933	(Li and Ji, 2014
+T43	Reference 2935 2950	Xu et al., 2015
+T44	Reference 2952 2973	Miwa and Bansal, 2016
+T45	Reference 2975 2994	Zhang et al., 2017)
+T46	Reference 3215 3236	(Peters et al., 2018)
+T47	Reference 3499 3518	(Luan et al., 2018a
+T48	Reference 3520 3538	Sanh et al., 2019)
+T49	Pronoun 507 511	this
+T50	Pronoun 2181 2186	these
+T51	Pronoun 3003 3008	These
+T52	Pronoun 3051 3056	these
+T53	Pronoun 3169 3171	it
+T54	B_span 37 42	joint
+T56	B_span 147 151	mult
+T57	E_span 248 249	a
+T28	Reference 229 249	Luan et al., , 2017a
+T27	Reference 210 228	Luan et al., 2018a
+T58	B_span 387 390	Lua
+T60	B_span 934 938	neur
+T61	E_span 1056 1059	18b
+T35	Dominant 1201 1226	Katiyar and Cardie (2018)
+T62	Dominant 1231 1249	Wang and Lu (2018)
+T63	B_span 1201 1210	Katiyar a
+T64	E_span 1400 1406	ystems
+T65	B_span 1713 1716	Kno
+T66	E_span 1775 1779	2013
+T67	B_span 1930 1936	syntac
+T68	E_span 1997 2000	018
+T69	B_span 2010 2015	Chris
+T70	E_span 2164 2169	cture
+T41	Reference 2577 2593	Lee et al., 2017
+T71	B_span 2865 2867	de
+T73	B_span 3199 3202	ELM
+T74	E_span 3233 3236	18)
+T75	B_span 3500 3503	Lua
+T76	E_span 3563 3565	Mo
+T55	E_span 137 139	16
+T59	E_span 657 662	layer
+T72	E_span 3103 3110	domains

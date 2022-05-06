@@ -1,0 +1,45 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 115 120	[BOS]
+T3	Transition 196 201	[BOS]
+T4	Single_summ 334 339	[BOS]
+T5	Single_summ 459 464	[BOS]
+T6	Reflection 657 662	[BOS]
+T7	Transition 833 838	[BOS]
+T8	Single_summ 1018 1023	[BOS]
+T9	Single_summ 1185 1190	[BOS]
+T10	Single_summ 1416 1421	[BOS]
+T11	Transition 1579 1584	[BOS]
+T12	Reflection 1696 1701	[BOS]
+T13	Single_summ 1789 1794	[BOS]
+T14	Single_summ 1930 1935	[BOS]
+T15	Transition 2050 2055	[BOS]
+T16	Reflection 2154 2159	[BOS]
+T17	Dominant 340 357	Lee et al. (2017)
+T18	Dominant 465 483	Yang et al. (2016)
+T19	Dominant 1024 1043	Ling et al. (2015a)
+T20	Dominant 1191 1222	Costa-juss and Fonollosa (2016)
+T21	Reference 1313 1338	(Srivastava et al., 2015)
+T22	Dominant 1422 1443	Zhao and Zhang (2016)
+T23	Dominant 1795 1819	Luong and Manning (2016)
+T24	Dominant 1936 1952	Wu et al. (2016)
+T25	Pronoun 121 126	These
+T26	Pronoun 678 683	their
+T27	Pronoun 1469 1474	their
+T28	Pronoun 1585 1590	These
+T29	Pronoun 2056 2061	These
+T30	B_span 340 343	Lee
+T31	E_span 451 457	layers
+T32	B_span 465 469	Yang
+T33	E_span 648 655	network
+T34	B_span 1024 1028	Ling
+T35	E_span 1172 1183	information
+T36	B_span 1191 1196	Costa
+T37	B_span 1261 1274	convolutional
+T38	E_span 1333 1337	2015
+T39	E_span 1404 1414	characters
+T40	B_span 1422 1426	Zhao
+T41	E_span 1573 1577	word
+T42	B_span 1795 1800	Luong
+T43	E_span 1924 1928	word
+T44	B_span 1936 1938	Wu
+T45	E_span 2038 2048	characters

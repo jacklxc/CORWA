@@ -1,0 +1,82 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 116 121	[BOS]
+T3	Transition 442 447	[BOS]
+T4	Narrative_cite 640 645	[BOS]
+T5	Narrative_cite 921 926	[BOS]
+T6	Reflection 1080 1085	[BOS]
+T7	Reflection 1216 1221	[BOS]
+T8	Narrative_cite 1295 1300	[BOS]
+T9	Multi_summ 1422 1427	[BOS]
+T10	Single_summ 1578 1583	[BOS]
+T11	Single_summ 1645 1650	[BOS]
+T12	Single_summ 1653 1658	[BOS]
+T13	Single_summ 1661 1666	[BOS]
+T14	Single_summ 1785 1790	[BOS]
+T15	Single_summ 1884 1889	[BOS]
+T16	Single_summ 2055 2060	[BOS]
+T17	Single_summ 2187 2192	[BOS]
+T18	Transition 2298 2303	[BOS]
+T19	Reflection 2401 2406	[BOS]
+T20	Reflection 2514 2519	[BOS]
+T21	Reflection 2625 2630	[BOS]
+T22	Reflection 2633 2638	[BOS]
+T23	Reflection 2641 2646	[BOS]
+T24	Reflection 2761 2766	[BOS]
+T25	Reflection 2949 2954	[BOS]
+T26	Reflection 3031 3036	[BOS]
+T27	Reflection 3133 3138	[BOS]
+T28	Reference 74 97	(Lappin and Leass, 1994
+T29	Reference 99 113	Baldwin, 1997)
+T30	Reference 259 288	(Chinchor and Sundheim, 2003)
+T31	Reference 299 315	(Chinchor, 2001)
+T32	Reference 732 758	(Cardie and Wagstaff, 1999
+T33	Reference 760 782	Angheluta et al., 2004
+T34	Reference 784 808	Haghighi and Klein, 2007
+T35	Reference 810 818	Ng, 2008
+T36	Reference 820 843	Poon and Domingos, 2008
+T37	Reference 845 869	Haghighi and Klein, 2009
+T38	Reference 871 895	Haghighi and Klein, 2010
+T39	Reference 897 918	Kobdani et al., 2011)
+T40	Reference 983 1008	Haghighi and Klein (2007)
+T41	Reference 1011 1035	Poon and Domingos (2008)
+T42	Reference 1038 1050	Klein (2009)
+T43	Reference 1056 1077	Kobdani et al. (2011)
+T44	Reference 1090 1115	Haghighi and Klein (2010)
+T45	Reference 1356 1381	(Cherry and Bergsma, 2005
+T46	Reference 1383 1391	Ng, 2008
+T47	Reference 1393 1420	Charniak and Elsner, 2009 )
+T48	Dominant 1428 1453	Cherry and Bergsma (2005)
+T49	Dominant 1458 1484	Charniak and Elsner (2009)
+T50	Dominant 1520 1529	Ng (2008)
+T51	Dominant 1608 1617	Ng (2008)
+T52	Dominant 1872 1881	Ng (2008)
+T53	Dominant 2061 2070	Ng (2008)
+T54	Dominant 2236 2245	Ng (2008)
+T55	Reference 2277 2294	Luo et al. (2004)
+T56	B_span 55 59	rule
+T57	E_span 108 112	1997
+T58	B_span 253 256	MUC
+T59	E_span 283 287	2003
+T60	B_span 293 296	MUC
+T61	E_span 310 314	2001
+T62	B_span 682 686	core
+T63	E_span 913 917	2011
+T64	B_span 959 971	unsupervised
+T65	E_span 1072 1076	2011
+T66	B_span 1086 1089	The
+T67	E_span 1202 1213	comparisons
+T68	B_span 1333 1344	coreference
+T69	E_span 1414 1418	2009
+T70	B_span 1428 1432	Cher
+T71	E_span 1504 1514	resolution
+T72	B_span 1520 1522	Ng
+T73	E_span 2289 2293	2004
+T74	B_span 2255 2259	Bell
+T75	E_span 2289 2293	2004
+T76	Pronoun 1183 1187	this
+T77	Pronoun 1791 1796	These
+T78	Pronoun 2158 2162	this
+T79	Pronoun 2493 2498	their
+T80	Pronoun 2531 2533	it
+T81	Pronoun 2576 2581	these
+T82	Pronoun 2773 2775	it

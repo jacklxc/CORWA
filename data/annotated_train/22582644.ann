@@ -1,0 +1,48 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 200 205	[BOS]
+T3	Single_summ 367 372	[BOS]
+T4	Single_summ 476 481	[BOS]
+T5	Single_summ 625 630	[BOS]
+T6	Single_summ 813 818	[BOS]
+T7	Single_summ 1036 1041	[BOS]
+T8	Single_summ 1239 1244	[BOS]
+T9	Narrative_cite 1404 1409	[BOS]
+T10	Transition 1620 1625	[BOS]
+T11	Transition 1763 1768	[BOS]
+T12	Narrative_cite 1919 1924	[BOS]
+T13	Transition 2052 2057	[BOS]
+T14	Narrative_cite 2197 2202	[BOS]
+T15	Other 2397 2402	[BOS]
+T16	Reflection 2466 2471	[BOS]
+T17	Reference 182 197	[1, 2, 3, 4, 5]
+T18	Dominant 258 274	Kiros et al. [1]
+T19	Reference 360 364	[14]
+T20	Dominant 388 404	Kiros et al. [1]
+T21	Reference 923 926	15]
+T22	Dominant 1274 1290	Kiros et al. [1]
+T23	Reference 1541 1543	4]
+T24	Reference 2046 2049	18]
+T25	Reference 2327 2329	5]
+T26	B_span 167 168	-
+T27	E_span 196 197	]
+T28	B_span 258 261	Kir
+T29	E_span 363 364	]
+T30	B_span 373 375	In
+T31	E_span 1222 1236	representation
+T32	B_span 1274 1279	Kiros
+T33	E_span 1388 1402	representation
+T34	B_span 1521 1527	Fisher
+T35	E_span 1542 1543	]
+T36	B_span 2017 2031	Word2VisualVec
+T37	E_span 2048 2049	]
+T38	B_span 2248 2254	MSCOCO
+T39	E_span 2328 2329	]
+T40	Pronoun 206 210	This
+T41	Pronoun 376 381	their
+T42	Pronoun 485 489	this
+T43	Pronoun 2058 2062	This
+T44	Pronoun 2489 2494	these
+T45	B_span 333 339	Neural
+T46	E_span 361 363	14
+T47	B_span 863 876	Convolutional
+T48	E_span 923 925	15

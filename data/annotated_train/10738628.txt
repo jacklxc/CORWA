@@ -1,0 +1,19 @@
+[BOS] Several researchers have addressed the problem of MWE classification (Baldwin et al., 2003; Katz and Giesbrecht, 2006; Schone and Juraksfy, 2001; Hashimoto et al., 2006; Hashimoto and Kawahara, 2008) .
+[BOS] The majority of the proposed research has been using unsupervised approaches and have addressed the problem of MWE type classification irrespective of usage in context Cook et al., 2007) .
+[BOS] We are aware of two supervised approaches to the problem: work by (Katz and Giesbrecht, 2006) and work by (Hashimoto and Kawahara, 2008) .
+
+[BOS] In Katz and Giesbrecht (2006) (KG06) the authors carried out a vector similarity comparison between the context of an MWE and that of the constituent words using LSA to determine if the expression is idiomatic or not.
+[BOS] The KG06 is similar in intuition to work proposed by , however the latter work was unsupervised.
+[BOS] KG06 experimented with a tiny data set of only 108 sentences corresponding to one MWE idiomatic expression.
+
+[BOS] Hashimoto and Kawahara (2008) (HK08) is the first large scale study to our knowledge that addressed token classification into idiomatic versus literal for Japanese MWEs of all types.
+[BOS] They apply a supervised learning framework using support vector machines based on TinySVM with a quadratic kernel.
+[BOS] They annotate a web based corpus for training data.
+[BOS] They identify 101 idiom types each with a corresponding 1000 examples, hence they had a corpus of 102K sentences of annotated data for their experiments.
+[BOS] They experiment with 90 idiom types only for which they had more than 50 examples.
+[BOS] They use two types of features: word sense disambiguation (WSD) features and idiom features.
+[BOS] The WSD features comprised some basic syntactic features such as POS, lemma information, token n-gram features, in addition to hypernymy information on words as well as domain information.
+[BOS] For the idiom features they were mostly inflectional features such as voice, negativity, modality, in addition to adjacency and adnominal features.
+[BOS] They report results in terms of accuracy and rate of error reduction.
+[BOS] Their overall accuracy is of 89.25% using all the features.
+

@@ -1,0 +1,18 @@
+[BOS] Bootstrapping has many variants, such as self-training, co-training, and label propagation.
+
+[BOS] Yarowsky's style of self-training algo-rithms (Yarowsky, 1995) have been shown to be successful at bootstrapping (Collins and Singer, 1999) .
+[BOS] Co-training (Blum and Mitchell, 1998) and its boostrapped adaptation (Collins and Singer, 1999) require disjoint views of the features of the data.
+[BOS] Whitney and Sarkar (2012) proposed a modified Yarowsky algorithm that used label propagation on graphs, inspired by Subramanya et al. (2010) algorithm that used a large labeled data for domain adaptation.
+
+[BOS] In this paper, we use the setting of bootstrapped pattern-based entity extraction (Riloff, 1996; Thelen and Riloff, 2002) .
+[BOS] This can be viewed as a form of the Yarowsky algorithm, with pattern learning as an additional step.
+[BOS] Pattern based approaches have been widely used for IE (Chiticariu et al., 2013; Fader et al., 2011; Etzioni et al., 2005) .
+[BOS] Patterns are useful in two ways: they are good features, and they identify promising candidate entities.
+[BOS] Recently, Gupta and Manning (2014) improved pattern scoring (Step 2 in Algorithm 1) using predicted labels of unlabeled entities.
+[BOS] For entity scoring (Step 3), they used an average of feature values to predict the scores.
+[BOS] We use the same framework but focus on improving the entity classifiers.
+
+[BOS] In most IE systems, including ours, word classes or word vectors are used as features in a classifier (Haghighi and Klein, 2006; Ratinov and Roth, 2009) .
+
+[BOS] To the best of our knowledge, our work is the first to use distributed representations of words to improve a bootstrapped system by expanding the training set.
+

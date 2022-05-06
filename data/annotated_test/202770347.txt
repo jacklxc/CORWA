@@ -1,0 +1,2 @@
+[BOS] The proposed task is motivated by prior knowledge-grounded conversation tasks (Ghazvininejad et al., 2018; Zhou et al., 2018b) , but further requires the capability to adapt to dynamic knowledge graphs.
+

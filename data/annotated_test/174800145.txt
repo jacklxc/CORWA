@@ -1,0 +1,27 @@
+[BOS] Cross-Lingual Sentiment Analysis Existing approaches for cross-lingual sentiment analysis can be mainly divided into two categories: (i) approaches that rely on machines translation (MT) systems (ii) approaches that rely on cross-lingual word embeddings.
+[BOS] Standard MT-based approaches perform crosslingual sentiment analysis by translating the sentiment data into a selected language (e.g. English).
+[BOS] More sophisticated algorithms including co-training (Wan, 2009; Demirtas and Pechenizkiy, 2013 ) and multi-view learning (Xiao and Guo, 2012) have been shown to improve performance.
+[BOS] Zhou et al. (2015 Zhou et al. ( , 2016b performed crosslingual sentiment analysis by learning bilingual document representations.
+[BOS] These methods translate each document into the other language and enforce a bilingual constraint between the original document and the translated version.
+
+[BOS] Bilingual Word Embeddings Word embeddings trained separately on two languages can be aligned in a shared space to produce Bilingual Word Embeddings (BWE), which support many NLP tasks including machine translation , cross-lingual sentiment analysis (Barnes et al., 2018; Zhou et al., 2015) and crosslingual dependency parsing (Guo et al., 2015) .
+[BOS] BWE can be obtained in a supervised way using a seed dictionary Artetxe et al., 2016) , or in an unsupervised way without any bilingual data.
+[BOS] Adversarial training was the first successful attempt to learn unsupervised BWE (Zhang et al., 2017; .
+[BOS] Selflearning was proposed by (Artetxe et al., 2017) to learn BWE with minimum bilingual resources, which was later extended into a fully unsupervised framework by adding an unsupervised dictionary initialization step (Artetxe et al., 2018) .
+
+[BOS] Multilingual Word Embeddings BWE methods can be extended to the case of multiple languages by simply mapping all the languages to the vector space of a selected language.
+[BOS] However, directly learning multilingual word embeddings (MWE) in a shared space has been shown to improve performance (Ammar et al., 2016; Duong et al., 2017; Chen and Cardie, 2018; Alaux et al., 2018 ).
+[BOS] Yet, all these approaches are mainly evaluated on word translation and their effectiveness on cross-lingual sentiment analysis have not been empirically compared.
+
+[BOS] Sentimental Embeddings Continuous word representations encode the syntactic context of a word but often ignore the information of sentiment polarity.
+[BOS] This drawback makes them hard to distinguish words with similar syntactic context but opposite sentiment polarity (e.g. good and bad), resulting in unsatisfactory performance on sentiment analysis.
+[BOS] Tang et al. (2014) learned word representations that encode both syntactic context and sentiment polarity by adding an objective to classify the polarity of an n-gram.
+[BOS] This method can be generalized to the cross-lingual setting by training monolingual sentimental embeddings on both languages then aligning them in a common space.
+[BOS] However, it requires sentiment resources in the target language thus is impractical for low-resource languages.
+
+[BOS] There are also approaches to learn sentimental embeddings in the bilingual space without any sentiment resources in the target language.
+[BOS] Barnes et al. (2018) jointly minimized an alignment objective based on a seed dictionary, and a classification objective based on the sentiment corpus.
+[BOS] Its performance is compared to our method in Section 4.
+[BOS] Xu and Wan (2017) learned multilingual sentimental embeddings by extending the BiSkip model (Luong et al., 2015) .
+[BOS] However, their method does not apply to pretrained embeddings and requires large-scale parallel corpora thus is not included in our experiments.
+

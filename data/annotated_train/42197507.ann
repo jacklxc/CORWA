@@ -1,0 +1,83 @@
+T1	Single_summ 0 5	[BOS]
+T2	Narrative_cite 146 151	[BOS]
+T3	Narrative_cite 393 398	[BOS]
+T4	Narrative_cite 652 657	[BOS]
+T5	Transition 862 867	[BOS]
+T6	Single_summ 983 988	[BOS]
+T7	Single_summ 1188 1193	[BOS]
+T8	Transition 1289 1294	[BOS]
+T9	Single_summ 1357 1362	[BOS]
+T10	Narrative_cite 1589 1594	[BOS]
+T11	Single_summ 1813 1818	[BOS]
+T12	Multi_summ 1977 1982	[BOS]
+T13	Multi_summ 2146 2151	[BOS]
+T14	Multi_summ 2390 2395	[BOS]
+T15	Single_summ 2676 2681	[BOS]
+T16	Narrative_cite 2833 2838	[BOS]
+T17	Narrative_cite 3121 3126	[BOS]
+T18	Transition 3267 3272	[BOS]
+T19	Dominant 71 89	Pang et al. (2002)
+T20	Reference 299 318	(Pang and Lee, 2008
+T21	Reference 320 329	Liu, 2012
+T22	Reference 331 350	Gimpel et al., 2011
+T23	Reference 352 365	Feldman, 2013
+T24	Reference 367 390	Mohammad et al., 2013b)
+T25	Reference 569 586	(Hu and Liu, 2004
+T26	Reference 588 606	Kim and Hovy, 2004
+T27	Reference 608 625	Ding et al., 2008
+T28	Reference 627 648	Taboada et al., 2011)
+T29	Reference 721 744	Collobert et al. (2011)
+T30	Dominant 1086 1097	(Kim, 2014)
+T31	Dominant 1464 1485	Yin and Schtze (2014)
+T32	Reference 1682 1705	(Collobert et al., 2011
+T33	Reference 1707 1717	Kim, 2014)
+T34	Dominant 1819 1846	Kalchbrenner et al. (2014a)
+T35	Dominant 2008 2018	(Kim, 2014
+T36	Dominant 2020 2041	Yin and Schtze, 2015)
+T37	Dominant 2159 2169	Kim (2014)
+T38	Dominant 2298 2319	Yin and Schtze (2015)
+T39	Dominant 2461 2484	Mohammad et al. (2013a)
+T40	Dominant 2487 2514	Kalchbrenner et al. (2014b)
+T41	Dominant 2701 2718	Hu and Liu (2004)
+T42	Reference 2942 2966	(Stollenga et al., 2014)
+T43	Reference 3016 3035	Luong et al., 2015)
+T44	Reference 3061 3079	(Shih et al., 2016
+T45	Reference 3081 3098	Chen et al., 2015
+T46	Reference 3100 3118	Yang et al., 2016)
+T47	Reference 3243 3264	(Yanase et al., 2016)
+T48	Pronoun 104 108	this
+T49	Pronoun 152 156	This
+T50	Pronoun 932 936	they
+T51	Pronoun 1194 1198	This
+T52	Pronoun 1801 1806	these
+T53	Pronoun 1856 1860	this
+T54	B_span 6 9	The
+T55	E_span 384 389	2013b
+T56	B_span 274 282	increase
+T57	E_span 384 389	2013b
+T58	B_span 513 519	manual
+T59	E_span 643 647	2011
+T60	B_span 685 698	Convolutional
+T61	E_span 739 743	2011
+T62	B_span 989 992	The
+T63	E_span 1279 1287	analysis
+T64	B_span 1363 1366	One
+T65	E_span 1579 1586	encoder
+T66	B_span 1652 1655	CNN
+T67	E_span 1712 1716	2014
+T68	B_span 1819 1831	Kalchbrenner
+T69	E_span 1970 1975	layer
+T70	B_span 1983 1995	Multichannel
+T71	E_span 2384 2387	CNN
+T72	B_span 2921 2926	image
+T73	B_span 2396 2399	Two
+T74	E_span 2670 2674	task
+T75	B_span 2682 2684	In
+T76	E_span 2823 2830	reviews
+T77	E_span 2961 2965	2014
+T78	B_span 2969 2974	image
+T79	E_span 3030 3034	2015
+T80	B_span 3042 3050	question
+T81	E_span 3113 3117	2016
+T82	B_span 3205 3211	aspect
+T83	E_span 3259 3263	2016

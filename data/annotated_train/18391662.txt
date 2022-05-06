@@ -1,0 +1,25 @@
+[BOS] Others have pointed out the importance of understanding the trade-off between "shallow" versus "deep" NLP in ORE. One side of the argument favors shallow methods, claiming deep NLP costs orders of magnitude more and provide much less dramatic gains in terms of effectiveness (Christensen et al., 2011) .
+[BOS] The counterpoint, illustrated with a recent analysis on a industrial-scale Web crawl (Dalvi et al., 2012) , is that the diversity with which information is encoded in text is too high.
+[BOS] Framing the debate as "shallow" versus "deep" is perhaps convenient, but nevertheless an oversimplification.
+[BOS] This paper sheds more light into the debate by comparing the state-of-the-art from three broad classes of approaches.
+
+[BOS] Shallow ORE. TextRunner (Banko and Etzioni, 2008) and its successor ReVerb (Fader et al., 2011) are based on the idea that most relations are expressed using few syntactic patterns.
+[BOS] ReVerb, for example, detects only three types of relations ("verb", "verb+preposition" and "verb+noun+preposition") .
+[BOS] Following a similar approach, SONEX (Merhav et al., 2012) path in the dependency graph that connects the two named entities.
+[BOS] They limit the search to only paths that start with one of these dependencies: nsubj, rcmod and partmod.
+[BOS] OLLIE (Mausam et al., 2012 ) also extracts relations between two entities.
+[BOS] It applies pattern templates over the dependency subtree containing pairs of entities.
+[BOS] Pattern templates are learned automatically from a large training set that is bootstrapped from high confidence extractions from ReVerb.
+[BOS] OL-LIE merges binary relations that differ only in the preposition and second argument to produce n-ary extractions, as in: (A, "met with", B) and (A, "met in", C) leading to (A, "met", [with B, in C] ).
+
+[BOS] The TreeKernel (Xu et al., 2013) method uses a dependency tree kernel to classify whether candidate tree paths are indeed instances of relations.
+[BOS] The shortest path between the two entities along with the shortest path between relational words and an entity are used as input to the tree kernel.
+[BOS] An expanded set of syntactic patterns based on those from ReVerb are used to generate relation candidates.
+
+[BOS] ORE via semantic parsing.
+[BOS] Recently, a method based on SRL, called SRL-IE, has shown that the effectiveness of ORE methods can be improved with semantic features (Christensen et al., 2011) .
+[BOS] We implemented our version of SRL-IE by relying on the output of two SRL systems: Lund (Johansson and Nugues, 2008) and SwiRL (Surdeanu et al., 2003) .
+[BOS] SwiRL is trained on PropBank and expands upon the syntactic features used in previous work.
+[BOS] One of its major limitations is that it is only able to label arguments with verb predicates.
+[BOS] Lund, on the other hand, is based on dependency parsing and is trained on both PropBank and NomBank, making it able to extract relations with both verb and noun predicates.
+

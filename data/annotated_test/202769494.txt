@@ -1,0 +1,24 @@
+[BOS] Ellipsis recovery: The earliest work on ellipsis as far as we know is the PUNDIT system (Palmer et al., 1986) which discusses the communication between the syntactic, semantic and pragmatic modules that is necessary for making implicit linguistic information explicit.
+[BOS] Dalrymple et al. (1991) and Shieber et al. (1996) 1 The new dataset and the code of our proposed system are available at https://multinlp.github.io/GECOR/ establish a set of linguistic theories in the ellipsis recovery of English verb phrases.
+[BOS] Nielsen (2003) first proposes an end-to-end computable system to perform English verb phrase ellipsis recovery on the original input text.
+[BOS] Liu et al. (2016) propose to decompose the resolution of the verb phrase ellipsis into three sub-tasks: target detection, antecedent head resolution, and antecedent boundary detection.
+
+[BOS] Co-reference resolution: Co-reference resolution is mainly concerned with two sub-tasks, referring expressions (i.e., mentions) detection, and entity candidate ranking.
+[BOS] Uryupina and Moschitti (2013) propose a rule-based approach for coreference detection which employs parse tree features with an SVM model.
+[BOS] Peng et al. (2015) improve the performance of mention detection by applying a binary classififier on their feature set.
+[BOS] In recent years, applying deep neural networks to the co-reference resolution has gained great success.
+[BOS] Clark and Manning (2016) apply reinforcement learning on mention-ranking coreference resolution.
+[BOS] Lee et al. (2017) introduce the first end-to-end co-reference resolution model.
+[BOS] Lee et al. (2018) present a high-order co-reference resolution model with coarse-to-fine inference.
+
+[BOS] Ellipsis and co-reference resolution in QA and Dialogue: The methods mentioned above do not generalize well to dialogues because they normally require a large amount of well-annotated contextual data with syntactic norms and candidate antecedents.
+[BOS] In recent years, a few studies try to solve ellipsis / co-reference resolution tailored for dialogue or QA tasks.
+[BOS] Kumar and Joshi (2016) train a semantic sequence model to learn semantic patterns and a syntactic sequence model to learn linguistic patterns to tackle with the non-sentential (incomplete) questions in a question answering system.
+[BOS] Zheng et al. (2018) builds a seq2seq neural network model for short texts to identify and recover ellipsis.
+[BOS] However, these methods are still limited to short texts or one-shot dialogues.
+[BOS] Our work is the first attempt to provide both solution and dataset for ellipsis and co-reference resolution in multi-turn dialogues.
+
+[BOS] End-to-end task-oriented dialogue: Taskoriented dialogue systems have evolved from traditional modularized pipeline architectures (Rudnicky et al., 1999; to recent end-to-end neural frameworks (Eric and Manning, 2017a,b;  Yes, I would like the phone number please.
+[BOS] .
+[BOS] Our work is an innovative combination of ellipsis and co-reference resolution and the end-to-end task-oriented dialogue.
+

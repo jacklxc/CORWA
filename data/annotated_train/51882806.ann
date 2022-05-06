@@ -1,0 +1,60 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 208 213	[BOS]
+T3	Reflection 469 474	[BOS]
+T4	Narrative_cite 548 553	[BOS]
+T5	Single_summ 677 682	[BOS]
+T6	Other 817 822	[BOS]
+T7	Other 973 978	[BOS]
+T8	Other 1040 1045	[BOS]
+T9	Transition 1161 1166	[BOS]
+T10	Transition 1342 1347	[BOS]
+T11	Single_summ 1526 1531	[BOS]
+T12	Single_summ 1740 1745	[BOS]
+T13	Transition 1812 1817	[BOS]
+T14	Transition 1889 1894	[BOS]
+T15	Transition 1986 1991	[BOS]
+T16	Single_summ 2179 2184	[BOS]
+T17	Single_summ 2374 2379	[BOS]
+T18	Single_summ 2482 2487	[BOS]
+T19	Single_summ 2725 2730	[BOS]
+T20	Single_summ 2833 2838	[BOS]
+T21	Single_summ 2954 2959	[BOS]
+T22	Single_summ 3141 3146	[BOS]
+T23	Single_summ 3313 3318	[BOS]
+T24	Single_summ 3393 3398	[BOS]
+T25	Single_summ 3466 3471	[BOS]
+T26	Single_summ 3567 3572	[BOS]
+T27	Single_summ 3697 3702	[BOS]
+T28	Single_summ 3816 3821	[BOS]
+T29	Transition 3920 3925	[BOS]
+T30	Transition 3984 3989	[BOS]
+T31	Single_summ 4105 4110	[BOS]
+T32	Transition 4298 4303	[BOS]
+T33	Dominant 214 233	Cheng et al. (2016)
+T34	Dominant 238 260	Sennrich et al. (2015)
+T35	Reference 651 674	(Sennrich et al., 2015)
+T36	Dominant 683 703	Glehre et al. (2015)
+T37	Dominant 1532 1553	Mikolov et al. (2013)
+T38	Dominant 2185 2205	Lample et al. (2017)
+T39	Reference 2231 2253	(Mikolov et al., 2013)
+T40	Dominant 2839 2860	Artetxe et al. (2017)
+T41	Dominant 3472 3493	Artetxe et al. (2017)
+T42	Dominant 4111 4129	Zoph et al. (2016)
+T43	B_span 214 219	Cheng
+T44	E_span 461 467	models
+T45	B_span 634 639	IWSLT
+T46	E_span 669 673	2015
+T47	B_span 683 689	Glehre
+T48	E_span 810 815	model
+T49	B_span 1532 1539	Mikolov
+T50	E_span 1805 1808	x i
+T51	B_span 2185 2191	Lample
+T52	B_span 2219 2227	approach
+T53	E_span 2248 2252	2013
+T54	E_span 2823 2831	approach
+T55	B_span 2839 2846	Artetxe
+T56	E_span 3457 3464	dataset
+T57	B_span 3472 3479	Artetxe
+T58	E_span 3911 3918	encoder
+T59	B_span 4111 4115	Zoph
+T60	E_span 4290 4295	model

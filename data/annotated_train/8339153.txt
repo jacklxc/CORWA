@@ -1,0 +1,57 @@
+[BOS] Extracting knowledge bases from texts is one of the major goal of NLP and KR.
+[BOS] These methods can give an important boost to knowledge-based systems.
+[BOS] In this section we want to shortly analyze some of these methods in order to motivate our choice to work within an existing probabilistic model for learning taxonomies.
+[BOS] We also review the more traditional models for super-vised and unsupervised feature selection.
+
+[BOS] The models for automatically extracting structured knowledge, such as taxonomies, from texts use variants of the distributional hypothesis [12] exploit some induced lexical-syntactic patterns (originally used in [26] ).
+
+[BOS] The distributional hypothesis is widely used in many approaches for taxonomy induction from texts.
+[BOS] For example, it is used in [3] for populating lattices, i.e. graphs of a particular class, of formal concepts.
+
+[BOS] Lexical syntactic patterns are also a source of relevant information for deciding whether or not a particular relation holds between two words.
+[BOS] This approach has been widely used for detecting hypernymy relations such as in [13, 18] , for other ontological relations such as in [21] , or for more generic relations such as in [24, 28] .
+[BOS] These learning models generally use the hypothesis that two words are related according to a particular relation if these often appear in specific text fragments.
+
+[BOS] Despite the wide range of models for taxonomy learning, only very few exploit the structure of existing taxonomies.
+[BOS] The task is seen as building taxonomies from scratch.
+[BOS] In [3] , for example, lattices and the related taxonomies are the target.
+[BOS] Yet, existing taxonomies may be used to drive the process of building new taxonomies.
+[BOS] In [19] , WordNet [17] and WordNet glosses are used to drive the construction of domain specific ontologies.
+[BOS] In [22] , taxonomies are augmented exploiting their structure.
+[BOS] Inserting a new word in the network is seen as a classification problem.
+[BOS] The target classes are the nodes of the existing hierarchy.
+[BOS] The distributional description of the word as well as the existing taxonomy structure is used to make the decision.
+[BOS] This model is purely distributional.
+[BOS] In [27] , a probabilistic model exploiting existing taxonomies is introduced.
+[BOS] This model is purely based on lexicalsyntactical patterns.
+[BOS] Also in this case, the insertion of a new word in the hierarchy is seen as a binary classification problem.
+[BOS] Yet, the classification decision is taken over a pair of words, i.e., a word and its possible generalization.
+[BOS] The probabilistic classifier should decide if this pair belongs or not to the taxonomy.
+
+[BOS] The probabilistic taxonomy learning models has at least two advantages with respect to the other models.
+[BOS] The first advantage is that it coherently uses existing taxonomies in the expansion phase.
+[BOS] Both existing and new information is modeled in the same probabilistic way.
+[BOS] The second advantage is that classification problem is binary, i.e., a word pair belongs or not to the taxonomy.
+[BOS] This allows to build a unique binary classifier.
+[BOS] This is not the case for models such as the one of [22] , where we need a multi-class classifier or a set of binary classifiers.
+[BOS] For these two reasons, we are using the probabilistic taxonomy learning setting for our study.
+
+[BOS] Yet, in applications involving texts such as taxonomy learning, machine learning models are exposed to huge feature spaces.
+[BOS] This has not always positive effects.
+[BOS] A first important problem is that huge feature spaces require large computational and storage resources for applying machine learning models.
+[BOS] A second problem is that more features not always result in better accuracies of learnt classification models.
+[BOS] Many features can be noise.
+[BOS] Feature selection, i.e., the reduction of the feature space offered to machine learners, is seen as a solution (see [11] ).
+
+[BOS] There is a wide range of feature selection models that can be classified in two main families: supervised and unsupervised.
+[BOS] Supervised models directly exploit the class of the instances for determining if a feature is relevant or not.
+[BOS] The idea is to select features that are highly correlated with final target classes.
+[BOS] Information theoretic ranking criteria such as mutual information and information gain are often used (see [8] ).
+[BOS] Unsupervised models are instead used when the information on classes of instances is not available at the training time or it is inapplicable such as in information retrieval.
+[BOS] Straightforward and simple models for unsupervised feature selection can be derived from information retrieval weighting schemes, e.g., term frequency times inverse document frequency (tf * idf ).
+[BOS] In this case, relevant features are respectively those appearing more often or those more selective, i.e., appearing in fewer instances.
+
+[BOS] Feature selection models are also widely used in taxonomy learning.
+[BOS] For example, attribute selection for building lattices of concepts in [3] is done applying specific thresholds on specific information measures on the attributes extracted from corpora.
+[BOS] This models uses conditional probabilities, point-wise mutual information, and a selectional-preference-like measure as the one introduced in [25] .
+

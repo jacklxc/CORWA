@@ -1,0 +1,26 @@
+T1	Reflection 0 5	[BOS]
+T2	Transition 92 97	[BOS]
+T3	Transition 278 283	[BOS]
+T4	Transition 407 412	[BOS]
+T5	Single_summ 608 613	[BOS]
+T6	Reflection 842 847	[BOS]
+T7	Single_summ 935 940	[BOS]
+T8	Single_summ 1036 1041	[BOS]
+T9	Single_summ 1134 1139	[BOS]
+T10	Single_summ 1257 1262	[BOS]
+T11	Single_summ 1416 1421	[BOS]
+T12	Reflection 1569 1574	[BOS]
+T13	Reflection 1634 1639	[BOS]
+T14	Dominant 614 627	Felice (2016)
+T15	Dominant 1017 1033	Ge et al. (2018)
+T16	Pronoun 101 105	this
+T17	Pronoun 161 166	their
+T18	Pronoun 192 197	their
+T19	Pronoun 418 423	these
+T20	Pronoun 884 888	this
+T21	Pronoun 1045 1050	their
+T22	Pronoun 1219 1224	their
+T23	B_span 614 620	Felice
+T24	E_span 834 840	errors
+T25	B_span 982 989	fluency
+T26	E_span 1558 1567	improving

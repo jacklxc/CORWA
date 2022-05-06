@@ -1,0 +1,12 @@
+[BOS] Several different techniques for identifying complex words were investigated by (Shardlow, 2013) which include word frequency, word length and syllable counts among others, but no character sequences.
+
+[BOS] The first CWI shared task (Paetzold and Specia, 2016 ) featured 42 systems based on different techniques and using different features such as semantic, morphological, lexical, as well as word frequencies which are reported to be a very important factor for CWI.
+
+[BOS] One of the submitted systems (Mukherjee et al., 2016) used Naive Bayes classifier with morphological, semantic and lexical features, however no character n-grams were investigated.
+
+[BOS] Another system (Zampieri et al., 2016 ) used probabilities of word character trigrams and sentence character trigrams together with word length and sentence length to measure orthographic difficulty.
+[BOS] These features together with the word frequency features are used for three classifiers: Random Forest, Nearest neighbour and SVM.
+[BOS] Nevertheless, no results regarding the contribution of character trigram features were reported.
+
+[BOS] Number of vowels, number of syllables and number of characters (word length) together with word frequencies in corpora were investigated in (Yimam et al., 2017b) , but no experiments with character n-grams were conducted.
+

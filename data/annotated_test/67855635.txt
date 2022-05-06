@@ -1,0 +1,28 @@
+[BOS] Grounded conversation models utilize extra context inputs besides conversation history, such as persona (Li et al., 2016b) , textual knowledge (Ghazvininejad et al., 2017; , dialog act (Zhao et al., 2017) and emotion (Huber et al., 2018) .
+[BOS] Our approach does not depend on such extra input and thus is complementary to this line of studies.
+
+[BOS] Variational autoencoder (VAE) models explicitly model the uncertainty of responses in latent space.
+[BOS] Bowman et al. (2016) used VAE with Long-Short Term Memory (LSTM) cells to generate sentences.
+[BOS] The basic idea of VAE is to encode the input x into a probability distribution (e.g. Gaussian) z instead of a point encoding.
+[BOS] However, it suffers from the vanishing latent variable problem (Bowman et al., 2016; Zhao et al., 2017) when applied to text generation tasks.
+[BOS] Bowman et al. (2016) ; Fu et al. (2019) proposed to tackle this problem with word dropping and specific KL annealing methods.
+[BOS] Zhao et al. (2017) proposed to add a bag-of-word loss, complementary to KL annealing.
+[BOS] Applying this to a CVAE conversation model, they showed that even greedy decoding can generate diverse responses.
+[BOS] However, as VAE/CVAE conversation models can be limited to a simple latent representations such as standard Gaussian distribution, Gu et al. (2018) proposed to enrich the latent space by leveraging a Gaussian mixture prior.
+[BOS] Our work takes a geometrical approach that is fundamentally different from probabilistic approaches to tackle the limitations of parameteric distributions in representation and difficulties in training.
+
+[BOS] Decoding and ranking encourage diversity during the decoding stage.
+[BOS] As "vanilla" beam search often produces lists of nearly identical sequences, Vijayakumar et al. (2016) propose to include a dissimilarity term in the objective of beam search decoding.
+[BOS] Li et al. (2016a) re-ranked the results obtained by beam search based on mutual information with the context using a separately trained response-to-context S2S model.
+
+[BOS] Multi-task learning is another line of studies related to the present work (see Section 3.2).
+[BOS] Sennrich et al. (2016) use multi-task learning to improve neural machine translation by utilizing monolingual data, which usually far exceeds the amount of parallel data.
+[BOS] A similar idea is applied by Luan et al. (2017) to conversational modeling, involving two tasks: 1) a S2S model that learns a context-to-response mapping using conversation data, and 2) an AE model that utilizes speakerspecific non-conversational data.
+[BOS] The decoders of S2S and AE were shared, and the two tasks were trained alternately.
+
+[BOS] 3 The SPACEFUSION Model
+
+[BOS] , where x i and y i are a context and its response, respectively.
+[BOS] x i consists of one or more utterances.
+[BOS] Our aim is to train a model on D to generate relevant and diverse responses given a context.
+

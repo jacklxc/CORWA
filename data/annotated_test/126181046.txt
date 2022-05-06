@@ -1,0 +1,39 @@
+[BOS] Using placeholders.
+[BOS] Luong et al. (2014) use annotated unk tags to present the unk symbols in training corpora, where the correspondence between source and target unk symbols are obtained from word alignment (Brown et al., 1993) .
+[BOS] Output unk tags are replaced through a post-processing stage by looking up a pre-specified dictionary or copying the corresponding source word.
+[BOS] Crego et al. (2016) extended unk tags symbol to specific symbols that can present name entities.
+[BOS] Wang et al. (2017b) and use a similar method.
+[BOS] This method is limited when constrain NMT with pre-specified translations consisting of more general words, due to the loss of word meaning when representing them with placeholder tags.
+[BOS] In contrast to their work, word meaning is fully kept in modified source in our work.
+
+[BOS] Lexical constraints.
+[BOS] Hokamp and Liu (2017) propose an altered beam search algorithm, namely grid beam search, which takes target-side prespecified translations as lexical constraints during beam search.
+[BOS] A potential problem of this method is that translation fidelity is not specifically considered, since there is no indication of a matching source of each pre-specific translation.
+[BOS] In addition, decoding speed is significantly reduced (Post and Vilar, 2018) .
+[BOS] Hasler et al. (2018) use alignment to gain target-side constraints' corresponding source words, simultaneously use finitestate machines and multi-stack (Anderson et al., 2016) decoding to guide beam search.
+[BOS] Post and Vilar (2018) give a fast version of Hokamp and Liu (2017) , which limits the decoding complexity linearly by altering the beam search algorithm through dynamic beam allocation.
+
+[BOS] In contrast to their methods, our method does not make changes to the decoder, and therefore decoding speed remains unchanged.
+[BOS] Translation fidelity of pre-specified source words is achieved through a combination of training and decoding procedure, where replaced source-side words still contain their target-side meaning.
+[BOS] As a soft method of inserting pre-specified translation, our method does not guarantee that all lexical constraints are satisfied during decoding, but has better overall translation quality compared to their method.
+
+[BOS] Using probabilistic lexicons.
+[BOS] Aiming at making use of one-to-many phrasal translations, the following work is remotely related to our work.
+[BOS] Tang et al. (2016) use a phrase memory to provide extra information for their NMT encoder, dynamically switching between word generation and phrase generation during decoding.
+[BOS] Wang et al. (2017a) use SMT to recommend prediction for NMT, which contains not only translation operations of a SMT phrase table, but also alignment information and coverage information.
+[BOS] Arthur et al. (2016) incorporate discrete lexicons by converting lexicon probabilities into predictive probabilities and linearly interpolating them with NMT probability distributions.
+
+[BOS] Our method is similar in the sense that external translations of source phrases are leveraged.
+[BOS] However, their tasks are different.
+[BOS] In particular, these methods regard one-to-many translation lexicons as a suggestion.
+[BOS] In contrast, our task aims to constrain NMT translation through one-to-one prespecified translations.
+[BOS] Lexical translations can be used to generate code-switched source sentences during training, but we do not modify NMT models by integrating translation lexicons.
+[BOS] In addition, our data augmentation method is more flexible, because it is model-free.
+[BOS] Alkhouli et al. (2018) simulate a dictionaryguided translation task to evaluate NMT's alignment extraction.
+[BOS] A one-to-one word translation dictionary is used to guide NMT decoding.
+[BOS] In their method, a dictionary entry is limited to only one word on both the source and target sides.
+[BOS] In addition, a pre-specified translation can come into effect only if the corresponding source-side word is successfully aligned during decoding.
+
+[BOS] On translating named entities, Currey et al. (2017) augment the training data by copying target-side sentences to the source-side, resulting in augmented training corpora where the source and the target sides contain identical sentences.
+[BOS] The augmented data is shown to improve translation performance, especially for proper nouns and other words that are identical in the source and target languages.
+

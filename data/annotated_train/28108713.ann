@@ -1,0 +1,35 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 104 109	[BOS]
+T3	Transition 220 225	[BOS]
+T4	Transition 346 351	[BOS]
+T5	Single_summ 494 499	[BOS]
+T6	Transition 721 726	[BOS]
+T7	Single_summ 851 856	[BOS]
+T8	Single_summ 1011 1016	[BOS]
+T9	Transition 1109 1114	[BOS]
+T10	Transition 1242 1247	[BOS]
+T11	Single_summ 1357 1362	[BOS]
+T12	Transition 1564 1569	[BOS]
+T13	Single_summ 1744 1749	[BOS]
+T14	Single_summ 1938 1943	[BOS]
+T15	Single_summ 2048 2053	[BOS]
+T16	Dominant 564 589	(Krizhevsky et al., 2012)
+T17	Dominant 880 899	Zhang et al. (2015)
+T18	Dominant 1383 1401	(Ren et al., 2015)
+T19	Dominant 1797 1824	(Mostafazadeh et al., 2016)
+T20	Pronoun 110 114	This
+T21	Pronoun 140 142	it
+T22	Pronoun 508 513	these
+T23	Pronoun 1026 1030	this
+T24	Pronoun 1486 1490	this
+T25	Pronoun 1944 1948	They
+T26	Pronoun 2071 2076	their
+T27	Pronoun 2117 2121	they
+T28	B_span 500 504	Many
+T29	E_span 704 718	classification
+T30	B_span 857 858	A
+T31	E_span 1096 1107	performance
+T32	B_span 1363 1366	The
+T33	E_span 1557 1562	rules
+T34	B_span 1750 1756	Visual
+T35	E_span 2158 2167	questions

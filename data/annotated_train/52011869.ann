@@ -1,0 +1,64 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 189 194	[BOS]
+T3	Transition 399 404	[BOS]
+T4	Transition 506 511	[BOS]
+T5	Transition 671 676	[BOS]
+T6	Transition 838 843	[BOS]
+T7	Transition 994 999	[BOS]
+T8	Transition 1131 1136	[BOS]
+T9	Reflection 1260 1265	[BOS]
+T10	Transition 1360 1365	[BOS]
+T11	Narrative_cite 1420 1425	[BOS]
+T12	Narrative_cite 1777 1782	[BOS]
+T13	Single_summ 1954 1959	[BOS]
+T14	Transition 2192 2197	[BOS]
+T15	Transition 2283 2288	[BOS]
+T16	Narrative_cite 2418 2423	[BOS]
+T17	Single_summ 2564 2569	[BOS]
+T18	Single_summ 2714 2719	[BOS]
+T19	Transition 2800 2805	[BOS]
+T20	Single_summ 2938 2943	[BOS]
+T21	Single_summ 3057 3062	[BOS]
+T22	Single_summ 3186 3191	[BOS]
+T23	Transition 3424 3429	[BOS]
+T24	Single_summ 3481 3486	[BOS]
+T25	Reflection 3768 3773	[BOS]
+T26	Reference 1576 1597	(Palmer et al., 2005)
+T27	Reference 1693 1723	(Chambers and Jurafsky, 2009 )
+T28	Reference 1752 1774	(Modi and Titov, 2014)
+T29	Reference 1885 1915	(Chambers and Jurafsky, 2009 )
+T30	Reference 1933 1951	(Sha et al., 2016)
+T31	Dominant 1988 2016	(Mostafazadeh et al., 2016 )
+T32	Reference 2542 2561	(Wang et al., 2017)
+T33	Dominant 2580 2602	Roemmele et al., 2017)
+T34	Dominant 2953 2976	(Schwartz et al., 2017)
+T35	Dominant 3196 3222	(Chaturvedi et al., 2017 )
+T36	Dominant 3491 3509	(Cai et al., 2017)
+T37	Pronoun 228 230	it
+T38	Pronoun 452 456	this
+T39	Pronoun 574 576	it
+T40	Pronoun 1137 1141	This
+T41	Pronoun 1484 1488	they
+T42	Pronoun 1846 1850	this
+T44	B_span 1567 1575	PropBank
+T43	E_span 1592 1596	2005
+T45	B_span 1655 1667	unsupervised
+T46	E_span 1717 1721	2009
+T47	B_span 1728 1733	event
+T48	E_span 1769 1773	2014
+T49	B_span 1868 1877	narrative
+T50	E_span 1909 1913	2009
+T51	B_span 1920 1925	event
+T52	E_span 1946 1950	2016
+T53	B_span 1984 1987	SCT
+T54	E_span 2179 2189	mechanisms
+T55	B_span 2438 2448	generative
+T56	E_span 2556 2560	2017
+T57	B_span 2570 2578	Roemmele
+T58	E_span 2796 2797	)
+T59	B_span 2944 2952	Schwartz
+T60	E_span 3174 3184	regression
+T61	B_span 3192 3195	HCM
+T62	E_span 3417 3421	77.6
+T63	B_span 3487 3490	Cai
+T64	E_span 3758 3766	accuracy

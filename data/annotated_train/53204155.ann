@@ -1,0 +1,19 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 124 129	[BOS]
+T3	Transition 299 304	[BOS]
+T4	Narrative_cite 378 383	[BOS]
+T5	Narrative_cite 603 608	[BOS]
+T6	Transition 878 883	[BOS]
+T7	Transition 1175 1180	[BOS]
+T8	Transition 1398 1403	[BOS]
+T9	Reference 278 296	Chen et al., 2018)
+T10	Reference 550 576	(Kalchbrenner et al., 2016
+T11	Reference 578 600	Gehring et al., 2017a)
+T12	Reference 830 851	(Vaswani et al., 2017
+T13	Reference 853 875	Dehghani et al., 2018)
+T14	B_span 253 257	soft
+T15	E_span 291 295	2018
+T16	B_span 518 522	RNMT
+T17	E_span 594 599	2017a
+T18	B_span 785 796	translation
+T19	E_span 870 874	2018

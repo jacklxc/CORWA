@@ -1,0 +1,49 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 69 74	[BOS]
+T3	Transition 442 447	[BOS]
+T4	Multi_summ 503 508	[BOS]
+T5	Narrative_cite 702 707	[BOS]
+T6	Transition 1136 1141	[BOS]
+T7	Transition 1182 1187	[BOS]
+T8	Reference 145 164	(Nairn et al., 2006
+T9	Reference 166 176	Saur, 2008
+T10	Reference 178 197	Lotan et al., 2013)
+T11	Reference 267 285	(Diab et al., 2009
+T12	Reference 287 311	Prabhakaran et al., 2010
+T13	Reference 313 337	De Marneffe et al., 2012
+T14	Reference 339 356	Lee et al., 2015)
+T15	Reference 392 419	(Saur and Pustejovsky, 2012
+T16	Reference 421 439	Qian et al., 2015)
+T17	Dominant 509 528	(Qian et al., 2018)
+T18	Dominant 589 612	(Rudinger et al., 2018)
+T19	Reference 812 839	(Nguyen and Grishman, 2015b
+T20	Reference 841 861	Nguyen et al., 2016b
+T21	Reference 863 882	Lu and Nguyen, 2018
+T22	Reference 884 908	Nguyen and Nguyen, 2019)
+T23	Reference 939 961	(Mitamura et al., 2015
+T24	Reference 963 984	Nguyen et al., 2016g)
+T25	Reference 1009 1032	(Adel and Schtze, 2017)
+T26	Reference 1062 1089	(Marasovic and Frank, 2016)
+T27	Reference 1111 1133	(Nguyen et al., 2016d)
+T28	B_span 123 127	rule
+T29	E_span 196 197	)
+T30	B_span 205 212	machine
+T31	E_span 355 356	)
+T32	B_span 366 372	hybrid
+T33	E_span 438 439	)
+T34	B_span 509 510	(
+T35	E_span 581 582	P
+T36	B_span 589 590	(
+T37	E_span 700 701	.
+T38	B_span 796 801	event
+T39	E_span 907 908	)
+T40	B_span 911 916	event
+T41	E_span 983 984	)
+T42	B_span 987 998	uncertainty
+T43	E_span 1031 1032	)
+T44	B_span 1035 1040	modal
+T45	E_span 1088 1089	)
+T46	B_span 1094 1100	entity
+T47	E_span 1132 1133	)
+T48	Pronoun 93 97	this
+T49	Pronoun 1250 1254	this

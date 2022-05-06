@@ -1,0 +1,45 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 232 237	[BOS]
+T3	Reflection 431 436	[BOS]
+T4	Single_summ 507 512	[BOS]
+T5	Single_summ 676 681	[BOS]
+T6	Single_summ 790 795	[BOS]
+T7	Reflection 948 953	[BOS]
+T8	Reflection 1198 1203	[BOS]
+T9	Reflection 1422 1427	[BOS]
+T10	Transition 1580 1585	[BOS]
+T11	Narrative_cite 1705 1710	[BOS]
+T12	Transition 1992 1997	[BOS]
+T13	Single_summ 2081 2086	[BOS]
+T14	Reflection 2205 2210	[BOS]
+T15	Reference 153 171	(Ling et al., 2015
+T16	Reference 173 203	Costa-juss and Fonollosa, 2016
+T17	Reference 205 229	Luong and Manning, 2016)
+T18	Dominant 656 673	Lee et al. (2017)
+T19	Reference 1333 1352	(Chan et al., 2016)
+T20	Reference 1847 1871	Luong and Manning (2016)
+T21	Reference 1897 1913	Wu et al. (2016)
+T22	Reference 1944 1966	Bradbury et al. (2016)
+T23	Dominant 2092 2108	Wu et al. (2016)
+T24	Pronoun 238 243	These
+T25	Pronoun 682 686	They
+T26	Pronoun 796 800	They
+T27	Pronoun 968 973	their
+T28	Pronoun 1068 1073	their
+T29	Pronoun 1229 1234	their
+T30	Pronoun 1832 1837	these
+T31	Pronoun 2148 2152	they
+T32	B_span 136 145	wordlevel
+T33	E_span 224 228	2016
+T34	B_span 513 517	With
+T36	E_span 940 946	layers
+T35	B_span 1316 1322	speech
+T37	E_span 1347 1351	2016
+T38	B_span 1847 1852	Luong
+T39	E_span 1890 1895	Czech
+T40	B_span 1897 1899	Wu
+T41	E_span 1932 1938	German
+T42	B_span 1944 1952	Bradbury
+T43	E_span 1983 1990	English
+T44	B_span 2092 2094	Wu
+T45	E_span 2197 2203	margin

@@ -1,0 +1,18 @@
+[BOS] Sentiment analysis is becoming increasingly important due to the rise of the need to process textual data in wikis, micro-blogs, and other social media platforms.
+[BOS] Sentiment analysis requires solving several related NLP problems, like aspect extraction (Poria et al., 2016) .
+[BOS] Aspect based sentiment analysis (ABSA) is a key task of sentiment analysis which focuses on classifying sentiment of each aspect in the sentences.
+
+[BOS] In this paper, we focus on ABSA, which is a key task of sentiment analysis that aims to classify sentiment of each aspect individually in a sentence.
+[BOS] In recent days, thanks to the increasing progress of deep neural network research (Young et al., 2018) , novel frameworks have been proposed, achieving notable performance improvement in aspect-based sentiment analysis.
+
+[BOS] The common way of doing ABSA is feeding the aspect-aware sentence representation to the neural network for classification.
+[BOS] This was first proposed by Wang et al. (2016) where they appended aspect embeddings with the each word embeddings of the sentence to generate aspect-aware sentence representation.
+[BOS] This representation was further fed to an attention layer followed by softmax for final classification.
+
+[BOS] More recently, Ma et al. (2017) proposed a model where both context and aspect representations interact with each other's attention mechanism to generate the overall representation.
+[BOS] Tay et al. (2017) proposed word-aspect associations using circular correlation as an improvement over Wang et al. (2016) 's work.
+[BOS] Also, Li et al. (2018) used transformer networks for target-oriented sentiment classification.
+
+[BOS] ABSA has also been researched from a question-answering perspective where deep memory networks have played a major role (Tang et al., 2016b; .
+[BOS] However, unlike our proposed method, none of these methods have tried to model the inter-aspect relations.
+

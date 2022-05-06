@@ -1,0 +1,9 @@
+[BOS] While the mentioned studies provide valuable contributions to improving multilingual models, they apply their models on only up to 7 languages (Johnson et al., 2017) and 20 trained directions (Cettolo et al., 2017 ) in a single model, whereas we focus on scaling NMT to much larger numbers of languages and trained directions.
+[BOS] Regarding massively multilingual models, Neubig and Hu (2018) explored methods for rapid adaptation of NMT to new languages by training multilingual models on the 59-language TED Talks corpus and fine-tuning them using data from the new languages.
+[BOS] While modeling significantly more languages than previous studies, they only train many-to-one models, which we show are inferior in comparison to our proposed massively multilingual many-to-many models when evaluated into English on this dataset.
+[BOS] Tiedemann (2018) trained an English-centric many-to-many model on translations of the bible including 927 languages.
+[BOS] While this work pointed to an interesting phenomena in the latent space learned by the model where it clusters representations of typologically-similar languages together, it did not include any evaluation of the produced translations.
+[BOS] Similarly, Malaviya et al. (2017) trained a many-to-English system including 1017 languages from bible translations, and used it to infer typological features for the different languages (without evaluating the translation quality).
+[BOS] In another relevant work, Artetxe and Schwenk (2018) trained an NMT model on 93 languages and used the learned representations to perform cross-lingual transfer learning.
+[BOS] Again, they did not report the performance of the translation model learned in that massively multilingual setting.
+

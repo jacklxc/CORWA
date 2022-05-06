@@ -1,0 +1,82 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 27 32	[BOS]
+T3	Reflection 339 344	[BOS]
+T4	Multi_summ 441 446	[BOS]
+T5	Single_summ 700 705	[BOS]
+T6	Multi_summ 846 851	[BOS]
+T7	Transition 976 981	[BOS]
+T8	Reflection 1094 1099	[BOS]
+T9	Transition 1307 1312	[BOS]
+T10	Narrative_cite 1338 1343	[BOS]
+T11	Single_summ 1537 1542	[BOS]
+T12	Single_summ 1660 1665	[BOS]
+T13	Transition 1799 1804	[BOS]
+T14	Transition 2100 2105	[BOS]
+T15	Transition 2147 2152	[BOS]
+T16	Narrative_cite 2211 2216	[BOS]
+T17	Narrative_cite 2358 2363	[BOS]
+T18	Transition 2617 2622	[BOS]
+T19	Reflection 2717 2722	[BOS]
+T20	Reference 99 116	(Rus et al., 2010
+T21	Reference 118 141	Heilman and Smith, 2010
+T22	Reference 143 162	Mitkov and Ha, 2003
+T23	Reference 164 180	Du et al., 2017)
+T24	Reference 198 217	(Zhao et al., 2011)
+T25	Reference 236 258	(Serban et al., 2016b)
+T26	Reference 270 297	(Mostafazadeh et al., 2016)
+T27	Reference 502 526	(Heilman and Smith, 2010
+T28	Reference 528 548	Mitkov and Ha, 2003)
+T29	Dominant 557 573	Du et al. (2017)
+T30	Reference 677 697	(Luong et al., 2015)
+T31	Dominant 731 756	Subramanian et al., 2017)
+T32	Dominant 852 872	(Du and Cardie, 2018
+T33	Dominant 874 892	Song et al., 2018)
+T34	Reference 1427 1447	(Ritter et al., 2011
+T35	Reference 1449 1469	Vinyals and Le, 2015
+T36	Reference 1471 1491	Sordoni et al., 2015
+T37	Reference 1493 1513	Serban et al., 2016a
+T38	Reference 1515 1534	Li et al., 2016a,b)
+T39	Dominant 1543 1564	Vinyals and Le (2015)
+T40	Dominant 1666 1683	Li et al. (2016a)
+T41	Reference 2267 2285	(Saha et al., 2018
+T42	Reference 2287 2306	Iyyer et al., 2017)
+T43	Dominant 2403 2422	(Reddy et al., 2018
+T44	Reference 2581 2598	(Zhu et al., 2018
+T45	Reference 2600 2614	Yatskar, 2018)
+T46	Reference 2770 2790	(Reddy et al., 2018)
+T48	E_span 179 180	)
+T49	B_span 183 189	search
+T50	E_span 216 217	)
+T51	B_span 220 229	knowledge
+T52	E_span 257 258	)
+T53	B_span 263 269	images
+T54	E_span 296 297	)
+T55	B_span 482 487	rules
+T56	E_span 547 548	)
+T57	B_span 557 559	Du
+T58	E_span 696 697	)
+T60	B_span 731 734	Sub
+T62	E_span 835 844	paragraph
+T63	B_span 852 853	(
+T64	E_span 974 975	.
+T65	B_span 1344 1352	Building
+T66	E_span 1533 1534	)
+T67	B_span 1543 1546	Vin
+T68	E_span 1658 1659	.
+T69	B_span 1666 1668	Li
+T70	E_span 1797 1798	.
+T71	B_span 2240 2243	the
+T72	E_span 2305 2306	)
+T74	B_span 2382 2387	large
+T76	E_span 2613 2614	)
+T77	B_span 2765 2767	Co
+T78	E_span 2789 2790	)
+T79	Pronoun 1113 1117	this
+T80	Pronoun 1820 1825	these
+T81	Pronoun 2000 2002	it
+T82	Pronoun 2217 2219	It
+T83	Pronoun 2441 2443	it
+T84	Pronoun 2545 2549	they
+T85	B_span 33 43	Generating
+T47	B_span 2582 2585	Zhu
+T59	E_span 2609 2613	2018

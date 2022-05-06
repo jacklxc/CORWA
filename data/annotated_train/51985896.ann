@@ -1,0 +1,16 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 233 238	[BOS]
+T3	Reflection 289 294	[BOS]
+T4	Single_summ 419 424	[BOS]
+T5	Single_summ 556 561	[BOS]
+T6	Reference 164 180	Li et al. (2016)
+T7	Reference 183 203	Arras et al. (2017a)
+T8	Reference 210 230	Arras et al. (2017b)
+T9	Reference 305 329	Kindermans et al. (2018)
+T10	Dominant 471 493	Montavon et al. (2017)
+T11	B_span 69 72	NLP
+T12	E_span 224 229	2017b
+T13	B_span 295 304	Following
+T14	E_span 412 417	above
+T15	B_span 438 456	PatternAttribution
+T16	E_span 642 649	explain

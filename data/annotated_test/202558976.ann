@@ -1,0 +1,15 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 207 212	[BOS]
+T3	Reflection 355 360	[BOS]
+T4	Reference 77 98	(Peters et al., 2018a
+T5	Reference 100 124	Howard and Ruder, 2018 )
+T6	Reference 143 164	(Radford et al., 2018
+T7	Reference 166 186	Devlin et al., 2018)
+T8	Dominant 225 247	(Peters et al., 2018b)
+T9	B_span 69 71	an
+T10	E_span 123 124	)
+T11	B_span 129 130	a
+T12	E_span 185 186	)
+T13	B_span 225 226	(
+T14	E_span 353 354	.
+T15	Pronoun 365 369	this

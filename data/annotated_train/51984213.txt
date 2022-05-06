@@ -1,0 +1,26 @@
+[BOS] In this section, we discuss two lines of relevant work.
+[BOS] Bilingual word embeddings.
+[BOS] Recently, various approaches have been proposed for training bilingual word embeddings.
+[BOS] These approaches span in two families of models: off-line mappings and joint training.
+
+[BOS] The off-line mapping-based approach fixes the structures of pre-trained monolingual word embeddings, and induces bilingual projections based on seed-lexicon alignment (Mikolov et al. 2013a) .
+[BOS] Some variants of this approach improve the quality of bilingual projections by adding constraints such as orthogonality of transforms, normalization and mean centering of embeddings (Xing et al. 2015; Artetxe et al. 2016) .
+[BOS] Others adopt canonical correlation analysis to map separated monolingual embeddings to a shared embedding space (Faruqui and Dyer 2014; Lu et al. 2015) .
+
+[BOS] Unlike off-line mappings, joint training models simultaneously learn word embeddings and cross-lingual alignment.
+[BOS] By jointly updating the embeddings with the alignment information, such approaches generally capture more precise cross-lingual semantic transfer (Upadhyay et al. 2016 ).
+[BOS] While few of such models still maintain separated embedding spaces for each language (Huang et al. 2015) , the majority of recent ones obtain a unified embedding space for both languages.
+[BOS] The cross-lingual semantic transfer by these models is captured from parallel corpora with sentential or document-level alignment, using techniques such as bilingual bag-of-words distances (BilBOWA) (Gouws et al. 2015) , bilingual Skip-Gram (Coulmance et al. 2015) and sparse tensor factorization (Vyas and Carpuat 2016) .
+[BOS] Neural sentence modeling.
+[BOS] Neural sentence models seek to characterize the phrasal or sentential semantics from word sequences.
+[BOS] They often adopt encoding techniques such as recurrent neural encoders (RNN) (Kiros et al. 2015) , convolutional neural encoders (CNN) (Chen et al. 2018a) , and attentive neural encoders ) to represent the composed semantics of a sentence as an embedding vector.
+[BOS] Many recent works have focused on comprehending pairwise correspondence of sentential semantics by adopting multiple neural sentence models in one learning architecture.
+[BOS] Examples of such include Siamese sentence pair models for detecting discourse relations of paraphrases or text entailment (Sha et al. 2016; Rocktschel et al. 2016; Chen et al. 2018a) , and sequence-to-sequence models for tasks like style transfer (Shen et al. 2017 ) and abstractive summarization (Chopra, Auli, and Rush 2016) .
+[BOS] Specifically, our work is related to corresponding works of neural machine translation (NMT) (Bahdanau, Cho, and Bengio 2015; Wu et al. 2016) , while our setting has major differences from NMT in the following two perspectives: (i) NMT has to bridge between corpora of the same granularity, unlike Bil-DRL that captures the multi-granular correspondence of semantics across different modalities (ii) NMT relies on training an encoder-decoder architecture, while BilDRL employs joint learning of two representation models, i.e. a dictionarybased sentence encoder and a word embedding model.
+[BOS] On the other hand, fewer efforts have been put to characterizing the associations between sentential and lexical semantics.
+[BOS] Hill et al. (2016) and Xie et al. (2016) learn off-line mappings between monolingual descriptions and lexicons to capture such associations.
+[BOS] Eisner et al. (2016) adopt a similar approach to capture emojis based on descriptions.
+[BOS] At the best of our knowledge, there has been no previous approach that learn to discover the correspondence of sentential and lexical semantics in a multilingual scenario.
+[BOS] This is exactly the focus of our work, in which the proposed strategies of multi-task and joint learning are critical to the corresponding cross-lingual learning process under limited resources.
+[BOS] Utilizing the cross-lingual and multi-granular correspondence of semantics, our approach also sheds light on addressing discourse relation detection in a multilingual scenario.
+

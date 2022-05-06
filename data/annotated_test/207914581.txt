@@ -1,0 +1,15 @@
+[BOS] Multi-word Expressions for NMT There have been several studies that incorporate multi-word phrases into supervised NMT (Tang et al., 2016; Dahlmann et al., 2017) .
+[BOS] Most approaches rely on pre-defined phrase dictionaries obtained from methods such as phrase-based Stastitical MT (Koehn et al., 2003) Recent works have also explored using an additional RNN to compute phrase generation probabilities.
+[BOS] Huang et al. (2017) proposed Neural Phrase MT (NPMT) that is built upon Sleep-WAke Network (SWAN), a segmentation-based sequence modeling technique, which automatically discovers phrases given the data and appends the special symbol $ to the source and target data.
+[BOS] The model gets these segmented word/phrase sequences as input and keeps two levels of RNNs to encode and decode phrases.
+[BOS] NPMT established state of the art results for phrase-based NMT, but at a price of significant computational overhead.
+
+[BOS] The main differences between previous studies and our work are: (1) we do not rely on SMT model and adapt in an end-to-end manner only requiring some preprocessing using word-alignment models; and (2) we use phrase embedding tables to represent phrases instead of keeping external phrase memory and its generation probability.
+[BOS] By using the phrase embeddings along with the continuous-output layer, we significantly reduce the computational complexity and propose an approach to overcome the phrase generation bottleneck.
+[BOS] Fertility (Brown et al., 1993) has been a core component in phrase-based SMT models (Koehn et al., 2003) .
+[BOS] Fertility gives the likelihood of each source word of being translated into n words.
+[BOS] Fertility helps in deciding which phrases should be stored in the phrase tables.
+[BOS] Tu et al. (2016) revisited fertility to model coverage in NMT to address the issue of under-translation.
+[BOS] They used a fertility vector to express how many words should be generated per source word and a coverage vector to keep track of words translated so far.
+[BOS] We use a very similar concept in this work but the fertility module is introduced with a purpose to guide the decoder to switch over generating phrases and words.
+

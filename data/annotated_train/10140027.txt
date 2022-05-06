@@ -1,0 +1,25 @@
+[BOS] The rule selection problem for syntax-based SMT has received much attention.
+[BOS] proposed a lexicalized rule selection model to perform context-sensitive rule selection for hierarchical phrase-base translation.
+[BOS] Cui et al. (2010) introduced a joint rule selection model for hierarchical phrase-based translation, which also approximated the rule selection problem by a binary classification problem like our approach.
+[BOS] However, these two models adopted linear classifiers similar to those used in the MERS model , which suffers more from the data sparsity problem compared to the CSRS model.
+
+[BOS] There are also existing works that exploited neural networks to learn translation probabilities for translation rules used in the phrase-based translation model.
+[BOS] Namely, these methods estimated translation probabilities for phrase pairs extracted from the parallel corpus.
+[BOS] Schwenk (2012) proposed a continuous space translation model, which calculated the translation probability for each word in the target phrase and then multiplied the probabilities together as the translation probability of the phrase pair.
+[BOS] Gao et al. (2014) and Zhang et al. (2014) proposed methods to learn continuous space phrase representations and use the similarity between the source and target phrases as translation probabilities for phrase pairs.
+[BOS] All these three methods can only be used for the phrase-based translation model, not for syntaxbased translation models.
+
+[BOS] There are also works that used minimal rules for modeling.
+[BOS] Vaswani et al. (2011) proposed a rule Markov model using minimal rules for both training and decoding to achieve a slimmer model, a faster decoder and comparable performance with using non-minimal rules.
+[BOS] Durrani et al. (2013) proposed a method to model with minimal translation units and decode with phrases for phrasebased SMT to improve translation performances.
+[BOS] Both of these two methods do not use distributed representations as used in our model for better generalization.
+
+[BOS] In addition, neural machine translation (NMT) has shown promising results recently (Sutskever et al., 2014; Bahdanau et al., 2014; Luong et al., 2015a; Jean et al., 2015; Luong et al., 2015b) .
+[BOS] NMT uses a recurrent neural network to encode the whole source sentence and then produce the target words one by one.
+[BOS] These models can be trained on parallel corpora and do not need word alignments to be learned in advance.
+[BOS] There are also neural translation models that are trained on word-aligned parallel corpus (Devlin et al., 2014; Meng et al., 2015; Zhang et al., 2015; Setiawan et al., 2015) , which use the alignment information to decide which parts of the source sentence are more important for predicting one particular target word.
+[BOS] All these models are trained on plain source and target sentences without considering any syntactic information while our neural model learns rule selection for tree-based translation rules and makes use of the tree structure of natural language for better translation.
+[BOS] There is also a new syntactic NMT model (Eriguchi et al., 2016) , which extends the original sequence-to-sequence NMT model with the source-side phrase structure.
+[BOS] Although this model takes source-side syntax into consideration, it still produces target words one by one as a sequence.
+[BOS] In contrast, the tree-based translation rules used in our model can take advantage of the hierarchical structures of both source and target languages.
+

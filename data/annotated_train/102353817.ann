@@ -1,0 +1,35 @@
+T1	Multi_summ 0 5	[BOS]
+T2	Transition 330 335	[BOS]
+T3	Transition 444 449	[BOS]
+T4	Transition 636 641	[BOS]
+T5	Reflection 762 767	[BOS]
+T6	Transition 913 918	[BOS]
+T7	Transition 1025 1030	[BOS]
+T8	Transition 1165 1170	[BOS]
+T9	Reflection 1246 1251	[BOS]
+T10	Transition 1356 1361	[BOS]
+T11	Transition 1496 1501	[BOS]
+T12	Transition 1590 1595	[BOS]
+T13	Transition 1720 1725	[BOS]
+T14	Reflection 1831 1836	[BOS]
+T15	Single_summ 2059 2064	[BOS]
+T16	Reflection 2330 2335	[BOS]
+T17	Dominant 61 81	(Huang et al., 2012)
+T18	Reference 177 210	(Rubenstein and Goodenough, 1965)
+T20	Reference 1935 1957	Mikolov et al., 2013b)
+T22	Pronoun 42 44	it
+T23	Pronoun 1599 1603	This
+T24	Pronoun 1610 1612	it
+T25	Pronoun 2174 2178	this
+T26	B_span 10 18	Stanford
+T27	B_span 215 218	Sim
+T28	E_span 324 329	airs.
+T29	E_span 153 161	datasets
+T19	Dominant 215 240	SimLex (Hill et al., 2015
+T30	B_span 171 173	RG
+T31	E_span 206 209	965
+T32	B_span 1886 1891	Googl
+T33	E_span 1953 1957	13b)
+T21	Dominant 2074 2099	Dubossarsky et al. (2018)
+T34	B_span 2074 2077	Dub
+T35	E_span 2324 2328	sets

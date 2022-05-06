@@ -1,0 +1,17 @@
+[BOS] In this section we group related work into two major categories: (i) approaches for the identification of discriminative attributes (IDA) and (ii) definition-based word vector space models.
+
+[BOS] Existing approaches have explored combinations of linguistic and data resources (WordNet, ConceptNet, Wikipedia), linguistic features (syntactic dependencies), sparse word vector models (JoBimText), dense word-vector (DWV) models (W2V, GloVe) and supervised/ unsupervised machine learning approaches (SVM, MLP, Ensemble Methods).
+
+[BOS] With regard to interpretability and explainability we can classify IDA approaches into three categories.
+[BOS] Frequency-based models over textbased features, heavily relying on textual features and frequency-based methods (Gamallo, 2018; Gonzlez et al., 2018) ; ML over Textual features (Dumitru et al., 2018; Sommerauer et al., 2018; King et al., 2018; Mao et al., 2018) and ML over dense vectors and textual features (Brychcn et al., 2018; Attia et al., 2018; Dumitru et al., 2018; Arroyo-Fernndez et al., 2018; Speer and Lowry-Duda, 2018; Santus et al., 2018; Grishin, 2018; Zhou et al., 2018; Vinayan et al., 2018; Kulmizev et al., 2018; Zhang and Carpuat, 2018; Shiue et al., 2018) .
+[BOS] While the first category concentrates on models with higher interpretability, none of these models provide explanations.
+
+[BOS] In the area of definition-based word vectors, similar initiatives were concentrated in the areas of definition-based distributional models and interpretable distributional semantic models.
+[BOS] Baroni et al. (2010) describes an approach that automatically constructs a distributional semantic model from a text corpus.
+[BOS] The model represents concepts in terms of weighted typed properties and is capable of describing the similarities between concepts as well as the properties responsible for this similarity.
+[BOS] Murphy et al. (2012) apply a matrixfactorization technique (NNSE) to produce sparse embeddings.
+[BOS] In addition, their embeddings are interpretable in a way, that given a dimension in the vector space, vectors in that dimension have a nonlatent relatedness to a human-interpretable concept.
+[BOS] Their work was extended to be able to form composed representation of word phrases while still maintaining the desired interpretability of the original model (Fyshe et al., 2015) .
+
+[BOS] Comparatively, this work focuses on the creation of an explicit word vector space model (EWVM), with an associated explanation, evaluating the performance of different types of lexicosemantic resources in the context of the task of identification of discriminative attributes (IDA).
+

@@ -1,0 +1,13 @@
+[BOS] Most work on adding source hierarchical information to neural machine translation has used supervised syntax.
+[BOS] Luong et al. (2016) used a multi-task setup with a shared encoder to parse and translate the source language.
+[BOS] Eriguchi et al. (2016) introduced a tree-LSTM encoder for NMT that relied on an external parser to parse the training and test data.
+[BOS] The tree-LSTM encoder was improved upon by Chen et al. (2017a) and Yang et al. (2017) , who added a top-down pass.
+[BOS] Other approaches have used convolutional networks to model source syntax.
+[BOS] Chen et al. (2017b) enriched source word representations by extracting information from the dependency tree; a convolutional encoder was then applied to the representations.
+[BOS] Bastings et al. (2017) fed source dependency trees into a graph convolutional encoder.
+[BOS] Inducing unsupervised or semi-supervised hierarchies in NMT is a relatively recent research area.
+[BOS] Gehring et al. (2017a,b) introduced a fully convolutional model for NMT, which improved over strong sequential baselines.
+[BOS] Hashimoto and Tsuruoka (2017) added a latent graph parser to the encoder, allowing it to learn dependency-like source parses in an unsupervised manner.
+[BOS] However, they found that pre-training the parser with a small amount of human annotations yielded the best results.
+[BOS] Finally, introduced structured attention networks, which extended basic attention by allowing models to attend to latent structures such as subtrees.
+

@@ -1,0 +1,32 @@
+[BOS] Cross-lingual Word Embedding Learning.
+[BOS] Mikolov et al. (2013b) first notice that word embedding spaces have similar geometric arrangements across languages.
+[BOS] They use this property to learn a linear mapping between two spaces.
+[BOS] After that, several methods attempt to improve the mapping (Faruqui and Dyer, 2014; Xing et al., 2015; Lazaridou et al., 2015; Ammar et al., 2016; Artetxe et al., 2017; Smith et al., 2017) .
+[BOS] The measures used to compute similarity between a foreign word and an English word often include distributed monolingual representations on character-level (Costa-juss and Fonollosa, 2016; Luong and Manning, 2016) , subwordlevel (Anwarus Salam et al., 2012; Rei et al., 2016; Sennrich et al., 2016; , and bi-lingual word embedding (Madhyastha and Espaa-Bonet, 2017) .
+[BOS] Recent attempts have shown that it is possible to derive cross-lingual word embedding from unaligned corpora in an unsupervised fashion (Zhang et al., 2017; Conneau et al., 2017; Artetxe et al., 2018) .
+
+[BOS] Another strategy for cross-lingual word embedding learning is to combine monolingual and cross-lingual training objectives (Zou et al., 2013; Klementiev et al., 2012; Luong et al., 2015; Ammar et al., 2016; Vuli et al., 2017) .
+[BOS] Compared to our direct mapping approach, these methods generally require large size of parallel data.
+
+[BOS] Our work is largely inspired from (Conneau et al., 2017) .
+[BOS] However, our work focuses on better representing entities, which are fundamentally different from common words or phrases in many aspects as described in Section 1.
+[BOS] Previous multilingual word embedding efforts including (Conneau et al., 2017) do not explicitly handle entity representations.
+[BOS] Moreover, we perform comprehensive extrinsic evaluations based on down-stream NLP applications including cross-lingual entity linking and machine translation, while previous work on cross-lingual embedding only focused on intrinsic evaluations.
+
+[BOS] Cross-lingual Joint Entity and Word Embedding Learning.
+[BOS] Previous work on cross-lingual joint entity and word embedding methods largely neglect unlinkable entities (Tsai and Roth, 2016) and heavily rely on parallel or comparable sentences (Cao et al., 2018) .
+[BOS] Tsai and Roth (2016) apply a similar approach to generate code-switched data from Wikipedia, but their framework does not keep entities in the source language.
+[BOS] Using all aligned entities as a dictionary, they adopt canonical correlation analysis to project two embedding spaces into one.
+[BOS] In contrast, we only choose salient entities as anchors to learn a linear mapping.
+[BOS] Cao et al. (2018) generate comparable data via distant supervision over multilingual knowledge bases, and use an entity regularizer and a sentence regularizer to align cross-lingual words and entities.
+[BOS] Further, they design knowledge attention and cross-lingual attention to refine the alignment.
+[BOS] Essentially, they train cross-lingual embedding jointly, while we align two embedding spaces that trained independently.
+[BOS] Moreover, compared to their approach that relies on comparable data, aligned entities are easier to acquire.
+
+[BOS] Parallel Sentence Mining.
+[BOS] Automatic mining parallel sentences from comparable documents is an important and useful task to improve Statistical Machine Translation.
+[BOS] Early efforts mainly exploited bilingual word dictionaries for bootstrapping (Fung and Cheung, 2004) .
+[BOS] Recent approaches are mainly based on bilingual word embeddings (Marie and Fujita, 2017) and sentence embeddings (Schwenk, 2018) to detect sentence pairs or continuous parallel segments (Hangya and Fraser, 2019) .
+[BOS] To the best of our knowledge, this is the first work to incorporate joint entity and word embedding into parallel sentence mining.
+[BOS] As a result the sentence pairs we include reliable alignment between entity mentions which are often out-of-vocabulary and ambiguous and thus receive poor alignment quality from previous methods.
+

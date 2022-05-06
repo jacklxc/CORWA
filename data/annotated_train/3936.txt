@@ -1,0 +1,15 @@
+[BOS] There is surprisingly little prior work in this area.
+[BOS] We previously (Menezes & Quirk, 2005) explored the use of deletion operations such as (3) above, but these were not grounded in any syntactic context, and the estimation was somewhat heuristic 1 .
+[BOS] The tuple translation model of Crego et al. (2005) , a joint model over source and target translations, also provides a means of deleting words.
+[BOS] In training, sentence pairs such as "nombre de archivo" / "file name" are first word aligned, then minimal bilingual tuples are identified, such as "nombre / name", "de / NULL" and "archivo / file".
+[BOS] The tuples may involve deletion of words by allowing an empty target side, but do not allow insertion tuples with an empty source side.
+[BOS] These inserted words are bound to an adjacent neighbor.
+[BOS] An n-gram model is trained over the tuple sequences.
+[BOS] As a result, deletion probabilities have the desirable property of being conditioned on adjacent context, yet this context is heavily lexicalized, therefore unlikely to generalize well.
+
+[BOS] More recently, Li et. al. (2008) describe three models for handling "single word deletion" (they discuss, but do not address, word insertion).
+[BOS] The first model uses a fixed probability of deletion P(NULL), independent of the source word, estimated by counting null alignments in the training corpus.
+[BOS] The second model estimates a deletion probability per-word, P(NULL|w), also directly from the aligned corpus, and the third model trains an SVM to predict the probability of deletion given source language context (neighboring and dependency tree-adjacent words and parts-of-speech).
+[BOS] All three models give large gains of 1.5% BLEU or more on Chinese-English translation.
+[BOS] It is interesting to note that the more sophisticated models provide a relatively small improvement over the simplest model in-domain, and no benefit out-of-domain.
+

@@ -1,0 +1,13 @@
+[BOS] Previous SemEval challenges have explored relation identification and extraction.
+[BOS] The 2010 SemEval Task 8 (Hendrickx et al., 2010 ) explored classification of natural language relations, such as CONTENT-CONTAINER or ENTITY-ORIGIN.
+[BOS] This challenge differs from ours in its generalizability; our relations are specific to ACL papers (e.g. MODEL-FEATURE) whereas the 2010 relations are more general, and may necessitate more common-sense knowledge than the 2018 relations.
+[BOS] The 2010 data has been extensively studied and has offered significant opportunity for other researchers to test their model.
+[BOS] Rink and Harabagiu (2010) produced a strong SVM/LR model to attack this challenge.
+[BOS] Several deep architectures have also been proposed for this task, including the work of Cai et al. (2016) , which demonstrated a novel approach merging ideas from recurrent networks and convolutional networks based on shortest dependency path (SDP).
+[BOS] Xu et al. (2015a) and Santos et al. (2015) both used convolutional architectures along with negative sampling to pursue this task.
+[BOS] More recently, used two levels of attention, one for input selection and the other for output pooling, to boost the performance of their model to state of the art.
+
+[BOS] The 2017 scientific publications.
+[BOS] Here, however, there were only 2 relation types, HYPONYM-OF and SYNONYM-OF.
+[BOS] One successful model on this task utilized a convolutional network operating on word, tag, position, and part-of-speech features (Lee et al., 2017) , and found that restricting network focus to only the words between the requisite entities offered a notable performance improvement.
+

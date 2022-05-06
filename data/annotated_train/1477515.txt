@@ -1,0 +1,22 @@
+[BOS] Recognizing word relatedness is typically addressed by distributional methods.
+[BOS] To determine to what extent two terms x and y are related, a vector similarity or distance measure is applied to their distributional representations: sim( v wx , v wy ).
+[BOS] This is a straightforward application of the distributional hypothesis (Harris, 1954) , according to which related words occur in similar contexts, hence have similar vector representations.
+
+[BOS] Most commonly, vector cosine is adopted as a similarity measure (Turney et al., 2010) .
+[BOS] Many other measures exist, including but not limited to Euclidean distance, KL divergence (Cover and Thomas, 2012 ), Jaccard's coefficient (Salton and McGill, 1986) , and more recently neighbor rank (Hare et al., 2009; Lapesa and Evert, 2013) and APSyn (Santus et al., 2016a) .
+[BOS] 2 To turn this task into a binary classification task, where x and y are classified as either related or not, one can set a threshold to separate similarity scores of related and unrelated word pairs.
+
+[BOS] While path-based approaches have been commonly used for semantic relation classification (A. Hearst, 1992; Snow et al., 2004; Nakashole et al., 2012; Necsulescu et al., 2015) , they have never been used for word relatedness, which is considered a "classical" task for distributional methods.
+[BOS] We argue that path-based information can improve performance of word relatedness tasks as well (see Section 4.1).
+[BOS] We train LexNET to distinguish between two classes: RELATED and UNRELATED, and combine it with the common cosine similarity measure to tackle subtask 1.
+
+[BOS] We tuned LexNET's hyper-parameters on the validation set, disregarding the similarity measure at this point, and then chose the model that performed best on the validation set and combined it with the similarity measure.
+
+[BOS] We computed cosine similarity for each (x, y) pair in the dataset: cos( v wx , v wy ) = vw x  vw y vw x  vw y , and normalized it to the range [0, 1].
+[BOS] We scored each (x, y) pair by a combination of LexNET's score for the RELATED class and the cosine similarity score:
+
+[BOS] where w C , w L are the weights assigned to cosine similarity and LexNET's scores respectively, such that w C + w L = 1.
+[BOS] We tuned the weights and a threshold t using the validation set, and classified (x, y) as related if Rel(x, y)  t. The word vectors used to compute the cosine similarity scores were chosen among several available pre-trained embeddings.
+[BOS] 4 For completeness we also report the performance of two baselines: cosine similarity (w C = 1) and LexNET (w L = 1, fixed t = 0.5).
+[BOS] Table 2 : Performance scores on the test set in each subtask, of the selected methods and the baselines.
+

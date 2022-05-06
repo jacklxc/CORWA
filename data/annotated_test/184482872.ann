@@ -1,0 +1,25 @@
+T1	Intro 0 5	[BOS]
+T2	Single_summ 135 140	[BOS]
+T3	Single_summ 263 268	[BOS]
+T4	Single_summ 361 366	[BOS]
+T5	Single_summ 523 528	[BOS]
+T6	Single_summ 630 635	[BOS]
+T7	Single_summ 748 753	[BOS]
+T8	Dominant 141 161	(Kiros et al., 2015)
+T9	Dominant 269 290	(Peters et al., 2018)
+T10	Dominant 367 388	(Devlin et al., 2018)
+T11	Dominant 529 552	(Triguero et al., 2015)
+T12	Dominant 636 660	(Zhu and Goldberg, 2009)
+T13	Dominant 754 772	(Lin et al., 2018)
+T14	B_span 142 147	Kiros
+T15	E_span 254 261	passage
+T16	B_span 270 276	Peters
+T17	E_span 354 359	model
+T18	B_span 368 374	Devlin
+T19	E_span 516 521	tasks
+T20	B_span 530 538	Triguero
+T21	E_span 614 628	classification
+T22	B_span 637 640	Zhu
+T23	E_span 738 746	training
+T24	B_span 755 758	Lin
+T25	E_span 916 921	model

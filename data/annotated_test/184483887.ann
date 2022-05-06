@@ -1,0 +1,30 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 189 194	[BOS]
+T3	Narrative_cite 333 338	[BOS]
+T4	Single_summ 485 490	[BOS]
+T5	Single_summ 737 742	[BOS]
+T6	Transition 915 920	[BOS]
+T7	Transition 1079 1084	[BOS]
+T8	Transition 1113 1118	[BOS]
+T9	Single_summ 1356 1361	[BOS]
+T10	Narrative_cite 1569 1574	[BOS]
+T11	Transition 1778 1783	[BOS]
+T12	Transition 1972 1977	[BOS]
+T13	Reference 459 481	(Norbata et al., 2016)
+T14	Dominant 553 572	Waseem et al., 2017
+T15	Dominant 757 777	Waseem et al. (2017)
+T16	Dominant 1404 1431	(Schmidt and Wiegand, 2017)
+T17	Reference 1545 1566	(Waseem et al., 2017)
+T18	Reference 1755 1775	(Kumar et al., 2018)
+T19	B_span 437 443	racist
+T20	E_span 476 480	2016
+T21	B_span 500 504	work
+T22	E_span 723 735	construction
+T23	B_span 757 763	Waseem
+T24	E_span 904 912	interest
+T25	B_span 1371 1379	analysis
+T26	E_span 1561 1565	2017
+T27	B_span 1498 1506	advanced
+T28	E_span 1561 1565	2017
+T29	B_span 1743 1749	COLING
+T30	E_span 1770 1774	2018

@@ -1,0 +1,45 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 125 130	[BOS]
+T3	Narrative_cite 237 242	[BOS]
+T4	Transition 478 483	[BOS]
+T5	Single_summ 548 553	[BOS]
+T6	Single_summ 821 826	[BOS]
+T7	Single_summ 913 918	[BOS]
+T8	Reflection 1063 1068	[BOS]
+T9	Reflection 1132 1137	[BOS]
+T10	Reflection 1260 1265	[BOS]
+T11	Narrative_cite 1435 1440	[BOS]
+T12	Single_summ 1654 1659	[BOS]
+T13	Single_summ 1832 1837	[BOS]
+T14	Reflection 1907 1912	[BOS]
+T15	Reflection 2013 2018	[BOS]
+T16	Single_summ 2102 2107	[BOS]
+T17	Reference 347 363	(Li et al., 2010
+T18	Reference 365 383	Wang et al., 2017)
+T19	Reference 393 417	(Luong and Manning, 2015
+T20	Reference 419 441	Farajian et al., 2017)
+T21	Reference 457 475	(Chu et al., 2017)
+T22	Dominant 729 747	Mima et al. (1997)
+T23	Dominant 827 851	Michel and Neubig (2018)
+T24	Reference 1545 1571	(Vijayakumar et al., 2016)
+T25	Reference 1630 1650	(Shetty et al., 2017
+T26	Dominant 1705 1726	Schulz et al. (2018b)
+T27	Dominant 2117 2135	Yang et al. (2018)
+T28	B_span 332 336	data
+T29	E_span 378 382	2017
+T30	B_span 386 392	tuning
+T31	E_span 436 440	2017
+T32	B_span 445 451	domain
+T33	E_span 470 474	2017
+T34	B_span 564 566	to
+T35	E_span 812 819	quality
+T36	B_span 827 833	Michel
+T37	E_span 1054 1061	domains
+T38	B_span 1525 1534	encourage
+T39	E_span 1566 1570	2016
+T40	B_span 1609 1620	adversarial
+T41	E_span 1646 1650	2017
+T42	B_span 1705 1711	Schulz
+T43	E_span 1896 1905	variables
+T44	B_span 2117 2121	Yang
+T45	E_span 2304 2313	framework

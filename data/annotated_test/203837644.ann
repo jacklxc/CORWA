@@ -1,0 +1,29 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 68 73	[BOS]
+T3	Narrative_cite 249 254	[BOS]
+T4	Single_summ 479 484	[BOS]
+T5	Single_summ 592 597	[BOS]
+T6	Transition 957 962	[BOS]
+T7	Single_summ 1049 1054	[BOS]
+T8	Narrative_cite 1252 1257	[BOS]
+T9	Reference 114 137	Lewis and Catlett, 1994
+T10	Reference 139 166	Culotta and Mc-Callum, 2005
+T11	B_span 74 77	The
+T12	E_span 244 247	low
+T13	B_span 290 295	query
+T14	E_span 324 328	1992
+T15	Reference 310 328	Seung et al., 1992
+T16	Dominant 513 533	Lowell et al. (2019)
+T17	B_span 513 519	Lowell
+T18	E_span 942 954	architecture
+T19	Dominant 1080 1106	Siddhant and Lipton (2018)
+T20	B_span 1080 1088	Siddhant
+T21	B_span 1164 1166	Ba
+T22	E_span 1200 1204	2015
+T23	Reference 1183 1204	Blundell et al., 2015
+T24	E_span 1239 1250	formulation
+T25	B_span 1297 1301	LTAL
+T26	E_span 1392 1396	2017
+T27	Reference 1331 1355	Konyushkova et al., 2017
+T28	Reference 1357 1377	Bachman et al., 2017
+T29	Reference 1379 1396	Fang et al., 2017

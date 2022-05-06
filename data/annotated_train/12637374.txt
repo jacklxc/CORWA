@@ -1,0 +1,19 @@
+[BOS] While there has been substantial work on linguistically motivated SMT, approaches that leverage syntax for NMT start to shed light very recently.
+[BOS] Generally speaking, NMT can provide a flexible mechanism for adding linguistic knowledge, thanks to its strong capability of automatically learning feature representations.
+[BOS] Eriguchi et al. (2016) propose a tree-tosequence model that learns annotation vectors not only for terminal words, but also for non-terminal nodes.
+[BOS] They also allow the attention model to align target words to non-terminal nodes.
+[BOS] Our approach is similar to theirs by using source-side phrase parse tree.
+[BOS] However, our Mixed RNN system, for example, incorporates syntax information by learning annotation vectors of syntactic labels and words stitchingly, but is still a sequenceto-sequence model, with no extra parameters and with less increased training time.
+
+[BOS] Sennrich and Haddow (2016) define a few linguistically motivated features that are attached to each individual words.
+[BOS] Their features include lemmas, subword tags, POS tags, dependency labels, etc.
+[BOS] They concatenate feature embeddings with word embeddings and feed the concatenated embeddings into the NMT encoder.
+[BOS] On the contrast, we do not specify any feature, but let the model implicitly learn useful information from the structural label sequence.
+[BOS] Shi et al. (2016) design a few experiments to investigate if the NMT system without external linguistic input is capable of learning syntactic information on the source-side as a by-product of training.
+[BOS] However, their work is not focusing on improving NMT with linguistic input.
+[BOS] Moreover, we analyze what syntax is disrespected in translation from several new perspectives.
+[BOS] Garca-Martnez et al. (2016) generalize NMT outputs as lemmas and morphological factors in order to alleviate the issues of large vocabulary and out-of-vocabulary word translation.
+[BOS] The lemmas and corresponding factors are then used to generate final words in target language.
+[BOS] Though they use linguistic input on the target side, they are limited to the word level features.
+[BOS] Phrase level, or even sentence level linguistic features are harder to obtain for a generation task such as machine translation, since this would require incremental parsing of the hypotheses at test time.
+

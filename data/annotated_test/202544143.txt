@@ -1,0 +1,18 @@
+[BOS] A large number of supervised machine learning techniques have been used for English event extraction, including traditional techniques based on symbolic features (Ji and Grishman, 2008; Liao and Grishman, 2011), joint inference models (Li et al., 2014; Yang and Mitchell, 2016) , and recently with neural networks (Nguyen and Grishman, 2015a; Nguyen et al., 2016; Chen et al., 2015; Nguyen and Grishman, 2018; Liu et al., 2018b; Lu and Nguyen, 2018; Liu et al., 2018a; Zhang et al., , 2019 .
+[BOS] English relation extraction in the early days also followed supervised paradigms (Li and Ji, 2014; Zeng et al., 2014; Nguyen and Grishman, 2015b; Miwa and Bansal, 2016; Pawar et al., 2017; Bekoulis et al., 2018; Wang et al., 2018b) .
+[BOS] Recent efforts have attempted to reduce annotation costs using distant supervision (Mintz et al., 2009; Surdeanu et al., 2012; Min et al., 2013; Angeli et al., 2014; Zeng et al., 2015; Quirk and Poon, 2017; Qin et al., 2018; Wang et al., 2018a) through knowledge bases (KBs), where entities and static relations are plentiful.
+[BOS] Distant supervision is less applicable for the task of event extraction because very few dynamic events are included in KBs.
+[BOS] These approaches, however, incorporate language-specific characteristics and thus are costly in requiring substantial amount of annotations to adapt to a new language (Chen and Vincent, 2012; Blessing and Schtze, 2012; Li et al., 2012; Danilova et al., 2014; Agerri et al., 2016; Hsi et al., 2016; Feng et al., 2016) .
+
+[BOS] Regardless of the recent successes in applying cross-lingual transfer learning to sequence labeling tasks, such as name tagging (e.g., (Mayhew et al., 2017; Lin et al., 2018; Huang et al., 2019) ), only limited work has explored cross-lingual relation and event structure transfer.
+[BOS] Most previous efforts working with cross-lingual structure trans-fer rely on bilingual dictionaries (Hsi et al., 2016), parallel data (Chen and Ji, 2009; Kim et al., 2010; Qian et al., 2014) or machine translation (Faruqui and Kumar, 2015; Zou et al., 2018) .
+[BOS] Recent methods (Lin et al., 2017; Wang et al., 2018b) aggregate consistent patterns and complementary information across languages to enhance Relation Extraction, but they do so exploiting only distributional representations.
+
+[BOS] Event extraction shares with Semantic Role Labeling (SRL) the task of assigning to each event argument its event role label, in the process of completing other tasks to extract the full event structure (assigning event types to predicates and more specific roles to arguments).
+[BOS] Cross-lingual transfer has been very successful for SRL.
+[BOS] Early attempts relied on word alignment (Van der Plas et al., 2011) or bilingual dictionaries (Kozhevnikov and Titov, 2013) .
+[BOS] Recent work incorporates universal dependencies (Prazk and Konopk, 2017) To the best of our knowledge, our work is the first to construct a cross-lingual structure transfer framework that combines language-universal symbolic representations and distributional representations for relation and event extraction over texts written in a language without any training data.
+
+[BOS] GCN has been successfully applied to several individual monolingual NLP tasks, including relation extraction (Zhang et al., 2018b) , event detection (Nguyen and Grishman, 2018), SRL (Marcheggiani and Titov, 2017) and sentence classification (Yao et al., 2019) .
+[BOS] We apply GCN to construct multi-lingual structural representations for cross-lingual transfer learning.
+

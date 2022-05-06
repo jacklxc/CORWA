@@ -1,0 +1,15 @@
+[BOS] Research regarding bias and stereotypes expressed in text and subsequently incorporated in learned language models is currently a vivid field.
+[BOS] Caliskan et al. (2017) show that learned embeddings exhibit every linguistic bias documented in the field of psychology (such as that flowers are more pleasant than insects, musical instruments are preferred to weapons, and personal names are used to infer race).
+[BOS] Garg et al. (2018) show that temporal changes of the embeddings can be used to quantify gender and ethnic stereotypes over time, and Zhao et al. (2017) suggest that biases might in fact be amplified by embedding models.
+[BOS] Several researchers have also investigated ways to counter stereotypes and biases in learned language models.
+[BOS] While the seminal work by Bolukbasi et al. (2016a Bolukbasi et al. ( , 2016b concerns the identification and mitigation of gender bias in pretrained word embeddings, Zhao et al. (2018) provide insights into the possibilities of learning embeddings that are gender neutral.
+[BOS] Bordia and Bowman (2019) outline a way of training a recurrent neural network for word-based language modelling such that the model is gender neutral.
+[BOS] Park et al. (2018) discuss different ways of mitigating gender bias, in the context of abusive language detection, ranging from debiasing a model by using the hard debiased word embeddings produced by Bolukbasi et al. (2016b) , to manipulating the data prior to training a model by swapping masculine and feminine mentions, and employing transfer learning from a model learned from less biased text.
+[BOS] Gonen and Goldberg (2019) contest the approaches to debiasing word embeddings presented by Bolukbasi et al. (2016b) and Zhao et al. (2018) , arguing that while the bias is reduced when measured according to its definition, i.e., dampening the impact of the general gender direction in the vector space, "the actual effect is mostly hiding the bias, not removing it".
+[BOS] Further, Gonen and Gold-berg (2019) claim that a lot of the supposedly removed bias can be recovered due to the geometry of the vector representation of the gender neutralized words.
+
+[BOS] Our contribution consists of an investigation of the presence of gender bias in pretrained embeddings for Swedish.
+[BOS] We are less interested in bias as a theoretical construct, and more interested in the effects of gender bias in actual applications where pretrained embeddings are employed.
+[BOS] Our experiments are therefore tightly tied to a real-world use case where gender bias would have potentially serious ramifications.
+[BOS] We also provide further evidence of the inability of the debiasing method proposed by Bolukbasi et al. (2016b) to handle the type of bias we are concerned with.
+

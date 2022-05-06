@@ -1,0 +1,59 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 102 107	[BOS]
+T3	Transition 255 260	[BOS]
+T4	Transition 370 375	[BOS]
+T5	Single_summ 538 543	[BOS]
+T6	Single_summ 618 623	[BOS]
+T7	Single_summ 734 739	[BOS]
+T8	Single_summ 879 884	[BOS]
+T9	Reflection 946 951	[BOS]
+T10	Reflection 1119 1124	[BOS]
+T11	Transition 1166 1171	[BOS]
+T12	Transition 1292 1297	[BOS]
+T13	Transition 1364 1369	[BOS]
+T14	Transition 1487 1492	[BOS]
+T15	Multi_summ 1685 1690	[BOS]
+T16	Narrative_cite 1884 1889	[BOS]
+T17	Reflection 2092 2097	[BOS]
+T18	Transition 2268 2273	[BOS]
+T19	Transition 2406 2411	[BOS]
+T20	Single_summ 2668 2673	[BOS]
+T21	Single_summ 2906 2911	[BOS]
+T22	Single_summ 3044 3049	[BOS]
+T23	Single_summ 3338 3343	[BOS]
+T24	Single_summ 3551 3556	[BOS]
+T25	Single_summ 3724 3729	[BOS]
+T26	Single_summ 3876 3881	[BOS]
+T27	Transition 4067 4072	[BOS]
+T28	Transition 4219 4224	[BOS]
+T29	Dominant 553 575	(Bonial et al., 2014 )
+T30	Dominant 1700 1728	(Navigli and Ponzetto, 2012)
+T31	Dominant 1744 1764	(Speer et al., 2017)
+T32	Reference 2068 2089	Speer and Chin, 2016)
+T33	Dominant 2679 2692	Resnik (1995)
+T34	Dominant 2975 3008	Gabrilovich and Markovitch (2007)
+T35	Dominant 3050 3070	Agirre et al. (2009)
+T36	Dominant 3359 3379	Agirre et al. (2009)
+T37	Reference 3522 3548	(Finkelstein et al., 2002)
+T38	Dominant 3603 3629	Gabrilovich and Markovitch
+T39	Dominant 3882 3903	Willmott (1981; 1982)
+T40	B_span 544 552	PropBank
+T41	E_span 936 944	FrameNet
+T42	B_span 1691 1699	BabelNet
+T43	E_span 1872 1882	Wiktionary
+T44	B_span 2006 2010	have
+T45	E_span 2084 2088	2016
+T46	B_span 2674 2678	When
+T47	E_span 2891 2901	similarity
+T48	B_span 2912 2915	The
+T49	E_span 3035 3042	comment
+T50	B_span 3050 3056	Agirre
+T51	E_span 3328 3335	applied
+T52	B_span 3344 3357	Unfortunately
+T53	E_span 3543 3547	2002
+T54	B_span 3502 3509	WordSim
+T55	E_span 3543 3547	2002
+T56	B_span 3557 3561	This
+T58	E_span 3868 3874	values
+T57	B_span 3882 3890	Willmott
+T59	E_span 4061 4065	data

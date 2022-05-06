@@ -1,0 +1,23 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 208 213	[BOS]
+T3	Single_summ 477 482	[BOS]
+T4	Single_summ 665 670	[BOS]
+T5	Single_summ 871 876	[BOS]
+T6	Single_summ 1008 1013	[BOS]
+T7	Narrative_cite 1112 1117	[BOS]
+T8	Dominant 86 102	(Shardlow, 2013)
+T9	Dominant 240 268	(Paetzold and Specia, 2016 )
+T10	Dominant 512 536	(Mukherjee et al., 2016)
+T11	Dominant 686 710	(Zampieri et al., 2016 )
+T12	Reference 1258 1279	(Yimam et al., 2017b)
+T13	Pronoun 877 882	These
+T14	B_span 39 50	identifying
+T15	E_span 97 101	2013
+T16	B_span 214 217	The
+T17	E_span 471 474	CWI
+T18	B_span 483 486	One
+T19	E_span 650 662	investigated
+T20	B_span 671 678	Another
+T21	E_span 1101 1109	reported
+T22	B_span 1118 1124	Number
+T23	E_span 1273 1278	2017b

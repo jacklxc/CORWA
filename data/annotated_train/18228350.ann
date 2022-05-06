@@ -1,0 +1,60 @@
+T1	Transition 1 4	BOS
+T2	Reference 156 168	Specia, 2010
+T3	Reference 170 189	Wubben et al., 2012
+T4	Reference 191 215	Coster and Kauchak, 2011
+T5	Multi_summ 102 105	BOS
+T6	Reference 510 526	Zhu et al., 2010
+T7	Reference 528 553	Woodsend and Lapata, 2011
+T8	Reference 555 580	Paetzold and Specia, 2013
+T9	Multi_summ 390 393	BOS
+T10	Transition 585 588	BOS
+T11	Transition 720 723	BOS
+T12	Transition 838 841	BOS
+T13	Dominant 1100 1118	Siddharthan (2010)
+T14	Dominant 1123 1141	Siddharthan (2011)
+T15	Multi_summ 1066 1069	BOS
+T16	Transition 1315 1318	BOS
+T17	Transition 1491 1494	BOS
+T18	Transition 1698 1701	BOS
+T19	Multi_summ 1956 1959	BOS
+T20	Reference 2044 2066	Knight and Marcu, 2000
+T21	Reference 2068 2092	Galley and McKeown, 2007
+T22	Reference 2094 2114	Riezler et al., 2003
+T23	Reference 2116 2137	Cohn and Lapata, 2009
+T24	Reference 2139 2151	Nomoto, 2008
+T25	Dominant 2184 2210	Woodsend and Lapata (2011)
+T26	B_span 2184 2192	Woodsend
+T27	E_span 2538 2543	trees
+T28	Reference 2324 2346	Smith and Eisner, 2006
+T29	Single_summ 2171 2174	BOS
+T30	Single_summ 2243 2246	BOS
+T31	Single_summ 2381 2384	BOS
+T32	Single_summ 2546 2549	BOS
+T33	Single_summ 2734 2737	BOS
+T34	B_span 2551 2559	Woodsend
+T35	E_span 2809 2820	compression
+T36	Dominant 2551 2577	Woodsend and Lapata (2011)
+T37	Transition 2824 2827	BOS
+T38	Dominant 2893 2919	Narayan and Gardent (2014)
+T39	B_span 2893 2900	Narayan
+T40	E_span 3013 3028	simplifications
+T41	Single_summ 2888 2891	BOS
+T42	Reflection 3031 3034	BOS
+T43	Reflection 3220 3223	BOS
+T44	B_span 107 113	Phrase
+T45	E_span 377 387	insertions
+T46	B_span 395 400	While
+T47	E_span 576 580	2013
+T48	B_span 1071 1075	Hand
+T49	E_span 1303 1312	correctly
+T50	B_span 1961 1964	The
+T51	E_span 2161 2168	variety
+T52	Pronoun 88 92	they
+T53	Pronoun 590 594	This
+T54	Pronoun 969 971	it
+T55	Pronoun 2219 2223	this
+T56	Pronoun 2248 2253	Their
+T57	Pronoun 2482 2486	this
+T58	Pronoun 2739 2744	Their
+T59	Pronoun 3228 3232	this
+T60	Pronoun 3250 3254	this

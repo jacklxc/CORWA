@@ -1,0 +1,29 @@
+[BOS] We start with work that combines word alignments with NMT.
+[BOS] Research in this area generally falls into one of three themes: (1) employing the notion of word alignments to interpret the prediction of NMT; (2) making use of word alignments to improve NMT performance; (3) making use of NMT to improve word alignments.
+[BOS] We mainly focus on related work in the first theme as this is the problem we are addressing in this work.
+[BOS] Then we briefly introduce work in the other themes that is relevant to our study.
+[BOS] We conclude by briefly summarizing related work to our proposed interpretation method.
+
+[BOS] For the attention in RNN-based sequence-tosequence model, the first comprehensive analysis is conducted by Ghader and Monz (2017) .
+[BOS] They argued that the attention in such systems agree with word alignment to a certain extent by showing that the RNN-based system achieves comparable alignment error rate comparable to that of bidirectional GIZA++ with symmetrization.
+[BOS] However, they also point out that they are not exactly the same, as training the attention with alignments would occasionally cause the model to forget important information.
+[BOS] Lee et al. (2017) presented a toolkit that facilitates study for the attention in RNN-based models.
+
+[BOS] There is also a number of other studies that analyze the attention in Transformer models.
+[BOS] Tang et al. (2018a,b) conducted targeted evaluation of neural machine translation models in two different evaluation tasks, namely subject-verb agreement and word sense disambiguation.
+[BOS] During the analysis, they noted that the pattern in Transformer model (what they refer to as advanced attention mechanism) is very different from that of the attention in RNN-based architecture, in that a lot of the probability mass is focused on the last input token.
+[BOS] They did not dive deeper in this phenomenon in their analysis.
+[BOS] Raganato and Tiedemann (2018) performed a brief but more refined analysis on each attention head and each layer, where they noticed several different patterns inside the modules, and concluded that Transformer tends to focus on local dependencies in lower layers but finds long dependencies on higher ones.
+
+[BOS] Beyond interpretation, in order to improve the translation of rare words, Nguyen and Chiang (2018) introduced LexNet, a feed-forward neural network that directly predicts the target word from a weighted sum of the source embeddings, on top of an RNN-based Seq2Seq models.
+[BOS] Their goal was to improve translation output and hence they did not empirically show AER improvements on manually-aligned corpora.
+[BOS] There are also a few other studies that inject alignment supervision during NMT training (Mi et al., 2016; Liu et al., 2016) .
+[BOS] In terms of improvements in word alignment quality, Legrand et al. (2016) ; Wang et al. (2018) ; proposed neu-ral word alignment modules decoupled from NMT systems, while Zenkel et al. (2019) introduced a separate module to extract alignment from NMT decoder states, with which they achieved comparable AER with fast-align with Transformer models.
+
+[BOS] The saliency method we propose in this work draws its inspiration from visual saliency proposed by Simonyan et al. (2013); Springenberg et al. (2014) ; Smilkov et al. (2017) .
+[BOS] It should be noted that these methods were mostly applied to computer vision tasks.
+[BOS] To the best of our knowledge, Li et al. (2016) presented the only work that directly employs saliency methods to interpret NLP models.
+[BOS] Most similar to our work in spirit, Ding et al. (2017) used Layer-wise Relevance Propagation (LRP; Bach et al. 2015) , an interpretation method resembling saliency, to interpret the internal working mechanisms of RNN-based neural machine translation systems.
+[BOS] Although conceptually LRP is also a good fit for word alignment interpretation, we have some concerns with the mathematical soundness of LRP when applied to attention models.
+[BOS] Our proposed method is also considerably more flexible and easier to implement than LRP.
+

@@ -1,0 +1,95 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 26 31	[BOS]
+T3	Multi_summ 222 227	[BOS]
+T4	Narrative_cite 517 522	[BOS]
+T5	Multi_summ 809 814	[BOS]
+T6	Narrative_cite 1277 1282	[BOS]
+T7	Transition 1541 1546	[BOS]
+T8	Narrative_cite 1575 1580	[BOS]
+T9	Narrative_cite 1994 1999	[BOS]
+T10	Narrative_cite 2313 2318	[BOS]
+T11	Transition 2573 2578	[BOS]
+T12	Transition 2615 2620	[BOS]
+T13	Narrative_cite 2747 2752	[BOS]
+T14	Narrative_cite 3036 3041	[BOS]
+T15	Multi_summ 3196 3201	[BOS]
+T16	Multi_summ 3421 3426	[BOS]
+T17	Reflection 3599 3604	[BOS]
+T18	Reference 144 162	(Dorr et al., 2003
+T19	Reference 164 185	Durrett et al., 2016)
+T20	Dominant 391 414	(Cheng and Lapata, 2016
+T21	Dominant 416 439	Nallapati et al., 2017)
+T22	Reference 572 597	(Sutskever et al., 2014 )
+T23	Reference 643 664	(Hermann et al., 2015
+T24	Reference 666 689	Nallapati et al., 2016)
+T25	Reference 698 719	(Paulus et al., 2018)
+T26	Dominant 911 934	Nallapati et al. (2016)
+T27	Dominant 967 984	See et al. (2017)
+T28	Dominant 1084 1101	Tan et al. (2017)
+T29	Dominant 1189 1210	(Paulus et al., 2018)
+T30	Reference 1517 1538	(Paulus et al., 2018)
+T31	Reference 1638 1661	(Sutskever et al., 2014
+T32	Reference 1663 1685	Bahdanau et al., 2015)
+T33	Reference 1774 1791	(Cho et al., 2014
+T34	Reference 1793 1811	Luong et al., 2015
+T35	Reference 1813 1837	Luong and Manning, 2016)
+T36	Reference 1851 1871	Vaswani et al., 2017
+T37	Reference 1873 1893	Ahmed et al., 2018 )
+T38	Reference 2154 2176	(Bahdanau et al., 2015
+T39	Reference 2178 2197	Luong et al., 2015)
+T40	Reference 2226 2246	(Chung et al., 2016)
+T41	Reference 2282 2299	(Tu et al., 2016)
+T42	Reference 2360 2380	Ranzato et al., 2016
+T43	Reference 2382 2402	Norouzi et al., 2016
+T44	Reference 2404 2421	Shen et al., 2016
+T45	Reference 2423 2444	Bahdanau et al., 2017
+T46	Reference 2446 2469	Zhukov and Kretov, 2017
+T47	Reference 2471 2490	Casas et al., 2018)
+T48	Reference 2982 3001	(Lin and Och, 2004)
+T49	Reference 3010 3033	(Papineni et al., 2002)
+T50	Reference 3173 3193	(Rosti et al., 2011)
+T51	Dominant 3215 3236	(Ranzato et al., 2016
+T52	Dominant 3238 3259	Bahdanau et al., 2017
+T53	Dominant 3261 3281	Paulus et al., 2018)
+T54	B_span 125 129	text
+T55	E_span 180 184	2016
+T56	B_span 392 397	Cheng
+T57	E_span 511 515	text
+T58	B_span 545 555	sequenceto
+T59	E_span 591 595	2014
+T60	B_span 628 631	CNN
+T61	E_span 684 688	2016
+T62	B_span 694 697	NYT
+T63	E_span 714 718	2018
+T64	B_span 815 822	Several
+T65	E_span 957 965	encoders
+T66	B_span 967 970	See
+T67	E_span 1074 1082	problems
+T68	B_span 1084 1087	Tan
+T69	E_span 1175 1183	strategy
+T70	B_span 1190 1196	Paulus
+T71	E_span 1267 1275	learning
+T72	B_span 1459 1463	LEAD
+T73	E_span 1533 1537	2018
+T74	B_span 1608 1615	encoder
+T75	E_span 1680 1684	2015
+T76	B_span 1688 1694	neural
+T77	E_span 1832 1836	2016
+T78	B_span 1842 1850	industry
+T79	E_span 1887 1891	2018
+T80	B_span 2123 2132	different
+T81	E_span 2192 2196	2015
+T82	B_span 2202 2211	character
+T83	E_span 2241 2245	2016
+T84	B_span 2251 2262	translation
+T85	E_span 2294 2298	2016
+T86	B_span 2360 2367	Ranzato
+T87	E_span 2566 2571	score
+T88	B_span 2976 2981	ROUGE
+T89	E_span 2996 3000	2004
+T90	B_span 3005 3009	BLEU
+T91	E_span 3028 3032	2002
+T92	B_span 3124 3127	non
+T93	E_span 3188 3192	2011
+T94	B_span 3216 3223	Ranzato
+T95	E_span 3585 3597	distribution

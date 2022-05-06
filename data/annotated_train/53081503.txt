@@ -1,0 +1,25 @@
+[BOS] Sentiment classification has become a hot research field in NLP since the pioneering work by Pang et al. (2002) .
+[BOS] In general, the research on traditional sentiment classification has been carried out in different text levels, such like word-level, documentlevel and aspect-level.
+
+[BOS] Word-level sentiment classification has been studied in a long period in the research community of sentiment analysis.
+[BOS] Some early studies have devoted their efforts to predicting the sentiment polarity of a word with different learning models and resources.
+[BOS] Turney (2002) proposed an approach to predicting the sentiment polarity of words by calculating Pointwise Mutual Information (PMI) values between the seed words and the search hits.
+[BOS] Hassan and Radev (2010) and Hassan et al. (2011) applied a Markov random walk model to determine the word polarities with a large word relatedness graph, and the synonyms and hypernyms in WordNet (Miller, 1995) .
+[BOS] More recently, some studies aim to learn better word embedding of a word rather than its polarity.
+[BOS] Tang et al. (2014) developed three neural networks to learn word em- bedding by incorporating sentiment polarities of text in loss functions.
+[BOS] Zhou et al. (2015b) employed both unsupervised and supervised neural networks to learn bilingual sentiment word embedding.
+[BOS] Document-level sentiment classification has also been studied in a long period in the research community of sentiment analysis.
+[BOS] On one hand, many early studies have been devoted their efforts to various of aspects on learning approaches, such as supervised learning (Pang et al., 2002; Riloff et al., 2006) , semi-supervised learning (Li et al., 2010; Xia et al., 2015; , and domain adaptation (Blitzer et al., 2007; He et al., 2011) .
+[BOS] On the other hand, many recent studies employ deep learning approaches to enhance the performances in sentiment classification.
+[BOS] Tang et al. (2015) proposed a user-product neural network to incorporate both user and product information for sentiment classification.
+[BOS] Xu et al. (2016) proposed a Cached Long Short-Term Memory neural networks (CLSTM) to capture the overall semantic information in long texts.
+[BOS] More recently, Long et al. (2017) proposed a novel attention model, namely cognition-based attention, for sentiment classification.
+
+[BOS] Aspect-level sentiment classification is a relatively new research area in the research community of sentiment analysis and it is a fine-grained classification task.
+[BOS] Recently, Wang et al. (2016) proposed an attention-based LSTM neural network to aspect-level sentiment classification by exploring the connection between an aspect and the content of a sentence.
+[BOS] Tang et al. (2016) proposed a deep memory network with multiple attention-based computational layers to improve the performance.
+[BOS] Wang et al. (2018) proposed a hierarchical attention network to explore both word-level and clause-level sentiment information towards a target aspect.
+
+[BOS] Unlike all the prior studies, this paper focuses on a very different kind of text representation, i.e., QA-style text level, for sentiment classification.
+[BOS] To the best of our knowledge, this is the first attempt to perform sentiment classification on this text level.
+

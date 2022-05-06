@@ -1,0 +1,17 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 151 156	[BOS]
+T3	Narrative_cite 212 217	[BOS]
+T4	Reference 157 174	(Lei et al., 2016
+T5	Reference 176 191	Li et al., 2016
+T6	Reference 193 209	Yu et al., 2019)
+T7	Reference 305 323	(Choi et al., 2017
+T8	Reference 325 356	Kratzwald and Feuerriegel, 2019
+T9	Reference 358 375	Wang et al., 2018
+T10	Reference 583 598	Liu, 2018, 2019
+T11	Reference 600 618	Eyal et al., 2019)
+T12	B_span 157 158	(
+T13	E_span 208 209	)
+T14	B_span 233 241	evidence
+T15	E_span 375 376	b
+T16	B_span 482 492	downstream
+T17	E_span 617 618	)

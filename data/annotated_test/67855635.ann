@@ -1,0 +1,68 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 246 251	[BOS]
+T3	Transition 353 358	[BOS]
+T4	Single_summ 459 464	[BOS]
+T5	Transition 559 564	[BOS]
+T6	Narrative_cite 691 696	[BOS]
+T7	Multi_summ 840 845	[BOS]
+T8	Single_summ 972 977	[BOS]
+T9	Single_summ 1064 1069	[BOS]
+T10	Single_summ 1184 1189	[BOS]
+T11	Reflection 1414 1419	[BOS]
+T12	Transition 1624 1629	[BOS]
+T13	Single_summ 1698 1703	[BOS]
+T14	Single_summ 1889 1894	[BOS]
+T15	Transition 2063 2068	[BOS]
+T16	Single_summ 2163 2168	[BOS]
+T17	Single_summ 2340 2345	[BOS]
+T18	Single_summ 2599 2604	[BOS]
+T19	Other 2690 2695	[BOS]
+T20	Other 2721 2726	[BOS]
+T21	Other 2793 2798	[BOS]
+T22	Reflection 2839 2844	[BOS]
+T23	Reference 110 128	(Li et al., 2016b)
+T24	Reference 149 176	(Ghazvininejad et al., 2017
+T25	Reference 191 210	(Zhao et al., 2017)
+T26	Reference 223 243	(Huber et al., 2018)
+T27	Dominant 465 485	Bowman et al. (2016)
+T28	Reference 760 780	(Bowman et al., 2016
+T29	Reference 782 800	Zhao et al., 2017)
+T30	Dominant 846 866	Bowman et al. (2016)
+T31	Dominant 869 885	Fu et al. (2019)
+T32	Dominant 978 996	Zhao et al. (2017)
+T33	Dominant 1321 1337	Gu et al. (2018)
+T34	Dominant 1781 1806	Vijayakumar et al. (2016)
+T35	Dominant 1895 1912	Li et al. (2016a)
+T36	Dominant 2169 2191	Sennrich et al. (2016)
+T37	Dominant 2375 2393	Luan et al. (2017)
+T38	Pronoun 330 334	this
+T39	Pronoun 402 404	it
+T40	Pronoun 905 909	this
+T41	Pronoun 1079 1083	this
+T42	Pronoun 1114 1118	they
+T43	B_span 102 109	persona
+T44	E_span 122 127	2016b
+T45	B_span 131 138	textual
+T46	E_span 172 176	2017
+T47	B_span 180 186	dialog
+T48	E_span 205 209	2017
+T49	B_span 215 222	emotion
+T50	E_span 242 243	)
+T51	B_span 465 471	Bowman
+T52	E_span 548 557	sentences
+T53	B_span 709 716	suffers
+T54	E_span 833 838	tasks
+T55	B_span 846 852	Bowman
+T56	E_span 963 970	methods
+T57	B_span 978 982	Zhao
+T60	E_span 1407 1412	prior
+T61	B_span 1781 1792	Vijayakumar
+T62	E_span 1879 1887	decoding
+T63	B_span 1895 1897	Li
+T64	E_span 2055 2060	model
+T65	B_span 2169 2177	Sennrich
+T66	E_span 2334 2338	data
+T67	B_span 2375 2379	Luan
+T68	E_span 2676 2687	alternately
+T69	E_span 1173 1182	responses
+T58	B_span 1202 1205	VAE

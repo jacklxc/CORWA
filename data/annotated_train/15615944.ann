@@ -1,0 +1,92 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 80 85	[BOS]
+T3	Transition 180 185	[BOS]
+T4	Transition 332 337	[BOS]
+T5	Transition 428 433	[BOS]
+T6	Transition 526 531	[BOS]
+T7	Transition 695 700	[BOS]
+T8	Narrative_cite 832 837	[BOS]
+T9	Transition 1043 1048	[BOS]
+T10	Narrative_cite 1157 1162	[BOS]
+T11	Reflection 1369 1374	[BOS]
+T12	Other 1416 1421	[BOS]
+T13	Other 1594 1599	[BOS]
+T14	Other 1707 1712	[BOS]
+T15	Transition 1848 1853	[BOS]
+T16	Transition 1944 1949	[BOS]
+T17	Transition 2029 2034	[BOS]
+T18	Transition 2084 2089	[BOS]
+T19	Reflection 2156 2161	[BOS]
+T20	Transition 2381 2386	[BOS]
+T21	Transition 2504 2509	[BOS]
+T22	Transition 2600 2605	[BOS]
+T23	Narrative_cite 2683 2688	[BOS]
+T24	Reflection 2882 2887	[BOS]
+T25	Reflection 3013 3018	[BOS]
+T26	Narrative_cite 3073 3078	[BOS]
+T27	Reflection 3309 3314	[BOS]
+T28	Transition 3427 3432	[BOS]
+T29	Transition 3592 3597	[BOS]
+T30	Narrative_cite 3763 3768	[BOS]
+T31	Narrative_cite 3916 3921	[BOS]
+T32	Transition 4180 4185	[BOS]
+T33	Narrative_cite 4299 4304	[BOS]
+T34	Reflection 4483 4488	[BOS]
+T35	Reflection 4571 4576	[BOS]
+T36	Single_summ 4669 4674	[BOS]
+T37	Single_summ 4901 4906	[BOS]
+T38	Single_summ 4944 4949	[BOS]
+T39	Reference 144 166	Zhang and Clark (2009)
+T40	Reference 938 951	(Nivre, 2008)
+T41	Reference 1250 1268	(Zhu et al., 2013)
+T42	Reference 2854 2879	(Collins and Roark, 2004)
+T43	Reference 3208 3227	(Hall et al., 2014)
+T44	Reference 3836 3859	(Sagae and Lavie, 2006)
+T45	Reference 4026 4052	(Klein and Manning, 2003b)
+T46	Reference 4085 4111	(Klein and Manning, 2003c)
+T47	Reference 4369 4392	(Petrov and Klein, 2007
+T48	Reference 4394 4414	Socher et al., 2013)
+T49	Dominant 4704 4723	Mi and Huang (2015)
+T50	Pronoun 47 49	it
+T51	Pronoun 681 686	their
+T52	Pronoun 789 794	these
+T53	Pronoun 984 986	it
+T54	Pronoun 1178 1182	this
+T55	Pronoun 1283 1285	it
+T56	Pronoun 1386 1390	this
+T57	Pronoun 2035 2037	It
+T58	Pronoun 2218 2222	this
+T59	Pronoun 2510 2512	It
+T60	Pronoun 2619 2623	this
+T61	Pronoun 2707 2711	this
+T62	Pronoun 3036 3040	this
+T63	Pronoun 3296 3301	their
+T64	Pronoun 3320 3324	this
+T65	Pronoun 3336 3338	it
+T66	Pronoun 3389 3395	theirs
+T67	Pronoun 3459 3463	this
+T68	Pronoun 3506 3510	this
+T69	Pronoun 3533 3537	this
+T70	Pronoun 3611 3613	it
+T71	Pronoun 4577 4581	This
+T72	Pronoun 4693 4697	this
+T73	Pronoun 4907 4912	Their
+T74	Pronoun 4957 4961	they
+T75	Pronoun 4979 4981	it
+T76	Pronoun 5029 5034	their
+T77	B_span 86 89	For
+T78	E_span 171 178	details
+T79	B_span 906 911	shift
+T80	E_span 946 950	2008
+T81	B_span 1238 1249	derivations
+T83	E_span 1263 1267	2013
+T82	B_span 3813 3819	parser
+T84	E_span 3854 3858	2006
+T85	B_span 4004 4017	unlexicalized
+T86	E_span 4046 4051	2003b
+T87	B_span 4056 4064	factored
+T88	E_span 4105 4110	2003c
+T89	B_span 4348 4355	context
+T90	E_span 4409 4413	2013
+T91	B_span 4675 4687	Concurrently
+T92	E_span 5056 5060	well

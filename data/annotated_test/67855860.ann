@@ -1,0 +1,39 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 245 250	[BOS]
+T3	Narrative_cite 684 689	[BOS]
+T4	Narrative_cite 845 850	[BOS]
+T5	Narrative_cite 1025 1030	[BOS]
+T6	Transition 1203 1208	[BOS]
+T7	Narrative_cite 1435 1440	[BOS]
+T8	Single_summ 1651 1656	[BOS]
+T9	Narrative_cite 1821 1826	[BOS]
+T10	Reflection 1942 1947	[BOS]
+T11	Reference 338 356	(Ross et al., 2017
+T12	Reference 358 384	Sundararajan et al., 2017)
+T13	Reference 820 842	(Ghaeini et al., 2018)
+T14	Reference 989 1023	(Alvarez-Melis and Jaakkola, 2017)
+T15	Reference 1167 1199	(Pappas and Popescu-Belis, 2016)
+T16	Reference 1609 1626	(Lei et al., 2016
+T17	Reference 1628 1648	Peters et al., 2018)
+T18	Dominant 1685 1703	(Kim et al., 2017)
+T19	Reference 1920 1938	(Bao et al., 2018)
+T20	Pronoun 74 78	they
+T21	Pronoun 251 256	These
+T22	Pronoun 657 661	this
+T23	Pronoun 881 885	this
+T24	Pronoun 1360 1365	these
+T25	Pronoun 1998 2003	these
+T26	B_span 281 288	measure
+T27	E_span 379 383	2017
+T29	E_span 837 841	2018
+T30	B_span 905 915	explicitly
+T31	E_span 1018 1022	2017
+T32	B_span 1097 1100	low
+T33	E_span 1194 1198	2016
+T34	E_span 1643 1647	2018
+T35	B_span 1472 1478	select
+T36	B_span 1657 1667	Structured
+T37	E_span 1810 1819	semantics
+T38	B_span 1827 1832	Tying
+T39	E_span 1933 1937	2018
+T28	B_span 797 806	attention

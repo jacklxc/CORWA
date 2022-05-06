@@ -1,0 +1,26 @@
+[BOS] Feature extraction.
+[BOS] Kiperwasser and Goldberg (2016) and Cross and Huang (2016) first applied BiLSTMs to extract features for transition-based dependency parsers.
+[BOS] The authors demonstrated that an architecture using only a few positional features (four for the arc-hybrid system and three for arc-standard) is sufficient to achieve state-ofthe-art performance.
+[BOS] Shi et al. (2017) showed that this number can be further reduced to two features for arc-hybrid and arc-eager systems.
+[BOS] Decreasing the size of the feature set not only allows for construction of lighter and faster neural networks (Wang and Chang, 2016; Vilares and Gmez-Rodrguez, 2018) but also enables the use of exact search algorithms for several projective (Shi et al., 2017) and non-projective (Gmez-Rodrguez et al., 2018) transition systems.
+[BOS] A similar trend can be observed for graph-based dependency parsers.
+[BOS] State-of-the-art models (Kiperwasser and Goldberg, 2016; Dozat and Manning, 2016) typically use only two features of heads and dependents, possibly also incorporating their distance (Wang and Chang, 2016) .
+[BOS] Moreover, Wang and Chang (2016) show that arc-factored BiLSTM-based parsers can compete with conventional higher-order models in terms of accuracy.
+
+[BOS] None of the above mentioned efforts address the question how dependency parsers are able to compensate for the lack of structural features.
+[BOS] The very recent work by de Lhoneux et al. (2019) looked into this issue from a different perspective than ours -composition.
+[BOS] They showed that composing the structural context with recursive networks as in Dyer et al. (2015) is redundant for the K&G transition-based architecture.
+[BOS] The authors analyze components of the BiLSTMs to show which of them (forward v. backward LSTM) is responsible for capturing subtree information.
+
+[BOS] RNNs and syntax.
+[BOS] Recurrent neural networks, which BiLSTMs are a variant of, have been repeatedly analyzed to understand whether they can learn syntactic relations.
+[BOS] Such analyses differ in terms of: (1) methodology they employ to probe what type of knowledge the representations learned and (2) tasks on which the representations are trained on.
+[BOS] Shi et al. (2016) demonstrated that sequence-to-sequence machinetranslation systems capture source-language syntactic relations.
+[BOS] Linzen et al. (2016) showed that when trained on the task of number agreement prediction the representations capture a nontrivial amount of grammatical structure (although recursive neural networks are better at this task than sequential LSTMs (Kuncoro et al., 2018) ).
+[BOS] Blevins et al. (2018) found that RNN representations trained on a variety of NLP tasks (including dependency parsing) are able to induce syntactic features (e.g., constituency labels of parent or grandparent) even without explicit supervision.
+[BOS] Finally, Conneau et al. (2018) designed a set of tasks probing linguistic knowledge of sentence embedding methods.
+
+[BOS] Our work contributes to this line of research in two ways: (1) from the angle of methodology, we show how to employ derivatives to pinpoint what syntactic relations the representations learn; (2) from the perspective of tasks, we demonstrate how BiLSTM-based dependency parsers take advantage of structural information encoded in the representations.
+[BOS] In the case of constituency parsing Gaddy et al. (2018) offer such an analysis.
+[BOS] The authors show that their BiLSTM-based models implicitly learn the same information which was conventionally provided to non-neural parsers, such as grammars and lexicons.
+

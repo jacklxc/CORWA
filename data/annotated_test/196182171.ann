@@ -1,0 +1,29 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 98 103	[BOS]
+T3	Transition 268 273	[BOS]
+T4	Transition 392 397	[BOS]
+T5	Single_summ 500 505	[BOS]
+T6	Single_summ 655 660	[BOS]
+T7	Reflection 780 785	[BOS]
+T8	Transition 917 922	[BOS]
+T9	Multi_summ 1091 1096	[BOS]
+T10	Multi_summ 1273 1278	[BOS]
+T11	Transition 1408 1413	[BOS]
+T12	Reflection 1640 1645	[BOS]
+T13	Reference 192 210	(Jain et al., 2017
+T14	Reference 246 265	(Yao et al., 2018a)
+T15	Dominant 506 529	Tambwekar et al. (2018)
+T16	Dominant 661 679	Yao et al. (2018b)
+T17	Dominant 1142 1163	Zhou and Wang, 2018 )
+T18	Dominant 1197 1214	Luo et al., 2019)
+T19	B_span 146 154	generate
+T20	E_span 210 211	;
+T21	B_span 228 233	topic
+T22	E_span 264 265	)
+T23	B_span 506 509	Tam
+T24	E_span 653 654	.
+T25	B_span 661 664	Yao
+T26	E_span 778 779	.
+T27	B_span 1097 1099	To
+T29	Pronoun 1279 1283	They
+T30	E_span 1401 1405	love

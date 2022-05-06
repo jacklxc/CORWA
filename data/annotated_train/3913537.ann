@@ -1,0 +1,48 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 161 166	[BOS]
+T3	Reflection 331 336	[BOS]
+T4	Single_summ 506 511	[BOS]
+T5	Single_summ 674 679	[BOS]
+T6	Single_summ 771 776	[BOS]
+T7	Reflection 892 897	[BOS]
+T8	Narrative_cite 1051 1056	[BOS]
+T9	Narrative_cite 1178 1183	[BOS]
+T10	Reflection 1368 1373	[BOS]
+T11	Transition 1506 1511	[BOS]
+T12	Other 1661 1666	[BOS]
+T13	Reflection 1830 1835	[BOS]
+T14	Narrative_cite 2024 2029	[BOS]
+T15	Narrative_cite 2128 2133	[BOS]
+T16	Reference 116 138	Smith and Eisner, 2006
+T17	Reference 140 158	He and Deng, 2012)
+T18	Dominant 512 535	Smith and Eisner (2006)
+T19	Dominant 680 696	He et al. (2012)
+T20	Dominant 777 794	Gao et al. (2014)
+T21	Reference 1121 1143	(Ranzato et al., 2015)
+T22	Reference 1232 1247	Williams (1992)
+T23	Reference 1403 1424	Ranzato et al. (2015)
+T24	Reference 1860 1881	Ranzato et al. (2015)
+T25	Reference 2105 2125	(Ayana et al., 2016)
+T26	Reference 2210 2221	(Lin, 2004)
+T27	Pronoun 921 925	they
+T28	Pronoun 2134 2138	They
+T29	B_span 71 83	conventional
+T30	E_span 153 157	2012
+T31	B_span 512 517	Smith
+T32	E_span 662 672	hypothesis
+T33	B_span 680 682	He
+T34	E_span 756 769	probabilities
+T35	B_span 777 780	Gao
+T36	E_span 879 890	translation
+T37	B_span 1057 1060	The
+T38	E_span 1138 1142	2015
+T39	B_span 1200 1209	REINFORCE
+T40	E_span 1242 1246	1992
+T41	B_span 1403 1410	Ranzato
+T42	E_span 1448 1456	learning
+T43	B_span 1860 1867	Ranzato
+T44	E_span 2011 2021	generation
+T45	B_span 2045 2048	our
+T46	E_span 2120 2124	2016
+T47	B_span 2134 2138	They
+T48	E_span 2216 2220	2004

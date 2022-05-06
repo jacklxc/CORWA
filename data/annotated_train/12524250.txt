@@ -1,0 +1,25 @@
+[BOS] In recent years, POS tagging has undergone great development.
+[BOS] The mainstream method is to regard POS tagging as sequence labeling problems (Rabiner, 1990; Xue, 2003; Peng et al., 2004; Ng and Low, 2004) .
+
+[BOS] However, the analysis of Chinese-English mixed texts is rarely involved in previous literature.
+[BOS] In the aspect of the general multilingual POS tagging, most works focus on modeling cross-lingual correlations and tagging multilingual POS on respective monolingual texts, not on mixed texts (Cucerzan and Yarowsky, 2002; Yarowsky et al., 2001; Naseem et al., 2009 ).
+
+[BOS] Since we choose to use dynamic word-level features to improve the performance of POS tagging, we also review some works on word-level features.
+
+[BOS] Semi-Markov Conditional Random Fields (semi-CRF) (Sarawagi and Cohen, 2004) is a model in which segmentation task is implicitly included into the decoding algorithm.
+[BOS] In this model, feature representation would be more flexible than traditional CRFs, since features can be extracted from the previous/the next segmentation within a window of variable size.
+[BOS] The problem of this approach lies in that the decoding algorithm depends on the predefined window size to exploit the boundaries of segmentations but not the real length of words.
+[BOS] Bunescu (2008) presents an improved pipeline model in which the output of the previous subtasks are considered as hidden variables, and the hidden variables together with their probabilities denoting the confidence are used as probabilistic features in the next subtasks.
+[BOS] One shortcoming of this method is inefficiency caused by the calculation of marginal probabilities of features.
+[BOS] The other disadvantages of the pipeline method are error propagation and the need of separate training of different subtasks in the pipeline.
+[BOS] Another disadvantage of pipeline method is error propagation.
+[BOS] Jiang et al. (2008) proposes a cascaded linear model for joint Chinese word segmentation and POS tagging.
+[BOS] With a character-based perceptron as the core, combined with real-valued features such as language models, the cascaded model can efficiently utilize knowledge sources that are inconvenient to incorporate into the perceptron directly.
+[BOS] However, they use POS tags or word information in a BruteForce way, which may suffer from the problem of time complexity.
+
+[BOS] Sun (2011) presents a stacked sub-word model for joint Chinese word segmentation and POS tagging.
+[BOS] By merging the outputs of the three predictors (including one word-based segmenter) into sub-word sequences, rich contextual features can be approximately derived.
+[BOS] The experiments are conducted to show the effectiveness of using word-based information.
+
+[BOS] The difference between the above methods and ours is that our word-level features are dynamically generated in the decoding stage without exhaustive or preprocessed word segmentation.
+

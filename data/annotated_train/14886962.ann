@@ -1,0 +1,32 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 235 240	[BOS]
+T3	Reflection 321 326	[BOS]
+T4	Single_summ 419 424	[BOS]
+T5	Reflection 676 681	[BOS]
+T6	Narrative_cite 741 746	[BOS]
+T7	Reflection 909 914	[BOS]
+T8	Narrative_cite 1032 1037	[BOS]
+T9	Transition 1196 1201	[BOS]
+T10	Transition 1295 1300	[BOS]
+T11	Reference 56 76	(Grosz et al., 1995)
+T12	Dominant 241 253	Grosz et al.
+T13	Dominant 425 444	Suri & McCoy (1994)
+T14	Reference 860 883	(Haji~ov~i et al., 1992
+T15	Reference 885 906	Lappin & Leass, 1994)
+T16	Reference 1079 1094	(Chomsky, 1981)
+T17	Reference 1105 1126	(Pollard & Sag, 1994)
+T18	Pronoun 558 563	their
+T19	Pronoun 1206 1211	these
+T20	Pronoun 1388 1392	they
+T21	B_span 40 49	centering
+T22	E_span 71 75	1995
+T23	B_span 241 246	Grosz
+T24	E_span 315 319	time
+T25	B_span 425 429	Suri
+T26	E_span 667 674	results
+T27	B_span 843 851	salience
+T28	E_span 901 905	1994
+T29	B_span 1054 1061	grammar
+T30	E_span 1089 1093	1981
+T31	B_span 1098 1104	I-IPSG
+T32	E_span 1121 1125	1994

@@ -1,0 +1,12 @@
+[BOS] For phrase-structure treebank conversion, Wang et al. (1994) suggest to use source-side bracketing structures to select conversion results from k-best lists.
+[BOS] The approach is quite generic in the sense that it can be used for conversion between treebanks of different grammar formalisms, such as from a dependency treebank to a constituency treebank (Niu et al., 2009 ).
+[BOS] However, it suffers from limited variations in k-best lists (Huang, 2008) .
+[BOS] Zhu and Zhu (2010) propose to incorporate bracketing structures as parsing constraints in the decoding phase of a CKY-style parser.
+[BOS] Their approach shows significant improvements over Wang et al. (1994) .
+[BOS] However, it suffers from binary distinctions (consistent or inconsistent), as discussed in Section 1.
+
+[BOS] The approach in this paper is reminiscent of co-training (Blum and Mitchell, 1998; Sagae and Lavie, 2006b ) and up-training (Petrov et al., 2010) .
+[BOS] Moreover, it coincides with the stacking method used for dependency parser combination (Martinset al., 2008; Nivre and McDonald, 2008) , the Pred method for domain adaptation (Daum III and Marcu, 2006) , and the method for annotation adaptation of word segmentation and POS tagging .
+[BOS] As one of the most related works, present a similar approach to conversion between dependency treebanks.
+[BOS] In contrast to , the task studied in this paper, phrase-structure treebank conversion, is relatively complicated and more efforts should be put into feature engineering.
+

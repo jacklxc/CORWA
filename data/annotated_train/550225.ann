@@ -1,0 +1,45 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 91 96	[BOS]
+T3	Transition 204 209	[BOS]
+T4	Transition 319 324	[BOS]
+T5	Single_summ 450 455	[BOS]
+T6	Single_summ 597 602	[BOS]
+T7	Single_summ 726 731	[BOS]
+T8	Single_summ 842 847	[BOS]
+T9	Reflection 971 976	[BOS]
+T10	Narrative_cite 1074 1079	[BOS]
+T11	Single_summ 1174 1179	[BOS]
+T12	Narrative_cite 1265 1270	[BOS]
+T13	Single_summ 1398 1403	[BOS]
+T14	Single_summ 1485 1490	[BOS]
+T15	Single_summ 1585 1590	[BOS]
+T16	Narrative_cite 1761 1766	[BOS]
+T17	Transition 1915 1920	[BOS]
+T18	Reflection 2013 2018	[BOS]
+T19	Reflection 2105 2110	[BOS]
+T20	Reflection 2182 2187	[BOS]
+T21	Dominant 456 475	Chen et al. (2016b)
+T22	Dominant 603 629	Kalchbrenner et al. (2016)
+T23	Dominant 732 753	Gehring et al. (2017)
+T24	Dominant 848 876	Kuchaiev and Ginsburg (2017)
+T25	Reference 1153 1171	(See et al., 2016)
+T26	Reference 1355 1374	(Crego et al., 2016
+T27	Reference 1376 1395	Kim and Rush, 2016)
+T28	Dominant 1591 1611	Hubara et al. (2016)
+T29	Reference 1847 1869	(Jiang and Zhai, 2007)
+T30	B_span 456 460	Chen
+T31	E_span 591 595	data
+T32	B_span 603 615	Kalchbrenner
+T33	E_span 720 724	time
+T34	B_span 732 739	Gehring
+T35	E_span 825 840	parallelization
+T36	B_span 848 856	Kuchaiev
+T37	E_span 963 969	matrix
+T38	B_span 1080 1085	Other
+T39	E_span 1166 1170	2016
+T40	B_span 1314 1320	hidden
+T41	E_span 1390 1394	2016
+T42	B_span 1591 1597	Hubara
+T43	E_span 1748 1758	efficiency
+T44	B_span 1828 1836	instance
+T45	E_span 1864 1868	2007

@@ -1,0 +1,18 @@
+[BOS] Cooperative and efficient dialogue between a user and information system has been an important goal in dialogue systems research for many years.
+[BOS] Early work on cooperative response generation addressed how to generate responses explaining the reason for natural language query failures (Kaplan, 1979; Di Eugenio, 1987) .
+[BOS] However, those systems processed and responded to each query in isolation.
+[BOS] Subsequent work addressed understanding the user's query in the context of the preceding discourse (Carbonell, 1983) and inferred plans (e.g., Allen and Perrault, 1980; Carberry, 1990) .
+[BOS] Raskutti and Zukerman (1997) describe a plan-based approach that integrates understanding the user's intentions with generating queries for clarification and generating responses to under-constrained and over-constrained requests.
+[BOS] Their system does not use a constraint-based problem solver and does not provide access to data in a standard commercial database system.
+
+[BOS] Research on mixed-initiative dialogue has investigated techniques for deciding when a dialogue system should take initiative and techniques for content planning (e.g., see papers in Haller, Kobsa, and McRoy, 1999) .
+[BOS] Following Chu-Carroll and Brown (1999) , we distinguish dialogue initiative from task initiative (i.e., taking the lead in problem-solving).
+[BOS] In this view, a dialogue participant may take both types of initiative, dialogue initiative only, or neither.
+[BOS] Preliminary studies suggest that human-computer dialogue is more efficient when a system dynamically allocates control of task initiative (Smith and Gordon, 1997 ).
+[BOS] In COMIX, task initiative is exercised in asking for additional constraints when the user's request is under-constrained, or in suggesting constraints to relax when the request is over-constrained.
+
+[BOS] However, none of the above research has made use of a CBPS as a knowledge source for generating the system's contributions.
+[BOS] Previous dialogue systems research involving constraint satisfaction models includes Jordan and Di Eugenio's (1997) analysis of cooperative problem-solving dialogue as a constraint satisfaction problem.
+[BOS] However, they did not use the model to generate system responses.
+[BOS] Donaldson and Cohen (1997) propose a constraint-based model to manage a system's turn taking goals, but not as a knowledge source for helping to meet a user's information needs.
+

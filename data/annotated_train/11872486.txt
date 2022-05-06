@@ -1,0 +1,5 @@
+[BOS] It is common for machine learning approaches to begin learning of any new task from scratch, for example by randomly initializing the parameters of a neural network.
+[BOS] This disregards any knowledge gained by similar algorithms when solving previous tasks.
+[BOS] Transfer learning approaches, on the other hand, store the knowledge gained in one context and apply it to different, related problems.
+[BOS] This type of approach is particularly appealing when one lacks sufficient quantity of in-domain labeled training data, such as when there are only a few hundred known examples of a target.
+

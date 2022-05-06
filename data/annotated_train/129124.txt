@@ -1,0 +1,16 @@
+[BOS] Self-training has been applied to several natural language processing tasks.
+[BOS] For event extraction, there are several studies on bootstrapping from a seed pattern set.
+[BOS] Riloff (1996) initiated the idea of using document relevance for extracting new patterns, and Yangarber et al. (2000 Yangarber et al. ( , 2003 incorporated this into a bootstrapping approach, extended by Surdeanu et al. (2006) to co-training.
+[BOS] Stevenson and Greenwood (2005) suggested an alternative method for ranking the candidate patterns by lexical similarities.
+[BOS] Liao and Grishman (2010b) combined these two approaches to build a filtered ranking algorithm.
+[BOS] However, these approaches were focused on finding instances of a scenario/event type rather than on argument role labeling.
+[BOS] Starting from a set of documents classified for relevance, Patwardhan and Riloff (2007) created a self-trained relevant sentence classifier and automatically learned domain-relevant extraction patterns.
+[BOS] Liu (2009) proposed the BEAR system, which tagged both the events and their roles.
+[BOS] However, the new patterns were boostrapped based on the frequencies of sub-pattern mutations or on rules from linguistic contexts, and not on statistical models.
+[BOS] The idea of sense consistency was first introduced and extended to operate across related documents by (Yarowsky, 1995) .
+[BOS] Yangarber et al. (Yangarber and Jokipii, 2005; Yangarber, 2006; Yangarber et al., 2007) applied cross-document inference to correct local extraction results for disease name, location and start/end time.
+[BOS] Mann (2007) encoded specific inference rules to improve extraction of information about CEOs (name, start year, end year).
+[BOS] Later, Ji and Grishman (2008) employed a rule-based approach to propagate consistent triggers and arguments across topic-related documents.
+[BOS] Gupta and Ji (2009) used a similar approach to recover implicit time information for events.
+[BOS] Liao and Grishman (2010a) use a statistical model to infer the cross-event information within a document to improve event extraction.
+

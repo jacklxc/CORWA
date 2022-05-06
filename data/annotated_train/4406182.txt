@@ -1,0 +1,10 @@
+[BOS] Several recent works investigate attention mechanisms for encoder-decoder models to sharpen the context that the decoder should focus on within the input encoding (Luong et al., 2015; Vinyals et al., 2015b; Bahdanau et al., 2015) .
+[BOS] For example, Luong et al. (2015) proposes global and local attention networks for machine translation, while others investigate hierarchical attention networks for document classification (Yang et al., 2016) , sentiment classification , and dialog response selection (Zhou et al., 2016) .
+
+[BOS] Attention mechanisms have shown to be crucial for summarization as well (Rush et al., 2015; Zeng et al., 2016; Nallapati et al., 2017) , and pointer networks (Vinyals et al., 2015a) , in particular, help address redundancy and saliency in generated summaries (Cheng and Lapata, 2016; See et al., 2017; Paulus et al., 2018; Fan et al., 2017) .
+[BOS] While we share the same motivation as these works, our work uniquely presents an approach based on CommNet, the deep communicating agent framework (Sukhbaatar et al., 2016) .
+[BOS] Compared to prior multi-agent works on logic puzzles (Foerster et al., 2017) , language learning (Lazaridou et al., 2016; Mordatch and Abbeel, 2017) and starcraft games (Vinyals et al., 2017) , we present the first study in using this framework for long text generation.
+[BOS] Finally, our model is related to prior works that address repetitions in generating long text.
+[BOS] See et al. (2017) introduce a post-trained coverage network to penalize repeated attentions over the same regions in the input, while Paulus et al. (2018) use intra-decoder attention to punish generating the same words.
+[BOS] In contrast, we propose a new semantic coherence loss and intermediate sentencebased rewards for reinforcement learning to discourage semantically similar generations ( 3).
+

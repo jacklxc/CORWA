@@ -1,0 +1,51 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 186 191	[BOS]
+T3	Transition 295 300	[BOS]
+T4	Transition 598 603	[BOS]
+T5	Transition 703 708	[BOS]
+T6	Transition 765 770	[BOS]
+T7	Narrative_cite 871 876	[BOS]
+T8	Transition 1196 1201	[BOS]
+T9	Single_summ 1312 1317	[BOS]
+T10	Single_summ 1516 1521	[BOS]
+T11	Single_summ 1826 1831	[BOS]
+T12	Narrative_cite 2146 2151	[BOS]
+T13	Narrative_cite 2581 2586	[BOS]
+T14	Single_summ 3056 3061	[BOS]
+T15	Single_summ 3271 3276	[BOS]
+T16	Single_summ 3373 3378	[BOS]
+T17	Reference 1130 1161	(Ganapathibhotla and Liu, 2008)
+T18	Dominant 1332 1353	Fiszman et al. (2007)
+T19	Dominant 1529 1550	Park and Blake (2012)
+T20	Dominant 1847 1866	Gupta et al. (2017)
+T21	Reference 2121 2142	Jindal and Liu (2006)
+T22	Reference 2346 2368	(Dusmanu et al., 2017)
+T23	Reference 2454 2468	(najder, 2017)
+T24	Reference 2910 2928	(Aker et al., 2017
+T25	Reference 2930 2954	Stab and Gurevych, 2014)
+T26	Dominant 3154 3180	Eckle-Kohler et al. (2015)
+T27	Dominant 3282 3307	Daxenberger et al. (2017)
+T28	B_span 1115 1122	opinion
+T29	E_span 1160 1161	)
+T30	B_span 1332 1335	Fis
+T31	E_span 1514 1515	.
+T32	B_span 1529 1533	Park
+T34	B_span 1847 1852	Gupta
+T35	E_span 2141 2142	)
+T36	B_span 2312 2316	hash
+T37	E_span 2367 2368	)
+T38	B_span 2426 2433	general
+T39	E_span 2467 2468	)
+T41	E_span 2953 2954	)
+T42	B_span 3062 3065	The
+T43	E_span 3269 3270	.
+T44	B_span 3282 3284	Da
+T45	E_span 3588 3589	.
+T46	Pronoun 171 176	their
+T47	Pronoun 301 305	They
+T48	Pronoun 3379 3383	They
+T49	Pronoun 3404 3409	their
+T50	B_span 2074 2082	gradable
+T51	E_span 2137 2141	2006
+T52	B_span 2870 2880	persuasive
+T40	E_span 1818 1824	parses

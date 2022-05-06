@@ -1,0 +1,34 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 207 212	[BOS]
+T3	Reflection 457 462	[BOS]
+T4	Reflection 599 604	[BOS]
+T5	Single_summ 757 762	[BOS]
+T6	Single_summ 948 953	[BOS]
+T7	Reflection 1130 1135	[BOS]
+T8	Other 1286 1291	[BOS]
+T9	Other 1420 1425	[BOS]
+T10	Other 1433 1438	[BOS]
+T11	Other 1450 1455	[BOS]
+T12	Other 1518 1523	[BOS]
+T13	Other 1531 1536	[BOS]
+T14	Reference 122 139	Yang et al., 2018
+T15	Reference 141 156	Wu et al., 2018
+T16	Reference 158 178	Yang et al., 2019a,b
+T17	Reference 180 204	Sukhbaatar et al., 2019)
+T18	Reference 322 340	(Shaw et al., 2018
+T19	Reference 342 357	Ma et al., 2019
+T20	Reference 359 377	Bello et al., 2019
+T21	Dominant 773 793	Hao et al. (2019c,b)
+T22	Dominant 954 972	Hao et al. (2019a)
+T23	B_span 55 69	representation
+T26	E_span 203 204	)
+T27	B_span 283 286	the
+T28	E_span 376 377	9
+T29	B_span 773 775	Ha
+T30	E_span 946 947	.
+T31	B_span 954 956	Ha
+T32	E_span 1128 1129	.
+T33	Pronoun 219 224	these
+T34	Pronoun 466 470	this
+T35	Reference 85 101	Dou et al., 2018
+T36	Reference 103 121	Dou et al., , 2019

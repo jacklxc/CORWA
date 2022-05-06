@@ -1,0 +1,9 @@
+[BOS] The literature includes some prior studies that aim for transforming a style of dialog utterances into a specified one (Walker et al., 2012; Miyazaki et al., 2015) .
+[BOS] Walker et al. (2012) extract rules representing characters from their annotated movie subtitle corpora.
+[BOS] Miyazaki et al. (2015) propose a method of converting utterances using rewriting rules automatically derived from a Twitter corpus.
+[BOS] These approaches have a fundamental problem to need some manual annotations, which is a main issue to be solved in this work.
+[BOS] We propose an end-to-end and data-driven framework which addresses both response generation and stylistic transformation.
+
+[BOS] Transfer learning is a machine learning technique effective for many NLP tasks (Pan and Yang, 2010) , which effectively trains a machine learning model by transferring knowledge about a general domain into a target domain.
+[BOS] By applying transfer learning to a stylistically consistent DRG system, once we build a DRG system without stylistic consistency, it is easy to change its style by adding a small stylistically consistent corpus.
+

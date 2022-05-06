@@ -1,0 +1,16 @@
+[BOS] Automatic summary generation has been a topic of interest for a long time (Reiter and Dale, 1997; Tanaka-Ishii et al., 1998) .
+[BOS] It has interesting applications in many different domains, such as sport game summary generation (Barzilay and Lapata, 2005; Liang et al., 2009) , weather-forecast generation (Reiter et al., 2005) and recipe generation (Yang et al., 2016) .
+
+[BOS] Traditional data-to-text generation approaches perform the summary generation in two separate steps: content selection and surface realization.
+[BOS] For content selection, a number of approaches were proposed to automatically select the elements of content and extract ordering constraints from an aligned corpus of input data and output summaries McKeown, 2001, 2003) .
+[BOS] In (Barzilay and Lapata, 2005) , the content selection is treated as a collective classification problem which allows the system to capture contextual dependencies between input data items.
+[BOS] For surface realization, Stent et al. (2004) proposed to transform the input data into an intermediary structure and then to generate natural language text from it; Reiter et al. (2005) presented a method to generate text using consistent data-to-word rules.
+[BOS] Angeli et al. (2010) broke up the two steps into a sequence of local decisions where they used two classifiers to select content form database and another classifier to choose a suitable template to render the content.
+
+[BOS] More recently, work on this topic has focused on end-to-end generation models.
+[BOS] Konstas and Lapata (2012) described an end-to-end generation model which jointly models content selection and surface realization.
+[BOS] Mei et al. (2015) proposed a neural encoder-aligner-decoder model which first encodes the entire input record dataset then the aligner module performs the content selection for the decoder to generate output summary.
+[BOS] Some other work extends the encoder-decoder model to be able to copy words directly from the input (Yang et al., 2016; Gu et al., 2016; Gulcehre et al., 2016) .
+[BOS] Wiseman et al. (2017) investigates different data-to-text generation approaches and introduces a new corpus (ROTOWIRE, see Table 1) for the data-to-text generation task along with a series of automatic measures for the contentoriented evaluation.
+[BOS] Based on (Wiseman et al., 2017) , Puduppully et al. (2019) incorporates content selection and planing mechanisms into the encoder-decoder system and improves the stateof-the-art on the ROTOWIRE dataset.
+

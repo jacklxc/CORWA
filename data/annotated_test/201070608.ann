@@ -1,0 +1,93 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 189 194	[BOS]
+T3	Narrative_cite 447 452	[BOS]
+T4	Transition 655 660	[BOS]
+T5	Transition 830 835	[BOS]
+T6	Narrative_cite 995 1000	[BOS]
+T7	Single_summ 1204 1209	[BOS]
+T8	Transition 1403 1408	[BOS]
+T9	Transition 1490 1495	[BOS]
+T10	Multi_summ 1600 1605	[BOS]
+T11	Single_summ 1916 1921	[BOS]
+T12	Multi_summ 2042 2047	[BOS]
+T13	Single_summ 2196 2201	[BOS]
+T14	Narrative_cite 2329 2334	[BOS]
+T15	Narrative_cite 2580 2585	[BOS]
+T16	Narrative_cite 2715 2720	[BOS]
+T17	Reflection 2874 2879	[BOS]
+T18	Single_summ 3332 3337	[BOS]
+T19	Transition 3410 3415	[BOS]
+T20	Reflection 3658 3663	[BOS]
+T21	Reflection 3926 3931	[BOS]
+T22	Transition 4096 4101	[BOS]
+T23	Reference 26 48	(Reiter and Dale, 1997
+T24	Reference 50 69	Stent et al., 2004)
+T25	Reference 336 349	(Kukich, 1983
+T26	Reference 351 374	Dalianis and Hovy, 1993
+T27	Reference 376 387	Hovy, 1993)
+T28	Reference 418 444	(Duboue and McKeown, 2003)
+T29	Reference 550 569	(McRoy et al., 2003
+T30	Reference 571 596	van Deemter et al., 2005)
+T31	Reference 614 628	(Bateman, 1997
+T32	Reference 630 652	Espinosa et al., 2008)
+T33	Reference 1060 1078	(Mei et al., 2016)
+T35	Dominant 1238 1259	Wiseman et al. (2017)
+T36	Dominant 1692 1710	Shao et al. (2017)
+T37	Reference 1888 1913	(Goodfellow et al., 2014)
+T38	Dominant 1961 1977	Li et al. (2015)
+T39	Dominant 2048 2073	Konstas and Lapata (2013)
+T40	Dominant 2137 2161	Puduppully et al. (2019)
+T41	Dominant 2217 2240	Moryossef et al. (2019)
+T42	Reference 2443 2462	(Xing et al., 2017)
+T43	Reference 2509 2526	(Li et al., 2016)
+T44	Reference 2560 2577	(Xu et al., 2018)
+T45	Reference 2622 2642	(Serban et al., 2017
+T46	Reference 2644 2662	Zhao et al., 2017)
+T47	Reference 2770 2789	(Park et al., 2018)
+T48	Dominant 3338 3356	Shen et al. (2019)
+T49	Pronoun 295 299	they
+T50	Pronoun 664 669	these
+T51	Pronoun 930 935	their
+T52	Pronoun 1001 1006	These
+T53	Pronoun 1365 1369	they
+T54	Pronoun 1418 1423	these
+T55	B_span 27 33	Reiter
+T56	E_span 176 187	realization
+T57	B_span 323 327	hand
+T58	E_span 382 386	1993
+T59	B_span 391 404	automatically
+T60	E_span 439 443	2003
+T61	B_span 483 490	natural
+T62	E_span 591 595	2005
+T63	B_span 600 607	grammar
+T64	E_span 647 651	2008
+T65	B_span 1031 1041	generating
+T66	E_span 1073 1077	2016
+T67	B_span 1082 1086	very
+T34	Reference 1106 1125	Lebret et al., 2016
+T68	Reference 1126 1143	Nema et al., 2018
+T69	E_span 1192 1202	mechanisms
+T70	B_span 1238 1245	Wiseman
+T71	E_span 1396 1401	texts
+T72	B_span 1606 1608	To
+T73	E_span 1908 1912	2014
+T74	B_span 1860 1870	Generative
+T75	E_span 1908 1912	2014
+T76	B_span 1925 1930	model
+T77	E_span 2033 2040	decoder
+T78	B_span 2048 2055	Konstas
+T79	E_span 2190 2194	data
+T80	B_span 2217 2226	Moryossef
+T81	E_span 2320 2326	inputs
+T82	B_span 2422 2431	enriching
+T83	E_span 2457 2461	2017
+T84	B_span 2465 2469	post
+T85	E_span 2521 2525	2016
+T86	B_span 2533 2542	designing
+T87	E_span 2572 2576	2018
+T88	B_span 2591 2595	text
+T89	E_span 2704 2713	variables
+T90	B_span 2721 2732	Variational
+T91	E_span 2784 2788	2018
+T92	B_span 3338 3342	Shen
+T93	E_span 3399 3408	variables

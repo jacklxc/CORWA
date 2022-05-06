@@ -1,0 +1,16 @@
+[BOS] Chinese grammatical error diagnosis task has been developed for a long time.
+[BOS] From the initial statistical methods to the current machine learning, more and more attention has been paid to.
+[BOS] (Zhang et al., 2000) searched the optimal string from all possible derivation of the input sentence using operations of character substitution, insertion, and deletion with a traditional word 3-gram language model.
+[BOS] (Chen et al., 2013) still used n-gram as the main method, and added Web resources to improve detection results.
+[BOS] (Lin and Chu, 2015) used n-gram to establish a scoring system to better give correction options.
+[BOS] (Yeh et al., 2017 ) based on n-gram used the KMP algorithm to speed up the search for correct candidates.
+
+[BOS] Due to the continuous rise of machine learning in recent years, the field of natural language processing is increasingly turning to machine learning.
+[BOS] In the past few years, the diagnosis of Chinese grammatical errors has also been developing in machine learning.
+[BOS] Grammatical error detection is usually considered as the sequence labeling task (Zheng et al., 2016) .
+[BOS] (Huang and WANG, 2016) used Bi-LSTM to annotate the errors in the sentence.
+[BOS] (Shiue et al., 2017) combined machine learning with traditional n-gram methods, using Bi-LSTM to detect the location of errors and adding additional linguistic information, POS, ngram.
+[BOS] Table 10 : Result on false positive rate in CGED2018 the probability of each characters, and used two strategies to decide whether a character is correct or not.
+[BOS] (Liao et al., 2017 ) used the LSTM+CRF model to detect dependencies between outputs to better detect error messages.
+[BOS] (yang et al., 2017) added more linguistic information on LSTM+CRF model, such as POS, n-gram, PMI score and dependency features.
+

@@ -1,0 +1,4 @@
+[BOS] Embeddings Previous works have extensively explored different representations such as word (Mikolov et al., 2013; Pennington et al., 2014; Grave et al., 2018; Xu et al., 2018) , subword (Sennrich et al., 2016; Heinzerling and Strube, 2018) , and character (dos Santos and Zadrozny, 2014; Wieting et al., 2016) .
+[BOS] Lample et al. (2016) has successfully concatenated character and word embeddings to their model, showing the potential of combining multiple representations.
+[BOS] Liu et al. (2019) proposed to leverage word and subword embeddings into the application of unsupervised machine translation.
+

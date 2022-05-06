@@ -1,0 +1,54 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 56 61	[BOS]
+T3	Multi_summ 242 247	[BOS]
+T4	Multi_summ 392 397	[BOS]
+T5	Transition 559 564	[BOS]
+T6	Multi_summ 652 657	[BOS]
+T7	Narrative_cite 808 813	[BOS]
+T8	Reflection 1059 1064	[BOS]
+T9	Transition 1193 1198	[BOS]
+T10	Transition 1231 1236	[BOS]
+T11	Single_summ 1301 1306	[BOS]
+T12	Single_summ 1461 1466	[BOS]
+T13	Single_summ 1564 1569	[BOS]
+T14	Single_summ 1742 1747	[BOS]
+T15	Single_summ 1894 1899	[BOS]
+T16	Reflection 2128 2133	[BOS]
+T17	Other 2296 2301	[BOS]
+T18	Other 2368 2373	[BOS]
+T19	Reference 171 188	(Zhu et al., 2003
+T20	Reference 190 208	Nigam et al., 2006
+T21	Reference 210 219	Zhu, 2008
+T22	Dominant 269 285	Xu et al. (2017)
+T23	Reference 318 339	(Kingma et al., 2014)
+T24	Dominant 398 416	Zhao et al. (2018)
+T25	Dominant 419 438	Shen et al. (2018a)
+T26	Dominant 658 675	Dai and Le (2015)
+T27	Dominant 677 703	Ramachandran et al. (2017)
+T28	Reference 904 924	(Peters et al., 2018
+T29	Reference 926 946	Radford et al., 2018
+T30	Reference 948 968	Devlin et al., 2018)
+T31	Dominant 1307 1325	Shen et al. (2017)
+T32	Dominant 1467 1487	Serban et al. (2017)
+T33	Dominant 1570 1588	Kang et al. (2018)
+T34	Dominant 1748 1761	Deudon (2018)
+T35	B_span 68 77	unlabeled
+T36	E_span 215 219	2008
+T37	B_span 269 271	Xu
+T38	E_span 383 390	problem
+T39	B_span 298 302	semi
+T40	E_span 334 338	2014
+T41	B_span 398 402	Zhao
+T42	E_span 555 556	3
+T43	B_span 658 661	Dai
+T44	E_span 802 806	task
+T45	B_span 867 870	pre
+T46	E_span 963 967	2018
+T47	B_span 1307 1311	Shen
+T48	E_span 1449 1459	generation
+T49	B_span 1467 1473	Serban
+T50	E_span 1552 1562	generation
+T51	B_span 1570 1574	Kang
+T52	E_span 1736 1740	work
+T53	B_span 1748 1754	Deudon
+T55	E_span 2117 2126	objective

@@ -1,0 +1,22 @@
+[BOS] This paper is mainly related to the following two lines of work.
+
+[BOS] Supervised cross-lingual embedding.
+[BOS] Inspired by the isometric observation between monolingual word embeddings of two different languages, Mikolov et al. (2013b) propose to learn cross-lingual word mapping by minimizing mean squared error.
+[BOS] Latter, Dinu and Baroni (2015) investigate the hubness problem and Faruqui and Dyer (2014) incorporates the semantics of a word in multiple languages into its embedding.
+[BOS] Furthermore, Xing et al. (2015) propose to impose the orthogonal constraint to the linear mapping and Artetxe et al. (2016) (2017) present a self-learning framework to perform iterative refinement, which is also adopted in some unsupervised settings and plays a crucial role in improving performance.
+
+[BOS] Unsupervised cross-lingual embedding.
+[BOS] The endeavors to explore unsupervised cross-lingual embedding are mainly divided into two categories.
+[BOS] One line focuses on designing heuristics or utilizing the structural similarity of monolingual embeddings.
+[BOS] For instance, Hoshen and Wolf (2018) present a non-adversarial method based on the principal component analysis.
+[BOS] Both Aldarmaki et al. (2018) and Artetxe et al. (2018a) take advantage of geometric properties across languages to perform word retrieval to learn the initial word mapping.
+[BOS] Cao and Zhao (2018) formulate this problem as point set registration to adopt a point set registration method.
+[BOS] However, these methods usually require plenty of random restarts or additional skills to achieve satisfactory performance.
+[BOS] Another line strives to learn unsupervised word mapping by direct distribution-matching.
+[BOS] For example, Lample et al. (2018) and Zhang et al. (2017a) completely eliminate the need for any supervision signal by aligning the distribution of transferred embedding and target embedding with GAN.
+[BOS] Furthermore, Zhang et al. (2017b) and adopt the Earth Mover's distance and Sinkhorn distance as the optimized distance metrics, respectively.
+[BOS] There are also some attempts on distant language pairs.
+[BOS] For instance, Kementchedjhieva et al. (2018) generalize Procrustes analysis by projecting the two languages into a latent space and Nakashole (2018) propose to learn neighborhood sensitive mapping by training non-linear functions.
+[BOS] As for the hubness problem, propose a latent-variable model learned with Viterbi EM algorithm.
+[BOS] Recently, Alaux et al. (2018) work on the problem of aligning more than two languages simultaneously by a formulation ensuring composable mappings.
+

@@ -1,0 +1,68 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 291 296	[BOS]
+T3	Transition 466 471	[BOS]
+T4	Narrative_cite 568 573	[BOS]
+T5	Reflection 1014 1019	[BOS]
+T6	Transition 1145 1150	[BOS]
+T7	Narrative_cite 1312 1317	[BOS]
+T8	Transition 1522 1527	[BOS]
+T9	Narrative_cite 1786 1791	[BOS]
+T10	Multi_summ 2048 2053	[BOS]
+T11	Transition 2353 2358	[BOS]
+T12	Narrative_cite 2479 2484	[BOS]
+T13	Transition 2632 2637	[BOS]
+T14	Reflection 2775 2780	[BOS]
+T15	Reflection 2918 2923	[BOS]
+T16	Reflection 2990 2995	[BOS]
+T17	Reference 165 187	(Ando and Zhang, 2005)
+T18	Reference 213 235	(Vincent et al., 2008)
+T19	Reference 261 288	(Yang and Eisenstein, 2015)
+T20	Reference 656 673	Koo et al. (2008)
+T21	Reference 676 696	Turian et al. (2010)
+T22	Reference 699 716	Sun et al. (2011)
+T23	Reference 719 745	Nguyen and Grishman (2014)
+T24	Reference 748 772	Roth and Woodsend (2014)
+T25	Reference 778 799	Hermann et al. (2014)
+T26	Reference 876 903	Srikumar and Manning (2014)
+T27	Reference 1431 1454	(Collobert et al., 2011
+T28	Reference 1456 1475	Bordes et al., 2012
+T29	Reference 1477 1496	Socher et al., 2012
+T30	Reference 1498 1519	Socher et al., 2013b)
+T31	Reference 1933 1949	(Ma et al., 2015
+T32	Reference 1951 1968	Liu et al., 2015)
+T33	Dominant 2067 2089	Belinkov et al. (2014)
+T34	Dominant 2179 2200	Socher et al. (2013a)
+T35	Dominant 2205 2231	Hermann and Blunsom (2013)
+T36	Reference 2580 2604	(Cao and Khudanpur, 2014
+T37	Reference 2606 2629	Chen and Manning, 2014)
+T38	B_span 129 140	alternating
+T39	E_span 182 186	2005
+T40	B_span 190 199	denoising
+T41	E_span 230 234	2008
+T42	B_span 242 249	feature
+T43	E_span 283 287	2015
+T46	B_span 633 640	lexical
+T48	B_span 1415 1419	word
+T49	E_span 1513 1518	2013b
+T50	B_span 1916 1926	dependency
+T51	E_span 1963 1968	2015)
+T52	B_span 2067 2070	Bel
+T53	E_span 2170 2177	network
+T54	B_span 2179 2182	Soc
+T55	E_span 2345 2352	types).
+T56	B_span 2552 2561	different
+T57	E_span 2624 2628	2014
+T58	Pronoun 297 302	These
+T59	Pronoun 392 396	they
+T60	Pronoun 485 489	they
+T61	Pronoun 1151 1155	This
+T62	Pronoun 1179 1184	their
+T63	Pronoun 1399 1404	their
+T64	Pronoun 1561 1566	these
+T65	Pronoun 1802 1806	this
+T66	Pronoun 1835 1840	their
+T67	Pronoun 2359 2364	These
+T68	Pronoun 2821 2823	it
+T44	E_span 794 798	2014
+T45	B_span 805 808	pre
+T69	E_span 898 902	2014

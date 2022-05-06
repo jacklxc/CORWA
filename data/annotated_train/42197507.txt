@@ -1,0 +1,23 @@
+[BOS] The first attempt of sentiment analysis on text was initiated by Pang et al. (2002) who pioneered this field by using bag-of-word features.
+[BOS] This work mostly hinged on feature engineering; since then, many kinds of feature learning methods had been introduced to increase the performance (Pang and Lee, 2008; Liu, 2012; Gimpel et al., 2011; Feldman, 2013; Mohammad et al., 2013b) .
+[BOS] Aside from pure machine learning approaches, lexicon based approaches had been another trend, which relied on the manual or algorithmic creation of word sentiment scores (Hu and Liu, 2004; Kim and Hovy, 2004; Ding et al., 2008; Taboada et al., 2011) .
+
+[BOS] Since the emergence of the Convolutional Neural Networks (CNN; Collobert et al. (2011) ), conventional methods have become gradually obsolete because of the outstanding performance from the CNN variants.
+[BOS] CNN based models are distinguished from earlier methods because they do not rely on laborious feature engineering.
+[BOS] The first success of CNN in sentiment analysis was triggered by document classification research (Kim, 2014) , where CNN showed state-of-the-art results in numerous document classification datasets.
+[BOS] This success has engendered an upsurge in deep neural network research for sentiment analysis.
+[BOS] Various modified models have been proposed in the literature.
+[BOS] One of the famous deep learning methods that models a document is the generalized phrase proposed by Yin and Schtze (2014) , which represents a sentence using element-wise addition, multiplication, or recursive auto-encoder.
+
+[BOS] Endeavors to capture n-gram information bore fruits with CNN, max pooling, and softmax (Collobert et al., 2011; Kim, 2014) , which is regarded as the standard methods of the document classification problem these days.
+[BOS] Kalchbrenner et al. (2014a) extended this standard CNN model with dynamic k-max pooling, which served as an input layer to another stacked convolution layer.
+[BOS] Multichannel CNN methods (Kim, 2014; Yin and Schtze, 2015) are another branch of CNN, where assorted embeddings are considered together when convolving the input.
+[BOS] Unlike Kim (2014) 's model that relies on a single type of embedding with different mutability characteristics of the weights of embedding layer, Yin and Schtze (2015) incorporates diverse sort of embedding types using multichannel CNN.
+
+[BOS] Two notable pioneers in using lexicon for sentiment analysis are Mohammad et al. (2013a) ; Kalchbrenner et al. (2014b) generated scores with other manually generated sentiment lexicon scores to achieved the state-of-the-art result in SemEval-2013 Twitter sentiment analysis task.
+[BOS] In general domain, Hu and Liu (2004) generated a user review lexicon that showed promising result in capturing sentiment in customer product reviews.
+
+[BOS] Attention based methods have been successful in many application domains, such as image classification (Stollenga et al., 2014) , image caption generation , machine translation Luong et al., 2015) , and question answering (Shih et al., 2016; Chen et al., 2015; Yang et al., 2016) .
+[BOS] However, in the field of sentiment analysis, the attention is applied to only aspect-based sentiment classification (Yanase et al., 2016) .
+[BOS] To the best knowledge of ours, there is no attention-based model for a general sentiment analysis task.
+

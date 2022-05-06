@@ -1,0 +1,47 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 68 73	[BOS]
+T3	Transition 493 498	[BOS]
+T4	Reflection 631 636	[BOS]
+T5	Transition 708 713	[BOS]
+T6	Transition 809 814	[BOS]
+T7	Transition 980 985	[BOS]
+T8	Multi_summ 1115 1120	[BOS]
+T9	Reflection 1218 1223	[BOS]
+T10	Transition 1301 1306	[BOS]
+T11	Single_summ 1386 1391	[BOS]
+T12	Single_summ 1588 1593	[BOS]
+T13	Single_summ 1756 1761	[BOS]
+T14	Single_summ 1833 1838	[BOS]
+T15	Reflection 2059 2064	[BOS]
+T16	Reference 181 200	(Taira et al., 2008
+T17	Reference 202 222	Imamura et al., 2009
+T18	Reference 224 247	Hayashibe et al., 2011)
+T19	Reference 345 372	(Sasano and Kurohashi, 2011
+T20	Reference 374 394	Hangyo et al., 2013)
+T21	Reference 470 490	(Ouchi et al., 2015)
+T22	Dominant 1127 1146	Ouchi et al. (2015)
+T23	Dominant 1151 1169	Iida et al. (2015)
+T24	Dominant 1434 1457	Chen and Manning (2014)
+T25	Reference 1810 1829	(Weiss et al., 2015
+T26	Dominant 1866 1884	Zhou and Xu (2015)
+T27	Pronoun 564 569	their
+T28	Pronoun 637 641	This
+T29	Pronoun 1234 1238	this
+T30	Pronoun 1246 1250	this
+T31	Pronoun 1762 1766	This
+T32	Pronoun 2075 2080	these
+T33	Pronoun 2093 2097	this
+T34	B_span 123 134	identifying
+T35	E_span 242 246	2011
+T36	B_span 255 266	identifying
+T37	E_span 389 393	2013
+T38	B_span 407 418	identifying
+T39	E_span 485 489	2015
+T40	B_span 1121 1125	Thus
+T41	E_span 1208 1216	anaphora
+T42	B_span 1392 1395	For
+T43	E_span 1825 1829	2015
+T44	E_span 1825 1829	2015
+T45	B_span 1782 1790	extended
+T46	B_span 1839 1841	In
+T47	E_span 2048 2057	knowledge

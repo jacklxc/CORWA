@@ -1,0 +1,4 @@
+[BOS] The benefit of using in-domain embeddings for the biomedical domain has already been proven effective.
+[BOS] For example, (Pakhomov et al., 2016) and (Wang et al., 2018) found that using clinical notes or biomedical articles for training word embeddings has generally a positive impact on down-stream NLP tasks.
+[BOS] (Nikfarjam et al., 2015) trained embeddings on user-generated medical content and used them successfully on the pharmacovigilance task; however, they trained the embeddings an adverse reaction mining corpus, hence making them too task-specific to be considered useful on generic UG-BioNLP tasks.
+

@@ -1,0 +1,35 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 288 293	[BOS]
+T3	Narrative_cite 496 501	[BOS]
+T4	Single_summ 665 670	[BOS]
+T5	Single_summ 793 798	[BOS]
+T6	Single_summ 945 950	[BOS]
+T7	Single_summ 1117 1122	[BOS]
+T8	Reflection 1280 1285	[BOS]
+T9	Reference 241 260	(Mintz et al., 2009
+T10	Reference 262 285	Hendrickx et al., 2010)
+T11	Reference 376 396	(Socher et al., 2012
+T12	Reference 398 419	Zhang and Wang, 2015)
+T13	Reference 473 493	(Zeng et al., , 2015
+T14	Reference 616 636	(Turian et al., 2010
+T15	Reference 638 662	Pennington et al., 2014)
+T16	Dominant 671 690	Xu et al. (2015a,b)
+T17	Reference 916 941	(Bunescu and Mooney, 2005
+T18	Dominant 1133 1152	Verga et al. (2018)
+T19	B_span 223 227	Word
+T20	E_span 284 285	)
+T21	B_span 366 375	recurrent
+T22	E_span 418 419	)
+T23	B_span 424 437	convolutional
+T24	E_span 489 493	2015
+T26	E_span 661 662	)
+T27	B_span 671 673	Xu
+T28	E_span 937 941	2005
+T30	B_span 1133 1137	Verg
+T32	E_span 1278 1279	.
+T33	Pronoun 294 299	These
+T34	Pronoun 866 868	it
+T35	Reference 455 472	Zeng et al., 2014
+T36	B_span 556 567	distributed
+T25	B_span 884 890	action
+T37	E_span 937 941	2005

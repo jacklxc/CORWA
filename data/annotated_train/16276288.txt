@@ -1,0 +1,8 @@
+[BOS] Our work brings together ideas that have been considered in past, although in different forms.
+
+[BOS] Greedy Inference Goldberg and Elhadad (2010) introduced an easy-first, greedy, approach to dependency parsing.
+[BOS] Their algorithm adds at each iteration the best candidate arc, in contrast to the left to right ordering of standard transition based parsers.
+[BOS] This work is extended at (Tratz and Hovy, 2011; Goldberg and Nivre, 2013) .
+[BOS] The easy-first parser consists of a feature set and a specialized variant of the structured perceptron training algorithm, both dedicated to greedy inference.
+[BOS] In contrast, we show that a variant of the TurboParser that employs Algorithm 2 for inference and is trained with its standard global training algorithm, performs very similarly to the same parser that employs dual decomposition inference.
+

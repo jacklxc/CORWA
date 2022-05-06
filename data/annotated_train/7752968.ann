@@ -1,0 +1,115 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 104 109	[BOS]
+T3	Transition 352 357	[BOS]
+T4	Narrative_cite 421 426	[BOS]
+T5	Narrative_cite 562 567	[BOS]
+T6	Transition 832 837	[BOS]
+T7	Transition 965 970	[BOS]
+T8	Transition 1202 1207	[BOS]
+T9	Transition 1264 1269	[BOS]
+T10	Single_summ 1377 1382	[BOS]
+T11	Single_summ 1465 1470	[BOS]
+T12	Multi_summ 1603 1608	[BOS]
+T13	Transition 2038 2043	[BOS]
+T14	Single_summ 2145 2150	[BOS]
+T15	Single_summ 2247 2252	[BOS]
+T16	Single_summ 2394 2399	[BOS]
+T17	Single_summ 2489 2494	[BOS]
+T18	Transition 2646 2651	[BOS]
+T19	Narrative_cite 2808 2813	[BOS]
+T20	Transition 3001 3006	[BOS]
+T21	Transition 3242 3247	[BOS]
+T22	Other 3375 3380	[BOS]
+T23	Other 3384 3389	[BOS]
+T24	Multi_summ 3443 3448	[BOS]
+T25	Transition 3569 3574	[BOS]
+T26	Reflection 3703 3708	[BOS]
+T27	Transition 3817 3822	[BOS]
+T28	Transition 3876 3881	[BOS]
+T29	Transition 3945 3950	[BOS]
+T30	Other 4141 4146	[BOS]
+T31	Transition 4480 4485	[BOS]
+T32	Transition 4530 4535	[BOS]
+T33	Transition 4631 4636	[BOS]
+T34	Transition 4749 4754	[BOS]
+T35	Transition 4942 4947	[BOS]
+T36	Transition 5205 5210	[BOS]
+T37	Other 5319 5324	[BOS]
+T38	Other 5404 5409	[BOS]
+T39	Transition 5460 5465	[BOS]
+T40	Other 5737 5742	[BOS]
+T41	Other 5825 5830	[BOS]
+T42	Reflection 6046 6051	[BOS]
+T43	Reflection 6344 6349	[BOS]
+T44	Reference 496 514	(Zhou et al., 2005
+T45	Reference 516 540	Rink and Harabagiu, 2010
+T46	Reference 542 559	Sun et al., 2011)
+T47	Reference 659 685	(Nguyen and Grishman, 2014
+T48	Reference 687 708	Gormley et al., 2015)
+T49	Reference 746 764	(Zeng et al., 2014
+T50	Reference 766 789	dos Santos et al., 2015
+T51	Reference 791 807	Vu et al., 2016)
+T52	Dominant 1383 1399	Yu et al. (2016)
+T53	Reference 1712 1715	Bas
+T54	Reference 1717 1737	and Haussmann, 2015)
+T55	Reference 1770 1787	(Yih et al., 2015
+T56	Reference 1789 1807	Dai et al., 2016 )
+T57	Reference 1829 1846	(Yin et al., 2016
+T58	Reference 1867 1888	(Bordes et al., 2013)
+T59	Reference 1897 1915	(Dai et al., 2016)
+T60	Dominant 2164 2181	Yin et al. (2016)
+T61	Dominant 2253 2272	Liang et al. (2016)
+T62	Dominant 2400 2417	Yih et al. (2015)
+T63	Dominant 2495 2514	Golub and He (2016)
+T64	Reference 2853 2879	(Nguyen and Grishman, 2014
+T65	Reference 2881 2902	Gormley et al., 2015)
+T66	Dominant 3467 3484	(Yih et al., 2015
+T67	Dominant 3486 3503	Yin et al., 2016)
+T68	B_span 474 478	hand
+T69	E_span 554 558	2011
+T70	B_span 643 647	word
+T71	E_span 703 707	2015
+T72	B_span 726 730	like
+T73	E_span 802 806	2016
+T74	B_span 1383 1385	Yu
+T75	E_span 1589 1600	experiments
+T76	B_span 1689 1696	feature
+T77	B_span 1738 1745	towards
+T78	E_span 1732 1736	2015
+T79	E_span 1801 1805	2016
+T80	B_span 1812 1821	attention
+T81	E_span 1883 1887	2013
+T82	B_span 1892 1896	like
+T83	E_span 1910 1914	2016
+T84	B_span 2164 2167	Yin
+T85	E_span 2236 2245	detection
+T86	B_span 2253 2258	Liang
+T87	E_span 2387 2392	model
+T88	B_span 2400 2402	Yi
+T89	E_span 2482 2487	sides
+T90	B_span 2495 2498	Gol
+T91	E_span 2638 2643	model
+T92	B_span 2844 2852	features
+T93	E_span 2897 2901	2015
+T94	B_span 3468 3471	Yih
+T95	E_span 3560 3567	problem
+T96	Pronoun 130 134	this
+T97	Pronoun 241 243	it
+T98	Pronoun 1295 1299	this
+T99	Pronoun 1479 1484	their
+T100	Pronoun 1685 1687	it
+T101	Pronoun 3248 3252	This
+T102	Pronoun 3885 3889	this
+T103	Pronoun 3968 3972	this
+T104	Pronoun 3990 3992	it
+T105	Pronoun 4042 4044	it
+T106	Pronoun 4326 4331	these
+T107	Pronoun 4539 4543	this
+T108	Pronoun 4637 4639	It
+T109	Pronoun 4821 4823	it
+T110	Pronoun 4948 4952	This
+T111	Pronoun 5190 5194	this
+T112	Pronoun 5684 5688	this
+T113	Pronoun 6063 6068	these
+T114	Pronoun 6096 6101	their
+T115	Reference 1848 1866	Golub and He, 2016

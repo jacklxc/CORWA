@@ -1,0 +1,16 @@
+[BOS] A number of works have devoted to differentiate between language varieties or related languages, especially since the series of VarDial evaluation campaigns (Zampieri et al., 2017 (Zampieri et al., , 2018 (Zampieri et al., , 2019 .
+[BOS] (Lui and Cook, 2013 ) studies on English dialect identification and presents serveral classification approaches to classify Australia, British and Caniadian English.
+[BOS] (Zampieri and Gebre, 2012 ) utilizes a character n-gram and a word ngram language model for automatic classificaton of two written varieties of Portuguese: European and Brazilian.
+[BOS] (Ciobanu and Dinu, 2016) conducts an intial study on the dialects of Romanian and proposes using the orthographic and phonetic features of the words to build a dialect classifier.
+[BOS] (Clematide and Makarov, 2017 ) uses a majority-vote ensemble of the Navie Bayes, CRF and SVM systems for Swiss German dialects identification.
+[BOS] (Kreutz and Daelemans, 2018) uses two SVM classifiers: one trained on word n-grams fewtures and one trained on Pos n-grams to determine whether a document is in Flemish Dutch or Netherlandic Dutch.
+[BOS] (ltekin et al., 2018) uses a unified SVM model based on character and word n-grams features with careful hyperparameter tuning for 4 language/dialect identification tasks.
+
+[BOS] Methods to discriminate between varieties of Mandarin Chinese haven't been well studied.
+[BOS] (Huang and Lee, 2008 ) uses a top-bag-of-word similarity based contrastive approach to reflect distance among three varieties of Mandarin:
+
+[BOS] Mainland China, Singapore and Taiwan.
+[BOS] (Xu et al., 2016) deals with 6 varieties of Mandarin: Maninland, Hong Kong, Taiwan, Macao, Malaysia and Singapore.
+[BOS] They discover that character bigram and word segmentation based feature work better than traditional character unigram, and some features such as character form, PMI-based and word alignment-based features can help improve performance.
+[BOS] However, a thorough comparison of different algorithms and architectures has yet to be conducted.
+

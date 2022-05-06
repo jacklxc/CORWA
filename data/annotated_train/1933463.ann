@@ -1,0 +1,15 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Multi_summ 121 126	[BOS]
+T3	Single_summ 229 234	[BOS]
+T4	Single_summ 326 331	[BOS]
+T5	Reference 30 49	Canny et al. (2013)
+T6	Dominant 127 141	Johnson (2011)
+T7	Dominant 146 162	Yi et al. (2011)
+T8	Dominant 356 372	He et al. (2013)
+T9	Pronoun 244 248	they
+T10	B_span 6 11	Apart
+T11	E_span 44 48	2013
+T12	B_span 127 134	Johnson
+T13	E_span 310 324	implementation
+T14	B_span 332 334	In
+T15	E_span 485 495	extraction

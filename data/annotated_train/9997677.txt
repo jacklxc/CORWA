@@ -1,0 +1,14 @@
+[BOS] Apart from the works we compared against, only Konstas and Lapata (2013) and Mei et al. (2016) do not need pre-aligned data.
+[BOS] Konstas and Lapata (2013) 's approach incorporates the work of Liang et al. (2009) that learns a generative semi-Markov model to calculate the alignments.
+[BOS] We note that this alignment model is developed on the datasets considered, and does not generalize equally well to other datasets (Angeli et al., 2010) .
+[BOS] On the other hand, the naive alignments we infer are much simpler and we improve them by joint learning of word and content action prediction with respect to the sentence-level evaluation via BLEU and ROUGE.
+[BOS] Concurrently, Mei et al. (2016) introduced an encoder-aligner-decoder model to perform content selection and surface realization without pre-aligned data.
+[BOS] Their work employs bidirectional LSTM-RNN models, similarly to the work of Wen et al. (2015) , and a coarse-to-fine aligner.
+[BOS] Unfortunately, they do not report results in the datasets we performed our evaluation on, do not compare against Wen et al. (2015) , and their code was unavailable when we were preparing this article.
+[BOS] Imitation learning algorithms for structured prediction have been applied successfully to a variety of tasks, such as dependency parsing (Goldberg and Nivre, 2013) and dynamic feature selection (He et al., 2013) .
+[BOS] Vlachos and Clark (2014) applied a variant of DAGGER (Ross et al., 2011) to learning a semantic parser from unaligned training examples, which is the reverse task to NLG, i.e. predicting the MR given the NL utterance.
+[BOS] To circumvent the lack of alignment information they resorted to defining a randomized expert policy similar to the heuristic one we define, but NLG poses a greater challenge since the output space is all English sentences possible given the vocabulary considered.
+
+[BOS] Finally, we believe that the main benefit of our imitation learning approach, namely that it is able to learn using a non-decomposable loss function, is orthogonal to using continuous representations such as the hidden state and memory cell in the LSTM of Wen et al. (2015) .
+[BOS] Recent work by Ranzato et al. (2016) showed how RNNs can be trained at the sequence level (as opposed to the word level) with nondecomposable loss functions in the context of machine translation using imitation learning, and such an approach would also be applicable to NLG.
+

@@ -1,0 +1,72 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 41 46	[BOS]
+T3	Single_summ 119 124	[BOS]
+T4	Single_summ 250 255	[BOS]
+T5	Single_summ 424 429	[BOS]
+T6	Single_summ 588 593	[BOS]
+T7	Single_summ 741 746	[BOS]
+T8	Single_summ 885 890	[BOS]
+T9	Single_summ 1018 1023	[BOS]
+T10	Transition 1208 1213	[BOS]
+T11	Transition 1248 1253	[BOS]
+T12	Single_summ 1404 1409	[BOS]
+T13	Single_summ 1585 1590	[BOS]
+T14	Single_summ 1815 1820	[BOS]
+T15	Transition 1976 1981	[BOS]
+T16	Single_summ 2011 2016	[BOS]
+T17	Narrative_cite 2211 2216	[BOS]
+T18	Transition 2357 2362	[BOS]
+T19	Single_summ 2439 2444	[BOS]
+T20	Single_summ 2578 2583	[BOS]
+T21	Single_summ 2700 2705	[BOS]
+T22	Transition 2786 2791	[BOS]
+T23	Single_summ 2876 2881	[BOS]
+T24	Single_summ 2991 2996	[BOS]
+T25	Dominant 125 136	Jing (2000)
+T26	Dominant 256 279	Knight and Marcu (2000)
+T27	Dominant 430 445	McDonald (2006)
+T28	Dominant 594 618	Clarke and Lapata (2006)
+T29	Dominant 747 771	Clarke and Lapata (2008)
+T30	Dominant 891 921	Berg-Kirkpatrick et al. (2011)
+T31	Dominant 1024 1050	Filippova and Altun (2013)
+T32	Dominant 1410 1432	Cohn and Lapata (2008)
+T33	Dominant 1591 1625	Galanis and Androutsopoulos (2011)
+T34	Dominant 1821 1848	Shafieibavani et al. (2016)
+T35	Dominant 2017 2040	Filippova et al. (2015)
+T36	Reference 2328 2354	Filippova and Altun (2013)
+T37	Dominant 2445 2463	Rush et al. (2015)
+T38	Dominant 2706 2726	Chopra et al. (2016)
+T39	Dominant 2882 2902	Wubben et al. (2016)
+T40	Dominant 2997 3020	Toutanova et al. (2016)
+T41	B_span 125 129	Jing
+T42	E_span 241 248	removed
+T43	B_span 256 262	Knight
+T44	E_span 415 422	problem
+T45	B_span 430 438	McDonald
+T46	E_span 575 586	compression
+T47	B_span 594 600	Clarke
+T48	E_span 731 739	measures
+T49	B_span 747 753	Clarke
+T50	E_span 872 883	constraints
+T51	B_span 891 895	Berg
+T52	E_span 1003 1016	summarization
+T53	B_span 1024 1033	Filippova
+T54	E_span 1195 1205	prediction
+T55	B_span 1410 1414	Cohn
+T56	E_span 1577 1583	output
+T57	B_span 1591 1598	Galanis
+T58	E_span 1805 1813	features
+T59	B_span 1821 1834	Shafieibavani
+T60	E_span 1969 1973	time
+T61	B_span 2017 2026	Filippova
+T62	E_span 2201 2209	sentence
+T63	B_span 2217 2220	The
+T64	E_span 2349 2353	2013
+T65	B_span 2445 2449	Rush
+T66	E_span 2565 2576	compression
+T67	B_span 2706 2712	Chopra
+T68	E_span 2776 2784	Networks
+T69	B_span 2882 2888	Wubben
+T70	E_span 2981 2989	captions
+T71	B_span 2997 3006	Toutanova
+T72	E_span 3193 3201	judgment

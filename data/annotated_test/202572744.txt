@@ -1,0 +1,4 @@
+[BOS] Here, we discuss further related work, beyond that discussed in 4.1 on (dis)similarities between patterns learned by humans and neural networks.
+[BOS] (Lei et al., 2016; Li et al., 2016; Yu et al., 2019) .
+[BOS] Others extract evidence to improve downstream QA efficiency over large amounts of text (Choi et al., 2017; Kratzwald and Feuerriegel, 2019; Wang et al., 2018b Generic Summarization In contrast, various papers focus primarily on summarization rather than QA, using downstream QA accuracy only as a reward to optimize generic (question-agnostic) summarization models Liu, 2018, 2019; Eyal et al., 2019) .
+

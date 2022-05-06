@@ -1,0 +1,29 @@
+[BOS] Sharing a word embedding space across different languages has proven useful for many crosslingual tasks, such as machine translation (Zou et al., 2013) and cross-lingual dependency parsing (Jiang et al., 2015 (Jiang et al., , 2016 Ammar et al., 2016a) .
+[BOS] Generally, such spaces can be trained directly from bilingual sentence aligned or document aligned text (Hermann and Blunsom, 2014; Chandar A P et al., 2014; Sgaard et al., 2015; Vuli and Moens, 2013) .
+[BOS] However the performance of directly trained models is limited by their vocabulary size.
+
+[BOS] Instead of training shared embedding space directly, the work of Mikolov et al. (2013b) has shown that we can also combine two monolin-gual spaces by applying a linear mapping matrix.
+[BOS] The matrix is trained by minimizing the sum of squared Euclidean distances between source and target words of a dictionary.
+[BOS] This simple approach has been improved upon in several ways: using canonical correlation analysis to map source and target embeddings (Faruqui and Dyer, 2014) ; or by forcing the mapping matrix to be orthogonal (Xing et al., 2015) .
+
+[BOS] Recently, efforts have concentrated on how to limit or avoid reliance on dictionaries.
+[BOS] Good results were achieved with some drastically minimal techniques.
+[BOS] Zhang et al. (2016) achieved good results at bilingual POS tagging, but not bilingual lexicon induction, using only ten word pairs to build a coarse orthonormal mapping between source and target monolingual embeddings.
+[BOS] The work of Smith et al. (2017) has shown that a singular value decomposition (SVD) method can produce a competitive cross-lingual mapping by using identical character strings across languages.
+[BOS] Artetxe et al. (2017 Artetxe et al. ( , 2018b proposed a self-learning framework, which iteratively trains its cross-lingual mapping by using dictionaries trained in previous rounds.
+[BOS] The initial dictionary of the self-learning can be reduced to 25 word pairs or even only a list of numerals and still have competitive performance.
+[BOS] Furthermore, Artetxe et al. (2018a) extend their self-learning framework to unsupervised models, and build the state-ofthe-art for bilingual lexicon induction.
+[BOS] Instead of using a pre-build dictionary for initialization, they sort the value of the word vectors in both the source and the target distribution, treat two vectors that have similar permutations as possible translations and use them as the initialization dictionary.
+[BOS] Additionally, their unsupervised framework also includes many optimization augmentations, such as stochastic dictionary induction, symmetric reweighting, among others.
+
+[BOS] Theoretically, employing GANs for training cross-lingual word embedding is also a promising way to avoid the use of bilingual evidence.
+[BOS] As far as we know, Barone (2016) was the first attempt at this approach, but the performance of their model is not competitive.
+[BOS] Zhang et al. (2017) enforce the mapping matrix to be orthogonal during the adversarial training and achieve a good performance on bilingual lexicon induction.
+[BOS] The main drawback of their approach is that the vocabularies of their training data are small, and the performance Method en-de en-es en-fi en-it Supervised Mikolov et al. (2013b) 35.0 27.3 25.9 34.9 Faruqui and Dyer (2014) 37.1 26.8 27.6 38.4 Dinu et al. (2015) 38.9 30.4 29.1 37.7 Xing et al. (2015) 41 Table 3 : Results of bilingual lexicon induction (accuracy % P@1) on BLI-2 dataset, all the results of previous methods come from the paper of Artetxe et al. (2018a) of their models drops significantly when they use large training data.
+[BOS] The recent model proposed by Lample et al. (2018) is so far the most successful and becomes competitive with previous supervised approaches through a strong CSLS-based refinement to the core mapping matrix trained by GANs.
+[BOS] Even in this case, though, without refinement, the core mappings are not as good as hoped for some distant language pairs.
+[BOS] More recently, Chen and Cardie (2018) extends the work of Lample et al. (2018) from bilingual setting to multi-lingual setting, instead of training crosslingual word embeddings for only one language pair, their approach allows us to train crosslingual word embeddings for many language pairs at the same time.
+[BOS] Another recent piece of work which is similar to Lample et al. (2018) comes from Xu et al. (2018) .
+[BOS] Their approach can be divided into 2 steps: first, using Wasserstein GAN (Arjovsky et al., 2017) to train a preliminary mapping between two monolingual distribution and then minimizing the Sinkhorn Distance across distributions.
+[BOS] Although their method performs better than Lample et al. (2018) in several tasks, the improvement mainly comes from the second step, showing that the problem of how to train a better preliminary mapping has not been resolved.
+

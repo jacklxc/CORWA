@@ -1,0 +1,21 @@
+[BOS] To build a semantic lexicon, one has to identify the relation between words within a semantic hierarchy, and to group similar words together into a class.
+[BOS] Previous work on automatic methods for building semantic lexicons could be divided into two main groups.
+[BOS] One is automatic thesaurus acquisition, that is, to identify synonyms or topically related words from corpora based on various measures of similarity (e.g. Riloff and Shepherd, 1997; Lin, 1998; Caraballo, 1999; Thelen and Riloff, 2002; You and Chen, 2006) .
+[BOS] Another line of research, which is more closely related to the current study, is to extend existing thesauri by classifying new words with respect to their given structures (e.g. Tokunaga et al., 1997; Pekar, 2004 ).
+[BOS] An early effort along this line is Hearst (1992) , who attempted to identify hyponyms from large text corpora, based on a set of lexico-syntactic patterns, to augment and critique the content of WordNet.
+[BOS] Ciaramita (2002) compared several models in classifying nouns with respect to a simplified version of WordNet and signified the gain in performance with morphological features.
+[BOS] For Chinese, Tseng (2003) proposed a method based on morphological similarity to assign a Cilin category to unknown words from the Sinica corpus which were not in the Chinese Electronic Dictionary and Cilin; but somehow the test data were taken from Cilin, and therefore could not really demonstrate the effectiveness with unknown words found in the Sinica corpus.
+[BOS] Kwong and Tsou (2007) attempted to classify words distinctly used in Beijing, Hong Kong, Singapore, and Taiwan, with respect to the Cilin classificatory structure.
+[BOS] They brought up the issue of data heterogeneity in the task.
+[BOS] In general, automatic classification of words via similarity measurement between two words, or between a word and a class of words, was often done on words from a similar data source, with the assumption that the feature vectors under comparison are directly comparable.
+[BOS] In the Pan-Chinese context, however, the words to be classified come from corpora collected from various Chinese speech communities, but the words in the thesaurus are often based on usages found in a particular community, such as Mainland China in the case of Cilin.
+[BOS] It is thus questionable whether the words in Cilin would appear in comparable contexts in texts from other places, thus affecting the similarity measurement.
+[BOS] In view of this heterogeneous nature of the data, they experimented with extracting feature vectors for the Cilin words from different datasets and found that the classification of words from Taipei was most affected in this regard.
+
+[BOS] In general, up to 85% accuracy was reached with the top 15 candidates for classification at the Cilin subclass level.
+[BOS] This performance, however, should be improved for the method to be useful in practice.
+[BOS] It is observed that Cilin, as most other thesauri, does not have a mutually exclusive classification.
+[BOS] Many words appear in more than one category (at various levels).
+[BOS] Such duplication may affect the similarity comparison between a target word and words in a category.
+[BOS] The current study thus attempts to avoid this confounding factor by removing duplicated words from Cilin for the comparison of similarity, and to extend the classification to a finer level.
+

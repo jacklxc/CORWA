@@ -1,0 +1,9 @@
+[BOS] Although character features are very important in Chinese morphology, research in character-based approach is unpopular.
+[BOS] Chooi-Ling Goh et al. [16] , Jianfeng Gao et al. [8] and Huaping Zhang [3] adopted character information to handle unknown words; X. Luo [11] , Yao Meng [12] and Shengfen Luo [17] each presented characterbased parsing models for Chinese parsing or new-word extraction.
+[BOS] T. Nakagawa used word-level information and character-level information for word segmentation [6] .
+[BOS] Hwee Tou Ng et al. [5] investigated word-based and character-based approaches and proposed a maximum entropy character-based POS analyzer.
+[BOS] Although the character tags proposed in this paper are essentially similar to some of the previous work mentioned above, here our focus is to integrate various word features with the characterbased model in such a way that the probability of the model is undistorted.
+[BOS] The proposed model is effective in acquiring word building rules.
+[BOS] To our knowledge, our work is the first character-based approach, which outperforms the word-based approaches for SIGHAN open test.
+[BOS] Also, our approach is versatile and can be easily integrated with existing morphological systems to achieve improved performance.
+

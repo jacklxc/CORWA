@@ -1,0 +1,42 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 142 147	[BOS]
+T3	Transition 238 243	[BOS]
+T4	Transition 443 448	[BOS]
+T5	Narrative_cite 749 754	[BOS]
+T6	Single_summ 876 881	[BOS]
+T7	Reflection 1141 1146	[BOS]
+T8	Single_summ 1251 1256	[BOS]
+T9	Single_summ 1387 1392	[BOS]
+T10	Single_summ 1493 1498	[BOS]
+T11	Reflection 1630 1635	[BOS]
+T12	Single_summ 1784 1789	[BOS]
+T13	Single_summ 1928 1933	[BOS]
+T14	Narrative_cite 2130 2135	[BOS]
+T15	Reflection 2305 2310	[BOS]
+T16	Reference 177 198	(Devlin et al., 2014)
+T17	Reference 201 230	(JunczysDowmunt et al., 2016)
+T18	Reference 852 872	(Peter et al., 2016)
+T19	Dominant 885 909	(Stahlberg et al., 2017)
+T20	Dominant 1260 1281	(Arthur et al., 2016)
+T21	Dominant 1393 1414	(Glehre et al., 2015)
+T22	Dominant 1499 1517	(He et al., 2016 )
+T23	Dominant 1790 1812	In (Tang et al., 2016)
+T24	Reference 2202 2219	(Tu et al., 2016)
+T25	B_span 148 156	Examples
+T28	E_span 229 230	)
+T29	B_span 786 795	attention
+T32	E_span 871 872	)
+T33	B_span 882 884	In
+T34	E_span 1132 1139	lattice
+T35	B_span 1257 1259	In
+T36	E_span 1376 1385	mechanism
+T37	B_span 1393 1394	(
+T38	E_span 1480 1491	translation
+T39	B_span 1499 1500	(
+T40	E_span 1622 1628	search
+T41	B_span 1790 1792	In
+T42	E_span 2123 2127	used
+T43	B_span 2183 2191	coverage
+T44	E_span 2214 2218	2016
+T45	Pronoun 92 94	it
+T46	Pronoun 1771 1775	this

@@ -1,0 +1,59 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 107 112	[BOS]
+T3	Single_summ 286 291	[BOS]
+T4	Narrative_cite 461 466	[BOS]
+T5	Reflection 665 670	[BOS]
+T6	Reflection 673 678	[BOS]
+T7	Reflection 820 825	[BOS]
+T8	Narrative_cite 909 914	[BOS]
+T9	Reflection 1095 1100	[BOS]
+T10	Narrative_cite 1167 1172	[BOS]
+T11	Transition 1358 1363	[BOS]
+T12	Narrative_cite 1653 1658	[BOS]
+T13	Reflection 1840 1845	[BOS]
+T14	Single_summ 2044 2049	[BOS]
+T15	Single_summ 2185 2190	[BOS]
+T16	Reflection 2394 2399	[BOS]
+T17	Reflection 2513 2518	[BOS]
+T18	Reference 153 175	(Vincent et al., 2008)
+T19	Reference 205 231	(Kingma and Welling, 2013)
+T20	Dominant 327 346	Koisk et al. (2016)
+T21	Reference 592 618	(Mordatch and Abbeel, 2018
+T22	Reference 620 636	Das et al., 2017
+T23	Reference 638 664	Kottur et al., 2017, i.a.)
+T24	Reference 1068 1092	Andreas and Klein (2017)
+T25	Reference 1310 1333	Deisenroth et al., 2013
+T26	Reference 1335 1355	Kaiser et al., 2019)
+T27	Reference 1745 1767	(Branavan et al., 2012
+T28	Reference 1769 1792	Srivastava et al., 2017
+T29	Reference 1794 1814	Andreas et al., 2018
+T30	Reference 1816 1837	Hancock et al., 2018)
+T31	Dominant 2074 2097	Leonandya et al. (2018)
+T32	B_span 130 139	denoising
+T33	E_span 174 175	)
+T34	B_span 180 191	variational
+T35	E_span 230 231	)
+T36	B_span 292 294	In
+T37	E_span 458 459	.
+T38	B_span 511 519	learning
+T39	E_span 663 664	)
+T41	E_span 1091 1092	)
+T42	B_span 1265 1273	learning
+T43	E_span 1354 1355	)
+T44	B_span 1697 1705	language
+T45	E_span 1836 1837	)
+T46	B_span 2059 2065	recent
+T47	E_span 2392 2393	.
+T48	Pronoun 923 928	these
+T49	Pronoun 952 954	it
+T50	Pronoun 1155 1159	this
+T51	Pronoun 1364 1366	It
+T52	Pronoun 1432 1434	it
+T53	Pronoun 1557 1561	this
+T54	Pronoun 1846 1851	These
+T55	Pronoun 2267 2271	this
+T56	Pronoun 2400 2404	This
+T57	Pronoun 2529 2534	their
+T58	Pronoun 2562 2567	their
+T59	Pronoun 2702 2706	this
+T60	B_span 970 976	induce

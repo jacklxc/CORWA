@@ -1,0 +1,15 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 199 204	[BOS]
+T3	Single_summ 387 392	[BOS]
+T4	Reference 36 59	(Flanigan et al., 2014)
+T5	Dominant 205 224	Wang et al. (2015a)
+T6	Dominant 393 414	Goodman et al. (2016)
+T8	B_span 31 35	JAMR
+T9	E_span 92 97	model
+T10	B_span 205 209	Wang
+T11	E_span 376 385	structure
+T12	B_span 393 400	Goodman
+T7	Reference 541 551	Wang et al
+T13	E_span 549 551	al
+T14	E_span 549 551	al
+T15	B_span 513 517	same

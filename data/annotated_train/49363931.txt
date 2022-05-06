@@ -1,0 +1,21 @@
+[BOS] Machine Reading requires a tight integration of Natural Language Processing and Machine Learning models.
+
+[BOS] General NLP frameworks include CORENLP (Manning et al., 2014) , NLTK (Bird et al., 2009) , OPENNLP 6 and SPACY.
+
+[BOS] All these frameworks offer pre-built models for standard NLP preprocessing tasks, such as tokenisation, sentence splitting, named entity recognition and parsing.
+[BOS] GATE (Cunningham et al., 2002) and UIMA (Ferrucci and Lally, 2004) are toolkits that allow quick assembly of baseline NLP pipelines, and visualisation and annotation via a Graphical User Interface.
+[BOS] GATE can utilise NLTK and CORENLP models and additionally enable development of rule-based methods using a dedicated pattern language.
+[BOS] UIMA offers a text analysis pipeline which, unlike GATE, also includes retrieving information, but does not offer its own rule-based language.
+[BOS] It is further worth mentioning the Information Retrieval frameworks APACHE LUCENE and APACHE SOLR which can be used for building simple, keyword-based question answering systems, but offer no ML support.
+
+[BOS] Multiple general machine learning frameworks, such as SCIKIT-LEARN (Pedregosa et al., 2011 ), PYTORCH, THEANO (Theano Development Team, 2016 and TENSORFLOW (Abadi et al., 2015) , among others, enable quick prototyping and deployment of ML models.
+[BOS] However, unlike JACK, they do not offer a simple framework for defining and evaluating MR models.
+[BOS] The framework closest in objectives to JACK is ALLENNLP (Gardner et al., 2017) , which is a research-focused open-source NLP library built on PYTORCH.
+[BOS] It provides the basic low-level On the left, the responsibilities covered by the IN-PUT, MODEL and OUTPUT modules that compose a JTREADER instance.
+[BOS] On the right, the data format that is used to interact with a JTREADER (dotted lines indicate that the component is optional).
+
+[BOS] components common to many systems in addition to pre-assembled models for standard NLP tasks, such as coreference resolution, constituency parsing, named entity recognition, question answering and textual entailment.
+[BOS] In comparison with ALLENNLP, JACK supports both TENSORFLOW and PYTORCH.
+[BOS] Furthermore, JACK can also learn from Knowledge Graphs (discussed in Section 4), while ALLENNLP focuses on textual inputs.
+[BOS] Finally, JACK is structured following a modular architecture, composed by input-, model-, and output modules, facilitating code reuse and the inclusion and prototyping of new methods.
+

@@ -1,0 +1,10 @@
+[BOS] Pretrained Word Embeddings Many state-ofthe-art models initialize their word representations using pretrained embeddings such as word2vec (Mikolov et al., 2013a) or ELMo .
+[BOS] These representations are typically trained using an interpretation of the Distributional Hy- Table 8 : Given a context c and a word x, we select the top 3 words y from the entire vocabulary using our scoring function R(x, y)  C(c).
+[BOS] The analysis suggests that the model tends to rank correct matches (italics) over others.
+
+[BOS] pothesis (Harris, 1954) in which the bivariate distribution of target words and contexts is modeled.
+[BOS] Our work deviates from the word embedding literature in two major aspects.
+[BOS] First, our goal is to represent word pairs, not individual words.
+[BOS] Second, our new PMI formulation models the trivariate word-word-context distribution.
+[BOS] Experiments show that our pair embeddings can complement single-word embeddings.
+

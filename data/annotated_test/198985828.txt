@@ -1,0 +1,16 @@
+[BOS] The issue of linguistic regularity manifested in relational similarity has been studied for a long time.
+[BOS] Due to the long-standing criticism of strictly binary relation structure, SemEval-2012 offered the task to detect the degree of relational similarity (Jurgens et al., 2012) .
+[BOS] This means that multiple correct answers exist, but they should be ranked differently.
+[BOS] Somewhat similar improvements to the well-known word analogies dataset from (Mikolov et al., 2013b) were presented in the BATS analogy test set (Gladkova et al., 2016) , also featuring multiple correct answers.
+[BOS] 1 Our One-to-X analogy setup extends this by introducing the possibility of the correct answer being 'None'.
+[BOS] In the cases when correct answers exist, they are equally ranked, but their number can be different.
+
+[BOS] Using distributional word representations to trace diachronic semantic shifts (including those reflecting social and cultural events) has received substantial attention in the recent years.
+[BOS] Our work shares some of the workflow with Kutuzov et al. (2017) .
+[BOS] They used a supervised approach to analogical reasoning, applying 'semantic directions' learned on the previous year's armed conflicts data to the subsequent year.
+[BOS] We extend their research by significantly reformulating the analogy task, making it more realistic, and finding ways to cope with false positives (insurgent armed groups predicted for locations where no armed conflicts are registered this year).
+[BOS] In comparison to their work, we also use newer and larger corpora of news texts and the most recent version of the UCDP dataset.
+[BOS] For brevity, we do not describe the emerging field of diachronic word embeddings in details, referring the interested readers to the recent surveys of Kutuzov et al. (2018) and Tang (2018) .
+
+[BOS] 1 See also the detailed criticism of analogical inference with word embeddings in general in (Rogers et al., 2017) .
+

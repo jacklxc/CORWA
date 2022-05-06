@@ -1,0 +1,5 @@
+[BOS] Several recent deep neural network architectures (Hermann et al., 2015; Hill et al., 2015; Chen et al., 2016; Kobayashi et al., 2016 ) were applied to the task of text comprehension.
+[BOS] The last two architectures were developed independently at the same time as our work.
+[BOS] All of these architectures use an attention mechanism that allows them to highlight places in the document that might be relevant to answering the question.
+[BOS] We will now briefly describe these architectures and compare them to our approach.
+

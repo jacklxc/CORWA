@@ -1,0 +1,86 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 123 128	[BOS]
+T3	Transition 426 431	[BOS]
+T4	Transition 599 604	[BOS]
+T5	Transition 776 781	[BOS]
+T6	Narrative_cite 839 844	[BOS]
+T7	Reflection 1277 1282	[BOS]
+T8	Reflection 1443 1448	[BOS]
+T9	Transition 1527 1532	[BOS]
+T10	Narrative_cite 1600 1605	[BOS]
+T11	Multi_summ 1787 1792	[BOS]
+T12	Narrative_cite 2235 2240	[BOS]
+T13	Transition 2413 2418	[BOS]
+T14	Transition 2549 2554	[BOS]
+T15	Single_summ 2674 2679	[BOS]
+T16	Single_summ 2829 2834	[BOS]
+T17	Narrative_cite 2954 2959	[BOS]
+T18	Transition 3104 3109	[BOS]
+T19	Transition 3280 3285	[BOS]
+T20	Transition 3403 3408	[BOS]
+T21	Reference 101 120	(Zhou et al., 2018)
+T22	Reference 299 319	(Berant et al., 2013
+T23	Reference 357 375	Iyyer et al., 2017
+T24	Reference 377 394	Peng et al., 2017
+T25	Reference 396 423	Sorokin and Gurevych, 2018)
+T26	Reference 905 923	(Dong et al., 2015
+T27	Reference 925 949	Bast and Haussmann, 2015
+T28	Reference 951 967	Hao et al., 2017
+T29	Reference 969 986	Zhou et al., 2018
+T30	Reference 988 1012	Lukovnikov et al., 2017)
+T31	Reference 1124 1144	(Bordes et al., 2015
+T32	Reference 1146 1161	Xu et al., 2016
+T33	Reference 1163 1179	Yin et al., 2016
+T34	Reference 1181 1196	Yu et al., 2017
+T35	Reference 1198 1217	Zhang et al., 2018a
+T36	Reference 1219 1234	Yu et al., 2018
+T37	Reference 1236 1254	Chen et al., 2018a
+T38	Reference 1256 1274	Shen et al., 2018)
+T39	Reference 1606 1623	(Lao et al., 2011
+T40	Reference 1669 1692	Toutanova et al., 2015)
+T41	Dominant 1802 1822	(Xiong et al., 2017)
+T43	Reference 2118 2137	(Chen et al., 2018b
+T44	Reference 2139 2159	Zhang et al., 2018b)
+T45	Reference 2191 2209	(Lin et al., 2018)
+T46	Reference 2378 2394	(Williams, 1992)
+T47	Dominant 2723 2742	(Zhou et al., 2018)
+T48	Reference 3080 3101	(Bordes et al., 2015)
+T49	Pronoun 432 437	These
+T50	Pronoun 691 696	these
+T51	Pronoun 761 766	these
+T52	Pronoun 1709 1714	these
+T53	Pronoun 1731 1735	they
+T54	Pronoun 1861 1865	this
+T55	Pronoun 2279 2284	these
+T56	Pronoun 2301 2305	they
+T57	Pronoun 2459 2461	it
+T58	Pronoun 2848 2850	it
+T59	Pronoun 3228 3232	they
+T60	Pronoun 3261 3266	their
+T61	B_span 23 27	KBQA
+T62	E_span 115 119	2018
+T63	Reference 321 337	Yih et al., 2015
+T64	Reference 338 356	Yih et al., , 2016
+T65	B_span 129 137	Semantic
+T66	E_span 418 422	2018
+T67	B_span 854 863	embedding
+T68	E_span 1007 1011	2017
+T69	B_span 1039 1049	extracting
+T70	E_span 1269 1273	2018
+T71	Reference 1625 1645	Gardner et al., 2014
+T72	Reference 1646 1668	Gardner et al., , 2013
+T73	B_span 1607 1610	Lao
+T74	E_span 1780 1785	input
+T42	Dominant 1836 1852	Das et al., 2017
+T75	E_span 1997 2005	learning
+T76	B_span 1793 1801	DeepPath
+T77	B_span 2025 2034	algorithm
+T78	E_span 2153 2158	2018b
+T79	B_span 2166 2172	reward
+T80	E_span 2204 2208	2018
+T81	B_span 2301 2305	they
+T82	E_span 2399 2411	optimization
+T83	B_span 2713 2716	IRN
+T84	E_span 2945 2952	results
+T85	B_span 2995 3002	ability
+T86	E_span 3096 3100	2015

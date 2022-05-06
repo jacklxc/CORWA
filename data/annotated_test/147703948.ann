@@ -1,0 +1,21 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 19 24	[BOS]
+T3	Transition 95 100	[BOS]
+T4	Transition 160 165	[BOS]
+T5	Single_summ 231 236	[BOS]
+T6	Multi_summ 418 423	[BOS]
+T7	Single_summ 627 632	[BOS]
+T8	Transition 868 873	[BOS]
+T9	Dominant 237 266	Hashimoto and Tsuruoka (2017)
+T10	Reference 582 600	Chen et al., 2017b
+T11	Reference 602 624	Bastings et al., 2017)
+T12	Dominant 633 650	Wu et al. (2017b)
+T13	Pronoun 117 122	these
+T14	Pronoun 370 375	their
+T15	Pronoun 878 883	these
+T16	B_span 237 241	Hash
+T17	E_span 414 416	hs
+T19	E_span 620 623	017
+T20	B_span 633 638	Wu et
+T21	E_span 860 866	orders
+T18	B_span 469 479	convolutio

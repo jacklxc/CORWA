@@ -1,0 +1,70 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 194 199	[BOS]
+T3	Transition 243 248	[BOS]
+T4	Multi_summ 268 273	[BOS]
+T5	Multi_summ 424 429	[BOS]
+T6	Reflection 636 641	[BOS]
+T7	Reflection 767 772	[BOS]
+T8	Reflection 1019 1024	[BOS]
+T9	Reflection 1204 1209	[BOS]
+T10	Single_summ 1373 1378	[BOS]
+T11	Narrative_cite 1488 1493	[BOS]
+T12	Transition 1696 1701	[BOS]
+T13	Reflection 1842 1847	[BOS]
+T14	Transition 2013 2018	[BOS]
+T15	Transition 2036 2041	[BOS]
+T16	Single_summ 2224 2229	[BOS]
+T17	Single_summ 2522 2527	[BOS]
+T18	Reflection 2743 2748	[BOS]
+T19	Transition 3047 3052	[BOS]
+T20	Narrative_cite 3079 3084	[BOS]
+T21	Single_summ 3375 3380	[BOS]
+T22	Single_summ 3525 3530	[BOS]
+T23	Reflection 3793 3798	[BOS]
+T24	Reference 79 102	(Bahdanau et al., 2015)
+T25	Dominant 274 290	Tu et al. (2016)
+T26	Dominant 295 311	Mi et al. (2016)
+T27	Reference 1230 1246	Tu et al. (2016)
+T28	Dominant 1426 1444	Meng et al. (2016)
+T29	Reference 1549 1570	(Graves et al., 2014)
+T30	Dominant 2321 2343	Bahdanau et al., 2017)
+T31	Dominant 2584 2602	Weng et al. (2017)
+T32	Reference 3262 3285	(Reed and Freitas, 2015
+T33	Reference 3287 3302	Ba et al., 2016
+T34	Reference 3304 3323	Miller et al., 2016
+T35	Reference 3325 3346	Gulcehre et al., 2016
+T36	Reference 3348 3372	Rocktschel et al., 2017)
+T37	Dominant 3394 3414	Miller et al. (2016)
+T38	Reference 3497 3522	(Sukhbaatar et al., 2015)
+T39	Dominant 3531 3555	Rocktschel et al. (2017)
+T40	Pronoun 211 216	these
+T41	Pronoun 430 435	These
+T42	Pronoun 730 734	this
+T43	Pronoun 1711 1716	their
+T44	Pronoun 1831 1835	this
+T45	Pronoun 2241 2245	this
+T46	Pronoun 2349 2354	their
+T47	Pronoun 3246 3251	these
+T48	Pronoun 3802 3806	this
+T49	B_span 36 45	attention
+T50	E_span 97 101	2015
+T51	B_span 275 276	u
+T52	E_span 630 634	ones
+T53	B_span 1210 1213	The
+T54	E_span 1241 1245	2016
+T55	B_span 1426 1430	Meng
+T56	E_span 1481 1486	model
+T57	B_span 1527 1533	Neural
+T58	E_span 1565 1569	2014
+T59	B_span 2230 2232	To
+T60	E_span 2514 2520	making
+T61	B_span 2528 2538	Concerning
+T62	E_span 2729 2741	untranslated
+T63	B_span 3159 3164	model
+T64	E_span 3367 3371	2017
+T65	B_span 3394 3400	Miller
+T66	E_span 3517 3521	2015
+T67	E_span 3517 3521	2015
+T68	B_span 3462 3468	memory
+T69	B_span 3531 3541	Rocktschel
+T70	E_span 3782 3791	mechanism

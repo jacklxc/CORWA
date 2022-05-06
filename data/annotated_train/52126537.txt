@@ -1,0 +1,32 @@
+[BOS] There has been a lot of recent interest in making machine learning models interpretable.
+[BOS] Different approaches can be broadly grouped under two headings-1) the use of interpretable models, and 2) model-agnostic interpretability techniques.
+[BOS] In the first case, the choice of machine learning methods is limited to the more interpretable models such as linear models and decision trees (Molnar; Caruana et al., 2015) .
+[BOS] The drawback of incorporating model interpretability through specific model choices is that these models may not perform well enough for a given task or a given dataset.
+[BOS] To overcome this, the second set of approaches try to explain either a complete model, or an individual prediction by using the input data and the model output(s).
+[BOS] Several approaches involve manipulation of the trained network to identify the most significant input features.
+[BOS] In some cases, the input features are deleted one by one, and the corresponding effect on the output is recorded (Li et al., 2016b; Avati et al., 2017; Suresh et al., 2017) .
+[BOS] The features that cause the maximum change in the output are ranked the highest.
+[BOS] Another computational approach uses gradient ascent to learn the input vector that maximizes a given output in a trained network (Erhan et al., 2009; Simonyan et al., 2013) .
+[BOS] In some other cases, the gradient of the output with respect to the input is computed, which corresponds to the effect of an infinitesimal change of the input on the output (Engelbrecht and Cloete, 1998; Simonyan et al., 2013; Aubakirova and Bansal, 2016; Sushil et al., 2018) .
+[BOS] Another approach computes feature importance using layerwise relevance propagation (LRP) (Bach et al., 2015; Montavon et al., 2017; Arras et al., 2017) , which has been shown to be equivalent to the prod-uct of the gradient value and the input (Kindermans et al., 2016) .
+[BOS] Sometimes the importance of a feature is analyzed by setting its value to a reference value, and then backpropagating the difference (DeepLIFT) (Shrikumar et al., 2017) .
+[BOS] In another approach, a separate 'explanation model' is trained to fit the predictions of the original model (Ribeiro et al., 2016; Lundberg and Lee, 2017; Lakkaraju et al., 2017) .
+[BOS] In an information theoretic approach, the mutual information between feature subsets and the model output is approximated to identify the most important features, similar to feature selection techniques (Chen et al., 2018) .
+[BOS] For recurrent neural networks with an attention mechanism, attention weights are often used as feature importance scores (Hermann et al., 2015; Yang et al., 2016; Choi et al., 2016) .
+[BOS] Poerner et al. (2018) have investigated several of the previously discussed techniques and have found LRP and DeepLIFT to be the most effective approaches for explaining deep neural networks in NLP.
+
+[BOS] Most of the above-mentioned techniques output a ranked list of the most significant features for a model.
+[BOS] Several approaches, especially when the input is an image, visualize these features as image segments (Erhan et al., 2009; Simonyan et al., 2013; Olah et al., 2018) .
+[BOS] These act as visual cues about the salient objects in an image for the classifier.
+[BOS] However, such visual understanding is limited when we use either structured or textual input.
+[BOS] Heatmaps are often used to visualize interpretations of text-based models (Hermann et al., 2015; Li et al., 2016a,b; Yang et al., 2016; Aubakirova and Bansal, 2016; Arras et al., 2017) .
+[BOS] However, the interaction between different features and their relative contribution towards class labels remains unknown in this qualitative representation.
+[BOS] To overcome this limitation, in the same vein as our work, rule induction for interpreting neural networks has been proposed (Andrews et al., 1995; Lakkaraju et al., 2017) .
+[BOS] Thrun (1993) have proposed a technique to find disjunctive rules by identifying valid intervals of input values for the correct classification.
+[BOS] Intervals are expanded starting with the known values for instances.
+[BOS] Lakkaraju et al. (2017) use the input data and the model predictions to learn decision sets that are optimized to jointly maximize the interpretability of the explanations and the extent to which the original model is explained.
+
+[BOS] In our approach, we aim to generate a set of ifthen-else rules that approximate the interaction between the most important features and classes for a trained model.
+[BOS] As opposed to Lakkaraju et al. (2017) , before learning an explanation model, we modify the input data based on the importance of the features in the trained network.
+[BOS] In doing so, we already encode some information about the network's performance within these input features.
+

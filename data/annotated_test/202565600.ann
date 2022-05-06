@@ -1,0 +1,51 @@
+T1	Intro 0 5	[BOS]
+T2	Transition 197 202	[BOS]
+T3	Transition 534 539	[BOS]
+T4	Narrative_cite 645 650	[BOS]
+T5	Transition 1230 1235	[BOS]
+T6	Transition 1358 1363	[BOS]
+T7	Single_summ 1553 1558	[BOS]
+T8	Single_summ 1684 1689	[BOS]
+T9	Single_summ 1880 1885	[BOS]
+T10	Single_summ 1982 1987	[BOS]
+T11	Narrative_cite 2179 2184	[BOS]
+T12	Reflection 2367 2372	[BOS]
+T13	Reference 763 777	(Gamallo, 2018
+T14	Reference 779 800	Gonzlez et al., 2018)
+T15	Reference 828 849	(Dumitru et al., 2018
+T16	Reference 851 874	Sommerauer et al., 2018
+T17	Reference 876 893	King et al., 2018
+T18	Reference 895 912	Mao et al., 2018)
+T19	Reference 960 981	(Brychcn et al., 2018
+T20	Reference 983 1001	Attia et al., 2018
+T21	Reference 1003 1023	Dumitru et al., 2018
+T22	Reference 1025 1053	Arroyo-Fernndez et al., 2018
+T23	Reference 1055 1081	Speer and Lowry-Duda, 2018
+T24	Reference 1083 1102	Santus et al., 2018
+T25	Reference 1104 1117	Grishin, 2018
+T26	Reference 1119 1136	Zhou et al., 2018
+T27	Reference 1138 1158	Vinayan et al., 2018
+T28	Reference 1160 1181	Kulmizev et al., 2018
+T29	Reference 1183 1206	Zhang and Carpuat, 2018
+T30	Reference 1208 1227	Shiue et al., 2018)
+T31	Dominant 1559 1579	Baroni et al. (2010)
+T32	Dominant 1886 1906	Murphy et al. (2012)
+T33	Reference 2343 2363	(Fyshe et al., 2015)
+T34	B_span 718 725	textual
+T35	E_span 799 800	)
+T36	B_span 803 805	ML
+T37	E_span 911 912	)
+T38	B_span 917 919	ML
+T39	E_span 1226 1227	)
+T40	B_span 1559 1563	Baro
+T41	E_span 1878 1879	.
+T42	B_span 1886 1892	Murphy
+T43	E_span 2362 2363	)
+T44	Pronoun 9 13	this
+T45	Pronoun 1322 1327	these
+T46	Pronoun 1863 1867	this
+T47	Pronoun 2001 2006	their
+T48	Pronoun 2185 2190	Their
+T49	Pronoun 2388 2392	this
+T50	B_span 2296 2303	desired
+T51	E_span 2358 2362	2015

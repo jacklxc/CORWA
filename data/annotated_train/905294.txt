@@ -1,0 +1,16 @@
+[BOS] Our work on ensembling dependency parsers is based on Sagae and Lavie (2006) and Surdeanu and Manning (2010) ; an additional contribution of this work is to show that the normalized ensemble votes correspond to MBR parsing.
+[BOS] Petrov (2010) proposed a similar model combination with random initializations for phrase-structure parsing, using products of constituent marginals.
+[BOS] The local optima in his base model's training objective arise from latent variables instead of neural networks (in our case).
+[BOS] Model distillation was proposed by Bucil et al. (2006) , who used a single neural network to simulate a large ensemble of classifiers.
+[BOS] More recently, Ba and Caruana (2014) showed that a single shallow neural network can closely replicate the performance of an ensemble of deep neural networks in phoneme recognition and object detection.
+[BOS] Our work is closer to Hinton et al. (2015) , in the sense that we do not simply compress the ensemble and hit the "soft target," but also the "hard target" at the same time 10 .
+[BOS] These previous works only used model compression and distillation for classification; we extend the work to a structured prediction problem (dependency parsing).
+[BOS] Tckstrm et al. (2013) similarly used an ensemble of other parsers to guide the prediction of a seed model, though in a different context of "ambiguityaware" ensemble training to re-lexicalize a transfer model for a target language.
+[BOS] We similarly use an ensemble of models as a supervision for a sin-gle model.
+[BOS] By incorporating the ensemble uncertainty estimates in the cost function, our approach is cheaper, not requiring any marginalization during training.
+[BOS] An additional difference is that we learn from the gold labels ("hard targets") rather than only ensemble estimates on unlabeled data.
+[BOS] Kim and Rush (2016) proposed a distillation model at the sequence level, with application in sequence-to-sequence neural machine translation.
+[BOS] There are two primary differences with this work.
+[BOS] First, we use a global model to distill the ensemble, instead of a sequential one.
+[BOS] Second, Kim and Rush (2016) aim to distill a larger model into a smaller one, while we propose to distill an ensemble instead of a single model.
+

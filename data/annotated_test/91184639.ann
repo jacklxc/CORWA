@@ -1,0 +1,61 @@
+T1	Multi_summ 0 5	[BOS]
+T2	Reflection 144 149	[BOS]
+T3	Narrative_cite 349 354	[BOS]
+T4	Reflection 576 581	[BOS]
+T5	Single_summ 732 737	[BOS]
+T6	Reflection 920 925	[BOS]
+T7	Narrative_cite 1038 1043	[BOS]
+T8	Single_summ 1277 1282	[BOS]
+T9	Narrative_cite 1455 1460	[BOS]
+T10	Narrative_cite 1685 1690	[BOS]
+T11	Narrative_cite 2065 2070	[BOS]
+T12	Reflection 2237 2242	[BOS]
+T13	Dominant 53 73	Tu and Gimpel (2018)
+T14	Reference 491 511	(Lample et al., 2016
+T15	Reference 513 530	Ma and Hovy, 2016
+T16	Reference 532 553	Strubell et al., 2017
+T17	Reference 555 573	Yang et al., 2018)
+T18	Dominant 821 841	Edunov et al. (2018)
+T19	Reference 1248 1274	(Kingma and Welling, 2013)
+T20	Dominant 1300 1317	Kim et al. (2018)
+T21	Reference 1539 1562	(Srikumar et al., 2012)
+T22	Reference 1638 1658	(Hinton et al., 2015
+T23	Reference 1660 1680	Ba and Caruana, 2014
+T24	Reference 1795 1824	(Belanger and McCallum, 2016)
+T25	Reference 1857 1882	(Mordvintsev et al., 2015
+T26	Reference 1884 1903	Gatys et al., 2015)
+T27	Reference 1935 1960	(Goodfellow et al., 2015)
+T28	Reference 1993 2015	(Le and Mikolov, 2014)
+T29	Reference 2042 2062	(Hoang et al., 2017)
+T30	Reference 2193 2214	(Johnson et al., 2016
+T31	Reference 2216 2234	Li and Wand, 2016)
+T32	Pronoun 369 373	this
+T33	Pronoun 965 969	this
+T34	Pronoun 1057 1059	it
+T35	Pronoun 2148 2153	these
+T36	B_span 53 55	Tu
+T37	E_span 134 142	labeling
+T38	B_span 411 415	CRFs
+T39	E_span 568 572	2018
+T40	B_span 821 827	Edunov
+T41	E_span 911 917	losses
+T42	B_span 1073 1076	use
+T43	E_span 1269 1273	2013
+T44	B_span 1300 1303	Kim
+T45	E_span 1446 1452	tuning
+T46	B_span 1496 1505	inference
+T47	E_span 1557 1561	2012
+T48	B_span 1586 1592	neural
+T49	E_span 1676 1680	2014
+T51	E_span 2057 2061	2017
+T53	E_span 2229 2233	2016
+T50	B_span 1757 1767	structured
+T54	E_span 1819 1823	2016
+T55	B_span 1827 1832	image
+T56	E_span 1898 1902	2015
+T57	B_span 1906 1913	finding
+T58	E_span 1955 1959	2015
+T59	B_span 1963 1971	learning
+T60	E_span 2010 2014	2014
+T61	B_span 2022 2029	machine
+T52	B_span 2172 2177	image

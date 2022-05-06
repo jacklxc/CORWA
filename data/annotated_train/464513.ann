@@ -1,0 +1,83 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 92 97	[BOS]
+T3	Narrative_cite 311 316	[BOS]
+T4	Transition 664 669	[BOS]
+T5	Transition 780 785	[BOS]
+T6	Narrative_cite 877 882	[BOS]
+T7	Narrative_cite 1166 1171	[BOS]
+T8	Transition 1280 1285	[BOS]
+T9	Reflection 1361 1366	[BOS]
+T10	Transition 1477 1482	[BOS]
+T11	Narrative_cite 1556 1561	[BOS]
+T12	Single_summ 1874 1879	[BOS]
+T13	Single_summ 1964 1969	[BOS]
+T14	Single_summ 2037 2042	[BOS]
+T15	Reflection 2152 2157	[BOS]
+T16	Reflection 2274 2279	[BOS]
+T17	Narrative_cite 2401 2406	[BOS]
+T18	Transition 2500 2505	[BOS]
+T19	Transition 2638 2643	[BOS]
+T20	Narrative_cite 2707 2712	[BOS]
+T21	Reflection 2875 2880	[BOS]
+T22	Reference 150 172	(Deng and Wiebe, 2015)
+T23	Reference 253 276	(Kobayashi et al., 2007
+T24	Reference 278 308	Johansson and Moschitti, 2013)
+T25	Reference 470 486	(Wu et al., 2009
+T26	Reference 488 510	Yang and Cardie, 2012)
+T27	Reference 615 637	(Yang and Cardie, 2013
+T28	Reference 639 661	Yang and Cardie, 2014)
+T29	Reference 927 945	(Qiu et al., 2011)
+T30	Reference 977 993	(Xu et al., 2013
+T31	Reference 995 1011	Liu et al., 2014
+T32	Reference 1013 1037	Brody and Elhadad, 2010)
+T33	Reference 1060 1077	(Lu et al., 2011)
+T34	Reference 1111 1136	(Titov and McDonald, 2008
+T35	Reference 1138 1162	Mukherjee and Liu, 2012)
+T36	Reference 1238 1256	(Snow et al., 2004
+T37	Reference 1258 1277	Mintz et al., 2009)
+T38	Reference 1683 1699	(Vu et al., 2016
+T39	Reference 1701 1718	Zeng et al., 2015
+T40	Reference 1720 1736	Xu et al., 2015a
+T41	Reference 1738 1754	Xu et al., 2015b
+T42	Reference 1756 1777	Zhang and Wang, 2015)
+T43	Reference 1829 1845	(Li et al., 2015
+T44	Reference 1847 1871	dos Santos et al., 2015)
+T45	Dominant 1938 1961	(Miwa and Bansal, 2016)
+T46	Dominant 2063 2090	(Jebbara and Cimiano, 2016)
+T47	Reference 2461 2479	(Zhao et al., 2010
+T48	Reference 2481 2496	Yu et al., 2011
+T49	Reference 2828 2849	(Pontiki et al., 2014
+T50	Reference 2851 2872	Pontiki et al., 2015)
+T51	Pronoun 722 727	their
+T52	Pronoun 1286 1290	They
+T53	Pronoun 1970 1974	They
+T54	B_span 138 142	MPQA
+T55	E_span 167 171	2015
+T56	B_span 211 221	supervised
+T57	E_span 303 307	2013
+T58	B_span 452 459	correct
+T59	E_span 505 509	2012
+T60	B_span 595 602	unified
+T61	E_span 656 660	2014
+T62	B_span 902 906	rule
+T63	E_span 940 944	2011
+T64	B_span 948 953	graph
+T65	E_span 1032 1036	2010
+T66	B_span 1040 1047	integer
+T67	E_span 1072 1076	2011
+T68	B_span 1084 1097	probabilistic
+T69	E_span 1157 1161	2012
+T70	B_span 1206 1215	distantly
+T71	E_span 1272 1276	2009
+T72	B_span 1611 1620	recurrent
+T73	E_span 1772 1776	2015
+T74	B_span 1780 1788	sequence
+T75	E_span 1866 1870	2015
+T76	B_span 1880 1883	One
+T77	E_span 2029 2035	models
+T78	B_span 2064 2071	Jebbara
+T79	E_span 2141 2150	detection
+T80	B_span 2407 2408	A
+T81	E_span 2492 2496	2011
+T82	B_span 2785 2792	various
+T83	E_span 2867 2871	2015

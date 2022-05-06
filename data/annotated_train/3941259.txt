@@ -1,0 +1,14 @@
+[BOS] The dataset presented in this paper is to our knowledge the first publicly available resource of user-generated image captions at the size of 4M image-caption pairs.
+[BOS] The dataset that is closest to ours is the SBU captioned photo dataset (Ordonez et al., 2011 ) that contains 1M images and captions.
+[BOS] However, this dataset was filtered to include specific terms and to limit description lengths, resulting in an average sentence length of around 13 tokens.
+[BOS] See Ferraro et al. (2015) for an overview over image-caption datasets.
+
+[BOS] Multimodal caption translation on parallel caption data (see the approaches described in Specia et al. (2016) ) incorporate visual information directly into the sequence-to-sequence caption translation model or into a reranking component, or into both (see for example the attentionbased LSTM approach of Huang et al. (2016) ), or they use back-translation to generate synthetic parallel data (see for example Calixto et al. (2017) ).
+[BOS] However, obtaining parallel captioning data or retraining NMT models on large synthetic datasets is either financially or computationally expensive.
+[BOS] We thus opt for a way that does not require large amounts of parallel captions to improve translation quality.
+[BOS] Our work can be seen as an extension of the idea of Wschle and Riezler (2015) to multimodal data.
+[BOS] Their approach is based on cross-lingual retrieval techniques to find sentences in a large target-language document collection, which are then used to rerank candidate translations.
+[BOS] Our approach uses textual relevance and visual similarity (see Section 3.2) to obtain lists of multimodal pivot documents from a monolingual image-caption corpus similar to the idea described in Hitschler et al. (2016) .
+[BOS] In contrast to their approach, we do not rely on grid search for hyperparameters but instead use a machine learning approach to determine optimal weights of different rerankers to get the best scoring ensemble.
+[BOS] In order to discern the contribution of our learning method, we compare it to the monolingual reranking approach of Hitschler et al. (2016) on the MS COCO v2014 dataset that was used in their work.
+

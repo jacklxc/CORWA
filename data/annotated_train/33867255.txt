@@ -1,0 +1,18 @@
+[BOS] Many researchers have worked at learning the relationship of source words to improve the translation performance.
+[BOS] One line is to refine the presentations of the source by adding the relationship between source words or between source and target words, remaining the main architecture as RNN encoder-decoder (Bahdanau, Cho, and Bengio 2014).
+[BOS] Meng et al. (2016) introduces a new attention mechanism to the encoder-decoder architecture.
+[BOS] It defines reading and writing operations between the decoder and the representation of the source sentence to introduce interaction which is a form of relationship between source and target.
+[BOS] Bastings et al. (2017) employ graph convolutional networks to capture the relationship between the source word pairs which has a dependent relation in the source dependency tree, so this method needs the supervision of external dependency syntax.
+
+[BOS] Another line is to change the structure of the encoder totally.
+[BOS] Gehring et al. (2016) and Gehring et al. (2017) present to substitute the conventional RNN encoder with the CNN encoder in order to train faster.
+[BOS] They employ stacked CNNs to capture the relationship between source words which can be calculated simultaneously, not like RNNs the computation of which is constrained by temporal dependencies.
+[BOS] The attention scores are also computed based on the output of the CNNs and the decoder is still the RNN decoder.
+[BOS] Vaswani et al. (2017) is another work to eschew the recurrence.
+[BOS] It instead relies entirely on the attention mechanism to draw the global dependencies between input and output.
+[BOS] Although temporal dependency inherent in RNNs hinders the parallelization, it can pass messages through the history and assists the current decision, so retaining the RNNs in the model has more advantages than disadvantages.
+
+[BOS] Our method still follows the RNN encoder-decoder framework which gives the full play of the advantages of RNNs to transfer information through words bidirectionally.
+[BOS] In additional, this method also captures relationship between source words without any external knowledge injection, so is easy to use.
+[BOS] It employs relation networks to connect source words explicitly so that the model can learn the relationship itself.
+

@@ -1,0 +1,73 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 67 72	[BOS]
+T3	Transition 168 173	[BOS]
+T4	Narrative_cite 312 317	[BOS]
+T5	Transition 496 501	[BOS]
+T6	Transition 638 643	[BOS]
+T7	Single_summ 808 813	[BOS]
+T8	Single_summ 958 963	[BOS]
+T9	Transition 1086 1091	[BOS]
+T10	Transition 1158 1163	[BOS]
+T11	Single_summ 1224 1229	[BOS]
+T12	Narrative_cite 1282 1287	[BOS]
+T13	Narrative_cite 1384 1389	[BOS]
+T14	Transition 1514 1519	[BOS]
+T15	Single_summ 1586 1591	[BOS]
+T16	Transition 1770 1775	[BOS]
+T17	Single_summ 1879 1884	[BOS]
+T18	Single_summ 2007 2012	[BOS]
+T19	Transition 2147 2152	[BOS]
+T20	Single_summ 2257 2262	[BOS]
+T21	Single_summ 2377 2382	[BOS]
+T22	Single_summ 2445 2450	[BOS]
+T23	Single_summ 2567 2572	[BOS]
+T24	Single_summ 2663 2668	[BOS]
+T25	Reference 346 367	(Bowman et al., 2015)
+T26	Reference 380 398	(Tai et al., 2015)
+T27	Reference 417 433	(Yu et al., 2014
+T28	Reference 435 452	Tan et al., 2016)
+T29	Dominant 824 845	(Parikh et al., 2016)
+T30	Dominant 969 988	(Chen et al., 2017)
+T31	Dominant 1230 1253	HIM (Chen et al., 2017)
+T32	Reference 1340 1358	Tay et al. (2018b)
+T33	Reference 1363 1381	Gong et al. (2018)
+T34	Reference 1471 1489	Gong et al. (2018)
+T35	Reference 1494 1511	Kim et al. (2018)
+T36	Dominant 1665 1683	(Tan et al., 2018)
+T38	Dominant 1890 1910	(Tay et al., 2018b )
+T40	Dominant 2018 2037	(Gong et al., 2018)
+T41	Dominant 2269 2288	(Tay et al., 2018a)
+T42	Dominant 2388 2406	(Kim et al., 2018)
+T43	Dominant 2573 2595	SAN (Liu et al., 2018)
+T44	B_span 336 345	recurrent
+T45	B_span 370 379	recursive
+T46	E_span 368 369	,
+T47	B_span 403 416	convolutional
+T49	E_span 471 473	as
+T50	B_span 814 819	Decom
+T51	E_span 956 957	.
+T52	B_span 964 967	ESI
+T53	E_span 1083 1084	.
+T54	B_span 1230 1233	HIM
+T55	E_span 1280 1281	.
+T56	B_span 1288 1291	POS
+T57	E_span 1380 1381	)
+T59	E_span 1510 1511	)
+T60	B_span 1660 1662	Mw
+T61	E_span 1767 1768	.
+T62	B_span 1885 1888	CAF
+T63	E_span 2005 2006	.
+T64	B_span 2013 2015	DI
+T66	B_span 2263 2266	CSR
+T67	E_span 2375 2376	.
+T68	B_span 2383 2385	DR
+T69	E_span 2565 2566	.
+T70	B_span 2573 2576	SAN
+T72	Pronoun 321 325	this
+T73	Pronoun 562 567	these
+T74	Pronoun 2451 2453	It
+T75	Pronoun 2669 2673	This
+T48	E_span 393 397	2015
+T58	B_span 1394 1399	exact
+T37	E_span 2138 2145	results
+T39	E_span 2887 2895	matching

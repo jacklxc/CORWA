@@ -1,0 +1,8 @@
+[BOS] The creation of large scale cloze datasets such the DailyMail/CNN dataset (Hermann et al., 2015) or the Children's Book Corpus (Hill et al., 2016) paved the way for the construction of end-to-end neural architectures for reading comprehension.
+[BOS] A thorough analysis by , however, revealed that the DailyMail/CNN was too easy and still quite noisy.
+[BOS] New datasets were constructed to eliminate these problems including SQuAD (Rajpurkar et al., 2016) , NewsQA (Trischler et al., 2017) and MsMARCO (Nguyen et al., 2016) .
+
+[BOS] Previous question answering datasets such as MCTest (Richardson et al., 2013) and TREC-QA (Dang et al., 2007) were too small to successfully train end-to-end neural architectures such as the models discussed in 4 and required different approaches.
+[BOS] Traditional statistical QA systems (e.g., Ferrucci (2012) ) relied on linguistic pre-processing pipelines and extensive exploitation of external resources, such as knowledge bases for feature-engineering.
+[BOS] Other paradigms include template matching or passage retrieval (Andrenucci and Sneiders, 2005) .
+

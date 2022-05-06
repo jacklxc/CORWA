@@ -1,0 +1,11 @@
+[BOS] Inter-sentence RE is a recently introduced task.
+[BOS] Peng et al. (2017) and Song et al. (2018) used graph-based LSTM networks for n-ary RE in multiple sentences for protein-drug-disease associations.
+[BOS] They restricted the relation candidates in up to two-span sentences.
+[BOS] Verga et al. (2018) considered multi-instance learning for document-level RE.
+[BOS] Our work is different from Verga et al. (2018) in that we replace Transformer with a GCNN model for full-abstract encoding using non-local dependencies such as entity coreference.
+
+[BOS] GCNN was firstly proposed by Kipf and Welling (2017) and applied on citation networks and knowledge graph datasets.
+[BOS] It was later used for semantic role labelling (Marcheggiani and Titov, 2017), multi-document summarization (Yasunaga et al., 2017) and temporal relation extraction (Vashishth et al., 2018) .
+[BOS] Zhang et al. (2018) used a GCNN on a dependency tree for intrasentence RE.
+[BOS] Unlike previous work, we introduced a GCNN on a document-level graph, with both intra-and inter-sentence dependencies for intersentence RE.
+

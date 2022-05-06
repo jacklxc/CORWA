@@ -1,0 +1,30 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 135 140	[BOS]
+T3	Transition 296 301	[BOS]
+T4	Single_summ 397 402	[BOS]
+T5	Single_summ 568 573	[BOS]
+T6	Other 692 697	[BOS]
+T7	Other 848 853	[BOS]
+T8	Other 955 960	[BOS]
+T9	Other 1018 1023	[BOS]
+T10	Other 1130 1135	[BOS]
+T11	Other 1180 1185	[BOS]
+T12	Other 1281 1286	[BOS]
+T13	Other 1340 1345	[BOS]
+T14	Other 1458 1463	[BOS]
+T15	Other 1519 1524	[BOS]
+T16	Other 1626 1631	[BOS]
+T17	Single_summ 1642 1647	[BOS]
+T18	Transition 1782 1787	[BOS]
+T19	Reflection 1887 1892	[BOS]
+T20	Dominant 403 425	Elliott and Kdr (2017)
+T21	Dominant 1648 1669	Grnroos et al. (2018)
+T22	Pronoun 375 380	their
+T23	Pronoun 646 650	this
+T24	Pronoun 1554 1559	these
+T25	Pronoun 1572 1577	these
+T26	Pronoun 1678 1683	their
+T27	B_span 403 410	Elliott
+T28	E_span 682 689	encoder
+T29	B_span 1648 1655	Grnroos
+T30	E_span 1776 1780	2018

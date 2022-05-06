@@ -1,0 +1,19 @@
+[BOS] In parsing community, most previous works adopt ad-hoc methods to learn from PA. Sassano and Kurohashi (2010) , Jiang et al. (2010) , and Flannery and Mori (2015) convert partially annotated instances into local dependency/non-dependency classification instances, which may suffer from the lack of non-local correlation between dependencies in a tree.
+[BOS] Mirroshandel and Nasr (2011) and Majidi and Crane (2013) adopt the complete-then-learn method.
+[BOS] They use parsers coarsely trained on existing data with FA for completion via constrained decoding.
+[BOS] However, our experiments show that this leads to dramatic decrease in parsing accuracy.
+[BOS] Nivre et al. (2014) present a constrained decoding procedure for arc-eager transition-based parsers.
+[BOS] However, their work focuses on allowing their parser to effectively exploit external constraints during the evaluation phase.
+[BOS] In this work, we directly employ their method and show that constrained decoding is effective for LTPar and thus irresponsible for its ineffectiveness in learning PA.
+
+[BOS] Directly learning from PA based on constrained decoding is previously proposed by Jiang et al. (2013) for Chinese word segmentation, which is treated as a character-level sequence labeling problem.
+[BOS] In this work, we first apply the idea to
+
+[BOS] LGPar and LTPar for directly learning from PA.
+
+[BOS] Directly learning from PA based on a forestbased objective in LLGPar is first proposed by Li et al. (2014) , inspired by the idea of ambiguous labeling.
+[BOS] Similar ideas have been extensively explored recently in sequence labeling tasks (Liu et al., 2014; Yang and Vozila, 2014; Marcheggiani and Artires, 2014) .
+[BOS] Hwa (1999) pioneers the idea of exploring PA for constituent grammar induction based on a variant Inside-Outside re-estimation algorithm (Pereira and Schabes, 1992) .
+[BOS] Clark and Curran (2006) propose to train a Combinatorial Categorial Grammar parser using partially labeled data only containing predicate-argument dependencies.
+[BOS] Mielens et al. (2015) propose to impute missing dependencies based on Gibbs sampling in order to enable traditional parsers to learn from partial trees.
+

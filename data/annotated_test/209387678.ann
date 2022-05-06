@@ -1,0 +1,67 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 138 143	[BOS]
+T3	Reflection 146 151	[BOS]
+T4	Reflection 154 159	[BOS]
+T5	Reflection 207 212	[BOS]
+T6	Reflection 215 220	[BOS]
+T7	Reflection 223 228	[BOS]
+T8	Narrative_cite 318 323	[BOS]
+T9	Narrative_cite 491 496	[BOS]
+T10	Transition 712 717	[BOS]
+T11	Multi_summ 819 824	[BOS]
+T12	Multi_summ 1043 1048	[BOS]
+T13	Transition 1286 1291	[BOS]
+T14	Multi_summ 1429 1434	[BOS]
+T15	Reflection 1625 1630	[BOS]
+T16	Narrative_cite 1770 1775	[BOS]
+T17	Narrative_cite 2079 2084	[BOS]
+T18	Reflection 2312 2317	[BOS]
+T19	Reference 358 381	Sutskever et al., 2014)
+T20	Reference 445 463	(Rush et al., 2015
+T21	Reference 465 488	Nallapati et al., 2016)
+T22	Reference 651 667	(Gu et al., 2016
+T23	Reference 669 689	Vinyals et al., 2015
+T24	Reference 691 708	See et al., 2017)
+T25	Dominant 839 856	See et al. (2017)
+T26	Dominant 861 883	Gehrmann et al. (2018)
+T27	Reference 1222 1242	(Paulus et al., 2017
+T28	Reference 1244 1265	Chen and Bansal, 2018
+T29	Reference 1267 1283	Li et al., 2018)
+T30	Dominant 1458 1475	Kim et al. (2018)
+T31	Dominant 1480 1499	Vlske et al. (2017)
+T32	Reference 1843 1865	(Vaswani et al., 2017)
+T33	Reference 1927 1948	(Houlsby et al., 2019
+T34	Reference 1950 1969	Devlin et al., 2018
+T35	Reference 1971 1997	Chronopoulou et al., 2019)
+T36	Reference 2056 2076	(Zhang et al., 2019)
+T37	Reference 2287 2309	(Ziegler et al., 2019)
+T38	Reference 2429 2452	(Gehrmann et al., 2018)
+T39	Pronoun 17 21	this
+T40	Pronoun 921 925	this
+T41	Pronoun 1060 1064	this
+T42	Pronoun 1301 1306	these
+T43	Pronoun 1444 1448	this
+T44	Pronoun 2321 2325	this
+T45	Pronoun 2343 2347	this
+T46	B_span 324 332	Sequence
+T47	E_span 376 380	2014
+T48	B_span 390 392	de
+T49	E_span 483 487	2016
+T50	B_span 542 546	copy
+T51	E_span 703 707	2017
+T52	B_span 839 842	See
+T53	E_span 1278 1282	2018
+T54	E_span 1278 1282	2018
+T55	B_span 1101 1114	reinforcement
+T56	B_span 1458 1461	Kim
+T57	E_span 1615 1622	instead
+T58	B_span 1811 1817	neural
+T59	E_span 1860 1864	2017
+T60	B_span 1898 1906	language
+T61	E_span 1992 1996	2019
+T62	B_span 2039 2049	generation
+T63	E_span 2071 2075	2019
+T64	B_span 2240 2248	transfer
+T65	E_span 2304 2308	2019
+T66	B_span 2390 2395	minor
+T67	E_span 2447 2451	2018

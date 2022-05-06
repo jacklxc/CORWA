@@ -1,0 +1,72 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 377 382	[BOS]
+T3	Single_summ 467 472	[BOS]
+T4	Single_summ 598 603	[BOS]
+T5	Single_summ 859 864	[BOS]
+T6	Transition 1010 1015	[BOS]
+T7	Single_summ 1204 1209	[BOS]
+T8	Transition 1328 1333	[BOS]
+T9	Single_summ 1397 1402	[BOS]
+T10	Transition 1585 1590	[BOS]
+T11	Single_summ 1717 1722	[BOS]
+T12	Reflection 1814 1819	[BOS]
+T13	Reflection 2009 2014	[BOS]
+T14	Single_summ 2114 2119	[BOS]
+T15	Single_summ 2306 2311	[BOS]
+T16	Single_summ 2435 2440	[BOS]
+T17	Single_summ 2548 2553	[BOS]
+T18	Reflection 2699 2704	[BOS]
+T19	Reference 105 127	(Shen and Lapata, 2007
+T20	Reference 129 151	Surdeanu et al., 2011)
+T21	Reference 166 189	(Wang and Manning, 2010
+T22	Reference 191 215	Heilman and Smith, 2010)
+T23	Reference 231 254	(Moschitti et al., 2007
+T24	Reference 256 284	Severyn and Moschitti, 2012)
+T25	Reference 308 329	(Jansen et al., 2014)
+T26	Reference 355 373	(Yih et al., 2013)
+T27	Dominant 473 489	Yu et al. (2014)
+T28	Dominant 631 659	Severyn and Moschitti (2015)
+T29	Reference 831 856	(Tymoshenko et al., 2016)
+T30	Dominant 869 891	Wang and Nyberg (2015)
+T31	Dominant 1210 1228	Feng et al. (2015)
+T32	Dominant 1403 1420	Tan et al. (2016)
+T33	Dominant 1727 1745	Wang et al. (2016)
+T34	Dominant 2155 2172	Liu et al. (2016)
+T35	Dominant 2312 2332	Parikh et al. (2016)
+T36	Dominant 2445 2462	Lin et al. (2017)
+T37	Dominant 2573 2589	Li et al. (2016)
+T38	Pronoun 1823 1827	this
+T39	Pronoun 2015 2019	This
+T40	Pronoun 2736 2740	this
+T41	B_span 79 87	semantic
+T42	E_span 146 150	2011
+T43	B_span 154 159	parse
+T44	E_span 210 214	2010
+T45	B_span 218 222	tree
+T46	E_span 279 283	2012
+T47	B_span 287 296	discourse
+T48	E_span 324 328	2014
+T49	B_span 336 344	external
+T50	E_span 368 372	2013
+T51	B_span 473 475	Yu
+T52	E_span 587 596	incorrect
+T53	B_span 631 638	Severyn
+T54	E_span 851 855	2016
+T55	B_span 818 822	tree
+T56	E_span 851 855	2016
+T57	B_span 869 873	Wang
+T58	E_span 993 1007	classification
+T59	B_span 1210 1214	Feng
+T60	E_span 1318 1326	measures
+T61	B_span 1403 1406	Tan
+T62	E_span 1575 1583	question
+T63	B_span 1727 1731	Wang
+T64	E_span 1808 1811	GRU
+T65	B_span 2120 2126	Within
+T66	E_span 2298 2304	itself
+T67	B_span 2312 2318	Parikh
+T68	E_span 2425 2433	segments
+T69	B_span 2445 2448	Lin
+T70	E_span 2531 2546	multiplications
+T71	B_span 2554 2560	Within
+T72	E_span 2688 2696	labeling

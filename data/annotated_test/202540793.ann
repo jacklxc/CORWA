@@ -1,0 +1,103 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 102 107	[BOS]
+T3	Narrative_cite 529 534	[BOS]
+T4	Narrative_cite 683 688	[BOS]
+T5	Transition 1128 1133	[BOS]
+T6	Narrative_cite 1261 1266	[BOS]
+T7	Multi_summ 1634 1639	[BOS]
+T8	Reflection 1950 1955	[BOS]
+T9	Transition 2152 2157	[BOS]
+T10	Narrative_cite 2286 2291	[BOS]
+T11	Transition 2409 2414	[BOS]
+T12	Single_summ 2583 2588	[BOS]
+T13	Single_summ 2818 2823	[BOS]
+T14	Single_summ 2989 2994	[BOS]
+T15	Single_summ 3159 3164	[BOS]
+T16	Single_summ 3379 3384	[BOS]
+T17	Narrative_cite 3447 3452	[BOS]
+T18	Reflection 3606 3611	[BOS]
+T19	Reference 234 257	(Zelle and Mooney, 1996
+T20	Reference 259 279	Clarke et al., 2010)
+T21	Reference 300 330	(Zettlemoyer and Collins, 2005
+T22	Reference 332 360	Artzi and Zettlemoyer, 2011)
+T23	Reference 414 434	(Miller et al., 1996
+T24	Reference 436 455	Zhong et al., 2017)
+T25	Reference 504 525	(Yin and Neubig, 2017
+T26	Reference 621 645	(Zelle and Mooney, 1996)
+T27	Reference 660 679	(Wang et al., 2015)
+T28	Reference 759 779	(Zhong et al., 2017)
+T29	Reference 791 809	(Yu et al., 2018c)
+T30	Reference 922 944	(Dong and Lapata, 2016
+T31	Reference 946 962	Su and Yan, 2017
+T32	Reference 964 981	Iyer et al., 2017
+T33	Reference 983 998	Xu et al., 2017
+T34	Reference 1000 1027	Finegan-Dollak et al., 2018
+T35	Reference 1029 1045	Yu et al., 2018a
+T36	Reference 1047 1065	Huang et al., 2018
+T37	Reference 1067 1088	Dong and Lapata, 2018
+T38	Reference 1090 1106	Guo et al., 2018
+T39	Reference 1108 1125	Shi et al., 2018)
+T40	Reference 1370 1394	S (Hemphill et al., 1990
+T41	Reference 1396 1415	Dahl et al., 1994b)
+T42	Reference 1428 1453	(Vlachos and Clark, 2014)
+T43	Reference 1462 1480	(Long et al., 2016
+T44	Reference 1482 1498	Guu et al., 2017
+T45	Reference 1500 1518	Fried et al., 2018
+T46	Reference 1520 1539	Huang et al., 2019)
+T47	Reference 1555 1575	(Iyyer et al., 2017)
+T48	Reference 1584 1602	(Yu et al., 2019b)
+T49	Reference 1613 1631	(Yu et al., 2019a)
+T50	Dominant 1649 1669	Miller et al. (1996)
+T51	Dominant 1743 1773	Zettlemoyer and Collins (2009)
+T52	Reference 2381 2406	(Pasupat and Liang, 2015)
+T53	Dominant 2615 2635	(Iyyer et al., 2017)
+T54	Dominant 2850 2867	Yu et al. (2019a)
+T55	Reference 3540 3560	(Hayati et al., 2018
+T56	Reference 3562 3578	Yin et al., 2019
+T57	Reference 3580 3603	Hashimoto et al., 2018)
+T58	B_span 220 227	logical
+T59	E_span 278 279	)
+T60	B_span 284 290	lambda
+T61	E_span 359 360	)
+T62	B_span 402 405	SQL
+T63	E_span 454 455	)
+T65	E_span 521 525	2017
+T66	B_span 612 615	Geo
+T67	E_span 644 645	)
+T68	B_span 650 659	Overnight
+T69	E_span 678 679	)
+T70	B_span 751 754	Wik
+T71	E_span 778 779	)
+T72	B_span 784 790	Spider
+T73	E_span 808 809	)
+T74	B_span 866 870	data
+T75	E_span 1124 1125	)
+T76	B_span 1367 1370	ATI
+T77	E_span 1414 1415	)
+T78	B_span 1418 1423	Space
+T79	E_span 1452 1453	)
+T80	B_span 1456 1458	SC
+T81	E_span 1538 1539	)
+T82	B_span 1542 1552	Sequential
+T83	E_span 1574 1575	)
+T84	B_span 1578 1582	SPar
+T85	E_span 1601 1602	)
+T86	B_span 1607 1610	CoS
+T87	E_span 1630 1631	)
+T88	B_span 1643 1646	ATI
+T89	E_span 1734 1741	queries
+T90	B_span 1743 1745	Ze
+T91	E_span 1948 1949	.
+T92	B_span 2362 2365	Wik
+T93	E_span 2405 2406	)
+T94	B_span 2602 2612	Sequential
+T95	E_span 2815 2816	.
+T96	B_span 2850 2852	Yu
+T98	B_span 3513 3517	code
+T99	E_span 3602 3603	)
+T100	Pronoun 108 110	It
+T101	Pronoun 2508 2512	they
+T102	Pronoun 3385 3390	These
+T103	Pronoun 3618 3622	they
+T104	B_span 466 473	general
+T64	E_span 3437 3444	systems

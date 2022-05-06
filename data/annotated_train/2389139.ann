@@ -1,0 +1,45 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 247 252	[BOS]
+T3	Narrative_cite 317 322	[BOS]
+T4	Reflection 513 518	[BOS]
+T5	Narrative_cite 656 661	[BOS]
+T6	Narrative_cite 801 806	[BOS]
+T7	Reflection 1048 1053	[BOS]
+T8	Transition 1101 1106	[BOS]
+T9	Transition 1199 1204	[BOS]
+T10	Transition 1398 1403	[BOS]
+T11	Transition 1486 1491	[BOS]
+T12	Transition 1600 1605	[BOS]
+T13	Transition 1672 1677	[BOS]
+T14	Other 1765 1770	[BOS]
+T15	Other 1911 1916	[BOS]
+T16	Other 2073 2078	[BOS]
+T17	Other 2241 2246	[BOS]
+T18	Other 2550 2555	[BOS]
+T19	Other 2601 2606	[BOS]
+T20	Dominant 16 40	Koehn and Knowles (2017)
+T21	Reference 355 377	Alkhouli et al. (2016)
+T22	Reference 380 397	Liu et al. (2016)
+T23	Reference 778 798	Luong et al. (2015a)
+T24	Reference 942 964	Bahdanau et al. (2015)
+T25	Reference 1025 1045	Luong et al. (2015a)
+T26	Pronoun 253 257	They
+T27	Pronoun 519 523	This
+T28	Pronoun 644 648	this
+T29	Pronoun 1219 1223	they
+T30	Pronoun 1295 1297	it
+T31	Pronoun 1318 1320	it
+T32	Pronoun 1453 1457	they
+T33	Pronoun 1613 1617	this
+T34	Pronoun 2250 2254	this
+T35	Pronoun 2556 2560	This
+T36	B_span 6 14	Recently
+T37	E_span 309 314	words
+T38	B_span 683 686	non
+T39	E_span 792 797	2015a
+T40	B_span 873 878	input
+T41	E_span 959 963	2015
+T42	E_span 1039 1044	2015a
+T43	B_span 1009 1021	inputfeeding
+T44	B_span 355 363	Alkhouli
+T45	E_span 507 510	NMT

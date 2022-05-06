@@ -1,0 +1,80 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 176 181	[BOS]
+T3	Single_summ 309 314	[BOS]
+T4	Single_summ 459 464	[BOS]
+T5	Narrative_cite 674 679	[BOS]
+T6	Single_summ 832 837	[BOS]
+T7	Single_summ 1008 1013	[BOS]
+T8	Single_summ 1166 1171	[BOS]
+T9	Single_summ 1318 1323	[BOS]
+T10	Single_summ 1498 1503	[BOS]
+T11	Narrative_cite 1717 1722	[BOS]
+T12	Transition 2063 2068	[BOS]
+T13	Single_summ 2244 2249	[BOS]
+T14	Single_summ 2344 2349	[BOS]
+T15	Narrative_cite 2462 2467	[BOS]
+T16	Transition 2714 2719	[BOS]
+T17	Single_summ 2900 2905	[BOS]
+T18	Single_summ 3080 3085	[BOS]
+T19	Reflection 3273 3278	[BOS]
+T20	Reflection 3579 3584	[BOS]
+T21	Narrative_cite 3715 3720	[BOS]
+T22	Dominant 149 173	Dozat and Manning (2017)
+T23	Dominant 477 501	(Chen and Manning, 2014)
+T24	Reference 789 808	(Weiss et al., 2015
+T25	Reference 810 829	Andor et al., 2016)
+T26	Dominant 838 870	(Kiperwasser and Goldberg, 2016)
+T27	Dominant 1014 1034	(Cheng et al., 2016)
+T28	Dominant 1172 1194	(Kuncoro et al., 2016)
+T29	Dominant 1324 1343	(Ma and Hovy, 2017)
+T30	Dominant 1504 1527	Hashimoto et al. (2017)
+T31	Reference 1974 1984	Kim (2014)
+T32	Reference 1987 2013	Kalchbrenner et al. (2014)
+T33	Reference 2015 2034	Zhang et al. (2015)
+T34	Reference 2037 2060	Toutanova et al. (2015)
+T35	Dominant 2250 2267	Lei et al. (2015)
+T36	Reference 2570 2590	(Yu and Koltun, 2016
+T37	Dominant 2906 2928	Strubell et al. (2017)
+T38	Dominant 3086 3107	Gehring et al. (2017)
+T39	Reference 3721 3752	Kiperwasser and Goldberg (2016)
+T40	Reference 3763 3782	Cheng et al. (2016)
+T41	Reference 3795 3816	Kuncoro et al. (2016)
+T42	Reference 3827 3850	Hashimoto et al. (2017)
+T43	Reference 3863 3881	Ma and Hovy (2017)
+T44	Reference 3892 3916	Dozat and Manning (2017)
+T45	B_span 6 15	Currently
+T46	E_span 448 456	selected
+T47	B_span 478 482	Chen
+T48	E_span 662 672	embeddings
+T49	B_span 759 769	structured
+T50	E_span 824 828	2016
+T51	B_span 838 839	(
+T52	E_span 1000 1006	labels
+T53	B_span 1014 1015	(
+T54	E_span 1153 1164	predictions
+T55	B_span 1172 1173	(
+T56	E_span 1310 1316	parser
+T57	B_span 1324 1325	(
+T58	E_span 1489 1496	Theorem
+T59	B_span 1504 1508	Hash
+T60	E_span 1709 1714	tasks
+T61	B_span 1900 1908	sequence
+T62	E_span 2055 2059	2015
+T63	B_span 2250 2253	Lei
+T64	E_span 2447 2459	acceleration
+T66	B_span 2532 2537	image
+T68	E_span 2586 2590	2016
+T69	B_span 2906 2909	Str
+T70	E_span 3072 3078	tagger
+T71	B_span 3086 3088	Ge
+T72	E_span 3266 3271	model
+T73	B_span 3721 3732	Kiperwasser
+T74	E_span 3911 3915	2017
+T75	Pronoun 182 187	Their
+T76	Pronoun 699 703	this
+T77	Pronoun 1703 1708	these
+T78	Pronoun 1731 1736	their
+T79	Pronoun 2165 2170	their
+T80	Pronoun 2375 2379	this
+T81	Pronoun 3008 3012	this
+T82	Pronoun 3344 3349	these

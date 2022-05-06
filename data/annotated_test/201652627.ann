@@ -1,0 +1,45 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 76 81	[BOS]
+T3	Narrative_cite 322 327	[BOS]
+T4	Single_summ 485 490	[BOS]
+T5	Narrative_cite 642 647	[BOS]
+T6	Single_summ 775 780	[BOS]
+T7	Narrative_cite 953 958	[BOS]
+T8	Transition 1092 1097	[BOS]
+T9	Multi_summ 1209 1214	[BOS]
+T10	Reflection 1402 1407	[BOS]
+T11	Reference 164 185	(Mikolov et al., 2013
+T12	Reference 187 211	Pennington et al., 2014)
+T13	Reference 240 261	(Le and Mikolov, 2014
+T14	Reference 263 282	Kiros et al., 2015)
+T15	Reference 398 415	(Dai and Le, 2015
+T16	Reference 417 436	McCann et al., 2017
+T17	Reference 438 457	Peters et al., 2018
+T18	Reference 459 482	Howard and Ruder, 2018)
+T19	Dominant 537 558	(Devlin et al., 2019)
+T20	Reference 730 753	(Collobert et al., 2011
+T21	Reference 755 772	Liu et al., 2015)
+T22	Dominant 796 814	Liu et al. (2019b)
+T23	Reference 1052 1070	(Finn et al., 2017
+T24	Reference 1072 1089	Fan et al., 2018)
+T25	Dominant 1215 1231	Gu et al. (2018)
+T26	Dominant 1296 1314	Qian and Yu (2019)
+T27	Pronoun 1032 1037	their
+T28	B_span 150 158	learning
+T29	E_span 206 210	2014
+T30	B_span 215 223	sentence
+T31	E_span 277 281	2015
+T32	B_span 367 381	contextualized
+T33	E_span 477 481	2018
+T35	E_span 633 639	models
+T34	B_span 491 494	One
+T36	B_span 710 715	multi
+T37	E_span 767 771	2015
+T38	B_span 781 783	In
+T39	E_span 945 950	other
+T40	B_span 959 963	Meta
+T41	E_span 1084 1088	2018
+T42	B_span 1215 1217	Gu
+T43	E_span 1280 1291	translation
+T44	B_span 1296 1300	Qian
+T45	E_span 1396 1400	MAML

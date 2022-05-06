@@ -1,0 +1,93 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 156 161	[BOS]
+T3	Transition 373 378	[BOS]
+T4	Single_summ 551 556	[BOS]
+T5	Narrative_cite 726 731	[BOS]
+T6	Narrative_cite 919 924	[BOS]
+T7	Single_summ 1014 1019	[BOS]
+T8	Single_summ 1160 1165	[BOS]
+T9	Transition 1375 1380	[BOS]
+T10	Narrative_cite 1481 1486	[BOS]
+T11	Narrative_cite 1643 1648	[BOS]
+T12	Reflection 1900 1905	[BOS]
+T13	Transition 2042 2047	[BOS]
+T14	Single_summ 2160 2165	[BOS]
+T15	Single_summ 2343 2348	[BOS]
+T16	Single_summ 2437 2442	[BOS]
+T17	Transition 2607 2612	[BOS]
+T18	Single_summ 2807 2812	[BOS]
+T19	Single_summ 2911 2916	[BOS]
+T20	Single_summ 3049 3054	[BOS]
+T21	Reflection 3120 3125	[BOS]
+T22	Reflection 3201 3206	[BOS]
+T23	Transition 3324 3329	[BOS]
+T24	Single_summ 3496 3501	[BOS]
+T25	Single_summ 3650 3655	[BOS]
+T26	Single_summ 3829 3834	[BOS]
+T27	Transition 3932 3937	[BOS]
+T28	Single_summ 4008 4013	[BOS]
+T29	Single_summ 4178 4183	[BOS]
+T30	Reflection 4342 4347	[BOS]
+T31	Reference 197 219	(Hossain et al., 2019)
+T32	Reference 286 303	(Wu et al., 2017)
+T33	Reference 322 340	(Das et al., 2017)
+T34	Reference 343 370	(Mostafazadeh et al., 2017)
+T35	Dominant 609 628	Huang et al. (2016)
+T36	Reference 861 878	Kim et al. (2018)
+T37	Reference 988 1011	Smilevski et al. (2018)
+T38	Dominant 1050 1069	Gella et al. (2018)
+T39	Dominant 1166 1186	Chandu et al. (2019)
+T40	Reference 1606 1622	(Hu et al., 2017
+T41	Reference 1624 1640	Li et al., 2018)
+T42	Reference 1718 1743	(Prabhumoye et al., 2018)
+T43	Reference 1779 1799	(Lample et al., 2019
+T44	Reference 1801 1825	Logeswaran et al., 2018)
+T45	Reference 1872 1897	(Rao and Tetreault, 2018)
+T46	Dominant 2166 2183	(Li et al., 2016)
+T47	Dominant 2464 2483	(Zhou et al., 2018)
+T48	Dominant 3502 3530	Chandrasekaran et al. (2018)
+T49	Dominant 3835 3854	Wang and Wen (2015)
+T50	Dominant 4014 4035	Shuster et al. (2018)
+T51	B_span 180 185	image
+T52	E_span 218 219	)
+T53	B_span 260 266	visual
+T54	E_span 302 303	)
+T55	B_span 308 314	visual
+T58	E_span 369 370	)
+T59	B_span 567 570	was
+T62	E_span 724 725	.
+T64	E_span 877 878	)
+T65	B_span 967 971	late
+T66	E_span 1010 1011	)
+T67	B_span 1020 1022	In
+T68	E_span 1158 1159	.
+T69	B_span 1166 1171	Chand
+T70	E_span 1372 1373	.
+T71	B_span 1560 1565	style
+T72	E_span 1639 1640	)
+T73	B_span 1687 1699	transferring
+T74	E_span 1742 1743	)
+T75	B_span 1746 1758	transferring
+T76	E_span 1824 1825	)
+T77	B_span 1830 1840	collecting
+T78	E_span 1896 1897	)
+T79	B_span 2166 2167	(
+T80	E_span 2435 2436	.
+T81	B_span 2464 2465	(
+T82	E_span 2605 2606	.
+T83	B_span 3502 3507	Chand
+T84	E_span 3827 3828	.
+T85	B_span 3835 3839	Wang
+T86	E_span 3930 3931	.
+T87	B_span 4014 4017	Shu
+T88	E_span 4340 4341	.
+T89	Pronoun 557 561	This
+T90	Pronoun 1657 1661	this
+T91	Pronoun 2453 2457	this
+T92	Pronoun 2917 2921	This
+T93	Pronoun 3058 3063	these
+T94	Pronoun 3656 3660	This
+T95	Pronoun 3938 3943	These
+T96	Pronoun 4184 4188	They
+T97	Pronoun 4355 4359	this
+T56	B_span 777 785	generate

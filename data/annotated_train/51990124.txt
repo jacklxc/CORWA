@@ -1,0 +1,19 @@
+[BOS] Our experiments are based on the LISA model of Strubell et al. (2018) , who showed that their method for incorporating syntax into a deep neural network architecture for SRL improves SRL F1 with predicted predicates on CoNLL-2005 and CoNLL-2012 data, including on out-of-domain test data.
+[BOS] Other recent works have also found syntax to improve neural SRL models when evaluated on data from the CoNLL-2009 shared task: Roth and Lapata (2016) use LSTMs to embed syntactic dependency paths, and incorporate syntax using graph convolutional neural networks over predicted dependency parse trees.
+[BOS] In contrast to this work, found that their syntax-aware model did not out-perform a syntaxagnostic model on out-of-domain data.
+
+[BOS] The idea that an SRL model should incorporate syntactic structure is not new, since many semantic formalities are defined with respect to syntax.
+[BOS] Many of the first approaches to SRL (Pradhan et al., 2005; Surdeanu et al., 2007; Johansson and Nugues, 2008; Toutanova et al., 2008; Punyakanok et al., 2008) , spearheaded by the CoNLL-2005 shared task (Carreras and Mrquez, 2005) , achieved success by relying on syntax-heavy linguistic features as input for a linear model, combined with structured inference which could also take syntax into account.
+[BOS] showed that most of these constraints could more efficiently be enforced by exact inference in a dynamic program.
+[BOS] While most techniques required a predicted parse as input, Sutton and McCallum (2005) modeled syntactic parsing and SRL with a joint graphical model, and Lewis et al. (2015) jointly modeled SRL and CCG semantic parsing.
+[BOS] Collobert et al. (2011) were among the first to use a neural network model for SRL, using a CNN over word embeddings combined with globallynormalized inference.
+[BOS] However, their model failed to out-perform non-neural models, both with and without multi-task learning with other NLP tagging tasks such as part-of-speech tagging and chunking.
+[BOS] FitzGerald et al. (2015) were among the first to successfully employ neural networks, achieving the state-of-the-art by embedding lexicalized features and providing the embeddings as factors in the model of .
+
+[BOS] Recently there has been a move away from SRL models which explicitly incorporate syntactic knowledge through features and structured inference towards models which rely on deep neural networks to learn syntactic structure and longrange dependencies from the data.
+[BOS] Zhou and Xu (2015) were the first to achieve state-of-the-art results using 8 layers of bidirectional LSTM combined with inference in a linear-chain conditional random field (Lafferty et al., 2001) .
+[BOS] and also achieved state-of-the-art results using deep LSTMs with no syntactic features.
+[BOS] While most previous work assumes that gold predicates are given, like this work and Strubell et al. (2018) , evaluate on predicted predicates, though they train a separate model for predicate detection.
+[BOS] Most recently, Tan et al. (2018) achieved the state-of-the art on the CoNLL-2005 and 2012 shared tasks with gold predicates and no syntax using 10 layers of selfattention, and on CoNLL-2012 with gold predicates Peters et al. (2018) increase the score of by more than 3 F1 points by incorporating ELMo embeddings into their model, outperforming ensembles from Tan et al. (2018) with a single model.
+[BOS] We are interested in analyzing this relationship further by experimenting with adding ELMo embeddings to models with and without syntax in order to determine whether ELMo can replace explicit syntax in SRL models, or if they can have a synergistic relationship.
+

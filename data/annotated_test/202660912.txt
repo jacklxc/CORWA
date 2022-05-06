@@ -1,0 +1,16 @@
+[BOS] Several approaches have been proposed in recent literature that try to address the shortcomings of full fine-tuning when applied to domain adaptation (Chu and Wang, 2018) .
+[BOS] Michel and Neubig (2018) proposed a space efficient approach to adaptation that introduces domain-specific biases to the output vocabulary, enabling extreme personalization in settings where small amounts of data are available for a lot of different domains.
+[BOS] Thompson et al. (2018) fine-tune selected components of the base model architecture, in order to determine how much fine-tuning each component contributes to the final adaptation performance.
+[BOS] Wuebker et al. (2018) propose introducing sparse offsets from the base model parameters for every domain, reducing the memory complexity of loading and unloading domain specific parameters in real world settings.
+[BOS] train the base model to utilize neighboring samples from the training set, enabling the model to adapt to new domains without the need for additional parameter updates.
+[BOS] Learning Hidden Unit Contribution (LHUC) (Vilar, 2018 ) is perhaps closest to our work in spirit.
+
+[BOS] They introduce domain specific gates that control the contribution of hidden units feeding into the next layer.
+[BOS] However, they introduce a limited amount of per-domain capacity which doesn't scale well when a lot of domain specific data is available.
+
+[BOS] Residual Adapters were first introduced for adapting vision models in Rebuffi et al. (2017) , but their formulation used a single projection layer, without any tunable hyper-parameters that could be used to adjust capacity based on the target domain.
+[BOS] Houlsby et al. (2019) utilized a new formulation of adapters to adapt BERT (Devlin et al., 2018) to multiple tasks simultaneously.
+[BOS] Our formulation of adapters is motivated by theirs, but differs in a few respects.
+[BOS] Houlsby et al. (2019) introduce adapters after every sub-layer (self-attention, feed-forward) within a transformer layer, and re-train existing layer normalization parameters for every new domain.
+[BOS] We simplify this formulation by leaving the parameters frozen, and introducing new layer normalization parameters for every task, essentially mimic-ing the structure of the transformer feed-forward layer.
+

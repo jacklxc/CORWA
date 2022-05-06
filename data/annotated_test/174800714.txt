@@ -1,0 +1,22 @@
+[BOS] We briefly review related studies from three aspects: news headline generation, editing support, and application of headline generation.
+[BOS] In summary, our work is the first attempt to deploy a neural news-headline-generation model to a realworld application, i.e., news editing support tool.
+
+[BOS] News-headline-generation tasks have been extensively studied since early times (Wang et al., 2005; Soricut and Marcu, 2006; Woodsend et al., 2010; Alfonseca et al., 2013; Sun et al., 2015; Colmenares et al., 2015) .
+[BOS] In this line of research, Rush et al. (2015) proposed a neural model to generate news headlines and released a benchmark dataset for their task, and consequently this task has recently received increasing attention (Chopra et al., 2016; Takase et al., 2016; Kiyono et al., 2017; Zhou et al., 2017; Ayana et al., 2017; Raffel et al., 2017; Cao et al., 2018; Kobayashi, 2018) .
+[BOS] However, their approaches were basically based on the encoderdecoder model, which is trained with a lot of (article, headline) pairs.
+[BOS] This means that there are few situations for putting their models into the real world because news articles typically already have corresponding headlines, and most editors create a headline before its content (according to a senior journalist).
+[BOS] Therefore, our work can strongly support their approaches from a practical perspective.
+
+[BOS] Considering technologies used for editing support, there have been many studies for various purposes, such as spelling error correction (Farra et al., 2014; Hasan et al., 2015; Etoori et al., 2018) , grammatical error correction (Dahlmeier and Ng, 2012; Susanto et al., 2014; Choshen and Abend, 2018) , fact checking (Baly et al., 2018; Thorne and Vlachos, 2018; Lee et al., 2018) , fluency evaluation (Vadlapudi and Katragadda, 2010; Heilman et al., 2014; Kann et al., 2018) , and so on.
+[BOS] However, when we consider their studies on our task, they are only used after editing (writing a draft).
+[BOS] On the other hand, the purpose of our tool is different from theirs since our tool can support editors before or during editing.
+[BOS] The usage of (interactive) machine translation systems (Denkowski et al., 2014; Gonzlez-Rubio et al., 2016; Wuebker et al., 2016; Ye et al., 2016; Takeno et al., 2017) for supporting manual post-editing are similar to our purpose, but their task is completely different from ours.
+[BOS] In other words, their task is a translation without information loss, whereas our task is a summarization that requires information compression.
+[BOS] We believe that a case study on summarization is still important for the summarization community.
+
+[BOS] There have been several studies reporting case studies on headline generation for different real services: (a) question headlines on question answering service (Higurashi et al., 2018) , (b) product headlines on e-commerce service (Wang et al., 2018) , and (c) headlines for product curation pages Camargo de Souza et al., 2018) .
+[BOS] The first two (a) and (b) are extractive approaches, and the last one (c) is an abstractive approach, where the input is a set of slot/value pairs, such as "color/white."
+[BOS] That is, our task is more difficult to use in the real-world.
+[BOS] In addition, application to news services tends to be sensitive since news articles contain serious contents such as incidents, accidents, and disasters.
+[BOS] Thus, our work should be valuable as a rare case study applying a neural model to such a news service.
+

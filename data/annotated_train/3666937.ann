@@ -1,0 +1,53 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 156 161	[BOS]
+T3	Narrative_cite 341 346	[BOS]
+T4	Transition 585 590	[BOS]
+T5	Transition 748 753	[BOS]
+T6	Transition 975 980	[BOS]
+T7	Transition 1121 1126	[BOS]
+T8	Transition 1384 1389	[BOS]
+T9	Reflection 1559 1564	[BOS]
+T10	Narrative_cite 1793 1798	[BOS]
+T11	Transition 2070 2075	[BOS]
+T12	Transition 2397 2402	[BOS]
+T13	Transition 2660 2665	[BOS]
+T14	Reflection 2732 2737	[BOS]
+T15	Single_summ 2942 2947	[BOS]
+T16	Single_summ 3331 3336	[BOS]
+T17	Transition 3497 3502	[BOS]
+T18	Single_summ 3573 3578	[BOS]
+T19	Narrative_cite 3797 3802	[BOS]
+T20	Reflection 3974 3979	[BOS]
+T21	Reflection 4107 4112	[BOS]
+T22	Reference 444 462	(Wu and Wang, 2007
+T23	Reference 464 486	Cohn and Lapata, 2007)
+T24	Reference 516 536	(Devlin et al., 2014
+T25	Reference 538 554	Gao et al., 2014
+T26	Reference 556 580	Sundermeyer et al., 2014
+T27	Reference 1908 1939	(Kalchbrenner and Blunsom, 2013
+T28	Reference 1941 1963	Sutskever et al., 2014
+T29	Dominant 3054 3077	Collobert et al. (2011)
+T30	Dominant 3337 3357	Hatori et al. (2012)
+T31	Dominant 3698 3719	Ando and Zhang (2005)
+T32	Reference 3853 3875	(Sennrich et al., 2013
+T33	Reference 3877 3894	Cui et al., 2013)
+T34	Pronoun 1545 1549	this
+T35	Pronoun 2009 2011	it
+T36	Pronoun 2720 2724	this
+T37	Pronoun 2769 2773	this
+T38	Pronoun 3726 3730	they
+T39	Pronoun 4143 4147	this
+T40	B_span 420 425	pivot
+T41	E_span 481 485	2007
+T42	B_span 491 495	deep
+T43	E_span 576 580	2014
+T44	B_span 1799 1805	Neural
+T45	E_span 1959 1963	2014
+T46	B_span 2948 2950	In
+T47	E_span 3325 3329	used
+T48	B_span 3337 3343	Hatori
+T49	E_span 3487 3495	approach
+T50	B_span 3803 3814	Researchers
+T51	E_span 3889 3893	2013
+T52	B_span 3579 3583	Most
+T53	E_span 3790 3795	tasks

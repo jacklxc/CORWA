@@ -1,0 +1,44 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 226 231	[BOS]
+T3	Single_summ 382 387	[BOS]
+T4	Narrative_cite 599 604	[BOS]
+T5	Transition 838 843	[BOS]
+T6	Single_summ 964 969	[BOS]
+T7	Single_summ 1139 1144	[BOS]
+T8	Single_summ 1315 1320	[BOS]
+T9	Transition 1471 1476	[BOS]
+T10	Transition 1696 1701	[BOS]
+T11	Multi_summ 1795 1800	[BOS]
+T12	Transition 2075 2080	[BOS]
+T13	Reflection 2138 2143	[BOS]
+T14	Dominant 194 223	sim- Khandelwal et al. (2018)
+T15	Dominant 571 596	(Belinkov and Bisk, 2017)
+T16	Reference 769 786	(Adi et al., 2016
+T17	Reference 788 812	Subramanian et al., 2018
+T18	Reference 814 835	Conneau et al., 2018)
+T19	Dominant 983 1007	Gururangan et al. (2018)
+T20	Dominant 1145 1170	Kaushik and Lipton (2018)
+T21	Dominant 1321 1340	Anand et al. (2018)
+T22	Dominant 1814 1832	Tran et al. (2018)
+T23	Dominant 1912 1930	Tang et al. (2018)
+T24	Pronoun 12 16	this
+T25	Pronoun 232 236	They
+T26	Pronoun 281 283	it
+T27	Pronoun 414 416	it
+T28	Pronoun 1477 1482	These
+T30	B_span 59 72	understanding
+T31	E_span 373 380	context
+T29	B_span 410 421	conditional
+T32	E_span 591 595	2017
+T33	E_span 830 834	2018
+T34	B_span 667 682	representations
+T35	B_span 983 993	Gururangan
+T36	E_span 1129 1137	guessing
+T37	B_span 1145 1152	Kaushik
+T38	E_span 1304 1313	questions
+T39	B_span 1321 1326	Anand
+T40	E_span 1465 1469	does
+T41	B_span 1814 1818	Tran
+T42	B_span 1912 1916	Tang
+T43	E_span 1896 1905	structure
+T44	E_span 2064 2073	agreement

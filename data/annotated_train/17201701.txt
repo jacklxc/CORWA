@@ -1,0 +1,18 @@
+[BOS] Several methods for Japanese PAS analysis have been proposed.
+[BOS] The methods can be divided into three types: (i) identifying one case argument independently per predicate (Taira et al., 2008; Imamura et al., 2009; Hayashibe et al., 2011) , (ii) identifying all the three case arguments (NOM, ACC, and DAT) simultaneously per predicate (Sasano and Kurohashi, 2011; Hangyo et al., 2013) , and (iii) identifying all case arguments of all predicates in a sentence (Ouchi et al., 2015) .
+[BOS] The third method can capture interactions between predicates and their arguments, and thus performs the best among the three types.
+[BOS] This method is adopted as our base model (see Section 3 for details).
+
+[BOS] Most methods for PAS analysis handle both intra-sentential and inter-sentential zero anaphora.
+[BOS] For identifying inter-sentential zero anaphora, an antecedent has to be searched in a broad search space, and the salience of discourse entities has to be captured.
+[BOS] Therefore, the task of identifying inter-sentential zero anaphora is more difficult than that of intra-sentential zero anaphora.
+[BOS] Thus, Ouchi et al. (2015) and Iida et al. (2015) focused on only intra-sentential zero anaphora.
+[BOS] Following this trend, this paper focuses on intra-sentential zero anaphora.
+
+[BOS] Recently, NN-based approaches have achieved improvement for several NLP tasks.
+[BOS] For example, in transition-based parsing, Chen and Manning (2014) proposed an NN-based approach, where the words, POS tags, and dependency labels are first represented by embeddings individually.
+[BOS] Then, an NN-based classifier is built to make parsing decisions, where an input layer is a concatenation of embeddings of words, POS tags, and dependency labels.
+[BOS] This model has been extended by several studies (Weiss et al., 2015; .
+[BOS] In semantic role labeling, Zhou and Xu (2015) propose an end-to-end approach using recurrent NN, where an original text is the input, and semantic role labeling is performed without any intermediate syntactic knowledge.
+[BOS] Following these approaches, this paper proposes an NN-based PAS method.
+

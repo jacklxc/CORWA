@@ -1,0 +1,17 @@
+[BOS] Our work is closely aligned with Explainable Artificial Intelligence (XAI) (Gunning, 2017) , which is claimed to be essential if users are to understand, appropriately trust, and effectively manage this incoming generation of artificially intelligent partners.
+[BOS] In artificial intelligence, providing an explanation of individual decisions is a topic that has attracted attention in recent years.
+[BOS] The traditional way of explaining the results is to directly build connections between the input and output, and try to figure out how much each dimension or element in the input contributes to the final output.
+[BOS] Some previous works explain the result from two ways: evaluating the sensitivity of output if input changes and analyze the result from a mathematical way by redistributing the prediction function backward using local redistribution rules (Samek et al., 2017) .
+[BOS] There are some works connecting the result with the classification model.
+[BOS] Ribeiro et al. (2016) try to explain the result from the result itself and provide a global view of the model.
+[BOS] Although the method is promising and mathematically reasonable, they cannot generate explanations in natural forms.
+[BOS] They focus more on how to interpret the result.
+[BOS] Some of the previous works have similar motivations as our work.
+[BOS] Lei et al. (2016) rationalize neural prediction by extracting the phrases from the input texts as the explanations.
+[BOS] They conduct their work in an extractive approach, and focus on rationalizing the predictions.
+[BOS] However, our work aims not only to predict the results, but also to generate abstractive explanations, and our framework can generate explanations both in the forms of texts and numerical scores.
+[BOS] Ouyang et al. (2018) apply explanations to recommendation systems, integrating user information to generate explanation texts and further evaluating these explanations by using them to predict the result.
+[BOS] The problem of their work is that they don't build strong interactions between the explanations and recommendation results, where the strongest connection of the recommendation result and explanations is that they have the same input.
+[BOS] Hancock et al. (2018) proposes to use a classifier with natural language explanations that are annotated by human beings to do the classification.
+[BOS] Our work is different from theirs in that we use the natural attributes as the explanations which are more frequent in reality.
+

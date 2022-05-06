@@ -1,0 +1,22 @@
+[BOS] Question Generation.
+[BOS] Generating questions from various kinds of sources, such as texts (Rus et al., 2010; Heilman and Smith, 2010; Mitkov and Ha, 2003; Du et al., 2017) , search queries (Zhao et al., 2011) , knowledge bases (Serban et al., 2016b) and images (Mostafazadeh et al., 2016) , has attracted much attention recently.
+[BOS] Our work is most related to previous work on generating questions from sentences or paragraphs.
+[BOS] Most early approaches are based on rules and templates (Heilman and Smith, 2010; Mitkov and Ha, 2003) , while Du et al. (2017) recently proposed to generate a question by a Sequence-to-Sequence neural network model with attention (Luong et al., 2015) .
+[BOS] Other approaches such as Subramanian et al., 2017) take into account the answer information in addition to the given sentence or paragraph.
+[BOS] (Du and Cardie, 2018; Song et al., 2018) further modeled the surrounding paragraph-level information of the given sentence.
+[BOS] However, most of the work focused on generating standalone questions solely based on a sentence or a paragraph.
+[BOS] In contrast, this work explores conversational question generation and has to additionally consider the conversation history in order to generate a coherent question, making the task much more challenging.
+
+[BOS] Conversation Generation.
+[BOS] Building chatbots and conversational agents has been pursued by many previous work (Ritter et al., 2011; Vinyals and Le, 2015; Sordoni et al., 2015; Serban et al., 2016a; Li et al., 2016a,b) .
+[BOS] Vinyals and Le (2015) used a Sequence-to-Sequence neural network for generating a response given the dialog history.
+[BOS] Li et al. (2016a) further optimized the response diversity by maximizing the mutual information between inputs and output responses.
+[BOS] Different from these work where the response can be in any form (usually a declarative statement) and is generated solely based on the dialog history, our task is potentially more challenging as it additionally restricts the generated response to be a follow-up question about a given passage.
+
+[BOS] Conversational Question Answering (CQA).
+[BOS] CQA aims to automatically answer a sequence of questions.
+[BOS] It has been studied in the knowledge base setting (Saha et al., 2018; Iyyer et al., 2017) and is often framed as a semantic parsing problem.
+[BOS] Recently released large-scale datasets (Reddy et al., 2018; enabled studying it in the textual setting where the information source used to answer questions is a given passage, and they inspired many significant work (Zhu et al., 2018; Yatskar, 2018) .
+[BOS] However, collecting such datasets has heavily relied on human efforts and can be very costly.
+[BOS] Based on one of the most popular datasets CoQA (Reddy et al., 2018) , we examine the possibility of automatically generating conversational questions, which can potentially reduce the data collection cost for CQA.
+

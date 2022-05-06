@@ -1,0 +1,52 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 85 90	[BOS]
+T3	Transition 291 296	[BOS]
+T4	Transition 426 431	[BOS]
+T5	Transition 546 551	[BOS]
+T6	Transition 746 751	[BOS]
+T7	Narrative_cite 869 874	[BOS]
+T8	Narrative_cite 1074 1079	[BOS]
+T9	Single_summ 1358 1363	[BOS]
+T10	Single_summ 1644 1649	[BOS]
+T11	Single_summ 1850 1855	[BOS]
+T12	Narrative_cite 2067 2072	[BOS]
+T13	Single_summ 2237 2242	[BOS]
+T14	Reflection 2382 2387	[BOS]
+T15	Reference 141 161	(Young et al., 2014)
+T16	Reference 942 963	(Conneau et al., 2017
+T17	Reference 965 986	Nie and Bansal, 2017)
+T18	Reference 1154 1175	(Parikh et al., 2016)
+T19	Reference 1183 1202	(Chen et al., 2017)
+T20	Reference 1243 1265	(Radford et al., 2018)
+T21	Dominant 1402 1422	Jia and Liang (2017)
+T22	Reference 1530 1554	(Rajpurkar et al., 2016)
+T23	Dominant 1650 1672	Glockner et al. (2018)
+T24	Dominant 1856 1874	Naik et al. (2018)
+T25	Reference 2084 2102	(Kang et al., 2018
+T26	Reference 2104 2122	Zhao et al., 2018)
+T27	Reference 2209 2234	(Goodfellow et al., 2014)
+T28	Dominant 2243 2264	Ribeiro et al. (2018)
+T29	B_span 126 131	image
+T30	E_span 156 160	2014
+T31	B_span 917 925	sentence
+T32	E_span 981 985	2017
+T33	B_span 1131 1143	Decomposable
+T34	E_span 1170 1174	2016
+T35	B_span 1178 1182	ESIM
+T36	E_span 1197 1201	2017
+T37	B_span 1211 1214	pre
+T38	E_span 1260 1264	2018
+T40	E_span 1635 1642	passage
+T41	B_span 1364 1375	Adversarial
+T39	B_span 1524 1529	SQuAD
+T42	E_span 1549 1553	2016
+T43	B_span 1650 1658	Glockner
+T44	E_span 1841 1848	antonym
+T45	B_span 1856 1860	Naik
+T46	E_span 2054 2064	mismatches
+T47	B_span 2085 2089	Kang
+T48	E_span 2229 2233	2014
+T49	B_span 2177 2187	generative
+T50	E_span 2229 2233	2014
+T51	B_span 2243 2250	Ribeiro
+T52	E_span 2375 2380	model

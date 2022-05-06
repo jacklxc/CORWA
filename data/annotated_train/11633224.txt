@@ -1,0 +1,13 @@
+[BOS] Researches focused on the automatic adaptation between different corpora can be roughly classified into two kinds, adaptation between different domains (with different statistical distribution) (Blitzer et al., 2006; Daum III, 2007) , and adaptation between different annotation guidelines (Jiang et al., 2009; Zhu et al., 2011) .
+[BOS] There are also some efforts that totally or partially resort to manual transformation rules, to conduct treebank conversion (Cahill and Mccarthy, 2002; Hockenmaier and Steedman, 2007; Clark and Curran, 2009) , and word segmentation guideline transformation (Gao et al., 2004; Mi et al., 2008) .
+[BOS] This work focuses on the automatic transformation between annotation guidelines, and proposes better annotation transformation technologies to improve the transformation accuracy and the utilization rate of human-annotated knowledge.
+
+[BOS] The iterative training procedure proposed in this work shares some similarity with the co-training algorithm in parsing (Sarkar, 2001) , where the training procedure lets two different models learn from each other during parsing the raw text.
+[BOS] The key idea of co-training is utilize the complementarity of different parsing models to mine additional training data from raw text, while iterative training for annotation transformation emphasizes the iterative optimization of the parellelly annotated corpora used to train the transformation models.
+[BOS] The predictself methodology is implicit in many unsupervised learning approaches, it has been successfully used by (Daum III, 2009 ) in unsupervised dependency parsing.
+[BOS] We adapt this idea to the scenario of annotation transformation to improve transformation accuracy.
+
+[BOS] In recent years many works have been devoted to the word segmentation task.
+[BOS] For example, the introduction of global training or complicated features (Zhang and Clark, 2007; Zhang and Clark, 2010) ; the investigation of word structures (Li, 2011) ; the strategies of hybrid, joint or stacked modeling (Nakagawa and Uchimoto, 2007; Kruengkrai et al., 2009; Wang et al., 2010; Sun, 2011) , and the semisupervised and unsupervised technologies utilizing raw text (Zhao and Kit, 2008; Johnson and Goldwater, 2009; Mochihashi et al., 2009; Hewlett and Cohen, 2011) .
+[BOS] We estimate that the annotation transformation technologies can be adopted jointly with complicated features, system combination and semisupervised/unsupervised technologies to further improve segmentation performance.
+

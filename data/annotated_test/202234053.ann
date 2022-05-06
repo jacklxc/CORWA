@@ -1,0 +1,81 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 109 114	[BOS]
+T3	Single_summ 277 282	[BOS]
+T4	Single_summ 440 445	[BOS]
+T5	Single_summ 643 648	[BOS]
+T6	Single_summ 784 789	[BOS]
+T7	Transition 924 929	[BOS]
+T8	Single_summ 1003 1008	[BOS]
+T9	Single_summ 1156 1161	[BOS]
+T10	Single_summ 1251 1256	[BOS]
+T11	Transition 1382 1387	[BOS]
+T12	Single_summ 1490 1495	[BOS]
+T13	Single_summ 1666 1671	[BOS]
+T14	Single_summ 1776 1781	[BOS]
+T15	Transition 1990 1995	[BOS]
+T16	Single_summ 2112 2117	[BOS]
+T17	Single_summ 2376 2381	[BOS]
+T18	Single_summ 2558 2563	[BOS]
+T19	Single_summ 2695 2700	[BOS]
+T20	Reflection 2784 2789	[BOS]
+T21	Transition 2899 2904	[BOS]
+T22	Transition 3158 3163	[BOS]
+T23	Other 3249 3254	[BOS]
+T24	Other 3257 3262	[BOS]
+T25	Transition 3275 3280	[BOS]
+T26	Transition 3529 3534	[BOS]
+T27	Reflection 3770 3775	[BOS]
+T28	Other 3967 3972	[BOS]
+T29	Other 4040 4045	[BOS]
+T30	Other 4104 4109	[BOS]
+T31	Reflection 4154 4159	[BOS]
+T32	Reflection 4273 4278	[BOS]
+T33	Dominant 115 132	Tan et al. (2018)
+T34	Dominant 446 458	Mitra (2017)
+T35	Dominant 649 666	Gao et al. (2019)
+T36	Dominant 902 920	Nema et al. (2017)
+T37	Dominant 1009 1034	Mihaylov and Frank (2018)
+T38	Dominant 1162 1181	Zhong et al. (2018)
+T39	Dominant 1257 1275	Long et al. (2017)
+T40	Dominant 1502 1520	(Yin et al., 2016)
+T41	Dominant 1679 1696	(He et al., 2017)
+T42	Dominant 1792 1810	Fu and Feng (2018)
+T43	Dominant 2123 2142	(Weissenborn, 2017)
+T44	Dominant 2402 2427	(Yang and Mitchell, 2017)
+T45	Dominant 2577 2596	Bauer et al. (2018)
+T46	Pronoun 166 170	they
+T47	Pronoun 197 202	their
+T48	Pronoun 292 296	this
+T49	Pronoun 447 449	it
+T50	Pronoun 612 614	it
+T51	Pronoun 1316 1318	it
+T52	Pronoun 2353 2358	these
+T53	Pronoun 2799 2804	these
+T54	Pronoun 4210 4214	they
+T55	Pronoun 4333 4338	their
+T56	B_span 115 118	Tan
+T57	E_span 434 438	pair
+T58	B_span 446 451	Mitra
+T59	E_span 635 641	answer
+T60	B_span 649 652	Gao
+T61	E_span 772 782	attributes
+T62	B_span 790 801	Furthermore
+T63	E_span 915 919	2017
+T64	B_span 1009 1017	Mihaylov
+T65	E_span 1145 1154	attention
+T66	B_span 1162 1167	Zhong
+T67	E_span 1240 1249	selection
+T68	B_span 1257 1261	Long
+T69	E_span 1372 1380	document
+T70	B_span 1496 1501	GenQA
+T71	E_span 1660 1664	fact
+T72	B_span 1672 1678	COREQA
+T73	E_span 1766 1774	question
+T74	B_span 1792 1794	Fu
+T75	E_span 1980 1987	answers
+T76	B_span 2118 2122	CRWE
+T77	E_span 2359 2374	representations
+T78	B_span 2395 2401	KBLSTM
+T79	E_span 2549 2556	reading
+T80	B_span 2577 2582	Bauer
+T81	E_span 2773 2782	knowledge

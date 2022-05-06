@@ -1,0 +1,36 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 217 222	[BOS]
+T3	Single_summ 406 411	[BOS]
+T4	Narrative_cite 455 460	[BOS]
+T5	Narrative_cite 586 591	[BOS]
+T6	Transition 693 698	[BOS]
+T7	Transition 765 770	[BOS]
+T8	Transition 916 921	[BOS]
+T9	Transition 1123 1128	[BOS]
+T10	Transition 1196 1201	[BOS]
+T11	Single_summ 1361 1366	[BOS]
+T12	Single_summ 1580 1585	[BOS]
+T13	Reference 81 94	(Orsan, 2003)
+T14	Reference 105 129	(Mller and Strube, 2006)
+T15	Dominant 232 256	(Pajas an Stpnek, 2009 )
+T16	Reference 512 536	(Stenetorp et al., 2012)
+T17	Reference 563 583	(Yimam et al., 2013)
+T18	Reference 668 689	(Zeldes et al., 2009)
+T19	Dominant 1367 1394	Kummerfeld and Klein (2013)
+T21	B_span 73 80	PAlinkA
+T23	B_span 99 104	MMAX2
+T24	E_span 89 93	2003
+T25	E_span 124 128	2006
+T26	B_span 223 226	The
+T27	E_span 447 453	engine
+T28	B_span 497 500	web
+T29	E_span 531 535	2012
+T30	B_span 545 554	extension
+T31	E_span 578 582	2013
+T32	B_span 662 667	ANNIS
+T33	E_span 688 689	)
+T34	B_span 1367 1377	Kummerfeld
+T35	E_span 1802 1805	3).
+T36	Pronoun 412 414	It
+T37	Pronoun 771 775	They
+T38	Pronoun 1595 1600	their

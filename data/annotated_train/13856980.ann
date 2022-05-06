@@ -1,0 +1,90 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 117 122	[BOS]
+T3	Transition 336 341	[BOS]
+T4	Transition 410 415	[BOS]
+T5	Transition 540 545	[BOS]
+T6	Single_summ 694 699	[BOS]
+T7	Single_summ 907 912	[BOS]
+T8	Transition 1029 1034	[BOS]
+T9	Single_summ 1119 1124	[BOS]
+T10	Multi_summ 1268 1273	[BOS]
+T11	Transition 1416 1421	[BOS]
+T12	Multi_summ 1485 1490	[BOS]
+T13	Multi_summ 1643 1648	[BOS]
+T14	Single_summ 1874 1879	[BOS]
+T15	Multi_summ 1999 2004	[BOS]
+T16	Single_summ 2158 2163	[BOS]
+T17	Single_summ 2283 2288	[BOS]
+T18	Single_summ 2354 2359	[BOS]
+T19	Transition 2446 2451	[BOS]
+T20	Transition 2571 2576	[BOS]
+T21	Single_summ 2699 2704	[BOS]
+T22	Single_summ 2842 2847	[BOS]
+T23	Single_summ 2928 2933	[BOS]
+T24	Single_summ 3135 3140	[BOS]
+T25	Single_summ 3264 3269	[BOS]
+T26	Reflection 3454 3459	[BOS]
+T27	Reflection 3664 3669	[BOS]
+T28	Dominant 765 794	Zollmann and Venugopal (2006)
+T29	Dominant 1125 1150	Zollmann and Vogel (2011)
+T30	Dominant 1274 1299	Hanneman and Lavie (2013)
+T31	Reference 1383 1414	(Zollmann and Venugopal, 2006 )
+T32	Dominant 1491 1509	Shen et al. (2009)
+T33	Dominant 1560 1573	Chiang (2010)
+T34	Reference 1660 1689	Zollmann and Venugopal (2006)
+T35	Dominant 1692 1714	Hoang and Koehn (2010)
+T36	Dominant 1880 1908	Mylonakis and Sima'an (2011)
+T37	Dominant 2111 2134	(Almaghout et al., 2011
+T38	Dominant 2136 2155	Weese et al., 2012)
+T39	Dominant 2164 2180	Li et al. (2012)
+T40	Dominant 2360 2380	Gao and Vogel (2011)
+T41	Dominant 2705 2728	Venugopal et al. (2009)
+T42	Dominant 2848 2867	Huang et al. (2010)
+T43	Dominant 3163 3182	Huang et al. (2013)
+T44	Dominant 3270 3287	Cao et al. (2014)
+T45	Reference 3884 3904	(Turian et al., 2010
+T46	Reference 3906 3926	Socher et al., 2010)
+T47	Pronoun 123 128	These
+T48	Pronoun 966 970	this
+T49	Pronoun 1059 1063	this
+T50	Pronoun 1849 1854	their
+T51	Pronoun 2934 2938	They
+T52	Pronoun 2943 2948	these
+T53	Pronoun 3051 3056	these
+T54	Pronoun 3152 3156	this
+T55	Pronoun 3437 3442	their
+T56	Pronoun 3492 3497	these
+T57	B_span 700 703	The
+T58	E_span 1017 1027	categories
+T59	B_span 1125 1133	Zollmann
+T60	E_span 1256 1266	categories
+T61	B_span 1274 1282	Hanneman
+T62	E_span 1408 1412	2006
+T63	B_span 1369 1373	SAMT
+T64	E_span 1408 1412	2006
+T65	B_span 1491 1495	Shen
+T66	E_span 1547 1553	labels
+T67	B_span 1560 1566	Chiang
+T68	E_span 1635 1641	labels
+T69	B_span 1660 1668	Zollmann
+T70	E_span 1684 1688	2006
+T71	B_span 1692 1697	Hoang
+T72	E_span 1867 1872	model
+T73	B_span 1880 1889	Mylonakis
+T74	E_span 1990 1997	grammar
+T75	B_span 2005 2016	Combinatory
+T76	E_span 2150 2154	2012
+T77	B_span 2164 2166	Li
+T78	E_span 2340 2352	nonterminals
+T79	B_span 2360 2363	Gao
+T80	E_span 2439 2444	rules
+T81	B_span 2705 2714	Venugopal
+T82	E_span 2830 2840	categories
+T83	B_span 2848 2853	Huang
+T84	E_span 3128 3133	rules
+T85	B_span 3141 3148	Similar
+T86	E_span 3249 3262	distributions
+T87	B_span 3270 3273	Cao
+T88	E_span 3443 3451	contexts
+T89	B_span 3850 3859	syntactic
+T90	E_span 3921 3925	2010

@@ -1,0 +1,40 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 294 299	[BOS]
+T3	Reflection 403 408	[BOS]
+T4	Reflection 508 513	[BOS]
+T5	Transition 623 628	[BOS]
+T6	Single_summ 760 765	[BOS]
+T7	Reflection 917 922	[BOS]
+T8	Narrative_cite 1039 1044	[BOS]
+T9	Transition 1180 1185	[BOS]
+T10	Single_summ 1250 1255	[BOS]
+T11	Single_summ 1384 1389	[BOS]
+T12	Reflection 1495 1500	[BOS]
+T13	Reference 104 124	(Lample et al., 2018
+T14	Reference 126 149	Marie and Fujita, 2018)
+T15	Reference 158 180	(Artetxe et al., 2018b
+T16	Reference 449 471	Artetxe et al. (2018b)
+T17	Reference 476 499	Marie and Fujita (2018)
+T18	Reference 530 551	(Lample et al., 2018)
+T19	Dominant 766 782	Ge et al. (2018)
+T20	Reference 1115 1136	(Susanto et al., 2014
+T21	Reference 1138 1177	Junczys-Dowmunt and Grundkiewicz, 2014)
+T22	Dominant 1256 1294	JunczysDowmunt and Grundkiewicz (2014)
+T23	Pronoun 409 413	this
+T24	Pronoun 1186 1191	These
+T25	Pronoun 1407 1411	they
+T26	Pronoun 1504 1508	this
+T28	E_span 175 180	2018b
+T29	B_span 434 438	USMT
+T30	E_span 494 498	2018
+T31	B_span 518 522	UNMT
+T32	E_span 546 550	2018
+T33	B_span 766 768	Ge
+T34	E_span 910 915	pairs
+T35	B_span 1111 1114	SMT
+T36	E_span 1172 1176	2014
+T37	B_span 1256 1270	JunczysDowmunt
+T38	E_span 1489 1493	data
+T27	B_span 100 103	NMT
+T39	E_span 144 148	2018
+T40	B_span 154 157	SMT

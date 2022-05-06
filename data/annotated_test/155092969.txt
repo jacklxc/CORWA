@@ -1,0 +1,30 @@
+[BOS] Partial-input baselines are valuable sanity checks for datasets, but as we illustrate, their implications should be understood carefully.
+[BOS] This section discusses methods for validating and creating datasets in light of possible artifacts from the annotation process, as well as empirical results that corroborate the potential pitfalls highlighted in this paper.
+[BOS] Furthermore, we discuss alternative approaches for developing robust NLP models.
+
+[BOS] Hypothesis Testing Validating datasets with partial-input baselines is a form of hypothesistesting: one hypothesizes trivial solutions to the dataset (i.e., a spurious correlation between labels and a part of the input) and verifies if these hypotheses are true.
+[BOS] While it is tempting to hypothesize other ways a model can cheat, it is infeasible to enumerate over all of them.
+[BOS] In other words, if we could write down all the necessary tests for test-driven development (Beck, 2002) of a machine learning model, we would already have a rule-based system that can solve our task.
+
+[BOS] Adversarial Annotation Rather than using partial-input baselines as post-hoc tests, a natural idea is to incorporate them into the data generation process to reject bad examples.
+[BOS] For example, the SWAG (Zellers et al., 2018 ) dataset consists of multiple-choice answers that are selected adversarially against an ensemble of partial-input and heuristic classifiers.
+[BOS] However, since these classifiers can be easily fooled if they rely on superficial patterns, the resulting dataset may still contain artifacts.
+[BOS] In particular, a much stronger model (BERT) that sees the full-input easily solves the dataset.
+[BOS] This demonstrates that using partial-input baselines as adversaries may lead to datasets that are just difficult enough to fool the baselines but not difficult enough to ensure that no model can cheat.
+
+[BOS] Adversarial Evaluation Instead of validating a dataset, one can alternatively probe the model directly.
+[BOS] For example, models can be stress tested using adversarial examples (Jia and Liang, 2017; Wallace et al., 2019) and challenge sets (Glockner et al., 2018; Naik et al., 2018) .
+[BOS] These tests can reveal strikingly simple model limitations, e.g., basic paraphrases can fool textual entailment and visual question answering systems (Iyyer et al., 2018; Ribeiro et al., 2018) , while common typos drastically degrade neural machine translation quality (Belinkov and Bisk, 2018) .
+
+[BOS] Interpretations Another technique for probing models is to use interpretation methods.
+[BOS] Interpretations, however, have a problem of faithfulness (Rudin, 2018) : they approximate (often locally) a complex model with a simpler, interpretable model (often a linear model).
+[BOS] Since interpretations are inherently an approximation, they can never be completely faithful-there are cases where the original model and the simple model behave differently (Ghorbani et al., 2019) .
+[BOS] These cases might also be especially important as they usually reflect the counter-intuitive brittleness of the complex models (e.g., in adversarial examples).
+
+[BOS] Certifiable Robustness Finally, an alternative approach for creating models that are free of artifacts is to alter the training process.
+[BOS] In particular, model robustness research in computer vision has begun to transition from an empirical arms race between attackers and defenders to more theoretically sound robustness methods.
+[BOS] For instance, convex relaxations can train models that are provably robust to adversarial examples (Raghunathan et al., 2018; Wong and Kolter, 2018) .
+[BOS] Despite these method's impressive (and rapidly developing) results, they largely focus on adversarial perturbations bounded to an L  ball.
+[BOS] This is due to the difficulties in formalizing attacks and defenses for more complex threat models, of which the discrete nature of NLP is included.
+[BOS] Future work can look to generalize these methods to other classes of model vulnerabilities and artifacts.
+

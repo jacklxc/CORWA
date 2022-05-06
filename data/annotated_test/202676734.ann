@@ -1,0 +1,42 @@
+T1	Reflection 0 5	[BOS]
+T2	Transition 75 80	[BOS]
+T3	Multi_summ 159 164	[BOS]
+T4	Transition 299 304	[BOS]
+T5	Multi_summ 382 387	[BOS]
+T6	Transition 701 706	[BOS]
+T7	Single_summ 762 767	[BOS]
+T8	Single_summ 924 929	[BOS]
+T9	Single_summ 1107 1112	[BOS]
+T10	Single_summ 1343 1348	[BOS]
+T11	Single_summ 1505 1510	[BOS]
+T12	Reflection 1684 1689	[BOS]
+T13	Dominant 184 206	(Narayan et al., 2018b
+T14	Dominant 208 226	Chen et al., 2018)
+T15	Reference 514 530	(Ma et al., 2018
+T16	Reference 532 549	Gao et al., 2019a
+T17	Dominant 551 569	Chen et al., 2019)
+T18	Dominant 768 786	(Guu et al., 2018)
+T19	Dominant 1113 1131	(Cao et al., 2018)
+T20	Dominant 1394 1412	(Cai et al., 2018)
+T21	Reference 1570 1588	(Oya et al., 2014)
+T22	B_span 165 172	Extract
+T26	B_span 768 769	(
+T27	E_span 1105 1106	.
+T28	B_span 1113 1114	(
+T29	E_span 1341 1342	.
+T30	B_span 1394 1395	(
+T31	E_span 1503 1504	.
+T32	B_span 1511 1519	Template
+T33	E_span 1681 1682	.
+T34	Pronoun 324 329	these
+T35	Pronoun 345 349	they
+T36	Pronoun 399 401	it
+T37	Pronoun 940 944	this
+T38	Pronoun 1140 1144	this
+T39	Pronoun 1176 1180	they
+T40	Pronoun 1364 1369	these
+T41	E_span 290 297	summary
+T23	B_span 500 513	summarization
+T24	E_span 598 611	summarization
+T25	B_span 1550 1554	hard
+T42	E_span 1583 1587	2014

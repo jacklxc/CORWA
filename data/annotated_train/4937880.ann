@@ -1,0 +1,90 @@
+T1	Reflection 0 5	[BOS]
+T2	Multi_summ 194 199	[BOS]
+T3	Reflection 461 466	[BOS]
+T4	Reflection 700 705	[BOS]
+T5	Reflection 809 814	[BOS]
+T6	Reflection 858 863	[BOS]
+T7	Single_summ 1021 1026	[BOS]
+T8	Single_summ 1261 1266	[BOS]
+T9	Single_summ 1487 1492	[BOS]
+T10	Multi_summ 1629 1634	[BOS]
+T11	Multi_summ 1852 1857	[BOS]
+T12	Reflection 1994 1999	[BOS]
+T13	Reflection 2055 2060	[BOS]
+T14	Narrative_cite 2228 2233	[BOS]
+T15	Reflection 2474 2479	[BOS]
+T16	Reflection 2565 2570	[BOS]
+T17	Reflection 2710 2715	[BOS]
+T18	Narrative_cite 2840 2845	[BOS]
+T19	Transition 3209 3214	[BOS]
+T20	Reflection 3378 3383	[BOS]
+T21	Reflection 3401 3406	[BOS]
+T22	Transition 3515 3520	[BOS]
+T23	Other 3582 3587	[BOS]
+T24	Other 3688 3693	[BOS]
+T25	Other 3758 3763	[BOS]
+T26	Other 3836 3841	[BOS]
+T27	Other 3911 3916	[BOS]
+T28	Other 4000 4005	[BOS]
+T29	Other 4083 4088	[BOS]
+T30	Other 4184 4189	[BOS]
+T31	Other 4270 4275	[BOS]
+T32	Other 4370 4375	[BOS]
+T33	Other 4434 4439	[BOS]
+T34	Other 4507 4512	[BOS]
+T35	Other 4580 4585	[BOS]
+T36	Other 4632 4637	[BOS]
+T37	Other 4674 4679	[BOS]
+T38	Other 4682 4687	[BOS]
+T39	Other 4690 4695	[BOS]
+T40	Other 4764 4769	[BOS]
+T41	Other 4824 4829	[BOS]
+T42	Dominant 220 237	Shen et al., 2017
+T43	Dominant 239 254	Fu et al., 2018
+T44	Dominant 256 276	Melnyk et al., 2017)
+T45	Dominant 1069 1085	Hu et al. (2017)
+T46	Dominant 1493 1511	Shen et al. (2017)
+T47	Dominant 1690 1711	(Artetxe et al., 2017
+T48	Dominant 1713 1733	Lample et al., 2017)
+T49	Reference 1763 1784	Jun-Yan et al. (2017)
+T50	Reference 2201 2225	(Wang and Manning, 2012)
+T51	Reference 2361 2389	(Globerson and Roweis, 2006)
+T52	Reference 2978 3000	(Recasens et al., 2013
+T53	Reference 3002 3023	Schwartz et al., 2017
+T54	Reference 3025 3045	Newman et al., 2003)
+T55	Reference 3099 3127	Pavlick and Tetreault (2017)
+T56	Pronoun 89 91	it
+T57	Pronoun 1357 1361	they
+T58	Pronoun 1377 1382	these
+T59	Pronoun 1858 1863	These
+T60	Pronoun 2005 2009	they
+T61	Pronoun 2243 2248	these
+T62	Pronoun 3443 3447	this
+T63	Pronoun 4347 4351	this
+T64	Pronoun 4411 4415	this
+T65	Pronoun 4484 4488	this
+T66	Pronoun 4555 4559	this
+T67	Pronoun 4575 4577	it
+T68	Pronoun 4605 4609	this
+T69	Pronoun 4662 4664	it
+T70	Pronoun 4744 4748	this
+T71	Pronoun 4803 4805	it
+T72	Pronoun 4870 4874	this
+T73	B_span 200 204	Most
+T74	E_span 450 459	embedding
+T75	B_span 1027 1029	To
+T76	E_span 1477 1485	transfer
+T77	B_span 1493 1497	Shen
+T78	E_span 1621 1627	domain
+T79	B_span 1650 1662	unsupervised
+T80	E_span 1981 1992	translation
+T81	B_span 1741 1746	cycle
+T82	E_span 1779 1783	2017
+T83	B_span 2176 2185	sentiment
+T84	E_span 2220 2224	2012
+T85	B_span 2340 2351	informative
+T86	E_span 2384 2388	2006
+T87	B_span 2944 2952	manifest
+T88	E_span 3040 3044	2003
+T89	B_span 3048 3050	we
+T90	E_span 3197 3207	boundaries

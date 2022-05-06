@@ -1,0 +1,36 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 154 159	[BOS]
+T3	Narrative_cite 250 255	[BOS]
+T4	Transition 394 399	[BOS]
+T5	Transition 452 457	[BOS]
+T6	Narrative_cite 643 648	[BOS]
+T7	Reflection 902 907	[BOS]
+T8	Other 1054 1059	[BOS]
+T9	Other 1217 1222	[BOS]
+T10	Other 1275 1280	[BOS]
+T11	Other 1443 1448	[BOS]
+T12	Other 1583 1588	[BOS]
+T13	Other 1688 1693	[BOS]
+T14	Other 1812 1817	[BOS]
+T15	Other 1887 1892	[BOS]
+T16	Reference 45 66	(Madaan et al., 2016)
+T17	Reference 331 347	Roy et al., 2015
+T18	Reference 349 370	Hosseini et al., 2014
+T19	Reference 372 391	Roy and Roth, 2015)
+T20	Reference 781 803	(Wong and Mooney, 2007
+T21	Reference 805 824	Clarke et al., 2010
+T22	Reference 826 845	Cai and Yates, 2013
+T23	Reference 847 871	Kwiatkowski et al., 2013
+T24	Reference 873 899	Goldwasser and Roth, 2011)
+T25	Pronoun 31 35	this
+T26	Pronoun 400 405	These
+T27	Pronoun 458 462	They
+T28	Pronoun 532 536	they
+T29	Pronoun 1461 1465	this
+T30	Pronoun 2025 2029	this
+T36	E_span 894 898	2011
+T31	B_span 46 52	Madaan
+T32	E_span 61 65	2016
+T33	B_span 305 309	math
+T37	E_span 386 390	2015
+T34	B_span 698 706	semantic

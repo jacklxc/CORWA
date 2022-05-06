@@ -1,0 +1,13 @@
+[BOS] Zero-shot translation is of considerable concern among the multilingual translation community.
+[BOS] By sharing network parameters across languages, ZS was proven feasible for universal multilingual MT (Ha et al., 2016; Johnson et al., 2016) .
+[BOS] There are many variations of multilingual models geared towards zero-shot translation.
+[BOS] Lu et al. (2018) proposed to explicitly define a recurrent layer with a fixed number of states as "Interlingua" which resembles our attention-pooling models.
+[BOS] However, they compromise the model compactness by having separate encoder-decoder per language, which linearly increases the model size across languages.
+[BOS] On the other hand, Platanios et al. (2018) shares all parameters, but utilized a parameter generator to generate specific parameters for the LSTMs in each language pair using language embeddings.
+[BOS] The closest to our work is probably Arivazhagan et al. (2019) the model into a common encoding space by taking the mean-pooling of the encoder states and minimize the cosine similarity between the source and the target sentence encodings.
+[BOS] In comparison, our approach is more generalized because the decoder is also taken into account during regularization, which is shown by our results on the IWSLT benchmark 9 .
+[BOS] Also, we proposed stronger representation-forcing since the cosine similarity minimizes the angle between two representational vectors, while the MSE forces them to be exactly equal.
+[BOS] In addition, zero-resource techniques which generate artificial data for the missing directions have been proposed as an alternative to zero-shot translation (Chen et al., 2018; Al-Shedivat and Parikh, 2019; Chen et al., 2017) .
+[BOS] The main disadvantage, however, is the requirement of computationally expensive sampling during training which makes the algorithm less scalable to the number of languages.
+[BOS] In our work, we focus on minimally affecting the training paradigm of universal multilingual NMT.
+

@@ -1,0 +1,40 @@
+T1	Multi_summ 0 5	[BOS]
+T2	Transition 171 176	[BOS]
+T3	Transition 328 333	[BOS]
+T4	Narrative_cite 433 438	[BOS]
+T5	Transition 610 615	[BOS]
+T6	Transition 732 737	[BOS]
+T7	Narrative_cite 807 812	[BOS]
+T8	Narrative_cite 1058 1063	[BOS]
+T9	Transition 1267 1272	[BOS]
+T10	Transition 1400 1405	[BOS]
+T11	Narrative_cite 1528 1533	[BOS]
+T12	Dominant 30 53	(Bahdanau et al., 2015)
+T13	Dominant 84 108	(Sutskever et al., 2014)
+T14	Reference 537 561	(Koehn and Knowles, 2017
+T15	Reference 563 582	Kiyono et al., 2018
+T16	Reference 584 607	Jain and Wallace, 2019)
+T17	Reference 881 897	(Yu et al., 2016
+T18	Reference 899 925	Aharoni and Goldberg, 2017
+T19	Reference 927 947	Backes et al., 2018)
+T20	Reference 998 1019	(Vinyals et al., 2015
+T21	Reference 1021 1036	Gu et al., 2016
+T22	Reference 1038 1055	See et al., 2017)
+T23	Reference 1214 1235	(Shankar et al., 2018
+T24	Reference 1237 1264	Shankar and Sarawagi, 2019)
+T25	Reference 1751 1777	(Daum III and Marcu, 2005)
+T26	B_span 6 12	Neural
+T29	E_span 169 170	.
+T30	B_span 471 480	attention
+T31	E_span 606 607	)
+T32	B_span 813 818	Exact
+T33	E_span 946 947	)
+T34	B_span 956 964	assuming
+T35	E_span 1054 1055	)
+T36	B_span 1151 1157	simple
+T37	E_span 1263 1264	)
+T38	B_span 1727 1735	specific
+T39	E_span 1776 1777	)
+T40	Pronoun 334 338	This
+T41	Pronoun 345 347	it
+T42	Pronoun 1409 1413	this

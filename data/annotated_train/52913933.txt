@@ -1,0 +1,25 @@
+[BOS] There has recently been growing interest in building better retrievers for open-domain QA.
+[BOS] proposed a Reinforced Ranker-Reader model that ranks retrieved evidence and assigns different weights to evidence prior to processing by the reader.
+[BOS] Min et al. (2018) demonstrated that for several popular MRC datasets (e.g. SQuAD, TriviaQA) most questions can be answered using only a few sentences rather than the entire document.
+[BOS] Motivated by this observation, they built a sentence selector to gather this potential evidence for use by the reader model.
+[BOS] Nishida et al. (2018) developed a multi-task learning (MTL) method for a retriever and reader in order to obtain a strong retriever that considers certain passages including the answer text as positive samples during training.
+[BOS] The proposed MTL framework is still limited to the scenario when it is feasible to discover whether the passages contain the answer span.
+[BOS] Although these works have achieved progress on open-domain QA by improving the ranking or selection of given evidence, few have focused on the scenario where the model needs to start by searching for the evidence itself.
+
+[BOS] Scientific Question Answering (SQA) is a representative open-domain task that requires capability in both retrieval and reading comprehension.
+[BOS] In this paper, we study question answering on the AI2 Reasoning Challenge (ARC) scientific QA dataset .
+[BOS] This dataset contains elementary-level multiple-choice scientific questions from standardized tests and a large corpus of relevant information gathered from search engines.
+[BOS] The dataset is partitioned into "Challenge" and "Easy" sets.
+[BOS] The challenge set consists of questions that cannot be answered correctly by any of the solvers based on Pointwise Mutual Information (PMI) or Information Retrieval (IR).
+[BOS] Existing models tend to achieve only slightly better and sometimes even worse performance than random guessing, which demonstrates that existing models are not well suited to this kind of QA task.
+[BOS] Khashabi et al. (2017) worked on the problem of finding essential terms in a question for solving SQA problems.
+[BOS] They handcrafted over 100 features and used an SVM classifier to uncover essential terms within a question.
+[BOS] They also published a dataset containing over 2,200 science questions annotated with essential terms.
+[BOS] We leverage this dataset to build an essential term selector.
+
+[BOS] More recently, Boratko et al. (2018) developed a labeling interface to obtain high quality labels for the ARC dataset.
+[BOS] One interesting finding is that human annotators tend to retrieve better evidence after they reformulate the search queries which are originally constructed by a simple concatenation of question and answer choice.
+[BOS] By feeding the evidence obtained by human-reformulated queries into a pre-trained MRC model (i.e. DrQA (Chen et al., 2017) ) they achieved an accuracy increase of 42% on a subset of 47 questions.
+[BOS] This shows the potential for a "human-like" retriever to boost performance on this task.
+[BOS] Inspired by this work, we focus on selecting essential terms to reformulate more efficient queries, similar to those that a human would construct.
+

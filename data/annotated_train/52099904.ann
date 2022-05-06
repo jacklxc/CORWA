@@ -1,0 +1,66 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 331 336	[BOS]
+T3	Narrative_cite 462 467	[BOS]
+T4	Narrative_cite 670 675	[BOS]
+T5	Narrative_cite 808 813	[BOS]
+T6	Narrative_cite 1038 1043	[BOS]
+T7	Reflection 1396 1401	[BOS]
+T8	Single_summ 1534 1539	[BOS]
+T9	Multi_summ 1715 1720	[BOS]
+T10	Transition 1902 1907	[BOS]
+T11	Single_summ 2094 2099	[BOS]
+T12	Single_summ 2267 2272	[BOS]
+T13	Reflection 2419 2424	[BOS]
+T14	Reference 166 190	(Klementiev et al., 2012
+T15	Reference 192 208	Zou et al., 2013
+T16	Reference 210 231	Mikolov et al., 2013a
+T17	Reference 233 251	Gouws et al., 2015
+T18	Reference 253 275	Coulmance et al., 2015
+T19	Reference 277 295	Ammar et al., 2016
+T20	Reference 297 328	Duong et al., 2017, inter alia)
+T21	Reference 538 559	(Vuli and Moens, 2015
+T22	Reference 561 581	Artetxe et al., 2017
+T23	Reference 583 602	Smith et al., 2017)
+T24	Reference 740 759	(Zhang et al., 2017
+T25	Reference 761 781	Lample et al., 2018b
+T26	Reference 783 805	Artetxe et al., 2018a)
+T27	Reference 992 1011	(Smith et al., 2017
+T28	Reference 1013 1034	Lample et al., 2018b)
+T29	Reference 1219 1238	(Chen et al., 2016)
+T30	Reference 1268 1287	(Zhang et al., 2017
+T31	Reference 1289 1310	Lample et al., 2018b)
+T32	Reference 1348 1369	(Lample et al., 2018a
+T33	Reference 1371 1393	Artetxe et al., 2018b)
+T34	Dominant 1540 1562	Mikolov et al. (2013a)
+T35	Reference 1838 1856	(Xing et al., 2015
+T36	Reference 1858 1878	Artetxe et al., 2016
+T37	Reference 1880 1899	Smith et al., 2017)
+T38	Dominant 2100 2121	Artetxe et al. (2017)
+T39	Dominant 2273 2294	Lample et al. (2018b)
+T40	Pronoun 356 361	these
+T41	Pronoun 1402 1407	These
+T42	Pronoun 1721 1723	It
+T43	Pronoun 1908 1913	These
+T44	Pronoun 2202 2206	this
+T45	B_span 108 112	pair
+T46	E_span 323 327	alia
+T47	B_span 527 537	dependence
+T48	E_span 663 667	BWEs
+T49	B_span 689 694	fully
+T50	E_span 799 804	2018a
+T51	B_span 880 886	number
+T52	E_span 1028 1033	2018b
+T53	B_span 1185 1190	cross
+T54	E_span 1233 1237	2016
+T55	B_span 1241 1253	unsupervised
+T56	E_span 1304 1309	2018b
+T57	B_span 1315 1327	unsupervised
+T58	E_span 1387 1392	2018b
+T59	B_span 1540 1547	Mikolov
+T60	E_span 1704 1713	languages
+T61	B_span 1752 1761	enforcing
+T62	E_span 1894 1898	2017
+T63	B_span 2100 2107	Artetxe
+T64	E_span 2254 2265	performance
+T65	B_span 2273 2279	Lample
+T66	E_span 2410 2417	results

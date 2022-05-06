@@ -1,0 +1,72 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 215 220	[BOS]
+T3	Single_summ 400 405	[BOS]
+T4	Multi_summ 577 582	[BOS]
+T5	Transition 759 764	[BOS]
+T6	Transition 871 876	[BOS]
+T7	Single_summ 976 981	[BOS]
+T8	Transition 1110 1115	[BOS]
+T9	Transition 1230 1235	[BOS]
+T10	Narrative_cite 1307 1312	[BOS]
+T11	Single_summ 1486 1491	[BOS]
+T12	Single_summ 1614 1619	[BOS]
+T13	Reflection 1742 1747	[BOS]
+T14	Narrative_cite 1984 1989	[BOS]
+T15	Single_summ 2171 2176	[BOS]
+T16	Multi_summ 2310 2315	[BOS]
+T17	Reflection 2448 2453	[BOS]
+T18	Reference 108 127	(Greff et al., 2017
+T19	Reference 129 155	Balduzzi and Ghifary, 2016
+T20	Reference 157 174	Miao et al., 2016
+T21	Reference 176 193	Zoph and Le, 2016
+T22	Reference 195 212	Lee et al., 2017)
+T23	Reference 338 355	(Lei et al., 2015
+T24	Reference 357 378	Bradbury et al., 2017
+T25	Reference 380 397	Lei et al., 2017)
+T26	Dominant 429 452	(Bradbury et al., 2017)
+T27	Dominant 589 611	Bradbury et al. (2017)
+T28	Dominant 658 675	Lei et al. (2017)
+T29	Dominant 1007 1024	(Le et al., 2015)
+T30	Reference 1377 1397	(Goyal et al., 2017)
+T31	Reference 1433 1453	(Diamos et al., 2016
+T32	Reference 1455 1483	Kuchaiev and Ginsburg, 2017)
+T33	Dominant 1506 1526	Diamos et al. (2016)
+T34	Dominant 1624 1652	Kuchaiev and Ginsburg (2017)
+T35	Reference 1814 1838	(Appleyard et al., 2016)
+T36	Reference 2130 2148	(Chen et al., 2018
+T37	Reference 2150 2168	Peng et al., 2018)
+T38	Dominant 2177 2204	Balduzzi and Ghifary (2016)
+T39	Reference 2328 2349	(Anselmi et al., 2015
+T40	Reference 2351 2371	Daniely et al., 2016
+T41	Reference 2373 2390	Lei et al., 2017)
+T42	Pronoun 765 770	Their
+T43	Pronoun 877 881	This
+T44	Pronoun 1236 1240	This
+T45	B_span 19 25	common
+T46	E_span 207 211	2017
+T47	B_span 316 325	recurrent
+T48	E_span 392 396	2017
+T49	B_span 419 424	Quasi
+T50	E_span 571 575	LSTM
+T51	B_span 589 597	Bradbury
+T52	E_span 649 656	network
+T53	B_span 658 661	Lei
+T54	E_span 747 757	extensions
+T55	B_span 982 985	SRU
+T56	E_span 1097 1108	connections
+T57	B_span 1354 1359	scale
+T58	E_span 1392 1396	2017
+T59	B_span 1405 1410	speed
+T60	E_span 1478 1482	2017
+T61	B_span 1506 1512	Diamos
+T62	E_span 1605 1611	memory
+T63	B_span 1624 1632	Kuchaiev
+T64	E_span 1728 1740	respectively
+T65	B_span 1794 1808	cuDNNoptimized
+T66	E_span 1833 1837	2016
+T67	B_span 2086 2102	representational
+T68	E_span 2163 2167	2018
+T69	B_span 2177 2185	Balduzzi
+T70	E_span 2295 2308	architectures
+T71	B_span 2329 2336	Anselmi
+T72	E_span 2439 2446	kernels

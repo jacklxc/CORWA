@@ -1,0 +1,21 @@
+[BOS] Sentiment analysis is a traditional research hotspot in the NLP field [Wang and Manning, 2012] .
+[BOS] Rather than obtaining the sentimental inclination of the entire text, ATSA instead aims to extract the sentimental expression w.r.t.
+[BOS] a target entity.
+[BOS] With the release of online completions, abundant methods were proposed to explore the limits of current models.
+[BOS] Tang et al. [Tang et al., 2016a] proposed to make use of bidirectional Long Short-Term Memory (LSTM) [Hochreiter and Schmidhuber, 1997 ] to encode the sentence from the left and right to the aspect-term.
+[BOS] This model primarily verifies the effectiveness of deep models for ATSA Tang et al. [Tang et al., 2016b] then put forward a neural reasoning model in analogy to the memory network to perform the reasoning in many steps.
+[BOS] There are also many other works dedicating to solve this task [Pan and Wang, 2018; Liu et al., 2018; Zhang and Liu, 2017] .
+
+[BOS] Another related topic is semi-supervised learning for the text classification.
+[BOS] A simple but efficient method is to use pre-trained modules, e.g., initializing the word embedding or bottom layers with pre-trained parameters.
+[BOS] Although word embedding technique has been wildly used in NLP models, e.g., Glove [Pennington et al., 2014] and ELMo [Peters et al., 2018] , other pretraining-based method is modeldependent.
+[BOS] The ELMo and BERT [Devlin et al., 2018] replace the context-free embedding layer to context-dependent layer with the pre-trained Bidirectional Language Model and Transformer to capture the contextual representation.
+[BOS] This method is complementary to the proposed method.
+[BOS] The combination with our method may yield better performance than either of them alone, but that investigation is beyond the scope of this paper.
+
+[BOS] VAE-based semi-supervised methods, on the other hand, are able to cooperate with various kinds of classifiers.
+[BOS] VAE has been applied in many semi-supervised NLP tasks, ranging from text classification [Xu et al., 2017] , relation extraction [Marcheggiani and Titov, 2016 ] to sequence tagging [?]
+[BOS] .
+[BOS] Different from text classification where sentiment polarity is related to an entire sentence, the ATSA needs to extract the informative description and perform sophisticated reasoning about a given aspect-term.
+[BOS] To circumvent this problem, a novel structure is proposed.
+

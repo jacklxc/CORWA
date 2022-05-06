@@ -1,0 +1,17 @@
+[BOS] The problem of question answering on knowledge graphs dates back at least a decade, but the most relevant recent work in the NLP community comes from Berant et al. (2013) .
+[BOS] This thread of work focuses on semantic parsing, where a question is mapped to its logical form and then translated to a structured query, cf.
+[BOS] (Berant and Liang, 2014; Reddy et al., 2014) .
+[BOS] However, the more recent SIMPLEQUESTIONS dataset (Bordes et al., 2015) has emerged as the de facto benchmark for evaluating simple QA over knowledge graphs.
+
+[BOS] The original solution of Bordes et al. (2015) featured memory networks, but over the past several years, researchers have applied many NN architectures for tackling this problem: Golub and He (2016) proposed a characterlevel attention-based encoder-decoder framework; Dai et al. (2016) proposed a conditional probabilistic framework using BiGRUs.
+[BOS] Lukovnikov et al. (2017) used a hierarchical word/character-level question encoder and trained a neural network in an end-to-end manner.
+[BOS] Yin et al. (2016) applied a character-level CNN for entity linking and a separate word-level CNN with attentive max-pooling for fact selection.
+[BOS] Yu et al. (2017) used a hierarchical residual Bi-LSTM for relation detection, the results of which are combined with entity linking output.
+[BOS] These approaches can be characterized as exploiting increasingly sophisticated modeling techniques (e.g., attention, residual learning, etc.
+[BOS] ).
+
+[BOS] In this push toward complexity, we do not believe that researchers have adequately explored baselines, and thus it is unclear how much various NN techniques actually help.
+[BOS] To this end, our work builds on Ture and Jojic (2017) , who adopted a straightforward problem decomposition with simple NN models to argue that attentionbased mechanisms don't really help.
+[BOS] We take this one step further and examine techniques that do not involve neural networks.
+[BOS] Establishing strong baselines allows us to objectively quantify the contribution of various deep learning techniques.
+

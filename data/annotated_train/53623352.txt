@@ -1,0 +1,27 @@
+[BOS] The task of aggression detection in social media can be considered as a document classification task.
+[BOS] This task can also be sub-divided into binary classification or multi-class classification.
+[BOS] In the context of detection of aggressiveness, the binary classification would imply the presence or absence of some anti-social phenomena such as abuse (Nobata et al., 2016) in a given example (abusive or not abusive).
+[BOS] Whereas in the multi-class scenario, specific types of anti-social behaviour are of interest (Waseem et al., 2017) such as racism, sexism, hate speech, and bullying.
+[BOS] It has been observed that contents which contain anti-social phenomena are rare in a collection of social media posts.
+[BOS] This usually leads to imbalanced datasets where posts which lack the phenomena of interest are overwhelming.
+[BOS] This problem is even more pronounced in the multi-class scenario which leads to difficulty in learning discriminative features by classifiers.
+[BOS] In (Malmasi and Zampieri, 2018) , it was concluded that subtle distinction between types of anti-social behaviour: profanity and hate speech is a difficult task for machine learning classifiers.
+[BOS] By extension, it will be difficult to differentiate between overt and covert aggression.
+[BOS] Also, submits that posts that does not contain explicit aggressive words are likely to be difficult to identify.
+[BOS] This would be likely applicable to the covertly aggressive class in this study.
+
+[BOS] Acknowledging the cost of annotating data for hateful comments in social media, (Gao et al., 2017) proposed a system that leverages the availability of unlabeled data.
+[BOS] Their result shows improvement over systems that rely only on manually annotated data.
+[BOS] This approach is most related to our work.
+
+[BOS] The identification of aggression in social media is closely related to existing studies in hate speech, abuse, and cyberbullying detection.
+[BOS] Methods used to tackle these tasks as supervised classification broadly falls into two.
+[BOS] One approach is based on manual feature engineering.
+[BOS] With the feature engineering approach, extracted features serve as input to classic machine learning algorithms such as naive bayes, logistic regression, support vector machines, and random forest (Schmidt and Wiegand, 2017; Malmasi and Zampieri, 2017) .
+[BOS] The other approach is based on deep neural networks that automatically learn features from input data.
+[BOS] (Gambck and Sikdar, 2017) employed convolutional neural networks to classify hate speech and (Zhang et al., 2018 ) used a combination of convolutional neural network and gated recurrent unit (GRU) for the same task.
+
+[BOS] Rather than rely only on the textual content of social media posts in identifying hate speech, (Qian et al., 2018; Founta et al., 2018) investigated the use of metadata about the users or the posts.
+[BOS] However, the metadata may not be readily available from the social media platforms.
+[BOS] In addition, this approach may breakdown where a social media platform allows anonymous posting.
+

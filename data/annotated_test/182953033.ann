@@ -1,0 +1,41 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 137 142	[BOS]
+T3	Transition 268 273	[BOS]
+T4	Transition 345 350	[BOS]
+T5	Single_summ 539 544	[BOS]
+T6	Multi_summ 640 645	[BOS]
+T7	Single_summ 764 769	[BOS]
+T8	Transition 889 894	[BOS]
+T9	Transition 1078 1083	[BOS]
+T10	Multi_summ 1214 1219	[BOS]
+T11	Single_summ 1426 1431	[BOS]
+T12	Single_summ 1527 1532	[BOS]
+T13	Transition 1648 1653	[BOS]
+T14	Reflection 1778 1783	[BOS]
+T15	Reflection 1893 1898	[BOS]
+T16	Reflection 2062 2067	[BOS]
+T17	Reflection 2179 2184	[BOS]
+T18	Reflection 2326 2331	[BOS]
+T19	Reflection 2437 2442	[BOS]
+T20	Narrative_cite 2563 2568	[BOS]
+T21	Transition 2743 2748	[BOS]
+T22	Transition 2922 2927	[BOS]
+T23	Dominant 555 580	Finkel and Manning (2009)
+T24	Dominant 656 672	Xu et al. (2017)
+T25	Dominant 677 699	Sohrab and Miwa (2018)
+T26	Reference 1277 1295	(Lu and Roth, 2015
+T27	Reference 1297 1321	Katiyar and Cardie, 2018
+T28	Dominant 1441 1459	Muis and Lu (2017)
+T29	Reference 2647 2668	(Zhou and Zhang, 2007
+T30	Reference 2670 2687	Zhou et al., 2009
+T31	Reference 2689 2711	Surdeanu et al., 2012)
+T32	B_span 555 561	Finkel
+T33	E_span 626 638	subsequences
+T34	B_span 656 658	Xu
+T35	E_span 880 887	actions
+T36	B_span 1252 1262	hypergraph
+T37	E_span 1317 1321	2018
+T38	B_span 1441 1445	Muis
+T40	E_span 1636 1645	ambiguity
+T39	B_span 2617 2622	multi
+T41	E_span 2706 2710	2012

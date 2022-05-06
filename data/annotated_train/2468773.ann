@@ -1,0 +1,36 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 146 151	[BOS]
+T3	Narrative_cite 470 475	[BOS]
+T4	Narrative_cite 641 646	[BOS]
+T5	Transition 753 758	[BOS]
+T6	Narrative_cite 841 846	[BOS]
+T7	Narrative_cite 1004 1009	[BOS]
+T8	Narrative_cite 1316 1321	[BOS]
+T9	Dominant 197 221	(Cotterell et al., 2016)
+T10	Reference 615 638	(Kann and Schtze, 2016)
+T11	Reference 725 750	(Cotterell et al., 2017a)
+T12	Reference 978 1000	(Makarov et al., 2017)
+T13	Reference 1106 1125	Kann et al., 2017a)
+T14	Reference 1168 1188	(Kann et al., 2017b)
+T15	Reference 1281 1312	(Bergmanis and Goldwater, 2018)
+T16	Reference 1370 1391	Ahlberg et al. (2014)
+T17	Reference 1394 1419	Durrett and DeNero (2013)
+T18	Reference 1422 1443	Nicolai et al. (2015)
+T19	Reference 1446 1467	Faruqui et al. (2016)
+T20	Pronoun 847 852	These
+T21	B_span 152 155	The
+T22	E_span 460 467	systems
+T23	B_span 526 535	character
+T24	E_span 633 637	2016
+T25	B_span 654 660	neural
+T26	E_span 744 749	2017a
+T27	B_span 896 900	hard
+T28	E_span 995 999	2017
+T29	B_span 1080 1085	multi
+T30	E_span 1119 1124	2017a
+T31	B_span 1128 1133	cross
+T32	E_span 1182 1187	2017b
+T33	B_span 1194 1199	first
+T34	E_span 1307 1311	2018
+T35	B_span 1336 1349	morphological
+T36	E_span 1462 1466	2016

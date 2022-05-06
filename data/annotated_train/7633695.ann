@@ -1,0 +1,78 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 177 182	[BOS]
+T3	Narrative_cite 329 334	[BOS]
+T4	Narrative_cite 524 529	[BOS]
+T5	Narrative_cite 676 681	[BOS]
+T6	Transition 820 825	[BOS]
+T7	Single_summ 942 947	[BOS]
+T8	Single_summ 1102 1107	[BOS]
+T9	Single_summ 1224 1229	[BOS]
+T10	Transition 1475 1480	[BOS]
+T11	Single_summ 1636 1641	[BOS]
+T12	Single_summ 1780 1785	[BOS]
+T13	Transition 1921 1926	[BOS]
+T14	Narrative_cite 2077 2082	[BOS]
+T15	Narrative_cite 2290 2295	[BOS]
+T16	Narrative_cite 2425 2430	[BOS]
+T17	Transition 2588 2593	[BOS]
+T18	Reflection 2848 2853	[BOS]
+T19	Reflection 3060 3065	[BOS]
+T20	Narrative_cite 3168 3173	[BOS]
+T21	Single_summ 3267 3272	[BOS]
+T22	Narrative_cite 3468 3473	[BOS]
+T23	Reference 257 283	(Dale and Kilgarriff, 2011
+T24	Reference 285 303	Dale et al., 2012)
+T25	Reference 496 520	Rozovskaya et al., 2014)
+T26	Reference 649 673	(Massung and Zhai, 2016)
+T27	Reference 727 748	(Berzak et al., 2014)
+T28	Reference 796 817	(Berzak et al., 2015)
+T29	Dominant 948 974	Rozovskaya and Roth (2010)
+T30	Dominant 1251 1277	Rozovskaya and Roth (2011)
+T31	Dominant 1642 1665	Dahlmeier and Ng (2011)
+T32	Reference 2141 2164	(Mizumoto et al., 2011)
+T33	Reference 2391 2418	(Rozovskaya and Roth, 2016)
+T34	Reference 2513 2537	(Yuan and Briscoe, 2016)
+T35	Reference 3226 3242	Yu et al. (2013)
+T36	Dominant 3273 3291	Joty et al. (2015)
+T37	Reference 3539 3561	(Foster and Kuhn, 2007
+T38	Reference 3563 3584	Moore and Lewis, 2010
+T39	Reference 3586 3601	Sennrich, 2012)
+T40	Reference 3633 3660	(Koehn and Schroeder, 2007)
+T41	B_span 235 242	Helping
+T42	E_span 298 302	2012
+T43	B_span 475 480	build
+T44	E_span 515 519	2014
+T45	B_span 618 624	native
+T46	E_span 668 672	2016
+T47	B_span 707 710	typ
+T48	E_span 743 747	2014
+T49	B_span 787 789	ES
+T50	E_span 812 816	2015
+T51	B_span 948 950	Ro
+T52	E_span 1214 1222	accuracy
+T53	B_span 1251 1253	Ro
+T54	E_span 1469 1473	text
+T55	B_span 1642 1646	Dahl
+T56	E_span 1917 1919	L1
+T57	B_span 2108 2113	large
+T58	E_span 2159 2163	2011
+T59	B_span 2329 2337	approach
+T60	E_span 2413 2417	2016
+T61	B_span 2444 2447	end
+T62	E_span 2532 2536	2016
+T63	B_span 3174 3176	KL
+T64	E_span 3237 3241	2013
+T65	B_span 3273 3275	Jo
+T66	E_span 3462 3466	NNJM
+T67	B_span 3522 3529	mixture
+T68	E_span 3596 3600	2012
+T69	B_span 3606 3617	alternative
+T70	E_span 3655 3659	2007
+T71	Pronoun 201 205	this
+T72	Pronoun 682 684	It
+T73	Pronoun 1108 1112	They
+T74	Pronoun 1233 1238	their
+T75	Pronoun 1800 1804	they
+T76	Pronoun 2676 2681	their
+T77	Pronoun 2857 2861	this
+T78	Pronoun 2877 2879	it

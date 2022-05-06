@@ -1,0 +1,13 @@
+[BOS] Our work is mainly inspired from Hoang et al. (2016a) who proposed the use of side information for boosting the performance of recurrent neural network language models.
+[BOS] We further apply this idea for a downstream task in neural machine translation.
+[BOS] We've adapted different methods in the literature for this specific problem and evaluated using different datasets with different kinds of side information.
+
+[BOS] Our methods for incorporating side information as suffix, prefix for either source or target sequences have been adapted from (Sennrich et al., 2016a; Johnson et al., 2017) .
+[BOS] Also working on the same patent dataset, Jehl and Riezler (2018) proposed to incorporate document meta information as special tokens, similar to our source prefix/suffix method, or by concatenating the tag with each source word.
+[BOS] They report an improvements, consistent with our findings, although the changes they observe are larger, of about 1 BLEU point, albeit from a lower baseline.
+
+[BOS] Also, Michel and Neubig (2018) proposed to personalise neural MT systems by taking the variance that each speaker speaks/writes on his own into consideration.
+[BOS] They proposed the adaptation process which takes place in the "output" layer, similar to our output layer incorporation method.
+
+[BOS] The benefit of the proposed MTL approach is not surprising, resembling from existing works, e.g., jointly training translation models from/to multiple languages (Dong et al., 2015) ; jointly training the encoders (Zoph and Knight, 2016) or both encoders and decoders (Johnson et al., 2017) .
+

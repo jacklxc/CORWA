@@ -1,0 +1,2 @@
+[BOS] Recent works that utilize subword information to construct word representation could be largely divided into two families: The models that use morphemes as a component and the others taking advantage of characters.
+

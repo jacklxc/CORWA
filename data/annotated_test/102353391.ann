@@ -1,0 +1,60 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 221 226	[BOS]
+T3	Single_summ 367 372	[BOS]
+T4	Multi_summ 473 478	[BOS]
+T5	Multi_summ 636 641	[BOS]
+T6	Narrative_cite 839 844	[BOS]
+T7	Multi_summ 943 948	[BOS]
+T8	Multi_summ 1153 1158	[BOS]
+T9	Reflection 1336 1341	[BOS]
+T10	Narrative_cite 1559 1564	[BOS]
+T11	Reflection 1780 1785	[BOS]
+T12	Reference 149 171	(Cohn and Lapata, 2007
+T13	Reference 173 190	Wu and Wang, 2007
+T14	Reference 192 218	Utiyama and Isahara, 2007)
+T15	Dominant 373 392	Cheng et al. (2017)
+T16	Dominant 479 495	Lu et al. (2018)
+T17	Dominant 500 525	Arivazhagan et al. (2018)
+T18	Dominant 642 665	Sestorain et al. (2018)
+T19	Dominant 729 746	(He et al., 2016)
+T20	Reference 899 919	(Hinton et al., 2014
+T21	Reference 921 940	Kim and Rush, 2016)
+T22	Dominant 968 988	Firat et al. (2016b)
+T23	Dominant 1096 1114	Chen et al. (2017)
+T24	Reference 1536 1555	(Anil et al., 2018)
+T25	Reference 1639 1661	(Ravi and Knight, 2011
+T26	Reference 1663 1683	Artetxe et al., 2017
+T28	Reference 1850 1872	(Conneau et al., 2017)
+T29	Reference 1891 1916	(Sennrich et al., 2015a )
+T30	Reference 1937 1954	(He et al., 2016)
+T31	Pronoun 231 233	it
+T32	Pronoun 955 960	these
+T33	Pronoun 1165 1169	this
+T34	Pronoun 1212 1214	it
+T35	Pronoun 1808 1813	these
+T36	E_span 216 218	7)
+T38	B_span 373 378	Cheng
+T39	E_span 466 471	ments
+T40	B_span 479 481	Lu
+T41	E_span 631 634	der
+T42	B_span 642 644	Se
+T44	E_span 826 836	directions
+T43	B_span 886 898	distillation
+T45	E_span 937 939	16
+T46	B_span 968 976	Firat et
+T47	E_span 1087 1091	data
+T48	B_span 1096 1099	Che
+T50	B_span 1537 1540	Ani
+T51	E_span 1552 1554	18
+T52	B_span 1609 1613	ully
+T53	E_span 1724 1726	18
+T54	B_span 1827 1836	bilingual
+T55	E_span 1869 1871	17
+T56	B_span 1875 1878	bac
+T57	E_span 1912 1914	5a
+T58	B_span 1921 1925	lang
+T59	E_span 1951 1953	16
+T37	B_span 87 92	chain
+T49	E_span 1324 1334	directions
+T27	Reference 1685 1704	Lample et al., 2017
+T60	Reference 1705 1726	Lample et al., , 2018

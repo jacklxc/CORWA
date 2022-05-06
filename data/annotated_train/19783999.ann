@@ -1,0 +1,27 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 138 143	[BOS]
+T3	Single_summ 415 420	[BOS]
+T4	Transition 515 520	[BOS]
+T5	Narrative_cite 631 636	[BOS]
+T6	Single_summ 769 774	[BOS]
+T7	Transition 888 893	[BOS]
+T8	Narrative_cite 996 1001	[BOS]
+T9	Reference 109 135	(Kiritchenko et al., 2016)
+T10	Dominant 431 450	(Wang et al., 2016)
+T11	Reference 666 687	(Hercig et al., 2016)
+T12	Reference 741 766	(Refaee and Rieser, 2016)
+T13	Dominant 785 805	(Htait et al., 2016)
+T14	Reference 1077 1101	(Rosenthal et al., 2015)
+T15	Pronoun 69 71	it
+T16	B_span 82 89	English
+T17	E_span 130 134	2016
+T18	B_span 421 425	Team
+T19	E_span 504 513	algorithm
+T20	B_span 637 640	UWB
+T21	E_span 682 686	2016
+T22	B_span 696 700	iLab
+T23	E_span 761 765	2016
+T24	B_span 775 779	Team
+T25	E_span 879 885	scores
+T26	B_span 1044 1051	SemEval
+T27	E_span 1096 1100	2015

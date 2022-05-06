@@ -1,0 +1,64 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 194 199	[BOS]
+T3	Single_summ 339 344	[BOS]
+T4	Single_summ 447 452	[BOS]
+T5	Single_summ 554 559	[BOS]
+T6	Single_summ 686 691	[BOS]
+T7	Single_summ 762 767	[BOS]
+T8	Single_summ 902 907	[BOS]
+T9	Single_summ 1022 1027	[BOS]
+T10	Narrative_cite 1193 1198	[BOS]
+T11	Single_summ 1442 1447	[BOS]
+T12	Single_summ 1549 1554	[BOS]
+T13	Single_summ 1664 1669	[BOS]
+T14	Reflection 1762 1767	[BOS]
+T15	Transition 1873 1878	[BOS]
+T16	Multi_summ 2001 2006	[BOS]
+T17	Multi_summ 2204 2209	[BOS]
+T18	Single_summ 2347 2352	[BOS]
+T19	Reflection 2522 2527	[BOS]
+T20	Reference 105 126	(Pradhan et al., 2005
+T21	Reference 128 151	Punyakanok et al., 2008
+T22	Reference 153 170	Zhao et al., 2009
+T23	Reference 172 191	Zhao et al., , 2013
+T24	Dominant 243 266	Collobert et al. (2011)
+T25	Dominant 352 376	Foland and Martin (2015)
+T26	Dominant 453 475	Roth and Lapata (2016)
+T27	Dominant 631 649	Zhou and Xu (2015)
+T28	Dominant 1028 1044	Li et al. (2019)
+T29	Reference 1419 1438	(Zhang et al., 2016
+T30	Dominant 1448 1477	Marcheggiani and Titov (2017)
+T31	Dominant 2040 2059	Zhao et al. (2009a)
+T32	Dominant 2136 2159	Bjrkelund et al. (2009)
+T33	Reference 2241 2257	Lei et al., 2015
+T34	Reference 2259 2283	Swayamdipta et al., 2016
+T35	Reference 2285 2307	Mulcaire et al., 2018)
+T36	Dominant 2365 2387	Mulcaire et al. (2018)
+T37	B_span 85 92	feature
+T38	E_span 187 191	2013
+T39	B_span 200 203	The
+T40	E_span 337 338	.
+T41	B_span 350 351	,
+T42	E_span 445 446	.
+T43	B_span 453 457	Roth
+T44	E_span 551 552	.
+T45	B_span 631 635	Zhou
+T47	B_span 1028 1030	Li
+T48	E_span 1190 1191	.
+T49	B_span 1376 1380	deep
+T52	E_span 1434 1438	2016
+T53	B_span 1448 1453	March
+T54	E_span 1547 1548	.
+T55	B_span 2040 2044	Zhao
+T56	E_span 2125 2128	set
+T57	B_span 2136 2138	Bj
+T58	E_span 2202 2203	.
+T59	B_span 2226 2227	a
+T60	E_span 2345 2346	.
+T61	B_span 2365 2368	Mul
+T63	Pronoun 313 318	their
+T64	Pronoun 398 403	their
+T65	Pronoun 2480 2485	their
+T66	Pronoun 2539 2543	this
+T67	E_span 752 760	proposed
+T46	E_span 2508 2520	satisfactory

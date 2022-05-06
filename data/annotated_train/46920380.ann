@@ -1,0 +1,62 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 184 189	[BOS]
+T3	Single_summ 326 331	[BOS]
+T4	Transition 477 482	[BOS]
+T5	Transition 554 559	[BOS]
+T6	Single_summ 672 677	[BOS]
+T7	Single_summ 807 812	[BOS]
+T8	Single_summ 1005 1010	[BOS]
+T9	Narrative_cite 1137 1142	[BOS]
+T10	Single_summ 1324 1329	[BOS]
+T11	Single_summ 1554 1559	[BOS]
+T12	Single_summ 1677 1682	[BOS]
+T13	Narrative_cite 1778 1783	[BOS]
+T14	Transition 2011 2016	[BOS]
+T15	Transition 2130 2135	[BOS]
+T16	Single_summ 2211 2216	[BOS]
+T17	Reflection 2342 2347	[BOS]
+T18	Reflection 2418 2423	[BOS]
+T19	Dominant 332 353	Hermann et al. (2015)
+T20	Dominant 694 713	(Chen et al., 2016)
+T21	Dominant 981 1002	(Kadlec et al., 2016)
+T22	Dominant 1011 1028	Cui et al. (2017)
+T23	Reference 1214 1232	(Hill et al., 2016
+T24	Reference 1234 1254	Sordoni et al., 2016
+T25	Reference 1256 1273	Shen et al., 2017
+T26	Reference 1275 1298	Munkhdalai and Yu, 2017
+T27	Reference 1300 1321	Dhingra et al., 2017)
+T28	Dominant 1330 1353	Kobayashi et al. (2016)
+T29	Reference 1475 1497	(Dhingra et al., 2017)
+T30	Dominant 1560 1580	Brarda et al. (2017)
+T31	Dominant 1683 1702	Wang et al. (2017a)
+T32	Reference 1894 1916	(Vaswani et al., 2017)
+T33	Reference 1945 1966	(Paulus et al., 2017)
+T34	Reference 1990 2008	(Lin et al., 2017)
+T35	Dominant 2217 2237	(Wang et al., 2017b)
+T36	Pronoun 2351 2355	this
+T37	B_span 332 339	Hermann
+T38	E_span 465 474	g(d(q), q
+T39	B_span 678 686	Stanford
+T40	E_span 796 805	attention
+T41	B_span 813 822	Attention
+T42	E_span 997 1001	2016
+T43	B_span 1011 1014	Cui
+T44	E_span 1122 1135	comprehension
+T45	B_span 1143 1148	Multi
+T46	E_span 1316 1320	2017
+T47	B_span 1330 1339	Kobayashi
+T48	B_span 1465 1467	GA
+T49	E_span 1492 1496	2017
+T50	E_span 1547 1552	aware
+T51	B_span 1560 1566	Brarda
+T52	E_span 1670 1675	aware
+T53	B_span 1683 1687	Wang
+T54	E_span 1762 1775	comprehension
+T55	B_span 1867 1873	neural
+T56	E_span 1911 1915	2017
+T57	B_span 1919 1930	abstractive
+T58	E_span 1961 1965	2017
+T59	B_span 1971 1979	sentence
+T60	E_span 2003 2007	2017
+T61	B_span 2218 2222	Wang
+T62	E_span 2332 2340	document

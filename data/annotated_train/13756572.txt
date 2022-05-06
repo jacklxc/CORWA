@@ -1,0 +1,19 @@
+[BOS] Here we give a brief (and non-exhaustive) overview of prior work on gender bias in NLP systems and datasets.
+[BOS] A number of papers explore (gender) bias in English word embeddings:
+
+[BOS] how they capture implicit human biases in modern (Caliskan et al., 2017) and historical (Garg et al., 2018) text, and methods for debiasing them (Bolukbasi et al., 2016) .
+[BOS] Further work on debiasing models with adversarial learning is explored by Beutel et al. (2017) and Zhang et al. (2018) .
+
+[BOS] Prior work also analyzes social and gender stereotyping in existing NLP and vision datasets (van Miltenburg, 2016; Rudinger et al., 2017) .
+[BOS] Tatman (2017) investigates the impact of gender and dialect on deployed speech recognition systems, while introduce a method to reduce amplification effects on models trained with gender-biased datasets.
+[BOS] Koolen and van Cranenburgh (2017) examine the relationship between author gender and text attributes, noting the potential for researcher interpretation bias in such studies.
+[BOS] Both Larson (2017) and Koolen and van Cranenburgh (2017) offer guidelines to NLP researchers and computational social scientists who wish to predict gender as a variable.
+[BOS] Hovy and Spruit (2016) introduce a helpful set of terminology for identifying and categorizing types of bias that manifest in AI systems, including overgeneralization, which we observe in our work here.
+
+[BOS] Finally, we note independent but closely related work by Zhao et al. (2018) , published concurrently with this paper.
+[BOS] In their work, Zhao et al. (2018) also propose a Winograd schema-like test for gender bias in coreference resolution systems (called "WinoBias").
+[BOS] Though similar in appearance, these two efforts have notable differences in substance and emphasis.
+[BOS] The contribution of this work is focused primarily on schema construction and validation, with extensive analysis of observed system bias, revealing its correlation with biases present in real-world and textual statistics; by contrast, Zhao et al. (2018) present methods of debiasing existing systems, showing that simple approaches such as augmenting training data with gender-swapped examples or directly editing noun phrase counts in the B&L resource are effective at reducing system bias, as measured by the schemas.
+[BOS] Complementary differences exist between the two schema formulations: Winogender schemas (this work) include gender-neutral pronouns, are syntactically diverse, and are human-validated; WinoBias includes (and delineates) sentences resolvable from syntax alone; a Winogender schema has one occupational mention and one "other participant" mention; WinoBias has two occupational mentions.
+[BOS] Due to these differences, we encourage future evaluations to make use of both datasets.
+

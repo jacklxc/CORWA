@@ -1,0 +1,20 @@
+T1	Reflection 0 5	[BOS]
+T2	Multi_summ 149 154	[BOS]
+T3	Multi_summ 294 299	[BOS]
+T4	Single_summ 363 368	[BOS]
+T5	Narrative_cite 494 499	[BOS]
+T6	Reference 70 97	[Klementiev and Roth, 2006]
+T7	Dominant 178 207	[Cucerzan and Yarowsky, 1999]
+T8	Dominant 212 238	[Collins and Singer, 1999]
+T9	Dominant 369 384	[Hetland, 2004]
+T10	Reference 618 645	[Klementiev and Roth, 2006]
+T11	Pronoun 300 304	They
+T12	Pronoun 598 602	this
+T13	B_span 155 162	Earlier
+T14	E_span 356 361	clues
+T15	B_span 370 377	Hetland
+T16	E_span 485 492	English
+T17	B_span 71 81	Klementiev
+T18	E_span 92 96	2006
+T19	B_span 619 629	Klementiev
+T20	E_span 640 644	2006

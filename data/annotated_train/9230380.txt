@@ -1,0 +1,13 @@
+[BOS] Ensemble learning (Dietterich, 2000) has been used for a variety of machine learning tasks and recently has been applied to dependency parsing in various ways and with different levels of success.
+[BOS] (Surdeanu and Manning, 2010; Haffari et al., 2011) showed a successful combination of parse trees through a linear combination of trees with various weighting formulations.
+[BOS] To keep their tree constraint, they applied Eisner's algorithm for reparsing (Eisner, 1996) .
+
+[BOS] Parser combination with dependency trees has been examined in terms of accuracy (Sagae and Lavie, 2006; Sagae and Tsujii, 2007; Zeman an Zabokrtsk, 2005) .
+[BOS] However, the various techniques have generally examined similar parsers or parsers which have generated various different models.
+[BOS] To the best of our knowledge, our experiments are the first to look at the accuracy and part of speech error distribution when combining together constituent and dependency parsers that use many different techniques.
+[BOS] However, POS tags were used in parser combination in for combining a set of Malt Parser models with success.
+
+[BOS] Other methods of parser combinations have shown to be successful such as using one parser to generate features for another parser.
+[BOS] This was shown in (Nivre and McDonald, 2008) , in which Malt Parser was used as a feature to MST Parser.
+[BOS] The result was a successful combination of a transition-based and graph-based parser, but did not address adding other types of parsers into the framework.
+

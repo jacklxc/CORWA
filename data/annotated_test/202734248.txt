@@ -1,0 +1,22 @@
+[BOS] Earlier works on building the conversation systems are generally based on rules or templates (Walker et al., 2001) , which are designed for the specific domain and need much human effort to collect the rules and domain knowledge.
+[BOS] As the portability and coverage of such systems are far from satisfaction, people pay more attention to the data-driven approaches for the opendomain conversation system (Ritter et al., 2011; Higashinaka et al., 2014) .
+[BOS] The main challenge for open-domain conversation is to produce a corresponding response based on the current context.
+[BOS] As mentioned previously, the retrieval-based and generation-based methods are the mainstream approaches for conversational response generation.
+
+[BOS] In this paper, we focus on the task response selection which belongs to retrieval-based approach.
+
+[BOS] The early studies of response selection generally focus on the single-turn conversation, which use only the current query to select the response (Lu and Li, 2013; Ji et al., 2014; Wang et al., 2015) .
+[BOS] Since it is hard to get the topic and intention of the conversation by single-turn, researchers turn their attention to multi-turn conversation and model the context instead of the current query to predict the response.
+[BOS] First, Lowe et al. (2015) released the Ubuntu Dialogue dataset and proposed a neural model which matches the context and response with corresponding representations via RNNs and LSTMs.
+[BOS] Kadlec et al. (2015) evaluate the performances of various models on the dataset, such as LSTMs, Bi-LSTMs, and CNNs.
+[BOS] Later, concatenated utterances with the reformulated query and various features in a deep neural network.
+[BOS] Baudi et al. (2016) regarded the task as sentence pair scoring and implemented an RNN-CNN neural network model with attention.
+[BOS] Zhou et al. (2016) proposed a multiview model with CNN and RNN, modeling the context in both word and utterance view.
+[BOS] Further, Xu et al. (2017) proposed a deep neural network to incorporate background knowledge for conversation by LSTM with a specially designed recall gate.
+[BOS] Wu et al. (2017) proposed matching the context and response by their word and phrase representations, which had significant improvement from previous work.
+[BOS] Zhang et al. (2018) introduced a self-matching attention to route the vital information in each utterance, and used RNN to fuse the matching result.
+[BOS] Zhou et al. (2018) used self-attention and cross-attention to construct the representations at different granularities, achieving a state-of-the-art result.
+
+[BOS] Our model is different from the previous methods: first we model the task with the triple C, Q, R instead of C, R in the early works, and use a novel triple attention matching mechanism to model the relationships within the triple.
+[BOS] Then we represent the context from low (character) to high (context) level, which constructs the representations for the context more comprehensively.
+

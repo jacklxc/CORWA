@@ -1,0 +1,10 @@
+[BOS] Static cross-lingual embedding learning methods can be roughly categorized as on-line and off-line methods.
+[BOS] Typically, on-line approaches integrate monolingual and cross-lingual objectives to learn cross-lingual word embeddings in a joint manner (Klementiev et al., 2012; Koisk et al., 2014; Guo et al., 2016) , while off-line approaches take pretrained monolingual word embeddings of different languages as input and retrofit them into a shared semantic space (Xing et al., 2015; Lample et al., 2018; Chen and Cardie, 2018) .
+
+[BOS] Several approaches have been proposed recently to connect the rich expressiveness of contextualized word embeddings with cross-lingual transfer.
+[BOS] Mulcaire et al. (2019) based their model on ELMo (Peters et al., 2018) and proposed a polyglot contextual representation model by capturing character-level information from multilingual data.
+[BOS] Lample and Conneau (2019) adapted the objectives of BERT (Devlin et al., 2018) to incorporate cross-lingual supervision from parallel data to learn cross-lingual language models (XLMs), which have obtained state-of-the-art results on several cross-lingual tasks.
+[BOS] Similar to our approach, Schuster et al. (2019) also aligned pretrained contextualized word embeddings through linear transformation in an off-line fashion.
+[BOS] They used the averaged contextualized embeddings as an anchor for each word type, and learn a transformation in the anchor space.
+[BOS] Our approach, however, learns this transformation directly in the contextual space, and hence is explicitly designed to be word sense-preserving.
+

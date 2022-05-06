@@ -1,0 +1,16 @@
+[BOS] Currently, much attention has been paid to how developing a sophisticated encoding models to capture the long and short term dependency information in a sequence.
+[BOS] Specific to text classification task, most of the models cannot deal with the texts of several sentences (paragraphs, documents), such as MV-RNN (Socher et al., 2012) , RNTN (Socher et al., 2013) , CNN (Kim, 2014) , AdaSent (Zhao et al., 2015) , and so on.
+[BOS] The simple neural bag-of-words model can deal with long texts, but it loses the word order information.
+[BOS] PV (Le and Mikolov, 2014) works in an unsupervised way, and the learned vector cannot be fine-tuned on the specific task.
+[BOS] There are also many works Xu et al., 2016; Cheng et al., 2016) to improve LSTM's ability to carrying information for a long distance.
+[BOS] A line of orthogonal researches (Lin et al., 2017; Yang et al., 2016; Shen et al., 2018a; Shen et al., 2018b) is to introduce attention mechanism (Vaswani et al., 2017) to weighted average the outputs of CNN/RNN layer.
+[BOS] The attention mechanism can effectively reduce the burden of CNN/RNN.
+[BOS] The CNN/RNN encoding layer is only expected to extract local context information for each word, while the global semantics of text sequence can be aggregated from the local encoding vectors.
+
+[BOS] The attention based aggregation collects information in a bottom-up way, without considering the state of the final encoding.
+[BOS] It is hard to avoid the problems of information redundancy or information lost.
+[BOS] An improved idea is to use multi-hop attention, like memory network (Sukhbaatar et al., 2015; Kumar et al., 2015) , to iterative aggregate information.
+[BOS] This idea is equivalent to our proposed reversed dynamic routing mechanism.
+
+[BOS] Different from the attention based aggregation methods, aggregation via dynamic routing is iteratively deciding that what and how much information need be transfer to the final encoding of each word.
+

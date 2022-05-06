@@ -1,0 +1,104 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 75 80	[BOS]
+T3	Multi_summ 222 227	[BOS]
+T4	Narrative_cite 485 490	[BOS]
+T5	Single_summ 691 696	[BOS]
+T6	Single_summ 777 782	[BOS]
+T7	Single_summ 932 937	[BOS]
+T8	Single_summ 1061 1066	[BOS]
+T9	Single_summ 1286 1291	[BOS]
+T10	Transition 1519 1524	[BOS]
+T11	Single_summ 1687 1692	[BOS]
+T12	Single_summ 1822 1827	[BOS]
+T13	Single_summ 1899 1904	[BOS]
+T14	Narrative_cite 2016 2021	[BOS]
+T15	Reflection 2276 2281	[BOS]
+T16	Reflection 2437 2442	[BOS]
+T17	Transition 2539 2544	[BOS]
+T18	Narrative_cite 2609 2614	[BOS]
+T19	Multi_summ 2713 2718	[BOS]
+T20	Multi_summ 3000 3005	[BOS]
+T21	Reflection 3177 3182	[BOS]
+T22	Reflection 3431 3436	[BOS]
+T23	Reflection 3847 3852	[BOS]
+T24	Reflection 4043 4048	[BOS]
+T25	Reference 46 72	Gildea and Jurafsky (2002)
+T26	Reference 153 174	(Pradhan et al., 2005
+T27	Reference 176 194	Zhao et al., 2009a
+T28	Reference 196 219	Bjrkelund et al., 2009)
+T29	Dominant 253 274	Pradhan et al. (2005)
+T30	Dominant 364 383	Zhao et al. (2009a)
+T31	Reference 650 669	(Zhang et al., 2016
+T32	Reference 671 687	Qin et al., 2017
+T33	Dominant 697 720	Collobert et al. (2011)
+T34	Dominant 938 962	Foland and Martin (2015)
+T35	Dominant 1067 1091	FitzGerald et al. (2015)
+T36	Dominant 1188 1206	(Lei et al., 2015)
+T37	Dominant 1292 1314	Roth and Lapata (2016)
+T38	Dominant 1693 1711	Zhou and Xu (2015)
+T39	Dominant 1828 1844	He et al. (2017)
+T40	Reference 2132 2151	(Zhao and Kit, 2008
+T41	Reference 2153 2171	Zhao et al., 2009a
+T42	Reference 2173 2191	Zhao et al., 2009c
+T43	Reference 2193 2211	Zhao et al., 2013)
+T44	Reference 2667 2689	Bahdanau et al. (2015)
+T45	Dominant 2738 2758	(Luong et al., 2015)
+T46	Dominant 2864 2888	Dozat and Manning (2017)
+T47	Reference 3246 3263	(He et al., 2018)
+T48	Dominant 3504 3521	(He et al., 2018)
+T49	Reference 3683 3704	(Peters et al., 2018)
+T50	Reference 3937 3955	(He et al., 2018 )
+T51	Reference 4194 4212	(He et al., 2018 )
+T52	Pronoun 783 787	They
+T53	Pronoun 972 977	their
+T54	Pronoun 1498 1503	their
+T55	Pronoun 1862 1867	their
+T56	Pronoun 2545 2549	This
+T57	Pronoun 2623 2625	it
+T58	Pronoun 3006 3010	They
+T59	Pronoun 3048 3053	their
+T60	Pronoun 3164 3168	this
+T61	Pronoun 3333 3337	this
+T62	Pronoun 4049 4053	This
+T63	B_span 6 14	Semantic
+T64	E_span 67 71	2002
+T65	B_span 125 132	complex
+T66	E_span 214 218	2009
+T67	B_span 253 260	Pradhan
+T68	E_span 346 356	classifier
+T69	B_span 364 368	Zhao
+T70	E_span 478 482	task
+T71	B_span 608 612	deep
+T72	E_span 683 687	2017
+T73	B_span 697 706	Collobert
+T74	E_span 920 930	classifier
+T75	E_span 1051 1059	features
+T76	B_span 938 944	Foland
+T77	B_span 1067 1077	FitzGerald
+T78	E_span 1161 1166	roles
+T79	B_span 1189 1192	Lei
+T80	E_span 1276 1284	approach
+T81	B_span 1292 1296	Roth
+T82	E_span 1511 1516	model
+T83	B_span 1693 1697	Zhou
+T84	E_span 1815 1820	aside
+T85	B_span 1828 1830	He
+T86	E_span 1890 1897	network
+T87	B_span 2133 2137	Zhao
+T88	E_span 2271 2274	SRL
+T89	B_span 2619 2630	traditional
+T90	E_span 2701 2711	literature
+T91	B_span 2739 2744	Luong
+T92	E_span 2848 2862	transformation
+T93	B_span 2864 2869	Dozat
+T95	E_span 3169 3174	paper
+T94	B_span 3247 3249	He
+T96	E_span 3327 3331	task
+T97	B_span 3479 3485	syntax
+T98	E_span 3699 3703	2018
+T99	E_span 3699 3703	2018
+T100	B_span 3648 3657	CNNBiLSTM
+T101	B_span 3909 3915	syntax
+T102	E_span 3989 3993	gain
+T103	B_span 4171 4180	character
+T104	E_span 4206 4210	2018

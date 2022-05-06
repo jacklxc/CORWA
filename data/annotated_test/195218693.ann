@@ -1,0 +1,116 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 359 364	[BOS]
+T3	Transition 547 552	[BOS]
+T4	Transition 646 651	[BOS]
+T5	Narrative_cite 805 810	[BOS]
+T6	Narrative_cite 950 955	[BOS]
+T7	Single_summ 1147 1152	[BOS]
+T8	Multi_summ 1283 1288	[BOS]
+T9	Transition 1412 1417	[BOS]
+T10	Single_summ 1480 1485	[BOS]
+T11	Transition 1603 1608	[BOS]
+T12	Narrative_cite 1673 1678	[BOS]
+T13	Single_summ 1914 1919	[BOS]
+T14	Narrative_cite 2127 2132	[BOS]
+T15	Narrative_cite 2255 2260	[BOS]
+T16	Narrative_cite 2429 2434	[BOS]
+T17	Single_summ 2492 2497	[BOS]
+T18	Single_summ 2586 2591	[BOS]
+T19	Single_summ 2762 2767	[BOS]
+T20	Single_summ 2919 2924	[BOS]
+T21	Single_summ 3044 3049	[BOS]
+T22	Single_summ 3210 3215	[BOS]
+T23	Reflection 3377 3382	[BOS]
+T24	Narrative_cite 3472 3477	[BOS]
+T25	Reflection 3675 3680	[BOS]
+T26	Narrative_cite 3875 3880	[BOS]
+T27	Transition 4110 4115	[BOS]
+T28	Reflection 4228 4233	[BOS]
+T29	Reflection 4334 4339	[BOS]
+T30	Reflection 4429 4434	[BOS]
+T31	Reflection 4536 4541	[BOS]
+T32	Reflection 4724 4729	[BOS]
+T33	Multi_summ 4884 4889	[BOS]
+T34	Reference 190 211	(Ribeiro et al., 2016
+T35	Reference 213 237	Frosst and Hinton, 2017)
+T36	Reference 310 336	(Sundararajan et al., 2017
+T37	Reference 338 356	Bach et al., 2015)
+T38	Reference 464 485	(Koh and Liang, 2017)
+T39	Reference 498 520	(Ribeiro et al., 2016)
+T40	Reference 878 902	(Mudrakarta et al., 2018
+T41	Reference 904 923	Jia and Liang, 2017
+T42	Reference 925 946	Murdoch et al., 2018)
+T43	Reference 1083 1104	(Adebayo et al., 2018
+T44	Reference 1106 1130	Kindermans et al., 2017)
+T45	Dominant 1153 1174	Smilkov et al. (2017)
+T46	Dominant 1310 1323	(Miller, 2019
+T47	Dominant 1325 1345	Gilpin et al., 2018)
+T48	Dominant 1486 1499	Lipton (2018)
+T49	Reference 1892 1911	(Feng et al., 2018)
+T50	Dominant 1935 1953	Ross et al. (2017)
+T51	Reference 2229 2251	(Adebayo et al., 2018)
+T52	Reference 2399 2426	(Schmidt and Wiegand, 2017)
+T53	Reference 2464 2489	Calders and Verwer (2010)
+T54	Dominant 2505 2528	Bolukbasi et al. (2016)
+T55	Dominant 2592 2610	Park et al. (2018)
+T56	Dominant 2940 2959	Dixon et al. (2018)
+T57	Reference 3510 3532	(Davidson et al., 2017
+T58	Reference 3534 3554	Zhang et al., 2018b)
+T59	Reference 3964 3984	(Zhang et al., 2018a
+T60	Reference 3986 4006	Madras et al., 2018)
+T61	Reference 4953 4972	(Dixon et al., 2018
+T62	Reference 4974 4992	Park et al., 2018)
+T63	B_span 131 139	building
+T64	E_span 236 237	)
+T66	E_span 355 356	)
+T67	B_span 409 420	sensitivity
+T68	E_span 484 485	)
+T69	B_span 489 497	features
+T70	E_span 519 520	)
+T71	B_span 818 827	interpret
+T74	E_span 945 946	)
+T76	E_span 1129 1130	)
+T77	B_span 1153 1155	Sm
+T78	E_span 1281 1282	.
+T79	B_span 1289 1294	Other
+T80	E_span 1410 1411	.
+T81	B_span 1486 1489	Lip
+T82	E_span 1601 1602	.
+T84	E_span 1910 1911	)
+T85	B_span 1924 1931	authors
+T86	E_span 2125 2126	.
+T87	B_span 2146 2151	input
+T88	E_span 2250 2251	)
+T90	E_span 2425 2426	)
+T91	B_span 2455 2460	works
+T92	E_span 2488 2489	)
+T93	B_span 2505 2508	Bol
+T94	E_span 2584 2585	.
+T95	B_span 2592 2596	Park
+T96	E_span 2917 2918	.
+T98	B_span 2940 2943	Dix
+T100	E_span 3375 3376	.
+T101	B_span 3492 3495	are
+T103	B_span 3943 3949	advers
+T104	E_span 4005 4006	)
+T105	B_span 4898 4901	the
+T107	Pronoun 553 558	These
+T108	Pronoun 1051 1056	their
+T109	Pronoun 2001 2005	they
+T110	Pronoun 2085 2087	it
+T111	Pronoun 2344 2349	these
+T112	Pronoun 2774 2779	their
+T113	Pronoun 2835 2840	their
+T114	Pronoun 3050 3054	They
+T115	Pronoun 3227 3232	their
+T116	Pronoun 3326 3331	their
+T117	Pronoun 3634 3638	they
+T118	Pronoun 3932 3934	it
+T119	Pronoun 3939 3941	it
+T120	Pronoun 4049 4051	it
+T121	B_span 271 277	mostly
+T65	B_span 1039 1050	questioning
+T72	B_span 1839 1845	tuning
+T75	B_span 2350 2356	models
+T73	E_span 3624 3628	bias
+T83	E_span 4987 4991	2018

@@ -1,0 +1,12 @@
+[BOS] The restaurant domain has always been the domain of choice for NLG tasks in dialogue systems (Stent et al., 2004; Gai et al., 2008; Mairesse et al., 2010; Howcroft et al., 2013) , as it offers a good combination of structured information availability, expression complexity, and ease of incorporation into conversation.
+[BOS] Hence, even the more recent neural models for NLG continue to be tested primarily on data in this domain (Wen et al., 2015; Duek and Jurek, 2016; Nayak et al., 2017) .
+[BOS] These tend to focus solely on syntactic and semantic correctness of the generated utterances, nevertheless, there have also been re-cent efforts to collect training data for NLG with emphasis on stylistic variation (Nayak et al., 2017; Novikova et al., 2017a; Oraby et al., 2017) .
+
+[BOS] While there is previous work on stylistic variation in NLG (Paiva and Evans, 2004; Mairesse and Walker, 2007) , this work did not use crowdsourced utterances for training.
+[BOS] More recent work in neural NLG that explores stylistic control has not needed to control semantic correctness, or examined the interaction between semantic correctness and stylistic variation (Sennrich et al., 2016; Ficler and Goldberg, 2017) .
+[BOS] Also related is the work of Niu and Carpuat (2017) that analyzes how dense word embeddings capture style variations, Kabbara and Cheung (2016) who explore the ability of neural NLG systems to transfer style without the need for parallel corpora, which are difficult to collect (Rao and Tetreault, 2018) , while Li et al. (2018) use a simple delete-and-retrieve method also without alignment to outperform adversarial methods in style transfer.
+[BOS] Finally, Oraby et al. (2018) propose two different methods that give neural generators control over the language style, corresponding to the Big Five personalities, while maintaining semantic fidelity of the generated utterances.
+
+[BOS] To our knowledge, there is no previous work exploring the use of and utility of stylistic selection for controlling stylistic variation in NLG from structured MRs.
+[BOS] This may be either because there have not been sufficiently large corpora in a particular domain, or because it is surprising, as we show, that relatively small corpora (2000 samples) whose style is controlled can be used to train a neural generator to achieve high semantic correctness while producing stylistic variation.
+

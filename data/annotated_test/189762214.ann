@@ -1,0 +1,91 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 22 27	[BOS]
+T3	Single_summ 161 166	[BOS]
+T4	Single_summ 272 277	[BOS]
+T5	Single_summ 510 515	[BOS]
+T6	Narrative_cite 685 690	[BOS]
+T7	Transition 923 928	[BOS]
+T8	Transition 1099 1104	[BOS]
+T9	Narrative_cite 1123 1128	[BOS]
+T10	Narrative_cite 1358 1363	[BOS]
+T11	Single_summ 1474 1479	[BOS]
+T12	Transition 1686 1691	[BOS]
+T13	Transition 1835 1840	[BOS]
+T14	Narrative_cite 1876 1881	[BOS]
+T15	Narrative_cite 1992 1997	[BOS]
+T16	Narrative_cite 2148 2153	[BOS]
+T17	Narrative_cite 2275 2280	[BOS]
+T18	Reflection 2487 2492	[BOS]
+T19	Reflection 2645 2650	[BOS]
+T20	Reflection 2753 2758	[BOS]
+T21	Other 2958 2963	[BOS]
+T22	Other 3115 3120	[BOS]
+T23	Other 3272 3277	[BOS]
+T24	Other 3429 3434	[BOS]
+T25	Other 3592 3597	[BOS]
+T26	Other 3749 3754	[BOS]
+T27	Other 3906 3911	[BOS]
+T28	Transition 4069 4074	[BOS]
+T29	Transition 4181 4186	[BOS]
+T30	Transition 4356 4361	[BOS]
+T31	Other 4620 4625	[BOS]
+T32	Other 4745 4750	[BOS]
+T33	Reflection 4797 4802	[BOS]
+T34	Reflection 4882 4887	[BOS]
+T35	Other 5007 5012	[BOS]
+T36	Reference 119 137	(Choi et al., 2018
+T37	Reference 139 158	Reddy et al., 2019)
+T38	Dominant 171 192	(Saeidi et al., 2018)
+T39	Reference 853 875	(Williams et al., 2013
+T40	Reference 877 899	Henderson et al., 2014
+T41	Reference 901 920	Young et al., 2013)
+T42	Reference 1245 1264	Zhong et al., 2018)
+T43	Reference 1293 1310	(Su et al., 2016)
+T44	Reference 1337 1355	(Wen et al., 2015)
+T45	Reference 1451 1470	(Young et al., 2013
+T46	Dominant 1515 1537	(Saeidi et al., 2018 )
+T47	Reference 1962 1989	(Moulin and Rousseau, 1992)
+T48	Reference 2104 2123	(Mintz et al., 2009
+T49	Reference 2125 2145	Riedel et al., 2013)
+T50	Reference 2225 2250	(Angeli and Manning, 2014
+T51	Reference 2252 2272	Angeli et al., 2015)
+T52	Reference 2367 2387	(Bordes et al., 2013
+T53	Reference 2389 2410	Dettmers et al., 2018
+T54	Reference 2412 2429	Lin et al., 2018)
+T55	Reference 2466 2484	(Lei et al., 2016)
+T56	B_span 73 81	question
+T57	E_span 157 158	)
+T58	B_span 167 170	CMR
+T60	B_span 765 771	system
+T61	E_span 919 920	)
+T62	B_span 1207 1215	language
+T63	E_span 1263 1264	)
+T64	B_span 1267 1276	reasoning
+T65	E_span 1309 1310	)
+T66	B_span 1317 1325	response
+T67	E_span 1354 1355	)
+T68	B_span 1430 1434	full
+T69	E_span 1466 1470	2013
+T70	B_span 1484 1492	previous
+T71	E_span 1684 1685	.
+T72	B_span 1938 1951	automatically
+T73	E_span 1988 1989	)
+T74	B_span 2078 2087	extracted
+T75	E_span 2144 2145	)
+T77	E_span 2271 2272	)
+T79	E_span 2428 2429	)
+T80	B_span 2434 2442	rational
+T81	E_span 2483 2484	)
+T82	Pronoun 295 299	this
+T83	Pronoun 938 943	these
+T84	Pronoun 1387 1392	these
+T85	Pronoun 2281 2286	These
+T86	Pronoun 2768 2773	these
+T87	Pronoun 4115 4120	their
+T88	Pronoun 4727 4732	these
+T89	Pronoun 5013 5017	This
+T90	Pronoun 5114 5118	they
+T91	Pronoun 5143 5148	their
+T59	E_span 680 683	not
+T76	B_span 2166 2171	forgo
+T92	B_span 2335 2344	inference

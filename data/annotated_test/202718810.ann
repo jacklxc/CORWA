@@ -1,0 +1,24 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 30 35	[BOS]
+T3	Transition 195 200	[BOS]
+T4	Narrative_cite 258 263	[BOS]
+T5	Transition 470 475	[BOS]
+T6	Multi_summ 609 614	[BOS]
+T7	Transition 859 864	[BOS]
+T8	Reference 79 105	(Pustejovsky et al., 2003)
+T9	Reference 114 137	(O'Gorman et al., 2016)
+T10	Reference 446 466	Bethard et al., 2007
+T11	Reference 663 682	(Ning et al., 2018a
+T12	Dominant 692 712	(Ning et al., 2018b)
+T13	B_span 70 74	Time
+T14	E_span 104 105	)
+T15	B_span 110 113	RED
+T16	E_span 136 137	)
+T17	B_span 402 407	annot
+T18	E_span 462 466	2007
+T20	B_span 656 659	MAT
+T22	B_span 688 691	TCR
+T23	E_span 684 687	and
+T24	E_span 857 858	.
+T25	Pronoun 221 226	these
+T26	Pronoun 503 507	this

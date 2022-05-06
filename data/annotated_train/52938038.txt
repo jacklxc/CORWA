@@ -1,0 +1,18 @@
+[BOS] Developing document-level models for machine translation has been an important research direction, both for conventional SMT (Gong et al., 2011; Hardmeier et al., 2012; Xiong et al., 2013a,b; Garcia et al., 2014) and NMT (Jean et al., 2017; Kuang et al., 2017; Tiedemann and Scherrer, 2017; Wang et al., 2017; Maruf and Haffari, 2018; Bawden et al., 2018; Tu et al., 2018; Voita et al., 2018) .
+
+[BOS] Most existing work on document-level NMT has focused on integrating document-level context into the RNNsearch model (Bahdanau et al., Context   ziji ye yinwei queshao jingzheng duishou er dui saiche youxie yanjuan shi   Source wo rengran feichang rezhong yu zhexiang yundong.
+[BOS] Reference I'm still very fond of the sport.
+[BOS] Transformer I am still very enthusiastic about this movement.
+[BOS] Our work I am still very keen on this sport.
+[BOS] Table 10 : An example of Chinese-English translation.
+[BOS] In the source sentence, "yundong" (sport or political movement) is a multi-sense word and "rezhong" (fond of) is an emotional word whose meaning is dependent on its context.
+[BOS] Our model takes advantage of the words "saiche" (car racing) and "yanjuan" (tired of) in the documentlevel context to translate the source words correctly.
+
+[BOS] 2015).
+[BOS] These approaches can be roughly divided into two broad categories: computing the representation of the full document-level context (Jean et al., 2017; Tiedemann and Scherrer, 2017; Wang et al., 2017; Maruf and Haffari, 2018; Voita et al., 2018) and using a cache to memorize most relevant information in the document-level context (Kuang et al., 2017; Tu et al., 2018) .
+[BOS] Our approach falls into the first category.
+[BOS] We use multi-head attention to represent and integrate document-level context.
+[BOS] Voita et al. (2018) also extended Transformer to model document-level context, but our work is different in modeling and training strategies.
+[BOS] The experimental part is also different.
+[BOS] While Voita et al. (2018) focus on anaphora resolution, our model is able to improve the overall translation quality by integrating document-level context.
+

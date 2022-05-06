@@ -1,0 +1,13 @@
+[BOS] Automatic Paraphrasing and Entailment Our work is closely related to research in automatic paraphrasing, in particular, to sentence level paraphrasing (Barzilay and Lee, 2003; Pang et al., 2003; Quirk et al., 2004) .
+[BOS] Most of these approaches learn paraphrases from a parallel or comparable monolingual corpora.
+[BOS] Instances of such corpora include multiple English translations of the same source text written in a foreign language, and different news articles about the same event.
+[BOS] For example, Pang et al. (2003) expand a set of reference translations using syntactic alignment, and generate new reference sentences that could be used in automatic evaluation.
+
+[BOS] Our approach differs from traditional work on automatic paraphrasing in goal and methodology.
+[BOS] Unlike previous approaches, we are not aiming to produce any paraphrase of a given sentence since paraphrases induced from a parallel corpus do not necessarily produce a rewriting that makes a reference closer to the system output.
+[BOS] Thus, we focus on words that appear in the system output and aim to determine whether they can be used to rewrite a reference sentence.
+
+[BOS] Our work also has interesting connections with research on automatic textual entailment (Dagan et al., 2005) , where the goal is to determine whether a given sentence can be inferred from text.
+[BOS] While we are not assessing an inference relation between a reference and a system output, the two tasks face similar challenges.
+[BOS] Methods for entailment recognition extensively rely on lexico-semantic resources (Haghighi et al., 2005; Harabagiu et al., 2001 ), and we believe that our method for contextual substitution can be beneficial in that context.
+

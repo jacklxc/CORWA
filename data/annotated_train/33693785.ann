@@ -1,0 +1,55 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 327 332	[BOS]
+T3	Narrative_cite 609 614	[BOS]
+T4	Transition 901 906	[BOS]
+T5	Transition 1031 1036	[BOS]
+T6	Transition 1263 1268	[BOS]
+T7	Narrative_cite 1461 1466	[BOS]
+T8	Narrative_cite 1650 1655	[BOS]
+T9	Reflection 1930 1935	[BOS]
+T10	Narrative_cite 2067 2072	[BOS]
+T11	Narrative_cite 2323 2328	[BOS]
+T12	Transition 2448 2453	[BOS]
+T13	Transition 2658 2663	[BOS]
+T14	Transition 2875 2880	[BOS]
+T15	Reflection 3197 3202	[BOS]
+T16	Reference 216 241	(Bethard and Martin, 2007
+T17	Reference 243 261	Cheng et al., 2007
+T18	Reference 263 286	UzZaman and Allen, 2010
+T19	Reference 288 308	Llorens et al., 2010
+T20	Reference 310 324	Bethard, 2013)
+T21	Reference 506 527	(Bramsen et al., 2006
+T22	Reference 529 556	Chambers and Jurafsky, 2008
+T23	Reference 558 581	Tatu and Srikanth, 2008
+T24	Reference 583 606	Yoshikawa et al., 2009)
+T25	Reference 675 697	(D'Souza and Ng, 2013)
+T26	Reference 852 873	(Cassidy et al., 2014
+T27	Reference 875 897	Chambers et al., 2014)
+T28	Reference 1625 1647	(Laparra et al., 2015)
+T29	Reference 1902 1927	(Mirza and Tonelli, 2016)
+T30	Reference 2280 2298	Lee et al., , 2013
+T31	Reference 2427 2445	(Lee et al., 2017)
+T32	Pronoun 630 635	these
+T33	Pronoun 1269 1273	This
+T34	Pronoun 1961 1965	this
+T35	Pronoun 2474 2479	these
+T36	Pronoun 2642 2646	they
+T37	Pronoun 3259 3263	this
+T38	B_span 183 190	lexical
+T39	E_span 319 323	2013
+T40	B_span 453 460	integer
+T41	E_span 601 605	2009
+T42	B_span 646 652	hybrid
+T43	E_span 692 696	2013
+T44	B_span 831 835	Time
+T45	E_span 892 896	2014
+T46	B_span 1611 1617	common
+T47	E_span 1642 1646	2015
+T48	B_span 1802 1809	stacked
+T49	E_span 1922 1926	2016
+T50	Reference 2262 2278	Lee et al., 2012
+T51	Reference 2299 2319	D'Souza and Ng, 2015
+T52	B_span 2187 2192	event
+T53	E_span 2315 2319	2015
+T54	B_span 2365 2376	coreference
+T55	E_span 2440 2444	2017

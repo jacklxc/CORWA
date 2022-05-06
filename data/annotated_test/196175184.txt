@@ -1,0 +1,28 @@
+[BOS] Deep neural networks are dominant in the text matching area.
+[BOS] Semantic alignment and comparison between two text sequences lie in the core of text matching.
+[BOS] Early works explore encoding each sequence individually into a vector and then building a neural network classifier upon the two vectors.
+[BOS] In this paradigm, recurrent (Bowman et al., 2015) , recursive (Tai et al., 2015) and convolutional (Yu et al., 2014; Tan et al., 2016) networks are used as the sequence encoder.
+[BOS] The encoding of one sequence is independent of the other in these models, making the final classifier hard to model complex relations.
+
+[BOS] Later works, therefore, adopt the matching aggregation framework to match two sequences at lower levels and aggregate the results based on the attention mechanism.
+[BOS] DecompAtt (Parikh et al., 2016) uses a simple form of attention for alignment and aggregate aligned representations with feed-forward networks.
+[BOS] ESIM (Chen et al., 2017) uses a similar attention mechanism but employs bidirectional LSTMs as encoders and aggregators.
+
+[BOS] Three major paradigms are adopted to further improve performance.
+[BOS] First is to use richer syntactic or hand-designed features.
+[BOS] HIM (Chen et al., 2017) uses syntactic parse trees.
+[BOS] POS tags are found in many previous works including Tay et al. (2018b) and Gong et al. (2018) .
+[BOS] The exact match of lemmatized tokens is reported as a powerful binary feature in Gong et al. (2018) and Kim et al. (2018) .
+[BOS] The second way is adding complexity to the alignment computation.
+[BOS] BiMPM utilizes an advanced multiperspective matching operation, and MwAN (Tan et al., 2018) applies multiple heterogeneous attention functions to compute the alignment results.
+
+[BOS] The third way to enhance the model is building heavy post-processing layers for the alignment results.
+[BOS] CAFE (Tay et al., 2018b ) extracts additional indicators from the alignment process using alignment factorization layers.
+[BOS] DIIN (Gong et al., 2018) adopts DenseNet as a deep convolutional feature extractor to distill information from the alignment results.
+[BOS] More effective models can be built if intersequence matching is allowed to be performed more than once.
+[BOS] CSRAN (Tay et al., 2018a) performs multi-level attention refinement with dense connections among multiple levels.
+[BOS] DRCN (Kim et al., 2018) stacks encoding and alignment layers.
+[BOS] It concatenates all previously aligned results and has to use an autoencoder to deal with exploding feature spaces.
+[BOS] SAN (Liu et al., 2018) utilizes recurrent networks to combine multiple alignment results.
+[BOS] This paper also proposes a deep architecture based on a new way to connect consecutive blocks named augmented residual connections, to distill previous aligned information which serves as an important feature for text matching.
+

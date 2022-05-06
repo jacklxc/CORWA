@@ -1,0 +1,17 @@
+[BOS] Closest to our clustering approach from Section 2 is the error-driven first-order probabilistic model of Culotta et al. (2007) .
+[BOS] Among significant differences we mention that our model is non-probabilistic, simpler and easier to understand and implement.
+[BOS] Furthermore, the update step does not stop after the first clustering error, instead the algorithm learns and uses a clustering threshold  to determine when to stop during training and testing.
+[BOS] This required the design of a method to order cluster pairs in which the clusters may not be consistent with the true coreference chains, which led to the introduction of the goodness function in Equation 1 as a new scoring measure for cluster pairs.
+[BOS] The strategy of continuing the clustering during training as long as a an adaptive threshold is met better matches the training with the testing, and was observed to lead to better performance.
+[BOS] The cluster ranking model of Rahman and Ng (2009) proceeds in a left-to-right fashion and adds the current discourse old mention to the highest scoring preceding cluster.
+[BOS] Compared to it, our adaptive clustering approach is less constrained: it uses only a weak, partial ordering between coreference decisions, and does not require a singleton cluster at every clustering step.
+[BOS] This allows clustering to start in any section of the document where coreference decisions are easier to make, and thus create accurate clusters earlier in the process.
+[BOS] The use of semantic knowledge for coreference resolution has been studied before in a number of works, among them (Ponzetto and Strube, 2006) , (Bengtson and Roth, 2008) , (Lee et al., 2011) , and (Rahman and Ng, 2011) .
+[BOS] The focus in these studies has been on the semantic similarity between a mention and a candidate antecedent, or the parallelism between the semantic role structures in which the two appear.
+[BOS] One of the earliest methods for using predicate-argument frequencies in pronoun resolution is that of Dagan and Itai (1990) .
+[BOS] Closer to our use of semantic compatibility features for pronouns are the approaches of Kehler et al. (2004) and Yang et al. (2005) .
+[BOS] The last work showed that pronoun resolution can be improved by incorporating semantic compatibility features derived from search engine statistics in the twin-candidate model.
+[BOS] In our approach, we use web-based language models to compute semantic compatibility features for neutral pronouns and show that they can improve performance over a state-of-the-art coreference resolution system.
+[BOS] The use of language models instead of search engine statistics is more practical, as they eliminate the latency involved in using search engine queries.
+[BOS] Webbased language models can be built on readily available web N-gram corpora, such as Google's Web 1T 5-gram Corpus (Brants and Franz, 2006 ).
+

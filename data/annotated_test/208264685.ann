@@ -1,0 +1,50 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 100 105	[BOS]
+T3	Single_summ 272 277	[BOS]
+T4	Single_summ 409 414	[BOS]
+T5	Single_summ 520 525	[BOS]
+T6	Single_summ 691 696	[BOS]
+T7	Single_summ 875 880	[BOS]
+T8	Single_summ 1029 1034	[BOS]
+T9	Single_summ 1181 1186	[BOS]
+T10	Reflection 1289 1294	[BOS]
+T11	Single_summ 1422 1427	[BOS]
+T12	Reflection 1682 1687	[BOS]
+T13	Single_summ 1798 1803	[BOS]
+T14	Single_summ 1913 1918	[BOS]
+T15	Transition 2167 2172	[BOS]
+T16	Reflection 2298 2303	[BOS]
+T17	Reflection 2516 2521	[BOS]
+T18	Reflection 2573 2578	[BOS]
+T19	Reflection 2633 2638	[BOS]
+T20	Reference 206 224	(Chan et al., 2007
+T21	Reference 226 246	Carpuat and Wu, 2007
+T22	Reference 248 269	Vickrey et al., 2005)
+T23	Dominant 288 305	Liu et al. (2018)
+T24	Dominant 697 715	Rios et al. (2017)
+T25	Dominant 1035 1051	Pu et al. (2018)
+T26	Dominant 1428 1444	He et al. (2010)
+T27	Dominant 1804 1826	Sennrich et al. (2016)
+T28	Pronoun 415 419	They
+T29	Pronoun 526 531	Their
+T30	Pronoun 602 606	this
+T31	Pronoun 744 746	it
+T32	Pronoun 881 886	Their
+T33	Pronoun 1196 1201	these
+T34	Pronoun 1295 1299	This
+T35	Pronoun 1944 1948	they
+T36	Pronoun 1986 1990	they
+T37	Pronoun 2093 2097	they
+T38	Pronoun 2364 2370	theirs
+T39	B_span 176 183	machine
+T40	E_span 264 268	2005
+T41	B_span 288 291	Liu
+T42	E_span 678 689	information
+T43	B_span 697 701	Rios
+T44	E_span 1023 1027	BLEU
+T45	B_span 1035 1037	Pu
+T46	E_span 1278 1287	sentences
+T47	B_span 1428 1430	He
+T48	E_span 1672 1680	analysis
+T49	B_span 1804 1812	Sennrich
+T50	E_span 2161 2165	text

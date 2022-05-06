@@ -1,0 +1,56 @@
+T1	Transition 0 5	[BOS]
+T2	Reflection 117 122	[BOS]
+T3	Multi_summ 179 184	[BOS]
+T4	Single_summ 684 689	[BOS]
+T5	Transition 1078 1083	[BOS]
+T6	Single_summ 1163 1168	[BOS]
+T7	Single_summ 1298 1303	[BOS]
+T8	Narrative_cite 1473 1478	[BOS]
+T9	Narrative_cite 1729 1734	[BOS]
+T10	Reflection 1870 1875	[BOS]
+T11	Reflection 2035 2040	[BOS]
+T12	Narrative_cite 2299 2304	[BOS]
+T13	Dominant 253 269	Hu et al. (2017)
+T14	Dominant 326 344	Shen et al. (2017)
+T15	Dominant 432 448	Fu et al. (2018)
+T16	Dominant 585 603	John et al. (2018)
+T17	Dominant 991 1011	Zhang et al. (2018a)
+T18	Dominant 1169 1189	Zhang et al. (2018b)
+T19	Dominant 1323 1340	Luo et al. (2019)
+T21	Reference 1702 1726	(Stahlberg et al., 2018)
+T22	Reference 1843 1867	(Stahlberg et al., 2018)
+T23	Reference 2122 2143	(Sutton et al., 1999)
+T24	Reference 2385 2408	(Kulkarni et al., 2016)
+T25	Reference 2435 2454	(Feng et al., 2018)
+T26	Reference 2477 2500	(Takanobu et al., 2018)
+T27	B_span 253 255	Hu
+T28	E_span 314 324	classifier
+T29	B_span 326 330	Shen
+T30	E_span 423 430	decoder
+T31	B_span 432 434	Fu
+T32	E_span 569 583	discriminators
+T33	B_span 585 589	John
+T34	E_span 675 682	content
+T35	B_span 991 996	Zhang
+T36	E_span 1069 1075	memory
+T37	B_span 1169 1174	Zhang
+T38	E_span 1285 1296	iteratively
+T39	B_span 1323 1326	Luo
+T40	E_span 1463 1470	content
+T41	Reference 1600 1620	Durrani et al., 2011
+T20	Reference 1622 1644	Durrani et al., , 2015
+T42	Reference 1645 1661	Pal et al., 2016
+T43	B_span 1595 1598	SMT
+T44	E_span 1657 1661	2016
+T45	B_span 1698 1701	NMT
+T46	E_span 1721 1725	2018
+T47	B_span 1782 1790	sequence
+T48	E_span 1862 1866	2018
+T49	B_span 2104 2111	Options
+T50	E_span 2138 2142	1999
+T51	B_span 2373 2378	Atari
+T52	E_span 2403 2407	2016
+T53	B_span 2411 2419	relation
+T54	E_span 2449 2453	2018
+T55	B_span 2457 2465	relation
+T56	E_span 2495 2499	2018

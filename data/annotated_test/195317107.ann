@@ -1,0 +1,33 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Multi_summ 125 130	[BOS]
+T3	Transition 343 348	[BOS]
+T4	Multi_summ 433 438	[BOS]
+T5	Narrative_cite 654 659	[BOS]
+T6	Narrative_cite 877 882	[BOS]
+T7	Transition 1015 1020	[BOS]
+T8	Narrative_cite 1121 1126	[BOS]
+T9	Reflection 1253 1258	[BOS]
+T10	Reference 102 122	(Ruder et al., 2017)
+T11	Dominant 167 189	(Mikolov et al., 2013a
+T12	Dominant 191 213	Faruqui and Dyer, 2014
+T13	Dominant 215 232	Guo et al., 2015)
+T14	Dominant 473 492	(Gouws et al., 2015
+T15	Dominant 494 517	Coulmance et al., 2015)
+T16	Reference 851 874	(Upadhyay et al., 2016)
+T17	Reference 967 989	(Chen and Cardie, 2018
+T18	Reference 991 1012	Conneau et al., 2018)
+T19	Reference 1228 1250	(Tissier et al., 2017)
+T20	B_span 75 79	word
+T21	E_span 121 122	)
+T22	B_span 146 150	seed
+T23	E_span 341 342	.
+T24	B_span 448 456	parallel
+T25	E_span 652 653	.
+T26	B_span 833 844	translation
+T27	E_span 873 874	)
+T29	B_span 947 956	bilingual
+T31	E_span 1011 1012	)
+T32	B_span 1198 1203	monol
+T33	E_span 1249 1250	)
+T34	Pronoun 368 373	these
+T35	Pronoun 1021 1026	These

@@ -1,0 +1,21 @@
+[BOS] Our approach is to use unannotated data to generate the meta features to improve dependency parsing.
+[BOS] Several previous studies relevant to our approach have been conducted.
+[BOS] Koo et al. (2008) used a word clusters trained on a large amount of unannotated data and designed a set of new features based on the clusters for dependency parsing models.
+[BOS] Chen et al. (2009) extracted subtree structures from a large amount of data and represented them as the additional features to improve dependency parsing.
+[BOS] Suzuki et al. (2009) extended a Semi-supervised Structured Conditional Model (SS-SCM) of Suzuki and Isozaki (2008) to the dependency parsing problem and combined their method with the word clustering feature representation of Koo et al. (2008) .
+[BOS] Chen et al. (2012) proposed an approach to representing high-order features for graphbased dependency parsing models using a dependency language model and beam search.
+[BOS] In future work, we may consider to combine their methods with ours to improve performance.
+
+[BOS] Several previous studies used co-training/selftraining methods.
+[BOS] McClosky et al. (2006) presented a self-training method combined with a reranking algorithm for constituency parsing.
+[BOS] Sagae and Tsujii (2007) applied the standard co-training method for dependency parsing.
+[BOS] In their approaches, some automatically parsed sentences were selected as new training data, which was used together with the original labeled data to retrain a new parser.
+[BOS] We are able to use their approaches on top of the output of our parsers.
+
+[BOS] With regard to feature transformation, the work of Ando and Zhang (2005) is similar in spirit to our work.
+[BOS] They studied semi-supervised text chunking by using a large projection matrix to map sparse base features into a small number of high level features.
+[BOS] Their project matrix was trained by transforming the original problem into a large number of auxiliary problems, obtaining training data for the auxiliary problems by automatically labeling raw data and using alternating structure optimization to estimate the matrix across all auxiliary tasks.
+[BOS] In comparison with their approach, our method is simpler in the sense that we do not request any intermediate step of splitting the prediction problem, and obtain meta features directly from self-annotated data.
+[BOS] The training of our meta feature values is highly efficient, requiring the collection of simple statistics over base features from huge amount of data.
+[BOS] Hence our method can potentially be useful to other tasks also.
+

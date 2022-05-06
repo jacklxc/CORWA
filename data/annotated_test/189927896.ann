@@ -1,0 +1,79 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 348 353	[BOS]
+T3	Narrative_cite 452 457	[BOS]
+T4	Single_summ 614 619	[BOS]
+T5	Single_summ 773 778	[BOS]
+T6	Single_summ 887 892	[BOS]
+T7	Single_summ 1080 1085	[BOS]
+T8	Single_summ 1246 1251	[BOS]
+T9	Transition 1396 1401	[BOS]
+T10	Transition 1483 1488	[BOS]
+T11	Single_summ 1728 1733	[BOS]
+T12	Narrative_cite 1829 1834	[BOS]
+T13	Single_summ 2069 2074	[BOS]
+T14	Single_summ 2299 2304	[BOS]
+T15	Single_summ 2464 2469	[BOS]
+T16	Single_summ 2633 2638	[BOS]
+T17	Reflection 2770 2775	[BOS]
+T18	Reflection 2915 2920	[BOS]
+T19	Reflection 3037 3042	[BOS]
+T20	Reflection 3209 3214	[BOS]
+T21	Reference 162 184	(Hermann et al., 2015)
+T22	Reference 201 220	(Yang et al., 2015)
+T23	Reference 278 303	(Rajpurkar et al., , 2018
+T24	Reference 324 345	(Nguyen et al., 2016)
+T25	Reference 552 563	(Jain, 2016
+T26	Reference 565 582	Lin et al., 2018)
+T27	Reference 593 611	(Yin et al., 2015)
+T28	Dominant 637 658	(Weston et al., 2016)
+T29	Dominant 788 809	(Joshi et al., 2017 )
+T30	Dominant 893 912	Welbl et al. (2017)
+T31	Dominant 1261 1281	(Yang et al., 2018 )
+T32	Reference 1914 1932	Yang et al. (2018)
+T33	Dominant 2075 2095	Jia and Liang (2017)
+T34	Reference 2159 2183	(Rajpurkar et al., 2016)
+T35	Reference 2369 2386	(Seo et al., 2017
+T36	Reference 2388 2403	Hu et al., 2018
+T37	Dominant 2470 2492	Wang and Bansal (2018)
+T38	Reference 2977 2997	(Jia and Liang, 2017
+T39	Reference 2999 3021	Wang and Bansal, 2018)
+T40	B_span 130 133	clo
+T41	E_span 183 184	)
+T42	B_span 187 191	open
+T43	E_span 219 220	)
+T44	B_span 223 225	QA
+T45	E_span 299 303	2018
+T46	B_span 310 320	generative
+T47	E_span 344 345	)
+T48	B_span 537 546	knowledge
+T49	E_span 581 582	)
+T50	B_span 586 592	tables
+T51	E_span 610 611	)
+T52	B_span 620 623	The
+T53	E_span 770 771	.
+T54	B_span 779 782	Tri
+T55	E_span 885 886	.
+T56	B_span 893 896	Wel
+T57	E_span 1244 1245	.
+T58	B_span 1252 1255	Hot
+T59	E_span 1394 1395	.
+T60	B_span 1871 1877	bridge
+T61	E_span 1931 1932	)
+T62	B_span 2075 2078	Jia
+T63	E_span 2462 2463	.
+T64	B_span 2470 2474	Wang
+T65	E_span 2761 2768	samples
+T66	B_span 2977 2978	(
+T67	E_span 3020 3021	)
+T68	Pronoun 1086 1088	It
+T69	Pronoun 1439 1444	their
+T70	Pronoun 1685 1687	it
+T71	Pronoun 2305 2309	They
+T72	Pronoun 2639 2643	They
+T73	Pronoun 2809 2814	these
+T74	Pronoun 2874 2876	it
+T75	Reference 255 277	Rajpurkar et al., 2016
+T76	B_span 2153 2158	SQuAD
+T77	E_span 2178 2182	2016
+T78	B_span 2342 2347	state
+T79	E_span 2399 2403	2018

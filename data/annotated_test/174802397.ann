@@ -1,0 +1,75 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 109 114	[BOS]
+T3	Single_summ 300 305	[BOS]
+T4	Single_summ 417 422	[BOS]
+T5	Reflection 527 532	[BOS]
+T6	Single_summ 720 725	[BOS]
+T7	Single_summ 837 842	[BOS]
+T8	Reflection 973 978	[BOS]
+T9	Reflection 1060 1065	[BOS]
+T10	Single_summ 1176 1181	[BOS]
+T11	Reflection 1277 1282	[BOS]
+T12	Narrative_cite 1340 1345	[BOS]
+T13	Narrative_cite 1568 1573	[BOS]
+T14	Single_summ 1871 1876	[BOS]
+T15	Single_summ 2061 2066	[BOS]
+T16	Reflection 2155 2160	[BOS]
+T17	Narrative_cite 2268 2273	[BOS]
+T18	Narrative_cite 2422 2427	[BOS]
+T19	Narrative_cite 2641 2646	[BOS]
+T20	Reflection 2871 2876	[BOS]
+T21	Dominant 128 152	Belinkov and Bisk (2018)
+T22	Dominant 157 180	Karpukhin et al. (2019)
+T23	Dominant 183 204	Sperber et al. (2017)
+T24	Dominant 306 325	Cheng et al. (2018)
+T25	Dominant 423 446	Ebrahimi et al. (2018a)
+T26	Dominant 742 766	Michel and Neubig (2018)
+T27	Dominant 1200 1224	Michel and Neubig (2018)
+T28	Reference 1487 1508	(Szegedy et al., 2014
+T29	Reference 1510 1533	Goodfellow et al., 2015
+T30	Reference 1535 1565	Moosavi-Dezfooli et al., 2016)
+T31	Reference 1684 1704	(Miyato et al., 2017
+T32	Reference 1706 1729	Ebrahimi et al., 2018b)
+T33	Reference 1754 1775	(Jia and Liang, 2017)
+T34	Reference 1798 1815	(Li et al., 2017)
+T35	Reference 1838 1863	(Belinkov and Bisk, 2018)
+T36	Dominant 1896 1917	(Miyato et al., 2017)
+T37	Reference 2354 2377	(Sennrich et al., 2016b
+T38	Reference 2379 2397	Cheng et al., 2016
+T39	Reference 2399 2419	Edunov et al., 2018)
+T40	Reference 2528 2552	(Sennrich et al., 2016a)
+T41	Reference 2571 2590	(Wang et al., 2018)
+T42	Reference 2612 2633	(Fadaee et al., 2017)
+T43	Reference 2809 2833	(Sennrich et al., 2016b)
+T44	B_span 128 136	Belinkov
+T45	E_span 291 298	methods
+T46	B_span 306 311	Cheng
+T47	E_span 411 415	type
+T48	B_span 423 431	Ebrahimi
+T49	E_span 522 525	NMT
+T50	B_span 742 748	Michel
+T51	E_span 967 971	data
+T52	B_span 1200 1206	Michel
+T53	E_span 1271 1275	data
+T54	B_span 1402 1413	adversarial
+T55	E_span 1560 1564	2016
+T56	B_span 1664 1668	text
+T57	E_span 1723 1728	2018b
+T58	B_span 1732 1733	m
+T59	E_span 1770 1774	2017
+T60	B_span 1778 1786	dialogue
+T61	E_span 1810 1814	2017
+T62	B_span 1818 1825	machine
+T63	E_span 1858 1862	2018
+T64	B_span 1896 1897	(
+T65	E_span 2149 2153	data
+T66	B_span 2283 2296	incorporating
+T67	E_span 2414 2418	2018
+T68	B_span 2513 2521	dropping
+T69	E_span 2546 2551	2016a
+T70	B_span 2555 2564	replacing
+T71	E_span 2585 2589	2018
+T72	B_span 2593 2600	editing
+T73	E_span 2628 2632	2017
+T74	B_span 2786 2790	data
+T75	E_span 2827 2832	2016b

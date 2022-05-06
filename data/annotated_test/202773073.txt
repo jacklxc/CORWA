@@ -1,0 +1,5 @@
+[BOS] External Knowledge Enhanced MRC Models There are several models that use knowledge for machine comprehension (Yang and Mitchell, 2017; Mihaylov and Frank, 2018; Weissenborn, 2017; Bauer et al., 2018; Pan et al., 2019) .
+[BOS] Mihaylov and Frank (2018) relies on the ability of the attention mechanism to retrieve relevant pieces of knowledge, and Bauer et al. (2018) employs multihop commonsense paths to help multi-hop reasoning.
+[BOS] They treat retrieved knowledge triples as sequences and use sequence modeling methods to compress the representation of knowledge, which are not based on graph structure.
+[BOS] On the contrary, we organize knowledge as sub-graphs, then update the representation of nodes on sub-graphs with graph neural network.
+

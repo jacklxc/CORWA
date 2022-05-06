@@ -1,0 +1,64 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 415 420	[BOS]
+T3	Narrative_cite 594 599	[BOS]
+T4	Narrative_cite 898 903	[BOS]
+T5	Single_summ 1116 1121	[BOS]
+T6	Single_summ 1316 1321	[BOS]
+T7	Single_summ 1481 1486	[BOS]
+T8	Transition 1603 1608	[BOS]
+T9	Narrative_cite 1749 1754	[BOS]
+T10	Narrative_cite 1941 1946	[BOS]
+T11	Narrative_cite 2064 2069	[BOS]
+T12	Narrative_cite 2255 2260	[BOS]
+T13	Reference 80 103	(Rajpurkar et al., 2016
+T14	Reference 105 123	Joshi et al., 2017
+T15	Reference 125 148	Trischler et al., 2016)
+T16	Reference 282 301	(Joshi et al., 2017
+T17	Reference 303 323	Kocisk et al., 2017)
+T18	Reference 364 387	(Trischler et al., 2016
+T19	Reference 389 412	Rajpurkar et al., 2018)
+T20	Reference 460 489	MSMARCO (Nguyen et al., 2016)
+T21	Reference 691 711	(Iyyer et al., 2017)
+T22	Reference 724 749	(Talmor and Berant, 2018)
+T23	Reference 985 1005	(Dahl et al., 1994 )
+T24	Reference 1047 1066	(Saha et al., 2018)
+T25	Dominant 1146 1166	Saeidi et al. (2018)
+T26	Dominant 1341 1360	Reddy et al. (2018)
+T27	Reference 1861 1890	chit-chat Ritter et al., 2011
+T28	Reference 1892 1909	Fang et al., 2017
+T29	Reference 1911 1938	Ghazvininejad et al., 2018)
+T30	Reference 1991 2009	(Das et al., 2017)
+T31	Reference 2126 2146	(Lewis et al., 2017)
+T32	Reference 2165 2182	(He et al., 2017)
+T33	Reference 2316 2342	Stede and Schlangen (2004)
+T34	Pronoun 554 559	these
+T35	B_span 47 51	span
+T36	E_span 143 147	2016
+T37	B_span 196 204	curating
+T38	E_span 318 322	2017
+T39	B_span 328 336	allowing
+T40	E_span 407 411	2018
+T41	B_span 460 467	MSMARCO
+T42	E_span 484 488	2016
+T43	B_span 637 647	sequential
+T44	E_span 706 710	2017
+T45	B_span 720 723	web
+T46	E_span 744 748	2018
+T47	B_span 949 957	semantic
+T48	E_span 999 1003	1994
+T49	B_span 1048 1052	Saha
+T50	E_span 1061 1065	2018
+T51	B_span 1146 1152	Saeidi
+T52	E_span 1308 1314	dialog
+T53	B_span 1341 1346	Reddy
+T54	E_span 1596 1601	SQuAD
+T55	B_span 1854 1860	social
+T56	E_span 1937 1938	)
+T57	B_span 1977 1983	visual
+T58	E_span 2058 2062	text
+T59	B_span 2115 2125	bargaining
+T60	E_span 2141 2145	2017
+T61	B_span 2151 2155	item
+T62	E_span 2177 2181	2017
+T63	B_span 2261 2272	Information
+T64	E_span 2341 2342	)

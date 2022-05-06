@@ -1,0 +1,37 @@
+[BOS] Intrinsic evaluation of word embeddings has primarily focused on two main tasks: identifying general semantic relatedness or similarity and the so-called analogy task, where word embeddings have been shown to be able to predict missing components of analogies of the type A is to B as C is to D (Mikolov et al., 2013; Turney, 2012) .
+[BOS] Furthermore, most intrinsic evaluation methods take full vectors into consideration.
+[BOS] The famous examples P aris  F rance + Italy  Rome or kingman+woman  queen evoke the suggestion that embeddings can capture semantic properties.
+[BOS] The task has, however, been criticized substantially (Linzen, 2016; Drozd et al., 2016, among others) .
+[BOS] follow an observation in Levy and Goldberg (2014) on the large differences in performance on different categories in the Google analogy set (Mikolov et al., 2013) .
+[BOS] They provide a new, more challenging, analogy dataset that improves existing sets on balance (capturing more semantic categories) and size.
+[BOS] Linzen (2016) points out more fundamental problems including the observation that the target vector in the analogy task can often be found by simply taking the vector closest to the source.
+[BOS] show that classifiers picking out the target word from a set of related terms outperform our experiments can be found at: https://cltl.github.io/semantic_space_navigation the standardly applied cosine addition or multiplication methods.
+[BOS] Though also boosted by the aforementioned proximity bias, these results indicate that standard methods of solving analogies miss information that is captured by embeddings.
+[BOS] Rogers et al. (2017) conclude that the analogy evaluation does not reveal if word embedding representations indeed capture specific semantic properties.
+
+[BOS] On top of that, an embedding may capture specific semantic properties in ways that are not analogous to semantic properties of related categories.
+[BOS] Analogy methods assume that semantic properties stand in analogous relation to each other based on the information provided by the context, but there is no reason why (e.g.)
+[BOS] things made of wood and things made of plastic result in (combinations of) embedding dimensions that are similar enough to stand in a parallel relation to each other.
+[BOS] Our setup can determine whether the properties are represented without supposing such structures by targeting semantic properties directly rather than in relation to other concepts.
+
+[BOS] Several approaches have attempted to derive properties collected in property norm datasets from the distribution in naturally occurring texts (Kelly et al., 2014; Baroni et al., 2010; Barbu, 2008) .
+[BOS] Whereas these approaches yield indications about the potential of distributional models, they do not go beyond full-vector proximity on a low-dimensional SVD model or context words in a transparent, high-dimensional count model.
+[BOS] Their focus lies on detecting informative contexts.
+[BOS] We follow the idea behind this approach and make a human-elicited property dataset that is created in the same tradition, but larger.
+[BOS] Our approach goes beyond the previous work in two ways: first, we add gold negative examples which allows us to go beyond testing for salient properties.
+[BOS] Second, we compare full vector proximity to the outcome of a classifier which allows us to verify whether the property is captured for entities that share the property, but are not similar otherwise.
+
+[BOS] A few other studies go beyond full vector comparisons, moving towards the interpretation of word embedding dimensions.
+[BOS] Tsvetkov et al. ( , 2016 evaluate word embeddings by measuring the correlation between word embedding vectors and count vectors representing cooccurrences of words with WordNet supersenses.
+[BOS] While they show that their results have a higher correlation with results obtained from extrinsic evaluations than standardly used intrinsic evaluations, they do not provide insights into what kind of semantic information is represented well.
+[BOS] Yaghoobzadeh and Schtze (2016) decompose distributional vectors into individual linguistic aspects by means of a supervised classification approach to test which linguistic phenomena are captured by embeddings.
+[BOS] They test their approach on an artificially created corpus and do not provide insights into specific semantic knowledge.
+[BOS] transform learned embedding matrices into sparse matrices to make them more interpretable, which is complementary to our approach.
+
+[BOS] Previous studies provide (indicative) support for the hypothesis that embeddings lack information people get from other modalities than language.
+[BOS] Fagarasan et al. (2015) present a method to ground embedding models in perceptual information by mapping distributional spaces to semantic spaces consisting of feature norms.
+[BOS] Several approaches to boosting distributional models with visual information show that the additional information improves the performance of word embedding vectors (Roller and Schulte im Walde, 2013; Lazaridou et al., 2014) .
+[BOS] Whereas this indicates that word embedding models lack visual information, it does not show to what extent different types of properties are encoded.
+[BOS] The method proposed in this paper is, to the best of our knowledge, the first approach specifically designed to identify what semantic knowledge is captured in word embeddings.
+[BOS] We are not aware of earlier work that provides explicit hypotheses about the kind of information we expect to learn from distributional vectors, making this the first attempt to confirm these hypotheses experimentally.
+

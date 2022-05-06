@@ -1,0 +1,13 @@
+[BOS] Crucial for the evaluation of the centering model (Grosz et al., 1995) and its applicability to naturally occurring discourse is the lack of a specification conceming how to handle complex sentences and intrasentential anaphora.
+[BOS] Grosz et al. suggest the processing of sentences linearly one clause at a time.
+[BOS] We have shown that such an approach is not appropriate for some types of complex sentences.
+[BOS] Suri & McCoy (1994) argue in the same manner, but we consider the functional approach for languages with free word order superior to their grammatical criteria, while, for languages with fixed word order, both approaches should give the same results.
+[BOS] Hence, our approach seems to be more generally applicable.
+[BOS] Other approaches which integrate the resolution of sentenceand text-level anaphora are based on salience metrics (Haji~ov~i et al., 1992; Lappin & Leass, 1994) .
+[BOS] We consider such metrics to be a method which detracts from the exact linguistic specifications as we propose them.
+
+[BOS] At first sight, grammar theories like GB (Chomsky, 1981) or I-IPSG (Pollard & Sag, 1994) , are the best choice for resolving anaphora at the sentence-level.
+
+[BOS] But these grammar theories only give filters for excluding some elements from consideration.
+[BOS] Neither gives any preference for a particular antecedent at the sentence-level, nor do they consider text anaphora.
+

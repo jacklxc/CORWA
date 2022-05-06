@@ -1,0 +1,40 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 217 222	[BOS]
+T3	Transition 225 230	[BOS]
+T4	Narrative_cite 342 347	[BOS]
+T5	Narrative_cite 520 525	[BOS]
+T6	Transition 689 694	[BOS]
+T7	Multi_summ 781 786	[BOS]
+T8	Single_summ 1079 1084	[BOS]
+T9	Single_summ 1252 1257	[BOS]
+T10	Reflection 1346 1351	[BOS]
+T11	Multi_summ 1501 1506	[BOS]
+T12	Narrative_cite 1719 1724	[BOS]
+T13	Reference 429 456	(Schmidt and Wiegand, 2017)
+T14	Reference 459 484	(Fortuna and Nunes, 2018)
+T15	Reference 489 517	(Malmasi and Zampieri, 2017)
+T16	Reference 575 599	(Zampieri et al., 2019a)
+T17	Reference 661 685	(Zampieri et al., 2019b)
+T18	Dominant 856 877	(Waseem et al., 2017)
+T19	Dominant 882 906	(ElSherief et al., 2018)
+T20	Dominant 1085 1104	(Fier et al., 2017)
+T21	Dominant 1653 1678	(Gambck and Sikdar, 2017)
+T22	Dominant 1683 1703	(Zhang et al., 2018)
+T23	Reference 1875 1897	(Wiegand et al., 2018)
+T24	Reference 1907 1927	(Kumar et al., 2018)
+T25	B_span 348 354	Survey
+T26	E_span 512 516	2017
+T27	B_span 530 537	dataset
+T28	E_span 593 598	2019a
+T29	B_span 604 613	different
+T30	E_span 679 684	2019b
+T31	B_span 789 797	proposal
+T32	E_span 1063 1077	characteristic
+T33	B_span 1086 1090	Fier
+T34	E_span 1242 1250	Slovenia
+T35	B_span 1507 1517	Approaches
+T36	E_span 1704 1716	respectively
+T37	B_span 1866 1874	GermEval
+T38	E_span 1892 1896	2018
+T39	B_span 1902 1906	TRAC
+T40	E_span 1922 1926	2018

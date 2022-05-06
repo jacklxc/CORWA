@@ -1,0 +1,3 @@
+[BOS] There is a long thread of work aiming to improve the ability of RNN in remembering long sequences, with the long short-term memory RNN (LSTM) (Hochreiter and Schmidhuber, 1997) being the most salient examples and GRU being the most recent one.
+[BOS] Those works focus on
+

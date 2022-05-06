@@ -1,0 +1,17 @@
+[BOS] Prior to the deep learning era, sentence syntactic structure has been utilized to generate summaries with an "extract-and-compress" framework.
+[BOS] Compressed summaries are generated using a joint model to extract sentences and drop non-important syntactic constituents (Daume III and Marcu, 2002; BergKirkpatrick et al., 2011; Thadani and McKeown, 2013; Durrett et al., 2016) , or a pipeline approach that combines generic sentence compression (McDonald, 2006; Clarke and Lapata, 2008; Filippova et al., 2015) with a sentence pre-selection or post-selection process (Zajic et al., 2007; Galanis and Androutsopoulos, 2010; Wang et al., 2013; Li et al., 2013; Li et al., 2014) .
+[BOS] Although syntactic information is helpful for summarization, there has been little prior work investigating how best to combine sentence syntactic structure with the neural abstractive summarization systems.
+[BOS] Existing neural summarization systems handle syntactic structure only implicitly (Kikuchi et al., 2016; Chen et al., 2016; Zhou et al., 2017; Tan et al., 2017; Paulus et al., 2017) .
+[BOS] Most systems adopt a "cut-andstitch" scheme that picks words either from the vocabulary or the source text and stitch them together using a recurrent language model.
+[BOS] However, there lacks a mechanism to ensure structurally salient words and relations in source sentences are preserved in the summaries.
+[BOS] The resulting summary sentences can contain misleading information (e.g., "mozambican man arrested for murder" flips the meaning of the original) or grammatical errors (e.g., verbless, as in "alaska father who was too drunk to drive").
+
+[BOS] Natural language generation (NLG)-based abstractive summarization (Carenini and Cheung, 2008; Gerani et al., 2014; Fabbrizio et al., 2014; Liu et al., 2015; Takase et al., 2016 ) also makes extensive use of structural information, including syntactic/semantic parse trees, discourse structures, and domainspecific templates built using a text planner or an OpenIE system (Pighin et al., 2014) .
+[BOS] In particular, Cao et al. (2018) leverage OpenIE and dependency parsing to extract fact tuples from the source text and use those to improve the faithfulness of summaries.
+[BOS] Different from the above approaches, this paper seeks to directly incorporate source-side syntactic structure in the copy mechanism of an abstractive sentence summarization system.
+[BOS] It learns to recognize important source words and relations during training, while striving to preserve them in the summaries at test time to aid reproduction of factual details.
+[BOS] Our intent of incorporating source syntax in summarization is different from that of neural machine translation (NMT) (Li et al., 2017a; Chen et al., 2017) , in part because NMT does not handle the information loss from source to target.
+[BOS] In contrast, a summarization system must selectively preserve source content to render concise and grammatical summaries.
+[BOS] We specifically focus on sentence summarization, where the goal is to reduce the first sentence of an article to a title-like summary.
+[BOS] We believe even for this reasonably simple task there remains issues unsolved.
+

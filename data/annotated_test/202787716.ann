@@ -1,0 +1,67 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 240 245	[BOS]
+T3	Transition 368 373	[BOS]
+T4	Single_summ 489 494	[BOS]
+T5	Transition 650 655	[BOS]
+T6	Single_summ 804 809	[BOS]
+T7	Transition 922 927	[BOS]
+T8	Narrative_cite 1068 1073	[BOS]
+T9	Transition 1416 1421	[BOS]
+T10	Transition 1492 1497	[BOS]
+T11	Multi_summ 1569 1574	[BOS]
+T12	Single_summ 1749 1754	[BOS]
+T13	Reflection 2073 2078	[BOS]
+T14	Reflection 2136 2141	[BOS]
+T15	Transition 2204 2209	[BOS]
+T16	Reflection 2306 2311	[BOS]
+T17	Transition 2436 2441	[BOS]
+T18	Transition 2551 2556	[BOS]
+T19	Transition 2677 2682	[BOS]
+T20	Multi_summ 2820 2825	[BOS]
+T21	Transition 3042 3047	[BOS]
+T22	Reflection 3163 3168	[BOS]
+T23	Reflection 3320 3325	[BOS]
+T24	Reflection 3497 3502	[BOS]
+T25	Reflection 3633 3638	[BOS]
+T26	B_span 91 100	pipelined
+T27	Reference 102 121	Bohnet et al., 2010
+T28	E_span 117 121	2010
+T29	B_span 127 132	joint
+T30	E_span 172 176	2017
+T31	Reference 134 151	Song et al., 2014
+T32	Reference 153 176	Puduppully et al., 2017
+T33	B_span 324 331	English
+T34	E_span 360 364	2011
+T35	Reference 347 364	Belz et al., 2011
+T36	B_span 505 517	Marcheggiani
+T37	E_span 642 647	track
+T38	Dominant 505 546	Marcheggiani and Perez-Beltrachini (2018)
+T39	Dominant 815 838	Elder and Hokamp (2018)
+T40	B_span 815 820	Elder
+T41	E_span 914 919	track
+T42	B_span 1194 1197	SMT
+T43	E_span 1408 1412	2018
+T44	Reference 1206 1229	Basile and Mazzei, 2018
+T45	Reference 1231 1259	Castro Ferreira et al., 2018
+T46	Reference 1261 1283	Elder and Hokamp, 2018
+T47	Reference 1285 1305	King and White, 2018
+T48	Reference 1307 1328	Madsack et al., 2018;
+T49	Reference 1329 1355	Puzikov and Gurevych, 2018
+T50	Reference 1357 1375	Singh et al., 2018
+T51	Reference 1377 1412	Sobrevilla Cabezudo and Pardo, 2018
+T52	Dominant 1599 1621	Elder and Hokamp, 2018
+T53	Dominant 1623 1658	Sobrevilla Cabezudo and Pardo, 2018
+T54	E_span 1740 1746	others
+T55	B_span 1588 1591	two
+T56	Dominant 1821 1844	Elder and Hokamp (2018)
+T57	B_span 1821 1826	Elder
+T58	E_span 2063 2070	English
+T59	Dominant 2850 2871	King and White (2018)
+T60	B_span 2850 2854	King
+T61	E_span 2943 2949	module
+T62	Dominant 2955 2982	Puzikov and Gurevych (2018)
+T63	B_span 2955 2962	Puzikov
+T64	E_span 3033 3040	modules
+T65	Reference 3606 3630	Basile and Mazzei (2018)
+T66	B_span 3561 3572	contraction
+T67	E_span 3625 3629	2018

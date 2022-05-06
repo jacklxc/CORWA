@@ -1,0 +1,18 @@
+[BOS] While monolingual insights like paraphrases have potential applications in semantic textual similarity (Agirre et al., 2012) , there exist bigger corpora for those tasks, such as PPDB (Ganitkevitch et al., 2013) .
+[BOS] However, as the Bible is often the only significant parallel text for many of the world's languages, improved 27-way consensus English resources created here have value for annotation projection to low-resource languages.
+
+[BOS] The Bible has been productively used as a key resource for cross-lingual knowledge transfer (Yarowsky et al., 2001; Agi et al., 2015) .
+[BOS] Specifically, Johannsen et al. (2016) suggests a method for projecting POS tags and dependency parses onto a target language.
+[BOS] Our approach can be modified in a similar way.
+[BOS] By restricting the scoring function to use entirely language-independent features (e.g. pairwise alignments), our algorithm still maximizes the score of the matching by relearning an improved dictionary between iterations.
+[BOS] The corpus alignment may also be desirable over separate alignments for multi-source projection tasks in noisier data because a word or phrase may only align with only a subset of the sources.
+
+[BOS] By generating resources specifically for the Bible, we hope to foster future computational methods for studying religious texts.
+[BOS] Current Biblical visualization (Zhang et al., 2016) and authorship (Moritz et al., 2016) works use a small subset of the translations to perform their analysis.
+[BOS] Our resources would encourage analysis across all versions of the Bible, which would be less biased than picking a small set.
+[BOS] By weighing the votes cast by each token in a relation, it is even possible to emphasize a specific corpus.
+
+[BOS] The algorithms described in Section 2 can be applied to any parallel corpora.
+[BOS] The scoring function is simple and accommodates arbitrary features.
+[BOS] While our approach specifically assumes the documents (verses) within the corpora are already aligned, knowing which documents are similar (e.g. through clustering) is sufficient -perhaps at the cost of quality -to align and generate the subsequent resources.
+

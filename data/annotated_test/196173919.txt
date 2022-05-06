@@ -1,0 +1,20 @@
+[BOS] Former work by Roberts (2016) analyzed the trade-off between corpus size and similarity when training word embeddings for a clinical entity recognition task.
+[BOS] The author's conclusion was that while embeddings trained with word2vec on indomain texts performed generally better, a combination of both in-domain and general domain em-3.
+[BOS] Echocardiogram on **DATE [Nov 6 2007] , showed ejection fraction of 55% , mild mitral insufficiency , and 1+ tricuspid insufficiency with mild pulmonary hypertension .
+
+[BOS] DERMOPLAST TOPICAL TP Q12H PRN Pain DOCUSATE SODIUM 100 MG PO BID PRN Constipation IBUPROFEN 400-600 MG PO Q6H PRN Pain
+
+[BOS] The patient had headache that was relieved only with oxycodone .
+[BOS] A CT scan of the head showed microvascular ischemic changes .
+[BOS] A followup MRI which also showed similar changes .
+[BOS] This was most likely due to her multiple myeloma with hyperviscosity .
+[BOS] (Roberts, 2016) .
+
+[BOS] beddings worked the best.
+[BOS] Subsequent work by Zhu et al. (2018) obtained state-of-the-art results on the same task using contextual embeddings (ELMo) that were pre-trained on a large in-domain corpus made of medical articles from Wikipedia and clinical notes from MIMIC-III (Johnson et al., 2016) .
+[BOS] More recently, these embeddings were outperformed by BERT representations pre-trained on MIMIC-III, proving once more the value of large in-domain corpora (Si et al., 2019) .
+[BOS] 2 While interesting for the clinical domain, these strategies may not always be applicable to other specialized fields since large in-domain corpora like MIMIC-III will rarely be available.
+[BOS] To deal with this issue, we explore embedding combinations 3 .
+[BOS] In this respect, we consider both static forms of combination explored in (Yin and Schtze, 2016; Muromgi et al., 2017; Bollegala et al., 2018) and more dynamic modes of combination that can be found in and (Kiela et al., 2018) .
+[BOS] In this work, we show in particular how a combination of general-domain contextual embeddings, fine-tuning, and in-domain static embeddings trained on a small corpus can be employed to reach a similar performance using resources that are available for any domain.
+

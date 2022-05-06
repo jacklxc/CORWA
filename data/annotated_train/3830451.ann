@@ -1,0 +1,47 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 194 199	[BOS]
+T3	Transition 339 344	[BOS]
+T4	Transition 399 404	[BOS]
+T5	Transition 475 480	[BOS]
+T6	Transition 599 604	[BOS]
+T7	Transition 712 717	[BOS]
+T8	Transition 787 792	[BOS]
+T9	Transition 880 885	[BOS]
+T10	Narrative_cite 1123 1128	[BOS]
+T11	Transition 1420 1425	[BOS]
+T12	Narrative_cite 1476 1481	[BOS]
+T13	Transition 1749 1754	[BOS]
+T14	Transition 1839 1844	[BOS]
+T15	Narrative_cite 1895 1900	[BOS]
+T16	Transition 2069 2074	[BOS]
+T17	Transition 2225 2230	[BOS]
+T18	Narrative_cite 2329 2334	[BOS]
+T19	Transition 2447 2452	[BOS]
+T20	Reference 174 191	(Calzolari, 1984)
+T21	Reference 1403 1417	(Hearst, 1992)
+T22	Reference 1721 1746	(Widdows and Dorow, 2002)
+T23	Reference 2018 2037	(Guido Boella, 2014
+T24	Reference 2040 2066	Navigli and Velardi, 2010)
+T25	Reference 2425 2444	(Sang et al., 2011)
+T26	Pronoun 498 502	this
+T27	Pronoun 586 590	they
+T28	Pronoun 627 632	these
+T29	Pronoun 763 767	this
+T30	Pronoun 978 980	it
+T31	Pronoun 1426 1430	This
+T32	Pronoun 1482 1486	This
+T33	Pronoun 1854 1859	these
+T34	Pronoun 2244 2249	these
+T35	B_span 1356 1364	semantic
+T36	E_span 1412 1416	1992
+T37	B_span 104 112	ontology
+T38	E_span 186 190	1984
+T39	Reference 1667 1693	Berland and Charniak, 1999
+T40	Reference 1697 1718	Kozareva et al., 2008
+T41	B_span 1637 1645	semantic
+T42	E_span 1741 1745	2002
+T43	B_span 1993 1998	large
+T44	E_span 2061 2065	2010
+T45	Reference 2410 2423	Lefever, 2015
+T46	B_span 2335 2338	The
+T47	E_span 2439 2443	2011

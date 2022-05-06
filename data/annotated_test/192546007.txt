@@ -1,0 +1,24 @@
+[BOS] Robustness of neural network models has been a prominent research topic since Szegedy et al. (2013) discovered that CNN-based image classification models are vulnerable to adversarial examples.
+[BOS] However, attempts to examine the robustness of NLP models are relatively few and far between.
+[BOS] Previous work on attacking neural NLP models include using Fast Gradient Sign Method (Goodfellow et al., 2015) to perturb the embedding of RNN-based classifiers (Papernot et al., 2016; , but they have difficulties mapping from continuous embedding space to discrete input space.
+[BOS] Ebrahimi et al. (2018) propose the 'HotFilp' method that replaces the word or character with the largest difference in the Jacobian matrix.
+[BOS] Li et al. (2016) employ reinforcement learning to find the optimal words to delete in order to fool the classifier.
+[BOS] More recently, Yang et al. (2018) propose a greedy method to construct adversarial examples by solving a discrete optimization problem.
+[BOS] They show superior performance than previous work in terms of attack success rate, but the greedy edits usually degrade the readability or significantly change the semantics.
+[BOS] Zhao et al. (2018) utilize generative adversarial networks (GAN) to generate adversarial attacks against black-box models for applications including image classification, textual entailment, and machine translation.
+[BOS] Alzantot et al. (2018) propose to use a pre-compiled list of semantically similar words to alleviate this issue, but leads to lower successful rate as shown in our experiments.
+[BOS] We thus include the latest greedy and list-based approaches in our comparisons.
+
+[BOS] In addition, the concept of adversarial attacks has also been explored in more complex NLP tasks.
+[BOS] For example, Jia and Liang (2017) attempt to craft adversarial input to a question answering system by inserting irrelevant sentences at the end of a paragraph.
+[BOS] Cheng et al. (2018) develop an algorithm for attacking seq2seq models with specific constraints on the content of the adversarial examples.
+[BOS] Belinkov and Bisk (2018) compare typos and artificial noise as adversarial input to machine translation models.
+[BOS] Also, Iyyer et al. (2018) propose a paraphrase generator model learned from back-translation data to generate legitimate paraphrases of a sentence as adversaries.
+[BOS] However, the semantic similarity is not guaranteed.
+[BOS] In terms of comparisons between LSTM and Transformers, Tang et al. (2018) show that multiheaded attention is a critical factor in Transformer when learning long distance linguistic relations.
+
+[BOS] This work is unique in a number of aspects.
+[BOS] First, we examine the robustness of uni-and bidirectional self-attentive model as compared to recurrent neural networks.
+[BOS] And, we devise novel attack methods that take advantage of the embedding distance to maximize semantic similarity between real and adversarial examples.
+[BOS] Last but not least, we provide detail observations of the inter-nal variations of different models under attack and theoretical analysis regarding their levels of robustness.
+

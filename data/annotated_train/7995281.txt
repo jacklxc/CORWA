@@ -1,0 +1,6 @@
+[BOS] In this work, we proposed to treat punctuations as properties of context words for dependency parsing.
+[BOS] Experiments with an arc-standard parser showed that our method effectively improves parsing performance and we achieved the best accuracy for single-model transition-based parser.
+
+[BOS] Regarding punctuation processing for dependency parsing, Li et al. (2010) proposed to utilize punctuations to segment sentences into small fragments and then parse the fragments separately.
+[BOS] A similar approach is proposed by Spitkovsky et al. (2011) which also designed a set of constraints on the fragments to improve unsupervised dependency parsing.
+

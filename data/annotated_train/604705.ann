@@ -1,0 +1,31 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 154 159	[BOS]
+T3	Single_summ 224 229	[BOS]
+T4	Single_summ 446 451	[BOS]
+T5	Single_summ 491 496	[BOS]
+T6	Single_summ 642 647	[BOS]
+T7	Single_summ 866 871	[BOS]
+T8	Single_summ 1139 1144	[BOS]
+T9	Single_summ 1305 1310	[BOS]
+T10	Single_summ 1385 1390	[BOS]
+T11	Single_summ 1554 1559	[BOS]
+T12	Reference 45 57	Jauhar et al
+T13	Reference 79 100	(Jauhar et al., 2015)
+T14	Dominant 230 259	(Reisinger and Mooney, 2010 )
+T15	Dominant 497 518	(Huang et al., 2012 )
+T16	Dominant 872 898	(Neelakantan et al., 2015)
+T17	Reference 960 982	(Mikolov et al., 2013b
+T18	Reference 985 1003	Chen et al., 2014)
+T19	Dominant 1391 1415	(Rothe and Schtze, 2015)
+T20	B_span 45 51	Jauhar
+T21	E_span 95 99	2015
+T22	B_span 231 240	Reisinger
+T23	E_span 482 489	vectors
+T24	B_span 498 503	Huang
+T25	E_span 861 864	ten
+T26	B_span 873 884	Neelakantan
+T27	E_span 1377 1383	corpus
+T28	B_span 912 924	unsupervised
+T29	E_span 998 1002	2014
+T30	B_span 1392 1397	Rothe
+T31	E_span 1745 1752	lexemes

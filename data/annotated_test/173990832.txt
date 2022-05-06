@@ -1,0 +1,24 @@
+[BOS] Extractive summarization approaches are the most popular in real-world applications (Carbonell and Goldstein, 1998; Daum III and Marcu, 2006; Galanis and Androutsopoulos, 2010; Hong et al., 2014; Yogatama et al., 2015) .
+[BOS] These approaches focus on identifying representative sentences from a single document or set of documents to form a summary.
+[BOS] The summary sentences can be optionally compressed to remove unimportant constituents such as prepositional phrases to yield a succinct summary (Knight and Marcu, 2002; Zajic et al., 2007; Martins and Smith, 2009; BergKirkpatrick et al., 2011; Thadani and McKeown, 2013; Wang et al., 2013; Li et al., 2013 Li et al., , 2014 Filippova et al., 2015; Durrett et al., 2016) .
+[BOS] Extractive summarization methods are mostly unsupervised or lightly-supervised using thousands of training examples.
+[BOS] Given its practical importance, we explore an extractive method in this work for multi-document summarization.
+[BOS] It is not uncommon to cast summarization as a discrete optimization problem (Gillick and Favre, 2009; Takamura and Okumura, 2009; Lin and Bilmes, 2010; Hirao et al., 2013) .
+[BOS] In this formulation, a set of binary variables are used to indicate whether their corresponding source sentences are to be included in the summary.
+[BOS] The summary sentences are selected to maximize the coverage of important source content, while minimizing the summary redundancy and subject to a length constraint.
+[BOS] The optimization can be performed using an off-the-shelf tool such as Gurobi, IBM CPLEX, or via a greedy approximation algorithm.
+[BOS] Notable optimization frameworks include integer linear programming (Gillick and Favre, 2009 ), determinantal point processes (Kulesza and Taskar, 2012) , submodular functions (Lin and Bilmes, 2010) , and minimum dominating set (Shen and Li, 2010) .
+[BOS] In this paper we employ the DPP framework because of its remarkable performance on various summarization problems (Zhang et al., 2016) .
+
+[BOS] Recent years have also seen considerable interest in neural approaches to summarization.
+[BOS] In particular, neural extractive approaches focus on learning vector representations of source sentences; then based on these representations they determine if a source sentence is to be included in the summary (Cheng and Lapata, 2016; Yasunaga et al., 2017; Nallapati et al., 2017; Narayan et al., 2018) .
+[BOS] Neural abstractive approaches usually include an encoder used to convert the entire source document to a continuous vector, and a decoder for generating an abstract word by word conditioned on the document vector (Paulus et al., 2017; Tan et al., 2017; Guo et al., 2018; Kedzie et al., 2018) .
+[BOS] These neural models, however, require large training data containing hundreds of thousands to millions of examples, which are still unavailable for the multi-document summarization task.
+[BOS] To date, most neural summarization studies are performed for single document summarization.
+
+[BOS] Extracting summary-worthy sentences from the source documents is important even if the ultimate goal is to generate abstracts.
+[BOS] Recent abstractive studies recognize the importance of separating "salience estimation" from "text generation" so as to reduce the amount of training data required by encoder-decoder models (Gehrmann et al., 2018; Lebanoff et al., 2018 Lebanoff et al., , 2019 ).
+[BOS] An extractive method is often leveraged to identify salient source sentences, then a neural text generator rewrites the selected sentences into an abstract.
+[BOS] Our pursuit of the DPP method is especially meaningful in this context.
+[BOS] As described in the next section, DPP has an extraordinary ability to distinguish redundant descriptions, thereby avoiding passing redundant content to the abstractor that can cause an encoderdecoder model to fail.
+

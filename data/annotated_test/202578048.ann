@@ -1,0 +1,36 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 114 119	[BOS]
+T3	Transition 540 545	[BOS]
+T4	Single_summ 691 696	[BOS]
+T5	Single_summ 889 894	[BOS]
+T6	Single_summ 1158 1163	[BOS]
+T7	Single_summ 1321 1326	[BOS]
+T8	Reflection 1457 1462	[BOS]
+T9	Reference 258 282	(Klementiev et al., 2012
+T10	Reference 284 302	Koisk et al., 2014
+T11	Reference 304 321	Guo et al., 2016)
+T12	Reference 473 491	(Xing et al., 2015
+T13	Reference 493 512	Lample et al., 2018
+T14	Reference 514 536	Chen and Cardie, 2018)
+T15	Dominant 697 719	Mulcaire et al. (2019)
+T16	Reference 746 767	(Peters et al., 2018)
+T17	Dominant 895 920	Lample and Conneau (2019)
+T18	Reference 952 973	(Devlin et al., 2018)
+T19	Dominant 1189 1211	Schuster et al. (2019)
+T20	B_span 224 228	word
+T21	E_span 320 321	)
+T22	B_span 451 457	shared
+T23	E_span 535 536	)
+T24	B_span 697 700	Mul
+T25	E_span 887 888	.
+T26	B_span 895 899	Lamp
+T27	E_span 1156 1157	.
+T28	B_span 1189 1192	Sch
+T29	E_span 1455 1456	.
+T30	Pronoun 726 731	their
+T31	Pronoun 1327 1331	They
+T32	Pronoun 1493 1497	this
+T33	B_span 741 745	ELMo
+T34	E_span 762 766	2018
+T35	B_span 947 951	BERT
+T36	E_span 968 972	2018

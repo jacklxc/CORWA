@@ -1,0 +1,88 @@
+T1	Reflection 0 5	[BOS]
+T2	Multi_summ 219 224	[BOS]
+T3	Multi_summ 567 572	[BOS]
+T4	Single_summ 725 730	[BOS]
+T5	Transition 903 908	[BOS]
+T6	Multi_summ 1017 1022	[BOS]
+T7	Multi_summ 1237 1242	[BOS]
+T8	Multi_summ 1424 1429	[BOS]
+T9	Single_summ 1676 1681	[BOS]
+T10	Single_summ 1803 1808	[BOS]
+T11	Narrative_cite 1888 1893	[BOS]
+T12	Reflection 2120 2125	[BOS]
+T13	Reflection 2283 2288	[BOS]
+T14	Reflection 2756 2761	[BOS]
+T15	Reflection 2923 2928	[BOS]
+T16	Reflection 3116 3121	[BOS]
+T17	Reflection 3226 3231	[BOS]
+T18	Reference 162 183	Vinyals and Le (2015)
+T19	Reference 295 323	(Sountsov and Sarawagi, 2016
+T20	Dominant 390 407	Li et al. (2016a)
+T21	Dominant 431 448	Li et al. (2016c)
+T22	Reference 503 521	Shao et al. (2017)
+T23	Dominant 573 590	Mou et al. (2016)
+T24	Dominant 653 669	Wu et al. (2018)
+T25	Dominant 731 748	Li et al. (2016b)
+T26	Dominant 1093 1113	Asghar et al. (2017)
+T27	Dominant 1171 1188	Li et al. (2017a)
+T28	Dominant 1243 1260	Li et al. (2017b)
+T29	Dominant 1368 1384	Xu et al. (2017)
+T30	Dominant 1479 1499	Cao and Clark (2017)
+T31	Dominant 1615 1635	Serban et al. (2017)
+T32	Dominant 1682 1700	Shen et al. (2017)
+T33	Dominant 1809 1827	Shen et al. (2018)
+T34	Reference 1979 1995	Tu et al. (2017)
+T35	Reference 2052 2068	Hu et al. (2017)
+T36	Reference 2439 2464	(Pennington et al., 2014)
+T37	Reference 2517 2540	(Lison and Meena, 2016)
+T38	Reference 2651 2668	(Hu et al., 2017)
+T39	Reference 2673 2691	(Tu et al., 2017 )
+T40	Reference 3090 3114	(Li and Jurafsky, 2017 )
+T41	Pronoun 1038 1042	this
+T42	Pronoun 1050 1054	they
+T43	Pronoun 2550 2554	this
+T44	Pronoun 3122 3126	This
+T45	B_span 113 119	neural
+T46	E_span 178 182	2015
+T47	B_span 248 252	lack
+T48	E_span 319 323	2016
+T49	B_span 390 392	Li
+T50	E_span 429 430	;
+T51	B_span 431 433	Li
+T52	E_span 560 565	model
+T53	B_span 503 507	Shao
+T54	E_span 516 520	2017
+T55	B_span 573 576	Mou
+T56	E_span 642 646	step
+T57	B_span 653 655	Wu
+T58	E_span 715 723	decoding
+T59	B_span 731 733	Li
+T60	E_span 892 900	sampling
+T61	B_span 1093 1099	Asghar
+T62	E_span 1161 1169	feedback
+T63	B_span 1171 1173	Li
+T64	E_span 1229 1235	signal
+T65	B_span 1243 1245	Li
+T66	E_span 1358 1365	outputs
+T67	B_span 1368 1370	Xu
+T68	E_span 1417 1422	setup
+T69	B_span 1473 1477	VAEs
+T70	E_span 1592 1600	training
+T71	B_span 1615 1621	Serban
+T72	E_span 1669 1674	model
+T73	B_span 1682 1686	Shen
+T74	E_span 1793 1800	phrases
+T75	B_span 1809 1813	Shen
+T76	E_span 1878 1885	fashion
+T77	B_span 1979 1981	Tu
+T78	E_span 2036 2047	translation
+T79	B_span 2052 2054	Hu
+T80	E_span 2107 2117	generation
+T81	B_span 2403 2412	coherence
+T82	E_span 2459 2463	2014
+T83	B_span 2487 2500	OpenSubtitles
+T84	E_span 2535 2539	2016
+T85	B_span 2631 2635	cVAE
+T86	E_span 2685 2689	2017
+T87	B_span 3056 3064	coherent
+T88	E_span 3108 3112	2017

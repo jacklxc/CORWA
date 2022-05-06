@@ -1,0 +1,30 @@
+[BOS] A variety of machine learning methods have been used for event extraction in the past, including pipelines of classifiers (Grishman et al., 2005; Ji and Grishman, 2008; Liao and Grishman, 2011) , joint inference models (Li et al., 2013; Li and Ji, 2014; Yang and Mitchell, 2016) , and neural networks (Nguyen and Grishman, 2015; Chen et al., 2015) -the vast majority of which focus solely on the English monolingual training scenario.
+[BOS] A subset of the event extraction literature has considered the study of Chinese event extraction (Chen and Ji, 2009b; Li et al., 2012; Chen and Ng, 2012; Chen and Ng, 2014) .
+[BOS] However, most of these works also focus solely on the monolingual case, and do not leverage any additional training data from other languages.
+
+[BOS] The most related work to our approach is that of Chen and Ji (2009a) .
+[BOS] In their model, they designed a co-training approach to augment a small Chinese training corpus with additional examples from an unlabeled corpus.
+[BOS] Given a parallel corpus of English-Chinese documents and a monolingual English event extraction system (trained on annotated English documents), they used the system to predict the event labels on the English part of the parallel documents and project the predicted labels to the Chinese part of the parallel corpus based on gold standard alignments.
+[BOS] The Chinese system is then trained using a combination of the originally annotated Chinese document and the parallel texts with the projected labels.
+[BOS] This approach offered slight improvements in the event trigger extraction task and the event argument extraction task (see Section 2 for definitions), but relies on having in-domain parallel texts either aligned by humans or by high quality machine translation models between the source and target languages.
+[BOS] In contrast, our proposed approach has no such limitation, and hence is easier to apply to any target language of interest.
+
+[BOS] Another related work is that of Piskorski et al. (2011) , who use cross-lingual information to refine the results of event extraction.
+[BOS] In particular, they run several monolingual event extraction systems independently, translate the extracted argument fillers into English, and merge together argument fillers across documents.
+[BOS] Using this cross-document information fusion, they find improved performance over monolingual systems.
+[BOS] However, this work relies on having documents across multiple languages that describe the exact same event, which is an unrealistic case in practice.
+[BOS] Additionally, they also rely on having high quality machine translation in order to translate the argument output of each monolingual system into English.
+
+[BOS] There does exist some prior work on the broader field of cross-lingual information extraction.
+[BOS] Riloff et al. (2002) start with English annotated source texts, create a parallel corpus via machine translation, and project the annotations via alignments.
+[BOS] The projected annotations are then used to conduct training in the target language.
+[BOS] Sudo et al. (2004) presents an approach for extracted patterns in a source language and translating these patterns for use on a target language.
+[BOS] However, these works are limited to entity extraction, whereas our focus is on event extraction.
+[BOS] Furthermore, both works rely on having high-quality machine translation output.
+
+[BOS] Beyond information extraction, cross-lingual training has offered benefits for a variety of tasks.
+[BOS] McDonald et al. (2011) use a delexicalized English parser to seed a lexicalized parser in the target language, and then iteratively improve upon this model via constraint driven learning.
+[BOS] Duong et al. (2014) develop a POS tagger for low resource languages by first projecting predicted English POS tags across parallel data to obtain target language training data, and then further augment this with a small amount of annotated data in the target language.
+[BOS] Ammar et al. (2016) developed a language universal dependency parser by using language-independent features to create a general model, and fine-tuning the resulting model with language-specific features and embeddings.
+[BOS] Similarly to our model, this method has no requirement about the availability of alignments and parallel text.
+

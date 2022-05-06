@@ -1,0 +1,15 @@
+[BOS] Our work is mostly related to the task of detecting agreement and disagreement in online discussions.
+[BOS] Recent studies have mainly focused on classifying (dis)agreement in dialogues (Abbott et al., 2011; Wang and Cardie, 2014; Misra and Walker, 2013; Allen et al., 2014) .
+[BOS] In these studies, various features (e.g., structural, linguistic) and/or specialised lexicons are proposed to recognise (dis)agreement in different dialogic scenarios.
+[BOS] In contrast, we detect stance (dis)agreement between independent utterances where dialogic features are absent.
+
+[BOS] Stance classification has recently received much attention in the opinion mining community.
+[BOS] Different approaches have been proposed to classify stances of individual utterances in ideological forums (Murakami and Raymond, 2010; Somasundaran and Wiebe, 2010; Gottopati et al., 2013; Qiu et al., 2015) and social media (Augenstein et al., 2016; Du et al., 2017; Mohammad et al., 2017) .
+[BOS] In our work, we classify (dis)agreement relationships between a pair of stance-bearing utterances.
+
+[BOS] Reason information has been found useful in argumentation mining (Lippi and Torroni, 2016) , where studies leverage stance and reason signals for various argumentation tasks (Hasan and Ng, 2014; Boltuzic and Snajder, 2014; Sobhani et al., 2015) .
+[BOS] We study how to exploit the reason information to better understand the stance, thus addressing a different task.
+
+[BOS] Our work is also related to the tasks on textual relationship inference, such as textual entailment (Bowman et al., 2015) , paraphrase detection (Yin and Schtze, 2015) , and question answering (Wang et al., 2016) .
+[BOS] Unlike the textual relationships addressed in those tasks, the relationships between utterances expressing stances do not necessarily contain any rephrasing or entailing semantics, but they do carry discourse signals (e.g., reasons) related to stance expressing.
+

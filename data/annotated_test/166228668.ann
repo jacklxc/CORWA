@@ -1,0 +1,26 @@
+T1	Intro 0 5	[BOS]
+T2	Multi_summ 74 79	[BOS]
+T3	Multi_summ 268 273	[BOS]
+T4	Single_summ 437 442	[BOS]
+T5	Single_summ 641 646	[BOS]
+T6	Single_summ 850 855	[BOS]
+T7	Reflection 1013 1018	[BOS]
+T8	Dominant 80 101	Artetxe et al. (2017)
+T9	Dominant 106 126	Lample et al. (2017)
+T10	Dominant 274 293	Iyyer et al. (2015)
+T11	Dominant 298 318	Lample et al. (2017)
+T12	Dominant 446 463	Xie et al. (2017)
+T13	Dominant 647 667	Fadaee et al. (2017)
+T14	Dominant 871 887	Kobayashi (2018)
+T15	Pronoun 466 470	they
+T16	Pronoun 1041 1046	their
+T17	B_span 80 87	Artetxe
+T18	E_span 262 266	size
+T19	B_span 274 279	Iyyer
+T20	E_span 430 435	model
+T21	B_span 446 449	Xie
+T22	E_span 636 639	NMT
+T23	B_span 647 653	Fadaee
+T24	E_span 843 848	words
+T25	B_span 871 880	Kobayashi
+T26	E_span 1003 1011	sentence

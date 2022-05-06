@@ -1,0 +1,25 @@
+[BOS] The few previous studies on semantic classification of Chinese unknown word have primarily adopted knowledge-based models.
+[BOS] Chen (2004) proposed a model that retrieves the word with the greatest association with the target word.
+[BOS] This model is computationally more expensive than our character-category association model, as it entails computing associations between every character-category, category-character, character-character, and word-word pair.
+[BOS] He reported an accuracy of 61.6% on bisyllabic V-V compounds.
+[BOS] However, he included all the test words in training the model.
+[BOS] If we also include the test words in computing character-category associations, the computationally cheaper model achieves an overall accuracy of 75.6%, with an accuracy of 75.1% on verbs.
+[BOS] adopted similar exemplar-based models.
+[BOS] Chen and Chen used a morphological analyzer to identify the head of the target word and the semantic categories of its modifier.
+[BOS] They then retrieved examples with the same head as the target word.
+[BOS] Finally, they computed the similarity between two words as the similarity between their modifiers, using the concept of information load (IC) of the least common ancestor (LCA) of the modifiers' semantic categories.
+[BOS] They reported an accuracy of 81% for classifying 200 unknown nouns.
+[BOS] Given the small test set of their study, it is hard to directly compare their results with ours.
+
+[BOS] Tseng used a morphological analyzer in the same way, but she also derived the morphosyntactic relationship between the morphemes.
+[BOS] She retrieved examples that share a morpheme with the target word in the same position and filtered those with a different morpho-syntactic relationship.
+[BOS] Finally, she computed the similarity between two words as the similarity between their non-shared morphemes, using a similar concept of IC of the LCA of two categories.
+[BOS] She classified unknown words into the 12 major categories only, and reported accuracies 65.8% on adjectives, 71.4% on nouns, and 52.8% on verbs.
+[BOS] These results are not as good as the 83.0% overall accuracy our combined knowledge-based model achieved for classifying unknown words into major categories.
+
+[BOS] Chen and Lin (2000) is the only study that used contextual information for the same task.
+[BOS] To generate candidate categories for a word, they looked up its translations in a ChineseEnglish dictionary and the synsets of the translations in WordNet, and mapped the synsets to the categories in Cilin.
+[BOS] They used a corpus-based model similar to ours to rank the candidates.
+[BOS] They reported an accuracy of 34.4%, which is close to the 37.1% accuracy of our corpus-based model, but lower than the 61.6% accuracy of our combined knowledge-based model.
+[BOS] In addition, they could only classify the unknown words listed in the Chinese-English dictionary.
+

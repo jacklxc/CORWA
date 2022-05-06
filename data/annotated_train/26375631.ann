@@ -1,0 +1,83 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 188 193	[BOS]
+T3	Narrative_cite 420 425	[BOS]
+T4	Transition 830 835	[BOS]
+T5	Transition 1016 1021	[BOS]
+T6	Narrative_cite 1091 1096	[BOS]
+T7	Transition 1265 1270	[BOS]
+T8	Single_summ 1465 1470	[BOS]
+T9	Transition 1670 1675	[BOS]
+T10	Single_summ 1836 1841	[BOS]
+T11	Single_summ 2026 2031	[BOS]
+T12	Single_summ 2193 2198	[BOS]
+T13	Reflection 2309 2314	[BOS]
+T14	Narrative_cite 2501 2506	[BOS]
+T15	Reflection 2684 2689	[BOS]
+T16	Reflection 2811 2816	[BOS]
+T17	Reflection 3031 3036	[BOS]
+T18	Reflection 3197 3202	[BOS]
+T19	Reflection 3342 3347	[BOS]
+T20	Reflection 3450 3455	[BOS]
+T21	Single_summ 3524 3529	[BOS]
+T22	Transition 3643 3648	[BOS]
+T23	Narrative_cite 3905 3910	[BOS]
+T24	Reflection 4180 4185	[BOS]
+T25	Reflection 4316 4321	[BOS]
+T26	Reflection 4503 4508	[BOS]
+T27	Reflection 4650 4655	[BOS]
+T28	Reflection 4910 4915	[BOS]
+T29	Reference 334 361	(Schafer and Yarowsky, 2002
+T30	Reference 363 388	Klementiev and Roth, 2006
+T31	Reference 390 417	Callison-Burch, 2013, 2017)
+T32	Reference 608 633	(Klementiev et al., 2012b
+T33	Reference 635 651	Zou et al., 2013
+T34	Reference 653 673	Vuli and Moens, 2013
+T35	Reference 675 696	Mikolov et al., 2013a
+T36	Reference 698 720	Faruqui and Dyer, 2014
+T37	Reference 722 746	Chandar A P et al., 2014
+T38	Reference 748 766	Gouws et al., 2015
+T39	Reference 768 786	Luong et al., 2015
+T40	Reference 788 803	Lu et al., 2015
+T41	Reference 805 827	Upadhyay et al., 2016)
+T42	Reference 1220 1242	(Mikolov et al., 2013a
+T43	Reference 1244 1262	Dinu et al., 2014)
+T44	Dominant 1471 1492	Vuli and Moens (2015)
+T45	Dominant 1842 1873	Irvine and Callison-Burch (2016
+T46	Reference 2640 2659	(Koren et al., 2009
+T47	Reference 2661 2681	Rendle et al., 2009)
+T48	Dominant 3553 3574	(Rendle et al., 2009)
+T49	Reference 4113 4134	(Gantner et al., 2010
+T50	Reference 4136 4156	He and McAuley, 2016
+T51	Reference 4158 4177	Verga et al., 2016)
+T52	Reference 4810 4833	(Pavlick et al., 2014 )
+T53	Pronoun 304 309	their
+T54	Pronoun 1120 1124	this
+T55	Pronoun 1570 1574	they
+T56	Pronoun 2057 2062	their
+T57	Pronoun 2199 2204	These
+T58	Pronoun 2318 2322	this
+T59	Pronoun 2338 2342	this
+T60	Pronoun 3056 3061	these
+T61	Pronoun 3167 3171	they
+T62	Pronoun 3493 3498	these
+T63	Pronoun 4199 4204	these
+T64	Pronoun 4326 4331	these
+T65	Pronoun 4839 4844	these
+T66	B_span 310 321	translation
+T67	E_span 412 416	2017
+T68	B_span 582 591	bilingual
+T69	E_span 822 826	2016
+T70	B_span 1192 1203	monolingual
+T71	E_span 1257 1261	2014
+T72	B_span 1471 1475	Vuli
+T73	E_span 1663 1667	data
+T74	B_span 1842 1848	Irvine
+T75	E_span 2295 2307	translations
+T76	B_span 2586 2596	probabilis
+T77	E_span 2676 2680	2009
+T78	B_span 3530 3533	The
+T79	E_span 3637 3641	task
+T80	B_span 4034 4037	the
+T81	E_span 4172 4176	2016
+T82	B_span 4784 4796	crowdsourced
+T83	E_span 4827 4831	2014

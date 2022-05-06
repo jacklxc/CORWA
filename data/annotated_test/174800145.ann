@@ -1,0 +1,70 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 261 266	[BOS]
+T3	Narrative_cite 411 416	[BOS]
+T4	Multi_summ 599 604	[BOS]
+T5	Multi_summ 735 740	[BOS]
+T6	Narrative_cite 897 902	[BOS]
+T7	Narrative_cite 1250 1255	[BOS]
+T8	Narrative_cite 1398 1403	[BOS]
+T9	Single_summ 1507 1512	[BOS]
+T10	Transition 1756 1761	[BOS]
+T11	Narrative_cite 1933 1938	[BOS]
+T12	Transition 2143 2148	[BOS]
+T13	Transition 2313 2318	[BOS]
+T14	Transition 2469 2474	[BOS]
+T15	Single_summ 2673 2678	[BOS]
+T16	Single_summ 2847 2852	[BOS]
+T17	Single_summ 3016 3021	[BOS]
+T18	Transition 3135 3140	[BOS]
+T19	Single_summ 3278 3283	[BOS]
+T20	Reflection 3436 3441	[BOS]
+T21	Single_summ 3498 3503	[BOS]
+T22	Single_summ 3619 3624	[BOS]
+T23	Reference 469 479	(Wan, 2009
+T24	Reference 481 513	Demirtas and Pechenizkiy, 2013 )
+T25	Reference 538 558	(Xiao and Guo, 2012)
+T26	Dominant 623 644	Zhou et al. ( , 2016b
+T27	Reference 1152 1172	(Barnes et al., 2018
+T28	Reference 1174 1192	Zhou et al., 2015)
+T29	Reference 1229 1247	(Guo et al., 2015)
+T30	Reference 1320 1341	Artetxe et al., 2016)
+T31	Reference 1484 1503	(Zhang et al., 2017
+T32	Dominant 1542 1564	(Artetxe et al., 2017)
+T33	Reference 1730 1752	(Artetxe et al., 2018)
+T34	Reference 2057 2076	(Ammar et al., 2016
+T35	Reference 2078 2096	Duong et al., 2017
+T36	Reference 2098 2119	Chen and Cardie, 2018
+T37	Reference 2121 2141	Alaux et al., 2018 )
+T38	Dominant 2679 2697	Tang et al. (2014)
+T39	Dominant 3284 3304	Barnes et al. (2018)
+T40	Dominant 3504 3521	Xu and Wan (2017)
+T41	Reference 3596 3616	(Luong et al., 2015)
+T42	B_span 457 459	co
+T43	E_span 507 511	2013
+T44	B_span 518 523	multi
+T45	E_span 553 557	2012
+T46	Dominant 605 622	Zhou et al. (2015
+T47	B_span 605 609	Zhou
+T48	E_span 887 894	version
+T49	B_span 1119 1124	cross
+T50	E_span 1187 1191	2015
+T51	B_span 1197 1209	crosslingual
+T52	E_span 1242 1246	2015
+T53	B_span 1304 1308	seed
+T54	E_span 1336 1340	2016
+T55	B_span 1467 1479	unsupervised
+T56	E_span 1499 1503	2017
+T57	B_span 1513 1525	Selflearning
+T58	E_span 1747 1751	2018
+T59	B_span 1686 1698	unsupervised
+T60	E_span 1747 1751	2018
+T61	B_span 1948 1956	directly
+T62	E_span 2135 2139	2018
+T63	B_span 2679 2683	Tang
+T64	E_span 3123 3132	languages
+T65	B_span 3284 3290	Barnes
+T66	E_span 3428 3434	corpus
+T67	B_span 3504 3506	Xu
+T69	B_span 3583 3589	BiSkip
+T70	E_span 3611 3615	2015
+T68	E_span 3757 3768	experiments

@@ -1,0 +1,30 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 105 110	[BOS]
+T3	Transition 231 236	[BOS]
+T4	Single_summ 316 321	[BOS]
+T5	Single_summ 413 418	[BOS]
+T6	Single_summ 584 589	[BOS]
+T7	Single_summ 732 737	[BOS]
+T8	Single_summ 888 893	[BOS]
+T9	Transition 1115 1120	[BOS]
+T10	Reflection 1235 1240	[BOS]
+T11	Single_summ 1293 1298	[BOS]
+T12	Single_summ 1505 1510	[BOS]
+T13	Reference 147 173	Helping Our Own (HOO) 2011
+T14	Reference 186 213	(Dale and Kilgarriff, 2011)
+T15	Dominant 322 342	Israel et al. (2012)
+T16	Dominant 649 673	Rozovskaya et al. (2011)
+T17	Dominant 1299 1320	Gravano et al. (2009)
+T18	B_span 111 114	One
+T19	E_span 212 213	)
+T20	B_span 322 328	Israel
+T21	E_span 582 583	.
+T22	B_span 614 617	the
+T23	E_span 1108 1111	etc
+T24	B_span 1299 1303	Grav
+T25	E_span 1618 1626	accuracy
+T26	Pronoun 373 378	these
+T27	Pronoun 419 423	They
+T28	Pronoun 528 532	they
+T29	Pronoun 738 742	They
+T30	Pronoun 1511 1515	They

@@ -1,0 +1,11 @@
+[BOS] The work of Och et al (2004) is perhaps the bestknown study of new features and their impact on translation quality.
+[BOS] However, it had a few shortcomings.
+[BOS] First, it used the features for reranking n-best lists of translations, rather than for decoding or forest reranking (Huang, 2008) .
+[BOS] Second, it attempted to incorporate syntax by applying off-the-shelf part-ofspeech taggers and parsers to MT output, a task these tools were never designed for.
+[BOS] By contrast, we incorporate features directly into hierarchical and syntaxbased decoders.
+
+[BOS] A third difficulty with Och et al. 's study was that it used MERT, which is not an ideal vehicle for feature exploration because it is observed not to perform well with large feature sets.
+[BOS] Others have introduced alternative discriminative training methods (Tillmann and Zhang, 2006; Turian et al., 2007; Blunsom et al., 2008; Macherey et al., 2008) , in which a recurring challenge is scalability: to train many features, we need many train-ing examples, and to train discriminatively, we need to search through all possible translations of each training example.
+[BOS] Another line of research (Watanabe et al., 2007; Chiang et al., 2008) tries to squeeze as many features as possible from a relatively small dataset.
+[BOS] We follow this approach here.
+

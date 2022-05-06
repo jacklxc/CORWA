@@ -1,0 +1,37 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 205 210	[BOS]
+T3	Narrative_cite 418 423	[BOS]
+T4	Single_summ 737 742	[BOS]
+T5	Narrative_cite 913 918	[BOS]
+T6	Narrative_cite 1236 1241	[BOS]
+T7	Narrative_cite 1430 1435	[BOS]
+T8	Single_summ 1620 1625	[BOS]
+T9	Reference 315 337	(Vincent et al., 2010)
+T10	Reference 657 677	(Bowman et al., 2015
+T11	Reference 679 695	Xie et al., 2017
+T12	Reference 697 713	Dai and Le, 2015
+T13	Reference 715 734	Kumar et al., 2015)
+T14	Dominant 777 802	Chollampatt and Ng (2018)
+T15	Reference 1196 1218	(Brockett et al., 2006
+T16	Reference 1220 1233	Felice, 2016)
+T17	Reference 1404 1427	(Sennrich et al., 2015)
+T18	Reference 1596 1617	(Linzen et al., 2016)
+T19	Dominant 1678 1695	Rei et al. (2017)
+T20	Pronoun 62 64	it
+T21	Pronoun 1248 1253	these
+T22	Pronoun 1297 1301	they
+T23	Pronoun 1436 1440	This
+T24	B_span 291 305	representation
+T25	E_span 332 336	2010
+T26	B_span 629 636	softmax
+T27	E_span 729 733	2015
+T28	B_span 743 750	Grammar
+T29	E_span 905 911	models
+T30	B_span 1129 1136	lexical
+T31	E_span 1228 1232	2016
+T32	B_span 1354 1369	backtranslation
+T33	E_span 1422 1426	2015
+T34	B_span 1512 1516	long
+T35	E_span 1612 1616	2016
+T36	B_span 1626 1634	Recently
+T37	E_span 1846 1850	task

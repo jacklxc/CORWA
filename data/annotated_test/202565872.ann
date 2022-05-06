@@ -1,0 +1,91 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 58 63	[BOS]
+T3	Transition 172 177	[BOS]
+T4	Transition 275 280	[BOS]
+T5	Single_summ 348 353	[BOS]
+T6	Transition 470 475	[BOS]
+T7	Transition 632 637	[BOS]
+T8	Single_summ 727 732	[BOS]
+T9	Single_summ 893 898	[BOS]
+T10	Reflection 972 977	[BOS]
+T11	Transition 1057 1062	[BOS]
+T12	Single_summ 1118 1123	[BOS]
+T13	Transition 1262 1267	[BOS]
+T14	Single_summ 1361 1366	[BOS]
+T15	Single_summ 1619 1624	[BOS]
+T16	Reflection 1807 1812	[BOS]
+T17	Single_summ 1897 1902	[BOS]
+T18	Multi_summ 2103 2108	[BOS]
+T19	Multi_summ 2234 2239	[BOS]
+T20	Single_summ 2357 2362	[BOS]
+T21	Transition 2474 2479	[BOS]
+T22	Single_summ 2528 2533	[BOS]
+T23	Transition 2628 2633	[BOS]
+T24	Single_summ 2784 2789	[BOS]
+T25	Single_summ 2968 2973	[BOS]
+T26	Single_summ 3127 3132	[BOS]
+T27	Single_summ 3281 3286	[BOS]
+T28	Narrative_cite 3456 3461	[BOS]
+T29	Single_summ 3593 3598	[BOS]
+T30	Transition 3812 3817	[BOS]
+T31	Reflection 3877 3882	[BOS]
+T32	Reference 97 115	(Yang et al., 2018
+T33	Reference 117 132	Hu et al., 2017
+T34	Reference 134 149	Fu et al., 2018
+T35	Reference 151 169	Gong et al., 2019)
+T36	Dominant 354 370	Fu et al. (2018)
+T37	Dominant 742 760	Yang et al. (2018)
+T38	Dominant 906 924	Yang et al. (2018)
+T39	Dominant 1124 1143	Akama et al. (2017)
+T40	Dominant 1367 1388	Niu and Bansal (2018)
+T41	Dominant 1903 1924	Niu and Bansal (2018)
+T42	Dominant 2148 2165	Li et al. (2016b)
+T43	Dominant 2168 2186	Luan et al. (2017)
+T44	Dominant 2363 2380	Li et al. (2016b)
+T45	Dominant 2534 2552	Luan et al. (2017)
+T46	Dominant 2799 2817	Gao et al. (2019b)
+T47	Dominant 2981 2998	Li et al. (2016b)
+T48	Dominant 3287 3306	Zhang et al. (2017)
+T49	Reference 3499 3518	(Luan et al., 2017)
+T50	Reference 3571 3590	(Gao et al., 2019b)
+T51	Dominant 3633 3652	(Gao et al., 2019b)
+T52	B_span 67 74	usually
+T53	E_span 168 169	)
+T54	B_span 354 356	Fu
+T55	E_span 468 469	.
+T56	B_span 742 746	Yang
+T57	E_span 891 892	.
+T58	B_span 906 910	Yang
+T59	E_span 970 971	.
+T60	B_span 1124 1126	Ak
+T61	E_span 1260 1261	.
+T62	B_span 1367 1369	Ni
+T63	E_span 1805 1806	.
+T64	B_span 1903 1905	Ni
+T65	E_span 2100 2101	.
+T66	B_span 2109 2115	Person
+T68	B_span 2363 2365	Li
+T70	B_span 2534 2536	Lu
+T71	E_span 2626 2627	.
+T72	B_span 2799 2802	Gao
+T73	E_span 2966 2967	.
+T74	B_span 2974 2980	Unlike
+T75	E_span 3279 3280	.
+T76	B_span 3287 3292	Zhang
+T77	E_span 3454 3455	.
+T78	B_span 3462 3469	However
+T79	E_span 3591 3592	.
+T80	B_span 3616 3618	in
+T81	E_span 3810 3811	.
+T82	Pronoun 64 66	It
+T83	Pronoun 1625 1629	They
+T84	Pronoun 1672 1676	this
+T85	Pronoun 1962 1966	this
+T86	Pronoun 2240 2242	It
+T87	Pronoun 3133 3137	This
+T88	Pronoun 3610 3614	this
+T89	Pronoun 3937 3941	this
+T90	E_span 2350 2355	style
+T67	E_span 2465 2472	speaker
+T69	B_span 3558 3562	each
+T91	E_span 3584 3589	2019b

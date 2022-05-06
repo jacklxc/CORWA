@@ -1,0 +1,21 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 403 408	[BOS]
+T3	Transition 593 598	[BOS]
+T4	Single_summ 829 834	[BOS]
+T5	Reference 189 203	(Caruana, 1997
+T6	Reference 205 224	Bjerva et al., 2016
+T7	Reference 226 240	Bjerva, 2017b)
+T8	Reference 338 352	(Bjerva, 2017a
+T9	Reference 354 374	Johnson et al., 2017
+T10	Reference 376 400	de Lhoneux et al., 2018)
+T11	Reference 538 562	(Bergmanis et al., 2017)
+T12	Dominant 835 859	De Lhoneux et al. (2018)
+T13	Pronoun 610 615	these
+T14	B_span 135 142	jointly
+T15	E_span 234 239	2017b
+T16	B_span 251 258	jointly
+T17	E_span 395 399	2018
+T18	B_span 511 524	morphological
+T19	E_span 557 561	2017
+T20	B_span 835 837	De
+T21	E_span 1008 1017	languages

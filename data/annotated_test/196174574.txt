@@ -1,0 +1,18 @@
+[BOS] With the development of seq2seq model on neural translation task, more and more researchers take note of its great potential in text summarization area (Fan et al., 2017; Ling and Rush, 2017; Cheng and Lapata, 2016) , especially for abstractive methods.
+[BOS] Rush et al. (2015) is the first to apply seq2seq model with attention mechanism to abstractive summarization and achieve promising improvement.
+[BOS] Nallapati et al. (2016) modify the basic model with RNN-based encoder and decoder and propose several techniques.
+[BOS] further propose to improve the novelty of generated summaries and design a distractionbased attentional model.
+[BOS] Li et al. (2017) creatively incorporate the variational auto-encoder into the seq2seq model to learn the latent structure information.
+[BOS] However, these models are nearly designed for abstractive sentence summarization, which focus on encoding and mining salient information on sentence-level and lead to unsatisfactory performances for document summarization.
+
+[BOS] Some recent work improves the performance of neural abstractive models on document summarization task from various aspects.
+[BOS] To better grasp the essential meaning for summarization, propose not only to pay attention to specific regions and content of input documents with attention models, but also distract them to traverse between different content.
+[BOS] Tan et al. (2017) propose a graph-based attention mechanism in a hierarchical encoder-decoder framework to generate multi-sentence summary.
+[BOS] Gehrmann et al. (2018) presents a content selection model for summarization that identifies phrases within a document that are likely included in its summary.
+[BOS] To produce more informative summaries, (Gu et al., 2016) is the first to show that the copy mechanism (Vinyals et al., 2015) can alleviate the OutOf-Vocabulary problem by copying words from the source documents.
+[BOS] See et al. (2017) rebuild this pointer-generator network and incorporate an additional coverage mechanism into the decoder.
+[BOS] Li et al. (2018b) notice the necessity of explicit information selection and they build a gated global information filter and local sentence selection mechanism.
+[BOS] Moreover, reinforcement learning (RL) approaches have been shown to further improve performance on these tasks (Celikyilmaz et al., 2018; Li et al., 2018a) .
+[BOS] Pasunuru and Bansal (2018) develop a loss-function based on whether salient segments are included in a summary.
+[BOS] However, the optimization of RL-based models can be difficult to tune and slow to train.
+

@@ -1,0 +1,61 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 83 88	[BOS]
+T3	Single_summ 219 224	[BOS]
+T4	Transition 431 436	[BOS]
+T5	Transition 611 616	[BOS]
+T6	Transition 779 784	[BOS]
+T7	Single_summ 896 901	[BOS]
+T8	Multi_summ 1142 1147	[BOS]
+T9	Transition 1364 1369	[BOS]
+T10	Transition 1492 1497	[BOS]
+T11	Single_summ 1557 1562	[BOS]
+T12	Single_summ 1767 1772	[BOS]
+T13	Transition 1934 1939	[BOS]
+T14	Narrative_cite 2054 2059	[BOS]
+T15	Transition 2254 2259	[BOS]
+T16	Transition 2378 2383	[BOS]
+T17	Narrative_cite 2490 2495	[BOS]
+T18	Transition 2815 2820	[BOS]
+T19	Narrative_cite 3091 3096	[BOS]
+T20	Transition 3260 3265	[BOS]
+T21	Transition 3388 3393	[BOS]
+T22	Dominant 225 242	Cui et al. (2010)
+T23	Dominant 902 916	Schwenk (2012)
+T24	Dominant 1148 1165	Gao et al. (2014)
+T25	Dominant 1170 1189	Zhang et al. (2014)
+T26	Dominant 1563 1584	Vaswani et al. (2011)
+T27	Dominant 1773 1794	Durrani et al. (2013)
+T28	Reference 2143 2166	(Sutskever et al., 2014
+T29	Reference 2168 2189	Bahdanau et al., 2014
+T30	Reference 2191 2210	Luong et al., 2015a
+T31	Reference 2212 2229	Jean et al., 2015
+T32	Reference 2231 2251	Luong et al., 2015b)
+T33	Reference 2587 2606	Devlin et al., 2014
+T34	Reference 2608 2625	Meng et al., 2015
+T35	Reference 2627 2645	Zhang et al., 2015
+T36	Reference 2647 2669	Setiawan et al., 2015)
+T37	Reference 3138 3160	Eriguchi et al., 2016)
+T38	Pronoun 446 451	these
+T39	Pronoun 793 798	these
+T40	Pronoun 1374 1379	these
+T41	Pronoun 1948 1953	these
+T42	Pronoun 2384 2389	These
+T43	Pronoun 2825 2830	these
+T44	Pronoun 3275 3279	this
+T45	Pronoun 3331 3333	it
+T46	B_span 225 228	Cui
+T47	E_span 421 429	approach
+T48	B_span 902 909	Schwenk
+T49	E_span 1136 1140	pair
+T50	B_span 1148 1151	Gao
+T51	E_span 1357 1362	pairs
+T52	B_span 1563 1570	Vaswani
+T53	E_span 1760 1765	rules
+T54	B_span 1773 1780	Durrani
+T55	E_span 1920 1932	performances
+T57	E_span 2245 2250	2015b
+T56	B_span 2073 2079	neural
+T60	B_span 3117 3126	syntactic
+T58	B_span 2557 2561	word
+T62	E_span 2664 2668	2015
+T59	E_span 3155 3159	2016

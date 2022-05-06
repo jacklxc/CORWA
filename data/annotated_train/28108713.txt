@@ -1,0 +1,17 @@
+[BOS] For supervised computer vision problems, e.g., image recognition, labels are scarcer than images.
+[BOS] This is especially a problem with deep convolutional neural networks (CNNs) that have millions of parameters.
+[BOS] Although more human labeled data would be ideal, it is easier to exploit the training dataset to generate new examples.
+[BOS] For image classification, common ways to exploit training images to create more labeled examples include mirror reflection, random crops etc.
+[BOS] Many of these methods were used in training the seminal AlexNet (Krizhevsky et al., 2012) , which increased the training data by more than ten folds and produced relative improvement of over 4% for image classification.
+
+[BOS] Compared to vision, where augmentation is common, little work has been done on augmenting text for classification problems.
+[BOS] A notable exception is Zhang et al. (2015) , where a thesaurus was used to replace synonymous words to create more training data for text classification.
+[BOS] However, this augmentation produced little improvement and sometimes even hurt performance.
+[BOS] The authors' argued that because large quantities of real data are available, models generalize properly without augmentation.
+[BOS] Although training using augmented text data is rare, generating new questions about images has been studied.
+[BOS] The COCO-QA dataset (Ren et al., 2015) for VQA was created by parsing COCO captions with a syntactic parser, and then used this to create QA pairs for four kinds of questions using hand-crafted rules.
+[BOS] However, due to inability of the algorithm to cope with complex sentence structures, a significant portion of COCO-QA questions have grammatical errors or are oddly phrased.
+[BOS] Visual question generation was also studied in (Mostafazadeh et al., 2016) , with an emphasis on generating questions about images that are beyond the literal visual content of the image.
+[BOS] They endeavored to avoid simple questions such as counting and color, which were emphasized in COCO-QA.
+[BOS] Unlike our work, their objective was not data augmentation and they did not try to answer the generated questions.
+

@@ -1,0 +1,26 @@
+[BOS] Statistical machine translation systems often rely on large-scale parallel and monolingual training corpora to generate translations of high quality.
+[BOS] Unfortunately, statistical machine translation system often suffers from data sparsity problem due to the fact that phrase tables are extracted from the limited bilingual corpus.
+[BOS] Much work has been done to address the data sparsity problem such as the pivot language approach (Wu and Wang, 2007; Cohn and Lapata, 2007) and deep learning techniques (Devlin et al., 2014; Gao et al., 2014; Sundermeyer et al., 2014; .
+
+[BOS] On the problem of how to translate one source language to many target languages within one model, few work has been done in statistical machine translation.
+[BOS] A related work in SMT is the pivot language approach for statistical machine translation which uses a commonly used language as a "bridge" to generate source-target translation for language pair with few training corpus.
+[BOS] Pivot based statistical machine translation is crucial in machine translation for resource-poor language pairs, such as Spanish to Chinese.
+[BOS] Considering the problem of translating one source language to many target languages, pivot based SMT approaches does work well given a large-scale source language to pivot language bilingual corpus and large-scale pivot language to target languages corpus.
+[BOS] However, in reality, language pairs between English and many other target languages may not be large enough, and pivot-based SMT sometimes fails to handle this problem.
+[BOS] Our approach handles one to many target language translation in a different way that we directly learn an end to multi-end translation system that does not need a pivot language based on the idea of neural machine translation.
+
+[BOS] Neural Machine translation is a emerging new field in machine translation, proposed by several work recently (Kalchbrenner and Blunsom, 2013; Sutskever et al., 2014; , aiming at end-to-end machine translation without phrase table extraction and language model training.
+
+[BOS] Different from traditional statistical machine translation, neural machine translation encodes a variable-length source sentence with a recurrent neural network into a fixed-length vector representation and decodes it with another recurrent neural network from a fixed-length vector into variable-length target sentence.
+[BOS] A typical model is the RNN encoder-decoder approach proposed by , which utilizes a bidirectional recurrent neural network to compress the source sentence information and fits the conditional probability of words in target languages with a recurrent manner.
+[BOS] Moreover, soft alignment parameters are considered in this model.
+[BOS] As a specific example model in this paper, we adopt a RNN encoder-decoder neural machine translation model for multi-task learning, though all neural network based model can be adapted in our framework.
+
+[BOS] In the natural language processing field, a notable work related with multi-task learning was proposed by Collobert et al. (2011) which shared common representation for input words and solve different traditional NLP tasks such as part-of-Speech tagging, name entity recognition and semantic role labeling within one framework, where the convolutional neural network model was used.
+[BOS] Hatori et al. (2012) proposed to jointly train word segmentation, POS tagging and dependency parsing, which can also be seen as a multi-task learning approach.
+[BOS] Similar idea has also been proposed by in Chinese dependency parsing.
+[BOS] Most of multi-task learning or joint training frameworks can be summarized as parameter sharing approaches proposed by Ando and Zhang (2005) where they jointly trained models and shared center parameters in NLP tasks.
+[BOS] Researchers have also explored similar approaches (Sennrich et al., 2013; Cui et al., 2013) in statistical machine translation which are often refered as domain adaption.
+[BOS] Our work explores the possibility of machine translation under the multitask framework by using the recurrent neural networks.
+[BOS] To the best of our knowledge, this is the first trial of end to end machine translation under multi-task learning framework.
+

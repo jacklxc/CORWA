@@ -1,0 +1,13 @@
+[BOS] As described above, the fact that the seemingly simple task of image captioning can be interpreted differently by crowd-workers has already been recognised in the original publications describing the datasets (Hodosh et al., 2013; Young et al., 2014; Chen et al., 2015) .
+[BOS] However, it has been treated as a problem that can be addressed through the design of instructions (e.g., "do not give people names", "do not describe unimportant details", (Chen et al., 2015) ).
+[BOS] (van Miltenburg et al., 2016; van Miltenburg, 2017) later investigated the range of pragmatic phenomena to be found in such caption corpora, with the conclusion that the instructions do not sufficiently control for them and leave it to the labellers to make their own decisions.
+[BOS] It is one contribution of the present paper to show that providing a task context results in more constrained descriptions.
+[BOS] Schlangen et al. (2016) similarly noted that referring expressions in a corpus that was collected in a (pseudo-)interactive setting (Kazemzadeh et al., 2014) , where the describers were provided with immediate feedback about whether their expression was understood, were more concise than those collected in a monological setting (Mao et al., 2016) .
+
+[BOS] Similar to MeetUp, the use of various dialogue game set-ups has lately been established for dialogue data collection.
+[BOS] Das et al. (2017) designed the "Visual Dialog" task where a human asks an agent about the content of an image.
+[BOS] De Vries et al. (2017) similarly collected the GuessWhat?
+[BOS] corpus of dialogues in which one player has to ask polar questions in order to identify the correct referent in the pool of images.
+[BOS] de Vries et al. (2018) also develop a new navigation task, where a "tourist" has to reach a target location via communication with a "guide" given 2D images of various map locations.
+[BOS] While similar in some respects, MeetUp is distinguished by being a symmetrical task (no instruction giver/follower) and broader concerning language data (more phenomena such as repairs, strategy negotiation).
+

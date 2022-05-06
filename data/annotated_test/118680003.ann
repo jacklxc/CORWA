@@ -1,0 +1,49 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 99 104	[BOS]
+T3	Single_summ 276 281	[BOS]
+T4	Narrative_cite 393 398	[BOS]
+T5	Narrative_cite 608 613	[BOS]
+T6	Single_summ 807 812	[BOS]
+T7	Reflection 1030 1035	[BOS]
+T8	Reflection 1133 1138	[BOS]
+T9	Narrative_cite 1322 1327	[BOS]
+T10	Single_summ 1550 1555	[BOS]
+T11	Reflection 1719 1724	[BOS]
+T12	Narrative_cite 1818 1823	[BOS]
+T13	Transition 2040 2045	[BOS]
+T14	Transition 2132 2137	[BOS]
+T15	Reference 79 96	(Ng et al., 2014)
+T16	Dominant 105 131	Rozovskaya and Roth (2016)
+T17	Reference 219 242	(Mizumoto et al., 2011)
+T19	Reference 493 518	Chollampatt and Ng, 2018)
+T20	Reference 737 775	Grundkiewicz and JunczysDowmunt (2018)
+T21	Reference 934 955	Vaswani et al., 2017)
+T22	Reference 1428 1453	(Luong and Manning, 2015)
+T23	Dominant 1556 1574	Tao et al. (2018b)
+T24	Reference 1835 1857	(Brockett et al., 2006
+T25	Reference 1859 1884	Foster and Andersen, 2009
+T26	Pronoun 1117 1121	this
+T27	Pronoun 1254 1256	it
+T28	Pronoun 1736 1741	their
+T29	Pronoun 1762 1764	it
+T30	B_span 56 61	CoNLL
+T31	E_span 93 95	14
+T32	B_span 105 110	Rozov
+T33	E_span 267 274	sifiers
+T34	B_span 204 206	La
+T35	E_span 237 241	2011
+T18	Dominant 282 320	JunczysDowmunt and Grundkiewicz (2016)
+T36	B_span 282 289	Junczys
+T37	E_span 386 391	model
+T38	B_span 481 486	CoNLL
+T39	E_span 515 517	18
+T40	B_span 737 740	Gru
+T41	E_span 802 805	tem
+T42	B_span 895 900	ensem
+T43	E_span 1023 1028	model
+T44	B_span 1401 1407	neural
+T45	E_span 1448 1452	2015
+T46	B_span 1556 1558	Ta
+T47	E_span 1713 1717	nner
+T48	B_span 1836 1839	Bro
+T49	E_span 1881 1884	009

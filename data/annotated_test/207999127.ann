@@ -1,0 +1,77 @@
+T1	Single_summ 0 5	[BOS]
+T2	Transition 160 165	[BOS]
+T3	Narrative_cite 271 276	[BOS]
+T4	Transition 385 390	[BOS]
+T5	Transition 561 566	[BOS]
+T6	Single_summ 668 673	[BOS]
+T7	Single_summ 788 793	[BOS]
+T8	Single_summ 960 965	[BOS]
+T9	Single_summ 1014 1019	[BOS]
+T10	Single_summ 1125 1130	[BOS]
+T11	Single_summ 1247 1252	[BOS]
+T12	Single_summ 1454 1459	[BOS]
+T13	Reflection 1516 1521	[BOS]
+T14	Reflection 1620 1625	[BOS]
+T15	Narrative_cite 1740 1745	[BOS]
+T16	Transition 1913 1918	[BOS]
+T17	Transition 2059 2064	[BOS]
+T18	Narrative_cite 2177 2182	[BOS]
+T19	Single_summ 2325 2330	[BOS]
+T20	Single_summ 2437 2442	[BOS]
+T21	Single_summ 2451 2456	[BOS]
+T22	Single_summ 2641 2646	[BOS]
+T23	Single_summ 2747 2752	[BOS]
+T24	Single_summ 2884 2889	[BOS]
+T25	Single_summ 3007 3012	[BOS]
+T26	Transition 3217 3222	[BOS]
+T27	Single_summ 3388 3393	[BOS]
+T28	Single_summ 3505 3510	[BOS]
+T29	Single_summ 3659 3664	[BOS]
+T30	Single_summ 3748 3753	[BOS]
+T31	Single_summ 3836 3841	[BOS]
+T32	Single_summ 4014 4019	[BOS]
+T33	Dominant 53 74	Santoro et al., 2017)
+T34	B_span 6 14	Relation
+T35	E_span 151 158	objects
+T36	B_span 316 321	CLEVR
+T37	E_span 339 343	2017
+T38	Reference 323 343	Johnson et al., 2017
+T39	B_span 356 360	bAbI
+T40	E_span 377 381	2015
+T41	Reference 362 379	Weston et al., 20
+T42	B_span 674 682	Relation
+T43	E_span 779 783	2018
+T44	Dominant 767 783	You et al., 2018
+T45	B_span 794 797	MAC
+T47	Dominant 844 868	Hudson and Manning, 2018
+T46	E_span 1507 1514	answers
+T48	B_span 1788 1799	pretraining
+T49	E_span 1905 1909	2018
+T50	Reference 1870 1889	Jameel et al., 2018
+T51	Reference 1891 1910	Joshi et al., 2018)
+T52	B_span 2228 2233	SQuAD
+T53	E_span 2317 2321	2018
+T54	Reference 2248 2263	Hu et al., 2019
+T55	Reference 2265 2282	Liu et al., 2018a
+T56	Reference 2284 2300	Sun et al., 2018
+T57	Reference 2302 2321	Devlin et al., 2018
+T58	Dominant 2331 2348	(Hu et al., 2019)
+T59	B_span 2332 2334	Hu
+T61	Dominant 2648 2666	Liu et al., 2018a)
+T62	B_span 2648 2651	Liu
+T63	E_span 2739 2745	reader
+T64	Dominant 2754 2770	Sun et al., 2018
+T65	B_span 2754 2757	Sun
+T66	E_span 3063 3073	prediction
+T67	B_span 3304 3314	downstream
+T68	E_span 3380 3384	2018
+T69	Reference 3322 3341	Peters et al., 2018
+T70	Reference 3343 3365	Howard and Ruder, 2018
+T71	Reference 3367 3384	Alec et al., 2018
+T72	B_span 3394 3397	The
+T73	E_span 4182 4185	2.0
+T74	Dominant 3422 3441	Devlin et al., 2018
+T75	B_span 3528 3535	stacked
+T76	E_span 3566 3570	2017
+T77	Reference 3550 3570	Vaswani et al., 2017
+T60	E_span 2427 2435	Mnemonic

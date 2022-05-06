@@ -1,0 +1,14 @@
+[BOS] We describe related work from two perspectives.
+[BOS] Gate mechanism.
+[BOS] Our work is partially inspired by studies of gate mechanism for neural networks.
+[BOS] Following the success of LSTM (Hochreiter and Schmidhuber, 1997) and GRU (Cho et al., 2014a; Cho et al., 2014b) , the gate mechanism has become standard components in RNN.
+[BOS] Recently, Srivastava et al. (2015) employ gate units to regulate information flow, called highway networks.
+[BOS] The most relevant work to ours is , in which they propose context gate to control the ratios of the source context (i.e., c t ) and target context (i.e., y t1 and s t1 ) for computing next target state s t .
+[BOS] On the contrary, we use gate units to regulate information flow in computing the output state o t .
+[BOS] Moreover, we propose adaptive weighting for GRU through gate units.
+[BOS] Interpretation for neural networks.
+[BOS] Attention mechanism (Bahdanau et al., 2015; Lin et al., 2017; Vaswani et al., 2017 ) offers a way of understanding the contribution of every source words to the generation of a target word.
+[BOS] Ding et al. (2017) propose to use layer-wise relevance propagation (LRP) to interpret the internal workings of NMT and analyze translation errors.
+[BOS] Moreover, Karpathy et al. (2015) and propose to visualize and understand RNNs for natural language processing.
+[BOS] In this work, we use the proposed gates in both encoder and decoder to analyze what types of information encoded in the encoder and what types of information influences the generation of a target word.
+

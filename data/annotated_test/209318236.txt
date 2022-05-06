@@ -1,0 +1,9 @@
+[BOS] Visual language grounding and REG Foundational work in REG has often followed the wellknown attribute selection paradigm established by (Dale and Reiter, 1995) .
+[BOS] Here, visual scenes have usually been carefully created and controlled so that the target and distractor referents and distractors would have similarities in their set of annotated attributes (e.g. type, position, size, color and so on), see Krahmer and Van Deemter (2012) .
+[BOS] In recently used image benchmarks for REG, the visual scene is typically given through a real-world image (Kazemzadeh et al., 2014; Yu et al., 2016) , which makes it very difficult to systematically control the underlying attributes of a target referent and to what extent it resembles its distractors in the scene.
+[BOS] At the same time, Yu et al. (2016) found that, in the standard version of the RefCOCO benchmark, many participants simply used location attributes like left, right relying on the 2D layout of the scene.
+[BOS] As a remedy, they propose to introduce "taboo words" into the reference task in order to elicit "appearance-based" attributes.
+[BOS] Achlioptas et al. (2019) adopt a different approach and suggest to collect data based on more abstract objects.
+[BOS] They collect a dataset of referring expressions to chairs where various properties and parts of targets and distractors are controlled in terms of their visual similarity.
+[BOS] Our work combines ideas from both paradigms: we use real-world images of objects paired with hand-drawn sketches, which allows us to integrate realistic and abstract visual inputs.
+

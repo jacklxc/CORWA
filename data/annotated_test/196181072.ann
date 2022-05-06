@@ -1,0 +1,78 @@
+T1	Transition 0 5	[BOS]
+T2	Reflection 101 106	[BOS]
+T3	Transition 281 286	[BOS]
+T4	Transition 319 324	[BOS]
+T5	Transition 492 497	[BOS]
+T6	Narrative_cite 641 646	[BOS]
+T7	Transition 831 836	[BOS]
+T8	Single_summ 946 951	[BOS]
+T9	Single_summ 1098 1103	[BOS]
+T10	Transition 1349 1354	[BOS]
+T11	Narrative_cite 1427 1432	[BOS]
+T12	Transition 1668 1673	[BOS]
+T13	Transition 1781 1786	[BOS]
+T14	Single_summ 1887 1892	[BOS]
+T15	Single_summ 1967 1972	[BOS]
+T16	Single_summ 2135 2140	[BOS]
+T17	Single_summ 2310 2315	[BOS]
+T18	Transition 2442 2447	[BOS]
+T19	Single_summ 2645 2650	[BOS]
+T20	Single_summ 2787 2792	[BOS]
+T21	Single_summ 2945 2950	[BOS]
+T22	Single_summ 3041 3046	[BOS]
+T23	Single_summ 3183 3188	[BOS]
+T24	Single_summ 3309 3314	[BOS]
+T25	Single_summ 3513 3518	[BOS]
+T26	Single_summ 3694 3699	[BOS]
+T27	Single_summ 3852 3857	[BOS]
+T28	Reference 764 787	(McClosky et al., 2006)
+T29	Reference 811 828	(Yu et al., 2015)
+T30	Dominant 952 975	Sagae and Tsujii (2007)
+T31	Reference 1075 1095	(Nivre et al., 2007)
+T32	Dominant 1117 1137	Dredze et al. (2007)
+T33	Reference 1618 1644	(Plank and van Noord, 2011
+T34	Reference 1646 1664	Khan et al., 2013)
+T35	Dominant 1893 1915	McClosky et al. (2010)
+T36	Dominant 2141 2158	Guo et al. (2018)
+T37	Dominant 2651 2666	Daum III (2007)
+T38	Dominant 2951 2976	Finkel and Manning (2009)
+T39	Reference 3061 3086	Finkel and Manning (2009)
+T40	Dominant 3189 3206	Kim et al. (2017)
+T41	Dominant 3357 3374	Guo et al. (2018)
+T42	Dominant 3545 3569	Flannery and Mori (2015)
+T43	Dominant 3711 3730	Joshi et al. (2018)
+T45	E_span 786 787	)
+T46	B_span 792 802	dependency
+T47	E_span 827 828	)
+T48	B_span 952 955	Sag
+T49	E_span 1094 1095	)
+T50	B_span 1117 1120	Dre
+T51	E_span 1346 1347	.
+T53	E_span 1663 1664	)
+T54	B_span 1893 1896	McC
+T55	E_span 2133 2134	.
+T56	B_span 2141 2144	Guo
+T57	E_span 2439 2440	.
+T58	B_span 2651 2653	Da
+T59	E_span 2937 2943	domain
+T60	B_span 2951 2954	Fin
+T61	E_span 3039 3040	.
+T62	B_span 3061 3064	Fin
+T63	E_span 3172 3181	framework
+T64	B_span 3189 3192	Kim
+T65	E_span 3307 3308	.
+T66	B_span 3334 3346	unsupervised
+T67	E_span 3510 3511	.
+T69	B_span 3545 3547	Fl
+T71	E_span 3692 3693	.
+T72	B_span 3711 3714	Jos
+T74	Pronoun 1928 1932	this
+T75	Pronoun 1973 1977	They
+T76	Pronoun 2316 2320	They
+T77	Pronoun 3030 3034	this
+T78	Pronoun 3377 3381	they
+T79	B_span 686 690	self
+T44	B_span 1060 1068	positive
+T80	E_span 1090 1094	2007
+T81	B_span 1471 1484	automatically
+T52	E_span 4039 4046	parsing

@@ -1,0 +1,17 @@
+[BOS] There have been various methods proposed for visualizing and intervening neural models for NLP.
+[BOS] provides a concise literature review.
+
+[BOS] Visualization and manipulation of NMT could be grouped into three parts: RNN (of encoder and decoder), attention (of decoder), and beam search (of decoder).
+[BOS] RNN plays a central role in recognizing source sentences and generating target sentences.
+[BOS] Although we here treat RNN as a black-box, there exists various methods to understand RNNs, e.g. by observing intermediate values (Strobelt et al., 2016; Karpathy et al., 2015; or by removing some parts of them (Goh, 2016; Li et al., 2016) .
+
+[BOS] Attention (Bahdanau et al., 2014; Luong et al., 2015) is an important component for improving NMT quality.
+[BOS] Since the component behaves like alignment in traditional SMT, it has been proposed to utilize attention during training (Cheng et al., 2015; Tu et al., 2016b) or during decoding (Wu et al., 2016) .
+[BOS] In this work, we propose a way to manipulate attention and to understand the behavior.
+
+[BOS] Beam search is known to improve quality of NMT translation output.
+[BOS] However, it is also known that larger beam size does not always helps but rather hurts the quality (Tu et al., 2016a) .
+[BOS] Therefore it is important to understand how beam search affects quality.
+[BOS] (Wu et al., 2016; Freitag and AlOnaizan, 2017) proposed several penalty functions and pruning methods for beam search.
+[BOS] We directly visualize beam search result as a tree and manually explore hypotheses discarded by decoder.
+

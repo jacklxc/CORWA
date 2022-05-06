@@ -1,0 +1,46 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 129 134	[BOS]
+T3	Single_summ 240 245	[BOS]
+T4	Single_summ 470 475	[BOS]
+T5	Single_summ 538 543	[BOS]
+T6	Reflection 607 612	[BOS]
+T7	Transition 802 807	[BOS]
+T8	Single_summ 847 852	[BOS]
+T9	Single_summ 982 987	[BOS]
+T10	Single_summ 1056 1061	[BOS]
+T11	Single_summ 1278 1283	[BOS]
+T12	Reflection 1352 1357	[BOS]
+T13	Transition 1456 1461	[BOS]
+T14	Transition 1592 1597	[BOS]
+T15	Transition 1752 1757	[BOS]
+T16	Transition 1927 1932	[BOS]
+T17	Reflection 2078 2083	[BOS]
+T18	Single_summ 2242 2247	[BOS]
+T19	Single_summ 2338 2343	[BOS]
+T20	Single_summ 2551 2556	[BOS]
+T21	Single_summ 2628 2633	[BOS]
+T22	Single_summ 2807 2812	[BOS]
+T23	Dominant 135 146	Chen (2004)
+T24	Dominant 853 861	Chen and
+T25	Dominant 2248 2267	Chen and Lin (2000)
+T26	B_span 135 139	Chen
+T27	E_span 600 605	model
+T28	B_span 853 857	Chen
+T29	E_span 1350 1351	.
+T30	B_span 2248 2252	Chen
+T31	E_span 2899 2910	dictionary.
+T32	Pronoun 246 250	This
+T33	Pronoun 341 343	it
+T34	Pronoun 988 992	They
+T35	Pronoun 1071 1075	they
+T36	Pronoun 1144 1149	their
+T37	Pronoun 1284 1288	They
+T38	Pronoun 1386 1391	their
+T39	Pronoun 1399 1401	it
+T40	Pronoun 1430 1435	their
+T41	Pronoun 1839 1844	their
+T42	Pronoun 2084 2089	These
+T43	Pronoun 2389 2393	they
+T44	Pronoun 2557 2561	They
+T45	Pronoun 2634 2638	They
+T46	Pronoun 2826 2830	they

@@ -1,0 +1,21 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 289 294	[BOS]
+T3	Narrative_cite 536 541	[BOS]
+T4	Transition 827 832	[BOS]
+T5	Reflection 1048 1053	[BOS]
+T6	Reference 193 216	(Hamilton et al., 2017)
+T7	Reference 265 286	(Newell et al., 2016)
+T8	Reference 419 441	(Olsen and Neal, 2015)
+T9	Reference 671 693	(Perozzi et al., 2014)
+T10	Reference 707 734	(Grover and Leskovec, 2016)
+T11	Pronoun 1057 1061	this
+T12	B_span 220 224	user
+T13	E_span 281 285	2016
+T14	B_span 152 158	topics
+T15	E_span 211 215	2017
+T16	B_span 396 402	sample
+T17	E_span 436 440	2015
+T18	B_span 662 670	DeepWalk
+T19	E_span 688 692	2014
+T20	B_span 698 706	node2vec
+T21	E_span 729 733	2016

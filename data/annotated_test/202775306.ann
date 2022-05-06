@@ -1,0 +1,36 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 249 254	[BOS]
+T3	Single_summ 421 426	[BOS]
+T4	Single_summ 567 572	[BOS]
+T5	Single_summ 655 660	[BOS]
+T6	Single_summ 823 828	[BOS]
+T7	Single_summ 975 980	[BOS]
+T8	Single_summ 1152 1157	[BOS]
+T9	Reflection 1309 1314	[BOS]
+T10	Reference 83 99	(Gu et al., 2018
+T11	Reference 101 117	Lee et al., 2019
+T12	Reference 119 135	Xu et al., 2018)
+T13	Dominant 255 276	Artetxe et al. (2017)
+T14	Dominant 427 448	Conneau et al. (2018)
+T15	Dominant 573 593	Joulin et al. (2018)
+T16	Dominant 829 847	Chen et al. (2018)
+T17	Dominant 981 1003	Upadhyay et al. (2018)
+T18	Dominant 1167 1189	Schuster et al. (2019)
+T19	Reference 1285 1306	(McCann et al., 2017)
+T20	B_span 63 66	low
+T21	E_span 134 135	)
+T22	B_span 255 259	Arte
+T23	E_span 419 420	.
+T24	B_span 427 431	Conn
+T25	E_span 565 566	.
+T26	B_span 573 575	Jo
+T27	E_span 646 653	problem
+T28	B_span 829 833	Chen
+T29	E_span 973 974	.
+T30	B_span 981 983	Up
+T31	E_span 1150 1151	.
+T32	B_span 1167 1170	Sch
+T33	E_span 1305 1306	)
+T34	Pronoun 633 637	this
+T35	B_span 1242 1250	training
+T36	E_span 1301 1305	2017

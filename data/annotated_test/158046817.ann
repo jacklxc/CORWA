@@ -1,0 +1,59 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 247 252	[BOS]
+T3	Reflection 396 401	[BOS]
+T4	Narrative_cite 567 572	[BOS]
+T5	Multi_summ 791 796	[BOS]
+T6	Reflection 1106 1111	[BOS]
+T7	Narrative_cite 1198 1203	[BOS]
+T8	Narrative_cite 1428 1433	[BOS]
+T9	Reflection 1563 1568	[BOS]
+T10	Transition 1782 1787	[BOS]
+T11	Multi_summ 1918 1923	[BOS]
+T12	Reflection 2505 2510	[BOS]
+T13	Reference 142 163	(Dhingra et al., 2018
+T14	Reference 165 182	Song et al., 2018
+T15	Reference 184 203	De Cao et al., 2018
+T16	Reference 205 223	Zhong et al., 2019
+T17	Reference 225 244	Kundu et al., 2018)
+T18	Reference 353 371	(Song et al., 2018
+T19	Reference 373 393	De Cao et al., 2018)
+T20	Reference 709 729	(Zhong et al., 2019)
+T21	Dominant 852 873	(Dhingra et al., 2018
+T22	Dominant 875 894	Kundu et al., 2018)
+T23	Reference 1331 1352	(Weston et al., 2015)
+T24	Reference 1363 1386	(Khashabi et al., 2018)
+T25	Reference 1402 1425	(Mihaylov et al., 2018)
+T26	Reference 1525 1542	(Sun et al., 2018
+T27	Reference 1544 1560	Wu et al., 2019)
+T28	Dominant 2053 2075	(Bastings et al., 2017
+T29	Dominant 2077 2103	Marcheggiani et al., 2018)
+T30	Dominant 2184 2201	Yao et al. (2018)
+T31	Dominant 2311 2328	Liu et al. (2018)
+T32	Pronoun 29 33	this
+T33	Pronoun 277 281	this
+T34	Pronoun 738 742	they
+T35	Pronoun 897 902	these
+T36	Pronoun 1049 1054	these
+T37	Pronoun 1120 1125	these
+T38	Pronoun 1509 1514	these
+T39	Pronoun 1578 1583	these
+T40	Pronoun 1713 1717	this
+T41	Pronoun 2511 2516	These
+T42	B_span 84 89	multi
+T43	E_span 239 243	2018
+T44	B_span 325 328	GNN
+T45	E_span 388 392	2018
+T46	B_span 699 702	CFC
+T47	E_span 779 789	mechanisms
+T48	E_span 1098 1104	graphs
+T54	E_span 1420 1424	2018
+T58	E_span 1555 1559	2019
+T59	B_span 1969 1972	GNN
+T60	E_span 2098 2102	2018
+T61	B_span 2106 2113	applied
+T62	E_span 2304 2309	graph
+T63	B_span 2311 2314	Liu
+T64	E_span 2500 2503	GNN
+T65	B_span 853 860	Dhingra
+T49	B_span 1263 1270	require
+T50	B_span 1483 1488	multi

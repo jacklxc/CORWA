@@ -1,0 +1,27 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 223 228	[BOS]
+T3	Transition 323 328	[BOS]
+T4	Single_summ 498 503	[BOS]
+T5	Reflection 684 689	[BOS]
+T6	Reflection 784 789	[BOS]
+T7	Reflection 1022 1027	[BOS]
+T8	Narrative_cite 1165 1170	[BOS]
+T9	Reflection 1365 1370	[BOS]
+T10	Reflection 1500 1505	[BOS]
+T11	Reference 157 180	(Barzilay and Lee, 2003
+T12	Reference 182 199	Pang et al., 2003
+T13	Reference 201 220	Quirk et al., 2004)
+T14	Dominant 517 535	Pang et al. (2003)
+T15	Reference 1259 1279	(Dagan et al., 2005)
+T16	Reference 1587 1609	(Haghighi et al., 2005
+T17	Reference 1611 1635	Harabagiu et al., 2001 )
+T18	Pronoun 237 242	these
+T19	Pronoun 1114 1118	they
+T20	B_span 129 137	sentence
+T21	E_span 215 219	2004
+T22	B_span 504 507	For
+T23	E_span 671 681	evaluation
+T24	B_span 1230 1239	automatic
+T25	E_span 1274 1278	2005
+T26	B_span 1561 1567	lexico
+T27	E_span 1629 1633	2001

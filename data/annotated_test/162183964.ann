@@ -1,0 +1,50 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 136 141	[BOS]
+T3	Single_summ 411 416	[BOS]
+T4	Single_summ 516 521	[BOS]
+T5	Transition 631 636	[BOS]
+T6	Narrative_cite 820 825	[BOS]
+T7	Reflection 1098 1103	[BOS]
+T8	Narrative_cite 1292 1297	[BOS]
+T9	Single_summ 1450 1455	[BOS]
+T10	Single_summ 1650 1655	[BOS]
+T11	Single_summ 1825 1830	[BOS]
+T12	Single_summ 1936 1941	[BOS]
+T13	Reflection 2011 2016	[BOS]
+T14	Reference 224 247	(Belinkov et al., 2017a
+T15	Reference 249 267	Dalvi et al., 2017
+T16	Reference 269 292	Bisazza and Tump, 2018)
+T17	Reference 302 320	(Shi et al., 2016)
+T18	Reference 335 353	(Hill et al., 2017
+T19	Reference 355 377	Belinkov et al., 2017b
+T20	Reference 379 408	Raganato and Tiedemann, 2018)
+T21	Dominant 417 440	Bisazza and Tump (2018)
+T22	Reference 1015 1035	(Linzen et al., 2016
+T23	Reference 1037 1059	Gulordava et al., 2018
+T24	Reference 1061 1078	Tran et al., 2018
+T25	Reference 1080 1094	Sennrich, 2017
+T26	Reference 1374 1396	(Ghader and Monz, 2017
+T27	Reference 1398 1416	Voita et al., 2018
+T28	Reference 1418 1447	Raganato and Tiedemann, 2018)
+T29	Dominant 1456 1485	Raganato and Tiedemann (2018)
+T30	Dominant 1840 1857	Bau et al. (2019)
+T31	Pronoun 97 101	they
+T32	Pronoun 522 526	This
+T33	Pronoun 781 785	this
+T34	Pronoun 966 971	their
+T35	Pronoun 1110 1114	this
+T36	Pronoun 1637 1642	these
+T37	Pronoun 1664 1668	they
+T38	Pronoun 1942 1946	They
+T44	E_span 403 407	2018
+T45	B_span 417 424	Bisazza
+T46	E_span 624 629	5.2.2
+T48	E_span 1090 1094	2017
+T49	B_span 1322 1331	analyzing
+T50	E_span 1442 1446	2018
+T51	B_span 1456 1464	Raganato
+T52	E_span 1813 1822	relations
+T53	B_span 1840 1843	Bau
+T54	E_span 2003 2009	models
+T39	B_span 162 172	linguistic
+T47	B_span 872 880	language

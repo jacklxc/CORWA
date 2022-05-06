@@ -1,0 +1,9 @@
+[BOS] Work in vision to language has exploded, with researchers examining image captioning (Lin et al., 2014; Karpathy and Fei-Fei, 2015; Vinyals et al., 2015; Chen et al., 2015; Young et al., 2014; Elliott and Keller, 2013) , question answering (Antol et al., 2015; Ren et al., 2015; Malinowski and Fritz, 2014), visual phrases (Sadeghi and Farhadi, 2011) , video understanding (Ramanathan et al., 2013) , and visual concepts (Krishna et al., 2016; .
+[BOS] Such work focuses on direct, literal description of image content.
+[BOS] While this is an encouraging first step in connecting vision and language, it is far from the capabilities needed by intelligent agents for naturalistic interactions.
+[BOS] There is a significant difference, yet unexplored, between remarking that a visual scene shows "sitting in a room" -typical of most image captioning work -and that the same visual scene shows "bonding".
+[BOS] The latter description is grounded in the visual signal, yet it brings to bear information about social relations and emotions that can be additionally inferred in context (Figure 1 ).
+[BOS] Visually-grounded stories facilitate more evaluative and figurative language than has previously been seen in vision-to-language research: If a system can recognize that colleagues look bored, it can remark and act on this information directly.
+
+[BOS] Storytelling itself is one of the oldest known human activities (Wiessner, 2014) , providing a way to educate, preserve culture, instill morals, and share advice; focusing AI research towards this task therefore has the potential to bring about more humanlike intelligence and understanding.
+

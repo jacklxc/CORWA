@@ -1,0 +1,6 @@
+[BOS] Until the appearance of the CWI shared task of 2016, there was no manually annotated and verified CWI dataset.
+[BOS] The 2016 shared task brought us one of the largest CWI datasets to that date, consisting of a total of 9,200 sentences manually annotated by 400 different non-native English speakers.
+[BOS] In total, 200 sentences are used as a training set where each target is annotated by 20 annotators.
+[BOS] The rest of the dataset (9,000 sentences) are used for test set where each target is annotated by a single annotator from the entire pool of 400 annotators.
+[BOS] The approaches used in the first SemEval 2016 Task 11: Complex Word Identification are described in Table 1 .
+

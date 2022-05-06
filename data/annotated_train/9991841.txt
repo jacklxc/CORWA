@@ -1,0 +1,24 @@
+[BOS] Joint syntactic and SRL models There have been many proposals for jointly parsing syntactic and semantic dependencies.
+[BOS] Llus et al. (2013) introduce a joint arc-factored model for parsing syntactic and semantic dependencies, using dualdecomposition to maximize agreement between the models.
+[BOS] SRL performance is slightly worse than a pipeline version.
+[BOS] Naradowsky et al. (2012) introduce a SRL model with latent syntax representations, by modelling a latent dependency tree during training, which is marginalized out at test time.
+[BOS] However, performance at English SRL is roughly 7 points beneath state of the art.
+[BOS] Other notable models include those of Johansson (2009) and Titov et al. (2009) .
+
+[BOS] CCG parsing Our log-linear model is closely related to that of Clark and Curran (2007) , but we model SRL dependencies instead of CCG dependencies.
+[BOS] The best CCG parsing results were achieved by Auli and Lopez (2011a) , who, like us, score CCG parses based jointly on supertagging and dependency model scores.
+[BOS] Decoding their model requires dual-decomposition, to maximize agreement between the separate models.
+[BOS] We avoid the need for this technique by using a unigram supertagging model, rather than a sequence model.
+
+[BOS] CCG semantics Work on semantic parsing has mapped sentences onto semantic representations with latent CCGs (Zettlemoyer and Collins, 2009; Kwiatkowski et al., 2010; Kwiatkowski et al., 2013) for restricted domains.
+[BOS] Recent work has scaled these techniques to wide-coverage datasets (Artzi et al., 2015) .
+[BOS] Krishnamurthy and Mitchell (2014) also explore joint CCG syntactic and semantic parsing.
+[BOS] They use a smaller semantic lexicon, containing 130 predicates, rather than the 3257 PropBank verbs.
+[BOS] In contrast to our results, jointly modelling the semantics lowers their model's syntactic accuracy.
+[BOS] Other CCG-based SRL models haved used CCG dependencies as features for predicting semantic roles (Gildea and Hockenmaier, 2003; Boxwell et al., 2009 ), but performance is limited by relying on 1-best parses-a problem we resolved with a joint model.
+[BOS] A * parsing A * parsing has previously been explored for less general models than ours.
+[BOS] Klein and Manning (2003) and Auli and Lopez (2011b) use A * parsing for models with tree-structured dependencies.
+[BOS] The best reported speed improvement is parsing 1.2 times faster, whereas we improve by a factor of 5.
+[BOS] Our model also allows the more complex graph-structured dependencies required for semantic role labelling.
+[BOS] Lewis and Steedman (2014a) demonstrate an efficient A * algorithm for CCG, but cannot model dependencies.
+

@@ -1,0 +1,66 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 268 273	[BOS]
+T3	Transition 347 352	[BOS]
+T4	Transition 505 510	[BOS]
+T5	Transition 571 576	[BOS]
+T6	Transition 660 665	[BOS]
+T7	Multi_summ 754 759	[BOS]
+T8	Transition 985 990	[BOS]
+T9	Single_summ 1137 1142	[BOS]
+T10	Single_summ 1281 1286	[BOS]
+T11	Transition 1385 1390	[BOS]
+T12	Single_summ 1511 1516	[BOS]
+T13	Single_summ 1730 1735	[BOS]
+T14	Multi_summ 1858 1863	[BOS]
+T15	Single_summ 2095 2100	[BOS]
+T16	Single_summ 2219 2224	[BOS]
+T17	Single_summ 2378 2383	[BOS]
+T18	Single_summ 2489 2494	[BOS]
+T19	Transition 2574 2579	[BOS]
+T20	Narrative_cite 2755 2760	[BOS]
+T21	Narrative_cite 2916 2921	[BOS]
+T22	Reflection 3100 3105	[BOS]
+T23	Dominant 773 794	(Finkel et al., 2005)
+T24	Dominant 797 825	(Maslennikov and Chua, 2007)
+T25	Dominant 828 851	(Ji and Grishman, 2008)
+T26	Dominant 856 885	(Patwardhan and Riloff, 2007)
+T27	Dominant 1143 1168	(Liao and Grishman, 2010)
+T28	Dominant 1287 1305	(Li et al., 2013 )
+T30	Dominant 1713 1727	(Riloff, 1996)
+T31	Dominant 1736 1755	(Sudo et al., 2003)
+T32	Dominant 1864 1887	(Yangarber et al., 2000
+T33	Dominant 1889 1906	Yangarber, 2003 )
+T34	Dominant 2138 2161	(Surdeanu et al., 2006)
+T35	Dominant 2264 2295	(Stevenson and Greenwood, 2005)
+T36	Dominant 2384 2409	(Huang and Riloff, 2012 )
+T37	Reference 2922 2946	(Majidi and Crane, 2013)
+T38	Reference 3074 3097	(Fu and Grishman, 2013)
+T39	Reference 3316 3341	(Liao and Grishman, 2011)
+T40	Pronoun 1014 1019	these
+T41	Pronoun 1983 1988	these
+T42	Pronoun 2041 2046	these
+T43	Pronoun 2101 2105	This
+T44	B_span 760 763	For
+T45	E_span 1128 1135	systems
+T46	B_span 1144 1148	Liao
+T47	E_span 1274 1279	event
+T48	B_span 1288 1290	Li
+T49	E_span 1374 1382	features
+T50	B_span 1517 1520	One
+T29	E_span 1722 1726	1996
+T51	B_span 1737 1741	Sudo
+T52	E_span 1850 1856	engine
+T53	B_span 1865 1874	Yangarber
+T54	E_span 2090 2093	etc
+T55	B_span 2101 2105	This
+T56	E_span 2207 2217	strategies
+T57	B_span 2225 2227	An
+T58	E_span 2368 2376	patterns
+T59	B_span 2385 2390	Huang
+T60	E_span 2566 2571	event
+T61	E_span 3336 3340	2011
+T62	B_span 3167 3170	ACE
+T63	B_span 3060 3063	ACE
+T64	E_span 3092 3096	2013
+T65	B_span 2810 2821	Information
+T66	E_span 2941 2945	2013

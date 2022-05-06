@@ -1,0 +1,54 @@
+T1	Intro 0 5	[BOS]
+T2	Transition 163 168	[BOS]
+T3	Transition 257 262	[BOS]
+T4	Transition 571 576	[BOS]
+T5	Transition 822 827	[BOS]
+T6	Transition 957 962	[BOS]
+T7	Narrative_cite 1071 1076	[BOS]
+T8	Transition 1239 1244	[BOS]
+T9	Transition 1308 1313	[BOS]
+T10	Single_summ 1405 1410	[BOS]
+T11	Transition 1600 1605	[BOS]
+T12	Narrative_cite 1956 1961	[BOS]
+T13	Transition 2109 2114	[BOS]
+T14	Transition 2309 2314	[BOS]
+T15	Transition 2444 2449	[BOS]
+T16	Single_summ 2593 2598	[BOS]
+T17	Transition 2939 2944	[BOS]
+T18	Transition 3003 3008	[BOS]
+T19	Transition 3043 3048	[BOS]
+T20	Transition 3187 3192	[BOS]
+T21	Transition 3328 3333	[BOS]
+T22	Transition 3618 3623	[BOS]
+T23	Transition 3650 3655	[BOS]
+T24	Transition 3713 3718	[BOS]
+T25	Reflection 3794 3799	[BOS]
+T26	Reflection 3877 3882	[BOS]
+T27	Reference 1100 1122	(Wiegand et al., 2018)
+T28	Reference 1140 1160	(Kumar et al., 2018)
+T31	Dominant 1411 1431	Waseem et al. (2017)
+T32	Reference 2086 2106	Waseem et al. (2017)
+T33	Dominant 2717 2741	(Zampieri et al., 2019a)
+T34	Pronoun 42 46	this
+T35	Pronoun 266 270	this
+T36	Pronoun 577 579	It
+T37	Pronoun 828 830	It
+T38	Pronoun 1077 1082	These
+T39	Pronoun 1275 1277	it
+T40	Pronoun 2352 2357	these
+T41	Pronoun 2497 2501	they
+T42	Pronoun 2945 2949	This
+T43	Pronoun 3803 3807	this
+T29	Reference 1202 1224	Zampieri et al., 2019b
+T30	B_span 1091 1094	Ger
+T44	E_span 1130 1133	man
+T45	B_span 1135 1137	TR
+T46	E_span 1180 1182	di
+T47	B_span 1188 1192	Offe
+T48	E_span 1233 1237	lish
+T49	B_span 1411 1417	Waseem
+T50	E_span 1592 1598	plicit
+T51	B_span 2026 2031	inclu
+T52	E_span 2103 2106	17)
+T53	B_span 2712 2714	OL
+T54	E_span 2934 2937	ity

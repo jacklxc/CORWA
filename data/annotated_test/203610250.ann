@@ -1,0 +1,44 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 101 106	[BOS]
+T3	Single_summ 365 370	[BOS]
+T4	Narrative_cite 510 515	[BOS]
+T5	Single_summ 671 676	[BOS]
+T6	Transition 802 807	[BOS]
+T7	Single_summ 901 906	[BOS]
+T8	Narrative_cite 1018 1023	[BOS]
+T9	Single_summ 1192 1197	[BOS]
+T10	Single_summ 1278 1283	[BOS]
+T11	Single_summ 1414 1419	[BOS]
+T12	Single_summ 1538 1543	[BOS]
+T13	Reflection 1676 1681	[BOS]
+T14	Reflection 1802 1807	[BOS]
+T15	B_span 107 117	Dependency
+T16	E_span 357 361	2014
+T17	Reference 238 264	Barzilay and McKeown, 2005
+T18	Reference 266 289	Marsi and Krahmer, 2005
+T19	Reference 291 317	Filippova and Strube, 2008
+T20	Reference 342 361	Gerani et al., 2014
+T21	Reference 319 341	Cheung and Penn, 2014;
+T22	Dominant 371 391	Mehdad et al. (2013)
+T23	B_span 371 377	Mehdad
+T24	E_span 503 508	graph
+T25	B_span 613 621	sentence
+T26	E_span 663 667	2018
+T27	Reference 630 646	Liu et al., 2015
+T28	Reference 648 667	Nayeem et al., 2018
+T29	Dominant 677 695	Geva et al. (2019)
+T30	B_span 677 681	Geva
+T31	E_span 790 799	sentences
+T32	Dominant 907 925	Cao et al. (2018a)
+T33	B_span 907 910	Cao
+T34	E_span 1008 1016	entities
+T35	B_span 1094 1104	entailment
+T36	E_span 1184 1188	2018
+T37	Reference 1154 1170	Li et al., 2018;
+T38	Reference 1171 1188	Song et al., 2018
+T39	Dominant 1256 1274	Falke et al. (2019
+T42	Dominant 1544 1562	Cao et al. (2018b)
+T43	B_span 1544 1547	Cao
+T44	E_span 1668 1674	errors
+T45	E_span 1529 1536	article
+T40	B_span 1256 1261	Falke

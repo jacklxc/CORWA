@@ -1,0 +1,13 @@
+[BOS] As one of the typical sequence-to-sequence tasks, sentence-level summarisation has been explored by a series of discriminative encoder-decoder neural models.
+[BOS] Filippova et al. (2015) Gu et al. (2016) also apply the similar idea of combining pointer networks and softmax output.
+[BOS] However, different from all these discriminative models above, we explore generative models for sentence compression.
+[BOS] Instead of training the discriminative model on a big labelled dataset, our original intuition of introducing a combined pointer networks is to bridge the unsupervised generative model (ASC) and supervised model (FSC) so that we could utilise a large additional dataset, either labelled or unlabelled, to boost the compression performance.
+[BOS] Dai and Le (2015) also explored semi-supervised sequence learning, but in a pure deterministic model focused on learning better vector representations.
+
+[BOS] Recently variational auto-encoders have been applied in a variety of fields as deep generative models.
+[BOS] In computer vision Kingma and Welling (2014), Rezende et al. (2014) , and Gregor et al. (2015) have demonstrated strong performance on the task of image generation and Eslami et al. (2016) proposed variable-sized variational auto-encoders to identify multiple objects in images.
+[BOS] While in natural language processing, there are variants of VAEs on modelling documents (Miao et al., 2016) , sentences (Bowman et al., 2015) and discovery of relations (Marcheggiani and Titov, 2016) .
+[BOS] Apart from the typical initiations of VAEs, there are also a series of works that employs generative models for supervised learning tasks.
+[BOS] For instance, Ba et al. (2015) learns visual attention for multiple objects by optimising a variational lower bound, Kingma et al. (2014) implements a semi-supervised framework for image classification and Miao et al. (2016) applies a conditional variational approximation in the task of factoid question answering.
+[BOS] Dyer et al. (2016) proposes a generative model that explicitly extracts syntactic relationships among words and phrases which further supports the argument that generative models can be a statistically efficient method for learning neural networks from small data.
+

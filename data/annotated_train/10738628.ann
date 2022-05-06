@@ -1,0 +1,49 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 208 213	[BOS]
+T3	Narrative_cite 403 408	[BOS]
+T4	Single_summ 549 554	[BOS]
+T5	Transition 773 778	[BOS]
+T6	Single_summ 876 881	[BOS]
+T7	Single_summ 991 996	[BOS]
+T8	Single_summ 1180 1185	[BOS]
+T9	Single_summ 1301 1306	[BOS]
+T10	Single_summ 1359 1364	[BOS]
+T11	Single_summ 1519 1524	[BOS]
+T12	Single_summ 1608 1613	[BOS]
+T13	Single_summ 1707 1712	[BOS]
+T14	Single_summ 1902 1907	[BOS]
+T15	Single_summ 2056 2061	[BOS]
+T16	Single_summ 2132 2137	[BOS]
+T17	Reference 75 96	(Baldwin et al., 2003
+T18	Reference 98 123	Katz and Giesbrecht, 2006
+T19	Reference 125 150	Schone and Juraksfy, 2001
+T20	Reference 152 174	Hashimoto et al., 2006
+T21	Reference 176 205	Hashimoto and Kawahara, 2008)
+T22	Reference 382 400	Cook et al., 2007)
+T23	Reference 475 502	(Katz and Giesbrecht, 2006)
+T24	Reference 515 545	(Hashimoto and Kawahara, 2008)
+T25	Dominant 558 591	Katz and Giesbrecht (2006) (KG06)
+T27	Pronoun 1186 1190	They
+T28	Pronoun 1307 1311	They
+T29	Pronoun 1365 1369	They
+T30	Pronoun 1442 1446	they
+T31	Pronoun 1500 1505	their
+T32	Pronoun 1525 1529	They
+T33	Pronoun 1576 1580	they
+T34	Pronoun 1614 1618	They
+T35	Pronoun 1931 1935	they
+T36	Pronoun 2062 2066	They
+T37	Pronoun 2138 2143	Their
+T39	E_span 200 204	2008
+T41	E_span 395 399	2007
+T43	E_span 540 544	2008
+T45	E_span 768 772	not.
+T46	Dominant 997 1026	Hashimoto and Kawahara (2008)
+T26	B_span 997 1006	Hashimoto
+T47	E_span 2188 2196	features
+T44	B_span 555 557	In
+T38	B_span 56 59	MWE
+T40	B_span 382 386	Cook
+T42	B_span 476 480	Katz
+T48	E_span 497 501	2006
+T49	B_span 516 525	Hashimoto

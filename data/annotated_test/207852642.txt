@@ -1,0 +1,20 @@
+[BOS] We present a detailed study of semantic errors in NNLG outputs and how these relate to noise in training data.
+[BOS] We found that even imperfectly cleaned input data significantly improves semantic accuracy for seq2seq-based generators (up to 97% relative error reduction with the reranker), while only causing a slight decrease in fluency.
+
+[BOS] Contemporaneous with our work is the effort of Nie et al. (2019) , who focus on automatic data cleaning using a NLU iteratively bootstrapped from the noisy data.
+[BOS] Their analysis similarly finds that omissions are more common than hallucinations.
+[BOS] Correcting for missing slots, i.e. forcing the generator to verbalise all slots during training, leads to the biggest performance improvement.
+[BOS] This phenomenon is also observed by Duek et al. (2018 Duek et al. ( , 2019 for systems in the E2E NLG challenge, but stands in contrast to work on related tasks, which mostly reports on hallucinations (i.e. adding information not grounded in the input), as observed for image captioning (Rohrbach et al., 2018) , sports report generation (Wiseman et al., 2017) , machine translation (Koehn and Knowles, 2017; Lee et al., 2019) , and question answering (Feng et al., 2018) .
+[BOS] These previous works suggest that the most likely case of hallucinations is an over-reliance on language priors, i.e. memorising 'which words go together'.
+[BOS] Similar priors could equally exist in the E2E data for omitting a slot; this might be connected with the fact that the E2E test set MRs tend to be longer than training MRs (6.91 slots on average for test MRs vs. 5.52 for training MRs) and that a large part of them is 'saturated', i.e. contains all possible 8 attributes.
+
+[BOS] Furthermore, in accordance with our observations, related work also reports a relation between hallucinations and data diversity: Rohrbach et al. (2018) observe an increase for "novel compositions of objects at test time", i.e. non-overlapping test and training sets (cf.
+[BOS] Section 3); whereas Lee et al. (2019) reports data augmentation as one of the most efficient counter measures.
+[BOS] In future work, we plan to experimentally manipulate these factors to disentangle the relative contributions of data cleanliness and diversity.
+[BOS] Table 5 : Absolute numbers of errors (added slots/missed slots/wrong slot values) and numbers of completely correct instances in all our experiments (compare to Tables 2 and 3 in the paper).
+[BOS] Note that (1) the numbers are averages over 5 runs with different random network initializations, hence the non-integer values;
+
+[BOS] (2) only numbers in the top half and the bottom half (with the same test set) are comparable.
+[BOS] The original test set has 630 MRs and 4,352 slots in total.
+[BOS] The cleaned test set has 1,847 MRs and 11,547 slots; however, for the runs with SC-LSTM these counts are 1,800 and 11,101, respectively, since some items had to be dropped due to preprocessing issues.
+

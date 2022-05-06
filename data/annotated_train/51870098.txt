@@ -1,0 +1,18 @@
+[BOS] One main task in community question answering is answer selection, i.e., to rate the answers according to their quality.
+[BOS] The SemEval CQA tasks (Nakov et al., , 2017 provide universal benchmark datasets for evaluating researches on this problem.
+
+[BOS] Earlier work of answer selection in CQA relied heavily on feature engineering, linguistic tools, and external resource.
+[BOS] investigated a wide range of feature types including similarity features, content features, thread level/meta features, and automatically generated features for SemEval CQA models.
+[BOS] Tran et al. (2015) studied the use of topic model based features and word vector representation based features in the answer re-ranking task.
+[BOS] Filice et al. (2016) designed various heuristic features and thread-based features that can signal a good answer.
+[BOS] Although achieving good performance, these methods rely heavily on feature engineering, which requires a large amount of manual work and domain expertise.
+
+[BOS] Since answer selection is inherently a ranking task, a few recent researches proposed to use local features to make global ranking decision.
+[BOS] was the first work that applies structured prediction model on CQA answer selection task.
+[BOS] Joty et al. (2016) approached the task with a global inference process to exploit the information of all answers in the question-thread in the form of a fully connected graph.
+
+[BOS] To avoid feature engineering, many deep learning models have been proposed for answer selection.
+[BOS] Among them, Zhang et al. (2017) proposed a novel interactive attention mechanism to address the problem of noise and redundancy prevalent in CQA.
+[BOS] Tay et al. (2017) introduced temporal gates for sequence pairs so that questions and answers are aware of what each other is remembering or forgetting.
+[BOS] Simple as their model are, they did not consider the relationship between question subject and body, which is useful for question condensing.
+

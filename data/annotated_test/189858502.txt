@@ -1,0 +1,20 @@
+[BOS] A number of online comparison portals like GoCompare or Compare.com provide access to structured databases where products of the same class can be ranked along with their aspects.
+[BOS] Other systems like Diffen.com and Versus.com try to compare any pair of items on arbitrary properties.
+[BOS] They reach high coverage through the integration of a large number of structured resources such as databases and semi-structured resources like Wikipedia, but still list aspects side by side without providing further verbal explanationsnone of the portals aim at extracting comparisons from text.
+[BOS] Promising data sources for textual comparisons are question answering portals like Quora or Yahoo!
+[BOS] Answers that contain a lot of "How does X compare to Y?
+[BOS] "-questions with human answers but the web itself is an even larger source of textual comparisons.
+
+[BOS] Mining and categorizing comparative sentences from the web could support search engines in answering comparative queries (with potential argumentation justifying the preference in the mined sentence itself or in its context) but also has opinion mining (Ganapathibhotla and Liu, 2008) as another important application.
+[BOS] Still, previous work on recognizing comparative sentences has mostly been conducted in the biomedical domain.
+[BOS] For instance, Fiszman et al. (2007) identify sentences explicitly comparing elements of drug therapy via manually developed comparative and direction patterns informed by a lot of domain knowledge.
+[BOS] Later, Park and Blake (2012) trained a highprecision Bayesian Network classifier for toxicol-1 zenodo.org/record/3237552 2 github.com/uhh-lt/comparative ogy publications that used lexical clues (comparatives and domain-specific vocabulary) but also paths between comparison targets in dependency parses.
+[BOS] More recently, Gupta et al. (2017) described a system for the biomedical domain that also combines manually collected patterns for lexical matches and dependency parses in order to identify comparison targets and comparison type using the as gradable, non-gradable, superlativetaxonomy of Jindal and Liu (2006) .
+
+[BOS] Developing a system for mining comparative sentences (with potential argumentation support for a preference) from the web might utilize specialized jargon like hashtags for argumentative tweets (Dusmanu et al., 2017) but at the same time faces the challenges recognized for general web argument mining (najder, 2017) : web text is typically not well formulated, misses argument structures, and contains poorly formulated claims.
+[BOS] In contrast to the use of dependency parses for mining comparative sentences in the biomedical domain, such syntactic features are often impossible to derive for noisy web text and were even shown to not really help in identifying argument structures from well-formulated texts like persuasive essays or Wikipedia articles (Aker et al., 2017; Stab and Gurevych, 2014) ; simpler structural features such as punctuation subsumed syntactic features in the above studies.
+
+[BOS] The role of discourse markers in the identification of claims and premises was discussed by Eckle-Kohler et al. (2015) , who found such markers to be moderately useful for identifying argumentative sentences.
+[BOS] Also Daxenberger et al. (2017) noted that claims share lexical clues across different datasets.
+[BOS] They also concluded from their experiments that typical argumentation mining datasets were too small to unleash the power of recent DNN-based classifiers; methods based on feature engineering still worked best.
+

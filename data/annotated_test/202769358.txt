@@ -1,0 +1,19 @@
+[BOS] The neural QG is an emerging task.
+[BOS] Unlike the extractive QA, most neural QG models are generative.
+[BOS] Du et al. (2017) pioneer the neural QG by proposing neural seq2seq models to deal with the task.
+[BOS] Unfortunately, they do not use the target answer for QG.
+[BOS] At the same time, present a similar model for QG.
+[BOS] They use answer position embeddings to represent target answers and explore a variety of lexical features.
+
+[BOS] After that, many QG studies have been conducted on the basis of the widely-used seq2seq architecture together with the attention and copy mechanism.
+[BOS] Song et al. (2018) propose two encoders for both the passage and the target answer.
+[BOS] Du and Cardie (2018) employ coreferences as an additional feature.
+[BOS] Kim et al. (2019) propose a model of answer separation.
+[BOS] and Kumar et al. (2018) adopt reinforcement learning to optimize the generation process.
+
+[BOS] QA and QG are closely related to each other.
+[BOS] treat QA and QG as dual tasks, and many other studies use QG to enhance QA or jointly learn QG and QA Sachan and Xing, 2018) .
+
+[BOS] In this paper, we have presented two methods to improve the relevance of generated questions to the given passage and target answer.
+[BOS] Experiments and analyses on SQuAD show that both the partial copy mechanism and QA-based reranking improve the relevance of generated questions in terms of both BLEU and METEOR.
+

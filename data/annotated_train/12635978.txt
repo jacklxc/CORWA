@@ -1,0 +1,8 @@
+[BOS] Sentence fusion is the general label applied to tasks which take multiple sentences as input to produce a single output sentence.
+[BOS] Barzilay & McKeown (Barzilay et al., 1999; Barzilay and McKeown, 2005) first introduced fusion in the context of multidocument summarization as a way to better capture the information in a cluster of related sentences than just using the centroid.
+[BOS] The fusion task has since expanded to include other forms of sentence combination, such as the merging of overlapping sentences in a multidocument context (Marsi and Krahmer, 2005; Krahmer et al., 2008; Filippova and Strube, 2008b) and the combination of two (usually contiguous) sentences from a single document (Daum III and Marcu, 2004; Elsner and Santhanam, 2011) .
+[BOS] Variations on the fusion task include the set-theoretic notions of intersection and union (Marsi and Krahmer, 2005; McKeown et al., 2010) , which forego the problem of identifying relevance and are thus less dependent on context.
+[BOS] Query-based versions of these tasks have been studied by Krahmer et al. (2008) and have produced better human agreement in annotation experiments than generic sentence fusion (Daum III and Marcu, 2004) .
+[BOS] McKeown et al. (2010) produced an annotated fusion corpus which was employed in experiments on decoding for sentence intersection (Thadani and McKeown, 2011) .
+[BOS] While most work in the area has covered pairwise sentence combination, recent work by Filippova (2010) has also addressed fusion-referred to as multi-sentence compression-within a cluster of sentences.
+

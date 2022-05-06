@@ -1,0 +1,28 @@
+[BOS] Semi-scalable Belief Tracker Rastogi et al. (2017) proposed an approach that can generate fixed-length candidate sets for each of the slots from the dialogue history.
+[BOS] Although they only need to perform inference for a fixed number of values, they still need to iterate over all slots defined in the ontology to make a prediction for a given dialogue turn.
+[BOS] In addition, their method needs an external language understanding module to extract the exact entities from a dialogue to form candidates, which will not work if the label value is an abstraction and does not have the exact match with the words in the dialogue.
+
+[BOS] StateNet (Ren et al., 2018) achieves state-ofthe-art performance with the property that its parameters are independent of the number of slot values in the candidate set, and it also supports online training or inference with dynamically changing slots and values.
+[BOS] Given a slot that needs tracking, it only needs to perform inference once to make the prediction for a turn, but this also means that its inference time complexity is proportional to the number of slots.
+
+[BOS] TRADE (Wu et al., 2019) achieves state-of-theart performance on the MultiWoZ dataset by applying the copy mechanism for the value sequence generation.
+[BOS] Since TRADE takes n combinations of the domains and slots as the input, the inference time complexity of TRADE is O(n).
+[BOS] The performance improvement achieved by TRADE is mainly due to the fact that it incorporates the copy mechanism that can boost the accuracy on the name slot, which mainly needs the ability in copying names from the dialogue history.
+[BOS] However, TRADE does not report its performance on the WoZ2.0 dataset which does not have the name slot.
+
+[BOS] DSTRead (Gao et al., 2019) formulate the dialogue state tracking task as a reading comprehension problem by asking slot specified questions to the BERT model and find the answer span in the dialogue history for each of the pre-defined combined slot.
+[BOS] Thus its inference time complexity is still O(n).
+[BOS] This method suffers from the fact that its generation vocabulary is limited to the words occurred in the dialogue history, and it has to do a manual combination strategy with another joint state tracking model on the development set to achieve better performance.
+
+[BOS] Contextualized Word Embedding (CWE) was first proposed by Peters et al. (2018) .
+[BOS] Based on the intuition that the meaning of a word is highly correlated with its context, CWE takes the complete context (sentences, passages, etc.)
+[BOS] as the input, and outputs the corresponding word vectors that are unique under the given context.
+[BOS] Recently, with the success of language models (e.g. Devlin et al. (2018) ) that are trained on large scale data, contextualizeds word embedding have been further improved and can achieve the same performance compared to (less flexible) finely-tuned pipelines.
+
+[BOS] Sequence Generation Models.
+[BOS] Recently, sequence generation models have been successfully applied in the realm of multi-label classification (MLC) (Yang et al., 2018) .
+[BOS] Different from traditional binary relevance methods, they proposed a sequence generation model for MLC tasks which takes into consideration the correlations between labels.
+[BOS] Specifically, the model follows the encoder-decoder structure with an attention mechanism (Cho et al., 2014) , where the decoder generates a sequence of labels.
+[BOS] Similar to language modeling tasks, the decoder output at each time step will be conditioned on the previous predictions during generation.
+[BOS] Therefore the correlation between generated labels is captured by the decoder.
+

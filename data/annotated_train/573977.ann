@@ -1,0 +1,45 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 65 70	[BOS]
+T3	Transition 231 236	[BOS]
+T4	Single_summ 462 467	[BOS]
+T5	Single_summ 630 635	[BOS]
+T6	Single_summ 770 775	[BOS]
+T7	Single_summ 921 926	[BOS]
+T8	Single_summ 1096 1101	[BOS]
+T9	Single_summ 1213 1218	[BOS]
+T10	Narrative_cite 1334 1339	[BOS]
+T11	Reflection 1523 1528	[BOS]
+T12	Transition 1585 1590	[BOS]
+T13	Single_summ 1672 1677	[BOS]
+T14	Single_summ 1816 1821	[BOS]
+T15	Transition 1942 1947	[BOS]
+T16	Narrative_cite 2033 2038	[BOS]
+T17	Single_summ 2244 2249	[BOS]
+T18	Dominant 71 96	Chinnakotla et al. (2010)
+T19	Dominant 468 490	Ravi and Knight (2009)
+T20	Reference 539 560	(Knight et al., 2006)
+T21	Reference 731 758	Chinnakotla et al. (2010) '
+T22	Reference 1406 1428	Ravi and Knight (2009)
+T23	Dominant 1678 1695	Tao et al. (2006)
+T24	Dominant 1822 1853	Jagarlamudi and Daum III (2012)
+T25	Reference 2194 2220	(Klementiev and Roth, 2006
+T26	Reference 2222 2242	Chang et al., 2009 )
+T27	Dominant 2250 2270	Sajjad et al. (2011)
+T28	B_span 71 82	Chinnakotla
+T29	E_span 224 229	model
+T30	B_span 468 472	Ravi
+T31	E_span 1329 1331	LM
+T32	B_span 501 513	decipherment
+T33	E_span 555 559	2006
+T34	B_span 674 689	transliteration
+T35	E_span 751 755	2010
+T36	B_span 1344 1353	character
+T37	E_span 1423 1427	2009
+T38	B_span 1678 1681	Tao
+T39	E_span 1810 1814	used
+T40	B_span 1822 1833	Jagarlamudi
+T41	E_span 1935 1940	stage
+T42	B_span 2151 2167	transliterations
+T43	E_span 2236 2240	2009
+T44	B_span 2250 2256	Sajjad
+T45	E_span 2450 2457	process

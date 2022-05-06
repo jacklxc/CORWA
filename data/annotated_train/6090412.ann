@@ -1,0 +1,44 @@
+T1	Multi_summ 0 5	[BOS]
+T2	Multi_summ 321 326	[BOS]
+T3	Multi_summ 548 553	[BOS]
+T4	Multi_summ 748 753	[BOS]
+T5	Single_summ 866 871	[BOS]
+T6	Transition 1101 1106	[BOS]
+T7	Reflection 1216 1221	[BOS]
+T8	Reflection 1284 1289	[BOS]
+T9	Reflection 1344 1349	[BOS]
+T10	Reflection 1470 1475	[BOS]
+T11	Reflection 1566 1571	[BOS]
+T12	Multi_summ 1678 1683	[BOS]
+T13	Multi_summ 1767 1772	[BOS]
+T14	Transition 1932 1937	[BOS]
+T15	Reflection 2106 2111	[BOS]
+T16	Reflection 2165 2170	[BOS]
+T17	Reference 168 195	Goldberg and Tsarfaty, 2008
+T18	Reference 197 216	Hatori et al., 2012
+T19	Reference 218 241	Habash and Rambow, 2005
+T20	Reference 243 270	GahbicheBraham et al., 2012
+T21	Reference 272 293	Zhang and Clark, 2008
+T22	Reference 295 318	Bohnet and Nivre, 2012)
+T23	Reference 681 708	Goldberg and Tsarfaty, 2008
+T24	Reference 710 721	Tratz, 2013
+T25	Reference 723 745	Cohen and Smith, 2007)
+T26	Dominant 921 949	Goldberg and Tsarfaty (2008)
+T27	Reference 1866 1887	Zhang and Clark, 2008
+T28	Reference 1889 1908	Zhang et al., 2014a
+T29	Reference 1910 1929	Wang and Xue, 2014)
+T30	B_span 6 11	Joint
+T31	E_span 538 545	Chinese
+T32	E_span 860 864	tree
+T33	B_span 554 557	For
+T34	B_span 918 920	in
+T35	E_span 1090 1099	algorithm
+T36	B_span 1684 1686	In
+T37	E_span 1924 1928	2014
+T38	Pronoun 60 62	It
+T39	Pronoun 327 332	These
+T40	Pronoun 1309 1313	this
+T41	Pronoun 1572 1576	This
+T42	Pronoun 1782 1787	these
+T43	Pronoun 1944 1948	this
+T44	Pronoun 2018 2020	it

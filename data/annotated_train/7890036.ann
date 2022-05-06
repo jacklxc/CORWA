@@ -1,0 +1,49 @@
+T1	Single_summ 0 5	[BOS]
+T2	Multi_summ 188 193	[BOS]
+T3	Reflection 429 434	[BOS]
+T4	Narrative_cite 520 525	[BOS]
+T5	Transition 644 649	[BOS]
+T6	Reflection 835 840	[BOS]
+T7	Transition 964 969	[BOS]
+T8	Single_summ 1070 1075	[BOS]
+T9	Single_summ 1226 1231	[BOS]
+T10	Reflection 1353 1358	[BOS]
+T11	Reflection 1445 1450	[BOS]
+T12	Reflection 1674 1679	[BOS]
+T13	Reflection 1763 1768	[BOS]
+T14	Reflection 1838 1843	[BOS]
+T15	Narrative_cite 2006 2011	[BOS]
+T16	Reflection 2185 2190	[BOS]
+T17	Transition 2340 2345	[BOS]
+T18	Transition 2485 2490	[BOS]
+T19	Transition 2609 2614	[BOS]
+T20	Dominant 25 38	(Yuret, 2012)
+T21	Reference 255 275	(Yatbaz et al., 2012
+T22	Reference 277 299	Melamud et al., 2015a)
+T23	Reference 594 619	(Levy and Goldberg, 2014a
+T24	Reference 621 641	Bansal et al., 2014)
+T25	Dominant 1076 1095	Ling et al. (2015b)
+T26	Dominant 1232 1251	Ling et al. (2015a)
+T27	Reference 2141 2161	(Socher et al., 2011
+T28	Reference 2163 2182	Kiros et al., 2015)
+T29	B_span 6 16	Substitute
+T30	B_span 194 199	While
+T31	E_span 181 186	words
+T32	E_span 293 298	2015a
+T33	B_span 526 535	Syntactic
+T34	E_span 636 640	2014
+T35	B_span 1076 1080	Ling
+T36	E_span 1218 1224	vector
+T37	B_span 1232 1236	Ling
+T38	E_span 1345 1351	window
+T39	B_span 2120 2127	phrases
+T40	E_span 2177 2181	2015
+T41	Pronoun 206 210	this
+T42	Pronoun 302 304	it
+T43	Pronoun 435 437	It
+T44	Pronoun 650 654	They
+T45	Pronoun 1464 1468	they
+T46	Pronoun 1475 1480	their
+T47	Pronoun 1496 1501	these
+T48	Pronoun 1624 1626	it
+T49	Pronoun 1878 1880	it

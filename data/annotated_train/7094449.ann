@@ -1,0 +1,67 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 78 83	[BOS]
+T3	Narrative_cite 278 283	[BOS]
+T4	Narrative_cite 592 597	[BOS]
+T5	Narrative_cite 764 769	[BOS]
+T6	Single_summ 978 983	[BOS]
+T7	Single_summ 1095 1100	[BOS]
+T8	Single_summ 1395 1400	[BOS]
+T9	Transition 1504 1509	[BOS]
+T10	Narrative_cite 1825 1830	[BOS]
+T11	Narrative_cite 2039 2044	[BOS]
+T12	Narrative_cite 2276 2281	[BOS]
+T13	Reference 222 238	Lee et al., 2006
+T14	Reference 240 256	Jin et al., 2008
+T15	Reference 258 275	Kuo and Li, 2008)
+T16	Reference 455 478	Knight and Graehl, 1998
+T17	Reference 480 506	Virga and Khudanpur, 2003)
+T18	Reference 525 541	Li et al., 2004)
+T19	Reference 571 589	Oh and Choi, 2005)
+T20	Reference 635 657	Shishtla et al., 2009)
+T21	Reference 676 710	Wutiwiwatchai and Thangthai, 2010)
+T22	Reference 743 761	Oh and Choi, 2005)
+T23	Reference 908 924	Tao et al., 2006
+T24	Reference 926 941	Li et al., 2007
+T25	Reference 943 960	Yoon et al., 2007
+T26	Reference 962 974	Kwong, 2009)
+T27	Dominant 1076 1092	Li et al. (2004)
+T28	Reference 1875 1893	(Li et al., 2009 )
+T29	Reference 1908 1925	(Li et al., 2010)
+T30	Reference 2107 2124	Song et al., 2010
+T31	Reference 2126 2150	Finch and Sumita, 2010 )
+T32	Reference 2251 2274	Shishtla et al., 2009 )
+T33	Reference 2356 2375	(Zhang et al., 2011
+T34	Reference 2377 2396	Zhang et al., 2012)
+T35	B_span 206 215	resources
+T36	E_span 270 274	2008
+T37	B_span 440 448	phonemes
+T38	E_span 501 505	2003
+T39	B_span 509 518	graphemes
+T40	E_span 536 540	2004
+T41	B_span 553 564	combination
+T42	E_span 584 588	2005
+T43	B_span 618 628	characters
+T44	E_span 652 656	2009
+T45	B_span 660 669	syllables
+T46	E_span 705 709	2010
+T47	B_span 724 730	hybrid
+T48	E_span 756 760	2005
+T49	B_span 886 892	transl
+T50	E_span 969 973	2009
+T51	B_span 984 987	The
+T52	E_span 1497 1502	model
+T53	B_span 1865 1869	NEWS
+T54	E_span 1887 1891	2009
+T55	B_span 1898 1902	NEWS
+T56	E_span 1920 1924	2010
+T57	B_span 2052 2058	phrase
+T58	E_span 2144 2148	2010
+T59	B_span 2168 2179	Conditional
+T60	E_span 2268 2272	2009
+T61	B_span 2335 2344	promising
+T62	E_span 2395 2396	)
+T63	Pronoun 411 416	these
+T64	Pronoun 547 552	their
+T65	Pronoun 598 602	They
+T66	Pronoun 1101 1105	They
+T67	Pronoun 1401 1406	Their

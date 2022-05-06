@@ -1,0 +1,8 @@
+[BOS] There have been three major approaches to event detection in the literature.
+[BOS] First, the pattern-based approach explores the application of patterns to identify the instances of events, in which the patterns are formed by predicates, event triggers and constraints on the syntactic context (Grishman et al., 2005; Cao et al., 2015a; Cao et al., 2015b) .
+[BOS] Second, the feature-based approach relies on linguistic intuition to design effective feature sets for statistical models for ED, ranging from the local sentence-level representations (Ahn, 2006; Li et al., 2013) , to the higher level structures such as the cross-sentence or cross-event information (Ji and Grishman, 2008; Gupta and Ji, 2009; Patwardhan and Riloff, 2009; Liao and Grishman, 2011; Hong et al., 2011; McClosky et al., 2011; Li et al., 2015) .
+[BOS] Some recent work on the feature-based approach has also investigated event trigger detection in the joint inference with event argument prediction (Riedel et al., 2009; Poon and Vanderwende, 2010; Li et al., 2013; Venugopal et al., 2014) to benefit from their inter-dependencies.
+
+[BOS] Finally, neural networks have been introduced into ED very recently with the early work on convolutional neural networks (Nguyen and Grishman, 2015b; Chen et al., 2015) .
+[BOS] The other work includes: (Nguyen et al., 2016a) who employ bidirectional recurrent neural networks to perform event trigger and argument labeling jointly, (Jagannatha and Yu, 2016) who extract event instances from health records with recurrent neural networks and (Nguyen et al., 2016b) who propose a two-stage training algorithm for event extension with neural networks.
+

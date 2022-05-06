@@ -1,0 +1,33 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 120 125	[BOS]
+T3	Single_summ 214 219	[BOS]
+T4	Reflection 308 313	[BOS]
+T5	Transition 514 519	[BOS]
+T6	Narrative_cite 614 619	[BOS]
+T7	Transition 884 889	[BOS]
+T8	Narrative_cite 959 964	[BOS]
+T9	Reflection 1127 1132	[BOS]
+T10	Reflection 1233 1238	[BOS]
+T11	Reference 51 71	Arthur et al. (2016)
+T12	Dominant 141 158	Liu et al. (2016)
+T13	Reference 719 737	(Jean et al., 2015
+T14	Reference 739 755	Mi et al., 2016)
+T15	Reference 820 842	(Gulcehre et al., 2016
+T16	Reference 844 859	Gu et al., 2016
+T17	Reference 861 881	Luong et al., 2015b)
+T18	Reference 1056 1078	(Sennrich et al., 2016
+T19	Reference 1080 1098	Chung et al., 2016
+T20	Reference 1100 1124	Luong and Manning, 2016)
+T21	Pronoun 220 224	They
+T22	Pronoun 357 361	they
+T23	Pronoun 899 904	these
+T24	B_span 6 9	The
+T25	E_span 66 70	2016
+T26	B_span 126 132	Recent
+T27	E_span 302 306	here
+T28	B_span 641 649	reducing
+T29	E_span 750 754	2016
+T30	B_span 758 764	others
+T31	E_span 875 880	2015b
+T32	B_span 1030 1037	subword
+T33	E_span 1119 1123	2016

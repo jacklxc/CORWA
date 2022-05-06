@@ -1,0 +1,56 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 89 94	[BOS]
+T3	Single_summ 385 390	[BOS]
+T4	Transition 600 605	[BOS]
+T5	Single_summ 743 748	[BOS]
+T6	Single_summ 846 851	[BOS]
+T7	Single_summ 1069 1074	[BOS]
+T8	Reflection 1158 1163	[BOS]
+T9	Reflection 1293 1298	[BOS]
+T10	Reflection 1478 1483	[BOS]
+T11	Reflection 1700 1705	[BOS]
+T12	Transition 1798 1803	[BOS]
+T13	Multi_summ 1923 1928	[BOS]
+T14	Reflection 2110 2115	[BOS]
+T15	Narrative_cite 2356 2361	[BOS]
+T16	Transition 2574 2579	[BOS]
+T17	Reflection 2726 2731	[BOS]
+T18	Reflection 2906 2911	[BOS]
+T19	Reflection 3097 3102	[BOS]
+T20	Reference 135 152	(Liu et al., 2006
+T21	Reference 154 172	Huang et al., 2006
+T22	Reference 174 186	Eisner, 2003
+T23	Reference 188 206	Zhang et al., 2008
+T24	Reference 208 225	Liu et al., 2009a
+T25	Reference 227 243	Xie et al., 2011
+T26	Dominant 445 459	(Chiang, 2005)
+T27	Dominant 749 767	Liu et al. (2009b)
+T28	Dominant 1929 1953	Marton and Resnik (2008)
+T29	Dominant 1958 1974	Li et al. (2013)
+T30	Reference 2477 2506	(Zollmann and Venugopal, 2006
+T31	Reference 2508 2533	Zhao and Al-Onaizan, 2008
+T32	Reference 2535 2547	Chiang, 2010
+T33	Reference 2549 2571	Hoang and Koehn, 2010)
+T34	Pronoun 283 288	their
+T35	Pronoun 852 857	Their
+T36	Pronoun 917 921	they
+T37	Pronoun 1075 1079	They
+T38	Pronoun 1092 1097	their
+T39	Pronoun 1580 1584	they
+T40	Pronoun 1706 1710	This
+T41	Pronoun 2230 2235	these
+T42	Pronoun 2264 2266	it
+T43	Pronoun 2271 2275	this
+T44	Pronoun 2343 2347	this
+T45	Pronoun 2435 2440	their
+T46	Pronoun 2593 2598	these
+T47	B_span 110 116	source
+T48	E_span 239 243	2011
+T49	B_span 391 404	Alternatively
+T50	E_span 593 597	side
+T51	B_span 749 752	Liu
+T52	E_span 1149 1156	systems
+T53	B_span 1929 1935	Marton
+T54	E_span 2103 2108	trees
+T55	B_span 2441 2445	SCFG
+T56	E_span 2566 2570	2010

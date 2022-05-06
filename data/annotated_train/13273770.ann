@@ -1,0 +1,31 @@
+T1	Transition 0 5	[BOS]
+T2	Reflection 47 52	[BOS]
+T3	Reflection 120 125	[BOS]
+T4	Reflection 386 391	[BOS]
+T5	Transition 564 569	[BOS]
+T6	Single_summ 727 732	[BOS]
+T7	Single_summ 843 848	[BOS]
+T8	Reflection 970 975	[BOS]
+T9	Reflection 1024 1029	[BOS]
+T10	Transition 1242 1247	[BOS]
+T11	Single_summ 1410 1415	[BOS]
+T12	Multi_summ 1517 1522	[BOS]
+T13	Reflection 1652 1657	[BOS]
+T14	Reflection 1781 1786	[BOS]
+T15	Reference 534 560	Brown and Nirenburg, 1990)
+T16	Dominant 751 772	(Foster et al., 2002)
+T17	Dominant 849 861	Koehn (2009)
+T18	Dominant 1416 1440	Barrachina et al. (2008)
+T19	Dominant 1523 1543	Nepveu et al. (2004)
+T20	Dominant 1548 1576	Ortiz-Martinez et al. (2011)
+T21	Pronoun 2043 2048	their
+T22	B_span 516 518	MT
+T23	E_span 555 559	1990
+T24	B_span 733 742	TransType
+T25	E_span 830 841	predictions
+T26	B_span 849 854	Koehn
+T27	E_span 961 968	options
+T28	B_span 1416 1426	Barrachina
+T29	E_span 1506 1515	framework
+T30	B_span 1523 1529	Nepveu
+T31	E_span 1640 1650	experience

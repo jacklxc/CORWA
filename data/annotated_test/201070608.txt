@@ -1,0 +1,25 @@
+[BOS] Traditional methods (Reiter and Dale, 1997; Stent et al., 2004) for data-to-text generation consist of three components: content planning, sentence planning, and surface realization.
+[BOS] Content planning and sentence planning are responsible for what to say and how to say respectively; they are typically based on hand-crafted (Kukich, 1983; Dalianis and Hovy, 1993; Hovy, 1993) or automatically-learnt rules (Duboue and McKeown, 2003) .
+[BOS] Surface realization generates natural language by carrying out the plan, which is template-based (McRoy et al., 2003; van Deemter et al., 2005) or grammar-based (Bateman, 1997; Espinosa et al., 2008) .
+[BOS] As these models are shallow and the two stages (planning and realization) often function separately, traditional methods are unable to capture rich variations of texts.
+[BOS] Recently, neural methods have become the mainstream models for data-to-text generation due to their strong ability of representation learning and scalability.
+[BOS] These methods perform well in generating weather forecasts (Mei et al., 2016) or very short biographies (Lebret et al., 2016 Nema et al., 2018) using well-designed data encoder and attention mechanisms.
+[BOS] However, as demonstrated in Wiseman et al. (2017) (a game report generation task), existing neural methods are still problematic for long text generation: they often generate incoherent texts.
+[BOS] In fact, these methods also lack the ability to model diversity of expressions.
+
+[BOS] As for long text generation, recent studies tackle the incoherence problem from different perspectives.
+[BOS] To keep the decoder aware of the crucial information in the already generated prefix, Shao et al. (2017) appended the generated prefix to the encoder, and leaked the extracted features of the generated prefix from the discriminator to the generator in a Generative Adversarial Nets (Goodfellow et al., 2014) .
+[BOS] To model dependencies among sentences, Li et al. (2015) utilized a hierarchical recurrent neural network (RNN) decoder.
+[BOS] Konstas and Lapata (2013) proposed to plan content organization with grammar rules while Puduppully et al. (2019) planned by reordering input data.
+[BOS] Most recently, Moryossef et al. (2019) proposed to select plans from all possible ones, which is infeasible for large inputs.
+
+[BOS] As for diverse text generation, existing methods can be divided into three categories: enriching conditions (Xing et al., 2017) , post-processing with beam search and rerank (Li et al., 2016) , and designing effective models (Xu et al., 2018) .
+[BOS] Some text-to-text generation models (Serban et al., 2017; Zhao et al., 2017) inject high-level variations with latent variables.
+[BOS] Variational Hierarchical Conversation RNN (VHCR) (Park et al., 2018) is a most similar model to ours, which also adopts a hierarchical latent structure.
+[BOS] Our method differs from VHCR in two aspects: (1) VHCR has no planning mechanism, and the global latent variable is mainly designed to address the KL collapse problem, while our global latent variable captures the diversity of reasonable planning; (2) VHCR injects distinct local latent variables without direct dependencies, while our method explicitly models the dependencies among local latent variables to better capture inter-sentence connections.
+[BOS] Shen et al. (2019) proposed ml-VAE-D with multi-level latent variables.
+[BOS] However, the latent structure of ml-VAE-D consists of two global latent variables: the top-level latent variable is introduced to learn a more flexible prior of the bottom-level latent variable which is then used to decode a whole paragraph.
+[BOS] By contrast, our hierarchical latent structure is tailored to our planning mechanism: the top level latent variable controls planning results and a sequence of local latent variables is introduced to obtain fine-grained control of sentence generation sub-tasks.
+[BOS] We evaluated our model on a new advertising text generation task which is to generate a long and diverse text that covers all given specifications about a product.
+[BOS] Different from our task, the advertising text generation task in is to generate personalized product description based on product title, product aspect (e.g., "appearance"), and user category.
+

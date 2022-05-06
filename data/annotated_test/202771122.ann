@@ -1,0 +1,71 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 125 130	[BOS]
+T3	Reflection 447 452	[BOS]
+T4	Narrative_cite 561 566	[BOS]
+T5	Transition 906 911	[BOS]
+T6	Narrative_cite 1103 1108	[BOS]
+T7	Single_summ 1221 1226	[BOS]
+T8	Single_summ 1360 1365	[BOS]
+T9	Transition 1503 1508	[BOS]
+T10	Single_summ 1606 1611	[BOS]
+T11	Single_summ 1712 1717	[BOS]
+T12	Reflection 1878 1883	[BOS]
+T13	Single_summ 2061 2066	[BOS]
+T14	Narrative_cite 2264 2269	[BOS]
+T15	Reflection 2860 2865	[BOS]
+T16	Reference 222 245	(Jing and McKeown, 2000
+T17	Reference 247 269	Knight and Marcu, 2000
+T18	Reference 271 289	Neto et al., 2002)
+T19	Reference 405 424	(Banko et al., 2000
+T20	Reference 426 444	Rush et al., 2015)
+T21	Reference 671 690	(Dorr et al., 2003)
+T22	Reference 796 816	(Banko et al., 2000)
+T23	Reference 856 878	(Cohn and Lapata, 2008
+T24	Reference 880 902	Woodsend et al., 2010)
+T25	Reference 1180 1200	(Chopra et al., 2016
+T26	Reference 1202 1218	Li et al., 2017)
+T27	Dominant 1276 1297	Gehring et al. (2017)
+T28	Dominant 1373 1391	Wang et al. (2018)
+T29	Dominant 1612 1631	Song et al. (2018a)
+T30	Reference 2185 2204	Song et al. (2018a)
+T31	Reference 2453 2469	(Gu et al., 2016
+T32	Reference 2471 2490	Song et al., 2018b)
+T33	Reference 2578 2596	(Zhou et al., 2017
+T34	Reference 2598 2615	Lin et al., 2018)
+T35	Reference 2692 2711	(Chen et al., 2016)
+T36	Reference 2799 2818	(Ayana et al., 2016
+T37	Reference 2820 2835	Li et al., 2018
+T38	Reference 2837 2857	Edunov et al., 2018)
+T39	B_span 151 160	important
+T40	E_span 288 289	)
+T41	B_span 352 355	and
+T42	E_span 443 444	)
+T43	B_span 652 656	rule
+T44	E_span 689 690	)
+T45	B_span 770 777	machine
+T46	E_span 815 816	)
+T47	B_span 824 830	syntax
+T48	E_span 901 902	)
+T49	B_span 1109 1111	RN
+T50	E_span 1217 1218	)
+T51	B_span 1229 1232	CNN
+T52	E_span 1358 1359	.
+T53	B_span 1373 1377	Wang
+T54	E_span 1500 1501	.
+T55	B_span 1612 1616	Song
+T56	E_span 1876 1877	.
+T57	B_span 2163 2168	which
+T58	E_span 2261 2262	.
+T59	B_span 2371 2378	copying
+T60	E_span 2489 2490	)
+T61	B_span 2497 2506	selection
+T62	E_span 2614 2615	)
+T63	B_span 2622 2633	distraction
+T64	E_span 2710 2711	)
+T65	B_span 2722 2730	sequence
+T66	E_span 2856 2857	)
+T67	Pronoun 365 367	it
+T68	Pronoun 456 460	this
+T69	Pronoun 990 994	this
+T70	Pronoun 1721 1726	their
+T71	Pronoun 1844 1848	they

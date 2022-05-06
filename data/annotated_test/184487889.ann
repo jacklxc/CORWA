@@ -1,0 +1,36 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 55 60	[BOS]
+T3	Multi_summ 208 213	[BOS]
+T4	Single_summ 283 288	[BOS]
+T5	Reflection 367 372	[BOS]
+T6	Single_summ 554 559	[BOS]
+T7	Narrative_cite 676 681	[BOS]
+T8	Single_summ 873 878	[BOS]
+T9	Reflection 954 959	[BOS]
+T10	Dominant 61 79	Peng et al. (2017)
+T11	Dominant 84 102	Song et al. (2018)
+T12	Dominant 289 308	Verga et al. (2018)
+T13	Reference 400 419	Verga et al. (2018)
+T14	Dominant 589 612	Kipf and Welling (2017)
+T15	Reference 728 758	(Marcheggiani and Titov, 2017)
+T16	Reference 789 812	(Yasunaga et al., 2017)
+T17	Reference 846 870	(Vashishth et al., 2018)
+T18	Dominant 879 898	Zhang et al. (2018)
+T19	B_span 61 65	Peng
+T20	E_span 281 282	.
+T21	B_span 289 293	Verg
+T22	E_span 365 366	.
+T24	B_span 400 404	Verg
+T27	B_span 560 562	GC
+T28	E_span 674 675	.
+T29	B_span 704 712	semantic
+T30	E_span 757 758	)
+T31	B_span 760 765	multi
+T32	E_span 811 812	)
+T33	B_span 817 825	temporal
+T34	E_span 869 870	)
+T35	B_span 879 884	Zhang
+T36	E_span 952 953	.
+T37	Pronoun 214 218	They
+T38	Pronoun 682 684	It
+T23	E_span 414 418	2018

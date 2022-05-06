@@ -1,0 +1,45 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 310 315	[BOS]
+T3	Reflection 485 490	[BOS]
+T4	Transition 776 781	[BOS]
+T5	Narrative_cite 961 966	[BOS]
+T6	Transition 1231 1236	[BOS]
+T7	Narrative_cite 1392 1397	[BOS]
+T8	Reflection 1667 1672	[BOS]
+T9	Narrative_cite 1926 1931	[BOS]
+T10	Single_summ 2031 2036	[BOS]
+T11	Reflection 2173 2178	[BOS]
+T12	Reflection 2336 2341	[BOS]
+T13	B_span 161 175	conversational
+T14	E_span 207 211	2018
+T15	Reference 192 211	Sun and Zhang, 2018
+T16	B_span 215 217	in
+T17	E_span 299 302	18)
+T18	Reference 237 258	Williams et al., 2017
+T19	Reference 263 281	Vries et al., 2018
+T20	Reference 283 301	Reddy et al., 2018
+T21	B_span 362 374	bootstrapped
+T22	B_span 451 457	online
+T23	E_span 439 444	2019a
+T24	E_span 477 481	2016
+T25	Reference 466 481	Li et al., 2016
+T26	Reference 408 424	Wei et al., 2018
+T27	Reference 426 444	Moon et al., 2019a
+T28	B_span 1129 1134	large
+T29	E_span 1223 1227	2018
+T30	Reference 1171 1190	Bordes et al., 2015
+T31	Reference 1192 1207	Xu et al., 2016
+T32	Reference 1209 1227	Dubey et al., 2018
+T33	B_span 1515 1521	Memory
+T34	E_span 1599 1603	2016
+T35	Reference 1559 1578	Weston et al., 2014
+T36	Reference 1580 1603	Sukhbaatar et al., 2016
+T37	B_span 1697 1703	Memory
+T38	E_span 1739 1744	2019b
+T39	Reference 1726 1744	Moon et al., 2019b
+T40	Reference 2009 2028	Antol et al., 2015;
+T41	Dominant 2037 2056	Jiang et al. (2018)
+T42	B_span 2037 2042	Jiang
+T43	E_span 2165 2171	albums
+T44	B_span 1932 1938	Visual
+T45	E_span 2023 2027	2015

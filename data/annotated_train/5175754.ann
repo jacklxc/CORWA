@@ -1,0 +1,14 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 129 134	[BOS]
+T3	Single_summ 376 381	[BOS]
+T4	Transition 565 570	[BOS]
+T5	Single_summ 792 797	[BOS]
+T6	Transition 1010 1015	[BOS]
+T7	Other 1441 1446	[BOS]
+T8	Other 1525 1530	[BOS]
+T9	Dominant 432 451	(Soon et al., 2001)
+T10	Dominant 854 872	Soon et al. (2001)
+T11	B_span 382 385	The
+T12	E_span 553 563	antecedent
+T13	B_span 798 803	While
+T15	E_span 998 1008	downstream

@@ -1,0 +1,81 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 333 338	[BOS]
+T3	Narrative_cite 939 944	[BOS]
+T4	Narrative_cite 1118 1123	[BOS]
+T5	Narrative_cite 1352 1357	[BOS]
+T6	Transition 1477 1482	[BOS]
+T7	Single_summ 1648 1653	[BOS]
+T8	Single_summ 1915 1920	[BOS]
+T9	Transition 2071 2076	[BOS]
+T10	Other 2157 2162	[BOS]
+T11	Reflection 2171 2176	[BOS]
+T12	Reflection 2295 2300	[BOS]
+T13	Reflection 2330 2335	[BOS]
+T14	Reflection 2544 2549	[BOS]
+T15	Narrative_cite 2807 2812	[BOS]
+T16	Reflection 3085 3090	[BOS]
+T17	Other 3187 3192	[BOS]
+T18	Reflection 3197 3202	[BOS]
+T19	Reference 65 83	Mani et al. (2006)
+T20	Reference 85 107	Chambers et al. (2007)
+T21	Reference 109 130	Bethard et al. (2007)
+T22	Reference 132 163	Verhagen and Pustejovsky (2008)
+T23	Reference 485 505	UzZaman et al., 2013
+T25	Reference 618 641	(Styler IV et al., 2014
+T26	Reference 643 663	Cassidy et al., 2014
+T27	Reference 665 690	Mostafazadeh et al., 2016
+T28	Reference 692 714	O'Gorman et al., 2016)
+T29	Reference 738 767	(Chambers and Jurafsky, 2008a
+T30	Reference 769 784	Do et al., 2012
+T31	Reference 786 807	Chambers et al., 2014
+T32	Reference 809 828	Ning et al., 2018a)
+T33	Reference 863 886	(Yoshikawa et al., 2009
+T34	Reference 888 915	Leeuwenberg and Moens, 2017
+T35	Reference 917 935	Ning et al., 2017)
+T36	Reference 1057 1075	(Zeng et al., 2014
+T37	Reference 1077 1097	Zhang and Wang, 2015
+T38	Reference 1099 1115	Xu et al., 2016)
+T39	Reference 1191 1212	(Dligach et al., 2017
+T40	Reference 1214 1230	Lin et al., 2017
+T41	Reference 1232 1254	Tourille et al., 2017)
+T42	Reference 1271 1293	(Cheng and Miyao, 2017
+T43	Reference 1295 1319	Meng and Rumshisky, 2018
+T44	Reference 1321 1349	Leeuwenberg and Moens, 2018)
+T45	Reference 1427 1445	(Lin et al. (2017)
+T46	Dominant 1682 1701	Ning et al. (2018c)
+T47	Reference 3016 3045	(Chambers and Jurafsky, 2008b
+T48	Reference 3047 3062	Do et al., 2012
+T49	Reference 3064 3083	Ning et al., 2017 )
+T50	Pronoun 212 214	it
+T51	Pronoun 1367 1372	their
+T52	Pronoun 1521 1523	it
+T53	Pronoun 1544 1546	it
+T54	Pronoun 1636 1640	this
+T55	Pronoun 2079 2083	This
+T56	Pronoun 2143 2147	this
+T57	B_span 38 45	TempRel
+T59	E_span 158 162	2008
+T58	Reference 438 459	Verhagen et al., 2007
+T60	Reference 461 484	Verhagen et al., , 2010
+T61	B_span 419 426	SemEval
+T24	Reference 507 527	Bethard et al., 2015
+T63	Reference 528 550	Bethard et al., , 2016
+T64	B_span 602 604	da
+T62	E_span 546 550	2016
+T65	E_span 709 713	2016
+T66	B_span 717 727	structured
+T67	E_span 822 827	2018a
+T68	B_span 835 845	structured
+T69	E_span 930 934	2017
+T70	B_span 1019 1025	neural
+T71	E_span 1110 1114	2016
+T72	B_span 1171 1179	clinical
+T73	E_span 1249 1253	2017
+T74	B_span 1262 1270	newswire
+T75	E_span 1344 1348	2018
+T76	B_span 1373 1385	improvements
+T77	E_span 1440 1444	2017
+T78	B_span 1656 1662	recent
+T79	E_span 2065 2069	IAAs
+T80	B_span 2813 2818	Based
+T81	E_span 3077 3081	2017

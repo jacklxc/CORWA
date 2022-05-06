@@ -1,0 +1,31 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 189 194	[BOS]
+T3	Single_summ 304 309	[BOS]
+T4	Narrative_cite 479 484	[BOS]
+T5	Transition 735 740	[BOS]
+T6	Narrative_cite 791 796	[BOS]
+T7	Transition 951 956	[BOS]
+T8	Reflection 1063 1068	[BOS]
+T9	B_span 77 81	MUSE
+T10	E_span 99 103	2017
+T11	Reference 83 103	Conneau et al., 2017
+T12	B_span 109 114	LASER
+T13	E_span 137 141	2018
+T14	Reference 116 141	Artetxe and Schwenk, 2018
+T15	B_span 195 204	Multitask
+T17	Dominant 283 300	Chen et al., 2019
+T18	E_span 469 476	quality
+T16	B_span 551 557	syntax
+T19	E_span 585 589	2019
+T20	Reference 565 589	Hewitt and Manning, 2019
+T21	B_span 593 600	subject
+T22	E_span 629 633	2019
+T23	Reference 619 633	Goldberg, 2019
+T24	B_span 655 668	syntactically
+T25	Reference 687 706	Linzen et al., 2016
+T26	Reference 708 731	Marvin and Linzen, 2018
+T27	E_span 727 731	2018
+T28	B_span 797 804	Distant
+T29	Reference 818 837	Fang and Cohn, 2016
+T30	Reference 839 859	Plank and Agic, 2018
+T31	E_span 855 859	2018

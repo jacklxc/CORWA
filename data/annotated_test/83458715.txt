@@ -1,0 +1,21 @@
+[BOS] There has been much recent work on learning sentence-specific representations for language understanding tasks.
+[BOS] McCann et al. (2017) learn contextualized word representations from a sequence to sequence translation task and uses the representations from the encoder network to improve a variety of language understanding tasks.
+[BOS] Subsequent work focused on language modeling pretraining which has been shown to be more effective and which does not require bilingual data (Zhang and Bowman, 2018) .
+
+[BOS] Our work was inspired by ELMo (Peters et al., 2018) and the generative pretraining (GPT) approach of Radford et al. (2018) .
+[BOS] ELMo introduces language models to pretrain word representations for downstream tasks including a novel mechanism to learn a combination of different layers in the language model that is most beneficial to the current task.
+[BOS] GPT relies on a left to right language model and an added projection layer for each downstream task without a task-specific model.
+[BOS] Our approach mostly follows GPT, though we show that our model also works well with an ELMo module on NER and constituency parsing.
+
+[BOS] The concurrently introduced BERT model (Devlin et al., 2018) is a transformer encoder model that captures left and right context.
+[BOS] There is significant overlap between their work and ours but there are also significant differences: our model is a bi-directional transformer language model that predicts every single token in a sequence.
+[BOS] BERT is also a transformer encoder that has access to the entire input which makes it bi-directional but this choice requires a special training regime.
+[BOS] In particular, they multi-task between predicting a subset of masked input tokens, similar to a denoising autoencoder, and a next sentence prediction task.
+[BOS] In comparison, we optimize a single loss function that requires the model to predict each token of an input sentence given all surrounding tokens.
+[BOS] We use all tokens as training targets and therefore extract learning signal from every single token in the sentence and not just a subset.
+
+[BOS] BERT tailors pretraining to capture dependencies between sentences via a next sentence prediction task as well as by constructing training examples of sentence-pairs with input markers that distinguish between tokens of the two sentences.
+[BOS] Our model is trained similarly to a classical language model since we do not adapt the training examples to resemble the end task data and we do not solve a denoising task during training.
+
+[BOS] Finally, BERT as well as Radford et al. (2018) consider only a single data source to pretrain their models, either BooksCorpus (Radford et al., 2018) , or BooksCorpus and additional Wikipedia data (Devlin et al., 2018) , whereas our study ablates the effect of various amounts of training data as well as different data sources.
+

@@ -1,0 +1,22 @@
+[BOS] The pioneering work of Miller et al. (1997) was the first, to our knowledge, to propose parsing as a framework for information extraction.
+[BOS] They extended the syntactic annotations of the Penn Treebank corpus (Marcus et al., 1993) with entity and relation mentions specific to the MUC-7 evaluation (Chinchor et al., 1997 ) -e.g., EMPLOYEE OF relations that hold between person and organization named entities -and then trained a generative parsing model over this combined syntactic and semantic representation.
+[BOS] In the same spirit, Finkel and Manning (2009) merged the syntactic annotations and the named entity annotations of the OntoNotes corpus (Hovy et al., 2006) and trained a discriminative parsing model for the joint problem of syntactic parsing and named entity recognition.
+[BOS] However, both these works require a unified annotation of syntactic and semantic elements, which is not always feasible, and focused only on named entities and binary relations.
+[BOS] On the other hand, our approach focuses on event structures that are nested and have an arbitrary number of arguments.
+[BOS] We do not need a unified syntactic and semantic representation (but we can and do extract features from the underlying syntactic structure of the text).
+[BOS] Finkel and Manning (2009b) also proposed a parsing model for the extraction of nested named entity mentions, which, like this work, parses just the corresponding semantic annotations.
+[BOS] In this work, we focus on more complex structures (events instead of named entities) and we explore more global features through our reranking layer.
+
+[BOS] In the biomedical domain, two recent papers proposed joint models for event extraction based on Markov logic networks (MLN) (Riedel et al., 2009; Poon and Vanderwende, 2010) .
+[BOS] Both works propose elegant frameworks where event anchors and arguments are jointly predicted for all events in the same sentence.
+[BOS] One disadvantage of MLN models is the requirement that a human expert develop domainspecific predicates and formulas, which can be a cumbersome process because it requires thorough domain understanding.
+[BOS] On the other hand, our approach maintains the joint modeling advantage, but our model is built over simple, domain-independent features.
+[BOS] We also propose and analyze a richer feature space that captures more information on the global event structure in a sentence.
+[BOS] Furthermore, since our approach is agnostic to the parsing model used, it could easily be tuned for various scenarios, e.g., models with lower inference overhead such as shift-reduce parsers.
+
+[BOS] Our work is conceptually close to the recent CoNLL shared tasks on semantic role labeling, where the predicate frames were converted to se-1627 Figure 2 : Overview of the approach.
+[BOS] Rounded rectangles indicate domain-independent components; regular rectangles mark domain-specific modules; blocks in dashed lines surround components not necessary for the domain presented in this paper.
+[BOS] mantic dependencies between predicates and their arguments (Surdeanu et al., 2008; Hajic et al., 2009) .
+[BOS] In this representation the dependency structure is a directed acyclic graph (DAG), i.e., the same node can be an argument to multiple predicates, and there are no explicit dependencies between predicates.
+[BOS] Due to this representation, all joint models proposed for semantic role labeling handle semantic frames independently.
+

@@ -1,0 +1,66 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 33 38	[BOS]
+T3	Multi_summ 156 161	[BOS]
+T4	Single_summ 331 336	[BOS]
+T5	Narrative_cite 567 572	[BOS]
+T6	Transition 729 734	[BOS]
+T7	Narrative_cite 757 762	[BOS]
+T8	Transition 939 944	[BOS]
+T9	Narrative_cite 1100 1105	[BOS]
+T10	Transition 1340 1345	[BOS]
+T11	Transition 1501 1506	[BOS]
+T12	Single_summ 1634 1639	[BOS]
+T13	Single_summ 1793 1798	[BOS]
+T14	Single_summ 1949 1954	[BOS]
+T15	Single_summ 2080 2085	[BOS]
+T16	Single_summ 2210 2215	[BOS]
+T17	Single_summ 2320 2325	[BOS]
+T18	Single_summ 2455 2460	[BOS]
+T19	Reflection 2658 2663	[BOS]
+T20	Reflection 2817 2822	[BOS]
+T21	Reflection 2878 2883	[BOS]
+T22	Reflection 3007 3012	[BOS]
+T23	Dominant 162 180	Rush et al. (2015)
+T24	Dominant 216 233	See et al. (2017)
+T25	Dominant 337 354	Hsu et al. (2018)
+T26	Reference 688 706	(Shen et al., 2017
+T27	Reference 708 725	Tan et al., 2017)
+T28	Reference 898 917	(Luong et al., 2016
+T29	Reference 919 936	Liu et al., 2019)
+T30	Reference 1324 1337	(Ruder, 2017)
+T31	Dominant 1640 1661	Isonuma et al. (2017)
+T32	Dominant 1799 1831	Anastasopoulos and Chiang (2018)
+T33	Dominant 1955 1972	Tan et al. (2017)
+T34	Dominant 2326 2343	Guo et al. (2018)
+T35	Reference 2696 2713	Hsu et al. (2018)
+T36	Pronoun 665 669	this
+T37	Pronoun 998 1000	it
+T38	Pronoun 2086 2091	These
+T39	Pronoun 2216 2220	They
+T40	Pronoun 2261 2266	these
+T41	Pronoun 2379 2381	it
+T42	Pronoun 2600 2604	this
+T43	Pronoun 2884 2888	This
+T44	Pronoun 3041 3045	this
+T45	B_span 162 166	Rush
+T46	E_span 205 210	model
+T47	B_span 216 219	See
+T48	E_span 325 329	text
+T49	B_span 337 340	Hsu
+T50	E_span 556 565	extractor
+T51	B_span 573 584	Abstractive
+T52	E_span 720 724	2017
+T53	B_span 864 871	natural
+T54	E_span 931 935	2019
+T55	B_span 1217 1220	the
+T56	E_span 1332 1336	2017
+T57	B_span 1640 1647	Isonuma
+T58	E_span 1781 1791	classifier
+T59	B_span 1799 1813	Anastasopoulos
+T60	E_span 1943 1947	task
+T61	B_span 1955 1958	Tan
+T62	E_span 2313 2318	tasks
+T63	B_span 2326 2329	Guo
+T64	E_span 2650 2655	tasks
+T65	B_span 2696 2699	Hsu
+T66	E_span 2804 2815	consistency

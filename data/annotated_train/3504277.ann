@@ -1,0 +1,24 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 167 172	[BOS]
+T3	Reflection 392 397	[BOS]
+T4	Reflection 468 473	[BOS]
+T5	Narrative_cite 644 649	[BOS]
+T6	Multi_summ 755 760	[BOS]
+T7	Single_summ 895 900	[BOS]
+T8	Reflection 1015 1020	[BOS]
+T9	Dominant 186 207	Teng and Zhang (2016)
+T10	Dominant 212 242	Kokkinos and Potamianos (2017)
+T11	Reference 686 709	(Bahdanau et al., 2015)
+T12	Dominant 761 779	Cohn et al. (2016)
+T13	Dominant 784 802	Feng et al. (2016)
+T14	Dominant 901 918	Kim et al. (2017)
+T15	Pronoun 417 422	these
+T16	Pronoun 586 591	these
+T17	B_span 173 176	For
+T18	E_span 378 390	respectively
+T19	B_span 666 669	the
+T20	E_span 704 708	2015
+T21	B_span 761 765	Cohn
+T22	E_span 887 893	models
+T23	B_span 901 904	Kim
+T24	E_span 1008 1013	model

@@ -1,0 +1,39 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 118 123	[BOS]
+T3	Reflection 235 240	[BOS]
+T4	Multi_summ 316 321	[BOS]
+T5	Transition 600 605	[BOS]
+T6	Multi_summ 726 731	[BOS]
+T7	Single_summ 940 945	[BOS]
+T8	Reflection 1116 1121	[BOS]
+T9	Transition 1407 1412	[BOS]
+T10	Narrative_cite 1575 1580	[BOS]
+T11	Dominant 333 362	(Wattarujeekrit et al., 2004)
+T12	Reference 534 563	(Wattarujeekrit et al., 2004)
+T13	Reference 576 597	(Meyers et al., 2004)
+T14	Dominant 732 752	(Cohen et al., 2008)
+T15	Reference 865 886	(Kulick et al., 2004)
+T16	Dominant 962 984	(Dolbey et al., 2006 )
+T17	Reference 1379 1403	(Ashburner et al., 2000)
+T18	Reference 1752 1776	(Harabagiu et al., 2005)
+T19	Pronoun 802 807	their
+T20	Pronoun 926 931	their
+T21	Pronoun 1198 1203	their
+T22	Pronoun 1322 1324	it
+T23	Pronoun 1441 1443	it
+T24	B_span 322 325	The
+T25	E_span 592 596	2004
+T26	B_span 568 575	NomBank
+T27	E_span 592 596	2004
+T28	B_span 525 533	PropBank
+T29	E_span 558 562	2004
+T30	B_span 733 738	Cohen
+T31	E_span 932 937	minds
+T32	B_span 848 857	PennBioIE
+T33	E_span 881 885	2004
+T34	B_span 946 949	The
+T35	E_span 1104 1114	annotation
+T36	B_span 1365 1369	Gene
+T37	E_span 1398 1402	2000
+T38	B_span 1670 1684	linguistically
+T39	E_span 1771 1775	2005

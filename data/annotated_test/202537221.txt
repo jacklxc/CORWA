@@ -1,0 +1,34 @@
+[BOS] Adversarial examples crafted by malicious attackers expose the vulnerability of deep neural networks when they are applied to down-streaming tasks, such as image recognition, speech processing, and text classifications (Wang et al., 2019; Goodfellow et al., 2015; Nguyen et al., 2015; Moosavi-Dezfooli et al., 2017) .
+[BOS] For adversarial attacks, white-box attacks have full access to the target model while black-box attacks can only explore the models by observing the outputs with limited trials.
+[BOS] Ebrahimi et al. (2017) propose a gradient-based white-box model to attack character-level classifiers via an atomic flip operation.
+[BOS] Small character-level transformations, such as swap, deletion, and insertion, are applied on critical tokens identified with a scoring strategy (Gao et al., 2018) or gradient-based computation (Liang et al., 2017) .
+[BOS] Samanta and Mehta (2017) ; Alzantot et al. (2018) replace words with semantically and syntactically similar adversarial examples.
+
+[BOS] However, limited efforts have been done on adversarial defense in the NLP fields.
+[BOS] Texts as discrete data are sensitive to the perturbations and cannot transplant most of the defense techniques from the image processing domain such as Gaussian denoising with autoencoders (Meng and Chen, 2017; Gu and Rigazio, 2014) .
+[BOS] Adversarial training is the prevailing counter-measure to build a robust model (Goodfellow et al., 2015; Iyyer et al., 2018; Marzinotto et al., 2019; Cheng et al., 2019; by mixing adversarial examples with the original ones during training the model.
+[BOS] However, these adversarial examples can be detected and deactivated by a genetic algorithm (Alzantot et al., 2018) .
+[BOS] This method also requires retraining, which can be time and cost consuming for large-scale models.
+
+[BOS] Spelling correction (Mays et al., 1991; Islam and Inkpen, 2009 ) and grammar error correction (Sakaguchi et al., 2017) are useful tools which can block editorial adversarial attacks, such as swap and insertion.
+[BOS] However, they cannot handle cases where word-level attacks that do not cause spelling and grammar errors.
+[BOS] In our paper, we propose a general schema to block both word-level and character-level attacks.
+
+[BOS] In this section, we first formally define the goal of adversarial defense and then introduce the proposed framework DISP, learning to discriminate perturbations, for blocking adversarial attacks.
+[BOS] Problem Statement.
+[BOS] Given an NLP model F (X), where X = {t 1 , .
+[BOS] .
+[BOS] .
+[BOS] , t N } is the input text of N tokens while t i indicates the i-th token.
+[BOS] A malicious attacker can add a few inconspicuous perturbations into the input text and generate an adversarial example X a so that F (X) = F (X a ) with unsatisfactory prediction performance.
+[BOS] For example, a perturbation can be an insertion, a deletion of a character in a token, a replacement of a token with its synonym.
+[BOS] In this paper, we aim to block adversarial attacks for general text classification models.
+[BOS] More specifically, we seek to preserve the model performances by recovering original input text and universally improve the robustness of any text classification model.
+[BOS] Figure 1 illustrates the overall schema of the proposed framework.
+[BOS] DISP consists of three components, (1) a perturbation discriminator, (2) an embedding estimator, and (3) a token embedding corpus with the corresponding small world graphs G. In the training phase, DISP constructs a corpus D from the original corpus for training the perturbation discriminator so that it is capable of recognizing the perturbed tokens.
+[BOS] The corpus of token embeddings C is then applied to train the embedding estimator to recover the removed tokens after establishing the small world graphs G of the embedding corpus.
+[BOS] In the prediction phase, for each token in testing data, the perturbation discriminator predicts if the token is perturbed.
+[BOS] For each potential perturbation that is potentially perturbed, the embedding estimator generates an approximate embedding vector and retrieve the token with the closest distance in the embedding space for token recovery.
+[BOS] Finally, the recovered testing data can be applied for prediction.
+[BOS] Note that the prediction model can be any NLP model.Moreover, DISP is a general framework for blocking adversarial attacks, so the model selection for the discriminator and estimator can also be flexible.
+

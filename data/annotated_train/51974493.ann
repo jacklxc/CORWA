@@ -1,0 +1,54 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 139 144	[BOS]
+T3	Reflection 320 325	[BOS]
+T4	Single_summ 416 421	[BOS]
+T5	Single_summ 542 547	[BOS]
+T6	Reflection 635 640	[BOS]
+T7	Multi_summ 778 783	[BOS]
+T8	Reflection 985 990	[BOS]
+T9	Narrative_cite 1070 1075	[BOS]
+T10	Multi_summ 1270 1275	[BOS]
+T11	Transition 1422 1427	[BOS]
+T12	Transition 1524 1529	[BOS]
+T13	Reflection 1627 1632	[BOS]
+T14	Multi_summ 1684 1689	[BOS]
+T15	Narrative_cite 1820 1825	[BOS]
+T16	Multi_summ 1972 1977	[BOS]
+T17	Transition 2185 2190	[BOS]
+T18	Reference 235 252	Yih et al. (2015)
+T19	Dominant 422 441	Reddy et al. (2016)
+T20	Reference 609 631	Fancellu et al. (2017)
+T21	Dominant 784 803	Reddy et al. (2014)
+T22	Dominant 892 908	Su et al. (2016)
+T23	Reference 1249 1267	(Yao et al., 2014)
+T24	Dominant 1276 1294	Dong et al. (2015)
+T25	Dominant 1299 1310	Jain (2016)
+T26	Dominant 1690 1706	Li et al. (2016)
+T27	Reference 1794 1817	Scarselli et al. (2009)
+T28	Reference 1941 1969	(Schlichtkrull et al., 2018)
+T29	Dominant 1978 2001	Kipf and Welling (2017)
+T30	Dominant 2049 2078	Marcheggiani and Titov (2017)
+T31	B_span 174 182	semantic
+T32	E_span 247 251	2015
+T33	B_span 422 427	Reddy
+T34	E_span 626 630	2017
+T35	B_span 583 591	extended
+T36	E_span 626 630	2017
+T37	B_span 784 789	Reddy
+T38	E_span 878 884	corpus
+T39	B_span 892 894	Su
+T40	E_span 973 983	properties
+T41	B_span 1210 1212	KB
+T42	E_span 1262 1266	2014
+T43	B_span 1276 1280	Dong
+T44	E_span 1418 1420	KB
+T45	B_span 1690 1692	Li
+T46	E_span 1812 1816	2009
+T47	B_span 1758 1763	graph
+T48	E_span 1812 1816	2009
+T49	B_span 1922 1924	KB
+T50	E_span 1964 1968	2018
+T51	B_span 1978 1982	Kipf
+T52	E_span 2033 2041	Networks
+T53	B_span 2049 2061	Marcheggiani
+T54	E_span 2171 2183	formulations

@@ -1,0 +1,12 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 213 218	[BOS]
+T3	Single_summ 512 517	[BOS]
+T4	Single_summ 662 667	[BOS]
+T5	Other 738 743	[BOS]
+T6	Reference 381 402	Wiegand et al., 2018)
+T7	Dominant 549 576	Malmasi and Zampieri (2017)
+T8	Reference 360 379	Kumar et al. (2018)
+T9	B_span 320 330	Aggression
+T10	E_span 397 401	2018
+T11	E_span 654 660	speech
+T12	B_span 536 540	main

@@ -1,0 +1,91 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 109 114	[BOS]
+T3	Transition 502 507	[BOS]
+T4	Transition 552 557	[BOS]
+T5	Transition 742 747	[BOS]
+T6	Narrative_cite 895 900	[BOS]
+T7	Narrative_cite 1086 1091	[BOS]
+T8	Transition 1302 1307	[BOS]
+T9	Transition 1473 1478	[BOS]
+T10	Narrative_cite 1619 1624	[BOS]
+T11	Transition 1891 1896	[BOS]
+T12	Reflection 2025 2030	[BOS]
+T13	Transition 2202 2207	[BOS]
+T14	Narrative_cite 2334 2339	[BOS]
+T15	Transition 2590 2595	[BOS]
+T16	Single_summ 2761 2766	[BOS]
+T17	Narrative_cite 2924 2929	[BOS]
+T18	Transition 3074 3079	[BOS]
+T19	Reflection 3214 3219	[BOS]
+T20	Single_summ 3378 3383	[BOS]
+T21	Reflection 3560 3565	[BOS]
+T22	Reflection 3651 3656	[BOS]
+T23	Reflection 3788 3793	[BOS]
+T24	Reflection 3974 3979	[BOS]
+T25	Reflection 4186 4191	[BOS]
+T26	Reference 79 106	(Nenkova and McKeown, 2011)
+T27	Reference 268 291	(Knight and Marcu, 2002
+T28	Reference 293 311	Radev et al., 2004
+T29	Reference 313 331	Zajic et al., 2007
+T30	Reference 333 356	Martins and Smith, 2009
+T31	Reference 358 381	Gillick and Favre, 2009
+T32	Reference 383 403	Lin and Bilmes, 2010
+T33	Reference 405 422	Wang et al., 2013
+T34	Reference 458 475	Hong et al., 2014
+T35	Reference 477 499	Yogatama et al., 2015)
+T36	Reference 1024 1039	(Sandhaus, 2008
+T37	Reference 1041 1061	Hermann et al., 2015
+T38	Reference 1063 1083	Grusky et al., 2018)
+T39	Reference 1170 1193	(Nallapati et al., 2017
+T40	Reference 1195 1211	Cao et al., 2017
+T41	Reference 1213 1233	Isonuma et al., 2017
+T42	Reference 1235 1258	Tarnpradab et al., 2017
+T43	Reference 1260 1277	Zhou et al., 2018
+T44	Reference 1279 1299	Kedzie et al., 2018)
+T45	Reference 1704 1727	(Cheng and Lapata, 2016
+T46	Reference 1729 1751	Yasunaga et al., 2017)
+T47	Reference 1817 1840	(Narayan et al., 2018b)
+T48	Reference 1871 1888	(Wu and Hu, 2018)
+T49	Reference 2433 2451	(Rush et al., 2015
+T50	Reference 2453 2475	Nallapati et al., 2016
+T51	Reference 2477 2496	Paulus et al., 2017
+T52	Reference 2498 2514	Guo et al., 2018
+T53	Reference 2516 2537	Gehrmann et al., 2018
+T54	Reference 2539 2560	Lebanoff et al., 2018
+T55	Reference 2562 2587	Celikyilmaz et al., 2018)
+T57	Reference 3053 3070	(Cao et al., 2018
+T58	Dominant 3431 3448	Lei et al. (2016)
+T59	Pronoun 558 562	They
+T60	Pronoun 946 950	they
+T61	Pronoun 1308 1313	These
+T62	Pronoun 1327 1329	it
+T63	Pronoun 1625 1630	These
+T64	Pronoun 2034 2038	this
+T65	Pronoun 3080 3082	It
+T66	Pronoun 3223 3227	this
+T67	Pronoun 3580 3584	this
+T68	B_span 80 87	Nenkova
+T69	E_span 101 105	2011
+T71	E_span 494 498	2015
+T72	Reference 424 439	Li et al., 2013
+T73	Reference 440 457	Li et al., , 2014
+T75	E_span 1078 1082	2018
+T77	E_span 1294 1298	2018
+T78	B_span 1645 1652	distrib
+T79	E_span 1748 1751	17)
+T81	E_span 1837 1839	8b
+T82	B_span 1845 1851	improv
+T83	E_span 1883 1887	2018
+T84	B_span 2376 2383	encoder
+T85	E_span 2582 2586	2018
+T86	B_span 3431 3434	Lei
+T87	E_span 3551 3558	trieval
+T89	E_span 2914 2922	e source
+T90	B_span 3054 3056	Ca
+T91	E_span 3069 3070	8
+T80	B_span 1760 1773	reinforcement
+T56	Dominant 2767 2795	See, Liu, and Manning (2017)
+T88	B_span 2767 2770	See
+T74	B_span 901 909	Although
+T76	B_span 1092 1098	Neural
+T70	B_span 136 145	selecting

@@ -1,0 +1,28 @@
+[BOS] Proposed automated detection and correction methods for Chinese erroneous characters can be traced back to the detection and correction method put forward by Chang (1995) .
+[BOS] This method used the four commonly occurring forms of erroneous characters-"characters with similar pronunciation," "characters with similar form," "characters with similar connotation," and "characters with similar input code value"-to establish relationships of confusion between the characters.
+[BOS] Using such databases of computer characters that may produce erroneous character relationships, it is possible to provide a list of corrections for use in attempting to detect erroneous characters and correct sentences.
+[BOS] The input sentences use confused character sets one by one as substitutes for the Chinese computer characters in the sentence, producing a variety of possible combination sentences as candidate sentences.
+[BOS] By calculating sentence probability based on a bi-gram model, the system seeks to obtain the optimum solution in relation to the candidate sentences that have been produced.
+[BOS] If the optimum solution differs from the original sentence, it then compares the differing computer character and serves as the corrected result.
+[BOS] In recent years, since some competitions have been held to correct Chinese erroneous characters, many studies have proposed a wide variety of methods to resolve this problem.
+
+[BOS] These methods can be divided essentially into three categories.
+[BOS] The first consists of initially processing the sentence using a Chinese word segmentation tool, then detecting whether erroneous characters occur among serial single Chinese character sequences (abbreviated to SSCS below).
+[BOS] Chang, Chen, Tseng, & Zheng (2013) searched for possible correct words among each character in an SSCS, and using the three parameters of "similarity of phonetic value," "similarity of form," and "probability of co-occurrence of adjacent characters" established a linear regression prediction model.
+[BOS] Wang and Liao (2014) used the Chinese word segmentation system to analyze a sentence's word segments, and then, if there was a suspected occurrence of an erroneous character in a two-character word or single-character word, used a character with a high degree of similarity of phonetic value and form to replace the possible erroneous character.
+[BOS] Finally, they used a tri-gram model to assess whether to conduct a replacement.
+
+[BOS] The second category is the direct utilization of a probability model to detect an erroneous character.
+[BOS] Han and Chang (2013) proposed using maximum entropy in relation to 5311 characters and the seven-grams trained model to correct erroneous characters.
+[BOS] The fundamental hypothesis of this study was: if there was a possible erroneous character in the sentence, then the matched pairs that the character and the characters preceding and following it produced may not exist in the text corpus.
+[BOS] Conversely, if the matched pair made by the character and the character preceding it or following it is commonly seen in the text corpus, then that character's degree of erroneousness is very low here.
+[BOS] Xiong et al. (2014) proposed using the Hidden Markov Model (HMM) as the basis for a model to detect and correct erroneous characters.
+[BOS] This method presupposes that unknown erroneous characters exist in the sentence, and seeks out each character's substitute character by means of phonetic writing (pinyin) and the Cangjie input code using Bayes' rule as its basis.
+[BOS] Because there are many substitute characters, this method then uses methods such as n-gram and statistics from internet search results to determine substitute words.
+[BOS] Gu, Wang, & Liang (2014) use SSCS as their target in the same way but use character blocks within SSCS.
+[BOS] Exploiting the statistical method of serial computer characters forming character blocks, it is possible to detect and correct erroneous characters while not utilizing a word segmentation system.
+
+[BOS] The third method uses multiple prediction models to predict different categories of erroneous character.
+[BOS] For example, Xin, Zhao, Wang, & Jia (2014) converted the problem of erroneous characters into the problem of seeking the shortest pathway in a graph.
+[BOS] Because the graph model can only identify erroneous characters in long words, for erroneous single-character words it additionally uses rule-based methods and a CRF model to make corrections.
+

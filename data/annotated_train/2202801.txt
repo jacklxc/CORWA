@@ -1,0 +1,14 @@
+[BOS] In addition to Chen et al. (2016) 's Stanford Reader model, there have been several other modeling approaches developed to address these reading comprehension tasks.
+[BOS] Seo et al. (2016) introduced the Bi-Directional Attention Flow which consists of a multi-stage hierarchical process to represent context at different levels of granularity; it use the concatenation of passage word representation, question word representation, and the element-wise product of these vectors in their attention flow layer.
+[BOS] This is a more complex variant of the classic bi-linear term that multiplies this concatenated vector with a vector of weights, producing attention scalars.
+[BOS] Dhingra et al. (2016) 's Gated-Attention Reader integrates a multi-hop structure with a novel attention mechanism, essentially building query specific representations of the tokens in the document to improve prediction.
+[BOS] This model conducts a classic dotproduct soft attention to weight the query representations which are then multiplied element-wise with the context representations, and fed into the next layer of RNN.
+[BOS] After several hidden layers that repeat the same process, the dot product between the context representation and the query is used to compute a classic soft-attention.
+
+[BOS] Outside the task of reading comprehension there has been other work on soft attention over text, largely focusing on the problem of attending over single sentences.
+[BOS] Luong et al. (2015) study several issues in the design of soft attention models in the context of translation, and introduce the bilinear scoring function.
+[BOS] They also propose the idea of attention input-feeding where the original attention vectors are concatenated with the hidden representations of the words and fed into the next RNN step.
+[BOS] The goal is to make the model fully aware of the previous alignment choices.
+
+[BOS] In work largely concurrent to our own, Kim et al. (2017) explore the use of conditional random fields (CRFs) to impose a variety of constraints on attention distributions achieving strong results on several sentence level tasks.
+

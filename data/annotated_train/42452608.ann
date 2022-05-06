@@ -1,0 +1,11 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 142 147	[BOS]
+T3	Reflection 335 340	[BOS]
+T4	Reference 128 139	(Kim, 2014)
+T5	Reference 319 332	(Zhang, 2017)
+T6	Pronoun 148 152	This
+T7	Pronoun 360 364	this
+T8	B_span 55 68	convolutional
+T9	E_span 134 138	2014
+T10	B_span 292 295	CNN
+T11	E_span 327 331	2017

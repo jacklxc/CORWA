@@ -1,0 +1,60 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 102 107	[BOS]
+T3	Other 197 202	[BOS]
+T4	Transition 215 220	[BOS]
+T5	Single_summ 353 358	[BOS]
+T6	Single_summ 557 562	[BOS]
+T7	Narrative_cite 787 792	[BOS]
+T8	Transition 977 982	[BOS]
+T9	Transition 1201 1206	[BOS]
+T10	Reflection 1330 1335	[BOS]
+T11	Reflection 1414 1419	[BOS]
+T12	Reflection 1490 1495	[BOS]
+T13	Narrative_cite 1511 1516	[BOS]
+T14	Narrative_cite 1743 1748	[BOS]
+T15	Single_summ 1911 1916	[BOS]
+T16	Reflection 2043 2048	[BOS]
+T17	Transition 2250 2255	[BOS]
+T18	Narrative_cite 2293 2298	[BOS]
+T19	Single_summ 2412 2417	[BOS]
+T20	Reflection 2653 2658	[BOS]
+T21	Reflection 2857 2862	[BOS]
+T22	Reference 174 194	(Antol et al., 2015)
+T23	Dominant 404 423	(Yang et al., 2015)
+T24	Dominant 597 614	(Lu et al., 2016)
+T25	Reference 952 974	(Andreas et al., 2016)
+T26	Reference 1665 1684	(Jiang et al., 2014
+T27	Reference 1686 1703	Judd et al., 2009
+T28	Reference 1705 1725	Fei-Fei et al., 2007
+T29	Reference 1727 1740	Yarbus, 1967)
+T30	Reference 1803 1822	(Jiang et al., 2014
+T31	Reference 1824 1843	Judd et al., 2009 )
+T32	Dominant 1917 1937	(Jiang et al., 2015)
+T33	Reference 2360 2378	(Lin et al., 2014)
+T34	Dominant 2424 2444	(Jiang et al., 2015)
+T35	Pronoun 770 774	this
+T36	Pronoun 938 943	these
+T37	Pronoun 997 1002	these
+T38	Pronoun 1227 1229	it
+T39	Pronoun 1253 1258	these
+T40	Pronoun 1420 1425	These
+T41	Pronoun 2299 2303	They
+T42	Pronoun 2584 2588	they
+T43	B_span 125 129	free
+T44	E_span 189 193	2015
+T45	B_span 359 366	Stacked
+T46	E_span 550 555	image
+T47	B_span 563 575	Hierarchical
+T48	E_span 775 785	submission
+T49	B_span 888 897	attention
+T50	E_span 969 973	2016
+T51	B_span 1628 1633	image
+T52	E_span 1735 1739	1967
+T53	B_span 1776 1783	natural
+T54	E_span 1837 1841	2009
+T55	B_span 1918 1923	Jiang
+T56	E_span 1980 1982	ap
+T57	B_span 2352 2354	MS
+T58	E_span 2373 2377	2014
+T59	B_span 2418 2423	While
+T60	E_span 2645 2651	driven

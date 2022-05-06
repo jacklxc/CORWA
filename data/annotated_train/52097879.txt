@@ -1,0 +1,10 @@
+[BOS] We use larger mini-batches and delay gradient updates in order to increase the speed at which the dataset is processed.
+[BOS] The principal reason why this works is because when mini-batch size is increased n (also includes delayed updates) times, communication is reduced by the same amount.
+[BOS] This aspect of our work is similar to the work of Aji and Heafield (2017) where they drop the lower 99% of the gradient updates based on absolute value thus reducing the memory traffic.
+[BOS] Compared with them we achieve faster dataset processing speed and also better model convergence as shown on Table 2 .
+
+[BOS] Independently from us Mao et al. (2018) extend the work of Aji and Heafield (2017) aiming to reduce gradient communication without suffering any of the negative effects we have noted.
+[BOS] In process they independently arrive to some of the methods that we use, notably tuning the momentum and applying warmup to achieve better convergence.
+
+[BOS] Independently from us Shazeer and Stern (2018) have done further exploratory work on ADAM's momentum parameters using the Transformer model (Vaswani et al., 2017)
+

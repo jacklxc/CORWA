@@ -1,0 +1,20 @@
+[BOS] Recently, neural models have been shown to be successful on ASC.
+[BOS] For example, due to its multiple advantages, such as being simpler and faster, MNs with attention mechanisms (Tang et al., 2016b; Wang et al., 2018) have been widely used.
+
+[BOS] Another prevailing neural model is LSTM that also involves an attention mechanism to explicitly capture the importance of each context word (Wang et al., 2016) .
+[BOS] Overall, attention mechanisms play crucial roles in all these models.
+
+[BOS] Following this trend, researchers have resorted to more sophisticated attention mechanisms to refine neural ASC models.
+[BOS] proposed a multiple-attention mechanism to capture sentiment features separated by a long distance, so that it is more robust against irrelevant information.
+[BOS] An interactive attention network has been designed by Ma et al., (2017) for ASC, where two attention networks were introduced to model the target and context interactively.
+[BOS] proposed to leverage multiple attentions for ASC: one obtained from the left context and the other one acquired from the right context of a given aspect.
+[BOS] Very recently, transformation-based model has also been explored for ASC , and the attention mechanism is replaced by CNN.
+
+[BOS] Different from these work, our work is in line with the studies of introducing attention supervision to refine the attention mechanism, which have become hot research topics in several NNbased NLP tasks, such as event detection , machine translation (Liu et al., 2016) , and police killing detection (Nguyen and Nguyen, 2018) .
+[BOS] However, such supervised attention acquisition is labor-intense.
+[BOS] Therefore, we mainly commits to automatic mining supervision information for attention mechanisms of neural ASC models.
+[BOS] Theoretically, our approach is orthogonal to these models, and we leave the adaptation of our approach into these models as future work.
+
+[BOS] Our work is inspired by two recent models: one is proposed to progressively mine discriminative object regions using classification networks to address the weakly-supervised semantic segmentation problems, and the other one is (Xu et al., 2018) where a dropout method integrating with global information is presented to encourage the model to mine inapparent features or patterns for text classification.
+[BOS] To the best of our knowledge, our work is the first one to explore automatic mining of attention supervision information for ASC.
+

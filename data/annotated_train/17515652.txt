@@ -1,0 +1,28 @@
+[BOS] Bilingual Signals BWE models may be clustered into four different types according to bilingual signals used in training, and properties P1 and P2 (see Sect.
+[BOS] 1).
+[BOS] Upadhyay et al. (2016) provide a similar overview of recent bilingual embedding learning architectures regarding different bilingual signals required for the embedding induction.
+
+[BOS] (Type 1) Parallel-Only: This group of BWE models relies on sentence-aligned and/or word-aligned parallel data as the only data source (Zou et al., 2013; Hermann and Blunsom, 2014a; Koisk et al., 2014; Hermann and Blunsom, 2014b; Chandar et al., 2014) .
+[BOS] In addition to an expensive bilingual signal (colliding with P2), these models do not leverage larger monolingual datasets for training (not satisfying P1).
+
+[BOS] (Type 2) Joint Bilingual Training: These models jointly optimize two monolingual objectives, with the cross-lingual objective acting as a cross-lingual regularizer during training (Klementiev et al., 2012; Gouws et al., 2015; Soyer et al., 2015; Shi et al., 2015; Coulmance et al., 2015) .
+[BOS] The idea may be summarized by the simplified formulation (Luong et al., 2015) : (Mono S +Mono T )+Bi.
+[BOS] The monolingual objectives M ono S and M ono T ensure that similar words in each language are assigned similar embeddings and aim to capture the semantic structure of each language, whereas the cross-lingual objective Bi ensures that similar words across languages are assigned similar embeddings.
+[BOS] It ties the two monolingual spaces together into a SBWES (thus satisfying P1).
+[BOS] Parameters  and  govern the influence of the monolingual and bilingual components.
+[BOS] 1 The main disadvantage of Type 2 models is the costly parallel data needed for the bilingual signal (thus colliding with P2).
+
+[BOS] (Type 3) Pseudo-Bilingual Training: This set of models requires document alignments as bilingual signal to induce a SBWES.
+[BOS] create a collection of pseudo-bilingual documents by merging every pair of aligned documents in training data, in a way that preserves important local information: words that appeared next to other words within the same language and those that appeared in the same region of the document across different languages.
+[BOS] This collection is then used to train word embeddings with monolingual SGNS from word2vec.
+
+[BOS] With pseudo-bilingual documents, the "context" of a word is redefined as a mixture of neighbouring words (in the original language) and words that appeared in the same region of the document (in the "foreign" language).
+[BOS] The bilingual contexts for each word in each document steer the final model towards constructing a SBWES.
+[BOS] The advantage over other BWE model types lies in exploiting weaker document-level bilingual signals (satisfying P2), but these models are unable to exploit monolingual corpora during training (unlike Type 2 or Type 4; thus colliding with P1).
+
+[BOS] (Type 4) Post-Hoc Mapping with Seed Lexicons: These models learn post-hoc mapping functions between monolingual WE spaces induced separately for two different languages (e.g., by SGNS).
+[BOS] All Type 4 models (Mikolov et al., 2013a; Faruqui and Dyer, 2014; rely on readily available seed lexicons of highly frequent words obtained by e.g. Google Translate (GT) to learn the mapping (again colliding with P2), but they are able to satisfy P1.
+
+[BOS] 1 Type 1 models may be considered a special case of Type 2 models: Setting  = 0 reduces Type 2 models to Type 1 models trained solely on parallel data, e.g., (Hermann and Blunsom, 2014b; Chandar et al., 2014) .
+[BOS]  = 1 results in the models from (Klementiev et al., 2012; Gouws et al., 2015; Soyer et al., 2015; Coulmance et al., 2015) .
+

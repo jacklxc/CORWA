@@ -1,0 +1,17 @@
+[BOS] There are many different techniques have been introduced so far to identify complex words (Paetzold and Specia, 2016b; Yimam et al., 2018) .
+[BOS] It is obvious that feature-based approaches remain the best, but deep learning approaches have become more popular and achieved impressive results.
+[BOS] Gooding and Kochmar (2018) proposed a feature-based approach for monolingual English datasets.
+[BOS] The system used lexical features such as number of characters, number of syllables, number of synonyms, word n-gram, POS tags, dependency parse relations, number of words grammatically related to the target word, and Google ngram word frequencies.
+[BOS] It also used psycholinguistic features such as word familiarity rating, number of phonemes, imageability rating, concreteness rating, number of categories, samples, written frequencies, and age of acquisition.
+[BOS] The model achieved the state-of-the-art results for English datasets during the CWI Shared Task 2018 (Yimam et al., 2018) , but the limitation of this approach is that it is hard to port from one language to another.
+[BOS] Kajiwara and Komachi (2018) developed a system for multilingual and cross-lingual CWI.
+[BOS] The system was implemented using word frequencies features extracted from the learner corpus (Lang-8 corpus) Mizumoto et al. (2011) , Wikipedia and WikiNews.
+[BOS] The features contained the number of characters, the number of words, and the frequency of the target word.
+[BOS] The system achieved state-of-the-art results for both Spanish and German datasets.
+[BOS] Aroyehun et al. (2018) developed systems for both English and Spanish using binary classification and deep learning (CNN) approaches.
+[BOS] The feature-based approach used features such as word frequency of the target word from Wikipedia and Simple Wikipedia corpus, syntactic and lexical features, psycholinguistic features and entity features, and word embedding distance as a feature which is computed between the target word and the sentence.
+[BOS] The deep learning approach used GloVe word embeddings (Pennington et al., 2014) to represent target words and its context.
+[BOS] The deep learning approach is very simple and achieves better results than other deep learning approaches.
+
+[BOS] Our methodology follows that of Aroyehun et al. (2018)
+

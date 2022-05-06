@@ -1,0 +1,37 @@
+[BOS] Text-based Question Answering Depending on whether the supporting information is structured or not, QA tasks can be categorized into knowledge-based (KBQA), text-based (TBQA), mixed, and others.
+[BOS] In KBQA, the supporting information is from structured knowledge bases (KBs), while the queries can be either structure or natural language utterances.
+[BOS] For example, SimpleQuestions is one large scale dataset of this kind (Bordes et al., 2015) .
+[BOS] In contrast, TBQA's supporting information is raw text, and hence the query is also text.
+[BOS] SQuAD (Rajpurkar et al., 2016) and HotpotQA are two such datasets.
+[BOS] There are also mixed QA tasks which combine both text and KBs, e.g. WikiHop (Welbl et al., 2018) and ComplexWebQuestions (Talmor and Berant, 2018) .
+[BOS] In this paper, we focus on TBQA, since TBQA tests a system's end-to-end capability of extracting relevant facts from raw language and reasoning about them.
+[BOS] Depending on the complexity in underlying reasoning, QA problems can be categorized into single-hop and multi-hop ones.
+[BOS] Single-hop QA only requires one fact extracted from the underlying information, no matter structured or unstructured, e.g. "which city is the capital of California".
+[BOS] The SQuAD dataset belongs to this type (Rajpurkar et al., 2016) .
+[BOS] On the contrary, multi-hop QA requires identifying multiple related facts and reasoning about them, e.g. "what is the capital city of the largest state in U.S.".
+[BOS] Example tasks and benchmarks of this kind include WikiHop, Com-plexWebQuestions, and HotpotQA.
+[BOS] Many IR techniques can be applied to answer single-hop questions (Rajpurkar et al., 2016) .
+[BOS] However, these IR techniques are hardly introduced in multi-hop QA, since a single fact can only partially match a question.
+
+[BOS] Note that existing multi-hop QA datasets Wiki-Hop and ComplexWebQuestions , are constructed using existing KBs and constrained by the schema of the KBs they use.
+[BOS] For example the answers are limited in entities not free text in WikiHop.
+[BOS] In this work, we focus on multi-hop text-based QA, so we only evaluate on HotpotQA.
+
+[BOS] Multi-hop Reasoning for QA Popular GNN frameworks, e.g. graph convolution network (Kipf and Welling, 2017), graph attention network (Velikovi et al., 2018) , and graph recurrent network (Song et al., 2018b) , have been previously studied and show promising results in QA tasks requiring reasoning (Dhingra et al., 2018; De Cao et al., 2018; Song et al., 2018a) .
+
+[BOS] Coref-GRN extracts and aggregates entity information in different references from scattered paragraphs (Dhingra et al., 2018) .
+[BOS] Coref-GRN utilizes co-reference resolution to detect different mentions of the same entity.
+[BOS] These mentions are combined with a graph recurrent neural network (GRN) (Song et al., 2018b) to produce aggregated entity representations.
+[BOS] MHQA-GRN (Song et al., 2018a) follows Coref-GRN, and refines the graph construction procedure with more connections: sliding-window, same entity, and co-reference, which shows further improvements.
+[BOS] Entity-GCN (De Cao et al., 2018) proposes to distinguish dif-ferent relations in the graphs through a relational graph convolutional neural network (GCN) (Kipf and Welling, 2017) .
+[BOS] Coref-GRN, MHQA-GRN and Entity-GCN explore the graph construction problem in answering real-world questions.
+[BOS] However, it is yet to investigate how to effectively reason about the constructed graphs, which is the main problem studied in this work.
+
+[BOS] Another group of sequential models deals with multi-hop reasoning following Memory Networks (Sukhbaatar et al., 2015) .
+[BOS] Such models construct representations for queries and memory cells for contexts, then make interactions between them in a multi-hop manner.
+[BOS] Munkhdalai and Yu (2017) and Onishi et al. (2016) incorporate a hypothesis testing loop to update the query representation at each reasoning step and select the best answer among the candidate entities at the last step.
+[BOS] IR-Net (Zhou et al., 2018) generates a subject state and a relation state at each step, computing the similarity score between all the entities and relations given by the dataset KB.
+[BOS] The ones with highest score at each time step are linked together to form an interpretable reasoning chain.
+[BOS] However, these models perform reasoning on simple synthetic datasets with limited number of entities and relations, which are quite different with largescale QA dataset with complex question.
+[BOS] Also, the supervision of entity-level reasoning chains in synthetic datasets can be easily given following some patterns while they are not available in Hot-potQA.
+

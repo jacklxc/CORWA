@@ -1,0 +1,67 @@
+T1	Intro 0 5	[BOS]
+T2	Transition 88 93	[BOS]
+T3	Narrative_cite 324 329	[BOS]
+T4	Narrative_cite 674 679	[BOS]
+T5	Multi_summ 952 957	[BOS]
+T6	Narrative_cite 1402 1407	[BOS]
+T7	Single_summ 1862 1867	[BOS]
+T8	Single_summ 2155 2160	[BOS]
+T9	Single_summ 2311 2316	[BOS]
+T10	Single_summ 2438 2443	[BOS]
+T11	Single_summ 2600 2605	[BOS]
+T12	Single_summ 2766 2771	[BOS]
+T13	Transition 3133 3138	[BOS]
+T14	Transition 3259 3264	[BOS]
+T15	Single_summ 3608 3613	[BOS]
+T16	Reference 417 440	Foster and Vogel (2004)
+T17	Reference 618 640	Chodorow et al. (2007)
+T18	Reference 643 670	De Felice and Pulman (2008)
+T19	Reference 796 825	(Tetreault and Chodorow, 2008
+T20	Reference 827 849	Chodorow et al., 2007)
+T21	Reference 884 903	(Han et al., , 2006
+T22	Reference 927 949	(Lee and Seneff, 2008)
+T23	Dominant 1153 1179	Foster and Andersen (2009)
+T24	Dominant 1235 1247	Gamon (2010)
+T25	Reference 1535 1561	Rozovskaya and Roth, 2016)
+T26	Reference 1746 1766	(Felice et al., 2014
+T27	Reference 1768 1806	Junczys-Dowmunt and Grundkiewicz, 2014
+T28	Reference 1808 1833	Rozovskaya and Roth, 2016
+T29	Reference 1835 1858	Yuan and Briscoe, 2016)
+T30	Dominant 1878 1906	Rei and Yannakoudakis (2016)
+T31	Dominant 2444 2454	Rei (2017)
+T32	Dominant 3624 3644	Kasewa et al. (2018)
+T36	B_span 374 378	hand
+T38	E_span 439 440	)
+T39	B_span 568 577	utilizing
+T40	E_span 669 670	)
+T42	E_span 848 849	)
+T43	B_span 852 859	article
+T44	E_span 899 903	2006
+T45	B_span 910 914	verb
+T46	E_span 948 949	)
+T47	B_span 1153 1159	Foster
+T48	E_span 1220 1227	methods
+T49	B_span 1235 1238	Gam
+T50	E_span 1399 1400	.
+T52	B_span 1457 1460	nav
+T54	E_span 1560 1561	)
+T55	B_span 1567 1572	monol
+T56	E_span 1857 1858	)
+T57	B_span 1868 1876	Recently
+T58	E_span 2309 2310	.
+T59	B_span 2444 2446	Re
+T60	E_span 2764 2765	.
+T61	B_span 3624 3627	Kas
+T62	E_span 3787 3788	.
+T63	Pronoun 9 13	this
+T64	Pronoun 2161 2165	This
+T65	Pronoun 2326 2330	this
+T66	Pronoun 2606 2610	This
+T67	Pronoun 3466 3471	these
+T35	B_span 784 795	preposition
+T37	Reference 867 883	Han et al., 2004
+T41	Reference 1484 1507	Rozovskaya et al., 2013
+T68	Reference 1509 1534	Rozovskaya et al., , 2014
+T33	Reference 3776 3786	Rei (2017)
+T34	B_span 3760 3766	neural
+T51	E_span 3781 3785	2017

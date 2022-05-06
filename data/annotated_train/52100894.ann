@@ -1,0 +1,57 @@
+T1	Multi_summ 0 5	[BOS]
+T2	Single_summ 250 255	[BOS]
+T3	Single_summ 365 370	[BOS]
+T4	Single_summ 454 459	[BOS]
+T5	Single_summ 646 651	[BOS]
+T6	Single_summ 792 797	[BOS]
+T7	Single_summ 898 903	[BOS]
+T8	Single_summ 1001 1006	[BOS]
+T9	Single_summ 1130 1135	[BOS]
+T10	Single_summ 1222 1227	[BOS]
+T11	Reflection 1465 1470	[BOS]
+T12	Narrative_cite 1612 1617	[BOS]
+T13	Narrative_cite 1710 1715	[BOS]
+T14	Narrative_cite 1924 1929	[BOS]
+T15	Transition 2105 2110	[BOS]
+T16	Single_summ 2218 2223	[BOS]
+T17	Reference 64 79	Wu et al., 2016
+T18	Reference 81 101	Gehring et al., 2017
+T19	Reference 103 124	Vaswani et al., 2017)
+T20	Dominant 270 287	(Gu et al., 2017)
+T21	Reference 397 418	Vaswani et al., 2017)
+T22	Dominant 798 815	Lee et al. (2018)
+T23	Dominant 1198 1219	(Kaiser et al., 2018)
+T24	Reference 1688 1707	(Oord et al., 2017)
+T25	Reference 1852 1879	(Van Den Oord et al., 2016)
+T26	Reference 2020 2039	(Chung et al., 2016
+T27	Reference 2041 2058	Lee et al., 2016)
+T28	Reference 2078 2102	Ishiwatari et al., 2017)
+T29	Dominant 2224 2241	Oda et al. (2017)
+T30	Pronoun 421 425	they
+T31	Pronoun 502 506	they
+T32	Pronoun 652 656	They
+T33	Pronoun 1007 1011	They
+T34	Pronoun 1228 1232	They
+T35	Pronoun 1423 1427	this
+T36	Pronoun 1499 1504	their
+T37	Pronoun 2127 2132	these
+T38	B_span 49 63	autoregressive
+T39	E_span 119 123	2017
+T40	B_span 271 273	Gu
+T42	E_span 779 790	translation
+T43	B_span 384 395	Transformer
+T44	E_span 413 417	2017
+T45	B_span 798 801	Lee
+T46	E_span 1115 1127	minimization
+T47	B_span 1136 1139	The
+T48	E_span 1455 1463	parallel
+T49	B_span 1671 1679	parallel
+T50	E_span 1702 1706	2017
+T51	B_span 1788 1796	training
+T52	E_span 1874 1878	2016
+T53	B_span 2000 2009	character
+T54	E_span 2053 2057	2016
+T55	B_span 2063 2073	chunkbased
+T56	E_span 2097 2101	2017
+T57	B_span 2224 2227	Oda
+T58	E_span 2361 2369	parallel

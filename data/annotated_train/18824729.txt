@@ -1,0 +1,18 @@
+[BOS] The Bible has been used as a resource for machine translation and multi-lingual information retrieval before, e.g., (Chew et al., 2006) .
+[BOS] It has also been used in cross-lingual POS tagging Fossum and Abney, 2005) , NP-chunking ) and cross-lingual dependency parsing (Sukhareva and Chiarcos, 2014) before.
+[BOS] and Fossum and Abney (2005) use word-aligned parallel translations of the Bible to project the predictions of POS taggers for several language pairs, including English, German, and Spanish to Czech and French.
+[BOS] The resulting annotated target language corpora enable them to train POS taggers for these languages.
+[BOS] showed similar results using just the Hansards corpus on English to French and Chinese.
+[BOS] Our work is inspired by these approaches, yet broader in scope on both the source and target side.
+[BOS] use word-aligned text to automatically create type-level tag dictionaries.
+[BOS] Earlier work on building tag dictionaries from word-aligned text includes Probst (2003) .
+[BOS] Their tag dictionaries contain target language trigrams to be able to disambiguate ambiguous target language words.
+[BOS] To handle the noise in the automatically obtained dictionaries, they use label propagation on a similarity graph to smooth and expand the label distributions.
+[BOS] Our approach is similar to theirs in using projections to obtain type-level tag dictionaries, but we keep the token supervision and type supervision apart and end up with a model more similar to that of Tckstrm et al. (2013) , who combine word-aligned text with crowdsourced type-level tag dictionaries.
+[BOS] Tckstrm et al. (2013) constrain Viterbi search via type-level tag dictionaries, pruning all tags not licensed by the dictionary.
+[BOS] For the remaining tags, they use high-confidence word alignments to further prune the Viterbi search.
+[BOS] We follow Tckstrm et al. (2013) in using our automatically created, not crowdsourced, tag dictionaries to prune tags during search, but we use word alignments to obtain token-level annotations that we use as annotated training data, similar to Fossum and Abney (2005), , and .
+[BOS] Duong et al. (2013) use word-alignment probabilities to select training data for their cross-lingual POS models.
+[BOS] They consider a simple single-source training set-up.
+[BOS] We also tried ranking projected training data by confidence, using an ensemble of projections from 17-99 source languages and majority voting to obtain probabilities for the token-level target-language projections, but this did not lead to improvements on the English development data.
+

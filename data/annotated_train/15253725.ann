@@ -1,0 +1,26 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 61 66	[BOS]
+T3	Single_summ 182 187	[BOS]
+T4	Single_summ 262 267	[BOS]
+T5	Single_summ 436 441	[BOS]
+T6	Single_summ 519 524	[BOS]
+T7	Single_summ 642 647	[BOS]
+T8	Single_summ 727 732	[BOS]
+T9	Single_summ 820 825	[BOS]
+T10	Single_summ 936 941	[BOS]
+T11	Dominant 188 212	(Porta and Sancho, 2014)
+T12	Dominant 442 461	(Lui et al., 2014 )
+T13	Dominant 525 546	(Goutte et al., 2014)
+T14	Dominant 733 752	(King et al., 2014)
+T15	Dominant 942 956	(Purver, 2014)
+T16	Pronoun 826 830	They
+T17	B_span 189 194	Porta
+T18	E_span 429 434	group
+T19	B_span 443 446	Lui
+T20	E_span 511 517	tagger
+T21	B_span 526 532	Goutte
+T22	E_span 721 725	used
+T23	B_span 734 738	King
+T24	E_span 927 934	removal
+T25	B_span 943 949	Purver
+T26	E_span 1054 1057	1-3

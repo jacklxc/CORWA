@@ -1,0 +1,22 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 241 246	[BOS]
+T3	Transition 433 438	[BOS]
+T4	Transition 592 597	[BOS]
+T5	Single_summ 707 712	[BOS]
+T6	Transition 930 935	[BOS]
+T7	Multi_summ 1029 1034	[BOS]
+T8	Dominant 727 746	Zhang et al. (2017)
+T9	B_span 713 725	Academically
+T10	E_span 918 927	reasoning
+T11	Dominant 1035 1051	Hu et al. (2018)
+T12	E_span 1146 1153	charges
+T13	B_span 1035 1037	Hu
+T14	Dominant 1159 1178	Sulea et al. (2017)
+T15	B_span 1159 1164	Sulea
+T16	E_span 1244 1258	classification
+T17	Dominant 247 263	Do et al. (2017)
+T18	Dominant 311 322	Hang (2017)
+T19	B_span 247 249	Do
+T20	E_span 293 305	consultation
+T21	B_span 311 315	Hang
+T22	E_span 424 430	manner

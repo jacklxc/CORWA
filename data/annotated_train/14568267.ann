@@ -1,0 +1,53 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 247 252	[BOS]
+T3	Transition 520 525	[BOS]
+T4	Transition 660 665	[BOS]
+T5	Single_summ 811 816	[BOS]
+T6	Narrative_cite 1014 1019	[BOS]
+T7	Narrative_cite 1192 1197	[BOS]
+T8	Single_summ 1362 1367	[BOS]
+T9	Single_summ 1515 1520	[BOS]
+T10	Single_summ 1569 1574	[BOS]
+T11	Single_summ 1687 1692	[BOS]
+T12	Single_summ 1772 1777	[BOS]
+T13	Single_summ 1871 1876	[BOS]
+T14	Single_summ 1963 1968	[BOS]
+T15	Single_summ 2180 2185	[BOS]
+T16	Single_summ 2272 2277	[BOS]
+T17	Single_summ 2399 2404	[BOS]
+T18	Single_summ 2710 2715	[BOS]
+T19	Reflection 2767 2772	[BOS]
+T20	Reference 157 187	(Krallinger and Valencia, 2005
+T21	Reference 189 217	Ananiadou and McNaught, 2006
+T22	Reference 219 244	Krallinger et al., 2008b)
+T23	Reference 357 385	(Wattarujeekrit et al., 2004
+T24	Reference 387 405	Chou et al., 2006)
+T25	Reference 432 450	(Kim et al., 2008)
+T26	Reference 496 517	(Sasaki et al., 2008)
+T27	Dominant 830 853	Bundschus et al. (2008)
+T28	Reference 1174 1189	(Ndellec, 2005)
+T29	Reference 1332 1358	(Krallinger et al., 2008a)
+T30	Dominant 1393 1416	Yakushiji et al. (2001)
+T31	Dominant 1969 1989	Sasaki et al. (2008)
+T32	Pronoun 146 150	this
+T33	Pronoun 1521 1525	They
+T34	Pronoun 1675 1679	this
+T35	Pronoun 2405 2410	Their
+T36	B_span 35 39	text
+T37	E_span 238 243	2008b
+T38	B_span 335 343	PropBank
+T39	E_span 400 404	2006
+T40	B_span 408 413	frame
+T41	E_span 445 449	2008
+T42	B_span 457 465	specific
+T43	E_span 512 516	2008
+T44	B_span 830 839	Bundschus
+T45	E_span 1005 1012	phrases
+T46	B_span 1157 1167	biomedical
+T47	E_span 1184 1188	2005
+T48	B_span 1305 1316	BioCreative
+T49	E_span 1352 1357	2008a
+T50	B_span 1368 1370	As
+T51	E_span 1952 1961	ambiguity
+T52	B_span 1969 1975	Sasaki
+T53	E_span 2755 2764	precision

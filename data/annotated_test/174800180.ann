@@ -1,0 +1,77 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 103 108	[BOS]
+T3	Transition 611 616	[BOS]
+T4	Narrative_cite 643 648	[BOS]
+T5	Reflection 751 756	[BOS]
+T6	Transition 846 851	[BOS]
+T7	Narrative_cite 952 957	[BOS]
+T8	Transition 1216 1221	[BOS]
+T9	Single_summ 1286 1291	[BOS]
+T10	Reflection 1540 1545	[BOS]
+T11	Transition 1627 1632	[BOS]
+T12	Narrative_cite 1697 1702	[BOS]
+T13	Reflection 2038 2043	[BOS]
+T14	Reflection 2129 2134	[BOS]
+T15	Reference 162 179	(Adi et al., 2017
+T16	Reference 181 199	Qian et al., 2016b
+T17	Reference 201 220	Ganesh et al., 2017
+T19	Reference 271 290	(Qian et al., 2016a
+T20	Reference 292 308	Shi et al., 2016
+T21	Reference 310 327	Wu and King, 2016
+T22	Reference 329 347	Wang et al., 2017)
+T23	Reference 374 391	(Shi et al., 2016
+T24	Reference 393 416	Belinkov et al., 2017a)
+T25	Reference 447 469	(Vylomova et al., 2017
+T26	Reference 482 501	(Qian et al., 2016b
+T27	Reference 503 526	Belinkov et al., 2017b)
+T28	Reference 541 561	(Linzen et al., 2016
+T29	Reference 563 580	Tran et al., 2018
+T30	Reference 582 603	Conneau et al., 2018)
+T31	Reference 727 748	Lakretz et al., 2019)
+T32	Reference 990 1013	(Sennrich et al., 2016)
+T33	Reference 1043 1070	(Bradbury and Socher, 2016)
+T34	Reference 1083 1104	(Durrani et al., 2014
+T35	Reference 1125 1143	(Ling et al., 2015
+T36	Reference 1145 1176	Costa-juss and Fonollosa, 2016)
+T37	Dominant 1292 1307	Sennrich (2017)
+T38	Reference 1742 1763	(Szegedy et al., 2014
+T39	Reference 1765 1789	Goodfellow et al., 2015)
+T40	Reference 1817 1839	(Papernot et al., 2016
+T41	Reference 1841 1864	Samanta and Mehta, 2017
+T42	Reference 1866 1884	Liang et al., 2018
+T43	Reference 1886 1905	Jia and Liang, 2017
+T44	Reference 1907 1928	Ebrahimi et al., 2018
+T45	Reference 1930 1947	Gao et al., 2018)
+T46	Reference 1988 2009	(Heigold et al., 2018
+T47	Reference 2011 2035	Belinkov and Bisk, 2018)
+T48	B_span 123 132	analyzing
+T18	Reference 222 242	Conneau et al., 2018
+T49	E_span 238 242	2018
+T50	B_span 260 263	RNN
+T51	E_span 342 346	2017
+T52	B_span 354 357	NMT
+T53	E_span 410 415	2017a
+T54	B_span 433 446	morphological
+T55	E_span 465 469	2017
+T56	B_span 473 481	semantic
+T57	E_span 520 525	2017b
+T58	B_span 531 540	syntactic
+T59	E_span 598 602	2018
+T60	B_span 716 719	NMT
+T61	E_span 743 747	2019
+T62	B_span 980 983	BPE
+T63	E_span 1008 1012	2016
+T64	B_span 1016 1029	morphological
+T65	E_span 1065 1069	2016
+T66	B_span 1072 1082	characters
+T67	E_span 1100 1104	2014
+T68	B_span 1112 1118	hybrid
+T69	E_span 1171 1175	2016
+T70	B_span 1292 1300	Sennrich
+T71	E_span 1526 1538	dependencies
+T72	B_span 1727 1734	various
+T73	E_span 1784 1788	2015
+T74	B_span 1802 1805	NLP
+T75	E_span 1942 1946	2018
+T76	B_span 1954 1963	character
+T77	E_span 2030 2034	2018

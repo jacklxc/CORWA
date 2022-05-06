@@ -1,0 +1,47 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 68 73	[BOS]
+T3	Transition 218 223	[BOS]
+T4	Narrative_cite 320 325	[BOS]
+T5	Reflection 595 600	[BOS]
+T6	Single_summ 746 751	[BOS]
+T7	Single_summ 918 923	[BOS]
+T8	Single_summ 1114 1119	[BOS]
+T9	Single_summ 1300 1305	[BOS]
+T10	Transition 1578 1583	[BOS]
+T11	Transition 1696 1701	[BOS]
+T12	Transition 1844 1849	[BOS]
+T13	Single_summ 1912 1917	[BOS]
+T14	Single_summ 2024 2029	[BOS]
+T15	Single_summ 2265 2270	[BOS]
+T16	Single_summ 2394 2399	[BOS]
+T17	Single_summ 2498 2503	[BOS]
+T18	Transition 2668 2673	[BOS]
+T19	Reflection 2764 2769	[BOS]
+T20	Reference 151 165	(Rabiner, 1990
+T21	Reference 167 176	Xue, 2003
+T22	Reference 178 195	Peng et al., 2004
+T23	Reference 197 214	Ng and Low, 2004)
+T24	Reference 519 546	Cucerzan and Yarowsky, 2002
+T25	Reference 548 569	Yarowsky et al., 2001
+T26	Reference 571 592	Naseem et al., 2009 )
+T27	Dominant 801 827	(Sarawagi and Cohen, 2004)
+T28	Dominant 1306 1320	Bunescu (2008)
+T29	Dominant 1918 1937	Jiang et al. (2008)
+T30	Dominant 2400 2410	Sun (2011)
+T31	Pronoun 927 931	this
+T32	Pronoun 1135 1139	this
+T33	Pronoun 1477 1482	their
+T34	Pronoun 1603 1607	this
+T35	Pronoun 2280 2284	they
+T36	B_span 124 132	sequence
+T37	E_span 209 213	2004
+T38	B_span 410 415	cross
+T39	E_span 586 590	2009
+T40	B_span 752 756	Semi
+T41	E_span 1293 1298	words
+T42	B_span 1306 1313	Bunescu
+T43	E_span 1568 1576	subtasks
+T44	B_span 1918 1923	Jiang
+T45	E_span 2381 2391	complexity
+T46	B_span 2400 2403	Sun
+T47	E_span 2659 2666	derived

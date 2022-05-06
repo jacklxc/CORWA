@@ -1,0 +1,10 @@
+[BOS] In addition to the work mentioned above, much previous work has proposed techniques to transfer knowledge from a high-resource to a lowresource language for dependency parsing.
+[BOS] Many of these methods use an essentially (either lexicalized or delexicalized) joint polyglot training setup (e.g., McDonald et al., 2011; Cohen et al., 2011; Duong et al., 2015; Guo et al., 2016; Vilares et al., 2016; Falenska and  etinoglu, 2017 (2018)).
+[BOS] Some use typological information to facilitate crosslingual transfer (e.g., Naseem et al., 2012; Tckstrm et al., 2013; Zhang and Barzilay, 2015; Wang and Eisner, 2016; Rasooli and Collins, 2017; Ammar et al., 2016) .
+[BOS] Others use bitext (Zeman et al., 2018) , manually-specified rules (Naseem et al., 2012) , or surface statistics from gold universal part of speech (Wang and Eisner, 2018a,b) to map the source to target.
+[BOS] The methods examined in this work to produce multilingual CWRs do not rely on such external information about the languages, and instead use relatively abundant LM data to learn crosslinguality that abstracts away from typological divergence.
+
+[BOS] Recent work has developed several probing methods for (monolingual) contextual representations (Liu et al., 2019; Hewitt and Manning, 2019; Tenney et al., 2019) .
+[BOS] Wada and Iwata (2018) showed that the (contextless) input and output word vectors in a polyglot word-based language model manifest a certain level of lexical correspondence between languages.
+[BOS] Our decontextual probe demonstrated that the internal layers of polyglot language models capture crosslinguality and produce useful multilingual CWRs for downstream low-resource dependency parsing.
+

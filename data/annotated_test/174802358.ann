@@ -1,0 +1,56 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 79 84	[BOS]
+T3	Single_summ 245 250	[BOS]
+T4	Single_summ 371 376	[BOS]
+T5	Single_summ 473 478	[BOS]
+T6	Transition 704 709	[BOS]
+T7	Narrative_cite 940 945	[BOS]
+T8	Single_summ 1091 1096	[BOS]
+T9	Single_summ 1204 1209	[BOS]
+T10	Narrative_cite 1403 1408	[BOS]
+T11	Transition 1531 1536	[BOS]
+T12	Single_summ 1659 1664	[BOS]
+T13	Multi_summ 1813 1818	[BOS]
+T14	Transition 1942 1947	[BOS]
+T15	Reflection 2053 2058	[BOS]
+T16	Reflection 2182 2187	[BOS]
+T17	Reflection 2329 2334	[BOS]
+T18	Reflection 2649 2654	[BOS]
+T19	Reflection 2751 2756	[BOS]
+T20	Reflection 2879 2884	[BOS]
+T21	Reflection 2951 2956	[BOS]
+T22	Transition 3170 3175	[BOS]
+T23	Transition 3329 3334	[BOS]
+T24	Dominant 119 134	(Heilman, 2011)
+T25	Dominant 494 513	Zheng et al. (2018)
+T26	Reference 986 1002	(Du et al., 2017
+T27	Reference 1004 1026	Kumar et al., 2018a,b)
+T28	Dominant 1097 1113	Du et al. (2017)
+T29	Dominant 1210 1230	Kumar et al. (2018a)
+T30	Reference 1506 1528	(Ranzato et al., 2016)
+T31	Dominant 1665 1685	Kumar et al. (2018b)
+T32	Dominant 1819 1837	Tang et al. (2017)
+T33	Dominant 1842 1860	Wang et al. (2017)
+T34	Reference 2482 2504	(Schuster et al., 2019
+T35	Reference 2506 2530	Lample and Conneau, 2019
+T36	Reference 3031 3053	(Vaswani et al., 2017)
+T37	B_span 97 101	Rule
+T38	E_span 467 471	task
+T39	B_span 494 499	Zheng
+T40	E_span 695 701	output
+T41	B_span 954 960	neural
+T42	E_span 1018 1023	2018a
+T43	B_span 1097 1099	Du
+T44	E_span 1198 1202	text
+T45	B_span 1210 1215	Kumar
+T46	E_span 1395 1401	answer
+T47	B_span 1492 1500	exposure
+T48	E_span 1523 1527	2016
+T49	B_span 1665 1670	Kumar
+T50	E_span 1806 1811	words
+T51	B_span 1819 1823	Tang
+T52	E_span 1932 1940	together
+T54	E_span 2526 2530	2019
+T53	B_span 2462 2469	machine
+T55	B_span 3019 3030	Transformer
+T56	E_span 3048 3052	2017

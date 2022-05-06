@@ -1,0 +1,54 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 100 105	[BOS]
+T3	Transition 216 221	[BOS]
+T4	Reflection 290 295	[BOS]
+T5	Single_summ 469 474	[BOS]
+T6	Single_summ 706 711	[BOS]
+T7	Single_summ 783 788	[BOS]
+T8	Single_summ 892 897	[BOS]
+T9	Transition 1141 1146	[BOS]
+T10	Narrative_cite 1345 1350	[BOS]
+T11	Transition 1609 1614	[BOS]
+T12	Reflection 1681 1686	[BOS]
+T13	Reflection 1744 1749	[BOS]
+T14	Transition 1795 1800	[BOS]
+T15	Transition 1870 1875	[BOS]
+T16	Narrative_cite 1931 1936	[BOS]
+T17	Single_summ 2172 2177	[BOS]
+T18	Reflection 2280 2285	[BOS]
+T19	Single_summ 2405 2410	[BOS]
+T20	Single_summ 2566 2571	[BOS]
+T21	Reflection 2638 2643	[BOS]
+T22	Reflection 2698 2703	[BOS]
+T23	Reflection 2792 2797	[BOS]
+T24	Reflection 2897 2902	[BOS]
+T25	Dominant 569 598	Yamada and Matsumoto's (2003)
+T26	Dominant 789 812	Sagae and Lavie (2006b)
+T27	Reference 1532 1555	(Sagae and Lavie, 2006a
+T28	Reference 1557 1578	Zhang and Clark, 2008
+T29	Reference 1580 1606	Titov and Henderson, 2007)
+T30	Reference 1977 1996	(Shen et al., 2007)
+T31	Dominant 2178 2199	Shen and Joshi (2008)
+T32	Dominant 2411 2434	Eisner and Smith (2005)
+T33	Pronoun 222 226	They
+T34	Pronoun 333 338	these
+T35	Pronoun 505 510	these
+T36	Pronoun 820 824	this
+T37	Pronoun 898 902	This
+T38	Pronoun 937 939	it
+T39	Pronoun 1615 1619	This
+T40	Pronoun 1759 1763	this
+T41	Pronoun 1972 1974	it
+T42	Pronoun 2066 2068	it
+T43	B_span 475 480	Other
+T44	E_span 775 781	passes
+T45	B_span 789 794	Sagae
+T46	E_span 1134 1139	point
+T47	B_span 1479 1485	greedy
+T48	E_span 1601 1605	2007
+T49	B_span 1940 1942	bi
+T50	E_span 1991 1995	2007
+T51	B_span 2178 2182	Shen
+T52	E_span 2271 2278	results
+T53	B_span 2411 2417	Eisner
+T54	E_span 2557 2564	produce

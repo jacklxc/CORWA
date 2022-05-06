@@ -1,0 +1,17 @@
+[BOS] Recently, data-driven approaches for chatbots (Ritter et al., 2011; Ji et al., 2014) has achieved promising results.
+[BOS] Existing work along this line includes retrieval-based methods (Hu et al., 2014; Ji et al., 2014; Wang et al., 2015; and generation-based methods (Shang et al., 2015; Vinyals and Le, 2015; Li et al., 2016a,b; Serban et al., 2017a) .
+
+[BOS] Early research into retrieval-based chatbots (Wang et al., 2013; Hu et al., 2014; Wang et al., 2015) only considers the last utterances and ignores previous ones, which is also called Short Text Conversation (STC).
+[BOS] Recently, several studies (Lowe et al., 2015; Wu et al., , 2018b have investigated multi-turn response selection, and obtained better results in a comparison with STC.
+[BOS] A common practice for multi-turn retrieval-based chatbots first retrieve candidates from a large index with a heuristic context rewriting method.
+[BOS] For example, and refine the last utterance by appending keywords in history, and retrieve candidates with the refined utterance.
+[BOS] Then, response selection methods are applied to measure the relevance between history and candidates.
+
+[BOS] A number of studies about generation-based chatbots have considered multi-turn response generation.
+[BOS] Sordoni et al. (2015) is the pioneer of this type of research, it encodes history information into a vector and feeds to the decoder.
+[BOS] Shang et al. (2015) propose three types of attention to utilize the context information.
+[BOS] In addition, propose a Hierarchical Recurrent Encoder-Decoder model (HRED), which employs a hierarchical structure to represent the context.
+[BOS] After that, latent variables (Serban et al., 2017b) and hierarchical attention mechanism (Xing et al., 2018) have been introduced to modify the architecture of HRED.
+[BOS] Compared to previous work, the originality of this study is that it proposes a principle way instead of heuristic rules for context rewriting, and it does not depend on parallel data.
+[BOS] (Su et al., 2019) propose an utterance rewrite approach but need human annotation.
+

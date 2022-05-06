@@ -1,0 +1,24 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 277 282	[BOS]
+T3	Single_summ 353 358	[BOS]
+T4	Single_summ 570 575	[BOS]
+T5	Single_summ 630 635	[BOS]
+T6	Single_summ 688 693	[BOS]
+T7	Transition 871 876	[BOS]
+T8	Single_summ 938 943	[BOS]
+T9	Single_summ 1256 1261	[BOS]
+T10	Reference 107 134	(Haghighi and Klein, 2009 )
+T11	Reference 167 192	(Poon and Domingos, 2008)
+T12	Reference 248 274	(Haghighi and Klein, 2007)
+T13	Dominant 375 384	Ng (2008)
+T14	Dominant 956 979	(Stoyanov et al., 2009)
+T15	B_span 95 97	as
+T16	E_span 128 132	2009
+T17	B_span 144 148	head
+T18	E_span 187 191	2008
+T19	B_span 207 213	sparse
+T20	E_span 269 273	2007
+T21	B_span 359 361	An
+T22	E_span 861 868	problem
+T23	B_span 957 965	Stoyanov
+T24	E_span 1413 1424	unrealistic

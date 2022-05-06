@@ -1,0 +1,20 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 90 95	[BOS]
+T3	Single_summ 178 183	[BOS]
+T4	Single_summ 325 330	[BOS]
+T5	Single_summ 466 471	[BOS]
+T6	Reflection 731 736	[BOS]
+T7	Reflection 827 832	[BOS]
+T8	Dominant 184 202	Dong et al. (2015)
+T9	Dominant 331 350	Firat et al. (2016)
+T10	Dominant 472 493	Johnson et al. (2017)
+T11	Reference 803 824	Artetxe et al. (2018)
+T12	B_span 184 188	Dong
+T13	E_span 323 324	.
+T14	B_span 331 334	Fir
+T15	E_span 464 465	.
+T16	B_span 472 479	Johnson
+T17	E_span 729 730	.
+T21	E_span 823 824	)
+T22	Pronoun 122 126	this
+T18	B_span 741 753	multilingual

@@ -1,0 +1,17 @@
+[BOS] Early work on modeling characters in NMT focused on solving the out-of-vocabulary and softmax bottleneck problems associated with wordlevel models (Ling et al., 2015; Costa-juss and Fonollosa, 2016; Luong and Manning, 2016) .
+[BOS] These took the form of word-boundary-aware hierarchical models, with word-level models delegating to character-level models to generate representations in the encoder and words in the decoder.
+[BOS] Our work will not assume fixed word boundaries are given in advance.
+
+[BOS] With the advent of word-fragment approaches, interest in character-level processing fell off, but has recently been reignited with the work of Lee et al. (2017) .
+[BOS] They propose a specialized character-level encoder, connected to an unmodified character-level RNN decoder.
+[BOS] They address the modeling and efficiency challenges of long character sequences using a convolutional layer, max-pooling over time, and highway layers.
+[BOS] We agree with their conclusion that character-level translation is effective, but revisit the question of whether their specific encoder produces a desirable speed-quality tradeoff in the context of a much stronger baseline translation system.
+[BOS] We draw inspiration from their pooling solution for reducing sequence length, along with similar ideas from the speech community (Chan et al., 2016) , when devising fixed-schedule reduction strategies in Section 3.3.
+
+[BOS] One of our primary contributions is an extensive invesigation of the efficacy of a typical LSTM-based NMT system when operating at the character-level.
+[BOS] The vast majority of existing studies compare a specialized character-level architecture to a distinct word-level one.
+[BOS] To the best of our knowledge, only a small number of papers have explored running NMT unmodified on character sequences; these include: Luong and Manning (2016) on WMT'15 English-Czech, Wu et al. (2016) on WMT'14 English-German, and Bradbury et al. (2016) on IWSLT German-English.
+[BOS] All report scores that either trail behind or reach parity with word-level models.
+[BOS] Only Wu et al. (2016) compare to word fragment models, which they show to outperform characters by a sizeable margin.
+[BOS] We revisit the question of character-versus fragment-level NMT here, and reach quite different conclusions.
+

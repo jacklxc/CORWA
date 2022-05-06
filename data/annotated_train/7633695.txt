@@ -1,0 +1,25 @@
+[BOS] In the past decade, there has been increasing attention on GEC in English, mainly due to the growing number of English as second language (ESL) learners around the world.
+[BOS] The popularity of this problem grew further through Helping Our Own (HOO) (Dale and Kilgarriff, 2011; Dale et al., 2012) and CoNLL shared tasks .
+[BOS] The majority of the published work on GEC aimed at building classifiers or rule-based systems for specific error types and combined them to build hybrid systems Rozovskaya et al., 2014) .
+
+[BOS] The cross-linguistic influences between L1 and L2 have been mainly used for the task of native language identification (Massung and Zhai, 2016) .
+[BOS] It has also been used in typology prediction (Berzak et al., 2014) and predicting error distributions in ESL data (Berzak et al., 2015) .
+[BOS] L1-based adaptation has previously shown to improve GEC for specific error types using the classification approach.
+[BOS] Rozovskaya and Roth (2010) used an approach to correct preposition errors by restricting the candidate corrections to those observed in L1-specific data.
+[BOS] They further added artificial training data that mimic the error frequency in L1-specific text to improve accuracy.
+[BOS] In their later work, Rozovskaya and Roth (2011) focused on L1-based adaptation for preposition and article correction, by modifying the prior probabilities in the nave Bayes classifier during decision time based on L1-specific ESL learner text.
+[BOS] Both approaches use native data for training, but rely on non-native L1-specific text to introduce artificial errors or to modify the prior probabilities.
+[BOS] Dahlmeier and Ng (2011) implemented a system to correct collocation errors, by adding paraphrases derived from L1 into the confusion set.
+[BOS] Specifically, they use a bilingual L1-L2 corpus, to obtain L2 paraphrases, which are likely to be translated to the same phrase in L1.
+[BOS] There is no prior work on L1-based adaptation for GEC using the machine translation approach, which is a one of the most popular approaches for GEC.
+
+[BOS] With the availability of large-scale error corrected data (Mizumoto et al., 2011) , the statistical machine translation (SMT) approach to GEC became popular and was employed in state-of-the-art GEC systems.
+[BOS] Comparison of the classification approach and the machine translation approach can be found in (Rozovskaya and Roth, 2016) and .
+[BOS] Recently, an end-to-end neural machine translation framework was proposed for GEC (Yuan and Briscoe, 2016) , which was shown to achieve competitive results.
+[BOS] Neural network joint models have shown to be improve SMT-based GEC systems due to their ability to model words and phrases in a continuous space, access to larger contexts from source side, and abil-ity to learn non-linear mappings from input to output.
+[BOS] In this paper, we exploit the advantages of the SMT approach and neural network joint models (NNJMs) by adapting an NNJM based on the L1 background of the writers and integrating it into the SMT framework.
+[BOS] We perform KL divergence regularized adaptation to prevent overfitting on the smaller in-domain data.
+[BOS] KL divergence regularization was previously used by Yu et al. (2013) for speaker adaptation.
+[BOS] Joty et al. (2015) proposed another NNJM adaptation method, which uses a regularized objective function that encourages a network trained on general-domain data to be closer to an indomain NNJM.
+[BOS] Other adaptation techniques used in SMT include mixture modeling (Foster and Kuhn, 2007; Moore and Lewis, 2010; Sennrich, 2012) and alternative decoding paths (Koehn and Schroeder, 2007) .
+

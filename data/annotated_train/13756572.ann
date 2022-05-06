@@ -1,0 +1,59 @@
+T1	Intro 0 5	[BOS]
+T2	Intro 115 120	[BOS]
+T3	Narrative_cite 191 196	[BOS]
+T4	Narrative_cite 369 374	[BOS]
+T5	Narrative_cite 497 502	[BOS]
+T6	Single_summ 643 648	[BOS]
+T7	Single_summ 853 858	[BOS]
+T8	Multi_summ 1034 1039	[BOS]
+T9	Single_summ 1211 1216	[BOS]
+T10	Single_summ 1421 1426	[BOS]
+T11	Single_summ 1545 1550	[BOS]
+T12	Transition 1697 1702	[BOS]
+T13	Single_summ 1803 1808	[BOS]
+T14	Transition 2330 2335	[BOS]
+T15	Reflection 2722 2727	[BOS]
+T16	Reference 246 269	(Caliskan et al., 2017)
+T17	Reference 285 304	(Garg et al., 2018)
+T18	Reference 342 366	(Bolukbasi et al., 2016)
+T19	Reference 449 469	Beutel et al. (2017)
+T20	Reference 474 493	Zhang et al. (2018)
+T21	Reference 595 616	(van Miltenburg, 2016
+T22	Reference 618 640	Rudinger et al., 2017)
+T23	Dominant 649 662	Tatman (2017)
+T24	Dominant 859 892	Koolen and van Cranenburgh (2017)
+T25	Dominant 1045 1058	Larson (2017)
+T26	Dominant 1063 1096	Koolen and van Cranenburgh (2017)
+T27	Dominant 1217 1239	Hovy and Spruit (2016)
+T28	Dominant 1484 1502	Zhao et al. (2018)
+T29	Dominant 1566 1584	Zhao et al. (2018)
+T30	Dominant 2045 2063	Zhao et al. (2018)
+T31	Pronoun 201 205	they
+T32	Pronoun 1533 1537	this
+T33	Pronoun 1554 1559	their
+T34	Pronoun 1733 1738	these
+T35	Pronoun 1829 1833	this
+T36	Pronoun 2425 2429	this
+T37	Pronoun 2735 2740	these
+T38	B_span 239 245	modern
+T39	E_span 264 268	2017
+T40	B_span 274 284	historical
+T41	E_span 305 309	text
+T42	B_span 315 322	methods
+T43	E_span 361 365	2016
+T44	B_span 413 424	adversarial
+T45	E_span 488 492	2018
+T46	B_span 571 574	NLP
+T47	E_span 635 639	2017
+T48	B_span 649 655	Tatman
+T49	E_span 843 851	datasets
+T50	B_span 859 865	Koolen
+T51	E_span 1025 1032	studies
+T52	B_span 1040 1044	Both
+T53	E_span 1201 1209	variable
+T54	B_span 1217 1221	Hovy
+T55	E_span 1414 1418	here
+T56	B_span 1427 1434	Finally
+T57	E_span 1685 1693	WinoBias
+T58	B_span 2045 2049	Zhao
+T59	E_span 2321 2328	schemas

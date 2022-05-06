@@ -1,0 +1,7 @@
+[BOS] In related work on Japanese-English NMT, Yamagishi et al. (2016) use a side-constraint approach to control the voice (active or passive) of an English translation.
+[BOS] Takeno (2017) apply side constraints more broadly to control translation length, bidirectional decoding, domain adaptation, and unaligned target word generation.
+
+[BOS] Our paper follows the modeling approach introduced by Johnson et al. (2017) , who showed that by adding a token to the source side of parallel text allows for training a single NMT model on data for multiple language pairs.
+[BOS] Their token specifies the desired target language, allowing the user control over the language of machine translation output, even for source-target language pairs that were not seen during training, which they call "zero-shot" translation.
+[BOS] The same approach has been successfully used in other applications, such as in distinguishing standard versus back-translated translation parallel corpora (Caswell et al., 2019) .
+

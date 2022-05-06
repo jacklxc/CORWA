@@ -1,0 +1,24 @@
+[BOS] State-of-the-art KBQA methods are in general based on either semantic parsing, or on embedding (Zhou et al., 2018) .
+[BOS] Semantic parsing methods learn semantic parsers which parse natural language input queries into logical forms, and then use the logical forms to query the KG for answers (Berant et al., 2013; Yih et al., 2015 Yih et al., , 2016 Iyyer et al., 2017; Peng et al., 2017; Sorokin and Gurevych, 2018) .
+[BOS] These systems are effective and provide deep interpretation of the question, but require expensive data annotation, or require training using reinforcement learning.
+
+[BOS] Embedding-based methods first allocate candidates from the knowledge graph, represent these candidates as distributed embedding vectors, and choose or rank these vectors.
+[BOS] Here the candidates can be either entities or relations.
+[BOS] Some use embedding-based models to predict answers directly (Dong et al., 2015; Bast and Haussmann, 2015; Hao et al., 2017; Zhou et al., 2018; Lukovnikov et al., 2017) , whereas others focus on extracting relation paths and require further procedures to select the answer entity (Bordes et al., 2015; Xu et al., 2016; Yin et al., 2016; Yu et al., 2017; Zhang et al., 2018a; Yu et al., 2018; Chen et al., 2018a; Shen et al., 2018) .
+[BOS] Our work follows the latter methods in focusing on predicting relation paths, but we seek to eliminate the need to assume in advance a maximum number of hops.
+
+[BOS] For the solution, we turn to the field of multihop knowledge based reasoning.
+[BOS] Early methods include the Path-Ranking Algorithm and its variants.
+[BOS] (Lao et al., 2011; Gardner et al., 2014 Gardner et al., , 2013 Toutanova et al., 2015) The drawback of these methods is that they use random walks independent of the type of input.
+[BOS] DeepPath (Xiong et al., 2017) and MINERVA (Das et al., 2017) tackle this issue by framing the multi-hop reasoning problem as a Markov decision process, efficiently searching for paths using reinforcement learning; others propose an algorithm for learning logical rules, a variational auto-encoder view of the knowledge graph (Chen et al., 2018b; Zhang et al., 2018b) , and reward shaping technique (Lin et al., 2018) for further improvement.
+[BOS] The major difference between UHop and these methods is that they do not utilize annotated relations and hence require REINFORCE training (Williams, 1992) for optimization.
+[BOS] As some datasets are already annotated with relations and paths, direct learning using an intermediate reward is more reasonable.
+[BOS] Hence UHop adopts a novel comparative termination decision module to control the search process of the relation path.
+
+[BOS] The most related approach is the IRN model (Zhou et al., 2018) , composed of an input module, a memory-based reasoning module, and an answer module.
+[BOS] At each hop, it predicts a relation path using the reasoning module, and also optimizes it using intermediate results.
+[BOS] However, UHop has demonstrated the ability to process large-scale knowledge graphs in experiments conducted on Freebase (Bordes et al., 2015) .
+[BOS] In contrast, IRN consumes memory linearly to the size of the knowledge graph, resulting in a limited workspace, e.g., they use a subset of Freebase in their experiments.
+[BOS] Also, IRN still uses a constraint for the number of maximum hops in the experiments, while UHop needs no such limit.
+[BOS] Most importantly, as UHop is a framework which facilitates the use of different models, we can expect the performance of UHop to remain competitive with the state of the art over time.
+

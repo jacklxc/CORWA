@@ -1,0 +1,35 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 143 148	[BOS]
+T3	Narrative_cite 303 308	[BOS]
+T4	Transition 540 545	[BOS]
+T5	Single_summ 672 677	[BOS]
+T6	Single_summ 787 792	[BOS]
+T7	Single_summ 955 960	[BOS]
+T8	Single_summ 1128 1133	[BOS]
+T9	Reference 84 106	(Gritta et al., 2018b)
+T10	Reference 236 258	(Karagoz et al., 2016)
+T11	Reference 277 297	(Magge et al., 2018)
+T12	Reference 377 399	(Gritta et al., 2018b)
+T13	Reference 424 446	(Karagoz et al., 2016)
+T14	Reference 472 492	(Magge et al., 2018)
+T15	Dominant 691 704	Turton (2008)
+T16	Dominant 793 820	Weissenbacher et al. (2015)
+T17	Dominant 1134 1155	Gritta et al. (2018a)
+T18	B_span 6 13	Toponym
+T19	E_span 100 105	2018b
+T20	B_span 223 229	social
+T21	E_span 253 257	2016
+T22	B_span 261 267	PubMed
+T23	E_span 292 296	2018
+T24	B_span 366 370	rule
+T25	E_span 393 398	2018b
+T26	B_span 402 409	machine
+T27	E_span 441 445	2016
+T28	B_span 453 457	deep
+T29	E_span 487 491	2018
+T30	B_span 691 697	Turton
+T31	E_span 776 785	abstracts
+T32	B_span 793 806	Weissenbacher
+T33	E_span 1116 1126	heuristics
+T34	B_span 1134 1140	Gritta
+T35	E_span 1225 1237	geolocations

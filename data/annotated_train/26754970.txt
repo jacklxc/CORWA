@@ -1,0 +1,23 @@
+[BOS] Earlier work in answer selection relies on handcrafted features based on semantic role annotations (Shen and Lapata, 2007; Surdeanu et al., 2011) , parse trees (Wang and Manning, 2010; Heilman and Smith, 2010) , tree kernels (Moschitti et al., 2007; Severyn and Moschitti, 2012) , discourse structures (Jansen et al., 2014) , and external resources (Yih et al., 2013) .
+
+[BOS] More recently, researchers started using deep neural networks for answer selection.
+[BOS] Yu et al. (2014) , for example, propose a convolutional bigram model to classify a candidate answer as correct or incorrect.
+[BOS] Similar but more enhanced, Severyn and Moschitti (2015) use a CNN with additional dense layers to capture interactions between questions and candidate answers, a model that is also part of a combined approach with tree kernels (Tymoshenko et al., 2016) .
+[BOS] And Wang and Nyberg (2015) incorporate stacked BiLSTMs to learn a joint feature vector of a question and a candidate answer for classification.
+
+[BOS] Answer selection can also be formulated as a ranking task where we learn dense vector representations of questions and candidate answers and measure the distance between them for scoring.
+[BOS] Feng et al. (2015) use such an approach and compare different models based on CNN with different similarity measures.
+[BOS] Based on that, models with attention mechanisms were proposed.
+[BOS] Tan et al. (2016) apply an attentive BiLSTM component that performs importance weighting before pooling based on the relatedness of segments in the candidate answer to the question.
+[BOS] Dos introduce a two-way attention mechanism based on a learned measure of similarity between questions and candidate answers.
+[BOS] And Wang et al. (2016) propose novel ways to integrate attention inside and before a GRU.
+
+[BOS] In this work, we use a different method for importance weighting that determines the importance of segments in the texts while assuming the independence of questions and candidate answers.
+[BOS] This is related to previous work in other areas of NLP that incorporate self-attention mechanisms.
+[BOS] Within natural language inference, Liu et al. (2016) derive the importance of each segment in a short text based on the comparison to a average-pooled representation of the text itself.
+[BOS] Parikh et al. (2016) determine intra-attention with a feedforward component and combine the importance of nearby segments.
+[BOS] And Lin et al. (2017) propose a model that derives multiple attention vectors with matrix multiplications.
+[BOS] Within factoid QA, Li et al. (2016) weight the importance of each token in a question with a feedforward network and perform sequence labeling.
+
+[BOS] In contrast to those, we apply this concept to answer selection, we directly compare vector representations of questions and candidate answers, and we use a separate BiLSTM for importance weighting.
+

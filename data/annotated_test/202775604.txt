@@ -1,0 +1,15 @@
+[BOS] Dialogue response generation has been extensively studied (Ratnaparkhi, 2002; Ritter et al., 2011) , and recently, neural network models, especially sequence-to-sequence models have been widely used (Sordoni et al., 2015; Serban et al., 2017; Park et al., 2018; Du et al., 2018; Gu et al., 2019) .
+[BOS] One limitation of basic seq2seq models is that they only generate responses to the immediately preceding utterances, whereas people usually respond to the entire dialogue consisting of multiple previous utterances.
+[BOS] To overcome this limitation, Hierarchical recurrent encoder-decoder (HRED) (Sordoni et al., 2015) builds one more RNN that models the dependency over the utterances in the conversation.
+[BOS] VHUCM also constructs the hierarchical RNN structure to understand the previous utterances.
+
+[BOS] Recently, latent variable models based on Conditional Variational Auto-Encoder (CVAE) (Kingma et al., 2014) or Generative Adversarial Network (GAN) (Goodfellow et al., 2014) show the better performance for generating response (Serban et al., 2017; Xu et al., 2017; Li et al., Users Dyads Conv's Utterances 27,152 107,611 770,739 6,109,469 Park et al., 2018) .
+[BOS] We adopt CVAE to VHUCM and compare the performance with GAN based model (Gu et al., 2019) .
+
+[BOS] Modeling of speakers in the conversation model has been studied (Li et al., 2016b; Xing and Fernndez, 2018) .
+[BOS] They incorporate the speakers to generate the responses, but Li et al. (2016b) only considers a short context of the conversation.
+[BOS] Olabiyi et al. (2018) overcomes this, but the user information is still in the utterance level.
+[BOS] This approach tends to generate the same response for the same speaker even when the given utterances are different.
+[BOS] This is because it gives too much importance to the speaker rather than the content of the previous utterances.
+[BOS] VHUCM differs from these models in that it uses a global stochastic variable which is conditioned on the speakers and affects the context.
+

@@ -1,0 +1,79 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 98 103	[BOS]
+T3	Transition 290 295	[BOS]
+T4	Reflection 419 424	[BOS]
+T5	Reflection 586 591	[BOS]
+T6	Narrative_cite 670 675	[BOS]
+T7	Transition 853 858	[BOS]
+T8	Transition 1002 1007	[BOS]
+T9	Single_summ 1064 1069	[BOS]
+T10	Single_summ 1247 1252	[BOS]
+T11	Single_summ 1348 1353	[BOS]
+T12	Single_summ 1469 1474	[BOS]
+T13	Multi_summ 1588 1593	[BOS]
+T14	Single_summ 1828 1833	[BOS]
+T15	Single_summ 1994 1999	[BOS]
+T16	Single_summ 2114 2119	[BOS]
+T17	Single_summ 2294 2299	[BOS]
+T18	Reflection 2546 2551	[BOS]
+T19	Reflection 2714 2719	[BOS]
+T20	Reflection 2843 2848	[BOS]
+T21	Reflection 2949 2954	[BOS]
+T22	Reflection 3147 3152	[BOS]
+T23	Reflection 3300 3305	[BOS]
+T24	Reflection 3478 3483	[BOS]
+T25	Reflection 3593 3598	[BOS]
+T26	Reflection 3683 3688	[BOS]
+T27	Transition 3811 3816	[BOS]
+T28	Reference 153 176	(Barzilay and Lee, 2004
+T29	Reference 178 198	Elsner et al., 2007)
+T30	Reference 232 265	(Haghighi and Vanderwende, 2009 )
+T31	Reference 778 797	(Pang and Lee, 2004
+T32	Reference 799 826	Patwardhan and Riloff, 2007
+T33	Reference 828 850	McDonald et al., 2007)
+T34	Dominant 1084 1103	Pang and Lee (2004)
+T35	Dominant 1253 1281	Patwardhan and Riloff (2007)
+T36	Dominant 1621 1643	Choi and Cardie (2008)
+T37	Dominant 1648 1674	Somasundaran et al. (2009)
+T38	Dominant 1834 1856	Choi and Cardie (2008)
+T39	Dominant 2000 2026	Somasundaran et al. (2009)
+T40	Dominant 2120 2142	McDonald et al. (2007)
+T41	Dominant 2345 2367	McDonald et al. (2007)
+T42	Reference 3655 3680	Blei and McAullife (2007)
+T43	B_span 135 143	sentence
+T44	E_span 193 197	2007
+T45	B_span 201 211	extraction
+T46	E_span 259 263	2009
+T47	B_span 700 711	information
+T48	E_span 845 849	2007
+T49	B_span 1084 1087	Pan
+T50	E_span 1235 1245	classifier
+T51	B_span 1253 1256	Pat
+T52	E_span 1576 1585	increases
+T53	B_span 1594 1601	Another
+T54	E_span 1817 1826	relevancy
+T55	B_span 1834 1838	Choi
+T56	E_span 1984 1992	polarity
+T57	B_span 2000 2004	Soma
+T58	E_span 2104 2112	polarity
+T59	B_span 2120 2128	McDonald
+T60	E_span 2288 2292	data
+T61	B_span 2345 2353	McDonald
+T62	E_span 2415 2421	levels
+T63	B_span 3628 3638	supervised
+T64	E_span 3675 3679	2007
+T65	Pronoun 302 307	these
+T66	Pronoun 469 473	this
+T67	Pronoun 615 620	these
+T68	Pronoun 859 864	These
+T69	Pronoun 1375 1380	their
+T70	Pronoun 1427 1431	they
+T71	Pronoun 1435 1437	it
+T72	Pronoun 1481 1486	these
+T73	Pronoun 2434 2438	this
+T74	Pronoun 2524 2526	it
+T75	Pronoun 3165 3169	this
+T76	Pronoun 3255 3257	it
+T77	Pronoun 3306 3310	This
+T78	Pronoun 3692 3696	this
+T79	Pronoun 3826 3830	this

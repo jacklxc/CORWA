@@ -1,0 +1,44 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 213 218	[BOS]
+T3	Single_summ 449 454	[BOS]
+T4	Narrative_cite 589 594	[BOS]
+T5	Single_summ 718 723	[BOS]
+T6	Narrative_cite 845 850	[BOS]
+T7	Narrative_cite 1027 1032	[BOS]
+T8	Reference 50 68	(Li et al., 2009 )
+T9	Reference 83 100	(Li et al., 2010)
+T10	Reference 281 298	Song et al., 2010
+T11	Reference 300 323	Finch and Sumita, 2010)
+T12	Reference 424 446	Shishtla et al., 2009)
+T13	Dominant 500 519	Huang et al. (2011)
+T14	Reference 691 715	Knight and Graehl, 1998)
+T15	Dominant 724 740	Li et al. (2004)
+T16	Reference 884 906	Shishtla et al., 2009)
+T17	Reference 924 958	Wutiwiwatchai and Thangthai, 2010)
+T18	Reference 991 1009	Oh and Choi, 2005)
+T19	Reference 1171 1187	Tao et al., 2006
+T20	Reference 1189 1204	Li et al., 2007
+T21	Reference 1206 1219	Kwong, 2009a)
+T22	Pronoun 463 468	these
+T23	B_span 40 44	NEWS
+T24	E_span 62 66	2009
+T25	B_span 73 77	NEWS
+T26	E_span 95 99	2010
+T27	B_span 226 232	phrase
+T28	E_span 318 322	2010
+T29	B_span 341 352	Conditional
+T30	E_span 441 445	2009
+T31	B_span 455 462	Besides
+T32	E_span 581 586	study
+T33	B_span 671 678	phoneme
+T34	E_span 710 714	1998
+T35	B_span 724 726	Li
+T36	E_span 834 843	framework
+T37	B_span 867 877	characters
+T38	E_span 901 905	2009
+T39	B_span 908 917	syllables
+T40	E_span 953 957	2010
+T41	B_span 972 978	hybrid
+T42	E_span 1004 1008	2005
+T43	B_span 1149 1164	transliteration
+T44	E_span 1213 1218	2009a

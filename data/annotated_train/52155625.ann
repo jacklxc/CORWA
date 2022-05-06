@@ -1,0 +1,55 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 135 140	[BOS]
+T3	Transition 320 325	[BOS]
+T4	Narrative_cite 410 415	[BOS]
+T5	Transition 533 538	[BOS]
+T6	Narrative_cite 663 668	[BOS]
+T7	Narrative_cite 765 770	[BOS]
+T8	Transition 1035 1040	[BOS]
+T9	Transition 1104 1109	[BOS]
+T10	Single_summ 1204 1209	[BOS]
+T11	Single_summ 1310 1315	[BOS]
+T12	Reflection 1458 1463	[BOS]
+T13	Narrative_cite 1669 1674	[BOS]
+T14	Reflection 1725 1730	[BOS]
+T15	Reflection 1873 1878	[BOS]
+T16	Reflection 2098 2103	[BOS]
+T17	Reflection 2244 2249	[BOS]
+T18	Transition 2396 2401	[BOS]
+T19	Transition 2463 2468	[BOS]
+T20	Reflection 2596 2601	[BOS]
+T21	Reflection 2733 2738	[BOS]
+T22	Reference 90 114	(Krizhevsky et al., 2012
+T23	Reference 116 132	Ko et al., 2015)
+T24	Reference 472 493	(Fadaee et al., 2017)
+T25	Reference 511 530	(Dong et al., 2017)
+T26	Reference 737 762	(Goodfellow et al., 2014)
+T27	Reference 926 942	(Wu et al., 2017
+T28	Reference 944 966	Yasunaga et al., 2017)
+T29	Dominant 1210 1229	(Xie et al., 2017 )
+T30	Dominant 1316 1336	(Yang et al., 2017 )
+T31	Reference 1693 1712	(Dong et al., 2017)
+T32	Pronoun 539 544	These
+T33	Pronoun 1418 1423	their
+T34	Pronoun 1492 1497	these
+T35	Pronoun 1675 1679	This
+T36	Pronoun 2079 2083	they
+T37	Pronoun 2176 2180	this
+T38	Pronoun 2306 2308	it
+T39	Pronoun 2356 2358	it
+T40	B_span 51 59	computer
+T41	E_span 127 131	2015
+T42	B_span 454 458	word
+T43	E_span 488 492	2017
+T44	B_span 498 510	paraphrasing
+T45	E_span 525 529	2017
+T46	B_span 716 727	adversarial
+T47	E_span 757 761	2014
+T49	E_span 961 965	2017
+T50	B_span 873 881	opposite
+T48	B_span 1211 1214	Xie
+T51	E_span 1300 1308	modeling
+T52	B_span 1317 1321	Yang
+T53	E_span 1447 1456	framework
+T54	B_span 1694 1698	Dong
+T55	E_span 1707 1711	2017

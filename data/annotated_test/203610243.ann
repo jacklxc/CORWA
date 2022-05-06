@@ -1,0 +1,48 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 160 165	[BOS]
+T3	Narrative_cite 389 394	[BOS]
+T4	Reflection 523 528	[BOS]
+T5	Reflection 662 667	[BOS]
+T6	Reflection 724 729	[BOS]
+T7	Single_summ 852 857	[BOS]
+T8	Multi_summ 1004 1009	[BOS]
+T9	Single_summ 1204 1209	[BOS]
+T10	Single_summ 1355 1360	[BOS]
+T11	Single_summ 1491 1496	[BOS]
+T12	B_span 67 77	summarizes
+T13	E_span 156 157	)
+T14	Reference 116 136	Caccia et al. (2018)
+T15	Reference 141 157	Lu et al. (2018)
+T16	E_span 323 327	2016
+T17	B_span 166 178	Shortcomings
+T18	Reference 261 284	Ding and Soricut, 2017;
+T19	Reference 285 305	Leblond et al., 2018
+T20	Reference 307 327	Ranzato et al., 2016
+T21	B_span 457 460	con
+T22	E_span 515 519	2018
+T23	Reference 497 520	Keneshloo et al., 2018)
+T24	Reference 567 585	Ding et al. (2017)
+T25	Reference 590 607	Tan et al. (2018)
+T26	B_span 559 563	work
+T28	B_span 742 746	RAML
+T29	E_span 764 768	2016
+T30	Reference 748 768	Norouzi et al., 2016
+T31	B_span 858 867	Scheduled
+T33	E_span 997 1002	truth
+T32	Dominant 895 915	Bowman et al., 2016)
+T34	Dominant 1010 1028	Chen et al. (2017)
+T35	Dominant 1070 1088	Ding et al. (2017)
+T36	B_span 1010 1014	Chen
+T37	E_span 1057 1066	similarly
+T38	B_span 1070 1074	Ding
+T39	E_span 1192 1202	divergence
+T40	Dominant 1210 1230	Merity et al. (2017)
+T41	B_span 1210 1216	Merity
+T42	E_span 1342 1353	activations
+T43	Dominant 1444 1462	Inan et al. (2016)
+T44	B_span 1361 1365	Word
+T45	E_span 1479 1489	likelihood
+T46	Dominant 1523 1539	Li et al. (2019)
+T47	B_span 1523 1525	Li
+T48	E_span 1600 1613	summarization
+T50	E_span 602 606	2018

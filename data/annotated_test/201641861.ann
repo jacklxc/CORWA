@@ -1,0 +1,35 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 150 155	[BOS]
+T3	Transition 290 295	[BOS]
+T4	Transition 501 506	[BOS]
+T5	Reflection 584 589	[BOS]
+T6	Reflection 736 741	[BOS]
+T7	Narrative_cite 1008 1013	[BOS]
+T8	Reflection 1134 1139	[BOS]
+T9	Narrative_cite 1202 1207	[BOS]
+T10	Reflection 1398 1403	[BOS]
+T11	Reflection 1503 1508	[BOS]
+T12	Narrative_cite 1584 1589	[BOS]
+T13	Reference 68 88	(Varga et al., 2005)
+T15	Reference 1098 1116	(Oda et al., 2015)
+T16	Reference 1252 1272	(Bawden et al., 2018
+T17	Reference 1274 1292	Mller et al., 2018
+T18	Reference 1294 1312	Zhang et al., 2018
+T19	Reference 1314 1338	Miculicich et al., 2018)
+T20	Reference 1655 1677	(Johnson et al., 2017)
+T21	Pronoun 389 391	it
+T22	Pronoun 983 988	their
+T23	Pronoun 1029 1031	it
+T24	B_span 6 15	Automatic
+T25	E_span 83 87	2005
+T26	Reference 631 652	Eriguchi et al., 2016
+T14	Reference 654 677	Eriguchi et al., , 2017
+T27	Reference 678 704	Aharoni and Goldberg, 2017
+T28	B_span 606 612	syntax
+T29	E_span 700 704	2017
+T30	B_span 1075 1081	source
+T31	E_span 1111 1115	2015
+T32	B_span 1222 1229	context
+T33	E_span 1333 1337	2018
+T34	B_span 1631 1643	multilingual
+T35	E_span 1672 1676	2017

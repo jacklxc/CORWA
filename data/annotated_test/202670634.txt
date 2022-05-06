@@ -1,0 +1,18 @@
+[BOS] Several works have proposed methods and models of including contextual information (Wang et al., 2017; Jean et al., 2017; Bawden et al., 2018; Tiedemann and Scherrer, 2017; Maruf and Haffari, 2018; Voita et al., 2018; Stojanovski and Fraser, 2018; Miculicich et al., 2018; Zhang et al., 2018a; .
+[BOS] In general, these models make use of extra-sentential attention conditioned on the main sentence being translated and use gates to control the flow of contextual information.
+[BOS] The model we use is based on these general concepts as well.
+
+[BOS] Improvements in BLEU cannot be conclusively attributed to improved anaphora resolution and therefore additional metrics are required.
+[BOS] Several works have proposed methods of evaluation and have shown that context-aware NMT achieves improvements.
+[BOS] Mller et al. (2018) propose an automatically created challenge set where a model scores German translations of an English source sentence.
+[BOS] The source sentences contain an anaphoric third person singular pronoun and the possible translations differ only in the choice of the pronoun in German.
+[BOS] Bawden et al. (2018) is an earlier work proposing a manually created challenge set for English and French.
+[BOS] Miculicich et al. (2018) evaluate their model's effectiveness on pronoun translation by computing pronoun accuracy based on alignment of hypothesized translations with the reference.
+[BOS] Voita et al. (2018) used attention scores which show a tendency of Transformerbased context-aware models to do anaphora resolution.
+[BOS] However, Mller et al. (2018) report moderate improvements of the model on their pronoun test set.
+[BOS] In order to provide a comprehensive eval-uation of our approach, we use BLEU, the pronoun challenge set from Mller et al. (2018) , and F 1 score for the ambiguous English pronoun "it" based on alignment.
+
+[BOS] Previous work on curriculum learning for MT (Kocmi and Bojar, 2017; Zhang et al., 2018b; Wang et al., 2018) proposed methods which feed easier samples to the model first and later show more complex sentences.
+[BOS] However, their focus is on improving convergence time while providing limited success on improving translation quality.
+[BOS] In contrast with their work, we train models to better handle discourse-level phenomena.
+

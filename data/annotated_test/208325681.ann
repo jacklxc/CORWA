@@ -1,0 +1,42 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 128 133	[BOS]
+T3	Narrative_cite 255 260	[BOS]
+T4	Single_summ 414 419	[BOS]
+T5	Multi_summ 700 705	[BOS]
+T6	Narrative_cite 888 893	[BOS]
+T7	Transition 1091 1096	[BOS]
+T8	Narrative_cite 1251 1256	[BOS]
+T9	Transition 1448 1453	[BOS]
+T10	Narrative_cite 1550 1555	[BOS]
+T11	Reference 105 125	Delger et al., 2016)
+T12	Reference 389 411	Miwa and Bansal, 2016)
+T13	Dominant 420 441	Bunescu et al. (2005)
+T14	Dominant 750 766	(Xu et al., 2015
+T15	Dominant 768 785	Liu et al., 2015)
+T16	Reference 963 981	(Zhou et al., 2016
+T17	Reference 983 1000	Lin et al., 2016)
+T18	Reference 1356 1375	(Peng et al., 2017)
+T19	Reference 1393 1414	(Verga et al., 2018 )
+T20	Reference 1427 1445	(Sahu et al., 2019
+T21	Reference 1679 1697	(Yao et al., 2019)
+T23	Pronoun 517 522	their
+T24	Pronoun 716 720	this
+T25	Pronoun 1471 1476	these
+T26	B_span 6 8	In
+T22	E_span 120 124	2016
+T27	B_span 324 334	linguistic
+T28	E_span 406 410	2016
+T29	B_span 420 427	Bunescu
+T30	E_span 687 698	information
+T31	B_span 734 741	several
+T32	E_span 878 886	networks
+T33	B_span 926 935	attention
+T34	E_span 995 999	2016
+T35	B_span 1344 1349	Graph
+T36	E_span 1370 1374	2017
+T37	B_span 1378 1382	self
+T38	E_span 1408 1412	2018
+T39	B_span 1416 1421	Graph
+T40	E_span 1441 1445	2019
+T41	B_span 1634 1639	intra
+T42	E_span 1692 1696	2019

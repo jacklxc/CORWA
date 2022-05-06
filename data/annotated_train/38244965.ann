@@ -1,0 +1,62 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 275 280	[BOS]
+T3	Narrative_cite 554 559	[BOS]
+T4	Narrative_cite 786 791	[BOS]
+T5	Narrative_cite 1011 1016	[BOS]
+T6	Narrative_cite 1344 1349	[BOS]
+T7	Narrative_cite 1513 1518	[BOS]
+T8	Narrative_cite 1745 1750	[BOS]
+T9	Transition 1931 1936	[BOS]
+T10	Single_summ 2071 2076	[BOS]
+T11	Reflection 2229 2234	[BOS]
+T12	Reflection 2362 2367	[BOS]
+T13	Reference 342 367	(Durrett and DeNero, 2013
+T14	Reference 369 389	Ahlberg et al., 2014
+T15	Reference 391 411	Nicolai et al., 2015
+T16	Reference 413 434	Faruqui et al., 2016)
+T17	Reference 648 672	(Cotterell et al., 2016)
+T18	Reference 712 732	(Surez et al., 2005)
+T19	Reference 757 783	(Dreyer and Eisner, 2009 )
+T20	Reference 886 910	(Cotterell et al., 2016)
+T21	Reference 1099 1128	(Alegria and Etxeberria, 2016
+T22	Reference 1130 1150	Nicolai et al., 2016
+T23	Reference 1152 1170	Liu and Mao, 2016)
+T24	Reference 1199 1221	(Kann and Schtze, 2016
+T25	Reference 1223 1243	Aharoni et al., 2016
+T26	Reference 1245 1258	stling, 2016)
+T27	Reference 1307 1325	(Taji et al., 2016
+T28	Reference 1327 1341	Sorokin, 2016)
+T29	Reference 1420 1443	(Kann and Schtze, 2016)
+T30	Reference 1657 1683	(Konstas and Lapata, 2012)
+T31	Reference 1796 1818	(Duek and Jurek, 2013)
+T32	Dominant 2090 2114	Durret and DeNero (2013)
+T33	Reference 2515 2537	(Gkatzia et al., 2014)
+T34	Pronoun 1017 1021	This
+T35	Pronoun 1691 1695	they
+T36	Pronoun 1754 1758	this
+T37	B_span 304 314	supervised
+T38	E_span 429 433	2016
+T39	B_span 624 633	morphemes
+T40	E_span 667 671	2016
+T41	B_span 675 690	morphosyntactic
+T42	E_span 727 731	2005
+T43	B_span 740 749	graphical
+T44	E_span 777 781	2009
+T45	B_span 858 868	SIGMORPHON
+T46	E_span 905 909	2016
+T47	B_span 1079 1084	align
+T48	E_span 1165 1169	2016
+T49	B_span 1173 1182	recurrent
+T50	E_span 1253 1257	2016
+T51	B_span 1266 1284	linguisticinspired
+T52	E_span 1336 1340	2016
+T53	B_span 1359 1368	recurrent
+T54	E_span 1508 1510	98
+T55	B_span 1628 1634	phrase
+T56	E_span 1678 1682	2012
+T57	B_span 1768 1771	our
+T58	E_span 1813 1817	2013
+T59	B_span 2090 2096	Durret
+T60	E_span 2222 2226	verb
+T61	B_span 2494 2498	data
+T62	E_span 2532 2536	2014

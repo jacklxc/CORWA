@@ -1,0 +1,24 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 109 114	[BOS]
+T3	Single_summ 322 327	[BOS]
+T4	Multi_summ 465 470	[BOS]
+T5	Single_summ 765 770	[BOS]
+T6	Single_summ 879 884	[BOS]
+T7	Dominant 115 133	Chen et al. (2015)
+T8	Dominant 328 354	Nguyen and Grishman (2015)
+T9	Dominant 496 517	Ghaeini et al. (2016)
+T10	Dominant 598 615	Liu et al. (2016)
+T11	Dominant 771 789	Peng et al. (2016)
+T12	Pronoun 648 650	it
+T13	Pronoun 888 893	their
+T14	Pronoun 904 908	they
+T15	B_span 115 119	Chen
+T16	E_span 313 320	results
+T17	B_span 328 334	Nguyen
+T18	E_span 457 463	system
+T19	B_span 496 503	Ghaeini
+T20	E_span 582 592	embeddings
+T21	B_span 598 601	Liu
+T22	E_span 758 763	model
+T23	B_span 771 775	Peng
+T24	E_span 1051 1059	ontology

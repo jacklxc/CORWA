@@ -1,0 +1,23 @@
+[BOS] Semantic parsing is the task of mapping natural language sentences into formal representations.
+[BOS] It has been studied for decades including using linguistically-motivated compositional representations, such as logical forms (Zelle and Mooney, 1996; Clarke et al., 2010) and lambda calculus (Zettlemoyer and Collins, 2005; Artzi and Zettlemoyer, 2011) , and using executable programs, such as SQL queries (Miller et al., 1996; Zhong et al., 2017) and other general-purpose programming languages (Yin and Neubig, 2017; .
+[BOS] Most of the early studies worked on a few domains and small datasets such as GeoQuery (Zelle and Mooney, 1996) and Overnight (Wang et al., 2015) .
+
+[BOS] Recently, large and cross-domain text-to-SQL datasets such as WikiSQL (Zhong et al., 2017) and Spider (Yu et al., 2018c) have received an increasing amount of attention as many data-driven neural approaches achieve promising results (Dong and Lapata, 2016; Su and Yan, 2017; Iyer et al., 2017; Xu et al., 2017; Finegan-Dollak et al., 2018; Yu et al., 2018a; Huang et al., 2018; Dong and Lapata, 2018; Guo et al., 2018; Shi et al., 2018) .
+[BOS] Most of them still focus on context-independent semantic parsing by converting single-turn questions into executable queries.
+
+[BOS] Relatively less effort has been devoted to context-dependent semantic parsing on datasets including ATIS (Hemphill et al., 1990; Dahl et al., 1994b) , SpaceBook (Vlachos and Clark, 2014) , SCONE (Long et al., 2016; Guu et al., 2017; Fried et al., 2018; Huang et al., 2019) , SequentialQA (Iyyer et al., 2017) , SParC (Yu et al., 2019b) and CoSQL (Yu et al., 2019a) .
+[BOS] On ATIS, Miller et al. (1996) maps utterances to semantic frames which are then mapped to SQL queries; Zettlemoyer and Collins (2009) starts with context-independent Combinatory Categorial Grammar (CCG) parsing and then resolves references to generate lambda-calculus logical forms for sequences of sentences.
+[BOS] The most relevant to our work is , who generate ATIS SQL queries from interactions by incorporating history with an interaction-level encoder and copying segments of previously generated queries.
+[BOS] Furthermore, SCONE contains three domains using stack-or list-like elements and most queries include a single binary predicate.
+[BOS] Se-quentialQA is created by decomposing some complicated questions in WikiTableQuestions (Pasupat and Liang, 2015) .
+[BOS] Since both SCONE and Se-quentialQA are annotated with only denotations but not query labels, they don't include many questions with rich semantic and contextual types.
+[BOS] For example, SequentialQA (Iyyer et al., 2017) requires that the answer to follow-up questions must be a subset of previous answers, and most of the questions can be answered by simple SQL queries with SELECT and WHERE clauses.
+
+[BOS] Concurrent with our work, Yu et al. (2019a) introduced CoSQL, a large-scale cross-domain conversational text-to-SQL corpus collected under the Wizard-of-Oz setting.
+[BOS] Each dialogue in CoSQL simulates a DB querying scenario with a crowd worker as a user and a college computer science student who is familiar with SQL as an expert.
+[BOS] Question-SQL pairs in CoSQL reflect greater diversity in user backgrounds compared to other corpora and involve frequent changes in user intent between pairs or ambiguous questions that require user clarification.
+[BOS] These features pose new chal-lenges for text-to-SQL systems.
+
+[BOS] Our work is also related to recently proposed approaches to code generation by editing (Hayati et al., 2018; Yin et al., 2019; Hashimoto et al., 2018) .
+[BOS] While they follow the framework of generating code by editing the relevant examples retrieved from training data, we focus on a contextdependent setting where we generate queries from the previous query predicted by the system itself.
+

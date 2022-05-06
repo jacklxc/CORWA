@@ -1,0 +1,5 @@
+[BOS] To the best of our knowledge, the only work to have addressed the stance classification in tweets is that of Rajadesingan and Liu (2014) , who specifically tackle the data sparseness problem using a semi-supervised approach based on label propagation.
+[BOS] Wiebe (2009) and (2010) address stance detection in two-sided debates using supervised models with opinion-target pairs, as well as sentiment and argumentation trigger words as features.
+[BOS] Anand et al. (2011) address the same domain, but also consider the dialogical properties of debates by identifying the rebuttals between posts, while Sridhar et al. (2015) consider the joint stance classification of posts and relations among them.
+[BOS] Hasan and Ng (2014) combine stance classification with reason classification in a joint learning framework.
+

@@ -1,0 +1,25 @@
+[BOS] MMT: Approaches to MMT vary with regards to how they represent images and how they incorporate this information in the models.
+[BOS] Initial approaches use RNN-based sequence to sequence models (Bahdanau et al., 2015) enhanced with a single, global image vector, extracted as one of the layers of a CNN trained for object classification (He et al., 2016) , often the penultimate or final layer.
+
+[BOS] The image representation is integrated into the MT models by initialising the encoder or decoder (Elliott et al., 2015; Caglayan et al., 2017; Madhyastha et al., 2017) ; element-wise multiplication with the source word annotations (Caglayan et al., 2017) ; or projecting the image representation and encoder context to a common space to initialise the decoder .
+[BOS] Elliott and Kdr (2017) and Helcl et al. (2018) instead model the source sentence and reconstruct the image representation jointly via multi-task learning.
+
+[BOS] An alternative way of exploring image representations is to have an attention mechanism (Bahdanau et al., 2015) on the output of the last convolutional layer of a CNN (Xu et al., 2015) .
+[BOS] The layer represents the activation of K different convolutional filters on evenly quantised N  N spatial regions of the image.
+[BOS] Caglayan et al. (2017) Helcl et al. (2018) is the closest to our work: we also use a doubly-attentive transformer architecture and explore spatial visual information.
+[BOS] However, we differ in two main aspects (Section 3): (i) our approach explores additional textual context through a second pass decoding process and uses visual information only at this stage, and (ii) in addition to convolutional filters we use objectlevel visual information.
+[BOS] The latter has only been explored to generate a single global representation (Grnroos et al., 2018) and used for example to initialise the encoder (Huang et al., 2016) .
+[BOS] We note that translation refinement is different translation re-ranking from a text-only model based on image representation (Shah et al., 2016; Hitschler et al., 2016; , since the latter assumes that the correct translation can already be produced by a text-only model.
+[BOS] Caglayan et al. (2019) investigate the importance and the contribution of multimodality for MMT.
+[BOS] They perform careful experiments by using input degradation and observe that, specially under limited textual context, multimodal models exploit the visual input to generate better translations.
+[BOS] Caglayan et al. (2019) also show that MMT systems exploit visual cues and obtain correct translations even with typographical errors in the source sentences.
+[BOS] In this paper, we build upon this idea and investigate the potential of visual cues for refining translation.
+
+[BOS] Translation refinement: The idea of treating machine translation as a two step approach dates back to statistical models, e.g. in order to improve a draft sentence-level translation by exploring document-wide context through hill-climbing for local refinements (Hardmeier et al., 2012) .
+[BOS] Iterative refinement approaches have also been proposed that start with a draft translation and then predict discrete substitutions based on an attention mechanism (Novak et al., 2016) , or using nonautoregressive methods with a focus on speeding up decoding (Lee et al., 2018) .
+[BOS] Translation refinement can also be done through learning a separate model for automatic post-editing (Niehues et al., 2016; Junczys-Dowmunt and Grundkiewicz, 2017; Chatterjee et al., 2018) , but this requires additional training data with draft translations and their correct version.
+
+[BOS] An interesting approach is that of deliberation networks, which jointly train an encoder and first and second stage decoders (Xia et al., 2017) .
+[BOS] The second stage decoder has access to both left and right side context and this has been shown to improve translation (Xia et al., 2017; .
+[BOS] We follow this approach as it offers a very flexible framework to incorporate additional information in the second stage decoder.
+

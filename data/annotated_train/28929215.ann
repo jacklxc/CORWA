@@ -1,0 +1,48 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 55 60	[BOS]
+T3	Transition 214 219	[BOS]
+T4	Single_summ 319 324	[BOS]
+T5	Reflection 453 458	[BOS]
+T6	Narrative_cite 533 538	[BOS]
+T7	Single_summ 715 720	[BOS]
+T8	Reflection 827 832	[BOS]
+T9	Transition 896 901	[BOS]
+T10	Narrative_cite 923 928	[BOS]
+T11	Narrative_cite 1102 1107	[BOS]
+T12	Narrative_cite 1276 1281	[BOS]
+T13	Transition 1446 1451	[BOS]
+T14	Reference 101 118	Cho et al. (2014)
+T15	Reference 123 146	Sutskever et al. (2014)
+T16	Reference 189 211	Bahdanau et al. (2015)
+T17	Dominant 325 344	Luong et al. (2015)
+T18	Reference 634 655	(Johnson et al., 2016
+T19	Reference 657 674	Dong et al., 2015
+T20	Reference 676 694	Firat et al., 2016
+T21	Reference 696 712	Ha et al., 2016)
+T22	Dominant 721 744	Alonso and Plank (2016)
+T23	Reference 1011 1036	(Cotterell et al., , 2017
+T24	Reference 1225 1250	(Durrett and DeNero, 2013
+T25	Reference 1252 1273	Nicolai et al., 2015)
+T26	Reference 1347 1368	(Faruqui et al., 2016
+T27	Reference 1370 1391	Kann and Schtze, 2016
+T28	Reference 1393 1419	Aharoni and Goldberg, 2017
+T29	Reference 1421 1443	Zhou and Neubig, 2017)
+T30	Pronoun 25 27	it
+T31	Pronoun 293 295	it
+T32	B_span 61 68	Encoder
+T33	E_span 141 145	2014
+T34	B_span 166 175	attention
+T35	E_span 206 210	2015
+T36	B_span 325 330	Luong
+T37	E_span 443 451	decoders
+T38	B_span 565 570	multi
+T39	E_span 707 711	2016
+T40	B_span 721 727	Alonso
+T41	E_span 814 825	performance
+T42	Reference 988 1010	Cotterell et al., 2016
+T43	B_span 967 975	paradigm
+T44	E_span 1032 1036	2017
+T45	B_span 1207 1211	semi
+T46	E_span 1268 1272	2015
+T47	B_span 1292 1298	neural
+T48	E_span 1438 1442	2017

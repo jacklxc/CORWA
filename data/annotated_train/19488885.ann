@@ -1,0 +1,69 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 281 286	[BOS]
+T3	Narrative_cite 483 488	[BOS]
+T4	Narrative_cite 636 641	[BOS]
+T5	Narrative_cite 937 942	[BOS]
+T6	Narrative_cite 1204 1209	[BOS]
+T7	Narrative_cite 1482 1487	[BOS]
+T8	Narrative_cite 1648 1653	[BOS]
+T9	Single_summ 1857 1862	[BOS]
+T10	Single_summ 1943 1948	[BOS]
+T11	Single_summ 2142 2147	[BOS]
+T12	Single_summ 2218 2223	[BOS]
+T13	Reference 178 202	(Toutanova et al., 2005)
+T14	Reference 252 278	(Finkel and Manning, 2009)
+T15	Reference 415 436	(Blitzer et al., 2006
+T16	Reference 438 453	Daume III, 2007
+T17	Reference 455 480	Ziser and Reichart, 2017)
+T18	Reference 588 610	(McClosky et al., 2010
+T19	Reference 612 632	Baucom et al., 2013)
+T20	Reference 768 787	(Ammar et al., 2016
+T21	Reference 789 806	Guo et al., 2016)
+T22	Reference 833 853	(Duong et al., 2017)
+T23	Reference 890 914	(Herzig and Berant, 2017
+T24	Reference 916 933	Fan et al., 2017)
+T25	Reference 1087 1110	(Bohnet and Nivre, 2012
+T26	Reference 1112 1134	Zhang and Weiss, 2016)
+T27	Reference 1163 1188	(Constant and Nivre, 2016
+T28	Reference 1190 1201	More, 2016)
+T29	Reference 1374 1397	(Collobert et al., 2011
+T30	Reference 1399 1422	Hashimoto et al., 2017)
+T31	Reference 1603 1625	(Surdeanu et al., 2008
+T32	Reference 1627 1645	Haji et al., 2009)
+T33	Reference 1759 1781	Henderson et al., 2013
+T34	Reference 1783 1801	Lewis et al., 2015
+T35	Reference 1828 1854	Swayamdipta et al., , 2017
+T36	Dominant 1863 1882	Peng et al. (2017a)
+T37	Dominant 2234 2252	Peng et al. (2018)
+T38	Pronoun 1662 1667	their
+T39	Pronoun 1949 1953	They
+T40	Pronoun 2163 2167	they
+T41	B_span 155 163	semantic
+T42	E_span 197 201	2005
+T43	B_span 209 214	joint
+T44	E_span 273 277	2009
+T45	B_span 397 403	domain
+T46	E_span 475 479	2017
+T47	B_span 553 559	parser
+T48	E_span 627 631	2013
+T49	B_span 726 738	multilingual
+T50	E_span 801 805	2016
+T51	B_span 820 832	multilingual
+T52	E_span 848 852	2017
+T53	B_span 860 865	cross
+T54	E_span 928 932	2017
+T55	B_span 1075 1078	POS
+T56	E_span 1129 1133	2016
+T57	B_span 1141 1145	with
+T58	E_span 1196 1200	2016
+T59	B_span 1354 1360	single
+T60	E_span 1417 1421	2017
+T61	B_span 1580 1583	two
+T62	E_span 1640 1644	2009
+T63	B_span 1741 1749	pipeline
+T65	Reference 1803 1827	Swayamdipta et al., 2016
+T66	E_span 1850 1854	2017
+T64	B_span 1863 1867	Peng
+T67	E_span 2210 2216	points
+T68	B_span 2224 2232	Recently
+T69	E_span 2391 2403	improvements

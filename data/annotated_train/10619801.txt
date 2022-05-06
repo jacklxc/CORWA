@@ -1,0 +1,17 @@
+[BOS] The work most related to this paper is (Madaan et al., 2016) , which focuses on extracting relation triples where one of the arguments is a number.
+[BOS] In contrast, our work deals with multiple variables and complex equations involving them.
+[BOS] There has been a lot of recent work in automatic math word problem solving Roy et al., 2015; Hosseini et al., 2014; Roy and Roth, 2015) .
+[BOS] These solvers cannot handle sentences individually.
+[BOS] They require the input to be a complete math word problem, and even then, they only focus on retrieving a set of answer values without mentioning what each answer value corresponds to.
+[BOS] Our work is also conceptually related to work on semantic parsing -mapping natural language text to a formal meaning representation (Wong and Mooney, 2007; Clarke et al., 2010; Cai and Yates, 2013; Kwiatkowski et al., 2013; Goldwasser and Roth, 2011) .
+[BOS] However, as mentioned earlier, there are some significant differences in the task definition that necessitate the development of a new approach.
+
+[BOS] Equation parsing takes as input a sentence x describing a single mathematical equation, comprising one or two variables and other quantities mentioned in x.
+[BOS] Let N be the set of noun phrases in the sentence x.
+[BOS] The output of the task is the mathematical equation described in x, along with a mapping of each variable in the equation to its corresponding noun phrase in N .
+[BOS] We refer to this mapping as the "grounding" of the variable; the noun phrase represents what the variable stands for in the equation.
+[BOS] Table 1 gives an example of an input and output for the equation parsing of the text in example 2.
+[BOS] Since an equation can be written in various forms, we use the form which most agrees with text, as our target output.
+[BOS] So, for example 1, we will choose V 1 = 3  V 2 and not V 2 = V 1  3.
+[BOS] In cases where several equation forms seem to be equally likely to be the target equation, we randomly choose one of them, and keep this choice consistent across the dataset.
+

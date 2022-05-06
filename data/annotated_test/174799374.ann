@@ -1,0 +1,39 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 163 168	[BOS]
+T3	Multi_summ 395 400	[BOS]
+T4	Narrative_cite 748 753	[BOS]
+T5	Narrative_cite 966 971	[BOS]
+T6	Narrative_cite 1263 1268	[BOS]
+T7	Single_summ 1610 1615	[BOS]
+T8	Dominant 401 420	Gamon et al. (2008)
+T9	Dominant 422 459	Matthieu Hermet and Szpakowicz (2008)
+T10	Dominant 464 480	Yi et al. (2008)
+T11	Reference 723 744	(Halevy et al., 2009)
+T12	Reference 841 861	(Park and Levy, 2011
+T13	Reference 863 887	Dahlmeier and Ng, 2012a)
+T14	Reference 1037 1053	(Ng et al., 2013
+T15	Reference 1140 1157	(Kao et al., 2013
+T16	Reference 1159 1181	Yoshimoto et al., 2013
+T17	Reference 1183 1200	Xing et al., 2013
+T18	Reference 1202 1219	Lee and Lee, 2014
+T19	Reference 1221 1260	Junczys-Dowmunt and Grundkiewicz, 2014)
+T20	Reference 1477 1515	(JunczysDowmunt and Grundkiewicz, 2016
+T21	Reference 1517 1532	Ji et al., 2017
+T22	Reference 1534 1550	Xie et al., 2016
+T23	Reference 1552 1580	Junczys-Dowmunt et al., 2018
+T24	Reference 1582 1607	Chollampatt and Ng, 2018)
+T25	Dominant 1625 1650	Bryant and Briscoe (2018)
+T26	B_span 401 406	Gamon
+T27	E_span 739 743	2009
+T28	B_span 832 835	GEC
+T29	E_span 881 886	2012a
+T30	B_span 1009 1014	CoNLL
+T31	E_span 1049 1053	2013
+T32	B_span 1077 1085	language
+T33	E_span 1255 1259	2014
+T35	B_span 1428 1431	LMs
+T36	E_span 1602 1606	2018
+T34	B_span 1625 1631	Bryant
+T37	E_span 1837 1845	training
+T38	B_span 708 717	annotated
+T39	E_span 739 743	2009

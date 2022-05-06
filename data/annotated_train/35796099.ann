@@ -1,0 +1,51 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 159 164	[BOS]
+T3	Reflection 352 357	[BOS]
+T4	Narrative_cite 498 503	[BOS]
+T5	Single_summ 802 807	[BOS]
+T6	Single_summ 962 967	[BOS]
+T7	Single_summ 1139 1144	[BOS]
+T8	Transition 1334 1339	[BOS]
+T9	Transition 1496 1501	[BOS]
+T10	Narrative_cite 1583 1588	[BOS]
+T11	Narrative_cite 1786 1791	[BOS]
+T12	Reference 135 156	(Bethard et al., 2015
+T13	Reference 619 647	(AAl Abdulsalam et al., 2016
+T14	Reference 649 667	Cohan et al., 2016
+T15	Reference 669 685	Lee et al., 2016
+T16	Reference 687 709	Tourille et al., 2016)
+T17	Reference 785 799	(Chikka, 2016)
+T18	Dominant 831 859	Leeuwenberg and Moens (2017)
+T19	Dominant 968 985	Lin et al. (2016)
+T20	Dominant 1145 1166	Dligach et al. (2017)
+T21	Reference 1243 1276	Hochreiter and Schmidhuber, 1997)
+T22	Reference 1636 1658	(Socher et al., , 2013
+T23	Reference 1759 1782	(Hashimoto et al., 2013
+T24	Reference 1835 1859	(dos Santos et al., 2015
+T25	Reference 1861 1879	Zeng et al., 2014)
+T26	Reference 2004 2026	(Miwa and Bansal, 2016
+T27	Reference 2028 2043	Xu et al., 2015
+T28	Reference 2045 2063	Zhou et al., 2016)
+T29	B_span 6 13	SemEval
+T30	E_span 152 156	2015
+T31	B_span 578 585	Support
+T32	E_span 704 708	2016
+T33	B_span 712 723	Conditional
+T34	E_span 794 798	2016
+T35	B_span 808 814	Beyond
+T36	E_span 951 960	relations
+T37	B_span 968 971	Lin
+T38	E_span 1127 1137	extraction
+T39	B_span 1145 1152	Dligach
+T40	E_span 1325 1331	corpus
+T41	B_span 1193 1197	CNNs
+T42	E_span 1271 1275	1997
+T43	Reference 1616 1635	Socher et al., 2011
+T44	B_span 1589 1598	Recursive
+T45	E_span 1654 1658	2013
+T46	B_span 1730 1738	semantic
+T47	E_span 1778 1782	2013
+T48	B_span 1792 1805	Convolutional
+T49	E_span 1874 1878	2014
+T50	B_span 1969 1973	long
+T51	E_span 2058 2062	2016

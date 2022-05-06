@@ -1,0 +1,34 @@
+[BOS] Natural Answer Generation with Sequence to Sequence Learning: Sequence to sequence models (with attention) have achieved successful results in many NLP tasks Bahdanau et al., 2014; Vinyals et al., 2015; See et al., 2017) .
+[BOS] Memory is an effective way to equip seq2seq systems with external information (Weston et al., 2014; Sukhbaatar et al., 2015; Miller et al., 2016; Kumar et al., 2015) .
+[BOS] GenQA (Yin et al., 2015 ) applies a seq2seq model to generate natural answer sentences from a knowledge base, and CoreQA (He et al., 2017b) extends it with copying mechanism (Gu et al., 2016) .
+[BOS] But they do not consider the heterogeneity of the memory, only tackle questions with one single answer word, and do not study information enrichment.
+[BOS] Memory and Attention: There are also increasing works focusing on different memory representations and the interaction between the decoder and memory, i.e., attention.
+[BOS] Miller et al. (2016) propose the Key-Value style memory to explore textual knowledge (both structured and unstructured) from different sources, but they still utilize them separately, without a uniform addressing and attention mechanism.
+[BOS] Daniluk et al. (2017) split the decoder states into key and value representation, and increase language modeling performance.
+[BOS] Multiple variants of attention mechanism have also been studied.
+[BOS] Sukhbaatar et al. (2015) introduce multi-hop attention, and extend it to convolutional sequence to sequence learning (Gehring et al., 2017) .
+[BOS] Kumar et al. (2015) further extend it by using a Gated Recurrent Unit (Chung et al., 2014) between hops.
+[BOS] These models show that multiple hops may increase the model's ability to reason.
+[BOS] These multi-hop attention is performed within a single homogeneous memory.
+[BOS] Our Cumulative Attention is inspired by them, but we utilize it cross different memory, hence can explicitly reason over different memory components.
+
+[BOS] Conditional Sentence Generation: Controllable sentence generation with external information is wildly studied from different views.
+[BOS] From the task perspective, Fan et al. (2017) utilize label information for generation, and tackle information coverage in a summarization task.
+[BOS] He et al. (2017a) use recursive Network to represent knowledge base, and Bordes and Weston (2016) track generation states and provide information enrichment, both are in a dialog setting.
+[BOS] In terms of network architecture, Wen et al. (2015) equip LSTM with a semantic control cell to improve informativeness of generated sentence.
+[BOS] Kiddon et al. (2016) propose the neural checklist model to explicitly track what has been mentioned and what left to say by splitting these two into different lists.
+[BOS] Our model is related to these models with respect to information representation and challenges from coverage and redundancy.
+[BOS] The most closely related one is the checklist model.
+[BOS] But it does not explicitly study information redundancy.
+[BOS] Also, the information we track is heterogeneous, and we track it in a different way, i.e. using Cumulative attention.
+
+[BOS] Due to loss of states across time steps, the decoder may generate duplicate outputs.
+[BOS] Attempts have been made to address this problem.
+[BOS] Some architectures try to utilize History attention records.
+[BOS] See et al. (2017) introduce a coverage mechanism, and Paulus et al. (2017) use history attention weights to normalize new attention.
+[BOS] Others are featured in network modules.
+[BOS] Suzuki and Nagata (2017) estimate the frequency of target words and record the occurrence.
+[BOS] Our model shows that simply attending to history decoder states can reduce redundancy.
+[BOS] Then we use the context vector of attention to history decoder states to perform attention to the memory.
+[BOS] Doing this enables the decoder to correctly decide what to say at memory addressing time, rather than decoding time, thus increasing answer coverage and information enrichment.
+

@@ -1,0 +1,25 @@
+[BOS] A lot of work has been done on the problem of automatic sentence alignment from comparable corpora, but a majority of them (Abdul-Rauf and Schwenk, 2009; Irvine and Callison-Burch, 2013; Yasuda and Sumita, 2008 ) use a pre-existing translation system as a precursor to ranking the candidate sentence pairs, which the low resource language pairs are not at the luxury of having; or use statistical machine learning approaches, where a Maximum Entropy classifier is used that relies on surface level features such as word overlap in order to obtain parallel sentence pairs (Munteanu and Marcu, 2005) .
+[BOS] However, the deep neural network model used in our paper is probably the first of its kind, which does not need any feature engineering and also does not need a pre-existing translation system.
+[BOS] Munteanu and Marcu (2005) proposed a parallel sentence extraction system which used comparable corpora from newspaper articles to extract the parallel sentence pairs.
+[BOS] In this procedure, a maximum entropy classifier is designed for all sentence pairs possible from the Cartesian product of a pair of documents and passed through a sentence-length ratio filter in order to obtain candidate sentence pairs.
+[BOS] SMT systems were trained on the extracted sentence pairs using the additional features from the comparable corpora like distortion and position of current and previously aligned sentences.
+[BOS] This resulted in a state of the art approach with respect to the translation performance of low resource languages.
+
+[BOS] Similar to our proposed approach, Barrn-Cedeo et al. (2015) showed how using parallel documents from Wikipedia for domain specific alignment would improve translation quality of SMT systems on in-domain data.
+[BOS] In this method, similarity between all pairs of cross-language sentences with different text similarity measures are estimated.
+[BOS] The issue of domain definition is overcome by the use of IR techniques which use the characteristic vocabulary of the domain to query a Lucene search engine over the entire corpus.
+[BOS] The candidate sentences are defined based on word overlap and the decision whether a sentence pair is parallel or not using the maximum entropy classifier.
+[BOS] The difference in the BLEU scores between out of domain and domain-specific translation is proved clearly using the word embeddings from characteristic vocabulary extracted using the extracted additional bitexts.
+
+[BOS] Abdul-Rauf and Schwenk (2009) extract parallel sentences without the use of a classifier.
+[BOS] Target language candidate sentences are found using the translation of source side comparable corpora.
+[BOS] Sentence tail removal is used to strip the tail parts of sentence pairs which differ only at the end.
+[BOS] This, along with the use of parallel sentences enhanced the BLEU score and helped to determine if the translated source sentence and candidate target sentence are parallel by measuring the word and translation error rate.
+[BOS] This method succeeds in eliminating the need for domain specific text by using the target side as a source of candidate sentences.
+[BOS] However, this approach is not feasible if there isn't a good source side translation system to begin with, like in our case.
+
+[BOS] Yet another approach which uses an existing translation system to extract parallel sentences from comparable documents was proposed by Yasuda and Sumita (2008) .
+[BOS] They describe a framework for machine translation using multilingual Wikipedia articles.
+[BOS] The parallel corpus is assembled iteratively, by using a statistical machine translation system trained on a preliminary sentence-aligned corpus, to score sentence-level en-jp BLEU scores.
+[BOS] After filtering out the unaligned pairs based on the MT evaluation metric, the SMT is retrained on the filtered pairs.
+

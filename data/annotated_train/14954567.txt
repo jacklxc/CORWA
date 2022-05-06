@@ -1,0 +1,25 @@
+[BOS] Joint models were often used in semantic role labeling community.
+[BOS] Toutanova et al. (2008) and Punyakanok et al. (2008) presented a re-ranking model and an integer linear programming model respectively to jointly learn a global optimal semantic roles assignment.
+[BOS] Besides jointly learning semantic role assignment of different constituents for one task (semantic role labeling), their methods have been used to jointly learn for two tasks (semantic role labeling and syntactic parsing).
+[BOS] However, it is easy for the re-ranking model to loss the optimal result, if it is not included in the top n results.
+[BOS] In addition, the integer linear programming model can only use hard constraints.
+[BOS] A lot of engineering work is also required in both models.
+
+[BOS] Recently, Markov logic (Domingos and Lowd, 2009 ) became a hot framework for joint model.
+[BOS] It has been successfully used in temporal relations recognition (Yoshikawa et al., 2009 ), co-reference resolution (Poon and Domingos, 2008) , etc.
+[BOS] It is very easy to do joint modeling using Markov logic.
+[BOS] The only work is to define relevant formulas.
+[BOS] Meza-Ruiz and Riedel (2009) have joined semantic role labeling and predicate senses disambiguation with Markov logic.
+
+[BOS] The above idea, that the predicate senses and the semantic role labeling can help each other, may be inspired by Haji et al. (2009 ), Surdeanu et al. (2008 , and Dang and Palmer (2005) .
+[BOS] They have shown that semantic role features are helpful to disambiguate verb senses and vice versa.
+
+[BOS] Besides predicate senses, Dahlmeier et al. (2009) proposed a joint model to maximize probability of the preposition senses and the semantic role of prepositional phrases.
+
+[BOS] Except for predicate and preposition senses, Che et al. (2010) explored all word senses for semantic role labeling.
+[BOS] They showed that all word senses can improve the semantic role labeling performance significantly.
+[BOS] However, the golden word senses were used in their experiments.
+[BOS] The results are still unknown when an automatic word sense disambiguation system is used.
+
+[BOS] In this paper, we not only use all word senses disambiguated by an automatic system, but also make the semantic role labeling results to help word sense disambiguation synchronously with a joint model.
+

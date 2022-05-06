@@ -1,0 +1,13 @@
+[BOS] Since QA models often exploit shortcuts to be accurate without really understanding questions and contexts, alternative evaluations have been proposed, consisting of solutions that mitigate known biases or propose separate diagnostic datasets.
+[BOS] Examples of the former include adding multiple images for which the answer to the same question is different (Goyal et al., 2017; , or questions for which an answer is not present (Rajpurkar et al., 2018) .
+[BOS] While useful, these do not take the relationship between predictions into account, and thus do not capture problems like the ones in Figure 1 .
+[BOS] Exceptions exist when trying to gauge robustness: Ribeiro et al. (2018) consider the robustness of QA models to automatically generated input rephrasings, while Shah et al. (2019) evaluate VQA models on crowdsourced rephrasings for robustness.
+[BOS] While important for evaluation, these efforts are orthogonal to our focus on consistency.
+
+[BOS] Various automatically generated diagnostic datasets have been proposed (Weston et al., 2015; Johnson et al., 2017) .
+[BOS] While these recognize the need to evaluate multiple capabilities, evaluation is still restricted to individual units and thus cannot capture inconsistencies between predictions, like predicting that an object is at the same time to the left and to the right of another object.
+[BOS] Furthermore, questions/contexts can be sufficiently artificial for models to reverse-engineer how the dataset was created.
+[BOS] An exception contemporaneous with our work is GQA (Hudson and Manning, 2019) , where real images are used, and metrics such as consistency (similar to our own) are used for a fraction of inputs.
+[BOS] Since questions are still synthetic, and "not as natural as other VQA datasets" (Hudson and Manning, 2019) , it remains to be seen whether models will overfit to the generation procedure or to the implications encoded (e.g. many are simple spatial rules such as "X to the left of Y implies Y to the right of X").
+[BOS] Their approach is complementary to ours -they provide implications for 54% of their synthetic dataset, while we generate different implications for 67% of human generated questions in VQA, and 73% of SQuAD questions.
+

@@ -1,0 +1,63 @@
+T1	Reflection 0 5	[BOS]
+T2	Transition 72 77	[BOS]
+T3	Single_summ 114 119	[BOS]
+T4	Multi_summ 323 328	[BOS]
+T5	Multi_summ 499 504	[BOS]
+T6	Transition 807 812	[BOS]
+T7	Transition 851 856	[BOS]
+T8	Transition 959 964	[BOS]
+T9	Single_summ 1072 1077	[BOS]
+T10	Multi_summ 1191 1196	[BOS]
+T11	Single_summ 1370 1375	[BOS]
+T12	Transition 1487 1492	[BOS]
+T13	Transition 1616 1621	[BOS]
+T14	Multi_summ 1711 1716	[BOS]
+T15	Multi_summ 1918 1923	[BOS]
+T16	Transition 2066 2071	[BOS]
+T17	Multi_summ 2128 2133	[BOS]
+T18	Transition 2365 2370	[BOS]
+T19	Single_summ 2466 2471	[BOS]
+T20	Dominant 220 244	, Mikolov et al. (2013b)
+T21	Dominant 337 359	Dinu and Baroni (2015)
+T22	Dominant 396 419	Faruqui and Dyer (2014)
+T23	Dominant 518 536	Xing et al. (2015)
+T24	Dominant 607 635	Artetxe et al. (2016) (2017)
+T25	Dominant 1092 1114	Hoshen and Wolf (2018)
+T26	Dominant 1202 1225	Aldarmaki et al. (2018)
+T27	Dominant 1230 1252	Artetxe et al. (2018a)
+T28	Dominant 1376 1395	Cao and Zhao (2018)
+T29	Dominant 1730 1750	Lample et al. (2018)
+T30	Dominant 1755 1775	Zhang et al. (2017a)
+T31	Dominant 1937 1957	Zhang et al. (2017b)
+T32	Dominant 2148 2178	Kementchedjhieva et al. (2018)
+T33	Dominant 2266 2282	Nakashole (2018)
+T34	Dominant 2482 2501	Alaux et al. (2018)
+T35	B_span 120 128	Inspired
+T36	E_span 321 322	.
+T37	B_span 337 340	Din
+T38	E_span 384 391	problem
+T39	B_span 396 399	Far
+T40	E_span 497 498	.
+T41	B_span 518 521	Xin
+T42	E_span 595 602	mapping
+T43	B_span 607 611	Arte
+T44	E_span 804 805	.
+T45	B_span 1092 1095	Hos
+T46	E_span 1189 1190	.
+T47	B_span 1197 1201	Both
+T48	E_span 1368 1369	.
+T49	B_span 1376 1379	Cao
+T51	B_span 1730 1734	Lamp
+T52	E_span 1916 1917	.
+T53	B_span 1937 1942	Zhang
+T54	E_span 2064 2065	.
+T55	B_span 2148 2151	Kem
+T56	E_span 2256 2261	space
+T57	B_span 2266 2269	Nak
+T58	E_span 2363 2364	.
+T60	E_span 2618 2619	.
+T61	Pronoun 6 10	This
+T62	Pronoun 1406 1410	this
+T63	Pronoun 1502 1507	these
+T64	E_span 1479 1485	method
+T50	B_span 2482 2487	Alaux

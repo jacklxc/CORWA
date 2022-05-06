@@ -1,0 +1,12 @@
+[BOS] Our work is based primarily on that of Jauhar et al's RETROFIT algorithm (Jauhar et al., 2015) , which is discussed at greater length in Section 3.
+[BOS] Below we discuss previous models for building sense embeddings.
+[BOS] (Reisinger and Mooney, 2010 ) learn a fixed number of sense vectors per word by clustering context vectors corresponding to individual occurrences of a word in a large corpus, then calculating the cluster centroids.
+[BOS] These centroids are the sense vectors.
+[BOS] (Huang et al., 2012 ) build a similar model using k-means clustering, but also incorporate global textual features into initial context vectors.
+[BOS] They compile the Stanford Contextual Word Similarity dataset (SCWS), which consists of over two thousand word pairs in their sentential context, along with a similarity score based on human judgments from zero to ten.
+[BOS] (Neelakantan et al., 2015) introduce an unsupervised modification of the skipgram model (Mikolov et al., 2013b) (Chen et al., 2014) first learn general word embeddings from the skip-gram model, then initialize sense embeddings based on the synsets and glosses of WN.
+[BOS] These embeddings are then used to identify relevant occurrences of each sense in a training corpus using simple-to-complex wordssense disambiguation (S2C WSD).
+[BOS] The skip-gram model is then trained directly on the disambiguated corpus.
+[BOS] (Rothe and Schtze, 2015) build a neural-network post-processing system called AutoExtend that takes word embeddings and learns embeddings for synsets and lexemes.
+[BOS] Their model is an autoencoder neural net with lexeme and synset embeddings as hidden layers, based on the intuition that a word is the sum of its lexemes and a synset is the sum of its lexemes.
+

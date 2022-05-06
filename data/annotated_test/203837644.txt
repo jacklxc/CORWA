@@ -1,0 +1,11 @@
+[BOS] Active learning has shown promising results on various tasks.
+[BOS] The commonly used uncertainty criteria (Lewis and Catlett, 1994; Culotta and Mc-Callum, 2005) is focused on selecting the samples on which the confidence of the model is low.
+[BOS] Among other notable approaches, in query by committee (Seung et al., 1992) a disagreement between a set of trained models on the predicted output of an unlabeled sample is the criterion for selecting what samples to label.
+
+[BOS] In a large empirical study, Lowell et al. (2019) have recently shown other limitations in active learning.
+[BOS] They investigate the performance of active learning across NLP tasks and model architectures, and demonstrate that it does not achieve consistent gains over supervised learning, mostly because the collected samples are beneficial to a specific model architecture, and does not yield better results than random selection when switching to a new architecture.
+
+[BOS] There has been little research regarding active learning of semantic representations.
+[BOS] Among the relevant work, Siddhant and Lipton (2018) have shown that uncertainty estimation using dropout and Bayes-By-Backprop (Blundell et al., 2015) achieves good results on the SRL formulation.
+[BOS] The improvements in performance due to LTAL approaches on various tasks (Konyushkova et al., 2017; Bachman et al., 2017; Fang et al., 2017; has raised the question whether learned policies can be applied also to the field of learning semantic representations.
+

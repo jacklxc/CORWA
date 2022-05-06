@@ -1,0 +1,20 @@
+[BOS] In the line of research closely related to our approach, neural models are used as additional features in vanilla phrase-based systems.
+[BOS] Examples include the work of (Devlin et al., 2014) , (JunczysDowmunt et al., 2016) , etc.
+[BOS] Such approaches have certain limitations: first, the search space of the model is still restricted by what can be produced using a phrase table extracted from parallel data based on word alignments.
+[BOS] Second, the organization of the search, in which only a limited target word history (e.g. 4 last target words) is available for each partial hypothesis, makes it difficult to integrate recurrent neural network LMs and translation models which take all previously generated target words into account.
+[BOS] That is why, for instance, the attention-based NMT models were usually applied only in rescoring (Peter et al., 2016) .
+
+[BOS] In (Stahlberg et al., 2017) , a two-step translation process is used, where in the first step a SMT translation lattice is generated, and in the second step the NMT decoder combines NMT scores with the Bayes-risk of the translations according to the lattice.
+[BOS] In contrast, we explicitly use phrasal translations and language model scores in an integrated search.
+
+[BOS] In (Arthur et al., 2016) , a statistical word lexicon is used to influence NMT hypotheses, also based on the attention mechanism.
+[BOS] (Glehre et al., 2015) combine target n-gram LM scores with NMT scores to find the best translation.
+[BOS] (He et al., 2016 ) also use a target LM, but add further SMT features such as word penalty and word lexica to the NMT beam search.
+[BOS] To the best of our knowledge, no previous work extends the beam search with phrasal translation hypotheses of PBMT, like we propose in this paper.
+
+[BOS] In (Tang et al., 2016) , the NMT decoder is modified to switch between using externally defined phrases and standard NMT word hypotheses.
+[BOS] However, only one target phrase per source phrase is considered, and the reported improvements are significant only when manually selected phrase pairs (mostly for rare named entities) are used.
+
+[BOS] Somewhat related to our work is the concept of coverage-based NMT (Tu et al., 2016) , where the model architecture is changed to explicitly account for source coverage.
+[BOS] In our work, we use a standard NMT architecture, but track coverage with accumulated attention weights.
+

@@ -1,0 +1,7 @@
+[BOS] Discourse parsing, especially in the form of RST parsing, has been the target of research over a long period of time, including pre-neural feature engi-neering approaches (Hernault et al., 2010; Feng and Hirst, 2012; Ji and Eisenstein, 2014) .
+[BOS] Two approaches have been proposed to construct discourse parses: (1) bottom-up construction, where EDU merge operations are applied to single units; and (2) transition parser approaches, where the discourse tree is constructed as a sequence of parser actions.
+[BOS] Neural sequence models have also been proposed.
+[BOS] In early work, Li et al. (2016a) applied attention in an encoder-decoder framework and slightly improved on a classical featureengineering approach.
+[BOS] The current state of the art is a neural transition-based discourse parser (Yu et al., 2018) which incorporates implicit syntax features obtained from a bi-affine dependency parser (Dozat and Manning, 2017) .
+[BOS] In this work, we employ this discourse parser to generate discourse representations.
+

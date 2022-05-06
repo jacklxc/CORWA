@@ -1,0 +1,37 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 169 174	[BOS]
+T3	Transition 287 292	[BOS]
+T4	Reflection 441 446	[BOS]
+T5	Narrative_cite 597 602	[BOS]
+T6	Transition 824 829	[BOS]
+T7	Single_summ 953 958	[BOS]
+T8	Single_summ 1139 1144	[BOS]
+T9	Single_summ 1250 1255	[BOS]
+T10	Single_summ 1438 1443	[BOS]
+T11	Single_summ 1574 1579	[BOS]
+T12	Narrative_cite 1676 1681	[BOS]
+T13	Reflection 1825 1830	[BOS]
+T14	Reference 264 284	(Poria et al., 2016)
+T15	Reference 685 705	(Young et al., 2018)
+T16	Dominant 986 1004	Wang et al. (2016)
+T17	Dominant 1271 1287	Ma et al. (2017)
+T18	Dominant 1444 1461	Tay et al. (2017)
+T19	Reference 1546 1564	Wang et al. (2016)
+T20	Dominant 1586 1602	Li et al. (2018)
+T21	Reference 1802 1821	(Tang et al., 2016b
+T22	B_span 246 252	aspect
+T23	E_span 279 283	2016
+T24	B_span 656 660	deep
+T25	E_span 700 704	2018
+T26	B_span 986 990	Wang
+T27	E_span 1233 1247	classification
+T28	B_span 1271 1273	Ma
+T29	E_span 1422 1436	representation
+T30	B_span 1444 1447	Tay
+T31	E_span 1568 1572	work
+T32	B_span 1546 1550	Wang
+T33	E_span 1559 1563	2016
+T34	B_span 1586 1588	Li
+T35	E_span 1659 1673	classification
+T36	B_span 1756 1760	deep
+T37	E_span 1816 1821	2016b

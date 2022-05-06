@@ -1,0 +1,8 @@
+[BOS] Early abstractive summarization efforts were either template-based (Wang and Cardie, 2013; Genest and Lapalme, 2011) or employed ILPbased sentence compression (Filippova, 2010; Berg-Kirkpatrick et al., 2011; Banerjee et al., 2015) .
+[BOS] With the advent of deep sequenceto-sequence models (Sutskever et al., 2014) , attention-based neural models have been proposed for long text summarization (Rush et al., 2015; Chopra et al., 2016) .
+[BOS] Recent approaches (Nallapati et al., 2017; See et al., 2017) have focused on larger datasets such as the CNN/DailyMail corpus (Hermann et al., 2015; .
+[BOS] introduced the ability to copy out-of-vocabulary words from the article to incorporate rarely seen words like names in the generated text.
+[BOS] Tu et al. (2016) included the concept of coverage, to prevent the models from repeating the same phrases while generating a sentence.
+[BOS] See et al. (2017) proposed a pointergenerator framework which incorporates these improvements, and also learns to switch between generating new words and copying them from the source article.
+[BOS] We use this pointer-generator framework as the underlying architecture.
+

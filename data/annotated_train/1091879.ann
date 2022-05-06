@@ -1,0 +1,36 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 287 292	[BOS]
+T3	Single_summ 487 492	[BOS]
+T4	Single_summ 684 689	[BOS]
+T5	Transition 784 789	[BOS]
+T6	Reflection 1031 1036	[BOS]
+T7	Narrative_cite 1283 1288	[BOS]
+T8	Reflection 1820 1825	[BOS]
+T9	Reference 90 110	Cherry and Lin, 2006
+T10	Reference 112 134	DeNero and Klein, 2007
+T11	Reference 136 152	Hermjackob, 2009
+T12	Reference 206 229	Burkett and Klein, 2008
+T13	Dominant 354 377	Huang and Knight (2006)
+T14	Dominant 493 516	Ambati and Lavie (2008)
+T15	Dominant 690 709	Wang et al., (2010)
+T16	Reference 1542 1563	(Fossum et al., 2008)
+T17	Reference 1657 1676	(Wang et al., 2010)
+T18	Reference 1800 1817	(Wu et al., 2011)
+T19	Pronoun 1837 1842	these
+T20	Pronoun 1848 1850	it
+T24	E_span 475 485	structures
+T25	B_span 493 499	Ambati
+T26	E_span 677 682	trees
+T27	B_span 690 694	Wang
+T28	E_span 778 782	tree
+T30	E_span 1812 1817	2011)
+T23	B_span 293 295	To
+T31	E_span 1558 1562	2008
+T33	E_span 1671 1675	2010
+T34	B_span 1784 1788	rule
+T21	B_span 67 76	syntactic
+T35	E_span 148 152	2009
+T36	B_span 183 192	alignment
+T37	E_span 225 229	2008
+T22	B_span 1521 1535	discriminative
+T29	B_span 1647 1656	alignment

@@ -1,0 +1,57 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 305 310	[BOS]
+T3	Reflection 361 366	[BOS]
+T4	Narrative_cite 546 551	[BOS]
+T5	Transition 806 811	[BOS]
+T6	Narrative_cite 977 982	[BOS]
+T7	Narrative_cite 1104 1109	[BOS]
+T8	Narrative_cite 1262 1267	[BOS]
+T9	Transition 1371 1376	[BOS]
+T10	Transition 1435 1440	[BOS]
+T11	Transition 1516 1521	[BOS]
+T12	Transition 1679 1684	[BOS]
+T13	Other 1741 1746	[BOS]
+T14	Other 1965 1970	[BOS]
+T15	Other 1988 1993	[BOS]
+T16	Other 2072 2077	[BOS]
+T17	Other 2110 2115	[BOS]
+T18	Other 2154 2159	[BOS]
+T19	Other 2255 2260	[BOS]
+T20	Other 2298 2303	[BOS]
+T21	Transition 2532 2537	[BOS]
+T22	Transition 2766 2771	[BOS]
+T23	Other 2810 2815	[BOS]
+T24	Transition 3244 3249	[BOS]
+T25	Reference 60 85	(Williams and Young, 2007
+T26	Reference 87 103	Wen et al., 2017
+T27	Reference 105 127	Williams et al., 2017)
+T28	Reference 165 190	(Bordes and Weston, 2017)
+T29	Reference 739 763	(Bordes and Weston, 2017
+T30	Reference 765 784	Liu and Perez, 2017
+T31	Reference 786 803	Seo et al., 2017)
+T33	Reference 1220 1241	(Vinyals et al., 2015
+T34	Reference 1243 1259	Gu et al., 2016)
+T35	Reference 1327 1344	See et al., 2017)
+T36	Pronoun 193 197	this
+T37	Pronoun 257 262	their
+T38	Pronoun 317 321	they
+T39	Pronoun 812 817	These
+T40	Pronoun 856 860	they
+T41	Pronoun 1110 1115	These
+T42	Pronoun 1128 1130	it
+T43	Pronoun 2130 2135	their
+T44	Pronoun 2317 2322	their
+T45	Pronoun 3250 3254	This
+T46	B_span 34 39	slot-
+T47	E_span 124 126	17
+T48	B_span 130 131	e
+T51	E_span 800 802	17
+T50	B_span 696 699	ret
+T32	Reference 1080 1100	Madotto et al., 2018
+T52	B_span 1039 1047	response
+T53	E_span 1097 1100	018
+T54	B_span 1194 1197	cop
+T55	E_span 1256 1258	16
+T56	B_span 1313 1318	summa
+T57	E_span 1341 1343	17
+T49	E_span 353 359	domain

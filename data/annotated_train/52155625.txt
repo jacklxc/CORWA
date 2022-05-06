@@ -1,0 +1,24 @@
+[BOS] Data augmentation has been widely adopted in computer vision and speech recognition (Krizhevsky et al., 2012; Ko et al., 2015) .
+[BOS] In image processing, label-preserving transformations such as tilting and flipping are used, but in NLP, finding such transformations that exactly preserve meanings is difficult.
+[BOS] Language data is discrete in nature, and minor perturbation may change the meaning.
+[BOS] Most commonly used techniques include word substitution (Fadaee et al., 2017) and paraphrasing (Dong et al., 2017) .
+[BOS] These methods may require heavy external resources, which can be difficult to apply across multiple languages and domains.
+
+[BOS] Recently, there has been a surging interest in adversarial training (Goodfellow et al., 2014) .
+[BOS] For text data, one class of methods generate adversarial examples by moving word embeddings along the opposite direction of the gradient of loss functions (Wu et al., 2017; Yasunaga et al., 2017) , hence small perturbation in the continuous space of word vectors.
+[BOS] Another class of methods aim to create genuinely new examples.
+[BOS] adds syntactic and semantic variations to training data based on grammar rules and thesaurus.
+[BOS] (Xie et al., 2017 ) add noises to data by blanking out or substituting words for language modeling.
+[BOS] (Yang et al., 2017 ) adopt a seq2seq model to generate questions based on paragraphs and answers into their generative adversarial framework.
+[BOS] One main difference between these methods and our approach is that, while adversarial training only manipulates training data, we in addition apply transformations to data at test time to help prediction.
+[BOS] This is closer to (Dong et al., 2017) in spirit.
+
+[BOS] We proposed a general method to improve dialog response selection through manipulating existing data that can be applied to different models.
+[BOS] Our results show that for both open-domain and task-oriented dialogues, and for both English and Chinese languages, at least one of the proposed augmentation methods is effective, and the chance that they hurt is rare.
+[BOS] We have deliberately chosen a diverse set of domains and models to test this on to try to understand the contribution of data augmentation.
+[BOS] Thus even when working on new datasets, and new models, it seems data augmentation is still a valuable addition that will likely improve results.
+[BOS] Being more specific about when augmentation works is harder.
+[BOS] One future research direction would be to apply data transformation situationally based on the discourse structure of dialogs.
+[BOS] In our experiments, we tried combining permutation and flipping but found no advantage over using only one type of transformation.
+[BOS] We believe a more sophisticated method of combination could further improve the results, and leave it to future work.
+

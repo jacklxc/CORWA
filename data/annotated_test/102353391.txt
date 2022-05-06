@@ -1,0 +1,14 @@
+[BOS] A simple (and yet effective) baseline for zero-shot translation is pivoting that chain-translates, first to a pivot language, then to a target (Cohn and Lapata, 2007; Wu and Wang, 2007; Utiyama and Isahara, 2007) .
+[BOS] Despite being a pipeline, pivoting gets better as the supervised models improve, which makes it a strong baseline in the zero-shot setting.
+[BOS] Cheng et al. (2017) proposed a joint pivoting learning strategy that leads to further improvements.
+[BOS] Lu et al. (2018) and Arivazhagan et al. (2018) proposed different techniques to obtain "neural interlingual" representations that are passed to the decoder.
+[BOS] Sestorain et al. (2018) proposed another fine-tuning technique that uses dual learning (He et al., 2016) , where a language model is used to provide a signal for fine-tuning zero-shot directions.
+
+[BOS] Another family of approaches is based on distillation (Hinton et al., 2014; Kim and Rush, 2016) .
+[BOS] Along these lines, Firat et al. (2016b) proposed to fine tune a multilingual model to a specified zeroshot-direction with pseudo-parallel data and Chen et al. (2017) proposed a teacher-student framework.
+[BOS] While this can yield solid performance improvements, it also adds multi-staging overhead and often does not preserve performance of a single model on the supervised directions.
+[BOS] We note that our approach (and agreement-based learning in general) is somewhat similar to distillation at training time, which has been explored for large-scale single-task prediction problems (Anil et al., 2018) .
+
+[BOS] A setting harder than zero-shot is that of fully unsupervised translation (Ravi and Knight, 2011; Artetxe et al., 2017; Lample et al., 2017 Lample et al., , 2018 in which no parallel data is available for training.
+[BOS] The ideas proposed in these works (e.g., bilingual dictionaries (Conneau et al., 2017) , backtranslation (Sennrich et al., 2015a ) and language models (He et al., 2016) ) are complementary to our approach, which encourages agreement among different translation directions in the zero-shot multilingual setting.
+

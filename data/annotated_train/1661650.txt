@@ -1,0 +1,16 @@
+[BOS] Making grammars re-usable for new languages is a goal also followed by (Ranta, 2004 ) via a "Grammatical Frame-work" (GF), a type-theoretic grammar formalism that addresses four aspects of grammars: multilinguality, semantics, modularity and grammar engineering, and re-use of grammars in different formats and as software components.
+[BOS] In (Johannson, 2006) GF was used to globalize and localize a Swedish grammar for dialogue system utterances to obtain a set of grammars for Swedish, Spanish and English.
+
+[BOS] In (Perera and Ranta, 2007) GF was used for spoken dialogue system grammar localization, porting the English SAMMIE speech recognition grammar 2 to GF and then introducing multilinguality, thus creating GF grammars for English, Finnish, French, German, Spanish and Swedish.
+[BOS] This produced a second German SAMMIE grammar that was compared to the original one, however, the German GF SAMMIE grammar did not match the coverage of the original German SAMMIE grammar.
+[BOS] MedSLT (Buillon et al., 2007 ) is a grammar-based medical speech translation system.
+[BOS] The system supports simple medical examination dialogues about throat pain between an English-speaking physician and a Spanish-speaking patient.
+[BOS] General feature grammar resources from the REGU-LUS toolkit (Rayner et al., 2006) are compiled into flatter, domain specific grammars, translation is realized via an interlingua.
+[BOS] Alignment Based Learning (ABL) by (van Zaanen, 2000) is an unsupervised grammar induction system based on the idea of substitutability.
+[BOS] It can be applied to an untagged corpus of natural language sentences and produces a bracketed version of that corpus.
+[BOS] By clustering and selecting the bracketing hypotheses, a grammar is induced which covers the original corpus of sentences plus more similar sentences.
+[BOS] Our approach is different from both GF and MedSLT in the respect that we do not use resource grammars.
+[BOS] Even though resource grammars and the idea of re-using grammars is attractive, we wanted to implement a simple solution to the localization problem that does not rely on the introduction of a framework that requires ample resources in turn.
+[BOS] Compared to ABL, our approach requires more resources -the generated sentences, their translations, and the source grammar production rules compared to a monolingual text corpus of the target language only.
+[BOS] On the other hand, the grammar which we induce is used for natural language interpretation, whereas ABL can so far only create a grammar that determines if a given sentence is covered by the grammar or not.
+

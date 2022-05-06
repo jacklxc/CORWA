@@ -1,0 +1,62 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 29 34	[BOS]
+T3	Narrative_cite 201 206	[BOS]
+T4	Narrative_cite 464 469	[BOS]
+T5	Single_summ 620 625	[BOS]
+T6	Single_summ 788 793	[BOS]
+T7	Single_summ 899 904	[BOS]
+T8	Transition 1009 1014	[BOS]
+T9	Multi_summ 1055 1060	[BOS]
+T10	Single_summ 1351 1356	[BOS]
+T11	Single_summ 1528 1533	[BOS]
+T12	Single_summ 1615 1620	[BOS]
+T13	Single_summ 1860 1865	[BOS]
+T14	Single_summ 1978 1983	[BOS]
+T15	Single_summ 2049 2054	[BOS]
+T16	Single_summ 2161 2166	[BOS]
+T17	Single_summ 2286 2291	[BOS]
+T18	Transition 2419 2424	[BOS]
+T19	Reference 133 154	(Vinyals and Le, 2015
+T20	Reference 156 177	Sordoni et al., 2015b
+T21	Reference 179 198	Shang et al., 2015)
+T22	Reference 260 282	(Sordoni et al., 2015a
+T23	Reference 284 305	Serban et al., , 2017
+T24	Reference 555 575	(Bowman et al., 2016
+T25	Reference 577 595	Zhang et al., 2016
+T26	Reference 597 617	Serban et al., 2017)
+T27	Dominant 642 663	(Serban et al., 2017)
+T28	Dominant 905 923	Zhao et al. (2017)
+T29	Dominant 1145 1165	(Bowman et al., 2016
+T30	Dominant 1167 1186	Serban et al., 2017
+T31	Dominant 1188 1206	Zhao et al., 2017)
+T32	Dominant 1366 1386	Bowman et al. (2016)
+T33	Dominant 1621 1639	Chen et al. (2017)
+T34	Dominant 2055 2073	Zhao et al. (2017)
+T35	Pronoun 794 798	This
+T36	Pronoun 811 813	it
+T37	Pronoun 1534 1538	They
+T38	Pronoun 1575 1579	this
+T39	Pronoun 1650 1654	this
+T40	Pronoun 1866 1870	They
+T41	Pronoun 1993 1998	their
+T42	Pronoun 2176 2180	they
+T43	Pronoun 2296 2300	this
+T44	Pronoun 2323 2325	it
+T45	B_span 92 95	RNN
+T46	E_span 193 197	2015
+T47	B_span 207 219	Hierarchical
+T48	E_span 301 305	2017
+T49	B_span 537 545	language
+T50	E_span 612 616	2017
+T51	B_span 626 629	The
+T52	E_span 885 897	conversation
+T53	B_span 905 909	Zhao
+T54	E_span 993 1006	conversations
+T55	B_span 1061 1064	For
+T56	E_span 1348 1349	z
+T57	B_span 1366 1372	Bowman
+T58	E_span 1609 1613	drop
+T59	B_span 1621 1625	Chen
+T60	E_span 2041 2047	domain
+T61	B_span 2055 2059	Zhao
+T62	E_span 2411 2417	length

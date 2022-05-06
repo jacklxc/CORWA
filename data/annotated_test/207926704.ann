@@ -1,0 +1,13 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 181 186	[BOS]
+T3	Single_summ 375 380	[BOS]
+T4	Single_summ 567 572	[BOS]
+T5	Reflection 704 709	[BOS]
+T6	Transition 875 880	[BOS]
+T7	Transition 1098 1103	[BOS]
+T8	Transition 1229 1234	[BOS]
+T9	Transition 1340 1345	[BOS]
+T10	Reflection 1438 1443	[BOS]
+T11	B_span 187 194	MULTIQA
+T13	Dominant 196 219	Talmor and Berant, 2019
+T14	E_span 694 702	datasets

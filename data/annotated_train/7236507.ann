@@ -1,0 +1,40 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 188 193	[BOS]
+T3	Reflection 451 456	[BOS]
+T4	Narrative_cite 665 670	[BOS]
+T5	Reflection 806 811	[BOS]
+T6	Reflection 874 879	[BOS]
+T7	Reflection 1026 1031	[BOS]
+T8	Reflection 1104 1109	[BOS]
+T9	Single_summ 1310 1315	[BOS]
+T10	Single_summ 1413 1418	[BOS]
+T11	Single_summ 1537 1542	[BOS]
+T12	Reflection 1629 1634	[BOS]
+T13	Reference 129 149	(Turian et al., 2010
+T14	Reference 151 166	Yu et al., 2013
+T15	Reference 168 185	Guo et al., 2014)
+T16	Reference 391 411	(Socher et al., 2012
+T17	Reference 413 430	Tang et al., 2014
+T18	Reference 432 448	Yu et al., 2015)
+T19	Reference 771 788	(Ma et al., 2014b
+T20	Reference 790 803	Tsuboi, 2014)
+T21	Reference 1065 1082	Ma et al. (2014b)
+T22	Dominant 1316 1339	Wang and Manning (2013)
+T23	Reference 1513 1533	Turian et al. (2010)
+T24	B_span 92 96	word
+T25	E_span 180 184	2014
+T26	B_span 374 380	linear
+T27	E_span 443 447	2015
+T28	B_span 759 762	POS
+T29	E_span 798 802	2014
+T30	B_span 1032 1035	Our
+T31	E_span 1076 1081	2014b
+T32	B_span 1316 1320	Wang
+T33	E_span 1619 1627	features
+T34	Pronoun 200 204	this
+T35	Pronoun 895 900	their
+T36	Pronoun 1116 1120	they
+T37	Pronoun 1419 1423	They
+T38	Pronoun 1543 1547	They
+T39	B_span 1494 1500	hidden
+T40	E_span 1528 1532	2010

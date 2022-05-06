@@ -1,0 +1,36 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 236 241	[BOS]
+T3	Narrative_cite 374 379	[BOS]
+T4	Transition 541 546	[BOS]
+T5	Narrative_cite 668 673	[BOS]
+T6	Narrative_cite 864 869	[BOS]
+T7	Transition 1219 1224	[BOS]
+T8	Single_summ 1350 1355	[BOS]
+T9	Transition 1567 1572	[BOS]
+T10	Narrative_cite 1657 1662	[BOS]
+T11	Transition 1805 1810	[BOS]
+T12	Reference 488 510	Zampieri et al. (2014)
+T13	Reference 515 537	Zampieri et al. (2015)
+T14	Reference 823 834	(Bali, 2006
+T15	Reference 836 861	Zampieri and Gebre, 2012)
+T16	Reference 1049 1070	(Goutte et al., 2014)
+T17	Reference 1168 1190	(Goutte and Lger, 2015
+T18	Reference 1192 1215	Malmasi and Dras, 2015)
+T19	Dominant 1356 1375	Sadat et al. (2014)
+T20	Reference 1780 1802	(Zubiaga et al., 2014)
+T21	Pronoun 433 438	their
+T22	Pronoun 1300 1304	this
+T23	Pronoun 1585 1589	this
+T24	Pronoun 1811 1815	This
+T25	B_span 469 477	overview
+T26	E_span 532 536	2015
+T27	B_span 708 718	blacklists
+T28	E_span 856 860	2012
+T29	B_span 1007 1019	optimization
+T30	E_span 1065 1069	2014
+T31	B_span 1080 1090	ensembling
+T32	E_span 1210 1214	2015
+T33	B_span 1356 1361	Sadat
+T34	E_span 1559 1564	level
+T35	B_span 1736 1744	language
+T36	E_span 1797 1801	2014

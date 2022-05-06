@@ -1,0 +1,15 @@
+[BOS] Our work is related with knowledge grounded response generation and multi-turn conversation with reinforcement learning.
+[BOS] As conventional Seq2Seq (Vinyals and Le, 2015) tends to generate general and dull re-sponses, some knowledge grounded approaches have been introduced to increase the informativeness with extra knowledge.
+[BOS] MemNet (Ghazvininejad et al., 2018) encodes factual texts into memory and decodes via attention mechanism for informative generation.
+[BOS] CCM (Zhou et al., 2018) relies on structured knowledge to generate rich-information response.
+[BOS] In Lian et al. (2019) , the posterior distribution is estimated and accurate knowledge is selected to boost informative generation.
+[BOS] However, without thorough consideration and control on the knowledge utilization in multi-turn conversations, the above approaches are prone to produce repetitive and incoherent utterances.
+
+[BOS] The technique of reinforcement learning has been applied to multi-turn dialogue systems in several scenarios.
+[BOS] In RL-DG (Li et al., 2016b) , three rewards are defined and combined together to boost diverse response generation.
+[BOS] Due to a lack of effective control on knowledge utilization, RL-DG is unable to express extensive information during conversations.
+[BOS] As RL-DG relies on the reinforcement signal to update all components in the dialogue system, including decoder, it suffers from poor linguistic quality.
+[BOS] In Yao et al. (2018) , reinforcement learning is employed to plan a cue word (topic) path for a dialogue, where the cue word at t-th turn will assist the corresponding response generation.
+[BOS] Different from these chitchat approaches, our dialogue generation is conducted under the objective of facilitating effective information exchange and letting both participates know more about each.
+[BOS] With judiciously design of evaluation metrics, our compound reward is aligned well with human beings and provides meaningful reinforcement signal to evolve the dialogue strategy.
+

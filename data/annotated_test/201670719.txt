@@ -1,0 +1,15 @@
+[BOS] Language Model Pre-training Pre-training has been widely applied to universal language representation learning.
+[BOS] Previous work can be divided into two main categories: (i) feature-based approach; (ii) fine-tuning approach.
+
+[BOS] Feature-based methods mainly focus on learning: (i) context-independent word representation (e.g., word2vec (Mikolov et al., 2013) , GloVe (Pennington et al., 2014 ), FastText (Bojanowski et al., 2017 ); (ii) sentence-level representation (e.g., Kiros et al. (2015) ; Conneau et al. (2017) ; Logeswaran and Lee (2018) ); and (iii) contextualized word representation (e.g., Cove (McCann et al., 2017) , ELMo (Peters et al., 2018) ).
+[BOS] Specifically, ELMo (Peters et al., 2018) learns high-quality, deep contextualized word representation using bidirectional language model, which can be directly plugged into standard NLU models for performance boosting.
+
+[BOS] On the other hand, fine-tuning approaches mainly pre-train a language model (e.g., GPT (Radford et al., 2018) , BERT (Devlin et al., 2018) ) on a large corpus with an unsupervised objective, and then fine-tune the model with in-domain labeled data for downstream applications (Dai and Le, 2015; Howard and Ruder, 2018) .
+[BOS] Specifically, BERT is a large-scale language model consisting of multiple layers of Transformer blocks (Vaswani et al., 2017) .
+[BOS] BERT-Base has 12 layers of Transformer and 110 million parameters, while BERT-Large has 24 layers of Transformer and 330 million parameters.
+[BOS] By pre-training via masked language modeling and next sentence prediction, BERT has achieved state-of-the-art performance on a wide-range of NLU tasks, such as the GLUE benchmark (Wang et al., 2018) and SQuAD (Rajpurkar et al., 2016) .
+
+[BOS] However, these modern pre-trained language models contain millions of parameters, which hinders their application in practice where computational resource is limited.
+[BOS] In this paper, we aim at addressing this critical and challenging problem, taking BERT as an example, i.e., how to compress a large BERT model into a shallower one without sacrificing performance.
+[BOS] Besides, the proposed approach can also be applied to other large-scale pre-trained language models, such as recently proposed XLNet (Yang et al., 2019) and RoBERTa (Liu et al., 2019b) .
+

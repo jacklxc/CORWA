@@ -1,0 +1,10 @@
+[BOS] Cross-lingual transfer learning which acts as one of the low-resource topics (Gu et al., 2018; Lee et al., 2019; Xu et al., 2018) has attracted more and more people recently, followed by the rapid development of cross-lingual word embeddings.
+[BOS] Artetxe et al. (2017) proposed a self-learning framework and utilized a small size of word dictionary to learn the mapping between source and target word embeddings.
+[BOS] Conneau et al. (2018) leveraged adversarial training to learn a linear mapping from a source to a target space without using parallel data.
+[BOS] Joulin et al. (2018) utilized Relaxed CSLS loss to optimize this mapping problem.
+[BOS] introduced a method to leverage cross-lingual meta-representations for code-switching named entity recognition by combining multiple monolingual word embeddings.
+[BOS] Chen et al. (2018) proposed a teacher-student framework leveraging bilingual data for crosslingual transfer learning in dialogue state track-ing.
+[BOS] Upadhyay et al. (2018) leveraged joint training and cross-lingual embeddings to do zero-shot and almost zero-shot transfer learning in intent prediction and slot filling.
+[BOS] Finally, Schuster et al. (2019) utilizes Multilingual CoVe embeddings obtained from training Machine Translation systems as in (McCann et al., 2017) .
+[BOS] The main difference of our work with previous work is that our model does not leverage any external bilingual data other than 11 word pairs for embeddings refinement.
+

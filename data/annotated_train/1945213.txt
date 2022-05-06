@@ -1,0 +1,18 @@
+[BOS] Several studies have tried to incorporate source or target syntax into translation models in a fuzzy manner.
+[BOS] Zollmann and Venugopal (2006) augment the hierarchical string-to-string rules (Chiang, 2005) with target-side syntax.
+[BOS] They annotate the target side of each string-to-string rule using SAMT-style syntactic categories and aim to generate the output more syntactically.
+[BOS] Zhang et al. (2010) base their approach on tree-to-string models, and generate grammatical output more reliably with the help of tree-to-tree sequence rules.
+[BOS] Neither of them builds target syntactic trees using target syntax, however.
+[BOS] Thus they can be viewed as integrating target syntax in a fuzzy manner.
+[BOS] By contrast, we base our approach on a string-to-tree model which does construct target syntactic trees during decoding.
+[BOS] (Marton and Resnik, 2008; Chiang et al., 2009 and Huang et al., 2010) apply fuzzy techniques for integrating source syntax into hierarchical phrasebased systems (Chiang, 2005 (Chiang, , 2007 .
+[BOS] The first two studies employ 0-1 matching and the last tries deep similarity matching between two tag sequences.
+[BOS] By contrast, we incorporate source syntax into a string-to-tree model.
+[BOS] Furthermore, we apply fuzzy syntactic annotation on each rule's source string and design three fuzzy rule matching algorithms.
+
+[BOS] Chiang (2010) proposes a method for learning to translate with both source and target syntax in the framework of a hierarchical phrase-based system.
+[BOS] He not only executes 0-1 matching on both sides of rules, but also designs numerous features such as . '
+[BOS] X X root which counts the number of rules whose source-side root label is X and target-side root label is ' X .
+[BOS] This fuzzy use of source and target syntax enables the translation system to learn which tree labels are similar enough to be compatible, which ones are harmful to combine, and which ones can be ignored.
+[BOS] The differences between us are twofold: 1) his work applies fuzzy syntax in both sides, while ours bases on the string- Reference the europen union said in a joint statement issued after its summit meeting with china 's premier wen jiabao  in a joint statement released after the summit with chinese premier wen jiabao , the europen union said  Joshua the europen union with chinese premier wen jiabao in a joint statement issued after the summit meeting said  s2t the europen union in a joint statement issued after the summit meeting with chinese premier wen jiabao said  3 FT2ET-DeepSim the europen union said in a joint statement issued after the summit meeting with chinese premier wen jiabao  Table 3 : Some translation examples produced by Joshua, string-to-tree system s2t and source-syntax-augmented string-to-tree system FT2ET with deep similarity matching algorithm to-tree model and applies fuzzy syntax on source side; and 2) we not only adopt the 0-1 fuzzy rule matching algorithm, but also investigate likelihood matching and deep similarity matching algorithms.
+

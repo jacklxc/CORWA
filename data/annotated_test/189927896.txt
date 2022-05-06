@@ -1,0 +1,23 @@
+[BOS] Multi-hop Reading Comprehension The last few years have witnessed significant progress on large-scale QA datasets including cloze-style blank-filling tasks (Hermann et al., 2015) , opendomain QA (Yang et al., 2015) , QA with answer span prediction (Rajpurkar et al., 2016 (Rajpurkar et al., , 2018 , and generative QA (Nguyen et al., 2016) .
+[BOS] However, all of the above datasets are confined to a singledocument context per question domain.
+
+[BOS] Earlier attempts in multi-hop QA focused on reasoning about the relations in a knowledge base (Jain, 2016; Lin et al., 2018) or tables (Yin et al., 2015) .
+[BOS] The bAbI dataset (Weston et al., 2016) uses synthetic contextx and requires the model to combine multiple pieces of evidence in the text-based context.
+
+[BOS] TriviaQA (Joshi et al., 2017 ) includes a small portion of questions that require cross-sentence inference.
+[BOS] Welbl et al. (2017) uses Wikipedia articles as the context and subject-relation pairs as the query, and construct the multi-hop QAngaroo dataset by traversing a directed bipartite graph.
+[BOS] It is designed in a way such that the evidence required to answer a query could be spread across multiple documents that are not directly related to the query.
+[BOS] HotpotQA (Yang et al., 2018 ) is a more recent multi-hop dataset that has crowd-sourced questions with diverse syntactic and semantic features.
+[BOS] HotpotQA and QAngaroo also differ in their types of multi-hop reasoning covered.
+[BOS] Because of the knowledge-base domain and the triplet format used in the construction, QAngaroo's questions usually require inferring the desired property of a query subject by finding a bridge entity that connects the query to the answer.
+[BOS] HotpotQA includes three more types of question, each requiring a different reasoning paradigm.
+[BOS] Some examples require inferring the bridge entity from the question (Type I in Yang et al. (2018) ), while others demand checking facts or comparing subjects' properties from two different documents (Type II and comparison question).
+[BOS] Jia and Liang (2017) first applied adversarial evaluation to QA models on the SQuAD (Rajpurkar et al., 2016) dataset by generating a sentence that only resembles the question syntactically and appending it to the paragraph.
+[BOS] They report that the performances of state-of-the-art QA models (Seo et al., 2017; Hu et al., 2018; drop significantly when evaluated on the adversarial data.
+[BOS] Wang and Bansal (2018) further improves the AddSent adversary and proposed AddSentDiverse that employs a diverse vocabulary for the question conversion procedure.
+[BOS] They show that models trained with such adversarial examples can be robust against a wide range of adversarial evaluation samples.
+[BOS] Our paper shares the spirit with these two works as we also try to investigate models' over-stability to semantics-altering perturbations.
+[BOS] However, our study also differs from the previous works (Jia and Liang, 2017; Wang and Bansal, 2018) in two points.
+[BOS] First, we generate adversarial documents by replacing the answer and bridge entities in the supporting documents instead of converting the question into a statement.
+[BOS] Second, our adversarial documents still preserve words with common semantic meaning to the question so that it can distract models that are exploiting the reasoning shortcut in the context.
+

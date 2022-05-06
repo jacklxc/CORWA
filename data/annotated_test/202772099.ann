@@ -1,0 +1,24 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 120 125	[BOS]
+T3	Single_summ 285 290	[BOS]
+T4	Single_summ 385 390	[BOS]
+T5	Single_summ 484 489	[BOS]
+T6	Transition 592 597	[BOS]
+T7	Transition 711 716	[BOS]
+T8	Reference 79 97	(Xiao et al., 2018
+T9	Reference 99 117	Gong et al., 2018)
+T10	Dominant 141 159	Yang et al. (2018)
+T11	Dominant 315 332	Xia et al. (2018)
+T12	Dominant 395 412	Li et al. (2019a)
+T13	Dominant 520 539	Zhang et al. (2019)
+T14	B_span 69 71	NL
+T15	E_span 116 117	)
+T16	B_span 141 145	Yang
+T17	E_span 283 284	.
+T18	B_span 315 318	Xia
+T19	E_span 383 384	.
+T20	B_span 395 397	Li
+T21	E_span 482 483	.
+T22	B_span 520 525	Zhang
+T23	E_span 590 591	.
+T24	Pronoun 717 722	Their

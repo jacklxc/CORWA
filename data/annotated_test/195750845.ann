@@ -1,0 +1,69 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 231 236	[BOS]
+T3	Multi_summ 532 537	[BOS]
+T4	Single_summ 766 771	[BOS]
+T5	Multi_summ 1014 1019	[BOS]
+T6	Transition 1259 1264	[BOS]
+T7	Narrative_cite 1425 1430	[BOS]
+T8	Narrative_cite 1819 1824	[BOS]
+T9	Narrative_cite 1945 1950	[BOS]
+T10	Narrative_cite 2195 2200	[BOS]
+T11	Single_summ 2394 2399	[BOS]
+T12	Single_summ 2625 2630	[BOS]
+T13	Reference 39 61	(Szegedy et al., 2013)
+T14	Reference 124 148	(Belinkov and Bisk, 2018
+T15	Reference 150 171	Heigold et al., 2017)
+T16	Dominant 544 568	Koehn and Knowles (2017)
+T17	Dominant 642 669	Khayrallah and Koehn (2018)
+T18	Dominant 772 796	Michel and Neubig (2018)
+T19	Dominant 1020 1044	Belinkov and Bisk (2018)
+T20	Dominant 1049 1070	Heigold et al. (2017)
+T21	Reference 1622 1644	(Ebrahimi et al., 2018
+T22	Reference 1666 1688	Cheng et al., ,b, 2019
+T23	Reference 1779 1797	(Zhao et al., 2018
+T24	Reference 1799 1815	Lee et al., 2018
+T26	Reference 1827 1854	Anastasopoulos et al., 2019
+T27	Reference 1856 1877	Vaibhav et al., 2019)
+T28	Reference 1884 1909	Belinkov and Glass (2019)
+T29	Reference 2096 2125	(Anastasopoulos et al., 2019)
+T30	Reference 2167 2192	(Belinkov and Bisk, 2018)
+T31	Reference 2308 2333	(Belinkov and Bisk, 2018)
+T32	Reference 2367 2391	(Karpukhin et al., 2019)
+T33	Dominant 2486 2505	Cheng et al. (2019)
+T34	Dominant 2631 2652	Durrani et al. (2019)
+T35	B_span 6 9	The
+T36	E_span 60 61	)
+T37	B_span 90 96	neural
+T38	E_span 170 171	)
+T39	B_span 544 546	Ko
+T40	E_span 629 640	translation
+T41	B_span 642 644	Kh
+T42	E_span 764 765	.
+T43	B_span 772 778	Michel
+T44	E_span 1012 1013	.
+T45	B_span 1020 1023	Bel
+T46	E_span 1257 1258	.
+T47	B_span 1551 1557	advers
+T48	E_span 1687 1688	9
+T49	B_span 1697 1702	black
+T50	E_span 1876 1877	)
+T51	B_span 1884 1887	Bel
+T53	B_span 2064 2072	produced
+T54	E_span 2124 2125	)
+T56	E_span 2191 2192	)
+T58	E_span 2332 2333	)
+T59	B_span 2342 2349	require
+T60	E_span 2390 2391	)
+T61	B_span 2409 2419	emphasized
+T62	E_span 2623 2624	.
+T63	B_span 2631 2634	Dur
+T64	E_span 2817 2818	.
+T66	Pronoun 278 282	this
+T67	Pronoun 932 937	these
+T68	Pronoun 2201 2203	It
+T65	Reference 1646 1665	Cheng et al., 2018a
+T52	E_span 1939 1943	work
+T55	B_span 2151 2160	Wikipedia
+T69	B_span 2229 2235	adding
+T70	B_span 1827 1841	Anastasopoulos
+T57	E_span 1817 1818	?

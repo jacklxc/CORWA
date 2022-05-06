@@ -1,0 +1,68 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 93 98	[BOS]
+T3	Single_summ 234 239	[BOS]
+T4	Single_summ 412 417	[BOS]
+T5	Single_summ 519 524	[BOS]
+T6	Transition 602 607	[BOS]
+T7	Transition 661 666	[BOS]
+T8	Single_summ 765 770	[BOS]
+T9	Reflection 841 846	[BOS]
+T10	Reflection 946 951	[BOS]
+T11	Reflection 1051 1056	[BOS]
+T12	Single_summ 1110 1115	[BOS]
+T13	Reflection 1277 1282	[BOS]
+T14	Transition 1339 1344	[BOS]
+T15	Multi_summ 1466 1471	[BOS]
+T16	Reflection 1660 1665	[BOS]
+T17	Single_summ 1702 1707	[BOS]
+T18	Single_summ 1815 1820	[BOS]
+T19	Reflection 1905 1910	[BOS]
+T20	Single_summ 1999 2004	[BOS]
+T21	Reflection 2157 2162	[BOS]
+T22	Reflection 2213 2218	[BOS]
+T23	Single_summ 2329 2334	[BOS]
+T24	Single_summ 2442 2447	[BOS]
+T25	Single_summ 2552 2557	[BOS]
+T26	Reflection 2608 2613	[BOS]
+T27	Reflection 2676 2681	[BOS]
+T28	Reflection 2836 2841	[BOS]
+T29	Dominant 99 126	DeNero and Uszkoreit (2011)
+T30	Dominant 240 260	Neubig et al. (2012)
+T31	Reference 374 401	DeNero and Uszkoreit (2011)
+T32	Dominant 418 433	Nakagawa (2015)
+T33	Reference 447 467	Neubig et al. (2012)
+T34	Dominant 771 789	Dyer et al. (2015)
+T35	Dominant 1177 1196	(Kong et al., 2017)
+T36	Dominant 1472 1494	Eriguchi et al. (2016)
+T37	Dominant 1499 1517	Chen et al. (2017)
+T38	Dominant 1708 1731	Stahlberg et al. (2016)
+T39	Dominant 2005 2027	Eriguchi et al. (2017)
+T40	Dominant 2420 2439	Huang et al. (2018)
+T41	Pronoun 195 200	these
+T42	Pronoun 525 529	They
+T43	Pronoun 565 569	they
+T44	Pronoun 2163 2167	This
+T45	Pronoun 2448 2452	They
+T46	Pronoun 2851 2853	it
+T47	B_span 99 105	DeNero
+T48	E_span 228 232	data
+T49	B_span 240 246	Neubig
+T50	E_span 407 410	one
+T51	B_span 361 364	two
+T52	E_span 396 400	2011
+T53	B_span 418 426	Nakagawa
+T54	E_span 592 600	training
+T55	B_span 447 453	Neubig
+T56	E_span 462 466	2012
+T57	B_span 771 775	Dyer
+T58	E_span 832 839	parsing
+T59	B_span 1170 1176	DRAGNN
+T60	E_span 1271 1275	step
+T61	B_span 1472 1480	Eriguchi
+T62	E_span 1651 1658	phrases
+T63	B_span 1708 1717	Stahlberg
+T64	E_span 1896 1903	decoder
+T65	B_span 2005 2013	Eriguchi
+T67	E_span 2147 2155	sequence
+T66	B_span 2347 2353	adding
+T69	E_span 2596 2606	reordering

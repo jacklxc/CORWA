@@ -1,0 +1,26 @@
+[BOS] Our work draws inspiration from Ahn et al. (2016) , who propose to predict whether the word to generate has an underlying fact or not.
+[BOS] Their model can generate knowledge-related words by copying from the description of the predicted fact.
+[BOS] While theoretically interesting, their model functions only in a very constrained setting as it requires extra information: a shortlist of candidate entities that are mentioned in the text.
+[BOS] Several efforts successfully extend LMs with entities from a knowledge base and their types, but require that entity models are trained separately from supervised entity labels.
+[BOS] Parvez et al. (2018) and Xin et al. (2018) explicitly model the type of the next word in addition to the word itself.
+[BOS] In particular, Parvez et al. (2018) use two LSTMbased language models, an entity type model and an entity composite (entity type) model.
+[BOS] Xin et al. (2018) use a similarly purposed entity typing module and a LM-enhancement module.
+[BOS] Instead of entity type generation, Gu et al. (2018) propose to explicitly decompose word generation into sememe (a semantic language unit of meaning) generation and sense generation, but requires sememe labels.
+[BOS] Yang et al. (2016) propose a pointer-network LM that can point to a 1-D or 2-D database record during inference.
+[BOS] At each time step, the model decides whether to point to the database or the general vocabulary.
+
+[BOS] Unsupervised predictive learning has been proven effective in improving text understanding.
+[BOS] ELMo (Peters et al., 2018) and BERT (Devlin et al., 2018) used different unsupervised objectives to pre-train text models which have advanced the state-of-the-art for many NLP tasks.
+[BOS] Similar to these approaches KALM is trained end-to-end using a predictive objective on large corpus of text.
+
+[BOS] Most unsupervised NER models are rule-based (Collins and Singer, 1999; Etzioni et al., 2005; Nadeau et al., 2006) and require feature engineering or parallel corpora (Munro and Manning, 2012) .
+[BOS] Yang and Mitchell (2017) incorporate a KB to the CRF-biLSTM model (Lample et al., 2016) by embedding triples from a KB obtained using TransE (Bordes et al., 2013) .
+[BOS] Peters et al. (2017) add pre-trained language model embeddings as knowledge to the input of a CRF-biLSTM model, while still requiring labels in training.
+
+[BOS] To the best of our knowledge, KALM is the first unsupervised neural NER approach.
+[BOS] As we discuss in Section 5.4, KALM achieves results comparable to supervised CRF-biLSTM models.
+
+[BOS] abilities of words from a vocabulary V g , but it can also generate words that are names of entities of a specific type.
+[BOS] Each entity type has a separate vocabulary {V 1 , ..., V K } collected from a KB.
+[BOS] KALM learns to predict from context whether to expect an entity from a given type and generalizes over entity types.
+

@@ -1,0 +1,15 @@
+[BOS] Recently, both QA and Cloze-style machine comprehension tasks like CNN/Daily Mail have seen fast progress.
+[BOS] Much of this recent work has been based on end-to-end trained neural network models, and within that, most have used recurrent neural networks with soft attention (Bahdanau et al., 2015) , which emphasizes one part of the data over the others.
+[BOS] These models can be coarsely divided into two categories: single-pass and multi-pass reasoners.
+
+[BOS] Most papers on single-pass reasoning systems propose novel ways to use the attention mechanism: Wang and Jiang (2016) propose match-LSTM to model the interaction between context and query, as well as introducing the use of a pointer network (Vinyals et al., 2015) to extract the answer span from the context.
+[BOS] Xiong et al. (2017) propose the Dynamic Coattention Network, which uses co-dependent representations of the question and the context, and iteratively updates the start and end indices to recover from local maxima and to find the optimal answer span.
+[BOS] propose the Multi-Perspective Context Matching model that matches the encoded context with query by combining various matching strategies, aggregates matching vector with bidirectional LSTM, and predict start and end positions.
+[BOS] In order to merge the entity score during its multiple appearence, Kadlec et al. (2016) propose attention-sum reader who computes dot product between context and query encoding, does a softmax operation over context and sums the probability over the same entity to favor the frequent entities over rare ones.
+[BOS] Chen et al. (2016) propose to use a bilinear term to calculate the attentional alignment between context and query.
+
+[BOS] Among multi-hop reasoning systems: Hill et al. (2015) apply attention on window-based memory, by extending multi-hop end-to-end memory network (Sukhbaatar et al., 2015) .
+[BOS] Dhingra et al. (2016) extend attention-sum reader to multi-turn reasoning with an added gating mechanism.
+[BOS] The Iterative Alternative (IA) reader (Sordoni et al., 2016) produces query glimpse and document glimpse in each iterations and uses both glimpses to update recurrent state in each iteration.
+[BOS] Shen et al. (2017) propose a multi-hop attention model that used reinforcement learning to dynamically determine when to stop digesting intermediate information and produce an answer.
+

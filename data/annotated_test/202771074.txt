@@ -1,0 +1,9 @@
+[BOS] Recently, work has been done to analyze continuous representations in NLP.
+[BOS] Shi et al. (2016) and Qian et al. (2016) analyze linguistic properties carried by representation vectors using external supervision.
+[BOS] and further analyze linguistic information in individual neurons from neural machine translation representations in an unsupervised manner.
+[BOS] For LSTMs of language models, Karpathy et al. (2015) identify individual neurons that trigger for specific information, such as bracket and sequence length, and Radford et al. (2017) discover neurons that encode sentiment information.
+
+[BOS] In computer vision, Zhou et al. (2018) analyze the relationship between individual units of a CNN and label prediction.
+[BOS] To the best of our knowledge, however, in the field of NLP, there has been little work on analyzing the affinity between labels and neurons of recurrent networks.
+[BOS] This paper aims to address this problem.
+

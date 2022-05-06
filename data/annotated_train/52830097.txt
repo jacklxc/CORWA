@@ -1,0 +1,17 @@
+[BOS] Relation extraction is typically reduced to a classification problem.
+[BOS] A supervised machine learning model is designed and trained on a single dataset to predict the relation type of pairs of entities.
+[BOS] Traditional methods rely on linguistic or semantic features (Zhou et al., 2005; Jing and Zhai, 2007) , or kernels based on syntax or sequences (Bunescu and Mooney, 2005a,b; Plank and Moschitti, 2013) to represent sentences of relations.
+[BOS] More recently, deep neural nets start to show promising results.
+[BOS] Most rely on convolutional neural nets (Zeng et al., 2014 (Zeng et al., , 2015 Grishman, 2015, 2016; Fu et al., 2017) or recurrent neural nets (Zhang et al., 2015; Zhou et al., 2016; Miwa and Bansal, 2016) to learn the representation of relations.
+[BOS] Our supervised base model will be similar to (Zhou et al., 2016) .
+[BOS] Our initial experiments did not use syntactic features (Nguyen and Grishman, 2016; Fu et al., 2017 ) that require additional parsers.
+
+[BOS] In order to further improve the representation learning for relation extraction, tried to transfer knowledge through bilingual representation.
+[BOS] They used their multi-task model to train on the bilingual ACE05 datasets and obtained improvement when there is less training available (10%-50%).
+[BOS] Our experiments will show our multitask model can make significant improvement on the full training set.
+
+[BOS] In terms of the regularization to the representation, Duong et al. (2015) used l2 regularization between the parameters of the same part of two models in multi-task learning.
+[BOS] Their method is a kind of soft-parameter sharing, which does not involve sharing any part of the model directly.
+[BOS] Fu et al. (2017) applied domain adversarial networks (Ganin and Lempitsky, 2015) to relation extraction and obtained improvement on out-of-domain evaluation.
+[BOS] Inspired by the adversarial training, we attempt to use it as a regularization tool in our multi-task model and find some improvement.
+

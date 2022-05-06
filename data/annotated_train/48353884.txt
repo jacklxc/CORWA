@@ -1,0 +1,19 @@
+[BOS] Parsing natural language with neural network models has recently received growing attention.
+[BOS] These models have attained state-of-the-art results for dependency parsing (Chen and Manning, 2014) and constituency parsing (Dyer et al., 2016; Cross and Huang, 2016; Coavoux and Crabb, 2016) .
+[BOS] Early work in neural network based parsing directly use a feed-forward neural network to predict parse trees (Chen and Manning, 2014) .
+[BOS] Vinyals et al. (2015) use a sequence-tosequence framework where the decoder outputs a linearized version of the parse tree given an input sentence.
+[BOS] Generally, in these models, the correctness of the output tree is not strictly ensured (although empirically observed).
+
+[BOS] Other parsing methods ensure structural consistency by operating in a transition-based setting (Chen and Manning, 2014) by parsing either in the top-down direction (Dyer et al., 2016; Liu and Zhang, 2017b) , bottom-up (Zhu et al., 2013; Watanabe and Sumita, 2015; Cross and Huang, 2016) and recently in-order (Liu and Zhang, 2017a) .
+[BOS] Transition-based methods generally suffer from compounding errors due to exposure bias: during testing, the model is exposed to a very different regime (i.e. decisions sampled from the model itself) than what was encountered during training (i.e. the ground-truth decisions) (Daum et al., 2009; Goldberg and Nivre, 2012) .
+[BOS] This can have catastrophic effects on test performance but can be mitigated to a certain extent by using beamsearch instead of greedy decoding.
+[BOS] (Stern et al., 2017b) proposes an effective inference method for generative parsing, which enables direct decoding in those models.
+[BOS] More complex training methods have been devised in order to alleviate this problem (Goldberg and Nivre, 2012; Cross and Huang, 2016) .
+[BOS] Other efforts have been put into neural chart-based parsing (Durrett and Klein, 2015; Stern et al., 2017a) which ensure structural consistency and offer exact inference with CYK algorithm.
+[BOS] (Gaddy et al., 2018 ) includes a simplified CYK-style inference, but the complexity still remains in O(n 3 ).
+
+[BOS] In this work, our model learns to produce a particular representation of a tree in parallel.
+[BOS] Representations can be computed in parallel, and the conversion from representation to a full tree can efficiently be done with a divide-and-conquer algorithm.
+[BOS] As our model outputs decisions in parallel, our model doesn't suffer from the exposure bias.
+[BOS] Interestingly, a series of recent works, both in machine translation (Gu et al., 2018) and speech synthesis (Oord et al., 2017) , considered the sequence of output variables conditionally independent given the inputs.
+

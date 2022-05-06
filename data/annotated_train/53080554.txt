@@ -1,0 +1,17 @@
+[BOS] Distillation techniques for an ensemble of multiple models have been widely studied (Kuncoro et al., 2016; Chebotar and Waters, 2016; Kim and Rush, 2016; Freitag et al., 2017; Stahlberg and Byrne, 2017) , especially after a study by Hinton et al. (2015) .
+[BOS] Kuncoro et al. (2016) and Chebotar and Waters (2016) studied distillation techniques for ensembles of multiple dependency parsers and speech recognition models, respectively.
+[BOS] There are several ensemble methods for ensembles of machine translation models (Kim and Rush, 2016; Freitag et al., 2017; Stahlberg and Byrne, 2017) .
+[BOS] For example, Stahlberg and Byrne (2017) proposed a method of unfolding an ensemble of multiple translation models into a single large model once and shrinking it down to a small one.
+[BOS] However, all methods require extra implementation on a deep-learning framework, and it is not easy to apply them to other models.
+[BOS] Our post-ensemble method does not require such coding skills.
+[BOS] In addition, since the predictions of post-ensemble can be regarded as a teacher model, these distillation techniques should be combined with a teacher model based on post-ensemble.
+
+[BOS] Hypotheses reranking of language generation has been extensively studied, but most studies focused on discriminative training using costly annotated data (Shen et al., 2004; White and Rajkumar, 2009; Duh et al., 2010; Kim and Mooney, 2013; Mizumoto and Matsumoto, 2016) .
+[BOS] The main stream of our focused unsupervised approach was a reranking method based on a language model (Chen et al., 2006; Vaswani et al., 2013; Luong and Popescu-Belis, 2016) , and other approaches include reranking methods based on key phrase extraction (Boudin and Morin, 2013) , dependency analysis (Hasan et al., 2010) , and search results (Peng et al., 2013) .
+[BOS] All of the above described studies were not used for model ensemble.
+[BOS] Tomeh et al. (2013) used an ensemble learning, but the purpose was to improve the performance of the reranking model for hypotheses reranking of a single model.
+[BOS] Li et al. (2009) , which work is the most related one, proposed a reranking algorithm for model ensemble.
+[BOS] However, their method was constructed to perform at decoding time, so it can be regarded as runtimeensemble.
+
+[BOS] The term "frustratingly easy" in this paper is borrowed from "frustratingly easy" papers (Daum III, 2007; Daum III et al., 2010; Tommasi and Caputo, 2013; .
+

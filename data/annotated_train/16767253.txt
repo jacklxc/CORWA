@@ -1,0 +1,12 @@
+[BOS] Yarowsky (1995) introduces a semi-supervised bootstrapping algorithm with two assumptions that rivals supervised algorithms: one-sense-percollocation and one-sense-per-discourse.
+[BOS] But this algorithm cannot easily be scaled up because for any new ambiguous word humans need to pick a few seed words, which initialize the algorithm.
+[BOS] In order to automate the semi-supervised system, Eisner and Karakos (2005) propose an unsupervised bootstrapping algorithm.
+[BOS] Their system tries many different seeds for bootstrapping and chooses the "best" classifier at the end.
+[BOS] Eisner and Karakos's algorithm is limited in that their system is designed for disambiguating words that have only 2 senses.
+
+[BOS] Bayesian WSI systems have been developed by several authors.
+[BOS] Brody and Lapata (2009) apply Latent Dirichlet Allocation (LDA) (Blei et al., 2003) to WSI.
+[BOS] They run a topic modeling algorithm on texts with some fixed number of topics that correspond to senses and induce a cluster by finding target words assigned to the same topic.
+[BOS] Their system is evaluated on SemEval-2007 noun data (Agirre and Soroa, 2007) .
+[BOS] Lau et al. (2012) apply a nonparametric model, Hierarchical Dirichlet Processes (HDP), to SemEval-2010 data .
+

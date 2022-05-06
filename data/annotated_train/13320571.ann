@@ -1,0 +1,49 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 285 290	[BOS]
+T3	Transition 486 491	[BOS]
+T4	Reflection 541 546	[BOS]
+T5	Reflection 613 618	[BOS]
+T6	Narrative_cite 722 727	[BOS]
+T7	Reflection 1011 1016	[BOS]
+T8	Reflection 1200 1205	[BOS]
+T9	Narrative_cite 1334 1339	[BOS]
+T10	Reflection 1491 1496	[BOS]
+T11	Reflection 1616 1621	[BOS]
+T12	Narrative_cite 1781 1786	[BOS]
+T13	Reflection 1971 1976	[BOS]
+T14	Reference 66 88	(Mnih and Hinton, 2009
+T15	Reference 90 110	Mikolov et al., 2013
+T16	Reference 112 138	Lebret and Collobert, 2014
+T17	Reference 140 164	Pennington et al., 2014)
+T18	Reference 215 235	(Turian et al., 2010
+T19	Reference 237 260	Andreas and Klein, 2014
+T20	Reference 262 282	Bansal et al., 2014)
+T21	Reference 311 331	(Turian et al., 2010
+T22	Reference 333 349	Koo et al., 2008
+T23	Reference 351 371	Bansal et al., 2014)
+T24	Reference 819 842	(Collobert et al., 2011
+T25	Reference 844 863	Socher et al., 2013
+T26	Reference 865 887	Chen and Manning, 2014
+T27	Reference 889 907	Weiss et al., 2015
+T28	Reference 909 926	Dyer et al., 2015
+T29	Reference 928 953	Watanabe and Sumita, 2015
+T30	Reference 1441 1461	(Suzuki et al., 2011
+T31	Reference 1463 1488	Yogatama and Smith, 2014)
+T32	Reference 1881 1903	(Argyriou et al., 2007
+T33	Reference 1905 1922	Lei et al., 2014)
+T34	Pronoun 1020 1024	this
+T35	Pronoun 1128 1132	this
+T36	Pronoun 1230 1234	this
+T37	Pronoun 1509 1514	these
+T38	B_span 53 57	word
+T39	E_span 159 163	2014
+T40	B_span 171 180	utilizing
+T41	E_span 277 281	2014
+T42	B_span 291 294	The
+T43	E_span 366 370	2014
+T44	B_span 790 796	neural
+T45	E_span 949 953	2015
+T46	B_span 1424 1431	feature
+T47	E_span 1483 1487	2014
+T48	B_span 1850 1856	matrix
+T49	E_span 1917 1921	2014

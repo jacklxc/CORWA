@@ -1,0 +1,39 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 75 80	[BOS]
+T3	Narrative_cite 335 340	[BOS]
+T4	Multi_summ 535 540	[BOS]
+T5	Single_summ 699 704	[BOS]
+T6	Single_summ 970 975	[BOS]
+T7	Single_summ 1356 1361	[BOS]
+T8	Single_summ 1444 1449	[BOS]
+T9	Other 1512 1517	[BOS]
+T10	Other 1656 1661	[BOS]
+T11	Other 1788 1793	[BOS]
+T12	Reference 151 173	(Lin and Pantel, 2001)
+T13	Reference 211 232	(Madnani et al., 2007
+T14	Reference 234 247	McKeown, 1983
+T15	Reference 249 268	Hassan et al., 2007
+T16	Reference 270 292	Kozlowski et al., 2003
+T17	Reference 294 312	Quirk et al., 2004
+T18	Reference 314 332	Zhao et al., 2008)
+T19	Reference 471 492	(Callison-Burch, 2008
+T20	Reference 494 531	Ganitkevitch and Callison-Burch, 2014
+T21	Reference 650 673	(Mallinson et al., 2017
+T22	Reference 675 696	Prakash et al., 2016)
+T23	Dominant 705 728	(Prakash et al., 2016 )
+T24	Dominant 976 1001	(Mallinson et al., 2017 )
+T25	Dominant 1362 1382	(Iyyer et al., 2018)
+T26	B_span 138 142	data
+T27	E_span 168 172	2001
+T28	B_span 176 183	grammar
+T29	E_span 327 331	2008
+T30	B_span 438 445	extract
+T31	E_span 527 531	2014
+T32	B_span 621 631	paraphrase
+T33	E_span 691 695	2016
+T34	B_span 706 713	Prakash
+T35	E_span 961 967	MSCOCO
+T36	B_span 977 986	Mallinson
+T37	E_span 1344 1354	generation
+T38	B_span 1363 1368	Iyyer
+T39	E_span 1500 1510	generation

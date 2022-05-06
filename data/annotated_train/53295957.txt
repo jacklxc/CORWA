@@ -1,0 +1,32 @@
+[BOS] Our work can be uniquely positioned in the context of the following three topics.
+[BOS] Neural Abstractive Summarization.
+[BOS] Many deep neural network models have been proposed for abstractive summarization.
+[BOS] One of the most dominant architectures is to employ RNN-based seq2seq models with attention mechanism such as (Rush et al., 2015; Chopra et al., 2016; Nallapati et al., 2016; Cohan et al., 2018; Hsu et al., 2018; Gehrmann et al., 2018) .
+[BOS] In addition, recent advances in deep network research have been promptly adopted for improving abstractive summarization.
+[BOS] Some notable examples include the use of variational autoencoders (VAEs) (Miao and Blunsom, 2016; Li et al., 2017) , graph-based attention (Tan et al., 2017) , pointer-generator models (See et al., 2017) , self-attention networks (Liu et al., 2018) , reinforcement learning (Paulus et al., 2018; Pasunuru and Bansal, 2018) , contextual agent attention (Celikyilmaz et al., 2018) and integration with extractive models (Hsu et al., 2018; Gehrmann et al., 2018) .
+
+[BOS] Compared to existing neural methods of abstractive summarization, our approach is novel to replace an RNN-based encoder with explicit multi-level convolutional memory.
+[BOS] While RNNbased encoders always consider the whole sequence to represent each hidden state, our multilevel memory network exploits convolutions to control the extent of representation in multiple levels of sentences, paragraphs, and the whole text.
+
+[BOS] Summarization Datasets.
+[BOS] Most existing summarization datasets use formal documents as source text.
+[BOS] News articles are exploited the most, including in DUC (Over et al., 2007) , Gigaword (Napoles et al., 2012) , CNN/DailyMail (Nallapati et al., 2016; Hermann et al., 2015) , Newsroom (Grusky et al., 2018) and XSum (Narayan et al., 2018a ) datasets.
+[BOS] Cohan et al. (2018 and PubMed.
+[BOS] Hu et al. (2015) propose the LC-STS dataset as a collection of Chinese microblog's short text each paired with a summary.
+[BOS] However, it selects only formal text posted by verified organizations such as news agencies or government institutions.
+[BOS] Compared to previous summarization datasets, our dataset is novel in that it consists of posts from the online forum Reddit.
+
+[BOS] Rotten Tomatoes and Idebate dataset (Wang and Ling, 2016) use online text as source, but they are relatively small in scale: 3.7K posts of RottenTomatoes compared to 80K posts of TIFU-short as shown in Table 1 .
+[BOS] Moreover, Rotten Tomatoes use multiple movie reviews written by different users as single source text, and one-sentence consensus made by another professional editor as summary.
+[BOS] Thus, each pair of this dataset could be less coherent than that of our TIFU, which is written by the same user.
+[BOS] The Idebate dataset is collected from short arguments of debates on controversial topics, and thus the text is rather formal.
+[BOS] On the other hand, our dataset contains the posts of interesting stories happened in daily life, and thus the text is more unstructured and informal.
+
+[BOS] Neural Memory Networks.
+[BOS] Many memory network models have been proposed to improve memorization capability of neural networks Na et al., 2017; Yoo et al., 2019) .
+[BOS] Weston et al. (2014) propose one of early memory networks for language question answering (QA); since then, many memory networks have been proposed for QA tasks (Sukhbaatar et al., 2015; Kumar et al., 2016; Miller et al., 2016) .
+[BOS] Park et al. (2017) propose a convolutional read memory network for personalized image cap- tioning.
+[BOS] One of the closest works to ours may be Singh et al. (2017) , which use a memory network for text summarization.
+[BOS] However, they only deal with extractive summarization by storing embeddings of individual sentences into memory.
+[BOS] Compared to previous memory networks, our MMN has four novel features: (i) building a multi-level memory network that better abstracts multi-level representation of a long document, (ii) employing a dilated convolutional memory write mechanism to correlate adjacent memory cells, (iii) proposing normalized gated tanh units to avoid covariate shift within the network, and (iv) generating an output sequence without RNNs.
+

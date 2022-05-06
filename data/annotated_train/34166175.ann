@@ -1,0 +1,67 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 159 164	[BOS]
+T3	Narrative_cite 391 396	[BOS]
+T4	Narrative_cite 590 595	[BOS]
+T5	Narrative_cite 764 769	[BOS]
+T6	Transition 982 987	[BOS]
+T7	Narrative_cite 1076 1081	[BOS]
+T8	Transition 1299 1304	[BOS]
+T9	Narrative_cite 1397 1402	[BOS]
+T10	Transition 1580 1585	[BOS]
+T11	Transition 1706 1711	[BOS]
+T12	Single_summ 1845 1850	[BOS]
+T13	Single_summ 1992 1997	[BOS]
+T14	Single_summ 2106 2111	[BOS]
+T15	Multi_summ 2287 2292	[BOS]
+T16	Multi_summ 2510 2515	[BOS]
+T17	Multi_summ 2607 2612	[BOS]
+T18	Multi_summ 2707 2712	[BOS]
+T19	Reference 111 133	(Chinchor et al., 1993
+T20	Reference 135 156	Schrodt et al., 1994)
+T21	Reference 313 332	(Miyao et al., 2008
+T22	Reference 334 360	Bjorne and Salakoski, 2011
+T23	Reference 362 387	Bunescu and Mooney, 2004)
+T24	Reference 526 537	(Brin, 1998
+T25	Reference 539 565	Culotta and Sorensen, 2004
+T26	Reference 567 587	Mintz et al., 2009 )
+T27	Reference 612 631	(Banko et al., 2007
+T28	Reference 633 653	Angeli et al., 2015)
+T29	Reference 878 901	(Huang and Riloff, 2012
+T30	Reference 903 924	Surdeanu et al., 2006
+T31	Reference 926 948	Yangarber et al., 2000
+T32	Reference 950 978	Patwardhan and Riloff, 2007)
+T33	Reference 1259 1281	(Filatova et al., 2006
+T34	Reference 1283 1296	Sekine, 2006)
+T35	Reference 1523 1545	(O'Connor et al., 2013
+T36	Reference 1547 1576	Balasubramanian et al., 2013)
+T37	Dominant 1851 1879	Chambers and Jurafsky (2011)
+T38	Dominant 2293 2309	Chambers (2013 )
+T39	Dominant 2311 2329	Cheung et al (2013
+T40	Dominant 2332 2351	Nguyen et al (2015)
+T41	Dominant 2358 2374	Sha et al (2016)
+T42	Dominant 2613 2625	Cheung et al
+T43	Dominant 2713 2732	Nguyen et al (2015)
+T44	Dominant 2789 2805	Sha et al (2016)
+T45	Pronoun 1090 1095	these
+T46	Pronoun 1305 1310	These
+T47	Pronoun 1712 1717	These
+T48	Pronoun 2018 2022	they
+T49	Pronoun 2112 2116	They
+T50	B_span 88 92	hand
+T51	E_span 151 155	1994
+T52	B_span 231 240	annotated
+T53	E_span 382 386	2004
+T54	B_span 494 498	seed
+T55	E_span 581 585	2009
+T56	B_span 596 600	Open
+T57	E_span 752 762	heuristics
+T58	B_span 858 862	seed
+T59	E_span 973 977	2007
+T60	B_span 1181 1188	cluster
+T61	E_span 1291 1295	2006
+T62	B_span 1484 1491	subject
+T63	E_span 1571 1575	2013
+T64	B_span 1851 1859	Chambers
+T65	E_span 2277 2285	category
+T66	B_span 2293 2301	Chambers
+T67	E_span 2878 2883	slots

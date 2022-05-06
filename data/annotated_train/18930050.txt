@@ -1,0 +1,25 @@
+[BOS] Unlike English text in which sentences consist of words delimited by white spaces, in Chinese text, sentences are represented as strings of Chinese characters without delimiters.
+[BOS] Therefore, Chinese word segmentation is the first phase in Chinese language processing and has been widely studied for many years (Gao and Li 2005; Xue 2003; Sproat and Shih 2002; Wang, Liu and Qin 2006) .
+[BOS] Both Chinese characters and words can be used as the indexing units for Chinese IR.
+[BOS] Several approaches have shown that single character indexing can produce good results, but word and bi-gram indexing can achieve slightly better performance.
+[BOS] This however incurs greater time and space complexity with limited performance improvement (Sproat and Shih 2002; Li 1999; Kwok 1997; Peng, Huang, Schuurmans and Cercone 2002) .
+[BOS] In this paper, we propose a ranking method that combines character indexing and segmented word indexing to re-rank retrieved documents and promote relevant documents to higher positions.
+
+[BOS] Pseudo-relevance feedback is an important query expansion technique for improving IR performance (Qiu and Frei 1993; Sun, Ong and Chua 2006; Robertson and Jones 1976) .
+[BOS] The basic insight which motivates pseudo relevance feedback is that often the top of the initially ranked list of results contains a relatively high proportion of relevant documents.
+[BOS] The conjecture is that despite the presence of some irrelevant documents, these retrieved documents might still be used to identify relevant terms that co-occur in the relevant documents.
+[BOS] These terms are then used to modify the original query and better reflect the user's information needs.
+[BOS] With the expanded query, a second retrieval round is performed and the returned result is expected to contain more relevant documents which have been missed in the first retrieval round.
+[BOS] For pseudo relevance feedback query expansion, the most important task is to find the terms from the retrieved documents that are considered relevant to the query.
+[BOS] Therefore, relevant term selection is crucial in pseudo relevance feedback query expansion.
+[BOS] The standard criteria for selecting relevant terms have been proposed using tf/idf in vector space model (Rocchio 1997) and probabilistic model (Robertson and Jones 1976) .
+[BOS] Query length has been considered in (Kwok, Grunfeld and Chan 2000) for weighting expansion terms and some linguistic features also have been tried in (Smeaton and Rijsbergen 1983) .
+[BOS] We are proposing to use text mining techniques to find the relevant terms.
+
+[BOS] Data Mining is about analyzing data and finding hidden patterns using automatic or semi-automatic means.
+[BOS] Text mining is a research field of data mining which refers to the process of deriving high quality patterns and trends from text.
+[BOS] We are proposing to apply text mining techniques to finding frequent patterns in the retrieved documents in the first retrieval round which contain query terms.
+[BOS] These patterns provide us with the candidate sequences to find more terms which are relevant to the original query.
+
+[BOS] The application of text mining to information retrieval may improve precision and recall.
+

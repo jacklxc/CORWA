@@ -1,0 +1,28 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 116 121	[BOS]
+T3	Single_summ 278 283	[BOS]
+T4	Single_summ 411 416	[BOS]
+T5	Reflection 604 609	[BOS]
+T6	Reflection 943 948	[BOS]
+T7	Single_summ 1008 1013	[BOS]
+T8	Single_summ 1136 1141	[BOS]
+T9	Reflection 1229 1234	[BOS]
+T10	Single_summ 1375 1380	[BOS]
+T11	Reflection 1461 1466	[BOS]
+T12	Dominant 122 149	Ghazvininejad et al. (2018)
+T13	Dominant 284 315	Parthasarathi and Pineau (2018)
+T14	Dominant 417 436	Dinan et al. (2018)
+T15	Dominant 1014 1033	Zhang et al. (2018)
+T16	Dominant 1381 1398	Xia et al. (2017)
+T17	Pronoun 625 630	these
+T18	Pronoun 1681 1687	theirs
+T19	B_span 122 135	Ghazvininejad
+T20	E_span 267 276	knowledge
+T21	B_span 284 297	Parthasarathi
+T22	E_span 402 409	decoder
+T23	B_span 417 422	Dinan
+T24	E_span 595 602	outputs
+T25	B_span 1014 1019	Zhang
+T26	E_span 1130 1134	task
+T27	B_span 1381 1384	Xia
+T28	E_span 1455 1459	task

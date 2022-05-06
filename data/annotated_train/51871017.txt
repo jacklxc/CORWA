@@ -1,0 +1,18 @@
+[BOS] FastQA (Weissenborn et al., 2017) added simple word matching features, indicating that a word was in both the passage and question, to a simple MRC model.
+[BOS] Those simple features improved performance using this simple MRC model.
+[BOS] We observed that variations of this feature were acceptable predictors of failures and successes Adversarial SQuAD (Jia and Liang, 2017) added distractor sentences at the end of SQuAD examples.
+[BOS] Model specific distractors were created by adding random words, guided by the target model's output, until it predicted a wrong answer.
+[BOS] The resulting sentences are ungrammatical and have no semantic significance, but match words present in the question.
+[BOS] Similarly, a more generic set of distractors was created using a simple set of rules to transform the question into a statement, and replacing keywords.
+[BOS] The resulting sentence is grammatical and meaningful, but is irrelevant to the question.
+[BOS] The significant number of word matches between the question and the distractor significantly reduces performance.
+
+[BOS] Those related works indicates that word to word matching, similar to the reserved engineered strategy described in Section 8, is sufficient to obtain good performance on SQuAD.
+
+[BOS] In this work, we used systematic hypothesis testing over both failures and successes to identify the strategy used by machines to reach high performance on SQuAD.
+[BOS] Systematic testing based on automatically extracted features prevent us from relying on human explanation.
+[BOS] It also limits confirmation bias, which is a concern for qualitative analysis.
+[BOS] Human investigators will tend to explain errors in term of the human skills required, even when a simpler explanation is possible.
+[BOS] It is also important to confirm that the same explanation is not applicable to the models' successes.
+[BOS] Previous error analysis focused on errors, and ignored successes.
+

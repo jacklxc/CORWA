@@ -1,0 +1,24 @@
+[BOS] The problem of morphology and dealing with MCWs is an important issue in the field of sequence modeling as it directly affects the model's architecture and its performance.
+[BOS] There is a fair amount of research carried out to address this problem, which can be discussed in two main categories.
+[BOS] One group of models tries to cope with the problem on the encoder side where the goal is to understand the rich morphology of the source language.
+[BOS] Kim et al. (2016) proposed a convolutional module to process complex inputs for the problem of language modeling.
+[BOS] Costa-juss and Fonollosa (2016) and Lee et al. (2017) adapted the same convolutional encoder to NMT.
+[BOS] Luong and Manning (2016) designed a hybrid character-and word-based encoder to try to solve the out-of-vocabulary problem.
+[BOS] Vylomova et al. (2016) tackled the problem by comparing the impact of different representation schemes on the encoder.
+[BOS] Similarly, Burlot et al. (2017) investigated the impact of different word representation models in the context of factored NMT.
+[BOS] Our work is also an example of models which try to provide richer information when the source side is an MRL.
+
+[BOS] Models reviewed so far address the problem of morphology on the source side.
+[BOS] In contrast, there is a group of models which study the same problem for the target side.
+[BOS] Huck et al. (2017) compared different word-segmentation models, including linguistically motivated as well as statistical techniques, to find the most appropriate segmentation scheme when translating into MRLs.
+[BOS] Chung et al. (2016) tried to design a suitable architecture when the target language is an MRL.
+[BOS] They benefit from using a character-based decoder which partially resolves the problem.
+[BOS] proposed a similar approach in which they equipped the character-based decoder with an additional morphology table to inform the decoder with the target language's morphological structures.
+
+[BOS] Apart from these models, there are others that do not directly address the problem of morphology but their solutions could be quite useful to translate MRLs.
+[BOS] Jean et al. (2015) proposed a model to handle very large vocabularies.
+[BOS] Luong et al. (2015) addressed the problem of rare and unseen words with the help of a post-translation phase to exchange unknown tokens with their potential translations.
+[BOS] Dalvi et al. (2017) did not propose a new model but studied the impact of morphological information in NMT.
+[BOS] They evaluated the behaviour of an encoder-decoder model to see what sort of morphological information is learned via the model and how the model deals with complex structures.
+[BOS] Passban (2018) extensively discussed the problem of morphology at the word and sequence level and proposed solutions for modeling and translating sequences in monolingual and bilingual settings.
+

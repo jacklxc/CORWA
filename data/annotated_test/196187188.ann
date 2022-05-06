@@ -1,0 +1,69 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 99 104	[BOS]
+T3	Narrative_cite 257 262	[BOS]
+T4	Narrative_cite 486 491	[BOS]
+T5	Narrative_cite 753 758	[BOS]
+T6	Transition 1167 1172	[BOS]
+T7	Narrative_cite 1300 1305	[BOS]
+T8	Transition 1502 1507	[BOS]
+T9	Reflection 1619 1624	[BOS]
+T10	Transition 1728 1733	[BOS]
+T11	Single_summ 1950 1955	[BOS]
+T12	Single_summ 2089 2094	[BOS]
+T13	Single_summ 2161 2166	[BOS]
+T14	Reflection 2237 2242	[BOS]
+T15	Reflection 2285 2290	[BOS]
+T16	Reflection 2518 2523	[BOS]
+T17	Reflection 2578 2583	[BOS]
+T18	Reference 211 231	(Smith et al., 2015)
+T19	Reference 359 384	(Richardson et al., 2013)
+T20	Reference 406 425	(Wang et al., 2015)
+T21	Reference 447 478	(Narasimhan and Barzilay, 2015)
+T22	Reference 554 575	(Kadlec et al., 2016)
+T23	Reference 584 602	(Seo et al., 2016)
+T24	Reference 616 638	(Wang and Jiang, 2017)
+T25	Reference 872 903	(Richardson and Domingos, 2006)
+T26	Reference 951 970	(Sun et al., 2018b)
+T27	Reference 989 1006	(Yu et al., 2012)
+T28	Reference 1041 1060	(Hill et al., 2015)
+T29	Reference 1090 1112	(Dhingra et al., 2016)
+T30	Reference 1141 1159	(Cui et al., 2016)
+T31	Reference 1462 1481	(Zhou et al., 2018)
+T32	Dominant 1971 1992	Santoro et al. (2017)
+T33	Dominant 2102 2127	Hudson and Manning (2018)
+T34	B_span 178 185	feature
+T35	E_span 230 231	)
+T37	E_span 383 384	)
+T38	B_span 387 396	syntactic
+T39	E_span 424 425	)
+T40	B_span 428 437	discourse
+T41	E_span 477 478	)
+T42	B_span 530 538	Stanford
+T43	E_span 574 575	)
+T44	B_span 578 581	BiD
+T45	E_span 601 602	)
+T46	B_span 605 610	Match
+T47	E_span 637 638	)
+T48	B_span 848 857	predicate
+T49	E_span 902 903	)
+T50	B_span 906 910	rule
+T53	E_span 969 970	)
+T54	B_span 974 977	pre
+T55	E_span 1005 1006	)
+T56	B_span 1013 1018	multi
+T57	E_span 1059 1060	)
+T58	B_span 1071 1076	gated
+T59	E_span 1111 1112	)
+T60	B_span 1115 1121	double
+T61	E_span 1158 1159	)
+T62	B_span 1440 1449	interpret
+T63	E_span 1480 1481	)
+T64	B_span 1971 1975	Sant
+T65	E_span 2087 2088	.
+T66	B_span 2102 2105	Hud
+T68	Pronoun 105 107	It
+T69	Pronoun 1173 1178	These
+T70	Pronoun 1637 1641	this
+T71	Pronoun 2686 2690	this
+T72	B_span 294 301	lexical
+T36	E_span 2219 2235	interpretability

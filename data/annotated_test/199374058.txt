@@ -1,0 +1,31 @@
+[BOS] Constant and Nivre (2016) proposed joint syntactic and lexical analysis in which the syntactic dimension of their structure is represented by a dependency tree, and the lexical dimension is represented by a forest of trees.
+[BOS] The two dimensions share token-level representations.
+[BOS] They use a transition-based system that jointly learns both lexical and syntactic analysis resulting in an improvement for the task of MWE identification.
+
+[BOS] The idea of multitask learning (MTL) in neural networks was popularised by the work of Collobert et al. (2011) .
+[BOS] They improved the performance of chunking by jointly learning it with POS tagging.
+[BOS] Sgaard and Goldberg (2016) discuss the idea further by pinpointing that supervising different tasks on different layers is beneficial.
+[BOS] Specifically, in their work, for an input sequence, w 1:n they have several RNN layers l for each task, t, and their task-specific classifier is defined as:
+
+[BOS] is the output representation of RNN for word i and f t is the tagger/classification function.
+[BOS] This way, different tasks might be applied to different RNN layers (i.e. there are layers shared by several tasks, and layers that are specific to some tasks).
+[BOS] We use this idea here, by having some specific layers for final MWE prediction which are not shared with the auxiliary parsing task.
+
+[BOS] Using an LSTM-based model, Bingel and Sgaard (2017) performed a study to find beneficial tasks for the purpose of MTL in a sequence labelling scenario.
+[BOS] In their work, the MWE model benefited from most auxiliary tasks such as chunking, CCG parsing, and Super-sense tagging.
+[BOS] A similar finding is reported in Changpinyo et al. (2018) where performance of an MWE tagger was consistently improved when jointly trained with any of the 10 different auxiliary tasks in various MTL settings.
+
+[BOS] Transfer learning (TRL) has seen a flurry of interest with the advent of pre-trained language models, transformers, and contextualised embeddings (Howard and Ruder, 2018; Peters et al., 2018; Devlin et al., 2018) .
+[BOS] Transfer learning is particularly helpful where data scarcity can be an issue, and a related task with more data can be used to alleviate the issue.
+[BOS] Liu et al. (2018) is an example of the use of task-aware language models to enhance sequence labelling using an LSTM-CRF architecture powered by a language model.
+
+[BOS] A related scenario in TRL is when tasks remain the same but models are designed to transfer knowledge across languages.
+[BOS] In NLP, crosslingual transfer learning has been extensively explored in the context of representation learning where monolingual spaces are mapped into a common embedding space through methods like retrofitting (Faruqui et al., 2015) , matrix factorization (Vyas and Carpuat, 2016) or similar.
+[BOS] Outside representation learning, there have been many attempts to use TRL in NLP tasks.
+[BOS] For sequence labelling, trained POS tagging models cross-lingually without access to parallel resources.
+[BOS] The model consisted of two LSTM components where one is shared between the languages and the other is private (language-specific).
+
+[BOS] Yang et al. (2017) is a notable example of cross-lingual transfer learning under low-resource settings where sequence labelling models were trained to transfer knowledge between English, Spanish, and Dutch for POS tagging, chunking, and Named Entity Recognition (NER) through the use of shared and private parameters.
+[BOS] In that work, three different architectures were explored for cross-domain, cross-application, and crosslingual transfer.
+[BOS] The core of their proposed models is similar to Lample et al. (2016) , with minor differences including the incorporation of GRU instead of LSTM and a training objective based on the max-margin principle.
+

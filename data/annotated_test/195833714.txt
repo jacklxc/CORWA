@@ -1,0 +1,13 @@
+[BOS] Offline linear map induction methods The earliest approach to induce a linear mapping from the monolingual embedding spaces into a shared space was introduced in .
+[BOS] They propose to learn the mapping by optimising the least squares objective on the monolingual embedding matrices corresponding to translational equivalent pairs.
+[BOS] Subsequent research aimed to improve the mapping quality by optimising different objectives such as max-margin (Lazaridou et al., 2015) and by introducing an orthogonality constraint to the bilingual map to enforce self-consistency (Xing et al., 2015; Smith et al., 2017) .
+[BOS] (Artetxe et al., 2016) provide a theoretical analysis to existing approaches and in a follow-up research (Artetxe et al., 2018 ) they propose to learn principled bilingual mappings via a series of linear transformations.
+
+[BOS] An extensive survey of different approaches, including offline and online methods can be found in (Ruder, 2017) .
+
+[BOS] The role of bilingual dictionary A common way to select a bilingual dictionary is by using either automatic translations of frequent words or word alignments.
+[BOS] For instance, (Faruqui and Dyer, 2014 ) select the target word to which the source word is most frequently aligned in parallel corpora.
+[BOS] use the 5,000 most frequent words from the source language with their translations.
+[BOS] To investigate the impact of the dictionary on the embedding quality, (Vuli and Korhonen, 2016) evaluate different factors and conclude that carefully selecting highly reliable symmetric translation pairs improves the performance of benchmark word-translation tasks.
+[BOS] The authors also demonstrate that increasing the lexicon size over 10,000 pairs show a slow and steady decrease in performance.
+

@@ -1,0 +1,4 @@
+[BOS] From the previous explorations of online translation model combination, we see the work of Liu et al. (2009) proposing an unconstrained combination of hiero and tree-to-string models as a special configuration of our framework, and we also replicate it.
+[BOS] Denero et al. (2010) combine translation models even with different search paradigms.
+[BOS] Their approach is different, since their component systems do not interact at decoding time, instead, each of them provides its weighted translation forest first, the forests are then combined to infer a new combination model.
+

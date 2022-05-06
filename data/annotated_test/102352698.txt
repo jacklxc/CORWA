@@ -1,0 +1,24 @@
+[BOS] Previous studies have explored joint modeling (Miwa and Bansal, 2016; Zhang et al., 2017; Singh et al., 2013; Yang and Mitchell, 2016) ) and multi-task learning (Peng and Dredze, 2015; Peng et al., 2017; Luan et al., 2018a Luan et al., , 2017a as methods to share representational strength across related information extraction tasks.
+[BOS] The most similar to ours is the work in Luan et al. (2018a) that takes a multi-task learning approach to entity, relation, and coreference extraction.
+[BOS] In this model, the different tasks share span representations that only incorporate broader context indirectly via the gradients passed back to the LSTM layer.
+[BOS] In contrast, DYGIE uses dynamic graph propagation to explicitly incorporate rich contextual information into the span representations.
+
+[BOS] Entity recognition has commonly been cast as a sequence labeling problem, and has benefited substantially from the use of neural architectures (Collobert et al., 2011; Lample et al., 2016; Ma and Hovy, 2016; Luan et al., 2017b Luan et al., , 2018b .
+[BOS] However, most systems based on sequence labeling suffer from an inability to extract entities with overlapping spans.
+[BOS] Recently Katiyar and Cardie (2018) and Wang and Lu (2018) have presented methods enabling neural models to extract overlapping entities, applying hypergraph-based representations on top of sequence labeling systems.
+[BOS] Our framework offers an alternative approach, forgoing sequence labeling entirely and simply considering all possible spans as candidate entities.
+
+[BOS] Neural graph-based models have achieved significant improvements over traditional featurebased approaches on several graph modeling tasks.
+[BOS] Knowledge graph completion (Yang et al., 2015; Bordes et al., 2013 ) is one prominent example.
+[BOS] For relation extraction tasks, graphs have been used primarily as a means to incorporate pipelined features such as syntactic or discourse relations (Peng et al., 2017; Song et al., 2018; .
+[BOS] Christopoulou et al. (2018) models all possible paths between entities as a graph, and refines pair-wise embeddings by performing a walk on the graph structure.
+[BOS] All these previous works assume that the nodes of the graph (i.e. the entity candidates to be considered during relation extraction) are predefined and fixed throughout the learning process.
+[BOS] On the other hand, our framework does not require a fixed set of entity boundaries as an input for graph construction.
+[BOS] Motivated by state-ofthe-art span-based approaches to coreference resolution (Lee et al., 2017 and semantic role labeling , the model uses a beam pruning strategy to dynamically select high-quality spans, and constructs a graph using the selected spans as nodes.
+
+[BOS] Many state-of-the-art RE models rely upon domain-specific external syntactic tools to construct dependency paths between the entities in a sentence (Li and Ji, 2014; Xu et al., 2015; Miwa and Bansal, 2016; Zhang et al., 2017) .
+[BOS] These systems suffer from cascading errors from these tools and are hard to generalize to different domains.
+[BOS] To make the model more general, we combine the multitask learning framework with ELMo embeddings (Peters et al., 2018) without relying on external syntactic tools and risking the cascading errors that accompany them, and improve the interaction between tasks through dynamic graph propagation.
+[BOS] While the performance of DyGIE benefits from ELMo, it advances over some systems (Luan et al., 2018a; Sanh et al., 2019) that also incorporate ELMo.
+[BOS] The analyses presented here give insights into the benefits of joint modeling.
+

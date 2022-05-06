@@ -1,0 +1,42 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 105 110	[BOS]
+T3	Narrative_cite 229 234	[BOS]
+T4	Transition 433 438	[BOS]
+T5	Single_summ 719 724	[BOS]
+T6	Single_summ 853 858	[BOS]
+T7	Reflection 1003 1008	[BOS]
+T8	Reflection 1079 1084	[BOS]
+T9	Single_summ 1127 1132	[BOS]
+T10	Single_summ 1219 1224	[BOS]
+T11	Other 1384 1389	[BOS]
+T12	Reflection 1451 1456	[BOS]
+T13	Reflection 1551 1556	[BOS]
+T14	Other 1648 1653	[BOS]
+T15	Other 1698 1703	[BOS]
+T16	Other 1733 1738	[BOS]
+T17	Other 1759 1764	[BOS]
+T18	Transition 1789 1794	[BOS]
+T19	Dominant 111 127	Li et al. (2016)
+T20	Reference 362 389	(Ghazvininejad et al., 2017
+T21	Reference 391 409	Joshi et al., 2017
+T22	Reference 411 430	Young et al., 2017)
+T23	Dominant 738 758	(Zhang et al., 2018)
+T24	Dominant 1133 1152	Dodge et al. (2015)
+T25	Dominant 1225 1243	Yang et al. (2018)
+T26	Pronoun 7 9	it
+T27	Pronoun 862 867	their
+T28	Pronoun 881 885	they
+T29	Pronoun 959 964	their
+T30	Pronoun 1012 1016	this
+T31	Pronoun 1158 1160	it
+T32	Pronoun 1173 1175	it
+T33	B_span 111 113	Li
+T34	E_span 227 228	.
+T35	B_span 333 338	other
+T36	E_span 425 429	2017
+T37	B_span 725 732	PERSONA
+T38	E_span 992 1000	modeling
+T39	B_span 1133 1138	Dodge
+T40	E_span 1211 1217	models
+T41	B_span 1225 1229	Yang
+T42	E_span 1373 1381	problems

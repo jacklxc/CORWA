@@ -1,0 +1,95 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 30 35	[BOS]
+T3	Transition 144 149	[BOS]
+T4	Transition 285 290	[BOS]
+T5	Narrative_cite 379 384	[BOS]
+T6	Multi_summ 555 560	[BOS]
+T7	Multi_summ 965 970	[BOS]
+T8	Reflection 1064 1069	[BOS]
+T9	Reflection 1158 1163	[BOS]
+T10	Reflection 1315 1320	[BOS]
+T11	Narrative_cite 1489 1494	[BOS]
+T12	Transition 1581 1586	[BOS]
+T13	Transition 1729 1734	[BOS]
+T14	Reflection 1865 1870	[BOS]
+T15	Reflection 2026 2031	[BOS]
+T16	Reflection 2098 2103	[BOS]
+T17	Transition 2279 2284	[BOS]
+T18	Transition 2310 2315	[BOS]
+T19	Single_summ 2475 2480	[BOS]
+T20	Single_summ 2720 2725	[BOS]
+T21	Transition 2818 2823	[BOS]
+T22	Single_summ 3082 3087	[BOS]
+T23	Narrative_cite 3292 3297	[BOS]
+T24	Reflection 3446 3451	[BOS]
+T25	Transition 3592 3597	[BOS]
+T26	Single_summ 3631 3636	[BOS]
+T27	Narrative_cite 3938 3943	[BOS]
+T28	Single_summ 4142 4147	[BOS]
+T29	Transition 4361 4366	[BOS]
+T30	Multi_summ 4423 4428	[BOS]
+T31	Single_summ 4669 4674	[BOS]
+T32	Single_summ 4915 4920	[BOS]
+T33	Reflection 5170 5175	[BOS]
+T34	Reflection 5310 5315	[BOS]
+T35	Transition 5491 5496	[BOS]
+T36	Transition 5710 5715	[BOS]
+T37	Reflection 5932 5937	[BOS]
+T38	Reference 435 457	(Chen and Bansal, 2018
+T39	Reference 459 480	Narayan et al., 2018b
+T40	Reference 482 499	Dong et al., 2018
+T41	Reference 501 524	Kryscinski et al., 2018
+T42	Reference 526 551	Pasunuru and Bansal, 2018
+T43	Dominant 598 617	(Rioux et al., 2014
+T44	Dominant 619 643	Ryang and Abekawa, 2012)
+T45	Reference 1556 1578	(Ng and Russell, 2000)
+T46	Reference 1970 1993	(Kreutzer et al., 2017)
+T47	Reference 2234 2256	(Kreutzer et al., 2018
+T48	Reference 2258 2275	Gao et al., 2018)
+T49	Dominant 2481 2502	Arumae and Liu (2019)
+T50	Dominant 3088 3112	Kryscinski et al. (2018)
+T51	Reference 3426 3443	See et al., 2017)
+T52	Dominant 3637 3663	Pasunuru and Bansal (2018)
+T53	Reference 4009 4033	(Rajpurkar et al., 2016)
+T54	Reference 4072 4093	(Bowman et al., 2015)
+T55	Reference 4108 4131	(Williams et al., 2018)
+T56	Dominant 4429 4453	Louis and Nenkova (2013)
+T57	Dominant 4456 4477	Peyrard et al. (2017)
+T58	B_span 385 389	Most
+T59	E_span 547 551	2018
+T62	B_span 1539 1546	inverse
+T63	E_span 1577 1578	)
+T64	B_span 1954 1958	band
+T65	E_span 1992 1993	)
+T67	E_span 2274 2275	)
+T68	B_span 2481 2483	Ar
+T70	B_span 3088 3090	Kr
+T71	E_span 3290 3291	.
+T73	E_span 3442 3443	)
+T74	B_span 3637 3640	Pas
+T75	E_span 3936 3937	.
+T76	B_span 3973 3976	SQu
+T77	E_span 4032 4033	)
+T78	B_span 4067 4069	SN
+T79	E_span 4092 4093	)
+T80	B_span 4098 4103	Multi
+T81	E_span 4130 4131	)
+T82	B_span 4429 4434	Louis
+T84	Pronoun 421 425	this
+T85	Pronoun 1213 1218	their
+T86	Pronoun 2919 2924	their
+T87	Pronoun 2980 2985	their
+T88	Pronoun 3349 3354	their
+T89	Pronoun 4157 4162	their
+T90	Pronoun 4227 4229	it
+T91	Pronoun 4254 4259	their
+T92	Pronoun 4311 4315	they
+T93	Pronoun 4689 4693	they
+T94	Pronoun 4921 4926	Their
+T95	Pronoun 5018 5023	their
+T96	B_span 580 585	input
+T60	E_span 1049 1061	counterparts
+T61	B_span 2178 2187	generated
+T66	E_span 2807 2816	summaries
+T69	B_span 3381 3386	state
+T72	E_span 5163 5168	ROUGE

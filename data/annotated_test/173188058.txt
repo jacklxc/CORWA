@@ -1,0 +1,6 @@
+[BOS] Prior work has shown that RC performance can be improved by training on a large dataset and transferring to a smaller one, but at a small scale (Min et al., 2017; Chung et al., 2018) .
+[BOS] has recently shown this in a larger experiment for multi-choice questions, where they first fine-tuned BERT on RACE (Lai et al., 2017) and then finetuned on several smaller datasets.
+
+[BOS] Interest in learning general-purpose representations for natural language through unsupervised, multi-task and transfer learning has been skyrocketing lately Radford et al., 2018; McCann et al., 2018; Chronopoulou et al., 2019; Phang et al., 2018; .
+[BOS] In parallel to our work, studies that focus on generalization have appeared on publication servers, empirically studying generalization to multiple tasks (Yogatama et al., 2019; Liu et al., 2019 natural langauge understanding, focusing on reading comprehension, which we view as an important and broad language understanding task.
+

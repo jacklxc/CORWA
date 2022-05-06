@@ -1,0 +1,12 @@
+[BOS] Learning vector representations for words with a word embedding matrix as the encoder and a context word embedding matrix as the decoder (Mikolov et al., 2013a; Lebret and Collobert, 2014; Pennington et al., 2014; can be considered as a word-level example of our approach, as the models learn to predict the surrounding words in the context given the current word, and the context word embeddings can also be utilised to augment the word embeddings (Pennington et al., 2014; Levy et al., 2015) .
+[BOS] We are thus motivated to explore the use of sentence decoders after learning instead of ignoring them as most sentence encoder-decoder models do.
+
+[BOS] Our approach is to invert the decoding function in order to use it as another encoder to assist the original encoder.
+[BOS] In order to make computation of the inverse function well-posed and tractable, careful design of the decoder is needed.
+[BOS] A simple instance of an invertible decoder is a linear projection with an orthonormal square matrix, whose transpose is its inverse.
+[BOS] A family of bijective transformations with non-linear functions (Dinh et al., 2014; Rezende and Mohamed, 2015; Kingma et al., 2016) can also be considered as it empowers the decoder to learn a complex data distribution.
+
+[BOS] In our paper, we exploit two types of plausible decoding functions, including linear projection and bijective functions with neural networks (Dinh et al., 2014) , and with proper design, the inverse of each of the decoding functions can be derived without expensive calculation after learning.
+[BOS] Thus, the decoder function can be utilised along with the encoder for building sentence representations.
+[BOS] We show that the ensemble of the encoder and the inverse of the decoder outperforms each of them.
+

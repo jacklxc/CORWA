@@ -1,0 +1,11 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 282 287	[BOS]
+T3	Other 379 384	[BOS]
+T4	Other 539 544	[BOS]
+T5	Other 833 838	[BOS]
+T6	Reference 361 376	(Steiger, 1980)
+T9	B_span 306 318	significance
+T10	E_span 371 375	1980
+T11	Pronoun 113 117	this
+T12	Pronoun 385 387	It
+T13	Pronoun 757 759	it

@@ -1,0 +1,19 @@
+[BOS] Our graph-based parser is derived from the work of McDonald and Pereira (2006) .
+[BOS] Instead of performing exact inference by dynamic programming, we incorporated the linear model and feature templates from McDonald and Pereira (2006) into our beam-search framework, while adding new global features.
+[BOS] Nakagawa (2007) and Hall (2007) also showed the effectiveness of global features in improving the accuracy of graph-based parsing, using the approximate Gibbs sampling method and a reranking approach, respectively.
+
+[BOS] Our transition-based parser is derived from the deterministic parser of Nivre et al. (2006) .
+[BOS] We incorporated the transition process into our beamsearch framework, in order to study the influence of search on this algorithm.
+[BOS] Existing efforts to add search to deterministic parsing include Sagae and Lavie (2006b), which applied best-first search to constituent parsing, and Johansson and Nugues (2006) and Duan et al. (2007) , which applied beamsearch to dependency parsing.
+[BOS] All three methods estimate the probability of each transition action, and score a state item by the product of the probabilities of all its corresponding actions.
+[BOS] But different from our transition-based parser, which trains all transitions for a parse globally, these models train the probability of each action separately.
+[BOS] Based on the work of Johansson and Nugues (2006) , Johansson and Nugues (2007) studied global training with an approximated large-margin algorithm.
+[BOS] This model is the most similar to our transition-based model, while the differences include the choice of learning and decoding algorithms, the definition of feature templates and our application of the "early update" strategy.
+
+[BOS] Our combined parser makes the biggest contribution of this paper.
+[BOS] In contrast to the models above, it includes both graph-based and transition-based components.
+[BOS] An existing method to combine multiple parsing algorithms is the ensemble approach (Sagae and Lavie, 2006a) , which was reported to be useful in improving dependency parsing (Hall et al., 2007) .
+[BOS] A more recent approach (Nivre and McDonald, 2008 ) combined MSTParser and MaltParser by using the output of one parser for features in the other.
+[BOS] Both and Nivre and McDonald (2008) can be seen as methods to combine separately defined models.
+[BOS] In contrast, our parser combines two components in a single model, in which all parameters are trained consistently.
+

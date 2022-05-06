@@ -1,0 +1,20 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 209 214	[BOS]
+T3	Narrative_cite 345 350	[BOS]
+T4	Reflection 542 547	[BOS]
+T5	Reflection 746 751	[BOS]
+T6	Reference 125 142	(Lee et al., 2013
+T7	Reference 144 167	Durrett and Klein, 2013
+T8	Reference 169 193	Bjrkelund and Kuhn, 2014
+T9	Reference 195 206	inter alia)
+T10	Reference 401 423	(Versley et al., 2008)
+T11	Reference 437 461	(Stoyanov et al., 2009 )
+T12	B_span 57 59	an
+T13	E_span 201 205	alia
+T14	B_span 396 400	BART
+T15	E_span 418 422	2008
+T16	B_span 427 433	Reconc
+T17	E_span 455 459	2009
+T18	Pronoun 113 118	their
+T19	Pronoun 224 229	these
+T20	Pronoun 563 568	these

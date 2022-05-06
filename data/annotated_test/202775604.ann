@@ -1,0 +1,62 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 304 309	[BOS]
+T3	Single_summ 525 530	[BOS]
+T4	Transition 717 722	[BOS]
+T5	Narrative_cite 816 821	[BOS]
+T6	Reflection 1182 1187	[BOS]
+T7	Multi_summ 1281 1286	[BOS]
+T8	Multi_summ 1397 1402	[BOS]
+T9	Single_summ 1534 1539	[BOS]
+T10	Single_summ 1636 1641	[BOS]
+T11	Single_summ 1759 1764	[BOS]
+T12	Transition 1877 1882	[BOS]
+T13	Reference 64 82	(Ratnaparkhi, 2002
+T14	Reference 84 104	Ritter et al., 2011)
+T15	Reference 205 226	(Sordoni et al., 2015
+T16	Reference 228 247	Serban et al., 2017
+T17	Reference 249 266	Park et al., 2018
+T18	Reference 268 283	Du et al., 2018
+T19	Reference 285 301	Gu et al., 2019)
+T20	Dominant 606 628	(Sordoni et al., 2015)
+T21	Reference 908 929	(Kingma et al., 2014)
+T22	Reference 970 995	(Goodfellow et al., 2014)
+T23	Reference 1048 1068	(Serban et al., 2017
+T24	Reference 1070 1085	Xu et al., 2017
+T25	Reference 1087 1096	Li et al.
+T26	Reference 1161 1179	Park et al., 2018)
+T27	Reference 1260 1277	(Gu et al., 2019)
+T28	Dominant 1351 1368	(Li et al., 2016b
+T29	Dominant 1370 1394	Xing and Fernndez, 2018)
+T30	Dominant 1464 1481	Li et al. (2016b)
+T31	Dominant 1540 1561	Olabiyi et al. (2018)
+T33	E_span 103 104	)
+T34	B_span 121 127	neural
+T37	E_span 300 301	)
+T38	B_span 560 572	Hierarchical
+T39	E_span 715 716	.
+T40	B_span 864 875	Conditional
+T41	E_span 928 929	)
+T42	B_span 933 943	Generative
+T43	E_span 994 995	)
+T44	B_span 1028 1038	generating
+T45	E_span 1178 1179	)
+T46	B_span 1244 1247	GAN
+T47	E_span 1276 1277	)
+T48	B_span 1287 1295	Modeling
+T49	E_span 1458 1459	,
+T50	B_span 1464 1466	Li
+T51	E_span 1532 1533	.
+T52	B_span 1540 1542	Ol
+T53	E_span 1875 1876	.
+T54	Pronoun 357 361	they
+T55	Pronoun 543 547	this
+T56	Pronoun 1403 1407	They
+T57	Pronoun 1572 1576	this
+T58	Pronoun 1642 1646	This
+T59	Pronoun 1765 1769	This
+T60	Pronoun 1781 1783	it
+T61	Pronoun 1902 1907	these
+T62	Pronoun 1923 1925	it
+T63	B_span 6 14	Dialogue
+T32	E_span 1093 1095	al
+T35	B_span 1161 1165	Park

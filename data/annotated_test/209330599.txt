@@ -1,0 +1,17 @@
+[BOS] Shared tasks on automatic summarization were first introduced at the Document Understanding Conferences (DUC).
+[BOS] 3 In addition to new summarization technology, equal emphasis was given to formulating strong evaluation measures.
+[BOS] Methods such as basic elements (Hovy et al., 2006) , pyramid (Nenkova and Passonneau, 2004) , and ROUGE (Lin, 2004) were introduced for automatically evaluating the content selection capabilities of the participating systems.
+[BOS] Furthermore, Dang (2005) presented the first guideline for manually judging summary quality.
+[BOS] In 2008, DUC became a summarization track at the Text Analysis Conference Example -CNN/DailyMail Corpus Article NASA will launch Space Shuttle Endeavour on February 7, which will be the first of five launches this year before the shuttle fleet is retired.
+[BOS] Endeavour will blast off from the Kennedy Space Center in Florida on a 13-day mission to the international space station.
+[BOS] The mission will include three spacewalks, NASA said.
+[BOS] The shuttle will also deliver the final U.S. portion of the space station.
+[BOS] This portion will provide more room for crew members.
+[BOS] NASA plans to retire its space shuttles Discovery, Endeavour and Atlantis later this year.
+[BOS] The space agency has been looking for places, such as museums, to house the shuttles after they are retired.
+[BOS] Space Shuttle Discovery will be transferred to the Smithsonian National Air and Space Museum in Washington.
+[BOS] The privilege of showing off a shuttle won't be cheap -about $29 million, NASA said.
+[BOS] Highlights -This will be first of five launches this year before the shuttle fleet is retired -NASA is scheduled to launch Space Shuttle Endeavour on February 7.
+
+[BOS] -Shuttle will deliver final U.S. portion of the international space station -NASA has been looking for places to house the shuttles once they are retired
+

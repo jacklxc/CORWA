@@ -1,0 +1,33 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 153 158	[BOS]
+T3	Multi_summ 353 358	[BOS]
+T4	Transition 462 467	[BOS]
+T5	Transition 655 660	[BOS]
+T6	Single_summ 796 801	[BOS]
+T7	Single_summ 999 1004	[BOS]
+T8	Reflection 1093 1098	[BOS]
+T9	Single_summ 1224 1229	[BOS]
+T10	Single_summ 1479 1484	[BOS]
+T11	Reflection 1597 1602	[BOS]
+T12	Reflection 1698 1703	[BOS]
+T13	Reference 273 286	(Gildea, 2003
+T14	Reference 288 307	Groves et al., 2004
+T15	Reference 309 329	Tinsley et al., 2007
+T16	Reference 331 350	Lavie et al., 2008)
+T17	Reference 436 459	Tiedemann & Kotz (2009)
+T18	Dominant 802 840	MacCartney, Galley, and Manning (2008)
+T19	Dominant 1230 1253	Marsi & Krahmer (2005a)
+T20	Pronoun 477 482	these
+T21	Pronoun 1030 1034	they
+T22	Pronoun 1512 1517	their
+T23	Pronoun 1623 1627	this
+T24	Pronoun 1633 1635	it
+T25	Pronoun 1649 1651	it
+T26	B_span 231 235	tree
+T27	E_span 345 349	2008
+T28	B_span 403 417	discriminative
+T29	E_span 454 458	2009
+T30	B_span 802 812	MacCartney
+T31	E_span 1085 1091	labels
+T32	B_span 1230 1235	Marsi
+T33	E_span 1591 1595	text

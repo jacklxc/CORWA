@@ -1,0 +1,32 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 115 120	[BOS]
+T3	Single_summ 293 298	[BOS]
+T4	Narrative_cite 440 445	[BOS]
+T5	Transition 570 575	[BOS]
+T6	Transition 912 917	[BOS]
+T7	Single_summ 1044 1049	[BOS]
+T8	Single_summ 1159 1164	[BOS]
+T9	Single_summ 1251 1256	[BOS]
+T10	Narrative_cite 1338 1343	[BOS]
+T11	Dominant 121 145	Boguraev and Ando (2005)
+T12	Dominant 299 317	Mani et al. (2006)
+T13	Reference 543 566	(Verhagen et al., 2007)
+T14	Dominant 1050 1078	Chambers and Jurafsky (2008)
+T15	Dominant 1165 1188	Yoshikawa et al. (2009)
+T16	Reference 1380 1402	Yoshikawa et al. (2009
+T17	Pronoun 270 275	their
+T18	Pronoun 666 670	this
+T19	Pronoun 927 931	this
+T20	Pronoun 1257 1262	These
+T21	B_span 121 129	Boguraev
+T22	E_span 285 291	events
+T23	B_span 299 303	Mani
+T24	E_span 427 438	classifiers
+T26	E_span 561 565	2007
+T27	B_span 1050 1058	Chambers
+T28	E_span 1146 1157	Programming
+T29	B_span 1165 1174	Yoshikawa
+T30	E_span 1329 1335	models
+T32	E_span 1398 1402	2009
+T25	B_span 538 542	text
+T31	B_span 1380 1389	Yoshikawa

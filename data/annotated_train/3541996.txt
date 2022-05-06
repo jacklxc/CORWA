@@ -1,0 +1,12 @@
+[BOS] The closest work to our lex model is that of Arthur et al. (2016) , which we have discussed already in Section 4.
+[BOS] Recent work by Liu et al. (2016) has a similar motivation to that of our fixnorm model.
+[BOS] They reformulate the output layer in terms of directions and magnitudes, as we do here.
+[BOS] Whereas we have focused on the magnitudes, they focus on the directions, modifying the loss function to try to learn a classifier that separates the classes' directions with something like a margin.
+
+[BOS] Handling rare words is an important problem for NMT that has been approached in various ways.
+[BOS] Some have focused on reducing the number of UNKs by enabling NMT to learn from a larger vocabulary (Jean et al., 2015; Mi et al., 2016) ; others have focused on replacing UNKs by copying source words (Gulcehre et al., 2016; Gu et al., 2016; Luong et al., 2015b) .
+[BOS] However, these methods only help with unknown words, not rare words.
+[BOS] An approach that addresses both unknown and rare words is to use subword-level information (Sennrich et al., 2016; Chung et al., 2016; Luong and Manning, 2016) .
+[BOS] Our approach is different in that we try to identify and address the root of the rare word problem.
+[BOS] We expect that our models would benefit from more advanced UNKreplacement or subword-level techniques as well.
+

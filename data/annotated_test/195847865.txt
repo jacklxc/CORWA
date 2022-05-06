@@ -1,0 +1,16 @@
+[BOS] The release of the Penn Discourse Treebank (PDTB) (Prasad et al., 2008) makes research on machine learning based implicit discourse relation recognition possible.
+[BOS] Most previous work is based on linguistic and semantic features such as word pairs and brown cluster pair representation (Pitler et al., 2008; Lin et al., 2009) or rulebased systems (Wellner et al., 2006) .
+[BOS] Recent work has proposed neural network based models with attention or advanced representations, such as CNN (Qin et al., 2016) , attention on neural tensor network (Guo et al., 2018) , and memory networks (Jia et al., 2018) .
+[BOS] Advanced representations may help to achieve higher performance (Bai and Zhao, 2018) .
+[BOS] Some methods also consider context paragraphs and inter-paragraph dependency (Dai and Huang, 2018) .
+
+[BOS] To utilize machine learning models for this task, larger datasets would provide a bigger optimization space (Li and Nenkova, 2014) .
+[BOS] Marcu and Echihabi (2002) is the first work to generate artificial samples to extend the dataset by using rules to convert explicit discourse relation pairs into implicit pairs by dropping the connectives.
+
+[BOS] This work is further extended by methods for selecting high-quality samples (Rutherford and Xue, 2015; Xu et al., 2018; Braud and Denis, 2014; Wang et al., 2012) .
+
+[BOS] Most of the existing work discussed so far is based on the PDTB dataset, which targets formal texts like news, making it less suitable for our task which is centered around informal dialogue.
+[BOS] Related work on discourse relation annotation in a dialogue corpus is limited (Stent, 2000; Tonelli et al., 2010) .
+[BOS] For example Tonelli et al. (2010) annotated the Luna corpus, 3 which does not include English annotations.
+[BOS] To our knowledge there is no English dialogue-based corpus with implicit discourse relation labels, as such research specifically targeting a discourse relation identification model for social open-domain dialogue remains unexplored.
+

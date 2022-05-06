@@ -1,0 +1,7 @@
+[BOS] Many researchers on coreference resolution release an implementation of the coreference model described in their paper (Lee et al., 2013; Durrett and Klein, 2013; Bjrkelund and Kuhn, 2014, inter alia) .
+[BOS] However, these implementations implement only one approach following one paradigm (such as mention ranking or antecedent trees).
+
+[BOS] Similarly to cort, research toolkits such as BART (Versley et al., 2008) or Reconcile (Stoyanov et al., 2009 ) provide a framework to implement and compare coreference resolution approaches.
+[BOS] In contrast to these toolkits, we make the latent structure underlying coreference approaches explicit, which facilitates development of new approaches and renders the development more transparent.
+[BOS] Furthermore, we provide a generic and customizable learning algorithm.
+

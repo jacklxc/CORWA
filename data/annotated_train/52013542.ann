@@ -1,0 +1,9 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 147 152	[BOS]
+T3	Transition 250 255	[BOS]
+T4	Reference 119 144	(Aggarwal and Zhai, 2012)
+T5	Reference 229 247	(Liu et al., 2018)
+T6	B_span 98 102	deep
+T7	E_span 139 143	2012
+T8	B_span 205 213	sentence
+T9	E_span 242 246	2018

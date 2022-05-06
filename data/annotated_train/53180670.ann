@@ -1,0 +1,53 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 188 193	[BOS]
+T3	Multi_summ 391 396	[BOS]
+T4	Narrative_cite 641 646	[BOS]
+T5	Transition 967 972	[BOS]
+T6	Single_summ 1057 1062	[BOS]
+T7	Single_summ 1272 1277	[BOS]
+T8	Single_summ 1477 1482	[BOS]
+T9	Single_summ 1667 1672	[BOS]
+T10	Reflection 1809 1814	[BOS]
+T11	Narrative_cite 1878 1883	[BOS]
+T12	Transition 2014 2019	[BOS]
+T13	Reflection 2191 2196	[BOS]
+T14	Reflection 2455 2460	[BOS]
+T15	Reference 105 124	(Luong et al., 2015
+T16	Reference 126 143	Dong et al., 2015
+T17	Reference 145 162	Chen et al., 2017
+T18	Reference 164 185	Johnson et al., 2016)
+T19	Dominant 285 303	Dong et al. (2015)
+T20	Dominant 397 419	Zoph and Knight (2016)
+T21	Dominant 504 524	Firat et al. (2016a)
+T22	Reference 806 822	Gu et al. (2018)
+T23	Reference 893 914	Johnson et al. (2016)
+T24	Dominant 1122 1145	Sutskever et al. (2014)
+T25	Dominant 1307 1331	Schwenk and Douze (2017)
+T26	Dominant 1486 1509	Platanios et al. (2018)
+T27	Dominant 1673 1694	Cfka and Bojar (2018)
+T28	Reference 1995 2011	Lu et al. (2018)
+T29	Reference 2375 2393	(Lin et al., 2017)
+T30	B_span 51 60	developed
+T31	E_span 180 184	2016
+T32	B_span 194 198	Work
+T33	E_span 378 389	translation
+T34	B_span 397 401	Zoph
+T35	E_span 488 496	scenario
+T36	B_span 504 509	Firat
+T37	E_span 633 639	scheme
+T38	B_span 678 687	universal
+T39	E_span 817 821	2018
+T40	B_span 827 836	improving
+T41	E_span 958 964	coined
+T42	B_span 1068 1079	introducing
+T43	E_span 1265 1270	model
+T44	B_span 1307 1314	Schwenk
+T45	E_span 1453 1463	performing
+T46	B_span 1486 1495	Platanios
+T47	E_span 1662 1665	NMT
+T48	B_span 1673 1677	Cfka
+T49	E_span 1803 1807	size
+T50	B_span 1896 1908	multilingual
+T51	E_span 2006 2010	2018
+T52	B_span 2345 2349	long
+T53	E_span 2388 2392	2017

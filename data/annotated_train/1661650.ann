@@ -1,0 +1,35 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 341 346	[BOS]
+T3	Single_summ 518 523	[BOS]
+T4	Single_summ 798 803	[BOS]
+T5	Single_summ 992 997	[BOS]
+T6	Single_summ 1083 1088	[BOS]
+T7	Single_summ 1234 1239	[BOS]
+T8	Single_summ 1419 1424	[BOS]
+T9	Single_summ 1561 1566	[BOS]
+T10	Single_summ 1686 1691	[BOS]
+T11	Reflection 1843 1848	[BOS]
+T12	Reflection 1952 1957	[BOS]
+T13	Reflection 2199 2204	[BOS]
+T14	Reflection 2412 2417	[BOS]
+T15	Dominant 77 91	(Ranta, 2004 )
+T16	Dominant 350 367	(Johannson, 2006)
+T17	Dominant 527 551	(Perera and Ranta, 2007)
+T18	Dominant 1005 1028	(Buillon et al., 2007 )
+T19	Dominant 1300 1321	(Rayner et al., 2006)
+T20	Dominant 1459 1477	(van Zaanen, 2000)
+T21	Pronoun 804 808	This
+T22	Pronoun 1567 1569	It
+T23	Pronoun 2285 2290	their
+T24	B_span 6 12	Making
+T25	E_span 329 339	components
+T26	B_span 347 349	In
+T27	E_span 508 515	English
+T28	B_span 524 526	In
+T29	E_span 983 990	grammar
+T30	B_span 998 1004	MedSLT
+T31	E_span 1225 1232	patient
+T32	B_span 1240 1247	General
+T33	E_span 1406 1417	interlingua
+T34	B_span 1425 1434	Alignment
+T35	E_span 1832 1841	sentences

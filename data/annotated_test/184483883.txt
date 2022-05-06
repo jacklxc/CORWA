@@ -1,0 +1,10 @@
+[BOS] Toponym detection and resolution has been widely studied, and various systems (Gritta et al., 2018b) have been proposed for these tasks.
+[BOS] Toponym detection has been implemented on texts from various sources like social media (Karagoz et al., 2016) , PubMed articles (Magge et al., 2018) etc.
+[BOS] Various named entity recognition (NER) systems including rule-based (Gritta et al., 2018b) , machine learningbased (Karagoz et al., 2016) , and deep learningbased (Magge et al., 2018) have been implemented for detecting toponyms.
+
+[BOS] The disambiguation step has been tackled previously using both supervised models and unsupervised heuristic based approaches.
+[BOS] For example, Turton (2008) presented a rule based system for disambiguating locations from PubMed abstracts.
+[BOS] Weissenbacher et al. (2015) presented results from P opulation and Distance heuristics (discussed in Section 4.3) for the disambiguation task on PubMed articles.
+[BOS] The authors also presented an SVM model with population, distance and set of meta-data as input which achieved higher performance than both the individual heuristics.
+[BOS] Gritta et al. (2018a) used a feedforward neural network approach for the disambiguation of geolocations.
+

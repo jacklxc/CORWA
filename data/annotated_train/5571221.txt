@@ -1,0 +1,17 @@
+[BOS] There is substantial amount on pivot-based SMT.
+[BOS] De Gispert and Marino (2006) discuss translation tasks between Catalan and English with the use of Spanish as a pivot language.
+[BOS] Pivoting is done using two techniques: pipelining of source-pivot and pivot-target SMT systems and direct translation using a synthesized Catalan-English.
+[BOS] In Utiyama and Isahara (2007) , the authors propose the use of pivot language through -phrase translation (phrase table creation) and sentence translation.
+[BOS] Wu and Wang (2007) compare three pivot strategies viz.
+
+[BOS] -phrase translation (i.e. triangulation), transfer method and synthetic method.
+[BOS] Nakov and Ng (2012) try to exploit the similarity between resource-poor languages and resource-rich languages for the translation task.
+[BOS] Dabre et al. (2014) used multiple decoding paths (MDP) to overcome 303 the limitation of small sized corpora.
+[BOS] Paul et al. (2013) discusses criteria to be considered for selection of good pivot language.
+[BOS] Use of sourceside segmentation as pre-processing technique has been demonstrated by (Kunchukuttan et al., 2014) .
+[BOS] Goldwater and McClosky (2005) investigates several methods for incorporating morphological information to achieve better translation from Czech to English.
+
+[BOS] Most of the pivot strategies mentioned above focus on the situation of resource-poor languages where direct translation is either very poor or not available.
+[BOS] Our approach, like Dabre et al. (2014) , tries to employ pivot strategy to help improve the performance of existing SMT systems.
+[BOS] To the best of our knowledge, our work is the first attempt to integrate word segmentation with pivot-based SMT.
+

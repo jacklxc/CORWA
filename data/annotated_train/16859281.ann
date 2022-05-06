@@ -1,0 +1,39 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 101 106	[BOS]
+T3	Narrative_cite 373 378	[BOS]
+T4	Narrative_cite 493 498	[BOS]
+T5	Multi_summ 723 728	[BOS]
+T6	Multi_summ 907 912	[BOS]
+T7	Reflection 1108 1113	[BOS]
+T8	Reference 33 62	(Goldberg and Elhadad, 2010 )
+T9	Reference 208 224	(Collins, 2002 )
+T10	Reference 231 251	(Hatori et al., 2012
+T11	Reference 258 277	(Shen et al., 2007)
+T12	Reference 284 301	(Li et al., 2012)
+T13	Reference 308 328	(Huang et al., 2012)
+T14	Reference 424 444	(Huang et al., 2012)
+T15	Reference 605 631	(Goldberg and Nivre, 2012)
+T16	Dominant 729 748	Shen et al., (2007)
+T17	Dominant 753 775	(Shen and Joshi, 2008)
+T18	Pronoun 6 10	This
+T19	Pronoun 379 383	This
+T20	Pronoun 941 946	their
+T21	Pronoun 1148 1153	their
+T22	B_span 34 42	Goldberg
+T23	E_span 91 99	learning
+T24	B_span 200 203	PTB
+T25	E_span 218 222	2002
+T26	B_span 225 230	97.11
+T27	E_span 247 251	2012
+T28	B_span 252 257	93.82
+T29	E_span 272 276	2007
+T30	B_span 278 283	97.33
+T31	E_span 296 300	2012
+T32	B_span 302 307	93.88
+T33	E_span 323 327	2012
+T34	B_span 415 423	applying
+T35	E_span 439 443	2012
+T36	B_span 590 597	dynamic
+T37	E_span 626 630	2012
+T38	B_span 729 733	Shen
+T39	E_span 1097 1106	sequences

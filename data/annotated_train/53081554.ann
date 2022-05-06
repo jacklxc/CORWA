@@ -1,0 +1,63 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 122 127	[BOS]
+T3	Transition 372 377	[BOS]
+T4	Narrative_cite 527 532	[BOS]
+T5	Narrative_cite 641 646	[BOS]
+T6	Narrative_cite 759 764	[BOS]
+T7	Narrative_cite 934 939	[BOS]
+T8	Narrative_cite 1077 1082	[BOS]
+T9	Narrative_cite 1294 1299	[BOS]
+T10	Narrative_cite 1564 1569	[BOS]
+T11	Transition 1862 1867	[BOS]
+T12	Transition 1959 1964	[BOS]
+T13	Transition 2146 2151	[BOS]
+T14	Single_summ 2215 2220	[BOS]
+T15	Narrative_cite 2384 2389	[BOS]
+T16	Other 2446 2451	[BOS]
+T17	Other 2554 2559	[BOS]
+T18	Transition 2668 2673	[BOS]
+T19	Single_summ 2765 2770	[BOS]
+T20	Reference 614 637	(Sutskever et al., 2014
+T21	Reference 738 756	(Luo et al., 2018)
+T23	Reference 876 911	(Li et al., , 2016 Guu et al., 2017
+T24	Reference 913 931	Shao et al., 2017)
+T25	Reference 1057 1074	(Li et al., 2017)
+T26	Reference 1236 1252	(Li et al., 2016
+T27	Reference 1254 1270	Guu et al., 2017
+T28	Reference 1272 1290	Shao et al., 2017)
+T29	Reference 1378 1402	(Goodfellow et al., 2014
+T30	Reference 1404 1423	Denton et al., 2015
+T31	Reference 1425 1441	Li et al., 2017)
+T32	Reference 1491 1512	(Radford et al., 2015
+T33	Reference 1514 1536	Gulrajani et al., 2017
+T34	Reference 1538 1561	Berthelot et al., 2017)
+T35	Reference 1769 1791	(Salimans et al., 2016
+T36	Reference 1793 1815	Gulrajani et al., 2017
+T37	Reference 1817 1834	Zhao et al., 2017
+T38	Reference 1836 1859	Berthelot et al., 2017)
+T39	Dominant 2228 2245	(Yu et al., 2017)
+T40	Reference 2390 2411	Ranzato et al. (2016)
+T41	Dominant 2771 2793	Bahdanau et al. (2017)
+T42	B_span 587 595	sequence
+T43	E_span 633 637	2014
+T44	B_span 728 732	dull
+T45	E_span 751 755	2018
+T22	Reference 860 875	Li et al., 2017
+T46	B_span 821 829	generate
+T47	E_span 926 930	2017
+T48	B_span 1024 1032	generate
+T49	E_span 1069 1073	2017
+T50	B_span 1178 1184	mutual
+T51	E_span 1285 1289	2017
+T52	B_span 1357 1368	adversarial
+T53	E_span 1436 1440	2017
+T54	B_span 1474 1479	image
+T55	E_span 1556 1560	2017
+T56	B_span 1746 1757	Energybased
+T57	E_span 1854 1858	2017
+T58	B_span 2221 2227	SeqGAN
+T59	E_span 2374 2382	learning
+T60	B_span 2390 2397	Ranzato
+T61	E_span 2441 2444	GAN
+T62	B_span 2771 2779	Bahdanau
+T63	E_span 2837 2841	task

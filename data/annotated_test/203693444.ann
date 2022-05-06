@@ -1,0 +1,51 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 149 154	[BOS]
+T3	Multi_summ 419 424	[BOS]
+T4	Transition 645 650	[BOS]
+T5	Multi_summ 761 766	[BOS]
+T6	Single_summ 1040 1045	[BOS]
+T7	Single_summ 1197 1202	[BOS]
+T8	Single_summ 1603 1608	[BOS]
+T9	Single_summ 1976 1981	[BOS]
+T10	Reflection 2166 2171	[BOS]
+T11	Reflection 2287 2292	[BOS]
+T12	Reflection 2467 2472	[BOS]
+T13	Reflection 2605 2610	[BOS]
+T14	Dominant 155 177	Caliskan et al. (2017)
+T15	E_span 416 417	)
+T16	B_span 155 163	Caliskan
+T17	Dominant 425 443	Garg et al. (2018)
+T18	B_span 425 429	Garg
+T19	E_span 637 643	models
+T20	E_span 548 552	time
+T21	Dominant 558 576	Zhao et al. (2017)
+T22	B_span 558 562	Zhao
+T23	Dominant 793 816	Bolukbasi et al. (2016a
+T24	Dominant 817 843	Bolukbasi et al. ( , 2016b
+T25	Dominant 933 951	Zhao et al. (2018)
+T26	E_span 921 931	embeddings
+T27	B_span 793 802	Bolukbasi
+T28	B_span 933 937	Zhao
+T29	E_span 1031 1038	neutral
+T30	Dominant 1046 1070	Bordia and Bowman (2019)
+T31	B_span 1046 1052	Bordia
+T32	E_span 1188 1195	neutral
+T33	Dominant 1203 1221	Park et al. (2018)
+T34	E_span 1597 1601	text
+T35	Reference 1404 1428	Bolukbasi et al. (2016b)
+T36	B_span 1362 1366	hard
+T37	E_span 1422 1427	2016b
+T38	B_span 1671 1675	word
+T39	E_span 1742 1746	2018
+T40	Reference 1700 1724	Bolukbasi et al. (2016b)
+T41	Reference 1729 1747	Zhao et al. (2018)
+T42	Dominant 1609 1634	Gonen and Goldberg (2019)
+T43	B_span 1609 1614	Gonen
+T44	E_span 1971 1973	it
+T45	Dominant 1991 2017	Gonen and Gold-berg (2019)
+T46	B_span 1991 1996	Gonen
+T47	E_span 2158 2163	words
+T48	B_span 2668 2677	debiasing
+T49	E_span 2715 2720	2016b
+T50	Reference 2697 2721	Bolukbasi et al. (2016b)
+T51	B_span 1203 1207	Park

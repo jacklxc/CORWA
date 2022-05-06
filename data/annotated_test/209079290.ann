@@ -1,0 +1,82 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 111 116	[BOS]
+T3	Single_summ 417 422	[BOS]
+T4	Transition 567 572	[BOS]
+T5	Narrative_cite 749 754	[BOS]
+T6	Narrative_cite 1044 1049	[BOS]
+T7	Single_summ 1219 1224	[BOS]
+T8	Transition 1378 1383	[BOS]
+T9	Narrative_cite 1542 1547	[BOS]
+T10	Single_summ 1637 1642	[BOS]
+T11	Single_summ 1787 1792	[BOS]
+T12	Single_summ 1898 1903	[BOS]
+T13	Single_summ 2018 2023	[BOS]
+T14	Transition 2117 2122	[BOS]
+T15	Single_summ 2448 2453	[BOS]
+T16	Single_summ 2565 2570	[BOS]
+T17	Transition 2662 2667	[BOS]
+T18	Single_summ 2831 2836	[BOS]
+T19	Narrative_cite 3012 3017	[BOS]
+T20	Reflection 3296 3301	[BOS]
+T21	Single_summ 3444 3449	[BOS]
+T22	Single_summ 3571 3576	[BOS]
+T23	Reflection 3715 3720	[BOS]
+T24	Other 3877 3882	[BOS]
+T25	Reference 171 181	(Wan, 2009
+T26	Reference 183 213	Demirtas and Pechenizkiy, 2013
+T27	Reference 215 233	Xiao and Guo, 2012
+T28	Reference 235 254	Zhou et al., 2016a)
+T29	Dominant 423 433	Wan (2009)
+T30	Reference 543 563	(Xiao and Guo, 2012)
+T31	Reference 837 858	(Barnes et al., 2018)
+T32	Reference 1002 1021	(Zhou et al., 2016b
+T33	Reference 1023 1040	Xu and Wan, 2017)
+T34	Reference 1194 1216	(Chen et al., 2018b,a)
+T35	Dominant 1225 1244	Chen et al. (2018a)
+T36	Reference 1612 1633	(Sgaard et al., 2018)
+T37	Dominant 1715 1735	(Chen et al., 2018b)
+T38	Dominant 2454 2479	Ziser and Reichart (2018)
+T39	Dominant 2837 2862	Lample and Conneau (2019)
+T40	Reference 3154 3175	(Lample et al., 2018)
+T41	Dominant 3450 3471	Wada and Iwata (2018)
+T42	Reference 3632 3653	(Artetxe et al., 2018
+T43	Pronoun 1389 1394	these
+T44	Pronoun 1548 1552	This
+T45	Pronoun 1643 1645	It
+T46	Pronoun 2306 2310	this
+T47	Pronoun 2580 2585	their
+T48	Pronoun 2892 2894	it
+T49	Pronoun 3027 3031	this
+T50	Pronoun 3046 3048	it
+T51	Pronoun 3305 3309	this
+T52	Pronoun 3577 3581	They
+T53	Pronoun 3592 3594	it
+T54	Pronoun 3744 3749	their
+T55	B_span 143 150	machine
+T56	E_span 248 253	2016a
+T57	B_span 523 528	multi
+T58	E_span 558 562	2012
+T59	B_span 423 426	Wan
+T60	E_span 558 562	2012
+T61	B_span 781 784	map
+T62	E_span 853 857	2018
+T63	B_span 896 903	jointly
+T64	E_span 1035 1039	2017
+T65	B_span 1118 1123	cross
+T66	E_span 1208 1215	2018b,a
+T67	B_span 1225 1229	Chen
+T68	E_span 1368 1376	features
+T69	B_span 1548 1552	This
+T70	E_span 1628 1632	2018
+T71	B_span 1643 1645	It
+T72	E_span 2110 2114	CLWE
+T73	B_span 2454 2459	Ziser
+T74	E_span 2650 2659	resources
+T75	B_span 2837 2843	Lample
+T76	E_span 3006 3010	data
+T77	B_span 3110 3115	which
+T78	E_span 3170 3174	2018
+T79	B_span 3450 3454	Wada
+T80	E_span 3709 3713	used
+T81	B_span 3607 3614	mapping
+T82	E_span 3649 3653	2018

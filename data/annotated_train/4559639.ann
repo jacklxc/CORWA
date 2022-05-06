@@ -1,0 +1,27 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 139 144	[BOS]
+T3	Reflection 489 494	[BOS]
+T4	Transition 643 648	[BOS]
+T5	Narrative_cite 723 728	[BOS]
+T6	Reflection 1036 1041	[BOS]
+T7	Single_summ 1118 1123	[BOS]
+T8	Reflection 1281 1286	[BOS]
+T9	Reference 83 101	(Dale et al., 1998
+T10	Reference 103 122	Reiter et al., 2005
+T11	Reference 124 136	Green, 2006)
+T12	Reference 949 966	(Mei et al., 2015
+T13	Reference 968 987	Lebret et al., 2016
+T14	Reference 989 1009	Duma and Klein, 2013
+T15	Reference 1011 1033	Chisholm et al., 2017)
+T16	Dominant 1124 1144	Serban et al. (2016)
+T17	Pronoun 312 317	these
+T18	Pronoun 351 356	their
+T19	Pronoun 430 435	these
+T20	Pronoun 844 848	they
+T21	Pronoun 1290 1295	their
+T22	B_span 52 56	rule
+T23	E_span 131 135	2006
+T24	B_span 844 848	they
+T25	E_span 1028 1032	2017
+T26	B_span 1124 1130	Serban
+T27	E_span 1274 1279	words

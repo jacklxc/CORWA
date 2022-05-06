@@ -1,0 +1,73 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 115 120	[BOS]
+T3	Narrative_cite 333 338	[BOS]
+T4	Single_summ 496 501	[BOS]
+T5	Multi_summ 628 633	[BOS]
+T6	Narrative_cite 849 854	[BOS]
+T7	Transition 1008 1013	[BOS]
+T8	Transition 1114 1119	[BOS]
+T9	Single_summ 1237 1242	[BOS]
+T10	Single_summ 1365 1370	[BOS]
+T11	Single_summ 1490 1495	[BOS]
+T12	Transition 1626 1631	[BOS]
+T13	Single_summ 1705 1710	[BOS]
+T14	Reflection 1936 1941	[BOS]
+T15	Single_summ 2085 2090	[BOS]
+T16	Narrative_cite 2261 2266	[BOS]
+T17	Reflection 2425 2430	[BOS]
+T18	Reflection 2495 2500	[BOS]
+T19	Reflection 2585 2590	[BOS]
+T20	Reflection 2751 2756	[BOS]
+T21	Reflection 2846 2851	[BOS]
+T22	Reflection 3019 3024	[BOS]
+T23	Reflection 3125 3130	[BOS]
+T24	Reference 46 72	Gildea and Jurafsky (2002)
+T25	Reference 204 225	(Pradhan et al., 2005
+T26	Reference 227 245	Zhao and Kit, 2008
+T27	Reference 247 269	Zhao et al., 2009a,b,c
+T28	Reference 271 286	Li et al., 2009
+T29	Reference 288 310	Bjrkelund et al., 2009
+T30	Reference 312 330	Zhao et al., 2013)
+T31	Reference 401 419	Cai and Zhao, 2016
+T32	Reference 421 441	Wang et al., 2016b,a
+T33	Dominant 516 540	Foland and Martin (2015)
+T34	Dominant 634 658	FitzGerald et al. (2015)
+T35	Dominant 748 766	(Lei et al., 2015)
+T36	Reference 951 969	(Zhou and Xu, 2015
+T37	Reference 971 986	He et al., 2017
+T38	Reference 988 1005	Tan et al., 2018)
+T39	Dominant 1243 1265	Roth and Lapata (2016)
+T40	Dominant 1371 1400	Marcheggiani and Titov (2017)
+T41	Dominant 1496 1514	Qian et al. (2017)
+T42	Dominant 1721 1739	(Tai et al., 2015)
+T43	Dominant 2096 2114	(Zhu et al., 2015)
+T44	Reference 2163 2184	(Socher et al., 2010)
+T45	Reference 2403 2421	(Zhu et al., 2015)
+T46	B_span 6 14	Semantic
+T47	E_span 67 71	2002
+T48	B_span 184 191	feature
+T49	E_span 325 329	2013
+T50	B_span 380 384	deep
+T51	E_span 440 441	a
+T52	B_span 516 522	Foland
+T53	E_span 618 626	networks
+T54	B_span 634 644	FitzGerald
+T55	E_span 724 729	roles
+T56	B_span 749 752	Lei
+T57	E_span 832 837	based
+T58	B_span 918 922	span
+T59	E_span 1000 1004	2018
+T60	B_span 1243 1247	Roth
+T61	E_span 1356 1363	success
+T62	B_span 1371 1383	Marcheggiani
+T63	E_span 1483 1488	model
+T64	B_span 1496 1500	Qian
+T65	E_span 1620 1623	way
+T66	B_span 1711 1715	Tree
+T67	E_span 1929 1934	tasks
+T68	B_span 2091 2095	RCNN
+T69	E_span 2252 2259	factors
+T70	B_span 2138 2147	recursive
+T71	E_span 2179 2183	2010
+T72	B_span 2384 2394	dependency
+T73	E_span 2416 2420	2015

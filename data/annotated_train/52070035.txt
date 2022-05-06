@@ -1,0 +1,12 @@
+[BOS] So far, many efforts were put into defining and constructing abusive language datasets from different sources and labeling them through crowd-sourcing or user moderation (Waseem and Hovy, 2016; Waseem, 2016; Founta et al., 2018; Wulczyn et al., 2017) .
+[BOS] Many deep learning approaches have been explored to train a classifier with those datasets to develop an automatic abusive language detection system (Badjatiya et al., 2017; Park and Fung, 2017; Pavlopoulos et al., 2017) .
+[BOS] However, these works do not explicitly address any model bias in their models.
+
+[BOS] Addressing biases in NLP models/systems have recently started to gain more interest in the research community, not only because fairness in AI is important but also because bias correction can improve the robustness of the models.
+[BOS] Bolukbasi et al. (2016) is one of the first works to point out the gender stereotypes inside word2vec (Mikolov et al., 2013) and propose an algorithm to correct them.
+[BOS] Caliskan et al. (2017) also propose a method called Word Embedding Association Test (WEAT) to measure model bias inside word embeddings and finds that many of those pretrained embeddings contain problematic bias toward gender or race.
+[BOS] is one of the first works that point out existing "unintended" bias in abusive language detection models.
+[BOS] Kiritchenko and Mohammad (2018) compare 219 sentiment analysis systems participating in SemEval competition with their proposed dataset, which can be used for evaluating racial and gender bias of those systems.
+[BOS] Zhao et al. (2018) shows the effectiveness of measuring and correcting gender biases in co-reference resolution tasks.
+[BOS] We later show how we extend a few of these works into ours.
+

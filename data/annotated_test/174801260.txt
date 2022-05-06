@@ -1,0 +1,2 @@
+[BOS] Our work builds on the existing body of literature in both fast decoding methods for neural generation models as well as syntax-based MT; we review each area below.
+

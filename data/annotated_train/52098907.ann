@@ -1,0 +1,62 @@
+T1	Single_summ 0 5	[BOS]
+T2	Reflection 150 155	[BOS]
+T3	Single_summ 281 286	[BOS]
+T4	Single_summ 416 421	[BOS]
+T5	Transition 522 527	[BOS]
+T6	Single_summ 601 606	[BOS]
+T7	Single_summ 784 789	[BOS]
+T8	Reflection 890 895	[BOS]
+T9	Reflection 917 922	[BOS]
+T10	Single_summ 990 995	[BOS]
+T11	Single_summ 1167 1172	[BOS]
+T12	Multi_summ 1309 1314	[BOS]
+T13	Reflection 1716 1721	[BOS]
+T14	Transition 2044 2049	[BOS]
+T15	Multi_summ 2109 2114	[BOS]
+T16	Reflection 2394 2399	[BOS]
+T17	Dominant 49 69	McCann et al. (2017)
+T18	Dominant 287 304	Liu et al. (2018)
+T19	Dominant 607 629	Karpathy et al. (2015)
+T20	Dominant 790 810	Linzen et al. (2016)
+T21	Dominant 996 1013	Kdr et al. (2017)
+T22	Dominant 1173 1195	Belinkov et al. (2017)
+T23	Dominant 1341 1365	Khandelwal et al. (2018)
+T24	Dominant 1437 1456	Gaddy et al. (2018)
+T25	Dominant 1495 1516	Blevins et al. (2018)
+T26	Dominant 1616 1637	Conneau et al. (2018)
+T27	Reference 1764 1786	Belinkov et al. (2017)
+T28	Dominant 2115 2131	Li et al. (2016)
+T29	Dominant 2218 2244	Sundararajan et al. (2017)
+T30	Dominant 2314 2335	Murdoch et al. (2018)
+T31	Pronoun 425 430	their
+T32	Pronoun 465 467	it
+T33	Pronoun 2415 2420	these
+T34	Pronoun 2551 2555	this
+T35	B_span 9 17	addition
+T36	E_span 143 147	CoVe
+T37	B_span 287 290	Liu
+T38	E_span 511 519	approach
+T39	B_span 607 615	Karpathy
+T40	E_span 776 782	blocks
+T41	B_span 790 796	Linzen
+T42	E_span 876 888	dependencies
+T43	B_span 996 999	Kdr
+T44	E_span 1156 1165	functions
+T45	B_span 1173 1181	Belinkov
+T46	E_span 1303 1307	tags
+T47	B_span 1341 1351	Khandelwal
+T48	E_span 1424 1435	predictions
+T49	B_span 1437 1442	Gaddy
+T50	E_span 1486 1493	parsers
+T51	B_span 1495 1502	Blevins
+T52	E_span 1604 1610	syntax
+T53	B_span 1616 1623	Conneau
+T54	E_span 1706 1714	features
+T55	B_span 1726 1735	intrinsic
+T56	E_span 1781 1785	2017
+T57	B_span 2115 2117	Li
+T58	E_span 2210 2216	output
+T59	B_span 2218 2230	Sundararajan
+T60	E_span 2302 2308	inputs
+T61	B_span 2314 2321	Murdoch
+T62	E_span 2381 2392	predictions

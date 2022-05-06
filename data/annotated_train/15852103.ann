@@ -1,0 +1,40 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 121 126	[BOS]
+T3	Transition 392 397	[BOS]
+T4	Narrative_cite 510 515	[BOS]
+T5	Single_summ 737 742	[BOS]
+T6	Multi_summ 869 874	[BOS]
+T7	Multi_summ 1019 1024	[BOS]
+T8	Transition 1243 1248	[BOS]
+T9	Reflection 1395 1400	[BOS]
+T10	Transition 1658 1663	[BOS]
+T11	Reflection 1877 1882	[BOS]
+T12	Reference 190 208	(Zhou et al., 2005
+T13	Reference 210 230	Jiang and Zhai, 2007
+T14	Reference 232 248	Li and Ji, 2014)
+T15	Reference 342 367	(Bunescu and Mooney, 2005
+T16	Reference 369 390	Nguyen et al., 2009 )
+T17	Reference 723 734	(Kim, 2014)
+T18	Dominant 772 792	Socher et al. (2012)
+T19	Dominant 875 893	Zeng et al. (2014)
+T20	Dominant 898 922	dos Santos et al. (2015)
+T21	Dominant 1040 1057	Xu et al. (2015b)
+T22	Dominant 1062 1084	Miwa and Bansal (2016)
+T23	Reference 1977 1988	(Kim, 2014)
+T24	Pronoun 1262 1267	these
+T25	Pronoun 1824 1829	these
+T26	Pronoun 1886 1890	this
+T27	B_span 166 171	human
+T28	E_span 243 247	2014
+T29	B_span 328 335	feature
+T30	E_span 384 388	2009
+T31	B_span 743 746	For
+T32	E_span 862 867	trees
+T33	B_span 875 879	Zeng
+T34	E_span 1008 1017	sequences
+T35	B_span 1025 1029	More
+T36	E_span 1226 1240	classification
+T37	B_span 1946 1951	multi
+T38	E_span 1983 1987	2014
+T39	B_span 713 716	NLP
+T40	E_span 729 733	2014

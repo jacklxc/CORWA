@@ -1,0 +1,72 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 238 243	[BOS]
+T3	Narrative_cite 568 573	[BOS]
+T4	Multi_summ 828 833	[BOS]
+T5	Narrative_cite 1099 1104	[BOS]
+T6	Transition 1493 1498	[BOS]
+T7	Transition 1662 1667	[BOS]
+T8	Narrative_cite 1791 1796	[BOS]
+T9	Transition 1964 1969	[BOS]
+T10	Multi_summ 2229 2234	[BOS]
+T11	Multi_summ 2408 2413	[BOS]
+T12	Multi_summ 2581 2586	[BOS]
+T13	Single_summ 2881 2886	[BOS]
+T14	Single_summ 3007 3012	[BOS]
+T15	Single_summ 3080 3085	[BOS]
+T16	Single_summ 3183 3188	[BOS]
+T17	Transition 3386 3391	[BOS]
+T18	Single_summ 3523 3528	[BOS]
+T19	Single_summ 3702 3707	[BOS]
+T20	Single_summ 3796 3801	[BOS]
+T21	Transition 3944 3949	[BOS]
+T22	Transition 4047 4052	[BOS]
+T23	Reflection 4139 4144	[BOS]
+T24	Transition 4285 4290	[BOS]
+T25	Reflection 4428 4433	[BOS]
+T26	Reflection 4559 4564	[BOS]
+T27	Reflection 4676 4681	[BOS]
+T28	Reflection 4753 4758	[BOS]
+T29	Reflection 4825 4830	[BOS]
+T30	B_span 146 152	Latent
+T31	E_span 197 201	1990
+T32	Reference 178 201	Deerwester et al., 1990
+T33	B_span 344 358	distributional
+T34	E_span 379 383	1954
+T35	Reference 371 383	Harris, 1954
+T36	B_span 448 455	capture
+T37	E_span 563 564	)
+T38	Reference 521 541	Agirre et al. (2009)
+T39	Reference 543 564	Mikolov et al. (2013)
+T40	B_span 600 608	Word2Vec
+T41	E_span 626 630	2013
+T42	Reference 610 630	Mikolov et al., 2013
+T43	B_span 636 641	GloVe
+T44	E_span 663 667	2014
+T45	Reference 643 667	Pen-nington et al., 2014
+T46	B_span 866 870	ELMo
+T48	Dominant 872 891	Peters et al., 2017
+T50	E_span 1089 1096	similar
+T51	Dominant 903 922	Devlin et al., 2018
+T52	B_span 1181 1193	representing
+T53	E_span 1332 1335	) )
+T54	Reference 1243 1267	Bojanowski et al. (2016)
+T55	Reference 1270 1288	Zhao et al. (2017)
+T56	Reference 1291 1311	Poliak et al. (2017)
+T57	Reference 1314 1333	Gupta et al. (2019)
+T58	B_span 1376 1385	sentences
+T59	E_span 1463 1464	)
+T60	Reference 1413 1434	Le and Mikolov (2014)
+T61	Reference 1437 1462	Pagliardini et al. (2018)
+T63	E_span 1955 1959	2013
+T64	Reference 1939 1960	Mikolov et al. (2013)
+T65	Dominant 2235 2257	Dinu and Baroni (2014)
+T66	Dominant 2262 2275	Turney (2014)
+T68	B_span 2235 2239	Dinu
+T69	Dominant 2887 2909	Dinu and Baroni (2014)
+T70	E_span 3378 3384	phrase
+T71	Dominant 3529 3542	Turney (2014)
+T73	B_span 3529 3535	Turney
+T72	B_span 2887 2891	Dinu
+T75	B_span 1939 1946	Mikolov
+T62	E_span 2870 2878	language
+T47	E_span 3931 3941	candidates

@@ -1,0 +1,50 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 82 87	[BOS]
+T3	Reflection 346 351	[BOS]
+T4	Narrative_cite 489 494	[BOS]
+T5	Single_summ 703 708	[BOS]
+T6	Reflection 888 893	[BOS]
+T7	Single_summ 1012 1017	[BOS]
+T8	Single_summ 1126 1131	[BOS]
+T9	Reflection 1223 1228	[BOS]
+T10	Transition 1318 1323	[BOS]
+T11	Transition 1556 1561	[BOS]
+T12	Narrative_cite 1678 1683	[BOS]
+T13	Narrative_cite 1806 1811	[BOS]
+T14	Single_summ 1895 1900	[BOS]
+T15	Reference 162 181	(Britz et al., 2017
+T16	Reference 183 200	Wang et al., 2017
+T17	Reference 202 218	Chu et al., 2017
+T18	Reference 220 239	Chu and Wang, 2018)
+T19	Reference 441 465	(Sennrich et al., 2015a)
+T20	Reference 561 582	(Zheng et al., 2018a)
+T21	Reference 678 699	(Lample et al., 2018)
+T22	Dominant 742 760	(Xie et al., 2018)
+T23	Dominant 1018 1037	Singh et al. (2019)
+T24	Dominant 1132 1150	Liu et al. (2019a)
+T25	Reference 1728 1752	(Sennrich et al., 2015a)
+T26	Reference 1865 1888	(Sennrich et al., 2016)
+T27	Dominant 1901 1921	Zheng et al. (2018b)
+T28	B_span 120 126	domain
+T29	E_span 238 239	)
+T30	B_span 424 428	back
+T31	E_span 464 465	)
+T32	B_span 535 541	advers
+T33	E_span 581 582	)
+T34	B_span 652 658	symbol
+T35	E_span 698 699	)
+T36	B_span 709 710	A
+T37	E_span 886 887	.
+T38	B_span 1018 1023	Singh
+T39	E_span 1124 1125	.
+T40	B_span 1132 1135	Liu
+T41	E_span 1220 1221	.
+T42	B_span 1710 1714	back
+T43	E_span 1801 1804	set
+T45	E_span 1887 1888	)
+T46	B_span 1901 1906	Zheng
+T47	E_span 2071 2072	.
+T48	Pronoun 29 33	this
+T49	Pronoun 1262 1266	this
+T50	Pronoun 1420 1422	it
+T51	B_span 1839 1843	word

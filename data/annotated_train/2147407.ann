@@ -1,0 +1,72 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 106 111	[BOS]
+T3	Single_summ 280 285	[BOS]
+T4	Single_summ 386 391	[BOS]
+T5	Reflection 564 569	[BOS]
+T6	Single_summ 737 742	[BOS]
+T7	Single_summ 878 883	[BOS]
+T8	Single_summ 1036 1041	[BOS]
+T9	Single_summ 1153 1158	[BOS]
+T10	Reflection 1292 1297	[BOS]
+T11	Reflection 1467 1472	[BOS]
+T12	Single_summ 1680 1685	[BOS]
+T13	Reflection 1991 1996	[BOS]
+T14	Transition 2121 2126	[BOS]
+T15	Transition 2255 2260	[BOS]
+T16	Single_summ 2407 2412	[BOS]
+T17	Single_summ 2536 2541	[BOS]
+T18	Transition 2615 2620	[BOS]
+T19	Transition 2686 2691	[BOS]
+T20	Reflection 3147 3152	[BOS]
+T21	Reflection 3294 3299	[BOS]
+T22	Single_summ 3346 3351	[BOS]
+T23	Narrative_cite 3461 3466	[BOS]
+T24	Reflection 3565 3570	[BOS]
+T25	Reflection 3648 3653	[BOS]
+T26	Reflection 3778 3783	[BOS]
+T27	Reflection 3910 3915	[BOS]
+T28	Dominant 112 130	Jean et al. (2015)
+T29	Dominant 135 157	Gulcehre et al. (2015)
+T30	Dominant 286 308	Gulcehre et al. (2015)
+T31	Dominant 392 415	Sennrich et al. (2016b)
+T32	Dominant 743 766	Sennrich et al. (2016b)
+T33	Reference 1390 1412	(Gulcehre et al., 2015
+T34	Reference 1414 1436	Sennrich et al., 2016b
+T35	Dominant 1727 1748	Zhang and Zong (2016)
+T36	Dominant 2413 2432	Cheng et al. (2016)
+T37	Dominant 3352 3371	Luong et al. (2016)
+T38	Reference 3540 3562	(Johnson et al., 2016)
+T39	Pronoun 895 899	this
+T40	Pronoun 934 938	they
+T41	Pronoun 1042 1046	They
+T42	Pronoun 1057 1061	this
+T43	Pronoun 1304 1308	this
+T44	Pronoun 1447 1449	it
+T45	Pronoun 1912 1916	this
+T46	Pronoun 1973 1978	their
+T47	Pronoun 2023 2025	it
+T48	Pronoun 2127 2131	They
+T49	Pronoun 2446 2450	this
+T50	Pronoun 2621 2625	This
+T51	Pronoun 2795 2799	they
+T52	Pronoun 2942 2944	it
+T53	Pronoun 3654 3659	Their
+T54	Pronoun 3916 3920	They
+T55	B_span 112 116	Jean
+T56	E_span 271 278	outputs
+T57	B_span 286 294	Gulcehre
+T58	E_span 378 384	states
+T59	B_span 392 400	Sennrich
+T60	E_span 558 562	data
+T61	B_span 743 751	Sennrich
+T62	E_span 1284 1290	system
+T63	B_span 1372 1377	train
+T64	E_span 1431 1436	2016b
+T65	B_span 1686 1688	In
+T66	E_span 1983 1989	system
+T67	B_span 2413 2418	Cheng
+T68	E_span 2604 2613	objective
+T69	B_span 3352 3357	Luong
+T70	E_span 3452 3459	encoder
+T71	B_span 3494 3501	encoder
+T72	E_span 3557 3561	2016

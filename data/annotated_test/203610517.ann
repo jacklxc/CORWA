@@ -1,0 +1,44 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 102 107	[BOS]
+T3	Narrative_cite 249 254	[BOS]
+T4	Narrative_cite 386 391	[BOS]
+T5	Narrative_cite 615 620	[BOS]
+T6	Multi_summ 755 760	[BOS]
+T7	Narrative_cite 957 962	[BOS]
+T8	Transition 1188 1193	[BOS]
+T9	Narrative_cite 1341 1346	[BOS]
+T10	Reflection 1580 1585	[BOS]
+T11	Reflection 1613 1618	[BOS]
+T12	Reflection 1811 1816	[BOS]
+T13	B_span 255 263	Saliency
+T14	E_span 378 382	2019
+T15	Reference 325 341	Li et al., 2016a
+T16	Reference 343 363	Ghaeini et al., 2018
+T17	Reference 365 382	Ding et al., 2019
+T18	B_span 392 397	Layer
+T19	E_span 607 611	2017
+T20	Reference 554 572	Arras et al., 2016
+T21	Reference 574 591	Ding et al., 2017
+T22	Reference 593 611	Arras et al., 2017
+T23	B_span 663 671	removing
+T24	E_span 746 751	2016b
+T25	Reference 735 751	Li et al., 2016b
+T26	Dominant 821 838	Shi et al. (2016)
+T27	Dominant 841 858	Kdr et al. (2017)
+T28	Dominant 861 888	Calvillo and Crocker (2018)
+T29	B_span 821 824	Shi
+T30	E_span 948 955	network
+T31	B_span 994 1003	attention
+T32	E_span 1130 1134	2019
+T33	Reference 1022 1045	Koehn and Knowles, 2017
+T34	Reference 1047 1068	Ghader and Monz, 2017
+T35	Reference 1070 1091	Tang and Nivre, 2018;
+T36	Reference 1092 1110	Clark et al., 2019
+T37	Reference 1112 1134	Vig and Belinkov, 2019
+T38	B_span 1464 1467	NLP
+T39	E_span 1507 1511	2019
+T40	Reference 1469 1492	Serrano and Smith, 2019
+T41	Reference 1494 1511	Baan et al., 2019
+T42	B_span 1527 1538	information
+T43	E_span 1571 1575	2019
+T44	Reference 1550 1575	Jain and Madhyastha, 2019

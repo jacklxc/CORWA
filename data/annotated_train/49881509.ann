@@ -1,0 +1,65 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 28 33	[BOS]
+T3	Single_summ 188 193	[BOS]
+T4	Narrative_cite 266 271	[BOS]
+T5	Reflection 469 474	[BOS]
+T6	Narrative_cite 587 592	[BOS]
+T7	Transition 684 689	[BOS]
+T8	Reflection 788 793	[BOS]
+T9	Reflection 893 898	[BOS]
+T10	Reflection 927 932	[BOS]
+T11	Narrative_cite 986 991	[BOS]
+T12	Transition 1169 1174	[BOS]
+T13	Reflection 1268 1273	[BOS]
+T14	Transition 1414 1419	[BOS]
+T15	Narrative_cite 1552 1557	[BOS]
+T16	Narrative_cite 1706 1711	[BOS]
+T17	Reflection 1878 1883	[BOS]
+T18	Reflection 2074 2079	[BOS]
+T19	Reflection 2199 2204	[BOS]
+T20	Narrative_cite 2272 2277	[BOS]
+T21	Reflection 2494 2499	[BOS]
+T22	Narrative_cite 2599 2604	[BOS]
+T23	Transition 2710 2715	[BOS]
+T24	Transition 2770 2775	[BOS]
+T25	Narrative_cite 2856 2861	[BOS]
+T26	Transition 2941 2946	[BOS]
+T27	Reflection 3099 3104	[BOS]
+T28	Dominant 34 54	Baroni et al. (2014)
+T29	Dominant 194 216	Schnabel et al. (2015)
+T30	Reference 362 383	(Baroni et al., 2014)
+T31	Reference 629 651	(Li and Jurafsky, 2015
+T32	Reference 653 662	Khn, 2015
+T33	Reference 664 681	Lai et al., 2015)
+T34	Reference 1116 1140	(Thelen and Riloff, 2002
+T35	Reference 1142 1166	Gupta and Manning, 2014)
+T36	Reference 1682 1703	(Finkel et al., 2005)
+T37	Reference 1790 1810	(Ling and Weld, 2012
+T38	Reference 1812 1833	Yogatama et al., 2015
+T39	Reference 1835 1851	Ren et al., 2016
+T40	Reference 1853 1875	Shimaoka et al., 2016)
+T41	Reference 2402 2432	(Yaghoobzadeh and Schtze, 2015
+T42	Reference 2434 2463	Yaghoobzadeh and Schtze, 2017
+T43	Reference 2465 2491	Yaghoobzadeh et al., 2018)
+T44	Reference 2676 2707	(Yaghoobzadeh and Schtze, 2016)
+T45	Reference 2917 2938	Chesney et al. (2017)
+T46	B_span 34 40	Baroni
+T47	E_span 176 186	preference
+T48	B_span 194 202	Schnabel
+T49	E_span 256 264	datasets
+T50	B_span 317 326	embedding
+T51	E_span 378 382	2014
+T52	B_span 593 602	Extrinsic
+T53	E_span 676 680	2015
+T54	B_span 1010 1016	entity
+T55	E_span 1161 1165	2014
+T56	B_span 1722 1727	there
+T57	E_span 1870 1874	2016
+T58	B_span 1558 1563	Named
+T59	E_span 1698 1702	2005
+T60	B_span 2357 2365	entities
+T61	E_span 2486 2490	2018
+T62	B_span 2655 2664	embedding
+T63	E_span 2702 2706	2016
+T64	B_span 2862 2869	Finally
+T65	E_span 2933 2937	2017

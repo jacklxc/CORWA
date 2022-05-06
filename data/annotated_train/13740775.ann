@@ -1,0 +1,9 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 78 83	[BOS]
+T3	Single_summ 252 257	[BOS]
+T4	Dominant 84 97	Hokamp (2017)
+T5	Dominant 258 281	Garmash and Monz (2016)
+T6	B_span 84 90	Hokamp
+T7	E_span 236 250	representation
+T8	B_span 258 265	Garmash
+T9	E_span 343 352	ensembles

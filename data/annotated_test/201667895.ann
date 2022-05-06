@@ -1,0 +1,52 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 38 43	[BOS]
+T3	Transition 192 197	[BOS]
+T4	Narrative_cite 407 412	[BOS]
+T5	Reflection 559 564	[BOS]
+T6	Reflection 683 688	[BOS]
+T7	Transition 742 747	[BOS]
+T8	Single_summ 901 906	[BOS]
+T9	Single_summ 1025 1030	[BOS]
+T10	Single_summ 1190 1195	[BOS]
+T11	Single_summ 1265 1270	[BOS]
+T12	Single_summ 1413 1418	[BOS]
+T13	Single_summ 1531 1536	[BOS]
+T14	Narrative_cite 1620 1625	[BOS]
+T15	Transition 1759 1764	[BOS]
+T16	Transition 1837 1842	[BOS]
+T17	Transition 1996 2001	[BOS]
+T18	Transition 2118 2123	[BOS]
+T19	Transition 2361 2366	[BOS]
+T20	Single_summ 2502 2507	[BOS]
+T21	Reflection 2571 2576	[BOS]
+T22	Reference 536 555	(Xu and Koehn, 2017
+T23	Dominant 907 928	JunczysDowmunt (2018)
+T24	Dominant 1031 1055	Rossenbach et al. (2018)
+T25	Dominant 1196 1212	Lu et al. (2018)
+T26	Dominant 1271 1288	Ash et al. (2018)
+T27	Dominant 1419 1445	Erdmann and Gwinnup (2018)
+T28	Dominant 1537 1564	Papavassiliou et al. (2018)
+T29	Reference 1740 1757	Consortium, 2019)
+T30	Dominant 2508 2521	Bishop (2006)
+T31	Reference 2677 2701	(Pedregosa et al., 2011)
+T32	Pronoun 1765 1767	It
+T33	B_span 515 520	clean
+T34	E_span 551 555	2017
+T35	B_span 907 921	JunczysDowmunt
+T36	E_span 1013 1023	characters
+T37	B_span 1031 1041	Rossenbach
+T38	E_span 1180 1188	language
+T39	B_span 1196 1198	Lu
+T40	E_span 1255 1263	alphabet
+T41	B_span 1271 1274	Ash
+T42	E_span 1401 1411	characters
+T43	B_span 1419 1426	Erdmann
+T44	E_span 1523 1528	other
+T45	B_span 1537 1550	Papavassiliou
+T46	E_span 1612 1617	legal
+T47	B_span 1728 1731	The
+T48	E_span 1752 1756	2019
+T49	B_span 2508 2514	Bishop
+T50	E_span 2564 2569	topic
+T51	B_span 2664 2670	scikit
+T52	E_span 2696 2700	2011

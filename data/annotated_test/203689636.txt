@@ -1,0 +1,17 @@
+[BOS] Following Kann and Schtze (2016) and many others, we explore learning of MI systems in the context of bidirectional LSTM encoder-decoder models with attention.
+[BOS] Several papers have employed straightforward majority voting for the task of MI (Kann and Schtze, 2016; Makarov and Clematide, 2018; Kementchedjhieva et al., 2018; Sharma et al., 2018) .
+[BOS] However, work on more advanced ensembling methods is scarce for the MI task.
+[BOS] Najafi et al. (2018) and Silfverberg et al. (2017) explored weighted variants of majority voting.
+[BOS] Both of these approaches are based on weighting models according to their performance on a heldout development set.
+[BOS] Silfverberg et al. (2017) use sampling-based methods for finding good weighting coefficients for the component models in an ensemble.
+[BOS] Najafi et al. (2018) instead simply weight models according to their accuracy on the development set.
+[BOS] We opt for using the latter weighing scheme in our experiments because Silfverberg et al. (2017) report that the samplingbased method can sometimes overfit the development set which leads to poor performance on the test set.
+[BOS] Najafi et al. (2018) combined different types of models, both neural and non-neural, in their ensemble but we apply their technique in a purely neural setting.
+
+[BOS] Ensemble learning has received more attention in the field of neural machine translation.
+[BOS] A common approach is to combine predictions of several models in beam search during decoding (Denkowski and Neubig, 2017) .
+[BOS] Another approach is to train several models and then distill them into a single model (Denkowski and Neu-big, 2017) .
+[BOS] The simplest approach to distillation is to average the parameters of the different models.
+[BOS] While these techniques could be applied in MI, the focus of this paper is to explore ensemble methods which do not require any changes to the underlying model architecture.
+[BOS] Therefore, such methods fall outside of the scope of our work.
+

@@ -1,0 +1,28 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 354 359	[BOS]
+T3	Transition 488 493	[BOS]
+T4	Transition 635 640	[BOS]
+T5	Single_summ 800 805	[BOS]
+T6	Single_summ 989 994	[BOS]
+T7	Single_summ 1167 1172	[BOS]
+T8	Narrative_cite 1342 1347	[BOS]
+T9	Dominant 82 106	Costa-Juss et al. (2016)
+T10	Dominant 817 834	Ive et al. (2016)
+T11	Dominant 1010 1037	Tubay and Costa-juss (2018)
+T12	Reference 1404 1424	(Neves et al., 2018)
+T13	Reference 1563 1588	(Soares and Becker, 2018)
+T14	Reference 1616 1644	(Tubay and Costa-juss, 2018)
+T15	Pronoun 641 646	Their
+T16	Pronoun 1173 1177	They
+T17	E_span 480 485	score
+T18	B_span 6 14	Previous
+T19	B_span 806 815	Similarly
+T20	E_span 982 986	size
+T21	B_span 1010 1015	Tubay
+T22	E_span 1332 1339	English
+T23	B_span 1360 1363	WMT
+T24	E_span 1419 1423	2018
+T25	B_span 1460 1464	best
+T26	E_span 1583 1587	2018
+T27	B_span 1607 1611	TALP
+T28	E_span 1643 1644	)

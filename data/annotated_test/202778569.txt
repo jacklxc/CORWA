@@ -1,0 +1,13 @@
+[BOS] Vanilla Seq2Seq model usually ends up with generic and dull responses.
+[BOS] To tackle this problem, one line of research has focused on forcing the model to imitate some human's skills by augmenting the input with rich meta information.
+[BOS] For example, some works separately gave chatbots the ability of emotions (Zhou et al., 2018) , persona (Li et al., 2016b) , vision (Huber et al., 2018; Wu et al., 2018) and thinking over the knowledge base Zhu et al., 2017) .
+[BOS] In this work, we consider open domain dialogue generation with dialog acts.
+[BOS] But, only a little works (Zhao et al., 2017; Serban et al., 2017a) on open domain endto-end modeling take dialog acts into account.
+
+[BOS] On the other hand, many attempts have also been made to improve the architecture of Seq2Seq models by changing the training methods.
+[BOS] Li et al. (2016a) attributed safe response problems to the use of MLE objective.
+[BOS] Some works separately attempted to replace the MLE method with maximum mutual information (Li et al., 2016a) , reinforcement learning Li et al., 2016c) and adversarial learning (Xu et al., 2017; Li et al., 2017a) .
+[BOS] Serban et al. (2017b) viewed the dialog context as prior knowledge and combined HRED model into the CVAE framework.
+[BOS] Zhao et al. (2017) further introduced dialog acts to guide the learning of CVAE.
+[BOS] In our paper, we use CVAE to learn the hierarchy generation model.
+

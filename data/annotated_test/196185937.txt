@@ -1,0 +1,28 @@
+[BOS] The focus of this study is the unsupervised encapsulation of discourse structure (coherence and cohesion) into document representation for essay scoring.
+[BOS] A popular approach for document representation is the use of fixed-length features such as bag-of-words (BOW) and bag-of-ngrams due to their simplicity and highly competitive results (Wang and Manning, 2012) .
+[BOS] However, such approaches fail to capture the semantic similarity of words and phrases since they treat each word or 1 Our implementation is publicly available at https://github.com/FarjanaSultanaMim/ DiscoShuffle phrase as a discrete token.
+
+[BOS] Several methods for document representation learning have been introduced in recent years.
+[BOS] One popular unsupervised method is doc2vec (Le and Mikolov, 2014) , where a document is mapped to a unique vector and every word in the document is also mapped to a unique vector.
+[BOS] Then, the document vector and and word vectors are either concatenated or averaged to predict the next word in a context.
+[BOS] Liu et al. (2017) used a convolutional neural network (CNN) to capture longer range semantic structure within a document where the learning objective predicted the next word.
+[BOS] Wu et al. (2018) proposed Word Mover's Embedding (WME) utilizing Word Mover's Distance (WMD) that considers both word alignments and pre-trained word vectors to learn feature representation of documents.
+[BOS] Tang et al. (2015) proposed a semi-supervised method called Predictive Text Embedding (PTE) where both labeled information and different levels of word co-occurrence were encoded in a large-scale heterogeneous text network, which was then embedded into a low dimensional space.
+[BOS] Although these approaches have been proven useful for several document classification and regression tasks, their focus is not on capturing the discourse structure of documents.
+
+[BOS] One exception is the study by Ji and Smith (2017) who illustrated the role of discourse structure for document representation by implementing a discourse structure (defined by RST) aware model and showed that their model improves text categorization performance (e.g., sentiment classification of movies and Yelp reviews, and prediction of news article frames).
+[BOS] The authors utilized an RST-parser to obtain the discourse dependency tree of a document and then built a recursive neural network on top of it.
+[BOS] The issue with their approach is that texts need to be parsed by an RST parser which is computationally expensive.
+[BOS] Furthermore, the performance of RST parsing is dependent on the genre of documents (Ji and Smith, 2017) .
+
+[BOS] Previous studies have modeled text coherence (Li and Jurafsky, 2016; Joty et al., 2018; Mesgar and Strube, 2018) .
+[BOS] Farag et al. (2018) demonstrated that state-of-the-art neural automated essay scoring (AES) is not well-suited for capturing adversarial input of grammatically correct but incoherent sequences of sentences.
+[BOS] Therefore, they developed a neural local coherence model and jointly trained it with a state-of-the-art AES model to build an adversarially robust AES system.
+[BOS] Mesgar and Strube (2018) used a local coherence model to assess essay scoring performance on a dataset of holistic scores where it is unclear which criteria of the essay the score considers.
+
+[BOS] We target Organization and Argument Strength dimension of essays which are related to coherence and cohesion.
+[BOS] Persing et al. (2010) proposed heuristic rules utilizing various DIs, words and phrases to capture the organizational structure of texts.
+[BOS] Persing and Ng (2015) used several features such as part-of-speech, n-grams, semantic frames, coreference, and argument components for calculating Argument Strength in essays.
+[BOS] Wachsmuth et al. (2016) achieved stateof-the-art performance on Organization and Argument Strength scoring of essays by utilizing argumentative features such as sequence of argumentative discourse units (e.g., (conclusion, premise, conclusion)).
+[BOS] However, Wachsmuth et al. (2016) used an expensive argument parser to obtain such units.
+

@@ -1,0 +1,43 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 76 81	[BOS]
+T3	Single_summ 186 191	[BOS]
+T4	Transition 342 347	[BOS]
+T5	Multi_summ 470 475	[BOS]
+T6	Transition 791 796	[BOS]
+T7	Multi_summ 890 895	[BOS]
+T8	Narrative_cite 1081 1086	[BOS]
+T9	Multi_summ 1197 1202	[BOS]
+T10	Reference 145 161	Yu et al. (2016)
+T11	Reference 166 183	Lee et al. (2016)
+T12	Dominant 192 213	Wang and Jiang (2017)
+T13	Reference 259 281	(Wang and Jiang, 2016)
+T14	Dominant 541 558	Seo et al. (2017)
+T15	Dominant 562 581	Xiong et al. (2017)
+T16	Dominant 694 714	Huang et al. (2017b)
+T17	Dominant 896 920	Salant and Berant (2017)
+T18	Dominant 922 942	Peters et al. (2018)
+T19	Dominant 1022 1038	Yu et al. (2018)
+T20	Reference 1159 1175	(Hu et al., 2017
+T21	Reference 1177 1194	Pan et al., 2017)
+T22	Dominant 1203 1219	Hu et al. (2017)
+T23	Dominant 1278 1295	Pan et al. (2017)
+T24	B_span 82 89	Ranking
+T25	E_span 178 182	2016
+T26	B_span 192 196	Wang
+T27	E_span 334 340	answer
+T28	B_span 222 227	match
+T29	E_span 276 280	2016
+T30	B_span 541 544	Seo
+T31	E_span 680 689	attention
+T32	B_span 694 699	Huang
+T33	E_span 778 789	information
+T34	B_span 896 902	Salant
+T35	E_span 1010 1017	feature
+T36	B_span 1022 1024	Yu
+T37	E_span 1072 1079	instead
+T38	B_span 1093 1098	there
+T39	E_span 1189 1193	2017
+T40	B_span 1203 1205	Hu
+T41	E_span 1268 1272	hops
+T42	B_span 1278 1281	Pan
+T43	E_span 1473 1477	work

@@ -1,0 +1,20 @@
+[BOS] Morphological generation.
+[BOS] In the last two years, most work on paradigm completion has been done in the context of the SIGMORPHON 2016 and the CoNLL-SIGMORPHON 2017 shared tasks (Cotterell et al., 2016 (Cotterell et al., , 2017a ).
+[BOS] Due to the success of neural seq2seq models in 2016 (Kann and Schtze, 2016b; Aharoni et al., 2016) , systems developed for the 2017 edition were mostly neural (Makarov et al., 2017; Bergmanis et al., 2017; Zhou and Neubig, 2017 ).
+[BOS] Besides the shared task systems, presented a paradigm completion model for a multi-source setting that made use of an attention mechanism to decide which input form to attend to at each time step.
+[BOS] They used randomly chosen, independent pairs of source and target forms for training.
+[BOS] This differs crucially from the setting we consider in that no complete paradigms were available in their training sets.
+[BOS] Only Cotterell et al. (2017b) addressed essentially the same task we do, but they only considered the high-resource setting: their models were trained on hundreds of complete paradigms.
+[BOS] The experiments reported in 5.3 empirically confirm that inductive-only models perform poorly in our setting.
+
+[BOS] Several ways to employ neural models for morphological generation with limited data have been proposed, e.g., semi-supervised training (Zhou and Neubig, 2017; or simultaneous training on multiple languages (Kann et al., 2017b) .
+[BOS] The total number of sources in the training set in some of our settings may be comparable to this earlier work, but our training sets are less diverse since many forms come from the same paradigm.
+[BOS] We argue in 1 that the number of paradigms (not the number of sources) measures the effective size of the training set.
+
+[BOS] Other Seq2seq models in NLP.
+[BOS] Even though neural seq2seq models were originally designed for machine translation (Sutskever et al., 2014; Cho et al., 2014; Bahdanau et al., 2015) , their application has not stayed limited to this area.
+[BOS] Similar architectures have been successfully applied to many seq2seq tasks in NLP, e.g., syntactic parsing (Vinyals et al., 2015) , language correction (Xie et al., 2016) , normalization of historical texts (Bollmann et al., 2017) , or text simplification (Nisioi et al., 2017) .
+[BOS] Transductive inference is similar to domain adaptation, e.g., in machine translation (Luong and Manning, 2015) .
+[BOS] One difference is that training set and test set can hardly be called different domains in paradigm completion.
+[BOS] Another difference is that explicit structured labels (the morphological tags of the forms in the input subset) are available at test time in paradigm completion.
+

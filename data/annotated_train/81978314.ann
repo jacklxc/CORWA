@@ -1,0 +1,58 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 103 108	[BOS]
+T3	Transition 242 247	[BOS]
+T4	Transition 265 270	[BOS]
+T5	Single_summ 383 388	[BOS]
+T6	Single_summ 593 598	[BOS]
+T7	Narrative_cite 819 824	[BOS]
+T8	Transition 950 955	[BOS]
+T9	Transition 1035 1040	[BOS]
+T10	Narrative_cite 1186 1191	[BOS]
+T11	Single_summ 1383 1388	[BOS]
+T12	Reflection 1605 1610	[BOS]
+T13	Reflection 1664 1669	[BOS]
+T14	Transition 1817 1822	[BOS]
+T15	Narrative_cite 1934 1939	[BOS]
+T16	Transition 2125 2130	[BOS]
+T17	Transition 2133 2138	[BOS]
+T18	Transition 2350 2355	[BOS]
+T19	Reference 76 100	[Wang and Manning, 2012]
+T21	Reference 490 525	[Hochreiter and Schmidhuber, 1997 ]
+T22	Reference 671 703	Tang et al. [Tang et al., 2016b]
+T23	Reference 887 906	[Pan and Wang, 2018
+T24	Reference 908 924	Liu et al., 2018
+T25	Reference 926 946	Zhang and Liu, 2017]
+T26	Reference 1274 1299	[Pennington et al., 2014]
+T27	Reference 1309 1330	[Peters et al., 2018]
+T28	Dominant 1402 1428	BERT [Devlin et al., 2018]
+T29	Reference 2029 2046	[Xu et al., 2017]
+T30	Reference 2069 2100	[Marcheggiani and Titov, 2016 ]
+T31	Reference 2121 2124	[?]
+T32	Pronoun 599 603	This
+T33	Pronoun 877 881	this
+T34	Pronoun 1611 1615	This
+T35	Pronoun 1804 1808	this
+T36	Pronoun 2370 2374	this
+T37	B_span 6 15	Sentiment
+T38	E_span 97 98	1
+T39	B_span 389 393	Tang
+T41	B_span 460 464	Long
+T42	E_span 519 523	1997
+T44	E_span 812 817	steps
+T40	B_span 666 670	ATSA
+T45	E_span 697 702	2016b
+T43	B_span 877 881	this
+T46	E_span 941 945	2017
+T47	B_span 1268 1273	Glove
+T48	E_span 1367 1381	modeldependent
+T49	B_span 1304 1308	ELMo
+T50	E_span 1367 1381	modeldependent
+T51	B_span 1402 1406	BERT
+T52	E_span 1589 1603	representation
+T54	E_span 2122 2123	?
+T53	B_span 2009 2013	text
+T55	E_span 2041 2045	2017
+T56	B_span 2049 2057	relation
+T57	E_span 2094 2098	2016
+T58	B_span 2104 2112	sequence
+T20	Dominant 402 420	Tang et al., 2016a

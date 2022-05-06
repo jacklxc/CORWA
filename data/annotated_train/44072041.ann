@@ -1,0 +1,34 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 88 93	[BOS]
+T3	Single_summ 243 248	[BOS]
+T4	Single_summ 487 492	[BOS]
+T5	Single_summ 619 624	[BOS]
+T6	Single_summ 708 713	[BOS]
+T7	Multi_summ 964 969	[BOS]
+T8	Transition 1101 1106	[BOS]
+T9	Transition 1272 1277	[BOS]
+T10	Transition 1312 1317	[BOS]
+T11	Narrative_cite 1394 1399	[BOS]
+T12	Dominant 118 143	(Hendrickx et al., 2010 )
+T13	Dominant 625 650	Rink and Harabagiu (2010)
+T14	Dominant 802 819	Cai et al. (2016)
+T15	Dominant 970 987	Xu et al. (2015a)
+T16	Dominant 992 1012	Santos et al. (2015)
+T17	Reference 1529 1547	(Lee et al., 2017)
+T18	Pronoun 249 253	This
+T19	Pronoun 606 611	their
+T20	Pronoun 692 696	this
+T21	Pronoun 769 773	this
+T22	Pronoun 1090 1094	this
+T23	Pronoun 1238 1243	their
+T24	Pronoun 1424 1428	this
+T25	B_span 94 97	The
+T26	E_span 612 617	model
+T27	B_span 625 629	Rink
+T28	E_span 697 706	challenge
+T29	B_span 714 721	Several
+T30	E_span 958 961	SDP
+T31	B_span 970 972	Xu
+T32	E_span 1095 1099	task
+T33	B_span 1480 1484	word
+T34	E_span 1542 1546	2017

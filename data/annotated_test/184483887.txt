@@ -1,0 +1,18 @@
+[BOS] This topic has attracted significant attention in recent years, evidenced by increasing number of recent publications and a several scientific events such as ALW and TRAC workshops.
+
+[BOS] Offensive language is often subdivided into various intercalated categories, since different subtasks have been grouped under this label.
+[BOS] One of the most analyzed such language is "hate speech", i.e. discriminative remarks, such as the racist or sexist ones (Norbata et al., 2016) .
+
+[BOS] Based on work on hate speech, cyberbullying and online abuse, Waseem et al., 2017 proposses a typology that captures central similarities and differences between subtasks and discuss its implications for data annotation and feature construction.
+[BOS] Additionally, Waseem et al. (2017) emphasize the practical actions that can be taken by researchers to best approach their abusive language detection subtask of interest.
+
+[BOS] Lexical detection methods for the offensive language tend to have low precision because they fail to classify messages not containing listed offensive terms.
+[BOS] On the other hand, various
+
+[BOS] Hope at SemEval-2019 Task 6: Mining social media language to discover offensive language machine learning methods are used in the literature, from Logistic regression, Nave Bayes, Decision Trees, Random forests, SMVs to neural networks.
+[BOS] Previous analysis of hate speech modeling (Schmidt and Wiegand, 2017) shows that there is a too wide range of features used, and a more advanced feature relevance analysis was needed (Waseem et al., 2017) .
+[BOS] A first shared task on aggression identification aiming to classify aggressive speech into overt, covert or no aggression was held at the TRAC Workshop collocated with COLING 2018 (Kumar et al., 2018) .
+[BOS] 130 teams registered to participate in the task, 30 teams submitted their test runs and 20 teams sent their system description paper, which are included in the TRAC workshop proceedings.
+
+[BOS] The problem of distinguishing general profanity from hate speech is not a trivial task and requires features that capture a deeper understanding of the text not always possible with surface grams.
+

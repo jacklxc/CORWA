@@ -1,0 +1,7 @@
+[BOS] To some extent, our idea is similar to Ma et al. (2008) , who used an anchor word alignment model to find a set of high-precision anchor links and then aligned the remaining words relying on dependency information invoked by the acquired anchor links.
+[BOS] The similarity is that both Ma et al. (2008) and this work utilize structure information to find appropriate translations for words which are difficult to align.
+[BOS] The differ-ence is that they used dependency information in the word alignment stage while our method uses syntactic information during the phrase pair extraction stage.
+[BOS] There are also many works which leverage syntax information to improve word alignments (e.g., Cherry and Lin, 2006; DeNero and Klein, 2007; Fossum et al., 2008; Hermjakob, 2009 Johnson et al., (2007) to a hierarchical PBMT model, which is built on synchronous context free grammars (SCFG).
+[BOS] Tomeh et al., (2009) described an approach for filtering phrase tables in a statistical machine translation system, which relies on a statistical independence measure called Noise, first introduced in (Moore, 2004) .
+[BOS] The difference between the above research and this work is they took advantage of some statistical measures while we use syntactic knowledge to filter phrase tables.
+

@@ -1,0 +1,49 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 202 207	[BOS]
+T3	Other 441 446	[BOS]
+T4	Other 616 621	[BOS]
+T5	Other 792 797	[BOS]
+T6	Other 800 805	[BOS]
+T7	Transition 811 816	[BOS]
+T8	Narrative_cite 841 846	[BOS]
+T9	Transition 950 955	[BOS]
+T10	Transition 1108 1113	[BOS]
+T11	Single_summ 1189 1194	[BOS]
+T12	Single_summ 1424 1429	[BOS]
+T13	Single_summ 1510 1515	[BOS]
+T14	Single_summ 1622 1627	[BOS]
+T15	Single_summ 1721 1726	[BOS]
+T16	Single_summ 1841 1846	[BOS]
+T17	Single_summ 2010 2015	[BOS]
+T18	Single_summ 2126 2131	[BOS]
+T19	Single_summ 2299 2304	[BOS]
+T20	Reflection 2424 2429	[BOS]
+T21	Reference 111 135	(Bjrkelund et al., 2014)
+T22	Reference 278 292	(Petrov, 2010)
+T23	Reference 892 920	(Charniak and Johnson, 2005)
+T24	Dominant 1195 1214	(Hall et al., 2014)
+T25	Dominant 1541 1566	(Durrett and Klein, 2015)
+T26	Dominant 1778 1803	(Durrett and Klein, 2015)
+T27	Dominant 2016 2052	(Fernndez-Gonzlez and Martins, 2015)
+T28	Pronoun 988 992	this
+T29	Pronoun 1430 1434	This
+T30	Pronoun 1516 1520	This
+T31	Pronoun 1647 1651	this
+T32	Pronoun 1734 1736	it
+T33	Pronoun 1855 1857	it
+T34	Pronoun 2132 2136	They
+T35	Pronoun 2204 2206	it
+T36	Pronoun 2330 2335	their
+T37	Pronoun 2437 2441	this
+T38	B_span 88 93	SPMRL
+T39	E_span 130 134	2014
+T40	B_span 247 253	latent
+T41	E_span 287 291	2010
+T42	B_span 847 850	The
+T43	E_span 915 919	2005
+T44	B_span 1196 1200	Hall
+T45	E_span 1500 1508	features
+T46	B_span 1516 1520	This
+T47	E_span 2004 2008	done
+T48	B_span 2017 2025	Fernndez
+T49	E_span 2415 2422	parsers

@@ -1,0 +1,7 @@
+[BOS] Cotterell and Kreutzer (2018) frame backtranslation as a variational process, with the space of source sentences as the latent space.
+[BOS] Their approach argues that the distribution of the synthetic data generator and the true translation probability should match.
+[BOS] Thus it is invaluable to clarify and investigate the sampling distributions that current state-of-the-art data generation techniques utilize.
+[BOS] A simple property is that a target sentence must be allowed to be aligned to multiple source sentences during the training phase.
+[BOS] Several efforts (Hoang et al., 2018; Edunov et al., 2018; Imamura et al., 2018) confirm that this is in fact beneficial.
+[BOS] Here, we unify these findings by re-writing the optimization criterion of NMT models to depend on a data generator, which we define for beam search, sampling and N -best list sampling approaches.
+

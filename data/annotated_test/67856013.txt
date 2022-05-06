@@ -1,0 +1,15 @@
+[BOS] Early published works in GEC develop specific classifiers for different error types and then use them to build hybrid systems.
+[BOS] Later, leveraging the progress of statistical machine translation(SMT) and large-scale error corrected data, GEC systems are further improved treated as a translation problem.
+[BOS] SMT systems can remember phrase-based correction pairs, but they are hard to generalize beyond what was seen in training.
+[BOS] The CoNLL-14 shared task overview paper (Ng et al., 2014) provides a comparative evaluation of approaches.
+[BOS] (Rozovskaya and Roth, 2016) detailed classification and machine translation approaches to grammatical error correction problems, and combined the strengths for both methods.
+
+[BOS] Recently, neural machine translation approaches have been shown to be very powerful.
+[BOS] (Yannakoudakis et al., 2017) developed a neural sequence-labeling model for error detection to calculate the probability of each token in a sentence as being correct or incorrect, and then use the error detecting model's result as a feature to re-rank the N best hypotheses.
+[BOS] (Ji et al., 2017) proposed a hybrid neural model incorporating both the word and character-level information.
+[BOS] (Chollampatt and Ng, 2018 ) used a multilayer convolutional encoder-decoder neural network and outperforms all prior neural and statistical based systems on this task.
+[BOS] tried deep RNN (Barone et al., 2017) and transformer (Vaswani et al., 2017) encoderdecoder models and got a higher result by using transformer and a set of model-independent methods for neural GEC.
+
+[BOS] The state-of-the-art system on GEC task is achieved by (Ge et al., 2018) , which are based on the sequence-to-sequence framework and fluency boost learning and inference mechanism.
+[BOS] However, the usage of the non-public CLC corpus (Nicholls, 2003) and self-collected non-public error-corrected sentence pairs from Lang-8 made their training data 3.6 times larger than the others and their results hard to compare.
+

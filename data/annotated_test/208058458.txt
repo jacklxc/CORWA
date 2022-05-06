@@ -1,0 +1,27 @@
+[BOS] Most of the state-of-the-art NMT models are optimized by MLE-based objectives Gehring et al., 2017; Vaswani et al., 2017) , but likelihood fails to measure whether the source information is completely transformed to the target side.
+[BOS] Thus, it cannot handle translation adequacy problem (Tu et al., 2017) .
+
+[BOS] One way to alleviate these problems is to apply coverage and fertility to NMT model.
+[BOS] Feng et al. (2016) aim at controlling the fertilities of source words by appending additional additive terms to train objectives.
+[BOS] Tu et al. (2016) employ coverage vector or coverage ratio as a lexical-level indicator to represent whether a source word is translated or not.
+
+[BOS] On the other hand, some recent efforts introduce additional source side constraints and explore duality properties of NMT Xia et al., 2017; Tu et al., 2017) .
+[BOS] present a semi-supervised approach to train bidirectional NMT models and reconstruct the monolingual corpora using an autoencoder (Socher et al., 2011) .
+[BOS] Tu et al. (2017) add a re-constructor to traditional NMT model, which introduces an auxiliary score to measure the adequacy of translation.
+[BOS] Dual learning and dual supervised learning (Xia et al., 2017) are also proposed to exploit the probabilistic correlation between dual tasks to regularize the training process.
+[BOS] These previous approaches apply a reconstruction reward by comparing the source input and the reconstructed sentence, while we use alignment score directly to model the discrepancy between the source and the translation.
+
+[BOS] GAN (Goodfellow et al., 2014) is another promising framework to leverage sentence-level objectives in NMT.
+[BOS] Recently, there is some remarkable work in NMT (Wu et al., 2018; Yang et al., 2018) .
+[BOS] The framework comprises of two sub-models: i) an NMT model aims to produce sentences which are hard to be discriminated from the gold-standard sentences; and ii) a discriminator makes efforts to differentiate the model generated translations from the ground-truth ones.
+[BOS] A policy gradient method is leveraged to co-train the NMT model and the discriminator.
+[BOS] However, those approaches rarely take account of translation adequacy.
+[BOS] Furthermore, the discriminators of those work refer the target sentence in the corpus as the single gold-standard regardless the quality of model generated translations, which will punish too much to the good model generated translations.
+[BOS] Kong et al. (2019) propose an adequacyoriented discriminator which is trained to estimate the Coverage Difference Ratio (CDR) given the source and the generated translation.
+[BOS] However, CDR is unable to distinguish translation errors and it also neglects the importance of diversity between different words (as the examples shown in Fig.
+[BOS] 1 ).
+
+[BOS] Unlike the discriminators in (Wu et al., 2018; Yang et al., 2018; Kong et al., 2019) , our alignment-oriented discriminator learns a specific function to measure alignment score between source and target sentences, which is trained totally independently by the NMT generator.
+[BOS] The proposed discriminator assigns different weights to words and is sensitive to translation errors.
+[BOS] We also apply N -pair loss for training D to ensure that D will not punish the translations closed to the gold-standard overly.
+

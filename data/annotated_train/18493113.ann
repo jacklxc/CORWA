@@ -1,0 +1,23 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 102 107	[BOS]
+T3	Transition 278 283	[BOS]
+T4	Transition 357 362	[BOS]
+T5	Transition 465 470	[BOS]
+T6	Single_summ 627 632	[BOS]
+T7	Single_summ 757 762	[BOS]
+T8	Single_summ 904 909	[BOS]
+T9	Single_summ 1041 1046	[BOS]
+T10	Single_summ 1227 1232	[BOS]
+T11	Transition 1304 1309	[BOS]
+T12	Dominant 660 685	(Srivastava et al., 2015)
+T13	Dominant 910 933	(Liao and Poggio, 2016)
+T14	Dominant 1079 1106	(van den Oord et al., 2016)
+T15	Pronoun 521 525	this
+T16	Pronoun 1233 1238	Their
+T17	Pronoun 1428 1432	they
+T18	B_span 633 642	Recurrent
+T19	E_span 896 902	budget
+T20	B_span 911 915	Liao
+T21	E_span 1039 1040	.
+T22	B_span 1047 1052	Pixel
+T23	E_span 1297 1302	tasks

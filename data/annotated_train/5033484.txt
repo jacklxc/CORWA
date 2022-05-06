@@ -1,0 +1,10 @@
+[BOS] The STS task was first introduced by Agirre et al. (2012) .
+[BOS] Early methods focused on lexical semantics, surface form matching and basic syntactic similarity (Br et al., 2012; Jimenez et al., 2012) .
+[BOS] More recently, deep learning based methods became competitive (Shao, 2017; Tai et al., 2015) .
+[BOS] One approach to this task is to train a general purpose sentence encoder and then calculate the cosine similarity between the encoded vectors for the pair of sentences.
+[BOS] The encoding model can be directly trained on the STS task (Shao, 2017) or it can be trained on an alternative supervised (Conneau et al., 2017) or unsupervised (Pagliardini et al., 2017 ) task that produces sentence-level embeddings.
+[BOS] The work described in our paper falls into the latter category, introducing a new unsupervised task based on conversational data that achieves good performance on predicting seman-tic similarity scores.
+[BOS] Training on conversational data has been previously shown to be effective at email response prediction (Kannan et al., 2016; Henderson et al., 2017) .
+[BOS] We extend prior work by exploring the effectiveness of representations learned from conversational data to capture more general-purpose semantic information.
+[BOS] The approach is similar to Skip-Thought vectors (Kiros et al., 2015) , which learn sentence-level representations through prior and next sentence prediction within a document, but with our prior and next sentences being pulled from turns in a conversation.
+

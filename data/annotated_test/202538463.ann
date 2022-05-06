@@ -1,0 +1,80 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 150 155	[BOS]
+T3	Transition 350 355	[BOS]
+T4	Narrative_cite 434 439	[BOS]
+T5	Narrative_cite 764 769	[BOS]
+T6	Narrative_cite 961 966	[BOS]
+T7	Narrative_cite 1169 1174	[BOS]
+T8	Transition 1474 1479	[BOS]
+T9	Narrative_cite 1610 1615	[BOS]
+T10	Narrative_cite 2092 2097	[BOS]
+T11	Transition 2217 2222	[BOS]
+T12	Narrative_cite 2432 2437	[BOS]
+T13	Single_summ 2696 2701	[BOS]
+T14	Single_summ 2831 2836	[BOS]
+T15	Reflection 3032 3037	[BOS]
+T16	Reference 240 261	(Todorov et al., 2012
+T17	Reference 263 280	Mnih et al., 2013
+T18	Reference 282 301	Kempka et al., 2016
+T19	Reference 303 324	Brockman et al., 2016
+T20	Reference 326 347	Vinyals et al., 2017)
+T21	Reference 684 709	(Kalashnikov et al., 2018
+T22	Reference 711 736	Andrychowicz et al., 2018
+T23	Reference 738 761	Karttunen et al., 2019)
+T24	Reference 883 905	(Karras et al., , 2018
+T25	Reference 1035 1051	(Ct et al., 2018
+T26	Reference 1053 1074	Urbanek et al., 2019)
+T27	Reference 1391 1410	Rybski et al., 2007
+T28	Reference 1412 1433	Mohan and Laird, 2014
+T29	Reference 1435 1451	Liu et al., 2016
+T30	Reference 1453 1470	She et al., 2014)
+T31	Reference 1817 1861	(Misra et al., , 2017 Anderson et al., 2018b
+T32	Reference 1863 1880	Chen et al., 2019
+T33	Reference 1882 1898	Das et al., 2018
+T34	Reference 1900 1918	Misra et al., 2018
+T35	Reference 1920 1940	Wijmans et al., 2019
+T36	Reference 1942 1958	Qi et al., 2019)
+T37	Reference 2035 2055	(Nguyen et al., 2019
+T38	Reference 2057 2089	Chevalier-Boisvert et al., 2019)
+T39	Reference 2148 2169	(Nguyen et al., 2019)
+T40	Reference 2494 2516	(Daum III et al., 2009
+T41	Reference 2518 2535	Ross et al., 2011
+T42	Reference 2537 2559	Ross and Bagnell, 2014
+T43	Reference 2561 2579	Chang et al., 2015
+T44	Reference 2581 2597	Sun et al., 2017
+T45	Reference 2599 2625	Sharaf and Daum III, 2017)
+T46	Dominant 2702 2718	He et al. (2012)
+T47	Dominant 2837 2858	Welleck et al. (2019)
+T48	Reference 3249 3267	(Wang et al., 2018
+T49	Reference 3269 3288	Ma et al., 2019a,b)
+T50	Pronoun 370 375	these
+T51	Pronoun 1659 1664	these
+T52	Pronoun 1705 1709	they
+T53	B_span 217 230	reinforcement
+T54	E_span 342 346	2017
+T55	B_span 638 644	sample
+T56	E_span 756 760	2019
+T57	Reference 863 882	Karras et al., 2017
+T58	B_span 776 782	modern
+T59	E_span 901 905	2018
+T60	B_span 997 1004	complex
+T61	E_span 1073 1074	)
+T62	Reference 1352 1369	Chai et al., 2018
+T63	Reference 1371 1390	Chai et al., , 2016
+T64	B_span 1194 1209	experimentation
+T65	E_span 1465 1469	2014
+T66	Reference 1798 1816	Misra et al., 2014
+T67	B_span 1717 1719	do
+T68	E_span 1953 1957	2019
+T69	B_span 1964 1969	mimic
+T70	E_span 2084 2088	2019
+T71	B_span 2137 2141	VNLA
+T72	E_span 2164 2168	2019
+T73	B_span 2455 2463	standard
+T74	E_span 2620 2624	2017
+T75	B_span 2702 2704	He
+T76	E_span 2825 2829	time
+T77	B_span 2837 2844	Welleck
+T78	E_span 3020 3030	repetition
+T79	B_span 3205 3210	model
+T80	E_span 3286 3287	b

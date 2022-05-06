@@ -1,0 +1,16 @@
+[BOS] In summarization, neural attention models were first applied by Rush et al. (2015) to do headline generation, i.e. produce a title for a news article given only the first sentence.
+[BOS] Nallapati et al. (2016) and See et al. (2017) apply attention models to summarize full documents, achieving stateof-the-art results on the CNN/Dailymail dataset.
+[BOS] All of these models, however, suffer from the inherent complexity of attention over the full document.
+[BOS] Indeed, See et al. (2017) report that a single model takes over 3 days to train.
+
+[BOS] Many techniques have been proposed in the literature to efficiently handle the problem of large inputs to deep neural networks.
+[BOS] One particular framework is that of "conditional computation", as coined by Bengio et al. (2013) -the idea is to only compute a subset of a network's units for a given input by gating different parts of the network.
+
+[BOS] Several methods, some stochastic and some deterministic, have been explored in the vein of conditional computation.
+[BOS] In this work, we will focus on stochastic methods, although deterministic methods are worth considering as future work (Rae et al., 2016; Shazeer et al., 2017; Miller et al., 2016; Martins and Astudillo, 2016) .
+
+[BOS] On the stochastic front, Xu et al. (2015) demonstrate the effectiveness of "hard" attention.
+[BOS] While standard "soft" attention averages the representations of where the model attends to, hard attention discretely selects a single location.
+[BOS] Hard attention has been successfully applied in various computer vision tasks (Mnih et al., 2014; , but so far has limited usage in NLP.
+[BOS] We will apply hard attention to the document summarization task by sparsifying our reading of the source text.
+

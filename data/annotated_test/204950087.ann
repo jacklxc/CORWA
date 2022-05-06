@@ -1,0 +1,47 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 239 244	[BOS]
+T3	Single_summ 332 337	[BOS]
+T4	Single_summ 419 424	[BOS]
+T5	Transition 527 532	[BOS]
+T6	Reflection 614 619	[BOS]
+T7	Single_summ 685 690	[BOS]
+T8	Transition 792 797	[BOS]
+T9	Single_summ 905 910	[BOS]
+T10	Single_summ 984 989	[BOS]
+T11	Narrative_cite 1055 1060	[BOS]
+T12	Transition 1157 1162	[BOS]
+T13	Transition 1293 1298	[BOS]
+T14	Single_summ 1345 1350	[BOS]
+T15	Single_summ 1420 1425	[BOS]
+T16	Reflection 1575 1580	[BOS]
+T17	B_span 71 80	recurrent
+T18	E_span 121 125	2014
+T19	Reference 109 125	Cho et al., 2014
+T20	B_span 148 155	machine
+T21	E_span 186 190	2015
+T22	Reference 169 190	Bahdanau et al., 2015
+T23	B_span 196 200	text
+T24	E_span 231 235	2016
+T25	Reference 216 235	Chopra et al., 2016
+T26	B_span 338 342	HRED
+T27	E_span 410 417	context
+T28	Dominant 344 363	Serban et al., 2016
+T29	B_span 425 430	VHRED
+T30	E_span 515 525	utterances
+T31	Dominant 432 451	Serban et al., 2017
+T32	Dominant 691 717	Dielmann and Renals (2008)
+T33	B_span 691 699	Dielmann
+T34	E_span 777 790	conversations
+T35	Dominant 911 929	Meng et al. (2017)
+T36	B_span 911 915	Meng
+T37	E_span 978 982	task
+T38	B_span 990 999	Addressee
+T39	E_span 1046 1051	2017b
+T40	Dominant 1028 1051	Akhtiamov et al., 2017b
+T41	B_span 1091 1099	response
+T42	E_span 1149 1153	2018
+T43	Reference 1111 1133	Ouchi and Tsuboi, 2016
+T44	Reference 1135 1153	Zhang et al., 2018
+T45	Dominant 1351 1368	Li et al. (2016b)
+T46	B_span 1351 1352	L
+T47	E_span 1569 1573	data

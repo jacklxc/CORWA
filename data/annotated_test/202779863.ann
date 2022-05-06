@@ -1,0 +1,84 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 118 123	[BOS]
+T3	Other 372 377	[BOS]
+T4	Other 557 562	[BOS]
+T5	Other 635 640	[BOS]
+T6	Other 665 670	[BOS]
+T7	Other 874 879	[BOS]
+T8	Other 1066 1071	[BOS]
+T9	Other 1074 1079	[BOS]
+T10	Other 1082 1087	[BOS]
+T11	Other 1092 1097	[BOS]
+T12	Other 1222 1227	[BOS]
+T13	Other 1319 1324	[BOS]
+T14	Other 1401 1406	[BOS]
+T15	Other 1481 1486	[BOS]
+T16	Other 1647 1652	[BOS]
+T17	Other 1724 1729	[BOS]
+T18	Other 1801 1806	[BOS]
+T19	Other 2070 2075	[BOS]
+T20	Other 2221 2226	[BOS]
+T21	Other 2371 2376	[BOS]
+T22	Transition 2518 2523	[BOS]
+T23	Transition 2716 2721	[BOS]
+T24	Other 2793 2798	[BOS]
+T25	Multi_summ 2896 2901	[BOS]
+T26	Transition 3070 3075	[BOS]
+T27	Narrative_cite 3217 3222	[BOS]
+T28	Single_summ 3357 3362	[BOS]
+T29	Narrative_cite 3533 3538	[BOS]
+T30	Single_summ 3659 3664	[BOS]
+T31	Reflection 3850 3855	[BOS]
+T32	Reflection 3956 3961	[BOS]
+T33	Narrative_cite 4100 4105	[BOS]
+T34	Reference 147 170	(Nallapati et al., 2017
+T35	Reference 172 194	Jadhav and Rajan, 2018
+T36	Dominant 2902 2920	(Rush et al., 2015
+T37	Dominant 2922 2944	Nallapati et al., 2016
+T38	Dominant 2946 2962	See et al., 2017
+T39	Dominant 2964 2986	Chen and Bansal, 2018)
+T40	Reference 3234 3257	(Nallapati et al., 2016
+T41	Reference 3259 3275	See et al., 2017
+T42	Reference 3277 3297	Paulus et al., 2018)
+T43	Dominant 3363 3380	See et al. (2017)
+T44	Reference 3456 3473	(Tu et al., 2016)
+T45	Reference 3597 3614	(Tan et al., 2017
+T46	Reference 3616 3632	Shi et al., 2018
+T47	Reference 3634 3656	Gehrmann et al., 2018)
+T48	Dominant 3702 3720	Chen et al. (2016)
+T49	Reference 4127 4147	(Paulus et al., 2018
+T50	Reference 4149 4173	Celikyilmaz et al., 2018
+T51	Reference 4175 4196	Chen and Bansal, 2018
+T52	Reference 4198 4215	Zhou et al., 2018
+T53	Reference 4217 4240	Jiang and Bansal, 2018)
+T54	Pronoun 284 289	their
+T55	Pronoun 337 341	they
+T56	Pronoun 492 496	they
+T57	Pronoun 746 751	their
+T58	Pronoun 771 775	they
+T59	Pronoun 795 799	they
+T60	Pronoun 912 914	it
+T61	Pronoun 1339 1343	they
+T62	Pronoun 1562 1567	their
+T63	Pronoun 1613 1617	they
+T64	Pronoun 1935 1939	they
+T65	Pronoun 1975 1977	it
+T66	Pronoun 2022 2024	it
+T67	Pronoun 2108 2110	it
+T68	Pronoun 2654 2658	they
+T69	B_span 124 127	The
+T70	E_span 190 194	2018
+T71	B_span 2903 2907	Rush
+T72	E_span 3060 3068	document
+T73	B_span 3223 3227	Some
+T74	E_span 3292 3296	2018
+T75	B_span 3363 3366	See
+T76	E_span 3520 3531	repetitions
+T77	B_span 3440 3448	coverage
+T78	E_span 3468 3472	2016
+T79	B_span 3580 3588	saliency
+T80	E_span 3651 3655	2018
+T81	B_span 3702 3706	Chen
+T82	E_span 3839 3848	documents
+T83	B_span 4106 4114	Recently
+T84	E_span 4235 4239	2018

@@ -1,0 +1,32 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 127 132	[BOS]
+T3	Transition 258 263	[BOS]
+T4	Transition 384 389	[BOS]
+T5	Single_summ 571 576	[BOS]
+T6	Single_summ 719 724	[BOS]
+T7	Transition 839 844	[BOS]
+T8	Transition 1001 1006	[BOS]
+T9	Transition 1148 1153	[BOS]
+T10	Single_summ 1244 1249	[BOS]
+T11	Transition 1427 1432	[BOS]
+T12	Single_summ 1530 1535	[BOS]
+T13	Single_summ 1682 1687	[BOS]
+T14	Single_summ 1840 1845	[BOS]
+T15	Dominant 155 176	(Nakov et al., , 2017
+T16	Dominant 577 595	Tran et al. (2015)
+T17	Dominant 725 745	Filice et al. (2016)
+T18	Dominant 1250 1268	Joty et al. (2016)
+T19	Dominant 1548 1567	Zhang et al. (2017)
+T20	Dominant 1688 1705	Tay et al. (2017)
+T21	B_span 133 136	The
+T22	E_span 248 255	problem
+T23	B_span 577 581	Tran
+T24	E_span 713 717	task
+T25	B_span 725 731	Filice
+T26	E_span 831 837	answer
+T27	B_span 1250 1254	Joty
+T28	E_span 1419 1424	graph
+T29	B_span 1548 1553	Zhang
+T30	E_span 1677 1680	CQA
+T31	B_span 1688 1691	Tay
+T32	E_span 1976 1986	condensing

@@ -1,0 +1,10 @@
+[BOS] Closely related to our work are the end-to-end coreference models developed by Lee et al. (2017) and .
+[BOS] Different from previous pipeline approaches, Lee et al. used neural networks to learn mention representations and calculate mention and antecedent scores without using syntactic parsers.
+[BOS] However, their models optimize a heuristic loss based on local decisions rather than the actual coreference evaluation metrics, while our reinforcement model directly optimizes the evaluation metrics based on the rewards calculated from sequences of actions.
+
+[BOS] Our work is also inspired by Clark and Manning (2016a) and Yin et al. (2018) , which resolve coreferences with reinforcement learning techniques.
+[BOS] They view the mention-ranking model as an agent taking a series of actions, where each action links each mention to a candidate antecedent.
+[BOS] They also use pretraining for initialization.
+[BOS] Nevertheless, their models assume mentions are given while our work is end-to-end.
+[BOS] Furthermore, we add entropy regularization to encourage more exploration (Mnih et al. ; Eysenbach et al., 2019 ) and prevent our model from prematurely converging to a sub-optimal (or bad) local optimum.
+

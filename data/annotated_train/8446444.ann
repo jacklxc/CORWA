@@ -1,0 +1,16 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 162 167	[BOS]
+T3	Single_summ 319 324	[BOS]
+T4	Multi_summ 554 559	[BOS]
+T5	Transition 733 738	[BOS]
+T6	Dominant 14 39	(Frank and Semeck, 2004 )
+T7	Dominant 325 349	(Miyao and Tsujii, 2004)
+T8	Dominant 563 593	(Gildea and Hockenmaier, 2003)
+T9	Dominant 598 618	(Zhang et al., 2008)
+T10	B_span 6 13	Besides
+T11	E_span 314 317	two
+T12	B_span 325 326	(
+T13	E_span 543 552	arguments
+T14	B_span 560 562	In
+T15	E_span 725 731	parses
+T16	Pronoun 265 269	they

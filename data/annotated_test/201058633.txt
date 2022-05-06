@@ -1,0 +1,13 @@
+[BOS] Reading comprehension There are many reading comprehension datasets (Richardson et al., 2013; Rajpurkar et al., 2016; Kwiatkowski et al., 2019; Dua et al., 2019) , the majority of which principally require understanding local predicateargument structure in a passage of text.
+[BOS] The success of recent models suggests that machines are becoming capable of this level of understanding.
+[BOS] ROPES challenges reading comprehension models to handle more difficult phenomena: understanding the implications of a passage of text.
+[BOS] ROPES is also particularly related to datasets focusing on "multi-hop reasoning" (Yang et al., 2018; Khashabi et al., 2018) , as by construction answering questions in ROPES requires connecting information from multiple parts of a given passage.
+
+[BOS] The most closely related datasets to ROPES are ShARC (Saeidi et al., 2018) , OpenBookQA (Mihaylov et al., 2018) , and QuaRel (Tafjord et al., 2019) .
+[BOS] ShARC shares the same goal of understanding causes and effects (in terms of specified rules), but frames it as a dialogue where the system has to also generate questions to gain complete information.
+[BOS] OpenBookQA, similar to ROPES, requires reading scientific facts, but it is focused on a retrieval problem where a system must find the right fact for a question (and some additional common sense fact), whereas ROPES targets reading a given, complex passage of text, with no retrieval involved.
+[BOS] QuaRel is also focused on reasoning about situational effects in a question-answering setting, but the "causes" are all pre-specified, not read from a background passage, so the setting is limited.
+
+[BOS] Recognizing textual entailment The application of causes and effects to new situations has a strong connection to notions of entailment-ROPES tries to get systems to understand what is entailed by an expository paragraph.
+[BOS] The setup is fundamentally different, however: instead of giving systems pairs of sentences to classify as entailed or not, as in the traditional formulation (Dagan et al., 2006; Bowman et al., 2015 , inter alia), we give systems questions whose answers require understanding the entailment.
+

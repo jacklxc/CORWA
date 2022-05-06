@@ -1,0 +1,9 @@
+[BOS] The first works on NLG were mostly focused on rule-based language generation (Dale et al., 1998; Reiter et al., 2005; Green, 2006) .
+[BOS] NLG systems typically perform three different steps: content selection, where a subset of relevant slot/value pairs are selected, followed by sentence planning, where these selected pairs are realized into their respective linguistic variations, and finally surface realization, where these linguistic structures are combined to generate text.
+[BOS] Our use case differs from the above in that there is no selection done on the slot/value pairs, but all of them undergo the sentence planning step.
+[BOS] In rule-based systems, all of the above steps rely on hand-crafted rules.
+[BOS] The recent work focuses on generating texts from structured data as input by performing selective generation, i.e. they run a selection step that determines the slot/value pairs which will be included in the realization (Mei et al., 2015; Lebret et al., 2016; Duma and Klein, 2013; Chisholm et al., 2017) .
+[BOS] In our use case, all slot/value pairs are relevant and need to be realized.
+[BOS] Serban et al. (2016) generate questions from facts (structured input) by leveraging fact embeddings and then employing placeholders for handling rare words.
+[BOS] In their work, the placeholders are heuristically mapped to the facts, however, we map our placeholders depending on the neural attention (for details, see Section 4).
+

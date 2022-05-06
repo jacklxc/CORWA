@@ -1,0 +1,19 @@
+[BOS] In this section, we describe previous work on GED and on the related task of GEC.
+[BOS] While error correction systems can be used for error detection, previous work has shown that standalone error detection models can be complementary to error correction ones, and can be used to further improve performance on GEC .
+[BOS] Early approaches to GED and GEC relied upon handwritten rules and error grammars (e.g. Foster and Vogel (2004) ), while later work focused on supervised learning from error-annotated corpora using feature engineering approaches and often utilizing maximum entropy-based classifiers (e.g. Chodorow et al. (2007) ; De Felice and Pulman (2008) ).
+[BOS] A large range of work has focused on the development of systems targeting specific error types, such as preposition (Tetreault and Chodorow, 2008; Chodorow et al., 2007) , article usage (Han et al., 2004 (Han et al., , 2006 , and verb form errors (Lee and Seneff, 2008) .
+[BOS] Among others, errortype agnostic approaches have focused on generating synthetic ungrammatical data to augment the available training sets, or learning from native English datasets; for example, Foster and Andersen (2009) investigate rule-based error generation methods, while Gamon (2010) trains a language model (LM) on a large, general domain corpus, from which features (e.g. word likelihoods) are derived for use in error classification.
+
+[BOS] As a distinct task, GEC has been formulated as a nave-bayes classification (Rozovskaya et al., 2013 (Rozovskaya et al., , 2014 Rozovskaya and Roth, 2016) or a monolingual (statistical or neural) machine translation (MT) problem (where uncorrected text is treated as the source "language" and the corrected text as its target counterpart) (Felice et al., 2014; Junczys-Dowmunt and Grundkiewicz, 2014; Rozovskaya and Roth, 2016; Yuan and Briscoe, 2016) .
+
+[BOS] Recently, Rei and Yannakoudakis (2016) presented the first approach towards neural GED, training a sequence labeling model based on word embeddings processed by a bidirectional LSTM (bi-LSTM), outputting a probability distribution over labels informed by the entire sentence as context.
+[BOS] This approach achieves strong results when trained and evaluated on in-domain data, but shows weaker generalization performance on outof-domain data.
+[BOS] extended this model to include character embeddings in order to capture morphological similarities such as word endings.
+[BOS] Rei (2017) subsequently added a secondary LM objective to the neural sequence labeling architecture, operating on both word and character-level embeddings.
+[BOS] This was found to be particularly useful for GED -introducing an LM objective allows the network to learn more generic features about language and composition.
+[BOS] At the same time, investigated the effectiveness of a number of auxiliary (morpho-syntactic) training objectives for the task of GED, finding that predicting part-ofspeech tags, grammatical relations or error types as auxiliary tasks yields improvements in performance over the single-task GED objective (though not as high as when utilizing an LM objective).
+
+[BOS] The current state of the art on GED is based on augmenting neural approaches with artificially generated training data.
+[BOS] showed improved GED performance using the bi-LSTM sequence labeler, by generating artificial errors in two different ways: 1) learning frequent error patterns from error-annotated corpora and applying these to error-free text; 2) using a statistical MT approach to "translate" correct text to its incorrect counterpart using parallel corpora.
+[BOS] Recently, Kasewa et al. (2018) applied the latter approach using a neural MT system instead, and achieved a new state of the art on GED using the neural model of Rei (2017) .
+

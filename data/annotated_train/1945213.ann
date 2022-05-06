@@ -1,0 +1,41 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 115 120	[BOS]
+T3	Single_summ 239 244	[BOS]
+T4	Single_summ 394 399	[BOS]
+T5	Single_summ 558 563	[BOS]
+T6	Single_summ 640 645	[BOS]
+T7	Reflection 718 723	[BOS]
+T8	Multi_summ 845 850	[BOS]
+T9	Transition 1044 1049	[BOS]
+T10	Reflection 1163 1168	[BOS]
+T11	Reflection 1240 1245	[BOS]
+T12	Single_summ 1374 1379	[BOS]
+T13	Other 1529 1534	[BOS]
+T14	Other 1640 1645	[BOS]
+T15	Other 1758 1763	[BOS]
+T16	Other 1968 1973	[BOS]
+T17	Dominant 121 150	Zollmann and Venugopal (2006)
+T18	Reference 199 213	(Chiang, 2005)
+T19	Dominant 400 419	Zhang et al. (2010)
+T20	Dominant 852 875	Marton and Resnik, 2008
+T21	Dominant 901 920	Huang et al., 2010)
+T22	Reference 1026 1041	(Chiang, , 2007
+T23	Dominant 1380 1393	Chiang (2010)
+T24	Pronoun 245 249	They
+T25	Pronoun 425 430	their
+T26	Pronoun 651 655	they
+T27	Pronoun 1764 1768	This
+T28	B_span 121 129	Zollmann
+T29	E_span 379 392	syntactically
+T30	E_span 208 212	2005
+T31	B_span 163 175	hierarchical
+T32	B_span 400 405	Zhang
+T33	E_span 710 716	manner
+T34	Dominant 877 896	Chiang et al., 2009
+T35	B_span 852 858	Marton
+T36	E_span 1037 1041	2007
+T37	Reference 1013 1025	Chiang, 2005
+T38	B_span 979 991	hierarchical
+T39	E_span 1037 1041	2007
+T40	B_span 1380 1386	Chiang
+T41	E_span 1521 1527	system

@@ -1,0 +1,24 @@
+[BOS] Previous work on sentence fusion examines the task in the context of multidocument summarization, targeting groups of sentences with mostly redundant content.
+[BOS] The pioneering work on fusion is Barzilay and McKeown (2005) , which introduces the framework used by subsequent projects: they represent the inputs by dependency trees, align some words to merge the input trees into a lattice, and then extract a single, connected dependency tree as the output.
+
+[BOS] Our work most closely follows Filippova and Strube (2008) , which proposes using Integer Linear Programming (ILP) for extraction of an output dependency tree.
+[BOS] ILP allows specification of grammaticality constraints in terms of dependency relationships (Clarke and Lapata, 2008) , as opposed to previous fusion methods (Barzilay and McKeown, 2005; Marsi and Krahmer, 2005) which used language modeling to extract their output.
+
+[BOS] In their ILP, Filippova and Strube (2008) optimize a function based on syntactic importance scores learned from a corpus of general text.
+[BOS] While similar methods have been used for the related task of sentence compression, improvements can be obtained using supervised learning (Knight and Marcu, 2000; Turner and Charniak, 2005; Cohn and Lapata, 2009 ) if a suitable corpus of compressed sentences can be obtained.
+[BOS] This paper is the first we know of to adopt the supervised strategy for sentence fusion.
+
+[BOS] For supervised learning to be effective, it is necessary to find or produce example data.
+[BOS] Previous work does produce some examples written by humans, though these are used during evaluation, not for learning (a large corpus of fusions (McKeown et al., 2010) was recently compiled as a first step toward a supervised fusion system).
+[BOS] However, they elicit these examples by asking experimental subjects to fuse selected input sentences-the choice of which sentences to fuse is made by the system, not the subjects.
+[BOS] In contrast, our dataset consists of sentences humans actually chose to fuse as part of a practical writing task.
+[BOS] Moreover, our sentences have disparate content, while previous work focuses on sentences whose content mostly overlaps.
+
+[BOS] Input sentences with differing content present a challenge to the models used in previous work.
+[BOS] All these models use deterministic node alignment heuristics to merge the input dependency graphs.
+[BOS] Filippova and Strube (2008) align all content words with the same lemma and part of speech; Barzilay and McKeown (2005) and Marsi and Krahmer (2005) use syntactic methods based on tree similarity.
+[BOS] Neither method is likely to work well for our data.
+[BOS] Lexical methods over-align, since there are many potential points of correspondence between our sentences, only some of which should be merged-"the Doha trade round" and "U.S. trade representative" share a word, but probably ought to remain separate regardless.
+[BOS] Syntactic methods, on the other hand, are unlikely to find any alignments since the input sentences are not paraphrases and have very different trees.
+[BOS] Our system selects the set of nodes to merge during ILP optimization, allowing it to choose correspondences that lead to a sensible overall solution.
+

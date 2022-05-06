@@ -1,0 +1,45 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 118 123	[BOS]
+T3	Narrative_cite 340 345	[BOS]
+T4	Narrative_cite 515 520	[BOS]
+T5	Transition 646 651	[BOS]
+T6	Transition 876 881	[BOS]
+T7	Reflection 1013 1018	[BOS]
+T8	Single_summ 1152 1157	[BOS]
+T9	Reflection 1288 1293	[BOS]
+T10	Reflection 1500 1505	[BOS]
+T11	Reflection 1659 1664	[BOS]
+T12	Reflection 1821 1826	[BOS]
+T13	Reflection 1974 1979	[BOS]
+T14	Transition 2120 2125	[BOS]
+T15	Reflection 2365 2370	[BOS]
+T16	Reflection 2561 2566	[BOS]
+T17	Dominant 124 144	McCann et al. (2017)
+T18	Reference 487 511	(Zhang and Bowman, 2018)
+T19	Reference 551 572	(Peters et al., 2018)
+T20	Reference 622 643	Radford et al. (2018)
+T21	Dominant 1197 1218	(Devlin et al., 2018)
+T22	Dominant 2592 2613	Radford et al. (2018)
+T23	Reference 2694 2716	(Radford et al., 2018)
+T24	Reference 2764 2785	(Devlin et al., 2018)
+T25	Pronoun 1331 1336	their
+T26	Pronoun 1589 1591	it
+T27	Pronoun 1611 1615	this
+T28	Pronoun 1680 1684	they
+T29	Pronoun 2661 2666	their
+T30	B_span 124 130	McCann
+T31	E_span 333 338	tasks
+T32	B_span 373 381	language
+T33	E_span 506 510	2018
+T34	B_span 546 550	ELMo
+T35	E_span 567 571	2018
+T36	B_span 581 591	generative
+T37	E_span 638 642	2018
+T38	B_span 1158 1161	The
+T39	E_span 1279 1286	context
+T40	B_span 2592 2599	Radford
+T41	E_span 2780 2784	2018
+T42	B_span 2738 2748	additional
+T43	E_span 2780 2784	2018
+T44	B_span 2682 2693	BooksCorpus
+T45	E_span 2711 2715	2018

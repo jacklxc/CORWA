@@ -1,0 +1,12 @@
+[BOS] Previous work on paraphrase generation falls into three main groups.
+[BOS] Based mainly on monolingual data, earlier approaches use data-driven, (Lin and Pantel, 2001) , grammar-or thesaurus-based methods (Madnani et al., 2007; McKeown, 1983; Hassan et al., 2007; Kozlowski et al., 2003; Quirk et al., 2004; Zhao et al., 2008) .
+[BOS] In contrast, the pivot-based approach exploits bilingual data and machine translation methods to extract and generate paraphrases (Callison-Burch, 2008; Ganitkevitch and Callison-Burch, 2014; .
+[BOS] Finally, neural approaches build upon the encoder-decoder architecture to learn paraphrase generation models (Mallinson et al., 2017; Prakash et al., 2016) .
+[BOS] (Prakash et al., 2016 ) uses a stacked residual LSTM network with residual connections between LSTM layers and show that their model outperforms sequence to sequence, attention-based, and bi-directional LSTM model on three datasets (PPDB, WikiAnswers, and MSCOCO).
+[BOS] (Mallinson et al., 2017 ) introduces a neural model for multi-lingual, multi-pivot backtranslation and show that it outperforms a paraphrase model trained with a commonly used Statistical Machine Translation system (SMT) on three tasks, namely, correlation with human judgments of paraphrase quality; paraphrase and similarity detection; and sentence-level paraphrase generation.
+[BOS] (Iyyer et al., 2018) also use backtranslation as a mean to provide training data.
+[BOS] In addition, it uses syntax to control paraphrase generation.
+[BOS] Given D2T 5best Aktieselskab is the operating organisation for Aarhus Airport which has a runway name of "10R/28L" with a length of 2777.
+[BOS] The Aktieselskab is the operating organisation for Aarhus Airport which has a runway name of "10R/28L" with a length of 2777.
+[BOS] Aktieselskab is the operating organisation for Aarhus Airport which has a runway length of 2777 and is named "10R/28L".
+

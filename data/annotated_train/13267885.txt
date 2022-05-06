@@ -1,0 +1,26 @@
+[BOS] Some variants of transition-based parsing methods have been proposed for joint POS tagging and parsing (Bohnet and Nivre, 2012; Bohnet et al., 2013; Wang and Xue, 2014) and joint Chinese word segmentation, POS tagging, and dependency parsing (Hatori et al., 2012; Zhang et al., 2014) .
+[BOS] As an external knowledge source, Hatori et al. (2012) used a word dictionary extracted mainly from Wikipedia, but it did not provide lexical knowledge for resolving syntactic ambiguities.
+
+[BOS] Lattice parsing methods have been proposed for Hebrew and Arabic (Goldberg and Tsarfaty, 2008; Goldberg et al., 2009; Green and Manning, 2010; Goldberg and Elhadad, 2011) .
+[BOS] These methods first generate a word lattice and then apply PCFG parsing to the word lattice.
+[BOS] Starting with a word lattice, the methods of Wang et al. (2013) and Zhang et al. (2015) select the best parse using dual decomposition and the randomized greedy algorithm, respectively.
+[BOS] Of these methods, Goldberg et al. (2009) incorporated an external morphological lexicon, which does not provide selectional preferences.
+
+[BOS] As a different method from lattice parsing, Qian and Liu (2012) trained separate models for Chinese word segmentation, POS tagging, and constituency parsing.
+[BOS] They proposed a unified decoding algorithm that combines the scores from these three models.
+[BOS] This is a purely supervised method that does not use lexical knowledge.
+
+[BOS] As dependency parsing models using lexical knowledge, there have been semi-supervised approaches that use knowledge of word classes, lexical preferences or selectional preferences acquired from raw corpora (e.g., (van Noord, 2007; Koo et al., 2008; Chen et al., 2009; Zhou et al., 2011; Bansal and Klein, 2011) ).
+[BOS] However, these dependency parsing models cannot be applied to joint morphological and dependency analysis.
+
+[BOS] For Japanese, Morita et al. (2015) proposed a morphological analyzer that jointly performs segmentation and POS tagging using recurrent neural network language models, but does not perform dependency parsing.
+[BOS] We employ this morphological analyzer, JUMAN++ 4 , as a pre-processor to generate word lattice (described in Section 4.1).
+[BOS] Kawahara and Kurohashi (2006) proposed a probabilistic model for Japanese dependency parsing and PAS analysis based on case frames automatically compiled from a large raw corpus, which are also used as a source of selectional preferences in our model (described in Section 3.1).
+[BOS] Kudo and Matsumoto (2002) , Sassano (2004) , Iwatate (2012) and Yoshinaga and Kitsuregawa (2014) proposed supervised models for Japanese dependency parsing without using external knowledge sources.
+[BOS] These models need a 1-best output of segmentation and POS tagging as an input, and are not a joint model of morphological analysis and dependency parsing.
+[BOS] We adopt KNP 5 and CaboCha 6 as baseline dependency parsers, which are implementations of Kawahara and Kurohashi (2006) and Sassano (2004) , respectively.
+[BOS] 7 Tawara et al. (2015) proposed a joint model for Japanese morphological analysis and dependency parsing without lexical knowledge.
+[BOS] However, they failed to achieve significant improvements over conventional pipeline methods.
+
+[BOS] To the best of our knowledge, there have been no joint models of morphological and dependency analysis that use large-scale lexical knowledge which includes selectional preferences.
+

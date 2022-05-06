@@ -1,0 +1,10 @@
+[BOS] There are a lot of attempts in improving word alignment with syntactic information (Cherry and Lin, 2006; DeNero and Klein, 2007; Hermjackob, 2009) and in improving parser with alignment information (Burkett and Klein, 2008 parser/aligner itself rather than the translation model.
+[BOS] To improve the performance of syntactic machine translation, Huang and Knight (2006) proposed a method incorporating a handful of relabeling strategies to modify the syntactic trees structures.
+[BOS] Ambati and Lavie (2008) restructured target parse trees to generate highly isomorphic target trees that preserve the syntactic boundaries of constituents aligned in the original parse trees.
+[BOS] Wang et al., (2010) proposed to use re-structuring and re-labeling to modify the parser tree.
+[BOS] The restructuring method uses a binarization method to enable the reuse of sub-constituent structures, and the linguistic and statistical re-labeling methods to handle the coarse nonterminal problem, so as to enhance generalization ability.
+[BOS] Different from the previous work of modifying tree structures with post-processing methods, our methods try to learn a suitable grammar for string-to-tree SMT models, and directly produce trees which are consistent with word alignment matrices.
+
+[BOS] Instead of modifying the parse tree to improve machine translation performance, many methods were proposed to modify word alignment by taking syntactic tree into consideration, including deleting incorrect word alignment links by a discriminative model (Fossum et al., 2008) , re-aligning sentence pairs using EM method with the rules extracted with initial alignment (Wang et al., 2010) , and removing ambiguous alignment of functional words with constraint from chunk-level information during rule extraction (Wu et al., 2011) .
+[BOS] Unlike all these pursuits, to generate a consistent word alignment, our method modifies the popularly used IDG symmetrization method to make it suitable for string-to-tree rule extraction, and our method is much simpler and faster than the previous works.
+

@@ -1,0 +1,16 @@
+[BOS] There has been extensive work on data-driven dependency parsing for both projective parsing (Eisner, 1996; Paskin, 2001; Yamada and Matsumoto, 2003; Nivre and Scholz, 2004; McDonald et al., 2005a) and non-projective parsing systems (Nivre and Nilsson, 2005; Hall and Nóvák, 2005; McDonald et al., 2005b) .
+[BOS] These approaches can often be classified into two broad categories.
+[BOS] In the first category are those methods that employ approximate inference, typically through the use of linear time shift-reduce parsing algorithms (Yamada and Matsumoto, 2003; Nivre and Scholz, 2004; Nivre and Nilsson, 2005) .
+[BOS] In the second category are those that employ exhaustive inference algorithms, usually by making strong independence assumptions, as is the case for edge-factored models (Paskin, 2001; McDonald et al., 2005a; McDonald et al., 2005b) .
+[BOS] Recently there have also been proposals for exhaustive methods that weaken the edge-factored assumption, including both approximate methods (McDonald and Pereira, 2006) and exact methods through integer linear programming (Riedel and Clarke, 2006) or branch-and-bound algorithms (Hirakawa, 2006) .
+
+[BOS] For grammar based models there has been limited work on empirical systems for non-projective parsing systems, notable exceptions include the work of Wang and Harper (2004) .
+[BOS] Theoretical studies of note include the work of Neuhaus and Böker (1997) showing that the recognition problem for a mini-mal dependency grammar is hard.
+[BOS] In addition, the work of Kahane et al. (1998) provides a polynomial parsing algorithm for a constrained class of nonprojective structures.
+[BOS] Non-projective dependency parsing can be related to certain parsing problems defined for phrase structure representations, as for instance immediate dominance CFG parsing (Barton et al., 1987) and shake-and-bake translation (Brew, 1992) .
+
+[BOS] Independently of this work, Koo et al. (2007) and Smith and Smith (2007) showed that the MatrixTree Theorem can be used to train edge-factored log-linear models of dependency parsing.
+[BOS] Both studies constructed implementations that compare favorably with the state-of-the-art.
+[BOS] The work of Meilȃ and Jaakkola (2000) is also of note.
+[BOS] In that study they use the Matrix Tree Theorem to develop a tractable bayesian learning algorithms for tree belief networks, which in many ways are closely related to probabilistic dependency parsing formalisms and the problems we address here.
+

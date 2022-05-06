@@ -1,0 +1,32 @@
+T1	Other 0 5	[BOS]
+T2	Other 247 252	[BOS]
+T3	Other 358 363	[BOS]
+T4	Other 435 440	[BOS]
+T5	Reflection 711 716	[BOS]
+T6	Narrative_cite 881 886	[BOS]
+T7	Reflection 1171 1176	[BOS]
+T8	Reflection 1327 1332	[BOS]
+T9	Reflection 1429 1434	[BOS]
+T10	Reflection 1520 1525	[BOS]
+T11	Reflection 1611 1616	[BOS]
+T12	Narrative_cite 1764 1769	[BOS]
+T13	Narrative_cite 1908 1913	[BOS]
+T14	Transition 2022 2027	[BOS]
+T15	Transition 2226 2231	[BOS]
+T16	Reference 1053 1075	(Simonyan et al., 2014
+T17	Reference 1077 1104	Mahendran and Vedaldi, 2015
+T18	Reference 1106 1125	Nguyen et al., 2015
+T19	Reference 1127 1148	Girshick et al., 2014
+T20	Reference 1150 1167	Bach et al., 2015
+T21	Reference 1228 1247	(Bach et al., 2015)
+T22	Reference 1885 1904	(Bach et al., 2015)
+T23	Reference 1996 2019	(Bahdanau et al., 2015)
+T24	Pronoun 62 64	it
+T25	B_span 927 940	visualization
+T26	E_span 1163 1167	2015
+T27	B_span 1189 1192	our
+T28	E_span 1242 1246	2015
+T29	B_span 1835 1841	neural
+T30	E_span 1899 1903	2015
+T31	B_span 1979 1988	attention
+T32	E_span 2014 2018	2015

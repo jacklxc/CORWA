@@ -1,0 +1,20 @@
+[BOS] Many methods have been proposed for extending word embeddings to semantic feature vectors, with the aim of using them as interpretable and structure-aware building blocks of NLP pipelines (Kiros et al., 2015; Yamada et al., 2016) .
+[BOS] Many exploit the structure and resources available for specific feature types, such as methods for sense, synsets, and lexemes (Rothe and Schtze, 2015; Iacobacci et al., 2015) that make heavy use of the graph structure of the Princeton WordNet (PWN) and similar resources (Fellbaum, 1998) .
+[BOS] By contrast, our work is more general, with incorporation of structure left as an open problem.
+[BOS] Embeddings of n-grams are of special interest because they do not need annotation or expert knowledge and can often be effective on downstream tasks.
+[BOS] Their computation has been studied both explicitly (Yin and Schutze, 2014; Poliak et al., 2017) and as an implicit part of models for document embeddings (Hill et al., 2016; Pagliardini et al., 2018) , which we use for comparison.
+[BOS] Supervised and multitask learning of text embeddings has also been attempted (Wang et al., 2017; Wu et al., 2017) .
+[BOS] A main motivation of our work is to learn good embeddings, of both words and features, from only one or a few examples.
+[BOS] Efforts in this area can in many cases be split into contextual approaches (Lazaridou et al., 2017; Herbelot and Baroni, 2017 ) and morphological methods (Luong et al., 2013; Bojanowski et al., 2016; Pado et al., 2016) .
+[BOS] The current paper provides a more effective formulation for context-based embeddings, which are often simpler to implement, can improve with more context information, and do not require morphological annotation.
+[BOS] Subword approaches, on the other hand, are often more compositional and flexible, and we leave the extension of our method to handle subword information to future work.
+[BOS] Our work is also related to some methods in domain adaptation and multi-lingual correlation, such as that of Bollegala et al. (2014) .
+
+[BOS] Mathematically, this work builds upon the linear algebraic understanding of modern word embeddings developed by Arora et al. (2018b) via an extension to the latent-variable embedding model of Arora et al. (2016) .
+[BOS] Although there have been several other applications of this model for natural language representation Mu and Viswanath, 2018) , ours is the first to provide a general approach for learning semantic features using corpus context.
+[BOS] cation information using a standard algorithm (e.g. word2vec / GloVe).
+[BOS] Our goal is to construct a good embedding v f  R d of a text feature f given a set C f of contexts it occurs in.
+[BOS] Both f and its contexts are assumed to arise via the same process that generates the large corpus C V .
+[BOS] In many settings below, the number |C f | of contexts available for a feature f of interest is much smaller than the number |C w | of contexts that the typical word w  V occurs in.
+[BOS] This could be because the feature is rare (e.g. unseen words, n-grams) or due to limited human annotation (e.g. word senses, named entities).
+

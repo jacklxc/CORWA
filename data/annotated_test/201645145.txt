@@ -1,0 +1,17 @@
+[BOS] There have been several recent attempts to assess BERT's ability to capture structural properties of language.
+[BOS] Goldberg (2019) demonstrated that BERT consistently assigns higher scores to the correct verb forms as opposed to the incorrect one in a masked language modeling task, suggesting some ability to model subject-verb agreement.
+[BOS] Jawahar et al. (2019) extended this work to using multiple layers and tasks, supporting the claim that BERT's intermediate layers capture rich linguistic information.
+[BOS] On the other hand, Tran et al. (2018) concluded that LSTMs generalize to longer sequences better, and are more robust with respect to agreement distractors, compared to Transformers.
+[BOS] Liu et al. (2019) investigated the transferability of contextualized word representations to a number of probing tasks requiring linguistic knowledge.
+[BOS] Their findings suggest that (a) the middle layers of Transformer-based architectures are the most transferable to other tasks, and (b) higher layers of Transformers are not as task specific as the ones of RNNs.
+[BOS] Tang et al. (2018) argued that models using self-attention outperform CNN-and RNN-based models on a word sense disambiguation task due to their ability to extract semantic features from text.
+
+[BOS] Our work contributes to the above discussion, but rather than examining representations extracted from different layers, we focus on the understanding of the self-attention mechanism itself, since it is the key feature of Transformer-based models.
+
+[BOS] Another research direction that is relevant to our work is neural network pruning.
+[BOS] Frankle and Carbin (2018) showed that widely used complex architectures suffer from overparameterization, and can be significantly reduced in size without a loss in performance.
+[BOS] Goldberg (2019) observed that the smaller version of BERT achieves better scores on a number of syntax-testing experiments than the larger one.
+[BOS] Adhikari et al. (2019) questioned the necessity of computation-heavy neural networks, proving that a simple yet carefully tuned BiLSTM without attention achieves the best or at least competitive results compared to more complex architectures on the document classification task.
+[BOS] Wu et al. (2019) presented more evidence of unnecessary complexity of the self-attention mechanism, and proposed a more lightweight and scalable dynamic convolution-based architecture that outperforms the self-attention baseline.
+[BOS] These studies suggest a potential direction for future research, and are in good accordance with our observations.
+

@@ -1,0 +1,8 @@
+[BOS] Recent studies on slot filling in conversational systems are mostly based on neural models.
+[BOS] Wang et al. (2018) introduce a bi-model (RNN) structure to consider cross-impact between intent detection and slot filling.
+[BOS] Liu and Lane (2016) propose an attention mechanism on the encoder-decoder model for joint intent classification and slot filling.
+[BOS] (Goo et al., 2018) extend the attention mechanism using a slot gated model to learn relationship between slot and intent attention vectors.
+[BOS] HakkaniTr et al. (2016) use bidirectional RNN as a single model that handle multiple domains by adding a final state that contains domain identifier.
+[BOS] The work by Jha et al. (2018) ; Kim et al. (2017) uses expert based domain adaptation while Jaech et al. (2016) propose a multi-task learning approach to guide the training of a model for new domain.
+[BOS] All of these studies train their model solely on slot filling datasets, while our focus is to exploit a more "general" resource, such as NER, by training the model jointly with slot filling through MTL with different supervision level.
+

@@ -1,0 +1,18 @@
+[BOS] Question Generation (QG) problem has been approached in two ways.
+[BOS] One is based on heuristics, templates and syntactic rules (Heilman and Smith, 2010; Mazidi and Nielsen, 2014; Labutov et al., 2015) .
+[BOS] This type of approach requires a heavy human effort, so they do not scale well.
+[BOS] The other approach is based on neural networks and it is becoming popular due to the recent progress of deep learning in NLP (Pan et al., 2019) .
+[BOS] Du et al. (2017) is the first one to propose an sequence-to-sequence model to tackle the QG problem and outperformed the previous state-of-the-art model using human and automatic evaluations.
+[BOS] Sun et al. (2018) proposed a similar approach to us, an answer-aware sequence-to-sequence model with a special decoding mode in charge of only the interrogative word.
+[BOS] However, we propose to predict the interrogative word before the encoding stage, so that the decoder can focus more on the rest of the question rather than on the interrogative word.
+[BOS] Besides, they cannot train the interrogativeword classifier using golden labels because it is learned implicitly inside the decoder.
+[BOS] Duan et al. (2017) proposed, in a similar way to us, a pipeline approach.
+[BOS] First, the authors create a long list of question templates like "who is author of", and "who is wife of".
+[BOS] Then, when generating the question, they select first the question template and next, they fill it in.
+[BOS] To select the question template, they proposed two approaches.
+[BOS] One is a retrievalbased question pattern prediction, and the second one is a generation-based question pattern prediction.
+[BOS] The first one has the problem that is computationally expensive when the question pattern size is large, and the second one, although it yields to better results, it is a generative approach and we argue that just modeling the interrogative word prediction as a classification task is easier and can lead to better results.
+[BOS] As far as we know, we are the first one to propose an explicit interrogativeword classifier that provides the interrogative word to the question generator.
+
+[BOS] 3 Interrogative-Word-Aware Question Generation
+

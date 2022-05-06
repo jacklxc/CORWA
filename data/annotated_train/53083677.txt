@@ -1,0 +1,35 @@
+[BOS] Question Generation Previous work of QG can be classified into two categories: rule-based and neural network-based.
+[BOS] Regardless of the approach taken, QG usually includes two sub-tasks:
+
+[BOS] (1) what to say, i.e. selecting the targets that should be asked.
+[BOS] (2) how to say, i.e. formulating the structure of the question and producing the surface realization.
+[BOS] This is similar to other natural language generation tasks.
+[BOS] In this paper, we focus on the second sub-task, i.e. surface-form realization of questions by assuming the targets are given.
+[BOS] The rule-based approaches usually include the following steps: (1) Preprocess the given text by applying natural language processing techniques, including syntactic parsing, sentence simplification and semantic role labeling.
+[BOS] (2) Identify the targets that should be asked by using rules or semantic roles.
+[BOS] (3) Generate questions using transformation rules or templates.
+[BOS] (4) Rank the over generated questions by well-designed features Smith, 2009, 2010; Chali and Hasan, 2015) .
+[BOS] The major drawbacks of rule-based approaches include: (1) they rely on rules or templates that are expensive to manually create; (2) the rules or templates lack diversity; (3) the targets that they can deal with are limited.
+
+[BOS] To tackle the issues of rule-based approaches, the neural network-based approaches are applied to the task of QG.
+[BOS] The neural network-based approaches do not rely on hand-crafted rules, and they are instead data driven and trainable in an end-to-end fashion.
+[BOS] Serban et al. (2016) firstly introduce an encoder-decoder framework with attention mechanism to generate factoid questions for the facts (i.e. each fact is a triple composed of a subject, a predicate and an object) from FreeBase.
+[BOS] Du et al. (2017) introduce sequence-to-sequence model with attention mechanism to generate questions for the text from SQuAD dataset, which contains large-scale manually annotated triples composed of question, answer and the context (i.e. the passage).
+[BOS] enrich the sequenceto-sequence model with rich features, e.g. answer position and lexical features, and incorporate copy mechanism that allows it to copy words from the context when generating a question.
+[BOS] Their experiments show the effectiveness of the rich features and the copy mechanism.
+[BOS] propose to combine templates and sequence-tosequence model.
+[BOS] Specifically, they mine question patterns from a question answering community and apply sequence-to-sequence to generate question patterns for a given text.
+[BOS] model question answering and question generation as dual tasks.
+[BOS] It helps generate better questions when training these two tasks together.
+
+[BOS] In this paper, we observe two major issues with the exiting neural models: (1) The generated question words do not match the answer type, since the models do not pay much attention to the answers that are critical to generate question words.
+[BOS] (2) The model copies the context words that are far from and irrelevant to the answer, instead of the words that are close and relevant to the answer, since the models are not aware the positions of the context words.
+[BOS] To address these two issues, we propose an answer-focused and position-aware neural question generation model.
+[BOS] As to positionaware models, Zeng et al. (2014) ; Zhang et al. (2017) introduce position feature in the task of relation extraction.
+[BOS] They apply this feature to encode the relative distance to the target noun pairs.
+[BOS] In the task of QG, apply BIO scheme to label answer position, which is a weak representation of relative distance between answer and its context words.
+[BOS] Sequence-to-sequence In recent years, the sequence-to-sequence model has been widely used in the area of natural language generation, including the tasks of abstractive text summarization, response generation in dialogue, poetry generation, etc.
+[BOS] propose a sequence-to-sequence model and apply it to the task of machine translation.
+[BOS] Bahdanau et al. (2014) introduce attention mechanism to the sequence-to-sequence model and it greatly improves the model performance on the task of machine translation.
+[BOS] To deal with the out of vocabulary issue, several variants of the sequenceto-sequence model have been proposed to copy words from source text (Gu et al., 2016; Cao et al., 2017; See et al., 2017) .
+

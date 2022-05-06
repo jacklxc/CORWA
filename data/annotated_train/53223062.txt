@@ -1,0 +1,25 @@
+[BOS] After the first question generation shared task evaluation challenge (Rus et al., 2010) , the question generation task has received a huge attention from the natural language generation community.
+[BOS] Many of the traditional approaches involve human resources to create robust templates and then employing them to generate questions.
+[BOS] For instance, Heilman and Smith (2010) approach is to overgenerate questions by some hand-written rules and then rank them using a logistic regression model.
+[BOS] Labutov et al. (2015) benefit from a low-dimensional ontology for document segments.
+[BOS] They crowdsource a set of promising question templates that are matched with that representation and rank the results based on their relevance to the source.
+[BOS] Lindberg et al. (2013) employed a template-based approach while taking advantage of semantic information to generate natural language questions for on-line learning support.
+[BOS] Chali and Hasan (2015) consider the automatic generation of all possible questions from a topic of interest by exploiting the named entity information and the predicate argument structures of the sentences.
+
+[BOS] Lately, more approaches have been presented that utilize the neural encoder-decoder architecture.
+[BOS] Serban et al. (2016) address the problem by transducing knowledge graph facts into questions.
+[BOS] They created a factoid question and answer corpus by using the Recurrent Neural Network architecture.
+
+[BOS] QG can also be combined with its complementary task, Question Answering (QA) for further improvement.
+[BOS] Tang et al. (2017) consider QG and QA as dual tasks and train their relative models simultaneously.
+[BOS] Their training framework takes advantage of the probabilistic correlation between the two tasks.
+[BOS] QG has also entered other communities such as computer vision.
+[BOS] Mostafazadeh et al. (2016) introduced the visual question generation task where the goal of the system is to create a question given an image.
+
+[BOS] One of the latest studies on the QG task has been conducted by Du et al. (2017) .
+[BOS] Their task is a QG on both sentences and paragraphs for the reading comprehension task, and they adopt an attentionbased sequence learning model.
+[BOS] Another recent work is by Yuan et al. (2017) , they generate questions from documents using supervised and reinforcement learning.
+
+[BOS] In our work, we generate questions using community questions and answers and apply the encoder-decoder structure.
+[BOS] To boost the performance of our system, we use attention and coverage mechanisms as suggested in See et al. (2017) .
+

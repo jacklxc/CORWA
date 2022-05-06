@@ -1,0 +1,40 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 174 179	[BOS]
+T3	Multi_summ 480 485	[BOS]
+T4	Multi_summ 799 804	[BOS]
+T5	Transition 1080 1085	[BOS]
+T6	Reflection 1152 1157	[BOS]
+T7	Reflection 1315 1320	[BOS]
+T8	Reflection 1407 1412	[BOS]
+T9	Transition 1624 1629	[BOS]
+T10	Multi_summ 1805 1810	[BOS]
+T11	Multi_summ 2026 2031	[BOS]
+T12	Dominant 193 209	Xu et al. (2015)
+T13	Dominant 317 334	Yin et al. (2015)
+T14	Dominant 591 613	Bahdanau et al. (2014)
+T15	Dominant 616 636	Luong et al. (2015b)
+T16	Dominant 731 750	Dutil et al. (2017)
+T17	Dominant 818 836	Feng et al. (2016)
+T18	Dominant 1008 1026	Cohn et al. (2016)
+T19	Dominant 1826 1844	Liu et al. (2016b)
+T20	Dominant 1847 1865	Chen et al. (2016)
+T21	Pronoun 1158 1163	These
+T22	Pronoun 1389 1394	their
+T23	Pronoun 1498 1504	theirs
+T24	Pronoun 1615 1621	theirs
+T25	Pronoun 1727 1731	they
+T26	Pronoun 2032 2036	They
+T27	B_span 193 195	Xu
+T28	E_span 308 315	results
+T29	B_span 317 320	Yin
+T30	E_span 473 478	tasks
+T31	B_span 525 528	the
+T32	E_span 716 721	state
+T33	B_span 731 736	Dutil
+T34	E_span 788 797	mechanism
+T35	B_span 818 822	Feng
+T36	E_span 995 1002	history
+T37	B_span 1008 1012	Cohn
+T38	E_span 1072 1078	models
+T39	B_span 1826 1829	Liu
+T40	E_span 2223 2232	attention

@@ -1,0 +1,44 @@
+[BOS] Up to now, lots of novel relation classification methods have been proposed.
+[BOS] Early research mainly focuses on features based methods.
+[BOS] Usually, these methods firstly select some syntactic and semantic features from the given sentences.
+[BOS] Then the selected features are fed into some classification models like support vector machines, maximum entropy, etc.
+
+[BOS] Recently, DNN based methods have been widely explored and have achieved state-of-the-art experimental results.
+[BOS] The core of these methods is to embed features into real-valued vectors, and then feed these vectors into some DNN based learning frameworks.
+[BOS] Generally, there are three widely used DNN frameworks for relation classification: convolutional neural networks (CNN), recurrent neural networks (RNN), and their combination.
+[BOS] In most recent years, inspired by both the success of DNN methods and the broad consensus that syntactic tree structures are of great help for relation classification, more and more research attention is being paid to the methods that integrate syntactic tree features into DNN based learning frameworks.
+[BOS] Among the syntactic tree features, the Shortest Dependent Path (SDP) is one of the most frequently used.
+[BOS] In Table 1 From Table 1 we can see that there are many similarities among the state-of-the-art relation classification methods.
+[BOS] For example, most of them use a cross entropy loss function, use WordNet, and use the stochastic gradient descent (SGD) method for optimization, etc.
+[BOS] The main differences among them mainly lie in the learning frameworks.
+
+[BOS] CNN is a very popular learning framework for relation classification and lots of methods are based on it.
+[BOS] For example, Zeng et al. (2014) proposed a CNN based approach for relation classification.
+[BOS] In their method, sentence level features are learned through a CNN model that takes word embedding features and position embedding features as input.
+[BOS] In parallel, lexical level features are extracted from some context windows that are around the labeled entities.
+[BOS] Then the sentence level features and the lexical level features are concatenated into a single vector.
+[BOS] This vector is then fed into a softmax classifier for relation prediction.
+[BOS] Another representative CNN based relation classification method is CR-CNN (Dos Santos et al., 2015) , which tackles the relation classification task with a CNN model that performs classification by ranking.
+[BOS] They proposed a new pairwise ranking loss function that is easy to reduce the impact of the artificial relation "Other".
+[BOS] Their method is also the unique one that takes a specific processing strategy for the "Other" relation.
+[BOS] Xu et al. (2016) pointed out that compared with a raw word sequence or a whole parse tree, the SDP between two entities has two main advantages.
+[BOS] First, it reduces irrelevant information; second, grammatical relations between words focus on the action and agents in a sentence and are naturally suitable for a relation classification task.
+[BOS] Thus many researchers integrate SDP into DNN based learning frameworks for relation classification.
+[BOS] For example, based on SDP, Xu et al. (2016) proposed deep recurrent neural networks (DRNNs) for relation classification.
+[BOS] Their method can be roughly regarded as a "RNN + SDP" relation classification method.
+[BOS] Xu et al. (2015a) proposed a neural relation classification architecture that picks up heterogeneous information along the left and right sub-path of the SDP respectively, leveraging RNN with multichannel long short term memory (LSTM) units.
+[BOS] And their method can be roughly regarded as a "LSTM + SDP" relation classification method.
+[BOS] Other similar work, Xu et al. (2015b) proposed to learn more robust relation representations from SDP through a CNN model; proposed augmented dependency path (ADP), which is a variant of SDP.
+[BOS] Both of these two methods can be roughly regarded as a "CNN + SDP" relation classification method.
+
+[BOS] Some researchers combine CNN and RNN together for relation classification.
+[BOS] Recently, the attention method is achieving more and more research attention.
+[BOS] Some researchers also add the attention method in their relation classification models.
+[BOS] For example, proposed a multi-level attention CNN model for relation classification.
+[BOS] In their method, two levels of attentions are used in order to better discern patterns in heterogeneous contexts.
+[BOS] Zhou et al. (2016) proposed an attention-based bidirectional LSTM model for relation classification.
+
+[BOS] Another research line explores a kind of end-to-end method for relation classification.
+[BOS] For example, Miwa et al. (2016) proposed a novel end-to-end neural model to extract entities and the relations between them.
+[BOS] Their model captures both word sequence and dependency tree substructure information by stacking bidirectional tree-structured LSTM-RNNs on bidirectional sequential LSTM-RNNs, which allows the model to jointly represent both entities and relations with shared parameters in a single model.
+

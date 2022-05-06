@@ -1,0 +1,14 @@
+[BOS] Our work is inspired by the distortion models that widely used in SMT.
+[BOS] The most related work in SMT is the distortion model proposed by Yaser and Papineni (2006) .
+[BOS] Their model is identical to our S-Distortion model that captures the relative jump distance knowledge on source words.
+[BOS] However, our approach is deliberately designed for the attention-based NMT system and is capable of exploiting variant context information to predict the relative jump distances.
+
+[BOS] Our work is related to the work (Luong et al., 2015a; Feng et al., 2016; Tu et al., 2016; Cohn et al., 2016; Meng et al., 2016; that concentrate on the improvement of the attention mechanism.
+[BOS] To remit the computing cost of the attention mechanism when dealing with long sentences, Luong et al. (2015a) proposed the local attention mechanism by just focusing on a subscope of source positions.
+[BOS] Cohn et al. (2016) incorporated structural alignment biases into the attention mechanism and obtained improvements across several challenging language pairs in low-resource settings.
+[BOS] Feng et al. (2016) passed the previous attention context to the attention mechanism by adding recurrent connections as the implicit distortion model.
+[BOS] Tu et al. (2016) maintained a coverage vector for keeping the attention history to acquire accurate translations.
+[BOS] Meng et al. (2016) proposed the interactive attention with the attentive read and attentive write operation to keep track of the interaction history.
+[BOS] utilized an external memory to store additional information for guiding the attention computation.
+[BOS] These works are different from ours, as our distortion models explicitly capture word reordering knowledge through estimating the probability distribution of relative jump distances on source words to incorporate word reordering knowledge into the attention-based NMT.
+

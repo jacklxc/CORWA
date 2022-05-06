@@ -1,0 +1,42 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 418 423	[BOS]
+T3	Single_summ 513 518	[BOS]
+T4	Reflection 694 699	[BOS]
+T5	Reflection 777 782	[BOS]
+T6	Single_summ 877 882	[BOS]
+T7	Reflection 1102 1107	[BOS]
+T8	Single_summ 1285 1290	[BOS]
+T9	Reference 141 171	(dos Santos and Zadrozny, 2014
+T10	Reference 173 192	Ling et al., 2015a)
+T11	Reference 214 240	(Ballesteros et al., 2015)
+T12	Reference 263 283	(Zhang et al., 2015)
+T13	Reference 305 323	(Chan et al., 2016
+T14	Reference 325 347	Bahdanau et al., 2016)
+T15	Reference 372 389	(Kim et al., 2016
+T16	Reference 391 415	Jozefowicz et al., 2016)
+T18	Dominant 521 542	Sennrich et al. (2016
+T19	Reference 732 752	(Luong et al., 2013)
+T20	Reference 757 774	(Li et al., 2015)
+T21	Reference 973 992	Luong et al. (2013)
+T22	Reference 1127 1144	(Li et al., 2015)
+T23	Dominant 1304 1320	Li et al. (2015)
+T24	B_span 118 122	part
+T25	E_span 186 191	2015a
+T26	B_span 195 205	dependency
+T27	E_span 235 239	2015
+T28	B_span 243 247	text
+T29	E_span 278 282	2015
+T30	B_span 286 292	speech
+T31	E_span 342 346	2016
+T32	B_span 354 362	language
+T33	E_span 410 414	2016
+T17	B_span 521 529	Sennrich
+T34	E_span 686 691	words
+T35	B_span 700 703	Our
+T36	E_span 769 773	2015
+T37	B_span 973 978	Luong
+T38	E_span 1092 1100	analyzer
+T39	B_span 1108 1110	In
+T40	E_span 1139 1143	2015
+T41	B_span 1291 1293	In
+T42	E_span 1393 1402	documents

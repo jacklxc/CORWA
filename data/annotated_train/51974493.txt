@@ -1,0 +1,21 @@
+[BOS] We have focused on the problem of the increasing error rates for complex questions and the encoding of the semantic graph structure.
+[BOS] In this paper, we describe a semantic parsing system for KB QA and follow the approach of Yih et al. (2015) who do not rely on syntactic parsing to construct semantic parses.
+[BOS] Our semantic graphs do not cover some aspects of the first-order logic, such as negation.
+[BOS] Reddy et al. (2016) define a semantic parser that builds first-order logic representations from syntactic dependencies.
+[BOS] They further specify how it can be extended with negation in Fancellu et al. (2017) .
+
+[BOS] We only train on the WebQSP-WD data set and we note that more data might be necessary to effectively train the gated graph architecture.
+[BOS] Reddy et al. (2014) suggest an unsupervised learning method to learn a model from a large web corpus, while Su et al. (2016) use patterns and crowdsourcing to create new data with specific properties.
+[BOS] These techniques can be used to further improve the performance of our model.
+
+[BOS] An alternative solution to semantic parsing is to build an information extraction pipeline that views the question as a query and the KB as a source of relevant information (Yao et al., 2014) .
+[BOS] Dong et al. (2015) and Jain (2016) construct a vector representation for the question and use it to directly score candidate answers from the KB.
+[BOS] However, such approaches are hard to analyze for errors or to modify with explicit constraints.
+[BOS] For example, it is not directly possible to implement the temporal sorting constraint (argmax).
+
+[BOS] We apply GGNNs to the problem of semantic parsing.
+[BOS] Li et al. (2016) have developed the gated architecture based on the graph neural network formulation of Scarselli et al. (2009) .
+[BOS] Recently, a slightly different design of Graph Convolutional Networks was proven effective on a KB completion task (Schlichtkrull et al., 2018) .
+[BOS] Kipf and Welling (2017) introduced Graph Convolutional Networks, while Marcheggiani and Titov (2017) employed them for natural language processing for the first time and compared them to other formulations.
+[BOS] Graph Convolutional Networks have a similar gated architecture and share most of the same properties with the Gated Graph Neural Networks used.
+

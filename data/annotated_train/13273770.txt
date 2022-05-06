@@ -1,0 +1,17 @@
+[BOS] CAT has been an area of active research.
+[BOS] Our work addresses an aspect of CAT focusing on language learning.
+[BOS] Specifically, our goal is to build a human-computer collaborative writing assistant: helping the language learner with intext grammar and translation and at the same time updating the system's segmentation /translation options through the user's word choices.
+[BOS] Our intended users are different from those of the previous research focusing on what professional translator can bring for MT systems (e.g., Brown and Nirenburg, 1990) .
+
+[BOS] More recently, interactive MT (IMT) systems have begun to shift the user's role from analyses of the source text to the formation of the target translation.
+[BOS] TransType project (Foster et al., 2002) describes such pioneering system that supports next word predictions.
+[BOS] Koehn (2009) develops caitra which displays one phrase translation at a time and offers alternative translation options.
+[BOS] Both systems are similar in spirit to our work.
+[BOS] The main difference is that we do not expect the user to be a professional translator and we provide translation hints along with grammar predictions to avoid the generalization issue facing phrase-based system.
+[BOS] Recent work has been done on using fullyfledged statistical MT systems to produce target hypotheses completing user-validated translation prefix in IMT paradigm.
+[BOS] Barrachina et al. (2008) investigate the applicability of different MT kernels within IMT framework.
+[BOS] Nepveu et al. (2004) and Ortiz-Martinez et al. (2011) further exploit user feedbacks for better IMT systems and user experience.
+[BOS] Instead of trigged by user correction, our method is triggered by word delimiter and assists in target language learning.
+
+[BOS] In contrast to the previous CAT research, we present a writing assistant that suggests subsequent grammar constructs with translations and interactively collaborates with learners, in view of reducing users' burden on grammar and word choice and enhancing their writing quality.
+

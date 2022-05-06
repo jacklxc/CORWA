@@ -1,0 +1,41 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 347 352	[BOS]
+T3	Transition 575 580	[BOS]
+T4	Narrative_cite 772 777	[BOS]
+T5	Narrative_cite 1093 1098	[BOS]
+T6	Narrative_cite 1232 1237	[BOS]
+T7	Reflection 1517 1522	[BOS]
+T8	Reference 82 104	(Vuli and Moens, 2013)
+T9	Reference 134 156	(Ravi and Knight, 2011
+T10	Reference 158 179	Dou and Knight, 2012)
+T11	Reference 527 548	(Mikolov et al., 2013
+T12	Reference 550 572	Artetxe et al., 2018a)
+T13	Reference 861 883	(Artetxe et al., 2017)
+T14	Reference 946 966	(Zhang et al., 2017a
+T15	Reference 1044 1066	(Artetxe et al., 2018b
+T16	Reference 1068 1090	Hoshen and Wolf, 2018)
+T17	Reference 1207 1227	(Zhang et al., 2017b
+T18	Reference 1451 1469	Smith et al., 2017
+T19	Reference 1493 1513	Shigeto et al., 2015
+T20	Pronoun 182 187	these
+T21	Pronoun 477 482	these
+T22	Pronoun 725 730	their
+T23	Pronoun 1533 1538	these
+T24	B_span 50 55	count
+T25	E_span 103 104	)
+T26	B_span 109 120	statistical
+T27	E_span 174 178	2012
+T28	E_span 566 571	2018a
+T29	B_span 396 404	training
+T31	B_span 801 812	supervision
+T30	E_span 878 882	2017
+T32	B_span 895 905	completely
+T33	E_span 961 966	2017a
+T34	B_span 976 982	robust
+T35	E_span 1085 1089	2018
+T36	B_span 1145 1155	formulated
+T37	E_span 1222 1227	2017b
+T38	B_span 1434 1443	retrieval
+T39	E_span 1465 1469	2017
+T40	B_span 1474 1477	the
+T41	E_span 1509 1513	2015

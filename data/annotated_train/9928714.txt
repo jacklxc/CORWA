@@ -1,0 +1,57 @@
+[BOS] Traditional approaches to zero anaphora resolution are based on manually created heuristic rules (Kameyama, 1986; Walker et al., 1994; Okumura and Tamura, 1996; Nakaiwa and Shirai, 1996) , which are mainly motivated by the rules and preferences introduced in Centering Theory (Grosz et al., 1995) .
+[BOS] However, the research trend of zero anaphora resolution has shifted from such rule-based approaches to machine learningbased approaches because in machine learning we can easily integrate many different types of information, such as morpho-syntactic, semantic and discourse-related information.
+[BOS] Researchers have developed methods of zero anaphora resolution for Chinese (Zhao and Ng, 2007; Chen and Ng, 2013) , Japanese (Seki et al., 2002; Isozaki and Hirao, 2003; Iida et al., 2007a; Taira et al., 2008; Sasano et al., 2008; Sasano et al., 2009; Imamura et al., 2009; Watanabe et al., 2010; Hayashibe et al., 2011; Iida and Poesio, 2011; Yoshikawa et al., 2011; Hangyo et al., 2013; Yoshino et al., 2013) and Italian (Iida and Poesio, 2011) .
+[BOS] One critical issue in zero anaphora resolution is optimizing the outputs of sub-problems (e.g., zero anaphor detection and antecedent identification).
+[BOS] Recent works by Watanabe et al. (2010) , Iida and Poesio (2011) and Yoshikawa et al. (2011) revealed that joint inference improves the overall performance of zero anaphora resolution.
+[BOS] We employed one of these works as a baseline in Section 6.
+
+[BOS] Concerning subject sharing recognition, related methods have been explored for pronominal anaphora (Yang et al., 2005) or coreference resolution (Bean and Riloff, 2004; Bansal and Klein, 2012) .
+[BOS] In these methods, the semantic compatibility between the contexts surrounding an anaphor and its antecedent (e.g., the compatibility of verbs kidnap and release given some arguments) was automatically extracted from raw texts in an unsupervised manner and used as features in a machine learning-based approach.
+[BOS] However, because the automatically acquired semantic compatibility is not always true or applicable in the context of any pair of an anaphor and its antecedent, the effectiveness of the compatibility features might be weakened.
+[BOS] In contrast, we accurately recognize the explicit subject sharing relations and directly use them for propagating the subject of some predicate to the empty subject position of other predicates instead of indirectly using the relations as features.
+
+[BOS] 3 Zero anaphora resolution using subject shared predicate network
+
+[BOS] In this section, we first give an overview of the procedure of our zero anaphora resolution method.
+[BOS] Intra-sentential zero anaphora resolution in our method is performed in the following five steps, as depicted in Figure 2 .
+
+[BOS] Step 1 The pairwise subject sharing relations between two predicates in a sentence are recognized by our subject sharing recognizer.
+
+[BOS] Step 2 A subject shared predicate network (SSPN) is constructed based on the results of pairwise subject sharing recognition.
+
+[BOS] Step 3 For each predicate in the set of the subject shared predicates in the SSPN, a subject is detected by our subject detector, if one exists.
+[BOS] Step 4 If a subject is detected, it is propagated to the empty subject position of each predicate in the subject shared predicates in the SSPN.
+
+[BOS] Step 5 For resolving the potential zero anaphora that were not resolved until Step 4, we apply the existing ILP-based method (Iida and Poesio, 2011 ).
+
+[BOS] We define subject sharing relations as follows.
+[BOS] Two predicates have a subject sharing relation if and only if they share the same subject that is referred to by (zero) anaphora or coreference.
+[BOS] Note that the shared subject does not need to be realized in the text; it can appear as inter-sentential zero anaphora or exophora.
+[BOS] In Step 1, the pairwise subject sharing relations between two predicates are recognized, but recognizing the relations between any two predicates in a sentence remains difficult.
+[BOS] We thus focus on some typical types of predicate pairs.
+[BOS] The details of the predicate pair types will be explained in Section 4.1.
+
+[BOS] Given the results of pairwise subject sharing recognition, we construct an SSPN in Step 2.
+[BOS] In an SSPN, every predicate in a sentence is a node and only the predicate pairs that were judged to be subject sharing are connected by a link.
+[BOS] The major advantage of explicitly constructing an SSPN is that it enables us to resolve zero anaphora even if a predicate with a subject zero anaphor does not have any direct subject sharing relation with a predicate with a subject, like predicates susumeru (advance) and hakensuru (dispatch) in Figure 1 .
+[BOS] By traversing the paths of the subject sharing relations in the SSPN, such predicates can be connected to successfully propagate the subject.
+[BOS] The effect of introducing SSPNs is empirically evaluated in Section 6.
+
+[BOS] For use in Step 3, we create a subject detector, which judges whether an argument to a predicate is its subject using SVM light 1 , an implementation of Support Vector Machine (Vapnik, 1998) , with a polynomial kernel of 2nd degree.
+[BOS] The training instances of the subject detector are extracted from the predicate-argument relations 2 in the NAIST Text Corpus.
+[BOS] The numbers of positive and negative instances are 35,304 and 104,250 respectively.
+[BOS] As features, we used the morpho-syntactic information about the lemmas of the predicate and its argument and the functional words following the predicate and its argument.
+[BOS] The results of subject detection with 5-fold cross-validation demonstrate that our subject detector accurately detects subjects with performances of 0.949 in recall, 0.855 in precision, and 0.899 in F-score.
+
+[BOS] Note that our subject detector checks whether each predicate in an SSPN has a syntactic subject among its arguments.
+[BOS] An SSPN can include more than one predicate, and each predicate may have its own subject 3 .
+[BOS] In this step, if two or more distinct subjects are detected for predicates in an SSPN, we use the most likely subject (i.e., the subject with the highest SVM score outputted by our subject detector) for subject propagation.
+[BOS] Note that subject propagation is not performed if the subject position of a predicate is already filled.
+
+[BOS] Up to this point, the zero anaphora of the following three cases cannot be resolved: (i) no subject was detected for any predicate in a group linked by the subject sharing relations in the SSPN, (ii) no subject sharing relation was recognized for a predicate in the SSPN and (iii) non-1 http://svmlight.joachims.org/ 2 Note that if a predicate appears in a relative clause and a noun modified by the clause is the semantic subject of the predicate, the noun is not regarded as subject by our subject detector.
+[BOS] 3 The subject sharing recognizer is likely to regard two predicates, each of which has its own subject, as non-subject sharing predicate pairs, but it is still logically possible that they are judged as subject sharing predicate pairs hence as a part of an SSPN.
+[BOS] To resolve zero anaphora in these cases, we apply a state-of-the-art ILP-based zero anaphora resolution method (Iida and Poesio, 2011) in Step 5.
+[BOS] This method determines zero anaphor and its antecedent by joint inference using the results of subject detection, zero anaphor detection and intraand inter-sentential antecedent identification.
+[BOS] In the original method by Iida and Poesio (2011) , the inter-sentential zero anaphora was resolved, but in this work we focus on intra-sentential zero anaphora.
+[BOS] To adapt their method for our problem setting, we simply removed the inter-sentential antecedent identification model from their method.
+

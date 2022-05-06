@@ -1,0 +1,104 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 119 124	[BOS]
+T3	Single_summ 229 234	[BOS]
+T4	Single_summ 457 462	[BOS]
+T5	Single_summ 522 527	[BOS]
+T6	Transition 625 630	[BOS]
+T7	Transition 740 745	[BOS]
+T8	Single_summ 821 826	[BOS]
+T9	Single_summ 1004 1009	[BOS]
+T10	Single_summ 1069 1074	[BOS]
+T11	Single_summ 1187 1192	[BOS]
+T12	Single_summ 1288 1293	[BOS]
+T13	Narrative_cite 1479 1484	[BOS]
+T14	Single_summ 1574 1579	[BOS]
+T15	Transition 1814 1819	[BOS]
+T16	Transition 1931 1936	[BOS]
+T17	Narrative_cite 2054 2059	[BOS]
+T18	Transition 2222 2227	[BOS]
+T19	Single_summ 2293 2298	[BOS]
+T20	Single_summ 2423 2428	[BOS]
+T21	Single_summ 2513 2518	[BOS]
+T22	Single_summ 2693 2698	[BOS]
+T23	Single_summ 2789 2794	[BOS]
+T24	Multi_summ 2905 2910	[BOS]
+T25	Narrative_cite 3044 3049	[BOS]
+T26	Transition 3241 3246	[BOS]
+T27	Transition 3345 3350	[BOS]
+T28	Transition 3466 3471	[BOS]
+T29	Transition 3580 3585	[BOS]
+T30	Transition 3701 3706	[BOS]
+T31	Transition 3787 3792	[BOS]
+T32	Transition 4015 4020	[BOS]
+T33	Reflection 4240 4245	[BOS]
+T34	Reflection 4525 4530	[BOS]
+T35	Dominant 96 116	Palmer et al. (1986)
+T36	Dominant 258 282	Whittemore et al. (1991)
+T37	Dominant 503 519	Tetreault (2002)
+T38	Dominant 844 869	Ruppenhofer et al. (2010)
+T39	Reference 981 1001	(Baker et al., 1998)
+T40	Dominant 1303 1332	(Tonelli and Delmonte, 2010 )
+T41	Reference 1460 1476	(Fellbaum, 1998)
+T42	Dominant 1509 1537	(Tonelli and Delmonte, 2011)
+T43	Dominant 1588 1608	(Chen et al., 2010 )
+T44	Reference 2060 2085	Ruppenhofer et al. (2011)
+T45	Reference 2087 2111	Laparra and Rigau (2012)
+T46	Reference 2114 2136	Gorinski et al. (2013)
+T47	Reference 2141 2165	Laparra and Rigau (2013)
+T48	Dominant 2299 2324	Silberer and Frank (2012)
+T49	Dominant 2543 2561	Moor et al. (2013)
+T50	Dominant 2718 2735	Chai (2010, 2012)
+T51	Dominant 2948 2974	(Ruppenhofer et al., 2010)
+T52	Reference 3206 3227	(Palmer et al., 2005)
+T53	Pronoun 125 129	This
+T54	Pronoun 436 440	they
+T55	Pronoun 562 566	they
+T56	Pronoun 631 636	These
+T57	Pronoun 1025 1029	this
+T58	Pronoun 1075 1079	They
+T59	Pronoun 1229 1233	this
+T60	Pronoun 1829 1833	this
+T61	Pronoun 2228 2233	These
+T62	Pronoun 2440 2444	this
+T63	Pronoun 2462 2467	their
+T64	Pronoun 2529 2533	this
+T65	Pronoun 2795 2799	They
+T66	Pronoun 2980 2984	this
+T67	Pronoun 3076 3080	they
+T68	Pronoun 3247 3251	This
+T69	Pronoun 3366 3370	this
+T70	Pronoun 3472 3476	This
+T71	Pronoun 3820 3824	this
+T72	Pronoun 4059 4064	these
+T73	Pronoun 4262 4267	these
+T74	Pronoun 4552 4556	this
+T75	B_span 6 9	The
+T76	E_span 221 227	domain
+T77	B_span 235 237	In
+T78	E_span 450 455	cover
+T79	B_span 463 470	Another
+T80	E_span 618 623	roles
+T81	B_span 827 829	On
+T83	B_span 972 980	FrameNet
+T84	E_span 996 1000	1998
+T85	E_span 1281 1285	0,02
+T82	B_span 1294 1300	VENSES
+T86	E_span 1471 1475	1998
+T87	B_span 1452 1459	WordNet
+T88	E_span 1471 1475	1998
+T89	B_span 1485 1488	The
+T90	E_span 1532 1536	2011
+T91	B_span 1580 1587	SEMAFOR
+T92	E_span 1804 1812	features
+T93	B_span 2060 2071	Ruppenhofer
+T94	E_span 2160 2164	2013
+T95	B_span 2299 2307	Silberer
+T96	E_span 2504 2511	results
+T97	B_span 2519 2528	Following
+T98	E_span 2683 2690	VerbNet
+T99	B_span 2699 2701	On
+T100	E_span 2893 2903	classifier
+T101	B_span 3197 3205	PropBank
+T102	E_span 3222 3226	2005
+T103	B_span 2935 2942	SemEval
+T104	E_span 3032 3042	predicates

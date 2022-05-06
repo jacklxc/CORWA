@@ -1,0 +1,60 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 179 184	[BOS]
+T3	Transition 483 488	[BOS]
+T4	Transition 709 714	[BOS]
+T5	Transition 920 925	[BOS]
+T6	Transition 1100 1105	[BOS]
+T7	Transition 1252 1257	[BOS]
+T8	Transition 1434 1439	[BOS]
+T9	Transition 1504 1509	[BOS]
+T10	Single_summ 1733 1738	[BOS]
+T11	Single_summ 2039 2044	[BOS]
+T12	Single_summ 2391 2396	[BOS]
+T13	Transition 2478 2483	[BOS]
+T14	Single_summ 2587 2592	[BOS]
+T15	Transition 2743 2748	[BOS]
+T16	Transition 2987 2992	[BOS]
+T17	Single_summ 3195 3200	[BOS]
+T18	Single_summ 3335 3340	[BOS]
+T19	Single_summ 3571 3576	[BOS]
+T20	Single_summ 3743 3748	[BOS]
+T21	Single_summ 3853 3858	[BOS]
+T22	Transition 4056 4061	[BOS]
+T23	Single_summ 4167 4172	[BOS]
+T24	Single_summ 4323 4328	[BOS]
+T25	Dominant 164 176	Chang (1995)
+T26	Dominant 1739 1773	Chang, Chen, Tseng, & Zheng (2013)
+T27	Dominant 2045 2065	Wang and Liao (2014)
+T28	Dominant 2593 2613	Han and Chang (2013)
+T29	Dominant 3201 3220	Xiong et al. (2014)
+T30	Dominant 3749 3773	Gu, Wang, & Liang (2014)
+T31	Dominant 4186 4215	Xin, Zhao, Wang, & Jia (2014)
+T32	Pronoun 185 189	This
+T33	Pronoun 273 275	it
+T34	Pronoun 314 316	it
+T35	Pronoun 1419 1423	this
+T36	Pronoun 1440 1445	These
+T37	Pronoun 2406 2410	they
+T38	Pronoun 2779 2783	this
+T39	Pronoun 2941 2943	it
+T40	Pronoun 3075 3077	it
+T41	Pronoun 3091 3093	it
+T42	Pronoun 3341 3345	This
+T43	Pronoun 3623 3627	this
+T44	Pronoun 3786 3791	their
+T45	Pronoun 3841 3843	it
+T46	Pronoun 3864 3866	it
+T47	B_span 6 14	Proposed
+T48	E_span 471 481	characters
+T49	B_span 1739 1744	Chang
+T50	E_span 2032 2037	model
+T51	B_span 2045 2049	Wang
+T52	E_span 2464 2475	replacement
+T53	B_span 2593 2596	Han
+T54	E_span 2731 2741	characters
+T55	B_span 3201 3206	Xiong
+T56	E_span 3736 3741	words
+T57	B_span 3749 3751	Gu
+T58	E_span 4047 4053	system
+T59	B_span 4173 4176	For
+T60	E_span 4508 4519	corrections

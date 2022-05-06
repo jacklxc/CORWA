@@ -1,0 +1,9 @@
+[BOS] Available Representations In supervised distributional methods, a pair of words (x, y) is represented as some combination of the word embeddings of x and y, most commonly Concat v x  v y (Baroni et al., 2012) or Diff v y  v x (Weeds et al., 2014; Fu et al., 2014) .
+
+[BOS] Limitations Recent work questioned whether supervised distributional methods actually learn the relation between x and y or only separate properties of each word.
+[BOS] Levy et al. (2015) claimed that they tend to perform "lexical memorization", i.e., memorizing that some words are prototypical to certain relations (e.g., that y = animal is a hypernym, regardless of x).
+[BOS] Roller and Erk (2016) found that under certain conditions, these methods actively learn to infer hypernyms based on separate occurrences of x and y in Hearst patterns (Hearst, 1992) .
+[BOS] In either case, they only learn whether x and y independently match their corresponding slots in the relation, a limitation which makes them sensitive to the training data (Shwartz et al., 2017; Sanchez and Riedel, 2017) .
+[BOS] Levy et al. (2015) claimed that the linear nature of most supervised methods limits their ability to capture the relation between words.
+[BOS] They suggested that using support vector machine (SVM) with non-linear kernels slightly mitigates this issue, and proposed KSIM, a custom kernel with multiplicative integration.
+

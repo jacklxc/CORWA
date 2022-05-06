@@ -1,0 +1,26 @@
+[BOS] Deterministic shift-reduce parsers are restricted by a strict left-to-right processing order.
+[BOS] Such parsers can rely on rich syntactic information on the left, but not on the right, of the decision point.
+[BOS] They are forced to commit early, and suffer from error propagation.
+[BOS] Our non-directional parser addresses these deficiencies by discarding the strict left-to-right processing order, and attempting to make easier decisions before harder ones.
+[BOS] Other methods of dealing with these deficiencies were proposed over the years: Several Passes Yamada and Matsumoto's (2003) pioneering work introduces a shift-reduce parser which makes several left-to-right passes over a sentence.
+[BOS] Each pass adds structure, which can then be used in subsequent passes.
+[BOS] Sagae and Lavie (2006b) extend this model to alternate between left-to-right and right-to-left passes.
+[BOS] This model is similar to ours, in that it attempts to defer harder decisions to later passes over the sentence, and allows late decisions to make use of rich syntactic information (built in earlier passes) on both sides of the decision point.
+[BOS] However, the model is not explicitly trained to optimize attachment ordering, has an O(n 2 ) runtime complexity, and produces results which are inferior to current single-pass shift-reduce parsers.
+[BOS] Beam Search Several researchers dealt with the early-commitment and error propagation of deterministic parsers by extending the greedy decisions with various flavors of beam-search (Sagae and Lavie, 2006a; Zhang and Clark, 2008; Titov and Henderson, 2007) .
+[BOS] This approach works well and produces highly competitive results.
+[BOS] Beam search can be incorporated into our parser as well.
+[BOS] We leave this investigation to future work.
+
+[BOS] Strict left-to-right ordering is also prevalent in sequence tagging.
+[BOS] Indeed, one major influence on our work is Shen et.al.
+[BOS] 's bi-directional POS-tagging algorithm (Shen et al., 2007) , which combines a perceptron learning procedure similar to our own with beam search to produce a state-of-the-art POStagger, which does not rely on left-to-right processing.
+[BOS] Shen and Joshi (2008) extends the bidirectional tagging algorithm to LTAG parsing, with good results.
+[BOS] We build on top of that work and present a concrete and efficient greedy non-directional dependency parsing algorithm.
+[BOS] Eisner and Smith (2005) propose to improve the efficiency of a globally optimized parser by posing hard constraints on the lengths of arcs it can produce.
+[BOS] Such constraints pose an explicit upper bound on parser accuracy.
+[BOS] 10 Our parsing model does not pose such restrictions.
+[BOS] Shorter edges are arguably easier to predict, and our parses builds them early in time.
+[BOS] However, it is also capable of producing long dependencies at later stages in the parsing process.
+[BOS] Indeed, the distribution of arc lengths produced by our parser is similar to those produced by the MALT and MST parsers.
+

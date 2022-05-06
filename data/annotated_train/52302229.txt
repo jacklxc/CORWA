@@ -1,0 +1,22 @@
+[BOS] Our work fits into the context of the very active area of end-to-end generative conversation models, where neural E-D approaches have been first applied by Vinyals and Le (2015) and extended by many others since.
+[BOS] Many works address the lack of diversity and coherence in E-D outputs (Sountsov and Sarawagi, 2016; but do not attempt to model coherence directly, unlike our work: Li et al. (2016a) use anti-LM reranking; Li et al. (2016c) modify the beam search decoding algorithm, similar to Shao et al. (2017) in addition to using a self-attention model.
+[BOS] Mou et al. (2016) predict keywords for the output in a preprocessing step while Wu et al. (2018) preselect a vocabulary subset to be used for decoding.
+[BOS] Li et al. (2016b) focus specifically on personality generation (using personality embeddings) and promote topic-specific outputs by language-model rescoring and sampling.
+
+[BOS] A lot of recent works explore the use of additional training signals and VAE setups in dialogue generation.
+[BOS] In contrast to this paper, they do not focus explicitly on coherence: Asghar et al. (2017) use reinforcement learning with human-provided feedback, Li et al. (2017a) use a RL scenario with length as reward signal.
+[BOS] Li et al. (2017b) add an adversarial discriminator to provide RL rewards (discriminating between human and machine outputs), Xu et al. (2017) use a full adversarial training setup.
+[BOS] The most recent works explore the usage of VAEs: Cao and Clark (2017) explore a vanilla VAE setup conditioned on dual encoder (for contexts and responses) during training, the model of Serban et al. (2017) uses a VAE in a hierarchical E-D model.
+[BOS] Shen et al. (2017) use a cVAE conditioned on sentiment and response genericity (based on a handwritten list of phrases).
+[BOS] Shen et al. (2018) combine a cVAE with a plain VAE in an adversarial fashion.
+
+[BOS] We also draw on ideas from other areas than dialogue generation to build our models: Tu et al. (2017) 's context gates originate from machine translation and Hu et al. (2017) 's cVAE training stems from free-text generation.
+
+[BOS] We showed that explicitly modeling coherence and optimizing towards coherence and diversity leads to better-quality outputs in dialogue response generation.
+[BOS] We introduced three extensions to current encoder-decoder response generation models: (1) we defined a measure of coherence based on GloVe embeddings (Pennington et al., 2014) , (2) we filtered the OpenSubtitles training corpus (Lison and Meena, 2016) based on this measure to obtain coherent and diverse training instances, (3) we trained a cVAE model based on (Hu et al., 2017) and (Tu et al., 2017 ) that uses our coherence measure as one of the training signals.
+[BOS] Our experimental results showed a considerable improvement in the output quality over competitive models, which demonstrates the effectiveness of our approach.
+
+[BOS] In future work, we plan to replace the GloVebased measure of coherence with a trained discriminator that distinguishes between coherent and incoherent responses (Li and Jurafsky, 2017 ).
+[BOS] This will allow us to use extend the notion of coherence to account for phenomena such as topic shifts.
+[BOS] We also plan to verify the results with a human evaluation study.
+

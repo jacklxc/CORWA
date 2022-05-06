@@ -1,0 +1,35 @@
+[BOS] Large amounts of monolingual corpora makes it very appealing to incorporate unsupervised methods into machine translation techniques, and in recent years this trend is becoming more and more prominent.
+[BOS] Cheng et al. (2016) and Sennrich et al. (2015) propose an approach of backtranslation, which is training two translation models: sourcetarget and targetsource, and then generating synthetic training dataset from monolingual corpora to improve the models.
+[BOS] In such a way we incorporate the dual nature of the translation problem.
+[BOS] Authors report significant improvement up to +3.7 BLEU on EnglishGerman pair on IWSLT'14 dataset (Sennrich et al., 2015) .
+[BOS] Glehre et al. (2015) show how one can improve their translation model by shallow or deep fusion of separately trained language model.
+[BOS] Let p(y t = k|x, y <t ) be a probability that t-th word of output sequence y is the k-th word of the vocabulary under some sequence-tosequence model.
+[BOS] Here x is the input sentence, y <t are previous t  1 tokens.
+[BOS] In shallow fusion we combine probabilities from target language model and translation model in the following way:
+
+[BOS] log p(y t = k|x, y <t ) = log p trans (y t = k|x, y <t ) +  log p trg (y t = k|y <t ), where hyperparameter  denotes how much influence language model has for the prediction.
+[BOS] In deep fusion authors just concatenate hidden states of the translation model and language model and fine-tune the whole thing, keeping parameters of the language model freeze.
+[BOS] Mikolov et al. (2013) used distributed representations of words to learn a linear mapping between vector spaces of languages and showed that this mapping can serve as a good dictionary between the languages.
+[BOS] They pick 5k most frequent words from the source language (x i )
+
+[BOS] and looked up their translations (y i ) 5000 i=1 via Google Translate.
+[BOS] Afterwards they used them to find a linear mapping W which minimizes 5000 i=1 W x i  y i .
+[BOS] This linear mapping W was later utilized as the translation mapping to generate a dictionary between two vocabularies and proved to be rather accurate, giving almost 90% top-5 precision.
+[BOS] Lample et al. (2017) extended the approach of (Mikolov et al., 2013) and trained a Generative Adversarial Network (GAN) model to find this mapping without any supervised signal whatsoever.
+[BOS] Generator was set to be this linear mapping, while discriminator should distinct between y and = W x.
+[BOS] This approach worked out: learning random bijection was impossible because of linearity and learning a bad linear mapping was impossible, because many source words would be mapped to nowhere, which is heavily penalized by discriminator.
+[BOS] Authors report 83.3% top-1 precision, which is a significant result for purely unsupervised approach.
+[BOS] Artetxe et al. (2017) built upon described methods to train translation model without any parallel corpora at all.
+[BOS] They trained a shared encoder which should encode sentences into the language-agnostic representations and then two separate decoders to reconstruct them into the desired language.
+[BOS] To make the encoding task non-trivial authors add noise to the input sentence: they randomly swap words, forcing encoder to learn internal structure of the sentence.
+[BOS] They also use backtranslation procedure to make model learn to translate.
+[BOS] This approach obtained 15.56 BLEU on Fr-En pair on WMT'14 dataset.
+[BOS] Artetxe et al. (2017) goes further and use adversarial loss to train their translation system.
+[BOS] They build a single shared encoder and a single shared decoder, using both denoising autoencoder loss and adversarial loss.
+[BOS] Corrupted version of the sentence is given to the encoder and its original form is reconstructed by the decoder.
+[BOS] Discriminator takes encoder's outputs and tries to guess which language was given to the encoder.
+[BOS] Backtranslation is also used to teach model to translate.
+[BOS] Such an approach shows striking performance, obtaining 32.8 BLEU on English-French pair of Multi30k-Task1 dataset.
+[BOS] Zoph et al. (2016) experimented with transferring different components of the translation model trained on a rich language pair (parent model) to a low-resource NMT system (child model).
+[BOS] Such a pretraining proved to be a very strong prior for the child model parameters and improved performance by an average of 5.6 BLEU.
+

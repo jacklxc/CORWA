@@ -1,0 +1,10 @@
+[BOS] Abstractive Text Summarization Recent model architectures for abstractive text summarization basically use the sequence-tosequence (Sutskever et al., 2014) framework in combination with various novel mechanisms.
+[BOS] One popular mechanism is attention (Bahdanau et al., 2015) , which has been shown helpful for summarization (Nallapati et al., 2016; Rush et al., 2015; .
+[BOS] It is also possible to directly optimize evaluation metrics such as ROUGE (Lin, Figure 1: Proposed model.
+[BOS] Given long text, the generator produces a shorter text as a summary.
+[BOS] The generator is learned by minimizing the reconstruction loss together with the reconstructor and making discriminator regard its output as humanwritten text.
+[BOS] 2004) with reinforcement learning (Ranzato et al., 2016; Paulus et al., 2017; Bahdanau et al., 2016) .
+[BOS] The hybrid pointer-generator network (See et al., 2017) selects words from the original text with a pointer (Vinyals et al., 2015) or from the whole vocabulary with a trained weight.
+[BOS] In order to eliminate repetition, a coverage vector (Tu et al., 2016) can be used to keep track of attended words, and coverage loss (See et al., 2017) can be used to encourage model focus on diverse words.
+[BOS] While most papers focus on supervised learning with novel mechanisms, in this paper, we explore unsupervised training models.
+

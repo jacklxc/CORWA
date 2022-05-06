@@ -1,0 +1,12 @@
+[BOS] Abstractive Summarization using AMR: In Liu et al. (2015) work, the source document's sentences were parsed into AMR graphs, which were then combined through merging, collapsing and graph expansion into a single AMR graph representing the source document.
+[BOS] Following this, a summary AMR graph was extracted, from which a bag of concept words was obtained without attempting to form fluent text.
+[BOS] Vilca and Cabezudo (2017) performed a summary AMR graph extraction augmented with discourse-level information and the PageRank (Page et al., 1998) algorithm.
+[BOS] For text generation, Vilca and Cabezudo (2017) used a rule-based syntactic realizer (Gatt and Reiter, 2009 ) which requires substantial human input to perform adequately.
+
+[BOS] Seq2seq using Side Information: In Neural Machine Translation (NMT) field, recent work (Zhang et al., 2018 ) explored modifications to the decoder of seq2seq models to improve translation results.
+[BOS] They used a search engine to retrieve sentences and their translation (referred to as translation pieces) that have high similarity with the source sentence.
+[BOS] When similar n-grams from a source document were found in the translation pieces, they rewarded the presence of those ngrams during the decoding process through a scoring mechanism calculating the similarity between source sentence and the source side of the translation pieces.
+[BOS] Zhang et al. (2018) reported improvements in translation results up to 6 BLEU points over their seq2seq NMT baseline.
+[BOS] In this paper we use the same principle and reward n-grams that are found in the source document during the AMRto-Text generation process.
+[BOS] However we use a simpler approach using a probabilistic language model in the scoring mechanism.
+

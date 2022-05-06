@@ -1,0 +1,28 @@
+[BOS] Beyond past work already discussed, we note a few additional important areas of research relevant to our work.
+
+[BOS] Neural models for text generation Natural language generation is a classic problem in artificial intelligence.
+[BOS] Recent use of RNNs (Sutskever et al., 2011) has reignited interest in this area.
+[BOS] Our work provides an additional way to address the wellknown drawback of RNNs: they use only limited context.
+[BOS] This has been noted as a serious problem in conversational modeling (Sordoni et al., 2015) and text generation with multiple sentences (Lau et al., 2017) .
+[BOS] Recent work on context-aware text generation (or the related task, language modeling) has studied the possibilities of using different granularity of context.
+[BOS] For example, in the scenario of response generation, Sordoni et al. (2015) showed a consistent gain by including one more utterance from context.
+[BOS] Similar effects are also observed by adding topical information for language modeling and generation (Lau et al., 2017) .
+
+[BOS] Choosing an appropriate entity and its mention has a big influence on the coherence of a text, as studied in Centering Theory (Grosz et al., 1995) .
+[BOS] Recently, the ENTI-TYNLM proposed by Ji et al. (2017) shows that adding entity related information can improve the performance of language modeling, which potentially provides a method for entity related text generation.
+[BOS] We build on ENTITYNLM, combining entity context with previous-sentence context, and demonstrate the importance of the latter in a coherence test ( 6).
+[BOS] The max pooling combination we propose is simple but effective.
+[BOS] Another line of related work on recipe generation included special treatment of entities as candidates in generating sentences, but not as context (Kiddon et al., 2016) .
+[BOS] Bosselut et al. (2018) also generated recipes, using neural process networks to track and update entity representations with the goal of modeling actions and their causal effects on entities.
+[BOS] However, the entity representations are frozen during generation, rather than dynamically updated.
+
+[BOS] Mention generation Our novel mention generation task is inspired by both referring expression generation (Dale and Reiter, 1995) and entity prediction (Modi et al., 2017) .
+[BOS] The major difference is that, unlike referring expression generation, our task includes all the mentions used for entities, including pronouns; we believe it is a more realistic test of a model's handling of entities.
+[BOS] Krahmer and Van Deemter (2012) give a comprehensive survey on early work of referring expression generation.
+
+[BOS] The mention only version of the mention generation task is related to cloze tests like the Children's Book Test (Hill et al., 2016) , the "Who-didWhat" Test (Onishi et al., 2016) , and the CNN and Daily Mail test described by Hermann et al. (2015) .
+[BOS] However, unlike these tests, we predict all entity mentions in the text and from a dynamically expanding candidate list, typically much larger than those in other cloze tests.
+
+[BOS] Story generation Work in story generation has incorporated structure and context through event representations (Martin et al., 2017) or semantic representations, like story graphs (Rishes et al., 2013; Elson and McKeown, 2009) .
+[BOS] In this work, we provide evidence for the value of entity representations as an additional form of structure, following work by Walker et al. (2011), Cavazza and Charles (2005) , and Cavazza et al. (2002) .
+

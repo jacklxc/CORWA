@@ -1,0 +1,43 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 220 225	[BOS]
+T3	Single_summ 379 384	[BOS]
+T4	Single_summ 663 668	[BOS]
+T5	Single_summ 875 880	[BOS]
+T6	Multi_summ 1041 1046	[BOS]
+T7	Single_summ 1381 1386	[BOS]
+T8	Single_summ 1560 1565	[BOS]
+T9	Single_summ 1780 1785	[BOS]
+T10	Single_summ 1998 2003	[BOS]
+T11	Reflection 2129 2134	[BOS]
+T12	Reference 196 215	(McRae et al., 2005
+T13	Dominant 398 422	Rubinstein et al. (2015)
+T14	Dominant 680 709	Sommerauer and Fokkens (2018)
+T15	Dominant 881 905	Collell and Moens (2016)
+T16	Reference 1335 1357	(Li and Gauthier, 2017
+T17	Reference 1359 1378	Kelly et al., 2014)
+T18	Dominant 1414 1429	Silberer (2017)
+T19	Dominant 1581 1600	Derby et al. (2018)
+T20	Dominant 1840 1863	Fagarasan et al. (2015)
+T21	Dominant 2043 2069	Li and Summers-Stay (2019)
+T22	Pronoun 310 315	their
+T23	Pronoun 975 980	their
+T24	Pronoun 1235 1239	this
+T25	Pronoun 1400 1405	these
+T26	B_span 179 186	lexical
+T27	E_span 211 215	2005
+T28	B_span 398 408	Rubinstein
+T29	E_span 655 660	fruit
+T30	B_span 680 690	Sommerauer
+T31	E_span 862 873	classifiers
+T32	B_span 881 888	Collell
+T33	E_span 1030 1039	knowledge
+T34	B_span 1297 1308	statistical
+T35	E_span 1373 1377	2014
+T36	B_span 1414 1422	Silberer
+T37	E_span 1548 1558	attributes
+T38	B_span 1581 1586	Derby
+T39	E_span 1763 1778	representations
+T40	B_span 1786 1793	Finally
+T41	E_span 1986 1996	properties
+T42	B_span 2004 2014	Concurrent
+T43	E_span 2120 2127	network

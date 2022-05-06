@@ -1,0 +1,50 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 134 139	[BOS]
+T3	Narrative_cite 284 289	[BOS]
+T4	Narrative_cite 538 543	[BOS]
+T5	Narrative_cite 734 739	[BOS]
+T6	Transition 912 917	[BOS]
+T7	Narrative_cite 974 979	[BOS]
+T8	Single_summ 1220 1225	[BOS]
+T9	Single_summ 1378 1383	[BOS]
+T10	Transition 1531 1536	[BOS]
+T11	Single_summ 1661 1666	[BOS]
+T12	Single_summ 1922 1927	[BOS]
+T13	Reflection 2132 2137	[BOS]
+T14	Transition 2234 2239	[BOS]
+T15	Reflection 2455 2460	[BOS]
+T16	Reflection 2588 2593	[BOS]
+T17	B_span 348 352	high
+T18	E_span 529 533	2018
+T19	Reference 386 405	Chopra et al., 2016
+T20	Reference 407 424	Rush et al., 2015
+T21	Reference 426 449	Khandelwal et al., 2019
+T22	Reference 451 468	Zhang et al., 201
+T23	Reference 471 487	See et al., 2017
+T24	Reference 489 510	Chen and Bansal, 2018
+T25	Reference 512 533	Gehrmann et al., 2018
+T26	B_span 637 641	news
+T27	E_span 667 671	2016
+T28	B_span 678 688	scientific
+T29	E_span 725 729	2018
+T30	Reference 649 672	Nallapati et al. (2016)
+T31	Reference 709 730	Nikolov et al. (2018)
+T32	B_span 848 851	CNN
+T33	E_span 904 908	2016
+T34	Reference 864 884	Hermann et al., 2015
+T35	Reference 886 908	Nallapati et al., 2016
+T36	B_span 1101 1104	AMI
+T37	E_span 1212 1216	2018
+T38	Reference 1121 1141	McCowan et al., 2005
+T39	Reference 1150 1172	Banerjee et al. (2015)
+T40	Reference 1175 1195	Mehdad et al. (2014)
+T41	Reference 1198 1216	Goo and Chen (2018
+T42	B_span 1294 1297	Goo
+T43	E_span 1521 1529	chitchat
+T44	Dominant 1294 1313	Goo and Chen (2018)
+T45	Dominant 1703 1730	Ganesh and Dingliwal (2019)
+T46	B_span 1703 1709	Ganesh
+T47	E_span 2120 2129	dialogues
+T48	B_span 2026 2039	Argumentative
+T49	E_span 2079 2083	2015
+T50	Reference 2065 2083	Misra et al., 2015

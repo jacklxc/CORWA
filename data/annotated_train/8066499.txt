@@ -1,0 +1,9 @@
+[BOS] Alignment-based Parsing Flanigan et al. (2014) (JAMR) pipeline concept and relation identification with a graph-based algorithm.
+[BOS] extend JAMR by performing the concept and relation identification tasks jointly with an incremental model.
+[BOS] Both systems rely on features based on a set of alignments produced using bi-lexical cues and hand-written rules.
+[BOS] In contrast, our models train directly on parallel corpora, and make only minimal use of alignments to anonymize named entities.
+[BOS] (CAMR) perform a series of shift-reduce transformations on the output of an externally-trained dependency parser, similar to Damonte et al. (2017) , Brandt et al. (2016) , Puzikov et al. (2016) , and Goodman et al. (2016) .
+[BOS] Artzi et al. (2015) use a grammar induction approach with Combinatory Categorical Grammar (CCG), which relies on pretrained CCGBank categories, like Bjerva et al. (2016) .
+[BOS] Pust et al. (2015) recast parsing as a string-to-tree Machine Translation problem, using unsupervised alignments (Pourdamghani et al., 2014) , and employing several external semantic resources.
+[BOS] Our neural approach is engineering lean, relying only on a large unannotated corpus of English and algorithms to find and canonicalize named entities.
+

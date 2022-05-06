@@ -1,0 +1,33 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 135 140	[BOS]
+T3	Narrative_cite 320 325	[BOS]
+T4	Transition 691 696	[BOS]
+T5	Reflection 793 798	[BOS]
+T6	Reflection 960 965	[BOS]
+T7	Reference 193 213	(Brooke et al., 2016
+T8	Reference 215 240	Davoodi and Kosseim, 2016
+T9	Reference 242 264	Mukherjee et al., 2016
+T10	Reference 266 287	Ronzano et al., 2016)
+T11	Reference 337 349	(Wrbel, 2016
+T12	Reference 351 377	Paetzold and Specia, 2016b
+T13	Reference 379 399	Ronzano et al., 2016
+T14	Reference 401 428	Palakurthi and Mamidi, 2016
+T15	Reference 430 454	Quijada and Medero, 2016
+T16	Reference 456 469	Konkol, 2016)
+T17	Reference 484 496	(Wrbel, 2016
+T18	Reference 498 524	Paetzold and Specia, 2016b
+T19	Reference 526 545	Brooke et al., 2016
+T20	Reference 547 567	Ronzano et al., 2016
+T21	Reference 569 596	Palakurthi and Mamidi, 2016
+T22	Reference 598 622	Quijada and Medero, 2016
+T23	Reference 624 636	Konkol, 2016
+T24	Reference 638 651	Kauchak, 2016
+T25	Pronoun 100 104	they
+T26	Pronoun 697 702	These
+T27	Pronoun 776 781	their
+T28	B_span 141 143	In
+T29	E_span 282 286	2016
+T30	B_span 330 336	length
+T31	E_span 464 468	2016
+T32	B_span 474 483	frequency
+T33	E_span 647 651	2016

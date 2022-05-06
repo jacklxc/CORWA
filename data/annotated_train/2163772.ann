@@ -1,0 +1,35 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 220 225	[BOS]
+T3	Narrative_cite 449 454	[BOS]
+T4	Single_summ 591 596	[BOS]
+T5	Reflection 723 728	[BOS]
+T6	Reflection 776 781	[BOS]
+T7	Transition 1005 1010	[BOS]
+T8	Transition 1205 1210	[BOS]
+T9	Narrative_cite 1340 1345	[BOS]
+T10	Reflection 1507 1512	[BOS]
+T11	Reflection 1639 1644	[BOS]
+T12	Transition 1754 1759	[BOS]
+T13	Transition 1838 1843	[BOS]
+T14	Reflection 1912 1917	[BOS]
+T15	Reference 109 130	(Agirre et al., 2012)
+T16	Reference 190 217	(Ganitkevitch et al., 2013)
+T17	Reference 547 569	(Yarowsky et al., 2001
+T18	Reference 571 588	Agi et al., 2015)
+T19	Dominant 611 634	Johannsen et al. (2016)
+T20	Reference 1377 1397	(Zhang et al., 2016)
+T21	Reference 1413 1434	(Moritz et al., 2016)
+T22	Pronoun 1491 1496	their
+T23	Pronoun 1701 1703	it
+T24	B_span 81 89	semantic
+T25	E_span 125 129	2012
+T26	B_span 133 138	there
+T27	E_span 212 216	2013
+T28	B_span 497 500	key
+T29	E_span 583 587	2015
+T30	B_span 597 609	Specifically
+T31	E_span 713 721	language
+T32	B_span 1346 1353	Current
+T33	E_span 1392 1396	2016
+T34	B_span 1402 1412	authorship
+T35	E_span 1429 1433	2016

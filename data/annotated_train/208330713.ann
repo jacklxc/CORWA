@@ -1,0 +1,61 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 161 166	[BOS]
+T3	Reflection 376 381	[BOS]
+T4	Narrative_cite 663 668	[BOS]
+T5	Reflection 941 946	[BOS]
+T6	Narrative_cite 1090 1095	[BOS]
+T7	Reflection 1504 1509	[BOS]
+T8	Reflection 1698 1703	[BOS]
+T9	Reflection 1817 1822	[BOS]
+T10	Narrative_cite 1984 1989	[BOS]
+T11	Transition 2147 2152	[BOS]
+T12	Narrative_cite 2259 2264	[BOS]
+T13	Reflection 2687 2692	[BOS]
+T14	Reference 231 254	(Eriguchi et al., 2016)
+T15	Reference 274 297	(Bastings et al., 2017)
+T16	Reference 816 834	(Wang et al., 2017
+T17	Reference 836 857	Nguyen and Joty, 2018
+T18	Reference 859 876	Li et al., 2019b)
+T19	Reference 900 920	(Yang et al., , 2019
+T20	Reference 1330 1352	(Yin and Schtze, 2015)
+T21	Reference 1387 1405	(Yin et al., 2016)
+T22	Reference 1460 1482	(Nguyen and Joty, 2018
+T23	Reference 1484 1501	Li et al., 2019b)
+T24	Reference 1552 1574	Nguyen and Joty (2018)
+T25	Reference 1576 1593	Li et al. (2019b)
+T26	Reference 2093 2115	(Vaswani et al., 2017)
+T27	Reference 2444 2460	(Li et al., 2018
+T28	Reference 2462 2479	Tao et al., 2018)
+T29	Reference 2506 2524	(Li et al., 2019a)
+T30	Reference 2557 2575	(Fan et al., 2019)
+T31	Reference 2661 2684	(Strubell et al., 2018)
+T32	Pronoun 414 419	these
+T33	Pronoun 436 440	they
+T34	Pronoun 515 517	it
+T35	B_span 214 225	constituent
+T36	E_span 249 253	2016
+T37	B_span 258 268	dependency
+T38	E_span 292 296	2017
+T39	B_span 791 799	external
+T40	E_span 870 875	2019b
+T41	B_span 879 884	prior
+T42	E_span 933 937	2019
+T43	Reference 921 937	Guo et al., 2019
+T44	B_span 1304 1314	paraphrase
+T45	E_span 1347 1351	2015
+T46	B_span 1355 1362	Chinese
+T47	E_span 1400 1404	2016
+T48	B_span 1408 1417	universal
+T49	E_span 1495 1500	2019b
+T50	B_span 1552 1558	Nguyen
+T51	E_span 1682 1696	representation
+T52	B_span 2073 2080	machine
+T53	E_span 2110 2114	2017
+T54	B_span 2416 2428	disagreement
+T55	E_span 2474 2478	2018
+T56	B_span 2482 2493	information
+T57	E_span 2518 2523	2019a
+T58	B_span 2531 2541	functional
+T59	E_span 2570 2574	2019
+T60	B_span 2615 2620	multi
+T61	E_span 2679 2683	2018

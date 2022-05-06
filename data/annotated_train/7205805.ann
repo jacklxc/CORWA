@@ -1,0 +1,43 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 149 154	[BOS]
+T3	Narrative_cite 236 241	[BOS]
+T4	Narrative_cite 557 562	[BOS]
+T5	Narrative_cite 778 783	[BOS]
+T6	Reflection 1000 1005	[BOS]
+T7	Reflection 1199 1204	[BOS]
+T8	Reflection 1294 1299	[BOS]
+T9	Reflection 1533 1538	[BOS]
+T10	Reflection 1747 1752	[BOS]
+T11	Reference 107 127	(Letham et al., 2015
+T12	Reference 129 146	Kim et al., 2015)
+T13	Reference 314 342	(Hermans and Schrauwen, 2013
+T14	Reference 344 365	Karpathy et al., 2015
+T15	Reference 412 435	(Faruqui et al., 2015b)
+T16	Reference 503 525	(Faruqui et al., 2015a
+T17	Reference 527 553	Herbelot and Vecchi, 2015)
+T18	Reference 644 666	(Bahdanau et al., 2015
+T19	Reference 668 686	Cheng et al., 2016
+T20	Reference 688 715	Martins and Astudillo, 2016
+T21	Reference 717 734	Chen et al., 2015
+T22	Reference 736 755	Xu and Saenko, 2015
+T23	Reference 757 775	Yang et al., 2015)
+T24	Reference 930 948	(Rush et al., 2015
+T25	Reference 950 973	Rocktschel et al., 2016
+T26	Reference 975 996	Hermann et al., 2015)
+T27	Reference 1605 1626	(Zaidan et al., 2007)
+T28	B_span 80 87	broader
+T29	E_span 141 145	2015
+T30	B_span 271 280	analyzing
+T31	E_span 361 365	2015
+T32	B_span 369 377	learning
+T33	E_span 429 434	2015b
+T34	B_span 442 449	linking
+T37	E_span 548 552	2015
+T39	B_span 630 636	neural
+T41	E_span 774 775	)
+T42	B_span 864 874	prediction
+T45	E_span 995 996	)
+T46	B_span 1574 1583	rationale
+T47	E_span 1625 1626	)
+T48	Pronoun 253 257	this
+T49	Pronoun 926 928	it

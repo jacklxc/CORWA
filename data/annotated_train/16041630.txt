@@ -1,0 +1,20 @@
+[BOS] Distributional Semantic Models (DSMs) measure the semantic similarity between words with proximity in distributional space.
+[BOS] However, semantically similar words in turn differ for the type of relation holding between them: e.g., dog is strongly similar to both animal and cat, but with different types of relations.
+[BOS] Current DSMs accounts for these facts only partially.
+[BOS] While they may correctly place both animal and cat among the nearest distributional neighbors of dog, they are not able to characterize the different semantic properties of these relations, for instance the fact that hypernymy is an asymmetric semantic relation, since being a dog entails being an animal, but not the other way round.
+
+[BOS] The purpose of this paper is to explore the possibility of identifying hypernyms in DSMs with directional (or asymmetric) similarity measures (Kotlerman et al., 2010) .
+[BOS] These measures all rely on some variation of the Distributional Inclusion Hypothesis, according to which if u is a semantically narrower term than v, then a significant number of salient distributional features of u is included in the feature vector of v as well.
+[BOS] Since hypernymy is an asymmetric relation and hypernyms are semantically broader terms than their hyponyms, then we can predict that directional similarity measures are better suited to identify terms related by the hypernymy relation.
+
+[BOS] Automatic identification of hypernyms in corpora is a long-standing research line, but most methods have adopted semi-supervised, pattern-based approaches (Hearst, 1992; Pantel and Pennacchiotti, 2006) .
+[BOS] Fully unsupervised hypernym identification with DSMs is still a largely open field.
+[BOS] Various models to represent hypernyms in vector spaces have recently been proposed (Weeds and Weir, 2003; Weeds et al., 2004; Clarke, 2009) , usually grounded on the Distributional Inclusion Hypothesis (for a different approach based on representing word meaning as "regions" in vector space, see Erk (2009a; 2009b) ).
+[BOS] The same hypothesis has been adopted by Kotlerman et al. (2010) to identify (substitutable) lexical entailments" .
+[BOS] Within the context of the Textual Entailment (TE) paradigm, Zhitomirsky-Geffet and Dagan (2005; 2009) define (substitutable) lexical entailment as a relation holding between two words, if there are some contexts in which one of the words can be substituted by the other and the meaning of the original word can be inferred from the new one.
+[BOS] Its relevance for TE notwithstanding, this notion of lexical entailment is more general and looser than hypernymy.
+[BOS] In fact, it encompasses several standard semantic relations such as synonymy, hypernymy, metonymy, some cases of meronymy, etc.
+
+[BOS] Differently from Kotlerman et al. (2010) , here we focus on applying directional, asymmetric similarity measures to identify hypernyms.
+[BOS] We assume the classical definition of a hypernymy, such that Y is an hypernym of X if and only if X is a kind of Y , or equivalently every X is a Y .
+

@@ -1,0 +1,14 @@
+[BOS] MMT was so far solved only within the RNNbased architectures.
+[BOS] Elliott et al. (2015) report significant improvements with a non-attentive model.
+[BOS] With attentive models (Bahdanau et al., 2014) , the additional visual information usually did not improve the models significantly (Caglayan et al., 2016; in terms of BLEU score.
+[BOS] Our models slightly outperform these models in the single model setup.
+
+[BOS] Except for using the image features direct input to the model, they can be used as an auxiliary objective (Elliott and Kdr, 2017) .
+[BOS] In this setup, the visually grounded representation, improves the MMT significantly, achieving similar results that our models achieved using only the Multi30k dataset.
+
+[BOS] To our knowledge, multi-source MT has also been studied only using the RNN-based models.
+[BOS] Dabre et al. (2017) use simple concatenation of source sentences in various languages and process them with a single multilingual encoder.
+[BOS] Zoph and Knight (2016) try context concatenation and hierarchical gating method for combining context vectors in attention models with multiple inputs encoded by separate encoders.
+[BOS] In all of their experiments, the multi-source methods significantly surpass the single-source baseline.
+[BOS] Nishimura et al. (2018) extend the former approach for situations when of the source languages is missing, so that the translation system does not overly rely on a single source language like some of the models presented in this work.
+

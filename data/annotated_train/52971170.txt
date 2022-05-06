@@ -1,0 +1,39 @@
+[BOS] The common approach to learning cross embedding space mapping functions is: first monolingual word embeddings for each language are trained independently; and second, a mapping function is learned, using supervised or unsupervised methods.
+[BOS] The resulting mapping function enables translating words from the source to the target language.
+
+[BOS] Map Induction Methods.
+[BOS] The earliest and simplest approach is to use a regularized least squares loss to induce a linear map M as follows:
+
+[BOS] here X and Y are matrices that contain word embedding vectors for the source and target language (Mikolov et al., 2013a; Dinu et al., 2014; Vulic and Korhonen, 2016) .
+[BOS] Improved results were obtained by imposing an orthogonality constraint on M (Xing et al., 2015; Smith et al., 2017) .
+[BOS] Another loss function used in prior work is the max-margin loss, which has been shown to significantly outperform the least squares loss (Lazaridou et al., 2015; Nakashole and Flauger, 2017) .
+[BOS] Another approach is to use canonical correlation analysis (CCA) to map two languages to a shared embedding space (Haghighi et al., 2008; Faruqui and Dyer, 2014; Lu et al., 2015; Ammar et al., 2016) .
+
+[BOS] Most of the prior methods can be characterized as a series of linear transformations.
+[BOS] In particular, (Artetxe et al., 2018a) propose a framework to differentiate prior methods in terms of which transformations they perform: embedding normalization, whitening, re-weighting, de-whitening, and dimensionality reduction.
+
+[BOS] Work on phrase translation proposed to induce many local maps that are individually trained (Zhao et al., 2015) on local neighborhoods.
+[BOS] In contrast, our approach trains a single function while taking into account neighborhood sensitivity.
+[BOS] Our underlying motivation of neighborhood sensitivity is similar in spirit to the use of locally linear embeddings for nonlinear dimensionality reduction (Roweis and Saul, 2000) .
+
+[BOS] Forms of Supervision.
+[BOS] The methods we have described so far fall under supervised learning.
+[BOS] In the supervised setting, a seed dictionary (5k word pairs is a typical size) is used to induce the mapping function.
+[BOS] In (Artetxe et al., 2017) a semi-supervised approach is explored, whereby the method alternates between learning the map and generating an increasingly large dictionary.
+[BOS] Completely unsupervised methods have recently been proposed using adversarial training (Barone, 2016; Zhang et al., 2017; Conneau et al., 2018) .
+[BOS] However, the underlying methods for learning the mapping function are similar to prior work such as (Xing et al., 2015) .
+[BOS] The limitations and strengths of unsupervised methods are detailed in (Sgaard et al., 2018) Although in our our experiments we work in the supervised setting, NORMA can work with any form of supervision.
+
+[BOS] Translation Retrieval Methods.
+[BOS] The most commonly used way to obtain a translation t of a source language word s is nearest neighbor retrieval, given by: t = arg max t cos(Mx s , y t ).
+[BOS] Alternative retrieval methods have been proposed, such as the inverted nearest neighbor retrieval (Dinu et al., 2014) , inverted softmax (Smith et al., 2017) and Cross-Domain Similarity Local Scaling (CSLS) (Conneau et al., 2018) .
+[BOS] Since we are interested in evaluating the quality of mapping functions, our experiments use standard nearest neighbor retrieval for all methods.
+
+[BOS] We show experiments on English to related languages in the last three columns of Table 1 .
+[BOS] On these languages, indeed the most recently proposed methods (Artetxe et al., 2018a; Conneau et al., 2018) produce the best performing maps.
+[BOS] However, NORMA-Linear is only 2-3 points behind these methods.
+[BOS] This in contrast to English to Chinese where both (Artetxe et al., 2018a) and (Conneau et al., 2018) are behind NORMA -Linear, by more than 10 points.
+
+[BOS] A promising line of future work is to get NORMA-Linear to bridge the 2-3 point gap on related languages by exploring a best of both worlds approach, combining neighborhood sensitivity with the methods that achieve superior performance on nearby languages.
+[BOS] Table 3 : Performance for en-pt on rare words (RARE), and the en-pt MUSE dataset, which as shown in Figure  3 contains a lot of frequent words.
+

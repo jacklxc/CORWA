@@ -1,0 +1,32 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 68 73	[BOS]
+T3	Transition 149 154	[BOS]
+T4	Other 276 281	[BOS]
+T5	Transition 436 441	[BOS]
+T6	Other 569 574	[BOS]
+T7	Transition 657 662	[BOS]
+T8	Transition 744 749	[BOS]
+T9	Transition 882 887	[BOS]
+T10	Transition 1074 1079	[BOS]
+T11	Narrative_cite 1161 1166	[BOS]
+T12	Reference 47 65	(Xie et al., 2014)
+T13	Reference 1293 1311	(Liu et al., 2007)
+T14	Reference 1332 1352	(Zhang et al., 2006)
+T15	Reference 1380 1397	(Mi et al., 2008)
+T16	Reference 1422 1442	(Zhang et al., 2011)
+T17	Pronoun 133 138	these
+T18	Pronoun 161 165	They
+T19	Pronoun 501 505	they
+T20	Pronoun 663 667	This
+T21	Pronoun 853 857	this
+T22	Pronoun 915 919	they
+T23	B_span 6 9	The
+T24	E_span 60 64	2014
+T25	B_span 1257 1261	tree
+T26	E_span 1306 1310	2007
+T27	B_span 1314 1318	tree
+T28	E_span 1347 1351	2006
+T29	B_span 1355 1361	forest
+T30	E_span 1392 1396	2008
+T31	B_span 1402 1407	fuzzy
+T32	E_span 1441 1442	)

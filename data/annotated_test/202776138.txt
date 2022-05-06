@@ -1,0 +1,27 @@
+[BOS] Our work is obviously related to the research on transferring the out-of-domain translation knowledge into the in-domain NMT model.
+[BOS] In this aspect, fine-tuning (Luong and Manning, 2015; Zoph et al., 2016; Servan et al., 2016) is the most popular approach, where the NMT model is first trained using the out-of-domain training corpus, and then fine-tuned on the in-domain training corpus.
+[BOS] To avoid overfitting, Chu et al. (2017) blended in-domain with out-of-domain corpora to fine-tune the pre-trained model, and Freitag and Al-Onaizan (2016) combined the fine-tuned model with the baseline via ensemble method.
+[BOS] Meanwhile, applying data weighting into NMT domain adaptation has attracted much attention.
+[BOS] Wang et al. (2017a) and Wang et al. (2017b) proposed several sentence and domain weighting methods with a dynamic weight learning strategy.
+[BOS] Zhang et al. (2019a) ranked unlabeled domain training samples based on their similarity to in-domain data, and then adopts a probabilistic curriculum learning strategy during training.
+[BOS] applied the sentence-level cost weighting to refine the training of NMT model.
+[BOS] Recently, Vilar (2018) introduced a weight to each hidden unit of out-of-domain model.
+[BOS] Chu and Wang (2018) gave a comprehensive survey of the dominant domain adaptation techniques for NMT.
+[BOS] Gu et al. (2019) not only maintained a private encoder and a private decoder for each domain, but also introduced a common encoder and a common decoder shared by all domains.
+
+[BOS] Significantly different from the above methods, along with the studies of dual learning for NMT (He et al., 2016; Zhang et al., 2019b) , we iteratively perform bidirectional translation knowledge transfer between in-domain and out-of-domain training corpora.
+[BOS] To the best of our knowledge, our work is the first attempt to explore such a dual learning based framework for NMT domain adaptation.
+[BOS] Furthermore, we extend our framework to the scenario of multiple out-of-domain corpora.
+[BOS] Particularly, we introduce knowledge distillation into the domain adaptation for NMT and experimental results demonstrate its effectiveness, echoing its successful applications on many tasks, such as speech recognition (Hinton et al., 2015) and natural language processing (Kim and Rush, 2016; Tan et al., 2019) .
+
+[BOS] Besides, our work is also related to the studies Algorithm 1 Iterative Dual Domain Adaptation for NMT
+
+[BOS] end if 14: end for of multi-domain NMT, which focus on building a unified NMT model trained on the mixed-domain training corpus for translation tasks in all domains (Kobus et al., 2016; Tars and Fishel, 2018; Farajian et al., 2017; Pryzant et al., 2017; Sajjad et al., 2017; Bapna and Firat, 2019) .
+[BOS] Although our framework is also able to refine outof-domain NMT model, it is still significantly different from multi-domain NMT, since only the performance of in-domain NMT model is considered.
+
+[BOS] Finally, note that similar to our work, Tan et al. (2019) introduced knowledge distillation into multilingual NMT.
+[BOS] However, our work is still different from (Tan et al., 2019) in the following aspects:
+
+[BOS] (1) Tan et al. (2019) mainly focused on constructing a unified NMT model for multi-lingual translation task, while we aim at how to effectively transfer out-of-domain translation knowledge to indomain NMT model; (2) Our translation knowledge transfer is bidirectional, while the procedure of knowledge distillation in (Tan et al., 2019 ) is unidirectional; (3) When using knowledge distil-lation under our framework, we iteratively update teacher models for better domain adaptation.
+[BOS] In contrast, all language-specific teacher NMT models in (Tan et al., 2019) remain fixed.
+

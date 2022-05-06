@@ -1,0 +1,17 @@
+[BOS] For statistical MT (SMT), active learning is well explored, e.g. see , where several heuristics for query sentence selection have been proposed, including the entropy over the potential translations (uncertainty sampling), query by committee, and a similarity-based sentence selection method.
+[BOS] However, active learning is largely under-explored for NMT.
+[BOS] The goal of this paper is to provide an approach to learn an active learning strategy for NMT based on a Hierarchical Markov Decision Process (HMDP) formulation of the pool-based AL (Bachman et al., 2017; .
+
+[BOS] Expoliting monolingual data for nmt Monolingual data play a key role in neural machine translation systems, previous work have considered training a seperate language model on the target side (Jean et al., 2014; Gulcehre et al., 2015; Domhan and Hieber, 2017) .
+[BOS] Rather than using explicit language model, Cheng et al. (2016) introduced an auto-encoder-based approach, in which the source-to-target and target-to-source translation models act as encoder and decoder respectively.
+[BOS] Moreover, back translation approaches (Sennrich et al., 2015a; Zhang et al., 2018; Hoang et al., 2018) show efficient use of monolingual data to improve neural machine translation.
+[BOS] Dual learning extends back translation by using a deep RL approach.
+[BOS] More recently, unsupervised approaches (Lample et al., 2017b; Artetxe et al., 2017) and phrase-based NMT (Lample et al., 2018) learn how to translate when having access to only a large amount of monolingual corpora, these models also extend the use of back translation and cross-lingual word embeddings are provided as the latent semantic space for sentences from monolingual corpora in different languages.
+
+[BOS] Meta-AL learning Several meta-AL approaches have been proposed to learn the AL selection strategy automaticclay from data.
+[BOS] These methods rely on deep reinforcement learning framework (Yue et al., 2012; Wirth et al., 2017) or bandit algorithms (Nguyen et al., 2017) .
+[BOS] Bachman et al. (2017) introduced a policy gradient based method which jointly learns data representation, selection heuristic as well as the model prediction function.
+[BOS] Fang et al. (2017) designed an active learning algorithm based on a deep Q-network, in which the action corresponds to binary annotation decisions applied to a stream of data.
+[BOS] Woodward and Finn (2017) extended one shot learning to active learning and combined reinforcement learning with a deep recurrent model to make labeling decisions.
+[BOS] As far as we know, we are the first one to develop the Meta-AL method to make use of monolingual data for neural machine translation, the method we proposed in this paper can be applied at mini-batch level and conducted in cross lingual settings.
+

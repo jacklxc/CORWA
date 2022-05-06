@@ -1,0 +1,53 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 171 176	[BOS]
+T3	Single_summ 286 291	[BOS]
+T4	Single_summ 459 464	[BOS]
+T5	Single_summ 530 535	[BOS]
+T6	Single_summ 674 679	[BOS]
+T7	Narrative_cite 858 863	[BOS]
+T8	Transition 1162 1167	[BOS]
+T9	Transition 1303 1308	[BOS]
+T10	Transition 1447 1452	[BOS]
+T11	Transition 1571 1576	[BOS]
+T12	Single_summ 1786 1791	[BOS]
+T13	Single_summ 2074 2079	[BOS]
+T14	Multi_summ 2222 2227	[BOS]
+T15	Multi_summ 2565 2570	[BOS]
+T16	Dominant 42 63	Pereira et al. (2018)
+T17	Reference 932 957	(Pennington et al., 2014)
+T18	Dominant 1869 1891	Mitchell et al. (2008)
+T19	Dominant 2134 2153	Sudre et al. (2012)
+T20	Reference 2249 2264	Xu et al. 2016)
+T21	Reference 2272 2294	Mitchell et al. (2008)
+T22	Reference 2419 2441	(Mikolov et al., 2013)
+T23	Reference 2470 2492	(Anderson et al., 2013
+T24	Reference 2494 2513	Abnar et al., 2018)
+T25	Reference 2542 2562	(Abnar et al., 2018)
+T26	Dominant 2582 2609	Gauthier and Ivanova (2018)
+T27	Dominant 2617 2638	Pereira et al. (2018)
+T28	Pronoun 180 184	this
+T29	Pronoun 1311 1315	This
+T30	Pronoun 1534 1538	this
+T31	Pronoun 1588 1592	this
+T32	Pronoun 2115 2119	this
+T33	Pronoun 2273 2275	it
+T34	B_span 42 49	Pereira
+T35	E_span 843 855	individually
+T36	B_span 920 925	GloVe
+T37	E_span 952 956	2014
+T38	B_span 1792 1795	The
+T39	E_span 2067 2070	etc
+T40	B_span 2085 2090	later
+T41	E_span 2211 2220	technique
+T42	B_span 2228 2233	Other
+T43	B_span 2410 2418	word2vec
+T44	E_span 2436 2440	2013
+T45	B_span 2445 2450	GloVe
+T46	E_span 2508 2512	2018
+T47	B_span 2518 2528	dependency
+T48	E_span 2557 2561	2018
+T49	B_span 2571 2580	Similarly
+T50	E_span 2716 2722	models
+T51	E_span 2307 2314	dataset
+T52	B_span 2272 2280	Mitchell
+T53	E_span 2293 2294	)

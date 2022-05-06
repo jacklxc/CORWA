@@ -1,0 +1,48 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 93 98	[BOS]
+T3	Narrative_cite 187 192	[BOS]
+T4	Transition 393 398	[BOS]
+T5	Narrative_cite 519 524	[BOS]
+T6	Narrative_cite 706 711	[BOS]
+T7	Single_summ 910 915	[BOS]
+T8	Single_summ 1048 1053	[BOS]
+T9	Single_summ 1311 1316	[BOS]
+T10	Reflection 1523 1528	[BOS]
+T11	Transition 1671 1676	[BOS]
+T12	Transition 1798 1803	[BOS]
+T13	Transition 1856 1861	[BOS]
+T14	Transition 1956 1961	[BOS]
+T15	Narrative_cite 2093 2098	[BOS]
+T16	Single_summ 2190 2195	[BOS]
+T17	Transition 2491 2496	[BOS]
+T18	Transition 2703 2708	[BOS]
+T19	Reference 215 240	(Rajpurkar et al., 2016a)
+T20	Reference 250 274	(Trischler et al., 2016)
+T21	Reference 286 306	(Joshi et al., 2017)
+T22	Reference 319 340	(Tapaswi et al., 2016
+T23	Reference 573 599	(Mostafazadeh et al., 2016
+T24	Reference 601 622	Onishi et al., 2016 )
+T25	Reference 779 803	(Richardson et al., 2013
+T26	Reference 805 824	Berant et al., 2014
+T27	Reference 826 843	Lai et al., 2017)
+T28	Dominant 960 979	Kocisk et al., 2018
+T29	Reference 2150 2187	(Tjong Kim Sang and De Meulder, 2003)
+T30	Dominant 2222 2243	(Passos et al., 2014)
+T31	B_span 209 214	SQuAD
+T32	E_span 234 239	2016a
+T33	B_span 243 249	NewsQA
+T34	E_span 269 273	2016
+T35	B_span 277 285	TriviaQA
+T36	E_span 301 305	2017
+T37	B_span 311 318	MovieQA
+T38	E_span 336 340	2016
+T39	B_span 552 557	cloze
+T40	E_span 616 620	2016
+T41	B_span 745 747	RC
+T42	E_span 838 842	2017
+T43	B_span 916 923	Another
+T44	E_span 1514 1521	passage
+T45	B_span 2132 2137	CoNLL
+T46	E_span 2182 2186	2003
+T47	B_span 2196 2201	While
+T49	E_span 2485 2488	NER

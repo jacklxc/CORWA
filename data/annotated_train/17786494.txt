@@ -1,0 +1,27 @@
+[BOS] Supervised noun phrase coreference resolution has been extensively studied.
+[BOS] Besides the mention-pair model, two other commonly used models are the entity-mention model (Luo et al., 2004; Yang et al., 2008) and ranking models (Denis and Baldridge, 2008; Rahman and Ng, 2009) .
+[BOS] Interested readers can refer to the literature review by Ng (2010) .
+[BOS] Under the mention-pair model, Klenner (2007) and Finkel and Manning (2008) applied Integer Linear Programming (ILP) to enforce transitivity on the pairwise classification results.
+[BOS] Chang et al. (2011) used the same ILP technique to incorporate best-first clustering and generate the mention clusters.
+[BOS] In all these studies, however, mention clustering is combined with pairwise classification only at the inference stage but not at the learning stage.
+
+[BOS] To perform joint learning of pairwise classification and mention clustering, in (McCallum and Wellner, 2005) , each mention pair corresponds to a binary variable indicating whether the two mentions are coreferential, and the dependence between these variables is modeled by conditional undirected graphical models.
+[BOS] Finley and Joachims (2005) proposed a general SVM-based framework for supervised clustering that learns item-pair similarity measures, and applied the framework to noun phrase coreference resolution.
+[BOS] In our work, we take a different approach and apply Markov logic.
+[BOS] As we have shown in Section 3, given the flexibility of Markov logic, it is straightforward to perform joint learning of pairwise classification and mention clustering.
+
+[BOS] In recent years, Markov logic has been widely used in natural language processing problems (Poon and Domingos, 2009; Yoshikawa et al., 2009; Che and Liu, 2010) .
+[BOS] For coreference resolution, the most notable one is unsupervised coreference resolution by Poon and Domingos (2008) .
+[BOS] Poon and Domingos (2008) followed the entity-mention model while we follow the mention-pair model, which are quite different approaches.
+[BOS] To seek good performance in an unsupervised way, Poon and Domingos (2008) highly rely on two important strong indicators: appositives and predicate nominatives.
+[BOS] However, OntoNotes corpus (state-of-art NLP data collection) on coreference layer for CoNLL-2011 has excluded these two conditions of annotations (appositives and predicate nominatives) from their judging guidelines.
+[BOS] Compared with it, our methods are more applicable for real dataset.
+[BOS] Huang et al. (2009) used Markov logic to predict coreference probabilities for mention pairs followed by correlation clustering to generate the final results.
+[BOS] Although they also perform joint learning, at the inference stage, they still make pairwise coreference decisions and cluster mentions sequentially.
+[BOS] Unlike their method, We formulate the two steps into a single framework.
+
+[BOS] Besides combining pairwise classification and mention clustering, there has also been some work that jointly performs mention detection and coreference resolution.
+[BOS] Daum and Marcu (2005) developed such a model based on the Learning as Search Optimization (LaSO) framework.
+[BOS] Rahman and Ng (2009) proposed to learn a cluster-ranker for discourse-new mention detection jointly with coreference resolution.
+[BOS] Denis and Baldridge (2007) adopted an Integer Linear Programming (ILP) formulation for coreference resolution which models anaphoricity and coreference as a joint task.
+

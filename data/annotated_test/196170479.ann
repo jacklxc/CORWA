@@ -1,0 +1,57 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 138 143	[BOS]
+T3	Single_summ 482 487	[BOS]
+T4	Transition 681 686	[BOS]
+T5	Multi_summ 833 838	[BOS]
+T6	Transition 1023 1028	[BOS]
+T7	Single_summ 1133 1138	[BOS]
+T8	Single_summ 1295 1300	[BOS]
+T9	Single_summ 1409 1414	[BOS]
+T10	Narrative_cite 1514 1519	[BOS]
+T11	Transition 2072 2077	[BOS]
+T12	Other 2184 2189	[BOS]
+T13	Reference 210 226	(Voorhees, 2003)
+T14	Reference 235 258	(Rajpurkar et al., 2016
+T15	Reference 268 292	(Trischler et al., 2017)
+T16	Reference 304 323	(Dunn et al., 2017)
+T17	Reference 335 354	(Choi et al., 2018)
+T18	Dominant 497 516	(Yang et al., 2018)
+T19	Dominant 895 917	(Kocisky et al., 2018)
+T20	Dominant 967 987	(Reddy et al., 2018)
+T21	Dominant 1148 1169	(Nguyen et al., 2016)
+T22	Dominant 1310 1330	(Joshi et al., 2017)
+T23	Reference 1732 1754	(Kocisky et al., 2018)
+T24	Reference 1811 1831	(Reddy et al., 2018)
+T25	Reference 1880 1904	(Rajpurkar et al., 2018)
+T26	Reference 1967 1986	(Yang et al., 2018)
+T28	B_span 229 232	SQu
+T29	E_span 227 228	,
+T30	B_span 261 265	News
+T31	E_span 259 260	,
+T32	B_span 295 301	Search
+T33	E_span 293 294	,
+T34	B_span 330 332	Qu
+T37	B_span 488 491	Hot
+T38	E_span 679 680	.
+T39	B_span 883 892	Narrative
+T41	B_span 1139 1141	MS
+T42	E_span 1293 1294	.
+T43	B_span 1301 1304	Tri
+T44	E_span 1511 1512	.
+T45	B_span 1662 1667	query
+T46	E_span 1753 1754	)
+T47	B_span 1802 1804	47
+T48	E_span 1830 1831	)
+T50	E_span 1903 1904	)
+T51	B_span 1953 1956	150
+T53	Pronoun 525 529	this
+T54	Pronoun 735 737	it
+T55	B_span 205 209	TREC
+T27	E_span 318 322	2017
+T35	E_span 349 353	2018
+T36	E_span 948 957	summaries
+T56	B_span 962 966	CoQA
+T57	E_span 1014 1021	dataset
+T40	Reference 1704 1731	Tombros and Sanderson, 1998
+T49	B_span 1868 1873	SQuAD
+T58	E_span 1981 1985	2018

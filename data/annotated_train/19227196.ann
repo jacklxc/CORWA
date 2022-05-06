@@ -1,0 +1,57 @@
+T1	Multi_summ 0 5	[BOS]
+T2	Multi_summ 358 363	[BOS]
+T3	Single_summ 459 464	[BOS]
+T4	Reflection 565 570	[BOS]
+T5	Single_summ 659 664	[BOS]
+T6	Single_summ 766 771	[BOS]
+T7	Reflection 898 903	[BOS]
+T8	Narrative_cite 1072 1077	[BOS]
+T9	Reflection 1276 1281	[BOS]
+T10	Transition 1324 1329	[BOS]
+T11	Narrative_cite 1378 1383	[BOS]
+T12	Narrative_cite 1537 1542	[BOS]
+T13	Single_summ 1700 1705	[BOS]
+T14	Single_summ 1873 1878	[BOS]
+T15	Single_summ 2040 2045	[BOS]
+T16	Dominant 87 115	Sassano and Kurohashi (2010)
+T17	Dominant 118 137	Jiang et al. (2010)
+T18	Dominant 144 168	Flannery and Mori (2015)
+T19	Dominant 364 392	Mirroshandel and Nasr (2011)
+T20	Dominant 397 420	Majidi and Crane (2013)
+T21	Dominant 665 684	Nivre et al. (2014)
+T22	Reference 1160 1179	Jiang et al. (2013)
+T23	Reference 1474 1490	Li et al. (2014)
+T24	Reference 1624 1641	(Liu et al., 2014
+T25	Reference 1643 1664	Yang and Vozila, 2014
+T26	Reference 1666 1697	Marcheggiani and Artires, 2014)
+T27	Dominant 1706 1716	Hwa (1999)
+T28	Reference 1843 1870	(Pereira and Schabes, 1992)
+T29	Dominant 1879 1902	Clark and Curran (2006)
+T30	Dominant 2046 2067	Mielens et al. (2015)
+T31	Pronoun 465 469	They
+T32	Pronoun 606 610	this
+T33	Pronoun 781 786	their
+T34	Pronoun 812 817	their
+T35	Pronoun 907 911	this
+T36	Pronoun 937 942	their
+T37	Pronoun 1285 1289	this
+T38	B_span 6 8	In
+T39	E_span 352 356	tree
+T40	B_span 364 376	Mirroshandel
+T41	E_span 555 563	decoding
+T42	B_span 665 670	Nivre
+T43	E_span 891 896	phase
+T44	B_span 1113 1124	constrained
+T45	E_span 1174 1178	2013
+T46	B_span 1446 1452	LLGPar
+T47	E_span 1485 1489	2014
+T48	B_span 1600 1608	sequence
+T49	E_span 1692 1696	2014
+T50	B_span 1706 1709	Hwa
+T51	B_span 1796 1803	variant
+T52	E_span 1865 1869	1992
+T53	E_span 1865 1869	1992
+T54	B_span 1879 1884	Clark
+T55	E_span 2026 2038	dependencies
+T56	B_span 2046 2053	Mielens
+T57	E_span 2192 2197	trees

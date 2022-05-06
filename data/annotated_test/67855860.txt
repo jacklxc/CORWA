@@ -1,0 +1,14 @@
+[BOS] We have focused on attention mechanisms and the question of whether they afford transparency, but a number of interesting strategies unrelated to attention mechanisms have been recently proposed to provide insights into neural NLP models.
+[BOS] These include approaches that measure feature importance based on gradient information (Ross et al., 2017; Sundararajan et al., 2017) (aligned with the gradient-based measures that we have used here), and methods based on representation erasure , in which dimensions are removed and then the resultant change in output is recorded (similar to our experiments with removing tokens from inputs, albeit we do this at the input layer).
+
+[BOS] Comparing such importance measures to attention scores may provide additional insights into the working of attention based models (Ghaeini et al., 2018) .
+[BOS] Another novel line of work in this direction involves explicitly identifying explanations of black-box predictions via a causal framework (Alvarez-Melis and Jaakkola, 2017).
+[BOS] We also note that there has been complementary work demonstrating low correlation between human attention and induced attention weights (Pappas and Popescu-Belis, 2016) .
+
+[BOS] More specific to attention mechanisms, recent promising work has proposed more principled attention variants designed explicitly for interpretability; these may provide greater transparency by imposing hard, sparse attention.
+[BOS] Such instantiations explicitly select (modest) subsets of inputs to be considered when making a prediction, which are then by construction responsible for model output (Lei et al., 2016; Peters et al., 2018) .
+[BOS] Structured attention models (Kim et al., 2017) provide a generalized framework for describing and fitting attention variants with explicit probabilistic semantics.
+[BOS] Tying attention weights to human-provided rationales is another potentially promising avenue (Bao et al., 2018) .
+
+[BOS] We hope our work motivates further development of these methods, resulting in attention variants that both improve predictive performance and provide insights into model predictions.
+

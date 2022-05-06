@@ -1,0 +1,24 @@
+[BOS] Text simplification systems differ primarily in the level of linguistic knowledge they encode.
+[BOS] Phrase Based Machine Translation (PBMT) systems (Specia, 2010; Wubben et al., 2012; Coster and Kauchak, 2011) use the least knowledge, and as such are ill equipped to handle simplifications that require morphological changes, syntactic reordering, sentence splitting or insertions.
+[BOS] While syntax based MT approaches use syntactic knowledge, existing systems do not offer a treatment of morphology (Zhu et al., 2010; Woodsend and Lapata, 2011; Paetzold and Specia, 2013) .
+[BOS] This means that while some syntactic reordering operations can be performed well, others requiring morphological changes cannot.
+[BOS] Consider converting passive to active voice (e.g., from ""trains are liked by John"" to ""John likes trains"").
+[BOS] Besides deleting auxiliaries and reordering the arguments of the verb, there is also a requirement to modify the verb to make it agree in number with the new subject ""John"", and take the tense of the auxiliary ""are"".
+
+[BOS] Hand crafted systems such as Siddharthan (2010) and Siddharthan (2011) use transformation rules that encode morphological changes as well as deletions, re-orderings, substitutions and sentence splitting, and can handle voice change correctly.
+[BOS] However, hand crafted systems are limited in scope to syntactic simplification as there are too many lexico-syntactic and lexical simplifications to enumerate manually.
+
+[BOS] Some contemporary work in text simplification has evolved from research in sentence compression, a related research area that aims to shorten sentences for the purpose of summarising the main content.
+[BOS] Sentence compression has historically been addressed in a generative framework, where transformation rules are learnt from parsed corpora of sentences aligned with manually compressed versions, using ideas adapted from statistical machine translation.
+[BOS] The compression rules learnt are typically syntactic tree-to-tree transformations (Knight and Marcu, 2000; Galley and McKeown, 2007; Riezler et al., 2003; Cohn and Lapata, 2009; Nomoto, 2008) of some variety.
+[BOS] Indeed, Woodsend and Lapata (2011) develop this line of research.
+[BOS] Their model is based on quasi-synchronous tree substitution grammar (QTSG) (Smith and Eisner, 2006) and integer linear programming.
+[BOS] Quasi-synchronous grammars aim to relax the isomorphism constraints of synchronous grammars, in this case by generating a loose alignment between parse trees.
+[BOS] Woodsend and Lapata (2011) use QTSG to generate all possible rewrite operations for a source tree, and then integer linear programming to select the most appropriate simplification.
+[BOS] Their system performs lexical and syntactic simplification as well as compression.
+
+[BOS] Recently, there have been attempts to combine approaches.
+[BOS] Narayan and Gardent (2014) use an approach based on semantics to perform syntactic simplification, and PBMT for lexical simplifications.
+[BOS] We have also created a hybrid system, but one using linguistically sound hand written rules for syntactic simplification and automatically acquired rules for lexicalised constructs .
+[BOS] In this paper we combine this work (summarised in §3) with a new method for sentence compression (described in §4).
+

@@ -1,0 +1,81 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 75 80	[BOS]
+T3	Narrative_cite 246 251	[BOS]
+T4	Narrative_cite 395 400	[BOS]
+T5	Narrative_cite 591 596	[BOS]
+T6	Transition 779 784	[BOS]
+T7	Single_summ 907 912	[BOS]
+T8	Transition 1039 1044	[BOS]
+T9	Single_summ 1168 1173	[BOS]
+T10	Transition 1298 1303	[BOS]
+T11	Transition 1419 1424	[BOS]
+T12	Narrative_cite 1534 1539	[BOS]
+T13	Single_summ 1755 1760	[BOS]
+T14	Narrative_cite 1931 1936	[BOS]
+T15	Reflection 2056 2061	[BOS]
+T16	Narrative_cite 2200 2205	[BOS]
+T17	Transition 2339 2344	[BOS]
+T18	Single_summ 2491 2496	[BOS]
+T19	Single_summ 2659 2664	[BOS]
+T20	Narrative_cite 2833 2838	[BOS]
+T21	Multi_summ 3038 3043	[BOS]
+T22	Other 3206 3211	[BOS]
+T23	Reflection 3354 3359	[BOS]
+T24	Reference 217 243	Gildea and Jurafsky (2002)
+T25	Reference 374 393	(Che et al., 2009 )
+T26	Reference 521 543	(Surdeanu et al., 2003
+T27	Reference 545 565	Xue and Palmer, 2004
+T28	Reference 567 588	Pradhan et al., 2005)
+T29	Reference 703 726	(Toutanova et al., 2008
+T30	Reference 728 753	Martins and Almeida, 2014
+T31	Reference 755 775	Yang and Zong, 2014)
+T32	Dominant 913 936	Moschitti et al. (2008)
+T33	Dominant 1174 1191	Lei et al. (2015)
+T34	Reference 1590 1613	(Collobert et al., 2011
+T35	Reference 1615 1632	Zhou and Xu, 2015
+T36	Reference 1634 1658	FitzGerald et al., 2015)
+T37	Dominant 1776 1798	Roth and Lapata (2016)
+T38	Reference 2033 2053	Anders et al. (2010)
+T39	Reference 2310 2336	(Rink and Harabagiu, 2010)
+T40	Dominant 2510 2530	Socher et al. (2012)
+T41	Dominant 2665 2683	Zeng et al. (2014)
+T42	Reference 2976 2993	(Liu et al., 2015
+T43	Reference 2995 3011	Xu et al., 2015b
+T44	Reference 3013 3035	Miwa and Bansal, 2016)
+T45	Dominant 3057 3073	Yu et al. (2014)
+T46	Dominant 3078 3084	(2015)
+T47	Pronoun 401 406	These
+T48	Pronoun 470 475	their
+T49	Pronoun 1434 1438	they
+T50	Pronoun 1979 1983	they
+T51	Pronoun 2077 2082	these
+T52	Pronoun 3305 3309	they
+T53	Pronoun 3360 3362	It
+T54	B_span 174 178	rich
+T55	E_span 238 242	2002
+T56	B_span 338 346	language
+T57	E_span 387 391	2009
+T58	B_span 476 484	contexts
+T59	E_span 583 587	2005
+T60	B_span 646 655	arguments
+T61	E_span 770 774	2014
+T62	B_span 913 922	Moschitti
+T63	E_span 1032 1037	trees
+T64	B_span 1174 1177	Lei
+T65	E_span 1292 1296	sets
+T66	B_span 1576 1582	neural
+T67	E_span 1653 1657	2015
+T68	B_span 1761 1765	Most
+T69	E_span 1925 1929	work
+T70	B_span 2002 2008	binary
+T71	E_span 2048 2052	2010
+T72	B_span 2284 2289	human
+T73	E_span 2331 2335	2010
+T74	B_span 2497 2500	For
+T75	E_span 2647 2657	determined
+T76	B_span 2665 2669	Zeng
+T77	E_span 2823 2831	features
+T78	B_span 2944 2954	sequential
+T79	E_span 3030 3034	2016
+T80	B_span 3044 3046	In
+T81	E_span 3195 3203	features

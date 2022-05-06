@@ -1,0 +1,20 @@
+[BOS] In addition to biLM-based representations, McCann et al. (2017) learned contextualized vectors with a neural machine translation system (CoVe).
+[BOS] However, as showed the biLM based representations outperformed CoVe in all considered tasks, we focus exclusively on biLMs.
+
+[BOS] Liu et al. (2018) proposed using densely connected RNNs and layer pruning to speed up the use of context vectors for prediction.
+[BOS] As their method is applicable to other architectures, it could also be combined with our approach.
+
+[BOS] Several prior studies have examined the learned representations in RNNs.
+[BOS] Karpathy et al. (2015) trained a character LSTM language model on source code and showed that individual neurons in the hidden state track the beginning and end of code blocks.
+[BOS] Linzen et al. (2016) assessed whether RNNs can learn number agreement in subject-verb dependencies.
+[BOS] Our analysis in Sec.
+[BOS] 5.1 showed that biLMs also learn number agreement for coreference.
+[BOS] Kdr et al. (2017) attributed the activation patters of RNNs to input tokens and showed that a RNN language model is strongly sensitive to tokens with syntactic functions.
+[BOS] Belinkov et al. (2017) used linear classifiers to determine whether neural machine translation systems learned morphology and POS tags.
+[BOS] Concurrent with our work, Khandelwal et al. (2018) studied the role of context in influencing language model predictions, Gaddy et al. (2018) analyzed neural constituency parsers, Blevins et al. (2018) explored whether RNNs trained with several different objectives can learn hierarchical syntax, and Conneau et al. (2018) examined to what extent sentence representations capture linguistic features.
+[BOS] Our intrinsic analysis is most similar to Belinkov et al. (2017) ; however, we probe span representations in addition to word representations, evaluate the transferability of the biLM representations to semantic tasks in addition to syntax tasks, and consider a wider variety of neural architectures in addition to RNNs.
+
+[BOS] Other work has focused on attributing network predictions.
+[BOS] Li et al. (2016) examined the impact of erasing portions of a network's representations on the output, Sundararajan et al. (2017) used a gradient based method to attribute predictions to inputs, and Murdoch et al. (2018) decomposed LSTMs to interpret classification predictions.
+[BOS] In contrast to these approaches, we explore the types of contextual information encoded in the biLM internal states instead of focusing on attributing this information to words in the input sentence.
+

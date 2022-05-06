@@ -1,0 +1,26 @@
+[BOS] With the rise of end-to-end dialogue systems, personalized trained systems have started to appear.
+[BOS] Li et al. (2016) proposed to learn latent variables representing each speaker's bias/personality in a dialogue model.
+[BOS] Other classic strategies include extracting explicit variables from structured knowledge bases or other symbolic sources as in (Ghazvininejad et al., 2017; Joshi et al., 2017; Young et al., 2017) .
+[BOS] Still, in the context of per-sonal chatbots, it might be more desirable to condition on data that can be generated and interpreted by the user itself such as text rather than relying on some knowledge base facts that might not exist for everyone or a great variety of situations.
+[BOS] PERSONA-CHAT (Zhang et al., 2018) recently introduced a dataset of conversations revolving around human habits and preferences.
+[BOS] In their experiments, they showed that conditioning on a text description of each speaker's habits, their persona, improved dialogue modeling.
+
+[BOS] In this paper, we use a pre-existing REDDIT data dump as data source.
+[BOS] REDDIT is a massive online message board.
+[BOS] Dodge et al. (2015) used it to assess chit-chat qualities of generic dialogue models.
+[BOS] Yang et al. (2018) used response prediction on REDDIT as an auxiliary task in order to improve prediction performance on natural language inference problems.
+
+[BOS] 3 Building a dataset of millions of persona-based dialogues
+
+[BOS] Our goal is to learn to predict responses based on a persona for a large variety of personas.
+[BOS] To that end, we build a dataset of examples of the following form using data from REDDIT:
+
+[BOS]  Persona: ["I like sport", "I work a lot"]
+
+[BOS]  Context: "I love running."
+
+[BOS]  Response: "Me too!
+[BOS] But only on weekends."
+
+[BOS] The persona is a set of sentences representing the personality of the responding agent, the context is the utterance that it responds to, and the response is the answer to be predicted.
+

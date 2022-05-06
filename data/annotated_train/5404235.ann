@@ -1,0 +1,34 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 212 217	[BOS]
+T3	Reflection 344 349	[BOS]
+T4	Narrative_cite 484 489	[BOS]
+T5	Single_summ 665 670	[BOS]
+T6	Single_summ 851 856	[BOS]
+T7	Single_summ 1022 1027	[BOS]
+T8	Single_summ 1223 1228	[BOS]
+T9	Reflection 1413 1418	[BOS]
+T10	Reference 90 112	Zhang and Clark (2010)
+T11	Reference 115 139	Kruengkrai et al. (2009)
+T12	Reference 141 164	Zhang and Clark (2008a)
+T13	Reference 166 186	Jiang et al. (2008a)
+T14	Reference 188 208	Jiang et al. (2008b)
+T15	Reference 318 341	Zhang and Clark (2008a)
+T16	Reference 403 425	Huang and Sagae (2010)
+T17	Reference 637 661	Klein and Manning (2003)
+T18	Dominant 671 689	Rush et al. (2010)
+T19	Dominant 880 897	Lee et al. (2011)
+T20	Dominant 1244 1260	Li et al. (2011)
+T21	B_span 23 28	joint
+T22	E_span 202 207	2008b
+T23	B_span 257 263	single
+T24	E_span 335 340	2008a
+T25	B_span 360 365	joint
+T26	E_span 420 424	2010
+T27	B_span 622 625	POS
+T28	E_span 656 660	2003
+T29	B_span 671 675	Rush
+T30	E_span 841 848	systems
+T31	B_span 880 883	Lee
+T32	E_span 1214 1221	Chinese
+T33	B_span 1244 1246	Li
+T34	E_span 1404 1411	systems

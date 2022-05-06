@@ -1,0 +1,53 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 381 386	[BOS]
+T3	Reflection 417 422	[BOS]
+T4	Multi_summ 492 497	[BOS]
+T5	Multi_summ 693 698	[BOS]
+T6	Single_summ 721 726	[BOS]
+T7	Transition 1110 1115	[BOS]
+T8	Transition 1308 1313	[BOS]
+T9	Single_summ 1422 1427	[BOS]
+T10	Single_summ 1621 1626	[BOS]
+T11	Transition 1786 1791	[BOS]
+T12	Reflection 1821 1826	[BOS]
+T13	Multi_summ 1902 1907	[BOS]
+T14	Transition 2101 2106	[BOS]
+T15	Transition 2201 2206	[BOS]
+T16	Transition 2295 2300	[BOS]
+T17	Single_summ 2360 2365	[BOS]
+T18	Single_summ 2473 2478	[BOS]
+T19	Single_summ 2681 2686	[BOS]
+T20	Transition 2875 2880	[BOS]
+T21	Transition 3095 3100	[BOS]
+T22	Reference 247 269	Gurevych, 2014b, 2017a
+T23	Reference 271 289	Eger et al., 2017)
+T24	Dominant 512 541	Habernal and Gurevych (2016b)
+T25	Dominant 546 563	Wei et al. (2016)
+T26	Dominant 739 760	Habernal and Gurevych
+T27	Dominant 1442 1461	Lukin et al. (2017)
+T28	Dominant 1627 1648	Persing and Ng (2017)
+T29	Dominant 1922 1941	Hidey et al. (2017)
+T30	Dominant 2011 2036	Higgins and Walker (2012)
+T31	Dominant 2380 2405	Stab and Gurevych (2017b)
+T32	Dominant 2479 2502	Al Khatib et al. (2016)
+T33	Dominant 2687 2710	Wachsmuth et al. (2017)
+T34	B_span 111 115	text
+T35	E_span 284 288	2017
+T36	B_span 512 520	Habernal
+T37	E_span 705 719	persuasiveness
+T38	B_span 739 747	Habernal
+T39	E_span 1103 1108	scale
+T40	B_span 1442 1447	Lukin
+T41	E_span 1615 1619	ness
+T42	B_span 1627 1634	Persing
+T43	E_span 1774 1784	persuasive
+T44	B_span 1922 1927	Hidey
+T45	E_span 1993 2001	premises
+T46	B_span 2011 2018	Higgins
+T47	E_span 2093 2098	logos
+T48	B_span 2380 2384	Stab
+T49	E_span 2462 2471	supported
+T50	B_span 2479 2481	Al
+T51	E_span 2672 2679	readers
+T52	B_span 2687 2696	Wachsmuth
+T53	E_span 2865 2873	argument

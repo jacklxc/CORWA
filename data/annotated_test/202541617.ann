@@ -1,0 +1,81 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 227 232	[BOS]
+T3	Single_summ 359 364	[BOS]
+T4	Single_summ 427 432	[BOS]
+T5	Single_summ 494 499	[BOS]
+T6	Single_summ 564 569	[BOS]
+T7	Reflection 818 823	[BOS]
+T8	Reflection 871 876	[BOS]
+T9	Single_summ 1083 1088	[BOS]
+T10	Single_summ 1239 1244	[BOS]
+T11	Single_summ 1357 1362	[BOS]
+T12	Transition 1519 1524	[BOS]
+T13	Single_summ 1578 1583	[BOS]
+T14	Narrative_cite 1734 1739	[BOS]
+T15	Multi_summ 1884 1889	[BOS]
+T16	Multi_summ 1995 2000	[BOS]
+T17	Reflection 2117 2122	[BOS]
+T18	Single_summ 2262 2267	[BOS]
+T19	Single_summ 2406 2411	[BOS]
+T20	Single_summ 2566 2571	[BOS]
+T21	Single_summ 2685 2690	[BOS]
+T22	Single_summ 2858 2863	[BOS]
+T23	Reflection 3011 3016	[BOS]
+T24	Reference 71 94	(Flanigan et al., 2016b
+T25	Reference 96 121	Pourdamghani et al., 2016
+T26	Reference 123 152	Castro Ferreira et al., 2017)
+T27	Dominant 365 386	Konstas et al. (2017)
+T28	Reference 910 928	(See et al., 2017)
+T29	Dominant 1123 1144	Konstas et al. (2017)
+T30	Dominant 1245 1265	Cao and Clark (2019)
+T31	Dominant 1584 1625	Marcheggiani and Perez Beltrachini (2018)
+T32	Reference 1787 1809	(Gardent et al., 2017)
+T33	Reference 1823 1842	(Belz et al., 2011)
+T34	Dominant 1890 1908	Song et al. (2018)
+T35	Dominant 1913 1931	Beck et al. (2018)
+T36	Dominant 2001 2019	Song et al. (2018)
+T37	Dominant 2067 2085	Beck et al. (2018)
+T38	Dominant 2287 2318	Koncel-Kedziorski et al. (2019)
+T39	Dominant 2412 2439	Schlichtkrull et al. (2018)
+T40	Dominant 2572 2596	Damonte and Cohen (2019)
+T41	Dominant 2713 2730	Guo et al. (2019)
+T42	Dominant 2887 2911	Damonte and Cohen (2019)
+T43	B_span 44 50	employ
+T44	E_span 151 152	)
+T45	B_span 365 368	Kon
+T47	B_span 895 899	copy
+T49	B_span 1102 1109	further
+T52	E_span 1237 1238	.
+T53	B_span 1245 1248	Cao
+T54	E_span 1516 1517	.
+T55	B_span 1584 1589	March
+T56	B_span 1780 1783	Web
+T58	B_span 1814 1816	SR
+T59	E_span 1810 1813	and
+T60	E_span 1872 1882	benchmarks
+T61	B_span 1890 1894	Song
+T62	E_span 1993 1994	.
+T63	B_span 2001 2005	Song
+T64	E_span 2050 2057	encoder
+T65	B_span 2067 2071	Beck
+T66	E_span 2115 2116	.
+T67	B_span 2287 2290	Kon
+T68	E_span 2404 2405	.
+T69	B_span 2412 2416	Schl
+T70	E_span 2564 2565	.
+T71	B_span 2572 2575	Dam
+T72	E_span 2683 2684	.
+T73	B_span 2713 2716	Guo
+T74	E_span 2856 2857	.
+T75	B_span 2868 2872	work
+T78	E_span 3009 3010	.
+T79	Pronoun 416 420	this
+T80	Pronoun 442 446	they
+T81	Pronoun 1372 1376	they
+T82	Pronoun 1740 1744	They
+T83	Pronoun 1754 1759	their
+T84	Pronoun 1862 1864	it
+T85	Pronoun 2701 2705	this
+T86	E_span 799 816	delexicalisations
+T46	E_span 1001 1010	framework
+T48	E_span 1837 1841	2011

@@ -1,0 +1,26 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 185 190	[BOS]
+T3	Reflection 360 365	[BOS]
+T4	Narrative_cite 446 451	[BOS]
+T5	Transition 706 711	[BOS]
+T6	Multi_summ 817 822	[BOS]
+T7	Reflection 998 1003	[BOS]
+T8	Reference 263 286	(Bahdanau et al., 2015)
+T9	Reference 334 357	(Karpathy et al., 2016)
+T10	Reference 583 605	Papernot et al. (2016)
+T11	Reference 608 622	Ozbulak (2019)
+T12	Reference 682 703	(Norton and Qi, 2017)
+T13	Dominant 839 861	Strobelt et al. (2019)
+T14	Dominant 868 878	Vig (2019)
+T15	B_span 245 254	attention
+T16	E_span 285 286	)
+T17	B_span 293 300	isolate
+T18	E_span 356 357	)
+T20	E_span 634 635	)
+T22	E_span 702 703	)
+T23	B_span 839 843	Stro
+T24	E_span 996 997	.
+T25	Pronoun 409 413	they
+T26	Pronoun 481 483	it
+T19	B_span 544 554	explaining
+T27	B_span 664 675	interactive

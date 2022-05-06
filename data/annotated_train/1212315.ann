@@ -1,0 +1,84 @@
+T1	Intro 0 5	[BOS]
+T2	Intro 115 120	[BOS]
+T3	Intro 247 252	[BOS]
+T4	Transition 313 318	[BOS]
+T5	Single_summ 483 488	[BOS]
+T6	Single_summ 621 626	[BOS]
+T7	Single_summ 783 788	[BOS]
+T8	Single_summ 880 885	[BOS]
+T9	Transition 1021 1026	[BOS]
+T10	Single_summ 1122 1127	[BOS]
+T11	Single_summ 1350 1355	[BOS]
+T12	Single_summ 1520 1525	[BOS]
+T13	Single_summ 1744 1749	[BOS]
+T14	Narrative_cite 1828 1833	[BOS]
+T15	Single_summ 2005 2010	[BOS]
+T16	Narrative_cite 2166 2171	[BOS]
+T17	Narrative_cite 2428 2433	[BOS]
+T18	Narrative_cite 2732 2737	[BOS]
+T19	Narrative_cite 2905 2910	[BOS]
+T20	Narrative_cite 3105 3110	[BOS]
+T21	Reflection 3432 3437	[BOS]
+T22	Reference 83 112	(Chinchor and Robinson, 1997)
+T23	Reference 285 309	(Chiu and Nichols, 2016)
+T24	Dominant 489 512	Ratinov and Roth (2009)
+T25	Dominant 627 644	Lin and Wu (2009)
+T26	Dominant 789 809	Passos et al. (2014)
+T27	Dominant 937 957	Suzuki et al. (2011)
+T28	Dominant 1176 1199	Collobert et al. (2011)
+T29	Dominant 1356 1376	Santos et al. (2015)
+T30	Reference 1407 1430	Collobert et al. (2011)
+T31	Dominant 1526 1545	Huang et al. (2015)
+T32	Dominant 1750 1770	Lample et al. (2016)
+T33	Reference 1984 2002	(Liu et al., 2011)
+T34	Dominant 2011 2031	Ritter et al. (2011)
+T35	Reference 2319 2336	(Li et al., 2012)
+T36	Reference 2353 2371	(Liu et al., 2012)
+T37	Reference 2386 2403	(Guo et al., 2013
+T38	Reference 2405 2425	Yamada et al., 2015)
+T39	Reference 2538 2560	(Baldwin et al., 2015)
+T40	Reference 2813 2833	(Godin et al., 2015)
+T41	Reference 3080 3101	(Yamada et al., 2015)
+T42	Reference 3149 3172	Chiu and Nichols (2016)
+T43	Pronoun 124 128	this
+T44	Pronoun 1630 1634	they
+T45	B_span 77 80	MUC
+T46	E_span 107 111	1997
+T47	B_span 253 256	For
+T48	E_span 304 308	2016
+T49	B_span 489 496	Ratinov
+T50	E_span 604 619	representations
+T51	B_span 627 630	Lin
+T52	E_span 774 781	lexicon
+T53	B_span 789 795	Passos
+T54	E_span 869 878	knowledge
+T56	E_span 1014 1018	data
+T57	B_span 1128 1132	Most
+T58	E_span 1345 1348	SRL
+T59	B_span 1356 1362	Santos
+T60	E_span 1515 1518	NER
+T61	B_span 1526 1531	Huang
+T62	E_span 1734 1742	features
+T63	B_span 1750 1756	Lample
+T64	E_span 1822 1825	NER
+T65	B_span 1941 1944	NER
+T66	E_span 1997 2001	2011
+T67	B_span 2011 2017	Ritter
+T68	E_span 2159 2164	tasks
+T69	B_span 2293 2298	named
+T70	E_span 2331 2335	2012
+T71	B_span 2339 2352	normalization
+T72	E_span 2366 2370	2012
+T73	B_span 2378 2385	linking
+T74	E_span 2420 2424	2015
+T75	B_span 2792 2798	neural
+T76	E_span 2828 2832	2015
+T77	B_span 3045 3059	classification
+T78	E_span 3096 3100	2015
+T79	B_span 3133 3145	architecture
+T80	E_span 3167 3171	2016
+T55	B_span 886 888	In
+T81	B_span 2469 2473	text
+T82	E_span 2555 2559	2015
+T83	B_span 1391 1403	architecture
+T84	E_span 1425 1429	2011

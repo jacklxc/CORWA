@@ -1,0 +1,23 @@
+[BOS] Our work is related to the encoder-decoder framework and the attention mechanism .
+[BOS] Encoderdecoder framework, like sequence-to-sequence model, has achieved success in machine translation Jean et al., 2015; Luong et al., 2015; ), text summarization (Rush et al., 2015; Chopra et al., 2016; Nallapati et al., 2016; , and other natural language processing tasks .
+[BOS] There are many other methods to improve neural attention model (Jean et al., 2015; Luong et al., 2015) .
+[BOS] Zhu et al. (2010) constructs a wikipedia dataset, and proposes a tree-based simplification model.
+[BOS] Woodsend and Lapata (2011) introduces a data-driven model based on quasi-synchronous grammar, which captures structural mismatches and complex rewrite operations.
+[BOS] Wubben et al.
+
+[BOS] (2012) presents a method for text simplification using phrase based machine translation with reranking the outputs.
+[BOS] Kauchak (2013) proposes a text simplification corpus, and evaluates language modeling for text simplification on the proposed corpus.
+[BOS] Narayan and Gardent (2014) propose a hybrid approach to sentence simplification which combines deep semantics and monolingual machine translation.
+[BOS] Hwang et al. (2015) introduces a parallel simplification corpus by evaluating the similarity between the source text and the simplified text based on WordNet.
+[BOS] Glava andtajner (2015) propose an unsupervised approach to lexical simplification that makes use of word vectors and require only regular corpora.
+[BOS] Xu et al. (2016) design automatic metrics for text simplification.
+[BOS] Recently, most works focus on the neural sequence-to-sequence model.
+[BOS] Nisioi et al. (2017) present a sequence-to-sequence model, and re-ranks the predictions with BLEU and SARI.
+[BOS] Zhang and Lapata (2017) propose a deep reinforcement learning model to improve the simplicity, fluency and adequacy of the simplified texts.
+[BOS] Cao et al. (2017) introduce a novel sequence-tosequence model to join copying and restricted generation for text simplification.
+[BOS] Rush et al. (2015) first used an attention-based encoder to compress texts and a neural network language decoder to generate summaries.
+[BOS] Following this work, recurrent encoder was introduced to text summarization, and gained better performance (Lopyrev, 2015; Chopra et al., 2016) .
+[BOS] Towards Chinese texts, Hu et al. (2015) built a large corpus of Chinese short text summarization.
+[BOS] To deal with unknown word problem, Nallapati et al. (2016) proposed a generator-pointer model so that the decoder is able to generate words in source texts.
+[BOS] Gu et al. (2016) also solved this issue by incorporating copying mechanism.
+

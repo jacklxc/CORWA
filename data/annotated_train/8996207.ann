@@ -1,0 +1,23 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 148 153	[BOS]
+T3	Single_summ 401 406	[BOS]
+T4	Reflection 688 693	[BOS]
+T5	Reflection 798 803	[BOS]
+T6	Transition 936 941	[BOS]
+T7	Reflection 1129 1134	[BOS]
+T8	Reference 274 299	(Marton and Resnik, 2008)
+T9	Reference 375 398	(Setiawan et al., 2009)
+T10	Dominant 410 431	(Xiong et al., 2009 )
+T11	Reference 513 523	(Wu, 1997)
+T12	Reference 528 548	(Shen et al., 2009 )
+T13	B_span 246 248	XP
+T14	E_span 294 298	2008
+T15	B_span 304 308	TOFW
+T16	E_span 393 397	2009
+T17	B_span 407 409	As
+T18	E_span 542 546	2009
+T19	B_span 451 458	phrasal
+T20	E_span 682 686	ours
+T21	Pronoun 624 629	these
+T22	Pronoun 654 659	their
+T23	Pronoun 1012 1016	they

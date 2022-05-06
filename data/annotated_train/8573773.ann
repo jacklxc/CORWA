@@ -1,0 +1,31 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 111 116	[BOS]
+T3	Single_summ 303 308	[BOS]
+T4	Transition 428 433	[BOS]
+T5	Narrative_cite 540 545	[BOS]
+T6	Transition 733 738	[BOS]
+T7	Multi_summ 793 798	[BOS]
+T8	Single_summ 1019 1024	[BOS]
+T9	Reflection 1152 1157	[BOS]
+T10	Reference 54 67	Koehn, 2009 )
+T11	Reference 281 300	(Och and Ney, 2004)
+T12	Dominant 359 372	Eisner (2003)
+T13	Reference 624 641	Sun et al. (2009)
+T14	Dominant 896 916	Galley et al. (2004)
+T16	Dominant 921 941	Galley et al. (2006)
+T18	Dominant 1045 1066	DeNeefe et al. (2007)
+T20	B_span 309 320	Synchronous
+T21	E_span 422 426	rule
+T15	B_span 896 902	Galley
+T17	E_span 1012 1016	tree
+T19	B_span 1025 1032	Further
+T22	E_span 1143 1150	setting
+T23	B_span 6 12	Modern
+T24	E_span 66 67	)
+T25	B_span 261 267	phrase
+T26	E_span 295 299	2004
+T27	B_span 599 602	non
+T28	E_span 636 640	2009
+T29	Pronoun 173 178	their
+T30	Pronoun 1138 1142	this
+T31	Pronoun 1209 1213	this

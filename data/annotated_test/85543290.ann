@@ -1,0 +1,71 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Other 406 411	[BOS]
+T3	Other 452 457	[BOS]
+T4	Other 501 506	[BOS]
+T5	Other 566 571	[BOS]
+T6	Other 581 586	[BOS]
+T7	Other 631 636	[BOS]
+T8	Other 678 683	[BOS]
+T9	Other 737 742	[BOS]
+T10	Other 796 801	[BOS]
+T11	Other 879 884	[BOS]
+T12	Narrative_cite 941 946	[BOS]
+T13	Narrative_cite 992 997	[BOS]
+T14	Narrative_cite 1113 1118	[BOS]
+T15	Narrative_cite 1205 1210	[BOS]
+T16	Transition 1553 1558	[BOS]
+T17	Single_summ 1734 1739	[BOS]
+T18	Single_summ 2119 2124	[BOS]
+T19	Narrative_cite 2296 2301	[BOS]
+T20	Multi_summ 2438 2443	[BOS]
+T21	Multi_summ 2703 2708	[BOS]
+T22	Reflection 2766 2771	[BOS]
+T23	Reference 85 105	(Malmi et al., 2017)
+T24	Reference 214 239	(Marcu and Echihabi, 2001
+T25	Reference 241 271	Sporleder and Lascarides, 2005
+T26	Reference 273 290	Zhou et al., 2010
+T28	Reference 968 989	Conneau et al. (2018)
+T29	Reference 1042 1062	Perone et al. (2018)
+T30	Reference 1096 1109	Brahma (2018)
+T31	Reference 1135 1161	(Logeswaran and Lee, 2018)
+T33	Reference 1369 1389	(Felbo et al., 2017)
+T34	Dominant 1745 1766	(Devlin et al., 2018)
+T35	Dominant 2125 2144	Phang et al. (2018)
+T37	Reference 2412 2434	(Dasgupta et al., 2018
+T38	Dominant 2444 2468	Gururangan et al. (2018)
+T39	Dominant 2471 2491	Poliak et al. (2018)
+T40	Pronoun 1219 1224	these
+T41	Pronoun 1487 1492	their
+T42	Pronoun 1502 1504	it
+T43	Pronoun 1519 1521	it
+T44	Pronoun 2021 2025	this
+T45	Pronoun 2709 2713	They
+T46	Pronoun 2724 2728	this
+T47	Pronoun 2775 2779	this
+T48	Pronoun 2799 2803	this
+T49	B_span 13 22	discourse
+T50	E_span 100 104	2017
+T51	B_span 108 117	discourse
+T27	E_span 286 290	2010
+T52	B_span 968 975	Conneau
+T53	E_span 984 988	2018
+T54	B_span 998 1009	SkipThought
+T55	E_span 1061 1062	)
+T56	B_span 1065 1077	QuickThought
+T57	E_span 1108 1109	)
+T58	B_span 1122 1134	QuickThought
+T59	E_span 1199 1203	task
+T32	Reference 1351 1368	Nie et al. (2017)
+T60	B_span 1317 1323	manual
+T61	E_span 1384 1388	2017
+T62	B_span 1740 1744	BERT
+T63	E_span 2109 2117	accuracy
+T64	B_span 2125 2130	Phang
+T36	B_span 2215 2223	sentence
+T65	Reference 2240 2254	Radford (2018)
+T66	E_span 2249 2253	2018
+T67	E_span 2285 2293	modeling
+T68	B_span 2376 2383	Natural
+T69	E_span 2430 2434	2018
+T70	B_span 2444 2454	Gururangan
+T71	E_span 2753 2764	annotations

@@ -1,0 +1,36 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 126 131	[BOS]
+T3	Narrative_cite 344 349	[BOS]
+T4	Narrative_cite 443 448	[BOS]
+T5	Single_summ 568 573	[BOS]
+T6	Single_summ 664 669	[BOS]
+T7	Narrative_cite 819 824	[BOS]
+T8	Reference 68 94	Schmidt and Wiegand (2017)
+T9	Reference 99 123	Fortuna and Nunes (2018)
+T10	Reference 203 232	(Malmasi and Zampieri, 2017 )
+T11	Reference 271 294	(ElSherief et al., 2018
+T12	Reference 296 319	Gambck and Sikdar, 2017
+T13	Reference 321 340	Zhang et al., 2018)
+T14	Reference 419 440	(Waseem et al., 2017)
+T15	Reference 505 521	Su et al. (2017)
+T16	Reference 537 555	Fier et al. (2017)
+T17	Reference 960 982	(Wiegand et al., 2018)
+T18	Reference 992 1012	(Kumar et al., 2018)
+T19	B_span 68 75	Schmidt
+T20	E_span 89 93	2017
+T21	B_span 99 106	Fortuna
+T22	E_span 118 122	2018
+T23	B_span 160 164	Hate
+T24	E_span 226 230	2017
+T25	B_span 249 255	recent
+T26	E_span 335 339	2018
+T27	B_span 364 372	typology
+T28	E_span 435 439	2017
+T29	B_span 505 507	Su
+T30	E_span 525 532	Chinese
+T31	B_span 537 541	Fier
+T32	E_span 559 566	Slovene
+T33	B_span 951 959	GermEval
+T34	E_span 977 981	2018
+T35	B_span 987 991	TRAC
+T36	E_span 1007 1011	2018

@@ -1,0 +1,30 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 168 173	[BOS]
+T3	Narrative_cite 449 454	[BOS]
+T4	Single_summ 771 776	[BOS]
+T5	Single_summ 980 985	[BOS]
+T6	Single_summ 1113 1118	[BOS]
+T7	Single_summ 1231 1236	[BOS]
+T8	Reflection 1409 1414	[BOS]
+T9	Reference 142 165	(Dale and Reiter, 1995)
+T10	Reference 416 446	Krahmer and Van Deemter (2012)
+T11	Reference 561 585	(Kazemzadeh et al., 2014
+T12	Reference 587 603	Yu et al., 2016)
+T13	Dominant 795 811	Yu et al. (2016)
+T14	Dominant 1119 1143	Achlioptas et al. (2019)
+T15	Pronoun 332 337	their
+T16	Pronoun 381 383	it
+T17	Pronoun 618 620	it
+T18	Pronoun 999 1003	they
+T19	Pronoun 1237 1241	They
+T20	Pronoun 1384 1389	their
+T21	B_span 6 12	Visual
+T22	E_span 160 164	1995
+T23	B_span 338 341	set
+T24	E_span 441 445	2012
+T25	B_span 544 548	real
+T26	E_span 598 602	2016
+T27	B_span 795 797	Yu
+T28	E_span 1101 1111	attributes
+T29	B_span 1119 1129	Achlioptas
+T30	E_span 1397 1407	similarity

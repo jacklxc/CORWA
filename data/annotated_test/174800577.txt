@@ -1,0 +1,10 @@
+[BOS] Most work in neural abstractive summarization has focused on optimizing ROUGE, whether implicitly by maximum likelihood training or explicitly by reinforcement learning.
+[BOS] While this could certainly capture aspects of the content selection problem, we believe that the focus should now shift towards semantic correctness and readability.
+[BOS] Cao et al. (2018) took a step in this direction through their fact-aware neural abstractive summarization system.
+[BOS] They use fact descriptions of the source as additional features for the summarizer, and showed improved faithfulness according to human judgments.
+[BOS] Multi-task learning is another approach used by Pasunuru et al. (2017) to reduce semantic errors in the generated summaries.
+[BOS] They jointly learn summarization and entailment generation tasks, using different encoders but a shared decoder.
+
+[BOS] A number of automatic evaluation metrics have shown high correlation with human judges (Liu and Liu, 2008; Graham, 2015) , but these results are either restricted to extractive systems or were performed with respect to human-generated summaries.
+[BOS] Correlation values are significantly reduced when performed on abstractive summarization systems and datasets (Toutanova et al., 2016) .
+

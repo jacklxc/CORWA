@@ -1,0 +1,11 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 109 114	[BOS]
+T3	Single_summ 296 301	[BOS]
+T4	Single_summ 492 497	[BOS]
+T5	Dominant 359 375	Li et al. (2010)
+T6	Dominant 532 556	Spitkovsky et al. (2011)
+T7	B_span 359 361	Li
+T8	E_span 480 490	separately
+T9	B_span 508 516	approach
+T10	E_span 650 657	parsing
+T11	Pronoun 9 13	this

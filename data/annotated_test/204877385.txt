@@ -1,0 +1,8 @@
+[BOS] This paper touches three areas of research, namely the overarching field of claim validation, the task domain (ED and AM) with small data, and the interaction of Natural Language Processing (NLP) components with users.
+
+[BOS] Claim Validation Reasoning about the validity of a particular claim can be separated into three sub-tasks: document retrieval to find documents related to the claim, ED to find the relevant pieces of evidence that support or contradict the claim, and Textual Entailment (TE) to determine whether the claim follows from the evidence.
+[BOS] The FEVER shared tasks follows this approach (Thorne et al., 2018; Thorne and Vlachos, 2019) .
+[BOS] Other approaches, such as TwoWingOS (Yin and Roth, 2018) and DeClarE (Popat et al., 2018) combine the ED and TE models into a single end-toend method.
+[BOS] Ma et al. (2019) used two pre-trained models, one for ED and one for TE which are then jointly fine-tuned.
+[BOS] While presenting promising results, all of these approaches rely on static models that are trained beforehand and do not learn from the user.
+

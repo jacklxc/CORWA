@@ -1,0 +1,10 @@
+[BOS] Text style transfer without parallel data is an active research topic.
+[BOS] Mueller et al. (2017) designed a variational auto-encoder (VAE) framework; Hu et al. (2017) used VAE with controllable attributes; Shen et al. (2017) proposed to adversarially train a Cross-Aligned Auto-Encoder (CAAE) to align two different styles.
+[BOS] To improve performances, several works including, (Fu et al., 2017; Yang et al., 2018; dos Santos et al., 2018; Logeswaran et al., 2018) were proposed.
+[BOS] Fu et al. (2017) suggested a multi-head decoder to generate sentences with different styles; Yang et al. (2018) utilized language models as discriminators to stabilize training; dos Santos et al. (2018) used a classifier to aid style transfer; Logeswaran et al. (2018) also made use of a conditional discriminator for multiple style transfer.
+
+[BOS] On the other hand, a few works including, , Xu et al. (2018) adopt an eraseand-replace approach and design their methods to erase the style-related words first and then fill in words of different style attributes.
+[BOS] Nonparallel text style transfer is also relevant to unsupervised machine translation.
+[BOS] Prabhumoye et al. (2018) , Subramanian et al. (2018) , Logeswaran et al. (2018) and dos Santos et al. (2018) apply back-translation technique from unsupervised machine translation for style transfer task.
+[BOS] Our work follows the framework of CAAE, and we propose several adjustments to improve the performance.
+

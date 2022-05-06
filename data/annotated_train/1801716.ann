@@ -1,0 +1,81 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 441 446	[BOS]
+T3	Transition 622 627	[BOS]
+T4	Single_summ 772 777	[BOS]
+T5	Single_summ 849 854	[BOS]
+T6	Single_summ 1002 1007	[BOS]
+T7	Single_summ 1359 1364	[BOS]
+T8	Single_summ 1515 1520	[BOS]
+T9	Reflection 1830 1835	[BOS]
+T10	Single_summ 1961 1966	[BOS]
+T11	Single_summ 2102 2107	[BOS]
+T12	Single_summ 2301 2306	[BOS]
+T13	Single_summ 2410 2415	[BOS]
+T14	Single_summ 2566 2571	[BOS]
+T15	Transition 2728 2733	[BOS]
+T16	Single_summ 2829 2834	[BOS]
+T17	Single_summ 2993 2998	[BOS]
+T18	Single_summ 3083 3088	[BOS]
+T19	Single_summ 3234 3239	[BOS]
+T20	Transition 3337 3342	[BOS]
+T21	Transition 3424 3429	[BOS]
+T22	Single_summ 3529 3534	[BOS]
+T23	Single_summ 3723 3728	[BOS]
+T24	Single_summ 3998 4003	[BOS]
+T25	Reflection 4223 4228	[BOS]
+T26	Reference 128 150	(Grishman et al., 2005
+T27	Reference 152 173	Ji and Grishman, 2008
+T28	Reference 175 199	Liao and Grishman, 2011)
+T29	Reference 225 241	(Li et al., 2013
+T30	Reference 243 258	Li and Ji, 2014
+T31	Reference 260 284	Yang and Mitchell, 2016)
+T32	Reference 307 333	(Nguyen and Grishman, 2015
+T33	Reference 335 353	Chen et al., 2015)
+T34	Reference 544 563	(Chen and Ji, 2009b
+T35	Reference 565 580	Li et al., 2012
+T36	Reference 582 599	Chen and Ng, 2012
+T37	Reference 601 619	Chen and Ng, 2014)
+T38	Dominant 827 846	Chen and Ji (2009a)
+T39	Dominant 1999 2022	Piskorski et al. (2011)
+T40	Dominant 2835 2855	Riloff et al. (2002)
+T41	Dominant 3089 3107	Sudo et al. (2004)
+T42	Dominant 3535 3557	McDonald et al. (2011)
+T43	Dominant 3729 3748	Duong et al. (2014)
+T44	Dominant 4004 4023	Ammar et al. (2016)
+T45	Pronoun 645 650	these
+T46	Pronoun 858 863	their
+T47	Pronoun 871 875	they
+T48	Pronoun 1153 1157	they
+T49	Pronoun 1521 1525	This
+T50	Pronoun 2123 2127	they
+T51	Pronoun 2313 2317	this
+T52	Pronoun 2353 2357	they
+T53	Pronoun 2425 2429	this
+T54	Pronoun 2586 2590	they
+T55	Pronoun 3189 3194	these
+T56	Pronoun 3249 3254	these
+T57	Pronoun 3680 3684	this
+T58	Pronoun 3931 3935	this
+T59	Pronoun 4253 4257	this
+T60	B_span 103 112	pipelines
+T61	E_span 194 198	2011
+T62	B_span 202 207	joint
+T63	E_span 279 283	2016
+T64	B_span 291 297	neural
+T65	E_span 348 352	2015
+T66	B_span 519 526	Chinese
+T67	E_span 614 618	2014
+T68	B_span 778 781	The
+T69	E_span 1819 1828	languages
+T70	B_span 1967 1974	Another
+T71	E_span 2718 2725	English
+T72	B_span 2835 2841	Riloff
+T73	E_span 3073 3081	language
+T74	B_span 3089 3093	Sudo
+T75	E_span 3325 3335	extraction
+T76	B_span 3535 3543	McDonald
+T77	E_span 3713 3721	learning
+T78	B_span 3729 3734	Duong
+T79	E_span 3988 3996	language
+T80	B_span 4004 4009	Ammar
+T81	E_span 4211 4221	embeddings

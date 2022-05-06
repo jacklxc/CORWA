@@ -1,0 +1,18 @@
+[BOS] To our current knowledge, there were few works about using case structures in Chinese parsing, except for the work of Wu (2003) and Han et al. (2004) .
+[BOS] Compared with them, our proposed approach presents a new type of case structures for all kinds of head-modifier pairs, which not only recognizes bi-lexical dependency but also remembers the parsing history of a head node.
+
+[BOS] Parsing history has been used to improve parsing accuracy by many researchers (Yamada and Matsumoto, 2003; McDonald and Pereira, 2006) .
+[BOS] Yamada and Matsumoto (2003) showed that keeping a small amount of parsing history was useful to improve parsing performance in a shiftreduce parser.
+[BOS] McDonald and Pereira (2006) expanded their first-order spanning tree model to be second-order by factoring the score of the tree into the sum of adjacent edge pair scores.
+[BOS] In our proposed approach, the case patterns remember the neighboring modifiers for a head node like McDonald and Pereira's work.
+[BOS] But it keeps all the parsing histories of a head, which is different from only keeping adjacent two modifiers in (McDonald and Pereira, 2006) .
+[BOS] Besides, to use the parsing histories in CKY decoding, our approach applies horizontal Markovization during case pattern construction.
+[BOS] In general, the success of using case patterns in Chinese parsing in his paper proves again that keeping parsing history is crucial to improve parsing performance, no matter in which way and to which parsing model it is applied.
+
+[BOS] There were also some works that handled lexical preference for Chinese parsing in other ways.
+[BOS] For example, Cheng et al. (2006) and Hall et al. (2007) applied shift-reduce deterministic parsing to Chinese.
+[BOS] Sagae and Tsujii (2007) generalized the standard deterministic framework to probabilistic parsing by using a best-first search strategy.
+[BOS] In these works, lexical preferences were introduced as features for predicting parsing action.
+[BOS] Besides, Bikel and Chiang (2000) applied two lexicalized parsing models developed for English to Penn Chinese Treebank.
+[BOS] Wang et al. (2005) proposed a completely lexicalized bottom-up generative parsing model to parse Chinese, in which a word-similarity-based smoothing was introduced to replace part-of-speech smoothing.
+

@@ -1,0 +1,37 @@
+[BOS] In the machine translation literature, there are two major streams for integrating visual information: approaches that (1) employ separate attention for different (text and vision) modalities, and (2) fuse visual information into the NMT model as part of the input.
+[BOS] The first line of work learns independent context vectors from a sequence of text encoder hidden states and a set of location-preserving visual features extracted from a pre-trained convnet, and both sets of attentions affect the decoder's translation (Calixto et al., 2017a; Helcl and Libovick, 2017) .
+[BOS] The second line of work instead extracts a global semantic feature and initializes either the NMT encoder or decoder to fuse the visual context (Calixto et al., 2017b; Ma et al., 2017) .
+[BOS] While both approaches demonstrate significant improvement over their Text-Only NMT baselines, they still perform worse than the best monomodal machine translation system from the WMT 2017 shared task (Zhang et al., 2017) .
+
+[BOS] The model that performs best in the multimodal machine translation task employed image context in a different way.
+[BOS] (Huang et al., 2016) combine region features extracted from a region-proposal network (Ren et al., 2015) with the word sequence feature as the input to the encoder, which leads to significant improvement over their NMT baseline.
+[BOS] The best multimodal machine translation system in WMT 2017 (Caglayan et al., 2017) performs element-wise multiplication of the target language embedding with an affine transformation of the convnet image feature vector as the mixed input to the decoder.
+[BOS] While this method outperforms all other methods in WMT 2017 shared task workshop, the advantage over the monomodal translation system is still minor.
+
+[BOS] The proposed visual context grounding process in our model is closely related to the literature on multimodal shared space learning.
+[BOS] (Kiros et al., 2014) propose a neural language model to learn a visual-semantic embedding space by optimizing a ranking objective, where the distributed representation helps generate image captions.
+[BOS] (Karpathy and Li, 2014) densely align different objects in the image with their corresponding text captions in the shared space, which further improves the quality of the generated caption.
+[BOS] In later work, multimodal shared space learning was extended to multimodal multilingual shared space learning.
+[BOS] (Calixto et al., 2017c ) learn a multi-modal multilingual shared space through optimization of a modified pairwise contrastive function, where the extra multilingual signal in the shared space leads to improvements in image-sentence ranking and semantic textual similarity task.
+[BOS] (Gella et al., 2017) extend the work from (Calixto et al., 2017c) by using the image as the pivot point to learn the multilingual multimodal shared space, which does not require large parallel corpora during training.
+[BOS] Finally, (Elliott and Kdr, 2017) is the first to integrate the idea of multimodal shared space learning to help multimodal machine translation.
+[BOS] Their multi-task architecture called "imagination" shares an encoder between a primary task of the classical encoder-decoder NMT and an auxiliary task of visual feature reconstruction.
+
+[BOS] Our VAG-NMT mechanism is inspired by (Elliott and Kdr, 2017) , but has important differences.
+[BOS] First, we modify the auxiliary task as a visual-text shared space learning objective instead of the simple image reconstruction objective.
+[BOS] Second, we create a visual-text attention mechanism that captures the words that share a strong semantic meaning with the image, where the grounded visual-context has more impact on the translation.
+[BOS] We show that these enhancements lead to improvement in multimodal translation quality over (Elliott and Kdr, 2017) .
+[BOS] Given a set of parallel sentences in language X and Y , and a set of corresponding images V paired with each sentence pair, the model aims to translate sentences {x i } N i=1  X in language X to sentences {y i } N i=1  Y in language Y with the assistance of images {v i } N i=1  V .
+[BOS] We treat the problem of multimodal machine translation as a joint optimization of two tasks: (1) learning a robust translation model and (2) constructing a visual-language shared embedding that grounds the visual semantics with text.
+[BOS] Figure 1 shows an overview of our VAG-NMT model.
+[BOS] We adopt a state-of-the-art attention-based sequenceto-sequence structure (Bahdanau et al., 2014) for translation.
+[BOS] For the joint embedding, we obtain the text representation using a weighted sum of hidden states from the encoder of the sequenceto-sequence model and we obtain the image representation from a pre-trained convnet.
+[BOS] We learn the weights using a visual attention mechanism, which represents the semantic relatedness between the image and each word in the encoded text.
+[BOS] We learn the shared space with a ranking loss and the translation model with a cross entropy loss.
+
+[BOS] The joint objective function is defined as:
+
+[BOS] (1) where J T is the objective function for the sequence-to-sequence model, J V is the objective function for joint embedding learning,  T are the parameters in the translation model, and  V are the parameters for the shared vision-language embedding learning, and  determines the contribution of the machine translation loss versus the visual grounding loss.
+[BOS] Both J T and J V share the parameters of the encoder from the neural machine translation model.
+[BOS] We describe details of the two objective functions in Section 3.2.
+

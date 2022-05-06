@@ -1,0 +1,115 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 76 81	[BOS]
+T3	Narrative_cite 234 239	[BOS]
+T4	Transition 408 413	[BOS]
+T5	Narrative_cite 480 485	[BOS]
+T6	Transition 748 753	[BOS]
+T7	Transition 899 904	[BOS]
+T8	Single_summ 1002 1007	[BOS]
+T9	Single_summ 1082 1087	[BOS]
+T10	Single_summ 1342 1347	[BOS]
+T11	Single_summ 1453 1458	[BOS]
+T12	Narrative_cite 1610 1615	[BOS]
+T13	Single_summ 1725 1730	[BOS]
+T14	Single_summ 1912 1917	[BOS]
+T15	Single_summ 2049 2054	[BOS]
+T16	Transition 2207 2212	[BOS]
+T17	Transition 2441 2446	[BOS]
+T18	Transition 2632 2637	[BOS]
+T19	Single_summ 2786 2791	[BOS]
+T20	Single_summ 2973 2978	[BOS]
+T21	Single_summ 3025 3030	[BOS]
+T22	Reflection 3172 3177	[BOS]
+T23	Reflection 3334 3339	[BOS]
+T24	Reflection 3477 3482	[BOS]
+T25	Single_summ 3624 3629	[BOS]
+T26	Transition 3759 3764	[BOS]
+T27	Single_summ 3927 3932	[BOS]
+T28	Single_summ 4058 4063	[BOS]
+T29	Single_summ 4201 4206	[BOS]
+T30	Narrative_cite 4326 4331	[BOS]
+T31	Transition 4438 4443	[BOS]
+T32	Narrative_cite 4642 4647	[BOS]
+T33	Reflection 4790 4795	[BOS]
+T34	Reflection 4975 4980	[BOS]
+T35	Reference 165 184	(Itti et al., 1998)
+T36	Reference 386 405	(Mnih et al., 2014)
+T37	Reference 561 579	Mnih et al., 2014)
+T38	Reference 649 666	(Xu et al., 2015)
+T39	Dominant 1008 1030	Bahdanau et al. (2014)
+T40	Dominant 1107 1128	Vaswani et al. (2017)
+T41	Dominant 1348 1368	Devlin et al. (2018)
+T42	Reference 1710 1722	(Stab, 2017)
+T43	Dominant 1737 1757	Tobias et al. (2018)
+T44	Dominant 1931 1949	Eger et al. (2017)
+T45	Reference 1999 2033	(Hochreiter and Schmidhuber, 1997)
+T46	Dominant 2064 2084	Ajjour et al. (2017)
+T47	Reference 2144 2172	(Schuster and Paliwal, 1997)
+T48	Dominant 2792 2810	Stab et al. (2018)
+T49	Dominant 3070 3093	Morio and Fujita (2018)
+T50	Dominant 3655 3677	(Ajjour et al., 2017 )
+T51	Dominant 3933 3952	Akbik et al. (2018)
+T52	Reference 4413 4435	(Vaswani et al., 2017)
+T53	Reference 4679 4698	Akbik et al. (2018)
+T54	Reference 4897 4922	(Pennington et al., 2014)
+T55	B_span 111 118	salient
+T56	E_span 183 184	)
+T58	E_span 404 405	)
+T59	B_span 538 543	newer
+T60	E_span 578 579	)
+T61	B_span 620 625	image
+T62	E_span 665 666	)
+T63	B_span 1008 1011	Bah
+T64	E_span 1080 1081	.
+T65	B_span 1107 1110	Vas
+T66	E_span 1340 1341	.
+T67	B_span 1348 1351	Dev
+T68	E_span 1608 1609	.
+T69	B_span 1680 1685	token
+T70	E_span 1721 1722	)
+T71	B_span 1737 1739	To
+T72	E_span 1910 1911	.
+T73	B_span 1931 1933	Eg
+T74	E_span 2047 2048	.
+T75	B_span 2064 2066	Aj
+T76	E_span 2204 2205	.
+T77	B_span 2792 2795	Sta
+T78	E_span 3023 3024	.
+T79	B_span 3031 3032	A
+T80	E_span 3169 3170	.
+T81	B_span 3630 3631	A
+T82	E_span 3756 3757	.
+T83	B_span 3933 3935	Ak
+T85	B_span 4388 4395	stacked
+T86	E_span 4434 4435	)
+T87	B_span 4671 4673	LM
+T88	E_span 4697 4698	)
+T89	B_span 4879 4882	pre
+T90	E_span 4921 4922	)
+T91	Pronoun 414 418	This
+T92	Pronoun 754 759	These
+T93	Pronoun 1065 1070	their
+T94	Pronoun 1402 1406	this
+T95	Pronoun 1478 1482	they
+T96	Pronoun 1816 1820	this
+T97	Pronoun 2185 2190	their
+T98	Pronoun 2427 2432	their
+T99	Pronoun 2517 2519	it
+T100	Pronoun 2860 2865	their
+T101	Pronoun 2889 2891	it
+T102	Pronoun 2991 2995	they
+T103	Pronoun 3225 3229	this
+T104	Pronoun 3305 3309	they
+T105	Pronoun 3340 3344	This
+T106	Pronoun 3459 3461	it
+T107	Pronoun 4207 4211	This
+T108	Pronoun 4219 4221	it
+T109	Pronoun 4318 4320	it
+T110	Pronoun 4796 4800	This
+T111	Pronoun 4950 4955	their
+T112	B_span 260 265	focus
+T57	B_span 1969 1973	Long
+T113	E_span 2028 2032	1997
+T114	B_span 2113 2126	bidirectional
+T115	E_span 2167 2171	1997
+T84	E_span 4318 4324	itself

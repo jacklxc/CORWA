@@ -1,0 +1,19 @@
+[BOS] Our work is related to multilingual and unsupervised translation, bilingual dictionary induction, as well as approaches for triangulation (pivoting).
+
+[BOS] In a low-resource MT scenario, multilingual training that aims at sharing parameters by leveraging parallel datasets of multiple languages is a common practice.
+[BOS] Some works target learning a universal representation for all languages either by leveraging semantic sharing between mapped word embeddings (Gu et al., 2018) or by using character n-gram embeddings (Wang et al., 2019) optimizing subword sharing.
+[BOS] More related with data augmentation, Nishimura et al. (2018) fill in missing data with a multi-source setting to boost multilingual translation.
+
+[BOS] Unsupervised machine translation enables training NMT models without parallel data (Artetxe et al., 2018; Lample et al., 2018a,c) .
+[BOS] Recently, multiple methods have been proposed to further improve the framework.
+[BOS] By incorporating a statistical MT system as posterior regularization, Ren et al. (2019) achieved state-of-the-art for en-fr and en-de MT.
+[BOS] Besides MT, the framework has also been applied to other unsupervised tasks like nonparallel style transfer (Subramanian et al., 2019; Zhang et al., 2018) .
+
+[BOS] Bilingual dictionaries learned in both supervised and unsupervised ways have been used in lowresource settings for tasks such as named entity recognition (Xie et al., 2018) or information retrieval (Litschko et al., 2018) .
+[BOS] Hassan et al. (2017) synthesized data with word embeddings for spoken dialect translation, with a process that requires a LRL-ENG as well as a HRL-LRL dictionary, while our work only uses a HRL-LRL dictionary.
+
+[BOS] Bridging source and target languages through a pivot language was originally proposed for phrasebased MT (De Gispert and Marino, 2006; Cohn and Lapata, 2007) .
+[BOS] It was later adapted for Neural MT (Levinboim and Chiang, 2015) , and proposed joint training for pivot-based NMT.
+[BOS] proposed to use an existing pivottarget NMT model to guide the training of sourcetarget model.
+[BOS] Lakew et al. (2018) proposed an iterative procedure to realize zero-shot translation by pivoting on a third language.
+

@@ -1,0 +1,16 @@
+[BOS] To date, most work on representing subcharacter information relies on language-specific resources that list character components 1 .
+[BOS] A growing list of papers address various combinations of wordlevel, character-level and subcharacter-level embeddings in Chinese (Sun et al., 2014; Li et al., 2015; Yu et al., 2017) .
+[BOS] They have been successful on a range of tasks, including similarity and analogy (Yu et al., 2017; Yin et al., 2016 ), text classification (Li et al., 2015) sentiment polarity classification (Benajiba et al., 2017) , segmentation, and POS-tagging (Shao et al., 2017) .
+
+[BOS] Japanese kanjis were borrowed from Chinese, but it remains unclear whether these success stories could also carry over to Japanese.
+[BOS] Chinese is an analytic language, but Japanese is agglutinative, which complicates tokenization.
+[BOS] Also, in Japanese, words can be spelled either in kanji or in phonetic alphabets (hiragana and katakana), which further increases data sparsity.
+[BOS] Numerous homonyms make this sparse data also noisy.
+
+[BOS] To the best of our knowledge, subcharacter information in Japanese has been addressed only by Nguyen et al. (2017) and Ke and Hagiwara (2017) .
+[BOS] The former consider the language modeling task and compare several kinds of kanji decomposition, evaluating on model perplexity.
+[BOS] Ke and Hagiwara (2017) propose to use subcharacter information instead of characters, showing that such a model performs on par with word and character-level models on sentiment classification, with considerably smaller vocabulary.
+[BOS] This study explores a model comparable to that proposed by Yu et al. (2017) for Chinese.
+[BOS] We jointly learn a representation of words, kanjis, and kanjis' components, and we evaluate it on similarity, analogy, and sentiment classification tasks.
+[BOS] We also contribute jBATS, the first analogy dataset for Japanese.
+

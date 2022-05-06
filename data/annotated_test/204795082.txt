@@ -1,0 +1,36 @@
+[BOS] Unsupervised methods for capturing and modeling word-level semantics as vectors, or embeddings, have been popular since the introduction of Latent Semantic Analysis (LSA) (Deerwester et al., 1990) around the beginning of the 1990s.
+[BOS] Such word vector representations, where the underlying training heuristic is typically based on the distributional hypothesis (Harris, 1954) , usually with some form of dimension reduction, have shown to capture word similarity (synonymy and relatedness) and analogy (see e.g. Agirre et al. (2009); Mikolov et al. (2013) ).
+[BOS] Methods and toolkits like Word2Vec (Mikolov et al., 2013) and GloVe (Pen-nington et al., 2014) are nowadays commonly used to (pre-)train word embeddings for further use in various NLP tasks, including supervised text classification with neural networks.
+[BOS] However, recent methods such as ELMo (Peters et al., 2017) and BERT (Devlin et al., 2018) use deep neural networks to represent context sensitive word embeddings, which achieves state-of-the-art performance when used in supervised text classification and similar.
+
+[BOS] Further, there are several relatively recent works focusing on using and/or representing n-gram information as semantic vectors (see e.g. Bojanowski et al. (2016) ; Zhao et al. (2017) ; Poliak et al. (2017) ; Gupta et al. (2019) ), possibly to further represent clauses, sentences and/or documents (see e.g. Le and Mikolov (2014) ; Pagliardini et al. (2018) ) in semantic vector spaces.
+
+[BOS] A relatively straight forward approach to identify and represent common phrases as vectors in a semantic space is to first use some type of collocation detection.
+[BOS] Here the aim is to identify sequences of words that co-occur more often than what is expected by chance in a large corpus.
+[BOS] One can then train a semantic model where identified phrases are treated as individual tokens, on the same level as words, like it is done in Mikolov et al. (2013) .
+
+[BOS] In the works mentioned so far, the focus is on distributional semantics for representing and calculating semantic similarity and relatedness between predefined lexical units and/or of predefined length (words/n-grams, collocations, clauses, sentences, etc.).
+[BOS] Dinu and Baroni (2014) and Turney (2014) take things a step further and approach the more complex and challenging task of using semantic models to enable phrase generation.
+[BOS] Their aim is similar to ours: given an input query (phrase) consisting of k words, generate as output t phrases consisting of l words that each expresses its meaning.
+[BOS] Their approaches rely on applying a set of separately trained vector composition and decomposition functions able to compose a single vector from a vector pair, or decompose a vector back into estimates of its constituent vectors, possibly in the semantic space of another domain or language.
+
+[BOS] Dinu and Baroni (2014) also apply vector composition and decomposition in a recursive manner for longer phrases (t  3).
+[BOS] Their focus is on mapping between unigrams, bigrams and tri-grams.
+[BOS] As output their system produce one vector per word which represent the (to be) generated phrase.
+[BOS] Here the evaluation primarily assumes that t = 1, i.e. the nearest neighbouring word in the semantic model, belonging to the expected word class, is extracted per vector to form the output phrase.
+[BOS] However, no solution is presented for when t > 1 other than independent ranked lists of semantically similar words to each vector.
+[BOS] Turney (2014) explores an approach targeting retrieval of multiple phrases for a single query (i.e. t > 1), evaluated on unigram to bigram and bigram to unigram extraction.
+[BOS] Here he applies a supervised ranking algorithm to rank the generated output candidates.
+[BOS] For each input query, the evaluation checks whether or not the correct/expected output (phrase) is among the list of top hundred candidates.
+
+[BOS] It is unclear how well these two latter approaches potentially scale beyond bigrams or trigrams.
+[BOS] Further, they assume that the length of the input/output phrases is known in advance.
+[BOS] However, the task that we are aiming for is to develop a system that can take any query phrase of arbitrary (sub-sentence) length as input.
+[BOS] As output it should suggest phrases that it identifies in a large document corpus which express the same or similar information/meaning.
+[BOS] Here the idea is that we only apply upper and lower thresholds when it comes to the length of the output phrase suggestions.
+[BOS] In addition, we do not want to be concerned with knowledge about word classes in the input and output phrases.
+[BOS] We are not aware of previous work presenting a solution to this task.
+
+[BOS] In the next section, Section 3, we describe how our system works.
+[BOS] In Section 4 we present a preliminary evaluation followed by discussion and plans for future work directions.
+

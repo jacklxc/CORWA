@@ -1,0 +1,27 @@
+[BOS] There is much work on supervised domain adaptation setting where we have large out-of-domain parallel data and much smaller in-domain parallel data.
+[BOS] Luong and Manning (2015) propose training a model on an out-of-domain corpus and do finetuning with small sized in-domain parallel data to mitigate the domain shift problem.
+[BOS] Instead of naively mixing out-of-domain and in-domain data, Britz et al. (2017) circumvent the domain shift problem by jointly learning domain discrimination and the translation.
+[BOS] Joty et al. (2015) and Wang et al. (2017) address the domain adaptation problem by assigning higher weight to out-ofdomain parallel sentences that are close to the indomain corpus.
+[BOS] Our proposed method focuses on solving the adaptation problem with no in-domain parallel sentences, a strict unsupervised setting.
+
+[BOS] Prior work on using monolingual data to do data augmentation could be easily adapted to the domain adaptation setting.
+[BOS] Early studies on databased methods such as self-enhancing (Schwenk, 2008; Lambert et al., 2011) translate monolingual source sentences by a statistical machine translation system, and continue training the system on the synthetic parallel data.
+[BOS] Recent databased methods such as back-translation (Sennrich et al., 2016a) and copy-based methods (Currey et al., 2017) mainly focus on improving fluency of the output sentences and translation of identical words, while our method targets OOV word translation.
+[BOS] In addition, there have been several attempts to do data augmentation using monolingual source sentences (Zhang and Zong, 2016; ChineaRios et al., 2017 ).
+[BOS] Besides, model-based methods change model architectures to leverage monolingual corpus by introducing an extra learning objective, such as auto-encoder objective (Cheng et al., 2016) and language modeling objective (Ramachandran et al., 2017) .
+[BOS] Another line of research on using monolingual data is unsupervised machine translation (Artetxe et al., 2018; Lample et al., 2018b,a; Yang et al., 2018) .
+[BOS] These methods use word-for-word translation as a component, but require a careful design of model architectures, and do not explicitly tackle the domain adaptation problem.
+[BOS] Our proposed data-based method does not depend on model architectures, which makes it orthogonal to these model-based methods.
+
+[BOS] Our work shows that apart from strengthening the target-side decoder, direct supervision over the in-domain unseen words is essential for domain adaptation.
+[BOS] Similar to this, a variety of methods focus on solving OOV problems in translation.
+[BOS] Daum III and Jagarlamudi (2011) induce lexicons for unseen words and construct phrase tables for statistical machine translation.
+[BOS] However, it is nontrivial to integrate lexicon into NMT models that lack explicit use of phrase tables.
+[BOS] With regard to NMT, Arthur et al. (2016) use a lexicon to bias the probability of the NMT system and show promising improvements.
+[BOS] Luong and Manning (2015) propose to emit OOV target words by their corresponding source words and do post-translation for those OOV words with a dictionary.
+[BOS] Fadaee et al. (2017) propose an effective data augmentation method that generates sentence pairs containing rare words in synthetically created contexts, but this requires parallel training data not available in the fully unsupervised adaptation setting.
+[BOS] Arcan and Buitelaar (2017) leverage a domainspecific lexicon to replace unknown words after decoding.
+[BOS] Zhao et al. (2018) design a contextual memory module in an NMT system to memorize translations of rare words.
+[BOS] Kothur et al. (2018) treats an annotated lexicon as parallel sentences and continues training the NMT system on the lexicon.
+[BOS] Though all these works leverage a lexicon to address the problem of OOV words, none specifically target translating in-domain OOV words under a domain adaptation setting.
+

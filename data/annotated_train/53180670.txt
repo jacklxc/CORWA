@@ -1,0 +1,17 @@
+[BOS] Multilingual NMT has been widely studied and developed in different pathways during the last years (Luong et al., 2015; Dong et al., 2015; Chen et al., 2017; Johnson et al., 2016) .
+[BOS] Work has been done with networks that use language specific encoders and decoders, such as Dong et al. (2015) , who used a separate attention mechanism for each decoder on one-to-many translation.
+[BOS] Zoph and Knight (2016) exploited a multi-way parallel corpus in a many-to-one multilingual scenario, while Firat et al. (2016a) used language-specific encoders and decoders that share a traditional attention mechansim in a many-to-many scheme.
+[BOS] Another approach is the use of universal encoderdecoder networks that share embedding spaces to improve the performance of the model, like the one proposed by Gu et al. (2018) for improving translation on low-resourced languages and the one from Johnson et al. (2016) , where the term zero-shot translation was coined.
+
+[BOS] Sentence meaning representation has as well been vastly studied under NMT settings.
+[BOS] When introducing the encoder-decoder architectures for MT, Sutskever et al. (2014) showed that the seq2seq models are better at encoding the meaning of sentences into vector spaces than the bagof-words model.
+[BOS] Recent work includes that of Schwenk and Douze (2017) , who use multiple encoders and decoders that are connected through a shared layer, albeit with a different purpose than performing translation.
+[BOS] In Platanios et al. (2018) the authors show an intermediate representation that can be decoded to any target language while describing a parameter generation method for universal NMT.
+[BOS] Cfka and Bojar (2018) introduced an architecture with a self-attentive layer to extract sentence meaning representations of fixed size.
+[BOS] Here we use a similar architecture in a multilingual setting.
+
+[BOS] Our work on multilingual MT and sentence representations is closely related to the recently published paper by Lu et al. (2018) .
+[BOS] There, the authors attempt to build a neural interlingua by using language independent encoders and decoders which share an attentive long short-term memory (LSTM) layer.
+[BOS] Our approach differs because our model is able to encode any sequence with variable length into a fixed size representation, without suffering from long-term dependency problems (Lin et al., 2017) and without the need of padding for downstream task testing.
+[BOS] Additionally, we also experiment in a multilingual manyto-many setting, instead of only one-to-many or many-to-one.
+

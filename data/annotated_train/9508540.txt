@@ -1,0 +1,7 @@
+[BOS] Domain adaptation has been studied for a wide range of natural language processing tasks (Blitzer et al., 2007; Florian et al., 2004; Daume III, 2007; Foster et al., 2010) .
+[BOS] However, little has been done for investigating summarization systems (Sandu et al., 2010; Wang and Cardie, 2013) .
+[BOS] To the best of our knowledge, we are the first to study the adaptation of neural summarization models for new domain.
+[BOS] Furthermore, Recent work in neural summarization mainly focuses on specfic extensions to improve system performance (Rush et al., 2015; Takase et al., 2016; Gu et al., 2016; Nallapati et al., 2016; Ranzato et al., 2015) .
+[BOS] It is unclear how to adapt the existing neural summarization systems to a new domain when the training data is limited or not available.
+[BOS] This is a question we aim to address in this work.
+

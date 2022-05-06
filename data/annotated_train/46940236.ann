@@ -1,0 +1,40 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 267 272	[BOS]
+T3	Reflection 450 455	[BOS]
+T4	Reflection 524 529	[BOS]
+T5	Reflection 754 759	[BOS]
+T6	Narrative_cite 1131 1136	[BOS]
+T7	Other 1310 1315	[BOS]
+T8	Reflection 1376 1381	[BOS]
+T9	Other 1666 1671	[BOS]
+T10	Other 2008 2013	[BOS]
+T11	Other 2061 2066	[BOS]
+T12	Other 2183 2188	[BOS]
+T13	Reflection 2266 2271	[BOS]
+T14	Reflection 2455 2460	[BOS]
+T15	Reflection 2558 2563	[BOS]
+T16	Reflection 2696 2701	[BOS]
+T17	Reference 70 91	(Hermann et al., 2015
+T18	Reference 93 109	Cui et al., 2016
+T19	Reference 111 130	Kadlec et al., 2016
+T20	Reference 149 166	(Xu et al., 2010)
+T21	Reference 205 226	(Chan and Chong, 2008
+T22	Reference 228 244	Sun and Xu, 2011
+T23	Reference 246 264	Wang and Xu, 2017)
+T24	Reference 323 345	(Tsvetkov et al., 2014
+T25	Reference 347 361	Shutova, 2010)
+T26	Reference 1273 1307	(Hochreiter and Schmidhuber, 1997)
+T27	Reference 1501 1523	(Bahdanau et al., 2014
+T28	Reference 1525 1548	Sutskever et al., 2014)
+T29	Pronoun 370 374	they
+T30	B_span 48 55	reading
+T31	Reference 132 148	Seo et al., 2016
+T32	E_span 161 165	2010
+T33	B_span 179 186	Chinese
+T34	E_span 259 263	2017
+T35	B_span 273 281	Chengyus
+T36	E_span 356 360	2010
+T37	B_span 1261 1267	memory
+T38	E_span 1302 1306	1997
+T39	B_span 1481 1490	attention
+T40	E_span 1543 1547	2014

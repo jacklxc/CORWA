@@ -1,0 +1,77 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 222 227	[BOS]
+T3	Transition 345 350	[BOS]
+T4	Narrative_cite 353 358	[BOS]
+T5	Narrative_cite 682 687	[BOS]
+T6	Narrative_cite 945 950	[BOS]
+T7	Narrative_cite 1260 1265	[BOS]
+T8	Transition 1495 1500	[BOS]
+T9	Transition 1663 1668	[BOS]
+T10	Narrative_cite 1815 1820	[BOS]
+T11	Single_summ 1993 1998	[BOS]
+T12	Narrative_cite 2138 2143	[BOS]
+T13	Reflection 2422 2427	[BOS]
+T14	Reflection 2525 2530	[BOS]
+T15	Reflection 2639 2644	[BOS]
+T16	Transition 2794 2799	[BOS]
+T17	Transition 3021 3026	[BOS]
+T18	Reference 564 581	(Hwa et al., 2005
+T19	Reference 583 605	Smith and Eisner, 2009
+T20	Reference 607 624	Zhao et al., 2009
+T21	Reference 626 644	Jiang et al., 2011
+T22	Reference 646 661	Tiedemann, 2014
+T23	Reference 663 679	Tiedemann, 2015)
+T24	Reference 860 878	Kim and Lee, 2012)
+T25	Reference 921 941	Khapra et al., 2010)
+T26	Reference 1089 1112	(Ganchev et al., 2009 )
+T27	Reference 1170 1191	(Naseem et al., 2010)
+T28	Reference 1236 1257	(Naseem et al., 2012)
+T29	Reference 1390 1407	(Che et al., 2013
+T30	Reference 1409 1432	Wang and Manning, 2014)
+T31	Reference 1439 1461	(Zhuang and Zong, 2010
+T32	Reference 1471 1491	(Guo and Diab, 2010)
+T33	Reference 1878 1900	(Tckstrm et al., 2012)
+T34	Reference 1968 1990	(Durrett et al., 2012)
+T35	Dominant 1999 2018	Xiao and Guo (2014)
+T36	Reference 2286 2303	(Tiedemann, 2014)
+T37	Reference 2334 2361	(Tiedemann and Nivre, 2014)
+T38	Reference 2401 2419	(Ma and Xia, 2014)
+T39	Pronoun 1922 1926	this
+T40	Pronoun 2126 2130	this
+T41	Pronoun 2144 2146	It
+T42	Pronoun 2456 2461	these
+T43	Pronoun 2564 2569	these
+T44	Pronoun 2592 2597	their
+T45	Pronoun 2656 2661	these
+T46	Pronoun 2694 2698	they
+T47	Pronoun 2803 2808	These
+T48	B_span 546 551	noisy
+T49	E_span 674 678	2015
+T50	B_span 830 835	graph
+T51	E_span 873 877	2012
+T52	B_span 887 900	incorporating
+T53	E_span 936 940	2010
+T54	B_span 1030 1041	bilingually
+T55	E_span 1106 1110	2009
+T56	B_span 1114 1122	manually
+T57	E_span 1186 1190	2010
+T58	B_span 1196 1204	manually
+T59	E_span 1252 1256	2012
+T60	B_span 1386 1389	NER
+T61	E_span 1427 1431	2014
+T62	B_span 1435 1438	SRL
+T63	E_span 1457 1461	2010
+T64	B_span 1467 1470	WSD
+T65	E_span 1486 1490	2010
+T66	B_span 1848 1853	cross
+T67	E_span 1895 1899	2012
+T68	B_span 1948 1958	projection
+T69	E_span 1985 1989	2012
+T70	B_span 1999 2003	Xiao
+T71	E_span 2131 2135	work
+T72	B_span 2257 2267	annotation
+T73	E_span 2298 2302	2014
+T74	B_span 2306 2314	treebank
+T75	E_span 2356 2360	2014
+T76	B_span 2368 2380	distribution
+T77	E_span 2414 2418	2014

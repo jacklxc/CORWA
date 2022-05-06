@@ -1,0 +1,9 @@
+[BOS] We briefly contrast the syntactic scaffold with existing alternatives.
+
+[BOS] Pipelines.
+[BOS] In a typical pipeline, T 1 and T 2 are separately trained, with the output of T 2 used to define the inputs to T 1 (Wolpert, 1992) .
+[BOS] Using syntax as T 2 in a pipeline is perhaps the most common approach for semantic structure prediction (Toutanova et al., 2008; Yang and Mitchell, 2017; Wiseman et al., 2016) .
+[BOS] 2 However, pipelines introduce the problem of cascading errors (T 2 's mistakes affect the performance, and perhaps the training, of T 1 ; He et al., 2013) .
+[BOS] To date, remedies to cascading errors are so computationally expensive as to be impractical (e.g., Finkel et al., 2006) .
+[BOS] A syntactic scaffold is quite different from a pipeline since the output of T 2 is never explicitly used.
+

@@ -1,0 +1,40 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 212 217	[BOS]
+T3	Single_summ 474 479	[BOS]
+T4	Single_summ 605 610	[BOS]
+T5	Reflection 685 690	[BOS]
+T6	Single_summ 771 776	[BOS]
+T7	Reflection 910 915	[BOS]
+T8	Single_summ 1031 1036	[BOS]
+T9	Single_summ 1214 1219	[BOS]
+T10	Reflection 1334 1339	[BOS]
+T11	Reflection 1485 1490	[BOS]
+T12	Reflection 1644 1649	[BOS]
+T13	Reference 66 84	Lapata, 2005, 2009
+T14	Reference 86 105	Mukund et al., 2010
+T15	Reference 161 188	Kozhevnikov and Titov, 2013
+T16	Reference 190 209	Akbik et al., 2015)
+T17	Dominant 218 239	Pad and Lapata (2005)
+T18	Dominant 480 506	van der Plas et al. (2011)
+T19	Dominant 777 805	Kozhevnikov and Titov (2013)
+T20	Dominant 1037 1056	Akbik et al. (2015)
+T21	Dominant 1278 1297	Akbik et al. (2015)
+T22	B_span 41 53	transferring
+T23	E_span 204 208	2015
+T24	B_span 218 221	Pad
+T25	E_span 462 472	alignments
+T26	B_span 480 483	van
+T27	E_span 678 683	verbs
+T28	B_span 777 788	Kozhevnikov
+T29	E_span 898 908	projection
+T30	B_span 1037 1042	Akbik
+T31	E_span 1207 1212	roles
+T32	B_span 1278 1283	Akbik
+T33	E_span 1320 1332	dictionaries
+T34	Pronoun 400 405	their
+T35	Pronoun 611 615	They
+T36	Pronoun 694 698	this
+T37	Pronoun 748 750	it
+T39	Pronoun 925 927	it
+T40	Reference 107 132	van der Plas et al., 2011
+T41	Reference 133 160	van der Plas et al., , 2014

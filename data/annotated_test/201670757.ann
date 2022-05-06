@@ -1,0 +1,52 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 27 32	[BOS]
+T3	Transition 122 127	[BOS]
+T4	Multi_summ 323 328	[BOS]
+T5	Multi_summ 620 625	[BOS]
+T6	Single_summ 746 751	[BOS]
+T7	Reflection 944 949	[BOS]
+T8	Transition 1140 1145	[BOS]
+T9	Narrative_cite 1165 1170	[BOS]
+T10	Transition 1538 1543	[BOS]
+T11	Reflection 1631 1636	[BOS]
+T12	Reflection 1792 1797	[BOS]
+T13	Multi_summ 1889 1894	[BOS]
+T14	Reflection 2022 2027	[BOS]
+T15	Dominant 329 345	Hu et al. (2017)
+T16	Dominant 347 363	Fu et al. (2018)
+T17	Dominant 370 388	Gong et al. (2019)
+T18	Dominant 391 408	Lin et al. (2017)
+T19	Dominant 628 644	Xu et al. (2018)
+T20	Dominant 647 667	Zhang et al. (2018c)
+T21	Dominant 762 786	Prabhumoye et al. (2018)
+T22	Reference 890 914	(Logeswaran et al., 2018
+T23	Reference 916 941	Subramanian et al., 2018)
+T24	Reference 1285 1302	(Qu et al., 2019)
+T25	Reference 1321 1339	(Wen et al., 2016)
+T26	Reference 1368 1387	(Hua and Wang, 2017
+T27	Reference 1389 1409	Zhang et al., 2018b)
+T28	Reference 1432 1458	(Koehn and Schroeder, 2007
+T29	Reference 1460 1480	Axelrod et al., 2011
+T30	Reference 1482 1504	Sennrich et al., 2016b
+T31	Reference 1506 1530	Michel and Neubig, 2018)
+T32	Dominant 1931 1954	Sennrich et al. (2016a)
+T33	Dominant 1957 1974	Chu et al. (2017)
+T34	Pronoun 418 422	this
+T35	B_span 329 331	Hu
+T36	E_span 607 618	classifiers
+T37	E_span 735 744	sentences
+T38	B_span 628 630	Xu
+T39	B_span 762 772	Prabhumoye
+T40	E_span 936 940	2018
+T41	B_span 855 857	de
+T42	E_span 936 940	2018
+T43	B_span 1260 1269	sentiment
+T44	E_span 1297 1301	2019
+T45	B_span 1305 1313	dialogue
+T46	E_span 1334 1338	2016
+T47	B_span 1342 1353	abstractive
+T48	E_span 1403 1408	2018b
+T49	B_span 1412 1419	machine
+T50	E_span 1525 1529	2018
+T51	B_span 1931 1939	Sennrich
+T52	E_span 2011 2020	sentences

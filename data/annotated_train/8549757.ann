@@ -1,0 +1,33 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 105 110	[BOS]
+T3	Single_summ 233 238	[BOS]
+T4	Narrative_cite 377 382	[BOS]
+T5	Narrative_cite 508 513	[BOS]
+T6	Transition 786 791	[BOS]
+T7	Transition 935 940	[BOS]
+T8	Narrative_cite 1189 1194	[BOS]
+T9	Narrative_cite 1597 1602	[BOS]
+T10	Transition 1835 1840	[BOS]
+T11	Dominant 260 279	(Mani et al., 2008)
+T12	Reference 474 487	Clough (2005)
+T13	Reference 490 504	Leidner (2007)
+T14	Reference 762 782	Purves et al. (2007)
+T15	Reference 1435 1458	(Llewellyn et al., 2012
+T16	Reference 1460 1483	Llewellyn et al., 2011)
+T17	Reference 1812 1832	(Klein et al., 2014)
+T18	B_span 239 242	The
+T19	E_span 364 374	resolution
+T20	B_span 419 422	geo
+T21	E_span 503 504	)
+T22	B_span 708 722	georeferencing
+T23	E_span 781 782	)
+T24	B_span 1418 1423	botan
+T25	E_span 1478 1482	2011
+T26	B_span 1699 1709	historical
+T27	E_span 1827 1831	2014
+T28	Pronoun 293 297	this
+T29	Pronoun 409 414	their
+T30	Pronoun 462 467	these
+T31	Pronoun 948 953	these
+T32	Pronoun 1110 1114	they
+T33	Pronoun 1253 1255	it

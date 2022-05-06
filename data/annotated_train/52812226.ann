@@ -1,0 +1,67 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 32 37	[BOS]
+T3	Narrative_cite 243 248	[BOS]
+T4	Single_summ 480 485	[BOS]
+T5	Single_summ 683 688	[BOS]
+T6	Transition 775 780	[BOS]
+T7	Single_summ 902 907	[BOS]
+T8	Reflection 1094 1099	[BOS]
+T9	Narrative_cite 1211 1216	[BOS]
+T10	Reflection 1446 1451	[BOS]
+T11	Reflection 1649 1654	[BOS]
+T12	Transition 1776 1781	[BOS]
+T13	Narrative_cite 1811 1816	[BOS]
+T14	Narrative_cite 2023 2028	[BOS]
+T15	Narrative_cite 2309 2314	[BOS]
+T16	Transition 2428 2433	[BOS]
+T17	Transition 2546 2551	[BOS]
+T18	Reference 213 241	(Cotterell et al., , 2017a )
+T19	Reference 301 324	(Kann and Schtze, 2016b
+T20	Reference 326 347	Aharoni et al., 2016)
+T21	Reference 408 429	(Makarov et al., 2017
+T22	Reference 431 453	Bergmanis et al., 2017
+T23	Reference 455 478	Zhou and Neubig, 2017 )
+T24	Dominant 913 937	Cotterell et al. (2017b)
+T25	Reference 1352 1374	(Zhou and Neubig, 2017
+T26	Reference 1423 1443	(Kann et al., 2017b)
+T27	Reference 1900 1923	(Sutskever et al., 2014
+T28	Reference 1925 1941	Cho et al., 2014
+T29	Reference 1943 1965	Bahdanau et al., 2015)
+T30	Reference 2136 2158	(Vinyals et al., 2015)
+T31	Reference 2181 2199	(Xie et al., 2016)
+T32	Reference 2236 2259	(Bollmann et al., 2017)
+T33	Reference 2285 2306	(Nisioi et al., 2017)
+T34	Reference 2400 2425	(Luong and Manning, 2015)
+T35	Pronoun 689 693	They
+T36	Pronoun 781 785	This
+T37	Pronoun 881 886	their
+T38	Pronoun 985 989	they
+T39	Pronoun 1033 1038	their
+T40	Pronoun 1545 1549	this
+T41	Pronoun 1968 1973	their
+T42	Pronoun 2012 2016	this
+T43	Reference 190 212	Cotterell et al., 2016
+T44	B_span 150 155	the C
+T45	E_span 235 239	017a
+T46	B_span 271 274	neu
+T47	E_span 337 346	al., 2016
+T48	B_span 401 403	ne
+T49	E_span 472 476	2017
+T50	B_span 908 909	O
+T52	E_span 1083 1092	paradigms
+T51	B_span 1327 1331	semi
+T53	E_span 1370 1374	2017
+T54	B_span 1379 1391	simultaneous
+T55	E_span 1437 1442	2017b
+T56	B_span 1880 1887	machine
+T57	E_span 1960 1964	2015
+T58	B_span 2118 2127	syntactic
+T59	E_span 2153 2157	2015
+T60	B_span 2161 2169	language
+T61	E_span 2194 2198	2016
+T62	B_span 2202 2215	normalization
+T63	E_span 2254 2258	2017
+T64	B_span 2265 2269	text
+T65	E_span 2301 2305	2017
+T66	B_span 2380 2387	machine
+T67	E_span 2420 2424	2015

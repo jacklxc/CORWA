@@ -1,0 +1,27 @@
+[BOS] Recently, Koehn and Knowles (2017) carried out a brief analysis of how much attention and alignment match in different languages by measuring the probability mass that attention gives to alignments obtained from an automatic alignment tool.
+[BOS] They also report differences based on the most attended words.
+
+[BOS] The mixed results reported by ; Alkhouli et al. (2016) ; Liu et al. (2016) on optimizing attention with respect to alignments motivates a more thorough analysis of attention models in NMT.
+
+[BOS] This section provides a short background on attention and discusses two most popular attention models which are also used in this paper.
+[BOS] The first model is a non-recurrent attention model which is equivalent to the "global attention" method proposed by Luong et al. (2015a) .
+[BOS] The second attention model that we use in our investigation is an input-feeding model similar to the attention model first proposed by Bahdanau et al. (2015) and turned to a more general one and called inputfeeding by Luong et al. (2015a) .
+[BOS] Below we describe the details of both models.
+
+[BOS] Both non-recurrent and input-feeding models compute a context vector c i at each time step.
+[BOS] Subsequently, they concatenate the context vector to the hidden state of decoder and pass it through a non-linearity before it is fed into the softmax output layer of the translation network.
+
+[BOS] The difference of the two models lays in the way they compute the context vector.
+[BOS] In the nonrecurrent model, the hidden state of the decoder is compared to each hidden state of the encoder.
+[BOS] Often, this comparison is realized as the dot product of vectors.
+[BOS] Then the comparison result is fed to a softmax layer to compute the attention weight.
+
+[BOS] Here h t is the hidden state of the decoder at time t, h i is ith hidden state of the encoder and |x| is the length of the source sentence.
+[BOS] Then the computed alignment weights are used to compute a weighted sum over the encoder hidden states which results in the context vector mentioned above:
+
+[BOS] The input-feeding model changes the context vector computation in a way that at each step t the context vector is aware of the previously computed context c t1 .
+[BOS] To this end, the input-feeding model feeds back its ownh t1 to the network and uses the resulting hidden state instead of the contextindependent h t , to compare to the hidden states of RWTH data # of sentences 508 # of alignments 10534 % of sure alignments 91% % of possible alignments 9% the encoder.
+[BOS] This is defined in the following equations:
+
+[BOS] Here, f is the function that the stacked LSTM applies to the input, y t1 is the last generated target word, andh t1 is the output of previous time step of the input-feeding network itself, meaning the output of Equation 1 in the case that context vector has been computed using e t,i from Equation 6.
+

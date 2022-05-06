@@ -1,0 +1,12 @@
+[BOS] Some approaches have been proposed to tackle the problem of offensive language detection.
+[BOS] It is the case of recent works (Waseem et al., 2017; ElSherief et al., 2018; Gambck and Sikdar, 2017; Zhang et al., 2018) and surveys (Schmidt and Wiegand, 2017) and (Fortuna and Nunes, 2018) .
+[BOS] There are even studies on languages other than English such as (Su et al., 2017) on Chinese and (Fier et al., 2017) on Slovene.
+
+[BOS] Many of the last approaches rely on neural network models.
+[BOS] For instance, the work of (Ganesan et al., 2018 ) presents a Multi-Layer Feedforward Neural Networks.
+[BOS] Moreover, (Park and Fung, 2017) proposes to implement three models based on Convolutional Neural Networks (CNN) to classify sexist and racist abusive language: Char-CNN, WordCNN, and HybridCNN.
+[BOS] It work reports that can boost the performance of simpler models.
+[BOS] Also, (Pitsilis et al., 2018) proposes a detection scheme that is an ensemble of Recurrent Neural Network classifiers.
+[BOS] It incorporates various features associated with user-related information.
+[BOS] They report that the scheme can successfully distinguish racism and sexism messages from normal text.
+

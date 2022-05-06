@@ -1,0 +1,43 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 102 107	[BOS]
+T3	Transition 147 152	[BOS]
+T4	Transition 310 315	[BOS]
+T5	Narrative_cite 406 411	[BOS]
+T6	Narrative_cite 655 660	[BOS]
+T7	Narrative_cite 768 773	[BOS]
+T8	Reflection 973 978	[BOS]
+T9	Transition 1067 1072	[BOS]
+T10	Narrative_cite 1140 1145	[BOS]
+T11	Transition 1266 1271	[BOS]
+T12	Multi_summ 1345 1350	[BOS]
+T13	Reflection 1470 1475	[BOS]
+T14	Reference 542 564	(Strobelt et al., 2016
+T15	Reference 566 587	Karpathy et al., 2015
+T16	Reference 623 633	(Goh, 2016
+T17	Reference 635 651	Li et al., 2016)
+T18	Reference 671 693	(Bahdanau et al., 2014
+T19	Reference 695 714	Luong et al., 2015)
+T20	Reference 895 914	(Cheng et al., 2015
+T21	Reference 916 933	Tu et al., 2016b)
+T22	Reference 953 970	(Wu et al., 2016)
+T23	Reference 1245 1263	(Tu et al., 2016a)
+T24	Dominant 1351 1367	(Wu et al., 2016
+T25	Dominant 1369 1397	Freitag and AlOnaizan, 2017)
+T26	B_span 512 521	observing
+T27	E_span 583 587	2015
+T28	B_span 595 603	removing
+T29	E_span 646 650	2016
+T30	B_span 661 670	Attention
+T31	E_span 709 713	2015
+T32	B_span 869 878	attention
+T33	E_span 927 932	2016b
+T34	B_span 937 943	during
+T35	E_span 965 969	2016
+T36	B_span 1199 1202	not
+T37	E_span 1257 1262	2016a
+T38	B_span 1351 1352	(
+T39	E_span 1462 1468	search
+T40	Pronoun 128 130	it
+T41	Pronoun 982 986	this
+T42	Pronoun 1109 1111	it
+T43	Pronoun 1155 1157	it

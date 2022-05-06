@@ -1,0 +1,33 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 170 175	[BOS]
+T3	Narrative_cite 339 344	[BOS]
+T4	Multi_summ 619 624	[BOS]
+T5	Narrative_cite 847 852	[BOS]
+T6	Transition 968 973	[BOS]
+T7	Single_summ 1133 1138	[BOS]
+T8	Single_summ 1275 1280	[BOS]
+T9	Single_summ 1365 1370	[BOS]
+T10	Single_summ 1638 1643	[BOS]
+T11	Reference 456 480	(Lazaridou et al., 2015)
+T12	Reference 577 595	(Xing et al., 2015
+T13	Reference 597 616	Smith et al., 2017)
+T14	Dominant 625 647	(Artetxe et al., 2016)
+T15	Dominant 730 758	(Artetxe et al., 2018 ) they
+T16	Reference 951 964	(Ruder, 2017)
+T17	Dominant 1153 1178	(Faruqui and Dyer, 2014 )
+T18	Dominant 1441 1466	(Vuli and Korhonen, 2016)
+T19	B_span 445 448	max
+T20	E_span 479 480	)
+T22	E_span 615 616	)
+T23	B_span 625 626	(
+T24	E_span 844 845	.
+T25	B_span 916 919	and
+T26	E_span 963 964	)
+T27	B_span 1143 1151	instance
+T28	E_span 1363 1364	.
+T29	B_span 1371 1373	To
+T30	E_span 1770 1771	.
+T31	Pronoun 176 180	They
+T32	Pronoun 754 758	they
+T33	Pronoun 1345 1350	their
+T21	B_span 503 516	orthogonality

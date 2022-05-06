@@ -1,0 +1,44 @@
+T1	Reflection 0 5	[BOS]
+T2	Single_summ 64 69	[BOS]
+T3	Single_summ 291 296	[BOS]
+T4	Single_summ 483 488	[BOS]
+T5	Transition 669 674	[BOS]
+T6	Single_summ 737 742	[BOS]
+T7	Single_summ 845 850	[BOS]
+T8	Single_summ 930 935	[BOS]
+T9	Single_summ 1058 1063	[BOS]
+T10	Single_summ 1243 1248	[BOS]
+T11	Single_summ 1404 1409	[BOS]
+T12	Reflection 1554 1559	[BOS]
+T13	Transition 1639 1644	[BOS]
+T14	Reflection 1793 1798	[BOS]
+T15	Transition 1944 1949	[BOS]
+T16	Reflection 2297 2302	[BOS]
+T17	Dominant 31 41	(Yu, 1993)
+T18	Dominant 70 80	(Yu, 1993)
+T19	Dominant 743 772	(Callison-Burch et al., 2006)
+T20	Dominant 851 870	(Lin and Och, 2004)
+T21	Dominant 936 962	(Banerjee and Lavie, 2005)
+T22	Dominant 1064 1082	(Liu et al., 2005)
+T23	Dominant 1249 1276	(Gimenez and Marquez, 2007)
+T24	Dominant 1410 1429	(Yang et al., 2007)
+T25	Pronoun 6 10	This
+T26	Pronoun 297 302	Their
+T27	Pronoun 370 372	it
+T28	Pronoun 511 516	their
+T29	Pronoun 1595 1600	these
+T30	Pronoun 1713 1715	it
+T31	B_span 71 73	Yu
+T32	E_span 659 667	matching
+T33	B_span 744 752	Callison
+T34	E_span 838 843	level
+T35	B_span 852 855	Lin
+T36	E_span 918 928	statistics
+T37	B_span 937 945	Banerjee
+T38	E_span 1050 1056	senses
+T39	B_span 1065 1068	Liu
+T40	E_span 1233 1241	judgment
+T41	B_span 1250 1257	Gimenez
+T42	E_span 1394 1402	rankings
+T43	B_span 1411 1415	Yang
+T44	E_span 1546 1551	level

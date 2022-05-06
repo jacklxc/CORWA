@@ -1,0 +1,24 @@
+[BOS] Semantic Role Labeling.
+[BOS] Traditional approaches to SRL relied on carefully designed features and expensive techniques to achieve global consistency such as Integer Linear Programming (Punyakanok et al., 2008) or dynamic programming .
+[BOS] First neural SRL attempts tried to mix syntactic features with neural network representations.
+[BOS] For example, FitzGerald et al. (2015) created argument and role representations using a feed-forward NN, and used a graphical model to enforce global constraints.
+[BOS] Roth and Lapata (2016) , on the other hand, proposed a neural classifier using dependency path embeddings to assign semantic labels to syntactic arguments.
+[BOS] Collobert et al. (2011) proposed the first SRL neural model that did not depend on hand-crafted features and treated the task as an IOB sequence labeling problem.
+[BOS] Later, Zhou and Xu (2015) proposed a deep bi-directional LSTM model with a CRF layer on top.
+[BOS] This model takes only the original text as input and assigns a label to each individual word in the sentence.
+[BOS] He et al. (2017) also treat SRL as a IOB tagging problem, and use again a deep bi-LSTM incorporating highway connections, recurrent dropout and hard decoding constraints together with an ensemble of experts.
+[BOS] This represents the best performing system on two span-based benchmark datasets so far (namely, CoNLL-05 and CoNLL-12).
+[BOS] show that it is possible to construct a very accurate dependency-based SRL system without using any kind of explicit syntactic information.
+[BOS] In subsequent work, combine their LSTM model with a graph convolutional network to encode syntactic information at word level, which improves their LSTM classifier results on the dependency-based benchmark dataset (CoNLL-09).
+
+[BOS] Sequence-to-sequence models.
+[BOS] Seq2seq models were first discovered as powerful models for Neural Machine Translation but soon proved to be useful for any kind of problem that could be represented as a mapping between source and target sequences.
+[BOS] Vinyals et al. (2015) demonstrate that constituent parsing can be formulated as a seq2seq problem by linearizing the parse tree.
+[BOS] They obtain close to state-of-the-art results by using a large automatically parsed dataset.
+[BOS] Dong and Lapata (2016) built a model for a related problem, semantic parsing, by mapping sentences to logical form.
+[BOS] Seq2seq models have also been widely used for language generation (e.g. Karpathy and Li (2015) ; Chisholm et al. (2017) ) given their ability to produce linguistic variation in the output sequences.
+
+[BOS] More closely related to SRL is the AMR parsing and generation system proposed by Konstas et al. (2017) .
+[BOS] This work successfully constructs a two-way mapping: generation of text given AMR representations as well as AMR parsing of natural language sentences.
+[BOS] Finally, Zhang et al. (2017) went one step further by proposing a cross-lingual end-to-end system that learns to encode natural language (i.e. Chinese source sentences) and to decode them into sentences on the target side containing open semantic relations in English, using a parallel corpus for training.
+

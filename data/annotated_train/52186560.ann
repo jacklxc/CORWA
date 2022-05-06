@@ -1,0 +1,69 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 104 109	[BOS]
+T3	Transition 361 366	[BOS]
+T4	Single_summ 453 458	[BOS]
+T5	Single_summ 584 589	[BOS]
+T6	Single_summ 694 699	[BOS]
+T7	Single_summ 823 828	[BOS]
+T8	Narrative_cite 951 956	[BOS]
+T9	Transition 1216 1221	[BOS]
+T10	Single_summ 1363 1368	[BOS]
+T11	Reflection 1531 1536	[BOS]
+T12	Reflection 1648 1653	[BOS]
+T13	Single_summ 1832 1837	[BOS]
+T14	Single_summ 1986 1991	[BOS]
+T15	Single_summ 2102 2107	[BOS]
+T16	Transition 2191 2196	[BOS]
+T17	Reflection 2240 2245	[BOS]
+T18	Reference 77 101	(Gatt and Krahmer, 2018)
+T19	Reference 172 185	(Kukich, 1983
+T20	Reference 187 208	Reiter and Dale, 1997
+T21	Reference 210 233	Dubou and McKeown, 2003
+T22	Reference 235 261	Barzilay and Lapata, 2005)
+T23	Reference 286 308	(Goldberg et al., 1994
+T24	Reference 310 333	Soricut and Marcu, 2006
+T25	Reference 335 357	Wong and Mooney, 2007)
+T26	Dominant 459 481	Chen and Mooney (2008)
+T27	Dominant 590 610	Angeli et al. (2010)
+T28	Dominant 700 725	Konstas and Lapata (2012)
+T29	Dominant 869 886	Mei et al. (2016)
+T30	Reference 1026 1045	(Yang et al., 2017)
+T31	Reference 1099 1119	(Lebret et al., 2016
+T32	Reference 1121 1143	Chisholm et al., 2017)
+T33	Reference 1190 1213	(Murakami et al., 2017)
+T34	Dominant 1369 1391	Murakami et al. (2017)
+T35	Reference 1783 1808	(Neelakantan et al., 2016
+T36	Reference 1810 1828	Liang et al., 2017
+T37	Dominant 1838 1863	Neelakantan et al. (2016)
+T38	Dominant 1992 2011	Liang et al. (2017)
+T39	Pronoun 549 554	their
+T40	Pronoun 1239 1244	these
+T41	Pronoun 2265 2270	these
+T42	B_span 43 50	natural
+T43	E_span 96 100	2018
+T44	B_span 143 153	individual
+T45	E_span 256 260	2005
+T46	B_span 266 273	surface
+T47	E_span 352 356	2007
+T48	B_span 459 463	Chen
+T49	E_span 575 582	records
+T50	B_span 590 596	Angeli
+T51	E_span 687 692	model
+T52	B_span 700 707	Konstas
+T53	E_span 813 820	problem
+T54	B_span 869 872	Mei
+T55	E_span 941 949	training
+T56	B_span 978 989	conditional
+T57	E_span 1040 1044	2017
+T58	B_span 1048 1053	short
+T59	E_span 1138 1142	2017
+T60	B_span 1148 1156	comments
+T61	E_span 1208 1212	2017
+T62	B_span 1369 1377	Murakami
+T63	E_span 1519 1529	generation
+T64	B_span 1742 1750	question
+T65	E_span 1824 1828	2017
+T66	B_span 1838 1849	Neelakantan
+T67	E_span 1974 1984	operations
+T68	B_span 1992 1997	Liang
+T69	E_span 2095 2100	forms

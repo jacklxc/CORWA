@@ -1,0 +1,43 @@
+[BOS] Information theory, in particular mutual information, has played a prominent role in NLP (Church and Hanks, 1990; Brown et al., 1992) .
+[BOS] It has intimate connections to the representation learning capabilities of neural networks (Tishby and Zaslavsky, 2015) and underlies many celebrated modern approaches to unsupervised learning such as generative adversarial networks (GANs) (Goodfellow et al., 2014) .
+[BOS] There is a recent burst of effort in learning continuous representations by optimizing various lower bounds on mutual information (Belghazi et al., 2018; Oord et al., 2018; .
+[BOS] These representations are typically evaluated on extrinsic tasks as features.
+[BOS] In contrast, we learn discrete representations by optimizing a novel generalization of the Brown clustering objective (Brown et al., 1992 ) and a variational lower bound on mutual information proposed by McAllester (2018) .
+[BOS] We focus on intrinsic evaluation of these representations on POS induction.
+[BOS] Extrinsic evaluation of these representations in downstream tasks is an important future direction.
+[BOS] The issue of biased stochastic gradient estimators is a common challenge in unsupervised learning (e.g., see Wang et al., 2015) .
+[BOS] This arises mainly because the objective involves a nonlinear transformation of all samples in a training dataset, for instance the whitening constraints in deep canonical correlation analysis (CCA) (Andrew et al., 2013) .
+[BOS] In this work, the problem arises because of entropy.
+[BOS] This issue is not considered in the original work of McAllester (2018) and the error analysis we present in Section 4 is novel.
+[BOS] Our finding is that the feasibility of stochastic optimization greatly depends on the size of the bias in gradient estimates, as we are able to effectively optimize the variational objective while not the generalized Brown objective.
+
+[BOS] Our POS induction system has some practical advantages over previous approaches.
+[BOS] Many rely on computationally expensive structured inference or pre-optimized features (or both).
+[BOS] Lin et al. (2015) , and He et al. (2018) rely on carefully pretrained lexical representations like Brown clusters and word embeddings.
+[BOS] In contrast, the model presented in this work requires no expensive structured computation or feature engineering and uses word/character embeddings trained from scratch.
+[BOS] It is easy to implement using a standard neural network library and outperforms these previous works in many cases.
+[BOS] whose gradient with respect to q is z (1 + logq(z)) q(z)
+
+[BOS] (1 + logq(z)) q k (z) (9)
+
+[BOS] where we expand q(z) by the identity
+
+[BOS] In contrast, the gradient of the negative entropy term averaged over minibatches is
+
+[BOS] Hence the difference between (9) and (11) By the product rule, its gradient with respect to q is a sum of two terms.
+[BOS] The first term is (using (10) again)
+
+[BOS] The second term is (as a sum over batches)
+
+[BOS] 1 N K k=1 z,z log p(z)q(z ) (x,y)B k p(z|x)q(z |y)
+
+[BOS] In contrast, the numerator term estimated as an average over minibatches is
+
+[BOS] and the two terms of its gradient with respect to q (corresponding to (12) and (13)
+
+[BOS] Thus the difference between (12) and (14) is
+
+[BOS] where
+
+[BOS] The difference between (13) and (15) Adding these differences gives the second result.
+

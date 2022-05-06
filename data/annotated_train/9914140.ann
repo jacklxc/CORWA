@@ -1,0 +1,66 @@
+T1	Transition 0 5	[BOS]
+T2	Reflection 213 218	[BOS]
+T3	Single_summ 344 349	[BOS]
+T4	Narrative_cite 478 483	[BOS]
+T5	Narrative_cite 663 668	[BOS]
+T6	Multi_summ 773 778	[BOS]
+T7	Single_summ 918 923	[BOS]
+T8	Transition 998 1003	[BOS]
+T9	Reflection 1197 1202	[BOS]
+T10	Multi_summ 1313 1318	[BOS]
+T11	Single_summ 1579 1584	[BOS]
+T12	Multi_summ 1674 1679	[BOS]
+T13	Transition 1811 1816	[BOS]
+T14	Single_summ 2079 2084	[BOS]
+T15	Reflection 2354 2359	[BOS]
+T16	Narrative_cite 2587 2592	[BOS]
+T17	Narrative_cite 2986 2991	[BOS]
+T18	Dominant 350 377	Reisinger and Mooney (2010)
+T19	Reference 614 633	(Huang et al., 2012
+T20	Reference 635 660	Neelakantan et al., 2014)
+T21	Reference 756 769	(Miller, 1995
+T22	Dominant 779 799	Kgebck et al. (2015)
+T23	Dominant 804 824	Vu and Parker (2016)
+T24	Dominant 934 951	Guo et al. (2014)
+T25	Dominant 1484 1502	Tian et al. (2014)
+T26	Dominant 1507 1527	Jauhar et al. (2015)
+T27	Dominant 1585 1607	Li and Jurafsky (2015)
+T28	Dominant 1693 1715	Bartunov et al. (2016)
+T29	Reference 1785 1808	(Mikolov et al., 2013b)
+T30	Dominant 2095 2112	Qiu et al. (2016)
+T31	Reference 2687 2714	(Pilehvar and Collier, 2016
+T32	Reference 2716 2738	Rothe and Schtze, 2015
+T33	Reference 2740 2759	Jauhar et al., 2015
+T34	Reference 2761 2778	Chen et al., 2015
+T35	Reference 2780 2803	Iacobacci et al., 2015)
+T36	Reference 2822 2839	(Guo et al., 2014
+T37	Reference 2841 2862	Ettinger et al., 2016
+T38	Reference 2864 2883	uster et al., 2016)
+T39	Reference 3113 3134	(Liu et al., 2015a,b)
+T40	B_span 350 352	Re
+T41	E_span 476 477	.
+T42	B_span 556 561	learn
+T43	E_span 659 660	)
+T44	B_span 748 752	Word
+T45	E_span 769 770	)
+T46	B_span 779 781	Kg
+T47	E_span 916 917	.
+T48	B_span 934 937	Guo
+T49	E_span 996 997	.
+T50	B_span 1484 1488	Tian
+T51	E_span 1577 1578	.
+T52	B_span 1585 1587	Li
+T53	E_span 1672 1673	.
+T54	B_span 1693 1697	Bart
+T55	E_span 1807 1808	)
+T56	B_span 2095 2097	Qi
+T57	E_span 2352 2353	.
+T58	B_span 2670 2677	lexical
+T59	E_span 2802 2803	)
+T60	B_span 2807 2816	bilingual
+T61	E_span 2882 2883	)
+T62	B_span 3088 3090	to
+T63	E_span 3133 3134	)
+T64	Pronoun 2057 2062	their
+T65	Pronoun 2071 2073	it
+T66	Pronoun 3145 3149	this

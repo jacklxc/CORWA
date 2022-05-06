@@ -1,0 +1,18 @@
+[BOS] Semantic role labeling was pioneered by Gildea and Jurafsky (2002) .
+[BOS] Most traditional SRL models rely heavily on feature templates (Pradhan et al., 2005; Zhao et al., 2009b; Bjrkelund et al., 2009 ).
+[BOS] Among them, Pradhan et al. (2005) combined features derived from different syntactic parses based on SVM classifier, while Zhao et al. (2009b) presented an integrative approach for dependency SRL by greedy feature selection algorithm.
+[BOS] Later, Collobert et al. (2011) proposed a convolutional neural network model of inducing word embeddings substituting for hand-crafted features, which was a breakthrough for SRL task.
+
+[BOS] With the impressive success of deep neural networks in various NLP tasks (Zhang et al., 2016; Qin et al., 2017; Cai et al., 2017) , a series of neural SRL systems have been proposed.
+[BOS] Foland and Martin (2015) presented a dependency semantic role labeler using convolutional and time-domain neural networks, while FitzGerald et al. (2015) exploited neural network to jointly embed arguments and semantic roles, akin to the work (Lei et al., 2015) , which induced a compact feature representation applying tensor-based approach.
+[BOS] Recently, researchers consider multiple ways to effectively integrate syntax into SRL learning.
+[BOS] Roth and Lapata (2016) introduced dependency path embedding to model syntactic information and exhibited a notable success.
+[BOS] leveraged the graph convolutional network to incorporate syntax into neural models.
+[BOS] Differently, proposed a syntax-agnostic model using effective word representation for dependency SRL, which for the first time achieves comparable performance as stateof-the-art syntax-aware SRL models.
+
+[BOS] However, most neural SRL works seldom pay much attention to the impact of input syntactic parse over the resulting SRL performance.
+[BOS] This work is thus more than proposing a high performance SRL model through reviewing the highlights of previous models, and presenting an effective syntactic tree based argument pruning.
+[BOS] Our work is also closely related to (Punyakanok et al., 2008; He et al., 2017) .
+[BOS] Under the traditional methods, Punyakanok et al. (2008) investigated the significance of syntax to SRL system and shown syntactic information most crucial in the pruning stage.
+[BOS] He et al. (2017) presented extensive error analysis with deep learning model for span SRL, including discussion of how constituent syntactic parser could be used to improve SRL performance.
+

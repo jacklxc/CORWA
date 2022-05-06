@@ -1,0 +1,28 @@
+[BOS] Semantic role labeling was pioneered by Gildea and Jurafsky (2002) , also known as shallow semantic parsing.
+[BOS] In early works of SRL, considerable attention has been paid to feature engineering (Pradhan et al., 2005; Zhao and Kit, 2008; Zhao et al., 2009a,b,c; Li et al., 2009; Bjrkelund et al., 2009; Zhao et al., 2013) .
+[BOS] Along with the the impressive success of deep neural networks Cai and Zhao, 2016; Wang et al., 2016b,a; , a series of neural SRL systems have been proposed.
+[BOS] For instance, Foland and Martin (2015) presented a semantic role labeler using convolutional and time-domain neural networks.
+[BOS] FitzGerald et al. (2015) exploited neural network to jointly embed arguments and semantic roles, akin to the work (Lei et al., 2015) , which induced a compact feature representation applying tensor-based approach.
+
+[BOS] Recently, people have attempted to build endto-end systems for span SRL without syntactic input (Zhou and Xu, 2015; He et al., 2017; Tan et al., 2018) .
+[BOS] Similarly, also proposed a syntax-agnostic model for dependency SRL and obtained favorable results.
+[BOS] Despite the success of syntax-agnostic models, there are several works focus on leveraging the advantages of syntax.
+[BOS] Roth and Lapata (2016) employed dependency path embedding to model syntactic information and exhibited a notable success.
+[BOS] Marcheggiani and Titov (2017) leveraged the graph convolutional network to incorporate syntax into a neural SRL model.
+[BOS] Qian et al. (2017) proposed SA-LSTM to model the whole tree structure of dependency relation in an architecture engineering way.
+
+[BOS] Besides, syntax encoding has also successfully promoted other NLP tasks.
+[BOS] Tree-LSTM (Tai et al., 2015) is a variant of the standard LSTM that can encode a dependency tree with arbitrary branching factors, which has shown effectiveness on semantic relatedness and the sentiment classification tasks.
+[BOS] In this work, we extend the Tree-LSTM with a relation specific gate and employ it to recursively encode the syntactic dependency tree for SRL.
+[BOS] RCNN (Zhu et al., 2015) is an extension of the recursive neural network (Socher et al., 2010) which has been popularly used to encode trees with fixed branching factors.
+[BOS] The RCNN is able to encode a tree structure with arbitrary number of factors and is useful in a re-ranking model for dependency parsing (Zhu et al., 2015) .
+
+[BOS] In our experiments, we simplify and reformulate the RCNN model.
+[BOS] However, the simplified model performs poorly on the development and the test sets.
+[BOS] The reason might be that the RCNN model with a single global composition parameter is too simple to cover all types of syntactic relation in a dependency tree.
+[BOS] Because of the poor performance of the modified RCNN, we do not include it in this work.
+[BOS] Considering there might be other approach to incorporate the recursive network in SRL model, we leave it as our future work and just provide a brief discussion here.
+
+[BOS] In this work, we extend existing methods and introduce Tree-LSTM for incorporating syntax into SRL.
+[BOS] Rather than proposing completely new model, we synthesize these techniques and present a unified framework to take genuine superiority of syntactic information.
+

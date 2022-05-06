@@ -1,0 +1,53 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 141 146	[BOS]
+T3	Multi_summ 427 432	[BOS]
+T4	Narrative_cite 689 694	[BOS]
+T5	Reflection 909 914	[BOS]
+T6	Narrative_cite 1036 1041	[BOS]
+T7	Single_summ 1351 1356	[BOS]
+T8	Reflection 1542 1547	[BOS]
+T9	Reflection 1653 1658	[BOS]
+T10	Transition 1860 1865	[BOS]
+T11	Narrative_cite 2102 2107	[BOS]
+T12	Narrative_cite 2269 2274	[BOS]
+T13	Reflection 2406 2411	[BOS]
+T14	Reflection 2504 2509	[BOS]
+T15	Reference 270 290	(Socher et al., 2013
+T16	Reference 292 308	Tai et al., 2015
+T17	Reference 310 328	Kim et al., 2019a)
+T18	Dominant 433 455	Yogatama et al. (2017)
+T19	Dominant 499 521	Maillard et al. (2017)
+T20	Reference 668 686	Choi et al. (2018)
+T22	Reference 888 906	Kim et al., 2019b)
+T23	Reference 1202 1218	(Williams, 1992)
+T24	Reference 1258 1277	(Deng et al., 2018)
+T25	Reference 1310 1328	(Jang et al., 2017
+T26	Reference 1330 1348	Peng et al., 2018)
+T27	Dominant 1391 1408	Mou et al. (2017)
+T28	Reference 2244 2266	(Hussein et al., 2017)
+T29	Reference 2385 2403	(Gao et al., 2018)
+T30	B_span 158 167	recursive
+T31	E_span 322 327	2019a
+T32	B_span 433 441	Yogatama
+T33	E_span 485 493	learning
+T34	B_span 499 507	Maillard
+T35	E_span 681 685	2018
+T36	B_span 623 631	Straight
+T37	E_span 681 685	2018
+T38	Reference 827 844	Shen et al., 2018
+T21	Reference 846 865	Shen et al., , 2019
+T40	B_span 772 784	unsupervised
+T41	E_span 900 905	2019b
+T42	B_span 1165 1178	reinforcement
+T43	E_span 1213 1217	1992
+T44	B_span 1221 1227	neural
+T45	E_span 1272 1276	2018
+T46	B_span 1284 1292	proximal
+T47	E_span 1343 1347	2018
+T48	B_span 1391 1394	Mou
+T49	E_span 1531 1540	attention
+T50	B_span 2213 2220	inverse
+T51	E_span 2261 2265	2017
+T52	B_span 2322 2327	agent
+T53	E_span 2398 2402	2018
+T39	Reference 866 886	Drozdov et al., 2019

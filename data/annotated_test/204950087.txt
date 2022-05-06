@@ -1,0 +1,18 @@
+[BOS] Our work is inspired by a large number of applications utilizing recurrent encoder-decoder frameworks (Cho et al., 2014) on NLP tasks such as machine translation (Bahdanau et al., 2015) and text summarization (Chopra et al., 2016) .
+[BOS] Recently, many researches extend the encoder-decoder framework on response generation.
+[BOS] HRED (Serban et al., 2016) utilizes hierarchical encoder to capture the context.
+[BOS] VHRED (Serban et al., 2017) extends HRED by adding a high-dimensional latent variable for utterances.
+[BOS] These researches demonstrate the importance of contexts on response generation.
+
+[BOS] Our work is also inspired by researches on multi-party chatbots.
+[BOS] Dielmann and Renals (2008) automatically recognize dialogue acts in multiparty speech conversations.
+[BOS] Recently, some studies focus on the three elements (speaker, addressee, response) on multi-party chatbots.
+[BOS] Meng et al. (2017) introduce speaker classification as a surrogate task.
+[BOS] Addressee selection is researched by (Akhtiamov et al., 2017b) .
+[BOS] Some researches strive to the response selection (Ouchi and Tsuboi, 2016; Zhang et al., 2018) .
+[BOS] However, the response selection heavily relies on the candidates, and it can not generate new responses in new dialogue contexts.
+[BOS] Response generation could solve this problem.
+[BOS] Li et al. (2016b) learn fixed person vector for response generation.
+[BOS] Unfortunately, it needs to be obtained from large-scale dialogue turns, which has a sparsity issue: some interlocutors have very little dialog data.
+[BOS] Differently, our model has no such restrictions.
+

@@ -1,0 +1,48 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 194 199	[BOS]
+T3	Transition 467 472	[BOS]
+T4	Narrative_cite 594 599	[BOS]
+T5	Transition 776 781	[BOS]
+T6	Narrative_cite 940 945	[BOS]
+T7	Single_summ 1257 1262	[BOS]
+T8	Narrative_cite 1431 1436	[BOS]
+T9	Narrative_cite 1636 1641	[BOS]
+T10	Single_summ 1813 1818	[BOS]
+T11	Reference 70 88	(Xue et al., 2016)
+T12	Reference 752 773	(Pitler et al., 2008)
+T13	Reference 1045 1071	(Chiarcos and Schenk, 2015
+T14	Reference 1073 1091	Wang and Lan, 2015
+T15	Reference 1093 1115	Stepanov et al., 2015)
+T16	Reference 1134 1152	(Kong et al., 2015
+T17	Reference 1154 1180	Lalitha Devi et al., 2015)
+T18	Reference 1207 1226	(Wang and Lan, 2015
+T19	Reference 1228 1254	Lalitha Devi et al., 2015)
+T20	Dominant 1276 1302	(Rutherford and Xue, 2014)
+T21	Reference 1575 1600	(Marcu and Echihabi, 2002
+T22	Reference 1602 1633	Sporleder and Lascarides, 2008)
+T23	Reference 1729 1747	(Liu et al., 2016)
+T24	Reference 1790 1810	(Zhang et al., 2015)
+T25	Dominant 1819 1841	Braud and Denis (2015)
+T26	Pronoun 6 10	This
+T27	Pronoun 863 867	they
+T28	Pronoun 927 932	their
+T29	B_span 18 23	CoNLL
+T30	E_span 83 87	2016
+T31	B_span 691 694	the
+T32	E_span 768 772	2008
+T33	B_span 1030 1035	Brown
+T34	E_span 1110 1114	2015
+T35	B_span 1118 1125	VerbNet
+T36	E_span 1175 1179	2015
+T37	B_span 1185 1189	MPQA
+T38	E_span 1249 1253	2015
+T39	B_span 1263 1270	Earlier
+T40	E_span 1425 1429	text
+T41	B_span 1550 1559	extending
+T42	E_span 1628 1632	2008
+T43	B_span 1702 1707	Multi
+T44	E_span 1742 1746	2016
+T45	B_span 1752 1759	Shallow
+T46	E_span 1805 1809	2015
+T47	B_span 1819 1824	Braud
+T48	E_span 1989 1993	ones

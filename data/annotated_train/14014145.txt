@@ -1,0 +1,16 @@
+[BOS] Lots of efforts have been devoted to semisupervised methods in sequence labeling and word segmentation (Xu et al., 2008; Suzuki and Isozaki, 2008; Haffari and Sarkar, 2008; Tomanek and Hahn, 2009; Wang et al., 2011) .
+[BOS] A semisupervised method tries to find an optimal hyperplane of both annotated data and raw data, thus to result in a model with better coverage and higher accuracy.
+[BOS] Researchers have also investigated unsupervised methods in word segmentation (Zhao and Kit, 2008; Johnson and Goldwater, 2009; Mochihashi et al., 2009; Hewlett and Cohen, 2011 ).
+[BOS] An unsupervised method mines the latent distribution regularity in the raw text, and automatically induces word segmentation knowledge from it.
+[BOS] Our method also needs large amounts of external data, but it aims to leverage the knowledge in the fuzzy and sparse annotations.
+[BOS] It is fundamentally different from semi-supervised and unsupervised methods in that we aimed to excavate a totally different kind of knowledge, the natural annotations implied by the structural information in web text.
+
+[BOS] In recent years, much work has been devoted to the improvement of word segmentation in a variety of ways.
+[BOS] Typical approaches include the introduction of global training or complicated features (Zhang and Clark, 2007; Zhang and Clark, 2010) , the investigation of word internal structures (Zhao, 2009; Li, 2011) , the adjustment or adaptation of word segmentation standards (Wu, 2003; Gao et al., 2004; Jiang et al., 2009) , the integrated solution of segmentation and related tasks such as part-of-speech tagging and parsing (Zhou and Su, 2003; Zhang et al., 2003; Fung et al., 2004; Goldberg and Tsarfaty, 2008) , and the strategies of hybrid or stacked modeling (Nakagawa and Uchimoto, 2007; Kruengkrai et al., 2009; Wang et al., 2010; Sun, 2011b) .
+
+[BOS] In parsing, Pereira and Schabes (1992) proposed an extended inside-outside algorithm that infers the parameters of a stochastic CFG from a partially parsed treebank.
+[BOS] It uses partial bracketing information to improve parsing performance, but it is specific to constituency parsing, and its computational complexity makes it impractical for massive natural annotations in web text.
+[BOS] There are also work making use of word co-occurrence statistics collected in raw text or Internet n-grams to improve parsing performance (Nakov and Hearst, 2005; Pitler et al., 2010; Zhou et al., 2011; Bansal and Klein, 2011) .
+[BOS] When enriching the related work during writing, we found a work on dependency parsing (Spitkovsky et al., 2010) who utilized parsing constraints derived from hypertext annotations to improve the unsupervised dependency grammar induction.
+[BOS] Compared with their method, the strategy we proposed is formal and universal, the discriminative learning strategy and the quantitative measurement of fuzzy knowledge enable more effective utilization of the natural annotation on the Internet when adapted to parsing.
+

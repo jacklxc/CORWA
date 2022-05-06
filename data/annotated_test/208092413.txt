@@ -1,0 +1,4 @@
+[BOS] Paraphrase generation has attracted a number of different NLP approaches.
+[BOS] These have included rule-based approaches (McKeown, 1979; Meteer and Shaked, 1988 ) and data-driven methods (Madnani and Dorr, 2010) , with recently the most common approach being that the task is treated as a language translation task (Bannard and Callison-Burch, 2005; Barzilay and McKeown, 2001; Pang et al., 2003) -often performed using a bilingual corpus pivoting back and forth (Madnani and Dorr, 2010; Prakash et al., 2016; Mallinson et al., 2017) .
+[BOS] Other methods proposed include more recently the use of Deep Reinforcement Learning (Li et al., 2018) , supervised learning using sequence-to-sequence models (Gupta et al., 2018; Prakash et al., 2016) and unsupervised approaches (Bowman et al., 2016; Roy and Grangier, 2019) .
+

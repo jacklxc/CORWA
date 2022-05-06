@@ -1,0 +1,4 @@
+[BOS] Speech recognition errors, unknown sentence boundaries and disfluencies are three major problems addressed by previous work on parsing speech.
+[BOS] In this work, we focus on the problem of disfluency detection in parsing human-transcribed speech, where we assume that sentence boundaries are given and there are no word recognition errors.
+[BOS] This section reviews approaches that add special mechanisms to parsers to handle disfluencies as well as specialized disfluency detection models.
+

@@ -1,0 +1,35 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 333 338	[BOS]
+T3	Reflection 587 592	[BOS]
+T4	Single_summ 841 846	[BOS]
+T5	Single_summ 964 969	[BOS]
+T6	Single_summ 1206 1211	[BOS]
+T7	Single_summ 1445 1450	[BOS]
+T8	Single_summ 1622 1627	[BOS]
+T9	Reference 149 171	(Johnson et al., 2017)
+T10	Reference 198 221	(Cettolo et al., 2017 )
+T11	Dominant 380 400	Neubig and Hu (2018)
+T12	Dominant 847 863	Tiedemann (2018)
+T13	Dominant 1223 1245	Malaviya et al. (2017)
+T14	Dominant 1477 1503	Artetxe and Schwenk (2018)
+T15	Pronoun 99 103	they
+T16	Pronoun 110 115	their
+T17	Pronoun 660 664	they
+T18	Pronoun 827 831	this
+T19	Pronoun 976 980	this
+T20	Pronoun 1069 1071	it
+T21	Pronoun 1142 1144	it
+T22	Pronoun 1338 1340	it
+T23	Pronoun 1635 1639	they
+T24	B_span 137 138	7
+T25	E_span 166 170	2017
+T26	B_span 176 178	20
+T27	E_span 215 219	2017
+T28	B_span 380 386	Neubig
+T29	E_span 576 585	languages
+T30	B_span 847 856	Tiedemann
+T31	E_span 1192 1204	translations
+T32	B_span 1223 1231	Malaviya
+T33	E_span 1435 1442	quality
+T34	B_span 1477 1484	Artetxe
+T35	E_span 1735 1742	setting

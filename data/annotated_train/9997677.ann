@@ -1,0 +1,59 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 131 136	[BOS]
+T3	Narrative_cite 292 297	[BOS]
+T4	Reflection 452 457	[BOS]
+T5	Single_summ 666 671	[BOS]
+T6	Single_summ 827 832	[BOS]
+T7	Reflection 958 963	[BOS]
+T8	Narrative_cite 1165 1170	[BOS]
+T9	Single_summ 1385 1390	[BOS]
+T10	Transition 1609 1614	[BOS]
+T11	Reflection 1881 1886	[BOS]
+T12	Single_summ 2163 2168	[BOS]
+T13	Reference 53 78	Konstas and Lapata (2013)
+T14	Reference 83 100	Mei et al. (2016)
+T15	Dominant 137 162	Konstas and Lapata (2013)
+T16	Reference 200 219	Liang et al. (2009)
+T17	Reference 428 449	(Angeli et al., 2010)
+T18	Dominant 686 703	Mei et al. (2016)
+T19	Reference 908 925	Wen et al. (2015)
+T20	Reference 1077 1094	Wen et al. (2015)
+T21	Reference 1308 1334	(Goldberg and Nivre, 2013)
+T22	Reference 1365 1382	(He et al., 2013)
+T23	Dominant 1391 1415	Vlachos and Clark (2014)
+T24	Reference 1444 1463	(Ross et al., 2011)
+T25	Reference 2143 2160	Wen et al. (2015)
+T26	Dominant 2184 2205	Ranzato et al. (2016)
+T27	B_span 53 56	Kon
+T28	E_span 125 129	data
+T29	B_span 137 140	Kon
+T30	E_span 280 290	alignments
+T31	B_span 386 396	generalize
+T32	E_span 444 448	2010
+T33	B_span 686 688	Me
+T34	E_span 949 956	aligner
+T35	B_span 1054 1056	do
+T36	E_span 1093 1094	)
+T37	B_span 1289 1299	dependency
+T38	E_span 1333 1334	)
+T39	B_span 1339 1346	dynamic
+T40	E_span 1381 1382	)
+T41	B_span 1391 1398	Vlachos
+T42	E_span 1598 1607	utterance
+T43	B_span 2123 2127	cell
+T44	E_span 2159 2160	)
+T45	B_span 2184 2187	Ran
+T46	E_span 2439 2442	NLG
+T47	Pronoun 311 315	this
+T48	Pronoun 833 838	Their
+T49	Pronoun 979 983	they
+T50	Pronoun 1101 1106	their
+T51	Pronoun 1151 1155	this
+T52	Pronoun 1663 1667	they
+T53	Pronoun 1926 1928	it
+T54	B_span 175 187	incorporates
+T55	E_span 214 218	2009
+T56	B_span 852 865	bidirectional
+T57	E_span 920 924	2015
+T58	B_span 1437 1443	DAGGER
+T59	E_span 1458 1462	2011

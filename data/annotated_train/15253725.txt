@@ -1,0 +1,11 @@
+[BOS] Most of the DSL methods have a two phase architecture.
+[BOS] The first level is to determine the language group, the second level is to discriminate within the language group.
+[BOS] (Porta and Sancho, 2014) utilize maximum entropy models for the DSL task.
+[BOS] The first classifier determines the language group, the second works with empirically selected features that achieved best performance for the specific language group.
+[BOS] (Lui et al., 2014 ) also define a two phase approach involving a POS-tagger.
+[BOS] (Goutte et al., 2014) label the language group with a probabilistic model based on word co-occurrences in documents.
+[BOS] To discriminate at the language group level, SVM based classification is used.
+[BOS] (King et al., 2014) compare nave Bayes, logistic regression and SVM based classifiers.
+[BOS] They also preprocess the data with manually defined methods as named entity removal and English word removal.
+[BOS] (Purver, 2014) introduces a single-level approach, training a linear SVM on word and character ngrams of length 1-3.
+

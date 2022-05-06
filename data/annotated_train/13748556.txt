@@ -1,0 +1,20 @@
+[BOS] Several approaches have been proposed to train NMT models without direct parallel corpora.
+[BOS] The scenario that has been widely investigated is one where two languages have little parallel data between them but are well connected by one pivot language.
+[BOS] The most typical approach in this scenario is to independently translate from the source language to the pivot language and from the pivot language to the target language (Saha et al., 2016; Cheng et al., 2017) .
+[BOS] To improve the translation performance, Johnson et al. (2016) propose a multilingual extension of a standard NMT model and they achieve substantial improvement for language pairs without direct parallel training data.
+[BOS] Recently, motivated by the success of crosslingual embeddings, researchers begin to show interests in exploring the more ambitious scenario where an NMT model is trained from monolingual corpora only.
+[BOS] and Artetxe et al. (2017b) simultaneously propose an approach for this scenario, which is based on pre-trained cross lingual embeddings.
+[BOS] utilizes a single encoder and a single decoder for both languages.
+[BOS] The entire system is trained to reconstruct its perturbed input.
+[BOS] For cross-lingual translation, they incorporate back-translation into the training procedure.
+[BOS] Different from , Artetxe et al. (2017b) use two independent decoders with each for one language.
+[BOS] The two works mentioned above both use a single shared encoder to guarantee the shared latent space.
+[BOS] However, a concomitant defect is that the shared encoder is weak in keeping the uniqueness of each language.
+[BOS] Our work also belongs to this more ambitious scenario, and to the best of our knowledge, we are one among the first endeavors to investigate how to train an NMT model with monolingual corpora only.
+[BOS] is the translation in reversed direction.
+[BOS] D l is utilized to assess whether the hidden representation of the encoder is from the source or target language.
+[BOS] D g1 and D g2 are used to evaluate whether the translated sentences are realistic for each language respectively.
+[BOS] Z represents the shared-latent space.
+
+[BOS] 3 The Approach
+

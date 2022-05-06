@@ -1,0 +1,14 @@
+[BOS] The study presented in this paper is directly related to existing research on multi-hop reading comprehension across multiple documents (Dhingra et al., 2018; Song et al., 2018; De Cao et al., 2018; Zhong et al., 2019; Kundu et al., 2018) .
+[BOS] The method presented in this paper is similar to previous studies using GNN for multi-hop reasoning (Song et al., 2018; De Cao et al., 2018) .
+[BOS] Our novelty is that we propose to use a heterogeneous graph instead of a graph with single type of nodes to incorporate different granularity levels of information.
+[BOS] The co-attention and self-attention based encoding of multi-level information presented in each input is also inspired by the CFC model (Zhong et al., 2019) because they show the effectiveness of attention mechanisms.
+[BOS] Our model is very different from the other two studies (Dhingra et al., 2018; Kundu et al., 2018) : these two studies both explicitly score the possible reasoning paths with extra NER or coreference resolution systems while our method does not require these modules and we do multi-hop reasoning over graphs.
+[BOS] Besides these studies, our work is also related to the following research directions.
+[BOS] Multi-hop RC: There exist several different data sets that require reasoning in multiple steps in literature, for example bAbI (Weston et al., 2015) , MultiRC (Khashabi et al., 2018) and OpenBookQA (Mihaylov et al., 2018) .
+[BOS] A lot of systems have been proposed to solve the multi-hop RC problem with these data sets (Sun et al., 2018; Wu et al., 2019) .
+[BOS] However, these data sets require multi-hop reasoning over multiple sentences or multiple common knowledge while the problem we want to solve in this paper requires collecting evidences across multiple documents.
+
+[BOS] GNN for NLP: Recently, there is considerable amount of interest in applying GNN to NLP tasks and great success has been achieved.
+[BOS] For exam-ple, in neural machine translation, GNN has been employed to integrate syntactic and semantic information into encoders (Bastings et al., 2017; Marcheggiani et al., 2018) ; applied GNN to relation extraction over pruned dependency trees; the study by Yao et al. (2018) employed GNN over a heterogeneous graph to do text classification, which inspires our idea of the HDE graph; Liu et al. (2018) proposed a new contextualized neural network for sequence learning by leveraging various types of non-local contextual information in the form of information passing over GNN.
+[BOS] These studies are related to our work in the sense that we both use GNN to improve the information interaction over long context or across documents.
+

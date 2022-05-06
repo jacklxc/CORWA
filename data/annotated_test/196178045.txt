@@ -1,0 +1,18 @@
+[BOS] Generative models build dialogue systems via end-to-end training.
+[BOS] Ritter et al. (2011) first regard response generation as query-to-response translation.
+[BOS] Following that, Shang et al. (2015) implement an end-to-end dialogue system borrowing the Seq2Seq model, while Li et al. (2016b) replace the maximum likelihood criterion with maximum mutual information (MMI) to deal with the universal response issue of the seq2seq.
+
+[BOS] The retrieval-based models are another branch in building dialogue systems.
+[BOS] Ji et al. (2014) propose to apply information retrieval techniques to search for related queries and replies.
+[BOS] Zhou et al. (2016) and improve it by neural networks.
+
+[BOS] Recently, several researchers (Song et al., 2018; Li et al., 2017; Zhuang et al., 2017) propose to merge retrieval-based models and generative models.
+[BOS] Cai et al. (2018) generate the response skeleton from the retrieved results and revise the skeletons to get the response.
+[BOS] Guu et al. (2018) use the Seq2Seq model to edit a prototype from the retrieved results for text generation and leverage context lexical differences to edit prototypes for conversation.
+
+[BOS] There are some other directions to enhance generative models by adding additional information.
+[BOS] Some of them introduce the knowledge base to conversation models, which provide task-specific knowledge (Madotto et al., 2018; Wu et al., 2019) or lexical knowledge to text generation (Young et al., 2018; Parthasarathi and Pineau, 2018) .
+[BOS] Some other directions are to maintain sample-level temporary memory.
+[BOS] Weston et al. (2014) , Shang et al. (2015) , , Tian et al. (2017) and Le et al. (2018) memorize the previous utterances in a multi-round session.
+[BOS] Unlike them, our model brings in the corpus-level memory and does not rely on any external resource.
+

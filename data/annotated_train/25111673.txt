@@ -1,0 +1,31 @@
+[BOS] Among early statistical methods for AMR-to-text generation, Flanigan et al. (2016b) convert input graphs to trees by splitting re-entrances, and then translate the trees into sentences with a tree-tostring transducer.
+[BOS] Song et al. (2017) use a synchronous node replacement grammar to parse input AMRs and generate sentences at the same time.
+[BOS] Pourdamghani et al. (2016) linearize input (p / possible-01 :polarity -:ARG1 (l / look-over-06 :ARG0 (w / we) :ARG1 (a / account-01 :ARG1 (w2 / war-01 :ARG1 (c2 / country :wiki "Japan" :name (n2 / name :op1 "Japan")) :time (p2 / previous) :ARG1-of (c / call-01 :mod (s / so))) :mod (o / old)))) Lin: possible :polarity -:arg1 ( look-over :arg0 we :arg1 ( account :arg1 ( war :arg1 ( country :wiki japan :name ( name :op1 japan ) ) :time previous :arg1-of ( call :mod so ) ) :mod old ) ) Ref: we can n't look over the old accounts of the previous so-called anti-japanese war .
+[BOS] S2S: we can n't be able to account the past drawn out of japan 's entire war .
+[BOS] G2S: we can n't be able to do old accounts of the previous and so called japan war.
+[BOS] G2S+CP: we can n't look-over the old accounts of the previous so called war on japan .
+[BOS] graphs by breadth-first traversal, and then use a phrase-based machine translation system 3 to generate results by translating linearized sequences.
+
+[BOS] Prior work using graph neural networks for NLP include the use graph convolutional networks (GCN) (Kipf and Welling, 2017) for semantic role labeling , neural machine translation (Bastings et al., 2017) and graph-to-sequence learning (Xu et al., 2018) .
+[BOS] Both GCN and the graph LSTM update node states by exchanging information between neighboring nodes within each iteration.
+[BOS] However, our graph state LSTM adopts gated operations for making updates, while GCN uses a linear transformation.
+[BOS] Intuitively, the former has better learning power than the later.
+[BOS] Another major difference is that our graph state LSTM keeps a cell vector for each node to remember all history.
+[BOS] The contrast between our model with GCN is reminiscent of the contrast between RNN and CNN.
+[BOS] We leave empirical comparison of their effectiveness to future work.
+[BOS] In this work our main goal is to show that graph LSTM encoding of AMR is superior compared with sequence LSTM.
+
+[BOS] Closest to our work, modeled syntactic and discourse structures using DAG LSTM, which can be viewed as extensions to tree LSTMs (Tai et al., 2015) .
+[BOS] The state update follows the sentence order for each node, and has sequential nature.
+[BOS] Our state update is in parallel.
+[BOS] In addition, split input graphs into separate DAGs before their method can be used.
+[BOS] To our knowledge, we are the first to apply an LSTM structure to encode AMR graphs.
+
+[BOS] The recurrent information exchange mechanism in our state transition process is remotely related to the idea of loopy belief propagation (LBP) (Murphy et al., 1999) .
+[BOS] However, there are two major differences.
+[BOS] First, messages between LSTM states are gated neural node values, rather than probabilities in LBP.
+[BOS] Second, while the goal of LBP is to estimate marginal probabilities, the goal of information exchange between graph states in our LSTM is to find neural representation features, which are directly optimized by a task objective.
+
+[BOS] In addition to NMT (Gulcehre et al., 2016) , the copy mechanism has been shown effective on tasks such as dialogue (Gu et al., 2016) , summarization (See et al., 2017) and question generation (Song et al., 2018) .
+[BOS] We investigate the copy mechanism on AMR-to-text generation.
+

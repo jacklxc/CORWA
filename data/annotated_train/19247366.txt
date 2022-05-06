@@ -1,0 +1,32 @@
+[BOS] variation improve translation quality?
+[BOS] Table 3 shows final test scores for each model with statistical significance measured with paired boot-5 Recent NMT systems also commonly use sub-word units (Sennrich et al., 2016b) .
+[BOS] This may influence on the result, either negatively (less direct control over highfrequency words) or positively (more capacity to adapt to high-frequency words).
+[BOS] We leave a careful examination of these effects for future work.
+[BOS] Table 3 : Test BLEU.
+[BOS] Scores significantly (p < 0.05) better than the baseline are written in bold strap resampling (Koehn, 2004) .
+[BOS] As shown in the table, both proposed methods give significant improvements in BLEU score, with the biggest gains in English to French (+0.99) and smaller gains in German and Spanish (+0.74 and +0.40 respectively).
+[BOS] Reducing the number of parameters with fact bias gives slightly better (en-fr) or worse (en-de) BLEU score, but in those cases the results are still significantly better than the baseline.
+
+[BOS] However, BLEU is not a perfect evaluation metric.
+[BOS] In particular, we are interested in evaluating how much of the personal traits of each speaker our models capture.
+[BOS] To gain more insight into this aspect of the MT results, we devise a simple experiment.
+[BOS] For every language pair, we train a classifier (continuous bag-of-n-grams; details in Appendix C) to predict the author of each sentence on the target language part of the training set.
+[BOS] We then evaluate the classifier on the ground truth and the outputs from our 3 models (base, full bias and fact bias).
+
+[BOS] The results are reported in Figure 2 .
+[BOS] As can be seen from the figure, it is easier to predict the author of a sentence from the output of speakerspecific models than from the baseline.
+[BOS] This demonstrates that explicitly incorporating information about the author of a sentence allows for better transfer of personal traits during translations, although the difference from the ground truth demonstrates that this problem is still far from solved.
+[BOS] Appendix D shows qualitative examples of our model improving over the baseline.
+
+[BOS] Domain adaptation techniques for MT often rely on data selection (Moore and Lewis, 2010; Li et al., 2010; Wang et al., 2017) , tuning (Luong and Manning, 2015; Miceli Barone et al., 2017) , or adding domain tags to NMT input (Chu et al., 2017) .
+[BOS] There are also methods that fine-tune parameters of the model on each sentence in the test set (Li et al., 2016) , and methods that adapt based on human post-edits (Turchi et al., 2017) , although these follow our baseline adaptation strategy of tuning all parameters.
+[BOS] There are also partial update methods for transfer learning, albeit for the very different task of transfer between language pairs (Zoph et al., 2016) .
+
+[BOS] Pioneering work by Mima et al. (1997) Table 4 : Test BLEU on the Europarl corpus.
+[BOS] Scores significantly (p < 0.05) better than the baseline are written in bold rule based MT systems.
+[BOS] In the context of datadriven systems, previous work has treated specific traits such as politeness or gender as a "domain" in domain adaptation models and applied adaptation techniques such as adding a "politeness tag" to moderate politeness (Sennrich et al., 2016a) , or doing data selection to create genderspecific corpora for training (Rabinovich et al., 2017) .
+[BOS] The aforementioned methods differ from ours in that they require explicit signal (gender, politeness.
+[BOS] .
+[BOS] . )
+[BOS] for which labeling (manual or automatic) is needed, and also handle a limited number of "domains" ( 2), where our method only requires annotation of the speaker, and must scale to a much larger number of "domains" ( 1, 800).
+

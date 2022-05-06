@@ -1,0 +1,8 @@
+[BOS] EFP is one of the fundamental tasks in Information Extraction.
+[BOS] The early work on this problem has employed the rule-based approaches (Nairn et al., 2006; Saur, 2008; Lotan et al., 2013) or the machine learning approaches (with manually designed features) (Diab et al., 2009; Prabhakaran et al., 2010; De Marneffe et al., 2012; Lee et al., 2015) , or the hybrid approaches of both (Saur and Pustejovsky, 2012; Qian et al., 2015) .
+[BOS] Recently, deep learning has been applied to solve EFP.
+[BOS] (Qian et al., 2018) employ Generative Adversarial Networks (GANs) for EFP while (Rudinger et al., 2018) utilize LSTMs for both sequential and dependency representations of the input sentences.
+[BOS] Finally, deep learning has also been considered for the related tasks of EFP, including event detection (Nguyen and Grishman, 2015b; Nguyen et al., 2016b; Lu and Nguyen, 2018; Nguyen and Nguyen, 2019) , event realis classification (Mitamura et al., 2015; Nguyen et al., 2016g) , uncertainty detection (Adel and Schtze, 2017) , modal sense classification (Marasovic and Frank, 2016) and entity detection (Nguyen et al., 2016d) .
+[BOS] the current event mention has happened.
+[BOS] There are three major components in the EFP model proposed in this work, i.e., (i) sentence encoding, (ii) structure induction, and (iii) prediction.
+

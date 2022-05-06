@@ -1,0 +1,29 @@
+T1	Reflection 0 5	[BOS]
+T2	Single_summ 207 212	[BOS]
+T3	Other 375 380	[BOS]
+T4	Other 527 532	[BOS]
+T5	Other 634 639	[BOS]
+T6	Other 677 682	[BOS]
+T7	Other 826 831	[BOS]
+T8	Other 948 953	[BOS]
+T9	Other 1050 1055	[BOS]
+T10	Other 1164 1169	[BOS]
+T11	Other 1260 1265	[BOS]
+T12	Other 1465 1470	[BOS]
+T13	Transition 1581 1586	[BOS]
+T14	Single_summ 1755 1760	[BOS]
+T15	Reflection 1999 2004	[BOS]
+T16	Transition 2187 2192	[BOS]
+T17	Dominant 216 235	(Zhao et al., 2006)
+T18	Dominant 1816 1839	(Zhang and Clark, 2007)
+T19	Pronoun 384 388	this
+T20	Pronoun 1084 1088	this
+T21	Pronoun 1218 1222	this
+T22	Pronoun 1283 1287	this
+T23	Pronoun 1481 1485	this
+T24	Pronoun 1673 1675	it
+T25	Pronoun 2137 2141	they
+T26	B_span 213 215	In
+T27	E_span 372 373	6
+T28	B_span 1761 1762	A
+T29	E_span 1990 1997	Bakeoff

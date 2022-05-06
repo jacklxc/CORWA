@@ -1,0 +1,23 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 161 166	[BOS]
+T3	Narrative_cite 355 360	[BOS]
+T4	Multi_summ 577 582	[BOS]
+T5	Transition 821 826	[BOS]
+T6	Reference 96 114	(Dong et al., 2015
+T7	Reference 116 134	Luong et al., 2015
+T8	Reference 136 158	Elliott and Kdr, 2017)
+T9	Reference 324 347	(Bollmann et al., 2017)
+T10	Reference 517 548	(Martnez Alonso and Plank, 2017
+T11	Reference 550 574	Bingel and Sgaard, 2017)
+T12	Dominant 583 614	Martnez Alonso and Plank (2017)
+T13	Dominant 688 713	Bingel and S-gaard (2017)
+T14	B_span 42 51	multitask
+T15	E_span 153 157	2017
+T16	B_span 253 261	focusing
+T17	E_span 348 353	works
+T18	B_span 507 510	NLP
+T19	E_span 569 573	2017
+T20	B_span 583 590	Martnez
+T21	E_span 676 686	predictive
+T22	B_span 688 694	Bingel
+T23	E_span 809 819	predictive

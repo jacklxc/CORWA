@@ -1,0 +1,19 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 258 263	[BOS]
+T3	Multi_summ 451 456	[BOS]
+T4	Single_summ 705 710	[BOS]
+T5	Dominant 115 142	Rajadesingan and Liu (2014)
+T6	Dominant 264 287	Wiebe (2009) and (2010)
+T7	Dominant 457 476	Anand et al. (2011)
+T8	Dominant 607 628	Sridhar et al. (2015)
+T9	Dominant 711 730	Hasan and Ng (2014)
+T10	B_span 6 8	To
+T11	E_span 245 256	propagation
+T12	B_span 264 269	Wiebe
+T13	E_span 441 449	features
+T14	B_span 457 462	Anand
+T15	E_span 594 599	posts
+T16	B_span 607 614	Sridhar
+T17	E_span 699 703	them
+T18	B_span 711 716	Hasan
+T19	E_span 808 817	framework

@@ -1,0 +1,15 @@
+[BOS] One example of modifying the SCFG nonterminal set is seen in the Syntax-Augmented MT (SAMT) system of Zollmann and Venugopal (2006) .
+[BOS] In SAMT rule extraction, rules whose left-hand sides correspond exactly to a target-side parse node t retain that label in the grammar.
+[BOS] Additional nonterminal labels of the form t 1 + t 2 are created for rules spanning two adjacent parse nodes, while categorial grammar-style nonterminals t 1 /t 2 and t 1 \t 2 are used for rules spanning a partial t 1 node that is missing a t 2 node to its right or left.
+
+[BOS] These compound nonterminals in practice lead to a very large label set.
+[BOS] Probability estimates for rules with the same structure up to labeling can be combined with the use of a preference grammar (Venugopal et al., 2009) , which replaces the variant labelings with a single SCFG rule using generic "X" labels.
+[BOS] The generic rule's "preference" over possible labelings is stored as a probability distribution inside the rule for use at decoding time.
+[BOS] Preference grammars thus reduce the label set size to one for the purposes of some feature calculations -which avoids the fragmentation of rule scores due to labeling ambiguity -but the original labels persist for specifying which rules may combine with which others.
+
+[BOS] Chiang (2010) extended SAMT-style labels to both source-and target-side parses, also introducing a mechanism by which SCFG rules may apply at run time even if their labels do not match.
+[BOS] Under Chiang's soft matching constraint, a rule headed by a label A::Z may still plug into a substitution site labeled B::Y by paying additional model costs subst BA and subst Y Z .
+[BOS] This is an on-the-fly method of coarsening the effective label set on a case-by-case basis.
+[BOS] Unfortunately, it also requires tuning a separate decoder feature for each pair of source-side and each pair of target-side labels.
+[BOS] This tuning can become prohibitively complex when working with standard parser label sets, which typically contain between 30 and 70 labels on each side.
+

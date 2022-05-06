@@ -1,0 +1,32 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 113 118	[BOS]
+T3	Single_summ 330 335	[BOS]
+T4	Narrative_cite 414 419	[BOS]
+T5	Reflection 596 601	[BOS]
+T6	Narrative_cite 702 707	[BOS]
+T7	Single_summ 847 852	[BOS]
+T8	Single_summ 974 979	[BOS]
+T9	Single_summ 1121 1126	[BOS]
+T10	Single_summ 1272 1277	[BOS]
+T11	Narrative_cite 1370 1375	[BOS]
+T12	Reflection 1474 1479	[BOS]
+T13	Dominant 119 135	He et al. (2009)
+T14	Reference 460 480	(Shen et al., 2008 )
+T15	Reference 823 845	(Hasan and Ney, 2009 )
+T16	Dominant 853 873	Hasan and Ney (2009)
+T17	Dominant 1136 1152	He et al. (2008)
+T18	Reference 1390 1410	(Shen et al., 2009 )
+T19	Pronoun 268 272	this
+T20	Pronoun 336 340	They
+T21	B_span 119 121	He
+T22	E_span 407 412	model
+T23	B_span 420 423	The
+T24	E_span 474 478	2008
+T25	B_span 800 807	trigger
+T26	E_span 839 843	2009
+T27	B_span 853 858	Hasan
+T28	E_span 1111 1119	involved
+T29	B_span 1127 1134	Besides
+T30	E_span 1362 1368	larger
+T31	B_span 1387 1389	In
+T32	E_span 1463 1472	selection

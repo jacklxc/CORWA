@@ -1,0 +1,12 @@
+[BOS] Our discussion of exposure bias complements recent work that summarizes modern generative models, for example Caccia et al. (2018) and Lu et al. (2018) .
+[BOS] Shortcomings of maximum-likelihood training for sequence generation have often been discussed (Ding and Soricut, 2017; Leblond et al., 2018; Ranzato et al., 2016) , but without pointing to generalization as the key aspect.
+[BOS] An overview of recent deep reinforcement learning methods for conditional generation can be found in (Keneshloo et al., 2018) .
+[BOS] Our proposed approach follows work by Ding et al. (2017) and Tan et al. (2018) by employing both, policy and reward for exploration.
+[BOS] In contrast to them, we do not use n-gram based reward.
+[BOS] Compared to RAML (Norouzi et al., 2016) , we do not perturb the ground-truth context, but correct the policy predictions.
+[BOS] Scheduled sampling and word-dropout (Bowman et al., 2016) also apply a correction, yet one that only affects the probability of the ground-truth.
+[BOS] Chen et al. (2017) propose Bridge modules that similarly to Ding et al. (2017) can incorporate arbitrary ground-truth perturbations, yet in an objective motivated by an auxiliary KL-divergence.
+[BOS] Merity et al. (2017) have shown that generalization is crucial to language modeling, but their focus is regularizing parameters and activations.
+[BOS] Word-embeddings to measure deviations from the ground-truth have also been used by Inan et al. (2016) , yet under log-likelihood.
+[BOS] Concurrently to our work, Li et al. (2019) employ embeddings to design reward functions in abstractive summarization.
+

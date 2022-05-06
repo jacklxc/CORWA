@@ -1,0 +1,31 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 232 237	[BOS]
+T3	Narrative_cite 540 545	[BOS]
+T4	Single_summ 736 741	[BOS]
+T5	Single_summ 922 927	[BOS]
+T6	Single_summ 1090 1095	[BOS]
+T7	Transition 1356 1361	[BOS]
+T8	Transition 1479 1484	[BOS]
+T9	Reference 91 111	(Brown et al., 1992)
+T10	Reference 470 490	(Bengio et al., 2003
+T11	Reference 492 513	Mikolov et al., 2013a
+T12	Reference 515 537	Mikolov et al., 2013b)
+T13	Reference 709 734	(Ratinov and Roth, 2009 )
+T14	Dominant 742 771	Guo et al. (Guo et al., 2014)
+T15	Dominant 1106 1143	Faruqui et al. (Faruqui et al., 2015)
+T16	Pronoun 25 27	it
+T17	Pronoun 114 116	it
+T18	Pronoun 928 932	They
+T19	Pronoun 1362 1367	These
+T20	Pronoun 1498 1500	it
+T21	Pronoun 1560 1564	this
+T22	B_span 76 81	Brown
+T23	E_span 106 110	1992
+T24	B_span 419 423	word
+T25	E_span 531 536	2013b
+T26	B_span 678 683	named
+T27	E_span 728 732	2009
+T28	B_span 742 745	Guo
+T29	E_span 1083 1088	tasks
+T30	B_span 1096 1104	Moreover
+T31	E_span 1346 1354	datasets

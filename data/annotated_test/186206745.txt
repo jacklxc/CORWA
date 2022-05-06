@@ -1,0 +1,10 @@
+[BOS] The last few years have witnessed significant progress on text-based machine reading comprehension and question answering (MRC-QA) including cloze-style blank-filling tasks (Hermann et al., 2015) , open-domain QA (Yang et al., 2015) , answer span prediction (Rajpurkar et al., 2016 (Rajpurkar et al., , 2018 , and generative QA (Nguyen et al., 2016) .
+[BOS] However, all of the above datasets are confined to a single-document context per question setup.
+[BOS] Joshi et al. (2017) extended the task to the multidocument regime, with some examples requiring cross-sentence inference.
+[BOS] Earlier attempts in multi-hop MRC focused on reasoning about the relations in a knowledge base (Jain, 2016; Lin et al., 2018) or tables (Yin et al., 2015) .
+[BOS] QAngaroo WikiHop and MedHop (Welbl et al., 2017) , on the other hand, are created as natural language MRC tasks.
+[BOS] They are designed in a way such that the evidence required to answer a query could be spread across multiple documents.
+[BOS] Thus, finding some evidence requires building a reasoning chain from the query with intermediate inference steps, which poses extra difficulty for MRC-QA systems.
+[BOS] HotpotQA is another recent multi-hop dataset which focuses on four different reasoning paradigms.
+[BOS] The emergence of large-scale MRC datasets has led to innovative neural models such as coattention (Xiong et al., 2017) , bi-directional attention flow (Seo et al., 2017) , and gated attention (Dhingra et al., 2017) , all of which are metic-
+

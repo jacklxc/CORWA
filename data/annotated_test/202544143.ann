@@ -1,0 +1,104 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 498 503	[BOS]
+T3	Narrative_cite 738 743	[BOS]
+T4	Transition 1071 1076	[BOS]
+T5	Narrative_cite 1202 1207	[BOS]
+T6	Narrative_cite 1528 1533	[BOS]
+T7	Narrative_cite 1816 1821	[BOS]
+T8	Multi_summ 2082 2087	[BOS]
+T9	Transition 2315 2320	[BOS]
+T10	Transition 2599 2604	[BOS]
+T11	Narrative_cite 2662 2667	[BOS]
+T12	Reflection 2794 2799	[BOS]
+T13	Narrative_cite 3171 3176	[BOS]
+T14	Reflection 3439 3444	[BOS]
+T15	Reference 168 190	(Ji and Grishman, 2008
+T16	Reference 192 216	Liao and Grishman, 2011)
+T17	Reference 241 257	(Li et al., 2014
+T18	Reference 259 283	Yang and Mitchell, 2016)
+T19	Reference 320 347	(Nguyen and Grishman, 2015a
+T20	Reference 349 368	Nguyen et al., 2016
+T21	Reference 370 387	Chen et al., 2015
+T22	Reference 389 414	Nguyen and Grishman, 2018
+T23	Reference 416 433	Liu et al., 2018b
+T24	Reference 435 454	Lu and Nguyen, 2018
+T25	Reference 456 473	Liu et al., 2018a
+T26	Reference 475 495	Zhang et al., , 2019
+T27	Reference 585 601	(Li and Ji, 2014
+T28	Reference 603 620	Zeng et al., 2014
+T29	Reference 622 648	Nguyen and Grishman, 2015b
+T30	Reference 650 671	Miwa and Bansal, 2016
+T31	Reference 673 691	Pawar et al., 2017
+T32	Reference 693 714	Bekoulis et al., 2018
+T33	Reference 716 735	Wang et al., 2018b)
+T34	Reference 827 846	(Mintz et al., 2009
+T35	Reference 848 869	Surdeanu et al., 2012
+T36	Reference 871 887	Min et al., 2013
+T37	Reference 889 908	Angeli et al., 2014
+T38	Reference 910 927	Zeng et al., 2015
+T39	Reference 929 949	Quirk and Poon, 2017
+T40	Reference 951 967	Qin et al., 2018
+T41	Reference 969 988	Wang et al., 2018a)
+T42	Reference 1375 1398	(Chen and Vincent, 2012
+T43	Reference 1400 1425	Blessing and Schtze, 2012
+T44	Reference 1427 1442	Li et al., 2012
+T45	Reference 1444 1465	Danilova et al., 2014
+T46	Reference 1467 1486	Agerri et al., 2016
+T47	Reference 1488 1504	Hsi et al., 2016
+T48	Reference 1506 1524	Feng et al., 2016)
+T49	Reference 1669 1689	(Mayhew et al., 2017
+T50	Reference 1691 1707	Lin et al., 2018
+T51	Reference 1709 1728	Huang et al., 2019)
+T52	Reference 1922 1940	(Hsi et al., 2016)
+T53	Reference 1956 1974	(Chen and Ji, 2009
+T54	Reference 1976 1992	Kim et al., 2010
+T55	Reference 1994 2012	Qian et al., 2014)
+T56	Reference 2036 2060	(Faruqui and Kumar, 2015
+T57	Reference 2062 2079	Zou et al., 2018)
+T58	Dominant 2103 2120	(Lin et al., 2017
+T59	Dominant 2122 2141	Wang et al., 2018b)
+T60	Reference 2708 2735	(Van der Plas et al., 2011)
+T61	Reference 2762 2791	(Kozhevnikov and Titov, 2013)
+T62	Reference 2848 2872	(Prazk and Konopk, 2017)
+T63	Reference 3286 3307	(Zhang et al., 2018b)
+T64	Reference 3326 3353	(Nguyen and Grishman, 2018)
+T65	Reference 3359 3389	(Marcheggiani and Titov, 2017)
+T66	Reference 3418 3436	(Yao et al., 2019)
+T67	B_span 150 158	symbolic
+T68	E_span 215 216	)
+T69	B_span 218 223	joint
+T70	E_span 282 283	)
+T71	B_span 304 310	neural
+T72	E_span 494 495	9
+T73	B_span 564 574	supervised
+T74	E_span 734 735	)
+T75	B_span 807 814	distant
+T76	E_span 987 988	)
+T77	B_span 1235 1246	incorporate
+T78	E_span 1523 1524	)
+T79	B_span 1649 1653	name
+T80	E_span 1727 1728	)
+T81	B_span 1899 1908	bilingual
+T82	E_span 1939 1940	)
+T83	B_span 1942 1950	parallel
+T84	E_span 2011 2012	)
+T85	B_span 2016 2023	machine
+T86	E_span 2078 2079	)
+T87	B_span 2088 2094	Recent
+T88	E_span 2312 2313	.
+T89	B_span 2693 2697	word
+T90	E_span 2734 2735	)
+T91	B_span 2739 2748	bilingual
+T92	E_span 2790 2791	)
+T93	B_span 2825 2834	universal
+T94	E_span 2867 2871	2017
+T95	B_span 3266 3274	relation
+T96	E_span 3306 3307	)
+T97	B_span 3310 3315	event
+T98	E_span 3352 3353	)
+T99	B_span 3355 3357	SR
+T100	E_span 3388 3389	)
+T101	B_span 3394 3402	sentence
+T102	E_span 3435 3436	)
+T103	Pronoun 1208 1213	These
+T104	Pronoun 2255 2259	they

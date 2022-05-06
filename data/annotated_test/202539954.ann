@@ -1,0 +1,36 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 205 210	[BOS]
+T3	Narrative_cite 467 472	[BOS]
+T4	Transition 679 684	[BOS]
+T5	Reflection 864 869	[BOS]
+T6	Narrative_cite 1026 1031	[BOS]
+T7	Single_summ 1198 1203	[BOS]
+T8	Single_summ 1339 1344	[BOS]
+T9	Single_summ 1479 1484	[BOS]
+T10	Reflection 1599 1604	[BOS]
+T11	Reference 346 363	(Shi et al., 2016
+T12	Reference 365 386	Belinkov et al., 2017
+T13	Reference 388 406	Yang et al., 2019)
+T14	Reference 427 445	(Ding et al., 2017
+T15	Reference 447 464	Bau et al., 2019)
+T16	Reference 566 585	(Lubli et al., 2018
+T17	Reference 587 614	Schwarzenberg et al., 2019)
+T18	Reference 1144 1160	(Li et al., 2016
+T19	Reference 1162 1195	Alvarez-Melis and Jaakkola, 2017)
+T20	Dominant 1217 1250	Alvarez-Melis and Jaakkola (2017)
+T21	Dominant 1495 1518	Jain and Wallace (2019)
+T23	E_span 405 406	)
+T24	B_span 414 420	hidden
+T25	E_span 463 464	)
+T26	B_span 539 544	human
+T27	E_span 613 614	)
+T28	B_span 1114 1117	Seq
+T31	E_span 1194 1195	)
+T33	B_span 1217 1220	Alv
+T35	E_span 1477 1478	.
+T37	B_span 1495 1499	Jain
+T39	E_span 1597 1598	.
+T40	Pronoun 807 812	these
+T41	Pronoun 1354 1358	they
+T42	Pronoun 1619 1623	this
+T43	B_span 284 294	linguistic

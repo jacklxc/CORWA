@@ -1,0 +1,82 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 147 152	[BOS]
+T3	Narrative_cite 304 309	[BOS]
+T4	Narrative_cite 618 623	[BOS]
+T5	Single_summ 849 854	[BOS]
+T6	Single_summ 1009 1014	[BOS]
+T7	Single_summ 1111 1116	[BOS]
+T8	Reflection 1232 1237	[BOS]
+T9	Transition 1342 1347	[BOS]
+T10	Single_summ 1513 1518	[BOS]
+T11	Single_summ 1742 1747	[BOS]
+T12	Single_summ 1864 1869	[BOS]
+T13	Single_summ 2014 2019	[BOS]
+T14	Single_summ 2114 2119	[BOS]
+T15	Transition 2232 2237	[BOS]
+T16	Reflection 2504 2509	[BOS]
+T17	Transition 2614 2619	[BOS]
+T18	Reflection 2795 2800	[BOS]
+T19	Transition 2962 2967	[BOS]
+T20	Transition 3179 3184	[BOS]
+T21	Transition 3313 3318	[BOS]
+T22	Transition 3569 3574	[BOS]
+T23	Transition 3732 3737	[BOS]
+T24	Transition 3811 3816	[BOS]
+T25	Reference 403 421	Jean et al., 2015)
+T26	Reference 554 575	(Vinyals and Le, 2015
+T27	Reference 577 595	Shang et al., 2015
+T28	Reference 597 614	Xing et al., 2016
+T29	Reference 824 846	(Vinyals and Le, 2015)
+T30	Dominant 882 899	(Li et al., 2016)
+T31	Dominant 1015 1034	(Shao et al., 2017)
+T32	Dominant 1117 1134	(Wu et al., 2017)
+T33	Dominant 1519 1537	(Kim et al., 2016)
+T34	Dominant 1748 1780	(Costajussa and Fonollosa, 2016)
+T35	Reference 1892 1909	(Kim et al., 2016
+T36	Reference 1911 1942	Costajussa and Fonollosa, 2016)
+T37	Dominant 1945 1964	(Lee et al., 2016 )
+T38	Dominant 2020 2043	(Sennrich et al., 2016)
+T39	Dominant 2120 2140	(Chung et al., 2016)
+T40	Pronoun 160 164	this
+T41	Pronoun 171 173	it
+T42	Pronoun 248 253	their
+T43	Pronoun 267 272	these
+T44	Pronoun 460 464	this
+T45	Pronoun 624 628	This
+T46	Pronoun 769 771	it
+T47	Pronoun 866 870	this
+T48	Pronoun 1241 1245	this
+T49	Pronoun 1387 1392	their
+T50	Pronoun 1406 1411	these
+T51	Pronoun 1790 1794	this
+T52	Pronoun 2060 2062	it
+T53	Pronoun 2556 2560	this
+T54	Pronoun 2766 2770	they
+T55	Pronoun 2801 2805	This
+T56	Pronoun 3453 3458	their
+T57	B_span 375 381	neural
+T58	E_span 416 420	2015
+T59	B_span 509 519	generation
+T60	E_span 610 614	2016
+T61	B_span 781 789	generate
+T62	E_span 841 845	2015
+T63	B_span 883 885	Li
+T64	E_span 998 1007	responses
+T65	B_span 1016 1020	Shao
+T66	E_span 1100 1109	responses
+T67	B_span 1118 1120	Wu
+T68	E_span 1219 1229	vocabulary
+T69	B_span 1520 1523	Kim
+T70	E_span 1734 1740	matrix
+T71	B_span 1749 1759	Costajussa
+T72	E_span 1851 1862	translation
+T73	B_span 1946 1949	Lee
+T74	E_span 2007 2012	model
+T75	B_span 1893 1896	Kim
+T76	E_span 1905 1909	2016
+T77	B_span 1911 1921	Costajussa
+T78	E_span 1937 1941	2016
+T79	B_span 2021 2029	Sennrich
+T80	E_span 2103 2112	algorithm
+T81	B_span 2121 2126	Chung
+T82	E_span 2222 2229	Decoder

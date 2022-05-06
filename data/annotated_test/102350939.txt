@@ -1,0 +1,32 @@
+[BOS] The task of domain adaptation for NMT is to translate a text in-domain for which only a small number of parallel sentences is available.
+[BOS] The main idea of the work for domain adaptation is to introduce external information to help in-domain translation which may include in-domain monolingual data, meta information or out-of-domain parallel data.
+
+[BOS] To exploit in-domain monolingual data, Glehre et al. (2015) train a RNNLM on the target side monolingual data first and then use it in decoding.
+[BOS] Domhan and Hieber (2017) further extend this work by training the RNNLM part and translation part jointly.
+[BOS] Sennrich et al. (2015a) propose to conduct back translation for the monolingual target data so as to generate the corresponding parallel data.
+[BOS] Zhang and Zong (2016) employs the self-learning algorithm to generate the synthetic large-scale parallel data for NMT training.
+[BOS] To introduce meta information, Chen et al. (2016) use the topic or category information of the input text to assistant the decoder and Kobus et al. (2017) extend the generic NMT models, which are trained on a diverse set of data to, specific domains with the specialized terminology and style.
+
+[BOS] To make use of out-of-domain parallel data, Luong and Manning (2015) first train an NMT model with a large amount of out-of-domain data, then fine tune the model with in-domain data.
+[BOS] Wang et al. (2017a) select sentence pairs from the outof-domain data set according to their similarity to the in-domain data and then add them to the indomain training data.
+[BOS] Chu et al. (2017) construct the training data set for the NMT model by combining out-of-domain data with the over-sampled in-domain data.
+[BOS] Wang et al. (2017b) combine the in-domain and out-of-domain data together as the training data but apply instance weighting to get a weight for each sentence pair in the out-of-domain data which is used in the parameter updating during back propagation.
+[BOS] Britz et al. (2017) employ a common encoder to encode the sentences from both the in-domain and out-of-domain data and meanwhile add a discriminator to the encoder to make sure that only domain-invariant information is transferred to the decoder.
+[BOS] They focus on the situation that the quantity of the out-of-domain data is almost the same as the in-domain data while our method can handle more generic situations and there is no specific demand for the ratio of the quantity between the in-domain and out-ofdomain data.
+[BOS] Besides, our method employs a private encoder-decoder for each domain which can hold the domain-specific features.
+[BOS] In addition to the common encoder, Zeng et al. (2018) further introduce a domain-specific encoder to each domain together with a domain-specific classifier to ensure the features extracted by the domain-specific encoder is proper.
+[BOS] Compared to our method, they focus on the encoder and do not distinguish the information in the decoder.
+
+[BOS] Adversarial Networks have achieved great success in some areas (Ganin et al., 2016; Goodfellow et al., 2014) .
+[BOS] Inspired by these work, we also employ a domain discriminator to extract some domain invariant features which has already shown its effectiveness in some related NLP tasks.
+[BOS] Chen et al. (2017) use a classifier to exploit the shared information between different Chinese word segment criteria.
+[BOS] Gui et al. (2017) tries to learn common features of the out-domain data and indomain data through adversarial discriminator for the part-of-speech tagging problem.
+[BOS] Kim et al. (2017) train a cross-lingual model with languageadversarial training to generate the general information across different languages for the POS tagging problem.
+[BOS] All these work try to utilize a discriminator to distinguish invariant features across the divergence.
+
+[BOS] .
+[BOS] .
+[BOS] .
+
+[BOS] The architecture of the attention-based NMT.
+

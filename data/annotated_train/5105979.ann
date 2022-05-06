@@ -1,0 +1,31 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 91 96	[BOS]
+T3	Transition 303 308	[BOS]
+T4	Single_summ 537 542	[BOS]
+T5	Single_summ 732 737	[BOS]
+T6	Single_summ 875 880	[BOS]
+T7	Single_summ 1020 1025	[BOS]
+T8	Multi_summ 1224 1229	[BOS]
+T9	Multi_summ 1385 1390	[BOS]
+T10	Single_summ 1560 1565	[BOS]
+T11	Single_summ 1871 1876	[BOS]
+T12	Single_summ 1996 2001	[BOS]
+T13	Single_summ 2089 2094	[BOS]
+T14	Single_summ 2223 2228	[BOS]
+T15	Single_summ 2387 2392	[BOS]
+T16	Dominant 543 562	(Ratnaparkhi, 1999)
+T17	Dominant 1295 1310	(Collins, 1997)
+T18	Dominant 1313 1327	(Gildea, 2001)
+T19	Dominant 1566 1579	Gildea (2001)
+T20	Dominant 1877 1904	(Roark and Bacchiani, 2003)
+T21	Reference 2294 2308	(Gildea, 2001)
+T22	B_span 544 555	Ratnaparkhi
+T23	E_span 1208 1220	respectively
+T24	B_span 1230 1232	In
+T25	E_span 1550 1558	accuracy
+T26	B_span 1566 1572	Gildea
+T27	E_span 1863 1869	corpus
+T28	B_span 1878 1883	Roark
+T29	E_span 2598 2605	domains
+T30	B_span 2253 2264	improvement
+T31	E_span 2303 2307	2001

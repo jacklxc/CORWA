@@ -1,0 +1,75 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 143 148	[BOS]
+T3	Narrative_cite 303 308	[BOS]
+T4	Single_summ 525 530	[BOS]
+T5	Single_summ 907 912	[BOS]
+T6	Transition 1047 1052	[BOS]
+T7	Reflection 1299 1304	[BOS]
+T8	Narrative_cite 1394 1399	[BOS]
+T9	Reflection 1889 1894	[BOS]
+T10	Reflection 2000 2005	[BOS]
+T11	Narrative_cite 2135 2140	[BOS]
+T12	Reflection 2422 2427	[BOS]
+T13	Reflection 2573 2578	[BOS]
+T14	Narrative_cite 2678 2683	[BOS]
+T15	Transition 3015 3020	[BOS]
+T16	Reflection 3192 3197	[BOS]
+T17	Transition 3260 3265	[BOS]
+T18	Reflection 3420 3425	[BOS]
+T19	Reference 388 406	(Wang et al., 2005
+T20	Reference 408 431	Soricut and Marcu, 2006
+T21	Reference 433 454	Woodsend et al., 2010
+T22	Reference 456 478	Alfonseca et al., 2013
+T23	Reference 480 496	Sun et al., 2015
+T24	Reference 498 522	Colmenares et al., 2015)
+T25	Dominant 557 575	Rush et al. (2015)
+T26	Reference 746 766	(Chopra et al., 2016
+T27	Reference 768 787	Takase et al., 2016
+T28	Reference 789 808	Kiyono et al., 2017
+T29	Reference 810 827	Zhou et al., 2017
+T30	Reference 829 847	Ayana et al., 2017
+T31	Reference 849 868	Raffel et al., 2017
+T32	Reference 870 886	Cao et al., 2018
+T33	Reference 888 904	Kobayashi, 2018)
+T34	Reference 1536 1555	(Farra et al., 2014
+T35	Reference 1557 1575	Hasan et al., 2015
+T36	Reference 1577 1597	Etoori et al., 2018)
+T37	Reference 1629 1652	(Dahlmeier and Ng, 2012
+T38	Reference 1654 1674	Susanto et al., 2014
+T39	Reference 1676 1700	Choshen and Abend, 2018)
+T40	Reference 1717 1735	(Baly et al., 2018
+T41	Reference 1737 1761	Thorne and Vlachos, 2018
+T42	Reference 1763 1780	Lee et al., 2018)
+T43	Reference 1802 1833	(Vadlapudi and Katragadda, 2010
+T44	Reference 1835 1855	Heilman et al., 2014
+T45	Reference 1857 1875	Kann et al., 2018)
+T46	Reference 2196 2219	(Denkowski et al., 2014
+T47	Reference 2221 2247	Gonzlez-Rubio et al., 2016
+T48	Reference 2249 2269	Wuebker et al., 2016
+T49	Reference 2271 2286	Ye et al., 2016
+T50	Reference 2288 2308	Takeno et al., 2017)
+T51	Reference 2844 2868	(Higurashi et al., 2018)
+T52	Reference 2915 2934	(Wang et al., 2018)
+T54	B_span 309 313	News
+T55	E_span 517 521	2015
+T56	B_span 557 561	Rush
+T57	E_span 1040 1045	pairs
+T58	B_span 680 692	consequently
+T59	E_span 899 903	2018
+T60	B_span 1510 1518	spelling
+T61	E_span 1592 1596	2018
+T62	B_span 1600 1611	grammatical
+T63	E_span 1695 1699	2018
+T64	B_span 1703 1707	fact
+T65	E_span 1775 1779	2018
+T66	B_span 1783 1790	fluency
+T67	E_span 1870 1874	2018
+T68	B_span 2168 2175	machine
+T69	E_span 2303 2307	2017
+T70	B_span 2795 2803	question
+T71	E_span 2863 2867	2018
+T72	B_span 2875 2882	product
+T73	E_span 2929 2933	2018
+T74	B_span 2945 2954	headlines
+T53	Reference 2982 3012	Camargo de Souza et al., 2018)
+T75	E_span 3007 3011	2018

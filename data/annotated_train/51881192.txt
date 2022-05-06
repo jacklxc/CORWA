@@ -1,0 +1,25 @@
+[BOS] While argument mining research has traditionally focused on determining the argumentative structure of a text document (i.e., identifying its major claim, claims, and premises, as well as the relationships between these argument components) Gurevych, 2014b, 2017a; Eger et al., 2017) , researchers have recently begun to study new argument mining tasks, as described below.
+
+[BOS] Persuasiveness-related tasks.
+[BOS] Most related to our study is work involving argument persuasiveness.
+[BOS] For instance, Habernal and Gurevych (2016b) and Wei et al. (2016) study the persuasiveness ranking task, where the goal is to rank two internet debate arguments written for the same topic w.r.t.
+[BOS] their persuasiveness.
+[BOS] As noted by Habernal and Gurevych, ranking arguments is a relatively easier task than scoring an argument's persuasiveness: in ranking, a system simply determines whether one argument is more persuasive than the other, but not how much more persuasive one argument is than the other; in scoring, however, a system has to determine how persuasive an argument is on an absolute scale.
+[BOS] Note that ranking is not an acceptable evaluation setting for studying argument persuasiveness in the essay domain, as feedback for an essay has to be provided independently of other essays.
+
+[BOS] In contrast, there are studies that focus on factors affecting argument persuasiveness in internet debates.
+[BOS] For instance, Lukin et al. (2017) examine how audience variables (e.g., personalities) interact with argument style (e.g., factual vs. emotional arguments) to affect argument persuasive- ness.
+[BOS] Persing and Ng (2017) identify factors that negatively impact persuasiveness, so their factors, unlike ours, cannot explain what makes an argument persuasive.
+[BOS] Other argument mining tasks.
+[BOS] Some of the attributes that we annotate our corpus with have been studied.
+[BOS] For instance, Hidey et al. (2017) examine the different semantic types of claims and premises, whereas Higgins and Walker (2012) investigate persuasion strategies (i.e., ethos, pathos, logos).
+[BOS] Unlike ours, these studies use data from online debate forums and social/environment reports.
+[BOS] Perhaps more importantly, they study these attributes independently of persuasiveness.
+
+[BOS] Several argument mining tasks have recently been proposed.
+[BOS] For instance, Stab and Gurevych (2017b) examine the task of whether an argument is sufficiently supported.
+[BOS] Al Khatib et al. (2016) identify and annotate a news editorial corpus with fine-grained argumentative discourse units for the purpose of analyzing the argumentation strategies used to persuade readers.
+[BOS] Wachsmuth et al. (2017) focus on identifying and annotating 15 logical, rhetorical, and dialectical dimensions that would be useful for automatically accessing the quality of an argument.
+[BOS] Most recently, the Argument Reasoning Comprehension task organized as part of SemEval 2018 has focused on selecting the correct warrant that explains reasoning of an argument that consists of a claim and a reason.
+[BOS] 2
+

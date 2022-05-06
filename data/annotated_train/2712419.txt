@@ -1,0 +1,16 @@
+[BOS] The effectiveness of our beam-search decoder showed that the joint segmentation and tagging problem may be less complex than previously perceived (Zhang and Clark, 2008; Jiang et al., 2008a) .
+[BOS] At the very least, the single model approach with a simple decoder achieved competitive accuracies to what has been achieved so far by the reranking (Shi and Wang, 2007; Jiang et al., 2008b) models and an ensemble model using machine-translation techniques (Jiang et al., 2008a) .
+[BOS] This may shed new light on joint segmentation and POS-tagging methods.
+[BOS] Kruengkrai et al. (2009) and Zhang and Clark (2008) are the most similar to our system among related work.
+[BOS] Both systems use a discriminatively trained linear model to score candidate outputs.
+[BOS] The work of Kruengkrai et al. (2009) is based on Nakagawa and Uchimoto (2007), which separates the processing of known words and unknown words, and uses a set of segmentation tags to represent the segmentation of characters.
+[BOS] In contrast, our model is conceptually simpler, and does not differentiate known words and unknown words.
+[BOS] Moreover, our model is based on our previous work, in line with Zhang and Clark (2007) , which does not treat word segmentation as character sequence labeling.
+
+[BOS] Our learning and decoding algorithms are also different from Kruengkrai et al. (2009) .
+[BOS] While Kruengkrai et al. (2009) perform dynamic programming and MIRA learning, we use beam-search to perform incremental decoding, and the early-update version of the perceptron algorithm to train the model.
+[BOS] Dynamic programming is exact inference, for which the time complexity is decided by the locality of feature templates.
+[BOS] In contrast, beam-search is approximate and can run in linear time.
+[BOS] The parameter updating for our algorithm is conceptually and computationally simpler than MIRA, though its performance can be slightly lower.
+[BOS] However, the earlyupdate mechanism we use is consistent with our incremental approach, and improves the learning of the beam-search process.
+

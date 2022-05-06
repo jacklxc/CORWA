@@ -1,0 +1,20 @@
+[BOS] Approximate methods based on beam search and cube-pruning have been widely studied for phrasebased (Koehn et al., 2003; Tillmann and Ney, 2003; Tillmann, 2006) and syntax-based translation models (Chiang, 2007; Huang and Chiang, 2007; Watanabe et al., 2006; Huang and Mi, 2010) .
+
+[BOS] There is a line of work proposing exact algorithms for machine translation decoding.
+[BOS] Exact decoders are often slow in practice, but help quantify the errors made by other methods.
+[BOS] Exact algorithms proposed for IBM model 4 include ILP (Germann et al., 2001) , cutting plane (Riedel and Clarke, 2009) , and multi-pass A* search (Och et al., 2001) .
+[BOS] Zaslavskiy et al. (2009) formulate phrase-based decoding as a traveling salesman problem (TSP) and use a TSP decoder.
+[BOS] Exact decoding algorithms based on finite state transducers (FST) (Iglesias et al., 2009 ) have been studied on phrase-based models with limited reordering (Kumar and Byrne, 2005) .
+[BOS] Exact decoding based on FST is also feasible for certain hierarchical grammars (de Gispert et al., 2010) .
+[BOS] Chang
+
+[BOS] Input:  1 .
+[BOS] .
+[BOS] .
+[BOS]  K sequence of subgradient rates  1 .
+[BOS] .
+[BOS] .
+[BOS]  K sequence of pruning parameters Output: optimal constrained score or lower bound Apart from translation decoding, this paper is closely related to work on column generation for NLP.
+[BOS] Riedel et al. (2012) and Belanger et al. (2012) relate column generation to beam search and produce exact solutions for parsing and tagging problems.
+[BOS] The latter work also gives conditions for when beam search-style decoding is optimal.
+

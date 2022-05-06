@@ -1,0 +1,47 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 99 104	[BOS]
+T3	Narrative_cite 247 252	[BOS]
+T4	Single_summ 401 406	[BOS]
+T5	Narrative_cite 613 618	[BOS]
+T6	Reflection 743 748	[BOS]
+T7	Narrative_cite 850 855	[BOS]
+T8	Transition 980 985	[BOS]
+T9	Single_summ 1091 1096	[BOS]
+T10	Single_summ 1227 1232	[BOS]
+T11	Reflection 1324 1329	[BOS]
+T12	Narrative_cite 1404 1409	[BOS]
+T13	Reflection 1566 1571	[BOS]
+T14	Reference 151 167	(Yarowsky, 1995)
+T15	Reference 218 244	(Collins and Singer, 1999)
+T16	Reference 265 290	(Blum and Mitchell, 1998)
+T17	Reference 322 348	(Collins and Singer, 1999)
+T18	Dominant 407 432	Whitney and Sarkar (2012)
+T19	Reference 523 547	Subramanya et al. (2010)
+T20	Reference 701 714	(Riloff, 1996
+T21	Reference 716 740	Thelen and Riloff, 2002)
+T22	Reference 910 934	(Chiticariu et al., 2013
+T23	Reference 936 954	Fader et al., 2011
+T24	Reference 956 977	Etzioni et al., 2005)
+T25	Dominant 1107 1131	Gupta and Manning (2014)
+T26	Reference 1512 1537	(Haghighi and Klein, 2006
+T27	Reference 1539 1562	Ratinov and Roth, 2009)
+T28	B_span 105 115	Yarowsky's
+T29	E_span 162 166	1995
+T30	B_span 204 217	bootstrapping
+T31	E_span 239 243	1999
+T32	B_span 253 255	Co
+T33	E_span 285 289	1998
+T34	B_span 299 310	boostrapped
+T35	E_span 343 347	1999
+T36	B_span 407 414	Whitney
+T37	E_span 600 610	adaptation
+T38	B_span 482 487	label
+T39	E_span 548 557	algorithm
+T40	B_span 656 668	bootstrapped
+T41	E_span 735 739	2002
+T42	B_span 856 863	Pattern
+T43	E_span 972 976	2005
+T44	B_span 1107 1112	Gupta
+T45	E_span 1316 1322	scores
+T46	B_span 1446 1450	word
+T47	E_span 1557 1561	2009

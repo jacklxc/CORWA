@@ -1,0 +1,54 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 219 224	[BOS]
+T3	Narrative_cite 711 716	[BOS]
+T4	Narrative_cite 1027 1032	[BOS]
+T5	Multi_summ 1397 1402	[BOS]
+T6	Single_summ 1539 1544	[BOS]
+T7	Reference 395 419	(Rajpurkar et al., 2016)
+T8	Reference 447 464	(Yu et al., 2016)
+T9	Reference 579 597	(Seo et al., 2016)
+T10	Reference 616 637	(Vinyals et al., 2015
+T11	Reference 639 660	Wang and Jiang, 2016)
+T12	Reference 687 707	(Xiong et al., 2016)
+T13	Reference 841 860	Xiong et al., 2016)
+T14	Reference 899 919	(Chung et al., 2014)
+T15	Reference 923 940	(Yu et al., 2016)
+T16	Reference 957 979	(Wang and Jiang, 2016)
+T17	Reference 1005 1023	(Seo et al., 2016)
+T18	Reference 1071 1093	(Bahdanau et al., 2014
+T19	Reference 1095 1111	Xu et al., 2015)
+T20	Reference 1163 1183	(Kadlec et al., 2016
+T21	Reference 1185 1205	Sordoni et al., 2016
+T22	Reference 1207 1227	Wang and Jiang, 2016
+T23	Reference 1229 1245	Yu et al., 2016)
+T24	Dominant 1403 1420	Cui et al. (2016)
+T25	Dominant 1423 1442	Xiong et al. (2016)
+T26	Dominant 1545 1562	Seo et al. (2016)
+T27	B_span 375 386	constituent
+T28	E_span 414 418	2016
+T29	B_span 424 428	part
+T30	E_span 459 463	2016
+T31	B_span 574 578	LSTM
+T32	E_span 592 596	2016
+T33	B_span 600 607	pointer
+T34	E_span 655 659	2016
+T35	B_span 663 670	dynamic
+T36	E_span 702 706	2016
+T37	B_span 833 837	LSTM
+T38	E_span 855 859	2016
+T39	B_span 863 865	bi
+T40	E_span 914 918	2014
+T41	B_span 920 922	in
+T42	E_span 935 939	2016
+T43	B_span 948 949	-
+T44	E_span 974 978	2016
+T45	B_span 982 984	bi
+T46	E_span 1018 1022	2016
+T47	B_span 1057 1060	the
+T48	E_span 1106 1110	2015
+T49	B_span 1132 1136	word
+T50	E_span 1240 1244	2016
+T51	B_span 1403 1406	Cui
+T52	E_span 1528 1537	summaries
+T53	B_span 1545 1548	Seo
+T54	E_span 1667 1680	summarization

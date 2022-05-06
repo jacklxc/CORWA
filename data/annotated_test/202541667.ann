@@ -1,0 +1,62 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 125 130	[BOS]
+T3	Narrative_cite 326 331	[BOS]
+T4	Single_summ 630 635	[BOS]
+T5	Single_summ 796 801	[BOS]
+T6	Single_summ 974 979	[BOS]
+T7	Single_summ 1130 1135	[BOS]
+T8	Single_summ 1235 1240	[BOS]
+T9	Narrative_cite 1398 1403	[BOS]
+T10	Single_summ 1553 1558	[BOS]
+T11	Single_summ 1764 1769	[BOS]
+T12	Single_summ 1938 1943	[BOS]
+T13	Single_summ 2158 2163	[BOS]
+T14	Narrative_cite 2327 2332	[BOS]
+T15	Transition 2519 2524	[BOS]
+T16	Reference 246 266	(Kong and Zhou, 2010
+T17	Reference 268 285	Chen and Ng, 2013
+T18	Reference 287 304	Park et al., 2015
+T19	Reference 306 323	Yin et al., 2017)
+T20	Reference 446 469	(Chung and Gildea, 2010
+T21	Reference 471 496	Le Nagard and Koehn, 2010
+T22	Reference 498 516	Taira et al., 2012
+T23	Reference 518 537	Xiang et al., 2013)
+T24	Dominant 668 686	Wang et al. (2016)
+T26	Dominant 990 1009	Wang et al. (2018b)
+T27	Reference 1494 1512	(Wang et al., 2017
+T28	Reference 1514 1532	Jean et al., 2017a
+T29	Reference 1534 1550	Tu et al., 2018)
+T30	Dominant 1559 1577	Wang et al. (2017)
+T31	Dominant 1770 1789	Jean et al. (2017a)
+T32	Dominant 1953 1969	Tu et al. (2018)
+T33	Reference 2455 2474	(Jean et al., 2017b
+T34	Reference 2476 2495	Bawden et al., 2018
+T35	Reference 2497 2516	Voita et al., 2018)
+T36	B_span 199 201	ZP
+T37	E_span 322 323	)
+T38	B_span 356 363	results
+T39	E_span 536 537	)
+T40	B_span 636 638	To
+T41	E_span 972 973	.
+T42	B_span 985 989	that
+T44	B_span 1438 1445	context
+T47	E_span 1549 1550	)
+T48	B_span 1559 1563	Wang
+T49	E_span 1762 1763	.
+T50	B_span 1770 1774	Jean
+T51	E_span 1936 1937	.
+T52	B_span 1953 1955	Tu
+T53	E_span 2325 2326	.
+T54	B_span 2401 2408	context
+T57	E_span 2515 2516	)
+T58	Pronoun 847 851	they
+T59	Pronoun 1145 1149	this
+T60	Pronoun 1250 1254	this
+T61	Pronoun 1286 1288	it
+T62	Pronoun 2164 2168	They
+T63	Pronoun 2525 2529	They
+T64	Reference 932 949	Wang et al., 2016
+T65	B_span 912 923	translation
+T25	Reference 951 971	Wang et al., , 2018a
+T66	E_span 966 971	2018a
+T67	E_span 1387 1395	practice

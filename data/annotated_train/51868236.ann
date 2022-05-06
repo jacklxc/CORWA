@@ -1,0 +1,33 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 146 151	[BOS]
+T3	Narrative_cite 202 207	[BOS]
+T4	Narrative_cite 321 326	[BOS]
+T5	Single_summ 492 497	[BOS]
+T6	Single_summ 564 569	[BOS]
+T7	Single_summ 649 654	[BOS]
+T8	Reflection 804 809	[BOS]
+T9	Single_summ 933 938	[BOS]
+T10	Narrative_cite 1113 1118	[BOS]
+T11	Reflection 1376 1381	[BOS]
+T12	Reflection 1444 1449	[BOS]
+T13	Reference 130 143	(Koehn, 2009)
+T14	Reference 301 318	(Wu et al., 2016)
+T15	Reference 454 470	(Tu et al., 2016
+T16	Reference 472 488	Mi et al., 2016)
+T17	Dominant 545 561	Wu et al. (2016)
+T18	Dominant 1034 1050	Wu et al. (2016)
+T19	Reference 1210 1229	(Britz et al., 2017
+T20	Reference 1231 1246	Tu et al., 2017
+T21	Reference 1248 1272	Koehn and Knowles, 2017)
+T22	B_span 98 109	statistical
+T23	E_span 138 142	2009
+T24	B_span 270 275	short
+T25	E_span 313 317	2016
+T26	B_span 427 434	require
+T27	E_span 483 487	2016
+T28	B_span 498 505	Perhaps
+T29	E_span 801 802	1
+T30	B_span 1034 1036	Wu
+T31	E_span 1103 1110	outputs
+T32	B_span 1119 1127	Previous
+T34	E_span 1267 1271	2017

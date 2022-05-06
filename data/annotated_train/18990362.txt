@@ -1,0 +1,16 @@
+[BOS] Although there have been many researchers who analyzed errors in their own systems in the experiments, there has been little research which focused on error analysis itself.
+
+[BOS] In the field of parsing, McDonald and Nivre (2007) compared parsing errors between graphbased and transition-based parsers.
+[BOS] They considered accuracy transitions from various points of view, and the obtained statistical data suggested that error propagation seemed to occur in the graph structures of parsing outputs.
+[BOS] Our research proceeded one step further and attempted to reveal the nature of the propagations.
+[BOS] In examining the combination of the two types of parsing, they utilized approaches similar to our method for capturing inter-dependencies of errors.
+[BOS] They allowed a parser to give only structures produced by the parsers and utilized the ideas for evaluating the parser's potentials, whereas we utilized it for observing error propagations.
+[BOS] Dredze et al. (2007) showed that many of the parsing errors in domain adaptation tasks may come from inconsistencies between the annotations of training resources.
+[BOS] This would suggest that just error comparisons without considering the inconsistencies could lead to a misunder-standing of what happens in domain transitions.
+[BOS] The summarized error cause categories and interdependencies given by our methods would be useful clues for extracting such domain-dependent error phenomena.
+
+[BOS] When we look into other research areas in natural language processing, Gimnez and Mrquez (2008) proposed an automatic error analysis approach in machine translation (MT) technologies.
+[BOS] They developed a metric set which could capture features in MT outputs at different linguistic levels with different levels of granularity.
+[BOS] Like we considered parsing systems, they explored ways to resolve costly and rewardless error analysis in the MT field.
+[BOS] One of their objectives was to enable researchers to easily obtain detailed linguistic reports on the behavior of their systems, and to concentrate on analyses for the system improvements.
+

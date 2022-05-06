@@ -1,0 +1,53 @@
+[BOS] Relation Extraction Relation extraction (RE) is an important sub-field of information extraction.
+[BOS] General research in this field usually works on a (small) pre-defined relation set, where given a text paragraph and two target entities, the goal is to determine whether the text indicates any types of relations between the entities or not.
+[BOS] As a result RE is usually formulated as a classification task.
+[BOS] Traditional RE methods rely on large amount of hand-crafted features (Zhou et al., 2005; Rink and Harabagiu, 2010; Sun et al., 2011) .
+[BOS] Recent research benefits a lot from the advancement of deep learning: from word embeddings (Nguyen and Grishman, 2014; Gormley et al., 2015) to deep networks like CNNs and LSTMs (Zeng et al., 2014; dos Santos et al., 2015; Vu et al., 2016) and attention models .
+
+[BOS] The above research assumes there is a fixed (closed) set of relation types, thus no zero-shot learning capability is required.
+[BOS] The number of relations is usually not large: The widely used ACE2005 has 11/32 coarse/fine-grained relations; SemEval2010 Task8 has 19 relations; TAC-KBP2015 has 74 relations although it considers open-domain Wikipedia relations.
+[BOS] All are much fewer than thousands of relations in KBQA.
+[BOS] As a result, few work in this field focuses on dealing with large number of relations or unseen relations.
+[BOS] Yu et al. (2016) proposed to use relation embeddings in a low-rank tensor method.
+[BOS] However their relation embeddings are still trained in supervised way and the number of relations is not large in the experiments.
+
+[BOS] Relation Detection in KBQA Systems Relation detection for KBQA also starts with featurerich approaches Bast and Haussmann, 2015) towards usages of deep networks (Yih et al., 2015; Dai et al., 2016 ) and attention models (Yin et al., 2016; Golub and He, 2016 (Bordes et al., 2013) ), like (Dai et al., 2016) ; (2) factorize the relation names to sequences and formulate relation detection as a sequence matching and ranking task.
+[BOS] Such factorization works because that the relation names usually comprise meaningful word sequences.
+[BOS] For example, Yin et al. (2016) split relations to word sequences for single-relation detection.
+[BOS] Liang et al. (2016) also achieve good performance on WebQSP with wordlevel relation representation in an end-to-end neural programmer model.
+[BOS] Yih et al. (2015) use character tri-grams as inputs on both question and relation sides.
+[BOS] Golub and He (2016) propose a generative framework for single-relation KBQA which predicts relation with a character-level sequenceto-sequence model.
+
+[BOS] Another difference between relation detection in KBQA and general RE is that general RE research assumes that the two argument entities are both available.
+[BOS] Thus it usually benefits from features (Nguyen and Grishman, 2014; Gormley et al., 2015) or attention mechanisms based on the entity information (e.g. entity types or entity embeddings).
+[BOS] For relation detection in KBQA, such information is mostly missing because: (1) one question usually contains single argument (the topic entity) and (2) one KB entity could have multiple types (type vocabulary size larger than 1,500).
+[BOS] This makes KB entity typing itself a difficult problem so no previous used entity information in the relation detection model.
+[BOS] 3
+
+[BOS] 3 Background: Different Granularity in KB Relations
+
+[BOS] Previous research (Yih et al., 2015; Yin et al., 2016) formulates KB relation detection as a sequence matching problem.
+[BOS] However, while the questions are natural word sequences, how to represent relations as sequences remains a challenging problem.
+[BOS] Here we give an overview of two types of relation sequence representations commonly used in previous work.
+
+[BOS] (1) Relation Name as a Single Token (relationlevel).
+[BOS] In this case, each relation name is treated as a unique token.
+[BOS] The problem with this approach is that it suffers from the low relation coverage due to limited amount of training data, thus cannot generalize well to large number of opendomain relations.
+[BOS] For example, in Figure 1 , when treating relation names as single tokens, it will be difficult to match the questions to relation names "episodes written" and "starring roles" if these names do not appear in training data -their relation embeddings h r s will be random vectors thus are not comparable to question embeddings h q s.
+
+[BOS] (2) Relation as Word Sequence (word-level).
+[BOS] In this case, the relation is treated as a sequence of words from the tokenized relation name.
+[BOS] It has better generalization, but suffers from the lack of global information from the original relation names.
+[BOS] For example in Figure 1 (b), when doing only word-level matching, it is difficult to rank the target relation "starring roles" higher compared to the incorrect relation "plays produced".
+[BOS] This is because the incorrect relation contains word "plays", which is more similar to the question Table 1 : An example of KB relation (episodes written) with two types of relation tokens (relation names and words), and two questions asking this relation.
+[BOS] The topic entity is replaced with token <e> which could give the position information to the deep networks.
+[BOS] The italics show the evidence phrase for each relation token in the question.
+
+[BOS] (containing word "play") in the embedding space.
+
+[BOS] On the other hand, if the target relation co-occurs with questions related to "tv appearance" in training, by treating the whole relation as a token (i.e. relation id), we could better learn the correspondence between this token and phrases like "tv show" and "play on".
+[BOS] The two types of relation representation contain different levels of abstraction.
+[BOS] As shown in Table 1 , the word-level focuses more on local information (words and short phrases), and the relation-level focus more on global information (long phrases and skip-grams) but suffer from data sparsity.
+[BOS] Since both these levels of granularity have their own pros and cons, we propose a hierarchical matching approach for KB relation detection: for a candidate relation, our approach matches the input question to both word-level and relation-level representations to get the final ranking score.
+[BOS] Section 4 gives the details of our proposed approach.
+

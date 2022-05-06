@@ -1,0 +1,48 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 128 133	[BOS]
+T3	Transition 233 238	[BOS]
+T4	Narrative_cite 353 358	[BOS]
+T5	Single_summ 463 468	[BOS]
+T6	Single_summ 613 618	[BOS]
+T7	Transition 842 847	[BOS]
+T8	Transition 957 962	[BOS]
+T9	Transition 1084 1089	[BOS]
+T10	Transition 1186 1191	[BOS]
+T11	Narrative_cite 1304 1309	[BOS]
+T12	Transition 1399 1404	[BOS]
+T13	Transition 1538 1543	[BOS]
+T14	Transition 1686 1691	[BOS]
+T15	Single_summ 1747 1752	[BOS]
+T16	Narrative_cite 1928 1933	[BOS]
+T17	Transition 2043 2048	[BOS]
+T18	Single_summ 2173 2178	[BOS]
+T19	Single_summ 2278 2283	[BOS]
+T20	Narrative_cite 2370 2375	[BOS]
+T21	Reference 439 460	(Sajjad et al., 2017)
+T22	Dominant 469 493	Luong and Manning (2015)
+T23	Reference 1374 1396	(Axelrod et al., 2011)
+T24	Dominant 1753 1772	Wang et al. (2017a)
+T25	Reference 2001 2020	(Wang et al., 2017b
+T26	Reference 2022 2040	Chen et al., 2017)
+T27	Dominant 2179 2198	Wang et al. (2017b)
+T28	Reference 2235 2257	(Axelrod et al., 2011)
+T29	Dominant 2284 2302	Chen et al. (2017)
+T30	Reference 2558 2578	(Kobus et al., 2017)
+T31	B_span 359 362	For
+T32	E_span 455 459	2017
+T33	B_span 469 474	Luong
+T34	E_span 836 840	data
+T35	B_span 1325 1333	language
+T36	E_span 1391 1395	2011
+T37	B_span 1753 1757	Wang
+T38	E_span 1922 1926	data
+T39	B_span 1959 1967	sentence
+T40	E_span 2035 2039	2017
+T41	B_span 2179 2183	Wang
+T42	E_span 2267 2276	sentences
+T43	B_span 2210 2212	in
+T44	E_span 2252 2256	2011
+T45	B_span 2284 2288	Chen
+T46	E_span 2363 2368	pairs
+T47	B_span 2495 2502	diverse
+T48	E_span 2573 2577	2017

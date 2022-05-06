@@ -1,0 +1,31 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 101 106	[BOS]
+T3	Transition 250 255	[BOS]
+T4	Single_summ 343 348	[BOS]
+T5	Single_summ 507 512	[BOS]
+T6	Single_summ 667 672	[BOS]
+T7	Single_summ 869 874	[BOS]
+T8	Reflection 1114 1119	[BOS]
+T9	Reflection 1295 1300	[BOS]
+T10	Narrative_cite 1484 1489	[BOS]
+T11	Transition 1719 1724	[BOS]
+T12	Reflection 1898 1903	[BOS]
+T13	Reference 208 224	(Ha et al., 2016
+T14	Reference 226 247	Johnson et al., 2016)
+T15	Dominant 349 365	Lu et al. (2018)
+T16	Dominant 692 715	Platanios et al. (2018)
+T17	Dominant 911 936	Arivazhagan et al. (2019)
+T18	Reference 1648 1666	(Chen et al., 2018
+T19	Reference 1668 1696	Al-Shedivat and Parikh, 2019
+T20	Reference 1698 1716	Chen et al., 2017)
+T21	B_span 182 191	universal
+T22	E_span 246 247	)
+T23	B_span 349 351	Lu
+T24	E_span 665 666	.
+T25	B_span 692 696	Plat
+T26	E_span 867 868	.
+T27	B_span 902 910	probably
+T28	E_span 1112 1113	.
+T30	E_span 1715 1716	)
+T31	Pronoun 522 526	they
+T32	B_span 1503 1507	zero

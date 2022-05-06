@@ -1,0 +1,8 @@
+[BOS] The end-to-end trainable, non-task-oriented conversational dialog systems built by Vinyals and Le (2015; Shang et al. (2015; Serban et al. (2015) using sequence to sequence learning (Sutskever et al., 2014) are promising chatbot systems but do not support domain specific tasks and do not interact with knowledge bases such as databases (Sukhbaatar et al., 2015; Yin et al., 2015) , and therefore cannot provide useful information through their responses.
+[BOS] Wen et al. (2016) augment the sequence to sequence architecture with dialog history modelled by a set of belief trackers, and a distributed representation of user intent with delexicalisation and weight tying strategies.
+[BOS] Their system provides relevant and appropriate responses at each turn and also interacts with a database through a slot-value pair representation of attributes.
+[BOS] They achieve a high task success rate and show that the learned model can interact efficiently and naturally with human subjects to complete an application specific task.
+[BOS] Dodge et al. (2016) use Memory Networks (Weston et al., 2015a; Sukhbaatar et al., 2015) to train non goal oriented dialog, which showed promising results.
+[BOS] Bordes and Weston (2017) train memory networks to perform tasks non-trivial tasks such as issuing API calls to knowledge bases and manipulating entities unseen in training; the bot is also able to ask questions to fill missing information.
+[BOS] They show that memory networks can outperform a dedicated slot-filling rule-based baseline, and even classical IR and supervised embeddings; they solve the task of issuing API calls.
+

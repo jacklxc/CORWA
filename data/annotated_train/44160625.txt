@@ -1,0 +1,20 @@
+[BOS] Traditional methods for summarization (Nenkova and McKeown, 2011) extract key sentences from the source text to construct the summary.
+[BOS] Early works on abstractive summarization were focused on sentence compression based approaches (Filippova, 2010; Berg-Kirkpatrick et al., 2011; Banerjee et al., 2015) which connected fragments from multiple sentences to generate novel sentences for the summary or template based approaches that generated summaries by fitting content into a template (Wang and Cardie, 2013; Genest and Lapalme, 2011) .
+
+[BOS] With the advent of deep sequence to sequence models which generated text word-byword (Sutskever et al., 2014) , attention based neural network models have been proposed for summarizing long sentences.
+[BOS] Rush et al. (2015) first demonstrated the use of neural networks to generate shorter forms of long sentences.
+[BOS] proposed a neural approach for abstractive summarization of large articles by applying the sequence to sequence model.
+[BOS] See et al. (2017) further improved the performance on abstractive summarization of articles by introducing the ability to copy words from the source article (Gulcehre et al., 2016 ) using a pointer network (Vinyals et al., 2015) , in addition to generating new words.
+[BOS] However, all these frameworks focus on generating a single summary, and do not support topic-tuned summary generation.
+[BOS] We use the architecture by See et al. as the starting point for our work and develop a method to generate topictuned summaries.
+
+[BOS] There have been some works on extending extractive summarization towards topical tuning.
+[BOS] Lin and Hovy (2000) proposed the idea of extracting topic-based signature terms for summarization.
+[BOS] Given a topic and a corpus of documents relevant and not relevant to the topic, a set of words characterizing each topic is extracted using a log-likelihood based measure.
+[BOS] Sentences which contain these chosen words are assigned more importance while summarizing.
+[BOS] Conroy et al. (2006) further extended the method for querybased multi-document summarization by considering sentence overlap with both query terms and topic signature words.
+
+[BOS] However, all these works rely on identifying sentence level features to compute topic affinities that are leveraged for choosing topic specific sentences for the summary.
+[BOS] Since sequence-tosequence frameworks generate text in a word-byword fashion, incorporating sentence level statistics is not feasible in this framework.
+[BOS] Therefore, we modify the attention of the network to focus on topic-specific parts of the input text to generate the tuned summaries.
+

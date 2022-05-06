@@ -1,0 +1,71 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 262 267	[BOS]
+T3	Single_summ 377 382	[BOS]
+T4	Single_summ 488 493	[BOS]
+T5	Single_summ 665 670	[BOS]
+T6	Single_summ 791 796	[BOS]
+T7	Single_summ 873 878	[BOS]
+T8	Single_summ 946 951	[BOS]
+T9	Single_summ 1056 1061	[BOS]
+T10	Single_summ 1236 1241	[BOS]
+T11	Single_summ 1385 1390	[BOS]
+T12	Single_summ 1534 1539	[BOS]
+T13	Single_summ 1676 1681	[BOS]
+T14	Single_summ 1765 1770	[BOS]
+T15	Single_summ 1941 1946	[BOS]
+T16	Single_summ 2123 2128	[BOS]
+T17	Multi_summ 2233 2238	[BOS]
+T18	Multi_summ 2387 2392	[BOS]
+T19	Multi_summ 2446 2451	[BOS]
+T20	Reflection 2538 2543	[BOS]
+T21	Single_summ 2665 2670	[BOS]
+T22	Single_summ 2777 2782	[BOS]
+T23	Single_summ 2991 2996	[BOS]
+T24	Reflection 3091 3096	[BOS]
+T25	Dominant 52 66	Schwenk (2012)
+T26	Dominant 383 407	Kaiser and Bengio (2016)
+T27	Reference 432 460	(Kaiser and Sutskever, 2015)
+T28	Dominant 817 833	Gu et al. (2017)
+T29	Reference 1034 1053	(Dyer et al., 2013)
+T30	Dominant 1090 1106	Gu et al. (2017)
+T31	Reference 1428 1444	Gu et al. (2017)
+T32	Dominant 1447 1465	Oord et al. (2017)
+T33	Reference 1583 1603	Kingma et al., 2016)
+T34	Dominant 1947 1966	Novak et al. (2016)
+T35	Dominant 2249 2274	(Grangier and Auli, 2017)
+T36	Dominant 2300 2318	(Xia et al., 2017)
+T37	Dominant 2671 2691	Bordes et al. (2017)
+T38	Pronoun 494 498	They
+T39	Pronoun 671 673	It
+T40	Pronoun 879 883	They
+T41	Pronoun 952 956	They
+T42	Pronoun 1242 1246	This
+T43	Pronoun 1540 1544	They
+T44	Pronoun 1682 1686	They
+T45	Pronoun 1771 1776	Their
+T46	Pronoun 2136 2141	their
+T47	Pronoun 2554 2559	these
+T48	B_span 6 9	Non
+T49	E_span 371 375	only
+T50	B_span 383 389	Kaiser
+T51	E_span 780 789	iteration
+T52	B_span 421 427	neural
+T53	E_span 455 459	2015
+T54	B_span 797 800	The
+T55	E_span 1048 1052	2013
+T56	B_span 1014 1018	word
+T57	E_span 1048 1052	2013
+T58	B_span 1062 1064	To
+T59	E_span 1373 1382	mechanism
+T60	B_span 1391 1399	Parallel
+T61	E_span 1439 1443	2017
+T62	B_span 1447 1451	Oord
+T63	E_span 1598 1602	2016
+T64	B_span 1549 1556	inverse
+T65	E_span 1930 1939	variables
+T66	B_span 1947 1952	Novak
+T67	E_span 2224 2231	freedom
+T68	B_span 2239 2248	QuickEdit
+T69	E_span 2529 2536	decoder
+T70	B_span 2671 2677	Bordes
+T71	E_span 3081 3089	training

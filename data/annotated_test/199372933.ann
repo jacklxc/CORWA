@@ -1,0 +1,45 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 103 108	[BOS]
+T3	Transition 233 238	[BOS]
+T4	Transition 317 322	[BOS]
+T5	Reflection 425 430	[BOS]
+T6	Other 549 554	[BOS]
+T7	Other 559 564	[BOS]
+T8	Transition 589 594	[BOS]
+T9	Single_summ 778 783	[BOS]
+T10	Single_summ 888 893	[BOS]
+T11	Single_summ 991 996	[BOS]
+T12	Transition 1116 1121	[BOS]
+T13	Transition 1223 1228	[BOS]
+T14	Single_summ 1315 1320	[BOS]
+T15	Single_summ 1420 1425	[BOS]
+T16	Single_summ 1542 1547	[BOS]
+T17	Transition 1613 1618	[BOS]
+T18	Transition 2010 2015	[BOS]
+T19	Transition 2139 2144	[BOS]
+T20	Transition 2343 2348	[BOS]
+T21	Transition 2398 2403	[BOS]
+T22	Transition 2451 2456	[BOS]
+T23	Transition 2560 2565	[BOS]
+T24	Dominant 784 809	Haghighi and Klein (2010)
+T25	Dominant 894 923	Uryupina and Moschitti (2013)
+T26	Dominant 997 1015	Peng et al. (2015)
+T27	Dominant 1321 1345	Clark and Manning (2016)
+T28	Dominant 1426 1443	Lee et al. (2017)
+T29	Dominant 1548 1565	Lee et al. (2018)
+T30	Pronoun 470 475	these
+T31	Pronoun 537 541	this
+T32	Pronoun 1619 1624	These
+T33	Pronoun 1689 1694	these
+T34	E_span 876 886	detections
+T35	B_span 784 792	Haghighi
+T36	B_span 894 902	Uryupina
+T37	E_span 986 989	SVM
+T38	B_span 997 1001	Peng
+T39	E_span 1110 1113	set
+T40	B_span 1321 1326	Clark
+T41	E_span 1408 1418	resolution
+T42	B_span 1426 1429	Lee
+T43	E_span 1535 1540	spans
+T44	B_span 1548 1551	Lee
+T45	E_span 1601 1611	resolution

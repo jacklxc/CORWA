@@ -1,0 +1,13 @@
+[BOS] The task of detecting missing hyphens is related to previous work on detecting punctuation errors.
+[BOS] One of the classes of errors in the Helping Our Own (HOO) 2011 shared task (Dale and Kilgarriff, 2011) was punctuation.
+[BOS] Comma errors are the most frequent kind of punctuation error made by learners.
+[BOS] Israel et al. (2012) present a model for detecting these kinds of errors in learner texts.
+[BOS] They train CRF models on sentences from unedited essays written by high-level college students and show that they performs well on detecting errors in learner text.
+[BOS] As far as we are aware, the HOO 2011 system description of Rozovskaya et al. (2011) is the only work to specifically reference hyphen errors.
+[BOS] They use rules derived from frequencies in the training corpus to determine whether a hyphen was required between two words separated by white space.
+[BOS] The task of detecting missing hyphens is related to the task of inserting punctuation into the output of unpunctuated text (for example, the output of speech recognition, automatic generation, machine translation, etc.).
+[BOS] Systems that are built on the output of speech recognition can obviously take features like prosody into account.
+[BOS] In our case, we are dealing only with written text.
+[BOS] Gravano et al. (2009) present an n-gram-based model for automatically adding punctuation and capitalization to the output of an ASR system, without taking any of the speech signal information into account.
+[BOS] They conclude that more training data, rather than wider n-gram contexts leads to a greater improvement in accuracy.
+

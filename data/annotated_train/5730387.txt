@@ -1,0 +1,22 @@
+[BOS] A great deal of SRL research has been dedicated to designing rich, expressive features.
+[BOS] The initial work by Gildea and Jurafsky (2002) already identified a compact core set of features, which were widely adopted by the SRL community.
+[BOS] These features describe the predicate, the candidate argument, and the syntactic relation between them (path).
+[BOS] Early systems primarily extended this core set by including local context lexicalized patterns (e.g., n-grams), several extended representations of the path features, and some linguistically motivated syntactic patterns, as the syntactic frame (Surdeanu et al., 2003; Xue and Palmer, 2004; Pradhan et al., 2005) .
+
+[BOS] More recent approaches explored a broader range of features.
+[BOS] Among others, Toutanova et al. (2008) , Martins and Almeida (2014) and Yang and Zong (2014) have explored high-order features involving several arguments and even pairs of sentence predicates.
+[BOS] Other approaches have focused on semantic generalizations of lexical features using selectional preferences, neural network embeddings or latent word language models (Zapirain et al., 2013; Collobert et al., 2011; Deschacht and Moens, 2009; Roth and Woodsend, 2014) .
+[BOS] To avoid the intensive feature engineering inherent in SRL, Moschitti et al. (2008) employ kernel learning.
+[BOS] Although attractive from this perspective, the kernel-based approach comes with a high computational cost.
+[BOS] In contrast to prior work, our approach effectively learns lowdimensional representation of words and their roles, eliminating the need for heavy manual feature engineering.
+[BOS] Finally, system combination approaches such as reranking typically outperform individual systems (Bjrkelund et al., 2010) .
+[BOS] Our method can be easily integrated as a component in one of those systems.
+
+[BOS] In technical terms, our work builds on our recent tensor-based approach for dependency parsing .
+[BOS] In that work, we use a three-way tensor to score candidate dependency relations within a first-order scoring function.
+[BOS] The tensor captures the interaction between words and their syntactic (headmodifier) relations.
+[BOS] In contrast, the scoring function in SRL involves higher-order interactions between the path, argument, predicate and their associated role label.
+[BOS] Therefore, we parametrized the scoring function with a four-way low-rank tensor.
+[BOS] To help with this extension, we developed a new initialization and update strategy.
+[BOS] Our experimental results demonstrate that the new representation tailored to SRL outperforms previous approaches.
+

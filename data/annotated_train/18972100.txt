@@ -1,0 +1,13 @@
+[BOS] There are a number of well-established computational tools for the analysis and extraction of meaning from text in the social sciences (See (Alexa and Zuell, 2000) for an overview of tools and resources).
+[BOS] Some tools are bound to particular theoretical principles, for example the LWIC dictionary (Pennebaker et al., 2001 ) encodes specific categories to be identified in text while others follow a theory-free approach (Iker and Klein, 1974) where the theory emerges from the analysis of the data.
+
+[BOS] There has been substantial research in the development of methods to analyze linguistic input in the field of psychotherapy in order to measure a number of psychological variables such as emotion, abstraction, referential activity, etc.
+[BOS] among them Bucci's Referential Activity (RA) non-weighted (Bucci, 2002) and weighted dictionaries (Bucci and Maskit, 2006) for the English language, or Höltzer and others' affective dictionary (Hölzer et al., 1997) for the German language.
+[BOS] The LIWC tool has been used to detect different types of personalities in written self-descriptions (Chung and Pennebaker, 2008) .
+[BOS] This program counts meaningful words that express emotion, abstraction, verbal behavior, demographic variables, traditional personality measures, formal and informal settings, deception and honesty, emotional upheavals, social interaction, use of cognitive and emotion words, word analysis in psychotherapy, references to self and others.
+[BOS] For Spanish (Roussos and O'Connell, 2005) have developed a dictionary in the area of psychotherapy to measure referential activity.
+
+[BOS] Early work on dictionaries in the area of psychology include the General Inquirer psychosociological dictionary (Stone and Hunt, 1963) which can be used in various applications; current work on lexical resources for identifying particular text variables -such as measuring strong/weak opinions, sentiments, subjective/objective language, etc.
+[BOS] -include the SentiWordnet resource (Esuli and Sebastiani, 2006) derived from WordNet which has been used in various opinion mining works (Devitt and Ahmad, 2007) ; other lines of research include the derivation of word-lists (semi) automatically for opinion classification (Turney, 2002) .
+[BOS] To the best of our knowledge, little research has been carried out on natural language processing for discourse interpretation in psychology.
+

@@ -1,0 +1,53 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 76 81	[BOS]
+T3	Narrative_cite 213 218	[BOS]
+T4	Transition 456 461	[BOS]
+T5	Narrative_cite 527 532	[BOS]
+T6	Narrative_cite 781 786	[BOS]
+T7	Reflection 854 859	[BOS]
+T8	Single_summ 995 1000	[BOS]
+T9	Single_summ 1144 1149	[BOS]
+T10	Reflection 1298 1303	[BOS]
+T11	Single_summ 1410 1415	[BOS]
+T12	Single_summ 1591 1596	[BOS]
+T13	Single_summ 1710 1715	[BOS]
+T14	Reflection 1874 1879	[BOS]
+T15	Reference 279 297	(Zhou et al., 2005
+T16	Reference 299 319	Jing and Zhai, 2007)
+T17	Reference 362 390	(Bunescu and Mooney, 2005a,b
+T18	Reference 392 418	Plank and Moschitti, 2013)
+T20	Reference 634 650	Fu et al., 2017)
+T21	Reference 676 695	(Zhang et al., 2015
+T22	Reference 697 714	Zhou et al., 2016
+T23	Reference 716 738	Miwa and Bansal, 2016)
+T24	Reference 832 851	(Zhou et al., 2016)
+T25	Reference 915 941	(Nguyen and Grishman, 2016
+T26	Reference 943 960	Fu et al., 2017 )
+T27	Dominant 1470 1489	Duong et al. (2015)
+T28	Dominant 1716 1732	Fu et al. (2017)
+T29	Reference 1769 1796	(Ganin and Lempitsky, 2015)
+T30	Pronoun 1150 1154	They
+T31	Pronoun 1160 1165	their
+T32	Pronoun 1597 1602	Their
+T33	Pronoun 1784 1786	it
+T34	B_span 247 257	linguistic
+T35	E_span 314 318	2007
+T36	B_span 325 332	kernels
+T37	E_span 413 417	2013
+T38	Reference 573 590	Zeng et al., 2014
+T39	B_span 546 559	convolutional
+T19	Reference 592 611	Zeng et al., , 2015
+T40	Reference 612 632	Grishman, 2015, 2016
+T41	E_span 645 649	2017
+T42	B_span 654 663	recurrent
+T43	E_span 733 737	2016
+T44	B_span 833 837	Zhou
+T45	E_span 846 850	2016
+T46	B_span 896 905	syntactic
+T47	E_span 954 958	2017
+T48	B_span 1432 1446	regularization
+T49	E_span 1700 1708	directly
+T50	B_span 1716 1718	Fu
+T51	B_span 1741 1747	domain
+T52	E_span 1791 1795	2015
+T53	E_span 1862 1872	evaluation

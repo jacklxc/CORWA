@@ -1,0 +1,32 @@
+[BOS] Early approaches for surface realisation adopted statistical methods, including both pipelined (Bohnet et al., 2010) and joint (Song et al., 2014; Puduppully et al., 2017) architecture for word ordering and morphological generation.
+
+[BOS] Multilingual SR'18 was preceded by the SR'11 surface realisation task for the English language only (Belz et al., 2011) .
+[BOS] The submitted systems in 2011 had grammar-based and statistical nature, mostly relying on pipelined architecture.
+
+[BOS] Recently, Marcheggiani and Perez-Beltrachini (2018) proposed a neural end-to-end approach based on graph convolutional encoders for the SR'11 deep track.
+
+[BOS] The SR'18 shallow track received submissions from eight teams with seven of them dividing the task into two subtasks: word ordering and inflection.
+[BOS] Only Elder and Hokamp (2018) developed a joint approach, however, they participated only in the English track.
+
+[BOS] For word ordering, five teams chose an approach based on neural networks, two used a classifier, and one team resorted to a language model.
+[BOS] As for the inflection subtask, five teams applied neural techniques, two used lexicon-based approaches, and one used an SMT system (Basile and Mazzei, 2018; Castro Ferreira et al., 2018; Elder and Hokamp, 2018; King and White, 2018; Madsack et al., 2018; Puzikov and Gurevych, 2018; Singh et al., 2018; Sobrevilla Cabezudo and Pardo, 2018) .
+[BOS] Overall, neural components were dominant across all the participants.
+[BOS] However, official scores of the teams that went neural greatly differ.
+[BOS] Furthermore, two teams (Elder and Hokamp, 2018; Sobrevilla Cabezudo and Pardo, 2018) applied data augmentation, which makes their results not strictly comparable to others.
+
+[BOS] One of the interesting findings of the shared task is reported by Elder and Hokamp (2018) who showed that applying standard neural encoderdecoder models to jointly learn word ordering and inflection is highly challenging; their sequence-tosequence baseline without data augmentation got 43.11 BLEU points on English.
+
+[BOS] Our model differs from previous work in three main ways.
+[BOS] First, it performs word ordering on fully delexicalised data.
+[BOS] Delexicalisation has been used previously but mostly to handle rare words, e.g. named entities.
+[BOS] Here we argue that surface realisation and, in particular, word ordering works better when delexicalising all input tokens.
+[BOS] This captures the intuition that word ordering is mainly determined by the syntactic structure of the input.
+[BOS] Second, we we provide a detailed evaluation of how our model handles the three subtasks underlying surface realisation.
+[BOS] While all SR'18 participants provided descriptions of their models, not all of them performed an in-depth analysis of model performance.
+[BOS] Exceptions are works of King and White (2018) , who provided a separate evaluation for the morphological realisation module, and Puzikov and Gurevych (2018) , who evaluated both word ordering and inflection modules.
+[BOS] However, it is not clear how each of those modules affect the global performance when merged in the full pipeline.
+[BOS] In contrast, we propose a detailed incremental evaluation of each component of the full pipeline and show how each component impacts the final scores.
+[BOS] Third, we introduce a linguistic analysis, based on the dependency relations, of the word ordering component, allowing for deeper error analysis of the developed systems.
+[BOS] Furthermore, our model explicitly integrates a module for contraction handling, as done also before by Basile and Mazzei (2018) .
+[BOS] We also address all the ten languages proposed by the shared task and outline the importance of handling contractions.
+

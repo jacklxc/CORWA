@@ -1,0 +1,80 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Multi_summ 240 245	[BOS]
+T3	Transition 564 569	[BOS]
+T4	Narrative_cite 647 652	[BOS]
+T5	Reflection 791 796	[BOS]
+T6	Reflection 984 989	[BOS]
+T7	Reflection 1119 1124	[BOS]
+T8	Narrative_cite 1211 1216	[BOS]
+T9	Reflection 1354 1359	[BOS]
+T10	Narrative_cite 1414 1419	[BOS]
+T11	Transition 1521 1526	[BOS]
+T12	Single_summ 1670 1675	[BOS]
+T13	Single_summ 1758 1763	[BOS]
+T14	Single_summ 1797 1802	[BOS]
+T15	Single_summ 1934 1939	[BOS]
+T16	Single_summ 2035 2040	[BOS]
+T17	Single_summ 2128 2133	[BOS]
+T18	Single_summ 2245 2250	[BOS]
+T19	Single_summ 2359 2364	[BOS]
+T20	Reflection 2407 2412	[BOS]
+T21	Reflection 2545 2550	[BOS]
+T22	Reflection 2615 2620	[BOS]
+T23	Reflection 2693 2698	[BOS]
+T24	Reflection 2796 2801	[BOS]
+T25	Reflection 3002 3007	[BOS]
+T26	Reflection 3160 3165	[BOS]
+T27	Reflection 3255 3260	[BOS]
+T28	Transition 3414 3419	[BOS]
+T29	Reference 125 146	(Cheng and Roth, 2013
+T30	Reference 148 171	Milne and Witten, 2008)
+T31	Reference 214 237	(Ratinov et al., 2011b)
+T32	Reference 410 433	(Globerson et al., 2016
+T33	Reference 435 456	Guo and Barbosa, 2016
+T34	Reference 458 478	Yamada et al., 2016)
+T35	Reference 768 788	(Singh et al., 2012)
+T36	Reference 835 861	Chisholm and Hachey (2015)
+T37	Reference 1332 1351	Lazic et al. (2015)
+T38	Reference 1498 1519	(Mintz et al., 2009 )
+T39	Dominant 1676 1703	Fan, Zhou, and Zheng (2015)
+T40	Dominant 1940 1958	Wang et al. (2015)
+T41	Reference 2495 2514	Le and Titov (2018)
+T42	Reference 2519 2542	Globerson at al. (2016)
+T43	Pronoun 331 335	this
+T44	Pronoun 990 994	This
+T45	Pronoun 1198 1200	it
+T46	Pronoun 1764 1769	Their
+T47	Pronoun 1803 1807	They
+T48	Pronoun 1879 1884	their
+T49	Pronoun 1968 1973	their
+T50	Pronoun 2003 2007	they
+T51	Pronoun 2050 2055	their
+T52	Pronoun 2150 2155	their
+T53	Pronoun 2269 2274	their
+T54	Pronoun 2365 2370	Their
+T55	Pronoun 2556 2561	these
+T56	Pronoun 2624 2628	this
+T57	Pronoun 3008 3012	This
+T58	Pronoun 3420 3422	It
+T60	E_span 166 170	2008
+T61	B_span 186 192	entity
+T62	E_span 231 236	2011b
+T63	B_span 391 401	supervised
+T64	E_span 477 478	)
+T66	E_span 783 787	2012
+T67	B_span 835 843	Chisholm
+T68	E_span 929 939	benchmarks
+T70	E_span 1346 1350	2015
+T72	E_span 1513 1517	2009
+T73	B_span 1676 1679	Fan
+T75	E_span 1921 1932	annotations
+T74	B_span 1940 1944	Wang
+T76	E_span 2396 2404	standard
+T77	B_span 2495 2497	Le
+T78	E_span 2509 2513	2018
+T79	B_span 2519 2528	Globerson
+T80	E_span 2541 2542	)
+T59	B_span 12 21	Wikipedia
+T69	B_span 1247 1251	uses
+T71	B_span 1445 1454	distantly
+T65	B_span 697 702	links

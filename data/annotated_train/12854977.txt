@@ -1,0 +1,23 @@
+[BOS] Although the concept of hedge information has been introduced in linguistic community for a long time, researches on automatic hedge detection emerged from machine learning or compu-tational linguistic perspective in recent years.
+[BOS] In this section, we give a brief review on the related works.
+
+[BOS] For speculative sentences detection, Medlock and Briscoe (2007) report their approach based on weakly supervised learning.
+[BOS] In their method, a statistical model is initially derived from a seed corpus, and then iteratively modified by augmenting the training dataset with unlabeled samples according the posterior probability.
+[BOS] They only employ bag-of-words features.
+[BOS] On the public biomedical dataset 1 , their experiments achieve the performance of 0.76 in BEP (break even point).
+[BOS] Although they also introduced more linguistic features, such as part-of-speech (POS), lemma and bigram (Medlock, 2008) , there are no significant improvements.
+
+[BOS] In Ganter and Strube (2009) , the same task on Wikipedia is presented.
+[BOS] In their system, score of a sentence is defined as a normalized tangent value of the sum of scores over all words in the sentence.
+[BOS] Shallow linguistic features are introduced in their experiments.
+
+[BOS] Morante and Daelemans (2009) present their research on identifying hedge cues and their scopes.
+[BOS] Their system consists of several classifiers and works in two phases, first identifying the hedge cues in a sentence and secondly finding the full scope for each hedge cue.
+[BOS] In the first phase, they use IGTREE algorithm to train a classifier with 3 categories.
+[BOS] In the second phase, three different classifiers are trained to find the first token and last token of in-sentence scope and finally combined into a meta classifier.
+[BOS] The experiments shown that their system achieves an F1 of nearly 0.85 of identifying hedge cues in the abstracts sub corpus, while nearly 0.79 of finding the scopes with predicted hedge cues.
+[BOS] More experiments could be found in their paper (Morante and Daelemans, 2009) .
+[BOS] They also provide a detail statistics on hedge cues in BioScope corpus 2 .
+
+[BOS] 3 Hedge detection with average perceptron
+

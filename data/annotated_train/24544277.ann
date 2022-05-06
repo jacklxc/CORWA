@@ -1,0 +1,28 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 254 259	[BOS]
+T3	Narrative_cite 586 591	[BOS]
+T4	Single_summ 719 724	[BOS]
+T5	Reflection 880 885	[BOS]
+T6	Reference 91 103	(Elman, 1991
+T7	Reference 105 126	Karpathy et al., 2015
+T8	Reference 128 144	Kdr et al., 2016
+T9	Reference 146 165	Qian et al., 2016a)
+T10	Reference 398 416	(Wang et al., 2017
+T11	Reference 418 435	Wu and King, 2016
+T12	Reference 592 612	ishahi et al., 2017)
+T13	Reference 644 654	(Khn, 2015
+T14	Reference 656 676	Qian et al., 2016a,b
+T15	Reference 678 694	Adi et al., 2016
+T16	Reference 696 716	Linzen et al., 2016)
+T17	Dominant 771 788	Shi et al. (2016)
+T18	Pronoun 895 899	they
+T19	B_span 61 74	visualization
+T20	E_span 159 164	2016a
+T21	B_span 391 397	speech
+T22	E_span 431 435	2016
+T23	B_span 617 625	language
+T24	E_span 711 715	2016
+T25	B_span 771 774	Shi
+T26	E_span 868 878	properties
+T27	B_span 592 598	ishahi
+T28	E_span 607 611	2017

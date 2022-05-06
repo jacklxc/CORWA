@@ -1,0 +1,9 @@
+[BOS] Relation Extraction Initial work in RE uses statistical classifiers or kernel based methods in combination with discrete syntactic features, such as part-of-speech and named entities tags, morphological features, and WordNet hypernyms (Mintz et al., 2009; Hendrickx et al., 2010) .
+[BOS] These methods have been superseded by sequence based methods, including recurrent (Socher et al., 2012; Zhang and Wang, 2015) and convolutional neural networks (Zeng et al., 2014 (Zeng et al., , 2015 .
+[BOS] Consequently, discrete features have been replaced by distributed representations of words and syntactic features (Turian et al., 2010; Pennington et al., 2014) .
+[BOS] Xu et al. (2015a,b) integrated shortest dependency path (SDP) information into a LSTMbased relation classification model.
+[BOS] Considering the SDP is useful for relation classification, because it focuses on the action and agents in a sentence (Bunescu and Mooney, 2005; .
+[BOS] established a new state-of-the-art for relation extraction on the TA-CRED dataset by applying a combination of pruning and graph convolutions to the dependency tree.
+[BOS] Recently, Verga et al. (2018) extended the Transformer architecture by a custom architecture for supervised biomedical named entity and relation extraction.
+[BOS] In comparison, we fine-tune pretrained language representations and only require distantly supervised annotation labels.
+

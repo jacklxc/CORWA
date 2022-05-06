@@ -1,0 +1,18 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 277 282	[BOS]
+T3	Narrative_cite 439 444	[BOS]
+T4	Transition 787 792	[BOS]
+T5	Transition 939 944	[BOS]
+T6	Reference 253 274	(Marie and Max, 2014)
+T7	Reference 622 643	(Gimpel et al., 2013)
+T8	Reference 756 784	(Devlin and Matsoukas, 2012)
+T9	Pronoun 232 236	this
+T10	Pronoun 297 301	this
+T11	Pronoun 511 516	these
+T12	Pronoun 834 839	these
+T13	B_span 242 252	hypothesis
+T14	E_span 269 273	2014
+T15	B_span 549 556	decoder
+T16	E_span 638 642	2013
+T17	B_span 678 685	scoring
+T18	E_span 779 783	2012

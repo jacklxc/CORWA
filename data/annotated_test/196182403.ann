@@ -1,0 +1,39 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 250 255	[BOS]
+T3	Transition 463 468	[BOS]
+T4	Multi_summ 613 618	[BOS]
+T5	Transition 863 868	[BOS]
+T6	Narrative_cite 960 965	[BOS]
+T7	Transition 1083 1088	[BOS]
+T8	Transition 1366 1371	[BOS]
+T9	Single_summ 1495 1500	[BOS]
+T10	Single_summ 1696 1701	[BOS]
+T11	Reflection 2015 2020	[BOS]
+T12	Reference 365 384	(Goyal et al., 2017
+T13	Reference 436 460	(Rajpurkar et al., 2018)
+T14	Dominant 669 690	Ribeiro et al. (2018)
+T15	Dominant 780 798	Shah et al. (2019)
+T16	Reference 1037 1057	(Weston et al., 2015
+T17	Reference 1059 1080	Johnson et al., 2017)
+T18	Dominant 1551 1577	(Hudson and Manning, 2019)
+T19	Reference 1782 1808	(Hudson and Manning, 2019)
+T20	B_span 331 333	to
+T21	E_span 380 384	2017
+T22	B_span 391 400	questions
+T23	E_span 459 460	)
+T24	B_span 669 672	Rib
+T25	E_span 771 772	s
+T26	B_span 780 784	Shah
+T27	E_span 861 862	.
+T29	E_span 1079 1080	)
+T30	B_span 1547 1549	GQ
+T31	E_span 1694 1695	.
+T32	B_span 1728 1737	synthetic
+T33	E_span 1807 1808	)
+T34	Pronoun 483 488	these
+T35	Pronoun 901 906	these
+T36	Pronoun 1095 1100	these
+T37	Pronoun 1148 1150	it
+T38	Pronoun 2021 2026	Their
+T39	Pronoun 2099 2104	their
+T40	B_span 974 987	automatically

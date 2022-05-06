@@ -1,0 +1,25 @@
+[BOS] Derivation Parsing Maximum subgraph selection has played a central role in dependency parsing since the MST reduction by McDonald et al. (2005) and can also be traced back to the parsingas-intersection tradition in phrase-based parsingsee for instance (Billot and Lang, 1989 ) -where the goal is to find, starting from a generic grammar, a graph-structure (a shared forest) that recognizes the input presented as a string or an automaton.
+[BOS] In dependency parsing, this approach has since been extended to more complex dependencies such as non-crossing and 1-endpoint-crossing dependencies (Kuhlmann and Jonsson, 2015; Cao et al., 2017) .
+
+[BOS] There is a long line of research which solve the different variants of transition-based dependency parsing algorithms with dynamic programming.
+[BOS] Recent work showed that this can be performed efficiently, in O(n 3 ), for arc-hybrid parsers (Gmez-Rodrguez et al., 2008) and have since been extended with non-linear classifiers (Kiperwasser and Goldberg, 2016; Shi et al., 2017) to reach state-of-the-art parsing accuracy.
+
+[BOS] We depart from both in the following way.
+[BOS] In most works on maximum subgraph selection, the class of valid subgraph is a class defined only by properties on dependencies.
+[BOS] Here we represent derivations instead of derived structures.
+[BOS] In that respect, we are closer to approaches developed for mildly-context sensitive formalisms such as Tree Adjoining Grammars which work primarily on the derivation tree (Corro et al., 2017) and consider the derived tree, i.e. the parse structure, as a byproduct.
+[BOS] Compared to other dynamic programming approaches to arc-hybrid parsing, we therefore work on a richer model, and have more expressive power to take a representation of states into account in the scoring scheme.
+[BOS] This comes at a cost since the time complexity of our parsing algorithm is O(n 4 ), an order of magnitude higher.
+[BOS] The stack information (size) is minimal and is used to parameterize access to information available from step embeddings.
+
+[BOS] Compared to joint parsing systems working on both constituents and dependencies, our approach doesn't require external linguistic knowledge such as head percolation rules.
+[BOS] On the other hand, since derivations don't add new information, but merely offer a new vision of the problem, the potential accuracy gain is lower.
+
+[BOS] Machine Learning Aspects Self-attention networks have been used in parsing, see for instance (Kitaev and Klein, 2018) , whether based on dependencies or syntagms.
+[BOS] Curiously we found few models of transition-based parsing based on these networks, and bidirectional recurrent network are still preferred in most architectures, where they are believed to capture some information about the sequential nature of transition-based algorithms.
+[BOS] Instead we present a non-sequential model of transition-based parsing where representation vectors are obtained via unrolled iterative estimation (Greff et al., 2017) .
+
+[BOS] Our encoder-decoder architecture together with independence assumptions made in the probabilistic model which decomposes a derivation score in several subtasks can be seen as auxiliary tasks as in (Coavoux et al., 2018) .
+
+[BOS] The use of expected head vectors as input of the step encoder is related to the syntactic head attention of the SRL neural architecture in (Strubell et al., 2018) .
+

@@ -1,0 +1,21 @@
+[BOS] There are three dominant types of approaches for learning multi-sense word representations in the literature: 1) clustering methods, 2) probabilistic modeling methods, and 3) lexical ontology based methods.
+[BOS] Our reinforcement learning based approach can be loosely connected to clustering methods and probabilistic modeling methods.
+[BOS] Reisinger and Mooney (2010) first proposed multi-sense word representations on the vector space based on clustering techniques.
+[BOS] With the power of deep learning, some work exploited neural networks to learn embeddings with sense selection based on clustering (Huang et al., 2012; Neelakantan et al., 2014) .
+[BOS] replaced the clustering procedure with a word sense disambiguation model using WordNet (Miller, 1995) .
+[BOS] Kgebck et al. (2015) and Vu and Parker (2016) further leveraged a weighting mechanism and interactive process in the clustering procedure.
+[BOS] Moreover, Guo et al. (2014) leveraged bilingual resources for clustering.
+[BOS] However, most of the above approaches separated the clustering procedure and the representation learning procedure without a joint objective, which may suffer from the error propagation issue.
+[BOS] Instead, the proposed approach, MUSE, enables joint training on sense selection and representation learning.
+
+[BOS] Instead of clustering, probabilistic modeling methods have been applied for learning multisense embeddings in order to make the sense selection more flexible, where Tian et al. (2014) and Jauhar et al. (2015) conducted probabilistic modeling with EM training.
+[BOS] Li and Jurafsky (2015) exploited Chinese Restaurant Process to infer the sense identity.
+[BOS] Furthermore, Bartunov et al. (2016) developed a non-parametric Bayesian extension on the skip-gram model (Mikolov et al., 2013b) .
+[BOS] Despite reasonable modeling on sense selection, all above methods mixed wordlevel and sense-level tokens during representation learning-unable to conduct representation learning in the pure sense level due to the complicated computation in their EM algorithms.
+
+[BOS] Recently, Qiu et al. (2016) proposed an EM algorithm to learn purely sense-level representations, where the computational cost is high when decoding the sense identity sequence, because it takes exponential time to search all sense combination within a context window.
+[BOS] Our modular design addresses such drawback, where the sense selection module decodes a sense sequence with linear-time complexity, while the sense representation module remains representation learning in the pure sense level.
+
+[BOS] Unlike a lot of relevant work that requires additional resources such as the lexical ontology (Pilehvar and Collier, 2016; Rothe and Schtze, 2015; Jauhar et al., 2015; Chen et al., 2015; Iacobacci et al., 2015) or bilingual data (Guo et al., 2014; Ettinger et al., 2016; uster et al., 2016) , which may be unavailable in some language, our model can be trained using only an unlabeled corpus.
+[BOS] Also, some prior work proposed to learn topical embeddings and word embeddings jointly in order to consider the contexts (Liu et al., 2015a,b) , whereas this paper focuses on learning multi-sense word embeddings.
+

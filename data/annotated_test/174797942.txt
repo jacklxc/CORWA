@@ -1,0 +1,20 @@
+[BOS] There are generally two kinds of dependency parsing algorithms, namely transition-based parsing algorithms (McDonald and Nivre, 2007; Kiperwasser and Goldberg, 2016; Ballesteros et al., 2015) and graph-based ones (McDonald and Pereira, 2006; Zhang and Clark, 2008; Galley and Manning, 2009; Zhang et al., 2017) .
+[BOS] In graphbased parsing, a model is trained to score all possible dependency arcs between words, and decoding algorithms are subsequently applied to find the most likely dependency graph.
+[BOS] The Eisner algorithm (Eisner, 1996) and the Chu-Liu-Edmonds algorithm are often used for finding the most likely dependency trees, whereas the AD 3 algorithm (Martins et al., 2011 ) is used for finding SDP graphs that form DAGs in Peng et al. (2017) and Peng et al. (2018) .
+[BOS] During training, the loss is computed after decoding, leading the models to reflect a structured loss.
+[BOS] The advantage of graphbased algorithms is that there is no real error propagation to the extent the decoding algorithms are global inference algorithm, but this also means that reinforcement learning is not obviously applicable to graph-based parsing.
+[BOS] In transition-based parsing, the model is typically taught to follow a gold transition path to obtain a perfect dependency graph during training.
+[BOS] This training paradigm has the limitation that the model only ever gets to see states that are on gold transition paths, and error propagation is therefore likely to happen when the parser predicts wrong transitions leading to unseen states (McDonald and Nivre, 2007; Goldberg and Nivre, 2013) .
+
+[BOS] There have been several attempts to train transition-based parsers with reinforcement learning: Chan (2009) applied SARSA (Baird III, 1999) to an Arc-Standard model, using SARSA updates to fine-tune a model that was pre-trained using a feed-forward neural network.
+[BOS] Fried and Klein (2018) , more recently, presented experiments with applying policy gradient training to several constituency parsers, including the RNNG transition-based parser (Dyer et al., 2016) .
+[BOS] In their experiments, however, the models trained with policy gradient did not always perform better than the models trained with supervised learning.
+[BOS] We hypothesize this is due to credit assignment being difficult in transition-based parsing.
+[BOS] Iterative refinement approaches have been proposed in the context of sentence generation (Lee et al., 2018) .
+[BOS] Our proposed model explores multiple transition paths at once and avoids making risky decisions in the initial transitions, in part inspired by such iterative refinement techniques.
+[BOS] We also pre-train our model with supervised learning to avoid sampling from irrelevant states at the early stages of policy gradient training.
+
+[BOS] Several models have been presented for DAG parsing (Sagae and Tsujii, 2008; Ribeyre et al., 2014; Tokgz and Glsen, 2015; Hershcovich et al., 2017) .
+[BOS] Wang et al. (2018) proposed a similar transition-based parsing model for SDP; they modified the possible transitions of the ArcEager algorithm (Nivre and Scholz, 2004b) to create multi-headed graphs.
+[BOS] We are, to the best of our knowledge, first to explore reinforcement learning for DAG parsing.
+

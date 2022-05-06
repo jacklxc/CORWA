@@ -1,0 +1,38 @@
+[BOS] For explaining ML models, recent research attempts offer techniques ranging from building inherently interpretable models to building a proxy model for explaining a more complex model (Ribeiro et al., 2016; Frosst and Hinton, 2017) to explaining inner mechanics of mostly uninterpretable neural networks (Sundararajan et al., 2017; Bach et al., 2015) .
+[BOS] One family of interpretability methods uses sensitivity of the network with respect to data points (Koh and Liang, 2017) or features (Ribeiro et al., 2016) as a form of explanation.
+[BOS] These methods rely on small, local perturbations and check how a network's response changes.
+[BOS] Explaining text models has another layer of complexity due to a lock of proper technique to generate counterfactuals in the form of small perturbations.
+[BOS] Hence, interpretability methods tailored for text are quite sparse (Mudrakarta et al., 2018; Jia and Liang, 2017; Murdoch et al., 2018) .
+
+[BOS] On the other hand, there are many papers criticizing the aforementioned methods by questioning their faithfulness, correctness (Adebayo et al., 2018; Kindermans et al., 2017) and usefulness.
+[BOS] Smilkov et al. (2017) show that gradient based methods are susceptible to saturation and can be fooled by adversarial techniques.
+[BOS] Other sets of papers (Miller, 2019; Gilpin et al., 2018) attack model explanation papers from a philosophical perspective.
+[BOS] However, the lack of actionability angle is often overlooked.
+[BOS] Lipton (2018) briefly questions the practical benefit of having model explanations from a practitioners perspective.
+[BOS] There are several works taking advantage of model explanations.
+[BOS] Namely, using model explanations to aid doctors in diagnosing retinopathy patients , and removing minimal features, called pathologies, from neural networks by tuning the model to have high entropy on pathologies (Feng et al., 2018) .
+[BOS] The authors of Ross et al. (2017) propose a similar idea to our approach in that they regularize input gradients to alter the decision boundary of the model to make it more consistent with domain knowledge.
+[BOS] However, the input gradients technique has been shown to be an inaccurate explanation technique (Adebayo et al., 2018) .
+
+[BOS] Addressing and mitigating bias in NLP models are paramount tasks as the effects on these models adversely affect protected subpopulations (Schmidt and Wiegand, 2017) .
+[BOS] One of the earliest works is Calders and Verwer (2010) .
+[BOS] Later, Bolukbasi et al. (2016) proposed to unbias word vectors from gender stereotypes.
+[BOS] Park et al. (2018) also try to address gender bias for abusive language detection models by debiasing word vectors, augmenting more data and changing model architecture.
+[BOS] While their results seem to show promise for removing gender bias, their method doesn't scale for other identity dimensions such as race and religion.
+[BOS] The authors of Dixon et al. (2018) highlight the bias in toxic comment classifier models originating from the dataset.
+[BOS] They also supplement the training dataset from Wikipedia articles to shift positive class imbalance for sentences containing identity terms to dataset average.
+[BOS] Similarly, their approach alleviates the issue to a certain extent, but does not scale to similar problems as their augmentation technique is too data-specific.
+[BOS] Also, both methods trade original task accuracy for fairness, while our method does not.
+[BOS] Lastly, there are several works (Davidson et al., 2017; Zhang et al., 2018b) offering methodologies or datasets to evaluate models for unintended bias, but they fail to offer a general framework.
+
+[BOS] One of the main reasons our approach improves the model in the original task is that the model is now more robust thanks to the reinforcement provided to the model builder through attributions.
+[BOS] From a fairness angle, our technique shares similarities with adversarial training (Zhang et al., 2018a; Madras et al., 2018) in asking the model to optimize for an additional objective that transitively unbiases the classifier.
+[BOS] However, those approaches work to remove protected attributes from the representation layer, which is unstable.
+[BOS] Our approach, on the other hand, works with basic human-interpretable units of information -tokens.
+[BOS] Also, those approaches propose to sacrifice main task performance for fairness as well.
+
+[BOS] While our method enables model builders to inject priors to aid a model, it has several limitations.
+[BOS] In solving the fairness problem in question, it causes the classifier to not focus on the identity terms even for the cases where an identity term itself is being used as an insult.
+[BOS] Moreover, our approach requires prior terms to be manually provided, which bears resemblance to blacklist approaches and suffers from the same drawbacks.
+[BOS] Lastly, the evaluation methodology that we and previous papers (Dixon et al., 2018; Park et al., 2018) rely on are based on a syntheticallygenerated dataset, which may contain biases of the individuals creating it.
+

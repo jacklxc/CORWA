@@ -1,0 +1,69 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 238 243	[BOS]
+T3	Reflection 535 540	[BOS]
+T4	Transition 637 642	[BOS]
+T5	Narrative_cite 793 798	[BOS]
+T6	Narrative_cite 1030 1035	[BOS]
+T7	Reflection 1152 1157	[BOS]
+T8	Narrative_cite 1278 1283	[BOS]
+T9	Reflection 1505 1510	[BOS]
+T10	Reflection 1723 1728	[BOS]
+T11	Reflection 1898 1903	[BOS]
+T12	Narrative_cite 2040 2045	[BOS]
+T13	Narrative_cite 2260 2265	[BOS]
+T14	Transition 2495 2500	[BOS]
+T15	Reflection 2572 2577	[BOS]
+T16	Reflection 2691 2696	[BOS]
+T17	Transition 2801 2806	[BOS]
+T18	Reflection 2988 2993	[BOS]
+T19	Reference 194 213	(Kiros et al., 2015
+T20	Reference 215 235	Yamada et al., 2016)
+T21	Reference 371 394	(Rothe and Schtze, 2015
+T22	Reference 396 419	Iacobacci et al., 2015)
+T24	Reference 516 532	(Fellbaum, 1998)
+T25	Reference 850 872	(Yin and Schutze, 2014
+T26	Reference 874 894	Poliak et al., 2017)
+T27	Reference 953 971	(Hill et al., 2016
+T28	Reference 973 998	Pagliardini et al., 2018)
+T29	Reference 1113 1131	(Wang et al., 2017
+T30	Reference 1133 1149	Wu et al., 2017)
+T31	Reference 1359 1382	(Lazaridou et al., 2017
+T32	Reference 1384 1411	Herbelot and Baroni, 2017 )
+T33	Reference 1438 1457	(Luong et al., 2013
+T34	Reference 1459 1482	Bojanowski et al., 2016
+T35	Reference 1484 1502	Pado et al., 2016)
+T36	Reference 2013 2036	Bollegala et al. (2014)
+T37	Reference 2158 2178	Arora et al. (2018b)
+T38	Reference 2238 2257	Arora et al. (2016)
+T39	Reference 2368 2391	Mu and Viswanath, 2018)
+T40	Pronoun 697 701	they
+T41	Pronoun 799 804	Their
+T42	Pronoun 1295 1299	this
+T43	Pronoun 2062 2066	this
+T44	Pronoun 2321 2325	this
+T45	Pronoun 2542 2544	it
+T46	Pronoun 2994 2998	This
+T23	B_span 127 140	interpretable
+T47	E_span 230 234	2016
+T48	B_span 343 348	sense
+T49	E_span 414 418	2015
+T50	B_span 447 452	graph
+T51	E_span 527 531	1998
+T52	B_span 839 849	explicitly
+T53	E_span 889 893	2017
+T54	B_span 905 913	implicit
+T55	E_span 993 997	2018
+T56	B_span 1036 1046	Supervised
+T57	E_span 1144 1148	2017
+T58	B_span 1337 1347	contextual
+T59	E_span 1405 1409	2017
+T60	B_span 1416 1429	morphological
+T61	E_span 1497 1501	2016
+T62	B_span 1948 1954	domain
+T63	E_span 2031 2035	2014
+T64	B_span 2122 2128	modern
+T65	E_span 2172 2177	2018b
+T66	B_span 2203 2209	latent
+T67	E_span 2252 2256	2016
+T68	B_span 2336 2343	natural
+T69	E_span 2386 2390	2018

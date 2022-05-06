@@ -1,0 +1,51 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 88 93	[BOS]
+T3	Transition 171 176	[BOS]
+T4	Single_summ 298 303	[BOS]
+T5	Single_summ 463 468	[BOS]
+T6	Single_summ 589 594	[BOS]
+T7	Single_summ 676 681	[BOS]
+T8	Reflection 791 796	[BOS]
+T9	Reflection 881 886	[BOS]
+T10	Transition 1047 1052	[BOS]
+T11	Single_summ 1193 1198	[BOS]
+T12	Single_summ 1334 1339	[BOS]
+T13	Single_summ 1466 1471	[BOS]
+T14	Reflection 1565 1570	[BOS]
+T15	Transition 1772 1777	[BOS]
+T16	Narrative_cite 1893 1898	[BOS]
+T17	Single_summ 2106 2111	[BOS]
+T18	Reflection 2227 2232	[BOS]
+T19	Reflection 2404 2409	[BOS]
+T20	Dominant 317 339	Maskey and Zhou (2012)
+T21	Dominant 469 488	Clark et al. (2014)
+T22	Dominant 595 611	Lu et al. (2014)
+T23	Dominant 1199 1223	Duh and Kirchhoff (2008)
+T24	Dominant 1340 1357	Liu et al. (2013)
+T25	Reference 1958 1979	(Vaswani et al., 2013
+T26	Reference 1981 2000	Auli and Gao, 2014)
+T27	Reference 2063 2081	(Auli et al., 2013
+T28	Reference 2083 2103	Devlin et al., 2014)
+T29	Dominant 2112 2129	Liu et al. (2013)
+T30	Pronoun 94 99	These
+T31	Pronoun 682 687	These
+T32	Pronoun 1496 1500	they
+T33	Pronoun 1584 1589	these
+T34	Pronoun 1645 1647	it
+T35	Pronoun 2236 2240	this
+T36	B_span 317 323	Maskey
+T37	E_span 453 461	features
+T38	B_span 469 474	Clark
+T39	E_span 579 587	features
+T40	B_span 595 597	Lu
+T41	E_span 780 789	procedure
+T42	B_span 1199 1202	Duh
+T43	E_span 1325 1332	setting
+T44	B_span 1340 1343	Liu
+T45	E_span 1560 1563	PRO
+T46	B_span 1942 1950	language
+T47	E_span 1995 1999	2014
+T48	B_span 2003 2014	translation
+T49	E_span 2098 2102	2014
+T50	B_span 2112 2115	Liu
+T51	E_span 2217 2225	features

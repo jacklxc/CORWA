@@ -1,0 +1,47 @@
+[BOS] Learning distributional representation of words plays an increasingly important role in representing text in many tasks (Bengio et al., 2013; Chen and Manning, 2014) .
+[BOS] The existence of huge datasets allowed learning high quality word embeddings in an unsupervised way by training a neural network on fake objectives (Mikolov et al., 2013a,b; Turney and Pantel, 2010) .
+[BOS] A major strength of these learned word embeddings is that they are able to capture useful semantic information that can be easily used in other tasks of interest such as semantic similarity and relatedness between pair of words (Mikolov et al., 2013a; Pennington et al., 2014; Wilson and Mihalcea, 2017) and dependency parsing (Chen and Manning, 2014; Dyer et al., 2015) .
+[BOS] However, these models treat names and entities no more than the tokens used to mention them.
+[BOS] As a result, these models are unable to well represent names in nar-rative understanding task because the word "John" in a given story can be very different from the word "John" in another narrative.
+[BOS] In this work, we only focus on representing character names and not the whole embedding space (Ji et al., 2017) .
+
+[BOS] Recently, several approaches have been proposed to build dynamic representations for entities (Henaff et al., 2016; Ji et al., 2017; Kobayashi et al., 2016 Kobayashi et al., , 2017 .
+[BOS] One common approach is to rely on neural language models to encode the local context of an entity and use the resulting context vectors as the embedding for subsequent occurrences of that entity (Kobayashi et al., 2016 (Kobayashi et al., , 2017 .
+[BOS] Another approach is to learn a generative model that generates the representation of an entity mention (Ji et al., 2017) .
+[BOS] Henaff et al. (2016) proposed an explicit entity tracking model by relying on an external memory to store information about entities as they appear in a given sentence.
+[BOS] While these rich representations improve the performance on several tasks such as coreference and reading comprehension, they rely on explicit mentions of entities in text as available in toy datasets such as bAbi (Weston et al., 2015) .
+[BOS] Thus, it is difficult to apply these representations in a dialogue setting due to the sparseness of name mentions in dialogue, as well as the lack of explicit conversation connections between characters (as available in movies) (Azab et al., 2018) .
+[BOS] Most of the existing story understanding work feeds the model with the vector representations of names based on a global model such as Word2Vec or Glove, which hinders the ability of these models to understand dialogue (Tapaswi et al., 2016; Na et al., 2017; Lei et al., 2018) .
+[BOS] Recently, Li et al. (2016) relied on TV series scripts in order to learn speaker persona representations and used these representations to improve the performance of neural conversation models.
+[BOS] Unlike (Ji et al., 2017; Li et al., 2016) , we focus on representing character names in dialogue settings and learning different embeddings for characters from different story dialogues in a way that reflects the relatedness of story characters; more specifically, we propose the use of speaker prediction as an auxiliary supervision to improve the character representation.
+
+[BOS] Identifying and analyzing character relations in literary texts is a well studied problem (Agarwal et al., 2013; Makazhanov et al., 2014; Elson et al., 2010; Iyyer et al., 2016) .
+[BOS] Most of these models depend on analyzing the co-occurrence of the char-acters and stylistic features used while characters address each other.
+[BOS] These models are really important to summarize, understand, and generate stories (Elson et al., 2010) .
+[BOS] In this work, we use the task of character relation classification as an extrinsic evaluation task to evaluate the impact of character embeddings on this task.
+
+[BOS] Measures of semantic relatedness between words indicate the degree to which words are associated with any kind of semantic relationship such as synonymy, antonymy, and so on.
+[BOS] Semantic relatedness is commonly used as an absolute intrinsic evaluation task to assess and compare the quality of different word embeddings (Schnabel et al., 2015; Yih and Qazvinian, 2012; Upadhyay et al., 2016) and phrase embeddings (Wilson and Mihalcea, 2017) .
+[BOS] Similarly, we define character relatedness as the degree to which a pair of characters in a given story are related to each other based on the story plot and their level of interaction throughout the dialogue.
+[BOS] Given a pair of characters, we would like the relatedness score between their embedding representations to have a high correlation with their corresponding human-based relatedness score.
+[BOS] Thus, the distance of the embeddings between closely related characters should be smaller than the distance between less related ones.
+
+[BOS] To measure the relatedness between characters in movies, we construct a new annotated dataset based on a publicly available dataset (Azab et al., 2018) .
+[BOS] That dataset includes 28K turns spoken by 396 different speakers in eighteen movies covering different genres, with the subtitles of each movie labeled with the character name of their corresponding speakers.
+[BOS] On average, each character uttered 452 words.
+
+[BOS] For each movie in that dataset, two human annotators watched the movies and annotated a dense relatedness matrix of characters on a 1-5 scale.
+[BOS] Table 2 shows the meaning of each score.
+[BOS] These scores reflect the level of interaction or how closely related the characters are over the course of the movie.
+[BOS] For example, given two characters X and Y, a high score for X and Y is assigned if e.g., X is the father of Y, regardless of the amount of interaction between the two characters.
+[BOS] We also give a high score for the cases where X and Y are closely interacted, even if they are unrelated in terms of kinship.
+[BOS] Due to the sparseness of the number of closely related characters, we asked the annotators to select the higher score when hesitating between two scores.
+
+[BOS] For three movies, the Pearson correlation between the two annotators is 0.8394, which reflects a very good agreement.
+[BOS] We then average the scores assigned by the annotators and use the result as the human relatedness ground-truth score for each pair of characters.
+
+[BOS] In this dataset, we have 4,761 unique character pairs annotated with a relatedness score.
+[BOS] Figure 2 shows the statistics over the relatedness scores.
+[BOS] As shown in the table, only a small number of character pairs are closely related, while the majority of the characters have either interacted very few times or did not interact at all.
+[BOS] However, it is important to include these unrelated pairs while evaluating the quality of the character embeddings, as unrelated pairs might be closer than related ones especially for minor characters that do not speak much during the dialogue.
+

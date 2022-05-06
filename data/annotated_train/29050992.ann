@@ -1,0 +1,61 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 381 386	[BOS]
+T3	Single_summ 509 514	[BOS]
+T4	Single_summ 669 674	[BOS]
+T5	Reflection 899 904	[BOS]
+T6	Single_summ 1111 1116	[BOS]
+T7	Single_summ 1281 1286	[BOS]
+T8	Reflection 1444 1449	[BOS]
+T9	Single_summ 1664 1669	[BOS]
+T10	Single_summ 1824 1829	[BOS]
+T11	Reflection 1983 1988	[BOS]
+T12	Single_summ 2147 2152	[BOS]
+T13	Single_summ 2272 2277	[BOS]
+T14	Transition 2421 2426	[BOS]
+T15	Reflection 2500 2505	[BOS]
+T16	Narrative_cite 2654 2659	[BOS]
+T17	Reflection 2781 2786	[BOS]
+T18	Reference 182 208	(Williams and Young, 2007)
+T19	Reference 244 266	(Vinyals and Le, 2015)
+T20	Reference 280 298	(Wen et al., 2015)
+T21	Reference 314 335	(Kobori et al., 2016)
+T22	Reference 360 378	(Wen et al., 2017)
+T23	Dominant 515 537	Hasegawa et al. (2013)
+T24	Dominant 1117 1134	Li et al. (2016b)
+T25	Dominant 1670 1691	Sordoni et al. (2015)
+T26	Dominant 1830 1848	Zhao et al. (2017)
+T27	Dominant 2163 2181	Xing et al. (2017)
+T28	Reference 2759 2778	Luong et al. (2016)
+T29	Pronoun 22 24	it
+T30	Pronoun 675 680	Their
+T31	Pronoun 905 909	This
+T32	Pronoun 975 977	it
+T33	Pronoun 1295 1299	they
+T34	Pronoun 1329 1334	their
+T35	Pronoun 1400 1405	Their
+T36	Pronoun 1995 2000	these
+T37	Pronoun 2287 2291	they
+T38	Pronoun 2525 2529	this
+T39	Pronoun 2822 2827	their
+T40	B_span 515 523	Hasegawa
+T41	E_span 885 897	respectively
+T42	B_span 1117 1119	Li
+T43	E_span 1434 1442	speakers
+T44	B_span 1670 1677	Sordoni
+T45	E_span 1814 1822	response
+T46	B_span 1830 1834	Zhao
+T47	E_span 1974 1981	encoder
+T48	B_span 2153 2161	Recently
+T49	E_span 2409 2419	situations
+T50	B_span 2728 2733	multi
+T51	E_span 2773 2777	2016
+T52	B_span 151 163	taskoriented
+T53	E_span 203 207	2007
+T54	B_span 228 243	troubleshooting
+T55	E_span 261 265	2015
+T56	B_span 269 279	navigation
+T57	E_span 293 297	2015
+T58	B_span 301 313	interviewing
+T59	E_span 330 334	2016
+T60	B_span 342 352	restaurant
+T61	E_span 373 377	2017

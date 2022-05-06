@@ -1,0 +1,8 @@
+[BOS] Inspired by the success of the Seq2Seq framework on NMT (Cho et al., 2014; Sutskever et al., 2014b; Bahdanau et al., 2015) , this framework has been adopted for response generation (Vinyals and Le, 2015; Shang et al., 2015) and is proved to be effective on generating responses based on given queries (Sordoni et al., 2015; Li et al., 2016; Xu et al., 2017) .
+
+[BOS] Most NMT and NRG systems generate outputs using the beam search algorithm, which unfortunately suffers from the myopic bias.
+[BOS] To solve the myopic bias, He et al. (2017) and both propose method to take the future BLEU of decoder partial outputs into account in beam search.
+[BOS] Another study indirectly related to our work is Wiseman and Rush (2016) , it treats the target sequences in training set as the gold sequences, and directly training the beam search to select word instead of probability.
+[BOS] Although these methods are proved to be effective on NMT, it might be inappropriate to directly apply them on NRG, since appropriate responses for one query are highly diverse in terms of semantics.
+[BOS] By contrast, the proposed method exploits the nature of beam search width to alleviate the myopic bias.
+

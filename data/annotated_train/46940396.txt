@@ -1,0 +1,14 @@
+[BOS] In SemEval 2016, 21 teams participated in a shared task on complex word identification (Paetzold and Specia, 2016a) .
+[BOS] The competition involved finding out whether a given word in a sentence was complex or not for a non-native speaker.
+[BOS] The dataset used was completely in English.
+
+[BOS] In this task, the winning team used a soft votingbased approach from the outputs of 21 predictors (either classifiers, threshold-based, or lexical) (Paetzold and Specia, 2016b) .
+[BOS] This system was the best system according to the G-Score -an evaluation metric designed specifically for this task at SemEval 2016 (Paetzold and Specia, 2016a) .
+[BOS] The system with the best F1-Score made use of a threshold-based approach that marked a word as complex if its frequency in Simple Wikipedia is above a threshold (Wrbel, 2016) .
+
+[BOS] Other systems at the SemEval 2016 shared task used SVM (Kuru, 2016; Choubey and Pateria, 2016; S P et al., 2016; , Random Forest (Davoodi and Kosseim, 2016; Mukherjee et al., 2016; Brooke et al., 2016; Ronzano et al., 2016) , Neural Networks (Bingel et al., 2016; Nat, 2016) , Decision Trees (Quijada and Medero, 2016; , Nearest Centroid classifier (Palakurthi and Mamidi, 2016) , Naive Bayes (Mukherjee et al., 2016) , threshold bagged classifiers (Kauchak, 2016) and Entropy classifiers (Konkol, 2016; Martnez Martnez and Tan, 2016) .
+[BOS] The features used in most of the systems were common, such as length-based features (like target word length), presence in a corpus (like presence of the target word in Simple English Wikipedia), PoS features of the target word, position features (position of the target word in the sentence), etc.
+[BOS] However, a few of the systems used some innovative features.
+[BOS] One of them was the MRC Psycholinguistic database (Wilson, 1988) used by Davoodi and Kosseim (2016) .
+[BOS] Another system by Konkol (2016) used a single feature namely document frequency of the word in Wikipedia, for classifying using a maximum entropy classifier.
+

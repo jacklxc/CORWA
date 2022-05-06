@@ -1,0 +1,40 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 62 67	[BOS]
+T3	Single_summ 204 209	[BOS]
+T4	Single_summ 346 351	[BOS]
+T5	Single_summ 462 467	[BOS]
+T6	Single_summ 549 554	[BOS]
+T7	Transition 655 660	[BOS]
+T8	Transition 753 758	[BOS]
+T9	Single_summ 834 839	[BOS]
+T10	Transition 955 960	[BOS]
+T11	Transition 1040 1045	[BOS]
+T12	Transition 1153 1158	[BOS]
+T13	Transition 1275 1280	[BOS]
+T14	Transition 1363 1368	[BOS]
+T15	Transition 1431 1436	[BOS]
+T16	Transition 1504 1509	[BOS]
+T17	Transition 1648 1653	[BOS]
+T18	Transition 1742 1747	[BOS]
+T19	Dominant 68 85	Yao et al. (2016)
+T20	Dominant 90 112	Nakamura et al. (2019)
+T21	Dominant 210 227	Yao et al. (2016)
+T22	Dominant 352 374	Nakamura et al. (2019)
+T23	Dominant 468 486	Xing et al. (2017)
+T24	Dominant 849 866	(Li et al., 2016)
+T25	B_span 68 71	Yao
+T26	E_span 202 203	.
+T27	B_span 210 213	Yao
+T28	E_span 344 345	.
+T29	B_span 352 360	Nakamura
+T30	E_span 460 461	.
+T31	B_span 468 471	Xin
+T32	E_span 653 654	.
+T33	B_span 840 842	MM
+T34	E_span 944 953	generated
+T35	Pronoun 555 560	Their
+T36	Pronoun 874 878	this
+T37	Pronoun 1372 1377	these
+T38	Pronoun 1510 1512	It
+T39	Pronoun 1585 1590	their
+T40	Pronoun 1757 1759	it

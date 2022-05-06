@@ -1,0 +1,10 @@
+[BOS] Most content selection models train the selector with heuristic rules (Hsu et al., 2018; Li et al., 2018; Gehrmann et al., 2018; Yao et al., 2019; Moryossef et al., 2019) , which fail to fully capture the relation between selection and generation.
+[BOS] Mei et al. (2016) ; ; ; Li et al. (2018) "soft-select" word or sentence embeddings based on a gating function.
+[BOS] The output score from the gate is a deterministic vector without any probabilistic variations, so controlling the selection to generate diverse text is impossible.
+[BOS] Very few works explicitly define a bernoulli distribution for the selector, then train with the REINFORCE algorithm (Ling and Rush, 2017; Chen and Bansal, 2018) , but the selection targets at a high recall regardless of the low precision, so the controllability over generated text is weak.
+[BOS] Fan et al. (2018) control the generation by manually concatenating entity embeddings, while our model is much more flexible by explicitly defining the selection probability over all source tokens.
+
+[BOS] Our work is closely related with learning discrete representations with variational infer-ence (Wen et al., 2017; van den Oord et al., 2017; Kaiser et al., 2018; Lawson et al., 2018) , where we treat content selection as the latent representation.
+[BOS] Limiting the KL-term is a common technique to deal with the "posterior collapse" problem (Kingma et al., 2016; Shen et al., 2018b) .
+[BOS] We adopt a similar approach and use it to further control the selecting strategy.
+

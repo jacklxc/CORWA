@@ -1,0 +1,20 @@
+[BOS] Yih et al. (2012) also tackled the problem of antonyms having similar embeddings.
+[BOS] In their model, the antonym is the inverse of the entire vector whereas in our work the antonym is only the inverse in an ultradense subspace.
+[BOS] Our model is more intuitive since antonyms invert only part of the meaning, not the entire meaning.
+[BOS] Schwartz et al. (2015) present a method that switches an antonym parameter on or off (depending on whether a high antonym-synonym similarity is useful for an application) and learn multiple embedding spaces.
+[BOS] We only need a single space, but consider different subspaces of this space.
+[BOS] An unsupervised approach using linguistic patterns that ranks adjectives according to their intensity was presented by de Melo and Bansal (2013) .
+[BOS] Sharma et al. (2015) present a corpus-independent approach for the same problem.
+[BOS] Our results (Table 1) suggest that polarity should not be considered to be corpus-independent.
+
+[BOS] There is also much work on incorporating the additional information into the original word embedding training.
+[BOS] Examples include (Botha and Blunsom, 2014) and (Cotterell and Schtze, 2015) .
+[BOS] However, postprocessing has several advantages.
+[BOS] DENSIFIER can be trained on a normal work station without access to the original training corpus.
+[BOS] This makes the method more flexible, e.g., when new training data or desired properties are available.
+
+[BOS] On a general level, our method bears some resemblance with (Weinberger and Saul, 2009 ) in that we perform supervised learning on a set of desired (dis)similarities and that we can think of our method as learning specialized metrics for particular subtypes of linguistic information or particular tasks.
+[BOS] Using the method of Weinberger and Saul (2009), one could learn k metrics for k subtypes of information and then simply represent a word w as the concatenation of (i) the original embedding and (ii) k representations corresponding to the k metrics.
+[BOS] 3 In case of a simple one-dimensional type of information, the corresponding representation could simply be a scalar.
+[BOS] We would expect this approach to have similar advantages for practical applications, but we view our orthogonal transformation of the original space as more elegant and it gives rise to a more compact representation.
+

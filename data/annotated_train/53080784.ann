@@ -1,0 +1,34 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 155 160	[BOS]
+T3	Single_summ 225 230	[BOS]
+T4	Single_summ 389 394	[BOS]
+T5	Single_summ 529 534	[BOS]
+T6	Single_summ 724 729	[BOS]
+T7	Narrative_cite 835 840	[BOS]
+T8	Single_summ 1067 1072	[BOS]
+T9	Single_summ 1226 1231	[BOS]
+T10	Single_summ 1303 1308	[BOS]
+T11	Single_summ 1422 1427	[BOS]
+T12	Single_summ 1561 1566	[BOS]
+T13	Reflection 1755 1760	[BOS]
+T14	Dominant 161 179	Zhou et al. (2004)
+T15	Reference 504 526	(Collier et al., 1999)
+T16	Dominant 535 560	Katiyar and Cardie (2018)
+T17	Reference 961 984	(Athavale et al., 2016)
+T18	Reference 1040 1060	(Son and Minh, 2017)
+T19	Dominant 1073 1089	Ju et al. (2018)
+T20	Dominant 1428 1453	Finkel and Manning (2009)
+T21	B_span 161 165	Zhou
+T22	E_span 521 525	1999
+T23	B_span 491 496	GENIA
+T24	E_span 521 525	1999
+T25	B_span 535 542	Katiyar
+T26	E_span 822 832	approaches
+T27	B_span 870 881	conditional
+T28	E_span 979 983	2016
+T29	B_span 988 994	nested
+T30	E_span 1055 1059	2017
+T31	B_span 1073 1075	Ju
+T32	E_span 1415 1420	score
+T33	B_span 1428 1434	Finkel
+T34	E_span 1745 1753	entities

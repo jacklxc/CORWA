@@ -1,0 +1,23 @@
+[BOS] Training efficiency has been a main concern by many researchers in the field of NMT.
+[BOS] Data parallelism and model parallelism are two commonly used techniques to improve the speed of training .
+[BOS] As a result, multiple GPUs or TPUs 1 are needed which requires additional replication and combination costs.
+[BOS] Data parallelism does not reduce the actual cost of computation, it only saves time by using additional computational power.
+[BOS] Chen et al. (2016b) proposed a modified RNN structure with a full output layer to facilitate the training when using a large amount of data.
+[BOS] Kalchbrenner et al. (2016) proposed ByteNet with two networks to encode the source and decode the target at the same time.
+[BOS] Gehring et al. (2017) use convolutional neural networks to build the system with a nature of parallelization.
+[BOS] Kuchaiev and Ginsburg (2017) focus on how to reduce the computational cost through patitioning or factorizing LSTM matrix.
+[BOS] To compare, our method does not modify the network itself and can be used in any NMT framework.
+
+[BOS] Other methods focus on how to reduce the parameters trained by the model (See et al., 2016) .
+[BOS] They show that with a pruning technique, 40-60% of the parameters can be pruned out.
+[BOS] Similar methods are proposed to reduce the hidden units with knowledge distillation (Crego et al., 2016; Kim and Rush, 2016) .
+[BOS] They re-train a smaller student model using text translated from teacher models.
+[BOS] They report a 70% reduction on the number of parameters and a 30% increase in decoding speed.
+[BOS] Hubara et al. (2016) proposed to reduce the precision of model parameters during training and network activations, which can also bring benefits to training efficiency.
+
+[BOS] To the best of our knowledge the closest idea to our work is instance weighting (Jiang and Zhai, 2007) , which is often used for domain adaptation.
+[BOS] They add instance dependent weights to the loss function to help improving the performance.
+[BOS] As a comparison, we focus on using "difficult" in-1 Google's Tensor Processing Unit .
+[BOS] stances in training rather than spending training time on easier ones.
+[BOS] We improve the accuracy while simultaneously reducing the cost of training.
+

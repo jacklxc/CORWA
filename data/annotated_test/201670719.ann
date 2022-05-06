@@ -1,0 +1,63 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 118 123	[BOS]
+T3	Narrative_cite 235 240	[BOS]
+T4	Single_summ 673 678	[BOS]
+T5	Narrative_cite 899 904	[BOS]
+T6	Narrative_cite 1226 1231	[BOS]
+T7	Transition 1360 1365	[BOS]
+T8	Narrative_cite 1507 1512	[BOS]
+T9	Transition 1750 1755	[BOS]
+T10	Reflection 1923 1928	[BOS]
+T11	Narrative_cite 2126 2131	[BOS]
+T12	Reference 349 371	(Mikolov et al., 2013)
+T13	Reference 380 406	(Pennington et al., 2014 )
+T14	Reference 417 443	(Bojanowski et al., 2017 )
+T15	Reference 487 506	Kiros et al. (2015)
+T16	Reference 509 530	Conneau et al. (2017)
+T17	Reference 533 558	Logeswaran and Lee (2018)
+T18	Reference 619 640	(McCann et al., 2017)
+T19	Reference 648 669	(Peters et al., 2018)
+T21	Dominant 698 719	(Peters et al., 2018)
+T22	Reference 992 1014	(Radford et al., 2018)
+T23	Reference 1022 1043	(Devlin et al., 2018)
+T24	Reference 1181 1198	(Dai and Le, 2015
+T25	Reference 1200 1223	Howard and Ruder, 2018)
+T26	Reference 1335 1357	(Vaswani et al., 2017)
+T27	Reference 1692 1711	(Wang et al., 2018)
+T28	Reference 1722 1746	(Rajpurkar et al., 2016)
+T29	Reference 2265 2284	(Yang et al., 2019)
+T30	Reference 2297 2316	(Liu et al., 2019b)
+T31	Pronoun 1765 1770	these
+T32	Pronoun 1852 1857	their
+T33	Pronoun 1932 1936	this
+T34	Pronoun 1965 1969	this
+T35	B_span 340 348	word2vec
+T36	E_span 366 370	2013
+T37	B_span 374 379	GloVe
+T38	E_span 400 404	2014
+T39	B_span 408 416	FastText
+T40	E_span 437 441	2017
+T41	B_span 450 458	sentence
+T42	E_span 553 557	2018
+T43	B_span 614 618	Cove
+T44	E_span 635 639	2017
+T45	B_span 643 647	ELMo
+T46	E_span 664 668	2018
+T20	B_span 693 697	ELMo
+T47	E_span 888 896	boosting
+T48	B_span 988 991	GPT
+T49	E_span 1009 1013	2018
+T50	B_span 1017 1021	BERT
+T51	E_span 1038 1042	2018
+T52	B_span 1157 1167	downstream
+T53	E_span 1218 1222	2018
+T54	B_span 1316 1327	Transformer
+T55	E_span 1352 1356	2017
+T56	B_span 1677 1681	GLUE
+T57	E_span 1706 1710	2018
+T58	B_span 1716 1721	SQuAD
+T59	E_span 1741 1745	2016
+T60	B_span 2259 2264	XLNet
+T61	E_span 2279 2283	2019
+T62	B_span 2289 2296	RoBERTa
+T63	E_span 2310 2315	2019b

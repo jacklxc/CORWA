@@ -1,0 +1,13 @@
+[BOS] Using vectors to represent word meanings is the essence of vector space models (VSM).
+[BOS] The representations capture words' semantic and syntactic information which can be used to measure semantic similarities by computing distance between the vectors.
+[BOS] Although most VSMs represent one word with only one vector, they fail to capture homonymy and polysemy of word.
+[BOS] Huang et al. (2012) introduced global document context and multiple word prototypes which distinguishes and uses both local and global context via a joint training objective.
+[BOS] Much of the research focus on the task of inducing representations for single languages.
+[BOS] Recently, a lot of progress has been made at representation learning for bilingual words.
+[BOS] Bilingual word representations have been presented by Peirsman and Pad (2010) and Sumita (2000) .
+[BOS] Also unsupervised algorithms such as LDA and LSA were used by Boyd-Graber and Resnik (2010) , Tam et al. (2007) and Zhao and Xing (2006) .
+[BOS] Zou et al. (2013) learn bilingual embeddings utilizes word alignments and monolingual embeddings result, Le et al. (2012) and Gao et al. (2014) used continuous vector to represent the source language or target language of each phrase, and then computed translation probability using vector distance.
+[BOS] Vuli and Moens (2013) learned bilingual vector spaces from non-parallel data induced by using a seed lexicon.
+[BOS] However, none of these work considered the word sense disambiguation problem which Carpuat and Wu (2007) proved it is useful for SMT.
+[BOS] In this paper, we learn bilingual semantic embeddings for source content and target phrase, and incorporate it into a phrasebased SMT system to improve translation quality.
+

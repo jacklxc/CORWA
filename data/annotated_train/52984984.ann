@@ -1,0 +1,54 @@
+T1	Multi_summ 0 5	[BOS]
+T2	Single_summ 123 128	[BOS]
+T3	Single_summ 218 223	[BOS]
+T4	Transition 282 287	[BOS]
+T5	Single_summ 361 366	[BOS]
+T6	Single_summ 417 422	[BOS]
+T7	Single_summ 625 630	[BOS]
+T8	Transition 733 738	[BOS]
+T9	Reflection 825 830	[BOS]
+T10	Transition 943 948	[BOS]
+T11	Single_summ 1027 1032	[BOS]
+T12	Multi_summ 1225 1230	[BOS]
+T13	Multi_summ 1373 1378	[BOS]
+T14	Reflection 1530 1535	[BOS]
+T15	Reflection 1674 1679	[BOS]
+T16	Transition 1778 1783	[BOS]
+T17	Single_summ 1847 1852	[BOS]
+T18	Multi_summ 1939 1944	[BOS]
+T19	Transition 2021 2026	[BOS]
+T20	Reflection 2092 2097	[BOS]
+T21	Reflection 2176 2181	[BOS]
+T22	Dominant 11 29	Rios et al. (2017)
+T23	Dominant 34 51	Liu et al. (2018)
+T24	Dominant 129 147	Rios et al. (2017)
+T25	Dominant 224 241	Liu et al. (2018)
+T26	Dominant 367 385	Rios et al. (2017)
+T27	Dominant 644 661	Liu et al. (2018)
+T28	Dominant 1033 1056	Marvin and Koehn (2018)
+T29	Dominant 1231 1255	Koehn and Knowles (2017)
+T30	Dominant 1260 1282	Ghader and Monz (2017)
+T31	Reference 1752 1774	(Vaswani et al., 2017)
+T32	Dominant 1853 1872	Tang et al. (2018b)
+T33	Dominant 1945 1964	Tang et al. (2018a)
+T34	Dominant 1967 1980	Domhan (2018)
+T35	B_span 6 10	Both
+T36	E_span 116 121	words
+T37	B_span 129 133	Rios
+T38	E_span 274 280	vector
+T39	B_span 367 371	Rios
+T40	E_span 615 623	directly
+T41	B_span 644 647	Liu
+T42	E_span 728 731	set
+T43	B_span 1033 1039	Marvin
+T44	E_span 1216 1223	decoder
+T45	B_span 1231 1236	Koehn
+T46	E_span 1522 1528	tokens
+T47	B_span 1733 1744	Transformer
+T48	E_span 1769 1773	2017
+T49	B_span 1853 1857	Tang
+T50	E_span 1924 1937	architectures
+T51	B_span 1945 1949	Tang
+T52	E_span 2009 2019	mechanisms
+T53	E_span 208 216	features
+T54	B_span 224 227	Liu

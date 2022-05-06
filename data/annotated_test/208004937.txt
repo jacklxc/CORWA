@@ -1,0 +1,16 @@
+[BOS] Most work on the FEVER dataset is based on the baseline system proposed in the dataset description (Thorne et al., 2018a) , using a pipeline consisting of document retrieval, sentence selection and RTE.
+[BOS] We implemented such a pipeline as well and have built on several ideas found in the first FEVER challenge.
+
+[BOS] We have used the document retrieval module developed by (Hanselowski et al., 2018) which achieved the highest evidence recall in the first fever challenge (Thorne et al., 2018c) .
+[BOS] They use the MediaWiki API 3 which queries the Wikipedia search engine.
+[BOS] Every noun phrase is considered to be a possible entity mention and is fed into the MediWiki API, yielding up to seven Wikipedia pages per claim.
+[BOS] Nie et al. (2018) propose a 'two-hop' evidence enhancement process, that is they gather all hyperlinks in their already retrieved evidence sentences and apply their sentence selection module on all sentences found in these documents retrieved by following the hyperlinks.
+[BOS] A 0.8% increase in FEVER score (using oracle lables) is reported by using this strategy.
+[BOS] Malon (2018) use the open-GPT model (Radford et al., 2018) for sentence selection and entailment classification.
+[BOS] We have trained similar models, but used BERT instead.
+[BOS] BERT is a noisy autoencoder pre-trained on masked language modeling tasks and was the state of the art on a number of natural language understanding (NLU) tasks (Devlin et al., 2018) during the builder phase of FEVER 2.0, e.g. the NLU benchmark GLUE (Wang et al., 2018) and on SQuAD (Rajpurkar et al., 2016) , a question answering dataset.
+[BOS] Classification in BERT is achieved by training a special '[CLS]' token which is prepended to every sequence (or sequence pair), gather the '[CLS]' token's hidden representation and perform classification on top of that.
+[BOS] We used the cased English version of BERT BASE for all our experiments.
+[BOS] Hanselowski et al. (2018) use the hinge loss function 4 to maximize the margin between positive and (sampled) negative evidence sentences.
+[BOS] Thus, we adapted BERT for sentence selection to be trained with the hinge loss as well.
+

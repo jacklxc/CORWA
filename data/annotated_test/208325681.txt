@@ -1,0 +1,13 @@
+[BOS] In the natural language processing community, there are a number of related competitions and tasks Delger et al., 2016) .
+[BOS] Most prior work focused on extracting the relations within one sentence, and ignored the relations beyond one sentence.
+
+[BOS] In the NLP community, it has proven to be effective to combine linguistic features with neural networks for relation extraction Miwa and Bansal, 2016) .
+[BOS] Bunescu et al. (2005) demonstrated that the relationship of an entity pair can be captured along their shortest dependency path in the dependency graph because the words on the shortest dependency path concentrate the most relevant information and diminish redundant information.
+[BOS] Following this observation, several studies (Xu et al., 2015; Liu et al., 2015) achieved outstanding performance by combining shortest dependency paths with various neural networks.
+[BOS] As deep learning develops, some attention-based neural architectures (Zhou et al., 2016; Lin et al., 2016) have been proposed for relation classification and show the state-of-the-art performance.
+[BOS] But with a few exceptions, almost all related work only focused on intra-sentence relation extraction, without considering the inter-sentence relations.
+
+[BOS] Recent work has explored some approaches to consider inter-sentence relations, such as Graph LSTMs (Peng et al., 2017) , self-attention (Verga et al., 2018 ), Graph CNNs (Sahu et al., 2019 .
+[BOS] However, none of these work investigated lexical chains for inter-sentence relation extraction.
+[BOS] In the future, we will evaluate our approach on some large-scale datasets for intra-and inter-sentence relation extraction (Yao et al., 2019) .
+

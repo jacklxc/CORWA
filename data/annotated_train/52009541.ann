@@ -1,0 +1,36 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 54 59	[BOS]
+T3	Reflection 76 81	[BOS]
+T4	Narrative_cite 163 168	[BOS]
+T5	Single_summ 341 346	[BOS]
+T6	Transition 455 460	[BOS]
+T7	Reflection 669 674	[BOS]
+T8	Reflection 775 780	[BOS]
+T9	Reflection 849 854	[BOS]
+T10	Narrative_cite 891 896	[BOS]
+T11	Single_summ 1087 1092	[BOS]
+T12	Single_summ 1240 1245	[BOS]
+T13	Reflection 1357 1362	[BOS]
+T14	Reference 199 233	(Hochreiter and Schmidhuber, 1997)
+T15	Reference 242 260	(Cho et al., 2014a
+T16	Reference 262 280	Cho et al., 2014b)
+T17	Dominant 357 381	Srivastava et al. (2015)
+T18	Reference 917 939	(Bahdanau et al., 2015
+T19	Reference 941 957	Lin et al., 2017
+T20	Reference 959 981	Vaswani et al., 2017 )
+T21	Dominant 1093 1111	Ding et al. (2017)
+T22	Dominant 1256 1278	Karpathy et al. (2015)
+T23	Pronoun 506 510	they
+T24	Pronoun 1366 1370	this
+T25	B_span 194 198	LSTM
+T26	B_span 238 241	GRU
+T27	E_span 274 279	2014b
+T28	E_span 228 232	1997
+T29	B_span 357 367	Srivastava
+T30	E_span 445 453	networks
+T31	B_span 897 906	Attention
+T32	E_span 975 979	2017
+T33	B_span 1093 1097	Ding
+T34	E_span 1232 1238	errors
+T35	B_span 1256 1264	Karpathy
+T36	E_span 1345 1355	processing

@@ -1,0 +1,32 @@
+[BOS] Currently, the most common subword methods are BPE (Sennrich et al., 2016) , wordpiece (Wu et al., 2016) and subword regularization (Kudo, 2018) .
+[BOS] Subword regularization introduces Bayesian sampling method to incorporate more segmentation variety into the training corpus, thus improving the systems' ability to handle segmentation ambiguity.
+[BOS] Yet, the effect of such method is not very thoroughly tested.
+[BOS] In this work we will focus on the BPE/wordpiece method.
+[BOS] Because the two methods are very similar, throughout the rest of the paper, we will refer to the BPE/wordpiece method as BPE method unless otherwise specified.
+
+[BOS] To the best of our knowledge, no prior work systematically reports findings for a wide range of systems that cover different architectures and both directions of translation for multiple language pairs.
+
+[BOS] While some work has conducted experiments with different BPE settings, they are generally very limited in the range of configurations explored.
+[BOS] For example, Sennrich et al. (2016) , the original paper that proposed the BPE method, compared the system performance when using 60k separate BPE and 90k joint BPE.
+[BOS] They found 90k to work better and used that for their subsequent winning WMT 2017 new translation shared task submission (Sennrich et al., 2017) .
+[BOS] Wu et al. (2016) , on the other hand, found 8k-32k merge operations achieving optimal BLEU score performance for the wordpiece method.
+[BOS] Denkowski and Neubig (2017) explored several hyperparameter settings, including number of BPE merge operations, to establish strong baseline for NMT on LSTM-based architectures.
+[BOS] While Denkowski and Neubig (2017) showed that BPE models are clearly better than word-level models, their experiments on 16k and 32k BPE configuration did not show much difference.
+[BOS] They therefore recommended "32K as a generally effective vocabulary size and 16K as a contrastive condition when building systems on less than 1 million parallel sentences".
+[BOS] However, while studying deep character-based LSTM-based translation models, Cherry et al. (2018) also ran experiments for BPE configurations between 0-32k, and found that the system performance deteriorates with the increasing number of BPE merge operations.
+[BOS] Recently, Renduchintala et al. (2018) also showed that it is important to tune the number of BPE merge operations and found no typical optimal BPE configuration for their LSTM-based architecture while sweeping over several language pairs in the low-resource setting.
+[BOS] It should be noticed that the results from the above studies actually contradict with each other, and there is still no clear consensus as to what is the best practice for BPE application.
+[BOS] Moreover, all the work surveyed above was done with LSTM-based architectures.
+[BOS] To this day, we are not aware of any work that explored the interaction of BPE with the Transformer architecture.
+
+[BOS] To give the readers a better landscape of the current practice, we gather all 44 papers that have been accepted by the research track of Conference of Machine Translation (WMT) through 2017 and 2018.
+[BOS] We count different configurations used in a single paper as separate data points.
+[BOS] Hence, after removing 8 papers for which BPE is irrelevant, we still manage to obtain 42 data points, shown in Figure 1 .
+[BOS] It first comes to our attention that 30k-40k is the most popular range for the number of BPE merge operations.
+[BOS] This is mostly driven by the popularity of two configurations: 30k and 32k.
+[BOS] 80k-100k is also pretty popular, which is largely due to configurations 89.5k and 90k.
+[BOS] Upon closer examination, we realized that most papers that used 90k were following the configuration in Sennrich et al. (2017) , the winning NMT system in the WMT 2017 news translation shared task, but this setup somehow became less popular in 2018.
+[BOS] On the other hand, although we are unable to confirm a clear trend-setter, 30k-50k always seems to be a common choice.
+[BOS] Moreover, although smaller BPE size got more popular among configurations in 2018, none of the work published in WMT has ever explored BPE size lower than 6k.
+[BOS] All of the above observations support our initial claim that we as a community have not yet systematically investigated the entire range of BPE merge operations used in our experiments.
+

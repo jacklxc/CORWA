@@ -1,0 +1,12 @@
+[BOS] Our method is inspired by the work on curriculum learning and recent work on data selection for transfer learning.
+
+[BOS] Curriculum Learning: Curriculum Learning (Bengio et al., 2009 ) deals with the question of how to use prior knowledge about the difficulty of the training examples, to boost the rate of learning and the performance of the final model.
+[BOS] The ranking or weighting of the training examples is used to guide the order of presentation of examples to the learner.
+[BOS] The idea is to build a curriculum of progressively harder samples in order to significantly accelerate a neural network's train-ing.
+[BOS] While curriculum learning can leverage label information (loss of the model, training progress) (Weinshall and Amir, 2018) to guide data selection, this work assumes no or few labeled data in the new domain.
+
+[BOS] Data Selection: Not all the data points from the source domain are equally important for target domain transfer.
+[BOS] Irrelevant source data points only add noise and overfit the training model.
+[BOS] Recent work from Ruder and Plank, applied Bayesian optimization to learn a scoring function to rank the source data points.
+[BOS] Data selection method was also used by Tsvetkov et al. to learn the curriculum for task-specific word representation learning, and by Axelrod et al. ; Duh et al. for machine translation using a neural language model.
+

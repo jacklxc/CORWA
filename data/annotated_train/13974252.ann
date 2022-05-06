@@ -1,0 +1,50 @@
+T1	Reference 85 112	Choueka and Lusignan (1985)
+T2	Narrative_cite 1 4	BOS
+T3	Reference 121 143	Levinger et al. (1995)
+T4	Narrative_cite 116 119	BOS
+T5	E_span 1014 1022	accuracy
+T6	B_span 278 281	The
+T7	Dominant 384 396	Segal (1999)
+T8	Reference 454 466	Segal (1997)
+T9	Single_summ 273 276	BOS
+T10	Single_summ 596 599	BOS
+T11	Single_summ 745 748	BOS
+T12	Single_summ 860 863	BOS
+T13	Single_summ 967 970	BOS
+T14	Reference 1091 1115	Lemberski, 2003, page 85
+T15	Narrative_cite 1025 1028	BOS
+T16	Transition 1720 1723	BOS
+T17	Single_summ 1499 1502	BOS
+T18	Single_summ 1362 1365	BOS
+T19	Single_summ 1251 1254	BOS
+T20	Transition 1120 1123	BOS
+T21	Dominant 1256 1278	Bar-Haim et al. (2005)
+T22	B_span 1256 1259	Bar
+T23	E_span 1709 1716	article
+T24	B_span 1824 1829	Adler
+T25	Reflection 2209 2212	BOS
+T26	E_span 2192 2206	disambiguation
+T27	Dominant 1824 1848	Adler and Elhadad (2006)
+T28	Single_summ 1809 1812	BOS
+T29	Single_summ 1987 1990	BOS
+T30	Single_summ 2110 2113	BOS
+T31	Dominant 2383 2407	Habash and Rambow (2005)
+T32	B_span 2307 2308	A
+T33	E_span 2841 2847	corpus
+T34	Single_summ 2302 2305	BOS
+T35	Single_summ 2480 2483	BOS
+T36	Single_summ 2590 2593	BOS
+T37	Single_summ 2677 2680	BOS
+T38	Reflection 2851 2854	BOS
+T39	B_span 85 92	Choueka
+T40	E_span 107 111	1985
+T41	B_span 121 129	Levinger
+T42	E_span 138 142	1995
+T43	B_span 1030 1034	More
+T44	E_span 1113 1115	85
+T45	Pronoun 168 170	it
+T46	Pronoun 186 191	their
+T47	Pronoun 1390 1394	this
+T48	Pronoun 1408 1410	it
+T49	Pronoun 1520 1524	this
+T50	Pronoun 2226 2230	this

@@ -1,0 +1,14 @@
+[BOS] Sequence Matching task has attracted lots of attention in the past decades.
+[BOS] There are many related works on Question Answering(QA) (Yin et al., 2015; Tay et al., 2018; Wang et al., 2017; Tymoshenko and Moschitti, 2018; Min et al., 2017) , Natural Language Inference(NLI) (Peters et al., 2018; Kim et al., 2018; and so on.
+[BOS] (Yin et al., 2015) use attention mechanism with convolutional layer to model sentence pairs.
+[BOS] In (Tymoshenko and Moschitti, 2018) , they combine the similarity features of members within the same pair and traditional sentence pair similarity and achieve state-of-the-art results on several answer selection datasets including WikiQA (Yang et al., 2015) .
+[BOS] (Peters et al., 2018) and incorporate pretrained language models to text sequence matching task and achieve performance improvement on SNLI (Bowman et al., 2015) .
+
+[BOS] Recently, pre-trained language models have been successfully used in NLP tasks.
+[BOS] ELMo (Peters et al., 2017) is trained as a bidirectional language model.
+[BOS] OpenAI GPT (Alec Radford, 2018) uses a basic left-to-right transformer to learn a language model.
+[BOS] BERT, used in this paper, is based on the architecture of a bidirectional Transformer and per-trained on Masked Language Model task and Next Sentence Prediction.
+[BOS] Using the pre-trained parameters, BERT (Devlin et al., 2018) achieves state-of-the-art performance on the GLUE benchmark (Wang et al., 2018) and SQuAD 1.1 (Rajpurkar et al., 2016) by fine-tuning in corresponding supervised data.
+
+[BOS] In this work, we design a sequence matching model based on BERT.
+

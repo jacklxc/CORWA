@@ -1,0 +1,16 @@
+[BOS] Creating evaluation datasets to get a fine-grained analysis of particular linguistics features or model attributes has been explored in past work.
+[BOS] The LAM-BADA dataset tests a model's ability to understand the broad contexts present in book passages (Paperno et al., 2016) .
+[BOS] Other work focuses on natural language inference, where challenge examples highlight existing model failures (Wang et al., 2018; Glockner et al., 2018; Naik et al., 2018) .
+[BOS] Our work is unique in that we use human as adversaries to expose model weaknesses, which provides a diverse set of phenomena (from paraphrases to multi-hop reasoning) that models can't solve.
+
+[BOS] Other work has explored specific limitations of NLP systems.
+[BOS] Rimell et al. (2009) show that parsers struggle on test examples with unbounded dependencies.
+[BOS] The most closely related work to ours is Ettinger et al. (2017) who also use humans as adversaries.
+[BOS] Unlike their Build-it Break-it setting, we have a ready-made audience of "breakers" who are motivated and capable of generating adversarial examples.
+[BOS] Our work also differs in that we use model interpretation methods to facilitate the breaking in an interactive manner.
+
+[BOS] Finally, other methods have found very simple input modifications can break neural models.
+[BOS] For example, adding character level noise drastically reduces machine translation quality (Belinkov and Bisk, 2018) , while paraphrases can fool textual entailment and visual question answering systems (Iyyer et al., 2018; Ribeiro et al., 2018) .
+[BOS] Jia et al. (2017) place distracting sentences at the end of paragraphs and cause QA systems to incorrectly pick up on the misleading information.
+[BOS] These types of input modifications can evaluate one specific type of phenomenon and are complementary to our approach.
+

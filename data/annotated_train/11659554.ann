@@ -1,0 +1,27 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 142 147	[BOS]
+T3	Single_summ 244 249	[BOS]
+T4	Single_summ 424 429	[BOS]
+T5	Reflection 580 585	[BOS]
+T6	Reflection 703 708	[BOS]
+T7	Single_summ 830 835	[BOS]
+T8	Single_summ 959 964	[BOS]
+T9	Single_summ 1173 1178	[BOS]
+T10	Single_summ 1353 1358	[BOS]
+T11	Dominant 250 271	Cherry and Lin (2006)
+T12	Dominant 430 452	Haghighi et al. (2009)
+T13	Dominant 836 859	DeNero and Klein (2007)
+T14	Dominant 965 985	Fossum et al. (2008)
+T15	Dominant 1179 1202	Fraser and Marcu (2007)
+T16	Pronoun 472 477	these
+T17	Pronoun 1359 1363	They
+T18	B_span 250 256	Cherry
+T19	E_span 413 422	alignment
+T20	B_span 430 438	Haghighi
+T21	E_span 572 578	corpus
+T22	B_span 836 842	DeNero
+T23	E_span 949 957	distance
+T24	B_span 965 971	Fossum
+T25	E_span 1159 1170	information
+T26	B_span 1179 1185	Fraser
+T27	E_span 1441 1447	corpus

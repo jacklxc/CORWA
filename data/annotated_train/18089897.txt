@@ -1,0 +1,16 @@
+[BOS] Previous work on using WSD for SMT has yielded mixed results.
+[BOS] (Carpuat and Wu, 2005) report a negative impact on BLEU scores.
+[BOS] They used a supervised WSD system to select translation candidates for the SMT system, but, contrary to common sense expectations, this only made the translation model perform worse.
+[BOS] Several reasons for this are suggested, chiefly that the SMT model works well enough on its own and state-of-the-art WSD systems cannot really boost it in a significant number of cases, and also that SMT architectures might not be welladapted to make use of the output of WSD systems.
+[BOS] (Cabezas and Resnik, 2005) present an approach to using WSD for SMT, whereby target language lexical items are treated as "sense tags", given as soft translation alternatives to the translation model, which chooses the final version in accordance with its language model.
+[BOS] The study reported a small gain against a base-line that is, according to the authors, stronger than the one used in (Carpuat and Wu, 2005) .
+[BOS] (Vickrey et al., 2005) recasts WSD as a translation task, defining the different sense options for the separate words as the words or phrases aligned to them in a parallel corpus.
+[BOS] The authors demonstrate that this approach is successful, as tested on word translation and blankfilling, thus showing that WSD and SMT have a lot in common and improving one should be helpful for improving the other.
+[BOS] (Chan et al., 2007) present another study in which WSD is beneficial to SMT.
+[BOS] Disambiguation is performed between the possible translations of each source phrase.
+[BOS] Translations are selected so as to maximize the length of the chunk proposed by the WSD model; the score provided by the WSD model is also taken into consideration.
+[BOS] This approach yields a statistically significant improvement in terms of BLEU score.
+[BOS] In a study that builds on their previously discouraging results, (Carpuat and Wu, 2007) show how a deeper integration of WSD into SMT systems can help systematically and significantly.
+[BOS] Instead of performing disambiguation on single words, their system performs multiword phrasal disambiguation, thus achieving improvements over the baseline, as measured by eight different translation metrics.
+[BOS] The rich context provided by the supervised WSD system helps rank correct translations higher than erroneous ones suggested by the baseline SMT system; also, it helps the decoder pick longer translation sequences, which often results in better translations.
+

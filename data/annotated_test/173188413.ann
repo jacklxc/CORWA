@@ -1,0 +1,50 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 214 219	[BOS]
+T3	Reflection 349 354	[BOS]
+T4	Single_summ 480 485	[BOS]
+T5	Single_summ 593 598	[BOS]
+T6	Single_summ 726 731	[BOS]
+T7	Single_summ 840 845	[BOS]
+T8	Single_summ 993 998	[BOS]
+T9	Transition 1123 1128	[BOS]
+T10	Single_summ 1217 1222	[BOS]
+T11	Single_summ 1308 1313	[BOS]
+T12	Single_summ 1439 1444	[BOS]
+T13	Narrative_cite 1578 1583	[BOS]
+T14	Transition 1845 1850	[BOS]
+T15	Reflection 2019 2024	[BOS]
+T16	Reflection 2273 2278	[BOS]
+T17	Reference 60 80	(Koh and Liang, 2017
+T18	Reference 82 102	Ribeiro et al., 2016
+T19	Reference 104 119	Li et al., 2016
+T20	Dominant 240 259	Zhang et al. (2016)
+T21	Dominant 486 503	Lei et al. (2016)
+T22	Dominant 732 749	Bao et al. (2018)
+T23	Dominant 1232 1245	Nguyen (2018)
+T24	Reference 1680 1704	(Jain and Wallace, 2019)
+T25	Pronoun 127 129	it
+T26	Pronoun 380 385	their
+T27	Pronoun 599 603	They
+T28	Pronoun 612 617	their
+T29	Pronoun 757 761	this
+T30	Pronoun 846 850	They
+T31	Pronoun 860 864	this
+T32	Pronoun 999 1003	They
+T33	Pronoun 1012 1017	their
+T34	Pronoun 1073 1078	their
+T35	Pronoun 1412 1414	it
+T36	Pronoun 1966 1970	they
+T37	Pronoun 2067 2072	these
+T38	Pronoun 2282 2286	this
+T39	B_span 45 56	explainable
+T40	E_span 115 119	2016
+T41	B_span 240 245	Zhang
+T42	E_span 337 347	rationales
+T43	B_span 486 489	Lei
+T44	E_span 718 724	recall
+T45	B_span 732 735	Bao
+T46	E_span 1111 1120	attention
+T47	B_span 1232 1238	Nguyen
+T48	E_span 1564 1575	supervision
+T49	B_span 1655 1664	attention
+T50	E_span 1699 1703	2019

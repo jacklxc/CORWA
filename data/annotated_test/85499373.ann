@@ -1,0 +1,44 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 111 116	[BOS]
+T3	Narrative_cite 268 273	[BOS]
+T4	Transition 359 364	[BOS]
+T5	Single_summ 491 496	[BOS]
+T6	Single_summ 652 657	[BOS]
+T7	Transition 814 819	[BOS]
+T8	Transition 881 886	[BOS]
+T9	Narrative_cite 988 993	[BOS]
+T10	Reflection 1197 1202	[BOS]
+T11	Transition 1370 1375	[BOS]
+T12	Single_summ 1481 1486	[BOS]
+T13	Single_summ 1606 1611	[BOS]
+T14	Transition 1699 1704	[BOS]
+T15	Single_summ 1796 1801	[BOS]
+T16	Dominant 137 155	Zeng et al. (2015)
+T17	Reference 339 356	(Wu et al., 2017)
+T18	Dominant 569 587	Yang et al. (2014)
+T19	Dominant 678 702	(Trouillon et al., 2016)
+T20	Reference 1172 1194	(Xu and Barbosa, 2018)
+T21	Dominant 1487 1514	Sorokin and Gurevych (2017)
+T22	Dominant 1612 1635	Vashishth et al. (2018)
+T23	Dominant 1802 1819	Han et al. (2018)
+T24	Pronoun 629 634	their
+T25	Pronoun 887 892	Their
+T26	Pronoun 1000 1004	they
+T27	Pronoun 1714 1719	these
+T28	Pronoun 1907 1912	their
+T29	B_span 137 141	Zeng
+T30	E_span 258 266	mentions
+T31	B_span 274 283	Recurrent
+T32	E_span 351 355	2017
+T33	B_span 569 573	Yang
+T34	E_span 644 650	method
+T35	B_span 670 677	ComplEx
+T36	E_span 802 812	benchmarks
+T37	B_span 1017 1026	combining
+T38	E_span 1189 1193	2018
+T39	B_span 1487 1494	Sorokin
+T40	E_span 1596 1604	relation
+T41	B_span 1612 1613	V
+T42	E_span 1695 1697	RE
+T43	B_span 1802 1805	Han
+T44	E_span 2012 2015	KBs

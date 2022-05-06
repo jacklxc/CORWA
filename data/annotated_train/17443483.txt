@@ -1,0 +1,9 @@
+[BOS] A particularly successful way to leverage mention classification has been to specialise modelling by mention type.
+[BOS] Denis and Baldridge (2008) learn five different models, one each for proper name, definite nominal, indefinite nominal, third person pronoun, and non-third person pronoun.
+[BOS] Bengtson and Roth (2008) and Durrett and Klein (2013) implement specialisation at the level of features within a model, rather than explicitly learning separate models.
+[BOS] Bengtson and Roth (2008) prefix each base feature generated with the type of the current mention, one of proper name, nominal, or pronoun, for instance nominal-head match:true.
+[BOS] Durrett and Klein (2013) extend from this by learning a model over three versions of each base feature: unprefixed, conjoined with the type of the current mention, and conjoined with concatenation of the types of the current mention and candidate antecedent mention: nominal+nominal-head match=true.
+
+[BOS] The success of Durrett and Klein is possible due to the large training dataset provided by OntoNotes (Pradhan et al., 2007) .
+[BOS] In this work, we successfully extend data-driven specialisation still further: Section 4 shows how we can discover fine-grained patterns in reference expression usage, and Section 5 how these patterns can be used to significantly improve the performance of a strong coreference system.
+

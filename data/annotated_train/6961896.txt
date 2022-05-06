@@ -1,0 +1,16 @@
+[BOS] Previous work has made use of various restrictions or approximations that allow efficient training of GLMs for parsing.
+[BOS] This section describes the relationship between our work and this previous work.
+
+[BOS] In reranking approaches, a first-pass parser is used to enumerate a small set of candidate parses for an input sentence; the reranking model, which is a GLM, is used to select between these parses (e.g., (Ratnaparkhi et al., 1994; Johnson et al., 1999; Collins, 2000; Charniak and Johnson, 2005) ).
+[BOS] A crucial advantage of our approach is that it considers a very large set of alternatives in Y(x), and can thereby avoid search errors that may be made in the first-pass parser.
+[BOS] 1 Another approach that allows efficient training of GLMs is to use simpler syntactic representations, in particular dependency structures (McDon-ald et al., 2005) .
+[BOS] Dependency parsing can be implemented in O(n 3 ) time using the algorithms of Eisner (2000) .
+[BOS] In this case there is no grammar constant, and parsing is therefore efficient.
+[BOS] A disadvantage of these approaches is that they do not recover full, constituent-based syntactic structures; the increased linguistic detail in full syntactic structures may be useful in NLP applications, or may improve dependency parsing accuracy, as is the case in our experiments.
+[BOS] 2 There has been some previous work on GLM approaches for full syntactic parsing that make use of dynamic programming.
+[BOS] Taskar et al. (2004) describe a max-margin approach; however, in this work training sentences were limited to be of 15 words or less.
+[BOS] Clark and Curran (2004) describe a log-linear GLM for CCG parsing, trained on the Penn treebank.
+[BOS] This method makes use of parallelization across an 18 node cluster, together with up to 25GB of memory used for storage of dynamic programming structures for training data.
+[BOS] Clark and Curran (2007) describe a perceptronbased approach for CCG parsing which is considerably more efficient, and makes use of a supertagging model to prune the search space of the full parsing model.
+[BOS] Recent work Finkel et al., 2008) describes log-linear GLMs applied to PCFG representations, but does not make use of dependency features.
+

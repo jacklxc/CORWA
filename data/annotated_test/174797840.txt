@@ -1,0 +1,33 @@
+[BOS] Using Wikipedia pages to learn linkers ('wikifiers') has been a popular line of research both for named entity linking (Cheng and Roth, 2013; Milne and Witten, 2008) and generally entity disambiguation tasks (Ratinov et al., 2011b) .
+[BOS] How-ever, since introduction of the AIDA CoNLL dataset, fully-supervised learning on this dataset became standard for named entity linking, with supervised systems (Globerson et al., 2016; Guo and Barbosa, 2016; Yamada et al., 2016) outperforming alternatives even on out-of-domain datasets such as MSNBC and ACE2004.
+[BOS] Note though that supervised systems also rely on Wikipedia-derived features.
+[BOS] As an alternative to using Wikipedia pages, links to Wikipedia pages from the general Web were used as supervision (Singh et al., 2012) .
+[BOS] As far as we are aware, the system of Chisholm and Hachey (2015) is the only such system evaluated on standard named-entity linking benchmarks, and we compare to them in our experiments.
+[BOS] This line of work is potentially complementary to what we propose, as we could use the Web links to construct weak supervision.
+
+[BOS] The weakly-or semi-supervised set-up, which we use, is not common for entity linking.
+[BOS] The only other approach which uses a combination of Wikipedia and unlabeled data, as far as we are aware of, is by Lazic et al. (2015) .
+[BOS] We discussed it and compared to in previous sections.
+[BOS] Our setup is inspired by distantly-supervised learning in relation extraction (Mintz et al., 2009 ).
+[BOS] In distant learning, the annotation is automatically (and noisily) induced relying on a knowledge base instead of annotating the data by hand.
+[BOS] Fan, Zhou, and Zheng (2015) learned a Freebase linker using distance supervision.
+[BOS] Their evaluation is nonstandard.
+[BOS] They also do not attempt to learn a disambiguation model but directly train their system to replicate noisy projected annotations.
+[BOS] Wang et al. (2015) refer to their approach as unsupervised, as they do not use unlabeled data.
+[BOS] However, their method does not involve any learning and relies on matching heuristics.
+[BOS] Some aspects of their approach (e.g., using Wikipedia link statitics) resemble our candidate generation stage.
+[BOS] So, in principle, their approach could be compared to the 'no-disambiguation' baselines (s c ) in Table 3 .
+[BOS] Their evaluation set-up is not standard.
+
+[BOS] Our model (but not the estimation method) bears similarities to the approaches of Le and Titov (2018) and Globerson at al. (2016) .
+[BOS] Both these supervised approaches are global and use attention.
+
+[BOS] In this paper we proposed a weakly-supervised model for entity linking.
+[BOS] The model was trained on unlabeled documents which were automatically annotated using Wikipedia.
+[BOS] Our model substantially outperforms previous methods, which used the same form of supervision, and rivals fullysupervised models trained on data specifically annotated for the entity-linking problem.
+[BOS] This result may be interpreted as suggesting that humanannotated data is not beneficial for entity linking, given that we have Wikipedia and web links.
+[BOS] However, we believe that the two sources of information are likely to be complementary.
+
+[BOS] In the future work we would like to consider setups where human-annotated data is combined with naturally occurring one (i.e. distantly-supervised one).
+[BOS] It would also be interesting to see if mistakes made by fully-supervised systems differ from the ones made by our system and other Wikipediabased linkers.
+

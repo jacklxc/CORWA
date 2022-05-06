@@ -1,0 +1,26 @@
+[BOS] Question Generation Early QG studies focused on using rule-based methods to transform statements to questions (Heilman and Smith, 2010; Lindberg et al., 2013; Labutov et al., 2015) .
+[BOS] Recent works adopted the attention-based sequenceto-sequence neural model (Bahdanau et al., 2014) for QG tasks, taking answer sentence as input and outputting the question (Du et al., 2017; , which proved to be better than rulebased methods.
+[BOS] Since human-labeled questions are often relevant to a longer context, later works leveraged information from the whole paragraph for QG, either by extracting additional information from the paragraph Song et al., 2018; Liu et al., 2019) or by directly taking the whole paragraph as input Kim et al., 2018; .
+[BOS] A very recent concurrent work applied the large-scale language model pre-training strategy for QG and also achieved a new state-of-the-art performance (Dong et al., 2019) .
+[BOS] However, the above models were trained with teacher forcing only.
+[BOS] To address the exposure bias problem, some works applied reinforcement learning taking evaluation metrics (e.g., BLEU) as rewards (Song et al., 2017; Kumar et al., 2018) .
+[BOS] Yuan et al. (2017) proposed to use a language model's perplexity (R P P L ) and a QA model's accuracy (R QA ) as two rewards but failed to get significant improvement.
+[BOS] Their second reward is similar to our QAP reward except that we use QA probability rather than accuracy as the probability distribution is more smooth.
+[BOS] Hosking and Riedel (2019) compared a set of different rewards, including R P P L and R QA , and claimed none of them improved the quality of generated questions.
+[BOS] For QG evaluation, even though some previous works conducted human evaluations, most of them still relied on traditional metrics (e.g., BLEU).
+[BOS] However, Nema and Khapra (2018) pointed out the existing metrics do not correlate with human judgment about answerability, so they proposed "Q-metrics" that mixed traditional metrics with an "answerability" score.
+[BOS] In our work, we will show QG results on traditional metrics, Q-metrics, as well as human evaluation, and also propose a QA-based QG evaluation.
+
+[BOS] Question Generation for QA As the dual task of QA, QG has been often proposed for improving QA.
+[BOS] Some works have directly used QG in QA models' pipeline (Duan et al., 2017; Dong et al., 2017; Lewis and Fan, 2019) .
+[BOS] Some other works enabled semi-supervised QA with the help of QG.
+[BOS] Tang et al. (2017) applied the "dual learning" algorithm (He et al., 2016) to learn QA and QG jointly with unlabeled texts.
+[BOS] and Tang et al. (2018) followed the GAN (Goodfellow et al., 2014) paradigm, taking QG as a generator and QA as a discriminator, to utilize unlabeled data.
+[BOS] Sachan and Xing (2018) proposed a self-training cycle between QA and QG.
+[BOS] However, these works either reduced the ground-truth data size or simplified the span-prediction QA task to answer sentence selection.
+[BOS] Dhingra et al. (2018) collected 3.2M cloze-style QA pairs to pre-train a QA model, then fine-tune with the full groundtruth data which improved a BiDAF-QA baseline.
+[BOS] In our paper, we follow the back-translation (Sennrich et al., 2016) strategy to generate new QA pairs by our best QG model to augment SQuAD training set.
+[BOS] Further, we introduce a data filter to remove poorly generated examples and a mixing mini-batch training strategy to more effectively use the synthetic data.
+[BOS] Similar methods have also been applied in some very recent concurrent works (Dong et al., 2019; Alberti et al., 2019) on SQuADv2.0.
+[BOS] The main difference is that we also propose to generate new questions from existing articles without introducing new articles.
+

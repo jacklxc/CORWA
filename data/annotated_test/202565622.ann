@@ -1,0 +1,79 @@
+T1	Intro 0 5	[BOS]
+T2	Reflection 115 120	[BOS]
+T3	Narrative_cite 285 290	[BOS]
+T4	Narrative_cite 594 599	[BOS]
+T5	Reflection 862 867	[BOS]
+T6	Narrative_cite 994 999	[BOS]
+T7	Narrative_cite 1211 1216	[BOS]
+T8	Multi_summ 1403 1408	[BOS]
+T9	Transition 1687 1692	[BOS]
+T10	Transition 1792 1797	[BOS]
+T11	Transition 1876 1881	[BOS]
+T12	Transition 1989 1994	[BOS]
+T13	Single_summ 2086 2091	[BOS]
+T14	Single_summ 2305 2310	[BOS]
+T15	Transition 2471 2476	[BOS]
+T16	Single_summ 2565 2570	[BOS]
+T17	Single_summ 2719 2724	[BOS]
+T18	Reflection 2827 2832	[BOS]
+T19	Reflection 3071 3076	[BOS]
+T20	Reference 387 409	(UzZaman et al., 2013)
+T21	Reference 545 560	(Bethard, 2013)
+T22	Reference 565 590	NavyTime (Chambers, 2013)
+T23	Reference 681 707	(Nguyen and Grishman, 2015
+T24	Reference 709 728	Nguyen et al., 2016
+T25	Reference 730 748	Feng et al., 2016)
+T26	Reference 1111 1129	(Mani et al., 2006
+T27	Reference 1131 1152	Verhagen et al., 2007
+T28	Reference 1154 1175	Chambers et al., 2007
+T29	Reference 1177 1208	Verhagen and Pustejovsky, 2008)
+T30	Reference 1248 1263	(Bethard, 2013)
+T31	Reference 1273 1297	(Laokulrat et al., 2013)
+T32	Reference 1300 1325	NavyTime (Chambers, 2013)
+T33	Dominant 1409 1432	Yoshikawa et al. (2009)
+T34	Reference 1434 1452	Ning et al. (2017)
+T35	Reference 1455 1483	Leeuwenberg and Moens (2017)
+T36	Reference 1592 1614	(Tourille et al., 2017
+T37	Reference 1616 1637	Cheng and Miyao, 2017
+T38	Reference 1639 1656	Meng et al., 2017
+T39	Reference 1658 1683	Meng and Rumshisky, 2018)
+T40	Dominant 2092 2114	Miwa and Sasaki (2014)
+T41	Dominant 2311 2327	Li and Ji (2014)
+T42	Dominant 2571 2593	Miwa and Bansal (2016)
+T43	Dominant 2725 2744	Zhang et al. (2017)
+T44	B_span 368 372	Temp
+T45	E_span 408 409	)
+T46	B_span 537 542	Clear
+T47	E_span 559 560	)
+T48	B_span 565 568	Nav
+T49	E_span 589 590	)
+T50	B_span 643 648	event
+T51	E_span 747 748	)
+T52	B_span 1082 1086	with
+T53	E_span 1207 1208	)
+T54	B_span 1240 1245	Clear
+T55	E_span 1262 1263	)
+T56	B_span 1266 1268	UT
+T57	E_span 1296 1297	)
+T58	B_span 1300 1303	Nav
+T59	E_span 1324 1325	)
+T60	B_span 1409 1413	Yosh
+T61	E_span 1521 1525	task
+T62	B_span 1546 1552	neural
+T63	E_span 1682 1683	)
+T64	B_span 2092 2094	Mi
+T65	E_span 2303 2304	.
+T66	B_span 2311 2313	Li
+T67	E_span 2460 2469	knowledge
+T68	B_span 2571 2573	Mi
+T69	E_span 2717 2718	.
+T70	B_span 2725 2730	Zhang
+T71	E_span 2825 2826	.
+T72	Pronoun 9 13	this
+T73	Pronoun 940 944	this
+T74	Pronoun 960 962	it
+T75	Pronoun 1516 1520	this
+T76	Pronoun 1824 1828	this
+T77	Pronoun 2121 2126	their
+T78	Pronoun 2846 2851	these
+T79	Pronoun 2992 2997	their

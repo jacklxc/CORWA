@@ -1,0 +1,29 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 129 134	[BOS]
+T3	Single_summ 240 245	[BOS]
+T4	Single_summ 458 463	[BOS]
+T5	Transition 734 739	[BOS]
+T6	Single_summ 943 948	[BOS]
+T7	Transition 1076 1081	[BOS]
+T8	Reference 102 126	Sukhbaatar et al., 2015)
+T9	Reference 218 237	Cheng et al. (2016)
+T10	Dominant 246 266	Henaff et al. (2017)
+T11	Reference 552 570	(Yang et al., 2017
+T12	Reference 572 595	Kobayashi et al., 2017)
+T13	Dominant 609 630	Dhingra et al. (2018)
+T14	Dominant 949 965	Ji et al. (2017)
+T15	B_span 6 12	Memory
+T16	E_span 125 126	)
+T17	B_span 135 138	The
+T18	E_span 236 237	)
+T19	B_span 246 249	Hen
+T20	E_span 456 457	.
+T22	E_span 594 595	)
+T23	B_span 609 611	Dh
+T24	E_span 732 733	.
+T25	B_span 949 951	Ji
+T26	E_span 1074 1075	.
+T27	Pronoun 337 341	they
+T28	Pronoun 752 756	this
+T29	Pronoun 1086 1090	this
+T30	B_span 468 481	incorporation

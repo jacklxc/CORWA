@@ -1,0 +1,91 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 189 194	[BOS]
+T3	Narrative_cite 437 442	[BOS]
+T4	Narrative_cite 751 756	[BOS]
+T5	Transition 930 935	[BOS]
+T6	Narrative_cite 1002 1007	[BOS]
+T7	Single_summ 1180 1185	[BOS]
+T8	Single_summ 1354 1359	[BOS]
+T9	Single_summ 1512 1517	[BOS]
+T10	Transition 1680 1685	[BOS]
+T11	Single_summ 1829 1834	[BOS]
+T12	Reflection 2049 2054	[BOS]
+T13	Transition 2200 2205	[BOS]
+T14	Narrative_cite 2302 2307	[BOS]
+T15	Transition 2426 2431	[BOS]
+T16	Single_summ 2497 2502	[BOS]
+T17	Single_summ 2627 2632	[BOS]
+T18	Single_summ 2788 2793	[BOS]
+T19	Transition 2867 2872	[BOS]
+T20	Single_summ 3008 3013	[BOS]
+T21	Reflection 3179 3184	[BOS]
+T22	Reflection 3340 3345	[BOS]
+T23	Narrative_cite 3504 3509	[BOS]
+T24	Reflection 3642 3647	[BOS]
+T25	Reference 116 140	(Heilman and Smith, 2010
+T26	Reference 142 163	Lindberg et al., 2013
+T27	Reference 165 186	Labutov et al., 2015)
+T28	Reference 269 292	(Bahdanau et al., 2014)
+T29	Reference 367 383	(Du et al., 2017
+T30	Reference 643 660	Song et al., 2018
+T31	Reference 662 679	Liu et al., 2019)
+T32	Reference 731 747	Kim et al., 2018
+T33	Reference 908 927	(Dong et al., 2019)
+T34	Reference 1138 1156	(Song et al., 2017
+T35	Reference 1158 1177	Kumar et al., 2018)
+T36	Dominant 1186 1204	Yuan et al. (2017)
+T37	Dominant 1518 1543	Hosking and Riedel (2019)
+T38	Dominant 1844 1866	Nema and Khapra (2018)
+T39	Reference 2364 2382	(Duan et al., 2017
+T40	Reference 2384 2401	Dong et al., 2017
+T41	Reference 2403 2423	Lewis and Fan, 2019)
+T42	Dominant 2503 2521	Tang et al. (2017)
+T43	Reference 2560 2577	(He et al., 2016)
+T44	Dominant 2637 2655	Tang et al. (2018)
+T45	Reference 2673 2698	(Goodfellow et al., 2014)
+T46	Dominant 2794 2816	Sachan and Xing (2018)
+T47	Dominant 3014 3035	Dhingra et al. (2018)
+T48	Reference 3230 3253	(Sennrich et al., 2016)
+T49	Reference 3586 3604	(Dong et al., 2019
+T50	Reference 3606 3627	Alberti et al., 2019)
+T51	B_span 82 91	transform
+T52	E_span 185 186	)
+T53	B_span 220 229	attention
+T54	E_span 291 292	)
+T56	E_span 379 383	2017
+T57	B_span 601 611	additional
+T58	E_span 678 679	)
+T59	B_span 712 721	paragraph
+T60	E_span 743 747	2018
+T61	B_span 799 804	large
+T62	E_span 926 927	)
+T63	B_span 1065 1078	reinforcement
+T64	E_span 1176 1177	)
+T65	B_span 1186 1190	Yuan
+T67	B_span 1518 1521	Hos
+T68	E_span 1678 1679	.
+T69	B_span 1844 1847	Nem
+T70	E_span 2047 2048	.
+T71	B_span 2338 2339	Q
+T72	E_span 2422 2423	)
+T73	B_span 2503 2507	Tang
+T74	E_span 2625 2626	.
+T75	B_span 2637 2641	Tang
+T76	E_span 2786 2787	.
+T77	B_span 2794 2797	Sac
+T79	B_span 3014 3016	Dh
+T80	E_span 3177 3178	.
+T81	B_span 3213 3217	back
+T82	E_span 3252 3253	)
+T83	B_span 3569 3579	concurrent
+T84	E_span 3626 3627	)
+T85	Pronoun 1360 1365	Their
+T86	Pronoun 1961 1965	they
+T87	Pronoun 2882 2887	these
+T88	B_span 307 313	taking
+T55	E_span 1504 1510	smooth
+T66	B_span 2535 2539	dual
+T89	E_span 2572 2576	2016
+T90	B_span 2669 2672	GAN
+T91	E_span 2693 2697	2014
+T92	E_span 2863 2865	QG

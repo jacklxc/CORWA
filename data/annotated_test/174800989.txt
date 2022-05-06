@@ -1,0 +1,48 @@
+[BOS] Our work is at the intersection of three trends in the multilingual dependency parsing literature.
+[BOS] The first is transfer parsing, when a parser is trained on a language (or a collection of languages) and tested on another one.
+[BOS] The second is delexicalised parsing, which aims at abstracting away from the lexicon in order to neutralise genre, domain and topic biases which are heavily marked in the treebanks' vocabulary.
+[BOS] The third trend is the use of a handcrafted typological resources, such as the WALS, in multilingual NLP methods.
+
+[BOS] Transfer parsing is often a suitable solution when dealing with low-resource languages (McDonald et al., 2011) .
+[BOS] Projected transfer relies on parallel corpora in which one of the languages does not have labelled training data to learn a parser, but the other does.
+[BOS] One commonly employed solution is to use word alignments to project parsed sentences from one side onto the low-resource side of the parallel text, using heuristics (Hwa et al., 2005) or partial annotations (Lacroix et al., 2016) .
+[BOS] Agi et al. (2016) parse the resource-rich languages in a multi-parallel corpus, proposing a projection method to obtain POS tags and dependency trees for low-resource languages from multiple-language word alignments.
+[BOS] The parsing model for the target language can also be obtained in an unsupervised fashion, by optimising a function that combines the likelihood of parallel data and the likelihood of the transferred model on non-annotated data in the low-resource language (Ma and Xia, 2014) .
+
+[BOS] Instead of assuming the availability of parallel corpora, direct transfer approaches capitalize on language similarities.
+[BOS] For instance, Lynn et al. (2014) build parser for Irish by first training a delexicalised parser on another language, and then applying it on Irish.
+[BOS] They surprisingly found out that Indonesian was the language providing the best parsing results for Irish, even if they do not belong to the same language family, because longdistance dependencies are better represented in Indonesian than in the other languages tested.
+
+[BOS] Low-resource languages may have some (insufficient) amount of training material available.
+[BOS] One can employ bilingual parsing, concatenating training corpora in two languages, to verify if there is an improvement in the results compared to a monolingual parser (Vilares et al., 2015) .
+[BOS] Direct transfer and bilingual parsing methods are close to the present article, since we also concatenate training corpora.
+[BOS] However, in our case, we combine treebanks from many more sources (around 40 languages) and include typological features.
+
+[BOS] The combination of corpora in multiple languages for parser training is facilitated by the recent advent of multilingual standards and resources, in particular in Universal Dependencies for dependency syntax (Nivre et al., 2016) .
+[BOS] This initiative enables the annotation of POS, morphology and syntactic dependencies for all languages with the same guidelines and label sets.
+[BOS] The availability of such corpora favours the development of cross-lingual methods (Tiedemann, 2015) .
+
+[BOS] Multilingual parsing research is also encouraged by initiatives such as the CoNLL 2017 and 2018 shared tasks, on highly multilingual dependency parsing from raw text (Zeman et al., 2017 (Zeman et al., , 2018 .
+
+[BOS] Delexicalised parsers ignore the word forms and lemmas when analysing a sentence, usually relying on more abstract features such as word classes and POS tags.
+[BOS] The use of delexicalised parsers is especially relevant when learning multilingual parsers, since languages generally share only a limited amount of lexical units.
+[BOS] The approach proposed by Zeman and Resnik (2008) consists in adapting a parser for a new related language using either parallel corpora or delexicalised parsing.
+[BOS] This method can be used to quickly construct a parser if the source and target languages are sufficiently related.
+[BOS] McDonald et al. (2011) show that delexicalised parsers can be directly transferred between languages, yielding significantly higher accuracy than unsupervised parsers.
+
+[BOS] Moreover, typological features such as those present in the WALS provide information about the structure of languages (Dryer and Haspelmath, 2013) .
+[BOS] These could be useful to guide multilingual parsers, informing them about the model parameters that can be shared among languages with similar characteristics.
+[BOS] Naseem et al. (2012) and Zhang and Barzilay (2015) use word-order features available for all their languages, while Ponti et al. (2018) used features they judged relevant in many categories (not only word order).
+[BOS] The parameters proposed in the WALS are not the only way to represent properties of languages.
+[BOS] Methods based on language embeddings (stling and Tiedemann, 2017; Bjerva et al., 2019 ) also constitute interesting language representation.
+[BOS] Tckstrm et al. (2013) use a multilingual delexicalised transfer method, showing how selective parameter sharing, based on typological features and language family membership, can be incorporated in a discriminative graph-based dependency parser.
+[BOS] They select the typological features based on those used by Naseem et al. (2012) , removing two features not considered useful.
+
+[BOS] The work closest to ours experimented with concatenating treebanks to train a multilingual parser (Ammar et al., 2016) .
+[BOS] The authors use an S-LSTM transition-based parser similar to ours (although we do not include recurrent representations) trained on a set of lexicalised features that include multilingual word embeddings, Brown clusters, and fine-grained POS tags, whereas we only use coarse-grained POS and morphological features in a delexicalised setting.
+[BOS] They include a one-hot language-ID vector, a set of six wordorder features from the WALS (Naseem et al., 2012) , or the whole WALS vectors.
+[BOS] We use the two former plus a set of 22 selected features from WALS.
+[BOS] They perform experiments on seven highresourced languages while we report results on a larger set of 40 languages.
+[BOS] Although Ammar et al. (2016) showed that, in a lexicalised setting, treebank concatenation could perform on par with monolingual parsers, the origins and limits of these improvements are not clear.
+[BOS] We explore directions for assessing the benefits of typological features in a delexicalised parser.
+

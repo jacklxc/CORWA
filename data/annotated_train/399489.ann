@@ -1,0 +1,27 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 55 60	[BOS]
+T3	Transition 235 240	[BOS]
+T4	Transition 387 392	[BOS]
+T5	Narrative_cite 545 550	[BOS]
+T6	Reflection 716 721	[BOS]
+T7	Transition 835 840	[BOS]
+T8	Single_summ 959 964	[BOS]
+T9	Narrative_cite 1043 1048	[BOS]
+T10	Narrative_cite 1264 1269	[BOS]
+T11	Reference 654 679	(Settles and Craven, 2008
+T12	Reference 681 713	Marcheggiani and Artieres, 2014)
+T13	Dominant 965 982	Rai et al. (2010)
+T14	Reference 1242 1261	Plank et al. (2014)
+T15	Reference 1307 1325	Chan and Ng (2007)
+T16	Reference 1330 1349	Xiao and Guo (2013)
+T17	Pronoun 393 397	This
+T18	Pronoun 1069 1073	they
+T19	Pronoun 1290 1295	these
+T20	B_span 620 629	attention
+T21	E_span 708 712	2014
+T22	B_span 965 968	Rai
+T23	E_span 1037 1041	data
+T24	B_span 1270 1273	For
+T25	E_span 1344 1348	2013
+T26	B_span 1093 1099	source
+T27	E_span 1256 1260	2014

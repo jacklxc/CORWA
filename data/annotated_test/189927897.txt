@@ -1,0 +1,34 @@
+[BOS] Visual Story Telling: Last decade witnessed enormous interest in research at the intersection of multiple modalities, especially vision and language.
+[BOS] Mature efforts in image captioning (Hossain et al., 2019) paved way into more advanced tasks like visual question answering (Wu et al., 2017) and visual dialog (Das et al., 2017) , (Mostafazadeh et al., 2017) .
+[BOS] As an obvious next step from single shot image captioning lies the task of describing a sequence of images which are related to one another to form a story like narrative.
+[BOS] This task was introduced as visual story telling by Huang et al. (2016) , differentiating descriptions of images in isolation (image captions) and stories in sequences.
+[BOS] The baseline model that we are leveraging to generate personality conditioned story generation is based on the model proposed by Kim et al. (2018) for the visual story telling challenge.
+[BOS] Another simple yet effective technique is late fusion model by Smilevski et al. (2018) .
+[BOS] In addition to static images, Gella et al. (2018) have also collected a dataset of describing stories from videos uploaded on social media.
+[BOS] Chandu et al. (2019) recently introduced a dataset for generating textual cooking recipes from a sequence of images and proposed two models to incorporate structure in procedural text generation from images.
+
+[BOS] Style Transfer: One line of research that is closely related to our task is style transfer in text.
+[BOS] Recently generative models have gained popularity in attempting to solve style transfer in text with non-parallel data (Hu et al., 2017; Li et al., 2018) .
+[BOS] Some of this work has also focused on transferring author attributes (Prabhumoye et al., 2018) , transferring multiple attributes (Lample et al., 2019; Logeswaran et al., 2018) and collecting parallel dataset for formality (Rao and Tetreault, 2018) .
+[BOS] Although our work can be viewed as another facet of style transfer, we have strong grounding of the stories in the sequence of images.
+
+[BOS] Persona Based Dialog: Persona based generation of responses has been studied by NLP community in dialog domain.
+[BOS] (Li et al., 2016) encoded personas of individuals in contextualized embeddings that capture the background information and style to maintain consistency in the responses given.
+[BOS] The embeddings for the speaker information are learnt jointly with the word embeddings.
+[BOS] Following this work, (Zhou et al., 2018) proposed Emotional Chatting Machine that generates responses in an emotional tone in addition to conditioning the content.
+[BOS] The key difference between former and latter work is that the latter captures dynamic change in emotion as the conversation proceeds, while the user persona remains the same in the former case.
+[BOS] release a huge dataset of conversations conditioned on the persona of the two people interacting.
+[BOS] This work shows that conditioning on the profile information improves the dialogues which is measured by next utterance prediction.
+[BOS] In these works, the gold value of the target response was known.
+[BOS] For our work, we do not have gold values of stories in different personas.
+[BOS] Hence we leverage annotated data from a different task and transfer that knowledge to steer our generation process.
+
+[BOS] Multimodal domain: With the interplay between visual and textual modalities, an obvious downstream application for persona based text generation is image captioning.
+[BOS] Chandrasekaran et al. (2018) worked on generating witty captions for images by both retrieving and generating with an encoder-decoder architecture.
+[BOS] This work used external resources to gather a list of words that are related to puns from web which the decoder attempts to generate conditioned on phonological similarity.
+[BOS] Wang and Wen (2015) studied the statistical correlation of words associated with specific memes.
+[BOS] These ideas have also recently penetrated into visual dialog setting.
+[BOS] Shuster et al. (2018) have collected a grounded conversational dataset with 202k dialogs where humans are asked to portray a personality in the collection process.
+[BOS] They have also set up various baselines with different techniques to fuse the modalities including multimodal sum combiner and multimodal attention combiner.
+[BOS] We use this dataset to learn personas which are adapted to our storytelling model.
+

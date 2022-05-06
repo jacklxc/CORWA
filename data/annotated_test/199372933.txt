@@ -1,0 +1,27 @@
+[BOS] There has been much classical or linguistic theoretical work on coreference resolution in texts.
+[BOS] Coreference resolution is mainly concerned with two tasks, referring expressions detection, and mention candidate ranking.
+
+[BOS] Referring expressions detection can be further divided into two subtasks: 1).
+[BOS] find all words that do not have real meaning and refer to other mentions (/he /she/it/this/that,...).
+[BOS] We use the term 'pronoun' to represent these words without losing preciseness of linguistic definition in this paper.
+[BOS] 2).
+[BOS] find all zero pronouns.
+[BOS] A close task to the first subtask of referring expressions detection is coreference detection, which is to identify noun phrases and pronouns that are referring to the same entities.
+[BOS] Haghighi and Klein (2010) proposed an unsupervised generative approach for text coreference detections.
+[BOS] Uryupina and Moschitti (2013) proposed a rule-based approach which employed parse trees and SVM.
+[BOS] Peng et al. (2015) improved the performance of mention detections by applying a binary classifier on the feature set.
+
+[BOS] Similarly, there has been much previous work in mention candidate ranking using deep neural network.
+[BOS] In recent years, applying deep neural networks on the task has reached great success.
+[BOS] Clark and Manning (2016) applied reinforcement learning on mention-ranking coreference resolution.
+[BOS] Lee et al. (2017) presented an end-to-end coreference resolution model which reasons over all the anteceding spans.
+[BOS] Lee et al. (2018) presented a high-order coreference resolution.
+[BOS] These approaches do not generalize to dialogue for the reason that 1) these approaches require a rich amount of well-annotated contextual data, 2) dialogue is short and has ambiguous syntactic structures which are difficult to handcraft rules, and 3) the resolution module should distinguish wrong detection results so that the systems have a higher fault tolerance on the detection module.
+[BOS] However, most existed work simply assumes a golden detection label and perform lots of feature engineering based on that.
+
+[BOS] Although there is a series of related work that can contribute to coreference resolution in Chinese dialogue, there are many common restrictions when transferring them into a practical product: 1).
+[BOS] the limited data source in a general domain; 2).
+[BOS] most work concentrates on general coreference.
+[BOS] Few of them focus on pronoun or zero pronoun resolution, which is the vital step for dialogue NLU; 3).
+[BOS] no work known to us compares traditional feature-based methods and neural network based models on an end-to-end system for coreference resolution in Chinese dialogue.
+

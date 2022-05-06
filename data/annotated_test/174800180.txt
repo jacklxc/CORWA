@@ -1,0 +1,18 @@
+[BOS] Representation analysis aims at demystifying what is learned inside the neural network blackbox.
+[BOS] This includes analyzing word and sentence embeddings (Adi et al., 2017; Qian et al., 2016b; Ganesh et al., 2017; Conneau et al., 2018, among others) , RNN states (Qian et al., 2016a; Shi et al., 2016; Wu and King, 2016; Wang et al., 2017) , and NMT representations (Shi et al., 2016; Belinkov et al., 2017a) , as applied to morphological (Vylomova et al., 2017; , semantic (Qian et al., 2016b; Belinkov et al., 2017b) and syntactic (Linzen et al., 2016; Tran et al., 2018; Conneau et al., 2018) tasks.
+[BOS] See for a recent survey.
+
+[BOS] Other studies carried a more fine-grained neuronlevel analysis for NMT and LM Lakretz et al., 2019) .
+[BOS] While previous work focused on words, here we compare units of different granularities.
+
+[BOS] Subword translation units aim at reducing the vocabulary size and the out-of-vocabulary (OOV) rate.
+[BOS] Researchers have used BPE units (Sennrich et al., 2016) , morphological segmentation (Bradbury and Socher, 2016), characters (Durrani et al., 2014; , and hybrid units (Ling et al., 2015; Costa-juss and Fonollosa, 2016) to address the OOV word problem in MT.
+[BOS] The choice of translation unit impacts what the network learns.
+[BOS] Sennrich (2017) carried a systematic error analysis by comparing subword versus character units and found the latter to be better at handling OOV and transliterations, whereas BPEbased subword units were better at capturing syntactic dependencies.
+[BOS] In contrast, here we focus on representation learning, not translation quality.
+
+[BOS] Robustness to noise is an important aspect in machine learning.
+[BOS] It has been studied for various models (Szegedy et al., 2014; Goodfellow et al., 2015) , including NLP in general (Papernot et al., 2016; Samanta and Mehta, 2017; Liang et al., 2018; Jia and Liang, 2017; Ebrahimi et al., 2018; Gao et al., 2018) , and character-based NMT in particular (Heigold et al., 2018; Belinkov and Bisk, 2018) .
+[BOS] Unlike this work, we compare robustness to noise for units of different granularity.
+[BOS] Moreover, we focus on representation learning rather than on the quality of the translation output.
+

@@ -1,0 +1,9 @@
+[BOS] There are basically two categories of work on machine transliteration.
+[BOS] First, various alignment models are used for acquiring transliteration lexicons from parallel corpora and other resources (e.g. Kuo and Li, 2008) .
+[BOS] Second, statistical models are built for transliteration.
+[BOS] These models could be phoneme-based (e.g. Knight and Graehl, 1998) , grapheme-based (e.g. Li et al., 2004) , hybrid (Oh and Choi, 2005) , or based on phonetic (e.g. Tao et al., 2006) and semantic (e.g. Li et al., 2007) features.
+
+[BOS] The core of our systems is based on Li et al. 's (2004) Joint Source-Channel Model under the direct orthographic mapping framework, which skips the middle phonemic representation in conventional phoneme-based methods and models the segmentation and alignment preferences by means of contextual n-grams of the transliteration segment pairs (or token pairs in their terminology).
+[BOS] A bigram model under their framework is thus as follows: where E refers to the English source name and C refers to the transliterated Chinese name.
+[BOS] With K segments aligned between E and C, e k and c k refer to the kth English segment and its corresponding Chinese segment respectively.
+

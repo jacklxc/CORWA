@@ -1,0 +1,27 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 212 217	[BOS]
+T3	Single_summ 442 447	[BOS]
+T4	Transition 718 723	[BOS]
+T5	Transition 960 965	[BOS]
+T6	Narrative_cite 1096 1101	[BOS]
+T7	Single_summ 1236 1241	[BOS]
+T8	Single_summ 1482 1487	[BOS]
+T9	Dominant 234 250	Li et al. (2015)
+T10	Reference 415 439	Zeiler and Fergus, 2014)
+T11	Dominant 493 509	Li et al. (2016)
+T12	Reference 1210 1233	(Strobelt et al., 2018)
+T13	Dominant 1242 1259	Lee et al. (2017)
+T14	Dominant 1536 1561	(Rckl and Gurevych, 2017)
+T15	Pronoun 966 971	These
+T16	B_span 234 236	Li
+T17	E_span 434 438	2014
+T18	B_span 391 397	vision
+T19	E_span 434 438	2014
+T20	B_span 466 480	representation
+T21	E_span 705 716	performance
+T22	B_span 1181 1188	LSTMvis
+T23	E_span 1228 1232	2018
+T24	B_span 1242 1245	Lee
+T25	E_span 1471 1480	attention
+T26	B_span 1517 1525	question
+T27	E_span 1660 1668	question

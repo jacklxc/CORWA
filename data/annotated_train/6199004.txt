@@ -1,0 +1,7 @@
+[BOS] Most of existing work in neural machine translation focus on integrating SMT strategies Zhou et al., 2017; Wang et al., 2017; Shen et al., 2015) , handling rare words Sennrich et al., 2016b; Luong et al., 2015b) and designing the better framework (Tu et al., 2016; Luong et al., 2015a; Meng et al., 2016 Table 4 : Effect of different data size of parallel corpus.
+[BOS] Method NMT Model means the result of conventional NMT system trained on these low-count parallel sentences.
+[BOS] Partially Aligned Model(MSE) + Para means the result of our model fine-tuned by these parallel sentences.
+[BOS] different scenarios has drawn intensive attention in recent years.
+[BOS] Actually, there have been some effective methods to deal with them.
+[BOS] We divide the related work into three categories:
+

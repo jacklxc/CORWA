@@ -1,0 +1,116 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 77 82	[BOS]
+T3	Narrative_cite 186 191	[BOS]
+T4	Reflection 413 418	[BOS]
+T5	Reflection 804 809	[BOS]
+T6	Narrative_cite 912 917	[BOS]
+T7	Narrative_cite 1652 1657	[BOS]
+T8	Transition 1956 1961	[BOS]
+T9	Multi_summ 2089 2094	[BOS]
+T10	Transition 2272 2277	[BOS]
+T11	Transition 2393 2398	[BOS]
+T12	Transition 2578 2583	[BOS]
+T13	Reflection 2720 2725	[BOS]
+T14	Reflection 2886 2891	[BOS]
+T15	Reflection 2998 3003	[BOS]
+T16	Reflection 3138 3143	[BOS]
+T17	Reflection 3219 3224	[BOS]
+T18	Reflection 3290 3295	[BOS]
+T19	Transition 3326 3331	[BOS]
+T20	Reflection 3440 3445	[BOS]
+T21	Reflection 3672 3677	[BOS]
+T22	Reflection 3764 3769	[BOS]
+T23	Reflection 3916 3921	[BOS]
+T24	Reflection 4005 4010	[BOS]
+T25	Reflection 4202 4207	[BOS]
+T26	Reference 266 289	(Kiela and Bottou, 2014
+T27	Reference 291 315	Collell and Moens, 2016)
+T28	Reference 389 410	(Joulin et al., 2016)
+T29	Reference 948 972	(Bergsma and Durme, 2011
+T30	Reference 993 1018	(Bergsma and Goebel, 2011
+T31	Reference 1055 1075	(Kiela et al., 2015a
+T32	Reference 1106 1126	(Kiela et al., 2015b
+T33	Reference 1147 1168	(Shutova et al., 2016
+T34	Reference 1194 1213	(Bulat et al., 2015
+T35	Reference 1241 1254	(Kiela, 2016)
+T36	Reference 1263 1282	(Vulic et al., 2016
+T37	Reference 1319 1341	(Anderson et al., 2017
+T38	Reference 1367 1387	(Glavas et al., 2017
+T39	Reference 1414 1435	(Bhaskar et al., 2017
+T40	Reference 1464 1491	(Hartmann and Sogaard, 2017
+T41	Reference 1512 1532	(Bulat et al., 2017)
+T42	Reference 1728 1747	(Bruni et al., 2014
+T43	Reference 1749 1771	Lazaridou et al., 2015
+T44	Reference 1773 1794	Chrupala et al., 2015
+T45	Reference 1796 1812	Mao et al., 2016
+T46	Reference 1814 1835	Silberer et al., 2017
+T47	Reference 1837 1857	Collell et al., 2017
+T48	Reference 1859 1881	Zablocki et al., 2018)
+T49	Reference 1933 1953	(Thoma et al., 2017)
+T50	Dominant 2095 2116	Arevalo et al. (2017)
+T51	Dominant 2173 2192	Kiela et al. (2018)
+T52	Reference 2795 2816	(Bowman et al., 2015)
+T53	Reference 2828 2851	(Williams et al., 2017)
+T54	Reference 2861 2883	(Marelli et al., 2014)
+T55	Reference 3117 3135	(Tai et al., 2015)
+T56	Reference 3631 3648	Im and Cho (2017)
+T57	Reference 3651 3669	Shen et al. (2018)
+T58	Reference 4095 4117	Conneau et al. (2017a)
+T59	Pronoun 174 179	their
+T60	Pronoun 1624 1629	their
+T61	Pronoun 2408 2413	their
+T62	Pronoun 2466 2470	they
+T63	Pronoun 3678 3680	It
+T64	Pronoun 3846 3848	it
+T65	Pronoun 4145 4150	their
+T66	B_span 257 265	ImageNet
+T67	E_span 310 314	2016
+T68	B_span 356 361	using
+T69	E_span 405 409	2016
+T70	B_span 935 941	Method
+T71	E_span 968 972	2011
+T72	B_span 974 983	bilingual
+T73	E_span 1014 1018	2011
+T74	B_span 1020 1027	lexical
+T75	E_span 1070 1075	2015a
+T76	B_span 1077 1084	lexical
+T77	E_span 1121 1126	2015b
+T78	B_span 1128 1137	bilingual
+T79	E_span 1164 1168	2016
+T80	B_span 1170 1178	metaphor
+T81	E_span 1209 1213	2015
+T82	B_span 1215 1225	predicting
+T83	E_span 1249 1253	2016
+T84	B_span 1255 1262	toolbox
+T85	E_span 1278 1282	2016
+T86	B_span 1284 1293	bilingual
+T87	E_span 1337 1341	2017
+T88	B_span 1343 1351	decoding
+T89	E_span 1383 1387	2017
+T90	B_span 1389 1397	semantic
+T91	E_span 1431 1435	2017
+T92	B_span 1437 1445	abstract
+T93	E_span 1487 1491	2017
+T94	B_span 1493 1502	bilingual
+T95	E_span 1527 1531	2017
+T96	B_span 1701 1711	imagebased
+T97	E_span 1876 1880	2018
+T98	B_span 1886 1901	representations
+T99	E_span 1948 1952	2017
+T100	B_span 2095 2102	Arevalo
+T101	E_span 2162 2166	LSTM
+T102	B_span 2173 2178	Kiela
+T103	E_span 2265 2270	other
+T104	B_span 2790 2794	SNLI
+T105	E_span 2811 2815	2015
+T106	B_span 2819 2827	MultiNLI
+T107	E_span 2846 2850	2017
+T108	B_span 2856 2860	SICK
+T109	E_span 2878 2882	2014
+T110	Reference 3095 3116	Conneau et al., 2017a
+T111	B_span 3060 3063	Bag
+T112	E_span 3130 3134	2015
+T113	B_span 3584 3597	outperforming
+T114	E_span 3664 3668	2018
+T115	B_span 4051 4056	Glove
+T116	E_span 4111 4116	2017a

@@ -1,0 +1,45 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 88 93	[BOS]
+T3	Reflection 237 242	[BOS]
+T4	Single_summ 343 348	[BOS]
+T5	Reflection 557 562	[BOS]
+T6	Single_summ 640 645	[BOS]
+T7	Single_summ 793 798	[BOS]
+T8	Reflection 880 885	[BOS]
+T9	Transition 982 987	[BOS]
+T10	Narrative_cite 1099 1104	[BOS]
+T11	Transition 1183 1188	[BOS]
+T12	Transition 1237 1242	[BOS]
+T13	Transition 1341 1346	[BOS]
+T14	Narrative_cite 1451 1456	[BOS]
+T15	Narrative_cite 1761 1766	[BOS]
+T16	Reflection 2016 2021	[BOS]
+T17	Reflection 2140 2145	[BOS]
+T18	Dominant 6 23	Yih et al. (2012)
+T19	Dominant 349 371	Schwartz et al. (2015)
+T20	Dominant 765 790	de Melo and Bansal (2013)
+T21	Dominant 799 819	Sharma et al. (2015)
+T22	Reference 1122 1147	(Botha and Blunsom, 2014)
+T23	Reference 1152 1180	(Cotterell and Schtze, 2015)
+T24	Reference 1516 1544	(Weinberger and Saul, 2009 )
+T26	Pronoun 97 102	their
+T27	Pronoun 628 632	this
+T28	Pronoun 732 737	their
+T29	Pronoun 1347 1351	This
+T30	Pronoun 2162 2166	this
+T31	Pronoun 2315 2317	it
+T32	B_span 6 9	Yih
+T33	E_span 227 235	subspace
+T34	B_span 349 357	Schwartz
+T35	E_span 549 555	spaces
+T36	B_span 646 648	An
+T37	E_span 785 789	2013
+T38	B_span 799 805	Sharma
+T39	E_span 871 878	problem
+T40	B_span 1105 1113	Examples
+T41	E_span 1175 1179	2015
+T42	B_span 1499 1510	resemblance
+T43	E_span 1538 1542	2009
+T25	Reference 1787 1813	Weinberger and Saul (2009)
+T44	B_span 1767 1772	Using
+T45	E_span 1808 1812	2009

@@ -1,0 +1,18 @@
+[BOS] Unsupervised pretraining for transfer learning has a long history in natural language processing, and a common thread has been to reduce the amount of task-specific architecture added on top of pretrained modules.
+[BOS] Most early methods (Mikolov et al., 2013; Pennington et al., 2014) focused on learning word representations using shallow models, with complex recurrent or convolutional networks later added on top for specific tasks.
+[BOS] With increased computing capacities, it has now become feasible to pretrain deep neural language models.
+[BOS] Dai and Le (2015); Ramachandran et al. (2016) proposed unsupervised pretraining of a language model for transfer learning and to initialize encoder and decoder in a seq2seq model for machine translation tasks.
+[BOS] Works in zero-shot machine translation used large corpora of monolingual data to improve performances for lowresource languages (Johnson et al., 2017; Wada and Iwata, 2018; Lample and Conneau, 2019) .
+[BOS] Most of the work transfering large-scale language models from and for monolingual NLG tasks focus on classification and natural language understanding (Kiros et al., 2015; Jozefowicz et al., 2016) .
+[BOS] Recently, Radford et al. (2019) studied large-scale language models for various generation tasks in the zero-shot setting focusing on summarization and translation and Wolf et al. (2019) presented early work on chit-chat.
+
+[BOS] 3 Problem setting and dataset NLG tasks can be divided into high entropy (story generation, chit-chat dialog) and low entropy (summarization, machine translation) tasks.
+[BOS] We focus on the high entropy task of chit-chat dialog to study the use and effect of various types of contexts: facts, history and previous tokens.
+[BOS] Table 1 shows a typical dialog from PersonaChat (Zhang et al., 2018b) , one of the largest multi-turn open-domain dialog dataset available.
+[BOS] PersonaChat consists of crowdsourced conversations between real human beings who were asked to chit-chat.
+[BOS] Each participant was given a set of 4-5 profile sentences that define his/her persona Multihead att.
+
+[BOS] Multihead att.
+
+[BOS] Multihead att.
+

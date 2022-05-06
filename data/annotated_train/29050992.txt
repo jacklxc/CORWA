@@ -1,0 +1,20 @@
+[BOS] Conversational situations have been implicitly addressed by preparing datasets specific to the target situations and by solving the problem as a taskoriented conversation task (Williams and Young, 2007) ; examples include troubleshooting (Vinyals and Le, 2015) , navigation (Wen et al., 2015) , interviewing (Kobori et al., 2016) , and restaurant search (Wen et al., 2017) .
+[BOS] In what follows, we introduce non-task-oriented conversational models that explicitly consider conversational situations.
+[BOS] Hasegawa et al. (2013) presented a conversational model that generates a response so that it elicits a certain emotion (e.g., joy) in the addressee mind.
+[BOS] Their model is based on statistical machine translation and linearly interpolates two conversational models that are trained from a small emotion-labeled dialogue corpus and a large nonlabeled dialogue corpus, respectively.
+[BOS] This model is similar to our local-global SEQ2SEQ but differs in that it has hyperparameters for the interpolation, whereas our local-global SEQ2SEQ automatically learns W G and W L from the training data.
+[BOS] Li et al. (2016b) proposed a neural conversational model that generates responses taking into consideration speakers' personalities such as gender or living place.
+[BOS] Because they fed a specific speaker ID to their model and represent individual (known) speakers with embeddings, Their model cannot handle unknown speakers.
+[BOS] In contrast, our model can consider any speakers with profiles because we represent each cluster of profiles with an embedding and find an appropriate profile type for the given profile by nearest-neighbor search.
+[BOS] Sordoni et al. (2015) encoded a given utterance and the past dialogue exchanges, and combined the resulting representations for RNN to decode a response.
+[BOS] Zhao et al. (2017) used a conditional variational autoencoder and automaticallyinduced dialogue acts to handle discourse-level diversity in the encoder.
+[BOS] While these sophisticated architectures are designed to take dialogue histories into consideration, our simple models can easily exploit various situations.
+
+[BOS] Recently, Xing et al. (2017) proposed to explicitly consider topics of utterances to generate topiccoherent responses.
+[BOS] Although they used latent Dirichlet allocation while we use k-means clustering, both methods confirmed the importance of utterance situations.
+[BOS] The way to obtain specific situations is still an open research problem.
+[BOS] As demonstrated in this study, our primary contribution is the invention of neural mechanisms that can consider various conversational situations.
+
+[BOS] Our local-global SEQ2SEQ model is closely related to a many-to-many multi-task SEQ2SEQ proposed by Luong et al. (2016) .
+[BOS] The critical difference is in that their model assumes only local tasks, while our model assumes many local tasks (situation-specific dialogue modeling) and one global task (general dialogue modeling).
+

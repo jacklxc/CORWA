@@ -1,0 +1,44 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 143 148	[BOS]
+T3	Multi_summ 266 271	[BOS]
+T4	Multi_summ 409 414	[BOS]
+T5	Multi_summ 704 709	[BOS]
+T6	Single_summ 1025 1030	[BOS]
+T7	Transition 1234 1239	[BOS]
+T8	Single_summ 1322 1327	[BOS]
+T9	Multi_summ 1422 1427	[BOS]
+T10	Single_summ 1538 1543	[BOS]
+T11	Reflection 1709 1714	[BOS]
+T12	Single_summ 1768 1773	[BOS]
+T13	Dominant 272 290	Levy et al. (2015)
+T14	Dominant 293 316	Lapesa and Evert (2014)
+T15	Dominant 323 340	Lai et al. (2015)
+T16	Dominant 424 442	Levy et al. (2015)
+T17	Dominant 447 470	Lapesa and Evert (2014)
+T18	Dominant 565 582	Lai et al. (2015)
+T19	Dominant 710 732	Schnabel et al. (2015)
+T20	Dominant 737 759	Tsvetkov et al. (2015)
+T21	Dominant 1031 1051	Bansal et al. (2014)
+T22	Dominant 1328 1350	Cirik and Yuret (2014)
+T23	Dominant 1428 1447	Ling et al. (2015b)
+T24	Dominant 1452 1471	Ling et al. (2015a)
+T25	Dominant 1595 1614	Kiela et al., 2015)
+T26	Dominant 1783 1804	Yin and Schtze (2015)
+T27	B_span 272 276	Levy
+T28	E_span 392 407	representations
+T29	B_span 424 428	Levy
+T30	E_span 550 557	windows
+T31	B_span 565 568	Lai
+T32	E_span 701 702	5
+T33	B_span 710 718	Schnabel
+T34	E_span 1016 1023	parsing
+T35	B_span 1031 1037	Bansal
+T36	E_span 1223 1231	findings
+T37	B_span 1328 1333	Cirik
+T38	E_span 1412 1420	contexts
+T39	B_span 1428 1432	Ling
+T40	E_span 1528 1536	modeling
+T41	B_span 1595 1600	Kiela
+T42	E_span 1700 1707	WordNet
+T43	B_span 1783 1786	Yin
+T44	E_span 1943 1951	contexts

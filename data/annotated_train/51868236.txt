@@ -1,0 +1,15 @@
+[BOS] The length preference and coverage problems have been discussed for years since the rise of statistical machine translation (Koehn, 2009) .
+[BOS] In NMT, several good methods have been developed.
+[BOS] The simplest of these is length normalization which penalizes short translations in decoding (Wu et al., 2016) .
+[BOS] More sophisticated methods focus on modeling the coverage problem with extra sub-modules in NMT and require a training process (Tu et al., 2016; Mi et al., 2016) .
+
+[BOS] Perhaps the most related work to this paper is Wu et al. (2016) .
+[BOS] In their work, the coverage problem can be interpreted in a probability story.
+[BOS] However, it fails to account for the cases that one source word is translated into multiple target words and is thus of a total attention score > 1.
+[BOS] To address this issue, we remove the probability constraint and make the coverage score interpretable for different cases.
+[BOS] Another difference lies in that our coverage model is applied to every beam search step, while Wu et al. (2016) 's model affects only a small number of translation outputs.
+
+[BOS] Previous work have pointed out that BLEU scores of NMT systems drop as beam size increases (Britz et al., 2017; Tu et al., 2017; Koehn and Knowles, 2017) , and the existing length normalization and coverage models can alleviate this problem to some extent.
+[BOS] In this work we show that our method can do this much better.
+[BOS] Almost no BLEU drop is observed even when beam size is set to 500.
+

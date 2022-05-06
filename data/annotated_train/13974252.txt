@@ -1,0 +1,25 @@
+[BOS] The idea of using short context for morphological disambiguation dates back to Choueka and Lusignan (1985) .
+[BOS] Levinger et al. (1995) were the first to apply it to Hebrew, but their work was hampered by the lack of annotated corpora for training and evaluation.
+[BOS] The first work which uses stochastic contextual information for morphological disambiguation in Hebrew is Segal (1999) : texts are analyzed using the morphological analyzer of Segal (1997) ; then, each word in a text is assigned its most likely analysis, defined by probabilities computed from a small tagged corpus.
+[BOS] In the next phase the system corrects its own decisions by using short context (one word to the left and one to the right of the target word).
+[BOS] The corrections are also automatically learned from the tagged corpus (using transformation-based learning).
+[BOS] In the last phase, the analysis is corrected by the results of a syntactic analysis of the sentence.
+[BOS] The reported results are excellent: 96.2% accuracy.
+[BOS] More reliable tests, however, reveal accuracy of 85.5% only (Lemberski, 2003, page 85) .
+[BOS] Furthermore, the performance of the program is unacceptable (the reported running time on ""two papers"" is thirty minutes).
+[BOS] Bar-Haim et al. (2005) use Hidden Markov Models (HMMs) to implement a segmenter and a tagger for Hebrew.
+[BOS] The main innovation of this work is that it models word-segments (morphemes: prefixes, stem and suffixes), rather than full words.
+[BOS] The accuracy of this system is 90.51% for POS tagging (a tagset of 21 POS tags is used) and 96.74% for segmentation (which is defined as identifying all prefixes, including a possibly assimilated definite article).
+[BOS] As noted above, POS tagging does not amount to full morphological disambiguation.
+
+[BOS] Recently, Adler and Elhadad (2006) presented an unsupervised, HMM-based model for Hebrew morphological disambiguation, using a morphological analyzer as the only resource.
+[BOS] A morpheme-based model learns both segmentation and tagging in parallel from a large (6M words) un-annotated corpus.
+[BOS] Reported results are 92.32% for POS tagging and 88.5% for full morphological disambiguation.
+[BOS] We refer to this result as the state of the art and use the same data for evaluation.
+
+[BOS] A supervised approach to morphological disambiguation of Arabic is given by Habash and Rambow (2005) , who use two corpora of 120K words each to train several classifiers.
+[BOS] Each morphological feature is predicted separately and then combined into a full disambiguation result.
+[BOS] The accuracy of the disambiguator is 94.8%-96.2% (depending on the test corpus).
+[BOS] Note, however, the high baseline of each classifier (96.6%-99.9%, depending on the classifier) and the full disambiguation task (87.3%-92.1%, depending on the corpus).
+[BOS] We use a very similar approach below, but we experiment with more sophisticated methods for combining simple classifiers to induce a coherent prediction.
+

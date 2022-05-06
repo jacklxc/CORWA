@@ -1,0 +1,38 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 239 244	[BOS]
+T3	Narrative_cite 443 448	[BOS]
+T4	Transition 600 605	[BOS]
+T5	Single_summ 745 750	[BOS]
+T6	Single_summ 885 890	[BOS]
+T7	Reflection 1083 1088	[BOS]
+T8	Reference 73 95	(Wang and Cardie, 2013
+T9	Reference 97 122	Genest and Lapalme, 2011)
+T10	Reference 165 181	(Filippova, 2010
+T11	Reference 183 212	Berg-Kirkpatrick et al., 2011
+T12	Reference 214 236	Banerjee et al., 2015)
+T13	Reference 296 320	(Sutskever et al., 2014)
+T14	Reference 400 418	(Rush et al., 2015
+T15	Reference 420 440	Chopra et al., 2016)
+T16	Reference 467 490	(Nallapati et al., 2017
+T17	Reference 492 509	See et al., 2017)
+T18	Reference 575 596	(Hermann et al., 2015
+T19	Dominant 751 767	Tu et al. (2016)
+T20	Dominant 891 908	See et al. (2017)
+T21	Pronoun 966 971	these
+T22	Pronoun 1096 1100	this
+T23	B_span 58 66	template
+T24	E_span 117 121	2011
+T25	B_span 126 134	employed
+T26	E_span 231 235	2015
+T27	B_span 264 268	deep
+T28	E_span 315 319	2014
+T29	B_span 323 332	attention
+T30	E_span 435 439	2016
+T31	B_span 554 557	CNN
+T32	E_span 592 596	2015
+T33	B_span 449 455	Recent
+T34	E_span 504 508	2017
+T35	B_span 751 753	Tu
+T36	E_span 875 883	sentence
+T37	B_span 891 894	See
+T38	E_span 1074 1081	article

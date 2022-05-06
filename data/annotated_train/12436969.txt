@@ -1,0 +1,15 @@
+[BOS] Research on grammatical error correction has recently become very popular.
+[BOS] Grammatical error correction methods are roughly divided into two types; (1) targeting few restricted types of errors (Rozovskaya and Roth, 2011; Rozovskaya and Roth, 2013; Tajiri et al., 2012) and (2) targeting any types of errors (Mizumoto et al., 2012) .
+[BOS] In the first type of error correction, classifiers like Support Vector Machines have mainly been used.
+[BOS] In the second type, statistical machine translation methods have been used.
+[BOS] The only features for grammatical error correction that have been considered in many of previous works are token, POS and syntactic information of single words, and features considering two (or more) words as a whole such as MWEs have never been used.
+
+[BOS] There is the work dealing with collocations, a kind of MWEs, as target of error detection (Futagi et al., 2008) .
+[BOS] Our method is different in that we are aiming at correcting not MWEs but other expressions like articles, prepositions and noun numbers as targets considering MWEs.
+
+[BOS] A lot of research for identifying MWEs and constructing MWE resources have been conducted (Schneider et al., 2014; Shigeto et al., 2013) .
+[BOS] In addition, there is some research in natural language processing applications using MWEs; i.e., statistical machine translation (Carpuat and Diab, 2010; Ren et al., 2009) , information retrieval (Newman et al., 2012) and opinion mining (Berend, 2011) .
+
+[BOS] Our task is very similar to the research of SMT using MWEs (Carpuat and Diab, 2010; Ren et al., 2009 ).
+[BOS] However we are in different situation where incorrect words may be included in source sentence side, thus identifying MWEs in source side may make mistakes.
+

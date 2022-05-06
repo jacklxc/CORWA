@@ -1,0 +1,26 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 140 145	[BOS]
+T3	Transition 282 287	[BOS]
+T4	Transition 560 565	[BOS]
+T5	Narrative_cite 638 643	[BOS]
+T6	Transition 882 887	[BOS]
+T7	Transition 1026 1031	[BOS]
+T8	Single_summ 1301 1306	[BOS]
+T9	Single_summ 1493 1498	[BOS]
+T10	Single_summ 1681 1686	[BOS]
+T11	Transition 1779 1784	[BOS]
+T12	Transition 1917 1922	[BOS]
+T13	Reference 108 137	Zollmann and Venugopal (2006)
+T14	Reference 768 792	(Venugopal et al., 2009)
+T15	Dominant 1307 1320	Chiang (2010)
+T16	Pronoun 566 571	These
+T17	Pronoun 1466 1471	their
+T18	Pronoun 1687 1691	This
+T19	Pronoun 1800 1802	it
+T20	Pronoun 1923 1927	This
+T21	B_span 71 77	Syntax
+T22	E_span 132 136	2006
+T23	B_span 749 759	preference
+T24	E_span 791 792	)
+T25	B_span 1307 1313	Chiang
+T26	E_span 1772 1777	basis

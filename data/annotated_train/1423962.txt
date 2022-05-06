@@ -1,0 +1,25 @@
+[BOS] While initial studies on NMT treat each sentence as a sequence of words (Bahdanau et al., 2015; Sutskever et al., 2014) , researchers have recently started investigating into the use of syntactic structures in NMT models (Bastings et al., 2017; Chen et al., 2017; Eriguchi et al., 2016a Eriguchi et al., ,b, 2017 Li et al., 2017; Stahlberg et al., 2016; Yang et al., 2017) .
+[BOS] In particular, Eriguchi et al. (2016b) introduced a tree-to-sequence NMT model by building a tree-structured encoder on top of a standard sequential encoder, which motivated the use of the dependency composition vectors in our proposed model.
+[BOS] Prior to the advent of NMT, the syntactic structures had been successfully used in statistical machine translation systems (Neubig and Duh, 2014; Yamada and Knight, 2001 ).
+[BOS] These syntax-based approaches are pipelined; a syntactic parser is first trained by supervised learning using a treebank such as the WSJ dataset, and then the parser is used to automatically extract syntactic information for machine translation.
+[BOS] They rely on the output from the parser, and therefore parsing errors are propagated through the whole systems.
+[BOS] By contrast, our model allows the parser to be adapted to the translation task, thereby providing a first step towards addressing ambiguous syntactic and semantic problems, such as domain-specific selectional preference and PP attachments, in a task-oriented fashion.
+
+[BOS] Our model learns latent graph structures in a source-side language.
+[BOS] Eriguchi et al. (2017) have proposed a model which learns to parse and translate by using automatically-parsed data.
+[BOS] Thus, it is also an interesting direction to learn latent structures in a target-side language.
+
+[BOS] As for the learning of latent syntactic structure, there are several studies on learning task-oriented syntactic structures.
+[BOS] Yogatama et al. (2017) used a reinforcement learning method on shift-reduce action sequences to learn task-oriented binary constituency trees.
+[BOS] They have shown that the learned trees do not necessarily highly correlate with the human-annotated treebanks, which is consistent with our experimental results.
+[BOS] Socher et al. (2011) used a recursive autoencoder model to greedily construct a binary constituency tree for each sentence.
+[BOS] The autoencoder objective works as a regularization term for sentiment classification tasks.
+[BOS] Prior to these deep learning approaches, Wu (1997) presented a method for bilingual parsing.
+[BOS] One of the characteristics of our model is directly using the soft connections of the graph edges with the real-valued weights, whereas all of the above-mentioned methods use one best structure for each sentence.
+[BOS] Our model is based on dependency structures, and it is a promising future direction to jointly learn dependency and constituency structures in a task-oriented fashion.
+
+[BOS] Finally, more related to our model, Kim et al. (2017) applied their structured attention networks to a Natural Language Inference (NLI) task for learning dependency-like structures.
+[BOS] They showed that pre-training their model by a parsing dataset did not improve accuracy on the NLI task.
+[BOS] By contrast, our experiments show that such a parsing dataset can be effectively used to improve translation accuracy by varying the size of the dataset and by avoiding strong overfitting.
+[BOS] Moreover, our translation examples show the concrete benefit of learning task-oriented latent graph structures.
+

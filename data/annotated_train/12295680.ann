@@ -1,0 +1,34 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 527 532	[BOS]
+T3	Transition 831 836	[BOS]
+T4	Multi_summ 915 920	[BOS]
+T5	Narrative_cite 1107 1112	[BOS]
+T6	Reference 196 220	(Kaisser and Lowe, 2008)
+T7	Reference 339 362	(Butnariu et al., 2009)
+T8	Reference 398 418	(Chang et al., 2009)
+T9	Reference 446 466	(McGraw et al., 2010
+T10	Reference 468 487	Marge et al., 2010a
+T11	Reference 489 524	Novotney and Callison-Burch, 2010a)
+T12	Reference 667 687	(Hsueh et al., 2009)
+T13	Reference 794 828	(Zaidan and Callison-Burch, 2009 )
+T14	Dominant 921 939	Deng et al. (2009)
+T15	Reference 1088 1104	(Fellbaum, 1998)
+T16	Dominant 1309 1336	(von Ahn and Dabbish, 2008)
+T17	B_span 165 173	question
+T18	E_span 215 219	2008
+T19	B_span 331 338	SemEval
+T20	E_span 357 361	2009
+T21	B_span 365 370	human
+T22	E_span 413 417	2009
+T23	B_span 425 431	speech
+T24	E_span 518 523	2010a
+T25	B_span 642 651	sentiment
+T26	E_span 682 686	2009
+T27	B_span 691 696	doing
+T28	E_span 822 826	2009
+T29	B_span 921 925	Deng
+T30	E_span 1099 1103	1998
+T31	B_span 1275 1284	Wikipedia
+T32	E_span 1331 1335	2008
+T33	B_span 1071 1078	WordNet
+T34	E_span 1099 1103	1998

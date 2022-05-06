@@ -1,0 +1,54 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 287 292	[BOS]
+T3	Transition 378 383	[BOS]
+T4	Narrative_cite 479 484	[BOS]
+T5	Single_summ 652 657	[BOS]
+T6	Narrative_cite 776 781	[BOS]
+T7	Narrative_cite 964 969	[BOS]
+T8	Other 1077 1082	[BOS]
+T9	Other 1090 1095	[BOS]
+T10	Other 1108 1113	[BOS]
+T11	Other 1116 1121	[BOS]
+T12	Other 1124 1129	[BOS]
+T13	Other 1168 1173	[BOS]
+T14	Other 1176 1181	[BOS]
+T15	Transition 1184 1189	[BOS]
+T16	Multi_summ 1374 1379	[BOS]
+T17	Multi_summ 1530 1535	[BOS]
+T18	Reference 105 124	(Koehn et al., 2003
+T19	Reference 126 148	Tillmann and Ney, 2003
+T20	Reference 150 165	Tillmann, 2006)
+T21	Reference 202 215	(Chiang, 2007
+T22	Reference 217 239	Huang and Chiang, 2007
+T23	Reference 241 262	Watanabe et al., 2006
+T24	Reference 264 283	Huang and Mi, 2010)
+T25	Reference 539 561	(Germann et al., 2001)
+T26	Reference 578 603	(Riedel and Clarke, 2009)
+T27	Reference 631 649	(Och et al., 2001)
+T28	Dominant 658 682	Zaslavskiy et al. (2009)
+T29	Reference 849 872	Iglesias et al., 2009 )
+T30	Reference 938 961	(Kumar and Byrne, 2005)
+T31	Reference 1049 1074	(de Gispert et al., 2010)
+T32	Dominant 1380 1400	Riedel et al. (2012)
+T33	Dominant 1405 1427	Belanger et al. (2012)
+T34	Pronoun 1306 1310	this
+T35	B_span 93 104	phrasebased
+T36	E_span 160 164	2006
+T37	B_span 170 176	syntax
+T38	E_span 278 282	2010
+T39	B_span 535 538	ILP
+T40	E_span 556 560	2001
+T41	B_span 572 577	plane
+T42	E_span 598 602	2009
+T43	B_span 610 615	multi
+T44	E_span 644 648	2001
+T45	B_span 658 668	Zaslavskiy
+T46	E_span 767 774	decoder
+T47	B_span 817 823	finite
+T48	E_span 866 870	2009
+T49	B_span 894 900	phrase
+T50	E_span 956 960	2005
+T51	B_span 1027 1039	hierarchical
+T52	E_span 1069 1073	2010
+T53	B_span 1380 1386	Riedel
+T54	E_span 1613 1620	optimal

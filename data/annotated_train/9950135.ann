@@ -1,0 +1,90 @@
+T1	Transition 0 5	[BOS]
+T2	Intro 189 194	[BOS]
+T3	Reflection 293 298	[BOS]
+T4	Single_summ 564 569	[BOS]
+T5	Single_summ 700 705	[BOS]
+T6	Narrative_cite 861 866	[BOS]
+T7	Narrative_cite 1000 1005	[BOS]
+T8	Single_summ 1366 1371	[BOS]
+T9	Transition 1543 1548	[BOS]
+T10	Single_summ 1786 1791	[BOS]
+T11	Narrative_cite 2125 2130	[BOS]
+T12	Transition 2252 2257	[BOS]
+T13	Single_summ 2387 2392	[BOS]
+T14	Narrative_cite 2705 2710	[BOS]
+T15	Single_summ 2857 2862	[BOS]
+T16	Single_summ 3038 3043	[BOS]
+T17	Single_summ 3312 3317	[BOS]
+T18	Single_summ 3533 3538	[BOS]
+T19	Single_summ 3685 3690	[BOS]
+T20	Narrative_cite 3877 3882	[BOS]
+T21	Single_summ 4098 4103	[BOS]
+T22	Single_summ 4305 4310	[BOS]
+T23	Single_summ 4393 4398	[BOS]
+T24	Single_summ 4613 4618	[BOS]
+T25	Single_summ 4870 4875	[BOS]
+T26	Reflection 5084 5089	[BOS]
+T27	Dominant 570 593	Chen and Manning (2014)
+T28	Reference 929 953	(Chen and Manning, 2014)
+T29	Reference 1130 1149	(Weiss et al., 2015
+T30	Reference 1151 1168	Zhou et al., 2015
+T31	Reference 1170 1189	Andor et al., 2016)
+T32	Dominant 1372 1389	Dyer et al (2015)
+T33	Dominant 1792 1824	Kiperwasser and Goldberg (2016b)
+T34	Reference 2235 2249	(Eisner, 1996)
+T35	Dominant 2393 2425	Kiperwasser and Goldberg (2016a)
+T36	Reference 2826 2854	(Goldberg and Elhadad, 2010)
+T37	Dominant 2874 2892	Cheng et al (2016)
+T38	Dominant 3351 3373	Hashimoto et al (2016)
+T39	Reference 3461 3493	Kiperwasser and Goldberg (2016b)
+T40	Dominant 3539 3563	Dozat and Manning (2017)
+T41	Reference 3608 3642	(Kiperwasser and Goldberg, 2016b )
+T42	Reference 3991 4013	(Rush and Petrov, 2012
+T43	Reference 4015 4034	Zhang et al., 2014)
+T44	Dominant 4104 4126	Rush and Petrov (2012)
+T45	Dominant 4399 4417	Zhang et al (2014)
+T46	B_span 570 574	Chen
+T47	E_span 859 860	.
+T48	B_span 914 925	limitations
+T49	E_span 952 953	)
+T50	B_span 1092 1102	transition
+T51	E_span 1188 1189	)
+T52	B_span 1372 1375	Dye
+T53	E_span 1540 1541	.
+T54	B_span 1792 1794	Ki
+T55	E_span 2125 2130	[BOS]
+T56	B_span 2137 2140	the
+T57	E_span 2248 2249	)
+T58	B_span 2393 2395	Ki
+T59	E_span 2853 2854	)
+T60	B_span 2872 2873	,
+T61	E_span 3309 3310	.
+T62	B_span 3327 3331	many
+T63	E_span 3528 3531	one
+T64	B_span 3539 3541	Do
+T65	E_span 3683 3684	.
+T66	B_span 3924 3929	graph
+T67	E_span 4033 4034	)
+T68	B_span 4104 4107	Rus
+T69	E_span 4385 4391	models
+T70	B_span 4399 4404	Zhang
+T71	E_span 5078 5082	tree
+T72	Pronoun 253 255	it
+T73	Pronoun 307 309	it
+T74	Pronoun 1310 1314	they
+T75	Pronoun 1682 1687	their
+T76	Pronoun 1764 1769	these
+T77	Pronoun 2100 2104	this
+T78	Pronoun 3150 3154	they
+T79	Pronoun 3321 3326	their
+T80	Pronoun 3770 3774	they
+T81	Pronoun 3883 3887	This
+T82	Pronoun 4083 4088	their
+T83	Pronoun 4311 4315	They
+T84	Pronoun 4491 4495	they
+T85	Pronoun 4628 4632	they
+T86	Pronoun 4876 4881	Their
+T87	B_span 3439 3442	MLP
+T88	E_span 3487 3492	2016b
+T89	B_span 3577 3583	neural
+T90	E_span 3635 3640	2016b

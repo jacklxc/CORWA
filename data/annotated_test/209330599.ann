@@ -1,0 +1,33 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 117 122	[BOS]
+T3	Narrative_cite 238 243	[BOS]
+T4	Single_summ 470 475	[BOS]
+T5	Other 569 574	[BOS]
+T6	Other 831 836	[BOS]
+T7	Other 959 964	[BOS]
+T8	Other 1019 1024	[BOS]
+T9	Other 1100 1105	[BOS]
+T10	Other 1160 1165	[BOS]
+T11	Other 1257 1262	[BOS]
+T12	Other 1372 1377	[BOS]
+T13	Other 1486 1491	[BOS]
+T14	Other 1577 1582	[BOS]
+T15	Other 1746 1751	[BOS]
+T16	Reference 275 294	(Hovy et al., 2006)
+T17	Reference 305 335	(Nenkova and Passonneau, 2004)
+T18	Reference 348 359	(Lin, 2004)
+T19	Dominant 489 500	Dang (2005)
+T20	Pronoun 784 788	this
+T21	Pronoun 1106 1110	This
+T22	Pronoun 1246 1250	this
+T23	Pronoun 1354 1358	they
+T24	Pronoun 1631 1635	this
+T25	Pronoun 1889 1893	they
+T26	B_span 266 274	elements
+T27	E_span 289 293	2006
+T28	B_span 297 304	pyramid
+T29	E_span 330 334	2004
+T30	B_span 342 347	ROUGE
+T31	E_span 354 358	2004
+T32	B_span 489 493	Dang
+T33	E_span 560 567	quality

@@ -1,0 +1,13 @@
+[BOS] Encoder-decoder architectures based on neural networks have been successfully applied to semantic parsing (Dong and Lapata, 2016; Jia and Liang, 2016; Ling et al., 2016; Dong and Lapata, 2018) .
+[BOS] Since then, several ideas such as including attention mechanism (Dong and Lapata, 2016) , multi-task learning (Susanto and Lu, 2017; Herzig and Berant, 2017; Fan et al., 2017) , data augmentation (Jia and Liang, 2016; Koisk et al., 2016) and two-steps (coarse-to-fine) decoder (Dong and Lapata, 2018) have been applied to semantic parsing models with the aim of boosting performance.
+[BOS] Similar to our work, others tried to overcome the lack of annotated data by leveraging existing datasets from related domains.
+[BOS] Previous works from Herzig and Berant (2017) and Fan et al. (2017) used a multi-task framework to jointly learn the neural semantic parsing model and encourage parameter sharing between different datasets.
+[BOS] The model proposed by Herzig and Berant (2017) used multiple knowledge bases in different domains to enhance the model performance.
+[BOS] On the other hand, the work from Fan et al. (2017) leveraged access to a very large labeled dataset to help a small one.
+[BOS] However, their models are trained using proprietary datasets, which are not publicly available, thus making model comparison unfeasible.
+[BOS] The work proposed by Damonte et al. (2019) investigates the possibility of transfer learning to tackle the issue of lacking annotated data on neural semantic parsing.
+[BOS] They used more complex model and data sets compared to our work.
+
+[BOS] Our work focuses on training a model using a larger dataset and fine-tune using another related low-resource dataset rather than multi-task learning.
+[BOS] We also evaluate how additional training examples impact transfer learning models.
+

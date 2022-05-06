@@ -1,0 +1,26 @@
+[BOS] In recent years, a few datasets for hate speech detection have been built and released by re-searchers.
+[BOS] Most are collected from Twitter and are labeled using a combination of expert and nonexpert hand labeling, or through machine learning assistance using a list of common negative words.
+[BOS] It is widely accepted that labels can vary in their accuracy overall, though this can be mitigated by relying on a consensus rule to rectify disagreements in labels.
+[BOS] A synopsis of these datasets can be found in Table 1 .
+[BOS] Waseem and Hovy (2016) collect 17k tweets based on hate-related slurs and users.
+[BOS] The tweets are manually annotated with three categories: sexist (20.0%), racist (11.7%), and normal (68.3%).
+[BOS] Because the authors identified a number of prolific users during the initial manual search, the resulting dataset has a small number of users (1,236 users) involved, causing a potential selection bias.
+[BOS] This problem is most prevalent on the 1,972 racist tweets, which are sent by only 9 Twitter users.
+[BOS] To avoid this problem, we did not identify suspicious user accounts or utilize user information when collecting our data.
+[BOS] Davidson et al. (2017) use a similar strategy, which combines the utilization of hate keywords and suspicious user accounts to build a dataset from Twitter.
+[BOS] But different from Waseem and Hovy (2016) , this dataset consists of 25k tweets randomly sampled from the 85.4 million posts of a large number of users (33,458 users) .
+[BOS] This dataset is proposed mainly to distinguish hateful and offensive language, which tend to be conflated by many studies.
+[BOS] Golbeck et al. (2017) focus on online harassment on Twitter and propose a fine-grained labeled dataset with 6 categories.
+[BOS] Founta et al. (2018) introduce a large Twitter dataset with 100k tweets.
+[BOS] Despite the large size of this dataset, the ratio of the hateful tweets are relatively low (5%).
+[BOS] Thus the size of the hateful tweets is around 5k in this dataset, which is not significantly larger than that of the previous datasets.
+
+[BOS] The dataset introduced by Chatzakou et al. (2017) is different from the other datasets as it investigates the behavior of hate-related users on Twitter, instead of evaluating hate-related tweets.
+[BOS] The large majority of the 1.5k users are labeled as spammers (31.8%) or normal (60.3%).
+[BOS] Only a small fraction of the users are labeled as bullies (4.5%) or aggressors (3.4%).
+
+[BOS] While most datasets are from single sources, Kennedy III et al. (2017) (Waseem and Hovy, 2016; Gao et al., 2017; Burnap and Williams, 2016; Badjatiya et al., 2017; Davidson et al., 2017) .
+[BOS] While there are several studies on the other sources, such as Instagram (Zhong et al., 2016) , Yahoo!
+[BOS] (Warner and Hirschberg, 2012; Nobata et al., 2016) , and Ask.fm (Van Hee et al., 2015) , the hate speech on Reddit and Gab is not widely studied.
+[BOS] What's more, all the previous hate speech datasets are built for the classification or detection of hate speech from a single post or user on social media, ignoring the context of the post and intervention methods needed to effectively calm down the users and diffuse negative online conversations.
+

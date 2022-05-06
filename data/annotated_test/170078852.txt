@@ -1,0 +1,32 @@
+[BOS] Paraphrase Generation Paraphrases express the same content with alternative surface forms.
+[BOS] Their automatic generation has been studied for decades: rule-based (McKeown, 1980; Meteer and Shaked, 1988) and data-driven methods (Madnani and J. Dorr, 2010) have been explored.
+[BOS] Data-driven approaches have considered different source of training data, including multiple translations of the same text (Barzilay and McKeown, 2001; Pang et al., 2003) or alignments of comparable corpora, such as news from the same period (Dolan et al., 2004; Barzilay and Lee, 2003) .
+
+[BOS] Machine translation later emerged as a dominant method for paraphrase generation.
+[BOS] Bannard and Callison-Burch (2005) identify equivalent English phrases mapping to the same non-English phrases from an MT phrase table.
+[BOS] Kok and Brockett (2010) performs random walks across multiple phrase tables.
+[BOS] Translation-based paraphrasing has recently benefited from neural networks for MT Vaswani et al., 2017) .
+[BOS] Neural MT can generate paraphrase pairs by translating one side of a parallel corpus Iyyer et al., 2018) .
+[BOS] Paraphrase generation with pivot/round-trip neural translation has also been used (Mallinson et al., 2017; Yu et al., 2018) .
+
+[BOS] Although less common, monolingual neural sequence models have also been proposed.
+[BOS] In supervised settings, Prakash et al. (2016) ; Gupta et al. (2018) learn sequence-to-sequence models on paraphrase data.
+[BOS] In unsupervised settings, Bowman et al. (2016) apply a VAE to paraphrase detection while Li et al. (2017) train a paraphrase generator with adversarial training.
+[BOS] Paraphrase Evaluation Evaluation can be performed by human raters, evaluating both text fluency and semantic similarity.
+[BOS] Automatic evaluation is more challenging but necessary for system development and larger scale statistical analysis (Callison-Burch, 2007; Madnani and J. Dorr, 2010) .
+[BOS] Automatic evaluation and generation are actually linked: if an automated metric would reliably assess the semantic similarity and fluency of a pair of sentences, one would generate by searching the space of sentences to maximize that metric.
+[BOS] Automated evaluation can report the overlap with a reference paraphrase, like for translation (Papineni et al., 2002) or summarization (Lin, 2004) .
+[BOS] BLEU, METEOR and TER metrics have been used (Prakash et al., 2016; Gupta et al., 2018) .
+[BOS] These metrics do not evaluate whether the generated paraphrase differs from the input sentence and large amount of input copying is not penalized.
+[BOS] Galley et al. (2015) compare overlap with multiple references, weighted by quality; while Sun and Zhou (2012) explicitly penalize overlap with the input sentence.
+[BOS] Grangier and Auli (2018) alternatively compare systems which have first been calibrated to a reference level of overlap with the input.
+[BOS] We follow this strategy and calibrate the generation overlap to match the average overlap observed in paraphrases from humans.
+
+[BOS] In addition to generation, probabilistic models can be assessed through scoring.
+[BOS] For a sentence pair (x, y), the model estimate of P (y|x) can be used to discriminate between paraphrase and non-paraphrase pairs (Dolan and Brockett, 2005) .
+[BOS] The correlation of model scores with human judgments (Cer et al., 2017) can also be assessed.
+[BOS] We report both types of evaluation.
+
+[BOS] Finally, paraphrasing can also impact downstream tasks, e.g. to generate additional training data by paraphrasing training sentences (Marton et al., 2009; Zhang et al., 2015; Yu et al., 2018) .
+[BOS] We evaluate this impact for classification tasks.
+

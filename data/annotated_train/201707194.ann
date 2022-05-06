@@ -1,0 +1,148 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 235 240	[BOS]
+T3	Narrative_cite 517 522	[BOS]
+T4	Narrative_cite 779 784	[BOS]
+T5	Narrative_cite 1046 1051	[BOS]
+T6	Narrative_cite 1413 1418	[BOS]
+T7	Narrative_cite 1551 1556	[BOS]
+T8	Single_summ 1768 1773	[BOS]
+T9	Transition 1975 1980	[BOS]
+T10	Single_summ 2237 2242	[BOS]
+T11	Single_summ 2374 2379	[BOS]
+T12	Single_summ 2506 2511	[BOS]
+T13	Reflection 2699 2704	[BOS]
+T14	Reflection 2913 2918	[BOS]
+T15	Narrative_cite 3422 3427	[BOS]
+T16	Single_summ 3629 3634	[BOS]
+T17	Single_summ 3798 3803	[BOS]
+T18	Narrative_cite 3952 3957	[BOS]
+T19	Single_summ 4197 4202	[BOS]
+T20	Reflection 4401 4406	[BOS]
+T21	Multi_summ 4546 4551	[BOS]
+T22	Transition 4790 4795	[BOS]
+T23	Transition 4916 4921	[BOS]
+T24	Single_summ 5104 5109	[BOS]
+T25	Single_summ 5316 5321	[BOS]
+T26	Single_summ 5566 5571	[BOS]
+T27	Single_summ 5670 5675	[BOS]
+T28	Reference 315 331	(Xu et al., 2016
+T29	Reference 333 358	Weissenborn et al., 2017a
+T30	Reference 360 382	Ostermann et al., 2018
+T31	Reference 384 408	Mihaylov and Frank, 2018
+T32	Reference 410 428	Bauer et al., 2018
+T33	Reference 430 449	Wang et al., 2018b)
+T34	Reference 457 474	(Das et al., 2017
+T35	Reference 476 492	Sun et al., 2018
+T36	Reference 494 514	Tandon et al., 2018)
+T37	Reference 561 588	(Weissenborn et al., 2017a)
+T38	Reference 601 626	(Mihaylov and Frank, 2018
+T39	Reference 628 644	Sun et al., 2018
+T40	Reference 646 665	Bauer et al., 2018)
+T41	Reference 755 775	(Wang et al., 2018b)
+T42	Reference 891 913	(Dhingra et al., 2017)
+T43	Reference 960 981	(De Cao et al., 2019)
+T44	Reference 1001 1020	(Khot et al., 2017)
+T45	Reference 1097 1118	Radford et al., 2018b
+T46	Reference 1120 1140	Devlin et al., 2019)
+T47	Reference 1278 1299	Devlin et al., 2019 )
+T48	Reference 1323 1341	(Sun et al., 2019)
+T49	Reference 1390 1410	(Wang et al., 2018a)
+T50	Reference 1444 1465	(Devlin et al., 2019)
+T51	Reference 1684 1702	(Yih et al., 2016)
+T52	Reference 1740 1764	(Khashabi et al., 2018b)
+T53	Dominant 1832 1854	(Vaswani et al., 2017)
+T54	Reference 1923 1940	(Yu et al., 2018)
+T55	Dominant 2266 2284	Shaw et al. (2018)
+T56	Dominant 2380 2397	Dai et al. (2019)
+T57	Dominant 2512 2529	Dai et al. (2019)
+T58	Reference 3294 3312	(Hu et al., 2018b)
+T59	Reference 3335 3353	(Hu et al., 2018b)
+T60	Reference 3376 3394	(Hu et al., 2018b)
+T61	Reference 3586 3608	(Velikovi et al., 2018
+T62	Reference 3610 3626	Li et al., 2019)
+T63	Dominant 3666 3697	Koncel-Kedziorski et al. (2019)
+T64	Dominant 3836 3867	Koncel-Kedziorski et al. (2019)
+T65	Reference 4152 4175	(Strubell et al., 2018)
+T66	Dominant 4248 4271	(Strubell et al., 2018)
+T67	Reference 4612 4634	(Kocisky et al., 2018)
+T68	Reference 4729 4748	(Tay et al., 2018a)
+T69	Reference 4769 4787	(Seo et al., 2017)
+T70	Dominant 5119 5139	(Tay et al., 2018b )
+T71	Dominant 5322 5341	Bauer et al. (2018)
+T72	Dominant 5572 5589	Hu et al. (2018b)
+T73	Reference 5649 5667	(Hu et al., 2018a)
+T74	Pronoun 523 528	These
+T75	Pronoun 1990 1994	they
+T76	Pronoun 2015 2020	their
+T77	Pronoun 2149 2153	they
+T78	Pronoun 2254 2258	this
+T79	Pronoun 2636 2640	they
+T80	Pronoun 2708 2712	this
+T81	Pronoun 4796 4798	It
+T82	Pronoun 5676 5680	They
+T83	B_span 292 301	knowledge
+T84	E_span 443 448	2018b
+T85	B_span 454 456	QA
+T86	E_span 509 513	2018
+T87	B_span 552 560	implicit
+T88	E_span 582 587	2017a
+T89	B_span 592 600	explicit
+T90	E_span 660 664	2018
+T91	B_span 730 739	knowledge
+T92	E_span 769 774	2018b
+T93	B_span 868 879	coreference
+T94	E_span 908 912	2017
+T95	B_span 928 930	co
+T96	E_span 976 980	2019
+T97	B_span 986 992	OpenIE
+T98	E_span 1015 1019	2017
+T100	E_span 1135 1139	2019
+T101	B_span 1070 1080	pretrained
+T99	B_span 1250 1257	reading
+T102	E_span 1293 1297	2019
+T103	B_span 1304 1312	question
+T104	E_span 1336 1340	2019
+T105	B_span 1375 1379	GLUE
+T106	E_span 1404 1409	2018a
+T107	B_span 1439 1443	BERT
+T108	E_span 1460 1464	2019
+T109	B_span 1662 1670	semantic
+T110	E_span 1697 1701	2016
+T111	B_span 1725 1733	upstream
+T112	E_span 1758 1763	2018b
+T113	B_span 1904 1909	local
+T114	E_span 1935 1939	2018
+T115	B_span 1774 1778	Self
+T116	E_span 1969 1973	text
+T117	B_span 2246 2253	address
+T118	E_span 2365 2372	context
+T119	B_span 2380 2383	Dai
+T120	E_span 2499 2504	model
+T121	B_span 2512 2515	Dai
+T122	E_span 2687 2697	boundaries
+T123	B_span 3123 3131	offering
+T124	E_span 3411 3420	questions
+T125	B_span 3571 3576	graph
+T126	E_span 3621 3625	2019
+T127	B_span 3666 3672	Koncel
+T128	E_span 3791 3796	model
+T129	B_span 3806 3810	dual
+T130	E_span 3946 3950	base
+T131	B_span 4088 4093	tries
+T132	E_span 4170 4174	2018
+T133	B_span 4243 4247	LISA
+T134	E_span 4391 4399	Labeling
+T135	B_span 4591 4594	Nar
+T136	E_span 4629 4633	2018
+T137	B_span 4717 4722	BiAtt
+T138	E_span 4742 4747	2018a
+T139	B_span 4763 4768	BiDAF
+T140	E_span 4782 4786	2017
+T141	B_span 5110 5118	DecaProp
+T142	E_span 5308 5314	levels
+T143	B_span 5322 5327	Bauer
+T144	E_span 5549 5564	representations
+T145	B_span 5572 5574	Hu
+T146	E_span 5661 5666	2018a
+T147	E_span 5827 5830	Ens
+T148	B_span 5616 5626	Reinforced

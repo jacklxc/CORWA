@@ -1,0 +1,15 @@
+[BOS] The first shared task in Balto-slavic NLP was held in 2017, and reported in Piskorski et al. (2017) .
+[BOS] The task was somewhat different from the 2019 task in that training data was not provided to participants.
+[BOS] Approaches submitted to this task included a model based on parallel projection (Mayfield et al., 2017) and a model with language-specific features trained on found data (Marciczuk et al., 2017) .
+[BOS] There has also been follow-up work on this dataset using cross-lingual embeddings (Sharoff, 2018) .
+
+[BOS] Named Entity Recognition (NER), the task of detecting and classifying named entities in text, has been studied for many years.
+[BOS] Early models proposed were averaged perceptron (Ratinov and Roth, 2009) , and conditional random field (Manning et al., 2014) .
+[BOS] In recent years, neural models have proved successful, with the BiLSTM-CRF model dominant (Chiu and Nichols, 2016; Lample et al., 2016) .
+[BOS] A further increase in performance has come with contextual embeddings (Devlin et al., 2019; Akbik et al., 2018) , which are based on large language models trained over massive corpora.
+
+[BOS] Of particular interest is the multilingual BERT model (Devlin et al., 2019) , which is trained over the concatenation of the Wikipedias in over 100 languages.
+[BOS] 1 Although BERT is not trained with explicit cross-lingual objectives, it has been shown to have emergent cross-lingual properties, as well as language identification capabilities (Wu and Dredze, 2019) .
+
+[BOS] Several models have been proposed for multisource learning, in which multiple languages are used to train a model, including for machine translation (Zoph and Knight, 2016; Johnson et al., 2017; Currey and Heafield, 2018) , and NER (Tckstrm, 2012; Tsai et al., 2016; Mayhew et al., 2017; Rahimi et al., 2019) .
+

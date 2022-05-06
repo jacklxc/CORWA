@@ -1,0 +1,102 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 97 102	[BOS]
+T3	Narrative_cite 284 289	[BOS]
+T4	Transition 580 585	[BOS]
+T5	Single_summ 668 673	[BOS]
+T6	Single_summ 809 814	[BOS]
+T7	Narrative_cite 892 897	[BOS]
+T8	Single_summ 1004 1009	[BOS]
+T9	Multi_summ 1117 1122	[BOS]
+T10	Transition 1250 1255	[BOS]
+T11	Multi_summ 1338 1343	[BOS]
+T12	Multi_summ 1466 1471	[BOS]
+T13	Transition 1634 1639	[BOS]
+T14	Multi_summ 1761 1766	[BOS]
+T15	Transition 1935 1940	[BOS]
+T16	Narrative_cite 2183 2188	[BOS]
+T17	Multi_summ 2338 2343	[BOS]
+T18	Transition 2433 2438	[BOS]
+T19	Single_summ 2586 2591	[BOS]
+T20	Single_summ 2755 2760	[BOS]
+T21	Reflection 2897 2902	[BOS]
+T22	Transition 3031 3036	[BOS]
+T23	Narrative_cite 3118 3123	[BOS]
+T24	Narrative_cite 3283 3288	[BOS]
+T25	Reflection 3383 3388	[BOS]
+T26	Narrative_cite 3426 3431	[BOS]
+T27	Reflection 3626 3631	[BOS]
+T28	Reference 171 185	(McKeown, 1980
+T29	Reference 187 211	Meteer and Shaked, 1988)
+T30	Reference 236 263	(Madnani and J. Dorr, 2010)
+T31	Reference 413 440	(Barzilay and McKeown, 2001
+T32	Reference 442 460	Pang et al., 2003)
+T33	Reference 532 551	(Dolan et al., 2004
+T34	Reference 553 576	Barzilay and Lee, 2003)
+T35	Dominant 674 707	Bannard and Callison-Burch (2005)
+T36	Dominant 815 838	Kok and Brockett (2010)
+T37	Reference 980 1001	Vaswani et al., 2017)
+T38	Dominant 1095 1114	Iyyer et al., 2018)
+T39	Reference 1205 1228	(Mallinson et al., 2017
+T40	Reference 1230 1246	Yu et al., 2018)
+T41	Dominant 1368 1389	Prakash et al. (2016)
+T42	Dominant 1392 1411	Gupta et al. (2018)
+T43	Dominant 1498 1518	Bowman et al. (2016)
+T44	Dominant 1561 1577	Li et al. (2017)
+T45	Reference 1883 1904	(Callison-Burch, 2007
+T46	Reference 1906 1932	Madnani and J. Dorr, 2010)
+T47	Reference 2283 2306	(Papineni et al., 2002)
+T48	Reference 2324 2335	(Lin, 2004)
+T49	Reference 2388 2409	(Prakash et al., 2016
+T50	Reference 2411 2430	Gupta et al., 2018)
+T51	Dominant 2592 2612	Galley et al. (2015)
+T52	Dominant 2682 2701	Sun and Zhou (2012)
+T53	Dominant 2761 2785	Grangier and Auli (2018)
+T54	Reference 3254 3280	(Dolan and Brockett, 2005)
+T55	Reference 3342 3360	(Cer et al., 2017)
+T56	Reference 3565 3585	(Marton et al., 2009
+T57	Reference 3587 3605	Zhang et al., 2015
+T58	Reference 3607 3623	Yu et al., 2018)
+T59	Pronoun 103 108	Their
+T60	Pronoun 2439 2444	These
+T61	Pronoun 2913 2917	this
+T62	Pronoun 3644 3648	this
+T63	B_span 160 161	r
+T64	E_span 206 210	1988
+T65	B_span 216 220	data
+T66	E_span 258 262	2010
+T67	B_span 374 382	multiple
+T68	E_span 455 459	2003
+T69	B_span 464 474	alignments
+T70	E_span 571 575	2003
+T71	B_span 674 681	Bannard
+T72	E_span 802 807	table
+T73	B_span 815 818	Kok
+T74	E_span 884 890	tables
+T75	B_span 957 963	neural
+T76	E_span 996 1000	2017
+T77	B_span 1010 1016	Neural
+T78	E_span 1109 1113	2018
+T80	E_span 1241 1245	2018
+T79	B_span 1123 1133	Paraphrase
+T81	B_span 1368 1375	Prakash
+T82	E_span 1460 1464	data
+T83	B_span 1498 1504	Bowman
+T84	E_span 1624 1632	training
+T85	B_span 1849 1855	larger
+T86	E_span 1927 1931	2010
+T90	E_span 2330 2334	2004
+T91	B_span 2344 2348	BLEU
+T92	E_span 2425 2429	2018
+T93	B_span 2592 2598	Galley
+T94	E_span 2667 2674	quality
+T95	B_span 2682 2685	Sun
+T96	E_span 2745 2753	sentence
+T97	B_span 2761 2769	Grangier
+T98	E_span 2890 2895	input
+T99	B_span 3197 3209	discriminate
+T100	E_span 3275 3279	2005
+T101	B_span 3326 3331	human
+T102	E_span 3373 3381	assessed
+T103	B_span 3496 3504	generate
+T104	E_span 3618 3622	2018
+T87	B_span 2189 2198	Automated

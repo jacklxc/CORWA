@@ -1,0 +1,19 @@
+[BOS] Hate Speech Detection research attracts researchers from diverse background like computational Linguistic, computer science, and social science.
+[BOS] The actual term hate speech was coined by (Warner and Hirschberg, 2012) .
+[BOS] Various Authors used different notion like offensive language (Razavi et al., 2010) , cyberbullying (Xu et al., 2012) , aggression (Kumar et al., 2018) .
+[BOS] (Davidson et al., 2017 ) studied tweet classification of hate speech and offensive language and defined hate speech as following: language that is used to express hatred towards a targeted group or is intended to be derogatory, to humiliate, or to insult the members of the group.
+[BOS] Authors observed that offensive language is often miss-classified as hate speech.
+[BOS] They have trained a multi-class classifier on N-gram features weighted by its TF-IDF weights and PoS tags.
+[BOS] In addition to these, features like sentiment score of each tweet, number of hashtags, and URLS, mentions are considered.
+[BOS] Authors concluded that Logistic Regression and Linear SVM are better than NB, Decision Tree, and Random Forests.
+[BOS] (Schmidt and Wiegand, 2017) perform comprehensive survey on hate speech.
+[BOS] They have identified features like surface features, sentiment, word generalization, lexical, linguistics etc.
+[BOS] can be used by classifier.
+[BOS] tried to address the problem of discriminating profanity from hate speech in the social media posts.
+[BOS] N-grams, skipgram and clustering based word representation features are considered for the 3-class classification.
+[BOS] The author uses SVM and advance ensemble based classifier for this task and achieved 80% accuracy.
+[BOS] (Gambck and Sikdar, 2017 ) performed 4-class classification on Twitter messages using CNN with word embedding generated through Word2vec and character n-grams.
+[BOS] Authors claim that word embedding generated through Word2vec outperformed random vector and n-gram characters.
+[BOS] (Zhang et al., 2018) proposed a new method based on CNN and LSTM with drop out and pooling for hate speech detection.
+[BOS] Authors concluded that their method achieved improvement on F1 score of most of the hate speech datasets.
+

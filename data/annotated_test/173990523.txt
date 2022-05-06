@@ -1,0 +1,8 @@
+[BOS] Exploring Properties of SAN SAN has yielded strong empirical performance in a variety of NLP tasks (Vaswani et al., 2017; Tan et al., 2018; Li et al., 2018; Devlin et al., 2019) .
+[BOS] In response to these impressive results, several studies have emerged with the goal of understanding SAN on many properties.
+[BOS] For example, Tran et al. (2018) compared SAN and RNN on language inference tasks, and pointed out that SAN is weak at learning hierarchical structure than its RNN counterpart.
+[BOS] Moreover, Tang et al. (2018) conducted experiments on subject-verb agreement and word sense disambiguation tasks.
+[BOS] They found that SAN is good at extracting semantic properties, while underperforms RNN on capturing long-distance dependencies.
+[BOS] This is in contrast to our intuition that SAN is good at capturing long-distance dependencies.
+[BOS] In this work, we focus on exploring the ability of SAN on modeling word order information.
+

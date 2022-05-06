@@ -1,0 +1,107 @@
+T1	Intro 0 5	[BOS]
+T2	Intro 125 130	[BOS]
+T3	Single_summ 187 192	[BOS]
+T4	Single_summ 348 353	[BOS]
+T5	Single_summ 530 535	[BOS]
+T6	Single_summ 693 698	[BOS]
+T7	Single_summ 827 832	[BOS]
+T8	Single_summ 1066 1071	[BOS]
+T9	Single_summ 1177 1182	[BOS]
+T10	Single_summ 1503 1508	[BOS]
+T11	Single_summ 1694 1699	[BOS]
+T12	Single_summ 1802 1807	[BOS]
+T13	Single_summ 1929 1934	[BOS]
+T14	Single_summ 2029 2034	[BOS]
+T15	Transition 2197 2202	[BOS]
+T16	Multi_summ 2337 2342	[BOS]
+T17	Multi_summ 2632 2637	[BOS]
+T18	Multi_summ 2808 2813	[BOS]
+T19	Multi_summ 2933 2938	[BOS]
+T20	Reflection 3009 3014	[BOS]
+T21	Reflection 3133 3138	[BOS]
+T22	Reflection 3266 3271	[BOS]
+T23	Single_summ 3342 3347	[BOS]
+T24	Single_summ 3445 3450	[BOS]
+T25	Single_summ 3558 3563	[BOS]
+T26	Single_summ 3671 3676	[BOS]
+T27	Single_summ 3763 3768	[BOS]
+T28	Single_summ 3963 3968	[BOS]
+T29	Narrative_cite 4086 4091	[BOS]
+T30	Reflection 4245 4250	[BOS]
+T31	Reflection 4322 4327	[BOS]
+T32	Reflection 4525 4530	[BOS]
+T33	Transition 4601 4606	[BOS]
+T34	Single_summ 4677 4682	[BOS]
+T35	Single_summ 4860 4865	[BOS]
+T36	Single_summ 5126 5131	[BOS]
+T37	Dominant 193 215	Mikolov et al. (2013a)
+T38	Dominant 833 850	Xing et al. (2015
+T39	Dominant 1260 1283	Faruqui and Dyer (2014)
+T40	Dominant 1509 1530	Artetxe et al. (2016)
+T41	Dominant 1700 1719	Smith et al. (2017)
+T42	Dominant 1833 1854	Artetxe et al. (2017)
+T44	Reference 2446 2467	Conneau et al. (2018)
+T46	Dominant 3451 3471	Zhang et al. (2017a)
+T47	Dominant 3793 3814	(Zhang et al., 2017b)
+T48	Dominant 3969 3990	Conneau et al. (2018)
+T49	Reference 4131 4148	Xu et al. (2018a)
+T52	Dominant 4683 4704	Artetxe et al. (2018b
+T54	Dominant 5132 5165	Alvarez-Melis and Jaakkola (2018)
+T55	Pronoun 141 146	these
+T56	Pronoun 357 362	their
+T57	Pronoun 415 420	their
+T58	Pronoun 571 575	they
+T59	Pronoun 702 707	their
+T60	Pronoun 718 722	they
+T61	Pronoun 1120 1124	they
+T62	Pronoun 1730 1734	this
+T63	Pronoun 1811 1816	their
+T64	Pronoun 1935 1939	They
+T65	Pronoun 2054 2058	they
+T66	Pronoun 2343 2347	This
+T67	Pronoun 3052 3057	these
+T68	Pronoun 3581 3585	they
+T69	Pronoun 3707 3711	they
+T70	Pronoun 3772 3777	their
+T71	Pronoun 3817 3821	they
+T72	Pronoun 4347 4352	these
+T73	Pronoun 4432 4434	it
+T74	Pronoun 4537 4539	it
+T75	B_span 193 200	Mikolov
+T77	B_span 833 837	Xing
+T79	B_span 1260 1267	Faruqui
+T80	E_span 1492 1501	maximized
+T81	B_span 1509 1516	Artetxe
+T82	E_span 1682 1692	constraint
+T83	B_span 1700 1705	Smith
+T84	E_span 1792 1800	solution
+T85	B_span 1833 1840	Artetxe
+T43	Dominant 2370 2390	Miceli Barone (2016)
+T87	B_span 2234 2242	attempts
+T89	B_span 2415 2418	adv
+T90	E_span 2464 2467	18)
+T91	B_span 2591 2595	mode
+T92	E_span 2626 2629	17)
+T93	B_span 3451 3456	Zhang
+T94	E_span 3545 3556	consistency
+T45	Dominant 2612 2628	Goodfellow, 2017
+T95	B_span 3794 3799	Zhang
+T96	E_span 3951 3961	embeddings
+T97	B_span 3969 3976	Conneau
+T98	E_span 4076 4084	solution
+T99	B_span 4131 4133	Xu
+T50	Reference 4215 4242	CycleGAN (Zhu et al., 2017)
+T51	E_span 4162 4170	distance
+T100	B_span 4181 4183	cy
+T101	E_span 4237 4242	2017)
+T102	B_span 4683 4690	Artetxe
+T103	E_span 4847 4858	iteratively
+T53	Dominant 4866 4888	Hoshen and Wolf (2018)
+T104	B_span 4866 4872	Hoshen
+T105	E_span 5118 5124	vision
+T106	B_span 5132 5139	Alvarez
+T107	E_span 5328 5337	languages
+T76	E_span 817 825	networks
+T78	E_span 1169 1175	mapper
+T86	E_span 2184 2194	dictionary
+T88	E_span 2997 3007	assumption

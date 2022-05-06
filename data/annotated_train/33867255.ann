@@ -1,0 +1,38 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 120 125	[BOS]
+T3	Single_summ 353 358	[BOS]
+T4	Single_summ 452 457	[BOS]
+T5	Single_summ 650 655	[BOS]
+T6	Transition 904 909	[BOS]
+T7	Multi_summ 974 979	[BOS]
+T8	Multi_summ 1126 1131	[BOS]
+T9	Multi_summ 1326 1331	[BOS]
+T10	Single_summ 1445 1450	[BOS]
+T11	Single_summ 1515 1520	[BOS]
+T12	Single_summ 1633 1638	[BOS]
+T13	Reflection 1865 1870	[BOS]
+T14	Reflection 2037 2042	[BOS]
+T15	Reflection 2179 2184	[BOS]
+T16	Reference 319 351	(Bahdanau, Cho, and Bengio 2014)
+T17	Dominant 359 377	Meng et al. (2016)
+T18	Dominant 656 678	Bastings et al. (2017)
+T19	Dominant 980 1001	Gehring et al. (2016)
+T20	Dominant 1006 1027	Gehring et al. (2017)
+T21	Dominant 1451 1472	Vaswani et al. (2017)
+T22	Pronoun 458 460	It
+T23	Pronoun 838 842	this
+T24	Pronoun 1132 1136	They
+T25	Pronoun 1521 1523	It
+T26	Pronoun 1714 1716	it
+T27	Pronoun 2058 2062	this
+T28	Pronoun 2185 2187	It
+T29	B_span 299 302	RNN
+T30	E_span 346 350	2014
+T31	B_span 359 363	Meng
+T32	E_span 642 648	target
+T33	B_span 656 664	Bastings
+T34	E_span 895 901	syntax
+T35	B_span 980 987	Gehring
+T36	E_span 1436 1443	decoder
+T37	B_span 1451 1458	Vaswani
+T38	E_span 1849 1862	disadvantages

@@ -1,0 +1,17 @@
+[BOS] Recent neural models have been shown superior to approaches using hand-crafted features for the RE task.
+[BOS] Among the pioneers, Zeng et al. (2015) proposed a piecewise convolutional network with multi-instance learning to handle weakly labeled text mentions.
+[BOS] Recurrent neural networks (RNN) are another popular architecture (Wu et al., 2017) .
+[BOS] Similar fast progress has been seen for the KBE task for representing entities and relations in KBs with vectors or matrices.
+[BOS] introduced the influential translation-based embeddings (TransE), while Yang et al. (2014) leveraged latent matrix factorization in their DistMult method.
+[BOS] We build on ComplEx (Trouillon et al., 2016) , which extends DistMult into the complex space and has been shown significantly better on several benchmarks.
+[BOS] were the first to connect RE and KBE models for the RE task.
+[BOS] Their simple idea was to train the two models independently and only combine them at inference time.
+[BOS] While they showed that combining the two models is better than using the RE model alone, newer and better models since then have obviated the net gains of such a simple strategy (Xu and Barbosa, 2018) .
+[BOS] We propose a much tighter integration of RE and KBE models: we not only use them for prediction, but also train them together, thus mutually reinforcing one another.
+
+[BOS] Recently, many methods have been proposed to use information from KBs to facilitate relation extraction.
+[BOS] Sorokin and Gurevych (2017) considered other relations in the sentential context while predicting the target relation.
+[BOS] Vashishth et al. (2018) utilized additional side information from KBs for improved RE.
+[BOS] However, these methods didn't leverage KBE method to unify RE and KBE in a principled way.
+[BOS] Han et al. (2018) used a mutual attention between KBs and text to perform better on both RE and KBE, but their method was still based on TransE which can not fully exploit the advantage of the information from KBs.
+

@@ -1,0 +1,67 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 88 93	[BOS]
+T3	Single_summ 168 173	[BOS]
+T4	Transition 286 291	[BOS]
+T5	Transition 454 459	[BOS]
+T6	Single_summ 574 579	[BOS]
+T7	Single_summ 772 777	[BOS]
+T8	Transition 900 905	[BOS]
+T9	Single_summ 968 973	[BOS]
+T10	Transition 1104 1109	[BOS]
+T11	Narrative_cite 1331 1336	[BOS]
+T12	Single_summ 1448 1453	[BOS]
+T13	Single_summ 1689 1694	[BOS]
+T14	Single_summ 1882 1887	[BOS]
+T15	Reflection 1965 1970	[BOS]
+T16	Transition 2054 2059	[BOS]
+T17	Transition 2188 2193	[BOS]
+T18	Multi_summ 2278 2283	[BOS]
+T19	Transition 2437 2442	[BOS]
+T20	Single_summ 2554 2559	[BOS]
+T21	Narrative_cite 2672 2677	[BOS]
+T22	Reflection 2803 2808	[BOS]
+T23	Dominant 174 192	Jain et al. (2017)
+T24	Reference 212 236	(Sutskever et al., 2014)
+T25	Dominant 580 598	Guan et al. (2018)
+T26	Dominant 778 796	Chen et al. (2018)
+T27	Dominant 974 993	Clark et al. (2018)
+T28	Reference 1374 1392	Shao et al. (2017)
+T29	Reference 1418 1435	(Li et al., 2017)
+T30	Dominant 1454 1470	Xu et al. (2018)
+T31	Dominant 1695 1712	Li et al. (2016a)
+T32	Dominant 1888 1910	Nakamura et al. (2018)
+T33	Dominant 2284 2301	Hu et al. (2017b)
+T34	Reference 2419 2434	(Doersch, 2016)
+T35	Dominant 2560 2578	Xing et al. (2016)
+T36	Reference 2774 2791	(Yao et al., 2018
+T37	Pronoun 1789 1793	this
+T38	Pronoun 2004 2009	their
+T39	Pronoun 2812 2816	this
+T40	B_span 174 178	Jain
+T41	B_span 197 204	Seq2Seq
+T42	E_span 231 235	2014
+T43	E_span 278 284	images
+T44	B_span 580 584	Guan
+T45	E_span 761 770	sentences
+T46	B_span 778 782	Chen
+T47	E_span 894 898	well
+T48	B_span 974 979	Clark
+T49	E_span 1095 1101	boring
+T50	B_span 1359 1363	self
+T51	E_span 1387 1391	2017
+T52	B_span 1395 1408	Reinforcement
+T53	E_span 1430 1434	2017
+T54	B_span 1454 1456	Xu
+T55	E_span 1674 1687	discriminator
+T56	B_span 1695 1697	Li
+T57	E_span 1871 1880	sequences
+T58	B_span 1888 1896	Nakamura
+T59	E_span 1954 1963	objective
+T60	B_span 2284 2286	Hu
+T61	E_span 2429 2433	2016
+T62	B_span 2393 2404	Variational
+T63	E_span 2429 2433	2016
+T64	B_span 2560 2564	Xing
+T65	E_span 2661 2670	responses
+T66	B_span 2739 2744	story
+T67	E_span 2787 2791	2018

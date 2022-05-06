@@ -1,0 +1,28 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 258 263	[BOS]
+T3	Single_summ 426 431	[BOS]
+T4	Narrative_cite 602 607	[BOS]
+T5	Single_summ 898 903	[BOS]
+T6	Transition 1121 1126	[BOS]
+T7	Dominant 45 61	Ma et al. (2008)
+T8	Reference 292 308	Ma et al. (2008)
+T9	Reference 702 722	Cherry and Lin, 2006
+T10	Reference 724 746	DeNero and Klein, 2007
+T11	Reference 748 767	Fossum et al., 2008
+T12	Reference 769 807	Hermjakob, 2009 Johnson et al., (2007)
+T13	Dominant 904 924	Tomeh et al., (2009)
+T14	Reference 1105 1118	(Moore, 2004)
+T15	Pronoun 313 317	this
+T16	Pronoun 456 460	they
+T17	Pronoun 1173 1177	this
+T18	Pronoun 1186 1190	they
+T20	E_span 595 600	stage
+T21	B_span 264 267	The
+T23	B_span 6 8	To
+T19	B_span 649 655	syntax
+T22	E_span 802 806	2007
+T24	B_span 904 909	Tomeh
+T25	E_span 1113 1117	2004
+T26	B_span 1085 1090	first
+T27	E_span 1113 1117	2004
+T28	E_span 251 256	links

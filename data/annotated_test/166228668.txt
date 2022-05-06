@@ -1,0 +1,8 @@
+[BOS] We introduce several related works about data augmentation for NMT.
+[BOS] Artetxe et al. (2017) and Lample et al. (2017) randomly shuffle (swap) the words in a sentence, with constraint that the words will not be shuffled further than a fixed small window size.
+[BOS] Iyyer et al. (2015) and Lample et al. (2017) randomly drop some words in the source sentence for learning an autoencoder to help train the unsupervised NMT model.
+[BOS] In Xie et al. (2017) , they replace the word with a placeholder token or a word sampled from the frequency distribution of vocabulary, showing that data noising is an effective regularizer for NMT.
+[BOS] Fadaee et al. (2017) propose to replace a common word by low-frequency word in the target sentence, and change its corresponding word in the source sentence to improve translation quality of rare words.
+[BOS] Most recently, Kobayashi (2018) propose an approach to use the prior knowledge from a bi-directional language model to replace a word token in the sentence.
+[BOS] Our work differs from their work that we use a soft distribution to replace the word representation instead of a word token.
+

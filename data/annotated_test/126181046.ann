@@ -1,0 +1,89 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 26 31	[BOS]
+T3	Multi_summ 242 247	[BOS]
+T4	Single_summ 392 397	[BOS]
+T5	Single_summ 495 500	[BOS]
+T6	Single_summ 547 552	[BOS]
+T7	Reflection 739 744	[BOS]
+T8	Transition 832 837	[BOS]
+T9	Single_summ 859 864	[BOS]
+T10	Single_summ 1047 1052	[BOS]
+T11	Narrative_cite 1233 1238	[BOS]
+T12	Multi_summ 1317 1322	[BOS]
+T13	Multi_summ 1530 1535	[BOS]
+T14	Reflection 1723 1728	[BOS]
+T15	Reflection 1856 1861	[BOS]
+T16	Reflection 2057 2062	[BOS]
+T17	Transition 2280 2285	[BOS]
+T18	Transition 2316 2321	[BOS]
+T19	Single_summ 2432 2437	[BOS]
+T20	Single_summ 2614 2619	[BOS]
+T21	Single_summ 2808 2813	[BOS]
+T22	Reflection 3000 3005	[BOS]
+T23	Transition 3101 3106	[BOS]
+T24	Transition 3143 3148	[BOS]
+T25	Reflection 3235 3240	[BOS]
+T26	Reflection 3343 3348	[BOS]
+T27	Reflection 3511 3516	[BOS]
+T28	Single_summ 3603 3608	[BOS]
+T29	Single_summ 3717 3722	[BOS]
+T30	Single_summ 3795 3800	[BOS]
+T31	Single_summ 3902 3907	[BOS]
+T32	Single_summ 4055 4060	[BOS]
+T33	Single_summ 4299 4304	[BOS]
+T34	Dominant 32 51	Luong et al. (2014)
+T35	Reference 219 239	(Brown et al., 1993)
+T36	Dominant 398 417	Crego et al. (2016)
+T37	Dominant 501 520	Wang et al. (2017b)
+T38	Dominant 865 886	Hokamp and Liu (2017)
+T39	Reference 1292 1314	(Post and Vilar, 2018)
+T40	Dominant 1323 1343	Hasler et al. (2018)
+T41	Reference 1475 1498	(Anderson et al., 2016)
+T42	Dominant 1536 1557	Post and Vilar (2018)
+T43	Reference 1581 1602	Hokamp and Liu (2017)
+T44	Dominant 2438 2456	Tang et al. (2016)
+T45	Dominant 2620 2639	Wang et al. (2017a)
+T46	Dominant 2814 2834	Arthur et al. (2016)
+T47	Dominant 3609 3631	Alkhouli et al. (2018)
+T49	Pronoun 553 557	This
+T50	Pronoun 760 765	their
+T51	Pronoun 1076 1080	this
+T52	Pronoun 1744 1749	their
+T53	Pronoun 2030 2035	their
+T54	Pronoun 2265 2270	their
+T55	Pronoun 2510 2515	their
+T56	Pronoun 3116 3121	their
+T57	Pronoun 3164 3169	these
+T58	Pronoun 3401 3403	it
+T59	Pronoun 3804 3809	their
+T60	B_span 32 35	Luo
+T63	E_span 236 238	93
+T64	B_span 398 400	Cr
+T65	E_span 490 493	ies
+T66	B_span 501 505	Wang
+T68	B_span 865 870	Hokam
+T70	B_span 1293 1296	Pos
+T71	E_span 1311 1313	18
+T72	B_span 1323 1329	Hasler
+T73	E_span 1522 1528	search
+T74	B_span 1438 1444	finite
+T75	E_span 1495 1497	16
+T76	E_span 1714 1720	cation
+T77	B_span 1536 1540	Post
+T78	B_span 2438 2444	Tang e
+T79	E_span 2605 2612	ecoding
+T80	B_span 2620 2623	Wan
+T81	E_span 2795 2806	information
+T82	B_span 2814 2820	Arthur
+T83	E_span 2993 2997	ions
+T84	B_span 3609 3615	Alkhou
+T85	E_span 4046 4052	coding
+T48	Dominant 4092 4112	Currey et al. (2017)
+T86	B_span 4064 4069	trans
+T87	E_span 4459 4466	nguages
+T62	B_span 148 152	betw
+T61	E_span 386 390	word
+T67	E_span 733 737	tags
+T69	E_span 1220 1231	translation
+T88	B_span 1581 1585	Hoka
+T89	E_span 1599 1601	17

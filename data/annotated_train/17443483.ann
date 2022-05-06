@@ -1,0 +1,26 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 121 126	[BOS]
+T3	Multi_summ 299 304	[BOS]
+T4	Single_summ 474 479	[BOS]
+T5	Single_summ 657 662	[BOS]
+T6	Narrative_cite 964 969	[BOS]
+T7	Reflection 1096 1101	[BOS]
+T8	Dominant 127 153	Denis and Baldridge (2008)
+T9	Dominant 305 329	Bengtson and Roth (2008)
+T10	Dominant 334 358	Durrett and Klein (2013)
+T11	Dominant 480 504	Bengtson and Roth (2008)
+T12	Dominant 663 687	Durrett and Klein (2013)
+T13	Reference 1071 1093	(Pradhan et al., 2007)
+T14	Pronoun 700 704	this
+T15	Pronoun 1105 1109	this
+T16	Pronoun 1288 1293	these
+T17	B_span 127 132	Denis
+T18	E_span 290 297	pronoun
+T19	B_span 305 313	Bengtson
+T20	E_span 466 472	models
+T21	B_span 480 488	Bengtson
+T22	E_span 651 655	true
+T23	B_span 663 670	Durrett
+T24	E_span 957 961	true
+T25	B_span 1061 1070	OntoNotes
+T26	E_span 1088 1092	2007

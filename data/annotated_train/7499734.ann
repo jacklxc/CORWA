@@ -1,0 +1,33 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 188 193	[BOS]
+T3	Transition 527 532	[BOS]
+T4	Single_summ 843 848	[BOS]
+T5	Narrative_cite 1136 1141	[BOS]
+T6	Transition 1441 1446	[BOS]
+T7	Transition 1578 1583	[BOS]
+T8	Single_summ 1828 1833	[BOS]
+T9	Reflection 2030 2035	[BOS]
+T10	Single_summ 2310 2315	[BOS]
+T11	Dominant 217 241	Hajishirzi et al. (2013)
+T12	Reference 305 331	(Raghunathan et al., 2010)
+T13	Dominant 849 870	Cheng and Roth (2013)
+T14	Reference 1419 1437	(Lee et al., 2011)
+T15	Dominant 1834 1854	Sil and Yates (2013)
+T16	Dominant 2458 2483	Finkel and Manning (2009)
+T17	B_span 217 219	Ha
+T18	E_span 520 525	links
+T19	B_span 849 854	Cheng
+T20	E_span 1132 1134	to
+T21	B_span 1400 1408	semantic
+T22	E_span 1432 1436	2011
+T23	B_span 1834 1837	Sil
+T24	E_span 2021 2028	choices
+T25	B_span 2316 2322	Beyond
+T26	E_span 2552 2556	PCFG
+T28	Pronoun 1154 1159	these
+T29	Pronoun 1584 1589	Their
+T30	Pronoun 1641 1645	they
+T31	Pronoun 1911 1915	they
+T32	Pronoun 2081 2085	this
+T33	B_span 274 279	sieve
+T34	E_span 326 330	2010

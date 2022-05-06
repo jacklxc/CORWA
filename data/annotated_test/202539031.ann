@@ -1,0 +1,80 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 68 73	[BOS]
+T3	Narrative_cite 318 323	[BOS]
+T4	Narrative_cite 491 496	[BOS]
+T5	Reflection 618 623	[BOS]
+T6	Transition 782 787	[BOS]
+T7	Multi_summ 869 874	[BOS]
+T8	Transition 1241 1246	[BOS]
+T9	Transition 1481 1486	[BOS]
+T10	Narrative_cite 1634 1639	[BOS]
+T11	Reflection 2001 2006	[BOS]
+T12	Single_summ 2131 2136	[BOS]
+T13	Narrative_cite 2335 2340	[BOS]
+T14	Narrative_cite 2527 2532	[BOS]
+T15	Reflection 2736 2741	[BOS]
+T16	Narrative_cite 2877 2882	[BOS]
+T17	Reflection 3127 3132	[BOS]
+T18	Reference 252 271	(Jabri et al., 2016
+T19	Reference 273 291	Anand et al., 2018
+T20	Reference 293 315	Caglayan et al., 2019)
+T21	Reference 371 389	(Yang et al., 2018
+T22	Reference 391 410	Welbl et al., 2018)
+T23	Reference 446 469	(Chen and Durrett, 2019
+T24	Reference 471 488	Min et al., 2019)
+T25	Reference 542 565	(Schwartz et al., 2017)
+T26	Reference 596 615	(Clark et al., 2016
+T27	Dominant 898 918	(Reddy et al., 2019)
+T28	Dominant 1023 1043	(Goyal et al., 2018)
+T29	Reference 1176 1194	(Yang et al., 2018
+T30	Reference 1196 1215	Zhang et al., 2018b
+T31	Reference 1217 1238	Zellers et al., 2018)
+T32	Reference 1724 1745	(Lewis and Fan, 2019)
+T33	Reference 1786 1807	(Agrawal et al., 2018
+T34	Reference 1901 1927	(Ramakrishnan et al., 2018
+T35	Reference 1929 1948	Zhang et al., 2018a
+T36	Reference 1950 1971	Belinkov et al., 2019
+T37	Reference 1973 1998	Grand and Belinkov, 2019)
+T38	Reference 2066 2085	(Feng et al., 2019)
+T39	Dominant 2151 2167	He et al. (2019)
+T40	Reference 2485 2503	(Zhao et al., 2017
+T41	Reference 2505 2524	Burns et al., 2018)
+T42	Reference 2688 2714	(Edwards and Storkey, 2016
+T43	Reference 2716 2733	Kim et al., 2019)
+T44	Reference 3028 3049	(Szegedy et al., 2014
+T45	Reference 3051 3074	Belinkov and Bisk, 2018
+T46	Reference 3076 3100	Carlini and Wagner, 2018
+T47	Reference 3102 3124	Glockner et al., 2018)
+T48	B_span 222 225	the
+T49	E_span 314 315	)
+T50	B_span 349 354	multi
+T51	E_span 409 410	)
+T52	B_span 428 434	single
+T53	E_span 487 488	)
+T54	B_span 525 530	story
+T55	E_span 564 565	)
+T56	B_span 570 578	multiple
+T57	E_span 611 615	2016
+T58	B_span 888 892	both
+T59	E_span 1006 1013	passage
+T60	B_span 1015 1016	V
+T61	E_span 1105 1111	models
+T62	B_span 1124 1128	have
+T63	E_span 1237 1238	)
+T64	B_span 1658 1668	generative
+T65	E_span 1744 1745	)
+T66	B_span 1748 1757	carefully
+T67	E_span 1803 1807	2018
+T68	B_span 1814 1820	advers
+T69	E_span 1997 1998	)
+T70	B_span 2032 2038	biases
+T73	E_span 2084 2085	)
+T74	B_span 2151 2153	He
+T75	E_span 2332 2333	.
+T76	B_span 2435 2437	is
+T77	E_span 2523 2524	)
+T78	B_span 2634 2636	or
+T79	E_span 2732 2733	)
+T80	B_span 2936 2944	applying
+T81	E_span 3123 3124	)
+T82	Pronoun 2845 2849	they

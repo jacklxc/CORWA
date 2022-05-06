@@ -1,0 +1,41 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 117 122	[BOS]
+T3	Single_summ 349 354	[BOS]
+T4	Single_summ 517 522	[BOS]
+T5	Single_summ 606 611	[BOS]
+T6	Multi_summ 755 760	[BOS]
+T7	Transition 1235 1240	[BOS]
+T8	Transition 1397 1402	[BOS]
+T9	Single_summ 1726 1731	[BOS]
+T10	Single_summ 2004 2009	[BOS]
+T11	Reflection 2121 2126	[BOS]
+T12	Other 2271 2276	[BOS]
+T13	Other 2468 2473	[BOS]
+T14	Other 2603 2608	[BOS]
+T15	Other 2703 2708	[BOS]
+T16	Other 2769 2774	[BOS]
+T17	Dominant 402 419	Nie et al. (2019)
+T18	B_span 355 370	Contemporaneous
+T19	E_span 742 753	improvement
+T20	Dominant 797 814	Duek et al. (2018
+T21	Dominant 815 835	Duek et al. ( , 2019
+T22	B_span 797 801	Duek
+T23	E_span 1231 1232	)
+T24	B_span 1194 1202	question
+T25	E_span 1227 1231	2018
+T26	B_span 1124 1131	machine
+T27	E_span 1182 1186	2019
+T28	Reference 1145 1168	Koehn and Knowles, 2017
+T29	Reference 1170 1187	Lee et al., 2019)
+T30	B_span 1074 1080	sports
+T31	E_span 1116 1120	2017
+T32	Reference 1100 1120	Wiseman et al., 2017
+T33	B_span 1031 1036	image
+T34	E_span 1070 1071	)
+T35	Reference 1049 1070	Rohrbach et al., 2018
+T38	Dominant 1862 1884	Rohrbach et al. (2018)
+T36	B_span 1862 1870	Rohrbach
+T39	E_span 1994 1998	sets
+T37	Dominant 2030 2047	Lee et al. (2019)
+T40	B_span 2030 2033	Lee
+T41	E_span 2111 2119	measures

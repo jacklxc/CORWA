@@ -1,0 +1,48 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 169 174	[BOS]
+T3	Transition 432 437	[BOS]
+T4	Single_summ 542 547	[BOS]
+T5	Narrative_cite 670 675	[BOS]
+T6	Narrative_cite 810 815	[BOS]
+T7	Transition 1035 1040	[BOS]
+T8	Transition 1111 1116	[BOS]
+T9	Transition 1309 1314	[BOS]
+T10	Transition 1441 1446	[BOS]
+T11	Narrative_cite 1527 1532	[BOS]
+T12	Reflection 1685 1690	[BOS]
+T13	Transition 1768 1773	[BOS]
+T14	Reference 320 341	(Socher et al., 2012)
+T15	Reference 349 370	(Socher et al., 2013)
+T16	Reference 377 388	(Kim, 2014)
+T17	Reference 399 418	(Zhao et al., 2015)
+T18	Dominant 551 573	(Le and Mikolov, 2014)
+T19	Reference 702 717	Xu et al., 2016
+T20	Reference 719 738	Cheng et al., 2016)
+T21	Reference 848 865	(Lin et al., 2017
+T22	Reference 867 884	Yang et al., 2016
+T23	Reference 886 904	Shen et al., 2018a
+T24	Reference 906 925	Shen et al., 2018b)
+T25	Reference 962 984	(Vaswani et al., 2017)
+T26	Reference 1601 1625	(Sukhbaatar et al., 2015
+T27	Reference 1627 1646	Kumar et al., 2015)
+T28	Pronoun 245 247	it
+T29	Pronoun 1447 1449	It
+T30	Pronoun 1691 1695	This
+T31	B_span 313 315	MV
+T32	E_span 336 340	2012
+T33	B_span 344 348	RNTN
+T34	E_span 365 369	2013
+T35	B_span 373 376	CNN
+T36	E_span 383 387	2014
+T37	B_span 391 398	AdaSent
+T38	E_span 413 417	2015
+T39	B_span 548 550	PV
+T40	E_span 664 668	task
+T41	B_span 676 681	There
+T42	E_span 733 737	2016
+T43	B_span 826 836	orthogonal
+T44	E_span 919 924	2018b
+T45	B_span 942 951	attention
+T46	E_span 979 983	2017
+T47	B_span 1586 1592	memory
+T48	E_span 1641 1645	2015

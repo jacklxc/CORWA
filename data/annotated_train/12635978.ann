@@ -1,0 +1,38 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 136 141	[BOS]
+T3	Narrative_cite 390 395	[BOS]
+T4	Narrative_cite 766 771	[BOS]
+T5	Single_summ 1002 1007	[BOS]
+T6	Single_summ 1212 1217	[BOS]
+T7	Single_summ 1378 1383	[BOS]
+T10	Dominant 185 212	Barzilay and McKeown, 2005)
+T11	Reference 551 575	(Marsi and Krahmer, 2005
+T12	Reference 577 597	Krahmer et al., 2008
+T13	Reference 599 627	Filippova and Strube, 2008b)
+T14	Reference 709 734	(Daum III and Marcu, 2004
+T15	Reference 736 763	Elsner and Santhanam, 2011)
+T16	Reference 862 886	(Marsi and Krahmer, 2005
+T17	Reference 888 909	McKeown et al., 2010)
+T18	Dominant 1065 1086	Krahmer et al. (2008)
+T19	Reference 1183 1209	(Daum III and Marcu, 2004)
+T20	Dominant 1218 1239	McKeown et al. (2010)
+T21	Reference 1348 1375	(Thadani and McKeown, 2011)
+T22	Dominant 1470 1486	Filippova (2010)
+T23	Pronoun 1032 1037	these
+T8	Dominant 162 183	Barzilay et al., 1999
+T9	B_span 142 150	Barzilay
+T24	E_span 380 388	centroid
+T25	B_span 529 542	multidocument
+T26	E_span 621 626	2008b
+T27	B_span 636 647	combination
+T28	E_span 758 762	2011
+T29	B_span 814 817	set
+T30	E_span 904 908	2010
+T31	B_span 1008 1013	Query
+T32	E_span 1204 1208	2004
+T33	B_span 1218 1225	McKeown
+T34	E_span 1370 1374	2011
+T35	B_span 1384 1389	While
+T36	E_span 1575 1584	sentences
+T37	B_span 1159 1166	generic
+T38	E_span 1204 1208	2004

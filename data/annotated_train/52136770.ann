@@ -1,0 +1,65 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 155 160	[BOS]
+T3	Reflection 453 458	[BOS]
+T4	Transition 658 663	[BOS]
+T5	Multi_summ 803 808	[BOS]
+T6	Single_summ 1111 1116	[BOS]
+T7	Reflection 1230 1235	[BOS]
+T8	Reflection 1324 1329	[BOS]
+T9	Narrative_cite 1456 1461	[BOS]
+T10	Reflection 1679 1684	[BOS]
+T11	Transition 1941 1946	[BOS]
+T12	Transition 2013 2018	[BOS]
+T13	Narrative_cite 2242 2247	[BOS]
+T14	Reflection 2502 2507	[BOS]
+T15	Narrative_cite 2622 2627	[BOS]
+T16	Reflection 2851 2856	[BOS]
+T17	Narrative_cite 2994 2999	[BOS]
+T18	Reflection 3250 3255	[BOS]
+T19	Reference 228 249	(Henaff et al., 2017)
+T20	Reference 428 450	(Rashkin et al., 2018)
+T21	Dominant 837 857	(Berant et al., 2014
+T22	Dominant 859 880	Scaria et al., 2013 )
+T23	Dominant 1128 1148	Kiddon et al. (2015)
+T24	Reference 1607 1629	(Bahdanau et al., 2014
+T25	Reference 1631 1653	Wiseman and Rush, 2016
+T26	Reference 1655 1676	Vinyals et al., 2015)
+T27	Reference 1909 1937	(Krishnamurthy et al., 2017)
+T28	Reference 2478 2499	(Liu and Perez, 2017)
+T29	Reference 2826 2848	(Hokamp and Liu, 2017)
+T30	Reference 3143 3161	(Wen et al., 2015)
+T31	Reference 3184 3201	(Tu et al., 2016)
+T32	Reference 3226 3247	(Kiddon et al., 2016)
+T33	Pronoun 161 166	These
+T34	Pronoun 476 481	these
+T35	Pronoun 504 509	their
+T36	Pronoun 608 612	they
+T37	Pronoun 673 678	these
+T38	Pronoun 792 796	this
+T39	Pronoun 1278 1283	these
+T40	Pronoun 1436 1441	these
+T41	Pronoun 2140 2145	their
+T42	Pronoun 2257 2261	this
+T43	Pronoun 2460 2464	this
+T44	B_span 199 205	simple
+T45	E_span 244 248	2017
+T46	B_span 384 395	motivations
+T47	E_span 445 449	2018
+T48	B_span 822 828	system
+T49	E_span 1102 1108	event2
+T50	B_span 1128 1134	Kiddon
+T51	E_span 1220 1227	recipes
+T52	B_span 1548 1562	representative
+T53	E_span 1671 1675	2015
+T54	B_span 1838 1846	extracts
+T55	E_span 1932 1936	2017
+T56	B_span 2460 2464	this
+T57	E_span 2494 2498	2017
+T58	B_span 2764 2771	produce
+T59	E_span 2847 2848	)
+T61	E_span 3156 3160	2015
+T62	B_span 3164 3171	machine
+T63	B_span 3134 3142	dialogue
+T60	E_span 3196 3200	2016
+T64	B_span 3208 3214	recipe
+T65	E_span 3246 3247	)

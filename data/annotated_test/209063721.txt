@@ -1,0 +1,20 @@
+[BOS] Memory Networks: Weston et al. (2014) ; Sukhbaatar et al. (2016) propose Memory Networks with explicit memory slots to contain auxiliary multi-input, now widely used in many QA and MRC tasks for its transitive reasoning capability.
+[BOS] Traditional limitations are that memory slots for storing answer candidates are fixed in size, and naively increasing the slot size typically decreases the precision.
+[BOS] Several work extend this line of research, for example by allowing for dynamic update of memory slots given streams of input (Kumar et al., 2016; Tran et al., 2016; Xu et al., 2019) , reinforcement learning based retention control (Jung et al., 2018) , etc.
+[BOS] By allowing for storing graph nodes as memory slots and for slot expansion via graph traversals, our proposed Memory Graph Networks (MGN) effectively bypass the issues.
+[BOS] Structured QA systems: often answer questions based on large-scale common fact knowledge graphs (Bordes et al., 2015; tau Yih et al., 2015; Xu et al., 2016; Jain, 2016; Yin et al., 2016; Dubey et al., 2018) , typically via an entity linking system and a QA model for predicting graph operations through template matching approaches, etc.
+[BOS] Our approach is inspired by this line of work, and we utilize the proposed module networks and the MGN walker model to address unique challenges to Episodic Memory QA.
+
+[BOS] Machine Reading Comprehension (MRC) systems: aim at predicting answers given evidence documents, typically in length of a few paragraphs (Seo et al., 2017; Rajpurkar et al., 2016 Rajpurkar et al., , 2018 Cao et al., 2019; tau Yih et al., 2015) .
+[BOS] Several recent work address multi-hop reasoning within multiple documents (Yang et al., 2018; Welbl et al., 2018; Bauer et al., 2018; Clark et al., 2018) or conversational settings (Choi et al., 2018; Reddy et al., 2018) , which require often complex reasoning tools.
+[BOS] Unlike in MRC systems that typically rely on language understanding, we effectively utilize structural properties of memory graph to traverse and highlight specific attributes or nodes that are required to answer questions.
+
+[BOS] Visual QA systems: aim to answer questions based on contexts from images (Antol et al., 2015; .
+[BOS] Recently, neural modules (Kottur et al., 2018) are proposed to address specific challenges to VQA such as visual co-reference resolutions, etc.
+[BOS] Our work extends the idea of neural modules for Episodic Memory QA by implementing modules that can take graph paths as input for answer decoding.
+[BOS] Jiang et al. (2018) proposes visual memex QA which tackles similar problem domains given a dataset collected around photo albums.
+[BOS] Instead of relying on meta information and multi-modal content of a photo album, our work explicitly utilizes semantic and structural contexts from memory and knowledge graphs.
+[BOS] Another recent line of work for VQA includes graph based visual learning (Hudson and Manning, 2019) , which aims to represent each image with a sub-graph of visual contexts.
+[BOS] While graph-based VQA operates on a graph constructed from a single scene, Episodic Memory QA operates on a large-scale memory graph with knowledge nodes.
+[BOS] We therefore propose memory graph networks to handle ambiguous candidate nodes, a main contribution of the proposed work.
+

@@ -1,0 +1,26 @@
+[BOS] Early works on AMR-to-text generation employ statistical methods (Flanigan et al., 2016b; Pourdamghani et al., 2016; Castro Ferreira et al., 2017) and apply linearization of the graph by means of a depth-first traversal.
+[BOS] Recent neural approaches have exhibited success by linearising the input graph and using a sequence-to-sequence architecture.
+[BOS] Konstas et al. (2017) achieve promising results on this task.
+[BOS] However, they strongly rely on named entities anonymisation.
+[BOS] Anonymisation requires an ad hoc procedure for each new corpus.
+[BOS] The matching procedure needs to match a rare input item correctly (e.g., "United States of America") with the corresponding part in the output text (e.g., "USA") which may be challenging and may result in incorrect or incomplete delexicalisations.
+[BOS] In contrast, our approach omits anonymisation.
+[BOS] Instead, we use a copy mechanism (See et al., 2017) , a generic technique which is easy to integrate in the encoder-decoder framework and can be used independently of the particular domain and application.
+[BOS] Our approach further differs from Konstas et al. (2017) in that we build a dual TD/BU graph representation and use graph encoders to represent nodes.
+[BOS] Cao and Clark (2019) factor the generation process leveraging syntactic information to improve the performance.
+[BOS] However, they linearize both AMR and constituency graphs, which implies that important parts of the graphs cannot well be represented (e.g., coreference).
+
+[BOS] Several graph-to-sequence models have been proposed.
+[BOS] Marcheggiani and Perez Beltrachini (2018) show that explicitly encoding the structure of the graph is beneficial with respect to sequential encoding.
+[BOS] They evaluate their model on two tasks, WebNLG (Gardent et al., 2017) and SR11Deep (Belz et al., 2011) , but do not apply it to AMR benchmarks.
+[BOS] Song et al. (2018) and Beck et al. (2018) apply recurrent neural networks to directly encode AMR graphs.
+[BOS] Song et al. (2018) use a graph LSTM as the graph encoder, whereas Beck et al. (2018) develop a model based on GRUs.
+[BOS] We go a step further in that direction by developing parallel encodings of graphs which are able to highlight different graph properties.
+
+[BOS] In a related task, Koncel-Kedziorski et al. (2019) propose an attention-based graph model that generates sentences from knowledge graphs.
+[BOS] Schlichtkrull et al. (2018) use Graph Convolutional Networks (GCNs) to tackle the tasks of link prediction and entity classification on knowledge graphs.
+[BOS] Damonte and Cohen (2019) show that off-theshelf GCNs cannot achieve good performance for AMR-to-text generation.
+[BOS] To tackle this issue, Guo et al. (2019) introduce dense connectivity to GNNs in order to integrate both local and global features, achieving good results on the task.
+[BOS] Our work is related to Damonte and Cohen (2019) , that use stacking of GCN and LSTM layers to improve the model capacity and employ anonymization.
+[BOS] However, our model is substantially different: (i) we learn dual representations capturing top-down and bottom-up adjuvant views of the graph, (ii) we employ more effective graph encoders (with different neighborhood aggregations) than GCNs and (iii) we employ copy and coverage mechanisms and do not resort to entity anonymization.
+

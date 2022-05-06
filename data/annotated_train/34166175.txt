@@ -1,0 +1,23 @@
+[BOS] Early automation of event extraction relied on rule-based pattern matching, using hand-written templates (Chinchor et al., 1993; Schrodt et al., 1994) .
+[BOS] Modern efforts have focused on supervised machine learning, using annotated corpora for training data, again with pre-defined event types and roles (Miyao et al., 2008; Bjorne and Salakoski, 2011; Bunescu and Mooney, 2004) .
+
+[BOS] Semi-supervised approaches have been used to identify relations between pairs of entities, using seed pairs with known relations (Brin, 1998; Culotta and Sorensen, 2004; Mintz et al., 2009 ).
+
+[BOS] Open IE systems (Banko et al., 2007; Angeli et al., 2015) extract general relational patterns between entity pairs, based on domain-independent patterns or heuristics.
+[BOS] Similar efforts have emerged to extract more complex event frames by bootstrapping from seed event patterns (Huang and Riloff, 2012; Surdeanu et al., 2006; Yangarber et al., 2000; Patwardhan and Riloff, 2007) .
+
+[BOS] There has been growing work over the past decade on purely unsupervised role induction.
+[BOS] Most of these efforts begin with a set of documents known to cover a type of event or domain, then cluster verb arguments to determine each verb's role slots within that domain (Filatova et al., 2006; Sekine, 2006) .
+[BOS] These approaches typically learn verb-specific roles, rather than multi-verb event schemas.
+[BOS] Other recent work models multiple verb roles in combination, in various forms of subject-verb-object relational triples (O'Connor et al., 2013; Balasubramanian et al., 2013) .
+
+[BOS] In the last few years, several important efforts have broken new ground with more comprehensive event schema induction.
+[BOS] These efforts discover new event types in unfiltered text, and identify verb argument positions associated with overall event roles.
+[BOS] Chambers and Jurafsky (2011) used a pipeline approach, first discovering related event patterns, then clustering arguments into event slots.
+[BOS] For the first step, they tested both LDA and agglomerative clustering, based on event terms' co-occurrence.
+[BOS] They used the MUC-4 data set, but relied on an additional external corpus for role induction, due to data limitations when clustering roles separately in each event category.
+[BOS] Chambers (2013 ), Cheung et al (2013 , Nguyen et al (2015) , and Sha et al (2016) all use probabilistic generative models that jointly model the assignment of predicates to event schemas and arguments to event roles.
+[BOS] Chambers uses an entitydriven model, linking coreferring arguments to the same event role.
+[BOS] Cheung et al focus on event clauses and model transitions between them, using a pair of HMMs.
+[BOS] Nguyen et al (2015) add phrase modifiers to argument similarity scores, and Sha et al (2016) add a normalized cut approach to maximize intra-class similarity within slots.
+

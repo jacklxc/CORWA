@@ -1,0 +1,58 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 237 242	[BOS]
+T3	Transition 495 500	[BOS]
+T4	Narrative_cite 762 767	[BOS]
+T5	Transition 1271 1276	[BOS]
+T6	Single_summ 1499 1504	[BOS]
+T7	Narrative_cite 1979 1984	[BOS]
+T8	Multi_summ 2255 2260	[BOS]
+T9	Multi_summ 2431 2436	[BOS]
+T10	Transition 2625 2630	[BOS]
+T11	Transition 2891 2896	[BOS]
+T12	Reference 115 139	(Velldal and Oepen, 2005
+T13	Reference 141 164	Carroll and Oepen, 2005
+T14	Reference 166 189	Nakanishi et al., 2005)
+T15	Reference 197 234	(Gardent and Perez-Beltrachini, 2017)
+T16	Reference 267 284	(Wen et al., 2015
+T17	Reference 286 309	Duek and Jurcicek, 2016
+T18	Reference 311 327	Mei et al., 2016
+T19	Reference 329 348	Kiddon et al., 2016
+T20	Reference 350 370	Konstas et al., 2017
+T21	Reference 372 393	Wiseman et al., 2017)
+T22	Reference 807 824	(Guo et al., 2008
+T23	Reference 846 889	Bohnet et al., , 2011 Zhang and Clark, 2015
+T24	Reference 891 907	Liu et al., 2015
+T25	Reference 959 980	King and White, 2018)
+T26	Dominant 1518 1541	Buys and Blunsom (2017)
+T27	Reference 1775 1799	(Toutanova et al., 2005)
+T28	Reference 1854 1879	(Flickinger et al., 2012)
+T29	Reference 1947 1975	(Copestake et al., 2005, MRS
+T30	Reference 2232 2252	(Belz et al., , 2011
+T31	Dominant 2302 2322	Bohnet et al. (2011)
+T32	Dominant 2362 2386	Puduppully et al. (2017)
+T33	B_span 110 114	HPSG
+T34	E_span 184 188	2005
+T35	B_span 193 196	TAG
+T36	E_span 229 233	2017
+T37	B_span 263 266	NLG
+T38	E_span 388 392	2017
+T39	Reference 826 845	Bohnet et al., 2010
+T40	B_span 788 798	dependency
+T41	Reference 909 932	Puduppully et al., 2016
+T42	Reference 933 957	Puduppully et al., , 201
+T43	E_span 975 979	2018
+T44	B_span 1509 1516	parsing
+T45	E_span 1972 1975	MRS
+T46	B_span 1751 1757	simple
+T47	E_span 1794 1798	2005
+T48	B_span 1845 1853	DeepBank
+T49	E_span 1874 1878	2012
+T50	B_span 1919 1926	Minimal
+T51	E_span 1972 1975	MRS
+T52	Reference 2214 2231	Belz et al., 2010
+T53	B_span 2175 2180	First
+T54	E_span 2248 2252	2011
+T55	B_span 2261 2263	On
+T56	E_span 2348 2354	0.7943
+T57	B_span 2362 2372	Puduppully
+T59	E_span 2612 2622	comparable

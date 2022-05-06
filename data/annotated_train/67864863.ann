@@ -1,0 +1,17 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 127 132	[BOS]
+T3	Transition 451 456	[BOS]
+T4	Narrative_cite 633 638	[BOS]
+T5	Narrative_cite 835 840	[BOS]
+T6	Reference 102 124	(Salehi et al., 2015a)
+T7	Reference 802 832	(Hakimi Parizi and Cook, 2018)
+T8	Reference 975 996	(Le and Mikolov, 2014
+T9	Reference 998 1019	Conneau et al., 2017)
+T10	Pronoun 272 277	their
+T11	Pronoun 639 643	This
+T13	E_span 118 123	2015a
+T14	B_span 704 713	character
+T15	E_span 827 831	2018
+T16	B_span 930 933	map
+T17	E_span 1014 1018	2017
+T12	B_span 38 54	compositionality

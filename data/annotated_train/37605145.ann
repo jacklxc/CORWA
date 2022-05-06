@@ -1,0 +1,61 @@
+T1	Reflection 0 5	[BOS]
+T2	Transition 69 74	[BOS]
+T3	Transition 206 211	[BOS]
+T4	Multi_summ 365 370	[BOS]
+T5	Single_summ 592 597	[BOS]
+T6	Multi_summ 733 738	[BOS]
+T7	Transition 938 943	[BOS]
+T8	Single_summ 1080 1085	[BOS]
+T9	Single_summ 1219 1224	[BOS]
+T10	Single_summ 1383 1388	[BOS]
+T11	Single_summ 1497 1502	[BOS]
+T12	Single_summ 1584 1589	[BOS]
+T13	Single_summ 1711 1716	[BOS]
+T14	Single_summ 1876 1881	[BOS]
+T15	Single_summ 1997 2002	[BOS]
+T16	Single_summ 2118 2123	[BOS]
+T17	Multi_summ 2215 2220	[BOS]
+T18	Narrative_cite 2434 2439	[BOS]
+T19	Dominant 371 381	Khn (2015)
+T20	Dominant 386 405	Qian et al. (2016b)
+T21	Dominant 472 491	Qian et al. (2016a)
+T22	Dominant 598 615	Adi et al. (2016)
+T23	Dominant 780 797	Shi et al. (2016)
+T24	Dominant 802 825	Belinkov et al. (2017a)
+T25	Dominant 1086 1112	Sennrich and Haddow (2016)
+T26	Dominant 1389 1416	Aharoni and Goldberg (2017)
+T27	Dominant 1590 1611	Nadejde et al. (2017)
+T28	Dominant 1882 1909	Garca-Martnez et al. (2016)
+T29	Dominant 2221 2239	Dong et al. (2015)
+T30	Dominant 2330 2349	Luong et al. (2015)
+T31	Reference 2541 2563	Durrani et al., 2014b)
+T32	Pronoun 26 30	this
+T33	Pronoun 1503 1507	They
+T34	Pronoun 1723 1727	they
+T35	Pronoun 1761 1766	their
+T36	Pronoun 1847 1849	it
+T37	Pronoun 2003 2008	Their
+T38	Pronoun 2124 2128	They
+T39	Pronoun 2162 2166	this
+T40	B_span 371 374	Khn
+T41	E_span 454 464	embeddings
+T42	B_span 472 476	Qian
+T43	E_span 583 590	network
+T44	B_span 598 601	Adi
+T45	E_span 723 731	approach
+T46	B_span 739 742	Our
+T47	E_span 925 935	properties
+T48	B_span 1086 1094	Sennrich
+T49	E_span 1374 1381	encoder
+T50	B_span 1389 1396	Aharoni
+T51	E_span 1577 1582	model
+T52	B_span 1590 1597	Nadejde
+T53	E_span 1869 1874	words
+T54	B_span 1882 1887	Garca
+T55	E_span 2209 2213	word
+T56	B_span 2221 2225	Dong
+T57	E_span 2315 2324	languages
+T58	B_span 2330 2335	Luong
+T59	E_span 2421 2432	information
+T60	B_span 2502 2504	MT
+T61	E_span 2557 2562	2014b

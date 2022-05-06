@@ -1,0 +1,47 @@
+T1	Intro 0 5	[BOS]
+T2	Intro 126 131	[BOS]
+T3	Multi_summ 214 219	[BOS]
+T4	Transition 519 524	[BOS]
+T5	Narrative_cite 703 708	[BOS]
+T6	Narrative_cite 875 880	[BOS]
+T7	Single_summ 975 980	[BOS]
+T8	Transition 1060 1065	[BOS]
+T9	Transition 1350 1355	[BOS]
+T10	Single_summ 1475 1480	[BOS]
+T11	Single_summ 1615 1620	[BOS]
+T12	Single_summ 1718 1723	[BOS]
+T13	Single_summ 1897 1902	[BOS]
+T14	Single_summ 2108 2113	[BOS]
+T15	Reference 424 449	(Ratnaparkhi et al., 1994
+T17	Reference 451 471	Johnson et al., 1999
+T19	Reference 473 486	Collins, 2000
+T20	Reference 488 515	Charniak and Johnson, 2005)
+T21	Reference 848 872	(McDon-ald et al., 2005)
+T23	Reference 959 972	Eisner (2000)
+T24	Dominant 1481 1501	Taskar et al. (2004)
+T25	Dominant 1621 1644	Clark and Curran (2004)
+T26	Dominant 1903 1926	Clark and Curran (2007)
+T27	Dominant 2126 2145	Finkel et al., 2008
+T16	B_span 1481 1487	Taskar
+T18	E_span 1609 1613	less
+T22	B_span 1621 1626	Clark
+T29	E_span 1891 1895	data
+T30	B_span 1903 1908	Clark
+T31	E_span 2101 2106	model
+T28	B_span 2114 2120	Recent
+T32	E_span 2242 2250	features
+T33	B_span 220 222	In
+T34	E_span 517 518	.
+T35	B_span 709 710	1
+T36	E_span 867 871	2005
+T37	B_span 941 944	the
+T38	E_span 967 971	2000
+T39	Pronoun 132 136	This
+T40	Pronoun 193 197	this
+T41	Pronoun 404 409	these
+T42	Pronoun 569 571	it
+T43	Pronoun 984 988	this
+T44	Pronoun 1084 1089	these
+T45	Pronoun 1109 1113	they
+T46	Pronoun 1546 1550	this
+T47	Pronoun 1724 1728	This

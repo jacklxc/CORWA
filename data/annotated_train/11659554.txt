@@ -1,0 +1,13 @@
+[BOS] Recent work has shown the potential for syntactic information encoded in various ways to support inference of superior word alignments.
+[BOS] Very recent work in word alignment has also started to report downstream effects on BLEU score.
+[BOS] Cherry and Lin (2006) introduce soft syntactic ITG (Wu, 1997) constraints into a discriminative model, and use an ITG parser to constrain the search for a Viterbi alignment.
+[BOS] Haghighi et al. (2009) confirm and extend these results, showing BLEU improvement for a hierarchical phrasebased MT system on a small Chinese corpus.
+[BOS] As opposed to ITG, we use a linguistically motivated phrase-structure tree to drive our search and inform our model.
+[BOS] And, unlike ITG-style approaches, our model can generate arbitrary alignments and learn from arbitrary gold alignments.
+
+[BOS] DeNero and Klein (2007) refine the distortion model of an HMM aligner to reflect tree distance instead of string distance.
+[BOS] Fossum et al. (2008) start with the output from GIZA++ Model-4 union, and focus on increasing precision by deleting links based on a linear discriminative model exposed to syntactic and lexical information.
+
+[BOS] Fraser and Marcu (2007) take a semi-supervised approach to word alignment, using a small amount of gold data to further tune parameters of a headword-aware generative model.
+[BOS] They show a significant improvement over a Model-4 union baseline on a very large corpus.
+

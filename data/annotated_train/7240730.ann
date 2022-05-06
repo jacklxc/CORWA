@@ -1,0 +1,35 @@
+T1	Transition 0 5	[BOS]
+T2	Reflection 79 84	[BOS]
+T3	Other 168 173	[BOS]
+T4	Other 288 293	[BOS]
+T5	Other 427 432	[BOS]
+T6	Other 582 587	[BOS]
+T7	Reflection 727 732	[BOS]
+T8	Reflection 764 769	[BOS]
+T9	Reflection 914 919	[BOS]
+T10	Transition 1061 1066	[BOS]
+T11	Single_summ 1241 1246	[BOS]
+T12	Single_summ 1344 1349	[BOS]
+T13	Reflection 1485 1490	[BOS]
+T14	Transition 1710 1715	[BOS]
+T15	Single_summ 1878 1883	[BOS]
+T16	Multi_summ 1985 1990	[BOS]
+T17	Reflection 2120 2125	[BOS]
+T18	Reflection 2273 2278	[BOS]
+T19	Reference 975 1001	Brown and Nirenburg, 1990)
+T20	Dominant 1247 1266	Foster et al (2000)
+T21	Dominant 1374 1386	Koehn (2009)
+T22	Dominant 1884 1908	Barrachina et al. (2008)
+T23	Dominant 1991 2011	Nepveu et al. (2004)
+T24	Dominant 2016 2044	Ortiz-Martinez et al. (2011)
+T25	B_span 955 967	professional
+T26	E_span 996 1000	1990
+T27	B_span 1247 1253	Foster
+T28	E_span 1331 1342	predictions
+T29	B_span 1374 1379	Koehn
+T30	E_span 1479 1483	time
+T31	B_span 1884 1888	Barr
+T32	E_span 1974 1983	framework
+T33	B_span 1991 1993	Ne
+T34	E_span 2108 2118	experience
+T35	Pronoun 1519 1524	their

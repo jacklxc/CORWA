@@ -1,0 +1,21 @@
+[BOS] Most of advanced GEC systems are classifierbased (Chodorow et al., 2007; De Felice and Pulman, 2008; Han et al., 2010; Leacock et al., 2010; Tetreault et al., 2010a; Dale and Kilgarriff, 2011) 7 The state-of-the-art result on CoNLL-2014 dataset has been recently advanced by Chollampatt and Ng (2018) (F0.5=54.79) and Grundkiewicz and Junczys-Dowmunt (2018) (F0.5=56.25) , which are contemporaneous to this paper.
+[BOS] In contrast to the basic seq2seq model in this paper, they used advanced approaches for modeling (e.g., convolutional seq2seq with pre-trained word embedding, using edit operation features, ensemble decoding and advanced model combinations).
+[BOS] It should be noted that their approaches are orthogonal to ours, making it possible to apply our fluency boost learning and inference mechanism to their models.
+[BOS] 8 The recently proposed SMT-NMT hybrid system (Grundkiewicz and Junczys-Dowmunt, 2018) , which is tuned towards GLEU on JFLEG Dev set, reports a higher result (GLEU=61.50 on JFLEG test set).
+[BOS] Table 6 : JFLEG Leaderboard.
+[BOS] Ours denote the single dual-boost models in Table 5 .
+[BOS] The systems with bold fonts are based on seq2seq models.
+[BOS] * denotes the system is tuned on JFLEG.
+
+[BOS] or MT-based (Brockett et al., 2006; Ng, 2011, 2012a; Yoshimoto et al., 2013; Yuan and Felice, 2013; Behera and Bhattacharyya, 2013) .
+[BOS] For example, top-performing systems Rozovskaya et al., 2014; JunczysDowmunt and Grundkiewicz, 2014) in CoNLL-2014 shared task use either of the methods.
+[BOS] Recently, many novel approaches Chollampatt et al., 2016b,a; Rozovskaya and Roth, 2016; Junczys-Dowmunt and Grundkiewicz, 2016; Mizumoto and Matsumoto, 2016; Hoang et al., 2016; Yannakoudakis et al., 2017) have been proposed for GEC.
+[BOS] Among them, seq2seq models Xie et al., 2016; Ji et al., 2017; Schmaltz et al., 2017; Chollampatt and Ng, 2018) have caught much attention.
+[BOS] Unlike the models trained only with original error-corrected data, we propose a novel fluency boost learning mechanism for dynamic data augmentation along with training for GEC, despite some previous studies that explore artificial error generation for GEC (Brockett et al., 2006; Foster and Andersen, 2009; Roth, 2010, 2011; Rozovskaya et al., 2012; Xie et al., 2016; .
+[BOS] Moreover, we propose fluency boost inference which allows the model to repeatedly edit a sentence as long as the sentence's fluency can be improved.
+
+[BOS] To the best of our knowledge, it is the first to conduct multi-round seq2seq inference for GEC, while similar ideas have been proposed for NMT (Xia et al., 2017) .
+
+[BOS] In addition to the studies on GEC, there is also much research on grammatical error detection (Leacock et al., 2010; Rei and Yannakoudakis, 2016; Kaneko et al., 2017) and GEC evaluation (Tetreault et al., 2010b; Madnani et al., 2011; Dahlmeier and Ng, 2012c; Napoles et al., 2015; Bryant et al., 2017; Asano et al., 2017) .
+[BOS] We do not introduce them in detail because they are not much related to this paper's contributions.
+

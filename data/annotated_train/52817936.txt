@@ -1,0 +1,10 @@
+[BOS] There is a growing body of research that uses the MSRPC to build models of paraphrase.
+[BOS] As noted, the most successful work has used edit distance (Zhang and Patrick, 2005) or bag-of-words features to measure sentence similarity, along with shallow syntactic features (Finch et al., 2005; Wan et al., 2006; Corley and Mihalcea, 2005) .
+[BOS] Qiu et al. (2006) used predicate-argument annotations.
+[BOS] Most related to our approach, Wu (2005) used inversion transduction grammars-a synchronous context-free formalism (Wu, 1997) -for this task.
+[BOS] Wu reported only positive-class (p) precision (not accuracy) on the test set.
+[BOS] He obtained 76.1%, while our PoE model achieves 79.6% on that measure.
+[BOS] Wu's model can be understood as a strict hierarchical maximum-alignment method.
+[BOS] In contrast, our alignments are soft (we sum over them), and we do not require strictly isomorphic syntactic structures.
+[BOS] Most importantly, our approach is founded on a stochastic generating process and estimated discriminatively for this task, while Wu did not estimate any parameters from data at all.
+

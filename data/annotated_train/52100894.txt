@@ -1,0 +1,20 @@
+[BOS] Almost all state-of-the-art NMT models are autoregressive Wu et al., 2016; Gehring et al., 2017; Vaswani et al., 2017) , meaning that the model generates words one by one and is not friendly to modern hardware optimized for parallel execution.
+[BOS] A recent work (Gu et al., 2017) attempts to accelerate generation by introducing a non-autoregressive model.
+[BOS] Based on the Transformer (Vaswani et al., 2017) , they made lots of modifications.
+[BOS] The most significant modification is that they avoid feeding the previously generated target words to the decoder, but instead feeding the source words, to predict the next target word.
+[BOS] They also introduced a set of latent variables to model the fertilities of source words to tackle the multimodality problem in translation.
+[BOS] Lee et al. (2018) proposed another non-autoregressive sequence model based on iterative refinement.
+[BOS] The model can be viewed as both a latent variable model and a conditional denoising autoencoder.
+[BOS] They also proposed a learning algorithm that is hybrid of lower-bound maximization and reconstruction error minimization.
+
+[BOS] The most relevant to our proposed semiautoregressive model is (Kaiser et al., 2018) .
+[BOS] They first autoencode the target sequence into a shorter sequence of discrete latent variables, which at inference time is generated autoregressively, and finally decode the output sequence from this shorter latent sequence in parallel.
+[BOS] What we have in common with their idea is that we have not entirely abandoned autoregressive, but rather shortened the autoregressive path.
+
+[BOS] A related study on realistic speech synthesis is the parallel WaveNet (Oord et al., 2017) .
+[BOS] The paper introduced probability density distillation, a new method for training a parallel feed-forward network from a trained WaveNet (Van Den Oord et al., 2016) with no significant difference in quality.
+
+[BOS] There are also some work share a somehow simillar idea with our work: character-level NMT (Chung et al., 2016; Lee et al., 2016) and chunkbased NMT Ishiwatari et al., 2017) .
+[BOS] Unlike the SAT, these models are not able to produce multiple tokens (characters or words) each time step.
+[BOS] Oda et al. (2017) proposed a bitlevel decoder, where a word is represented by a binary code and each bit of the code can be predicted in parallel.
+

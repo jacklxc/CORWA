@@ -1,0 +1,6 @@
+[BOS] Reddit is relatively understudied compared to other social networks such as Facebook, but an increasing body of work has used its data to look at topics ranging from online user behavior (Hamilton et al., 2017) to user migration across social media platforms (Newell et al., 2016) .
+[BOS] A map of Reddit using commenter co-occurrences has also been previously created using a much smaller sample of comment data (Olsen and Neal, 2015) by treating the co-occurrence matrix as a weighted graph and extracting the network backbone.
+[BOS] Relatedly, there has been interest in developing vector representations of graph structures as shown by techniques like DeepWalk (Perozzi et al., 2014) and node2vec (Grover and Leskovec, 2016) , which we could potentially use to create additional vector representations to test below.
+[BOS] Reddit communities do not have a built-in explicit graph structure though, as there are not defined links between communities in the same manner as users can be linked by friendship requests on sites like Facebook.
+[BOS] In this paper we show that semantically meaningful maps of communities can be created using the NLP toolbox originally created for mapping the semantic similarity of words, without a need for defining an explicit graph.
+

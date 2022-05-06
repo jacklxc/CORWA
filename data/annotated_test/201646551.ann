@@ -1,0 +1,31 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 115 120	[BOS]
+T3	Narrative_cite 396 401	[BOS]
+T4	Single_summ 641 646	[BOS]
+T5	Single_summ 860 865	[BOS]
+T6	Reference 205 225	(Ng and Cardie, 2002
+T7	Reference 227 250	Bengtson and Roth, 2008
+T8	Reference 252 277	Denis and Baldridge, 2008
+T9	Reference 279 301	Fernandes et al., 2012
+T10	Reference 303 326	Durrett and Klein, 2013
+T11	Reference 328 348	Wiseman et al., 2015
+T12	Reference 350 373	Clark and Manning, 2016
+T13	Reference 375 392	Lee et al., 2017)
+T14	Reference 536 556	(Peters et al., 2018
+T15	Reference 558 577	Devlin et al., 2019
+T16	Reference 579 598	McCann et al., 2017
+T17	Reference 600 618	Joshi et al., 2019
+T18	Reference 620 638	Liu et al., 2019b)
+T19	Dominant 662 683	(Devlin et al., 2019)
+T20	Dominant 875 895	(Joshi et al., 2019)
+T21	Pronoun 156 160	this
+T22	Pronoun 183 187	this
+T23	Pronoun 650 655	these
+T24	B_span 188 194	family
+T25	E_span 387 391	2017
+T26	B_span 492 504	unsupervised
+T27	E_span 632 637	2019b
+T28	B_span 657 661	BERT
+T29	E_span 846 858	dependencies
+T30	B_span 866 874	SpanBERT
+T31	E_span 1017 1024	variant

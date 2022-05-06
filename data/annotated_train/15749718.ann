@@ -1,0 +1,160 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 237 242	[BOS]
+T3	Transition 539 544	[BOS]
+T4	Narrative_cite 698 703	[BOS]
+T5	Transition 1166 1171	[BOS]
+T6	Narrative_cite 1291 1296	[BOS]
+T7	Narrative_cite 1729 1734	[BOS]
+T8	Transition 1957 1962	[BOS]
+T9	Narrative_cite 2127 2132	[BOS]
+T10	Narrative_cite 2328 2333	[BOS]
+T11	Narrative_cite 2590 2595	[BOS]
+T12	Transition 3027 3032	[BOS]
+T13	Narrative_cite 3252 3257	[BOS]
+T14	Narrative_cite 3481 3486	[BOS]
+T15	Narrative_cite 3679 3684	[BOS]
+T16	Narrative_cite 3998 4003	[BOS]
+T17	Narrative_cite 4239 4244	[BOS]
+T18	Reflection 4528 4533	[BOS]
+T19	Narrative_cite 4735 4740	[BOS]
+T20	Single_summ 4942 4947	[BOS]
+T21	Narrative_cite 5390 5395	[BOS]
+T22	Single_summ 5670 5675	[BOS]
+T23	Multi_summ 5788 5793	[BOS]
+T24	Single_summ 6065 6070	[BOS]
+T25	Single_summ 6179 6184	[BOS]
+T26	Single_summ 6351 6356	[BOS]
+T27	Reference 475 492	(Hwa et al., 2005
+T28	Reference 494 516	Smith and Eisner, 2009
+T29	Reference 518 536	Zhao et al., 2009)
+T30	Reference 856 878	(Das and Petrov, 2011)
+T31	Reference 970 989	(Kim and Lee, 2012)
+T32	Reference 1001 1022	(Khapra et al., 2010)
+T33	Reference 1127 1144	(Hwa et al., 2005
+T34	Reference 1146 1163	Kim et al., 2010)
+T35	Reference 1487 1508	(Das and Petrov, 2011
+T36	Reference 1510 1534	Yarowsky and Ngai, 2001)
+T37	Reference 1584 1601	(Kim et al., 2010
+T38	Reference 1603 1621	Kim and Lee, 2012)
+T39	Reference 1651 1671	(Jiang et al., 2011)
+T40	Reference 1704 1725	(Khapra et al., 2010)
+T41	Reference 1865 1886	Ganchev et al., 2009)
+T42	Reference 1912 1932	(Naseem et al., 2010
+T43	Reference 1934 1954	Naseem et al., 2012)
+T44	Reference 2261 2282	(Ganchev et al., 2009
+T45	Reference 2284 2303	Naseem et al., 2010
+T46	Reference 2305 2325	Naseem et al., 2012)
+T47	Reference 2438 2459	(Naseem et al., 2010)
+T48	Reference 2503 2524	(Naseem et al., 2012)
+T49	Reference 2565 2587	(Ganchev et al., 2009)
+T50	Reference 2785 2806	(Burkett et al., 2010
+T51	Reference 2808 2824	Che et al., 2013
+T52	Reference 2826 2849	Wang and Manning, 2014)
+T53	Reference 2870 2892	(Burkett et al., 2010)
+T54	Reference 2918 2940	(Zhuang and Zong, 2010
+T55	Reference 2942 2970	Kozhevnikov and Titov, 2012)
+T56	Reference 3003 3023	(Guo and Diab, 2010)
+T57	Reference 3413 3435	(Dur-rett et al., 2012
+T58	Reference 3437 3457	Tckstrm et al., 2012
+T59	Reference 3459 3478	Zhang et al., 2012)
+T60	Reference 3596 3618	(Durrett et al., 2012)
+T61	Reference 3654 3676	(Tckstrm et al., 2013)
+T62	Reference 3911 3933	(Tckstrm et al., 2013)
+T63	Reference 3973 3995	(Durrett et al., 2012)
+T64	Reference 4070 4092	(Tckstrm et al., 2012)
+T65	Reference 4136 4158	(Durrett et al., 2012)
+T66	Reference 4216 4236	(Zhang et al., 2012)
+T67	Reference 4461 4483	(Tckstrm et al., 2012)
+T68	Reference 4921 4939	(Zou et al., 2013)
+T69	Dominant 5055 5073	(Zou et al., 2013)
+T70	Reference 5529 5556	(Collobert and Weston, 2008
+T71	Reference 5558 5580	Collobert et al., 2011
+T72	Reference 5582 5597	Henderson, 2004
+T73	Reference 5599 5618	Socher et al., 2011
+T74	Reference 5620 5645	Titov and Henderson, 2010
+T75	Reference 5647 5667	Turian et al., 2010)
+T76	Dominant 5676 5696	Socher et al. (2011)
+T77	Dominant 5794 5821	Collobert and Weston (2008)
+T78	Dominant 5826 5849	Collobert et al. (2011)
+T79	Dominant 6071 6087	Henderson (2004)
+T80	Dominant 6185 6211	Titov and Henderson (2010)
+T82	Dominant 6357 6377	Turian et al. (2010)
+T83	Pronoun 1969 1974	these
+T84	Pronoun 3258 3262	They
+T85	Pronoun 3333 3335	it
+T86	Pronoun 4566 4571	these
+T87	Pronoun 4815 4819	they
+T88	Pronoun 5001 5003	it
+T89	B_span 436 442	target
+T90	E_span 531 535	2009
+T91	B_span 809 814	graph
+T92	E_span 873 877	2011
+T93	B_span 951 960	Wikipedia
+T94	E_span 984 988	2012
+T95	B_span 993 1000	WordNet
+T96	E_span 1017 1021	2010
+T97	B_span 1063 1076	heuristically
+T98	E_span 1158 1162	2010
+T99	B_span 1475 1478	POS
+T100	E_span 1529 1533	2001
+T101	B_span 1559 1564	named
+T102	E_span 1616 1620	2012
+T103	B_span 1624 1635	constituent
+T104	E_span 1666 1670	2011
+T105	B_span 1678 1682	word
+T106	E_span 1720 1724	2010
+T107	B_span 1851 1859	parallel
+T108	E_span 1881 1885	2009
+T109	B_span 1890 1900	linguistic
+T110	E_span 1949 1953	2012
+T111	B_span 2235 2245	dependency
+T112	E_span 2320 2324	2012
+T113	B_span 2403 2412	universal
+T114	E_span 2454 2458	2010
+T115	B_span 2463 2471	manually
+T116	E_span 2519 2523	2012
+T117	B_span 2533 2540	learned
+T118	E_span 2582 2586	2009
+T119	B_span 2760 2765	named
+T120	E_span 2844 2848	2014
+T121	B_span 2852 2861	syntactic
+T122	E_span 2887 2891	2010
+T123	B_span 2895 2903	semantic
+T124	E_span 2965 2969	2012
+T125	B_span 2977 2981	word
+T126	E_span 3018 3022	2010
+T127	B_span 3397 3403	target
+T128	E_span 3473 3477	2012
+T129	B_span 3578 3587	bilingual
+T130	E_span 3613 3617	2012
+T131	B_span 3625 3634	unlabeled
+T132	E_span 3671 3675	2013
+T133	B_span 3874 3886	unsupervised
+T134	E_span 3928 3932	2013
+T135	B_span 3938 3948	supervised
+T136	E_span 3990 3994	2012
+T137	B_span 4046 4055	bilingual
+T138	E_span 4087 4091	2012
+T139	B_span 4095 4103	language
+T140	E_span 4153 4157	2012
+T141	B_span 4165 4178	automatically
+T142	E_span 4231 4235	2012
+T143	B_span 4421 4426	cross
+T144	E_span 4478 4482	2012
+T145	B_span 4862 4867	cross
+T146	E_span 4934 4938	2013
+T147	B_span 5483 5488	there
+T148	E_span 5662 5666	2010
+T149	B_span 5676 5682	Socher
+T150	E_span 5778 5786	problems
+T151	B_span 5794 5803	Collobert
+T152	E_span 6055 6063	labeling
+T153	B_span 6071 6080	Henderson
+T154	E_span 6171 6177	parser
+T81	Reference 6262 6287	Titov and Henderson, 2007
+T155	B_span 6185 6190	Titov
+T156	B_span 6237 6244	sigmoid
+T157	E_span 6283 6287	2007
+T158	E_span 6342 6349	parsing
+T159	B_span 6357 6363	Turian
+T160	E_span 6483 6494	recognition

@@ -1,0 +1,17 @@
+[BOS] There are basically two categories of work on machine transliteration.
+
+[BOS] On the one hand, various alignment models are used for acquiring transliteration lexicons from parallel corpora and other resources (e.g. Lee et al., 2006; Jin et al., 2008; Kuo and Li, 2008) .
+[BOS] On the other hand, statistical transliteration models are built for transliterating personal names and other proper names, and these models can be based on phonemes (e.g. Knight and Graehl, 1998; Virga and Khudanpur, 2003) , graphemes (e.g. Li et al., 2004) , or their combination (e.g. Oh and Choi, 2005) .
+[BOS] They may operate on characters (e.g. Shishtla et al., 2009) , syllables (e.g. Wutiwiwatchai and Thangthai, 2010) , as well as hybrid units (e.g. Oh and Choi, 2005) .
+[BOS] In addition to phonetic features, others like temporal, semantic, and tonal features have also been found useful in transliteration (e.g. Tao et al., 2006; Li et al., 2007; Yoon et al., 2007; Kwong, 2009) .
+
+[BOS] The baseline in current English-Chinese transliteration generation research often refers to Li et al. (2004) .
+[BOS] They used a Joint SourceChannel Model under the direct orthographic mapping (DOM) framework, which skips the middle phonemic representation in conventional phoneme-based methods, and models the segmentation and alignment preferences by means of contextual n-grams of the transliteration units.
+[BOS] Their method was shown to outperform phoneme-based methods and those based on the noisy channel model.
+[BOS] In fact, transliteration of foreign names into Chinese is often based on the surface orthographic forms, as exemplified in the transliteration of Beckham, where the supposedly silent h in "ham" is taken as pronounced, resulting in  (Hanyu Pinyin: han4-mu3) in Mandarin Chinese and  (Jyutping: haam4) in Cantonese.
+
+[BOS] The reports of the shared task in NEWS 2009 (Li et al., 2009 ) and NEWS 2010 (Li et al., 2010) highlighted two particularly popular approaches for transliteration generation among the participating systems.
+
+[BOS] One is phrase-based statistical machine transliteration (e.g. Song et al., 2010; Finch and Sumita, 2010 ) and the other is Conditional Random Fields which treats the task as one of sequence labelling (e.g. Shishtla et al., 2009 ).
+[BOS] More recent shared tasks have shown a wider array of promising techniques (Zhang et al., 2011; Zhang et al., 2012) , although the absolute results as measured by Word Accuracy in Top-1 (ACC), Fuzziness in Top-1 (Mean Fscore), and Mean Reciprocal Rank (MRR) have not really demonstrated any remarkable boost.
+

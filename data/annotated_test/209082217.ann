@@ -1,0 +1,77 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 37 42	[BOS]
+T3	Narrative_cite 220 225	[BOS]
+T4	Transition 395 400	[BOS]
+T5	Transition 526 531	[BOS]
+T6	Narrative_cite 710 715	[BOS]
+T7	Transition 857 862	[BOS]
+T8	Single_summ 991 996	[BOS]
+T9	Single_summ 1159 1164	[BOS]
+T10	Single_summ 1327 1332	[BOS]
+T11	Reflection 1558 1563	[BOS]
+T12	Transition 1812 1817	[BOS]
+T13	Narrative_cite 1875 1880	[BOS]
+T14	Transition 2143 2148	[BOS]
+T15	Transition 2233 2238	[BOS]
+T16	Narrative_cite 2332 2337	[BOS]
+T17	Single_summ 2373 2378	[BOS]
+T18	Single_summ 2538 2543	[BOS]
+T19	Transition 2681 2686	[BOS]
+T20	Transition 2847 2852	[BOS]
+T21	Single_summ 2923 2928	[BOS]
+T22	Single_summ 3154 3159	[BOS]
+T23	Single_summ 3258 3263	[BOS]
+T24	Single_summ 3463 3468	[BOS]
+T25	Transition 3539 3544	[BOS]
+T26	Narrative_cite 3587 3592	[BOS]
+T27	Narrative_cite 3849 3854	[BOS]
+T28	Reflection 4068 4073	[BOS]
+T29	Reflection 4332 4337	[BOS]
+T30	Transition 4433 4438	[BOS]
+T31	Other 4484 4489	[BOS]
+T32	Transition 4652 4657	[BOS]
+T33	Reference 176 194	(Xing et al., 2015
+T34	Reference 196 217	Artetxe et al., 2016)
+T35	Reference 353 372	(Smith et al., 2017
+T36	Reference 374 392	Xing et al., 2015)
+T37	Reference 829 854	Mohiuddin and Joty, 2019)
+T38	Dominant 1004 1029	Aldarmaki and Diab (2019)
+T39	Dominant 1341 1363	Schuster et al. (2019)
+T40	Reference 1979 2000	(Vuli and Moens, 2013
+T41	Reference 2002 2023	Mikolov et al., 2013a
+T42	Reference 2025 2044	Gouws et al., 2015)
+T43	Reference 2338 2369	(Camacho-Collados et al., 2017)
+T44	Dominant 2515 2535	(Chi and Chen, 2018)
+T45	Dominant 3010 3036	(Aldarmaki and Diab, 2019)
+T46	Reference 3665 3691	(Lefever and Hoste, 2009 )
+T47	Reference 3914 3934	(Sinha et al., 2009)
+T48	Pronoun 240 242	it
+T49	Pronoun 401 405	This
+T50	Pronoun 1165 1169	They
+T51	Pronoun 1564 1569	These
+T52	Pronoun 2544 2546	It
+T53	Pronoun 3233 3238	their
+T54	Pronoun 3244 3246	it
+T55	Pronoun 3291 3293	it
+T56	B_span 154 164	pretrained
+T57	E_span 212 216	2016
+T58	B_span 286 297	monolingual
+T59	E_span 387 391	2015
+T60	B_span 806 812	static
+T61	E_span 849 853	2019
+T62	B_span 1004 1013	Aldarmaki
+T63	E_span 1321 1325	task
+T64	B_span 1341 1349	Schuster
+T65	E_span 1549 1556	parsing
+T66	B_span 1942 1951	Bilingual
+T67	E_span 2039 2043	2015
+T68	B_span 2339 2346	Camacho
+T69	E_span 2364 2368	2017
+T70	B_span 2379 2382	The
+T71	E_span 2670 2679	languages
+T72	B_span 2929 2936	Another
+T73	E_span 3530 3536	scores
+T74	B_span 3625 3630	Cross
+T75	E_span 3685 3689	2009
+T76	B_span 3879 3884	Cross
+T77	E_span 3929 3933	2009

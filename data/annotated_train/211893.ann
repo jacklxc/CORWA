@@ -1,0 +1,69 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 225 230	[BOS]
+T3	Transition 300 305	[BOS]
+T4	Transition 377 382	[BOS]
+T5	Narrative_cite 470 475	[BOS]
+T6	Transition 688 693	[BOS]
+T7	Transition 776 781	[BOS]
+T8	Transition 849 854	[BOS]
+T9	Single_summ 992 997	[BOS]
+T10	Single_summ 1209 1214	[BOS]
+T11	Single_summ 1284 1289	[BOS]
+T12	Single_summ 1364 1369	[BOS]
+T13	Single_summ 1456 1461	[BOS]
+T14	Single_summ 1633 1638	[BOS]
+T15	Single_summ 1728 1733	[BOS]
+T16	Single_summ 1873 1878	[BOS]
+T17	Reflection 1988 1993	[BOS]
+T18	Transition 2055 2060	[BOS]
+T19	Transition 2222 2227	[BOS]
+T20	Transition 2343 2348	[BOS]
+T21	Narrative_cite 2417 2422	[BOS]
+T22	Transition 2560 2565	[BOS]
+T23	Single_summ 2716 2721	[BOS]
+T24	Single_summ 2882 2887	[BOS]
+T25	Single_summ 2998 3003	[BOS]
+T26	Reflection 3057 3062	[BOS]
+T27	Reflection 3121 3126	[BOS]
+T28	Reflection 3231 3236	[BOS]
+T29	Reference 89 113	Nakaiwa and Shirai, 1996
+T30	Reference 115 140	Okumura and Tamura, 1996)
+T31	Reference 153 173	(Park and Hong, 2014
+T32	Reference 175 195	Palomar et al., 2001
+T33	Reference 197 222	Ferrndez and Peral, 2000)
+T34	Reference 618 632	(Baldwin, 1997
+T35	Reference 634 656	Lappin and Leass, 1994
+T36	Reference 658 684	Carbonell and Brown, 1988)
+T37	Dominant 998 1023	Nakaiwa and Shirai (1996)
+T38	Dominant 1387 1407	(Grosz et al., 1995)
+T39	Dominant 1639 1659	Walker et al. (1994)
+T40	Dominant 1734 1752	Roh and Lee (2003)
+T41	Reference 2515 2537	(Connolly et al., 1994
+T42	Reference 2539 2557	Paul et al., 1999)
+T43	Dominant 2722 2742	Park and Hong (2014)
+T44	Pronoun 231 236	These
+T45	Pronoun 306 308	It
+T46	Pronoun 1224 1228	they
+T47	Pronoun 1301 1303	it
+T48	Pronoun 1321 1326	their
+T49	Pronoun 1462 1464	It
+T50	Pronoun 1558 1562	this
+T51	Pronoun 1879 1881	It
+T52	Pronoun 2002 2006	this
+T53	Pronoun 2228 2233	These
+T54	Pronoun 2267 2269	it
+T55	Pronoun 2954 2958	they
+T56	Pronoun 3070 3074	this
+T57	Pronoun 3241 3245	this
+T58	B_span 998 1005	Nakaiwa
+T59	E_span 1351 1361	resolution
+T60	B_span 1370 1379	Centering
+T61	E_span 1624 1631	anaphor
+T62	B_span 1639 1645	Walker
+T63	E_span 1718 1726	Japanese
+T64	B_span 1734 1737	Roh
+T65	E_span 1979 1986	pronoun
+T66	B_span 2495 2503	anaphora
+T67	E_span 2552 2556	1999
+T68	B_span 2722 2726	Park
+T69	E_span 3050 3055	cases

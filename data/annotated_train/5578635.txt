@@ -1,0 +1,17 @@
+[BOS] Several previous studies related to our work have been conducted.
+[BOS] Koo et al. (2008) used a clustering algorithm to produce word clusters on a large amount of unannotated data and represented new features based on the clusters for dependency parsing models.
+[BOS] Chen et al. (2009) proposed an approach that extracted partial tree structures from a large amount of data and used them as the additional features to improve dependency parsing.
+[BOS] They approaches were still restricted in a small number of arcs in the graphs.
+[BOS] Suzuki et al. (2009) presented a semisupervised learning approach.
+[BOS] They extended a Semi-supervised Structured Conditional Model (SS-SCM) (Suzuki and Isozaki, 2008) to the dependency parsing problem and combined their method with the approach of Koo et al. (2008) .
+[BOS] In future work, we may consider apply their methods on our parsers to improve further.
+
+[BOS] Another group of methods are the cotraining/self-training techniques.
+
+[BOS] McClosky et al. (2006) presented a self-training approach for phrase structure parsing.
+[BOS] Sagae and Tsujii (2007) used the co-training technique to improve performance.
+[BOS] First, two parsers were used to parse the sentences in unannotated data.
+[BOS] Then they selected some sentences which have the same trees produced by those two parsers.
+[BOS] They retrained a parser on newly parsed sentences and the original labeled data.
+[BOS] We are able to use the output of our systems for co-training/self-training techniques.
+

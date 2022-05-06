@@ -1,0 +1,55 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 144 149	[BOS]
+T3	Single_summ 317 322	[BOS]
+T4	Single_summ 533 538	[BOS]
+T5	Transition 641 646	[BOS]
+T6	Reflection 735 740	[BOS]
+T7	Transition 840 845	[BOS]
+T8	Single_summ 921 926	[BOS]
+T9	Single_summ 1017 1022	[BOS]
+T10	Single_summ 1139 1144	[BOS]
+T11	Single_summ 1304 1309	[BOS]
+T12	Single_summ 1614 1619	[BOS]
+T13	Single_summ 1749 1754	[BOS]
+T14	Reflection 1857 1862	[BOS]
+T15	Single_summ 2140 2145	[BOS]
+T16	Single_summ 2259 2264	[BOS]
+T17	Reflection 2319 2324	[BOS]
+T18	Reference 122 141	(Chew et al., 2006)
+T19	Reference 201 224	Fossum and Abney, 2005)
+T20	Reference 278 308	(Sukhareva and Chiarcos, 2014)
+T21	Dominant 327 350	Fossum and Abney (2005)
+T22	Dominant 1001 1014	Probst (2003)
+T23	Dominant 1513 1534	Tckstrm et al. (2013)
+T24	Dominant 1620 1641	Tckstrm et al. (2013)
+T25	Reference 1873 1894	Tckstrm et al. (2013)
+T26	Reference 2107 2130	Fossum and Abney (2005)
+T27	Dominant 2146 2165	Duong et al. (2013)
+T28	Pronoun 150 152	It
+T29	Pronoun 624 629	these
+T30	Pronoun 765 770	these
+T31	Pronoun 1023 1028	Their
+T32	Pronoun 1209 1213	they
+T33	Pronoun 1337 1343	theirs
+T34	Pronoun 1779 1783	they
+T35	Pronoun 2227 2232	their
+T36	Pronoun 2265 2269	They
+T37	Pronoun 2544 2548	this
+T38	B_span 48 55	machine
+T39	E_span 136 140	2006
+T40	B_span 175 180	cross
+T41	E_span 219 223	2005
+T42	B_span 227 229	NP
+T43	E_span 303 307	2014
+T44	B_span 327 333	Fossum
+T45	E_span 630 639	languages
+T46	B_span 927 934	Earlier
+T47	E_span 1289 1302	distributions
+T48	B_span 1310 1313	Our
+T49	E_span 1849 1855	search
+T50	B_span 1863 1865	We
+T51	E_span 1922 1929	created
+T52	B_span 2096 2103	similar
+T53	E_span 2125 2129	2005
+T54	B_span 2146 2151	Duong
+T55	E_span 2315 2317	up

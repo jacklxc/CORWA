@@ -1,0 +1,34 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 267 272	[BOS]
+T3	Transition 407 412	[BOS]
+T4	Narrative_cite 625 630	[BOS]
+T5	Transition 893 898	[BOS]
+T6	Single_summ 973 978	[BOS]
+T7	Single_summ 1090 1095	[BOS]
+T8	Single_summ 1212 1217	[BOS]
+T9	Reflection 1266 1271	[BOS]
+T10	Single_summ 1337 1342	[BOS]
+T11	Single_summ 1459 1464	[BOS]
+T12	Reflection 1560 1565	[BOS]
+T13	Single_summ 1762 1767	[BOS]
+T14	Single_summ 1973 1978	[BOS]
+T15	Single_summ 2214 2219	[BOS]
+T16	Reflection 2367 2372	[BOS]
+T17	Reference 81 96	(Gunning, 2017)
+T18	Reference 870 890	(Samek et al., 2017)
+T19	Dominant 979 1000	Ribeiro et al. (2016)
+T20	Dominant 1343 1360	Lei et al. (2016)
+T21	Dominant 1768 1788	Ouyang et al. (2018)
+T22	Dominant 2220 2241	Hancock et al. (2018)
+T23	B_span 39 50	Explainable
+T24	E_span 91 95	2017
+T25	B_span 843 848	local
+T26	E_span 885 889	2017
+T27	B_span 979 986	Ribeiro
+T28	E_span 1331 1335	work
+T29	B_span 1343 1346	Lei
+T30	E_span 1547 1558	predictions
+T31	B_span 1768 1774	Ouyang
+T32	E_span 2207 2212	input
+T33	B_span 2220 2227	Hancock
+T34	E_span 2351 2365	classification

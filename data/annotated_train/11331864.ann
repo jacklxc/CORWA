@@ -1,0 +1,45 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 83 88	[BOS]
+T3	Narrative_cite 365 370	[BOS]
+T4	Narrative_cite 830 835	[BOS]
+T5	Narrative_cite 1117 1122	[BOS]
+T6	Narrative_cite 1294 1299	[BOS]
+T7	Reference 301 323	(Grishman et al., 2005
+T8	Reference 325 342	Cao et al., 2015a
+T9	Reference 344 362	Cao et al., 2015b)
+T10	Reference 555 565	(Ahn, 2006
+T11	Reference 567 583	Li et al., 2013)
+T12	Reference 671 693	(Ji and Grishman, 2008
+T13	Reference 695 713	Gupta and Ji, 2009
+T14	Reference 715 742	Patwardhan and Riloff, 2009
+T15	Reference 744 767	Liao and Grishman, 2011
+T16	Reference 769 786	Hong et al., 2011
+T17	Reference 788 809	McClosky et al., 2011
+T18	Reference 811 827	Li et al., 2015)
+T19	Reference 984 1003	Riedel et al., 2009
+T20	Reference 1005 1031	Poon and Vanderwende, 2010
+T21	Reference 1033 1048	Li et al., 2013
+T22	Reference 1050 1073	Venugopal et al., 2014)
+T23	Reference 1244 1271	(Nguyen and Grishman, 2015b
+T24	Reference 1273 1291	Chen et al., 2015)
+T25	Dominant 1325 1347	(Nguyen et al., 2016a)
+T26	Dominant 1455 1480	(Jagannatha and Yu, 2016)
+T27	Dominant 1564 1586	(Nguyen et al., 2016b)
+T28	Pronoun 1090 1095	their
+T30	E_span 356 361	2015b
+T32	E_span 822 826	2015
+T36	E_span 1286 1290	2015
+T38	E_span 1662 1670	networks
+T29	B_span 283 292	syntactic
+T31	B_span 524 532	sentence
+T39	E_span 578 582	2013
+T40	B_span 629 634	cross
+T33	E_span 1068 1072	2014
+T34	B_span 984 990	Riedel
+T41	B_span 1214 1227	convolutional
+T35	B_span 1326 1332	Nguyen
+T37	Dominant 1446 1453	jointly
+T42	B_span 1456 1466	Jagannatha
+T43	E_span 1551 1559	networks
+T44	B_span 1565 1571	Nguyen
+T45	E_span 1437 1445	labeling

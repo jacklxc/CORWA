@@ -1,0 +1,37 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 262 267	[BOS]
+T3	Single_summ 406 411	[BOS]
+T4	Single_summ 570 575	[BOS]
+T5	Single_summ 748 753	[BOS]
+T6	Single_summ 951 956	[BOS]
+T7	Single_summ 1115 1120	[BOS]
+T8	Single_summ 1400 1405	[BOS]
+T9	Reflection 1524 1529	[BOS]
+T10	Reflection 1669 1674	[BOS]
+T11	Dominant 46 63	Liu et al. (2015)
+T12	Dominant 412 437	Vilca and Cabezudo (2017)
+T13	Reference 539 558	(Page et al., 1998)
+T14	Dominant 597 622	Vilca and Cabezudo (2017)
+T15	Reference 660 684	(Gatt and Reiter, 2009 )
+T16	Dominant 841 862	(Zhang et al., 2018 )
+T17	Dominant 1406 1425	Zhang et al. (2018)
+T18	Pronoun 278 282	this
+T19	Pronoun 957 961	They
+T20	Pronoun 1009 1014	their
+T21	Pronoun 1203 1207	they
+T22	Pronoun 1496 1501	their
+T23	Pronoun 1533 1537	this
+T24	B_span 6 17	Abstractive
+T25	E_span 252 260	document
+T26	B_span 412 417	Vilca
+T27	E_span 559 568	algorithm
+T28	B_span 530 538	PageRank
+T29	E_span 553 557	1998
+T31	B_span 576 579	For
+T32	E_span 735 745	adequately
+T30	B_span 630 634	rule
+T33	E_span 678 682	2009
+T34	B_span 789 795	Neural
+T36	E_span 1392 1398	pieces
+T35	B_span 1406 1411	Zhang
+T37	E_span 1514 1522	baseline

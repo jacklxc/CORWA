@@ -1,0 +1,59 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 75 80	[BOS]
+T3	Multi_summ 212 217	[BOS]
+T4	Single_summ 453 458	[BOS]
+T5	Narrative_cite 644 649	[BOS]
+T6	Multi_summ 833 838	[BOS]
+T7	Transition 1182 1187	[BOS]
+T8	Single_summ 1284 1289	[BOS]
+T9	Transition 1414 1419	[BOS]
+T10	Other 1504 1509	[BOS]
+T11	Transition 1714 1719	[BOS]
+T12	Transition 1852 1857	[BOS]
+T13	Reflection 2045 2050	[BOS]
+T14	Single_summ 2132 2137	[BOS]
+T15	Single_summ 2315 2320	[BOS]
+T16	Reference 46 72	Gildea and Jurafsky (2002)
+T17	Reference 143 164	(Pradhan et al., 2005
+T18	Reference 166 184	Zhao et al., 2009b
+T19	Reference 186 210	Bjrkelund et al., 2009 )
+T20	Dominant 230 251	Pradhan et al. (2005)
+T21	Dominant 341 360	Zhao et al. (2009b)
+T22	Dominant 466 489	Collobert et al. (2011)
+T23	Reference 723 742	(Zhang et al., 2016
+T24	Reference 744 760	Qin et al., 2017
+T25	Reference 762 779	Cai et al., 2017)
+T26	Dominant 839 863	Foland and Martin (2015)
+T27	Dominant 968 992	FitzGerald et al. (2015)
+T28	Reference 1082 1100	(Lei et al., 2015)
+T29	Dominant 1290 1312	Roth and Lapata (2016)
+T30	Reference 2087 2111	(Punyakanok et al., 2008
+T31	Reference 2113 2129	He et al., 2017)
+T32	Dominant 2169 2193	Punyakanok et al. (2008)
+T33	Dominant 2321 2337	He et al. (2017)
+T34	B_span 6 14	Semantic
+T35	E_span 67 71	2002
+T36	B_span 81 85	Most
+T37	E_span 204 208	2009
+T38	B_span 230 237	Pradhan
+T39	E_span 323 333	classifier
+T40	B_span 341 345	Zhao
+T41	E_span 442 451	algorithm
+T42	B_span 466 475	Collobert
+T43	E_span 637 641	task
+T44	B_span 681 685	deep
+T45	E_span 774 778	2017
+T46	B_span 839 845	Foland
+T47	E_span 952 960	networks
+T48	B_span 968 978	FitzGerald
+T49	E_span 1172 1180	approach
+T50	B_span 1065 1069	akin
+T51	E_span 1095 1099	2015
+T52	B_span 1290 1294	Roth
+T53	E_span 1405 1412	success
+T54	B_span 2051 2054	Our
+T55	E_span 2124 2128	2017
+T56	B_span 2169 2179	Punyakanok
+T57	E_span 2308 2313	stage
+T58	B_span 2321 2323	He
+T59	E_span 2498 2509	performance

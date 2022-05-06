@@ -1,0 +1,36 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 97 102	[BOS]
+T3	Narrative_cite 262 267	[BOS]
+T4	Single_summ 481 486	[BOS]
+T5	Transition 705 710	[BOS]
+T6	Single_summ 912 917	[BOS]
+T7	Other 1055 1060	[BOS]
+T8	Single_summ 1128 1133	[BOS]
+T9	Single_summ 1199 1204	[BOS]
+T10	Single_summ 1299 1304	[BOS]
+T11	Transition 1402 1407	[BOS]
+T12	Transition 1509 1514	[BOS]
+T13	Reflection 1624 1629	[BOS]
+T14	Other 1828 1833	[BOS]
+T15	Other 1876 1881	[BOS]
+T16	Other 1996 2001	[BOS]
+T17	Other 2116 2121	[BOS]
+T18	Other 2161 2166	[BOS]
+T19	Reference 439 457	(Saha et al., 2016
+T20	Reference 459 478	Cheng et al., 2017)
+T21	Dominant 527 548	Johnson et al. (2016)
+T22	Dominant 922 944	Artetxe et al. (2017b)
+T23	Dominant 1322 1344	Artetxe et al. (2017b)
+T24	Pronoun 297 301	this
+T25	Pronoun 610 614	they
+T26	Pronoun 984 988	this
+T27	Pronoun 1236 1240	they
+T28	Pronoun 1655 1659	this
+T29	B_span 423 429	target
+T30	E_span 473 477	2017
+T31	B_span 487 489	To
+T32	E_span 699 703	data
+T33	B_span 922 929	Artetxe
+T34	E_span 1043 1053	embeddings
+T35	B_span 1322 1329	Artetxe
+T36	E_span 1392 1400	language

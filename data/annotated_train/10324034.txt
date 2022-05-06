@@ -1,0 +1,18 @@
+[BOS] Our primary concern when integrating natural language query with textual evidence is to find sentence-level representations suitable both for relevance weighing and answer prediction.
+
+[BOS] Sentence-level representations in the retrieval + inference context have been popularly proposed within the Memory Network framework (Weston et al., 2014) , but explored just in the form of averaged word embeddings; the task includes only very simple sentences and a small vocabulary.
+[BOS] Much more realistic setting is introduced in the Answer Sentence Selection context (Wang et al., 2007) (Baudi et al., 2016a) , with state-of-art models using complex deep neural architectures with attention (dos Santos et al., 2016), but the selection task consists of only retrieval and no inference (answer prediction).
+[BOS] A more indirect retrieval task regarding news summarization was investigated by (Cao et al., 2016) .
+
+[BOS] In the entailment context, (Bowman et al., 2015) introduced a large dataset with single-evidence sentence pairs (Stanford Natural Language Inference, SNLI), but a larger vocabulary and slightly more complicated (but still conservatively formed) pedigree chart model is used to show the pattern of traits that are passed from one generation to the next in a family?
+[BOS] A pedigree is a chart which shows the inheritance of a trait over several generations.
+[BOS] Figure 51 .14 In a pedigree, squares symbolize males, and circles represent females.
+[BOS] energy pyramid model is used to show the pattern of traits that are passed from one generation to the next in a family?
+[BOS] Energy is passed up a food chain or web from lower to higher trophic levels.
+[BOS] Each step of the food chain in the energy pyramid is called a trophic level.
+[BOS] sentences.
+[BOS] They also proposed baseline recurrent neural model for modeling sentence representations, while word-level attention based models are being studied more recently (Rocktschel et al., 2015) (Cheng et al., 2016) .
+
+[BOS] In the MCTest text comprehension challenge (Richardson et al., 2013) , the leading models use complex engineered features ensembling multiple traditional semantic NLP approaches (Wang and McAllester, 2015) .
+[BOS] The best deep model so far (Yin et al., 2016) uses convolutional neural networks for sentence representations, and attention on multiple levels to pick evidencing sentences.
+

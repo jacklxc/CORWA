@@ -1,0 +1,7 @@
+[BOS] Recent research that achieves state-of-the-art results is primarily based on deep learning techniques.
+[BOS] Chen et al. (2015) propose a dynamic multi-pooling convolutional neural network (DM-CNN), which automatically induces lexical-level and sentence-level features from text, achieving state-of-the-art results.
+[BOS] Nguyen and Grishman (2015)'s work focuses on CNNs using word embeddings in order to achieve a more generalizable event detection system.
+[BOS] Other approaches include Ghaeini et al. (2016) 's FBRNN, which is a modification of RNNs using word and branch embeddings, and Liu et al. (2016) 's ANN & Random ANN, which exploits the direct relationship between the FrameNet and the ACE Ontology in order to construct an out-domain ANN model.
+[BOS] Peng et al. (2016) showed that it is feasible to achieve state-of-the-art results with minimal supervision.
+[BOS] In their approach, they use only a few examples and the SRL of a candidate event in order to construct a structured vector representation, which maps the event to an ontology.
+

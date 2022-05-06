@@ -1,0 +1,37 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 121 126	[BOS]
+T3	Narrative_cite 595 600	[BOS]
+T4	Reflection 803 808	[BOS]
+T5	Reference 94 118	(Rajpurkar et al., 2016)
+T6	Reference 254 273	(Joshi et al., 2017
+T7	Reference 275 295	Kocisk et al., 2017)
+T8	Reference 321 343	(Khashabi et al., 2018
+T9	Reference 345 363	Yang et al., 2018)
+T10	Reference 436 455	(Iyyer et al., 2017
+T11	Reference 457 480	Talmor and Berant, 2018
+T12	Reference 482 500	Saha et al., 2018)
+T13	Reference 523 544	(Saeidi et al., 2018)
+T14	Reference 569 592	(Elgohary et al., 2018)
+T15	Reference 680 701	(Tapaswi et al., 2016
+T16	Reference 703 721	Antol et al., 2015
+T17	Reference 723 740	Lei et al., 2018)
+T18	Reference 755 772	(Das et al., 2017
+T19	Reference 774 800	Pasunuru and Bansal, 2018)
+T20	Pronoun 809 814	These
+T21	Pronoun 878 882	this
+T22	B_span 88 93	SQuAD
+T23	E_span 113 117	2016
+T24	B_span 227 233	having
+T25	E_span 290 294	2017
+T26	B_span 298 304	higher
+T27	E_span 358 362	2018
+T28	B_span 366 371	multi
+T29	E_span 495 499	2018
+T30	B_span 503 513	regulation
+T31	E_span 539 543	2018
+T32	B_span 550 554	Quiz
+T33	E_span 587 591	2018
+T34	B_span 668 674	single
+T35	E_span 735 739	2018
+T36	B_span 744 749	multi
+T37	E_span 795 799	2018

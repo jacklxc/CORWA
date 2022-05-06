@@ -1,0 +1,6 @@
+[BOS] Our work essentially follows a similar procedure as reported in [Klementiev and Roth, 2006] paper, but applied to English-Tamil language pair.
+[BOS] Earlier works, such as [Cucerzan and Yarowsky, 1999] and [Collins and Singer, 1999] addressed identification of NEs from untagged corpora.
+[BOS] They relied on significant contextual and morphological clues.
+[BOS] [Hetland, 2004] outlined methodologies based on time distribution of terms in a corpus to identify NEs, but only in English.
+[BOS] While a large body of literature exists on transliteration, we merely point out that the focus of this work (based on [Klementiev and Roth, 2006] ) is not on transliteration, but mining transliteration pairs, which may be used for developing a transliteration system.
+

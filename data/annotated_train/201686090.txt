@@ -1,0 +1,32 @@
+[BOS] Argument components detection consists in determining the boundaries separating the textual units carrying arguments from the rest of the text.
+[BOS] This task is generally considered as a supervised text segmentation problem at word level.
+[BOS] Models exploiting the sequential aspect of texts, inherent in the construction of a convincing argumentation, seem particularly adapted and are often used.
+[BOS] (Madnani et al., 2012 ) used a CRF (Conditional Random Field) to identify non-argumentative segments within dissertations.
+[BOS] (Levy et al., 2014) identified the boundaries of textual units detailing conclusions which were supporting or attacking topics discussed in threads from Wikipedia.
+[BOS] (Ajjour et al., 2017) used LSTM (Long shortterm memory, recurrent neural network) to extract arguments from essays, editorials, and from user-generated comments.
+[BOS] (Goudas et al., 2014) first identified sentences containing arguments and then detected their boundaries within social media using a CRF.
+[BOS] (Sardianos et al., 2015) determined argument components boundaries in news articles using also using a CRF.
+[BOS] Similarly, (Stab and Gurevych, 2017 ) used a CRF to extract argument components in essays.
+[BOS] (Eger et al., 2017) leveraged deep learning techniques to extract arguments from raw texts.
+
+[BOS] Determining the type of argument components (premise, conclusion, etc.)
+[BOS] has often been treated as a supervised text classification problem.
+[BOS] (Eckle-Kohler et al., 2015) distinguished premises and conclusions in news articles using Naive Bayes, Random Forest and SVM (Support Vector Machine).
+[BOS] (Park and Cardie, 2014 ) also used a SVM to determine the extent to which claims are justified in citizen's comments related to possible new legislation projects.
+[BOS] (Stab and Gurevych, 2017) classified argumentative components into premises, claims and major claims in essays using a SVM.
+[BOS] (Persing and Ng, 2016) used maximum entropy classification to determine the type of argument components.
+[BOS] (Potash et al., 2016) used sequence-to-sequence recurrent neural networks to infer the type of argument components.
+
+[BOS] Multi-tasks models are able to handle several different problems by sharing a subset of shared parameters.
+[BOS] They have been subject to recent interest within the Natural Language Processing community (Hashimoto et al., 2016; Sgaard and Goldberg, 2016; Eger et al., 2017; Yang et al., 2016) .
+[BOS] This type of models is bio-inspired: human beings are able to carry out a multitude of different tasks and can exploit, when necessary, knowledge related to different types of problems, making the learning of new tasks faster and easier.
+[BOS] (Ruder, 2017) states the reasons why this type of model is effective from a machine learning point of view: the use of several different corpora induces an implicit increase in the number of examples available during the training phase.
+[BOS] In addition, the model has to look for characteristics which may be useful for all the tasks to be processed, which limits the noise modeling and thus, leads to a better generalization.
+[BOS] (Sgaard and Goldberg, 2016) showed that inducing a priori knowledge in a multi-task model, by ordering the tasks to be learned, leads to better performance.
+[BOS] (Yang et al., 2016) have shown that driving a multi-task and multi-language model can improve performance on problems where data is only partially annotated.
+[BOS] (Hashimoto et al., 2016) obtained competitive results on several different tasks with a single model.
+[BOS] However, we should note that there is no guarantee on the benefits of using multi-task models, and that their success depends on the data distribution related to the various problems treated (Mou et al., 2016; Alonso and Plank, 2016; Bingel and Sgaard, 2017) .
+[BOS] (Schulz et al., 2018 ) proposed a multi-task framework to perform end-to-end argument mining.
+[BOS] The result they obtained are very promising.
+[BOS] In this paper, we are interested in leveraging auxiliary informa- tions such as Part-Of-Speech and Chunking tags in a multi-task learning setup, in order to perform argument component detection and classification.
+

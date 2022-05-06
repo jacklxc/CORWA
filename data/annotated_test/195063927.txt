@@ -1,0 +1,24 @@
+[BOS] The lexical substitution task consists in selecting meaning-preserving substitutes for words in context.
+[BOS] Initially proposed as a testbed for word sense disambiguation systems (McCarthy and Navigli, 2007) , in recent works it is mainly seen as a way of evaluating the in-context lexical inference capacity of vector-space models without explicitly accounting for sense (Kremer et al., 2014; Melamud et al., 2015) .
+[BOS] Examples of substitutes of words in context proposed by annotators in the SemEval-2007 Lexical Substitution dataset are presented in Table 1 .
+[BOS] The main idea behind these sense-unaware models is that the basic (out-of-context) representation of a word is adapted to each specific context of use.
+[BOS] This is done by combining the basic vector of the word with the vectors of words found in its immediate context, or having a specific syntactic relation.
+[BOS] Appropriate substitutes are synonyms or paraphrases of the word that are similar to this contextualized representation.
+[BOS] Melamud et al. (2015) use word embeddings generated using the word2vec skip-gram model (Mikolov et al., 2013) .
+[BOS] word2vec learns for every word type two distinct representations, one as a target and another as a context, both embedded in the same space.
+[BOS] The context representations are generally discarded after training, considered internal to the model, and the output word embeddings represent context-insensitive target word types.
+[BOS] Melamud et al. use the context embeddings in conjunction with the target word embeddings to model word instances in context, identify appropriate substitutes by measuring their similarity to the target and the context, and obtain state-of-the-art results on the LexSub task.
+
+[BOS] In later work, Melamud et al. (2016) propose context2vec, a model that uses a neural network architecture based on word2vec CBOW (Mikolov et al., 2013) .
+[BOS] context2vec replaces CBOW's representation of a word's surrounding context as a simple average of the embeddings of the context words in a fixed window, with a full sentence neural representation of context obtained using a bidirectional LSTM.
+[BOS] Sentential contexts and target words are embedded in the same low-dimensional space, which is optimized to reflect inter-dependencies between them.
+[BOS] This rich representation gives context2vec high performance in tasks involving context, such as lexical substitution, word sense disambiguation and sentence completion.
+[BOS] Peters et al. (2018a) propose a new type of deep contextualized word representations called ELMo (Embeddings from Language Models), where each token is assigned a representation that is a function of the entire input sentence.
+[BOS] Vectors are derived from a bidirectional LSTM that is trained with a coupled language model (LM) objective on a large test corpus.
+[BOS] ELMo representations are deep in the sense that they are a function of all of the internal layers of the biLM, which improves performance in several syntax and semantics-related tasks compared to using the top LSTM layer.
+[BOS] The best combination of layers is learnt jointly with a supervised NLP task.
+[BOS] An analysis on different tasks shows that lower layers efficiently encode syntactic information, while higher layers capture semantics (Peters et al., 2018b) .
+[BOS] The gains observed in syntactic tasks outweigh those on semantic-related tasks, such as coreference resolution, Semantic Role Labeling and word sense disambiguation.
+[BOS] In this work, we apply the ELMo vectors for the first time to the lexical substitution task and compare their performance to the contextsensitive models of Melamud et al. (2015) and Melamud et al. (2016) .
+[BOS] We also propose a way to tune the ELMo representations to the LexSub task, by using a dataset containing a high number of sentences for words in context that represent meanings close to that of their possible substitutes.
+

@@ -1,0 +1,12 @@
+[BOS] Previous participation in biomedical translation tasks include the works of Costa-Juss et al. (2016) which employed Moses Statistic Machine Translation (SMT) to perform automatic translation integrated with a neural character-based recurrent neural network for model re-ranking and bilingual word embeddings for out of vocabulary (OOV) resolution.
+[BOS] Given the 1000-best list of SMT translations, the RNN performs a rescoring and selects the translation with the highest score.
+
+[BOS] The OOV resolution module infers the word in the target language based on the bilingual word embedding trained on large monolingual corpora.
+[BOS] Their reported results show that both approaches can improve BLEU scores, with the best results given by the combination of OOV resolution and RNN re-ranking.
+[BOS] Similarly, Ive et al. (2016) also used the n-best output from Moses as input to a reranking model, which is based on a neural network that can handle vocabularies of arbitrary size.
+
+[BOS] More recently, Tubay and Costa-juss (2018) employed multi-source language translation using romance languages to translate from Spanish, French, and Portuguese to English.
+[BOS] They used data from SciELO and Medline abstracts to train a Transformer model with individual languages to English and also with all languages concatenated to English.
+
+[BOS] In the last WMT biomedical translation challenge (2018) (Neves et al., 2018) , the submission that achieved the best BLEU scores for the ES/EN and PT/EN, in both directions, were the ones submited by the UFRGS team (Soares and Becker, 2018) , followed by the TALP-UPC (Tubay and Costa-juss, 2018) in the ES/EN direction and the UHH-DS in the EN/PT directions.
+

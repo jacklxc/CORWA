@@ -1,0 +1,11 @@
+[BOS] Galley and Manning (2008) present a hierarchical phrase reordering model aimed at improving non-local reorderings.
+[BOS] Via the hierarchical mergence of two blocks, the orientation of long distance words can be computed.
+[BOS] Their shift-reduce algorithm does not import ITG constraints and admits the translation violating ITG constraints.
+[BOS] Zens et al. (2004) introduce a left-toright decoding algorithm with ITG constraints on the alignment template system (Och et al., 1999) .
+
+[BOS] Their algorithm processes candidate source phrases one by one through the whole search space and checks if the candidate phrase complies with ITG constraints.
+[BOS] Besides, their algorithm checks validity via cover vector and does not formalize ITG structure.
+[BOS] The shift-reduce decoding algorithm holds ITG structure via three stacks.
+[BOS] As a result, it can offer ITG-legal spans directly and decode faster.
+[BOS] Furthermore, with
+

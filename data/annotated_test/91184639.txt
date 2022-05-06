@@ -1,0 +1,17 @@
+[BOS] The most closely related prior work is that of Tu and Gimpel (2018) , who experimented with RNN inference networks for sequence labeling.
+[BOS] We compared three architectural families, showed the relationship between optimal architectures and downstream tasks, compared inference networks to gradient descent, and proposed novel variations.
+
+[BOS] We focused in this paper on sequence labeling, in which CRFs with neural network potentials have emerged as a state-of-the-art approach (Lample et al., 2016; Ma and Hovy, 2016; Strubell et al., 2017; Yang et al., 2018) .
+[BOS] Our results suggest that inference networks can provide a feasible way to speed up test-time inference over Viterbi without much loss in performance.
+[BOS] The benefits of inference networks may be coming in part from multi-task training; Edunov et al. (2018) similarly found benefit from combining tokenlevel and sequence-level losses.
+
+[BOS] We focused on structured prediction in this paper, but inference networks are useful in other settings as well.
+[BOS] For example, it is common to use a particular type of inference network to approximate posterior inference in neural approaches to latent-variable probabilistic modeling, such as variational autoencoders (Kingma and Welling, 2013) .
+[BOS] In that setting, Kim et al. (2018) have found benefit with instance-specific updating of inference network parameters, which is related to our instance-level fine-tuning.
+
+[BOS] There are also connections between inference networks and amortized inference (Srikumar et al., 2012) as well as methods for neural knowledge distillation and model compression (Hinton et al., 2015; Ba and Caruana, 2014; .
+
+[BOS] Gradient descent is used for inference in several settings, e.g., structured prediction energy networks (Belanger and McCallum, 2016) , image generation applications (Mordvintsev et al., 2015; Gatys et al., 2015) , finding adversarial examples (Goodfellow et al., 2015) , learning paragraph embeddings (Le and Mikolov, 2014) , and machine translation (Hoang et al., 2017) .
+[BOS] Gradient descent has started to be replaced by inference networks in some of these settings, such as image transformation (Johnson et al., 2016; Li and Wand, 2016) .
+[BOS] Our results provide more evidence that gradient descent can be replaced by inference networks or improved through combination with them.
+

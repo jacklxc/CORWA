@@ -1,0 +1,30 @@
+[BOS] Closely related to our work is the idea of learning visual attention with neural networks Sermanet et al., 2014) , where a recurrent model is used to combine visual evidence at multiple fixations processed by a convolutional neural network.
+[BOS] Similar to our approach, the model is trained end-to-end using the REINFORCE algorithm (Williams, 1992) .
+[BOS] However, a major difference between those work and ours is that we have to sample from discrete jumping distribution, while they can sample from continuous distribution such as Gaussian.
+[BOS] The difference is mainly due to the inborn characteristics of text and image.
+[BOS] In fact, as pointed out by , it was difficult to learn policies over more than 25 possible discrete locations.
+
+[BOS] This idea has recently been explored in the context of natural language processing applications, where the main goal is to filter irrelevant content using a small network (Choi et al., 2016) .
+[BOS] Perhaps the most closely related to our work is the concurrent work on learning to reason with reinforcement learning (Shen et al., 2016) .
+[BOS] The key difference between our work and Shen et al. (2016) is that they focus on early stopping after multiple pass of data to ensure accuracy whereas our method focuses on selective reading with single pass to enable fast processing.
+
+[BOS] The concept of "hard" attention has also been used successfully in the context of making neural network predictions more interpretable (Lei et al., 2016) .
+[BOS] The key difference between our work and Lei et al. (2016) 's method is that our method optimizes for faster inference, and is more dynamic in its jumping.
+[BOS] Likewise is the difference between our approach and the "soft" attention approach by (Bahdanau et al., 2014) .
+[BOS] Recently, (Hahn and Keller, 2016) investigate how machine can fixate and skip words, focusing on the comparison between the behavior of machine and human, while our goal is to make reading faster.
+[BOS] They model the probability that each single word should be read in an unsupervised way while ours directly model the probability of how many words should be skipped with supervised learning.
+
+[BOS] Our method belongs to adaptive computation of neural networks, whose idea is recently explored by (Graves, 2016; Jernite et al., 2016) , where different amount of computations are allocated dynamically per time step.
+[BOS] The main difference between our method and Graves; Jernite et al. 's methods is that our method can set the amount of computation to be exactly zero for many steps, thereby achieving faster scanning over texts.
+[BOS] Even though our method requires policy gradient methods to train, which is a disadvantage compared to (Graves, 2016; Jernite et al., 2016) , we do not find training with policy gradient methods problematic in our experiments.
+
+[BOS] At the high-level, our model can be viewed as a simplified trainable Turing machine, where the controller can move on the input tape.
+[BOS] It is therefore related to the prior work on Neural Turing Machines and especially its RL version (Zaremba and Sutskever, 2015) .
+[BOS] Compared to (Zaremba and Sutskever, 2015) , the output tape in our method is more simple and reward signals in our problems are less sparse, which explains why our model is easy to train.
+[BOS] It is worth noting that Zaremba and Sutskever report difficulty in using policy gradients to train their model.
+[BOS] Our method, by skipping irrelevant content, shortens the length of recurrent networks, thereby addressing the vanishing or exploding gradients in them (Hochreiter et al., 2001) .
+[BOS] The baseline method itself, Long Short Term Memory (Hochreiter and Schmidhuber, 1997), belongs to the same category of methods.
+[BOS] In this category, there are several recent methods that try to achieve the same goal, such as having recurrent networks that operate in different frequency (Koutnik et al., 2014) or is organized in a hierarchical fashion (Chan et al., 2015; Chung et al., 2016) .
+
+[BOS] Lastly, we should point out that we are among the recent efforts that deploy reinforcement learning to the field of natural language processing, some of which have achieved encouraging results in the realm of such as neural symbolic machine (Liang et al., 2017) , machine reasoning (Shen et al., 2016) and sequence generation (Ranzato et al., 2015) .
+

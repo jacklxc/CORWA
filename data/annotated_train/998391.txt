@@ -1,0 +1,11 @@
+[BOS] Our contributions build on previous work in making seq2seq models more computationally efficient.
+[BOS] Luong et al. (2015) introduce various attention mechanisms that are computationally simpler and perform as well or better than the original one presented in Bahdanau et al. (2014) .
+[BOS] However, these typically still require O(D 2 ) computation complexity, or lack the flexibility to look at the full source sequence.
+[BOS] Efficient location-based attention (Xu et al., 2015) has also been explored in the image recognition domain.
+[BOS] Wu et al. (2016) presents several enhancements to the standard seq2seq architecture that allow more efficient computation on GPUs, such as only attending on the bottom layer.
+[BOS] Kalchbrenner et al. (2016) propose a linear time architecture based on stacked convolutional neural networks.
+[BOS] Gehring et al. (2016) also propose the use of convolutional encoders to speed up NMT.
+[BOS] de Brbisson and Vincent (2016) propose a linear attention mechanism based on covariance matrices applied to information retrieval.
+[BOS] Raffel et al. (2017) enable online linear time attention calculation by enforcing that the alignment between input and output sequence elements be monotonic.
+[BOS] Previously, monotonic attention was proposed for morphological inflection generation by Aharoni and Goldberg (2016) .
+

@@ -1,0 +1,44 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 94 99	[BOS]
+T3	Single_summ 246 251	[BOS]
+T4	Narrative_cite 363 368	[BOS]
+T5	Transition 684 689	[BOS]
+T6	Multi_summ 751 756	[BOS]
+T7	Narrative_cite 950 955	[BOS]
+T8	Single_summ 1224 1229	[BOS]
+T9	Single_summ 1338 1343	[BOS]
+T10	Reflection 1451 1456	[BOS]
+T11	Narrative_cite 1631 1636	[BOS]
+T12	Reflection 1761 1766	[BOS]
+T13	Reflection 1844 1849	[BOS]
+T14	Reflection 1947 1952	[BOS]
+T15	Reflection 2072 2077	[BOS]
+T16	Reflection 2174 2179	[BOS]
+T17	Reflection 2327 2332	[BOS]
+T18	Reflection 2414 2419	[BOS]
+T19	Reflection 2504 2509	[BOS]
+T20	Dominant 120 146	Gildea and Jurafsky (2002)
+T21	Reference 613 635	(Surdeanu et al., 2003
+T22	Reference 637 657	Xue and Palmer, 2004
+T23	Reference 659 680	Pradhan et al., 2005)
+T24	Dominant 771 794	Toutanova et al. (2008)
+T25	Dominant 797 823	Martins and Almeida (2014)
+T26	Dominant 828 848	Yang and Zong (2014)
+T27	Reference 1122 1144	(Zapirain et al., 2013
+T28	Reference 1146 1168	Collobert et al., 2011
+T29	Reference 1170 1195	Deschacht and Moens, 2009
+T30	Reference 1197 1221	Roth and Woodsend, 2014)
+T31	Dominant 1290 1313	Moschitti et al. (2008)
+T32	Reference 1734 1758	(Bjrkelund et al., 2010)
+T33	B_span 100 103	The
+T34	E_span 356 360	path
+T35	B_span 590 592	as
+T36	E_span 675 679	2005
+T37	B_span 771 780	Toutanova
+T38	E_span 938 948	predicates
+T39	B_span 989 997	semantic
+T40	E_span 1216 1220	2014
+T41	B_span 1290 1299	Moschitti
+T42	E_span 1445 1449	cost
+T43	B_span 1646 1652	system
+T44	E_span 1753 1757	2010

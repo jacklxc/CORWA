@@ -1,0 +1,14 @@
+[BOS] SemEval has been offering a shared task related to temporal relation extraction from clinical narratives over the past two years (Bethard et al., 2015 .
+[BOS] Relying on the THYME corpus, the task challenged participants to extract EVENT and TIMEX3 entities and then to extract narrative container relations and document creation time relations.
+[BOS] Herein, we focus on the second part of the challenge, temporal relation extraction and more specifically the narrative container relations.
+[BOS] Different approaches have been implemented by the participants, including Support Vector Machine (SVM) classifiers (AAl Abdulsalam et al., 2016; Cohan et al., 2016; Lee et al., 2016; Tourille et al., 2016) , Conditional Random Fields (CRF) and convolutional neural networks (CNNs) (Chikka, 2016) .
+[BOS] Beyond the challenges, Leeuwenberg and Moens (2017) propose a model based on a structured perceptron to jointly predict both types of temporal relations.
+[BOS] Lin et al. (2016) performs training instance augmentation to increase the number of training examples and implement a SVM based model for containment relation extraction.
+[BOS] Dligach et al. (2017) implement models based on CNNs and Long Short-Term Memory Networks (LSTMs) (Hochreiter and Schmidhuber, 1997) to extract containment relations from the THYME corpus.
+
+[BOS] From a more general perspective, relation extraction and classification is a task explored by many approaches, from fully unsupervised to fully supervised.
+[BOS] Recent years have seen an increasing interest for the use of neural approaches.
+
+[BOS] Recursive neural networks (Socher et al., 2011 (Socher et al., , 2013 have proved useful for tasks involving longdistance relations, such as semantic relation extraction (Hashimoto et al., 2013; .
+[BOS] Convolutional networks have also been used (dos Santos et al., 2015; Zeng et al., 2014) and more recently, recurrent networks such as LSTM showed to be more robust for learning long-distance semantic information (Miwa and Bansal, 2016; Xu et al., 2015; Zhou et al., 2016) .
+

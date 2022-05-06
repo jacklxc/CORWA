@@ -1,0 +1,53 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 79 84	[BOS]
+T3	Narrative_cite 238 243	[BOS]
+T4	Narrative_cite 459 464	[BOS]
+T5	Transition 610 615	[BOS]
+T6	Single_summ 692 697	[BOS]
+T7	Single_summ 799 804	[BOS]
+T8	Transition 909 914	[BOS]
+T9	Single_summ 1025 1030	[BOS]
+T10	Single_summ 1274 1279	[BOS]
+T11	Single_summ 1391 1396	[BOS]
+T12	Transition 1541 1546	[BOS]
+T13	Multi_summ 1648 1653	[BOS]
+T14	Single_summ 1808 1813	[BOS]
+T15	Single_summ 1961 1966	[BOS]
+T16	Single_summ 2121 2126	[BOS]
+T17	Single_summ 2214 2219	[BOS]
+T18	Transition 2445 2450	[BOS]
+T19	Single_summ 2566 2571	[BOS]
+T20	Single_summ 2658 2663	[BOS]
+T21	Single_summ 2788 2793	[BOS]
+T22	Transition 2910 2915	[BOS]
+T23	Reference 330 356	(Gildea and Jurafsky, 2002
+T24	Reference 358 381	Gildea and Palmer, 2002
+T25	Reference 383 404	Pradhan et al., 2005)
+T26	Reference 536 561	(Punyakanok et al., 2008)
+T27	Dominant 698 719	Pradhan et al. (2005)
+T28	Dominant 1089 1112	Collobert et al. (2011)
+T29	Dominant 1654 1672	Zhou and Xu (2015)
+T30	Dominant 1677 1693	He et al. (2017)
+T31	Dominant 2572 2593	Coppola et al. (2009)
+T32	Dominant 2794 2817	Dinarelli et al. (2009)
+T33	Pronoun 465 469	This
+T34	Pronoun 565 567	it
+T35	Pronoun 626 628	it
+T36	Pronoun 672 674	it
+T37	Pronoun 1814 1818	They
+T38	Pronoun 1967 1972	Their
+T39	Pronoun 2664 2668	They
+T40	B_span 277 284	extract
+T41	E_span 399 403	2005
+T42	B_span 470 479	syntactic
+T43	E_span 598 608	dependency
+T44	B_span 698 705	Pradhan
+T45	E_span 903 907	data
+T46	B_span 1043 1051	minimize
+T48	E_span 1534 1539	model
+T47	B_span 1654 1658	Zhou
+T49	E_span 2432 2442	implicitly
+T50	B_span 2572 2579	Coppola
+T51	E_span 2776 2786	utterances
+T52	B_span 2794 2803	Dinarelli
+T53	E_span 2901 2908	parsers

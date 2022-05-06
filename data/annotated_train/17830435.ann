@@ -1,0 +1,42 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 104 109	[BOS]
+T3	Transition 406 411	[BOS]
+T4	Narrative_cite 498 503	[BOS]
+T5	Narrative_cite 615 620	[BOS]
+T6	Single_summ 762 767	[BOS]
+T7	Narrative_cite 949 954	[BOS]
+T8	Single_summ 1047 1052	[BOS]
+T9	Reflection 1244 1249	[BOS]
+T10	Reflection 1395 1400	[BOS]
+T11	Reference 221 240	(Qian et al., 2010)
+T12	Reference 265 286	(Jiang et al., 2008a)
+T13	Reference 300 323	(Zhang and Clark, 2008)
+T14	Reference 358 369	(Sun, 2011)
+T15	Reference 382 403	(Jiang et al., 2008b)
+T16	Reference 576 592	(Li et al., 2011
+T17	Reference 594 611	Lee et al., 2011)
+T18	Reference 735 760	(Harper and Huang, 2009 )
+T19	Dominant 771 791	(Jiang et al., 2009)
+T20	Reference 1019 1044	(Green and Manning, 2010)
+T21	Dominant 1096 1126	(Goldberg and Tsarfaty, 2008 )
+T22	Pronoun 412 417	These
+T23	B_span 200 207	virtual
+T24	E_span 235 239	2010
+T25	B_span 243 251	cascaded
+T26	E_span 280 285	2008a
+T27	B_span 289 299	perceptron
+T28	E_span 318 322	2008
+T29	B_span 326 329	sub
+T30	E_span 364 368	2011
+T31	B_span 372 381	reranking
+T32	E_span 397 402	2008b
+T33	B_span 514 519	joint
+T34	E_span 606 610	2011
+T35	B_span 719 727	pipeline
+T36	E_span 754 758	2009
+T37	B_span 768 770	In
+T38	E_span 938 947	framework
+T39	B_span 1012 1018	Arabic
+T40	E_span 1039 1043	2010
+T41	B_span 1097 1105	Goldberg
+T42	E_span 1236 1242	Hebrew

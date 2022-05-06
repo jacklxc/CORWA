@@ -1,0 +1,28 @@
+[BOS] A lot of existing SAG studies have a main interest in exploring better representations of answers and similarity measures between student answers and reference answers.
+[BOS] A wide variety of methods have been explored so far, ranging from Latent Semantic Analysis (LSA) (Mohler et al., 2011) , edit distance-based similarity, and knowledgebased similarity using WordNet (Pedersen et al., 2004 ) (Magooda et al., 2016 to word embeddingbased similarity (Sultan et al., 2016) .
+[BOS] Recently, Riordan et al. (2017) report that neural networkbased feature representation learning (Taghipour and Ng, 2016) is effective for SAG.
+[BOS] In contrast to the popularity of learning answer representations, the use of rubric information for SAG has been gained little attention so far.
+[BOS] In Sakaguchi et al. (2015) , the authors compute similarities, such as BLEU (Papineni et al., 2002) , between an answer and each key element in a rubric, and use them as features in a support vector regression (SVR) model.
+[BOS] Ramachandran et al. (2015) .
+[BOS] Ramachandran et al. (2015) generates text patterns from top answers and rubrics, and reports the automatically generated pattern performances better than manually generated regex pattern.
+[BOS] Nevertheless, it still remains an open issue (i) whether a rubric is effective or not even in the context of a neural representation learning paradigm (Riordan et al., 2017) , and (ii) what kinds of neural architectures should be employed for the efficient use of rubrics.
+
+[BOS] Another issue in SAG is on low-resource settings.
+[BOS] investigate the importance of the training data size on nonneural SAG models with discrete features.
+[BOS] Horbach and Palmer (2016) show that active learning is effective for increasing useful training instances.
+[BOS] This is orthogonal to our approach: combining active learning with our rubric-aware SAG model is an interesting future direction.
+[BOS] We assume the base component encodes an answer into a feature vector f a .
+[BOS] We also assume that a given rubric stipulates a set of key elements in natural language.
+[BOS] We build a rubric component to encode rubric information, based on the relevance between the answer a and each key element k  {k 1 , k 2 ,    , k K } provided in the rubric.
+
+[BOS] The rubric component first encodes each key element that consists of m words, k = (w 1 , w 2 ,    , w m ), into its feature vector k and the answer a into a.
+[BOS] Then, it computes the relevance between the given answer a and each key element k  {k 1 , k 2 ,    , k K } using a word-level attention mechanism, and generates attentional feature vectors f r 1 ,    , f r K , which represent the aggregated information of each key element.
+[BOS] A rubric feature f r is generated based on the obtained K attentional feature vectors.
+[BOS] Finally, f a and f r are merged into one vector f , which is used for scoring:
+
+[BOS] where w is a parameter vector,  is a promptspecific scaling constant, and b is a bias term.
+[BOS] Note that the model does not require explicit annotation of key elements on the training answer samples because the model implicitly estimates which key elements are included in each student answer in the course of training.
+[BOS] It is also   Embeddings Bi-LSTM Pooling Figure 3 : The base component.
+
+[BOS] important to note that our framework is encoderagnostic; namely, any answer encoder that produces a fixed-length feature vector can be used as the base component.
+

@@ -1,0 +1,53 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 299 304	[BOS]
+T3	Narrative_cite 365 370	[BOS]
+T4	Narrative_cite 579 584	[BOS]
+T5	Single_summ 847 852	[BOS]
+T6	Narrative_cite 1070 1075	[BOS]
+T7	Transition 1257 1262	[BOS]
+T8	Single_summ 1331 1336	[BOS]
+T9	Transition 1746 1751	[BOS]
+T10	Narrative_cite 1875 1880	[BOS]
+T11	Single_summ 2025 2030	[BOS]
+T12	Single_summ 2199 2204	[BOS]
+T13	Single_summ 2381 2386	[BOS]
+T14	Reflection 2550 2555	[BOS]
+T15	Reference 553 574	(Bachman et al., 2017
+T16	Reference 777 795	(Jean et al., 2014
+T17	Reference 797 818	Gulcehre et al., 2015
+T18	Reference 820 844	Domhan and Hieber, 2017)
+T19	Dominant 896 915	Cheng et al. (2016)
+T20	Reference 1114 1137	(Sennrich et al., 2015a
+T21	Reference 1139 1157	Zhang et al., 2018
+T22	Reference 1159 1178	Hoang et al., 2018)
+T23	Reference 1376 1397	(Lample et al., 2017b
+T24	Reference 1399 1420	Artetxe et al., 2017)
+T25	Dominant 1442 1463	(Lample et al., 2018)
+T26	Reference 1941 1958	(Yue et al., 2012
+T27	Reference 1960 1979	Wirth et al., 2017)
+T28	Reference 2001 2022	(Nguyen et al., 2017)
+T29	Dominant 2031 2052	Bachman et al. (2017)
+T30	Dominant 2205 2223	Fang et al. (2017)
+T31	Dominant 2387 2411	Woodward and Finn (2017)
+T32	B_span 539 543	pool
+T33	E_span 570 574	2017
+T34	B_span 765 771	target
+T35	E_span 839 843	2017
+T36	B_span 853 859	Rather
+T37	E_span 1056 1068	respectively
+T38	B_span 1086 1090	back
+T39	E_span 1173 1177	2018
+T40	B_span 1352 1364	unsupervised
+T41	E_span 1415 1419	2017
+T42	B_span 1425 1431	phrase
+T43	E_span 1734 1743	languages
+T44	B_span 1903 1907	deep
+T45	E_span 1974 1978	2017
+T46	B_span 1983 1989	bandit
+T47	E_span 2017 2021	2017
+T48	B_span 2031 2038	Bachman
+T49	E_span 2189 2197	function
+T50	B_span 2205 2209	Fang
+T51	E_span 2375 2379	data
+T52	B_span 2387 2395	Woodward
+T53	E_span 2539 2548	decisions

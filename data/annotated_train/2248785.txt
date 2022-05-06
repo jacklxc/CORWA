@@ -1,0 +1,24 @@
+[BOS] To extract related terms for a source word, we used Wikipedia 4 , which is a free encyclopedia on the Web and includes general words, persons, places, companies, and products, as headwords.
+[BOS] We extracted related term candidates for a source word as follows.
+
+[BOS] 1.
+[BOS] We consulted the Japanese Wikipedia for the source word and obtained the result page.
+
+[BOS] 2.
+[BOS] We deleted HTML tags from the result page and performed morphological analysis by ChaSen 5 .
+
+[BOS] 3.
+[BOS] We extracted nouns and adjectives as related term candidates.
+
+[BOS] We used mutual information (Turney, 2001 ) to measure the degree of relation between the source word and a related term candidate by Equation (3).
+
+[BOS] X and Y denote the source word and a related term candidate, respectively.
+[BOS] P (X) and P (Y ) denote probabilities of X and Y , respectively.
+[BOS] P (X, Y ) denotes the joint probability of X and Y .
+[BOS] To estimate the above three probabilities, we followed the method proposed by Turney (2001).
+[BOS] We used the Yahoo!JAPAN 6 search engine and replaced P (A) in Equation (3) with the number of pages retrieved by the query A.
+[BOS] Here, "A" can be "X", "Y ", or "X and Y ".
+[BOS] Then, we selected up to 10 Y s with the greatest I(X, Y ) and translated them into Chinese using the Yahoo!JAPAN machine translation system.
+[BOS] Table 1 shows examples of related terms for the source word " (mass)", such as " (ceremony)" and " (dedication)".
+[BOS] Irrelevant candidates, such as " (meeting)" and " (thing)", were discarded successfully.
+

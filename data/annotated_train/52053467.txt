@@ -1,0 +1,36 @@
+[BOS] The effect of noise in NMT was recently studied by Khayrallah and Koehn (2018) , who explored noisy situations during training due to webcrawled data.
+[BOS] This type of noise includes misaligned, mistranslated, or untranslated sentences which, when used during training, significantly degrades the performance of NMT.
+[BOS] Unlike our work, they primarily focus on a setting where the training set is noisy but the test set is clean.
+
+[BOS] In addition, Heigold et al. (2017) evaluated the robustness of word embeddings against word scrambling noise, and showed that performance in downstream tasks like POS-tagging and MT is especially hurt.
+[BOS] Sakaguchi et al. (2017a) studied word scrambling and the Cmabrigde Uinervtisy (Cambridge University) effect, where humans are able to understand the meaning of sentences with scrambled words, performing word recognition (word level spelling correction) with a semi-character RNN system.
+[BOS] Focusing only on character-level NMT models, Belinkov and Bisk (2018) showed that they ex- .
+[BOS] In line with our findings, they also showed that slightly better performance can be achieved by training on data artificially induced with the same kind of noise as the test set.
+[BOS] Sperber et al. (2017) proposed a noiseintroduction system reminiscent of WER, based on insertions, deletions, and substitutions.
+[BOS] An NMT system tested on correct transcriptions achieves a BLEU score of 55 (4 references), but tested on the ASR transcriptions it only achieves a BLEU score of 35.7.
+[BOS] By introducing similar noise in the training data, they were able to make the NMT system slightly more robust.
+[BOS] Interestingly, they found that the optimal amount of noise on the training data is smaller than the amount of noise on the test data.
+
+[BOS] The notion of linguistically plausible corruption is also explored by Li et al. (2017) , who created adversarial examples with syntactic and semantic noise (reordering and word substitutions respectively).
+[BOS] When training with these noisy datasets, they obtained better performance on several text classification tasks.
+[BOS] Furthermore, in accordance with our results, their best system is the one that combines different types of noise.
+
+[BOS] We present a summary of relevant previous work in Table 9 .
+[BOS] Synthetic errors refer to noise introduced according an artificially created distribu-tion, and natural errors refer to actual errorful text produced by humans.
+[BOS] As for semi-natural, it refers to either noise introduced according to a distribution learned from data (as in our work), or to errors that are learned from data but introduced according to an artificial distribution (as is part of the work of Belinkov and Bisk (2018) ).
+
+[BOS] We consider our work to be complementary to the works of Heigold et al. (2017) ; Belinkov and Bisk (2018) , and Sperber et al. (2017) .
+[BOS] However, there are several important differences:
+
+[BOS] 1.
+[BOS] Belinkov and Bisk (2018) and Sperber et al. (2017) train their NMT systems on fairly small datasets: 235K (Fr-En), 210K (De-En), 122K (Cz-En), and 138K sentences (Es-En) respectively.
+[BOS] Even though they use systems like Nematus (Sennrich et al., 2017) or XNMT (Neubig et al., 2018) which generally achieve nearly SOTA results, it is unclear whether their results generalize to larger training data.
+[BOS] In contrast, we train our system on almost 2M sentences.
+[BOS] 2.
+[BOS] All three systems introduce somewhat unrealistic amounts of noise in the data.
+[BOS] The natural noise of Belinkov and Bisk (2018) consists of word substitutions based on Wikipedia errors or corrected essays (in the Czech case) but they substitute all possible correct words with their erroneous version, We suspect that such a solution would indeed be appropriate for dealing with typos and other character-level noise, but not for more general grammatical noise.
+[BOS] Our method could potentially be combined with GloVe (Pennington et al., 2014) or fastText (Bojanowski et al., 2017) embeddings that can deal with slight spelling variations, but we leave this for future work.
+
+[BOS] On the other side, Grammar Error Correction has been extensively studied, with significant incremental advances made recently by treating GEC as an MT task: among others, Junczys-Dowmunt and Grundkiewicz (2016) used phrased-based MT, Ji et al. (2017) used hybrid character-word neural sequence-to-sequence systems, Sakaguchi et al. (2017b) used reinforcement learning, and combined several techniques with NMT to achieve the current state-of-the-art.
+[BOS] Synthetic errors for training GEC systems have also been studied and applied with mixed success (Rozovskaya and Roth, 2010; Rozovskaya et al., 2014; Xie et al., 2016) , while more recently Xie et al. (2018) used backtranslation techniques for adding synthetic noise useful for GEC.
+

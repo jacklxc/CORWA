@@ -1,0 +1,43 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 133 138	[BOS]
+T3	Transition 315 320	[BOS]
+T4	Single_summ 443 448	[BOS]
+T5	Single_summ 556 561	[BOS]
+T6	Transition 737 742	[BOS]
+T7	Single_summ 828 833	[BOS]
+T8	Single_summ 1109 1114	[BOS]
+T9	Single_summ 1225 1230	[BOS]
+T10	Narrative_cite 1399 1404	[BOS]
+T11	Single_summ 1604 1609	[BOS]
+T12	Narrative_cite 1791 1796	[BOS]
+T13	Dominant 489 506	(Ng et al., 2014)
+T14	Dominant 562 589	(Rozovskaya and Roth, 2016)
+T15	Dominant 834 862	(Yannakoudakis et al., 2017)
+T16	Dominant 1115 1132	(Ji et al., 2017)
+T17	Dominant 1231 1258	(Chollampatt and Ng, 2018 )
+T18	Reference 1420 1441	(Barone et al., 2017)
+T19	Reference 1458 1480	(Vaswani et al., 2017)
+T20	Dominant 1665 1682	(Ge et al., 2018)
+T21	Reference 1845 1861	(Nicholls, 2003)
+T22	Pronoun 381 385	they
+T23	Pronoun 1388 1392	this
+T24	Pronoun 1940 1945	their
+T25	Pronoun 1997 2002	their
+T26	B_span 453 458	CoNLL
+T27	E_span 544 554	approaches
+T28	B_span 563 573	Rozovskaya
+T29	E_span 727 734	methods
+T30	B_span 835 848	Yannakoudakis
+T31	E_span 1097 1107	hypotheses
+T32	B_span 1116 1117	J
+T33	E_span 1212 1223	information
+T34	B_span 1232 1243	Chollampatt
+T35	E_span 1393 1397	task
+T36	B_span 1411 1415	deep
+T37	E_span 1436 1440	2017
+T38	B_span 1446 1457	transformer
+T39	E_span 1475 1479	2017
+T40	B_span 1614 1619	state
+T41	E_span 1780 1789	mechanism
+T42	B_span 1823 1826	non
+T43	E_span 1856 1860	2003

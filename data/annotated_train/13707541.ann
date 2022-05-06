@@ -1,0 +1,29 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 205 210	[BOS]
+T3	Single_summ 402 407	[BOS]
+T4	Multi_summ 538 543	[BOS]
+T5	Single_summ 734 739	[BOS]
+T6	Other 828 833	[BOS]
+T7	Single_summ 918 923	[BOS]
+T8	Reference 120 139	(Banko et al., 2000
+T9	Reference 141 158	Dorr et al., 2003
+T10	Reference 160 178	Zajic et al., 2004
+T11	Reference 180 202	Cohn and Lapata, 2008)
+T12	Dominant 408 426	Rush et al. (2015)
+T13	Dominant 544 564	Chopra et al. (2016)
+T14	Dominant 611 634	Nallapati et al. (2016)
+T15	Dominant 740 758	Zhou et al. (2017)
+T16	Dominant 924 940	Ma et al. (2018)
+T17	Pronoun 212 214	it
+T18	B_span 96 105	automatic
+T19	E_span 197 201	2008
+T20	B_span 408 412	Rush
+T21	E_span 524 536	achievements
+T22	B_span 544 550	Chopra
+T23	E_span 599 606	decoder
+T24	B_span 611 620	Nallapati
+T25	E_span 721 732	performance
+T26	B_span 740 744	Zhou
+T27	E_span 815 826	information
+T28	B_span 924 926	Ma
+T29	E_span 996 1006	embeddings

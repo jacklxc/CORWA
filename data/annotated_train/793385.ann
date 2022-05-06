@@ -1,0 +1,87 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 191 196	[BOS]
+T3	Transition 268 273	[BOS]
+T4	Single_summ 334 339	[BOS]
+T5	Single_summ 503 508	[BOS]
+T6	Reflection 631 636	[BOS]
+T7	Single_summ 739 744	[BOS]
+T8	Single_summ 862 867	[BOS]
+T9	Reflection 992 997	[BOS]
+T10	Single_summ 1104 1109	[BOS]
+T11	Single_summ 1280 1285	[BOS]
+T12	Single_summ 1459 1464	[BOS]
+T13	Multi_summ 1656 1661	[BOS]
+T14	Multi_summ 1819 1824	[BOS]
+T15	Transition 2024 2029	[BOS]
+T16	Reflection 2173 2178	[BOS]
+T17	Reflection 2332 2337	[BOS]
+T18	Reflection 2534 2539	[BOS]
+T19	Reflection 2637 2642	[BOS]
+T20	Single_summ 2714 2719	[BOS]
+T21	Reflection 3014 3019	[BOS]
+T22	Reflection 3330 3335	[BOS]
+T23	Reflection 3422 3427	[BOS]
+T24	Reflection 3494 3499	[BOS]
+T25	Reflection 3603 3608	[BOS]
+T26	Other 3684 3689	[BOS]
+T27	Reflection 3734 3739	[BOS]
+T28	Other 3862 3867	[BOS]
+T29	Other 3936 3941	[BOS]
+T30	Reflection 3950 3955	[BOS]
+T31	Reflection 3984 3989	[BOS]
+T32	Other 4127 4132	[BOS]
+T33	Other 4157 4162	[BOS]
+T34	Other 4220 4225	[BOS]
+T35	Reflection 4399 4404	[BOS]
+T36	Reflection 4603 4608	[BOS]
+T37	Reflection 4752 4757	[BOS]
+T38	Reflection 4948 4953	[BOS]
+T39	Other 5090 5095	[BOS]
+T40	Reflection 5290 5295	[BOS]
+T41	Other 5363 5368	[BOS]
+T42	Reflection 5393 5398	[BOS]
+T43	Reflection 5600 5605	[BOS]
+T44	Transition 5724 5729	[BOS]
+T45	Reflection 5837 5842	[BOS]
+T46	Reflection 6060 6065	[BOS]
+T47	Reflection 6169 6174	[BOS]
+T48	Reflection 6296 6301	[BOS]
+T49	Dominant 340 363	Bronstein et al. (2015)
+T50	Dominant 783 804	(Banko et al., 2007 )
+T51	Dominant 1127 1148	(Riedel et al., 2013)
+T52	Dominant 1465 1484	Verga et al. (2017)
+T53	Dominant 1662 1686	Rocktschel et al. (2015)
+T54	Dominant 1691 1714	Demeester et al. (2016)
+T55	Dominant 2720 2743	Toutanova et al. (2015)
+T56	B_span 340 344	Bron
+T57	E_span 622 629	methods
+T58	B_span 745 749	Open
+T59	E_span 981 990	relations
+T60	B_span 1110 1119	Universal
+T61	E_span 1447 1457	techniques
+T62	B_span 1465 1469	Verg
+T63	E_span 1628 1636	entities
+T64	B_span 1662 1666	Rock
+T65	E_span 2018 2022	data
+T66	B_span 2720 2722	To
+T67	E_span 3009 3011	do
+T68	Pronoun 274 278	This
+T69	Pronoun 509 513	They
+T70	Pronoun 931 935	they
+T71	Pronoun 1001 1005	this
+T72	Pronoun 1563 1567	this
+T73	Pronoun 1825 1829	This
+T74	Pronoun 2540 2545	These
+T75	Pronoun 2694 2699	their
+T76	Pronoun 2828 2833	their
+T77	Pronoun 2885 2889	they
+T78	Pronoun 2905 2910	their
+T79	Pronoun 2955 2959	they
+T80	Pronoun 4251 4255	this
+T81	Pronoun 4405 4409	This
+T82	Pronoun 4463 4465	it
+T83	Pronoun 4770 4774	this
+T84	Pronoun 5585 5589	this
+T85	Pronoun 5683 5685	it
+T86	Pronoun 5987 5992	their
+T87	Pronoun 6249 6251	it

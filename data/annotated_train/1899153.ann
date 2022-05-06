@@ -1,0 +1,43 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 191 196	[BOS]
+T3	Reflection 377 382	[BOS]
+T4	Narrative_cite 508 513	[BOS]
+T5	Reflection 762 767	[BOS]
+T6	Narrative_cite 975 980	[BOS]
+T7	Reflection 1039 1044	[BOS]
+T8	Narrative_cite 1148 1153	[BOS]
+T9	Narrative_cite 1332 1337	[BOS]
+T10	Reflection 1444 1449	[BOS]
+T11	Reference 131 151	(Glehre et al., 2016
+T12	Reference 153 168	Gu et al., 2016
+T13	Reference 170 187	Ling et al., 2016
+T14	Reference 242 262	Merity et al., 2016)
+T15	Reference 582 602	Sordoni et al., 2015
+T16	Reference 604 623	Serban et al., 2016
+T17	Reference 625 644	Shang et al., 2015)
+T18	Reference 672 689	(Wen et al., 2015
+T19	Reference 691 714	Bordes and Weston, 2016
+T20	Reference 716 740	Williams and Zweig, 2016
+T21	Reference 742 759	Wen et al., 2016)
+T22	Reference 1015 1036	(Kiddon et al., 2016)
+T23	Reference 1188 1209	(Mikolov et al., 2010
+T24	Reference 1211 1234	Jozefowicz et al., 2016
+T25	Reference 1236 1256	Mikolov et al., 2010
+T26	Reference 1258 1276	Wang and Cho, 2015
+T27	Reference 1393 1418	(Haghighi and Klein, 2010
+T28	Reference 1420 1441	Wiseman et al., 2016)
+T29	Pronoun 1045 1049	They
+T30	B_span 82 93	incorporate
+T31	E_span 183 187	2016
+T32	B_span 197 200	Our
+T33	E_span 257 261	2016
+T34	B_span 563 567	chit
+T35	E_span 639 643	2015
+T36	B_span 649 653	task
+T37	E_span 754 758	2016
+T38	B_span 981 987	Recipe
+T39	E_span 1031 1035	2016
+T40	B_span 1154 1161	Context
+T41	E_span 1272 1276	2015
+T42	B_span 1338 1343	There
+T43	E_span 1436 1440	2016

@@ -1,0 +1,29 @@
+[BOS] Multi-hop Reading Comprehension The last few years have witnessed significant progress on large-scale QA datasets including clozestyle tasks (Hermann et al., 2015) , open-domain QA (Yang et al., 2015) , and more (Rajpurkar et al., 2016 (Rajpurkar et al., , 2018 .
+[BOS] However, all of the above datasets are confined to a single-document context per question domain.
+[BOS] Joshi et al. (2017) introduced a multi-document QA dataset with some questions requiring cross-sentence inferences to answer.
+[BOS] The bAbI dataset (Weston et al., 2016) requires the model to combine multiple pieces of evidence in the synthetic text.
+[BOS] Welbl et al. (2017) uses Wikipedia articles as the context and a subject-relation pair as the query, and constructs the multi-hop QAngaroo dataset by traversing a directed bipartite graph so that the evidence required to answer a query could be spread across multiple documents.
+[BOS] HotpotQA ) is a more recent multi-hop QA dataset that has crowd-sourced questions with more diverse syntactic and semantic features compared to QAngaroo.
+[BOS] It includes four types of questions, each requiring a different reasoning paradigm.
+[BOS] Some examples require inferring the bridge entity from the question (Type I in ), while others demand fact-checking or comparing subjects' properties from two different documents (Type II and comparison question).
+[BOS] Concurrently to our work, Min et al. (2019b) also tackle HotpotQA by decomposing its multi-hop questions into singlehop sub-questions to achieve better performance and interpretability.
+[BOS] However, their system approaches the question decomposition by having a decomposer model trained via human labels, while our controller accomplishes this task automatically with the soft attention over the questionwords' representation and is only distantly supervised by the answer and bridge-entity supervision, with no extra human labels.
+[BOS] Moreover, they propose a pipeline system with the decomposers, an answer-prediction model, and a decomposition scorer trained separately on the previous stage's output.
+[BOS] Our modular network, on the other hand, is an end-to-end system that is optimized jointly.
+
+[BOS] Neural Modular Network Neural Modular Network (NMN) is a class of models that are composed of a number of sub-modules, where each sub-module is capable of performing a specific subtask.
+[BOS] In NMN (Andreas et al., 2016b) , N2NMN (Hu et al., 2017) , PG+EE (Johnson et al., 2017) and TbD (Mascharka et al., 2018) , the entire reasoning procedure starts by analyzing the question and decomposing the reasoning procedure into a sequence of sub-tasks, each with a corresponding module.
+[BOS] This is done by either a parser (Andreas et al., 2016b) or a layout policy (Hu et al., 2017; Johnson et al., 2017; Mascharka et al., 2018) that turns the question into a module layout.
+[BOS] Then the module layout is executed with a neural module network.
+[BOS] Overall, given an input question, the layout policy learns what sub-tasks to perform, and the neural modules learn how to perform each individual sub-task.
+
+[BOS] However, since the the modular layout is sampled from the controller, the controller itself is not end-to-end differentiable and has to be optimized using Reinforcement Learning Algorithms like Reinforce (Williams, 1992) .
+[BOS] Hu et al. (2018) used soft program execution where the output of each step is the average of outputs from all modules weighted by the module distribution, and showed its superiority over hard-layout NMNs.
+[BOS] All previous works in NMN, including Hu et al. (2018) targeted visual question answering or structured knowledge-based GeoQA, and hence the modules are designed to process image or KB inputs.
+[BOS] We are the first to apply modular networks to unstructured, text-based QA, where we redesigned the modules for language-based reasoning by using bi-attention (Seo et al., 2017; Xiong et al., 2017) to replace convolution and multiplication of the question vector with the image feature.
+[BOS] Our model also has access to the full-sized bi-attention vector before it is projected down to the 1-d distribution.
+
+[BOS] Architecture Learning Our work also shares the spirit of recent research on Neural Architecture Search (NAS) (Zoph and Le, 2016; Pham et al., 2018; Liu et al., 2018) , since the architecture of the model is learned dynamically based on controllers instead of being manually-designed.
+[BOS] However, Neural Architecture Search aims to learn the structure of the individual CNN/RNN cell with fixed inter-connections between the cells, while Modular Networks have preset individual modules but learns the way to assemble them into a larger network.
+[BOS] Moreover, Modular Networks' architectures are predicted dynamically on each data point, while previous NAS methods learn a single cell structure independent of the example.
+

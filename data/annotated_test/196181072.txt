@@ -1,0 +1,33 @@
+[BOS] Domain adaptation has been a crucial and challenging research topic in both NLP and ML fields.
+[BOS] Due to the vast scope of related research, we try to give a brief (and far from complete) review on some representative approaches of high relevance with syntactic parsing.
+
+[BOS] Unsupervised domain adaptation.
+[BOS] Due to the lack of sufficient labeled data, most previous works focuses on unsupervised domain adapta-tion, assuming there is only labeled data for the source domain.
+[BOS] Researchers make great effort to learn useful features from large-scale unlabeled target-domain data, which is usually much easier to collect.
+[BOS] As a typical semi-supervised approach, self-training is shown to be very useful for cross-domain constituent parsing (McClosky et al., 2006) and dependency parsing (Yu et al., 2015) .
+[BOS] There are also many failed works on applying self-training for in-domain and crossdomain dependency parsing.
+[BOS] Sagae and Tsujii (2007) apply co-training to the CoNLL-2007 cross-domain dependency parsing task and report positive gains (Nivre et al., 2007) .
+[BOS] In contrast, Dredze et al. (2007) experiment with many domain adaptation approaches with no success on the same datasets and suggest the major obstacle comes from the divergent annotation guideline adopted by the target-domain evaluation data.
+
+[BOS] Source-domain data selection is another interesting research direction.
+[BOS] Given a target domain, the idea is to automatically select a most relevant subset from the source-domain training data to train the parsing model, instead of using all the labeled data (Plank and van Noord, 2011; Khan et al., 2013) .
+
+[BOS] The multi-source domain adaptation problem assumes there are labeled datasets for multiple source domains.
+[BOS] Given a target domain, the challenge is how to effectively combine knowledge in the source domains.
+[BOS] McClosky et al. (2010) first raise this scenario for constituent parsing.
+[BOS] They employ a regression model to predict crossdomain performance, and then use the values to combine parsing models independently trained on each source domain.
+[BOS] Guo et al. (2018) employ a similar idea of mixture of experts under the neural MTL framework, and conduct experiments on sentiment classification and POS tagging tasks.
+[BOS] They employ meta-training to learn to compute the point-to-set distance between a target-domain example and a source domain.
+
+[BOS] Semi-supervised domain adaptation assumes there exist some (usually very small-scale) labeled target-domain data, which can be used to directly learn the domain-specific distributions or features.
+[BOS] Daum III (2007) propose a simple yet effective feature augmentation approach that performs well on a number of sequence labeling tasks.
+[BOS] The idea is to distinguish domain-specific and general features by making a copy of each feature for each domain plus a shared (general) pseudo domain.
+[BOS] Finkel and Manning (2009) further propose a hierarchical Bayesian extension of this idea.
+[BOS] As pointed by Finkel and Manning (2009) , those two works can be understood as MTL under the traditional discrete-feature ML framework.
+[BOS] Kim et al. (2017) propose a neural mixture of experts approach for cross-domain intent classification and slot tagging.
+[BOS] Different from the unsupervised method of Guo et al. (2018) , they use a small amount of target-domain labeled data to train an attention module for the computation of example-to-domain distances.
+
+[BOS] In the parsing community, Flannery and Mori (2015) propose to annotate partially labeled target-domain data with active learning for cross-domain Japanese dependency parsing.
+[BOS] Similarly, Joshi et al. (2018) annotate a few dozen partially labeled target-domain sentences with a few brackets for cross-domain constituent parsing.
+[BOS] Both results report large improvement and show the usefulness of even small amount of target-domain annotation, showing the great potential of semi-supervised domain adaptation for parsing.
+

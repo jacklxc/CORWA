@@ -1,0 +1,16 @@
+[BOS] We got a lot of inspiration from others' work, they've given many shoulders on which this paper is standing.
+
+[BOS] Question answering has attracted lots of attention in recent years.
+[BOS] Sukhbaatar et al. (2015) introduced a neural network with a recurrent attention model over a possibly large external memory, which is called end-to-end memory networks.
+[BOS] After that, Kumar et al. (2015) introduced the dynamic memory network (DMN) which processes input sequences and questions, forms episodic memories, and generates relevant answers.
+[BOS] Based on DMN, Xiong et al. (2016) proposed several improvements for memory and input modules, and introduced a novel input module for images in order to be able to answer visual questions.
+[BOS] With rapid growth of knowledge bases (KBs) on the web and the development of neural network based (NN-based) methods, NN-based KB-QA has already achieved impressive results.
+[BOS] Zhang et al. (2016) presented a neural attention-based model to represent the question with dynamic attention.
+[BOS] Wang et al. (2016) have done a lot of valuable exploration of different attention methods in recurrent neural network (RNN) models.
+
+[BOS] Convolutional neural networks (CNNs) has been widely used in NLP fields in recent years, and yield effective results.
+[BOS] Kalchbrenner et al. (2014) introduced a convolutional architecture dubbed the Dynamic Convolutional Neural Network (DCNN) for the semantic modeling of sentences.
+[BOS] Kim (2014) used CNN for sentence classification, and achieved excellent results on multiple benchmarks.
+[BOS] Yin et al. (2015) presented a general Attention Based Convolutional Neural Network (ABCNN) for modeling a pair of sentences, which can be applied to a wide variety of tasks.
+[BOS] Hu et al. (2015) used CNN architectures for matching natural language sentences.
+

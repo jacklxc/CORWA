@@ -1,0 +1,90 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 101 106	[BOS]
+T3	Single_summ 207 212	[BOS]
+T4	Single_summ 418 423	[BOS]
+T5	Single_summ 557 562	[BOS]
+T6	Single_summ 633 638	[BOS]
+T7	Single_summ 917 922	[BOS]
+T8	Single_summ 1035 1040	[BOS]
+T9	Narrative_cite 1246 1251	[BOS]
+T10	Single_summ 1354 1359	[BOS]
+T11	Transition 1651 1656	[BOS]
+T12	Single_summ 1786 1791	[BOS]
+T13	Single_summ 1885 1890	[BOS]
+T14	Transition 2126 2131	[BOS]
+T15	Transition 2248 2253	[BOS]
+T16	Single_summ 2392 2397	[BOS]
+T17	Reflection 2625 2630	[BOS]
+T18	Reflection 2829 2834	[BOS]
+T19	Transition 2972 2977	[BOS]
+T20	Single_summ 3157 3162	[BOS]
+T21	Single_summ 3320 3325	[BOS]
+T22	Other 3601 3606	[BOS]
+T23	Other 3841 3846	[BOS]
+T24	Other 4035 4040	[BOS]
+T25	Other 4062 4067	[BOS]
+T26	Other 4320 4325	[BOS]
+T27	Other 4454 4459	[BOS]
+T28	Other 4567 4572	[BOS]
+T29	Narrative_cite 4730 4735	[BOS]
+T30	Transition 4822 4827	[BOS]
+T31	Transition 4868 4873	[BOS]
+T32	Transition 5020 5025	[BOS]
+T33	Transition 5186 5191	[BOS]
+T34	Transition 5231 5236	[BOS]
+T35	Transition 5475 5480	[BOS]
+T36	Reflection 5632 5637	[BOS]
+T37	Reflection 5839 5844	[BOS]
+T38	Single_summ 5979 5984	[BOS]
+T39	Reflection 6144 6149	[BOS]
+T40	Reflection 6307 6312	[BOS]
+T41	Reference 170 188	Zhou et al. (2005)
+T42	Dominant 213 234	Zelenko et al. (2003)
+T43	Dominant 639 666	Culotta and Sorensen (2004)
+T44	Dominant 1041 1066	Bunescu and Mooney (2005)
+T45	Reference 1263 1290	Culotta and Sorensen (2004)
+T46	Dominant 1360 1379	Zhang et al. (2006)
+T47	Reference 1416 1444	CTK, Collins and Duffy, 2001
+T48	Dominant 1792 1810	Zhou et al. (2007)
+T49	Dominant 2398 2422	Zhao and Grishman (2005)
+T50	Dominant 3178 3197	Zhang et al. (2006)
+T51	Dominant 3326 3344	Qian et al. (2007)
+T52	Reference 4799 4818	Zhang et al. (2006)
+T53	Dominant 6014 6033	(Qian et al., 2007)
+T54	Reference 6352 6377	(Collins and Duffy, 2001)
+T55	Reference 6527 6544	(Moschitti, 2004)
+T56	Reference 6569 6588	(Zhang et al., 2006
+T57	Reference 6590 6608	Zhou et al., 2007)
+T58	Pronoun 563 568	Their
+T59	Pronoun 710 714	this
+T60	Pronoun 923 928	These
+T61	Pronoun 953 958	their
+T62	Pronoun 1293 1297	this
+T63	Pronoun 1670 1672	it
+T64	Pronoun 1891 1895	They
+T65	Pronoun 2426 2430	this
+T66	Pronoun 3374 3379	these
+T67	Pronoun 3677 3682	their
+T68	Pronoun 3872 3876	they
+T69	Pronoun 4006 4010	they
+T70	Pronoun 4736 4740	This
+T71	Pronoun 4957 4962	their
+T72	Pronoun 5026 5030	This
+T73	Pronoun 5324 5328	this
+T74	Pronoun 6429 6433	this
+T75	B_span 107 110	For
+T76	E_span 198 205	details
+T77	B_span 213 220	Zelenko
+T78	E_span 626 631	tasks
+T79	B_span 639 646	Culotta
+T80	E_span 1027 1033	corpus
+T81	B_span 1041 1048	Bunescu
+T82	E_span 1239 1244	trees
+T83	B_span 1252 1259	Similar
+T84	E_span 1285 1289	2004
+T85	B_span 1360 1365	Zhang
+T86	E_span 1643 1649	corpus
+T87	B_span 1391 1402	convolution
+T88	E_span 1440 1444	2001
+T89	B_span 1792 1796	Zhou
+T90	E_span 2118 2124	corpus

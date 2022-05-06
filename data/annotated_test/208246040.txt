@@ -1,0 +1,23 @@
+[BOS] Summarization has remained an interesting and important NLP task for years due to its diverse applications -news headline generation, weather forecasting, emails filtering, medical cases, recommendation systems, machine reading compre-hension MRC and so forth (Khargharia et al., 2018) .
+
+[BOS] Early summarization models were mostly extractive and manual-feature engineered (Knight and Marcu, 2000; Jing and McKeown, 2000; Dorr et al., 2003; Berg-Kirkpatrick et al., 2011) .
+[BOS] With the introduction of neural networks (Sutskever et al., 2014) and availability of large training data, deep learning became a viable approach (Rush et al., 2015; Chopra et al., 2016) .
+
+[BOS] Extraction has been handled on different levels of granularity -word (Cheng and Lapata, 2016) , phrases (Bui et al., 2016; Gehrmann et al., 2018) , sentence (Cheng and Lapata, 2016; Nallapati et al., 2016 Nallapati et al., , 2017 each with its challenges.
+[BOS] Word and phrase level extraction although more concise usually suffers from grammatical incorrectness, while sentence-level extraction are too lengthy and sometimes contain redundant information.
+[BOS] Hence Berg-Kirkpatrick et al. (2011); Filippova et al. (2015) ; Durrett et al. (2016) learn to extract and compress at sentence-level.
+
+[BOS] Identifying the likely most salient part of the text as summary-worthy is very crucial.
+[BOS] Some authors have employed integer linear programming (Martins and Smith, 2009; Gillick and Favre, 2009; Boudin et al., 2015) , graph concepts (Erkan and Radev, 2004; , ranking with reinforcement learning (Narayan et al., 2018) and mostly related to our work -binary classification (Shen et al., 2007; Nallapati et al., 2017; Chen and Bansal, 2018) Our binary classification architecture differs significantly from existing models because it uses a transformer as the building block instead of a bidirectional GRU-RNN (Nallapati et al., 2017) , or bidirectional LSTM-RNN (Chen and Bansal, 2018) .
+[BOS] To the best of our knowledge, our utilization of the transformer encoder model as a building block for binary classification is novel, although the transformer has been successfully used for language understanding (Devlin et al., 2018) , machine translation (MT) (Vaswani et al., 2017) and paraphrase generation .
+
+[BOS] For generation of abstractive summaries, before the ubiquitous use of neural nets, manually crafted rules and graph techniques were utilized with considerable success.
+[BOS] Barzilay and McKeown (2005) ; Cheung and Penn (2014) fused two sentences into one using their dependency parsed trees.
+[BOS] Re-cently, sequence-to-sequence models (Sutskever et al., 2014) with attention Chopra et al., 2016) , copy mechanism Gu et al., 2016) , pointer-generator (See et al., 2017) , graph-based attention (Tan et al., 2017) have been explored.
+[BOS] Since the system generated summaries are usually evaluated on ROUGE, its been beneficial to directly optimize this metric during training via a suitable policy using reinforcement learning (Paulus et al., 2017; Celikyilmaz et al., 2018) .
+
+[BOS] Similar to Rush et al. (2015) ; Chen and Bansal (2018) we abstract by simplifying our extracted sentences.
+[BOS] We jointly learn to paraphrase and compress, but different from existing models purely based on RNN, we implement a blend of two proven efficient models -transformer encoder and GRU-RNN.
+[BOS] paraphrased with a transformer-decoder, we find that using the GRU-RNN decoder but with a two-level stack of hybrid encoders (transformer and GRU-RNN) gives better performance.
+[BOS] To the best of our knowledge, this architectural blend is novel.
+

@@ -1,0 +1,48 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 214 219	[BOS]
+T3	Transition 376 381	[BOS]
+T4	Transition 502 507	[BOS]
+T5	Transition 727 732	[BOS]
+T6	Transition 944 949	[BOS]
+T7	Multi_summ 1074 1079	[BOS]
+T8	Single_summ 1373 1378	[BOS]
+T9	Single_summ 1554 1559	[BOS]
+T10	Narrative_cite 1748 1753	[BOS]
+T11	Single_summ 1996 2001	[BOS]
+T12	Reflection 2225 2230	[BOS]
+T13	Narrative_cite 2338 2343	[BOS]
+T14	Dominant 1083 1101	(Lin et al., 2018)
+T15	Dominant 1300 1318	Zhou et al. (2017)
+T16	Dominant 1433 1451	Cao et al. (2018b)
+T17	Dominant 1621 1647	(Vijayakumar et al., 2018)
+T18	Reference 1825 1846	(Nayeem et al., 2019)
+T19	Reference 1883 1903	(Ayana et al., 2016)
+T20	Reference 1975 1993	(Fan et al., 2018)
+T21	Dominant 2017 2036	(Guo et al., 2018 )
+T22	Reference 2484 2504	(Lin et al., 2018) )
+T23	Pronoun 157 162	their
+T24	Pronoun 508 513	These
+T25	Pronoun 565 570	their
+T26	Pronoun 666 668	it
+T27	Pronoun 972 977	their
+T28	Pronoun 1016 1021	their
+T29	Pronoun 1142 1144	it
+T30	Pronoun 2246 2251	their
+T31	B_span 1084 1087	Lin
+T32	E_span 1281 1292	information
+T33	B_span 1300 1304	Zhou
+T34	E_span 1367 1371	goal
+T35	B_span 1433 1436	Cao
+T36	E_span 1542 1552	techniques
+T37	B_span 1560 1561	A
+T38	E_span 1735 1745	generation
+T39	B_span 1774 1785	abstractive
+T40	E_span 1841 1845	2019
+T41	B_span 1858 1865	network
+T42	E_span 1898 1902	2016
+T43	B_span 1926 1933	jointly
+T44	E_span 1988 1992	2018
+T45	B_span 2002 2005	The
+T46	E_span 2210 2223	summarization
+T47	B_span 2344 2351	Another
+T48	E_span 2497 2501	2018

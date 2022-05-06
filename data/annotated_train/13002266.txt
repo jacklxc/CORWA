@@ -1,0 +1,38 @@
+[BOS] The first attempt for the automatic annotation of implicit semantic roles was proposed by Palmer et al. (1986) .
+[BOS] This work applied selectional restrictions together with coreference chains, in a very specific domain.
+[BOS] In a similar approach, Whittemore et al. (1991) also attempted to solve implicit 1 http://adimen.si.ehu.es/web/ImpAr arguments using some manually described semantic constraints for each thematic role they tried to cover.
+[BOS] Another early approach was presented by Tetreault (2002) .
+[BOS] Studying another specific domain, they obtained some probabilistic relations between some roles.
+[BOS] These early works agree that the problem is, in fact, a special case of anaphora or coreference resolution.
+
+[BOS] Recently, the task has been taken up again around two different proposals.
+[BOS] On the one hand, Ruppenhofer et al. (2010) presented a task in SemEval-2010 that included an implicit argument identification challenge based on FrameNet (Baker et al., 1998) .
+[BOS] The corpus for this task consisted in some novel chapters.
+[BOS] They covered a wide variety of nominal and verbal predicates, each one having only a small number of instances.
+[BOS] Only two systems were presented for this subtask obtaining quite poor results (F1 below 0,02).
+[BOS] VENSES++ (Tonelli and Delmonte, 2010 ) applied a rule based anaphora resolution procedure and semantic similarity between candidates and thematic roles using WordNet (Fellbaum, 1998) .
+[BOS] The system was tuned in (Tonelli and Delmonte, 2011) improving slightly its performance.
+[BOS] SEMAFOR (Chen et al., 2010 ) is a supervised system that extended an existing semantic role labeler to enlarge the search window to other sentences, replacing the features defined for regular arguments with two new semantic features.
+[BOS] Although this system obtained the best performance in the task, data sparseness strongly affected the results.
+[BOS] Besides the two systems presented to the task, some other systems have used the same dataset and evaluation metrics.
+[BOS] Ruppenhofer et al. (2011), Laparra and Rigau (2012) , Gorinski et al. (2013) and Laparra and Rigau (2013) explore alternative linguistic and semantic strategies.
+[BOS] These works obtained significant gains over previous approaches.
+[BOS] Silberer and Frank (2012) adapted an entity-based coreference resolution model to extend automatically the training corpus.
+[BOS] Exploiting this additional data, their system was able to improve previous results.
+[BOS] Following this approach Moor et al. (2013) present a corpus of predicate-specific annotations for verbs in the FrameNet paradigm that are aligned with PropBank and VerbNet.
+
+[BOS] On the other hand, Chai (2010, 2012) studied the implicit argument resolution on NomBank.
+[BOS] They uses a set of syntactic, semantic and coreferential features to train a logistic regres-sion classifier.
+[BOS] Unlike the dataset from SemEval-2010 (Ruppenhofer et al., 2010) , in this work the authors focused on a small set of ten predicates.
+[BOS] But for those predicates, they annotated a large amount of instances in the documents from the Wall Street Journal that were already annotated for PropBank (Palmer et al., 2005) and NomBank.
+[BOS] This allowed them to avoid the sparseness problems and generalize properly from the training set.
+[BOS] The results of this system were far better than those obtained by the systems that faced the SemEval-2010 dataset.
+[BOS] This works represent the deepest study so far of the features that characterizes the implicit arguments 2 .
+[BOS] However, many of the most important features are lexically dependent on the predicate and cannot been generalized.
+[BOS] Thus, specific annotations are required for each new predicate to be analyzed.
+
+[BOS] All the works presented in this section agree that implicit arguments must be modeled as a particular case of coreference together with features that include lexical-semantic information, to build selectional preferences.
+[BOS] Another common point is the fact that these works try to solve each instance of the implicit arguments independently, without taking into account the previous realizations of the same implicit argument in the document.
+[BOS] We propose that these realizations, together with the explicit ones, must maintain a certain coherence along the document and, in consequence, the filler of an argument remains the same along the following instances of that argument until a stronger evidence indicates a change.
+[BOS] We also propose that this feature can be exploited independently from the predicate.
+

@@ -1,0 +1,72 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 83 88	[BOS]
+T3	Narrative_cite 288 293	[BOS]
+T4	Narrative_cite 591 596	[BOS]
+T5	Narrative_cite 884 889	[BOS]
+T6	Single_summ 1209 1214	[BOS]
+T7	Single_summ 1334 1339	[BOS]
+T8	Single_summ 1523 1528	[BOS]
+T9	Single_summ 1721 1726	[BOS]
+T10	Transition 1818 1823	[BOS]
+T11	Other 1909 1914	[BOS]
+T12	Other 1977 1982	[BOS]
+T13	Transition 2099 2104	[BOS]
+T14	Transition 2150 2155	[BOS]
+T15	Transition 2295 2300	[BOS]
+T16	Narrative_cite 2470 2475	[BOS]
+T17	Single_summ 2628 2633	[BOS]
+T18	Single_summ 2738 2743	[BOS]
+T19	Single_summ 2974 2979	[BOS]
+T20	Dominant 89 110	Hall and Nivre (2008)
+T21	Reference 226 261	Fernndez-Gonzlez and Martins (2015)
+T22	Reference 266 285	Corro et al. (2017)
+T23	Reference 381 407	(Evang and Kallmeyer, 2011
+T24	Reference 409 435	Kallmeyer and Maier, 2010)
+T25	Reference 480 510	(van Cranenburgh and Bod, 2013
+T26	Reference 512 541	van Cranenburgh et al., 2016)
+T27	Reference 573 588	(Versley, 2016)
+T28	Reference 707 721	(Nivre, 2009 )
+T29	Reference 757 775	(Versley, 2014a,b)
+T30	Reference 808 820	(Maier, 2015
+T31	Reference 822 844	Maier and Lichte, 2016
+T32	Reference 846 881	Stanojevi and Garrido Alhama, 2017)
+T33	Reference 1145 1168	(Maier and Lichte, 2016
+T34	Reference 1170 1205	Stanojevi and Garrido Alhama, 2017)
+T35	Dominant 1228 1253	Coavoux and Crabb (2017a)
+T36	Reference 2585 2603	(Dyer et al., 2016
+T37	Reference 2605 2625	Liu and Zhang, 2017)
+T38	Dominant 2649 2672	Cross and Huang (2016b)
+T39	Pronoun 1340 1345	Their
+T40	Pronoun 1740 1744	they
+T41	Pronoun 1881 1883	it
+T42	Pronoun 2105 2110	Their
+T43	Pronoun 2165 2169	they
+T44	Pronoun 2276 2281	their
+T45	Pronoun 2305 2310	these
+T46	Pronoun 2378 2382	they
+T47	Pronoun 2744 2749	Their
+T48	Pronoun 2980 2984	This
+T49	B_span 89 93	Hall
+T50	E_span 280 284	2017
+T51	B_span 175 185	reversible
+T52	E_span 280 284	2017
+T53	B_span 321 334	probabilistic
+T54	E_span 430 434	2010
+T55	B_span 442 446	Data
+T56	E_span 536 540	2016
+T57	B_span 547 553	pseudo
+T58	E_span 583 587	2016
+T59	B_span 662 666	swap
+T60	E_span 715 719	2009
+T61	B_span 737 741	easy
+T62	E_span 773 774	b
+T63	B_span 779 783	with
+T64	E_span 876 880	2017
+T65	B_span 1037 1043	choice
+T66	E_span 1200 1204	2017
+T68	B_span 1228 1235	Coavoux
+T67	E_span 1805 1814	e system:
+T69	B_span 2493 2506	unlexicalized
+T70	E_span 2620 2624	2017
+T71	B_span 2649 2654	Cross
+T72	E_span 3026 3033	simpler

@@ -1,0 +1,22 @@
+[BOS] Bagging has been applied to enhance discriminative sequence models for Chinese word segmentation (Sun, 2010b) and POS tagging (Sun and Uszkoreit, 2012) .
+[BOS] For word segmentation, experiments on discriminative Markov and semi-Markov tagging models are reported.
+[BOS] Their experiments showed that Bagging can consistently enhance a semi-Markov model but not the Markov one.
+[BOS] Experiments on POS tagging indicated that Bagging Markov models hurts tagging performance.
+[BOS] It seems that the relationships among basic processing units affect Bagging.
+
+[BOS] PCFGLA parsers are built upon generative models with latent annotations.
+[BOS] The use of automatically induced latent variables may also affect Bagging.
+[BOS] Generative sequence models with latent anno-tations can also achieve good performance for Chinese POS tagging.
+[BOS] Huang et al. (2009) described and evaluated a bi-gram HMM tagger that utilizes latent annotations.
+[BOS] Different from negative results of Bagging discriminative models, our auxiliary experiment shows that Bagging Huang et al. 's tagger can help Chinese POS tagging.
+[BOS] In other words, Bagging substantially improves both HMMLA and PCFGLA models, at least for Chinese POS tagging and constituency parsing.
+[BOS] It seems that Bagging favors the use of latent variables.
+[BOS] Figure 2 clearly shows that the Bagging model taking both data-driven and PCFG-based models as basic systems outperform the Bagging model taking either model in isolation as basic systems.
+[BOS] The combination of a PCFG-based model and a data-driven model (either graph-based or transition-based) is more effective than the combination of two datadriven models, which has received the most attention in dependency parser ensemble.
+[BOS] Table 3 is the performance of reparsing on the development data.
+[BOS] From this table, we can see by utilizing more parsers, Bagging can enhance reparsing.
+[BOS] According to Surdeanu and Manning (2010) 's findings, reparsing performs as well as other combination models.
+[BOS] Our auxiliary experiments confirm this finding: Learning-based stacking cannot achieve better performance.
+[BOS] Limited to the document length, we do not give descriptions of these experiments.
+[BOS] (15) 86.37 bagging (reparse(g, t, c)) 86.09 reparse (bagging(g, t, c)) 85.86 Table 3 : UAS of reparsing and Bagging.
+

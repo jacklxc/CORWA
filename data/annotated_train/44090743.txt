@@ -1,0 +1,3 @@
+[BOS] Unlike the other corpora where documents and passages are written in a similar writing style, they are multiparty dialogs and plot summaries in our corpus, which have very different writing styles.
+[BOS] This raises another level of difficulty to match contexts between documents and queries for the task of passage completion.
+

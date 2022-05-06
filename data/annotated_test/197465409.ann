@@ -1,0 +1,56 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 209 214	[BOS]
+T3	Single_summ 307 312	[BOS]
+T4	Reflection 605 610	[BOS]
+T5	Single_summ 798 803	[BOS]
+T6	Multi_summ 983 988	[BOS]
+T7	Reflection 1153 1158	[BOS]
+T8	Single_summ 1294 1299	[BOS]
+T9	Reflection 1529 1534	[BOS]
+T10	Reflection 1611 1616	[BOS]
+T11	Single_summ 1832 1837	[BOS]
+T12	Reflection 2072 2077	[BOS]
+T13	Reflection 2306 2311	[BOS]
+T14	Narrative_cite 2428 2433	[BOS]
+T15	Reflection 2629 2634	[BOS]
+T16	Reference 134 162	(Tarvainen and Valpola, 2017
+T17	Reference 164 184	Laine and Aila, 2016
+T18	Reference 186 206	Rasmus et al., 2015)
+T19	Dominant 313 329	Hu et al. (2016)
+T20	Dominant 819 845	Nagesh and Surdeanu (2018)
+T21	Dominant 1002 1017	Xu et al., 2015
+T22	Dominant 1019 1035	Su et al., 2018)
+T23	Dominant 1309 1325	Su et al. (2018)
+T25	Dominant 1838 1854	Su et al. (2018)
+T26	Reference 2571 2592	(Socher et al., 2010)
+T27	Reference 2608 2626	(Tai et al., 2015)
+T28	Pronoun 224 228	they
+T29	Pronoun 1169 1173	this
+T30	Pronoun 1546 1550	this
+T31	Pronoun 1925 1930	their
+T32	Pronoun 1989 1993	they
+T33	Pronoun 2021 2023	it
+T34	Pronoun 2255 2257	it
+T35	Pronoun 2755 2760	these
+T36	B_span 113 118	image
+T37	E_span 201 205	2015
+T38	B_span 313 315	Hu
+T39	E_span 596 603	systems
+T40	B_span 819 825	Nagesh
+T41	E_span 977 981	task
+T42	B_span 1002 1004	Xu
+T43	E_span 1147 1151	path
+T44	B_span 1309 1311	Su
+T24	Dominant 1437 1447	Liu et al.
+T45	E_span 1423 1431	entities
+T46	B_span 1437 1440	Liu
+T47	E_span 1520 1527	context
+T48	Reference 1659 1668	Liu et al
+T49	B_span 1627 1636	inclusion
+T50	E_span 1666 1668	al
+T51	B_span 1838 1840	Su
+T52	E_span 2065 2068	POS
+T53	B_span 2534 2538	tree
+T54	E_span 2587 2591	2010
+T55	B_span 2597 2601	tree
+T56	E_span 2621 2625	2015

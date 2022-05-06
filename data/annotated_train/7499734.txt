@@ -1,0 +1,12 @@
+[BOS] There are two closely related threads of prior work: those that address the tasks we consider in a different way and those that propose joint models for other related sets of tasks.
+[BOS] In the first category, Hajishirzi et al. (2013) integrate entity linking into a sieve-based coreference system (Raghunathan et al., 2010) , the aim being to propagate link decisions throughout coreference chains, block corefer-ence links between different entities, and use semantic information to make additional coreference links.
+[BOS] build coreference clusters greedily left-to-right and maintain entity link information for each cluster, namely a list of possible targets in the knowledge base as well as a current best link target that is used to extract features (though that might not be the target that is chosen by the end of inference).
+[BOS] Cheng and Roth (2013) use coreference as a preprocessing step for entity linking and then solve an ILP to determine the optimal entity link assignments for each mention based on surface properties of that mention, other mentions in its cluster, and other mentions that it is related to.
+[BOS] Compared to these systems, our approach maintains greater uncertainty about all random variables throughout inference and uses features to capture cross-task interactions as opposed to rules or hard constraints, which can be less effective for incorporating semantic knowledge (Lee et al., 2011) .
+
+[BOS] The joint model most closely related to ours is that of , modeling coreference, named entity recognition, and relation extraction.
+[BOS] Their techniques differ from ours in a few notable ways: they choose a different objective function than we do and also opt to freeze the values of certain variables during the belief propagation process rather than pruning with a coarse pass.
+[BOS] Sil and Yates (2013) jointly model NER and entity linking in such a way that they maintain uncertainty over mention boundaries, allowing information from Wikipedia to inform segmentation choices.
+[BOS] We could strengthen our model by integrating this capability; however, the primary cause of errors for mention detection on OntoNotes is parsing ambiguities rather than named entity ambiguities, so we would be unlikely to see improvements in the experiments presented here.
+[BOS] Beyond maintaining uncertainty over mention boundaries, we might also consider maintaining uncertainty over the entire parse structure, as in Finkel and Manning (2009) , who consider parsing and named entity recognition together with a PCFG.
+

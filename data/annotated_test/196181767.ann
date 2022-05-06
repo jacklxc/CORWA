@@ -1,0 +1,51 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 190 195	[BOS]
+T3	Single_summ 416 421	[BOS]
+T4	Single_summ 595 600	[BOS]
+T5	Single_summ 768 773	[BOS]
+T6	Narrative_cite 926 931	[BOS]
+T7	Transition 1018 1023	[BOS]
+T8	Reflection 1173 1178	[BOS]
+T9	Narrative_cite 1432 1437	[BOS]
+T10	Single_summ 1718 1723	[BOS]
+T11	Single_summ 1824 1829	[BOS]
+T12	Reflection 1954 1959	[BOS]
+T13	Multi_summ 2111 2116	[BOS]
+T14	Multi_summ 2279 2284	[BOS]
+T15	Reflection 2431 2436	[BOS]
+T16	Reference 161 187	(Libovick and Helcl, 2017)
+T17	Reference 263 288	(Sukhbaatar et al., 2015)
+T18	Reference 381 399	(Cui et al., 2017)
+T19	Dominant 422 441	Ahmed et al. (2018)
+T20	Reference 992 1015	(Popel and Bojar, 2018)
+T21	Reference 1552 1574	(Devlin et al., 2019 )
+T22	Dominant 1746 1769	(Dehghani et al., 2019)
+T23	Dominant 2127 2146	Voita et al. (2019)
+T24	Dominant 2151 2171	Michel et al. (2019)
+T25	B_span 122 127	multi
+T26	E_span 186 187	)
+T27	B_span 237 240	end
+T28	E_span 287 288	)
+T29	B_span 341 350	Attention
+T30	E_span 398 399	)
+T31	B_span 422 427	Ahmed
+T33	B_span 958 969	Transformer
+T34	E_span 1014 1015	)
+T36	E_span 1573 1574	)
+T37	B_span 1724 1733	Universal
+T38	E_span 1952 1953	.
+T40	E_span 2429 2430	.
+T41	Pronoun 601 605	They
+T42	Pronoun 620 622	it
+T43	Pronoun 774 778	They
+T44	Pronoun 932 934	It
+T45	Pronoun 1027 1029	it
+T46	Pronoun 1064 1066	it
+T47	Pronoun 1104 1106	it
+T48	Pronoun 1130 1132	it
+T49	Pronoun 1651 1655	this
+T50	Pronoun 1830 1832	It
+T51	Pronoun 2285 2289	They
+T52	E_span 920 923	hop
+T32	B_span 1511 1514	pre
+T35	B_span 2127 2132	Voita

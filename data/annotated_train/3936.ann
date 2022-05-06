@@ -1,0 +1,28 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 60 65	[BOS]
+T3	Single_summ 263 268	[BOS]
+T4	Single_summ 414 419	[BOS]
+T5	Single_summ 619 624	[BOS]
+T6	Single_summ 761 766	[BOS]
+T7	Single_summ 823 828	[BOS]
+T8	Single_summ 882 887	[BOS]
+T9	Single_summ 1075 1080	[BOS]
+T10	Single_summ 1224 1229	[BOS]
+T11	Single_summ 1386 1391	[BOS]
+T12	Transition 1675 1680	[BOS]
+T13	Transition 1768 1773	[BOS]
+T14	Dominant 80 103	(Menezes & Quirk, 2005)
+T15	Dominant 300 319	Crego et al. (2005)
+T16	Dominant 1096 1113	Li et. al. (2008)
+T17	Pronoun 49 53	this
+T18	Pronoun 167 172	these
+T19	Pronoun 767 772	These
+T20	Pronoun 998 1002	this
+T21	Pronoun 1173 1177	they
+T22	Pronoun 1774 1776	It
+T23	B_span 66 68	We
+T24	E_span 259 260	1
+T25	B_span 269 272	The
+T26	E_span 1068 1072	well
+T27	B_span 1096 1098	Li
+T28	E_span 1666 1672	speech

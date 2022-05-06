@@ -1,0 +1,16 @@
+[BOS] Other researchers have constructed datasets investigating similar ideas in commonsense reasoning.
+[BOS] Forbes and Choi (2017) develop a dataset and methods for inferring physical commonsense knowledge from verb usage, showing it is possible to learn the physical implications of unseen verbs from a small seed set.
+[BOS] Zhang et al. (2017) create a large dataset for general commonsense inference in the form of premise-hypothesis pairs, equipped with ordinal labels ranging from "impossible" to "very likely".
+[BOS] We adopt much of their methodology but for a targeted subset of commonsense reasoning.
+[BOS] The SemEval 2018 Task 10 on Capturing Discriminative Attributes (Krebs et al., 2018) describes a similar lexical reasoning task involving triplets of words, though it focuses on finding attributes that distinguish two concepts, while in our work the adjective may well apply to both part and whole.
+
+[BOS] Past work has also evaluated commonsense capabilities in neural models.
+[BOS] Pavlick and Callison-Burch (2016) investigate the related problem of entailment in adjective-nouns, and show surprising negative results for neural NLI models.
+[BOS] Wang et al. (2018) showed that models based on distributional semantics without explicit external knowledge perform poorly at predicting physical plausibility of actions.
+
+[BOS] Lucy and Gauthier (2017) investigate perceptual properties of distributional embeddings and suggest that part-whole properties like has legs are well encoded by embeddings.
+[BOS] This may help explain why the simple word-based MLP models perform well without other sources of context.
+[BOS] Rei et al. (2018) introduce an effective neural architecture for learning word-embedding based models for graded lexical entailment.
+[BOS] Prior work (Bulat et al., 2016; Fagarasan et al., 2015) utilizes embeddings to predict real-world perceptual proper- The bench's support is wooden.
+[BOS] ties, and we expect an approach that leverages this will help solve this task, but we leave it to future work.
+

@@ -1,0 +1,4 @@
+[BOS] Previous approaches to ensembling diverse models focus on model inputs.
+[BOS] Hokamp (2017) shows improvements in the quality estimation task using ensembles of NMT models with multiple input representations which share an output representation.
+[BOS] Garmash and Monz (2016) show translation improvements with multi-source-language NMT ensembles.
+

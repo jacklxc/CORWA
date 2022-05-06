@@ -1,0 +1,23 @@
+[BOS] In recent years, several studies have been done towards detecting abusive and hateful language in online texts.
+[BOS] Some of these works target different online platforms like Twitter (Waseem and Hovy, 2016) , Wikipedia (Wulczyn et al., 2016) , and ask.fm (Samghabadi et al., 2017) to encourage other research groups to contribute to aggression identification in these sources.
+
+[BOS] Most of the approaches proposed to detect offensive language in social media make use of multiple types of hand-engineered features.
+[BOS] Nobata et al. (2016) use n-grams, linguistic, syntactic and distributional semantic features to build a hate speech detection framework over Yahoo!
+[BOS] Finance and News and get an F-score of 81% for a combination of all features.
+[BOS] Davidson et al. (2017) combine n-grams, POS-colored n-grams, and sentiment lexicon features to detect hate speech on Twitter data.
+[BOS] Van Hee et al. (2015) use word and character n-grams along with sentiment lexicon features to identify nasty posts in ask.fm.
+[BOS] Samghabadi et al. (2017) build a model based on lexical, semantic, sentiment, and stylistic features to detect nastiness in ask.fm.
+[BOS] They also show the robustness of the model by applying it to the dataset from different other sources.
+
+[BOS] Based on Malmasi and Zampieri (2018) , distinguishing hate speech from profanity is not a trivial task and requires features that capture deeper information from the comments.
+[BOS] In this paper, we try different combinations of lexical, semantic, sentiment, and lexicon-based features to identify various levels of aggression in online texts.
+[BOS] The datasets were provided by Kumar et al. (2018b) .
+[BOS] Table 1 shows the distribution of training, validation and test (Facebook and social media) data for English and Hindi corpora.
+[BOS] The data has been labeled with one out of three possible tags:
+
+[BOS]  Non-aggressive (NAG): There is no aggression in the text.
+
+[BOS]  Overtly aggressive (OAG): The text is containing either aggressive lexical items or certain syntactic structures.
+
+[BOS]  Covertly aggressive (CAG): The text is containing an indirect attack against the target using polite expressions in most cases.
+

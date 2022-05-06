@@ -1,0 +1,65 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 266 271	[BOS]
+T3	Narrative_cite 431 436	[BOS]
+T4	Multi_summ 600 605	[BOS]
+T5	Single_summ 737 742	[BOS]
+T6	Transition 892 897	[BOS]
+T7	Narrative_cite 1000 1005	[BOS]
+T8	Transition 1189 1194	[BOS]
+T9	Reflection 1321 1326	[BOS]
+T10	Transition 1453 1458	[BOS]
+T11	Narrative_cite 1535 1540	[BOS]
+T12	Reflection 1892 1897	[BOS]
+T13	Transition 2014 2019	[BOS]
+T14	Transition 2172 2177	[BOS]
+T15	Narrative_cite 2270 2275	[BOS]
+T16	Reflection 2530 2535	[BOS]
+T17	Reference 55 78	(Elgohary et al., 2018)
+T18	Reference 106 126	(Huang et al., 2019)
+T19	Reference 146 164	(Qu et al., 2019a)
+T20	Reference 352 370	(Qu et al., 2019b)
+T21	Reference 538 556	(Das et al., 2017)
+T22	Dominant 628 649	Rastogi et al. (2019)
+T23	Dominant 654 670	Su et al. (2019)
+T24	Dominant 743 764	Rastogi et al. (2019)
+T25	Dominant 816 832	Su et al. (2019)
+T26	Reference 1137 1155	(Liu et al., 2019)
+T27	Reference 1167 1186	(Buck et al., 2018)
+T28	Reference 1586 1609	(Sugawara et al., 2018)
+T29	Reference 1712 1729	(Dua et al., 2019
+T30	Reference 1731 1764	Wallace et al., 2019, inter alia)
+T31	Reference 1827 1846	(Dong et al., 2017)
+T32	Reference 1864 1889	(Talmor and Berant, 2018)
+T33	Reference 2409 2430	(Peskov et al., 2019)
+T34	B_span 34 40	simple
+T35	E_span 77 78	)
+T36	B_span 81 91	sequential
+T37	E_span 125 126	)
+T38	B_span 133 145	transformers
+T39	E_span 163 164	)
+T40	B_span 320 328	relevant
+T41	E_span 369 370	)
+T42	B_span 527 537	modalities
+T43	E_span 555 556	)
+T44	B_span 628 631	Ras
+T45	E_span 735 736	.
+T46	B_span 743 746	Ras
+T47	E_span 890 891	.
+T49	B_span 1118 1127	retrieval
+T51	B_span 1163 1166	MRC
+T52	E_span 1160 1162	in
+T53	E_span 1185 1186	)
+T54	B_span 1567 1571	vary
+T55	E_span 1608 1609	)
+T56	B_span 1663 1665	of
+T57	E_span 1763 1764	)
+T58	B_span 1782 1790	simplify
+T59	E_span 1888 1889	)
+T60	B_span 2281 2284	the
+T61	E_span 2445 2447	of
+T62	Pronoun 1977 1981	they
+T63	Pronoun 2159 2161	it
+T64	Pronoun 2536 2540	This
+T65	Pronoun 2710 2714	this
+T48	E_span 1841 1845	2017
+T50	B_span 1850 1863	decomposition

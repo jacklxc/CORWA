@@ -1,0 +1,14 @@
+[BOS] Several recent systems were created and used for similar analysis.
+[BOS] Although their applications have some differences from the system described in this paper, we consider them relevant because they deal with semantic similarity.
+[BOS] (Bakaya, 2014) uses Vector Space Models which have some similarity to our usage of word2vec centroid metrics with the difference that we do not organize the whole text according to the structure of the result matrix, as the VSMs do.
+[BOS] The cosine similarity is common for both systems.
+[BOS] The big difference is that we use only the input words while in his system the words' likely synonyms according to a language model are also used.
+[BOS] We believe this contributes to the consistently higher scores of his system.
+
+[BOS] Another work of (Vilarino et al., 2014 ) also uses n-grams, cosine similarity and that is a common feature with our system.
+[BOS] Some differing features are Jaccard coefficient, Latent Semantic Analysis, Pointwise Mutual Information.
+[BOS] Their results are very close to ours.
+
+[BOS] Most of the works dealing with semantic similar-ity use n-grams, metadata features and stop words as we do.
+[BOS] Our scores are not among the highest in subtask A of Task 3, but they come close to and substantially differ from the average score in this field of works.
+

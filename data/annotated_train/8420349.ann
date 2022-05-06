@@ -1,0 +1,56 @@
+T1	Reflection 0 5	[BOS]
+T2	Single_summ 136 141	[BOS]
+T3	Single_summ 322 327	[BOS]
+T4	Reflection 460 465	[BOS]
+T5	Single_summ 656 661	[BOS]
+T6	Narrative_cite 783 788	[BOS]
+T7	Single_summ 895 900	[BOS]
+T8	Reflection 987 992	[BOS]
+T9	Reflection 1118 1123	[BOS]
+T10	Multi_summ 1234 1239	[BOS]
+T11	Single_summ 1331 1336	[BOS]
+T12	Other 1435 1440	[BOS]
+T13	Single_summ 1543 1548	[BOS]
+T14	Single_summ 1638 1643	[BOS]
+T15	Reflection 1781 1786	[BOS]
+T16	Single_summ 1951 1956	[BOS]
+T17	Single_summ 2087 2092	[BOS]
+T18	Reflection 2195 2200	[BOS]
+T19	Dominant 185 212	DeNero and Uszkoreit (2011)
+T20	Dominant 346 365	(Zhai et al., 2012)
+T21	Dominant 662 682	Blunsom et al. (2008
+T22	Reference 878 892	(Chiang, 2007)
+T23	Dominant 901 924	Levenberg et al. (2012)
+T24	Dominant 1240 1264	Burkett and Klein (2008)
+T25	Dominant 1269 1290	Burkett et al. (2010)
+T26	Dominant 1549 1566	Liu et al. (2012)
+T27	Dominant 1644 1668	Burkett and Klein (2012)
+T28	Dominant 1957 1986	Zollmann and Venugopal (2006)
+T29	Dominant 2093 2118	Zollmann and Vogel (2011)
+T30	B_span 142 145	For
+T31	E_span 310 320	reordering
+T32	B_span 332 340	previous
+T33	E_span 452 458	models
+T34	B_span 662 665	Blu
+T35	E_span 775 781	corpus
+T36	B_span 828 834	phrase
+T37	E_span 887 891	2007
+T38	B_span 901 904	Lev
+T39	E_span 980 985	rules
+T40	B_span 1240 1244	Burk
+T41	E_span 1424 1433	alignment
+T42	B_span 1549 1552	Liu
+T43	E_span 1627 1636	alignment
+T44	B_span 1644 1648	Burk
+T45	E_span 1768 1779	translation
+T46	B_span 1957 1960	Zol
+T47	E_span 2075 2085	categories
+T48	B_span 2093 2096	Zol
+T49	E_span 2186 2193	classes
+T50	Pronoun 9 13	this
+T51	Pronoun 466 470	This
+T52	Pronoun 993 997	This
+T53	Pronoun 1017 1022	their
+T54	Pronoun 1337 1341	They
+T55	Pronoun 1799 1804	their
+T56	Pronoun 2223 2229	theirs

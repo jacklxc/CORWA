@@ -1,0 +1,14 @@
+[BOS] Existing work on semantics approached domainoriented semantic structures from linguisticallyoriented semantics.
+[BOS] In contrast, our approach uses domain-oriented semantics to find the linguistic semantics that represent them.
+[BOS] We believe that the two different approaches could complement each other.
+
+[BOS] The PASbio (Wattarujeekrit et al., 2004) proposes Predicate Argument Structures (PASs), a type of linguistically-oriented semantic structures, for domain-specific lexical items, based on PASs defined in PropBank (Wattarujeekrit et al., 2004) and NomBank (Meyers et al., 2004) .
+[BOS] The PASs are defined per lexical item, and is therefore distinct from a biologically-oriented representation of events.
+[BOS] (Cohen et al., 2008) investigated syntactic alternations of verbs and their nominalized forms which occurred in the PennBioIE corpus (Kulick et al., 2004) , whilst keeping PASs of the PASBio in their minds.
+
+[BOS] The BioFrameNet (Dolbey et al., 2006 ) is an attempt to extend the FrameNet with specific frames to the bio-medical domain, and to apply the frames to corpus annotation.
+[BOS] Our attempts were similar, in that both were: 1) utilizing the FN frames or their extensions to classify mentions of biological events, and 2) relating the frames and the FEs (roles of participants) with classes in domain ontologies; e.g. the Gene Ontology (Ashburner et al., 2000) .
+
+[BOS] As far as the authors know, it is the first attempt to explicitly address the problem of linking linguistically-oriented and domain-oriented frames of semantics.
+[BOS] However, it has been indirectly studied through works on TM or Relation Extraction using linguistically-oriented semantic structures as features, such as in the case with (Harabagiu et al., 2005) .
+

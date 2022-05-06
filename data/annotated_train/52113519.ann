@@ -1,0 +1,79 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 156 161	[BOS]
+T3	Transition 315 320	[BOS]
+T4	Multi_summ 411 416	[BOS]
+T5	Single_summ 610 615	[BOS]
+T6	Narrative_cite 818 823	[BOS]
+T7	Single_summ 995 1000	[BOS]
+T8	Single_summ 1122 1127	[BOS]
+T9	Single_summ 1251 1256	[BOS]
+T10	Single_summ 1395 1400	[BOS]
+T11	Transition 1507 1512	[BOS]
+T12	Narrative_cite 1538 1543	[BOS]
+T13	Transition 1658 1663	[BOS]
+T14	Transition 1758 1763	[BOS]
+T15	Transition 1873 1878	[BOS]
+T16	Narrative_cite 1954 1959	[BOS]
+T17	Reflection 2078 2083	[BOS]
+T18	Transition 2195 2200	[BOS]
+T19	Reflection 2280 2285	[BOS]
+T20	Reflection 2458 2463	[BOS]
+T21	Single_summ 2562 2567	[BOS]
+T22	Single_summ 2643 2648	[BOS]
+T23	Multi_summ 2719 2724	[BOS]
+T24	Single_summ 2843 2848	[BOS]
+T25	Reference 71 87	(Levesque, 2014)
+T26	Reference 115 138	(Whiteson et al., 2011)
+T27	Reference 288 312	(Sutcliffe et al., 2013)
+T28	Dominant 420 435	Levesque (2014)
+T29	Dominant 690 717	(Mostafazadeh et al., 2016)
+T30	Reference 968 991	(Schwartz et al., 2017)
+T31	Dominant 1020 1045	Weissenborn et al. (2017)
+T32	Dominant 1128 1145	Min et al. (2018)
+T33	Dominant 1287 1308	Agrawal et al. (2016)
+T34	Dominant 1416 1438	Khashabi et al. (2018)
+T35	Reference 1632 1655	(Hernndez-Orallo, 2017)
+T36	Reference 2052 2075	(Whiteson et al., 2011)
+T37	Dominant 2581 2601	Weston et al. (2015)
+T38	Dominant 2649 2671	Sugawara et al. (2017)
+T39	Dominant 2725 2747	LoBue and Yates (2011)
+T40	Dominant 2752 2773	Sammons et al. (2010)
+T41	Dominant 2870 2891	Boratko et al. (2018)
+T42	Pronoun 108 110	it
+T43	Pronoun 844 848	this
+T44	Pronoun 929 931	it
+T45	Pronoun 1342 1344	it
+T46	Pronoun 2201 2205	This
+T47	Pronoun 2381 2383	it
+T48	B_span 53 63	unintended
+T49	E_span 82 86	2014
+T50	B_span 92 102	evaluation
+T51	E_span 133 137	2011
+T52	B_span 232 242	retrieving
+T53	E_span 307 311	2013
+T54	B_span 420 428	Levesque
+T55	E_span 596 608	restrictions
+T56	B_span 673 678	Story
+T57	E_span 811 816	story
+T58	B_span 866 877	recognizing
+T59	E_span 986 990	2017
+T60	B_span 1015 1018	MRC
+T61	E_span 1114 1120	system
+T62	B_span 1128 1131	Min
+T63	E_span 1241 1249	sentence
+T64	B_span 1260 1266	visual
+T65	E_span 1388 1393	words
+T66	B_span 1416 1424	Khashabi
+T67	E_span 1495 1504	reasoning
+T68	B_span 1598 1605	taskand
+T69	E_span 1650 1654	2017
+T70	B_span 2029 2039	evaluation
+T71	E_span 2070 2074	2011
+T72	B_span 2581 2587	Weston
+T73	E_span 2636 2641	tasks
+T74	B_span 2649 2657	Sugawara
+T75	E_span 2714 2717	MRC
+T76	B_span 2725 2730	LoBue
+T77	E_span 2838 2841	RTE
+T78	B_span 2857 2860	ARC
+T79	E_span 2925 2930	types

@@ -1,0 +1,17 @@
+[BOS] NMT has benefited from character-aware word representations on the source side (Costa-juss and Fonollosa, 2016), which follows language modeling work by Kim et al. (2016) and generate source-side input embeddings using a CNN over the character sequence of each word.
+[BOS] Further analysis revealed that hidden states of such characteraware models have increased knowledge of morphology (Belinkov et al., 2017) .
+[BOS] They additionally try using character-aware representations in the target side embedding layer, leaving the softmax matrix with standard word representations, and found no improvements.
+[BOS] Our work is also aligned with the characteraware models proposed in (Kim et al., 2016) , but we additionally employ a gating mechanism between character-aware representations and standard word representations similar to language modeling work by (Miyamoto and Cho, 2016) .
+[BOS] However, our gating is a learned type-specific vector rather than a fixed hyperparameter.
+
+[BOS] There is additionally a line of work on purely character-level NMT, which generates words one character at a time (Ling et al., 2015; Chung et al., 2016; Passban et al., 2018) .
+[BOS] While initial results here were not strong, Cherry et al. (2018) revisit this with deeper architectures and sweeping dropout parameters and find that they outperform BPE across settings of the merge hyperparameter.
+[BOS] They examine different data sizes and observe improvements in the smaller data size settingshowever, the smallest size is about 2 million sentence pairs.
+[BOS] In contrast, we look at a smaller order of magnitude data size and present an alternate approach which doesn't require substantial tuning of parameters across different languages.
+
+[BOS] Finally, Byte-Pair Encoding (BPE) (Sennrich et al., 2016) has become a standard preprocessing step in NMT pipelines and provides an easy way to generate sequences with a mixture of full words and word fragments.
+[BOS] Note that BPE splits are agnostic to any morphological pattern present in the language, for example the token politely in our dataset is split into pol+itely, instead of the linguistically plausible split polite+ly.
+[BOS] 3 Our approach can be applied to word-level sequences and sequences at any BPE merge hyperparameter greater than 0.
+[BOS] Increasing the hyperparameter results in more words and longer subwords that can exhibit morphological patterns.
+[BOS] Our goal is to exploit these morphological patterns and enrich the word (or subword) representations with character-awareness.
+

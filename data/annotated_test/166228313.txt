@@ -1,0 +1,30 @@
+[BOS] The existing work on open domain QA (Chen et al., 2017) has distinct similarities with our problem, largely owing to the overwhelming large corpus that a machine reader has to reason over.
+[BOS] In recent years, a multitude of techniques have been developed.
+[BOS] (Wang et al., 2018) ment learning to select passages using the reader as the reward.
+[BOS] (Min et al., 2018) proposed ranking the minimal context required to answer the question.
+[BOS] (Clark and Gardner, 2017) proposed shared norm method for predicting spans in the multiparagraph reading comprehension setting.
+[BOS] (Lin et al., 2018) proposed ranking and de-noising techniques.
+[BOS] (Wang et al., 2017a) proposed evidence aggregation based answer re-ranking.
+[BOS] Most techniques focused on constructing a conducive and less noisy context for the neural reader.
+[BOS] Our work provides the first evidence of diverse sampling for training neural reading comprehension models.
+
+[BOS] Our work draws inspiration from curriculum learning (CL) (Bengio et al., 2009) .
+[BOS] One key difficulty in CL is to determine which samples are easy or hard.
+[BOS] Self-paced learning (Jiang et al., 2015) is a recently popular form of curriculum learning that treats this issue as an optimization problem.
+[BOS] To this end, (Sachan and Xing, 2016 ) applies selfpaced learning for neural question answering.
+[BOS] Automatic curriculum learning (Graves et al., 2017) , similarly, extracts signals from the learning process to infer progress.
+
+[BOS] State-of-the-art neural question answering models are mainly based on cross-sentence attention (Seo et al., 2016; Wang and Jiang, 2016b; Xiong et al., 2016; Tay et al., 2018c) .
+[BOS] Self-attention (Vaswani et al., 2017; Wang et al., 2017b) has also been popular for reading comprehension (Wang et al., 2018; Clark and Gardner, 2017) .
+[BOS] However, its memory complexity makes it a challenge for reading long context.
+[BOS] Notably, the truncated/summary setting of the NarrativeQA benchmark have been attempted recently (Tay et al., 2018c,b; Hu et al., 2018; Tay et al., 2018a) .
+[BOS] However, this summary setting bypasses the difficulties of long context reading comprehension, reverting to the more familiar RC setup.
+
+[BOS] While most of the prior work in this area has mainly focused on span prediction models (Wang and Jiang, 2016b) and/or multiple choice QA models (Wang and Jiang, 2016a) , there have been recent interest in generation based QA (Tan et al., 2017) .
+[BOS] S-NET (Tan et al., 2017) proposed a twostage retrieve then generate framework.
+
+[BOS] Flexible neural mechanisms that learn to point and/or generate have been also popular across many NLP tasks.
+[BOS] Our model incorporates PointerGenerator networks (See et al., 2017 ) which learns to copy or generate new words within the context of neural summarization.
+[BOS] Prior to Pointer Generators, CopyNet (Gu et al., 2016) incorporates a copy mechanism for sequence to sequence learning.
+[BOS] Pointer generators have also been recently adopted for learning a universal multi-task architecture for NLP (McCann et al., 2018) .
+

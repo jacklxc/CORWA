@@ -1,0 +1,20 @@
+[BOS] In this study, we move in a new direction to build a tree-based translation model with effective unsupervised U-tree structures.
+
+[BOS] For unsupervised tree structure induction, DeNero and Uszkoreit (2011) adopted a parallel parsing model to induce unlabeled trees of source sentences for syntactic pre-reordering.
+[BOS] Our previous work (Zhai et al., 2012) designed an EMbased method to construct unsupervised trees for tree-based translation models.
+[BOS] This work differs from the above work in that we design a novel Bayesian model to induce unsupervised U-trees, and prior knowledge can be encoded into the model more freely and effectively.
+[BOS] Blunsom et al. (2008 utilized Bayesian methods to learn synchronous context free grammars (SCFG) from a parallel corpus.
+[BOS] The obtained SCFG is further used in a phrase-based and hierarchical phrase-based system (Chiang, 2007) .
+[BOS] Levenberg et al. (2012) employed a Bayesian method to learn discontinuous SCFG rules.
+[BOS] This study differs from their work because we concentrate on constructing tree structures for tree-based translation models.
+[BOS] Our U-trees are learned based on STSG, which is more appropriate for tree-based translation models than SCFG.
+[BOS] Burkett and Klein (2008) and Burkett et al. (2010) focused on joint parsing and alignment.
+[BOS] They utilized the bilingual Tree-bank to train a joint model for both parsing and word alignment.
+[BOS] adopted a Bayesian method to infer an STSG by exploring the space of alignments based on parse trees.
+[BOS] Liu et al. (2012) re-trained the linguistic parsers bilingually based on word alignment.
+[BOS] Burkett and Klein (2012) utilized a transformation-based method to learn a sequence of monolingual tree transformations for translation.
+[BOS] Compared to their work, we do not rely on any Tree-bank resources and focus on generating effective unsupervised tree structures for tree-based translation models.
+[BOS] Zollmann and Venugopal (2006) substituted the non-terminal X in hierarchical phrase-based model by extended syntactic categories.
+[BOS] Zollmann and Vogel (2011) further labeled the SCFG rules with POS tags and unsupervised word classes.
+[BOS] Our work differs from theirs in that we present a Bayesian model to learn effective STSG translation rules and U-tree structures for tree-based translation models, rather than designing a labeling strategy for translation rules.
+

@@ -1,0 +1,17 @@
+[BOS] One of the first works on cross-lingual TL for NER that did not rely on parallel corpora used a CRF and included hand-crafted features (Zirikly and Hagiwara, 2015) .
+[BOS] Currently, most work on TL is done with neural models.
+[BOS] Because neural models often consist of multiple layers, one important design decision is which layers to transfer from source to target.
+[BOS] Much related work involves only transferring a single layer or specific combination of layers.
+[BOS] In Lee et al. (2017) the authors present more thorough results combining lower and higher layers, without transferring intermediate layers though.
+[BOS] In Yang et al. (2017) it is suggested to transfer only the character embeddings and the character RNN weights between languages.
+[BOS] The reason for this is likely that many languages written in the Latin alphabet have a large charset overlap, but far less vocabulary overlap.
+
+[BOS] Another question of interest concerns the pair of languages between which TL can be achieved.
+[BOS] Past work has shown transferring to a related language to help more than to an unrelated one for NER, POS tagging, and NMT (Zirikly and Hagiwara, 2015; Kim et al., 2017; Dabre et al., 2017) .
+[BOS] In Yang et al. (2017) it is mentioned that without additional resources, it is "very difficult for transfer learning between languages with disparate alphabets".
+[BOS] This background suggests TL from En-glish to Japanese to be non-trivial.
+
+[BOS] Finally, another consideration with TL is the size of the target dataset.
+[BOS] For one NER task, TL gains were shown to decrease to nearly zero as the size of the target training data increased to around 50k tokens (Lee et al., 2017) .
+[BOS] Similarly, for domain adaptation, a "phase transition" was observed in the amount of used target data, such that using source data was not effective when the target model was trained on 3.13k or more target instances (Ben-David et al., 2010) .
+

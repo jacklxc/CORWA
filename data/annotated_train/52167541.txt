@@ -1,0 +1,18 @@
+[BOS] Recent research shows that modelling syntax is useful for various neural NLP tasks.
+[BOS] Dyer et al. (2015 Dyer et al. ( , 2016 ; Vinyals et al. (2015) ; Luong et al. (2016) have works on language modelling and parsing, Tai et al. (2015) on semantic analysis, and Zhang et al. (2016) on sentence completion, etc.
+[BOS] Eriguchi et al. (2017) showed that NMT model can benefit from neural syntactical parsing models.
+[BOS] Choe and Charniak (2016) showed that a neural parsing problem shares similarity to neural language modelling problem, which forms a building block of an NMT system.
+[BOS] We can then make the assumption that structural syntactic information utilised in neural parsing models should be able to aid NMT, which is shown to be true here.
+[BOS] Zhang et al. (2016) proposed TreeLSTM which is another structured neural decoder.
+[BOS] TreeL-STM is not only structurally more complicated but also uses external classifiers.
+[BOS] Dong and Lapata (2016) also proposed a sequence-to-tree (Seq2Tree) model for question answering.
+[BOS] Both of these models are not designed for NMT and lack a language model.
+[BOS] While operate from top-tobottom like Seq2DRNN(+SynC), TreeLSTM and Seq2Tree produce components that lack sequential continuity which we have shown to be nonnegligible for language generation.
+
+[BOS] Aharoni and Goldberg (2017), Wu et al. (2017) , and Eriguchi et al. (2017) experimented with NMT models that utilise target side structural syntax.
+[BOS] Aharoni and Goldberg (2017) treated constituency trees as sequential strings (linearised-tree) and trained a Seq2Seq model to produce such sequences.
+[BOS] Wu et al. (2017) proposed SD-NMT, which models dependency syntax trees by adding a shift-reduce neural parser to a standard RNN decoder.
+[BOS] Eriguchi et al. (2017) in addition to Wu et al. (2017) 's work, proposed NMT+RNNG which uses a modified RNNG generator (Dyer et al., 2016) to process dependency instead of constituency information as originally proposed by Dyer et al. (2016) , making it consequently a StackLSTM sequential decoder with additional RNN units so it is still a bottom-up tree-structured decoder rather than a top-down decoder like ours.
+[BOS] Nevertheless, all of these research showed that target side syntax could improve NMT systems.
+[BOS] We believe these models could also be augmented with SynC connections (with NMT+RNNG one has to instead use constituency information).
+

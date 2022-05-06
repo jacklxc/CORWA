@@ -1,0 +1,12 @@
+[BOS] Early research on event extraction has primarily focused on local sentence-level representations in a pipelined architecture (Grishman et al., 2005; Ahn, 2006) .
+[BOS] Afterward, higher level features have been found to improve the performance (Ji and Grishman, 2008; Gupta and Ji, 2009; Patwardhan and Riloff, 2009; Liao and Grishman, 2010; Liao and Grishman, 2011; Hong et al., 2011; McClosky et al., 2011; Huang and Riloff, 2012; Li et al., 2013) .
+[BOS] Some recent research has proposed joint models for EE, including the methods based on Markov Logic Networks (Riedel et al., 2009; Poon and Vanderwende, 2010; Venugopal et al., 2014) , structured perceptron (Li et al., 2013; Li et al., 2014b) , and dual decomposition (Riedel et al. (2009; 2011b) ).
+
+[BOS] The application of neural networks to EE is very recent.
+[BOS] In particular, Zhou et al. (2014) and Boros et al. (2014) use neural networks to learn word embeddings from a corpus of specific domains and then directly utilize these embeddings as features in statistical classifiers.
+[BOS] Chen et al. (2015) apply dynamic multi-pooling CNNs for EE in a pipelined framework, while Nguyen et al. (2016) propose joint event extraction using recurrent neural networks.
+
+[BOS] Finally, domain adaptation and transfer learning have been studied extensively for various NLP tasks, including part of speech tagging (Blitzer et al., 2006) , name tagging (Daume III, 2007 ), parsing (McClosky et al., 2010 , relation extraction (Plank and Moschitti, 2013; Nguyen and Grishman, 2014; Nguyen et al., 2015a) , to name a few.
+[BOS] For event extraction, Miwa et al. (2013) study instance weighting and stacking models while Riedel and McCallum (2011b) examine joint models with domain adaptation.
+[BOS] However, none of them studies the new type extension setting for ED using neural networks like we do.
+

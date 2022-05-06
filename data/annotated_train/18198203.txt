@@ -1,0 +1,10 @@
+[BOS] We follow a long line of research in NLP that addresses search problems using (Integer) Linear Programs (Germann et al., 2001; Riedel and Clarke, 2006) .
+[BOS] However, instead of using off-the-shelf solvers, we work in the framework of dual decomposition.
+[BOS] Here we extend the approach of in that in addition to equality constraints we dualize more complex coupling constraints between models.
+[BOS] This requires us to work with a projected version of subgradient descent.
+
+[BOS] While tailored towards (biomedical) event extraction, we believe that our models can also be effective in a more general Semantic Role Labeling (SRL) context.
+[BOS] Using variants of Model 1, we can enforce many of the SRL constraints-such as "unique agent" constraints (Punyakanok et al., 2004) -without having to call out to ILP optimizers.
+[BOS] Meza-Ruiz and Riedel (2009) showed that inducing pressure on arguments to be attached to at least one predicate is helpful; this is a soft incoming edge constraint.
+[BOS] Finally, Model 3 can be used to efficiently capture compatibilities between semantic arguments; such compatibilities have also been shown to be helpful in SRL (Toutanova et al., 2005) .
+

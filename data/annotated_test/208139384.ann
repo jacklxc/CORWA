@@ -1,0 +1,20 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 250 255	[BOS]
+T3	Transition 516 521	[BOS]
+T4	Single_summ 570 575	[BOS]
+T5	Narrative_cite 725 730	[BOS]
+T6	Reflection 940 945	[BOS]
+T7	B_span 134 137	pre
+T8	E_span 242 246	2014
+T9	Reference 178 199	Hernault et al., 2010
+T10	Reference 201 221	Feng and Hirst, 2012
+T11	Reference 223 246	Ji and Eisenstein, 2014
+T12	Dominant 591 608	Li et al. (2016a)
+T13	B_span 591 593	Li
+T14	E_span 715 723	approach
+T15	B_span 765 771	neural
+T16	E_span 818 822	2018
+T17	Reference 807 822	Yu et al., 2018
+T18	B_span 884 886	bi
+T19	E_span 932 936	2017
+T20	Reference 913 936	Dozat and Manning, 2017

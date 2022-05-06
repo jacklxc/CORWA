@@ -1,0 +1,64 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 65 70	[BOS]
+T3	Transition 437 442	[BOS]
+T4	Transition 637 642	[BOS]
+T5	Narrative_cite 773 778	[BOS]
+T6	Narrative_cite 988 993	[BOS]
+T7	Transition 1170 1175	[BOS]
+T8	Transition 1301 1306	[BOS]
+T9	Reflection 1382 1387	[BOS]
+T10	Transition 1598 1603	[BOS]
+T11	Narrative_cite 1691 1696	[BOS]
+T12	Transition 1925 1930	[BOS]
+T13	Narrative_cite 2107 2112	[BOS]
+T14	Transition 2438 2443	[BOS]
+T15	Transition 2534 2539	[BOS]
+T16	Transition 2615 2620	[BOS]
+T17	Other 2837 2842	[BOS]
+T18	Other 2895 2900	[BOS]
+T19	Reference 221 239	(Rush et al., 2015
+T20	Reference 241 263	Nallapati et al., 2016
+T21	Reference 265 283	Chen et al., 2016b
+T22	Reference 285 301	Tan et al., 2017
+T23	Reference 366 385	Paulus et al., 2017
+T24	Reference 387 411	Celikyilmaz et al., 2018
+T25	Reference 413 434	Narayan et al., 2018)
+T26	Reference 939 961	(Chen and Bansal, 2018
+T27	Reference 963 984	Gehrmann et al., 2018
+T28	Reference 1103 1125	(Carenini et al., 2006
+T29	Reference 1127 1144	Wong et al., 2008
+T30	Reference 1146 1167	Galanis et al., 2012)
+T31	Reference 1825 1848	(Nallapati et al., 2016
+T32	Reference 1850 1867	Zhou et al., 2017
+T33	Reference 1869 1884	Li et al., 2017
+T34	Reference 1886 1902	Guo et al., 2018
+T35	Reference 1904 1922	Cao et al., 2018a)
+T36	Reference 2287 2312	(Daum III and Marcu, 2002
+T37	Reference 2314 2332	Zajic et al., 2007
+T38	Reference 2334 2357	Gillick and Favre, 2009
+T39	Reference 2359 2376	Wang et al., 2013
+T40	Reference 2412 2435	Filippova et al., 2015)
+T41	Pronoun 452 457	these
+T42	Pronoun 1388 1392	This
+T43	Pronoun 1428 1432	this
+T44	Pronoun 1662 1664	it
+T45	Pronoun 2458 2463	these
+T46	Pronoun 2646 2650	this
+T47	B_span 192 199	encoder
+T48	E_span 297 301	2017
+T49	B_span 366 372	Paulus
+T50	E_span 381 385	2017
+T51	B_span 387 398	Celikyilmaz
+T52	E_span 407 411	2018
+T53	B_span 413 420	Narayan
+T54	E_span 429 433	2018
+T56	E_span 980 984	2018
+T58	E_span 1162 1166	2012
+T60	E_span 1916 1921	2018a
+T63	Reference 2378 2393	Li et al., 2013
+T64	Reference 2394 2411	Li et al., , 2014
+T65	E_span 2430 2434	2015
+T55	B_span 795 805	extractive
+T57	B_span 1013 1020	surface
+T59	B_span 1727 1733	neural
+T61	B_span 2198 2206	sentence

@@ -1,0 +1,22 @@
+[BOS] Traditional discrete-feature-based SRL works (Swanson and Gordon, 2006; Zhao et al., 2009) mainly make heavy use of syntactic information.
+[BOS] Along with the impressive development of neuralnetwork-based approaches in the NLP community, much attention has been paid to build more powerful neural model without considering any syntactic information.
+[BOS] Zhou and Xu (2015) Apart from the above syntax-free works, researchers also pay much attention on improving the neural-based SRL approaches by introducing syntactic knowledge.
+[BOS] Roth and Lapata (2016) introduce the dependency path embeddings to the neural-based model and achieve substantial improvements.
+[BOS] employ the graph convolutional neural networks on top of the BiLSTM encoder to encode syntactic information.
+[BOS] He et al. (2018b) propose a k-th order argument pruning algorithm based on systematic dependency trees.
+[BOS] Strubell et al. (2018) propose a self-attention based neural MTL model which incorporate dependency parsing as a auxiliary task for SRL.
+[BOS] propose a MTL framework using hard parameter strategy to incorporate constituent parsing loss into semantic tasks, i.e. SRL and coreference resolution, which outperforms their baseline by +0.8 F1 score.
+[BOS] Xia et al. (2019) investigate and compare several syntax-aware methods on span-based SRL, showing the effectiveness of integrating syntactic information.
+
+[BOS] Compared with the large amount of works on English SRL, Chinese SRL works are rare, mainly because of the limitation of datasize and lack of attention of Chinese researchers.
+[BOS] Sun et al. (2009) treat the Chinese SRL as a sequence labeling problem and build a SVM-based model by exploiting morphological and syntactic features.
+[BOS] Wang et al. (2015b) build a basic BiLSTM model and introduce a way to exploit heterogeneous data by sharing word embeddings.
+[BOS] Xia et al. (2017) propose a progressive model to learn and transfer knowledge from heterogeneous SRL data.
+[BOS] The above works are all focus on the span-based Chinese SRL, and we compare with their results in Table 2 .
+[BOS] Different from them, we propose a MTL framework to integrate implicit syntactic representations into a simple unified model on both span-based and wordbased SRL, achieving substantial improvements.
+
+[BOS] In addition to the hard parameter sharing strategy that we discuss in Section 3.2, partial parameter sharing strategy is also a commonly studied approach in MTL and domain adaptation.
+[BOS] Kim et al. (2016) introduce simple neural extensions of feature argumentation by employing a global LSTM used across all domains and independent LSTMs used within individual domains.
+[BOS] Peng et al. (2017) explore a multitask learning approach which shares parameters across formalisms for semantic dependency parsing.
+[BOS] In addition, Peng et al. (2018) present a multi-task approach for frame-semantic parsing and semantic dependency parsing with latent structured variables.
+

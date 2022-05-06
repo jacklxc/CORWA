@@ -1,0 +1,41 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 107 112	[BOS]
+T3	Narrative_cite 169 174	[BOS]
+T4	Transition 413 418	[BOS]
+T5	Reflection 540 545	[BOS]
+T6	Narrative_cite 612 617	[BOS]
+T7	Reflection 714 719	[BOS]
+T8	Reflection 919 924	[BOS]
+T9	Transition 1005 1010	[BOS]
+T10	Narrative_cite 1082 1087	[BOS]
+T11	Transition 1197 1202	[BOS]
+T12	Reflection 1301 1306	[BOS]
+T13	Reflection 1354 1359	[BOS]
+T14	Dominant 34 45	(Och, 2003)
+T15	Reference 260 278	(Shen et al., 2004
+T16	Reference 280 299	Liang et al., 2006)
+T17	Reference 315 338	(Smith and Eisner, 2006
+T18	Reference 347 369	(Watanabe et al., 2007
+T19	Reference 371 391	Chiang et al., 2009)
+T20	Reference 668 691	(Smith and Eisner, 2005
+T21	Reference 693 711	Poon et al., 2009)
+T22	Reference 1131 1151	(Brown et al., 1993)
+T23	Reference 1172 1194	(Germann et al., 2001)
+T24	B_span 6 13	Minimum
+T25	E_span 159 167	features
+T26	B_span 249 259	perceptron
+T27	E_span 294 298	2006
+T28	B_span 302 309	minimum
+T29	E_span 334 338	2006
+T30	B_span 342 345	MIR
+T31	E_span 386 390	2009
+T32	B_span 645 656	contrastive
+T33	E_span 706 710	2009
+T34	B_span 1112 1119	pegging
+T35	E_span 1146 1150	1993
+T36	B_span 1156 1162	greedy
+T37	E_span 1189 1193	2001
+T38	Pronoun 122 124	it
+T39	Pronoun 486 491	these
+T40	Pronoun 786 791	their
+T41	Pronoun 890 895	their

@@ -1,0 +1,59 @@
+T1	Single_summ 0 5	[BOS]
+T2	Narrative_cite 169 174	[BOS]
+T3	Narrative_cite 382 387	[BOS]
+T4	Narrative_cite 615 620	[BOS]
+T5	Narrative_cite 708 713	[BOS]
+T6	Narrative_cite 816 821	[BOS]
+T7	Single_summ 955 960	[BOS]
+T8	Narrative_cite 1168 1173	[BOS]
+T9	Transition 1339 1344	[BOS]
+T10	Narrative_cite 1537 1542	[BOS]
+T11	Single_summ 1659 1664	[BOS]
+T12	Transition 1772 1777	[BOS]
+T13	Dominant 56 77	(Prasad et al., 2008)
+T14	Reference 296 316	(Pitler et al., 2008
+T15	Reference 318 335	Lin et al., 2009)
+T16	Reference 357 379	(Wellner et al., 2006)
+T17	Reference 497 515	(Qin et al., 2016)
+T18	Reference 553 571	(Guo et al., 2018)
+T19	Reference 594 612	(Jia et al., 2018)
+T20	Reference 685 705	(Bai and Zhao, 2018)
+T21	Reference 791 812	(Dai and Huang, 2018)
+T22	Reference 930 952	(Li and Nenkova, 2014)
+T23	Dominant 961 986	Marcu and Echihabi (2002)
+T24	Reference 1250 1275	(Rutherford and Xue, 2015
+T25	Reference 1277 1292	Xu et al., 2018
+T26	Reference 1294 1315	Braud and Denis, 2014
+T27	Reference 1317 1335	Wang et al., 2012)
+T28	Reference 1621 1633	(Stent, 2000
+T29	Reference 1635 1656	Tonelli et al., 2010)
+T30	Dominant 1677 1698	Tonelli et al. (2010)
+T33	B_span 258 261	and
+T34	E_span 334 335	)
+T35	B_span 339 343	rule
+T36	E_span 378 379	)
+T37	B_span 493 496	CNN
+T38	E_span 514 515	)
+T39	B_span 518 527	attention
+T40	E_span 570 571	)
+T41	B_span 578 584	memory
+T42	E_span 611 612	)
+T44	E_span 704 705	)
+T45	B_span 764 769	inter
+T46	E_span 811 812	)
+T47	B_span 879 887	datasets
+T48	E_span 951 952	)
+T49	B_span 961 965	Marc
+T50	E_span 1165 1166	.
+T51	B_span 1215 1218	for
+T52	E_span 1334 1335	)
+T53	B_span 1559 1568	discourse
+T54	E_span 1655 1656	)
+T55	B_span 1677 1681	Tone
+T56	E_span 1770 1771	.
+T57	Pronoun 861 865	this
+T58	Pronoun 1174 1178	This
+T59	Pronoun 1238 1240	it
+T31	B_span 25 29	Penn
+T32	E_span 159 167	possible
+T60	B_span 621 629	Advanced

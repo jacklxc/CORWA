@@ -1,0 +1,72 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 215 220	[BOS]
+T3	Transition 462 467	[BOS]
+T4	Transition 616 621	[BOS]
+T5	Single_summ 772 777	[BOS]
+T6	Single_summ 886 891	[BOS]
+T7	Single_summ 1046 1051	[BOS]
+T8	Single_summ 1170 1175	[BOS]
+T9	Single_summ 1312 1317	[BOS]
+T10	Single_summ 1497 1502	[BOS]
+T11	Single_summ 1595 1600	[BOS]
+T12	Transition 1786 1791	[BOS]
+T13	Transition 1875 1880	[BOS]
+T14	Single_summ 1956 1961	[BOS]
+T15	Single_summ 2121 2126	[BOS]
+T16	Single_summ 2289 2294	[BOS]
+T17	Single_summ 2469 2474	[BOS]
+T18	Single_summ 2695 2700	[BOS]
+T19	Transition 2810 2815	[BOS]
+T20	Transition 2968 2973	[BOS]
+T21	Single_summ 3124 3129	[BOS]
+T22	Single_summ 3299 3304	[BOS]
+T23	Transition 3519 3524	[BOS]
+T24	Reflection 3706 3711	[BOS]
+T25	Reflection 3858 3863	[BOS]
+T26	Reference 350 370	(Leuski et al., 2003
+T27	Reference 372 392	Ouyang et al., 2019)
+T28	Reference 414 440	(Orasan and Chiorean, 2008
+T29	Reference 442 459	Wan et al., 2010)
+T30	Dominant 778 798	Leuski et al. (2003)
+T31	Dominant 892 912	Ouyang et al. (2019)
+T32	Dominant 1318 1344	Orasan and Chiorean (2008)
+T33	Reference 1416 1440	(Goldstein et al., 2000)
+T34	Dominant 1503 1520	Wan et al. (2010)
+T35	Dominant 1962 1972	Wan (2011)
+T36	Dominant 2176 2193	Yao et al. (2015)
+T37	Dominant 2475 2494	Zhang et al. (2016)
+T38	Dominant 3140 3159	Ayana et al. (2018)
+T39	Dominant 3316 3334	Duan et al. (2019)
+T40	B_span 332 337	early
+T41	E_span 391 392	)
+T42	B_span 397 401	late
+T43	E_span 458 459	)
+T44	B_span 778 781	Leu
+T45	E_span 884 885	.
+T46	B_span 892 894	Ou
+T48	B_span 1318 1320	Or
+T49	E_span 1495 1496	.
+T50	B_span 1503 1506	Wan
+T51	E_span 1784 1785	.
+T52	B_span 1962 1965	Wan
+T53	E_span 2119 2120	.
+T54	B_span 2127 2135	Inspired
+T55	E_span 2467 2468	.
+T56	B_span 2475 2480	Zhang
+T57	E_span 2807 2808	.
+T58	B_span 3140 3142	Ay
+T59	E_span 3297 3298	.
+T60	B_span 3316 3318	Du
+T61	E_span 3517 3518	.
+T62	Pronoun 747 749	it
+T63	Pronoun 882 884	it
+T64	Pronoun 1052 1056	They
+T65	Pronoun 1601 1605	They
+T66	Pronoun 2295 2299	They
+T67	Pronoun 2829 2834	these
+T68	Pronoun 3034 3039	these
+T69	Pronoun 3060 3062	it
+T70	Pronoun 3715 3719	this
+T71	E_span 1301 1310	documents
+T47	B_span 1382 1389	maximal
+T72	E_span 1435 1439	2000

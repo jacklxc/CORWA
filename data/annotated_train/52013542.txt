@@ -1,0 +1,4 @@
+[BOS] Text classification develops from rule-based method, statistical machine learning method to deep learning method (Aggarwal and Zhai, 2012) .
+[BOS] Many researches on text classification focus on the sentence representation (Liu et al., 2018) .
+[BOS] Structure representation and attention mechanism are important for sentence representation.
+

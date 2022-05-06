@@ -1,0 +1,43 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 51 56	[BOS]
+T3	Reflection 242 247	[BOS]
+T4	Narrative_cite 442 447	[BOS]
+T5	Single_summ 680 685	[BOS]
+T6	Reflection 796 801	[BOS]
+T7	Narrative_cite 891 896	[BOS]
+T8	Transition 1279 1284	[BOS]
+T9	Transition 1364 1369	[BOS]
+T10	Reference 108 133	(Daum III and Marcu, 2006
+T11	Reference 135 160	Dang and Owczarzak, 2008)
+T12	Reference 504 528	(Richardson et al., 2013
+T13	Reference 530 549	Weston et al., 2016
+T14	Reference 551 576	Mostafazadeh et al., 2016
+T15	Reference 578 601	Rajpurkar et al., 2016)
+T16	Dominant 686 707	Hermann et al. (2015)
+T17	Reference 1012 1029	(Li et al., 2017)
+T18	Reference 1057 1078	(Ranzato et al., 2016
+T19	Reference 1080 1096	Gu et al., 2018)
+T20	Reference 1118 1137	(Choi et al., 2017)
+T21	Reference 1186 1209	(Zhang and Lapata, 2017
+T22	Reference 1211 1230	Paulus et al., 2017
+T23	Reference 1232 1253	Chen and Bansal, 2018
+T24	Reference 1255 1276	Narayan et al., 2018)
+T25	Pronoun 6 10	This
+T26	Pronoun 57 59	It
+T27	Pronoun 251 255	this
+T28	Pronoun 820 824	this
+T29	Pronoun 1285 1289	This
+T30	B_span 82 87	query
+T31	E_span 155 159	2008
+T32	B_span 448 453	Cloze
+T33	E_span 596 600	2016
+T34	B_span 686 693	Hermann
+T35	E_span 786 794	articles
+T36	B_span 994 1000	dialog
+T37	E_span 1024 1028	2017
+T38	B_span 1032 1039	machine
+T39	E_span 1091 1095	2018
+T40	B_span 1099 1107	question
+T41	E_span 1132 1136	2017
+T42	B_span 1144 1157	summarization
+T43	E_span 1271 1275	2018

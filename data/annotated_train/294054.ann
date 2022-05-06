@@ -1,0 +1,33 @@
+T1	Multi_summ 0 5	[BOS]
+T2	Narrative_cite 244 249	[BOS]
+T3	Transition 543 548	[BOS]
+T4	Transition 674 679	[BOS]
+T5	Multi_summ 791 796	[BOS]
+T6	Narrative_cite 958 963	[BOS]
+T7	Reflection 1179 1184	[BOS]
+T8	Dominant 101 112	Belz (2008)
+T9	Dominant 168 190	Mitchell et al. (2013)
+T10	Reference 402 424	(Jiang and Zhou, 2008)
+T11	Reference 458 487	(Ramakrishnan A et al., 2009)
+T12	Dominant 811 831	aszbal et al. (2013)
+T13	Dominant 836 859	Valitutti et al. (2013)
+T14	Reference 1052 1072	Sumita et al. (2005)
+T15	Reference 1077 1099	Mostow and Jang (2012)
+T16	Pronoun 552 557	these
+T17	Pronoun 1224 1229	these
+T18	Pronoun 1242 1247	their
+T19	B_span 101 105	Belz
+T20	E_span 160 164	data
+T21	B_span 168 176	Mitchell
+T22	E_span 236 242	images
+T23	Reference 380 399	Colton et al., 2012
+T24	Reference 358 377	Greene et al., 2010
+T25	Reference 441 456	Wu et al., 2013
+T26	B_span 339 349	generative
+T27	E_span 419 423	2008
+T28	B_span 428 432	song
+T29	E_span 482 486	2009
+T30	B_span 797 805	Examples
+T31	E_span 953 955	is
+T32	B_span 1010 1018	language
+T33	E_span 1094 1098	2012

@@ -1,0 +1,30 @@
+T1	Intro 0 5	[BOS]
+T2	Reflection 251 256	[BOS]
+T3	Narrative_cite 438 443	[BOS]
+T4	Transition 631 636	[BOS]
+T5	Transition 771 776	[BOS]
+T6	Transition 900 905	[BOS]
+T7	Transition 1061 1066	[BOS]
+T8	Single_summ 1239 1244	[BOS]
+T9	Single_summ 1326 1331	[BOS]
+T10	Single_summ 1615 1620	[BOS]
+T11	Single_summ 1805 1810	[BOS]
+T12	Single_summ 1870 1875	[BOS]
+T13	Single_summ 1967 1972	[BOS]
+T14	Reference 485 502	(ari et al., 2012
+T15	Reference 504 520	B r et al., 2012
+T16	Reference 522 542	Banea et al., 2012 )
+T17	Dominant 1245 1256	Shao (2017)
+T18	Dominant 1876 1899	Prijatelj et al. (2017)
+T19	Pronoun 33 35	it
+T20	Pronoun 260 264	this
+T21	Pronoun 1990 1995	their
+T22	Pronoun 2028 2032	they
+T23	Pronoun 2160 2165	these
+T24	Pronoun 2195 2199	this
+T25	B_span 467 471	rule
+T26	E_span 620 629	Wikipedia
+T27	B_span 1245 1249	Shao
+T28	E_span 1864 1868	2017
+T29	B_span 1876 1885	Prijatelj
+T30	E_span 2200 2209	framework

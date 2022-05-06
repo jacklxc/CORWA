@@ -1,0 +1,26 @@
+[BOS] There has been a surge in recent years to tackle the problem of story generation.
+[BOS] One common theme is to employ the advances in deep learning for the task.
+[BOS] Jain et al. (2017) use Seq2Seq models (Sutskever et al., 2014) to generate stories from descriptions of images.
+[BOS] leverage hierarchical decoding where a high-level decoder constructs a plan by generating a topic and a low-level decoder generates sentences based on the topic.
+[BOS] There have been a few works which try to incorporate real world knowledge during the process of story generation.
+[BOS] Guan et al. (2018) use an incremental encoding (IE) scheme and perform one hop reasoning over the ConceptNet graph ConceptNet in order to augment the representation of words in the sentences.
+[BOS] Chen et al. (2018) also tackle the problem in a similar way by including "commonsense knowledge" from ConceptNet as well.
+[BOS] Several prior work focus on generating more coherent stories.
+[BOS] Clark et al. (2018) A common problem with such neural approaches in general is that the generated text is very "safe and boring".
+[BOS] There has been a lot of recent efforts towards generating diverse outputs in problems such as dialogue systems, image captioning, story generation, etc., in order to alleviate the safe or boring text generation problem.
+
+[BOS] Methods include using self-attention Shao et al. (2017) , Reinforcement Learning (Li et al., 2017) , GANs etc.
+[BOS] Xu et al. (2018) proposed a method called Diversity-Promoting Generative Adversarial Network, which assigns low reward for repeatedly generated text and high reward for novel and fluent text using a language model based discriminator.
+[BOS] Li et al. (2016a) propose a Maximum Mutual Information (MMI) objective function and show that this objective function leads to a decrease in the proportion of generic response sequences.
+[BOS] Nakamura et al. (2018) propose another loss function for the same objective.
+[BOS] In our models we experiment with their loss function and observe similar effects.
+
+[BOS] Recent works have also made advances in controllable generation of text based on constraints to make the outputs more specific.
+[BOS] have a conditional embedding matrix for valence to control the ending of the story.
+[BOS] Hu et al. (2017b) have a toggle vector to introduce constraint on the output of text generation models using Variational Auto Encoders (Doersch, 2016) .
+[BOS] Generating diverse responses based on conditioning has been done extensively in the field of dialogue systems.
+[BOS] Xing et al. (2016) ; ; propose conditioning techniques by using emotion and persona while generating responses.
+[BOS] Conditioned generation has also been studied in the field of story generation to plan and write (Yao et al., 2018; stories.
+
+[BOS] In this work, we focus on generating more diverse and interesting endings for stories by introducing conditioning on keyphrases present in the story context and encouraging infrequent words in the outputs by modifying the training objective, thus leading to more interesting story endings.
+

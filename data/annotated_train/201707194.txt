@@ -1,0 +1,31 @@
+[BOS] Reading Comprehension with Knowledge Recent work has proposed different approaches for integrating external knowledge into neural models for the high-level downstream tasks reading comprehension (RC) and question answering (QA).
+[BOS] One line of work leverages external knowledge from knowledge bases for RC (Xu et al., 2016; Weissenborn et al., 2017a; Ostermann et al., 2018; Mihaylov and Frank, 2018; Bauer et al., 2018; Wang et al., 2018b) and QA (Das et al., 2017; Sun et al., 2018; Tandon et al., 2018) .
+[BOS] These approaches make use of implicit (Weissenborn et al., 2017a) or explicit (Mihaylov and Frank, 2018; Sun et al., 2018; Bauer et al., 2018) attention-based knowledge aggregation or leverage features from knowledge base relations (Wang et al., 2018b) .
+
+[BOS] Another line of work builds on linguistic knowledge from downstream tasks, such as coreference resolution (Dhingra et al., 2017) or notions of co-occurring candidate mentions (De Cao et al., 2019) and OpenIE triples (Khot et al., 2017) into RNN-based encoders.
+[BOS] Recently, several pretrained language models Radford et al., 2018b; Devlin et al., 2019) have been shown to incrementally boost the performance of well-performing models for several short paragraph reading comprehension tasks Devlin et al., 2019 ) and question answering (Sun et al., 2019) , as well as many tasks from the GLUE benchmark (Wang et al., 2018a) .
+[BOS] Approaches based on BERT (Devlin et al., 2019) usually perform best when the weights are fine-tuned for the specific training task.
+[BOS] Earlier, many papers that do not use self-attention models or even neural methods have also tried to use semantic parse labels (Yih et al., 2016) , or annotations from upstream tasks (Khashabi et al., 2018b) .
+
+[BOS] Self-Attention Models in NLP Vanilla selfattention models (Vaswani et al., 2017) use positional encoding, sometimes combined with local convolutions (Yu et al., 2018) to model the token order in text.
+[BOS] Although they are scalable due to their recurrence-free nature, most self-attention models do not well work when trained with fixedlength context, due to the fact that they often learn global token positions observed during training, rather than relative.
+[BOS] To address this issue, Shaw et al. (2018) proposes relative position encoding to model the distance between tokens in the context.
+[BOS] Dai et al. (2019) address the problem of moving beyond fixed-length context by adding recurrence to the self-attention model.
+[BOS] Dai et al. (2019) argue that the fixed-length segments used for language modeling hurt the performance due to the fact that they do not respect sentence or any other semantic boundaries.
+[BOS] In this work we also support the claim that the lack of semantic, and also discourse boundaries is an issue, and therefore we aim to introduce structured linguistic information into the self-attention model.
+[BOS] We hypothesize that the lack of local discourse context is a problem for answering narrative questions, where the answer is contained inside the same sentence, or neighbouring sentences and therefore, by offering discourselevel semantic structure to the attention heads, offer ways to restrict, or focus the model to wider or narrower structures, depending on what is needed (Hu et al., 2018b) 48.40 51.50 RMR (Ens) (Hu et al., 2018b) 50.10 53.90 RMR + A2D (Hu et al., 2018b) 50 for specific questions.
+[BOS] Self-attention architectures can be seen as graph architectures (imagine the token (node) interactions as adjacency matrix) and are applied to graph problems (Velikovi et al., 2018; Li et al., 2019) .
+[BOS] Therefore, in very recent work Koncel-Kedziorski et al. (2019) have used a self-attention encoder as a graph encoder for text generation, in a dual encoder model.
+[BOS] A dual-encoder model similar to Koncel-Kedziorski et al. (2019) is suitable for a setting where the input is knowledge from a graph knowledge-base.
+[BOS] For a text-based setting like ours, where word order is important and the tokens are part of semantic arguments, an approach that tries to encode linguistic information in the same architecture (Strubell et al., 2018) is more appropriate.
+[BOS] Therefore our method is most related to LISA (Strubell et al., 2018) , which uses joint multi-task learning of POS and Dependency Parsing to inject syntactic information for Semantic Role Labeling.
+[BOS] In contrast, we do not use multi-task learning, but directly encode semantic information extracted by pre-processing with existing tools.
+
+[BOS] NarrativeQA The summary setting of the Nar-rativeQA dataset (Kocisky et al., 2018) has in the past been addressed with attention mechanisms by the following models: BiAtt + MRU (Tay et al., 2018a) is similar to BiDAF (Seo et al., 2017) .
+[BOS] It is bi-attentive (attends form context-toquery and vice versa) but enhanced with a MRU (Multi-Range Reasoning Units).
+[BOS] MRU is a compositional encoder that splits the context tokens into ranges (n-grams) of different sizes and combines them in summed n-gram representations and fully-connected layers.
+[BOS] DecaProp (Tay et al., 2018b ) is a neural architecture for reading comprehension, that densely connects all pairwise layers, modeling relationships between passage and query across all hierarchical levels.
+[BOS] Bauer et al. (2018) observed that some of the questions require external commonsense knowledge and developed MHPGM-NOIC -a seq2seq generative model with a copy mechanism that also uses commonsense knowledge and ELMo contextual representations.
+[BOS] Hu et al. (2018b) used an implementation of Reinforced Mnemonic Reader (RMR) (Hu et al., 2018a) .
+[BOS] They also proposed RMR + A2D, a novel teacher-student attention distillation method to train a model to mirror the behavior of the ensemble model RMR (Ens).
+

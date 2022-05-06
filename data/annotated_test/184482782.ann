@@ -1,0 +1,45 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 186 191	[BOS]
+T3	Single_summ 378 383	[BOS]
+T4	Single_summ 636 641	[BOS]
+T5	Single_summ 776 781	[BOS]
+T6	Single_summ 944 949	[BOS]
+T7	Single_summ 1154 1159	[BOS]
+T8	Single_summ 1313 1318	[BOS]
+T9	Transition 1592 1597	[BOS]
+T10	Transition 1742 1747	[BOS]
+T11	Transition 1838 1843	[BOS]
+T12	Single_summ 1987 1992	[BOS]
+T13	Single_summ 2194 2199	[BOS]
+T14	Narrative_cite 2320 2325	[BOS]
+T15	Transition 2493 2498	[BOS]
+T16	Single_summ 2767 2772	[BOS]
+T17	Narrative_cite 3162 3167	[BOS]
+T18	Dominant 433 453	(Kumar et al., 2018)
+T19	Dominant 642 668	Schmidt and Wiegand (2017)
+T20	Reference 915 941	(Pavlopoulos et al., 2017)
+T21	Dominant 950 969	Zhang et al. (2018)
+T22	Dominant 1993 2020	Aroyehun and Gelbukh (2018)
+T23	Reference 2445 2468	(Howard and Ruder, 2018
+T24	Reference 2470 2490	Devlin et al., 2018)
+T25	Dominant 2858 2879	(Devlin et al., 2018)
+T26	Reference 2944 2962	(Zhu et al., 2015)
+T27	Reference 3353 3377	(Rajpurkar et al., 2016)
+T28	B_span 419 423	TRAC
+T29	E_span 632 634	.6
+T30	B_span 642 649	Schmidt
+T31	E_span 936 940	2017
+T32	B_span 819 826	support
+T33	E_span 936 940	2017
+T34	B_span 950 955	Zhang
+T35	E_span 1144 1152	datasets
+T36	B_span 1993 2001	Aroyehun
+T37	E_span 2309 2317	workshop
+T38	B_span 2427 2435	transfer
+T39	E_span 2485 2489	2018
+T40	B_span 2795 2808	Bidirectional
+T41	B_span 2919 2930	BooksCorpus
+T42	E_span 2957 2961	2015
+T43	E_span 3156 3160	task
+T44	B_span 3339 3344	SQuAD
+T45	E_span 3372 3376	2016

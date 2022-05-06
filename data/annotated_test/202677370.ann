@@ -1,0 +1,43 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 183 188	[BOS]
+T3	Narrative_cite 446 451	[BOS]
+T4	Narrative_cite 669 674	[BOS]
+T5	Transition 878 883	[BOS]
+T6	Narrative_cite 1128 1133	[BOS]
+T7	Single_summ 1297 1302	[BOS]
+T8	Reflection 1495 1500	[BOS]
+T9	Reference 305 326	McDonald et al., 2011
+T10	Reference 328 346	Cohen et al., 2011
+T11	Reference 348 366	Duong et al., 2015
+T12	Reference 368 384	Guo et al., 2016
+T13	Reference 386 406	Vilares et al., 2016
+T14	Reference 408 443	Falenska and  etinoglu, 2017 (2018)
+T15	Reference 528 547	Naseem et al., 2012
+T16	Reference 549 569	Tckstrm et al., 2013
+T17	Reference 571 595	Zhang and Barzilay, 2015
+T18	Reference 597 618	Wang and Eisner, 2016
+T19	Reference 620 645	Rasooli and Collins, 2017
+T20	Reference 647 666	Ammar et al., 2016)
+T21	Reference 693 713	(Zeman et al., 2018)
+T22	Reference 741 762	(Naseem et al., 2012)
+T23	Reference 822 848	(Wang and Eisner, 2018a,b)
+T24	Reference 1229 1246	(Liu et al., 2019
+T25	Reference 1248 1272	Hewitt and Manning, 2019
+T26	Reference 1274 1294	Tenney et al., 2019)
+T27	Dominant 1303 1324	Wada and Iwata (2018)
+T29	E_span 442 443	)
+T30	B_span 461 464	typ
+T33	E_span 665 666	)
+T34	B_span 686 690	bite
+T35	E_span 712 713	)
+T36	B_span 716 724	manually
+T37	E_span 761 762	)
+T38	B_span 768 775	surface
+T41	E_span 847 848	)
+T42	B_span 1189 1194	monol
+T43	E_span 1293 1294	)
+T44	B_span 1303 1305	Wa
+T45	E_span 1493 1494	.
+T46	Pronoun 197 202	these
+T47	Pronoun 908 912	this
+T48	B_span 231 237	either

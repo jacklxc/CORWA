@@ -1,0 +1,12 @@
+[BOS] There is very limited previous work on joint Chinese word segmentation, POS tagging, and parsing.
+[BOS] Previous joint models mainly focus on word segmentation and POS tagging task, such as the virtual nodes method (Qian et al., 2010) , cascaded linear model (Jiang et al., 2008a) , perceptron (Zhang and Clark, 2008) , sub-word based stacked learning (Sun, 2011) , reranking (Jiang et al., 2008b) .
+[BOS] These joint models showed about 0.2  1% F-score improvement over the pipeline method.
+[BOS] Recently, joint tagging and dependency parsing has been studied as well (Li et al., 2011; Lee et al., 2011) .
+
+[BOS] Previous research has showed that word segmentation has a great impact on parsing accuracy in the pipeline method (Harper and Huang, 2009 ).
+[BOS] In (Jiang et al., 2009) , additional data was used to improve Chinese word segmentation, which resulted in significant improvement on the parsing task using the pipeline framework.
+[BOS] Joint segmentation and parsing was also investigated for Arabic (Green and Manning, 2010) .
+[BOS] A study that is closely related to ours is (Goldberg and Tsarfaty, 2008 ), where a single generative model was proposed for joint morphological segmentation and syntactic parsing for Hebrew.
+[BOS] Different from that work, we use a discriminative model, which benefits from large amounts of features and is easier to deal with unknown words.
+[BOS] Another main difference is that, besides segmentation and parsing, we also incorporate the POS tagging model into the CYK parsing framework.
+

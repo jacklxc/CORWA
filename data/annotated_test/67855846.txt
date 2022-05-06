@@ -1,0 +1,23 @@
+[BOS] Question answering datasets: With systems reaching human performance on the Stanford Question Answering Dataset (SQuAD) (Rajpurkar et al., 2016) , many follow-on tasks are currently being proposed.
+[BOS] All of these datasets throw in additional complexities to the reading comprehension challenge, around tracking conversational state (Reddy et al., 2018; Choi et al., 2018) , requiring passage retrieval (Joshi et al., 2017; Yang et al., 2018) , mismatched passages and questions (Saha et al., 2018; Kocisk et al., 2018; Rajpurkar et al., 2018) , in-tegrating knowledge from external sources (Mihaylov et al., 2018; , or a particular kind of "multi-step" reasoning over multiple documents (Welbl et al., 2018; Khashabi et al., 2018) .
+[BOS] We applaud these efforts, which offer good avenues to study these additional phenomena.
+[BOS] However, we are concerned with paragraph understanding, which on its own is far from solved, so DROP has none of these additional complexities.
+[BOS] It consists of single passages of text paired with independent questions, with only linguistic facility required to answer the questions.
+[BOS] 1 One could argue that we are adding numerical reasoning as an "additional complexity", and this is true; however, it is only simple reasoning that is relatively well-understood in the semantic parsing literature, and we use it as a necessary means to force more comprehensive passage understanding.
+
+[BOS] Many existing algebra word problem datasets also contain similar phenomena to what is in DROP (Koncel-Kedziorski et al., 2015; Ling et al., 2017) .
+[BOS] Our dataset is different in that it typically has much longer contexts, is more open domain, and requires deeper paragraph understanding.
+
+[BOS] Semantic parsing: The semantic parsing literature has a long history of trying to understand complex, compositional question semantics in terms of some grounded knowledge base or other environment (Zelle and Mooney, 1996; Zettlemoyer and Collins, 2005; Berant et al., 2013a, inter alia) .
+[BOS] It is this literature that we modeled our questions on, particularly looking at the questions in the Wik-iTableQuestions dataset (Pasupat and Liang, 2015) .
+[BOS] If we had a structured, tabular representation of the content of our paragraphs, DROP would be largely the same as WikiTableQuestions, with similar (possibly even simpler) question semantics.
+[BOS] Our novelty is that we are the first to combine these complex questions with paragraph understanding, with the aim of encouraging systems that can produce comprehensive structural analyses of paragraphs, either explicitly or implicitly.
+
+[BOS] Adversarial dataset construction: We continue a recent trend in creating datasets with adversarial baselines in the loop (Paperno et al., 2016; Minervini and Riedel, 2018; Zellers et al., 2018b; Zellers et al., 2018a) .
+[BOS] In our case, instead of using an adversarial baseline to filter automatically generated examples, we use it in a crowdsourcing task, to raise the difficulty level of the questions provided by crowd workers.
+
+[BOS] Neural symbolic reasoning: DROP is designed to encourage research on methods that combine neural methods with discrete, symbolic reasoning.
+
+[BOS] We present one such model in Section 6.
+[BOS] Other related work along these lines has been done by Reed and de Freitas (2015), Neelakantan et al. (2015) , and Liang et al. (2017) .
+

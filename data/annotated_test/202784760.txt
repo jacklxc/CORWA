@@ -1,0 +1,14 @@
+[BOS] End-to-end dialog systems: There have been a number of studies on end-to-end dialog systems, often focused on task or goal oriented dialog systems such as conversational recommendations Sun and Zhang, 2018) , information querying (Williams et al., 2017; de Vries et al., 2018; Reddy et al., 2018) , etc.
+[BOS] Many of the public datasets are collected via bootstrapped simulations , Wizard-of-Oz setup Wei et al., 2018; Moon et al., 2019a) , or online corpus (Li et al., 2016) .
+[BOS] In our work, we propose a unique setup for dialog systems called memory-grounded conversations, where the focus is on grounding human conversations with past user memories for both the goal-oriented task (memory recall QA) and the more open-ended dialogs (proactive memory reference).
+[BOS] Our Memory Dialog dataset uses the popular Wizard-of-Oz setup between role-playing human annotators, where the reference memories are bootstrapped through memory graph generator.
+[BOS] QA Systems: Structured QA systems have been very popular due to the popularity of the factretrieval assistant products, which solve factretrieval QA queries with large-scale common fact knowledge graphs (Bordes et al., 2015; Xu et al., 2016; Dubey et al., 2018) .
+[BOS] Most of the work typically utilize an entity linking system and a QA model for predicting graph operations e.g. through template matching approaches, etc.
+[BOS] For QA systems with unstructured knowledge sources (e.g. machine reading comprehension), the approaches that utilize Memory Networks with explicit memory slots (Weston et al., 2014; Sukhbaatar et al., 2016) are widely used for their capability of transitive reasoning.
+[BOS] In our work, we utilize Memory Graph Networks (MGN) (Moon et al., 2019b) to store graph nodes as memory slots and expand slots via graph traversals, to effectively handle complex memory recall queries and to identify relevant memories to surface next.
+
+[BOS] Visual QA systems answer queries based on the contexts from provided images (Antol et al., 2015; .
+[BOS] Jiang et al. (2018) propose the visual memex QA task which addresses similar domains given a dataset composed of multiple photo albums.
+[BOS] We extend the problem domain to the conversational settings where the focus is the increased engagement with users through natural multi-modal interactions.
+[BOS] Our work also extends the QA capability by utilizing semantic and structural contexts from memory and knowledge graphs, instead of relying solely on meta information and multi-modal content available in photo albums.
+

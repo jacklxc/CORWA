@@ -1,0 +1,9 @@
+[BOS] Klein and Manning presented an unlexicalized PCFG parser that eliminated all the lexicalized parameters (Klein and Manning, 2003 splitting tags (Matsuzaki et al., 2005; Petrov et al., 2006) .
+[BOS] In particular, Petrov et al. reported an F 1 of 90.2%, which is equivalent to that of state-of-the-art lexicalized parsers.
+[BOS] Dependency parsing has been actively studied in recent years (Yamada and Matsumoto, 2003; Nivre and Scholz, 2004; Isozaki et al., 2004; McDonald et al., 2005; McDonald and Pereira, 2006; Corston-Oliver et al., 2006) .
+[BOS] For instance, Nivre and Scholz presented a deterministic dependency parser trained by memory-based learning (Nivre and Scholz, 2004) .
+[BOS] McDonald et al. proposed an online large-margin method for training dependency parsers (McDonald et al., 2005) .
+[BOS] All of them performed experiments using section 23 of the Penn Treebank.
+[BOS] Table 2 summarizes their dependency accuracies based on three evaluation criteria shown in Table 1 .
+[BOS] These parsers believed in the generalization ability of machine learners and did not pay attention to the issue of lexicalization.
+

@@ -1,0 +1,57 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 178 183	[BOS]
+T3	Transition 417 422	[BOS]
+T4	Single_summ 549 554	[BOS]
+T5	Single_summ 764 769	[BOS]
+T6	Reflection 1048 1053	[BOS]
+T7	Narrative_cite 1139 1144	[BOS]
+T8	Single_summ 1290 1295	[BOS]
+T9	Transition 1470 1475	[BOS]
+T10	Reflection 1612 1617	[BOS]
+T11	Reflection 1755 1760	[BOS]
+T12	Narrative_cite 1877 1882	[BOS]
+T13	Single_summ 2224 2229	[BOS]
+T14	Reflection 2381 2386	[BOS]
+T15	B_span 54 61	natural
+T16	E_span 170 174	1997
+T17	Reference 118 130	Kukich, 1983
+T18	Reference 132 151	Holmes-Higgin, 1994
+T19	Reference 153 174	Reiter and Dale, 1997
+T20	B_span 235 242	content
+T21	E_span 338 342	2005
+T22	Reference 254 266	Kukich, 1983
+T23	Reference 268 289	Reiter and Dale, 1997
+T24	Reference 291 316	Duboue and McKeown, 2003;
+T25	Reference 317 342	Barzilay and Lapata, 2005
+T26	B_span 348 355	surface
+T27	E_span 408 412	2005
+T28	Reference 369 390	Goldberg et al., 1994
+T29	Reference 392 412	Re-iter et al., 2005
+T30	Dominant 568 585	Mei et al. (2016)
+T31	B_span 568 571	Mei
+T32	E_span 754 762	datasets
+T33	Dominant 770 791	Wiseman et al. (2017)
+T34	B_span 770 777	Wiseman
+T35	E_span 1037 1046	structure
+T36	B_span 1177 1181	feed
+T37	E_span 1220 1224	2016
+T38	Reference 1205 1224	Lebret et al., 2016
+T39	B_span 1229 1243	encoderdecoder
+T40	E_span 1282 1286	2018
+T41	Reference 1251 1267	Bao et al., 2018
+T42	Reference 1269 1286	Nema et al., 2018
+T43	B_span 1306 1311	Perez
+T44	E_span 1464 1468	data
+T45	Dominant 1306 1341	Perez-Beltrachini and Lapata (2018)
+T46	B_span 1946 1955	enriching
+T47	E_span 2018 2031	comprehension
+T48	Reference 1981 2005	Mihaylov and Frank, 2018
+T49	B_span 2033 2042	improving
+T50	E_span 2115 2124	inference
+T51	Reference 2076 2093	Chen et al., 2018
+T52	B_span 2129 2138	providing
+T53	E_span 2216 2220	2016
+T54	Reference 2204 2220	Ahn et al., 2016
+T55	Dominant 2268 2293	Mihaylov and Frank (2018)
+T56	E_span 2374 2379	paper
+T57	B_span 2268 2276	Mihaylov

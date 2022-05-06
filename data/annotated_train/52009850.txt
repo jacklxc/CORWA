@@ -1,0 +1,30 @@
+[BOS] In linguistics, a word is the most basic unit, and other larger language elements such as phrases and sentences, etc., are built upon words.
+[BOS] Due to this fact, it is natural that most previous works regard a word as the smallest unit in their models, i.e. these models operate at word-level.
+
+[BOS] The word-level EncDec models have achieved great improvements on neural machine translations Jean et al., 2015) , which inspired researchers to apply this idea to response generation task to build a generation based neural conversation systems (Vinyals and Le, 2015; Shang et al., 2015; Xing et al., 2016; .
+[BOS] This technique enables a conversation system to be end-to-end trained from a large-scale corpus of message-response pairs, but researchers found it tends to generate some general and 'safe' responses (Vinyals and Le, 2015) .
+[BOS] To address this challenge, (Li et al., 2016) introduced a new objective function with MMI (maximum mutual information) to penalize too general responses.
+[BOS] (Shao et al., 2017) presented a novel attentional model to generate long and diverse responses.
+[BOS] (Wu et al., 2017) enhanced the quality and diversity of generated responses by constructing a dynamic vocabulary.
+
+[BOS] In this paper, we focus on two issues discussed in Section 2: Unknown Words Issue and Preference Issue.
+[BOS] Actually, many researchers have raised their attention to these two issues, and proposed models operate at non-word-level such as character-level and subword-level.
+[BOS] (Kim et al., 2016) solved the representation of unknown words and selection preference for language modelling by utilizing characters to calculate an equivalent word embedding instead of looking up a word embedding matrix.
+[BOS] (Costajussa and Fonollosa, 2016) absorbed this idea and proposed a character-level Encoder for machine translation.
+[BOS] Recently, inspired by (Kim et al., 2016; Costajussa and Fonollosa, 2016) , (Lee et al., 2016 ) introduced a fully character-level EncDec model.
+[BOS] (Sennrich et al., 2016) mined subword units to represent all words by applying BPE algorithm.
+[BOS] (Chung et al., 2016) utilized the BPE to build a subword-level Encoder and proposed a character-level Decoder.
+
+[BOS] While a character-level model or a subword-level model may address the Unknown Words Issue, but it could sharpen the long-term dependencies issue and lost much semantic and syntactic information due to each word must be decomposed to several characters or subunits.
+[BOS] The loss may more than gains, and we consider this is why most models operate sentences at word-level.
+
+[BOS] In addition, previous models are designed for machine translation task which is actually a different task compared with response generation while they are both SEQ2SEQ tasks.
+[BOS] This paper proposes a model HL-EncDec, which utilizes the hybrid-level representation technique to improve the generation quality for response generation task.
+
+[BOS] In the source side ,for a word x, HL-EncDec not only utilizes the word-level embedding vector x w obtained by looking up embedding matrix, but also calculates an equivalent word-level embedding vector x c of x.
+[BOS] To calculate the x c , HL-EncDec employs its corresponding character sequence and a Convolutional Neural Network based network.
+[BOS] The Encoder of HL-EncDec maintains two vocabularies V e w and V e c , the first vocabulary V e w records a finite number of words and their embedding vectors, the second vocabulary V e c records all characters of the language used by current system.
+[BOS] In general, the total number of all characters of a language is fixed and small, hence recently GPU devices are very easy to load all characters to its RAM.
+[BOS] For example, there are about 128 characters in English alphabet (ASCII).
+[BOS] Obviously, the concept of out-vocabulary-character has gone with the wind, and each OOV word could be represented as a sequence of fully known characters.
+

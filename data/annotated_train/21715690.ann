@@ -1,0 +1,45 @@
+T1	Reflection 0 5	[BOS]
+T2	Narrative_cite 106 111	[BOS]
+T3	Narrative_cite 321 326	[BOS]
+T4	Single_summ 560 565	[BOS]
+T5	Single_summ 671 676	[BOS]
+T6	Reflection 793 798	[BOS]
+T7	Transition 875 880	[BOS]
+T8	Narrative_cite 977 982	[BOS]
+T9	Transition 1141 1146	[BOS]
+T10	Transition 1268 1273	[BOS]
+T11	Narrative_cite 1362 1367	[BOS]
+T12	Reflection 1618 1623	[BOS]
+T13	Reflection 1672 1677	[BOS]
+T14	Reflection 1809 1814	[BOS]
+T15	Reflection 1876 1881	[BOS]
+T16	Reference 241 262	(Radford et al., 2015
+T17	Reference 264 286	Salimans et al., 2016)
+T18	Reference 491 515	(Goodfellow et al., 2015
+T19	Reference 517 536	Miyato et al., 2016
+T20	Reference 538 557	Zheng et al., 2016)
+T21	Dominant 566 590	Belinkov and Bisk (2018)
+T22	Reference 1074 1097	(Sennrich et al., 2016a
+T23	Reference 1099 1115	He et al., 2016a
+T24	Reference 1117 1138	Zhang and Zong, 2016)
+T25	Reference 1509 1527	(Chen et al., 2017
+T26	Reference 1529 1547	Zheng et al., 2017
+T27	Reference 1572 1592	(Lample et al., 2018
+T28	Reference 1594 1615	Artetxe et al., 2018)
+T29	Pronoun 692 698	theirs
+T30	Pronoun 1147 1151	They
+T31	Pronoun 1279 1283	they
+T32	Pronoun 1318 1323	these
+T33	Pronoun 1660 1665	these
+T34	B_span 225 233	computer
+T35	E_span 281 285	2016
+T36	B_span 468 478	robustness
+T37	E_span 552 556	2016
+T38	B_span 566 574	Belinkov
+T39	E_span 785 791	models
+T40	B_span 1054 1065	monolingual
+T41	E_span 1133 1137	2016
+T42	B_span 1467 1476	bilingual
+T43	E_span 1543 1547	2017
+T44	B_span 1552 1563	monolingual
+T45	E_span 1610 1614	2018

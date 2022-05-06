@@ -1,0 +1,33 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 72 77	[BOS]
+T3	Transition 212 217	[BOS]
+T4	Narrative_cite 298 303	[BOS]
+T5	Single_summ 450 455	[BOS]
+T6	Single_summ 648 653	[BOS]
+T7	Reflection 821 826	[BOS]
+T8	Transition 1010 1015	[BOS]
+T9	Single_summ 1149 1154	[BOS]
+T10	Single_summ 1229 1234	[BOS]
+T11	Single_summ 1342 1347	[BOS]
+T12	Single_summ 1451 1456	[BOS]
+T13	Single_summ 1520 1525	[BOS]
+T14	Reflection 1649 1654	[BOS]
+T15	Reflection 1979 1984	[BOS]
+T16	Other 2142 2147	[BOS]
+T17	B_span 94 104	heuristics
+T18	E_span 204 208	2015
+T19	Reference 137 160	Heilman and Smith, 2010
+T20	Reference 162 186	Mazidi and Nielsen, 2014
+T21	Reference 188 208	Labutov et al., 2015
+T22	B_span 408 412	deep
+T23	E_span 442 446	2019
+T24	Reference 430 446	Pan et al., 2019
+T25	Dominant 456 472	Du et al. (2017)
+T26	B_span 456 458	Du
+T27	E_span 635 646	evaluations
+T28	Dominant 654 671	Sun et al. (2018)
+T29	B_span 654 657	Sun
+T30	E_span 815 819	word
+T31	Dominant 1155 1173	Duan et al. (2017)
+T32	B_span 1155 1159	Duan
+T34	E_span 1637 1647	prediction

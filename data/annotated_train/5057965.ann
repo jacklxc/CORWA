@@ -1,0 +1,51 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 25 30	[BOS]
+T3	Narrative_cite 176 181	[BOS]
+T4	Transition 365 370	[BOS]
+T5	Transition 390 395	[BOS]
+T6	Narrative_cite 437 442	[BOS]
+T7	Narrative_cite 595 600	[BOS]
+T8	Transition 809 814	[BOS]
+T9	Narrative_cite 920 925	[BOS]
+T10	Narrative_cite 1094 1099	[BOS]
+T11	Transition 1295 1300	[BOS]
+T12	Narrative_cite 1330 1335	[BOS]
+T13	Transition 1698 1703	[BOS]
+T14	Reference 297 320	(Chiu and Nichols, 2016
+T15	Reference 322 341	Lample et al., 2016
+T16	Reference 343 361	Ma and Hovy, 2016)
+T17	Reference 513 532	(Zilly et al., 2017
+T18	Reference 534 551	Inan et al., 2016
+T19	Reference 553 571	Godin et al., 2017
+T20	Reference 573 592	Melis et al., 2017)
+T21	Reference 723 746	(Jzefowicz et al., 2016
+T22	Reference 748 766	Grave et al., 2017
+T23	Reference 768 783	Li et al., 2018
+T24	Reference 785 806	Shazeer et al., 2017)
+T25	Reference 1044 1061	(Dai and Le, 2015
+T26	Reference 1063 1079	Liu et al., 2018
+T27	Reference 1081 1091	Rei, 2017)
+T28	Reference 1270 1292	(Peters et al., , 2018
+T29	Reference 1432 1449	(Han et al., 2015
+T30	Reference 1451 1468	Wen et al., 2016)
+T31	Reference 1539 1559	(Hubara et al., 2018
+T32	Reference 1561 1586	Courbariaux et al., 2016)
+T33	Reference 1653 1673	(Hinton et al., 2015
+T34	Reference 1675 1695	Romero et al., 2014)
+T35	B_span 222 225	end
+T36	E_span 356 360	2016
+T37	B_span 490 496	neural
+T38	E_span 587 591	2017
+T39	B_span 678 686	generate
+T40	E_span 801 805	2017
+T41	B_span 984 995	supervision
+T42	E_span 1086 1090	2017
+T43	Reference 1250 1269	Peters et al., 2017
+T44	B_span 1221 1224	pre
+T45	E_span 1288 1292	2018
+T46	B_span 1399 1404	prune
+T47	E_span 1463 1467	2016
+T48	B_span 1471 1481	converting
+T49	E_span 1581 1585	2016
+T50	B_span 1593 1598	using
+T51	E_span 1690 1694	2014

@@ -1,0 +1,9 @@
+[BOS] We have introduced BRAT, an intuitive and userfriendly web-based annotation tool that aims to enhance annotator productivity by closely integrating NLP technology into the annotation process.
+[BOS] BRAT has been and is being used for several ongoing annotation efforts at a number of academic institutions and has so far been used for the creation of well-over 50,000 annotations.
+[BOS] We presented an experiment demonstrating that integrated machine learning technology can reduce the time for type selection by over 30% and overall annotation time by 15% for a multi-type entity mention annotation task.
+
+[BOS] The design and implementation of BRAT was informed by experience from several annotation tasks and research efforts spanning more than a decade.
+[BOS] A variety of previously introduced annotation tools and approaches also served to guide our design decisions, including the fast annotation mode of Knowtator (Ogren, 2006) , the search capabilities of the XConc tool (Kim et al., 2008) , and the design of web-based systems such as MyMiner (Salgado et al., 2010) , and GATE Teamware (Cunningham et al., 2011) .
+[BOS] Using machine learning to accelerate annotation by supporting human judgements is well documented in the literature for tasks such as entity annotation (Tsuruoka et al., 2008) and translation (Martínez-Gómez et al., 2011) , efforts which served as inspiration for our own approach.
+[BOS] BRAT, along with conversion tools and extensive documentation, is freely available under the open-source MIT license from its homepage at http://brat.nlplab.org
+

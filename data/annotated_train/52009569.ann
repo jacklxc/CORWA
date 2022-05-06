@@ -1,0 +1,79 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 83 88	[BOS]
+T3	Transition 146 151	[BOS]
+T4	Transition 253 258	[BOS]
+T5	Transition 379 384	[BOS]
+T6	Transition 496 501	[BOS]
+T7	Transition 644 649	[BOS]
+T8	Transition 826 831	[BOS]
+T9	Transition 1137 1142	[BOS]
+T10	Transition 1248 1253	[BOS]
+T11	Transition 1382 1387	[BOS]
+T12	Transition 1538 1543	[BOS]
+T13	Transition 1616 1621	[BOS]
+T14	Single_summ 1728 1733	[BOS]
+T15	Single_summ 1825 1830	[BOS]
+T16	Single_summ 1981 1986	[BOS]
+T17	Single_summ 2101 2106	[BOS]
+T18	Single_summ 2210 2215	[BOS]
+T19	Single_summ 2291 2296	[BOS]
+T20	Single_summ 2504 2509	[BOS]
+T21	Single_summ 2631 2636	[BOS]
+T22	Single_summ 2741 2746	[BOS]
+T23	Single_summ 2892 2897	[BOS]
+T24	Transition 3092 3097	[BOS]
+T25	Single_summ 3198 3203	[BOS]
+T26	Single_summ 3325 3330	[BOS]
+T27	Single_summ 3417 3422	[BOS]
+T28	Single_summ 3665 3670	[BOS]
+T29	Single_summ 3762 3767	[BOS]
+T30	Transition 3960 3965	[BOS]
+T31	Transition 4066 4071	[BOS]
+T32	Transition 4147 4152	[BOS]
+T33	Transition 4231 4236	[BOS]
+T34	Single_summ 4325 4330	[BOS]
+T35	Single_summ 4416 4421	[BOS]
+T36	Single_summ 4536 4541	[BOS]
+T37	Transition 4644 4649	[BOS]
+T38	Single_summ 4738 4743	[BOS]
+T39	Single_summ 4869 4874	[BOS]
+T40	Dominant 1747 1765	Zeng et al. (2014)
+T41	Dominant 2371 2396	(Dos Santos et al., 2015)
+T42	Dominant 2747 2763	Xu et al. (2016)
+T43	Dominant 3231 3247	Xu et al. (2016)
+T44	Dominant 3423 3440	Xu et al. (2015a)
+T45	Dominant 3788 3805	Xu et al. (2015b)
+T46	Dominant 4542 4560	Zhou et al. (2016)
+T47	Dominant 4757 4775	Miwa et al. (2016)
+T48	Pronoun 161 166	these
+T49	Pronoun 514 519	these
+T50	Pronoun 589 594	these
+T51	Pronoun 807 812	their
+T52	Pronoun 1316 1318	it
+T53	Pronoun 1834 1839	their
+T54	Pronoun 2216 2220	This
+T55	Pronoun 2510 2514	They
+T56	Pronoun 2637 2642	Their
+T57	Pronoun 2791 2793	it
+T58	Pronoun 3331 3336	Their
+T59	Pronoun 3675 3680	their
+T60	Pronoun 3974 3979	these
+T61	Pronoun 4287 4292	their
+T62	Pronoun 4425 4430	their
+T63	Pronoun 4875 4880	Their
+T64	B_span 1747 1751	Zeng
+T65	E_span 2279 2289	prediction
+T66	B_span 2320 2323	CNN
+T67	E_span 2731 2739	relation
+T68	B_span 2747 2749	Xu
+T70	E_span 3086 3090	task
+T69	B_span 3217 3222	based
+T71	E_span 3409 3415	method
+T72	B_span 3423 3425	Xu
+T73	E_span 3754 3760	method
+T74	B_span 3788 3790	Xu
+T75	E_span 3955 3958	SDP
+T76	B_span 4542 4546	Zhou
+T77	E_span 4627 4641	classification
+T78	B_span 4757 4761	Miwa
+T79	E_span 5158 5163	model

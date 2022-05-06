@@ -1,0 +1,31 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 131 136	[BOS]
+T3	Single_summ 278 283	[BOS]
+T4	Reflection 349 354	[BOS]
+T5	Reflection 393 398	[BOS]
+T6	Reflection 544 549	[BOS]
+T7	Narrative_cite 684 689	[BOS]
+T8	Reflection 953 958	[BOS]
+T9	Narrative_cite 1186 1191	[BOS]
+T10	Reflection 1410 1415	[BOS]
+T11	Dominant 52 70	Wang et al. (2019)
+T12	Reference 746 766	(Fukuda et al., 2017
+T13	Reference 768 788	Freitag et al., 2017
+T14	Reference 790 807	Zhu et al., 2018)
+T15	Reference 1284 1300	(He et al., 2016
+T16	Reference 1302 1337	Xia et al., 2017 Xia et al., , 2018
+T17	Reference 1367 1407	Zhang et al., 2018 Zhang et al., , 2019b
+T18	B_span 52 56	Wang
+T19	E_span 347 348	.
+T20	B_span 714 722	ensemble
+T21	E_span 806 807	)
+T22	B_span 1270 1274	dual
+T23	E_span 1333 1337	2018
+T24	B_span 1344 1357	bidirectional
+T25	E_span 1406 1407	b
+T26	Pronoun 191 196	their
+T27	Pronoun 287 291	they
+T28	Pronoun 313 315	it
+T29	Pronoun 465 470	their
+T30	Pronoun 589 594	their
+T31	Pronoun 1107 1112	their

@@ -1,0 +1,26 @@
+[BOS] Nested mention detection requires to identify all entity mentions in texts, rather than only outmost mentions in conventional NER.
+[BOS] This raises a critical issue to traditional sequential labeling models because they can only assign one label to each token.
+[BOS] To address this issue, mainly two kinds of methods have been proposed.
+[BOS] Region-based approaches detect mentions by identifying over subsequences of a sentence respectively, and nested mentions can be detected because they correspond to different subsequences.
+[BOS] For this, Finkel and Manning (2009) regarded nodes of parsing trees as candidate subsequences.
+[BOS] Recently, Xu et al. (2017) and Sohrab and Miwa (2018) tried to directly classify over all subsequences of a sentence.
+[BOS] Besides, proposed a transition-based method to construct nested mentions via a sequence of specially designed actions.
+[BOS] Generally, these approaches are straightforward for nested mention detection, but mostly with high computational cost as they need to classify over almost all sentence subsequences.
+
+[BOS] Schema-based approaches address nested mentions by designing more expressive tagging schemas, rather than changing tagging units.
+[BOS] One representative direction is hypergraph-based methods (Lu and Roth, 2015; Katiyar and Cardie, 2018; , where hypergraphbased tags are used to ensure nested mentions can be recovered from word-level tags.
+[BOS] Besides, Muis and Lu (2017) developed a gap-based tagging schema to capture nested structures.
+[BOS] However, these schemas should be designed very carefully to prevent spurious structures and structural ambiguity .
+[BOS] But more expressive, unambiguous schemas will inevitably lead to higher time complexity during both training and decoding.
+
+[BOS] Different from previous methods, this paper proposes a new architecture to address nested mention detection.
+[BOS] Compared with region-based approaches, our ARNs detect mentions by exploiting head-driven phrase structures, rather than exhaustive classifying over subsequences.
+[BOS] Therefore ARNs can significantly reduce the size of candidate mentions and lead to much lower time complexity.
+[BOS] Compared with schema-based approaches, ARNs can naturally address nested mentions since different mentions will have different anchor words.
+[BOS] There is no need to design complex tagging schemas, no spurious structures and no structural ambiguity.
+
+[BOS] Furthermore, we also propose Bag Loss, which can train ARNs in an end-to-end manner without any anchor word annotation.
+[BOS] The design of Bag Loss is partially inspired by multi-instance learning (MIL) (Zhou and Zhang, 2007; Zhou et al., 2009; Surdeanu et al., 2012) , but with a different target.
+[BOS] MIL aims to predict a unified label of a bag of instances, while Bag Loss is proposed to train ARNs whose anchor detector is required to predict the label of each instance.
+[BOS] Therefore previous MIL methods are not suitable for training ARNs.
+

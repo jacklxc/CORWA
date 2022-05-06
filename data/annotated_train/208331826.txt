@@ -1,0 +1,11 @@
+[BOS] Improved Self-Attention Networks Recently, there is a large body of work on improving SANs in various NLP tasks (Yang et al., 2018; Yang et al., 2019a,b; Guo et al., 2019; Sukhbaatar et al., 2019) , as well as image classification (Bello et al., 2019) and automatic speech recognition (Mohamed et al., 2019) tasks.
+[BOS] In these works, several strategies are proposed to improve the utilize SANs with the enhancement of local and global information.
+[BOS] In this work, we enhance the SANs with the On-Lstm to form a hybrid model , and thoroughly evaluate the performance on machine translation, targeted linguistic evaluation, and logical inference tasks.
+
+[BOS] Structure Modeling for Neural Networks in NLP Structure modeling in NLP has been studied for a long time as the natural language sentences inherently have hierarchical structures (Chomsky, 1965; Bever, 1970) .
+[BOS] With the emergence of deep learning, tree-based models have been proposed to integrate syntactic tree structure into Recursive Neural Networks (Socher et al., 2013) , LSTMs (Tai et al., 2015) , CNNs (Mou et al., 2016) .
+[BOS] As for SANs, Hao et al. (2019a) , Ma et al. (2019) and enhance the SANs with neural syntactic distance, multigranularity attention scope and structural position representations, which are generated from the syntactic tree structures.
+
+[BOS] Closely related to our work, Hao et al. (2019b) find that the integration of the recurrence in SANs encoder can provide more syntactic structure fea-tures to the encoder representations.
+[BOS] Our work follows this direction and empirically evaluates the structure modelling on the related tasks.
+

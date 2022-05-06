@@ -1,0 +1,71 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 201 206	[BOS]
+T3	Narrative_cite 571 576	[BOS]
+T4	Narrative_cite 801 806	[BOS]
+T5	Multi_summ 860 865	[BOS]
+T6	Reflection 1081 1086	[BOS]
+T7	Multi_summ 1227 1232	[BOS]
+T8	Reflection 1514 1519	[BOS]
+T9	Single_summ 1664 1669	[BOS]
+T10	Reflection 1759 1764	[BOS]
+T11	Narrative_cite 1876 1881	[BOS]
+T12	Transition 2236 2241	[BOS]
+T13	Narrative_cite 2324 2329	[BOS]
+T14	Narrative_cite 2458 2463	[BOS]
+T15	Reflection 2569 2574	[BOS]
+T16	Narrative_cite 2642 2647	[BOS]
+T17	Reflection 2898 2903	[BOS]
+T18	Reference 50 78	(Jurafsky and Martin, 2009 )
+T19	Reference 372 389	(Li et al., 2016a
+T20	Reference 391 409	Gao et al., 2019b)
+T21	Reference 425 445	(Zhang et al., 2018a
+T22	Reference 447 463	Li et al., 2016b
+T23	Reference 465 484	Zhang et al., 2019)
+T24	Reference 518 545	(Ghazvininejad et al., 2018
+T25	Reference 547 568	Agarwal et al., 2018)
+T26	Reference 712 729	(Das et al., 2017
+T27	Reference 731 756	Mostafazadeh et al., 2017
+T28	Reference 758 778	Agarwal et al., 2018
+T29	Reference 780 798	Yang et al., 2019)
+T30	Reference 838 856	Gao et al. (2019a)
+T31	Dominant 883 910	(Ghazvininejad et al., 2018
+T32	Dominant 912 931	Zhang et al., 2018a
+T33	Dominant 933 952	Huang et al., 2019)
+T34	Dominant 1300 1319	(Dinan et al., 2019
+T35	Dominant 1321 1340	Moghe et al., 2018)
+T36	Dominant 1670 1689	Moghe et al. (2018)
+T37	Reference 2179 2196	(Seo et al., 2017
+T38	Reference 2198 2215	Liu et al., 2018b
+T39	Reference 2217 2233	Yu et al., 2018)
+T40	Reference 2343 2363	(Liu et al., 2018b )
+T41	Reference 2521 2542	(Devlin et al., 2018)
+T42	Reference 2756 2776	(Reddy et al., 2019)
+T43	Reference 2786 2805	(Choi et al., 2018)
+T44	B_span 16 27	Traditional
+T45	E_span 72 76	2009
+T46	B_span 341 346	their
+T47	E_span 403 408	2019b
+T48	B_span 412 424	inconsistent
+T49	E_span 479 483	2019
+T50	B_span 491 498	lacking
+T51	E_span 563 567	2018
+T52	B_span 671 677	images
+T53	E_span 793 797	2019
+T54	B_span 838 841	Gao
+T55	E_span 850 855	2019a
+T56	B_span 884 897	Ghazvininejad
+T58	E_span 1072 1079	speaker
+T57	B_span 1301 1306	Dinan
+T59	E_span 1499 1512	conversations
+T60	B_span 1670 1675	Moghe
+T61	E_span 1745 1757	conversation
+T62	B_span 1958 1965	extract
+T63	E_span 2228 2232	2018
+T64	B_span 2339 2342	SAN
+T66	B_span 2516 2520	BERT
+T67	E_span 2537 2541	2018
+T68	B_span 2751 2755	CoQA
+T69	E_span 2771 2775	2019
+T70	B_span 2781 2785	QuAC
+T71	E_span 2800 2804	2018
+T65	E_span 2356 2361	2018b

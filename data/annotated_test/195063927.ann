@@ -1,0 +1,64 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 111 116	[BOS]
+T3	Transition 426 431	[BOS]
+T4	Transition 575 580	[BOS]
+T5	Transition 733 738	[BOS]
+T6	Transition 893 898	[BOS]
+T7	Multi_summ 1019 1024	[BOS]
+T8	Multi_summ 1137 1142	[BOS]
+T9	Multi_summ 1284 1289	[BOS]
+T10	Single_summ 1472 1477	[BOS]
+T11	Single_summ 1754 1759	[BOS]
+T12	Single_summ 1914 1919	[BOS]
+T13	Transition 2164 2169	[BOS]
+T14	Transition 2318 2323	[BOS]
+T15	Single_summ 2493 2498	[BOS]
+T16	Single_summ 2726 2731	[BOS]
+T17	Transition 2863 2868	[BOS]
+T18	Transition 3091 3096	[BOS]
+T19	Narrative_cite 3174 3179	[BOS]
+T20	Transition 3340 3345	[BOS]
+T21	Reflection 3512 3517	[BOS]
+T22	Reflection 3724 3729	[BOS]
+T23	Reference 187 215	(McCarthy and Navigli, 2007)
+T24	Reference 380 400	(Kremer et al., 2014
+T25	Reference 402 423	Melamud et al., 2015)
+T26	Dominant 1025 1046	Melamud et al. (2015)
+T27	Dominant 1112 1134	(Mikolov et al., 2013)
+T28	Dominant 1478 1492	Melamud et al.
+T29	Dominant 1775 1796	Melamud et al. (2016)
+T30	Reference 1889 1911	(Mikolov et al., 2013)
+T31	Dominant 2499 2520	Peters et al. (2018a)
+T32	Reference 3315 3337	(Peters et al., 2018b)
+T33	Reference 3674 3695	Melamud et al. (2015)
+T34	Reference 3700 3721	Melamud et al. (2016)
+T35	B_span 153 157	word
+T36	E_span 214 215	)
+T37	B_span 374 379	sense
+T38	E_span 422 423	)
+T39	B_span 1025 1028	Mel
+T41	B_span 1478 1481	Mel
+T42	E_span 1751 1752	.
+T43	B_span 1775 1778	Mel
+T44	E_span 1912 1913	.
+T45	B_span 2499 2505	Peters
+T46	E_span 2861 2862	.
+T47	B_span 3283 3289	higher
+T48	E_span 3336 3337	)
+T49	B_span 3647 3655	contexts
+T50	E_span 3720 3721	)
+T51	Pronoun 23 25	it
+T52	Pronoun 602 607	these
+T53	Pronoun 739 743	This
+T54	Pronoun 983 987	this
+T55	Pronoun 1649 1654	their
+T56	Pronoun 2324 2328	This
+T57	Pronoun 2917 2921	they
+T58	Pronoun 3521 3525	this
+T59	Pronoun 3622 3627	their
+T60	Pronoun 3924 3929	their
+T61	B_span 1087 1095	word2vec
+T40	E_span 1465 1470	types
+T62	E_span 1465 1470	types
+T63	B_span 1875 1883	word2vec
+T64	E_span 1906 1910	2013

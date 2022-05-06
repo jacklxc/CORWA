@@ -1,0 +1,12 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 243 248	[BOS]
+T3	Transition 442 447	[BOS]
+T4	Single_summ 626 631	[BOS]
+T5	Reflection 823 828	[BOS]
+T6	Reference 189 213	(Blum and Mitchell, 1998
+T7	Reference 215 240	Collins and Singer, 1999)
+T8	Dominant 632 656	Klein and Manning (2004)
+T9	B_span 158 165	jointly
+T10	E_span 235 239	1999
+T11	B_span 632 637	Klein
+T12	E_span 817 821	work

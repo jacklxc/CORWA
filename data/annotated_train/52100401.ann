@@ -1,0 +1,43 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 124 129	[BOS]
+T3	Narrative_cite 449 454	[BOS]
+T4	Narrative_cite 642 647	[BOS]
+T5	Narrative_cite 829 834	[BOS]
+T6	Narrative_cite 1130 1135	[BOS]
+T7	Single_summ 1431 1436	[BOS]
+T8	Narrative_cite 1587 1592	[BOS]
+T9	Reflection 1822 1827	[BOS]
+T10	Reference 110 121	(Xie, 2017)
+T11	Reference 222 245	(Sutskever et al., 2014
+T12	Reference 247 267	Mikolov et al., 2010
+T13	Reference 269 286	Cho et al., 2014)
+T14	Reference 344 375	(Hochreiter & Schmidhuber, 1997
+T15	Reference 377 394	Cho et al., 2014)
+T16	Reference 611 637	(Kalchbrenner et al., 2016
+T17	Reference 806 826	(Young et al., 2017)
+T18	Reference 952 969	(Yu et al., 2016)
+T19	Reference 1059 1079	(Fedus et al., 2018)
+T20	Reference 1298 1316	(Guo et al., 2017)
+T21	Dominant 1561 1584	(Rajeswar et al., 2017)
+T22	Reference 1800 1819	(Zhao et al., 2017)
+T23	Pronoun 1828 1832	This
+T24	B_span 76 83	natural
+T25	E_span 116 120	2017
+T26	B_span 130 139	Recurrent
+T27	E_span 281 285	2014
+T28	B_span 292 301	different
+T29	E_span 389 393	2014
+T30	B_span 482 495	convolutional
+T31	E_span 633 637	2016
+T32	B_span 793 796	NLP
+T33	E_span 821 825	2017
+T34	B_span 900 908	gradient
+T35	E_span 964 968	2016
+T36	B_span 974 976	an
+T37	E_span 1078 1079	)
+T38	B_span 1195 1206	variational
+T39	E_span 1311 1315	2017
+T40	E_span 1579 1583	2017
+T41	B_span 1437 1442	Using
+T42	B_span 1754 1758	deep
+T43	E_span 1814 1818	2017

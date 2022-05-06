@@ -1,0 +1,14 @@
+[BOS] Handling the challenges of reasoning over multiple long documents is gaining fast momentum recently (Shen et al., 2017) .
+[BOS] As mentioned, some approaches use IR for reducing the amount of processed text Clark and Gardner, 2017) , while others use cheap or parallelizable models to handle long documents Swayamdipta et al., 2018; Wang et al., 2018a) .
+[BOS] Searching for answers while using a trained RC model as a black-box was also implemented recently in Wang et al. (2018b) , for open-domain questions and multiple short evidence texts from the Web.
+[BOS] Another thrust has focused on skimming text in a sequential manner (Yu et al., 2017) , or designing recurrent architectures that can consume text quickly (Bradbury et al., 2017; Seo et al., 2018; Campos et al., 2018; Yu et al., 2018) .
+[BOS] However, to the best of our knowledge no work has previously applied these methods to long documents such as Wikipedia pages.
+
+[BOS] In this work we use TRIVIAQA-NOP for evaluation of our navigation based approach and comparison to an IR baseline.
+[BOS] While there are various aspects to consider in such evaluation setup, our choice of data was derived mainly by the requirements for long and structured context.
+[BOS] Recently, several new datasets such as WIKIHOP and NARRATIVEQA were published.
+[BOS] These datasets try to focus on the tendency of RC models to match local context patterns, and are designed for multi-step reasoning.
+[BOS] (Welbl et al., 2017; Wadhwa et al., 2018; Koisky et al., 2017) .
+
+[BOS] Our work is also related to several papers which model an agent that navigates in an environment to find objects in an image (Ba et al., 2015) , relations in a knowledge-base (Das et al., 2018) , or documents on the web (Nogueira and Cho, 2016) .
+

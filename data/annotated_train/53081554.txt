@@ -1,0 +1,22 @@
+[BOS] A great deal of attention has been paid to developing data-driven methods for natural language dialogue generation.
+[BOS] Conventional statistical approaches tend to rely extensively on hand-crafted rules and templates, require interaction with humans or simulated users to optimize parameters, or produce conversation responses in an information retrieval fashion.
+[BOS] Such properties prevent training on the large corpora that are becoming increasingly available, or fail to produce novel natural language responses.
+[BOS] Currently, a popular model for text generation is the sequence-to-sequence model (Sutskever et al., 2014; .
+[BOS] However, the sequenceto-sequence model tends to generate short, repetitive , and dull text (Luo et al., 2018) .
+[BOS] Recent researches have focused on developing methods to generate informative and diverse text (Li et al., 2017 (Li et al., , 2016 Guu et al., 2017; Shao et al., 2017) .
+[BOS] Reinforcement learning is incorporated into the model of conversation generation to generate more humanlike speeches (Li et al., 2017) .
+[BOS] Moreover, there are also other methods to improve the diversity of the generated text by using mutual-information, prototype editing, and self attention (Li et al., 2016; Guu et al., 2017; Shao et al., 2017) .
+
+[BOS] In this paper, to handle this problem, we propose to use adversarial training (Goodfellow et al., 2014; Denton et al., 2015; Li et al., 2017) , which has achieved success in image generation (Radford et al., 2015; Gulrajani et al., 2017; Berthelot et al., 2017) .
+[BOS] However, training GAN is a non-trivial task and there are some previous researches that investigate methods to improve training performance, such as Wasserstein GAN (WGAN) and Energybased GAN (EGAN) (Salimans et al., 2016; Gulrajani et al., 2017; Zhao et al., 2017; Berthelot et al., 2017) .
+[BOS] GAN in text generation has not shown significant improvement as it has in computer vision.
+[BOS] This is partially because text generation is a process of sampling in discrete space where the normal gradient descent solution is not available, which makes it difficult to train.
+[BOS] There are some researches that focus on tackling this problem.
+[BOS] SeqGAN (Yu et al., 2017) incorporates the policy gradient into the model by treating the procedure of generation as a stochastic policy in reinforcement learning.
+[BOS] Ranzato et al. (2016) Figure 1: Illustration of DP-GAN.
+[BOS] Lower: The generator is trained by policy gradient where the reward is provided by the discriminator.
+[BOS] Upper: The discriminator is based on the language model trained over the real text and the generated text.
+
+[BOS] trains the sequence-to-sequence model with policy gradient for neural machine translation.
+[BOS] Bahdanau et al. (2017) applies the actor-critic model on the same task.
+

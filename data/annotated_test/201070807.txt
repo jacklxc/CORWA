@@ -1,0 +1,22 @@
+[BOS] This paper discusses domain adaptation techniques and the applicability of existing algorithms to diverse downstream tasks.
+[BOS] Central themes of this paper tie into word level domain semantics, while being related to the overall objective of domain adaptation.
+
+[BOS] Recent work such as SEMAXIS ) investigates the use of word level domain semantics for applications beyond sentiment analysis.
+[BOS] The authors introduce the concept of a semantic axis based on word antonym pairs to capture semantic differences across corpora.
+[BOS] Similarly, work by (Hamilton et al., 2016) captures domain semantics in the form of sentiment lexicons via graph propagation.
+[BOS] While both these lexical based approaches are similar to the ideas of this paper, a major difference is that like (K Sarma et al., 2018) , we do not make use of any predefined domain specific lexicons to capture domain semantics.
+[BOS] Our idea is to use word occurrences and contexts to provide a raw estimate of the domain semantics.
+[BOS] Using generic embedding spaces as baselines, adaptation is performed by projecting generic embeddings into a learned 'adaptation' space.
+
+[BOS] Typical downstream applications such as cross lingual and/or multi-domain sentiment classification, using algorithms proposed by (Hangya et al., 2018) , , make use of DNNs 1 https://github.com/naacl18sublong / Friedland with RNN blocks such as BiLSTMs to learn both generic and domain specific representations.
+[BOS] Particularly, work focused on multi-domain sentiment classification as in (Liu et al., 2016) , (Nam and Han, 2016) , proposes building neural architectures for each domain of interest, in addition to shared representation layers across all domains.
+[BOS] While these techniques are effective, they are not ideal in domains with limited data.
+
+[BOS] On the other hand work such as ELMo (Peters et al., 2018) and BERT (Devlin et al., 2018) propose deeply connected layers to learn sentence embeddings by exploiting bi-directional contexts.
+[BOS] While both methods have achieved tremendous success in producing word (ELMo) and sentence (BERT) level encodings that perform well in several disparate NLP tasks such as question-answer solving, paraphrasing, POS tagging, sentiment analysis etc, these models are computationally expensive and require large amounts of training data.
+[BOS] Particularly when used in a transfer learning setting, both algorithms assume that a large amount of data is present in the source as well as the target domains.
+[BOS] In contrast, our proposed adaptation layer is particularly well suited in applications with limited data in the target domain.
+
+[BOS] Our proposed algorithms depart from these approaches by capturing domain semantics through shallow layers for use with generic encoder architectures.
+[BOS] Since some of the most successful algorithms in text classification (Kim, 2014) and sentence embeddings (Conneau et al., 2017 ) make use of CNN and BiLSTM building blocks, we suggest a generic adaptation framework that can be interfaced with these standard neural network blocks to improve performance on downstream tasks, particularly on small sized data sets.
+

@@ -1,0 +1,43 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 165 170	[BOS]
+T3	Narrative_cite 254 259	[BOS]
+T4	Narrative_cite 481 486	[BOS]
+T5	Narrative_cite 795 800	[BOS]
+T6	Narrative_cite 956 961	[BOS]
+T7	Transition 1065 1070	[BOS]
+T8	Reference 142 162	(Nakov et al., 2012)
+T9	Reference 321 339	(Cer et al., 2008)
+T10	Reference 358 381	(Moore and Quirk, 2008)
+T11	Reference 406 426	(Clark et al., 2011)
+T12	Reference 455 477	(Cettolo et al., 2011)
+T13	Reference 603 623	(Chiang et al., 2008
+T14	Reference 625 644	Chiang et al., 2009
+T15	Reference 646 670	Cherry and Foster, 2012)
+T16	Reference 682 705	(Hopkins and May, 2011)
+T17	Reference 722 746	(Cherry and Foster, 2012
+T18	Reference 748 770	Gimpel and Smith, 2012
+T19	Reference 772 791	Nakov et al., 2012)
+T20	Reference 899 925	(Lavie and Denkowski, 2009
+T21	Reference 927 953	Denkowski and Lavie, 2011)
+T22	Reference 1039 1062	(Simianer et al., 2012)
+T23	Pronoun 1088 1092	this
+T24	B_span 138 141	PRO
+T25	E_span 157 161	2012
+T26	B_span 306 320	regularization
+T27	E_span 334 338	2008
+T28	B_span 342 348	random
+T29	E_span 376 380	2008
+T30	B_span 384 392	multiple
+T31	E_span 421 425	2011
+T32	B_span 433 442	parameter
+T33	E_span 472 476	2011
+T34	B_span 593 597	MIRA
+T35	E_span 665 669	2012
+T36	B_span 673 676	PRO
+T37	E_span 700 704	2011
+T38	B_span 708 712	MIRA
+T39	E_span 786 790	2012
+T40	B_span 892 898	METEOR
+T41	E_span 948 952	2011
+T42	B_span 1011 1015	MIRA
+T43	E_span 1057 1061	2012

@@ -1,0 +1,33 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 282 287	[BOS]
+T3	Transition 393 398	[BOS]
+T4	Multi_summ 534 539	[BOS]
+T5	Multi_summ 787 792	[BOS]
+T6	Multi_summ 943 948	[BOS]
+T7	Multi_summ 1149 1154	[BOS]
+T8	Multi_summ 1449 1454	[BOS]
+T9	Transition 1654 1659	[BOS]
+T10	Narrative_cite 1882 1887	[BOS]
+T11	Reference 74 98	(Richardson et al., 2013
+T12	Reference 100 122	Rajpurkar et al., 2016
+T13	Reference 124 148	Kwiatkowski et al., 2019
+T14	Reference 150 167	Dua et al., 2019)
+T15	Dominant 621 639	(Yang et al., 2018
+T16	Dominant 641 663	Khashabi et al., 2018)
+T17	Dominant 846 867	(Saeidi et al., 2018)
+T18	Dominant 881 904	(Mihaylov et al., 2018)
+T20	Dominant 918 940	(Tafjord et al., 2019)
+T21	Reference 2046 2065	(Dagan et al., 2006
+T22	Reference 2067 2086	Bowman et al., 2015
+T23	Pronoun 364 368	this
+T24	Pronoun 1054 1056	it
+T25	Pronoun 1224 1226	it
+T26	B_span 43 50	reading
+T27	E_span 162 166	2019
+T28	B_span 600 605	multi
+T29	E_span 777 784	passage
+T35	Reference 2089 2099	inter alia
+T36	B_span 1946 1952	giving
+T37	E_span 2095 2099	alia
+T38	B_span 830 835	ROPES
+T39	E_span 1644 1651	limited

@@ -1,0 +1,33 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 131 136	[BOS]
+T3	Single_summ 298 303	[BOS]
+T4	Transition 383 388	[BOS]
+T5	Transition 456 461	[BOS]
+T6	Narrative_cite 539 544	[BOS]
+T7	Narrative_cite 815 820	[BOS]
+T8	Single_summ 973 978	[BOS]
+T9	Single_summ 1114 1119	[BOS]
+T10	Reflection 1286 1291	[BOS]
+T11	Reflection 1443 1448	[BOS]
+T12	Reflection 1671 1676	[BOS]
+T13	Dominant 143 168	(Lippi and Torroni, 2015)
+T14	Reference 710 735	Eckle-Kohler et al., 2015
+T15	Reference 737 753	Ong et al., 2014
+T16	Reference 755 783	Somasundaran and Wiebe, 2009
+T17	Reference 785 811	Schneider and Wyner, 2012)
+T18	Reference 950 971	(Mintz et al., 2009 )
+T19	Dominant 1014 1038	(AlKhatib et al., 2016 )
+T20	Reference 1570 1584	(Hearst, 1992)
+T21	Pronoun 442 447	their
+T22	Pronoun 842 846	this
+T23	Pronoun 1120 1124	They
+T24	B_span 137 141	Next
+T25	E_span 373 381	detected
+T26	B_span 699 708	framework
+T27	E_span 806 810	2012
+T28	B_span 930 937	distant
+T29	E_span 965 969	2009
+T30	B_span 979 981	In
+T31	E_span 1278 1284	scheme
+T32	B_span 1552 1561	classical
+T33	E_span 1579 1583	1992

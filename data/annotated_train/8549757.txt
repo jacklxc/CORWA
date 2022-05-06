@@ -1,0 +1,14 @@
+[BOS] Within the field of NLP, SpatialML is probably the best known work in the area of geo-referencing.
+[BOS] SpatialML is an annotation scheme for marking up natural language references to places and grounding them to coordinates.
+[BOS] The SpatialML corpus (Mani et al., 2008) instantiates this annotation scheme and can be used as an evaluation corpus for geo-resolution .
+[BOS] Other researchers develop their own geo-annotated corpora and evaluate against these, e.g. Clough (2005) , Leidner (2007) .
+
+[BOS] Within the field of Information Retrieval, there is an ACM special interest group on spatially-related information, SIGSPATIAL 2 , with regular geographic IR conferences (GIR conferences) where georeferencing research is presented, see for example Purves et al. (2007) .
+
+[BOS] There are currently several geoparsing tools available, such as GeoLocate 3 , and CLAVIN 4 , as well as our own tool, the Edinburgh Geoparser.
+[BOS] All of these enable users to geo-reference text collections but do not address the question of how to interact with the geo-annotations in order to correct them, nor do they assist in creating evaluation materials for particular text collections.
+
+[BOS] The Edinburgh Geo-annotator has been developed in tandem with the Edinburgh Geoparser and earlier versions have been used in the GeoDigRef project to create evaluation data for historical text collections as well as in the botanical domain (Llewellyn et al., 2012; Llewellyn et al., 2011) where we adapted it to allow curators to geo-reference the textual metadata associated with herbarium specimens.
+[BOS] The current version has also been used to create gold standard data for Trading Consequences, a historical text mining project on mining location-centric trading information relevant to the nineteenth century (Klein et al., 2014) .
+[BOS] The Pelagios project, which deals with texts about the ancient world, has recently developed Recogito 5 , a geo-resolution correction tool similar to our own.
+

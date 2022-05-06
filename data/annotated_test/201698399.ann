@@ -1,0 +1,49 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 192 197	[BOS]
+T3	Narrative_cite 441 446	[BOS]
+T4	Reflection 673 678	[BOS]
+T5	Transition 837 842	[BOS]
+T6	Transition 922 927	[BOS]
+T7	Narrative_cite 1008 1013	[BOS]
+T8	Reflection 1218 1223	[BOS]
+T9	Narrative_cite 1367 1372	[BOS]
+T10	Reflection 1682 1687	[BOS]
+T11	Reference 109 128	(Suhr et al., 2018)
+T12	Reference 153 169	(Xu et al., 2017
+T13	Reference 171 188	Peng et al., 2017
+T14	Reference 381 398	(Yih et al., 2015
+T15	Reference 400 417	Long et al., 2016
+T16	Reference 419 438	Iyyer et al., 2017)
+T17	Reference 573 592	(Zhong et al., 2017
+T18	Reference 594 615	Agarwal et al., 2019)
+T19	Reference 651 670	(Wang et al., 2018)
+T20	Reference 1055 1074	(Iyyer et al., 2017
+T21	Reference 1076 1093	Sun et al., 2018b
+T22	Reference 1095 1112	Guo et al., 2018)
+T23	Reference 1131 1150	(Suhr et al., 2018)
+T24	Reference 1495 1512	(Gur et al., 2018
+T25	Reference 1514 1531	Sun et al., 2018b
+T26	Reference 1533 1556	Petrovski et al., 2018)
+T27	Reference 1616 1644	(Krishnamurthy et al., 2017)
+T28	Reference 1660 1679	(Sun et al., 2018a)
+T29	Pronoun 241 245	they
+T30	B_span 84 91	encoder
+T31	E_span 123 127	2018
+T32	B_span 135 142	filling
+T33	E_span 184 188	2017
+T34	B_span 359 366	correct
+T35	E_span 433 437	2017
+T36	B_span 550 563	reinforcement
+T37	E_span 610 614	2019
+T38	B_span 623 631	refining
+T39	E_span 665 669	2018
+T40	B_span 1041 1048	logical
+T41	E_span 1107 1111	2018
+T42	B_span 1116 1119	SQL
+T43	E_span 1145 1149	2018
+T44	B_span 1451 1456	table
+T45	E_span 1551 1555	2018
+T46	B_span 1604 1609	table
+T47	E_span 1639 1643	2017
+T48	B_span 1648 1650	KB
+T49	E_span 1673 1678	2018a

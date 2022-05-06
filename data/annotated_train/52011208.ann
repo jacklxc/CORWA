@@ -1,0 +1,80 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 123 128	[BOS]
+T3	Single_summ 256 261	[BOS]
+T4	Transition 373 378	[BOS]
+T5	Transition 566 571	[BOS]
+T6	Transition 691 696	[BOS]
+T7	Multi_summ 858 863	[BOS]
+T8	Narrative_cite 1088 1093	[BOS]
+T9	Transition 1202 1207	[BOS]
+T10	Multi_summ 1367 1372	[BOS]
+T11	Single_summ 1598 1603	[BOS]
+T12	Reflection 1697 1702	[BOS]
+T13	Reflection 1759 1764	[BOS]
+T14	Reflection 1931 1936	[BOS]
+T15	Narrative_cite 2114 2119	[BOS]
+T16	Narrative_cite 2363 2368	[BOS]
+T17	Transition 2514 2519	[BOS]
+T18	Single_summ 2622 2627	[BOS]
+T19	Transition 2839 2844	[BOS]
+T20	Narrative_cite 2951 2956	[BOS]
+T21	Single_summ 3153 3158	[BOS]
+T22	Reflection 3313 3318	[BOS]
+T23	Reflection 3425 3430	[BOS]
+T24	Reflection 3521 3526	[BOS]
+T25	Multi_summ 3585 3590	[BOS]
+T26	Reflection 3729 3734	[BOS]
+T27	Reflection 3788 3793	[BOS]
+T28	Reflection 3965 3970	[BOS]
+T29	Reference 191 212	(Graves et al., 2014)
+T30	Reference 232 253	(Weston et al., 2014)
+T31	Dominant 262 281	Cheng et al. (2016)
+T32	Dominant 913 935	(Bahdanau et al., 2014
+T33	Reference 937 956	Luong et al., 2015)
+T34	Reference 1164 1181	(Tu et al., 2016b
+T35	Reference 1183 1198	Mi et al., 2016
+T36	Reference 1537 1558	(Liu and Lapata, 2017
+T37	Reference 1560 1576	Kim et al., 2017
+T38	Reference 1578 1595	Lin et al., 2017)
+T39	Dominant 1604 1625	Vaswani et al. (2017)
+T40	Reference 2321 2337	(He et al., 2015
+T41	Reference 2339 2360	Szegedy et al., 2016)
+T42	Reference 2458 2475	(Kim et al., 2017
+T43	Reference 2477 2487	Wang, 2017
+T44	Dominant 2649 2673	Miculicich et al. (2018)
+T45	Reference 3091 3110	(Wang and Cho, 2016
+T46	Reference 3112 3127	Li et al., 2017
+T47	Reference 3129 3150	Zhang and Zong, 2016)
+T48	Dominant 3168 3185	Tu et al. (2016a)
+T49	Dominant 3623 3640	Lin et al. (2018)
+T50	Dominant 3645 3662	Xia et al. (2017)
+T51	Pronoun 93 95	it
+T52	Pronoun 1733 1738	their
+T53	Pronoun 2520 2525	These
+T54	Pronoun 3776 3781	these
+T55	B_span 163 169	Neural
+T56	E_span 207 211	2014
+T57	B_span 217 223	Memory
+T58	E_span 248 252	2014
+T59	B_span 262 267	Cheng
+T60	E_span 366 371	right
+T61	B_span 864 873	Attention
+T62	E_span 1084 1086	do
+T63	B_span 1144 1153	attention
+T64	E_span 1198 1199	;
+T65	B_span 1486 1493	capture
+T66	E_span 1590 1594	2017
+T67	B_span 1604 1611	Vaswani
+T68	E_span 1684 1695	performance
+T69	B_span 2223 2230	improve
+T70	E_span 2355 2359	2016
+T71	B_span 2407 2415	residual
+T72	E_span 2483 2487	2017
+T73	B_span 2649 2659	Miculicich
+T74	E_span 2833 2837	word
+T76	B_span 3061 3070	auxiliary
+T75	E_span 3145 3149	2016
+T77	B_span 3168 3170	Tu
+T78	E_span 3306 3311	state
+T79	B_span 3623 3626	Lin
+T80	E_span 3715 3727	architecture

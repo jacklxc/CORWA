@@ -1,0 +1,28 @@
+[BOS] GRU (Chung et al., 2014) or LSTM (Hochreiter and Schmidhuber, 1997) RNNs are widely used for neural machine translation to deal with longrange dependencies as well as the gradient vanishing issue.
+[BOS] A major weakness of RNNs lies at its sequential architecture that completely disables parallel computation.
+[BOS] To cope with this problem, Gehring et al. (2017a) propose to use CNN-based encoder as an alternative to RNN, and Gehring et al. (2017b) further develop a completely CNNbased NMT system.
+[BOS] However, shallow CNN can only capture local dependencies.
+[BOS] Hence, CNNbased NMT normally develops deep archictures to model long-distance dependencies.
+[BOS] Different from these studies, Vaswani et al. (2017) propose the Transformer, a neural architecture that abandons recurrence and convolution.
+[BOS] It fully relies on attention networks to model translation.
+[BOS] The properties of parallelization and short dependency path significantly improve the training speed as well as model performance for the Transformer.
+[BOS] Unfortunately, as we have mentioned in Section 1, it suffers from decoding inefficiency.
+
+[BOS] The attention mechanism is originally proposed to induce translation-relevant source information for predicting next target word in NMT.
+[BOS] It contributes a lot to make NMT outperform SMT.
+[BOS] Recently, a variety of efforts are made to further improve its accuracy and capability.
+[BOS] Luong et al. (2015) explore several attention formulations and distinguish local attention from global attention.
+[BOS] Zhang et al. (2016) treat RNN as an alternative to the attention to improve model's capability in dealing with long-range dependencies.
+[BOS] Yang et al. (2017) introduce a recurrent cycle on the attention layer to enhance the model's memorization of previous translated source words.
+[BOS] Zhang et al. (2017a) observe the weak discrimination ability of the attention-generated context vectors and propose a GRU-gated attention network.
+[BOS] Kim et al. (2017) further model intrinsic structures inside attention through graphical models.
+[BOS] Shen et al. (2017) introduce a direction structure into a selfattention network to integrate both long-range dependencies and temporal order information.
+[BOS] Mi et al. (2016) and Liu et al. (2016) employ standard word alignment to supervise the automatically generated attention weights.
+[BOS] Our work also focus on the evolution of attention network, but unlike previous work, we seek to simplify the selfattention network so as to accelerate the decoding procedure.
+[BOS] The design of our model is partially inspired by the highway network (Srivastava et al., 2015) and the residual network (He et al., 2015) .
+
+[BOS] In the respect of speeding up the decoding of the neural Transformer, Gu et al. (2018) change the auto-regressive architecture to speed up translation by directly generating target words without relying on any previous predictions.
+[BOS] However, compared with our work, their model achieves the improvement in decoding speed at the cost of the drop in translation quality.
+[BOS] Our model, instead, not only achieves a remarkable gain in terms of decoding speed, but also preserves the translation performance.
+[BOS] Developing fast and efficient attention module for the Transformer, to the best of our knowledge, has never been investigated before.
+

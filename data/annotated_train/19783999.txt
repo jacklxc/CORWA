@@ -1,0 +1,10 @@
+[BOS] In SemEval 2016 Task 7 the objective was to attribute an intensity score to English and Arabic phrases (Kiritchenko et al., 2016) .
+[BOS] Mostly supervised methods were used, with a variety of features, including different sentiment lexicons, word embeddings, point wise mutual information (PMI) scores between terms (single words and multiword phrases), lists of words which express negation, modifiers etc.
+[BOS] Team ECNU (Wang et al., 2016) approached it as a ranking task, using Random Forest algorithm.
+[BOS] UWB, iLab-Edinburgh and NileTMRG all treated the task as a regression problem, and had supervised approaches.
+[BOS] UWB used Gaussian Regression (Hercig et al., 2016) , while iLab-Edinburgh went in for linear regression (Refaee and Rieser, 2016) .
+[BOS] Team LSIS (Htait et al., 2016) had a completely unsupervised approach, using sentiment lexicons and PMI scores.
+
+[BOS] Similar approaches, that is, usage of sentiment lexicons in a supervised setup, word embeddings, etc.
+[BOS] were also seen in the proposed systems of SemEval 2015 Task 10 (Subtask E) (Rosenthal et al., 2015) .
+

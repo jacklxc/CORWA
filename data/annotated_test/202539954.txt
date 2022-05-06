@@ -1,0 +1,11 @@
+[BOS] Interpreting Seq2Seq Models Interpretability of Seq2Seq models has recently been explored mainly from two perspectives: interpreting internal representations and understanding inputoutput behaviors.
+[BOS] Most of the existing work focus on the former thread, which analyzes the linguistic information embeded in the learned representations (Shi et al., 2016; Belinkov et al., 2017; Yang et al., 2019) or the hidden units (Ding et al., 2017; Bau et al., 2019) .
+[BOS] Several researchers turn to expose systematic differences between human and NMT translations (Lubli et al., 2018; Schwarzenberg et al., 2019) , indicating the linguistic properties worthy of investigating.
+[BOS] However, the learned representations may depend on the model implementation, which potentially limit the applicability of these methods to a broader range of model architectures.
+[BOS] Accordingly, we focus on understanding the input-output behaviors, and validate on different architectures to demonstrate the universality of our findings.
+[BOS] Concerning interpreting the input-output behavior, previous work generally treats Seq2Seq models as black-boxes (Li et al., 2016; Alvarez-Melis and Jaakkola, 2017) .
+[BOS] For example, Alvarez-Melis and Jaakkola (2017) measure the relevance between two input-output tokens by perturbing the input sequence.
+[BOS] However, they do not exploit any intermediate information such as gradients, and the relevance score only resembles attention scores.
+[BOS] Recently, Jain and Wallace (2019) show that attention scores are in weak correlation with the feature importance.
+[BOS] Starting from this observation, we exploit the intermediate gradients to better estimate word importance, which consistently outperforms its attention counterpart across model architectures and language pairs.
+

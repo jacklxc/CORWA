@@ -1,0 +1,17 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 170 175	[BOS]
+T3	Single_summ 339 344	[BOS]
+T4	Single_summ 569 574	[BOS]
+T5	Narrative_cite 816 821	[BOS]
+T6	B_span 47 56	Yamagishi
+T7	E_span 157 168	translation
+T8	Dominant 47 70	Yamagishi et al. (2016)
+T9	Dominant 176 189	Takeno (2017)
+T10	B_span 176 182	Takeno
+T11	E_span 326 336	generation
+T12	Dominant 399 420	Johnson et al. (2017)
+T13	E_span 803 814	translation
+T14	B_span 932 936	back
+T15	E_span 994 998	2019
+T16	Reference 978 998	Caswell et al., 2019
+T17	B_span 399 406	Johnson

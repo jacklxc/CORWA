@@ -1,0 +1,12 @@
+[BOS] We now have four different continuous representations for words; in the following, we evaluate them for how well they predict semantic relations.
+
+[BOS] Similarity We evaluate on some similarity data sets, reporting Spearman  correlations between human ratings and cosine similarities for word vectors.
+[BOS] We use the MEN (Bruni et al., 2012) and
+
+[BOS] Silberer and Lapata (2014)'s data with semantic (SemSim) and visual similarity (VisSim) ratings.
+
+[BOS] Compatibility As generic semantic similarity judgements are known to be "fuzzy" (Faruqui et al., 2016) , we also evaluate on Kruszewski and Baroni (2015) 's benchmark on semantic compatibility.
+[BOS] They define two words as being semantically compatible "if they can potentially refer to the same thing".
+[BOS] We expect our denotational and visual embeddings to be highly useful for this task.
+[BOS] We report unsupervised results obtained from cosine similarities between word embeddings.
+

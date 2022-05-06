@@ -1,0 +1,59 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 191 196	[BOS]
+T3	Single_summ 336 341	[BOS]
+T4	Single_summ 437 442	[BOS]
+T5	Single_summ 537 542	[BOS]
+T6	Single_summ 690 695	[BOS]
+T7	Single_summ 792 797	[BOS]
+T8	Single_summ 964 969	[BOS]
+T9	Transition 1057 1062	[BOS]
+T10	Multi_summ 1111 1116	[BOS]
+T11	Single_summ 1353 1358	[BOS]
+T12	Single_summ 1561 1566	[BOS]
+T13	Single_summ 1790 1795	[BOS]
+T14	Single_summ 1978 1983	[BOS]
+T15	Single_summ 2176 2181	[BOS]
+T16	Single_summ 2306 2311	[BOS]
+T17	Single_summ 2470 2475	[BOS]
+T18	Dominant 302 333	Quirk and Corston-Oliver (2006)
+T19	Dominant 543 555	Green (2011)
+T20	Dominant 813 837	Katz-Brown et al. (2011)
+T21	Dominant 1131 1149	Hara et al. (2009)
+T22	Reference 1295 1318	(Pollard and Sag, 1994)
+T23	Reference 1326 1350	(Miyao and Tsujii, 2008)
+T24	Dominant 1359 1384	McDonald and Nivre (2007)
+T25	Dominant 1585 1605	Dredze et al. (2007)
+T26	Dominant 1840 1856	Yu et al. (2011)
+T27	Dominant 2039 2056	Han et al. (2012)
+T28	Dominant 2331 2355	Gimnez and Mrquez (2008)
+T29	Pronoun 163 168	these
+T30	Pronoun 342 346	They
+T31	Pronoun 452 456	they
+T32	Pronoun 840 844	they
+T33	Pronoun 974 978	they
+T34	Pronoun 1033 1035	it
+T35	Pronoun 2191 2195	they
+T36	Pronoun 2258 2262	they
+T37	Pronoun 2485 2489	they
+T38	B_span 197 200	One
+T39	E_span 527 535	accuracy
+T40	B_span 543 548	Green
+T41	E_span 781 790	framework
+T42	B_span 798 800	In
+T43	E_span 1047 1054	quality
+T44	B_span 1117 1120	For
+T45	E_span 1345 1349	2008
+T46	B_span 1252 1262	Headdriven
+T47	E_span 1313 1317	1994
+T48	B_span 1319 1325	parser
+T49	E_span 1345 1349	2008
+T50	B_span 1359 1367	McDonald
+T51	E_span 1553 1559	models
+T52	B_span 1567 1569	At
+T53	E_span 1783 1788	tasks
+T54	B_span 1796 1802	Unlike
+T55	E_span 1968 1975	English
+T56	B_span 1984 1989	There
+T57	E_span 2292 2304	relationship
+T58	B_span 2312 2314	On
+T59	E_span 2559 2570	performance

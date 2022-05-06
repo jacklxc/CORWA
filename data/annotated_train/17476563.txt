@@ -1,0 +1,20 @@
+[BOS] There has been substantial interest in datasets for reading comprehension.
+[BOS] MCTest (Richardson et al., 2013 ) is a smaller-scale datasets focusing on common sense reasoning; bAbi is a synthetic dataset that captures various aspects of reasoning; and SQuAD (Rajpurkar et al., 2016; Xiong et al., 2016) and NewsQA (Trischler et al., 2016a) are QA datasets where the answer is a span in the document.
+[BOS] Compared to Wikireading, some datasets covers shorter passages (average 122 words for SQuAD).
+[BOS] Cloze-style question answering datasets (Hermann et al., 2015; Onishi et al., 2016; Hill et al., 2015) assess machine comprehension but do not form questions.
+[BOS] The recently released MS MARCO dataset (Nguyen et al., 2016) consists of query logs, web documents and crowd-sourced answers.
+
+[BOS] Answer sentence selection is studied with the TREC QA (Voorhees and Tice, 2000), WikiQA (Yang et al., 2016b) and SelQA (Jurczyk et al., 2016) datasets.
+[BOS] Recently, neural networks models (Wang and Nyberg, 2015; Severyn and Moschitti, 2015; dos Santos et al., 2016) achieved improvements.
+[BOS] Sultan et al. (2016) optimized the answer sentence extraction and the answer extraction jointly, but with gold labels for both parts.
+[BOS] Trischler et al. (2016b) proposed a model that shares the intuition of observing inputs at multiple granularities (sentence, word), but deals with multiple choice questions.
+[BOS] Our answer sentence selection as latent and generates answer strings instead of selecting text spans.
+
+[BOS] Hierarchical models which treats sentence selection as a latent variable have been applied text categorization (Yang et al., 2016b) , extractive summarization (Cheng and Lapata, 2016) , machine translation (Ba et al., 2014) and sentiment analysis (Yessenalina et al., 2010; Lei et al., 2016) .
+[BOS] To the best of our knowledge, we are the first to use the hierarchical nature of a document for QA.
+
+[BOS] Finally, our work is related to the reinforcement learning literature.
+[BOS] Hard and soft attention were examined in the context of caption generation (Xu et al., 2015) .
+[BOS] Curriculum learning was investigated in Sachan and Xing (2016) , but they focused on the ordering of training examples while we combine supervision signals.
+[BOS] Reinforcement learning recently gained popularity in tasks such as coreference resolution (Clark and Manning, 2016) , information extraction (Narasimhan et al., 2016) , semantic parsing (Andreas et al., 2016) and textual games (Narasimhan et al., 2015; He et al., 2016) .
+

@@ -1,0 +1,94 @@
+T1	Intro 0 5	[BOS]
+T2	Single_summ 145 150	[BOS]
+T3	Multi_summ 280 285	[BOS]
+T4	Single_summ 485 490	[BOS]
+T5	Single_summ 653 658	[BOS]
+T6	Single_summ 747 752	[BOS]
+T7	Narrative_cite 921 926	[BOS]
+T8	Transition 1172 1177	[BOS]
+T9	Transition 1419 1424	[BOS]
+T10	Narrative_cite 1567 1572	[BOS]
+T11	Single_summ 1723 1728	[BOS]
+T12	Single_summ 1903 1908	[BOS]
+T13	Narrative_cite 2108 2113	[BOS]
+T14	Single_summ 2248 2253	[BOS]
+T15	Single_summ 2515 2520	[BOS]
+T16	Single_summ 2583 2588	[BOS]
+T17	Single_summ 2694 2699	[BOS]
+T18	Single_summ 2887 2892	[BOS]
+T19	Single_summ 3052 3057	[BOS]
+T20	Reflection 3236 3241	[BOS]
+T21	Transition 3496 3501	[BOS]
+T22	Reflection 3583 3588	[BOS]
+T23	Reflection 3737 3742	[BOS]
+T24	Dominant 151 168	Zhu et al. (2010)
+T25	Dominant 286 311	Coster and Kauchak (2011)
+T26	Dominant 406 426	Wubben et al. (2012)
+T27	Dominant 496 517	end and Lapata (2011)
+T28	Dominant 659 685	Narayan and Gardent (2014)
+T29	Reference 893 917	(Zhang and Lapata, 2017)
+T30	Reference 1034 1057	(Sutskever et al., 2014
+T31	Reference 1059 1078	Luong et al., 2015)
+T32	Reference 1101 1123	(Vinyals and Le, 2015)
+T33	Reference 1140 1164	(Nallapati et al., 2016)
+T34	Reference 1652 1672	(Luong et al., 2015)
+T35	Reference 1698 1720	(Vaswani et al., 2017)
+T36	Dominant 1731 1751	Nisioi et al. (2017)
+T37	Dominant 1909 1925	Vu et al. (2018)
+T38	Reference 2219 2245	Narayan and Gardent (2014)
+T39	Dominant 2254 2277	Zhang and Lapata (2017)
+T40	Dominant 2700 2718	Zhao et al. (2018)
+T41	Reference 3026 3049	Zhang and Lapata (2017)
+T42	Dominant 3058 3076	Zhao et al. (2018)
+T43	Reference 3362 3380	caid et al., 1975)
+T44	Pronoun 753 757	This
+T45	Pronoun 796 798	it
+T46	Pronoun 1357 1361	this
+T47	Pronoun 1605 1609	this
+T48	Pronoun 1935 1939	this
+T49	Pronoun 2170 2174	this
+T50	Pronoun 2521 2525	This
+T51	Pronoun 2625 2629	this
+T52	Pronoun 2893 2897	This
+T53	Pronoun 3589 3593	This
+T54	Pronoun 3825 3830	these
+T55	B_span 151 154	Zhu
+T56	E_span 266 278	substitution
+T57	B_span 286 292	Coster
+T58	E_span 391 398	phrases
+T59	B_span 406 412	Wubben
+T60	E_span 481 483	R)
+T61	B_span 491 499	Woodsend
+T62	E_span 641 651	operations
+T63	B_span 659 666	Narayan
+T65	B_span 877 882	human
+T66	E_span 915 917	7)
+T67	B_span 1014 1021	machine
+T68	E_span 1056 1057	4
+T69	B_span 1059 1061	Lu
+T70	E_span 1076 1078	5)
+T71	B_span 1081 1083	co
+T72	E_span 1120 1122	15
+T73	B_span 1126 1128	su
+T74	E_span 1161 1163	16
+T75	B_span 1631 1635	atte
+T76	E_span 1670 1671	5
+T77	B_span 1677 1679	tr
+T78	E_span 1718 1720	7)
+T79	B_span 1729 1732	2 N
+T80	E_span 1898 1901	rch
+T81	B_span 1909 1913	Vu e
+T82	E_span 2099 2105	models
+T83	B_span 2196 2198	st
+T84	E_span 2241 2245	014)
+T85	B_span 2254 2259	Zhang
+T87	B_span 2700 2706	Zhao e
+T89	B_span 2994 2997	Wik
+T90	E_span 3046 3049	17)
+T91	B_span 3058 3062	Zhao
+T92	E_span 3231 3234	els
+T94	E_span 3377 3380	75)
+T93	B_span 3331 3334	Fle
+T64	E_span 836 843	metrics
+T86	E_span 2571 2581	evaluation
+T95	E_span 2966 2976	evaluation

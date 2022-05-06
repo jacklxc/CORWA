@@ -1,0 +1,73 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 144 149	[BOS]
+T3	Reflection 374 379	[BOS]
+T4	Transition 462 467	[BOS]
+T5	Transition 731 736	[BOS]
+T6	Narrative_cite 851 856	[BOS]
+T7	Transition 1058 1063	[BOS]
+T8	Multi_summ 1243 1248	[BOS]
+T9	Transition 1435 1440	[BOS]
+T10	Transition 1584 1589	[BOS]
+T11	Transition 1686 1691	[BOS]
+T12	Transition 1895 1900	[BOS]
+T13	Narrative_cite 2005 2010	[BOS]
+T14	Narrative_cite 2187 2192	[BOS]
+T15	Transition 2491 2496	[BOS]
+T16	Narrative_cite 2584 2589	[BOS]
+T17	Narrative_cite 2772 2777	[BOS]
+T18	Transition 2978 2983	[BOS]
+T19	Transition 3145 3150	[BOS]
+T20	Transition 3288 3293	[BOS]
+T21	Narrative_cite 3486 3491	[BOS]
+T22	Transition 3643 3648	[BOS]
+T23	Transition 3788 3793	[BOS]
+T24	Transition 3943 3948	[BOS]
+T25	Reference 948 960	(Beck, 2002)
+T26	Dominant 1271 1294	(Zellers et al., 2018 )
+T27	Reference 2079 2099	(Jia and Liang, 2017
+T28	Reference 2101 2122	Wallace et al., 2019)
+T29	Reference 2142 2164	(Glockner et al., 2018
+T30	Reference 2166 2184	Naik et al., 2018)
+T31	Reference 2343 2362	(Iyyer et al., 2018
+T32	Reference 2364 2385	Ribeiro et al., 2018)
+T33	Reference 2462 2487	(Belinkov and Bisk, 2018)
+T34	Reference 2647 2660	(Rudin, 2018)
+T35	Reference 2952 2975	(Ghorbani et al., 2019)
+T36	Reference 3591 3616	(Raghunathan et al., 2018
+T37	Reference 3618 3640	Wong and Kolter, 2018)
+T38	Pronoun 93 98	their
+T39	Pronoun 150 154	This
+T40	Pronoun 362 366	this
+T41	Pronoun 704 709	these
+T42	Pronoun 743 745	it
+T43	Pronoun 803 805	it
+T44	Pronoun 1456 1461	these
+T45	Pronoun 1498 1502	they
+T46	Pronoun 1692 1696	This
+T47	Pronoun 2193 2198	These
+T48	Pronoun 2663 2667	they
+T49	Pronoun 2833 2837	they
+T50	Pronoun 2984 2989	These
+T51	Pronoun 3034 3038	they
+T52	Pronoun 3657 3662	these
+T53	Pronoun 3717 3721	they
+T54	Pronoun 3794 3798	This
+T55	Pronoun 3984 3989	these
+T56	B_span 924 928	test
+T57	E_span 959 960	)
+T58	B_span 1266 1270	SWAG
+T59	E_span 1422 1433	classifiers
+T60	B_span 2058 2069	adversarial
+T61	E_span 2117 2121	2019
+T62	B_span 2127 2136	challenge
+T63	E_span 2179 2183	2018
+T65	E_span 2380 2384	2018
+T67	E_span 2482 2486	2018
+T68	B_span 2634 2646	faithfulness
+T71	E_span 2970 2974	2019
+T73	E_span 3635 3639	2018
+T64	B_span 2259 2264	basic
+T66	B_span 2394 2400	common
+T69	E_span 2764 2769	model
+T72	B_span 3506 3512	convex
+T70	B_span 2897 2905	original

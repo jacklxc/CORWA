@@ -1,0 +1,17 @@
+[BOS] Similar to our approach, statistical decipherment also attempts to build machine translation systems from monolingual corpora.
+[BOS] For that purpose, existing methods treat the source language as ciphertext, and model its generation through a noisy channel model involving two steps: the generation of the original English sentence and the probabilistic replacement of the words in it (Ravi and Knight, 2011; Dou and Knight, 2012) .
+[BOS] The English generative process is modeled using an n-gram language model, and the channel model parameters are estimated using either expectation maximization or Bayesian inference.
+[BOS] Subsequent work has attempted to enrich these models with additional information like syntactic knowledge (Dou and Knight, 2013) and word embeddings (Dou et al., 2015) .
+[BOS] Nevertheless, these systems work in a word-by-word basis and have only been shown to work in limited settings, being often evaluated in word-level translation.
+[BOS] In contrast, our method builds a fully featured phrasebased SMT system, and achieves competitive performance in a standard machine translation task.
+
+[BOS] More recently, Artetxe et al. (2018c) and have managed to train a standard attentional encoder-decoder NMT system from monolingual corpora alone.
+[BOS] For that purpose, they use a shared encoder for both languages with pretrained cross-lingual embeddings, and train the entire system using a combination of denoising, backtranslation and, in the case of , adversarial training.
+[BOS] This method was further improved by Yang et al. (2018) , who use a separate encoder for each language, sharing only a subset of their parameters, and incorporate two generative adversarial networks.
+[BOS] However, our results in Section 6.1 show that our SMT-based approach obtains substantially better results.
+
+[BOS] Our method is also connected to some previous approaches to improve machine translation using monolingual corpora.
+[BOS] In particular, the generation of a synthetic parallel corpus through backtranslation (Sennrich et al., 2016) , which is a key component of our unsupervised tuning and iterative refinement procedures, has been previously used to improve NMT.
+[BOS] In addition, there have been several proposals to extend the phrase table of SMT systems by inducing translation candidates and/or scores from monolingual corpora, using either statistical decipherment methods Knight, 2012, 2013) or cross-lingual embeddings (Zhao et al., 2015; Wang et al., 2016) .
+[BOS] While all these methods exploit monolingual corpora to enhance an existing machine translation system previously trained on parallel corpora, our approach learns a fully featured phrase-based SMT system from monolingual corpora alone.
+

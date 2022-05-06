@@ -1,0 +1,53 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 229 234	[BOS]
+T3	Reflection 324 329	[BOS]
+T4	Transition 422 427	[BOS]
+T5	Narrative_cite 579 584	[BOS]
+T6	Single_summ 783 788	[BOS]
+T7	Reflection 947 952	[BOS]
+T8	Reflection 992 997	[BOS]
+T9	Reflection 1143 1148	[BOS]
+T10	Reflection 1248 1253	[BOS]
+T11	Reflection 1387 1392	[BOS]
+T12	Narrative_cite 1527 1532	[BOS]
+T13	Narrative_cite 1762 1767	[BOS]
+T14	Transition 1893 1898	[BOS]
+T15	Reflection 1963 1968	[BOS]
+T16	Reflection 2119 2124	[BOS]
+T17	Reference 113 131	(Lin et al., 2014)
+T18	Reference 158 176	(Lan et al., 2017)
+T19	Reference 189 203	(Creutz, 2018)
+T20	Reference 643 663	(Jia and Liang, 2017
+T21	Reference 665 683	Chen et al., 2018)
+T22	Reference 704 726	(Alzantot et al., 2018
+T23	Reference 728 749	Ribeiro et al., 2018)
+T24	Dominant 812 834	Glockner et al. (2018)
+T25	Reference 1698 1719	(Conneau et al., 2018
+T26	Reference 1721 1735	Tenney et 2019
+T27	Reference 1737 1759	Ettinger et al., 2018)
+T28	Reference 1851 1871	(Filice et al., 2015
+T29	Reference 1873 1890	Liu et al., 2018)
+T30	Pronoun 837 841	they
+T31	Pronoun 919 924	their
+T32	Pronoun 1533 1537	This
+T33	Pronoun 1600 1605	their
+T34	Pronoun 1903 1908	these
+T35	Pronoun 2176 2180	this
+T36	Pronoun 2188 2192	this
+T37	Pronoun 2232 2236	this
+T38	B_span 56 66	collecting
+T39	E_span 126 130	2014
+T40	B_span 134 140	tweets
+T41	E_span 171 175	2017
+T42	B_span 179 188	subtitles
+T43	E_span 198 202	2018
+T44	B_span 593 605	perturbation
+T45	E_span 678 682	2018
+T46	B_span 686 690	word
+T47	E_span 744 748	2018
+T48	B_span 812 820	Glockner
+T49	E_span 937 945	antonyms
+T50	B_span 1646 1655	syntactic
+T51	E_span 1754 1758	2018
+T52	B_span 1802 1810	directly
+T53	E_span 1885 1889	2018

@@ -1,0 +1,14 @@
+[BOS] The fragility of neural networks (Szegedy et al., 2013) has been shown to extend to neural machine translation models (Belinkov and Bisk, 2018; Heigold et al., 2017) and recent work focused on various aspects of the problem.
+[BOS] From the identification of the causes of this brittleness, to the induction of (adversarial) inputs that trigger the unwanted behavior (attacks) and making such models robust against various types of noisy inputs (defenses); improving robustness has been receiving increasing attention in NMT.
+
+[BOS] While Koehn and Knowles (2017) mentioned domain mismatch as a challenge for neural machine translation, Khayrallah and Koehn (2018) addressed noisy training data and focus on the types of noise occurring in web-crawled corpora.
+[BOS] Michel and Neubig (2018) proposed a new dataset (MTNT) to test MT models for robustness to the types of noise encountered in the Internet and demonstrated that these challenges cannot be overcome by simple domain adaptation techniques alone.
+[BOS] Belinkov and Bisk (2018) and Heigold et al. (2017) showed that NMT systems are very sensitive to slightly perturbed input forms, and hinted at the importance of injecting noisy examples during training, also known as adversarial examples.
+[BOS] Further research proposed several methods of generating and using noisy examples as NMT input to advance the understanding and improve the translation quality.
+[BOS] Following machine vision, two major branches being explored when generating noisy examples, i) white box methods, where adversarial examples are generated with access to the model parameters (Ebrahimi et al., 2018; Cheng et al., 2018a Cheng et al., ,b, 2019 and ii) black-box attacks, where examples are generated without accessing model internals (Zhao et al., 2018; Lee et al., 2018; ?
+[BOS] ; Anastasopoulos et al., 2019; Vaibhav et al., 2019) ; see Belinkov and Glass (2019) for a categorization of such work.
+[BOS] In particular, some have focused on specific variations of naturally-occurring noise, such as grammatical errors produced by non-native speakers (Anastasopoulos et al., 2019) or errors extracted from Wikipedia edits (Belinkov and Bisk, 2018) .
+[BOS] It has also been shown that adding synthetic noise does not trivially increase robustness to natural noise (Belinkov and Bisk, 2018) and may require specific recipes (Karpukhin et al., 2019) .
+[BOS] recently emphasized the importance of meaning-preserving perturbations and along with Cheng et al. (2019) demonstrated the utility of adversarial training without significantly impairing performance on clean data and domain.
+[BOS] Durrani et al. (2019) showed that character-based representations are more robust towards noise compared to such learned using BPE-based sub-word units in the task of machine translation.
+

@@ -1,0 +1,22 @@
+[BOS] Popular methods for multi-document summarization have been extractive.
+[BOS] Important sentences are extracted from a set of source documents and optionally compressed to form a summary (Daume III and Marcu, 2002; Zajic et al., 2007; Galanis and Androutsopoulos, 2010; Berg-Kirkpatrick et al., 2011; Li et al., 2013; Thadani and McKeown, 2013; Wang et al., 2013; Yogatama et al., 2015; Filippova et al., 2015; Durrett et al., 2016) .
+[BOS] In recent years neural networks have been exploited to learn word/sentence representations for single-and multi-document summarization (Cheng and Lapata, 2016; Cao et al., 2017; Isonuma et al., 2017; Yasunaga et al., 2017; Narayan et al., 2018) .
+[BOS] These approaches remain extractive; and despite encouraging results, summarizing a large quantity of texts still requires sophisticated abstraction capabilities such as generalization, paraphrasing and sentence fusion.
+[BOS] Prior to deep learning, abstractive summarization has been investigated (Barzilay et al., 1999; Carenini and Cheung, 2008; Ganesan et al., 2010; Gerani et al., 2014; Fabbrizio et al., 2014; Pighin et al., 2014; Bing et al., 2015; Liao et al., 2018) .
+[BOS] These approaches construct domain templates using a text planner or an open-IE system and employ a natural language generator for surface realization.
+[BOS] Limited by the availability of labelled data, experiments are often performed on small domain-specific datasets.
+
+[BOS] Neural abstractive summarization utilizing the encoder-decoder architecture has shown promising results but studies focus primarily on singledocument summarization Kikuchi et al., 2016; Chen et al., 2016; Miao and Blunsom, 2016; Tan et al., 2017; Zeng et al., 2017; Zhou et al., 2017; Paulus et al., 2017; See et al., 2017; Gehrmann et al., 2018) .
+[BOS] The pointing mechanism Gu et al., 2016 ) allows a summarization system to both copy words from the source text and generate new words from the vocabulary.
+[BOS] Reinforcement learning is exploited to directly optimize evaluation metrics (Paulus et al., 2017; Kryciski et al., 2018; Chen and Bansal, 2018) .
+[BOS] These studies focus on summarizing single documents in part because the training data are abundant.
+
+[BOS] The work of Baumel et al. (2018) and Zhang et al. (2018) are related to ours.
+[BOS] In particular, Baumel et al. (2018) propose to extend an abstractive summarization system to generate query-focused summaries; Zhang et al. (2018) add a document set encoder to their hierarchical summarization framework.
+[BOS] With these few exceptions, little research has been dedicated to investigate the feasibility of extending the encoder-decoder framework to generate abstractive summaries from multi-document inputs, where available training data are scarce.
+[BOS] This paper presents some first steps towards the goal of extending the encoder-decoder model to a multi-document setting.
+[BOS] We introduce an adaptation method combining the pointer-generator (PG) networks (See et al., 2017) and the maximal marginal relevance (MMR) algorithm (Carbonell and Goldstein, 1998 ).
+[BOS] The PG model, trained on SDS data and detailed in Section 3, is capable of generating document abstracts by performing text abstraction and sentence fusion.
+[BOS] However, if the model is applied at test time to summarize multi-document inputs, there will be limitations.
+[BOS] Our PG-MMR algorithm, presented in Section 4, teaches the PG model to effectively recognize important content from the input documents, hence improving the quality of abstractive summaries, all without requiring any training on multidocument inputs.
+

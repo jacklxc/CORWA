@@ -1,0 +1,16 @@
+[BOS] Some earlier work (Lappin and Leass, 1994; Kennedy and Boguraev, 1996) use heuristic to determine whether a phrase is anaphoric or not.
+[BOS] Bean and Riloff (1999) extracts rules from non-anaphoric noun phrases and noun phrases patterns, which are then applied to test data to identify existential noun phrases.
+[BOS] It is intended as as pre-filtering step before a coreference resolution system is run.
+[BOS] Ng and Cardie (2002a) trains a separate anaphoricity classifier in addition to a coreference model.
+[BOS] The anaphoricity classifier is applied as a filter and only anaphoric mentions are later considered by the coreference model.
+[BOS] Ng (2004) studies what is the best way to make use of anaphoricity information and concludes that the constrained-based and globallyoptimized approach works the best.
+[BOS] Poesio et al. (2004) contains a good summary of recent research work on discourse new or anaphoricity.
+[BOS] Luo et al. (2004) uses a start model to determine whether a mention is the first one in a coreference chain, but it is computed ad hoc without training.
+[BOS] Nicolae and Nicolae (2006) constructs a graph where mentions are nodes and an edge represents the likelihood two mentions are in an entity, and then a graph-cut algorithm is employed to produce final coreference results.
+[BOS] We take the view that determining whether an anaphor is coreferential with any candidate antecedent is part of the coreference process.
+[BOS] But we do recognize that the disparity between the two types of events: while a coreferential relationship can be resolved by examining the local context of the anaphor and its antecedent, it is necessary to compare the anaphor with all the preceding candidates before it can be declared that it is not coreferential with any.
+[BOS] Thus, a creation component P c (|E t , m t ) is needed to model the second type of events.
+[BOS] A problem arising from the adoption of the creation model is that it is very expensive to have a conditional model depending on all preceding entities E t .
+[BOS] To solve this problem, we adopt the MaxEnt model and impose some reasonable constraints on the feature functions, which makes it possible to synthesize features in the creation model from those of the link model.
+[BOS] The twin model components are intimately trained and used simultaneously in our coreference system.
+

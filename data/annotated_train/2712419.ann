@@ -1,0 +1,45 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 199 204	[BOS]
+T3	Transition 486 491	[BOS]
+T4	Multi_summ 563 568	[BOS]
+T5	Multi_summ 676 681	[BOS]
+T6	Single_summ 767 772	[BOS]
+T7	Reflection 998 1003	[BOS]
+T8	Reflection 1110 1115	[BOS]
+T9	Reflection 1277 1282	[BOS]
+T10	Single_summ 1371 1376	[BOS]
+T11	Transition 1584 1589	[BOS]
+T12	Transition 1709 1714	[BOS]
+T13	Reflection 1783 1788	[BOS]
+T14	Reflection 1931 1936	[BOS]
+T15	Reference 152 174	(Zhang and Clark, 2008
+T16	Reference 176 196	Jiang et al., 2008a)
+T17	Reference 354 373	(Shi and Wang, 2007
+T18	Reference 375 395	Jiang et al., 2008b)
+T19	Reference 462 483	(Jiang et al., 2008a)
+T20	Dominant 569 593	Kruengkrai et al. (2009)
+T21	Dominant 598 620	Zhang and Clark (2008)
+T22	Dominant 785 809	Kruengkrai et al. (2009)
+T23	Reference 822 850	Nakagawa and Uchimoto (2007)
+T24	Reference 1180 1202	Zhang and Clark (2007)
+T25	Reference 1344 1368	Kruengkrai et al. (2009)
+T26	Dominant 1383 1407	Kruengkrai et al. (2009)
+T27	Pronoun 492 496	This
+T28	B_span 67 72	joint
+T29	E_span 190 195	2008a
+T30	B_span 344 353	reranking
+T31	E_span 389 394	2008b
+T32	B_span 410 418	ensemble
+T33	E_span 477 482	2008a
+T34	B_span 569 579	Kruengkrai
+T35	E_span 670 674	work
+T36	B_span 773 776	The
+T37	E_span 986 996	characters
+T38	E_span 845 849	2007
+T39	B_span 813 818	based
+T40	B_span 1126 1129	our
+T41	E_span 1197 1201	2007
+T42	B_span 1283 1286	Our
+T43	E_span 1363 1367	2009
+T44	B_span 1377 1382	While
+T45	E_span 1577 1582	model

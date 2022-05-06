@@ -1,0 +1,38 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 341 346	[BOS]
+T3	Narrative_cite 520 525	[BOS]
+T4	Transition 724 729	[BOS]
+T5	Transition 836 841	[BOS]
+T6	Single_summ 1003 1008	[BOS]
+T7	Single_summ 1146 1151	[BOS]
+T8	Transition 1362 1367	[BOS]
+T9	Narrative_cite 1552 1557	[BOS]
+T10	Transition 1745 1750	[BOS]
+T11	Transition 1973 1978	[BOS]
+T12	Reference 221 269	Rajpurkar et al., 2016 (Rajpurkar et al., , 2018
+T13	Reference 312 338	(Kwiatkowski et al., 2019)
+T14	Reference 654 675	(Bowman et al., 2015)
+T15	Reference 698 721	(Williams et al., 2018)
+T16	Dominant 1041 1063	(Zellers et al., 2018)
+T17	Reference 1719 1742	(Ettinger et al., 2017)
+T18	Pronoun 350 355	these
+T19	Pronoun 733 738	these
+T20	Pronoun 845 850	these
+T21	Pronoun 1253 1255	it
+T22	Pronoun 1685 1687	It
+T23	Pronoun 1754 1758	this
+T24	Pronoun 1912 1917	their
+T25	Pronoun 1993 1995	It
+T26	Pronoun 2002 2004	It
+T27	B_span 214 217	SQu
+T28	E_span 267 269	18
+T29	B_span 278 280	Go
+T30	E_span 335 337	19
+T31	B_span 649 651	SN
+T32	E_span 671 674	015
+T33	B_span 680 684	Mult
+T34	E_span 716 720	2018
+T35	B_span 1028 1030	SW
+T37	B_span 1693 1698	Langu
+T38	E_span 1739 1741	17
+T39	E_span 1354 1359	model

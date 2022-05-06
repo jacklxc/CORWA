@@ -1,0 +1,15 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 167 172	[BOS]
+T3	Single_summ 342 347	[BOS]
+T4	Narrative_cite 544 549	[BOS]
+T5	Dominant 417 436	(Erbs et al., 2014)
+T6	Reference 708 728	(Hasan and Ng, 2014)
+T7	Pronoun 173 178	These
+T8	Pronoun 283 285	it
+T9	Pronoun 373 377	this
+T10	Pronoun 559 563	this
+T11	Pronoun 610 614	they
+T13	E_span 532 543	approaches.
+T14	B_span 348 351	One
+T15	E_span 723 727	2014
+T12	B_span 709 714	Hasan

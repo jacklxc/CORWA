@@ -1,0 +1,55 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 72 77	[BOS]
+T3	Multi_summ 274 279	[BOS]
+T4	Multi_summ 503 508	[BOS]
+T5	Transition 626 631	[BOS]
+T6	Transition 713 718	[BOS]
+T7	Narrative_cite 779 784	[BOS]
+T8	Narrative_cite 875 880	[BOS]
+T9	Transition 1029 1034	[BOS]
+T10	Transition 1092 1097	[BOS]
+T11	Single_summ 1144 1149	[BOS]
+T12	Narrative_cite 1269 1274	[BOS]
+T13	Transition 1462 1467	[BOS]
+T14	Single_summ 1569 1574	[BOS]
+T15	Single_summ 1747 1752	[BOS]
+T16	Single_summ 1869 1874	[BOS]
+T17	Single_summ 1974 1979	[BOS]
+T18	Transition 2044 2049	[BOS]
+T19	Reflection 2141 2146	[BOS]
+T20	Dominant 78 101	Toutanova et al. (2008)
+T21	Dominant 106 130	Punyakanok et al. (2008)
+T22	Reference 808 834	(Domingos and Lowd, 2009 )
+T23	Reference 945 970	(Yoshikawa et al., 2009 )
+T24	Reference 996 1021	(Poon and Domingos, 2008)
+T25	Dominant 1150 1177	Meza-Ruiz and Riedel (2009)
+T26	Reference 1388 1407	Haji et al. (2009 )
+T27	Reference 1409 1430	Surdeanu et al. (2008
+T28	Reference 1437 1459	Dang and Palmer (2005)
+T29	Dominant 1601 1624	Dahlmeier et al. (2009)
+T30	Dominant 1798 1815	Che et al. (2010)
+T31	Pronoun 395 400	their
+T32	Pronoun 518 520	it
+T33	Pronoun 585 587	it
+T34	Pronoun 881 883	It
+T35	Pronoun 1035 1037	It
+T36	Pronoun 1468 1472	They
+T37	Pronoun 1875 1879	They
+T38	Pronoun 2025 2030	their
+T39	Pronoun 2150 2154	this
+T40	B_span 78 87	Toutanova
+T41	E_span 617 624	results
+T42	B_span 795 801	Markov
+T43	E_span 828 832	2009
+T44	B_span 914 922	temporal
+T45	E_span 964 968	2009
+T46	B_span 972 974	co
+T47	E_span 1016 1020	2008
+T48	B_span 1150 1154	Meza
+T49	E_span 1261 1266	logic
+T50	B_span 1300 1309	predicate
+T51	E_span 1454 1458	2005
+T52	B_span 1601 1610	Dahlmeier
+T53	E_span 1737 1744	phrases
+T54	B_span 1798 1801	Che
+T55	E_span 2031 2042	experiments

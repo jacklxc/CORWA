@@ -1,0 +1,22 @@
+[BOS] Many other works use autoencoders to form representations in an unsupervised or semi-supervised way.
+[BOS] Variants such as denoising autoencoders (Vincent et al., 2008) and variational autoencoders (Kingma and Welling, 2013) have been used for various vision and language tasks.
+[BOS] In the area of semantic grounding, Koisk et al. (2016) perform semi-supervised semantic parsing using an autoencoder where the latent state takes the form of language.
+
+[BOS] Our approach also relates to recent work on learning artificial languages by simulating agents interacting in an environment (Mordatch and Abbeel, 2018; Das et al., 2017; Kottur et al., 2017, i.a.)
+[BOS] .
+[BOS] Our environment learning procedure could be viewed as a language learning game where the encoder is a speaker and the decoder is a listener.
+[BOS] The speaker must create a "language" a that allows the decoder to complete a task.
+[BOS] Many of these papers have found that it is possible to induce representations that align semantically with language humans use, as explored in detail in Andreas and Klein (2017) .
+[BOS] Our analysis in Section 7 is based on the method from this work.
+
+[BOS] Model-based reinforcement learning is another area of work that improves data-efficiency by learning from observations of an environment Deisenroth et al., 2013; Kaiser et al., 2019) .
+[BOS] It differs from the current work in which aspect of the environment it seeks to capture: in model-based RL the goal is to model which states will result from taking a particular action, but in this work we aim to learn patterns in what actions tend to be chosen by a knowledgeable actor.
+
+[BOS] Another related line of research uses language to guide learning about an environment (Branavan et al., 2012; Srivastava et al., 2017; Andreas et al., 2018; Hancock et al., 2018) .
+[BOS] These papers use language to learn about an environment more efficiently, which can be seen as a kind of inverse to our work, where we use environment knowledge to learn language more efficiently.
+
+[BOS] Finally, recent work by Leonandya et al. (2018) also explores neural architectures for the block stacking task we used in section 4.1.
+[BOS] The authors recognize the need for additional inductive bias, and introduce this bias by creating additional synthetic supervised data with artificial language, creating a transfer learning-style setup.
+[BOS] This is in contrast to our unsupervised pre-training method that does not need language for the additional data.
+[BOS] Even with their stronger data assumptions, their online accuracy evaluation reaches just 23%, compared to our result of 28.5%, providing independent verification of the difficulty of this task for neural networks.
+

@@ -1,0 +1,31 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 218 223	[BOS]
+T3	Transition 289 294	[BOS]
+T4	Single_summ 380 385	[BOS]
+T5	Narrative_cite 498 503	[BOS]
+T6	Multi_summ 717 722	[BOS]
+T7	Single_summ 883 888	[BOS]
+T8	Reference 149 171	(Lafferty et al., 2001
+T9	Reference 173 195	Ratinov and Roth, 2009
+T10	Reference 197 215	Tsai et al., 2016)
+T11	Dominant 386 407	Sobhana et al. (2010)
+T12	Reference 559 579	(Lample et al., 2016
+T13	Reference 581 597	Lin et al., 2017
+T14	Reference 599 622	Greenberg et al., 2018)
+T15	Reference 643 667	(Chiu and Nichols, 2016)
+T16	Dominant 723 740	Liu et al. (2018)
+T17	Dominant 743 764	Trivedi et al. (2018)
+T18	Reference 1044 1065	(Winata et al., 2018b
+T19	Pronoun 233 237	this
+T20	B_span 113 117	hand
+T21	E_span 210 214	2016
+T22	B_span 386 393	Sobhana
+T23	E_span 484 496	dependencies
+T24	B_span 543 547	LSTM
+T25	E_span 617 621	2018
+T26	B_span 627 631	LSTM
+T27	E_span 662 666	2016
+T28	E_span 872 881	spellings
+T29	B_span 723 726	Liu
+T30	B_span 889 896	Finally
+T31	E_span 1060 1065	2018b

@@ -1,0 +1,16 @@
+[BOS] FSAs Many of the rules used in phonology and morphology can be analyzed as special cases of regular expressions, and many linguistic descriptions at this level can be compiled into finite state automata (FSAs) (Kaplan and Kay, 1994; Karttunen et al., 1997) .
+[BOS] Learning minimal FSAs from samples is generally NP-hard (Gold, 1978) , and most FSAs used to model phono-/morphotactic constraints have been manually constructed.
+[BOS] However, learning a minimal FSA for a fixed set of members of a Brown clusters, is obviously a much easier problem.
+[BOS] We extend the FSAs to capture spelling variations better using a simple propagation principle (see 3).
+
+[BOS] Noeman and Madkour (2010) use FSAs for named entity transliteration, a problem which is very related to ours.
+[BOS] They learned transliteration patterns using techniques from phrasebased SMT, but formalized the transliteration grammars by composing FSAs.
+[BOS] Similarly, de Vinaspre et al. (2013) use FSAs to learn transliteration of SNOMED CT terms in Basque.
+[BOS] Spelling variations and transliteration seem to form a continuum, from nondialectal spelling variations such as Facebook/fbook, over dialectal variations such as Baltimore/Baltimaw (observed on Twitter), to cross-language variations such as Mnchen/Munich.
+
+[BOS] POS tagging with Brown clusters Brown et al. (1992) introduced the Brown clustering algorithm, which induces a hiearchy of clusters optimizing the likelihood of a hidden Markov model.
+[BOS] Each word is assigned to at most one cluster.
+[BOS] The algorithm can be used as an unsupervised POS tagger (Blunsom and Cohn, 2011) , but Brown clusters have also been used as features in discriminative sequence modeling (Turian et al., 2010) .
+[BOS] Ritter et al. (2011) and Owoputi et al. (2013) use Brown clusters induced from a large Twitter corpus to improve a POS tagger trained on a small corpus on hand-annotated tweets (Gimpel et al., 2011) .
+[BOS] Several recent papers on domain adaptation of POS taggers use discriminative taggers trained with Brown clusters as features as their baseline, e.g., .
+

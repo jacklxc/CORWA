@@ -1,0 +1,30 @@
+[BOS] Semantic role labeling was pioneered by Gildea and Jurafsky (2002) .
+[BOS] Most traditional SRL models heavily rely on complex feature engineering (Pradhan et al., 2005; Zhao et al., 2009a; Bjrkelund et al., 2009) .
+[BOS] Among those early works, Pradhan et al. (2005) combined features derived from different syntactic parses based on SVM classifier, while Zhao et al. (2009a) exploited the abundant set of language-specific features that were carefully designed for SRL task.
+
+[BOS] In recent years, applying neural networks in SRL task has gained a lot of attention due to the impressive success of deep neural networks in various NLP tasks (Zhang et al., 2016; Qin et al., 2017; .
+[BOS] Collobert et al. (2011) initially introduced neural networks into the SRL task.
+[BOS] They developed a feed-forward network that employed a convolutional network as sentence encoder and a conditional random field as a role classifier.
+[BOS] Foland and Martin (2015) extended their model to further use syntactic information by including binary indicator features.
+[BOS] FitzGerald et al. (2015) exploited a neural network to unifiedly embed arguments and semantic roles, similar to the work (Lei et al., 2015) which induced a compact feature representation applying tensor-based approach.
+[BOS] Roth and Lapata (2016) introduced the dependency path embedding to incorporate syntax and exhibited a notable success, while employed the graph convolutional network to integrate syntactic information into their neural model.
+
+[BOS] Besides the above-mentioned works who relied on syntactic information, several works attempted to build SRL systems without or with little syntactic information.
+[BOS] Zhou and Xu (2015) came up with an end-to-end model for span-based SRL and obtained surprising performance putting syntax aside.
+[BOS] He et al. (2017) further extended their work with the highway network.
+[BOS] Simultaneously, proposed a syntax-agnostic model with effective word representation for dependency-based SRL.
+
+[BOS] However, almost all of previous works treated the predicate disambiguation as individual subtasks, apart from (Zhao and Kit, 2008; Zhao et al., 2009a; Zhao et al., 2009c; Zhao et al., 2013) , who presented the first end-to-end system for dependency SRL.
+[BOS] For the neural models of dependency SRL, we have presented the first end-to-end solution that handles both semantic labeling subtasks in one single model.
+[BOS] At the same time, our model enjoys the advantage that does not rely any syntactic information.
+
+[BOS] This work is also closely related to the attentional mechanism.
+[BOS] The traditional attention mechanism was proposed by Bahdanau et al. (2015) in the NMT literature.
+[BOS] Following the work (Luong et al., 2015) that encouraged substituting the MLP in the attentional mechanism with a single bilinear transformation, Dozat and Manning (2017) introduced the bias terms into the primitive form of bilinear attention and applied it for dependency parsing.
+[BOS] They demonstrate that the bias terms help their model to capture the uneven prior distribution of the data, which is again verified by our practice on SRL in this paper.
+
+[BOS] Different from the latest strong syntax-agnostic models in and (He et al., 2018) which both adopted sequence labeling formulization for the SRL task, this work adopts word pair classification scheme implemented by LSTM encoder and biaffine scorer.
+[BOS] Compared to the previous state-of-the-art syntax-agnostic model in (He et al., 2018) whose performance boosting (more than 1% absolute gain) is mostly due to introducing the enhanced representation, namely, the CNNBiLSTM character embedding from (Peters et al., 2018) , our performance promotion mainly roots from model architecture improvement, which results in quite different syntax-aware enhanced impacts.
+[BOS] Using the same latest syntax-aware k-order pruning, the syntax-agnostic backbone in (He et al., 2018 ) may receive about 1% performance gain, while our model is furthermore enhanced little.
+[BOS] This comparison also suggests the possibility that maybe our model can be further improved by incorporating with the same character embedding as (He et al., 2018 ) does 5 .
+

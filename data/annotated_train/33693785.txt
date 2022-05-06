@@ -1,0 +1,19 @@
+[BOS] Early work on event ordering focused on developing machine-learned classifiers that label the temporal relations between small subsets of pairs of events within documents using lexical and syntactical features (Bethard and Martin, 2007; Cheng et al., 2007; UzZaman and Allen, 2010; Llorens et al., 2010; Bethard, 2013) .
+[BOS] Later work leveraged information across pairwise predictions by imposing transitivity constraints using techniques like integer linear programming and Markov logic networks (Bramsen et al., 2006; Chambers and Jurafsky, 2008; Tatu and Srikanth, 2008; Yoshikawa et al., 2009) .
+[BOS] CAEVO followed these and other hybrid rule-based approaches (D'Souza and Ng, 2013) , but with the transitivity constraints yielding larger gains in performance for the more complete temporal graph constructed on the TimeBankDense corpus (Cassidy et al., 2014; Chambers et al., 2014) .
+
+[BOS] The TimeBank-Dense corpus provides a significantly more dense and complete set of annotations compared to previous corpora.
+[BOS] 1 TimeBank-Dense extends a subset of the original TimeBank corpus with annotations for (almost) all event-time, time-time, and event-time pairs across consecutive sentences, as well as relations to the document creation time.
+[BOS] This dense corpus facilitated the evaluation of CAEVO-a sieve-based architecture which maintains transitivity constraints across independent predictions from several specialized classifiers.
+
+[BOS] Recent work has focused on the construction of timelines of related events, using SRL annotations to determine which events are related through common actors (Laparra et al., 2015) .
+[BOS] In addition, other work has outperformed the original CAEVO with a 2.2% relative F1 gain on TimeBank-Dense using word embedding features within a stacked ensemble of event-event, eventtime, and event-creation-time logistic regression classifiers (Mirza and Tonelli, 2016) .
+[BOS] We draw inspiration from this recent work by incorporating SRL and word embedding features into the machine-learned CAEVO sieves.
+
+[BOS] The CAEVO architecture is itself inspired by the sieve-based architectures that have been successfully applied to event and entity coreference as well as spatial relation extraction tasks (Lee et al., 2012 (Lee et al., , 2013 D'Souza and Ng, 2015) .
+[BOS] Years since CAEVO's introduction, a coreference sieve architecture still achieves top performance (Lee et al., 2017) .
+[BOS] The key idea behind these architectures is to combine information from several classifiers by assigning precedence to predictions according to the reliability of the classifier from which they originate.
+[BOS] A precision-ranked series of "sieve" classifiers generate predictions, and predictions from the more reliable sieves earlier in the series inform the predictions of the less reliable sieves later in the series.
+[BOS] Generally, the predictions from a highly-ranked sieve can inform a lowranked sieve in several ways, but within CAEVO, predictions from early classifiers are coupled via transitive inference rules to generate an expanding set of predictions that override output from less reliable classifiers later on in the series.
+[BOS] In the next section, we describe a more generic view of this architecture which will motivate alternative methods for assigning precedence to predictions from the collection of classifiers.
+

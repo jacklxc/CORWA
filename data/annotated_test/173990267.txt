@@ -1,0 +1,11 @@
+[BOS] Semantic Role Labeling (SRL) generally refers to the PropBank style of annotation (Palmer et al., 2005) .
+[BOS] Broadly speaking, prior work on SRL makes use of syntactic information in two different ways.
+[BOS] Carreras and Mrquez (2005) ; Pradhan et al. (2013) incorporate constituent-structure span-based information, while Haji et al. (2009) incorporate dependency-structure information.
+
+[BOS] This information can be incorporated into an SRL system in several different ways.
+[BOS] Swayamdipta et al. (2018) use span information from constituency parse trees as an additional training target in a multi-task learning approach, similar to one of the approaches we evaluate here.
+[BOS] Roth and Lapata (2016) use an LSTM model to represent the dependency paths between predicates and arguments and feed the output as the input features to their SRL system.
+[BOS] Marcheggiani and Titov (2017) use Graph Convolutional Network (Niepert et al., 2016) to encode the dependency parsing trees into their LSTM-based SRL system.
+[BOS] Xia et al. (2019) represent dependency parses using position-based categorical features of tree structures in a neural model.
+[BOS] Strubell et al. (2018) use dependency trees as a supervision signal to train one of attention heads in a self-attentive neural model.
+

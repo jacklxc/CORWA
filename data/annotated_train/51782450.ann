@@ -1,0 +1,34 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 116 121	[BOS]
+T3	Single_summ 232 237	[BOS]
+T4	Multi_summ 371 376	[BOS]
+T5	Transition 492 497	[BOS]
+T6	Single_summ 572 577	[BOS]
+T7	Single_summ 752 757	[BOS]
+T8	Transition 845 850	[BOS]
+T9	Single_summ 949 954	[BOS]
+T10	Single_summ 1077 1082	[BOS]
+T11	Single_summ 1235 1240	[BOS]
+T12	Transition 1357 1362	[BOS]
+T13	Dominant 122 141	Luong et al. (2016)
+T14	Dominant 238 260	Eriguchi et al. (2016)
+T15	Dominant 420 439	Chen et al. (2017a)
+T16	Dominant 444 462	Yang et al. (2017)
+T17	Dominant 578 597	Chen et al. (2017b)
+T18	Dominant 758 780	Bastings et al. (2017)
+T19	Dominant 955 979	Gehring et al. (2017a,b)
+T20	Dominant 1083 1112	Hashimoto and Tsuruoka (2017)
+T21	B_span 122 127	Luong
+T22	E_span 222 230	language
+T23	B_span 238 246	Eriguchi
+T24	E_span 365 369	data
+T25	B_span 377 380	The
+T26	E_span 486 490	pass
+T27	B_span 578 582	Chen
+T28	E_span 735 750	representations
+T29	B_span 758 766	Bastings
+T30	E_span 836 843	encoder
+T31	B_span 955 962	Gehring
+T32	E_span 1066 1075	baselines
+T33	B_span 1083 1092	Hashimoto
+T34	E_span 1348 1355	results

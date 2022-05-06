@@ -1,0 +1,7 @@
+[BOS] Multi-lingual NMT has been extensively studied in a number of papers such as Lee et al. (2017) , Johnson et al. (2017) , Zoph et al. (2016) and Firat et al. (2016) .
+[BOS] As we discussed, these approaches have significant limitations with zero-resource cases.
+[BOS] Johnson et al. (2017) is more closely related to our current approach, our work is extending it to overcome the limitations with very low-resource languages and enable sharing of lexical and sentence representation across multiple languages.
+[BOS] Two recent related works are targeting the same problem of minimally supervised or totally unsupervised NMT.
+[BOS] Artetxe et al. (2018) proposed a totally unsupervised approach depending on multi-lingual embedding similar to ours and duallearning and reconstruction techniques to train the model from mono-lingual data only.
+[BOS] also proposed a quite similar approach while utilizing adversarial learning.
+

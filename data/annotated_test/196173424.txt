@@ -1,0 +1,10 @@
+[BOS] We present related work in this section, divided into three sub-topics.
+[BOS] Jia and Liang (2017) showed that QA models can be confused by appending a distracting sentence to the end of a passage.
+[BOS] While this highlighted an important weakness of trained models, the adversarial examples created are unnatural and not expected to be present in naturally occurring passages.
+[BOS] In contrast, semantic preserving changes to an input question that lead to returning the wrong answers present more relevant failure cases that occur in practice.
+[BOS] Some previous work used question paraphrasing to create more natural adversarial examples.
+[BOS] Ribeiro et al. (2018) made use of back translation to obtain paraphrasing rules that were subsequently filtered by human annotators.
+[BOS] Examples of rules obtained include "What VERB  So what VERB" and "What NOUN  Which NOUN".
+[BOS] Rychalska et al. (2018) replaced the most important question word identified using the LIME framework with a synonym from WordNet and ELMo embeddings, which was verified by human annotators.
+[BOS] These replacements are expected to maintain the meaning of the questions but can sometimes change initially correct answers.
+

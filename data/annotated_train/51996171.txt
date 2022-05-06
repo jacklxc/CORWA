@@ -1,0 +1,10 @@
+[BOS] Recurrent neural network has achieved great success because of its effective capability to capture the sequential information.
+[BOS] The RNN handles the variable-length sequence by having a recurrent hidden state whose activation at each time step is dependent on that of the previous time.
+[BOS] To reduce the negative impact of gradient vanishing, a long short-term memory unit (Hochreiter and Schmidhuber, 1997) , which has a more sophisticated activation function, was proposed.
+[BOS] Bidirectional recurrent neural networks (Schuster and Paliwal, 1997) , e.g bidirectional LSTM networks (Augenstein et al., 2016) , combine forward features as well as reverse features of the text.
+[BOS] Bidirectional networks, which get the forward features and the reverse features separately, are different from our multi-glance mechanism.
+[BOS] A Gated Recurrent Unit (GRU) ) is a good extension of a LSTM unit, because GRU maintains the performance and makes the structure to be simpler.
+[BOS] Comparing to a LSTM unit, a GRU has only two gates, an update gate and a reset gate, so it will be faster to train a GRU than a LSTM unit.
+[BOS] Attention mechanism ) is used to learn weights for every input, so it can reduce the impact of information redundancy.
+[BOS] Now, attention mechanism is commonly used in various models.
+

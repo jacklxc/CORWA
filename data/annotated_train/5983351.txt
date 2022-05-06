@@ -1,0 +1,27 @@
+[BOS] Encoder decoder based architectures for sequence to sequence generation were initially proposed in Sutskever et al., 2014) in the context of Machine Translation (MT) and have also been successfully used for generating captions for images (Vinyals et al., 2015b) .
+[BOS] However, such sequence to sequence models are often difficult to train as they aim to encode the entire source sequence using a fixed encoder representation.
+[BOS] introduced attention based models wherein a different representation is fed to the decoder at each time step by focusing the attention on different parts of the input sequence.
+[BOS] Such attention based models have been more successful than vanilla encoderdecoder models and have been used successfully for MT , parsing , speech recognition (Chorowski et al., 2015) , image captioning (Xu et al., 2015) among other applications.
+[BOS] All the above mentioned works focus only on the case when there is one source and one target.
+[BOS] The source can be image, text, or speech signal but the target is always a text sequence.
+
+[BOS] Encoder decoder models in a multi-source, single target setting have been explored by (Elliott et al., 2015) and (Zoph and Knight, 2016) .
+[BOS] Specifically, Elliott et al. (2015) try to generate a German caption from an image and its corresponding English caption.
+[BOS] Similarly, Zoph and Knight (2016) focus on the problem of generating English translations given the same sentence in both French and German.
+[BOS] We would like to highlight that both these models require three-way parallel data while we are focusing on situations where such data is not available.
+[BOS] Single source, multi-target and multi-source, single target settings have been considered in (Luong et al., 2015a) .
+[BOS] Recent work by Firat et al. (2016) explores multi-source to multi-target encoder decoder models in the context of Machine Translation.
+[BOS] However, Firat et al. (2016) focus on multi-task learning with a shared attention mechanism and the goal is to improve the MT performance for a pair of languages for which parallel data is available.
+[BOS] This is clearly different from the goal of this paper which is to design encoder decoder models for a pair of languages for which no parallel data is available but data is available only between each of these languages and a bridge language.
+
+[BOS] Of course, in general the idea of pivot/bridge/interlingua based conversion is not new and has been used previously in several non-neural network settings.
+[BOS] For example (Khapra et al., 2010 ) use a bridge language or pivot language to do machine transliteration.
+[BOS] Similarly, (Wu and Wang, 2007; Zhu et al., 2014) do pivot based machine translation.
+[BOS] Lastly, we would also like to mention the work in interlingua based Machine Translation (Nirenburg, 1994; Dorr et al., 2010) which is clearly the inspiration for this work even though the focus of this work is not on MT.
+
+[BOS] The main theme explored in this paper is to learn a common representation for two views with the end goal of generating a target sequence in a third view.
+[BOS] The idea of learning common representations for multiple views has been explored well in the past (Klementiev et al., 2012; Chandar et al., 2014; Hermann and Blunsom, 2014; Chandar et al., 2016; Rajendran et al., 2015) .
+[BOS] For example, Andrew et al. (2013) propose Deep CCA for learning a common representation for two views.
+[BOS] (Chandar et al., 2014; Chandar et al., 2016) propose correlational neural networks for common representation learning and Rajendran et al. (2015) propose bridge correlational networks for multilingual multimodal representation learning.
+[BOS] From the point of view of representation learning, the work of Rajendran et al. (2015) is very similar to our work except that it focuses only on representation learning and does not consider the end goal of generating sequences in a target language.
+

@@ -1,0 +1,12 @@
+[BOS] Most previous domain adaptation work for NMT focus on the setting where a small amount of indomain data is available.
+[BOS] Continued training (Luong and Manning, 2015; Freitag and Al-Onaizan, 2016 ) methods first train an NMT model on outof-domain data and then fine-tune it on the indomain data.
+[BOS] Similar to our work, Kobus et al. (2017) propose to use domain tags to control the output domain, but it still needs a in-domain parallel corpus and our architecture allows more flexible modifications than just adding additional tags.
+[BOS] Unsupervised domain adaptation techniques for NMT can be divided into data-and model-centric methods (Chu and Wang, 2018) .
+[BOS] Data-centric approaches mainly focus on selecting or generating the domain-related data using existing in-domain monolingual data.
+[BOS] Both the copy method (Currey et al., 2017) and back-translation (Sennrich et al., 2016a) are representative data-centric methods.
+[BOS] In addition, Moore and Lewis (2010); Axelrod et al. (2011); Duh et al. (2013) use LMs to score the outof-domain data, based on which they select data similar to in-domain text.
+[BOS] Model-centric methods have not been fully investigated yet.
+[BOS] Gulcehre et al. (2015) propose to fuse LMs and NMT models, but their methods require querying two models during inference and have been demonstrated to underperform the data-centric ones .
+[BOS] There are also work on adaptation via retrieving sentences or n-grams in the training data similar to the test set (Farajian et al., 2017; Bapna and Firat, 2019) .
+[BOS] However, it can be difficult to find similar parallel sentences in domain adaptation settings.
+

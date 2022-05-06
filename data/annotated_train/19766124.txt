@@ -1,0 +1,11 @@
+[BOS] While multiple solutions have been proposed for identification of opinionated expressions in text, work on entity-centric sentiment analysis, i.e. to associate opinions with its referent, fall over three major approaches: those which use the context of an entity -as a fixed window of words around the entity or its syntactic context -to identify an opinion about the entity [Grefenstette et al. 2004, Hu and Liu 2004] ; those which use pre-defined rules and linguistics resources -such as FrameNet -to identify the opinion reference as [Ding et al. 2008 , Kim and Hovy 2006 , Wu et al. 2009 ; and those which relies on machine learning techniques as [Popescu and Etzioni 2005 , Kobayashi et al. 2007 , Ding and Liu 2010 .
+
+[BOS] More related to our work, however, are the work of Jansen et al. [Jansen et al. 2009 ] and Silva et al. [Silva and TEAM 2011] .
+[BOS] Jansen et al. use out-of-the-box commercial tool -no longer available -to perform Entity-centric subsentential sentiment analysis on Twitter.
+[BOS] They apply their strategy on brand names for word-of-mouth detection.
+
+[BOS] Silva et al. [Silva and TEAM 2011] describe the construction of the Twittmetro -a tool for subsentential sentiment analysis on Twitter for the political domain.
+[BOS] They explore a dictionary-based approach combined with lexico-syntactic rules to identify and compose opinions and to attribute reference to them.
+
+[BOS] We believe that, while these work address a problem similar to ours, their strategies are not adequate for our case since they do not perform the analysis on a sufficiently grained fashion, as in [Jansen et al. 2009 ], or they rely too strongly on the structure of the domain, as in [Silva and TEAM 2011] .
+

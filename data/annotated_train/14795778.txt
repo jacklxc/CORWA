@@ -1,0 +1,3 @@
+[BOS] Most of the previous studies on negation and speculation scope detection task can be divided into two main aspects: the heuristic rule based methods and the machine learning based methods.
+[BOS] We respectively introduce the aspects in below.
+

@@ -1,0 +1,20 @@
+[BOS] There are few related tools to this work.
+[BOS] args.me is a platform that accepts natural language queries and returns links to the pages that contain relevant topics (Wachsmuth et al., 2017) , which are split into supporting & opposing categories (screenshot in Figure 4) .
+[BOS] Similarly, ArgumentText (Stab et al., 2018a ) takes a topic as input and returns pro/con arguments retrieved from the web.
+[BOS] This work takes the effort one step further by employing language understanding techniques.
+
+[BOS] There is a rich line of work on using Wikipedia as source for argument mining or to assess the veracity of a claim (Thorne et al., 2018) .
+[BOS] For instance, FAKTA is a system that extracts relevant documents from Wikipedia, among other sources, to predict the factuality of an input claim (Nadeem et al., 2019) .
+
+[BOS] Beyond published works, there are websites that employ similar technologies.
+[BOS] For instance, bing.com has recently started a service that provides two different responses to a given argument (screenshot in Figure 4 ).
+[BOS] Since there is no published work on this system, it is not clear what the underlying mechanism is.
+
+[BOS] There exist a number of online debate platforms that provide similar functionalities as our system: kialo.com, procon.org, idebate.org , among others.
+[BOS] Such websites usually provide a wide range of debate topics and various arguments in response to each topic.
+[BOS] These resources have been proven useful in a line of works in argumentation (Hua and Wang, 2017; Stab et al., 2018b; Wachsmuth et al., 2018) , among many others.
+[BOS] While they provide rich sources of information, their content is fairly limited in terms of either their topical coverage or data availability for academic research purposes.
+
+[BOS] There also exist a few other works in this direction that do not accompany a publicly available tool or demo.
+[BOS] For instance, Hasan and Ng (2014) ; Levy et al. (2018) attempt to identify relevant arguments within web text in the context of a given topic.
+

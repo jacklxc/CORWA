@@ -1,0 +1,25 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 230 235	[BOS]
+T3	Single_summ 368 373	[BOS]
+T4	Single_summ 529 534	[BOS]
+T5	Single_summ 668 673	[BOS]
+T6	Reflection 785 790	[BOS]
+T7	Reference 80 98	(Cao et al., 2018)
+T8	Reference 132 154	Pasunuru et al., 2017)
+T9	Dominant 389 406	Fan et al. (2018)
+T10	Reference 441 458	Cao et al. (2018)
+T11	Dominant 545 562	Guo et al. (2018)
+T12	B_span 48 56	explicit
+T13	E_span 97 98	)
+T14	B_span 103 108	multi
+T15	E_span 153 154	)
+T16	B_span 389 392	Fan
+T17	E_span 526 527	.
+T18	B_span 545 548	Guo
+T19	E_span 783 784	.
+T20	Pronoun 239 243	this
+T21	Pronoun 693 698	their
+T22	Pronoun 865 869	this
+T23	Pronoun 879 881	it
+T24	B_span 441 444	Cao
+T25	E_span 453 457	2018

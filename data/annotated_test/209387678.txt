@@ -1,0 +1,22 @@
+[BOS] Throughout this study, we consider the supervised summarization problem, which aims to compress a source document of tokens x 1 , .
+[BOS] .
+[BOS] .
+[BOS] , x m of length m. The aligned summary y 1 , .
+[BOS] .
+[BOS] .
+[BOS] , y n has a length n m, and aims to convey a compressed version of the source document.
+
+[BOS] Sequence-to-sequence models (S2S, Sutskever et al., 2014) are the de-facto standard for neural abstractive summarization (Rush et al., 2015; Nallapati et al., 2016) .
+[BOS] The development of models that incorporate a copy-attention mechanism for models to copy word from source documents, has further improved the performance (Gu et al., 2016; Vinyals et al., 2015; See et al., 2017) .
+
+[BOS] However, most summarization tasks use data from news domains which have mostly extractive summaries.
+[BOS] Among others, See et al. (2017) and Gehrmann et al. (2018) found that models learn to replicate this latent extraction behavior, and that the resulting summaries of copy-attention based models are over 95% extractive.
+[BOS] To address this issue, related approaches have used reinforcement learning objectives to prevent the model from reusing longer phrases from the input and to be more concise (Paulus et al., 2017; Chen and Bansal, 2018; Li et al., 2018) .
+[BOS] However, these methods often suffer from ungrammatical output or much slower training while also requiring task-specific loss functions.
+[BOS] To avoid this problem, Kim et al. (2018) and Vlske et al. (2017) created redditbased corpora with more abstractive target summaries that enable the evaluation of supervised models instead.
+
+[BOS] Since the generation of abstractive summaries requires a powerful representation of language, we investigate the use of transfer learning.
+[BOS] Large language models based on the neural Transformer architecture (Vaswani et al., 2017) have shown promising results in language understanding tasks (Houlsby et al., 2019; Devlin et al., 2018; Chronopoulou et al., 2019) , but so far have had limited success in generation tasks (Zhang et al., 2019) .
+[BOS] Most recently, the pseudo-self attention method for fine-tuning language models to generation tasks has been introduced which may allow the application of transfer-learning to abstractive summarization (Ziegler et al., 2019) .
+[BOS] In this work, we compare this approach to strong baselines that rely on minor modifications of the Transformer (Gehrmann et al., 2018) .
+

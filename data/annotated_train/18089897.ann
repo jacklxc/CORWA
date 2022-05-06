@@ -1,0 +1,42 @@
+T1	Transition 0 5	[BOS]
+T2	Single_summ 68 73	[BOS]
+T3	Single_summ 138 143	[BOS]
+T4	Transition 327 332	[BOS]
+T5	Single_summ 618 623	[BOS]
+T6	Single_summ 896 901	[BOS]
+T7	Single_summ 1044 1049	[BOS]
+T8	Single_summ 1230 1235	[BOS]
+T9	Single_summ 1454 1459	[BOS]
+T10	Single_summ 1537 1542	[BOS]
+T11	Single_summ 1628 1633	[BOS]
+T12	Single_summ 1799 1804	[BOS]
+T13	Single_summ 1890 1895	[BOS]
+T14	Single_summ 2081 2086	[BOS]
+T15	Transition 2296 2301	[BOS]
+T16	Dominant 74 96	(Carpuat and Wu, 2005)
+T17	Dominant 624 650	(Cabezas and Resnik, 2005)
+T18	Dominant 1019 1041	(Carpuat and Wu, 2005)
+T19	Dominant 1050 1072	(Vickrey et al., 2005)
+T20	Dominant 1460 1479	(Chan et al., 2007)
+T21	Dominant 1961 1983	(Carpuat and Wu, 2007)
+T22	Pronoun 144 148	They
+T23	Pronoun 275 279	this
+T24	Pronoun 353 357	this
+T25	Pronoun 421 423	it
+T26	Pronoun 1265 1269	this
+T27	Pronoun 1805 1809	This
+T28	Pronoun 1922 1927	their
+T29	Pronoun 2141 2146	their
+T30	Pronoun 2460 2462	it
+T31	B_span 75 82	Carpuat
+T32	E_span 320 325	worse
+T33	B_span 625 632	Cabezas
+T34	E_span 1036 1040	2005
+T35	E_span 1036 1040	2005
+T36	B_span 989 997	stronger
+T37	B_span 1051 1058	Vickrey
+T38	E_span 1447 1452	other
+T39	B_span 1461 1465	Chan
+T40	E_span 1883 1888	score
+T41	B_span 1896 1898	In
+T42	E_span 2287 2294	metrics

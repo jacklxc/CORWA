@@ -1,0 +1,57 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 238 243	[BOS]
+T3	Narrative_cite 534 539	[BOS]
+T4	Reflection 883 888	[BOS]
+T5	Narrative_cite 1064 1069	[BOS]
+T6	Reflection 1341 1346	[BOS]
+T7	Multi_summ 1442 1447	[BOS]
+T8	Reflection 1668 1673	[BOS]
+T9	Reference 169 188	(Luong et al., 2015
+T10	Reference 190 211	Vinyals et al., 2015b
+T11	Reference 213 235	Bahdanau et al., 2015)
+T12	Dominant 257 276	Luong et al. (2015)
+T13	Reference 432 451	(Yang et al., 2016)
+T14	Reference 511 530	(Zhou et al., 2016)
+T15	Reference 612 630	(Rush et al., 2015
+T16	Reference 632 649	Zeng et al., 2016
+T17	Reference 651 674	Nallapati et al., 2017)
+T18	Reference 698 721	(Vinyals et al., 2015a)
+T19	Reference 799 822	(Cheng and Lapata, 2016
+T20	Reference 824 840	See et al., 2017
+T21	Reference 842 861	Paulus et al., 2018
+T22	Reference 863 880	Fan et al., 2017)
+T23	Reference 1036 1061	(Sukhbaatar et al., 2016)
+T24	Reference 1123 1146	(Foerster et al., 2017)
+T25	Reference 1167 1190	(Lazaridou et al., 2016
+T26	Reference 1192 1218	Mordatch and Abbeel, 2017)
+T27	Reference 1239 1261	(Vinyals et al., 2017)
+T28	Dominant 1448 1465	See et al. (2017)
+T29	Dominant 1582 1602	Paulus et al. (2018)
+T30	Pronoun 927 932	these
+T31	Pronoun 1300 1304	this
+T32	B_span 154 159	input
+T33	E_span 230 234	2015
+T34	B_span 257 262	Luong
+T35	E_span 525 529	2016
+T36	B_span 372 384	hierarchical
+T37	E_span 446 450	2016
+T38	B_span 485 491	dialog
+T39	E_span 525 529	2016
+T40	B_span 590 603	summarization
+T41	E_span 669 673	2017
+T42	B_span 681 688	pointer
+T43	E_span 715 720	2015a
+T44	B_span 779 788	generated
+T45	E_span 875 879	2017
+T46	B_span 988 995	CommNet
+T47	E_span 1056 1060	2016
+T48	B_span 1109 1114	logic
+T49	E_span 1141 1145	2017
+T50	B_span 1149 1157	language
+T51	E_span 1213 1217	2017
+T52	B_span 1223 1232	starcraft
+T53	E_span 1256 1260	2017
+T54	B_span 1448 1451	See
+T55	E_span 1569 1574	input
+T56	B_span 1582 1588	Paulus
+T57	E_span 1661 1666	words

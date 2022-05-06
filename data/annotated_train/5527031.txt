@@ -1,0 +1,14 @@
+[BOS] There are a number of recent works whose goal is a broad evaluation of the performance of different word embeddings on a range of tasks.
+[BOS] However, to the best of our knowledge, none of them focus on embeddings learned with diverse context types as we do.
+[BOS] Levy et al. (2015) , Lapesa and Evert (2014) , and Lai et al. (2015) evaluate several design choices when learning word representations.
+[BOS] However, Levy et al. (2015) and Lapesa and Evert (2014) perform only intrinsic evaluations and restrict context representation to word windows, while Lai et al. (2015) do perform extrinsic evaluations, but restrict their context representation to a word window with the default size of 5.
+[BOS] Schnabel et al. (2015) and Tsvetkov et al. (2015) low correlation between intrinsic and extrinsic results with different word embeddings (they did not evaluate different context types), which is consistent with differences we found between intrinsic and extrinsic performance patterns in all tasks, except parsing.
+[BOS] Bansal et al. (2014) show that functional (dependency-based and small-window) embeddings yield higher parsing improvements than topical (large-window) embeddings, which is consistent with our findings.
+
+[BOS] Several works focus on particular types of contexts for learning word embeddings.
+[BOS] Cirik and Yuret (2014) investigates S-CODE word embeddings based on substitute word contexts.
+[BOS] Ling et al. (2015b) and Ling et al. (2015a) propose extensions to the standard window-based context modeling.
+[BOS] Alternatively, another recent popular line of work Kiela et al., 2015) attempts to improve word embeddings by using manually-constructed resources, such as WordNet.
+[BOS] These techniques could be complementary to our work.
+[BOS] Finally, Yin and Schtze (2015) propose word embeddings ensembles (including concatenation) but evaluate mostly on intrinsic tasks and do not consider different types of contexts.
+

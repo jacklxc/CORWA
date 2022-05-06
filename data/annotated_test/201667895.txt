@@ -1,0 +1,24 @@
+[BOS] Raw data in NLP is often noisy.
+[BOS] categorize five common noise sources in parallel corpora and count only about 23% of the sentences in the raw 2016 ParaCrawl corpus 2 to be "Okay".
+[BOS] Although illegal characters is not listed as a separate noise source, misuse of characters and shifting of character distributions may result in a sentence being classified into one of the five noise sources.
+[BOS] In previous work, a supervised model using bag-of-words translation features is developed to classify clean and noisy data (Xu and Koehn, 2017; .
+[BOS] In contrast, our model, which is trained in an unsupervised manner, tackles the illegal character problem explicitly.
+[BOS] describe a shared task on parallel corpus filtering.
+[BOS] While participating systems focus on addressing both monolingual fluency and bilingual adequacy, character-level filtering is common to all submissions.
+[BOS] JunczysDowmunt (2018) applies a language identification model to implicitly remove sentences with illegal characters.
+[BOS] Rossenbach et al. (2018) keep sentences with more than three words, with each word having at least one character from the predefined alphabet of the language.
+[BOS] Lu et al. (2018) remove characters outside of a predefined alphabet.
+[BOS] Ash et al. (2018) count most frequent characters, set a cutoff around eighty for each language, and remove sentences with illegal characters.
+[BOS] Erdmann and Gwinnup (2018) get rid of lines containing characters from the Unicode general category of "other".
+[BOS] Papavassiliou et al. (2018) simply consider Latin Unicode characters to be legal.
+
+[BOS] Unicode is the de facto standard for encoding characters from various languages, domains and sources (The Unicode Consortium, 2019).
+[BOS] It uses "blocks" to group characters with similar origins or functions.
+[BOS] The current version 12.0 defines 300 blocks, including Basic Latin, Latin-1 Supplement, CJK (Chinese, Japanese and Korean) Symbols and Punctuation, etc.
+[BOS] To identify the legalness of characters, the Unicode block information provides meaningful discriminative signals.
+
+[BOS] The Gaussian Mixture Model (GMM) is a classic algorithm that assumes data is generated from a mixture of finite number of Gaussian distributions, whose parameters are typcially estimated with the Expectation-Maximization (EM) algorithm.
+[BOS] An extension to the EM algorithm is variational inference, which has the advantage of automatically choosing the number of components.
+[BOS] Bishop (2006) gives a comprehensive introduction to the topic.
+[BOS] We use the implementation of variational Bayesian estimation of Gaussian mixtures from scikit-learn (Pedregosa et al., 2011) .
+

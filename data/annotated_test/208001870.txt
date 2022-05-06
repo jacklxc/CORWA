@@ -1,0 +1,20 @@
+[BOS] There is an extensive literature on normalizing text from UGC.
+
+[BOS] The first systematic attempt was Han and Baldwin (2011) .
+[BOS] They released 549 tweets with their normalized word-aligned counterparts and the first result for a normalization system on tweets.
+[BOS] Their model was a Support-Vector-Machine for detecting noisy words.
+[BOS] Then a lookup and ngram based system would pick the best candidate among the closest ones in terms of edit and phonetic distances.
+[BOS] Following this work, the literature explored different modelling framework to tackle the task, whether it is Statistical Machine Translation (Li and Liu, 2012) , purely unsupervised approach (Yang and Eisenstein, 2013) , or syllables level model .
+
+[BOS] In 2015, on the occasion of the Workshop on Noisy User-Generated Text, a shared task on lexical normalization of English tweets was organized (Baldwin et al., 2015) for which a collection of annotated tweets for training and evaluation was released.
+[BOS] We will refer it as the lexnorm15 dataset.
+[BOS] A wide range of approaches competed.
+[BOS] The best approach (Supranovich and Patsepnia, 2015) used a UGC feature-based CRF model for detection and normalization.
+
+[BOS] In 2016, the MoNoise model (van der Goot and van Noord, 2017) significantly improved the Stateof-the-art with a feature-based Random Forest.
+[BOS] The model ranks candidates provided by modules such as a spelling checker (aspell), a n-gram based language model and word embeddings trained on millions of tweets.
+
+[BOS] In summary, two aspects of the past literature on UGC normalization are striking.
+[BOS] First, all the past work is based on UGC-specific resources such as lexicons or large UGC corpora.
+[BOS] Second, most successful models are modular in the sense that they combine several independent modules that capture different aspects of the problem.
+

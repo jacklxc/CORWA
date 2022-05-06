@@ -1,0 +1,25 @@
+[BOS] Though discourse marker prediction in itself is an interesting and useful task (Malmi et al., 2017) , discourse markers have often been used as a training cue in order to improve implicit relation prediction (Marcu and Echihabi, 2001; Sporleder and Lascarides, 2005; Zhou et al., 2010; Braud and Table 9 : Accuracy of various models on linguistic probing tasks using logistic regression on SentEval.
+[BOS] BShift is detection of token inversion.
+[BOS] CoordInv is detection of clause inversion.
+[BOS] ObjNum/SubjNum is prediction of the number of object resp.
+[BOS] subject.
+[BOS] Tense is prediction of the main verb tense.
+[BOS] Depth is prediction of parse tree depth.
+[BOS] TC is detection of common sequences of constituents.
+[BOS] WC is prediction of words contained in the sentence.
+[BOS] OddM is detection of random replacement of verbs/nouns by other verbs/nouns.
+[BOS] AVG is the average score of those tasks for each model.
+[BOS] For more details see Conneau et al. (2018) .
+[BOS] SkipThought and Infersent results come from Perone et al. (2018) , QuickThought results come from Brahma (2018) .
+
+[BOS] by QuickThought (Logeswaran and Lee, 2018) , which uses a much simpler training task.
+[BOS] Both of these rely on pre-established lists of discourse markers provided by the PDTB, and both perform a manual annotation for each marker-Nie et al. (2017) (Felbo et al., 2017) have been sucessfully exploited in order to learn sentiment analysis from unlabelled tweets, but their availability is mainly limited to the microblogging domain.
+[BOS] Language modeling provides a general training signal for representation learning, even though there is no obvious way to derive sentence representations from language models.
+[BOS] BERT (Devlin et al., 2018) currently holds the best results in transfer learning based on language modeling, but it relies on sentence pair classification in order to compute sentence embeddings, and it makes use of a simple sentence contiguity detection task (like QuickThought); this task does not seem challenging enough since BERT reportedly achieves 98% detection accuracy.
+[BOS] Phang et al. (2018) showed that the use of SNLI datasets yields significant gains for the sentence embeddings from Radford (2018) , which are based on language modeling.
+
+[BOS] For the analysis of our models, we draw inspiration from critical work on Natural Language Inference datasets (Dasgupta et al., 2018; .
+[BOS] Gururangan et al. (2018) ; Poliak et al. (2018) show that baseline models that disregard the hypothesis yield good results on SNLI, which suggests that the model does not perform the high level reasoning we would expect in order to predict the correct label.
+[BOS] They attribute this effect to bias in human annotations.
+[BOS] In this work, we show that this issue is not inherent to human labeled data, and propose the shuffle perturbation in order to measure to what extent the relationship between sentences is used.
+

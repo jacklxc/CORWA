@@ -1,0 +1,20 @@
+[BOS] Hypernym detection from text is one of the most popular hierarchical relation extraction tasks in ontology learning for which research work dates back to at least 1984 (Calzolari, 1984) .
+[BOS] Hypernym can be described as a linguistic term for a word whose meaning includes the meanings of other words, which are known as hyponyms.
+[BOS] For instance, flower is a hypernym of daisy and rose.
+[BOS] On the other hand, daisy and rose are some of the hyponyms of flower.
+[BOS] In simple words, this relation deals with identifying the concepts and finding the particular superclass they fit in.
+[BOS] Manually constructing these kind of relations from text is a time-consuming and labourintensive procedure.
+[BOS] Hence, the researchers felt the need to make this process automatic.
+[BOS] The methods proposed can broadly be categorized into two: supervised and unsupervised.
+[BOS] While the unsupervised methods can identify and extract semantic relations from plain text without the need of any preannotated text corpora, the supervised methods often find it difficult to find an annotated corpora in similar domain.
+[BOS] A major part of the previous researches on automatic semantic classification of words was developed based on the method first proposed by Hearst, that the presence of certain lexico-syntactic patterns can indicate a particular semantic relationship between two noun phrases (Hearst, 1992) .
+[BOS] This paper introduced six basic lexical patterns.
+[BOS] This rule based approach was further extended in subsequent works bringing out more valid patterns, either handcrafted or learned from training corpus for semantic relation extraction (Berland and Charniak, 1999 ) (Kozareva et al., 2008 ) (Widdows and Dorow, 2002) .
+[BOS] Pattern based results are effective and reliable, scores high on precision measure.
+[BOS] However, these methods suffer in terms of recall.
+[BOS] Later, a few distributional approaches were proposed by different authors making use of the large corpora present in (Guido Boella, 2014) (Navigli and Velardi, 2010) .
+[BOS] Machine learning based methods make use of features like term co-occurrence, semantic similarity or other syntantic information from text collection.
+[BOS] Precision of these machine learning based approaches is lower compared to pattern based approach.
+[BOS] The simple morpho-syntactic approach also proved to yield a decent result (Lefever, 2015) (Sang et al., 2011) .
+[BOS] In recent years, several researches are being carried out to extract semantic relations from texts in other languages.
+

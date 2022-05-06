@@ -1,0 +1,63 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 48 53	[BOS]
+T3	Transition 178 183	[BOS]
+T4	Multi_summ 316 321	[BOS]
+T5	Narrative_cite 1252 1257	[BOS]
+T6	Narrative_cite 1501 1506	[BOS]
+T7	Transition 1771 1776	[BOS]
+T8	Transition 1795 1800	[BOS]
+T9	Narrative_cite 1965 1970	[BOS]
+T10	Transition 2189 2194	[BOS]
+T11	Reflection 2260 2265	[BOS]
+T12	Transition 2385 2390	[BOS]
+T13	Narrative_cite 2417 2422	[BOS]
+T14	Narrative_cite 2672 2677	[BOS]
+T15	Reference 152 175	(Cheung and Penn, 2013)
+T16	Dominant 446 473	(Barzilay and McKeown, 2005
+T17	Dominant 475 501	Filippova and Strube, 2008
+T18	Dominant 503 525	Banerjee et al., 2015)
+T19	Dominant 727 752	(Genest and Lapalme, 2011
+T20	Dominant 754 763	Li, 2015)
+T21	Dominant 916 930	(Nenkova, 2008
+T22	Dominant 932 957	Siddharthan et al., 2011)
+T23	Dominant 1093 1115	(Wang and Cardie, 2013
+T24	Dominant 1117 1136	Pighin et al., 2014
+T25	Reference 1458 1476	(Rush et al., 2015
+T26	Reference 1478 1498	Chopra et al., 2016)
+T27	Reference 1754 1767	(Zhuge, 2016)
+T28	Reference 2105 2129	(Liao and Grishman, 2010
+T29	Reference 2131 2149	Hong et al., 2011)
+T30	Reference 2162 2186	jointly Li and Ji, 2014)
+T31	Reference 2485 2509	(Banarescu et al., 2012)
+T32	Reference 2606 2624	(Liu et al., 2015)
+T33	Reference 2645 2669	(Kai and Grishman, 2015)
+T34	Reference 2734 2756	(Flanigan et al., 2014
+T35	Reference 2758 2776	Wang et al., 2015)
+T36	B_span 120 128	sentence
+T37	E_span 170 174	2013
+T38	B_span 416 424	sentence
+T39	E_span 677 684	cluster
+T40	B_span 690 701	information
+T41	E_span 870 879	sentences
+T42	B_span 885 892	summary
+T43	E_span 1035 1045	resolution
+T44	B_span 1051 1058	pattern
+T45	E_span 1240 1249	templates
+T46	B_span 1370 1378	sequence
+T47	E_span 1493 1497	2016
+T48	B_span 1684 1693	semantics
+T49	E_span 1762 1766	2016
+T50	B_span 2056 2061	event
+T51	E_span 2144 2148	2011
+T52	B_span 2153 2158	model
+T53	E_span 2181 2185	2014
+T54	B_span 2447 2455	Abstract
+T55	E_span 2504 2508	2012
+T56	B_span 2525 2533	semantic
+T57	E_span 2619 2623	2015
+T58	B_span 2629 2634	event
+T59	E_span 2664 2668	2015
+T60	B_span 2709 2716	parsing
+T61	E_span 2771 2775	2015
+T62	Pronoun 98 100	it
+T63	Pronoun 2195 2200	These

@@ -1,0 +1,18 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 140 145	[BOS]
+T3	Transition 273 278	[BOS]
+T4	Transition 421 426	[BOS]
+T5	Narrative_cite 557 562	[BOS]
+T6	Reflection 684 689	[BOS]
+T7	Dominant 6 35	Cotterell and Kreutzer (2018)
+T8	Reference 579 598	(Hoang et al., 2018
+T9	Reference 600 619	Edunov et al., 2018
+T10	Reference 621 642	Imamura et al., 2018)
+T11	B_span 6 9	Cot
+T12	E_span 271 272	.
+T13	B_span 563 570	Several
+T14	E_span 651 655	that
+T15	Pronoun 146 151	Their
+T16	Pronoun 255 257	it
+T17	Pronoun 656 660	this
+T18	Pronoun 705 710	these

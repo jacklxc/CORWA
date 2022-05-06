@@ -1,0 +1,57 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 236 241	[BOS]
+T3	Reflection 364 369	[BOS]
+T4	Transition 523 528	[BOS]
+T5	Narrative_cite 617 622	[BOS]
+T6	Transition 761 766	[BOS]
+T7	Reflection 859 864	[BOS]
+T8	Transition 1050 1055	[BOS]
+T9	Single_summ 1111 1116	[BOS]
+T10	Single_summ 1266 1271	[BOS]
+T11	Narrative_cite 1352 1357	[BOS]
+T12	Transition 1538 1543	[BOS]
+T13	Single_summ 1700 1705	[BOS]
+T14	Single_summ 1879 1884	[BOS]
+T15	Reflection 2002 2007	[BOS]
+T16	Reflection 2125 2130	[BOS]
+T17	Narrative_cite 2236 2241	[BOS]
+T18	Transition 2419 2424	[BOS]
+T19	Reflection 2586 2591	[BOS]
+T20	Reference 76 90	(Mrialdo, 1994
+T21	Reference 92 114	Smith and Eisner, 2005
+T22	Reference 116 140	Haghighi and Klein, 2006
+T23	Reference 142 155	Johnson, 2007
+T24	Reference 157 186	Goldwater and Griffiths, 2007
+T25	Reference 188 209	Gao and Johnson, 2008
+T26	Reference 211 234	Ravi and Knight, 2009 )
+T27	Reference 723 737	(Schutze, 1995
+T28	Reference 739 758	Lamar et al., 2010)
+T29	Dominant 1181 1195	Johnson (2007)
+T30	Reference 1516 1536	(Graa et al., 2009 )
+T31	Dominant 1766 1788	Ravi and Knight (2009)
+T32	Reference 2341 2364	(Smith and Eisner, 2005
+T33	Reference 2366 2395	Berg-Kirkpatrick et al., 2010
+T34	Reference 2397 2416	Hasan and Ng, 2009)
+T35	Pronoun 370 374	This
+T36	Pronoun 549 553	this
+T37	Pronoun 767 772	These
+T38	Pronoun 817 819	it
+T39	Pronoun 1272 1276	This
+T40	Pronoun 1544 1548	This
+T41	Pronoun 1988 1992	this
+T42	Pronoun 2023 2028	these
+T43	Pronoun 2074 2079	these
+T44	Pronoun 2131 2135	This
+T45	Pronoun 2425 2430	These
+T46	B_span 51 63	unsupervised
+T47	E_span 228 232	2009
+T48	B_span 690 696	single
+T49	E_span 753 757	2010
+T50	B_span 1117 1120	For
+T51	E_span 1342 1350	sparsity
+T52	B_span 1408 1417	posterior
+T53	E_span 1530 1534	2009
+T54	B_span 1706 1707	A
+T55	E_span 1993 1999	method
+T56	B_span 2314 2326	unsupervised
+T57	E_span 2411 2415	2009

@@ -1,0 +1,6 @@
+[BOS] The most closely related work to our supervised re-ranking of PPDB is work by Zhao et al. (2008) Chan et al. (2011) which reranked bilingually-extracted paraphrases using monolingual distributional similarities, but did not use a supervised model.
+[BOS] Work that is relevant to our classification of semantic entailment types to each paraphrase, includes learning directionality of inference rules (Bhagat et al., 2007; Berant et al., 2011) and learning hypernyms rather than paraphrases (Snow et al., 2004) .
+[BOS] Our style annotations are related to Xu et al. (2012) 's efforts at learning stylistic paraphrases.
+[BOS] Our word embeddings additions to the paraphrase database are related to many current projects on that topic, including projects that attempt to customize embeddings to lexical resources (Faruqui et al., 2015) .
+[BOS] However, the Rastogi et al. (2015) embeddings included here were shown to be state-of-the art in 428 predicting human judgements.
+

@@ -1,0 +1,21 @@
+[BOS] We briefly survey other tasks related to reading comprehension.
+
+[BOS] MCTest (Richardson et al., 2013 ) is an opendomain reading comprehension task, in the form of fictional short stories, accompanied by multiplechoice questions.
+[BOS] It was carefully created using crowd sourcing, and aims at a 7-year-old reading comprehension level.
+
+[BOS] On the one hand, this dataset has a high demand on various reasoning capacities: over 50% of the questions require multiple sentences to answer and also the questions come in assorted categories (what, why, how, whose, which, etc) .
+[BOS] On the other hand, the full dataset has only 660 paragraphs in total (each paragraph is associated with 4 questions), which renders training statistical models (especially complex ones) very difficult.
+
+[BOS] Up to now, the best solutions (Sachan et al., 2015; Wang et al., 2015) are still heavily relying on manually curated syntactic/semantic features, with the aid of additional knowledge (e.g., word embeddings, lexical/paragraph databases).
+
+[BOS] Children Book Test (Hill et al., 2016) was developed in a similar spirit to the CNN/Daily Mail datasets.
+[BOS] It takes any consecutive 21 sentences from a children's book -the first 20 sentences are used as the passage, and the goal is to infer a missing word in the 21st sentence (question and answer).
+[BOS] The questions are also categorized by the type of the missing word: named entity, common noun, preposition or verb.
+[BOS] According to the first study on this dataset (Hill et al., 2016 ), a language model (an n-gram model or a recurrent neural network) with local context is sufficient for predicting verbs or prepositions; however, for named entities or common nouns, it improves performance to scan through the whole paragraph to make predictions.
+[BOS] So far, the best published results are reported by window-based memory networks.
+
+[BOS] bAbI ) is a collection of artificial datasets, consisting of 20 different reasoning types.
+[BOS] It encourages the development of models with the ability to chain reasoning, induction/ deduction, etc., so that they can answer a question like "The football is in the playground" after reading a sequence of sentences "John is in the playground; Bob is in the office; John picked up the football; Bob went to the kitchen."
+[BOS] Various types of memory networks (Sukhbaatar et al., 2015; Kumar et al., 2016) have been shown effective on these tasks, and Lee et al. (2016) show that vector space models based on extensive problem analysis can obtain near-perfect accuracies on all the categories.
+[BOS] Despite these promising results, this dataset is limited to a small vocabulary (only 100-200 words) and simple language variations, so there is still a huge gap from real-world datasets that we need to fill in.
+

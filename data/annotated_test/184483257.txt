@@ -1,0 +1,20 @@
+[BOS] Several methods and models have been presented in literature over the last decade to address the predicament of identifying hate speech, offensive language, and online aggressiveness.
+[BOS] In the following section, we present the most notable contributions related to our work.
+[BOS] The tweets collected by Davidson et al. (2017) were divided into Hate, Offensive, and Neither.
+[BOS] Their proposed algorithm uses unigram, bigram, and trigram tokens as features, weighted by the respective TF-IDF, as well as Part-of-Speech (POS) tagging and different metrics to determine the readability and sentiment of a tweet.
+[BOS] Logisticregression and linear SVM result in the best performance for a wide range of assessed classifiers.
+[BOS] Nobata et al. (2016) collected comments from Yahoo!
+[BOS] Finance and News articles over a time period of one year and labeled them as either 'Abusive' or 'Clean'.
+[BOS] They experimented with various different features, including n-gram, linguistic, syntactic, and distributional semantics features.
+
+[BOS] Various approaches utilized deep learning models for text categorization.
+[BOS] proposed a character-level convolutional network for text classification on large-scale datasets.
+[BOS] Their network uses 1-dimensional convolutional filters to extract features from different character embed-dings.
+[BOS] Gambck and Sikdar (2017) further experimented with convolutional networks in the context of online hate speech classification.
+[BOS] Their research work compares different types of convolutional models, namely character-level, word vectors with a pretrained word2vec (w2v) model, randomly generated word vectors, and w2v in combination with character n-grams.
+[BOS] The results of their experiments suggest that w2v embeddings are the most suitable for this task.
+[BOS] Zhang et al. (2018) suggest an architecture similar to our network, where a convolutional filter extracts features from pretrained word embeddings.
+[BOS] After max pooling, the feature maps are processed using a unidirectional GRU.
+[BOS] Their model is compared to a bag-of-n-gram model on various multi-class hate speech datasets and shows promising results.
+[BOS] A detailed survey on different architectures, methods and features for offensive language detection is provided by Schmidt and Wiegand (2017) .
+

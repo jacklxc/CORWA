@@ -1,0 +1,45 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Reflection 135 140	[BOS]
+T3	Transition 267 272	[BOS]
+T4	Transition 467 472	[BOS]
+T5	Transition 724 729	[BOS]
+T6	Narrative_cite 924 929	[BOS]
+T7	Reflection 1101 1106	[BOS]
+T8	Transition 1313 1318	[BOS]
+T9	Narrative_cite 1488 1493	[BOS]
+T10	Transition 1715 1720	[BOS]
+T11	Narrative_cite 1911 1916	[BOS]
+T12	Narrative_cite 2043 2048	[BOS]
+T13	Transition 2183 2188	[BOS]
+T14	Reflection 2366 2371	[BOS]
+T15	Transition 2584 2589	[BOS]
+T16	Narrative_cite 2743 2748	[BOS]
+T17	Reference 111 132	Culotta et al. (2007)
+T18	Reference 959 979	Rahman and Ng (2009)
+T19	Reference 1608 1635	(Ponzetto and Strube, 2006)
+T20	Reference 1638 1663	(Bengtson and Roth, 2008)
+T21	Reference 1666 1684	(Lee et al., 2011)
+T22	Reference 1691 1712	(Rahman and Ng, 2011)
+T23	Reference 2019 2040	Dagan and Itai (1990)
+T24	Reference 2137 2157	Kehler et al. (2004)
+T25	Reference 2162 2180	Yang et al. (2005)
+T26	Reference 2866 2891	(Brants and Franz, 2006 )
+T27	Pronoun 473 477	This
+T28	Pronoun 578 580	it
+T29	Pronoun 859 861	it
+T30	Pronoun 1319 1323	This
+T31	Pronoun 1734 1739	these
+T32	Pronoun 2500 2504	they
+T33	Pronoun 2675 2679	they
+T34	B_span 88 101	probabilistic
+T35	E_span 127 131	2007
+T36	B_span 934 941	cluster
+T37	E_span 974 978	2009
+T38	B_span 1505 1513	semantic
+T39	E_span 1707 1711	2011
+T40	B_span 1955 1964	predicate
+T41	E_span 2035 2039	1990
+T42	B_span 2070 2078	semantic
+T43	E_span 2175 2179	2005
+T44	B_span 2836 2844	Google's
+T45	E_span 2885 2889	2006

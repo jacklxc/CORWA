@@ -1,0 +1,11 @@
+[BOS] Our baseline models -VAE-SVG-EQ (Gupta et al., 2018) and RbM-SL (Li et al., 2018) are both deep learning models.
+[BOS] While the former uses a variational-autoencoder and is capable of generating multiple paraphrases of a given sentence, the later uses deep reinforcement learning.
+[BOS] In tune, with part of our approach, ie, seq2seq, there exists ample models with interesting variants -residual LSTM (Prakash et al., 2016) , bi-directional GRU with attention and special decoding tweaks (Cao et al., 2017) , attention from the perspective of semantic parsing (Su and Yan, 2017) .
+
+[BOS] MT has been greatly used to generate paraphrases (Quirk et al., 2004; Zhao et al., 2008) due to the availability of large corpora.
+[BOS] While much earlier works have explored the use of manually drafted rules (Hassan et al., 2007; Kozlowski et al., 2003) .
+[BOS] Similar to our model architecture, combined transformers and RNN-based encoders for MT.
+[BOS] Zhao et al. (2018) recently used the transformer model for paraphrasing on different datasets.
+[BOS] We experimented using solely a transformer but got better results with TRANSEQ.
+[BOS] To the best of our knowledge, our work is the first to cross-breed the transformer and seq2seq for the task of paraphrase generation.
+

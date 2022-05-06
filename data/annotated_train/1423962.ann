@@ -1,0 +1,64 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 381 386	[BOS]
+T3	Multi_summ 630 635	[BOS]
+T4	Single_summ 809 814	[BOS]
+T5	Single_summ 1061 1066	[BOS]
+T6	Reflection 1179 1184	[BOS]
+T7	Reflection 1454 1459	[BOS]
+T8	Single_summ 1528 1533	[BOS]
+T9	Transition 1651 1656	[BOS]
+T10	Transition 1754 1759	[BOS]
+T11	Single_summ 1885 1890	[BOS]
+T12	Single_summ 2034 2039	[BOS]
+T13	Single_summ 2202 2207	[BOS]
+T14	Single_summ 2332 2337	[BOS]
+T15	Single_summ 2431 2436	[BOS]
+T16	Single_summ 2530 2535	[BOS]
+T17	Reflection 2749 2754	[BOS]
+T18	Single_summ 2924 2929	[BOS]
+T19	Single_summ 3112 3117	[BOS]
+T20	Reflection 3223 3228	[BOS]
+T21	Reflection 3418 3423	[BOS]
+T22	Reference 78 100	(Bahdanau et al., 2015
+T23	Reference 102 125	Sutskever et al., 2014)
+T24	Reference 227 249	(Bastings et al., 2017
+T25	Reference 251 268	Chen et al., 2017
+T26	Reference 293 334	Eriguchi et al., ,b, 2017 Li et al., 2017
+T27	Reference 336 358	Stahlberg et al., 2016
+T28	Reference 360 378	Yang et al., 2017)
+T29	Dominant 402 425	Eriguchi et al. (2016b)
+T30	Dominant 759 780	(Neubig and Duh, 2014
+T31	Dominant 782 807	Yamada and Knight, 2001 )
+T32	Dominant 1534 1556	Eriguchi et al. (2017)
+T33	Dominant 1891 1913	Yogatama et al. (2017)
+T34	Dominant 2208 2228	Socher et al. (2011)
+T35	Dominant 2478 2487	Wu (1997)
+T36	Dominant 2966 2983	Kim et al. (2017)
+T37	Pronoun 815 820	These
+T38	Pronoun 1067 1071	They
+T39	Pronoun 1663 1665	it
+T40	Pronoun 2040 2044	They
+T41	Pronoun 2446 2451	these
+T42	Pronoun 2635 2637	it
+T43	Pronoun 2992 2997	their
+T44	Pronoun 3118 3122	They
+T45	Pronoun 3148 3153	their
+T46	B_span 60 68	sequence
+T47	E_span 120 124	2014
+T48	B_span 192 201	syntactic
+T49	E_span 373 377	2017
+T50	Reference 270 292	Eriguchi et al., 2016a
+T51	B_span 387 389	In
+T52	E_span 623 628	model
+T53	B_span 664 667	the
+T55	E_span 1170 1177	systems
+T54	B_span 1534 1542	Eriguchi
+T56	E_span 1645 1649	data
+T57	B_span 1891 1899	Yogatama
+T58	E_span 2193 2200	results
+T59	B_span 2208 2214	Socher
+T60	E_span 2424 2429	tasks
+T61	B_span 2437 2442	Prior
+T62	E_span 2739 2747	sentence
+T63	B_span 2966 2969	Kim
+T64	E_span 3217 3221	task

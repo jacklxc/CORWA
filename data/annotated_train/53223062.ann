@@ -1,0 +1,53 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 203 208	[BOS]
+T3	Single_summ 342 347	[BOS]
+T4	Single_summ 506 511	[BOS]
+T5	Single_summ 597 602	[BOS]
+T6	Single_summ 761 766	[BOS]
+T7	Single_summ 941 946	[BOS]
+T8	Transition 1155 1160	[BOS]
+T9	Single_summ 1259 1264	[BOS]
+T10	Single_summ 1359 1364	[BOS]
+T11	Transition 1468 1473	[BOS]
+T12	Single_summ 1576 1581	[BOS]
+T13	Single_summ 1682 1687	[BOS]
+T14	Transition 1785 1790	[BOS]
+T15	Single_summ 1854 1859	[BOS]
+T16	Single_summ 2004 2009	[BOS]
+T17	Single_summ 2092 2097	[BOS]
+T18	Single_summ 2244 2249	[BOS]
+T19	Reflection 2382 2387	[BOS]
+T20	Reflection 2502 2507	[BOS]
+T21	Reference 75 93	(Rus et al., 2010)
+T22	Dominant 362 386	Heilman and Smith (2010)
+T23	Dominant 512 533	Labutov et al. (2015)
+T24	Dominant 767 789	Lindberg et al. (2013)
+T25	Dominant 947 969	Chali and Hasan (2015)
+T26	Dominant 1265 1285	Serban et al. (2016)
+T27	Dominant 1582 1600	Tang et al. (2017)
+T28	Dominant 1860 1886	Mostafazadeh et al. (2016)
+T29	Dominant 2073 2089	Du et al. (2017)
+T30	Dominant 2276 2294	Yuan et al. (2017)
+T31	Reference 2605 2622	See et al. (2017)
+T32	B_span 22 30	question
+T33	E_span 88 92	2010
+T34	B_span 362 369	Heilman
+T35	E_span 499 504	model
+T36	B_span 512 519	Labutov
+T37	E_span 753 759	source
+T38	B_span 767 775	Lindberg
+T39	E_span 932 939	support
+T40	B_span 947 952	Chali
+T41	E_span 1143 1152	sentences
+T42	B_span 1265 1271	Serban
+T43	E_span 1453 1465	architecture
+T44	B_span 1582 1586	Tang
+T45	E_span 1778 1783	tasks
+T46	B_span 1860 1872	Mostafazadeh
+T47	E_span 1996 2001	image
+T48	B_span 2010 2013	One
+T49	E_span 2237 2242	model
+T50	B_span 2250 2257	Another
+T51	E_span 2371 2379	learning
+T53	E_span 2617 2621	2017
+T54	B_span 2555 2564	attention

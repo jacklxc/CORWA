@@ -1,0 +1,35 @@
+T1	Reflection 0 5	[BOS]
+T2	Single_summ 71 76	[BOS]
+T3	Single_summ 237 242	[BOS]
+T4	Transition 345 350	[BOS]
+T5	Transition 584 589	[BOS]
+T6	Narrative_cite 793 798	[BOS]
+T7	Single_summ 1037 1042	[BOS]
+T8	Single_summ 1148 1153	[BOS]
+T9	Single_summ 1348 1353	[BOS]
+T10	Single_summ 1470 1475	[BOS]
+T11	Transition 1805 1810	[BOS]
+T12	Transition 1893 1898	[BOS]
+T13	Transition 1990 1995	[BOS]
+T14	Narrative_cite 2320 2325	[BOS]
+T15	Transition 2593 2598	[BOS]
+T16	Dominant 84 110	(Richardson et al., 2013 )
+T17	Reference 829 849	(Sachan et al., 2015
+T18	Reference 851 869	Wang et al., 2015)
+T19	Dominant 1062 1081	(Hill et al., 2016)
+T20	Dominant 1521 1541	(Hill et al., 2016 )
+T21	Reference 2359 2383	(Sukhbaatar et al., 2015
+T22	Reference 2385 2404	Kumar et al., 2016)
+T23	Dominant 2451 2468	Lee et al. (2016)
+T24	B_span 77 83	MCTest
+T25	E_span 337 342	level
+T26	B_span 810 813	the
+T27	E_span 972 981	knowledge
+T28	B_span 1043 1051	Children
+T29	E_span 1464 1468	verb
+T30	B_span 1476 1485	According
+T31	E_span 1792 1803	predictions
+T32	B_span 2326 2333	Various
+T33	E_span 2440 2445	tasks
+T34	B_span 2451 2454	Lee
+T35	E_span 2581 2591	categories

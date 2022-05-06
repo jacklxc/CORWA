@@ -1,0 +1,56 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Single_summ 177 182	[BOS]
+T3	Narrative_cite 337 342	[BOS]
+T4	Single_summ 502 507	[BOS]
+T5	Single_summ 650 655	[BOS]
+T6	Narrative_cite 800 805	[BOS]
+T7	Narrative_cite 944 949	[BOS]
+T8	Reflection 1201 1206	[BOS]
+T9	Transition 1387 1392	[BOS]
+T10	Narrative_cite 1558 1563	[BOS]
+T11	Single_summ 1673 1678	[BOS]
+T12	Single_summ 1867 1872	[BOS]
+T13	Single_summ 2026 2031	[BOS]
+T14	Reflection 2236 2241	[BOS]
+T15	Reflection 2333 2338	[BOS]
+T16	B_span 93 101	additive
+T17	E_span 130 134	2015
+T18	Reference 113 134	Bahdanau et al., 2015
+T19	B_span 140 143	dot
+T20	E_span 169 173	2015
+T21	Reference 155 173	Luong et al., 2015
+T22	Dominant 204 224	Vaswani et al. (2017
+T23	B_span 204 211	Vaswani
+T24	E_span 323 334	performance
+T25	B_span 442 455	incorporating
+T26	E_span 494 498	2017
+T27	Reference 478 498	Vaswani et al., 2017
+T28	Dominant 532 550	Shaw et al. (2018)
+T29	B_span 532 536	Shaw
+T30	E_span 640 648	sequence
+T31	Dominant 660 678	Shen et al. (2018)
+T32	B_span 660 664	Shen
+T33	E_span 793 798	order
+T34	B_span 880 893	selfattention
+T35	E_span 936 940	2018
+T36	Reference 923 940	Tang et al., 2018
+T37	Reference 1007 1022	Wu et al., 2019
+T38	Reference 1024 1042	Child et al., 2019
+T39	B_span 981 992	restricting
+T40	E_span 1038 1042	2019
+T41	B_span 1047 1056	balancing
+T42	E_span 1118 1122	2019
+T43	Reference 1107 1122	Xu et al., 2019
+T44	Reference 1630 1648	Voita et al., 2019
+T45	Reference 1650 1669	Michel et al., 2019
+T50	Dominant 1679 1695	Li et al. (2018)
+T51	B_span 1679 1681	Li
+T52	E_span 1856 1865	attention
+T53	B_span 1873 1877	Iida
+T54	E_span 2020 2024	head
+T55	Dominant 1873 1891	Iida et al. (2019)
+T56	Dominant 2093 2115	Strubell et al. (2018)
+T57	B_span 2093 2101	Strubell
+T58	E_span 2226 2234	labeling
+T46	E_span 1665 1669	2019
+T47	B_span 1573 1578	there

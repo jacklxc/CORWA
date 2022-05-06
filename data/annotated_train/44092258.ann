@@ -1,0 +1,107 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 229 234	[BOS]
+T3	Multi_summ 403 408	[BOS]
+T4	Transition 603 608	[BOS]
+T5	Transition 759 764	[BOS]
+T6	Single_summ 933 938	[BOS]
+T7	Single_summ 1177 1182	[BOS]
+T8	Transition 1309 1314	[BOS]
+T9	Single_summ 1380 1385	[BOS]
+T10	Single_summ 1528 1533	[BOS]
+T11	Single_summ 1639 1644	[BOS]
+T12	Single_summ 1726 1731	[BOS]
+T13	Reflection 1807 1812	[BOS]
+T14	Transition 1964 1969	[BOS]
+T15	Single_summ 2102 2107	[BOS]
+T16	Multi_summ 2252 2257	[BOS]
+T17	Single_summ 2446 2451	[BOS]
+T18	Single_summ 2594 2599	[BOS]
+T19	Reflection 2766 2771	[BOS]
+T20	Reflection 2897 2902	[BOS]
+T21	Reflection 2956 2961	[BOS]
+T22	Reflection 3019 3024	[BOS]
+T23	Transition 3144 3149	[BOS]
+T24	Transition 3235 3240	[BOS]
+T25	Transition 3290 3295	[BOS]
+T26	Multi_summ 3357 3362	[BOS]
+T27	Transition 3496 3501	[BOS]
+T28	Single_summ 3542 3547	[BOS]
+T29	Reflection 3639 3644	[BOS]
+T30	Reflection 3732 3737	[BOS]
+T31	Reflection 3844 3849	[BOS]
+T32	Reference 164 185	Bahdanau et al., 2014
+T33	Reference 187 207	Vinyals et al., 2015
+T34	Reference 209 226	See et al., 2017)
+T35	Reference 313 333	(Weston et al., 2014
+T36	Reference 335 358	Sukhbaatar et al., 2015
+T37	Reference 360 379	Miller et al., 2016
+T38	Reference 381 400	Kumar et al., 2015)
+T39	Dominant 415 434	(Yin et al., 2015 )
+T40	Dominant 530 548	(He et al., 2017b)
+T41	Reference 583 600	(Gu et al., 2016)
+T42	Dominant 939 959	Miller et al. (2016)
+T43	Dominant 1183 1204	Daniluk et al. (2017)
+T44	Dominant 1386 1410	Sukhbaatar et al. (2015)
+T45	Reference 1503 1525	(Gehring et al., 2017)
+T46	Dominant 1534 1553	Kumar et al. (2015)
+T47	Reference 1604 1624	(Chung et al., 2014)
+T48	Dominant 2135 2152	Fan et al. (2017)
+T49	Dominant 2258 2275	He et al. (2017a)
+T50	Dominant 2331 2355	Bordes and Weston (2016)
+T51	Dominant 2486 2503	Wen et al. (2015)
+T52	Dominant 2600 2620	Kiddon et al. (2016)
+T53	Dominant 3363 3380	See et al. (2017)
+T54	Dominant 3417 3437	Paulus et al. (2017)
+T55	Dominant 3548 3572	Suzuki and Nagata (2017)
+T56	Pronoun 33 35	it
+T57	Pronoun 613 617	they
+T58	Pronoun 1087 1091	they
+T59	Pronoun 1124 1126	it
+T60	Pronoun 1208 1210	it
+T61	Pronoun 1645 1650	These
+T62	Pronoun 1732 1737	These
+T63	Pronoun 1772 1774	it
+T64	Pronoun 2734 2739	these
+T65	Pronoun 2796 2801	these
+T66	Pronoun 2810 2812	it
+T67	Pronoun 2966 2968	it
+T68	Pronoun 3276 3280	this
+T69	Pronoun 3856 3860	this
+T70	B_span 154 157	NLP
+T71	E_span 221 225	2017
+T72	B_span 235 241	Memory
+T73	E_span 395 399	2015
+T74	B_span 409 414	GenQA
+T75	E_span 513 517	base
+T76	B_span 523 529	CoreQA
+T77	E_span 595 599	2016
+T78	B_span 565 572	copying
+T79	E_span 595 599	2016
+T80	B_span 939 945	Miller
+T81	E_span 1166 1175	mechanism
+T82	B_span 1183 1190	Daniluk
+T83	E_span 1296 1307	performance
+T84	B_span 1386 1396	Sukhbaatar
+T85	E_span 1520 1524	2017
+T86	B_span 1459 1472	convolutional
+T87	E_span 1520 1524	2017
+T88	B_span 1534 1539	Kumar
+T89	E_span 1799 1805	memory
+T90	B_span 1583 1588	Gated
+T91	E_span 1619 1623	2014
+T92	B_span 2108 2112	From
+T93	E_span 2246 2250	task
+T94	B_span 2258 2260	He
+T95	E_span 2321 2325	base
+T96	B_span 2331 2337	Bordes
+T97	E_span 2437 2444	setting
+T98	B_span 2452 2454	In
+T99	E_span 2584 2592	sentence
+T100	B_span 2600 2606	Kiddon
+T101	E_span 2759 2764	lists
+T102	B_span 3363 3366	See
+T103	E_span 3402 3411	mechanism
+T104	B_span 3417 3423	Paulus
+T105	E_span 3485 3494	attention
+T106	B_span 3548 3554	Suzuki
+T107	E_span 3627 3637	occurrence

@@ -1,0 +1,8 @@
+[BOS] Due to the universality of offensive language in social media, in order to cope with offensive language and prevent abuse in social media, research on related aspects has gradually emerged in recent years.
+
+[BOS] There have been several seminars on offensive language research, such as TRAC 1 which shared task on Aggression Identification summarized in Kumar et al. (2018) (Wiegand et al., 2018) which initiate and foster research on the identification of offensive content in German language microposts.
+[BOS] Additionally, the main work of Malmasi and Zampieri (2017) and is to approach the problem of distinguishing general profanity from hate speech.
+[BOS] tried to use a Convolution-GRU for detecting hate speech on Twitter.
+
+[BOS] 3 Methodology and Data
+

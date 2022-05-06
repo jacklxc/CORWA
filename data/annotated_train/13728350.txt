@@ -1,0 +1,18 @@
+[BOS] Since the pioneer work of Bahdanau et al. (2015) to jointly learning alignment and translation in NMT, many effective approaches have been proposed to further improve the alignment quality.
+
+[BOS] The attention model plays a crucial role in the alignment quality and thus its enhancement has continuously attracted further efforts.
+[BOS] To obtain better attention focuses, propose global and local attention models; and Cohn et al. (2016) extend the attentional model to include structural biases from word based alignment models, including positional bias, Markov conditioning, fertility and agreement over translation directions.
+
+[BOS] In contrast, we did not delve into the attention model or sought to redesign it in our new bridging proposal.
+[BOS] And yet we achieve enhanced alignment quality by inducing the NMT model to capture more favorable pairs of words that are translation equivalents of each other under the effect of the bridging mechanism.
+
+[BOS] Recently there have been also studies towards leveraging word alignments from SMT models.
+[BOS] Mi et al. (2016) and use preobtained word alignments to guide the NMT attention model in the learning of favorable word pairs.
+[BOS] Arthur et al. (2016) leverage a pre-obtained word dictionary to constrain the prediction of target words.
+[BOS] Despite these approaches having a somewhat similar motivation of using pairs of translation equivalents to benefit the NMT translation, in our new bridging approach we do not use extra resources in the NMT model, but let the model itself learn the similarity of word pairs from the training data.
+[BOS] 4 Besides, there exist also studies on the learning of cross-lingual embeddings for machine translation.
+[BOS] Mikolov et al. (2013) propose to first learn distributed representation of words from large monolingual data, and then learn a linear mapping between vector spaces of languages.
+[BOS] Gehring et al. (2017) introduce source word embeddings to predict target words.
+[BOS] These approaches are somewhat similar to our source-side bridging model.
+[BOS] However, inspired by the insight of shortening the distance between source and target embeddings in the seq2seq processing chain, in the present paper we propose more strategies to bridge source and target word embeddings and with better results.
+

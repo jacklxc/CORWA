@@ -1,0 +1,70 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 141 146	[BOS]
+T3	Single_summ 251 256	[BOS]
+T4	Transition 447 452	[BOS]
+T5	Multi_summ 631 636	[BOS]
+T6	Single_summ 755 760	[BOS]
+T7	Single_summ 898 903	[BOS]
+T8	Single_summ 997 1002	[BOS]
+T9	Single_summ 1214 1219	[BOS]
+T10	Single_summ 1333 1338	[BOS]
+T11	Transition 1437 1442	[BOS]
+T12	Multi_summ 1535 1540	[BOS]
+T13	Transition 1724 1729	[BOS]
+T14	Narrative_cite 1840 1845	[BOS]
+T15	Multi_summ 2040 2045	[BOS]
+T16	Single_summ 2211 2216	[BOS]
+T17	Reflection 2372 2377	[BOS]
+T18	Reflection 2460 2465	[BOS]
+T19	Transition 2563 2568	[BOS]
+T20	Transition 2690 2695	[BOS]
+T21	Transition 2778 2783	[BOS]
+T22	Dominant 38 55	Ahn et al. (2016)
+T23	Dominant 637 657	Parvez et al. (2018)
+T24	Dominant 662 679	Xin et al. (2018)
+T25	Dominant 776 796	Parvez et al. (2018)
+T26	Dominant 904 921	Xin et al. (2018)
+T27	Dominant 1038 1054	Gu et al. (2018)
+T28	Dominant 1220 1238	Yang et al. (2016)
+T30	Dominant 1546 1567	(Peters et al., 2018)
+T32	Reference 1890 1915	(Collins and Singer, 1999
+T33	Reference 1917 1937	Etzioni et al., 2005
+T34	Reference 1939 1959	Nadeau et al., 2006)
+T35	Reference 2012 2037	(Munro and Manning, 2012)
+T36	Dominant 2046 2070	Yang and Mitchell (2017)
+T37	Reference 2112 2133	(Lample et al., 2016)
+T38	Reference 2187 2208	(Bordes et al., 2013)
+T39	Dominant 2217 2237	Peters et al. (2017)
+T40	Pronoun 147 152	Their
+T41	Pronoun 290 295	their
+T42	Pronoun 350 352	it
+T43	Pronoun 533 538	their
+T44	Pronoun 1741 1746	these
+T45	Pronoun 2056 2058	it
+T46	B_span 38 39	A
+T47	E_span 441 445	text
+T48	B_span 637 643	Parvez
+T49	E_span 747 753	itself
+T50	B_span 776 782	Parvez
+T51	E_span 891 896	model
+T52	B_span 904 907	Xin
+T53	E_span 989 995	module
+T54	B_span 1038 1040	Gu
+T55	E_span 1206 1212	labels
+T56	B_span 1220 1224	Yang
+T57	E_span 1424 1434	vocabulary
+T29	Dominant 1578 1597	Devlin et al., 2018
+T31	E_span 1717 1722	tasks
+T58	B_span 1541 1545	ELMo
+T59	B_span 1879 1883	rule
+T60	E_span 1954 1958	2006
+T62	E_span 2032 2036	2012
+T63	B_span 2046 2050	Yang
+T64	E_span 2203 2207	2013
+T65	B_span 2095 2098	CRF
+T66	E_span 2128 2132	2016
+T67	B_span 2180 2186	TransE
+T68	E_span 2203 2207	2013
+T69	B_span 2217 2223	Peters
+T70	E_span 2361 2369	training
+T61	B_span 1964 1971	require

@@ -1,0 +1,26 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 367 372	[BOS]
+T3	Single_summ 498 503	[BOS]
+T4	Single_summ 651 656	[BOS]
+T5	Transition 878 883	[BOS]
+T6	Reflection 1083 1088	[BOS]
+T7	Reference 62 79	(Cho et al., 2014
+T8	Reference 81 104	Sutskever et al., 2014b
+T9	Reference 106 128	Bahdanau et al., 2015)
+T10	Reference 187 208	(Vinyals and Le, 2015
+T11	Reference 210 229	Shang et al., 2015)
+T12	Reference 307 328	(Sordoni et al., 2015
+T13	Reference 330 345	Li et al., 2016
+T14	Reference 347 363	Xu et al., 2017)
+T15	Dominant 530 546	He et al. (2017)
+T16	Dominant 705 728	Wiseman and Rush (2016)
+T17	B_span 37 44	Seq2Seq
+T18	E_span 123 127	2015
+T19	B_span 167 175	response
+T20	E_span 224 228	2015
+T21	B_span 263 273	generating
+T22	E_span 358 362	2017
+T23	B_span 530 532	He
+T24	E_span 643 649	search
+T25	B_span 705 712	Wiseman
+T26	E_span 865 876	probability

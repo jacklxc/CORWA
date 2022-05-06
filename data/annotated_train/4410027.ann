@@ -1,0 +1,55 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 322 327	[BOS]
+T3	Reflection 730 735	[BOS]
+T4	Transition 902 907	[BOS]
+T5	Narrative_cite 968 973	[BOS]
+T6	Narrative_cite 1012 1017	[BOS]
+T7	Single_summ 1112 1117	[BOS]
+T8	Multi_summ 1360 1365	[BOS]
+T9	Single_summ 1492 1497	[BOS]
+T10	Single_summ 1557 1562	[BOS]
+T11	Single_summ 1618 1623	[BOS]
+T12	Transition 1742 1747	[BOS]
+T13	Single_summ 1838 1843	[BOS]
+T14	Reflection 1954 1959	[BOS]
+T15	Reflection 2194 2199	[BOS]
+T16	Reference 144 159	(Yarowsky, 1995
+T17	Reference 161 177	Ng and Lee, 1996
+T18	Reference 179 205	Mihalcea and Faruque, 2004
+T19	Reference 207 220	Navigli, 2009
+T20	Reference 222 240	Zhong and Ng, 2010
+T21	Reference 242 268	Di Marco and Navigli, 2013
+T22	Reference 270 287	Chen et al., 2014
+T23	Reference 289 319	Camacho-Collados et al., 2015)
+T24	Reference 417 446	(Kgebck and Salomonsson, 2016
+T25	Reference 448 466	Yuan et al., 2016)
+T26	Reference 974 989	lomonsson, 2016
+T27	Reference 991 1009	Yuan et al., 2016)
+T28	Reference 1018 1037	uster et al. (2016)
+T29	Reference 1040 1064	Kawakami and Dyer (2016)
+T30	Dominant 1163 1184	Vickrey et al. (2005)
+T31	Dominant 1396 1414	Chan et al. (2007)
+T32	Dominant 1417 1441	Carpuat and Wu (2007a,b)
+T33	Dominant 1498 1520	Xiong and Zhang (2014)
+T34	Dominant 1844 1862	Choi et al. (2017)
+T35	Pronoun 1376 1380	this
+T36	Pronoun 1969 1974	their
+T37	Pronoun 2078 2082	this
+T38	Pronoun 2123 2127	this
+T39	Pronoun 2354 2358	this
+T40	B_span 6 10	Word
+T41	E_span 314 318	2015
+T42	B_span 356 359	WSD
+T43	E_span 461 465	2016
+T44	B_span 974 983	lomonsson
+T45	E_span 1004 1008	2016
+T46	E_span 1106 1109	WSD
+T47	B_span 1118 1120	In
+T48	E_span 1347 1358	translation
+T49	B_span 1366 1375	Following
+T50	E_span 1483 1490	systems
+T51	B_span 1498 1503	Xiong
+T52	E_span 1728 1739	translation
+T53	B_span 1844 1848	Choi
+T54	E_span 1948 1952	side
+T55	B_span 1018 1023	uster

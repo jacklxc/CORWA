@@ -1,0 +1,11 @@
+[BOS] This year's CoNLL 2016 Shared Task on Shallow Discourse Parsing (Xue et al., 2016) is the second edition of the shared task after the CoNLL 2015 Shared task on Shallow Discourse Parsing .
+[BOS] The difference to last year's task is that there is a new Supplementary Task on Discourse Relation Sense classification, where participants are not required to build an end-to-end discourse relation parser but can participate with a sense classification system only.
+[BOS] Discourse relations in the task are divided in two major types: Explicit and Non-Explicit (Implicit, EntRel and AltLex).
+[BOS] Detecting the sense of Explicit relations is an easy task: given the discourse connective, the relation sense can be determined with very high accuracy (Pitler et al., 2008) .
+[BOS] A challenging task is to detect the sense of NonExplicit discourse relations, as they usually don't have a connective that can help to determine their sense.
+[BOS] In last year's task Non-Explicit relations have been tackled with features based on Brown clusters (Chiarcos and Schenk, 2015; Wang and Lan, 2015; Stepanov et al., 2015) , VerbNet classes (Kong et al., 2015; Lalitha Devi et al., 2015) and MPQA polarity lexicon (Wang and Lan, 2015; Lalitha Devi et al., 2015) .
+[BOS] Earlier work (Rutherford and Xue, 2014) employed Brown cluster and coreference patterns to identify senses of implicit discourse relations in naturally occurring text.
+[BOS] More recently improved inference of implicit discourse relations via classifying explicit discourse connectives, extending prior research (Marcu and Echihabi, 2002; Sporleder and Lascarides, 2008) .
+[BOS] Several neural network approaches have been proposed, e.g., Multi-task Neural Networks (Liu et al., 2016) and Shallow-Convolutional Neural Networks (Zhang et al., 2015) .
+[BOS] Braud and Denis (2015) compare word representations for implicit discourse relation classification and find that denser representations systematically outperform sparser ones.
+

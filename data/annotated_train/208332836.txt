@@ -1,0 +1,26 @@
+[BOS] Sentiment classification, sarcasm detection, humor detection and hate speech detection have all seen varying levels of interest from the natural language research community, and have evolved over time as better datasets and modeling techniques have come into the picture.
+[BOS] There has been quite a bit of work on sarcasm detection, especially in the context of Twitterbased self-annotated data and Self-Annotated Reddit Corpus.
+[BOS] The seminal work in this area started with (Gonzlez-Ibez et al., 2011) -they used lexical and pragmatic features and found that pragmatic features were more useful in detecting sarcasm.
+[BOS] Addition of context-based features along with text-based features in certain subsequent models helped as well in improving perfor-mance on sarcasm detection.
+[BOS] There was a dramatic shift with the introduction of deep learning as feature engineering took a back seat and deep models began to be used for learning task-specific representations.
+[BOS] (Hazarika et al., 2018) show that using context, user and text embedding provides state of the art performance, which is challenged by Kolchinski (Kolchinski and Potts, 2018) (West et al., 2014) through a more simplistic user embedding based approach that achieves similar performance without other context (like forum embeddings as used by (Hazarika et al., 2018) ).
+
+[BOS] Hate Speech in natural language research has traditionally been a loosely-defined term, with one cause being the similarity with other categorizations of hateful utterances, such as offensive language.
+[BOS] In the context of online reviews, we broadly use hate speech to include any form of offensive language.
+[BOS] (Davidson et al., 2017) introduce the seminal dataset in the field, and test a variety of models -Logistic Regression, Naive Bayes, decision trees, random forests, and Support Vector Machines (SVMs), each tested with 5-fold cross validation to find that the Logistic Regression and Linear SVM tend to perform significantly better than other models.
+[BOS] Models such as LSTMs and CNNs have also been tried in works such as (Badjatiya et al., 2017) and (de Gibert et al., 2018) .
+
+[BOS] Humour Detection has seen a lot of work, with models being developed on several large-scale public datasets, such as the Pun of the Day, 16000 OneLiners, Short Jokes dataset, and the PTT jokes dataset.
+[BOS] (Chen and Soo, 2018) use a Highway Network on top of a CNN on a combination of these datasets.
+[BOS] (Kim, 2014) uses CNN for sentence classification, and these models have also been tested on funny-labelled reviews from the Yelp dataset 1 .
+
+[BOS] Recent works have attempted to combine feature extraction models trained on some tasks for a different task.
+[BOS] (Poria et al., 2016) , for instance, uses knowledge about sentiment, emotion, and personality to better detect sarcasm.
+[BOS] This finds a parallel in our attempt here, with the difference that these features include non-linguistic features such as user personality, and we focus only on natural language features to test the transferability of knowledge about certain features to detecting others.
+
+[BOS] Sentiment classification is a text classification task with the objective to classify text according to the sentimental polarities.
+[BOS] This has been a widely researched area (Mntyl et al., 2016) and recently there has been a lot of success in this area.
+[BOS] The current state of the art performance on this task is using transformer (Vaswani et al., 2017) based models like BERT (Devlin et al., 2018) and XL-1 https://github.com/srishti-1795/Humour-Detection Net (Yang et al., 2019) .
+[BOS] These models achieve very high accuracy on the binary classification task of sentiment polarity detection but analyzing the failure modes of these models indicate that these models might fail in cases where there are higher order language concepts like sarcasm, humour and hate speech co-occur in the same utterance.
+[BOS] Hence, through this paper, we investigate the performance of sentiment classification when provided with representative features pertaining to these language oriented concepts and at the same time propose a generic approach to compute these feature so as to reuse for multiple downstream tasks.
+

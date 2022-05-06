@@ -1,0 +1,44 @@
+T1	Intro 0 5	[BOS]
+T2	Multi_summ 77 82	[BOS]
+T3	Narrative_cite 332 337	[BOS]
+T4	Multi_summ 490 495	[BOS]
+T5	Single_summ 840 845	[BOS]
+T6	Transition 1060 1065	[BOS]
+T7	Multi_summ 1152 1157	[BOS]
+T8	Reflection 1363 1368	[BOS]
+T9	Dominant 83 104	Mueller et al. (2017)
+T10	Dominant 158 174	Hu et al. (2017)
+T11	Dominant 214 232	Shen et al. (2017)
+T12	B_span 83 90	Mueller
+T13	E_span 147 156	framework
+T14	B_span 158 160	Hu
+T15	E_span 202 212	attributes
+T16	B_span 214 218	Shen
+T17	E_span 324 330	styles
+T18	B_span 363 370	several
+T20	Reference 389 404	Fu et al., 2017
+T21	Reference 406 423	Yang et al., 2018
+T22	Reference 429 448	Santos et al., 2018
+T23	Reference 450 473	Logeswaran et al., 2018
+T30	Dominant 496 512	Fu et al. (2017)
+T31	Dominant 589 607	Yang et al. (2018)
+T32	Dominant 678 698	Santos et al. (2018)
+T33	Dominant 740 764	Logeswaran et al. (2018)
+T34	B_span 496 498	Fu
+T35	E_span 581 587	styles
+T36	B_span 589 593	Yang
+T37	E_span 664 672	training
+T38	B_span 678 684	Santos
+T39	E_span 730 738	transfer
+T40	B_span 740 750	Logeswaran
+T41	E_span 829 837	transfer
+T42	Dominant 890 906	Xu et al. (2018)
+T43	B_span 890 892	Xu
+T44	E_span 1048 1058	attributes
+T45	Dominant 1158 1182	Prabhumoye et al. (2018)
+T46	Dominant 1185 1210	Subramanian et al. (2018)
+T47	Dominant 1213 1237	Logeswaran et al. (2018)
+T48	Dominant 1246 1266	Santos et al. (2018)
+T49	B_span 1158 1168	Prabhumoye
+T50	E_span 1357 1361	task
+T19	E_span 469 473	2018

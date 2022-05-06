@@ -1,0 +1,17 @@
+[BOS] Phrase Modeling for NMT Several works have proven that the introduction of phrase modeling in NMT can obtain promising improvement on translation quality.
+[BOS] Tree-based encoders, which explicitly take the constituent tree (Eriguchi et al., 2016) or dependency tree (Bastings et al., 2017) into consideration, are proposed to produce treebased phrase representations.
+[BOS] The difference of our work from these studies is that they adopt the RNN-based encoder to form the tree-based encoder while we explicitly introduce the phrase structure into the the state-of-the-art multi-layer multi-head SANs-based encoder, which we believe is more challenging.
+
+[BOS] Another thread of work is to implicitly promote the generation of phrase-aware representation, such as the integration of external phrase boundary (Wang et al., 2017; Nguyen and Joty, 2018; Li et al., 2019b) , prior attention bias (Yang et al., , 2019 Guo et al., 2019) .
+[BOS] Our work differs at that we explicitly model phrase patterns at different granularities, which is then attended by different attention heads.
+
+[BOS] Multi Granularity Representation Multigranularity representation, which is proposed to make full use of subunit composition at different levels of granularity, has been explored in various NLP tasks, such as paraphrase identification (Yin and Schtze, 2015) , Chinese word embedding learning (Yin et al., 2016) , universal sentence encoding and machine translation (Nguyen and Joty, 2018; Li et al., 2019b) .
+[BOS] The major difference between our work and Nguyen and Joty (2018); Li et al. (2019b) lies in that we successfully introduce syntactic information into our multi-granularity representation.
+[BOS] Furthermore, it is not well measured how much phrase information are stored in multi-granularity representation.
+[BOS] We conduct the multi-granularity label prediction tasks and empirically verify that the phrase information is embedded in the multi-granularity representation.
+
+[BOS] Multi-Head Attention Multi-head attention mechanism has shown its effectiveness in machine translation (Vaswani et al., 2017) and generative dialog systems.
+[BOS] Recent studies shows that the modeling ability of multi-head attention has not been completely developed.
+[BOS] Several specific guidance cues of different heads without breaking the vanilla multi-head attention mechanism can further boost the performance, e.g., disagreement regularization (Li et al., 2018; Tao et al., 2018) , information aggregation (Li et al., 2019a) , and functional specialization (Fan et al., 2019) on attention heads, the combination of multi-head attention with multi-task learning (Strubell et al., 2018) .
+[BOS] Our work demonstrates that multi-head attention also benefits from the integration of the phrase information.
+

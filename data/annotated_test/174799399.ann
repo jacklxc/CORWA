@@ -1,0 +1,6 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 20 25	[BOS]
+T3	Narrative_cite 143 148	[BOS]
+T4	Reference 236 248	(Zhou et al.
+T5	B_span 213 216	non
+T6	E_span 245 247	al

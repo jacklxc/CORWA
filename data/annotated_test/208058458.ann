@@ -1,0 +1,67 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 239 244	[BOS]
+T3	Transition 318 323	[BOS]
+T4	Single_summ 409 414	[BOS]
+T5	Single_summ 545 550	[BOS]
+T6	Narrative_cite 696 701	[BOS]
+T7	Narrative_cite 861 866	[BOS]
+T8	Single_summ 1021 1026	[BOS]
+T9	Single_summ 1167 1172	[BOS]
+T10	Reflection 1349 1354	[BOS]
+T11	Single_summ 1577 1582	[BOS]
+T12	Narrative_cite 1690 1695	[BOS]
+T13	Transition 1782 1787	[BOS]
+T14	Transition 2058 2063	[BOS]
+T15	Transition 2151 2156	[BOS]
+T16	Transition 2228 2233	[BOS]
+T17	Single_summ 2473 2478	[BOS]
+T18	Single_summ 2653 2658	[BOS]
+T19	Transition 2820 2825	[BOS]
+T20	Reflection 2832 2837	[BOS]
+T21	Reflection 3114 3119	[BOS]
+T22	Reflection 3222 3227	[BOS]
+T23	Reference 84 104	Gehring et al., 2017
+T24	Reference 106 127	Vaswani et al., 2017)
+T25	Reference 297 314	(Tu et al., 2017)
+T26	Dominant 415 433	Feng et al. (2016)
+T27	Dominant 551 567	Tu et al. (2016)
+T28	Reference 824 840	Xia et al., 2017
+T29	Reference 842 858	Tu et al., 2017)
+T30	Reference 997 1018	(Socher et al., 2011)
+T31	Dominant 1027 1043	Tu et al. (2017)
+T32	Dominant 1216 1234	(Xia et al., 2017)
+T33	Dominant 1587 1612	(Goodfellow et al., 2014)
+T34	Reference 1743 1759	(Wu et al., 2018
+T35	Reference 1761 1779	Yang et al., 2018)
+T36	Dominant 2479 2497	Kong et al. (2019)
+T37	Reference 2867 2883	(Wu et al., 2018
+T38	Reference 2885 2902	Yang et al., 2018
+T39	Reference 2904 2922	Kong et al., 2019)
+T40	Pronoun 251 253	it
+T41	Pronoun 345 350	these
+T42	Pronoun 1355 1360	These
+T43	Pronoun 2367 2369	it
+T44	B_span 63 66	MLE
+T45	E_span 122 126	2017
+T46	B_span 251 253	it
+T47	E_span 309 313	2017
+T48	B_span 415 419	Feng
+T49	E_span 533 543	objectives
+T50	B_span 551 553	Tu
+T51	E_span 690 693	not
+T52	B_span 721 725	some
+T53	E_span 853 857	2017
+T54	B_span 911 924	bidirectional
+T55	E_span 1013 1017	2011
+T56	B_span 1027 1029	Tu
+T57	E_span 1154 1165	translation
+T58	B_span 1173 1177	Dual
+T59	E_span 1340 1347	process
+T60	B_span 1583 1586	GAN
+T61	E_span 1685 1688	NMT
+T62	B_span 1706 1711	there
+T63	E_span 1774 1778	2018
+T64	B_span 2479 2483	Kong
+T65	E_span 2783 2788	words
+T66	B_span 2838 2844	Unlike
+T67	E_span 2917 2921	2019

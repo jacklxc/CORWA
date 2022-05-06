@@ -1,0 +1,22 @@
+[BOS] There has been some previous work in SRL that uses LTAG-based decomposition of the parse tree.
+[BOS] (Chen and Rambow, 2003) use LTAG-based decomposition of parse trees (as is typically done for statistical LTAG parsing) for SRL.
+[BOS] Instead of extracting a typical "standard" path feature from the derived tree, (Chen and Rambow, 2003) uses the path within the elementary tree from the predicate to the constituent argument.
+[BOS] Under this frame, they only recover semantic roles for those constituents that are localized within a single etree for the predicate, ignoring cases that occur outside the etree.
+[BOS] As stated in their paper, "as a consequence, adjunct semantic roles (ARGM's) are basically absent from our test corpus"; and around 13% complement semantic roles cannot be found in etrees in the gold parses.
+[BOS] In contrast, we recover all SRLs by exploiting more general paths in the LTAG derivation tree.
+[BOS] A similar drawback can be found in (Gildea and Hockenmaier, 2003) where a parse tree path was defined in terms of Combinatory Categorial Grammar (CCG) types using grammatical relations between predicate and arguments.
+[BOS] The two relations they defined can only capture 77% arguments in Propbank and they had to use a standard path feature as a replacement when the defined relations cannot be found in CCG derivation trees.
+[BOS] In our framework, we use intermediate sub-structures from LTAG derivations to capture these relations instead of bypassing this issue.
+
+[BOS] Compared to (Liu and Sarkar, 2006) , we have used a more sophisticated learning algorithm and a richer set of syntactic LTAG-based features in this task.
+[BOS] In particular, in this paper we built a strong baseline system using a standard set of features and did a thorough comparison between this strong baseline and our proposed system with LTAG-based features.
+[BOS] The experiments in (Liu and Sarkar, 2006) were conducted on gold parses and it failed to show any improvements after adding LTAG-based features.
+[BOS] Our experimental results show that LTAGbased features can help improve the performance of SRL systems.
+[BOS] While (Liu and Sarkar, 2006) propose some new features for SRL based on LTAG derivations, we propose several novel features and in addition they do not show that their features are useful for SRL.
+
+[BOS] Our approach shares similar motivations with the approach in (Shen and Joshi, 2005) which uses PropBank information to recover an LTAG treebank as if it were hidden data underlying the Penn Treebank.
+[BOS] However their goal was to extract an LTAG grammar using PropBank information from the Treebank, and not the SRL task.
+
+[BOS] Features extracted from LTAG derivations are different and provide distinct information when compared to predicate-argument features (PAF) or subcategorization features (SCF) used in (Moschitti, 2004) or even the later use of argument spanning trees (AST) in the same framework.
+[BOS] The adjunction operation of LTAG and the extended domain of locality is not captured by those features as we have explained in detail in Section 2.
+

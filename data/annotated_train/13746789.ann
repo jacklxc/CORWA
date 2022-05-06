@@ -1,0 +1,67 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 86 91	[BOS]
+T3	Narrative_cite 345 350	[BOS]
+T4	Transition 461 466	[BOS]
+T5	Narrative_cite 576 581	[BOS]
+T6	Narrative_cite 737 742	[BOS]
+T7	Narrative_cite 889 894	[BOS]
+T8	Reflection 1063 1068	[BOS]
+T9	Narrative_cite 1162 1167	[BOS]
+T10	Narrative_cite 1297 1302	[BOS]
+T11	Narrative_cite 1660 1665	[BOS]
+T12	Reflection 1757 1762	[BOS]
+T13	Narrative_cite 1849 1854	[BOS]
+T14	Reference 170 192	(Steedman et al., 2003
+T15	Reference 194 217	McClosky et al., 2006a)
+T16	Reference 273 296	(Blitzer et al., , 2007
+T17	Reference 320 342	(Jiang and Zhai, 2007)
+T18	Reference 398 418	(Ganin et al., 2016)
+T19	Reference 435 458	(Sennrich et al., 2016)
+T20	Reference 665 685	(Saito et al., 2017)
+T21	Reference 864 886	(Laine and Aila, 2017)
+T22	Reference 976 1001	(Srivastava et al., 2014)
+T23	Reference 1025 1045	(Saito et al., 2017)
+T24	Reference 1279 1294	(Caruana, 1993)
+T25	Reference 1372 1387	(Manning, 2015)
+T26	Reference 1508 1530	(Cohn and Specia, 2013
+T27	Reference 1532 1550	Cheng et al., 2015
+T28	Reference 1552 1570	Luong et al., 2015
+T29	Reference 1572 1590	Plank et al., 2016
+T30	Reference 1592 1611	Fang and Cohn, 2016
+T31	Reference 1613 1631	Ruder et al., 2017
+T32	Reference 1633 1657	Augenstein et al., 2018)
+T33	Reference 1734 1754	(Ganin et al., 2016)
+T34	Reference 1947 1964	Kim et al., 2017)
+T35	Reference 1985 2005	(Ganin et al., 2016)
+T36	Pronoun 254 256	it
+T37	B_span 156 169	bootstrapping
+T38	E_span 211 216	2006a
+T39	B_span 220 226	shared
+T40	Reference 251 272	(Blitzer et al., 2006
+T41	E_span 292 296	2007
+T42	B_span 301 309	instance
+T43	E_span 337 341	2007
+T44	B_span 377 388	adversarial
+T45	E_span 413 417	2016
+T46	B_span 423 427	fine
+T47	E_span 453 457	2016
+T48	B_span 648 654	vision
+T49	E_span 680 684	2017
+T50	B_span 821 829	snapshot
+T51	E_span 881 885	2017
+T52	B_span 968 975	dropout
+T53	E_span 996 1000	2014
+T54	B_span 1005 1013	temporal
+T55	E_span 1040 1044	2017
+T56	B_span 1261 1270	parameter
+T57	E_span 1289 1293	1993
+T58	B_span 1351 1355	deep
+T59	E_span 1382 1386	2015
+T60	B_span 1498 1501	NLP
+T61	E_span 1652 1656	2018
+T62	B_span 1706 1717	adversarial
+T63	E_span 1749 1753	2016
+T64	B_span 1893 1899	shared
+T65	E_span 1959 1963	2017
+T66	B_span 1967 1972	which
+T67	E_span 2000 2004	2016

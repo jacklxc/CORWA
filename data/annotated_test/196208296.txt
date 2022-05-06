@@ -1,0 +1,16 @@
+[BOS] Several NLP-oriented toolkits have been opensourced.
+[BOS] Tensor2Tensor (Vaswani et al., 2018) , maintained by Google Brain, extends TensorFlow with an array of state-of-the-art baseline deep learning models.
+[BOS] It places a strong emphasis on sequence modeling baselines.
+[BOS] AllenNLP ) is a PyTorch library developed by AI2 for natural language processing tasks, notable for an open-source release of ELMo .
+[BOS] OpenNMT (Klein et al., 2017 ) is a popular neural machine translation toolkit originally developed for LuaTorch that now has implementations in PyTorch and TensorFlow.
+[BOS] MarianNMT (Junczys-Dowmunt et al., 2018 ) is another framework for neural machine translation developed between the Adam Mickiewicz University in Pozna and the University of Edinburgh.
+[BOS] It is built in C++ and designed for fast training in multi-GPU systems.
+[BOS] Texar (Hu et al., 2018) is a text generation toolkit affiliated with Carnegie Mellon University, featuring a similar emphasis on modularity to ICE-CAPS.
+[BOS] It includes reinforcement learning capabilities alongside its sequence modelling tools.
+
+[BOS] A few other toolkits have a dialog emphasis.
+[BOS] DeepPavlov (Burtsev et al., 2018 ) is a deep learning library with a focus on task-oriented dialogue.
+[BOS] It provides demos and pre-trained models for tasks such as question answering and sentiment classification.
+[BOS] Affiliated with DeepPavlov is the ConvAI2 challenge (Dinan et al., 2019) , a general dialogue competition featuring a synthetic personalized conversational dataset.
+[BOS] ParlAI (Miller et al., 2017 ) is a library centered around taskoriented dialogue, compiling a number of popular datasets for NLP tasks as well as pre-trained models for knowledge-grounded dialog agents trained on crowd-sourced data.
+

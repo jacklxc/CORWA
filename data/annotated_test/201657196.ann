@@ -1,0 +1,44 @@
+T1	Transition 0 5	[BOS]
+T2	Multi_summ 124 129	[BOS]
+T3	Single_summ 304 309	[BOS]
+T4	Narrative_cite 545 550	[BOS]
+T5	Transition 675 680	[BOS]
+T6	Narrative_cite 812 817	[BOS]
+T7	Multi_summ 948 953	[BOS]
+T8	Transition 1131 1136	[BOS]
+T9	Single_summ 1197 1202	[BOS]
+T10	Narrative_cite 1392 1397	[BOS]
+T11	Transition 1562 1567	[BOS]
+T12	Dominant 149 173	(Luong and Manning, 2015
+T13	Dominant 175 205	Freitag and Al-Onaizan, 2016 )
+T14	Dominant 331 350	Kobus et al. (2017)
+T15	Reference 652 672	(Chu and Wang, 2018)
+T16	Reference 839 860	(Currey et al., 2017)
+T17	Reference 882 906	(Sennrich et al., 2016a)
+T18	Dominant 967 989	Moore and Lewis (2010)
+T19	Dominant 991 1012	Axelrod et al. (2011)
+T20	Dominant 1014 1031	Duh et al. (2013)
+T21	Dominant 1203 1225	Gulcehre et al. (2015)
+T22	Reference 1513 1535	(Farajian et al., 2017
+T23	Reference 1537 1559	Bapna and Firat, 2019)
+T24	Pronoun 178 180	it
+T25	Pronoun 279 281	it
+T26	Pronoun 1087 1091	they
+T27	Pronoun 1266 1271	their
+T28	Pronoun 1577 1579	it
+T29	B_span 130 139	Continued
+T31	B_span 331 336	Kobus
+T32	E_span 539 543	tags
+T33	B_span 621 625	data
+T34	E_span 667 671	2018
+T35	B_span 827 831	copy
+T36	E_span 855 859	2017
+T37	B_span 865 869	back
+T38	E_span 900 905	2016a
+T39	B_span 967 972	Moore
+T40	E_span 1125 1129	text
+T41	B_span 1203 1211	Gulcehre
+T42	E_span 1385 1389	ones
+T43	B_span 1436 1446	retrieving
+T44	E_span 1554 1558	2019
+T30	E_span 298 302	data

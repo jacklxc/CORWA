@@ -1,0 +1,61 @@
+T1	Transition 1 4	BOS
+T2	Transition 84 87	BOS
+T3	Multi_summ 180 183	BOS
+T4	Single_summ 429 432	BOS
+T5	Single_summ 558 561	BOS
+T6	Transition 659 662	BOS
+T7	Single_summ 789 792	BOS
+T9	Dominant 185 198	Riloff (1996)
+T10	Dominant 279 318	Yangarber et al. (2000 Yangarber et al.
+T11	Dominant 319 327	( , 2003
+T12	Reference 389 411	Surdeanu et al. (2006)
+T13	B_span 185 191	Riloff
+T14	E_span 265 273	patterns
+T15	B_span 279 288	Yangarber
+T16	E_span 415 426	co-training
+T17	B_span 434 443	Stevenson
+T18	E_span 543 555	similarities
+T19	Dominant 434 464	Stevenson and Greenwood (2005)
+T20	Dominant 563 588	Liao and Grishman (2010b)
+T21	B_span 563 567	Liao
+T22	E_span 647 656	algorithm
+T23	Dominant 853 881	Patwardhan and Riloff (2007)
+T24	B_span 794 802	Starting
+T25	E_span 987 995	patterns
+T8	Dominant 1003 1013	Liu (2009)
+T26	Single_summ 998 1001	BOS
+T27	B_span 1003 1006	Liu
+T28	E_span 1079 1084	roles
+T29	Transition 1087 1090	BOS
+T31	Single_summ 1255 1258	BOS
+T30	Dominant 1364 1378	Yarowsky, 1995
+T32	B_span 1260 1263	The
+T33	E_span 1378 1379	)
+T34	Multi_summ 1383 1386	BOS
+T35	B_span 1388 1397	Yangarber
+T36	E_span 1586 1590	time
+T37	Dominant 1406 1433	Yangarber and Jokipii, 2005
+T38	Dominant 1435 1450	Yangarber, 2006
+T39	Dominant 1452 1474	Yangarber et al., 2007
+T40	Dominant 1598 1609	Mann (2007)
+T41	B_span 1598 1602	Mann
+T42	E_span 1714 1718	year
+T43	Single_summ 1593 1596	BOS
+T44	Single_summ 1722 1725	BOS
+T45	Dominant 1734 1756	Ji and Grishman (2008)
+T46	B_span 1727 1732	Later
+T47	E_span 1856 1865	documents
+T48	Dominant 1873 1892	Gupta and Ji (2009)
+T49	B_span 1873 1878	Gupta
+T50	E_span 1958 1964	events
+T51	Single_summ 1868 1871	BOS
+T52	Dominant 1972 1997	Liao and Grishman (2010a)
+T53	B_span 1972 1976	Liao
+T54	E_span 2094 2104	extraction
+T55	Single_summ 1967 1970	BOS
+T56	B_span 389 397	Surdeanu
+T57	E_span 406 410	2006
+T58	Pronoun 341 345	this
+T59	Pronoun 598 603	these
+T60	Pronoun 673 678	these
+T61	Pronoun 1073 1078	their

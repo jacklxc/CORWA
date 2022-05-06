@@ -1,0 +1,37 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 153 158	[BOS]
+T3	Narrative_cite 287 292	[BOS]
+T4	Reflection 466 471	[BOS]
+T5	Transition 665 670	[BOS]
+T6	Single_summ 732 737	[BOS]
+T7	Single_summ 832 837	[BOS]
+T8	Reflection 938 943	[BOS]
+T9	Reflection 1094 1099	[BOS]
+T10	Transition 1220 1225	[BOS]
+T11	Narrative_cite 1317 1322	[BOS]
+T12	Single_summ 1570 1575	[BOS]
+T13	Reflection 1722 1727	[BOS]
+T14	Reference 262 284	(Paperno et al., 2016)
+T15	Reference 402 420	(Wang et al., 2018
+T16	Reference 422 443	Glockner et al., 2018
+T17	Reference 445 463	Naik et al., 2018)
+T18	Dominant 738 758	Rimell et al. (2009)
+T19	Dominant 879 901	Ettinger et al. (2017)
+T20	Reference 1413 1438	(Belinkov and Bisk, 2018)
+T21	Reference 1525 1544	(Iyyer et al., 2018
+T22	Reference 1546 1567	Ribeiro et al., 2018)
+T23	Dominant 1576 1593	Jia et al. (2017)
+T24	B_span 248 252	book
+T25	E_span 279 283	2016
+T26	B_span 387 392	model
+T27	E_span 458 462	2018
+T28	B_span 738 744	Rimell
+T29	E_span 818 830	dependencies
+T30	B_span 879 887	Ettinger
+T31	E_span 925 936	adversaries
+T32	B_span 1385 1392	machine
+T33	E_span 1433 1437	2018
+T34	B_span 1468 1475	textual
+T35	E_span 1562 1566	2018
+T36	B_span 1576 1579	Jia
+T37	E_span 1709 1720	information

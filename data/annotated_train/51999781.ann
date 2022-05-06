@@ -1,0 +1,41 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 139 144	[BOS]
+T3	Narrative_cite 329 334	[BOS]
+T4	Transition 604 609	[BOS]
+T5	Transition 742 747	[BOS]
+T6	Transition 844 849	[BOS]
+T7	Transition 995 1000	[BOS]
+T8	Narrative_cite 1054 1059	[BOS]
+T9	Transition 1204 1209	[BOS]
+T10	Single_summ 1339 1344	[BOS]
+T11	Narrative_cite 1577 1582	[BOS]
+T12	Reflection 1672 1677	[BOS]
+T13	Reflection 1833 1838	[BOS]
+T14	Reference 274 291	(Sun et al., 2014
+T15	Reference 293 308	Li et al., 2015
+T16	Reference 310 326	Yu et al., 2017)
+T17	Reference 415 431	(Yu et al., 2017
+T18	Reference 433 451	Yin et al., 2016 )
+T19	Reference 473 490	(Li et al., 2015)
+T20	Reference 525 548	(Benajiba et al., 2017)
+T21	Reference 581 600	(Shao et al., 2017)
+T22	Reference 1154 1174	Nguyen et al. (2017)
+T23	Reference 1179 1201	Ke and Hagiwara (2017)
+T24	Dominant 1345 1367	Ke and Hagiwara (2017)
+T25	Reference 1642 1658	Yu et al. (2017)
+T26	B_span 202 211	wordlevel
+T27	E_span 321 325	2017
+T28	B_span 392 402	similarity
+T29	E_span 445 449	2016
+T30	B_span 453 457	text
+T31	E_span 485 489	2015
+T32	B_span 491 500	sentiment
+T33	E_span 543 547	2017
+T34	B_span 551 563	segmentation
+T35	E_span 595 599	2017
+T36	B_span 1090 1102	subcharacter
+T37	E_span 1196 1200	2017
+T38	B_span 1345 1347	Ke
+T39	E_span 1565 1575	vocabulary
+T40	B_span 1583 1587	This
+T41	E_span 1663 1670	Chinese

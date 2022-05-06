@@ -1,0 +1,13 @@
+[BOS] Studies in machine reading comprehension mostly focus on architecture design of neural networks, such as bidirectional attention (Seo et al., 2016) , dynamic reasoning (Xu et al., 2017) , and parallelization (Yu et al., 2018) .
+[BOS] Some recent work has explored transfer learning that leverages outdomain data to learn MRC models when no training data is available for the target domain (Golub et al., 2017) .
+[BOS] In this work, we explore multi-task learning to make use of the data from other domains, while we still have access to target domain training data.
+
+[BOS] Multi-task learning (Caruana, 1997) has been widely used in machine learning to improve generalization using data from multiple tasks.
+[BOS] For natural language processing, MTL has been successfully applied to low-level parsing tasks (Collobert et al., 2011) , sequence-to-sequence learning (Luong et al., 2015) , and web search (Liu et al., 2015) .
+[BOS] More recently, (McCann et al., 2018) proposes to cast all tasks from parsing to translation as a QA problem and use a single network to solve all of them.
+[BOS] However, their results show that multi-task learning hurts the performance of most tasks when tackling them together.
+[BOS] Differently, we focus on applying MTL to the MRC task and show significant improvement over single-task baselines.
+
+[BOS] Our sample re-weighting scheme bears some resemblance to previous MTL techniques that assign weights to tasks (Kendall et al., 2018) .
+[BOS] However, our method gives a more granular score for each sample and provides better performance for multitask learning MRC.
+

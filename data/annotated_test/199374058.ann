@@ -1,0 +1,70 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 230 235	[BOS]
+T3	Single_summ 290 295	[BOS]
+T4	Single_summ 452 457	[BOS]
+T5	Single_summ 571 576	[BOS]
+T6	Single_summ 660 665	[BOS]
+T7	Single_summ 801 806	[BOS]
+T8	Transition 965 970	[BOS]
+T9	Transition 1065 1070	[BOS]
+T10	Reflection 1231 1236	[BOS]
+T11	Single_summ 1371 1376	[BOS]
+T12	Single_summ 1529 1534	[BOS]
+T13	Single_summ 1656 1661	[BOS]
+T14	Narrative_cite 1873 1878	[BOS]
+T15	Transition 2094 2099	[BOS]
+T16	Single_summ 2249 2254	[BOS]
+T17	Transition 2419 2424	[BOS]
+T18	Narrative_cite 2545 2550	[BOS]
+T19	Transition 2845 2850	[BOS]
+T20	Transition 2939 2944	[BOS]
+T21	Transition 3050 3055	[BOS]
+T22	Single_summ 3188 3193	[BOS]
+T23	Single_summ 3512 3517	[BOS]
+T24	Narrative_cite 3640 3645	[BOS]
+T25	Dominant 6 31	Constant and Nivre (2016)
+T26	Dominant 545 568	Collobert et al. (2011)
+T27	Dominant 666 692	Sgaard and Goldberg (2016)
+T28	Dominant 1404 1428	Bingel and Sgaard (2017)
+T29	Dominant 1695 1719	Changpinyo et al. (2018)
+T30	Reference 2025 2048	(Howard and Ruder, 2018
+T31	Reference 2050 2069	Peters et al., 2018
+T32	Reference 2071 2091	Devlin et al., 2018)
+T33	Dominant 2255 2272	Liu et al. (2018)
+T34	Reference 2762 2784	(Faruqui et al., 2015)
+T35	Reference 2808 2832	(Vyas and Carpuat, 2016)
+T36	Dominant 3194 3212	Yang et al. (2017)
+T37	Reference 3694 3714	Lample et al. (2016)
+T38	Pronoun 114 119	their
+T39	Pronoun 296 300	They
+T40	Pronoun 577 581	They
+T41	Pronoun 639 641	it
+T42	Pronoun 824 829	their
+T43	Pronoun 865 869	they
+T44	Pronoun 918 923	their
+T45	Pronoun 1071 1075	This
+T46	Pronoun 1244 1248	this
+T47	Pronoun 1538 1543	their
+T48	Pronoun 3658 3663	their
+T49	B_span 6 14	Constant
+T50	E_span 435 449	identification
+T51	B_span 458 461	The
+T52	E_span 651 658	tagging
+T53	B_span 666 672	Sgaard
+T54	E_span 905 909	task
+T55	B_span 1386 1390	LSTM
+T57	E_span 1647 1654	tagging
+T56	B_span 1695 1705	Changpinyo
+T58	E_span 1862 1870	settings
+T59	B_span 1952 1955	pre
+T60	E_span 2086 2090	2018
+T61	B_span 2255 2258	Liu
+T62	E_span 2411 2416	model
+T63	B_span 2749 2761	retrofitting
+T64	E_span 2779 2783	2015
+T65	B_span 2787 2793	matrix
+T66	E_span 2827 2831	2016
+T67	B_span 3194 3198	Yang
+T68	E_span 3630 3638	transfer
+T69	B_span 3694 3700	Lample
+T70	E_span 3713 3714	)

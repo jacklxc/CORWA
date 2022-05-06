@@ -1,0 +1,35 @@
+T1	Reflection 0 5	[BOS]
+T2	Single_summ 72 77	[BOS]
+T3	Single_summ 269 274	[BOS]
+T4	Single_summ 454 459	[BOS]
+T5	Single_summ 539 544	[BOS]
+T6	Single_summ 612 617	[BOS]
+T7	Reflection 816 821	[BOS]
+T8	Transition 910 915	[BOS]
+T9	Single_summ 987 992	[BOS]
+T10	Single_summ 1081 1086	[BOS]
+T11	Single_summ 1166 1171	[BOS]
+T12	Single_summ 1245 1250	[BOS]
+T13	Single_summ 1342 1347	[BOS]
+T14	Reflection 1429 1434	[BOS]
+T15	Dominant 78 95	Koo et al. (2008)
+T16	Dominant 275 293	Chen et al. (2009)
+T17	Dominant 545 565	Suzuki et al. (2009)
+T18	Reference 688 714	(Suzuki and Isozaki, 2008)
+T19	Reference 796 813	Koo et al. (2008)
+T20	Dominant 993 1015	McClosky et al. (2006)
+T21	Dominant 1087 1110	Sagae and Tsujii (2007)
+T22	B_span 78 81	Koo
+T23	E_span 261 267	models
+T24	B_span 275 279	Chen
+T25	E_span 445 452	parsing
+T26	B_span 545 551	Suzuki
+T27	E_span 808 812	2008
+T28	B_span 634 638	Semi
+T29	E_span 709 713	2008
+T30	B_span 733 740	parsing
+T31	E_span 808 812	2008
+T32	B_span 993 1001	McClosky
+T33	E_span 1072 1079	parsing
+T34	B_span 1087 1092	Sagae
+T35	E_span 1423 1427	data

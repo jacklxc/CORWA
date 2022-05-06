@@ -1,0 +1,45 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 64 69	[BOS]
+T3	Transition 232 237	[BOS]
+T4	Transition 319 324	[BOS]
+T5	Narrative_cite 507 512	[BOS]
+T6	Narrative_cite 885 890	[BOS]
+T7	Transition 1133 1138	[BOS]
+T8	Reflection 1371 1376	[BOS]
+T9	Reflection 1569 1574	[BOS]
+T10	Transition 1633 1638	[BOS]
+T11	Other 1712 1717	[BOS]
+T12	Other 1774 1779	[BOS]
+T13	Other 2052 2057	[BOS]
+T14	Transition 2362 2367	[BOS]
+T15	Other 2463 2468	[BOS]
+T16	Other 2521 2526	[BOS]
+T17	Other 2632 2637	[BOS]
+T18	Transition 2777 2782	[BOS]
+T19	Transition 2869 2874	[BOS]
+T20	Transition 3015 3020	[BOS]
+T21	Transition 3131 3136	[BOS]
+T22	Single_summ 3188 3193	[BOS]
+T23	Reference 93 112	(Allan et al., 2003
+T24	Reference 114 139	Soboroff and Harman, 2005
+T25	Reference 141 157	Schiffman, 2005)
+T26	Reference 596 621	(Bentivogli et al., 2010)
+T27	Reference 716 744	(Delort and Alfonseca, 2012)
+T28	Reference 965 985	Conroy et al. (2006)
+T29	Reference 1111 1130	Lin and Hovy (2000)
+T30	Dominant 3194 3214	Conroy et al. (2006)
+T31	Pronoun 1150 1154	this
+T32	Pronoun 1380 1384	this
+T33	Pronoun 2806 2810	this
+T34	B_span 70 73	The
+T35	E_span 152 156	2005
+T36	B_span 566 573	textual
+T37	E_span 616 620	2010
+T38	B_span 694 702	Bayesian
+T39	E_span 739 743	2012
+T40	B_span 1085 1087	an
+T41	E_span 1125 1129	2000
+T42	B_span 923 927	some
+T43	E_span 980 984	2006
+T44	B_span 3194 3200	Conroy
+T45	E_span 3339 3345	length

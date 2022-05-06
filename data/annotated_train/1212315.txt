@@ -1,0 +1,26 @@
+[BOS] Named entity recognition is a task with a long history, dating back to MUC-7 (Chinchor and Robinson, 1997) .
+[BOS] In this section, we describe the NER research that influenced our system and give an overview of the work on NER for Twitter.
+[BOS] For a more detailed survey, see (Chiu and Nichols, 2016) .
+
+[BOS] Most recent approaches to NER have been characterized by the use of CRF, SVM, and perceptron models, where performance is heavily dependent on feature engineering.
+[BOS] Ratinov and Roth (2009) used non-local features, a gazetteer extracted from Wikipedia, and Brown-cluster-like word representations.
+[BOS] Lin and Wu (2009) used phrase features obtained by performing k-means clustering over a private database of search engine query logs in place of a lexicon.
+[BOS] Passos et al. (2014) proposed a model that infused word embeddings with lexical knowledge.
+[BOS] In order to combat the problem of sparse features, Suzuki et al. (2011) performed feature reduction with large-scale unlabelled data.
+
+[BOS] Recently, the state-of-the-art for NER neural networks have overtaken other approaches to NER.
+[BOS] Most approaches build on the pioneering work of Collobert et al. (2011) , which showed that word embeddings could be employed in a deep FFNN to achieve near state-of-the-art results on POS tagging, chunking, NER, and SRL.
+[BOS] Santos et al. (2015) augmented the architecture of Collobert et al. (2011) with character-level CNNs, reporting improved performance on Spanish and Portuguese NER.
+[BOS] Huang et al. (2015) employed BLSTMs in place of FFNNs for the POS-tagging, chunking, and NER tasks, but they employed heavy feature engineering instead of using a CNN to automatically extract character-level features.
+[BOS] Lample et al. (2016) proposed LSTM-CRF and Stack-LSTM architectures for NER.
+
+[BOS] The earliest work on NER for Twitter, used a CRF model with global features from tweet clusters to conduct NER with the MUC-7 4 class task definition (Liu et al., 2011) .
+[BOS] Ritter et al. (2011) developed a suite of NLP tools explicitly for Twitter and expanded the task to the 10 class definition used in the WNUT shared tasks.
+[BOS] A key difference between NER for Twitter and conventional NER is that the former also considers peripheral tasks such as named entity tokenization (Li et al., 2012) , normalization (Liu et al., 2012) , and linking (Guo et al., 2013; Yamada et al., 2015) .
+[BOS] The WNUT 2015 Shared Task included text normalization and named entity tokenization and detection tasks (Baldwin et al., 2015) , with most systems using machine learning methods like CRF together with a variety of features including lexicons, orthographic features, and distributional information.
+[BOS] In contrast with conventional NER, there was only one neural network entry (Godin et al., 2015) , and most systems tended to prefer Brown clusters to word embeddings.
+[BOS] The state of the art at WNUT 2015 used a cascaded model of entity tokenization, followed by linking to knowledge bases, and, finally, classification with random forests (Yamada et al., 2015) .
+
+[BOS] Our system adopts the architecture of Chiu and Nichols (2016) , which combined BLSTMs to maximize context over the tagged word sequence and word-level CNNs to automatically generate characterlevel features with a partial-matching lexicon to achieve the state-of-the-art for NER on both CoNLL 2003 and OntoNotes datasets.
+[BOS] Our system can be viewed as an investigation into how well state-of-theart neural approaches adapt to the challenges of NER on noisy Web data.
+

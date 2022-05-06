@@ -1,0 +1,54 @@
+T1	Transition 0 5	[BOS]
+T2	Narrative_cite 116 121	[BOS]
+T3	Transition 313 318	[BOS]
+T4	Narrative_cite 379 384	[BOS]
+T5	Multi_summ 548 553	[BOS]
+T6	Single_summ 783 788	[BOS]
+T7	Single_summ 848 853	[BOS]
+T8	Reflection 1046 1051	[BOS]
+T9	Narrative_cite 1152 1157	[BOS]
+T10	Narrative_cite 1326 1331	[BOS]
+T11	Multi_summ 1444 1449	[BOS]
+T12	Single_summ 1612 1617	[BOS]
+T13	Reflection 1783 1788	[BOS]
+T14	Single_summ 1854 1859	[BOS]
+T15	Reference 267 287	(Koh and Liang, 2017
+T16	Reference 289 309	Brunet et al., 2019)
+T17	Reference 442 465	(Forbes and Choi, 2017)
+T18	Reference 526 545	(Yang et al., 2018)
+T19	Dominant 554 575	Vendrov et al. (2016)
+T20	Dominant 693 711	Yang et al. (2018)
+T21	Reference 1283 1304	(Conneau et al., 2018
+T22	Reference 1306 1323	Liu et al., 2019)
+T23	Reference 1423 1441	(Adi et al., 2017)
+T24	Dominant 1450 1474	Khandelwal et al. (2018)
+T25	Dominant 1524 1544	Linzen et al. (2016)
+T26	Dominant 1618 1648	Spithourakis and Riedel (2018)
+T27	Dominant 1860 1888	Kotnis and Garca-Durn (2019)
+T28	B_span 247 256	influence
+T29	E_span 308 309	)
+T31	E_span 464 465	)
+T32	B_span 502 503	"
+T33	E_span 544 545	)
+T34	B_span 554 558	Vend
+T35	E_span 676 678	my
+T36	B_span 693 697	Yang
+T37	E_span 780 781	.
+T38	B_span 1269 1275	neural
+T39	E_span 1322 1323	)
+T40	B_span 1384 1389	which
+T41	E_span 1440 1441	)
+T42	B_span 1450 1454	Khan
+T43	E_span 1516 1517	,
+T44	B_span 1524 1527	Lin
+T45	E_span 1610 1611	.
+T46	B_span 1618 1621	Spi
+T47	E_span 1813 1819	models
+T48	B_span 1860 1863	Kot
+T49	E_span 2007 2008	.
+T50	Pronoun 136 140	this
+T51	Pronoun 854 859	Their
+T52	Pronoun 1714 1718	they
+T53	Pronoun 1789 1793	They
+T54	Pronoun 1944 1948	they
+T55	B_span 426 430	size

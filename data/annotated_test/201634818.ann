@@ -1,0 +1,6 @@
+T1	Transition 0 5	[BOS]
+T2	Transition 80 85	[BOS]
+T3	Transition 186 191	[BOS]
+T4	Transition 261 266	[BOS]
+T5	Transition 380 385	[BOS]
+T6	Pronoun 92 94	it

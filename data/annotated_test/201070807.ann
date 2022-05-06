@@ -1,0 +1,47 @@
+T1	Reflection 0 5	[BOS]
+T2	Reflection 130 135	[BOS]
+T3	Transition 271 276	[BOS]
+T4	Transition 403 408	[BOS]
+T5	Single_summ 538 543	[BOS]
+T6	Single_summ 670 675	[BOS]
+T7	Reflection 906 911	[BOS]
+T8	Reflection 1012 1017	[BOS]
+T9	Single_summ 1156 1161	[BOS]
+T10	Multi_summ 1473 1478	[BOS]
+T11	Multi_summ 1728 1733	[BOS]
+T12	Multi_summ 1822 1827	[BOS]
+T13	Multi_summ 2017 2022	[BOS]
+T14	Transition 2356 2361	[BOS]
+T15	Reflection 2524 2529	[BOS]
+T16	Reflection 2658 2663	[BOS]
+T17	Reflection 2814 2819	[BOS]
+T18	Dominant 563 586	(Hamilton et al., 2016)
+T19	Dominant 790 812	(K Sarma et al., 2018)
+T20	Dominant 1291 1312	(Hangya et al., 2018)
+T21	Dominant 1553 1571	(Liu et al., 2016)
+T22	Dominant 1574 1595	(Nam and Han, 2016) ,
+T23	Dominant 1864 1885	(Peters et al., 2018)
+T24	Dominant 1895 1916	(Devlin et al., 2018)
+T25	Reference 2888 2899	(Kim, 2014)
+T26	Reference 2924 2947	(Conneau et al., 2017 )
+T27	Pronoun 6 10	This
+T28	Pronoun 154 158	this
+T29	Pronoun 687 692	these
+T30	Pronoun 746 750	this
+T31	Pronoun 1740 1745	these
+T32	Pronoun 1772 1776	they
+T33	Pronoun 2269 2274	these
+T34	Pronoun 2700 2705	these
+T35	Pronoun 3062 3067	these
+T36	B_span 564 572	Hamilton
+T37	E_span 657 668	propagation
+T38	B_span 791 792	K
+T39	E_span 895 904	semantics
+T40	B_span 1292 1298	Hangya
+T41	E_span 1456 1471	representations
+T42	B_span 1479 1491	Particularly
+T44	E_span 1815 1819	data
+T43	B_span 1859 1863	ELMo
+T45	E_span 2350 2354	data
+T46	B_span 2868 2872	text
+T47	E_span 2984 2990	blocks

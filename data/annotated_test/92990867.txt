@@ -1,0 +1,11 @@
+[BOS] Past work on denoising data for entity typing has used multi-instance multi-label learning Schtze, 2015, 2017; Murty et al., 2018) .
+[BOS] One view of these approaches is that they delete noisily-introduced labels, but they cannot add them, or filter bad examples.
+[BOS] Other work focuses on learning type embeddings (Yogatama et al., 2015; Ren et al., 2016a,b) ; our approach goes beyond this in treating the label set in a structured way.
+[BOS] The label set of Choi et al. (2018) is distinct in not being explicitly hierarchical, making past hierarchical approaches difficult to apply.
+
+[BOS] Denoising techniques for distant supervision have been applied extensively to relation extraction.
+[BOS] Here, multi-instance learning and probabilis- Figure 4 : Examples of the noisy labels (left) and the denoised labels (right) for mentions (bold).
+[BOS] The colors correspond to type classes: general (purple), finegrained (green), and ultra-fine (yellow).
+
+[BOS] tic graphical modeling approaches have been used (Riedel et al., 2010; Hoffmann et al., 2011; Surdeanu et al., 2012; Takamatsu et al., 2012) as well as deep models (Lin et al., 2016; Luo et al., 2017; Lei et al., 2018; Han et al., 2018) , though these often focus on incorporating signals from other sources as opposed to manually labeled data.
+

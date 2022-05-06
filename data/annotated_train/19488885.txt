@@ -1,0 +1,16 @@
+[BOS] MTL has been used over the years for NLP tasks with varying degrees of similarity, examples including joint classification of different arguments in semantic role labeling (Toutanova et al., 2005) , and joint parsing and named entity recognition (Finkel and Manning, 2009) .
+[BOS] Similar ideas, of parameter sharing across models trained with different datasets, can be found in studies of domain adaptation (Blitzer et al., 2006; Daume III, 2007; Ziser and Reichart, 2017) .
+[BOS] For parsing, domain adaptation has been applied successfully in parser combination and co-training (McClosky et al., 2010; Baucom et al., 2013) .
+
+[BOS] Neural MTL has mostly been effective in tackling formally similar tasks , including multilingual syntactic dependency parsing (Ammar et al., 2016; Guo et al., 2016) , as well as multilingual (Duong et al., 2017) , and cross-domain semantic parsing (Herzig and Berant, 2017; Fan et al., 2017) .
+
+[BOS] Sharing parameters with a low-level task has shown great benefit for transition-based syntactic parsing, when jointly training with POS tagging (Bohnet and Nivre, 2012; Zhang and Weiss, 2016) , and with lexical analysis (Constant and Nivre, 2016; More, 2016) .
+[BOS] Recent work has achieved state-of-the-art results in multiple NLP tasks by jointly learning the tasks forming the NLP standard pipeline using a single neural model (Collobert et al., 2011; Hashimoto et al., 2017) , thereby avoiding cascading errors, common in pipelines.
+
+[BOS] Much effort has been devoted to joint learning of syntactic and semantic parsing, including two CoNLL shared tasks (Surdeanu et al., 2008; Haji et al., 2009) .
+[BOS] Despite their conceptual and practical appeal, such joint models rarely outperform the pipeline approach Henderson et al., 2013; Lewis et al., 2015; Swayamdipta et al., 2016 Swayamdipta et al., , 2017 .
+[BOS] Peng et al. (2017a) performed MTL for SDP in a closely related setting to ours.
+[BOS] They tackled three tasks, annotated over the same text and sharing the same formal structures (bilexical DAGs), with considerable edge overlap, but differing in target representations (see 3).
+[BOS] For all tasks, they reported an increase of 0.5-1 labeled F 1 points.
+[BOS] Recently, Peng et al. (2018) applied a similar approach to joint frame-semantic parsing and semantic dependency parsing, using disjoint datasets, and reported further improvements.
+

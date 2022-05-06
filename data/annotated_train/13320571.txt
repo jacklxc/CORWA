@@ -1,0 +1,16 @@
+[BOS] A lot of recent work has been done on training word vectors (Mnih and Hinton, 2009; Mikolov et al., 2013; Lebret and Collobert, 2014; Pennington et al., 2014) , and utilizing word vectors in various NLP tasks (Turian et al., 2010; Andreas and Klein, 2014; Bansal et al., 2014) .
+[BOS] The common approach (Turian et al., 2010; Koo et al., 2008; Bansal et al., 2014) is to use vector representations in new features, added to (near) state-of-the-art systems, and make improvement.
+[BOS] As a result, the feature space gets even larger.
+[BOS] We instead propose to reduce lexical features by word embeddings.
+[BOS] To our own surprise, though the feature space gets much smaller, the resulted system performs better.
+
+[BOS] Another stream of research is to use word embeddings in whole neural network architectures (Collobert et al., 2011; Socher et al., 2013; Chen and Manning, 2014; Weiss et al., 2015; Dyer et al., 2015; Watanabe and Sumita, 2015 has contributed to the power of neural based approaches.
+[BOS] In this work, we conjecture that the power may partly come from the low-dimensionality of word embeddings, and this advantage can be transferred to traditional feature based systems.
+[BOS] Our experiments support this conjecture, and we expect the proposed method to help more mature, proven-towork existing systems.
+[BOS] Machine learning techniques have been proposed for reducing model size and imposing feature sparsity (Suzuki et al., 2011; Yogatama and Smith, 2014) .
+[BOS] Compared to these methods, our approach is simple, without extra twists of objective functions or learning algorithms.
+[BOS] More importantly, by using word embeddings to reduce lexical features, we explicitly exploit the inherited syntactic and semantic similarities between words.
+
+[BOS] Another technique to reduce features is dimension reduction by matrix or tensor factorization (Argyriou et al., 2007; Lei et al., 2014) , but typically applied to supervised learning.
+[BOS] In contrast, we use word embeddings trained from unlabeled or automatically labeled corpora, bringing the aspects of semi-supervised learning or self-training.
+

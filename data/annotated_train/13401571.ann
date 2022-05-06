@@ -1,0 +1,74 @@
+T1	Intro 1 4	BOS
+T2	Intro 98 101	BOS
+T3	Intro 204 207	BOS
+T4	Transition 272 275	BOS
+T5	B_span 456 466	TextTiling
+T6	E_span 585 594	frequency
+T7	Dominant 468 480	Hearst, 1997
+T8	B_span 596 599	C99
+T9	E_span 679 685	scheme
+T10	Dominant 601 611	Choi, 2000
+T11	B_span 687 691	LSeg
+T12	E_span 771 782	repetitions
+T13	Dominant 693 712	Galley et al., 2003
+T14	B_span 784 787	U00
+T16	Dominant 789 814	Utiyama and Isahara, 2001
+T15	E_span 905 909	cost
+T17	B_span 911 917	MinCut
+T18	Dominant 919 947	Malioutov and Barzilay, 2006
+T19	E_span 991 998	problem
+T20	B_span 1004 1007	APS
+T21	E_span 1100 1112	segmentation
+T22	Dominant 1009 1040	Kazantseva and Szpakowicz, 2011
+T23	Multi_summ 417 420	BOS
+T24	Transition 1116 1119	BOS
+T25	Transition 1259 1262	BOS
+T26	Single_summ 1358 1361	BOS
+T27	B_span 1363 1367	PLDA
+T28	E_span 1798 1805	passage
+T29	Dominant 1381 1401	Purver et al. (2006)
+T30	Reference 1495 1512	Blei et al., 2003
+T31	Dominant 1662 1681	Purver et al., 2006
+T32	Single_summ 1465 1468	BOS
+T33	Single_summ 1570 1573	BOS
+T34	Single_summ 1687 1690	BOS
+T35	Single_summ 1809 1812	BOS
+T36	Single_summ 1903 1906	BOS
+T37	Single_summ 2065 2068	BOS
+T38	B_span 1814 1819	Using
+T39	E_span 2177 2186	variables
+T40	Dominant 1854 1873	Nguyen et al., 2012
+T41	B_span 2267 2275	Bayesseg
+T42	E_span 2448 2453	topic
+T43	B_span 2459 2460	a
+T44	E_span 2565 2572	parents
+T45	Dominant 2277 2306	Eisenstein and Barzilay, 2008
+T46	Dominant 2491 2507	Eisenstein, 2009
+T47	Multi_summ 2189 2192	BOS
+T48	Narrative_cite 2575 2578	BOS
+T49	Reference 2645 2661	Sun et al., 2008
+T50	Reference 2666 2684	Misra et al., 2009
+T51	Reference 2693 2716	Riedl and Biemann, 2012
+T52	Reflection 2722 2725	BOS
+T53	Reflection 2801 2804	BOS
+T54	Reference 3392 3410	Allan et al., 1998
+T55	Reflection 3050 3053	BOS
+T56	B_span 1489 1493	LDAs
+T57	E_span 1512 1513	)
+T58	B_span 3353 3363	continuous
+T59	E_span 3410 3411	)
+T60	B_span 2645 2648	Sun
+T61	E_span 2657 2661	2008
+T62	B_span 2666 2671	Misra
+T63	E_span 2680 2684	2009
+T64	B_span 2693 2698	Riedl
+T65	E_span 2712 2716	2012
+T66	Pronoun 209 211	It
+T67	Pronoun 291 295	this
+T68	Pronoun 437 441	this
+T69	Pronoun 1141 1145	this
+T70	Pronoun 1284 1288	this
+T71	Pronoun 1470 1472	It
+T72	Pronoun 1692 1694	It
+T73	Pronoun 1779 1781	it
+T74	Pronoun 2730 2734	this

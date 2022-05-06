@@ -1,0 +1,20 @@
+[BOS] Improving on common architectures for sequence processing has recently received significant attention (Greff et al., 2017; Balduzzi and Ghifary, 2016; Miao et al., 2016; Zoph and Le, 2016; Lee et al., 2017) .
+[BOS] One area of research involves incorporating word-level convolutions (i.e. n-gram filters) into recurrent computation (Lei et al., 2015; Bradbury et al., 2017; Lei et al., 2017) .
+[BOS] For example, Quasi-RNN (Bradbury et al., 2017) proposes to alternate convolutions and a minimalist recurrent pooling function and achieves significant speed-up over LSTM.
+[BOS] While Bradbury et al. (2017) focus on the speed advantages of the network, Lei et al. (2017) study the theoretical characteristics of such computation and possible extensions.
+[BOS] Their results suggest that simplified recurrence retains strong modeling capacity through layer stacking.
+[BOS] This finding motivates the design of SRU for both high parallelization and representational power.
+[BOS] SRU also relates to IRNN (Le et al., 2015) , which uses an identity diagonal matrix to initialize hidden-to-hidden connections.
+[BOS] SRU uses point-wise multiplication for hidden connections, which is equivalent to using a diagonal weight matrix.
+[BOS] This can be seen as a constrained version of diagonal initialization.
+
+[BOS] Various strategies have been proposed to scale network training (Goyal et al., 2017) and to speed up recurrent networks (Diamos et al., 2016; Kuchaiev and Ginsburg, 2017) .
+[BOS] For instance, Diamos et al. (2016) utilize hardware infrastructures by stashing RNN parameters on cache (or fast memory).
+[BOS] and Kuchaiev and Ginsburg (2017) improve the computation via conditional computing and matrix factorization respectively.
+[BOS] Our implementation for SRU is inspired by the cuDNNoptimized LSTM (Appleyard et al., 2016) , but enables more parallelism -while cuDNN LSTM requires six optimization steps, SRU achieves more significant speed-up via two optimizations.
+
+[BOS] The design of recurrent networks, such as SRU and related architectures, raises questions about representational power and interpretability (Chen et al., 2018; Peng et al., 2018) .
+[BOS] Balduzzi and Ghifary (2016) applies type-preserving transformations to discuss the capacity of various simplified RNN architectures.
+[BOS] Recent work (Anselmi et al., 2015; Daniely et al., 2016; Lei et al., 2017) relates the capacity of neural networks to deep kernels.
+[BOS] We empirically demonstrate SRU can achieve compelling results by stacking multiple layers.
+

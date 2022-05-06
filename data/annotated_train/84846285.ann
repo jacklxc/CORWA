@@ -1,0 +1,40 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 234 239	[BOS]
+T3	Reflection 418 423	[BOS]
+T4	Single_summ 573 578	[BOS]
+T5	Narrative_cite 714 719	[BOS]
+T6	Single_summ 930 935	[BOS]
+T7	Single_summ 1091 1096	[BOS]
+T8	Reflection 1215 1220	[BOS]
+T9	Reflection 1337 1342	[BOS]
+T10	Reflection 1478 1483	[BOS]
+T11	Reference 135 153	(Seo et al., 2016)
+T12	Reference 174 191	(Xu et al., 2017)
+T13	Reference 214 231	(Yu et al., 2018)
+T14	Reference 395 415	(Golub et al., 2017)
+T15	Dominant 599 614	(Caruana, 1997)
+T16	Reference 814 838	(Collobert et al., 2011)
+T17	Reference 871 891	(Luong et al., 2015)
+T18	Reference 909 927	(Liu et al., 2015)
+T19	Dominant 951 972	(McCann et al., 2018)
+T20	Reference 1453 1475	(Kendall et al., 2018)
+T21	Pronoun 427 431	this
+T22	Pronoun 1106 1111	their
+T23	B_span 63 75	architecture
+T24	E_span 148 152	2016
+T25	B_span 156 163	dynamic
+T26	E_span 186 190	2017
+T27	B_span 198 213	parallelization
+T28	E_span 230 231	)
+T29	B_span 579 584	Multi
+T30	E_span 707 712	tasks
+T32	E_span 922 926	2015
+T33	B_span 952 958	McCann
+T34	E_span 1205 1213	together
+T35	B_span 1400 1408	previous
+T36	E_span 1470 1474	2018
+T31	B_span 790 793	low
+T37	E_span 833 837	2011
+T38	B_span 841 849	sequence
+T39	E_span 886 890	2015
+T40	B_span 898 901	web

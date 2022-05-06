@@ -1,0 +1,90 @@
+T1	Intro 0 5	[BOS]
+T2	Narrative_cite 123 128	[BOS]
+T3	Multi_summ 680 685	[BOS]
+T4	Single_summ 828 833	[BOS]
+T5	Transition 1007 1012	[BOS]
+T6	Single_summ 1125 1130	[BOS]
+T7	Single_summ 1388 1393	[BOS]
+T8	Multi_summ 1565 1570	[BOS]
+T9	Single_summ 1994 1999	[BOS]
+T10	Single_summ 2155 2160	[BOS]
+T11	Reflection 2263 2268	[BOS]
+T12	Reflection 2399 2404	[BOS]
+T13	Multi_summ 2525 2530	[BOS]
+T14	Transition 2814 2819	[BOS]
+T15	Transition 2942 2947	[BOS]
+T16	Transition 3053 3058	[BOS]
+T17	Transition 3184 3189	[BOS]
+T18	Multi_summ 3283 3288	[BOS]
+T19	Transition 3441 3446	[BOS]
+T20	Transition 3650 3655	[BOS]
+T21	Transition 3809 3814	[BOS]
+T22	Transition 3912 3917	[BOS]
+T23	Reflection 4096 4101	[BOS]
+T24	Other 4352 4357	[BOS]
+T25	Reference 250 268	(Rush et al., 2015
+T26	Reference 270 294	Nallapati et al., 2016a)
+T27	Reference 367 391	(Nallapati et al., 2016b
+T28	Reference 393 409	See et al., 2017
+T29	Reference 411 426	Gu et al., 2016
+T30	Reference 428 448	Paulus et al., 2017)
+T31	Reference 474 494	(Paulus et al., 2017
+T32	Reference 496 511	Li et al., 2018
+T33	Reference 513 538	Pasunuru and Bansal, 2018
+T34	Reference 540 561	Chen and Bansal, 2018
+T35	Reference 563 580	Hsu et al., 2018)
+T36	Reference 603 626	(Gehrmann et al., 2018a
+T37	Reference 628 653	Pasunuru and Bansal, 2018
+T38	Reference 655 677	Chen and Bansal, 2018)
+T39	Dominant 686 710	Nallapati et al. (2016b)
+T40	Dominant 715 731	Gu et al. (2016)
+T41	Dominant 860 877	See et al. (2017)
+T42	Dominant 1131 1151	Paulus et al. (2017)
+T43	Dominant 1394 1410	Li et al. (2018)
+T44	Dominant 1571 1597	Pasunuru and Bansal (2018)
+T45	Dominant 1698 1715	Hsu et al. (2018)
+T46	Dominant 1806 1828	Chen and Bansal (2018)
+T47	Dominant 2000 2023	Gehrmann et al. (2018a)
+T48	Dominant 2561 2584	Simard and Foster, 2013
+T49	Dominant 2586 2610	Chatterjee et al., 2017)
+T50	Reference 3373 3412	(Junczys-Dowmunt and Grundkiewicz, 2018
+T51	Reference 3414 3438	Tebbifakhr et al., 2018)
+T52	B_span 223 226	van
+T53	E_span 293 294	)
+T54	B_span 350 357	pointer
+T55	E_span 447 448	)
+T56	B_span 451 464	reinforcement
+T57	E_span 579 580	)
+T58	B_span 585 592	content
+T59	E_span 676 677	)
+T60	B_span 686 689	Nal
+T61	E_span 826 827	.
+T63	B_span 860 863	See
+T65	E_span 1004 1005	.
+T66	B_span 1131 1135	Paul
+T67	E_span 1386 1387	.
+T68	B_span 1394 1396	Li
+T69	E_span 1563 1564	.
+T70	B_span 1571 1574	Pas
+T71	E_span 1683 1690	summary
+T72	B_span 1698 1701	Hsu
+T73	E_span 1793 1800	summary
+T74	B_span 1806 1810	Chen
+T75	E_span 1992 1993	.
+T76	B_span 2000 2002	Ge
+T77	E_span 2260 2261	.
+T78	B_span 2531 2540	Automatic
+T79	E_span 2812 2813	.
+T80	B_span 3334 3339	multi
+T81	E_span 3437 3438	)
+T82	Pronoun 9 13	this
+T83	Pronoun 834 838	This
+T84	Pronoun 2096 2100	this
+T85	Pronoun 2161 2165	They
+T86	Pronoun 2251 2255	this
+T87	Pronoun 2491 2495	this
+T88	Pronoun 3190 3194	This
+T89	Pronoun 3656 3661	These
+T90	Pronoun 3933 3938	these
+T91	Pronoun 4131 4135	this
+T92	Pronoun 4145 4149	they

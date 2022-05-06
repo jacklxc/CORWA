@@ -1,0 +1,81 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Narrative_cite 204 209	[BOS]
+T3	Reflection 743 748	[BOS]
+T4	Reflection 837 842	[BOS]
+T5	Reflection 987 992	[BOS]
+T6	Reflection 1131 1136	[BOS]
+T7	Narrative_cite 1438 1443	[BOS]
+T8	Reflection 1592 1597	[BOS]
+T9	Narrative_cite 1737 1742	[BOS]
+T10	Narrative_cite 2032 2037	[BOS]
+T11	Reflection 2195 2200	[BOS]
+T12	Reflection 2393 2398	[BOS]
+T13	Narrative_cite 2637 2642	[BOS]
+T14	Reflection 2863 2868	[BOS]
+T15	Transition 3077 3082	[BOS]
+T16	Reflection 3224 3229	[BOS]
+T17	Narrative_cite 3270 3275	[BOS]
+T18	Reference 126 150	(Rajpurkar et al., 2016)
+T19	Reference 342 361	(Reddy et al., 2018
+T20	Reference 363 381	Choi et al., 2018)
+T21	Reference 412 431	(Joshi et al., 2017
+T22	Reference 433 451	Yang et al., 2018)
+T23	Reference 488 506	(Saha et al., 2018
+T24	Reference 508 527	Kocisk et al., 2018
+T25	Reference 529 552	Rajpurkar et al., 2018)
+T26	Reference 600 622	(Mihaylov et al., 2018
+T27	Reference 697 716	(Welbl et al., 2018
+T28	Reference 718 740	Khashabi et al., 2018)
+T29	Reference 1538 1569	(Koncel-Kedziorski et al., 2015
+T30	Reference 1571 1589	Ling et al., 2017)
+T31	Reference 1940 1963	(Zelle and Mooney, 1996
+T32	Reference 1965 1994	Zettlemoyer and Collins, 2005
+T33	Reference 1996 2029	Berant et al., 2013a, inter alia)
+T34	Reference 2167 2192	(Pasupat and Liang, 2015)
+T35	Reference 2764 2785	(Paperno et al., 2016
+T36	Reference 2787 2813	Minervini and Riedel, 2018
+T37	Reference 2815 2836	Zellers et al., 2018b
+T38	Reference 2838 2860	Zellers et al., 2018a)
+T39	Reference 3330 3356	Reed and de Freitas (2015)
+T40	Reference 3358 3383	Neelakantan et al. (2015)
+T41	Reference 3390 3409	Liang et al. (2017)
+T42	Pronoun 217 222	these
+T43	Pronoun 760 765	these
+T44	Pronoun 809 814	these
+T45	Pronoun 956 961	these
+T46	Pronoun 993 995	It
+T47	Pronoun 1229 1233	this
+T48	Pronoun 1252 1254	it
+T49	Pronoun 1340 1342	it
+T50	Pronoun 1362 1364	it
+T51	Pronoun 2038 2040	It
+T52	Pronoun 2044 2048	this
+T53	Pronoun 2447 2452	these
+T54	Pronoun 2472 2474	it
+T55	Pronoun 3301 3306	these
+T56	B_span 82 90	Stanford
+T57	E_span 145 149	2016
+T58	B_span 305 311	around
+T59	E_span 376 380	2018
+T60	B_span 384 393	requiring
+T61	E_span 446 450	2018
+T62	B_span 454 464	mismatched
+T63	E_span 547 551	2018
+T64	B_span 555 557	in
+T65	E_span 618 622	2018
+T66	B_span 631 641	particular
+T67	E_span 735 739	2018
+T68	B_span 1493 1500	contain
+T69	E_span 1584 1588	2017
+T70	B_span 1845 1858	compositional
+T71	E_span 2024 2028	alia
+T72	B_span 2139 2142	Wik
+T73	E_span 2187 2191	2015
+T74	B_span 2707 2715	creating
+T75	E_span 2854 2859	2018a
+T76	B_span 3330 3334	Reed
+T77	E_span 3351 3355	2015
+T78	B_span 3358 3369	Neelakantan
+T79	E_span 3378 3382	2015
+T80	B_span 3390 3395	Liang
+T81	E_span 3404 3408	2017

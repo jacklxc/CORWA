@@ -1,0 +1,19 @@
+[BOS] The proposed MetaNMT differs from the existing framework of multilingual translation (Lee et al., 2016; Johnson et al., 2016; Gu et al., 2018b) or transfer learning (Zoph et al., 2016) .
+[BOS] The latter can be thought of as solving the following problem:
+
+[BOS] where D k is the training set of the k-th task, or language pair.
+[BOS] The target low-resource language pair could either be a part of joint training or be trained separately starting from the solution  0 found from solving the above problem.
+[BOS] The major difference between the proposed MetaNMT and these multilingual transfer approaches is that the latter do not consider how learning happens with the target, low-resource language pair.
+[BOS] The former explicitly incorporates the learning process within the framework by simulating it repeatedly in Eq.
+[BOS] (2).
+[BOS] As we will see later in the experiments, this results in a substantial gap in the final performance on the low-resource task.
+
+[BOS] Illustration In Fig.
+[BOS] 2 , we contrast transfer learning, multilingual learning and meta-learning using three source language pairs (Fr-En, Es-En and Pt-En) and two target pairs (Ro-En and Lv-En).
+[BOS] Transfer learning trains an NMT system specifically for a source language pair (Es-En) and finetunes the system for each target language pair (RoEn, Lv-En).
+[BOS] Multilingual learning often trains a single NMT system that can handle many different language pairs (Fr-En, Pt-En, Es-En), which may or may not include the target pairs (Ro-En, LvEn).
+[BOS] If not, it finetunes the system for each target pair, similarly to transfer learning.
+[BOS] Both of these however aim at directly solving the source tasks.
+[BOS] On the other hand, meta-learning trains the NMT system to be useful for fine-tuning on various tasks including the source and target tasks.
+[BOS] This is done by repeatedly simulating the learning process on low-resource languages using many high-resource language pairs (Fr-En, Pt-En, Es-En).
+

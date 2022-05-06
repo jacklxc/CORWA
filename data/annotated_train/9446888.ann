@@ -1,0 +1,62 @@
+T1	Single_summ 0 5	[BOS]
+T2	Single_summ 226 231	[BOS]
+T3	Single_summ 474 479	[BOS]
+T4	Reflection 621 626	[BOS]
+T5	Reflection 763 768	[BOS]
+T6	Single_summ 875 880	[BOS]
+T7	Single_summ 1027 1032	[BOS]
+T8	Single_summ 1232 1237	[BOS]
+T9	Single_summ 1360 1365	[BOS]
+T10	Narrative_cite 1562 1567	[BOS]
+T11	Reflection 1843 1848	[BOS]
+T12	Reflection 2035 2040	[BOS]
+T13	Reflection 2219 2224	[BOS]
+T14	Reflection 2383 2388	[BOS]
+T15	Reflection 2490 2495	[BOS]
+T16	Reflection 2626 2631	[BOS]
+T17	Narrative_cite 2797 2802	[BOS]
+T18	Multi_summ 3044 3049	[BOS]
+T19	Dominant 41 58	Qiu et al. (2013)
+T21	Dominant 1096 1113	Qiu et al. (2012)
+T23	Reference 1755 1782	BenDavid and Schuller, 2003
+T24	Reference 1784 1804	Ando and Zhang, 2005
+T25	Reference 1806 1840	Parameswaran and Weinberger, 2010)
+T26	Reference 2110 2131	(Sutton et al., 2004)
+T28	Reference 2745 2762	Sun et al. (2009)
+T29	Reference 2880 2906	(Jin and Ghahramani, 2002)
+T30	Reference 2927 2948	(Dredze et al., 2009)
+T31	Reference 2960 2980	Riezler et al., 2002
+T32	Reference 2982 3004	Täckström et al., 2013
+T33	Reference 3006 3022	Li et al., 2014a
+T34	Reference 3024 3041	Li et al., 2014b)
+T35	Reference 3201 3219	Jiang et al., 2013
+T36	Reference 3221 3243	Yang and Vozila, 2014)
+T20	B_span 41 44	Qiu
+T37	E_span 615 619	side
+T38	B_span 881 883	In
+T39	E_span 1222 1230	problems
+T22	B_span 1238 1245	propose
+T40	E_span 1554 1559	rules
+T27	B_span 1607 1616	multitask
+T41	E_span 1835 1839	2010
+T42	B_span 2096 2105	factorial
+T43	E_span 2126 2130	2004
+T44	B_span 2704 2710	latent
+T45	E_span 2761 2762	)
+T46	B_span 2865 2879	classification
+T47	E_span 2905 2906	)
+T48	B_span 2909 2917	sequence
+T49	E_span 2947 2948	)
+T50	B_span 2951 2958	parsing
+T51	E_span 3040 3041	)
+T52	B_span 3050 3058	Recently
+T53	E_span 3238 3242	2014
+T54	Pronoun 6 10	This
+T55	Pronoun 275 280	their
+T56	Pronoun 480 484	They
+T57	Pronoun 894 899	their
+T58	Pronoun 920 925	their
+T59	Pronoun 1375 1380	their
+T60	Pronoun 1568 1572	This
+T61	Pronoun 2392 2396	this
+T62	Pronoun 2506 2510	this

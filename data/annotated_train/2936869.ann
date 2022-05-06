@@ -1,0 +1,56 @@
+T1	Reflection 0 5	[BOS]
+T2	Single_summ 106 111	[BOS]
+T3	Single_summ 378 383	[BOS]
+T4	Transition 617 622	[BOS]
+T5	Narrative_cite 756 761	[BOS]
+T6	Transition 947 952	[BOS]
+T7	Single_summ 1155 1160	[BOS]
+T8	Single_summ 1441 1446	[BOS]
+T9	Single_summ 1673 1678	[BOS]
+T10	Single_summ 1812 1817	[BOS]
+T11	Narrative_cite 1946 1951	[BOS]
+T12	Narrative_cite 2135 2140	[BOS]
+T13	Narrative_cite 2260 2265	[BOS]
+T14	Reflection 2582 2587	[BOS]
+T15	Single_summ 2708 2713	[BOS]
+T16	Dominant 144 162	Choi et al. (2017)
+T17	Reference 853 873	(Weston et al., 2014
+T18	Reference 875 899	Sukhbaatar et al., 2015)
+T19	Dominant 1176 1196	Miller et al. (2016)
+T20	Dominant 1532 1550	Yang et al. (2016)
+T21	Dominant 1735 1752	Dai et al. (2015)
+T22	Dominant 1818 1838	Fabius et al. (2014)
+T23	Reference 2106 2133	(Kingma and Welling, 2013 )
+T24	Reference 2239 2256	(Li et al., 2015)
+T25	Reference 2400 2417	Dai et al. (2015)
+T26	Reference 2483 2509	Ramachandran et al. (2016)
+T27	Dominant 2714 2731	Dai et al. (2015)
+T28	Pronoun 390 394	they
+T29	Pronoun 409 414	their
+T30	Pronoun 440 445	their
+T31	Pronoun 1324 1329	their
+T32	Pronoun 1848 1852	this
+T33	Pronoun 2655 2660	these
+T34	Pronoun 2887 2891	this
+T35	B_span 112 115	The
+T36	E_span 608 615	execute
+T37	B_span 807 813	Memory
+T38	E_span 894 898	2015
+T39	B_span 1161 1163	In
+T40	E_span 1434 1437	key
+T41	B_span 1447 1450	Our
+T42	E_span 1665 1670	model
+T43	B_span 1679 1682	The
+T44	E_span 1804 1810	output
+T45	B_span 1818 1824	Fabius
+T46	E_span 1903 1907	VRAE
+T47	B_span 2038 2049	variational
+T48	E_span 2127 2131	2013
+T49	B_span 2204 2216	hierarchical
+T50	E_span 2251 2255	2015
+T51	B_span 2266 2269	The
+T52	E_span 2412 2416	2015
+T53	B_span 2436 2444	document
+T54	E_span 2504 2508	2016
+T55	B_span 2714 2717	Dai
+T56	E_span 2892 2896	work

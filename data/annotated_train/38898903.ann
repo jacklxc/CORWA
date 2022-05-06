@@ -1,0 +1,52 @@
+T1	Narrative_cite 0 5	[BOS]
+T2	Transition 234 239	[BOS]
+T3	Narrative_cite 410 415	[BOS]
+T4	Single_summ 690 695	[BOS]
+T5	Single_summ 1009 1014	[BOS]
+T6	Single_summ 1148 1153	[BOS]
+T7	Single_summ 1279 1284	[BOS]
+T8	Single_summ 1476 1481	[BOS]
+T9	Single_summ 1573 1578	[BOS]
+T10	Single_summ 2094 2099	[BOS]
+T11	Single_summ 2344 2349	[BOS]
+T12	Single_summ 2498 2503	[BOS]
+T13	Reflection 2613 2618	[BOS]
+T14	Transition 2675 2680	[BOS]
+T15	Transition 2871 2876	[BOS]
+T16	Transition 3035 3040	[BOS]
+T17	Reflection 3259 3264	[BOS]
+T18	Reflection 3364 3369	[BOS]
+T19	Reference 154 231	Council of Chief State School Officers & National Governors Association, 2010
+T20	Reference 577 596	(Ghosh et al., 2016
+T21	Reference 598 621	Nguyen and Litman, 2016
+T22	Reference 623 643	Persing and Ng, 2016
+T23	Reference 645 661	Ong et al., 2014
+T24	Reference 663 687	Stab and Gurevych, 2014)
+T25	Dominant 752 780	Habernal and Gurevych (2016)
+T26	Dominant 1015 1036	Swanson et al. (2015)
+T27	Dominant 1285 1303	Song et al. (2014)
+T28	Reference 1438 1458	(Walton et al., 2008
+T29	Reference 1460 1473	Walton, 1996)
+T30	Dominant 1861 1879	Song et al. (2014)
+T31	Pronoun 835 839	they
+T32	Pronoun 943 947	they
+T33	Pronoun 956 961	their
+T34	Pronoun 1154 1158	They
+T35	Pronoun 1495 1499	this
+T36	Pronoun 1540 1542	it
+T37	Pronoun 1564 1566	it
+T38	Pronoun 2655 2659	this
+T39	Pronoun 2774 2776	it
+T40	Pronoun 2975 2977	it
+T41	Pronoun 3124 3126	it
+T42	Pronoun 3135 3137	it
+T43	B_span 6 19	Argumentation
+T44	E_span 227 231	2010
+T45	B_span 513 521	presence
+T46	E_span 682 686	2014
+T47	B_span 696 706	Addressing
+T48	E_span 1004 1007	one
+T49	B_span 1015 1022	Swanson
+T50	E_span 1269 1277	achieved
+T51	B_span 1285 1289	Song
+T52	E_span 2607 2611	none

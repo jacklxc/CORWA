@@ -1,0 +1,14 @@
+[BOS] Context dependent claim detection (i.e. the detection of claims that support/contest a given topic) was first suggested by .
+[BOS] Next, (Lippi and Torroni, 2015) proposed the context independent claim detection task, in which one attempts to detect claims without having the topic as input.
+[BOS] Thus, if the texts contain claims for multiple topics, all should be detected.
+[BOS] Both works used the data in for training and testing their models.
+[BOS] have first described 'that' as an indicator for sentences containing claims.
+[BOS] Other works have identified additional indicators of claims, such as discourse markers, and have used them within a rule-based, rather than a supervised, framework (Eckle-Kohler et al., 2015; Ong et al., 2014; Somasundaran and Wiebe, 2009; Schneider and Wyner, 2012) .
+
+[BOS] The usage we make in this work of the word 'that' as an initial weak label is closely related to the idea of distant supervision (Mintz et al., 2009 ).
+[BOS] In the context of argument mining, (AlKhatib et al., 2016 ) also used noisy labels to train a classifier, albeit for a different task.
+[BOS] They exploited the manually curated idebate.org resource to define -admittedly noisy -labeled data, that were used to train an argument mining classification scheme.
+[BOS] In contrast, our approach requires no data curation and relies on a simple linguistic observation of the typical role of 'that' in argumentative text.
+[BOS] Our use of the token 'that' as a weak label to identify a relevant lexicon, is also reminiscent of the classical work by (Hearst, 1992) who suggested to use lexico-syntactic patterns to identify various lexical relations.
+[BOS] However, to the best of our knowledge, the present work is the first to use such a paradigm in the context of argument mining.
+
