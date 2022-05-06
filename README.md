@@ -3,7 +3,7 @@ This work is just accepted by NAACL 2022. Code, poster and video will be release
 A short [video](https://www.youtube.com/watch?v=ervPq7eAC9o) is available.
 
 ## Overall data pipeline
-We extract related work sections from S2ORC dataset, whose metadata attributes containing ACL id, to `related_work.jsonl`. Then for the annotations and experiments in CORWA paper, we generally store the related work sections in the BRAT format, then read from, and write to BRAT format. However, if you are simply interested in using the joint tagger, you may use `pipeline/pipeline.py` to start from `related_work.jsonl` and output a jsonl file.
+We extract related work sections from S2ORC dataset, whose metadata attributes containing ACL id, to `related_work.jsonl`. Then for the annotations and experiments in CORWA paper, we generally store the related work sections in the BRAT format, then read from, and write to BRAT format. However, if you are simply interested in using the joint related work tagger, you may use `pipeline/pipeline.py` to start from `related_work.jsonl` and output a jsonl file.
 
 ### View the dataset in BRAT
 * Download BRAT from https://brat.nlplab.org/index.html to view the annotation.
@@ -12,16 +12,20 @@ We extract related work sections from S2ORC dataset, whose metadata attributes c
 ## Dataset
 * The CORWA train- and test-set are under `data/`.
 
+## Checkpoints
+* [Joint related work tagger](https://drive.google.com/file/d/1pE1J1MK5D2U7oxAwqdwWNgKnoi1wTp0T/view?usp=sharing)
+* LED citation span generator
+
 ## Experiments
 Under `experiments/`:
-* cross_validation_joint_tagger.py, train_joint_tagger.py and predict_joint_tagger.py cross-validate, train and predict the joint tagger, described in section 4.
+* cross_validation_joint_tagger.py, train_joint_tagger.py and predict_joint_tagger.py cross-validate, train and predict the joint related work tagger, described in section 4.
 * pattern_extraction.py corresponds to the experiments for Table 7 and 8.
 * writing_style.ipynb contains the code for the statistics and visualizations in section 3.3.
 * rouge_salient_sentence contains the code for the experiment in section 5.1.
 * related_work2brat.ipynb shows how to convert related work sections extracted from S2ORC's pdf_parse json objects to BRAT format for annotation.
 * LED.py, LED_sentence_generation.py are the code for citation span generation and sentence-level baseline, described in section 5.2.
 
-## Usage of joint tagger for future work
+## Usage of joint related work tagger for future work
 Under `pipeline/`:
 * `filter_ACL_S2ORC.py` and `S2ORC_parse_related_work.ipynb` are example code to extract related work sections from S2ORC metadata and pdf_parses.
 * Run `pipeline.py --related_work_file RELATED_WORK.FILE --checkpoint CHECKPOINT.FILE --output_file YOUR_OUTPUT.jsonl` to directly tag related work sections, and outputs a human-readable jsonl file.
