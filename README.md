@@ -20,6 +20,9 @@ We extract related work sections from S2ORC dataset, whose metadata attributes c
 
 ## Experiments
 Under `experiments/`:
+
+Implementations of the experiments in the CORWA paper. They are not necessarily recommended to reuse for the future work. Consult the next section for the future usage of joint related work tagger.
+
 * cross_validation_joint_tagger.py, train_joint_tagger.py and predict_joint_tagger.py cross-validate, train and predict the joint related work tagger, described in section 4.
 * pattern_extraction.py corresponds to the experiments for Table 7 and 8.
 * writing_style.ipynb contains the code for the statistics and visualizations in section 3.3.
