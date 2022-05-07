@@ -1,6 +1,5 @@
 # CORWA
-This work is just accepted by NAACL 2022. Code, poster and video will be released soon.
-A short [video](https://www.youtube.com/watch?v=ervPq7eAC9o) is available.
+This work is just accepted by NAACL 2022. A short [video](https://www.youtube.com/watch?v=ervPq7eAC9o) for the previous SciNLP 2021 workshop is available.
 
 ## Environment
 The required packages are in `requirements.txt`. Note that transformers==4.2.0 is strongly recommended.
@@ -62,3 +61,4 @@ Under `pipeline/`:
     ```
 
 ## Cite our paper
+Coming to arXiv soon.
