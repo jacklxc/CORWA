@@ -2,6 +2,9 @@
 This work is just accepted by NAACL 2022. Code, poster and video will be released soon.
 A short [video](https://www.youtube.com/watch?v=ervPq7eAC9o) is available.
 
+## Environment
+The required packages are in `requirements.txt`. Note that transformers==4.2.0 is strongly recommended.
+
 ## Overall data pipeline
 We extract related work sections from S2ORC dataset, whose metadata attributes containing ACL id, to `related_work.jsonl`. Then for the annotations and experiments in CORWA paper, we generally store the related work sections in the BRAT format, then read from, and write to BRAT format. However, if you are simply interested in using the joint related work tagger, you may use `pipeline/pipeline.py` to start from `related_work.jsonl` and output a jsonl file.
 
