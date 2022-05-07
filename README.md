@@ -23,12 +23,12 @@ Under `experiments/`:
 
 Implementations of the experiments in the CORWA paper. They are not necessarily recommended to reuse for the future work. Consult the next section for the future usage of joint related work tagger.
 
-* cross_validation_joint_tagger.py, train_joint_tagger.py and predict_joint_tagger.py cross-validate, train and predict the joint related work tagger, described in section 4.
-* pattern_extraction.py corresponds to the experiments for Table 7 and 8.
-* writing_style.ipynb contains the code for the statistics and visualizations in section 3.3.
-* rouge_salient_sentence contains the code for the experiment in section 5.1.
-* related_work2brat.ipynb shows how to convert related work sections extracted from S2ORC's pdf_parse json objects to BRAT format for annotation.
-* LED.py, LED_sentence_generation.py are the code for citation span generation and sentence-level baseline, described in section 5.2.
+* `cross_validation_joint_tagger.py`, `train_joint_tagger.py` and `predict_joint_tagger.py` cross-validate, train and predict the joint related work tagger, described in section 4.
+* `pattern_extraction.py` corresponds to the experiments for Table 7 and 8.
+* `writing_style.ipynb` contains the code for the statistics and visualizations in section 3.3.
+* `rouge_salient_sentence.ipynb` contains the code for the experiment in section 5.1.
+* `related_work2brat.ipynb` shows how to convert related work sections extracted from S2ORC's pdf_parse json objects to BRAT format for annotation.
+* `LED.py`, `LED_sentence_generation.py` are the code for citation span generation and sentence-level baseline, described in section 5.2.
 
 ## Usage of joint related work tagger for future work
 Note that you may use newer package versions as specified in `requirements.txt` for joint related work tagger.
