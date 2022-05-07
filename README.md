@@ -2,7 +2,7 @@
 This work is just accepted by NAACL 2022. A short [video](https://www.youtube.com/watch?v=ervPq7eAC9o) for the previous SciNLP 2021 workshop is available.
 
 ## Environment
-The required packages are in `requirements.txt`. Note that transformers==4.2.0 is strongly recommended.
+The required packages are in `requirements.txt`. Note that transformers==4.2.0 is strongly recommended for Longformer-Encoder-Decoder citation span generator.
 
 ## Overall data pipeline
 We extract related work sections from S2ORC dataset, whose metadata attributes containing ACL id, to `related_work.jsonl`. Then for the annotations and experiments in CORWA paper, we generally store the related work sections in the BRAT format, then read from, and write to BRAT format. However, if you are simply interested in using the joint related work tagger, you may use `pipeline/pipeline.py` to start from `related_work.jsonl` and output a jsonl file.
@@ -28,6 +28,8 @@ Under `experiments/`:
 * LED.py, LED_sentence_generation.py are the code for citation span generation and sentence-level baseline, described in section 5.2.
 
 ## Usage of joint related work tagger for future work
+Note that you may use newer package versions as specified in `requirements.txt` for joint related work tagger.
+
 Under `pipeline/`:
 * `filter_ACL_S2ORC.py` and `S2ORC_parse_related_work.ipynb` are example code to extract related work sections from S2ORC metadata and pdf_parses.
 * Run `pipeline.py --related_work_file RELATED_WORK.FILE --checkpoint CHECKPOINT.FILE --output_file YOUR_OUTPUT.jsonl` to directly tag related work sections, and outputs a human-readable jsonl file.
