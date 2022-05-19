@@ -66,4 +66,11 @@ Under `pipeline/`:
     ```
 
 ## Cite our paper
-Coming to arXiv soon.
+```
+@article{li2022corwa,
+  title={CORWA: A Citation-Oriented Related Work Annotation Dataset},
+  author={Li, Xiangci and Mandal, Biswadip and Ouyang, Jessica},
+  journal={arXiv preprint arXiv:2205.03512},
+  year={2022}
+}
+```
