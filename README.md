@@ -66,6 +66,7 @@ Under `pipeline/`:
     ```
 
 ## Cite our paper
+Before NAACL 2022, please use
 ```
 @article{li2022corwa,
   title={CORWA: A Citation-Oriented Related Work Annotation Dataset},
