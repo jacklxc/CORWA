@@ -6,14 +6,11 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader
 from transformers import AutoModel, AutoTokenizer, get_cosine_schedule_with_warmup, AutoModelForSequenceClassification, AutoModelForSeq2SeqLM
-from tqdm import tqdm
 from typing import List
-from sklearn.metrics import f1_score, precision_score, recall_score
 
 import math
 import numpy as np
 
-from tqdm import tqdm
 from util import read_passages, clean_words, test_f1, to_BIO, from_BIO
 
 class TimeDistributed(nn.Module):
