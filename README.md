@@ -1,5 +1,5 @@
 # CORWA
-This work is just accepted by NAACL 2022. A short [video](https://www.youtube.com/watch?v=ervPq7eAC9o) for the previous SciNLP 2021 workshop is available.
+This work is accepted by NAACL 2022 ([video](https://youtu.be/9siOUrqlXXE)).
 
 ## Environment
 The required packages are in `requirements.txt`. Note that transformers==4.2.0 is strongly recommended for Longformer-Encoder-Decoder citation span generator.
