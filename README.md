@@ -66,12 +66,19 @@ Under `pipeline/`:
     ```
 
 ## Cite our paper
-Before NAACL 2022, please use
 ```
-@article{li2022corwa,
-  title={CORWA: A Citation-Oriented Related Work Annotation Dataset},
-  author={Li, Xiangci and Mandal, Biswadip and Ouyang, Jessica},
-  journal={arXiv preprint arXiv:2205.03512},
-  year={2022}
+@inproceedings{li-etal-2022-corwa,
+    title = "{CORWA}: A Citation-Oriented Related Work Annotation Dataset",
+    author = "Li, Xiangci  and
+      Mandal, Biswadip  and
+      Ouyang, Jessica",
+    booktitle = "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.naacl-main.397",
+    pages = "5426--5440",
+    abstract = "Academic research is an exploratory activity to discover new solutions to problems. By this nature, academic research works perform literature reviews to distinguish their novelties from prior work. In natural language processing, this literature review is usually conducted under the {``}Related Work{''} section. The task of related work generation aims to automatically generate the related work section given the rest of the research paper and a list of papers to cite. Prior work on this task has focused on the sentence as the basic unit of generation, neglecting the fact that related work sections consist of variable length text fragments derived from different information sources. As a first step toward a linguistically-motivated related work generation framework, we present a Citation Oriented Related Work Annotation (CORWA) dataset that labels different types of citation text fragments from different information sources. We train a strong baseline model that automatically tags the CORWA labels on massive unlabeled related work section texts. We further suggest a novel framework for human-in-the-loop, iterative, abstractive related work generation.",
 }
 ```
