@@ -1,6 +1,14 @@
 # CORWA
 This work is accepted by NAACL 2022 ([video](https://youtu.be/9siOUrqlXXE)).
 
+## TLDR
+This repo provides a tagger that labels the related work sections of NLP papers in the following way:
+* Discourse tagging: Each sentence is labeled with one of single document summarization, multi document summarization, narrative with citation, transition, reflection or other.
+* Citation spans that semantically identifies the text span derived from the cited papers are extracted. We discourage using the prevailing citation sentences because of the serious information loss and information leak issue explianed in the paper.
+* Each citation span is classified into dominant (long) or reference (shot) type.
+
+Finally, the code for LED-based citation span generation is provided in this repo.
+
 ## Environment
 The required packages are in `requirements.txt`. Note that transformers==4.2.0 is strongly recommended for Longformer-Encoder-Decoder citation span generator.
 
