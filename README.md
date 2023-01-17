@@ -13,6 +13,7 @@ We extract related work sections from S2ORC dataset, whose metadata attributes c
 
 ## Dataset
 * The CORWA train- and test-set are under `data/`.
+* NEW: CORWA distant-set is also released under `data/`.
 
 ## Checkpoints
 * [Joint related work tagger](https://drive.google.com/file/d/1pE1J1MK5D2U7oxAwqdwWNgKnoi1wTp0T/view?usp=sharing)
