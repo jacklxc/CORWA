@@ -5,7 +5,7 @@ import os
 import random
 import re
 from collections import defaultdict
-
+from tqdm import tqdm
 from nltk import sent_tokenize, word_tokenize
 from sklearn.metrics import f1_score
 import torch
@@ -1641,6 +1641,47 @@ def makeBertMLMsample(text, tokenizer):
         else:
             noisy_inputs.append(token)
     return tokenizer.convert_tokens_to_string(noisy_inputs), tokenizer.convert_tokens_to_string(tokens)
+
+def annotate_related_work(discourse_predictions, citation_predictions, span_predictions, dev_set, related_work_jsons, tokenizer):
+    #error_count = 0
+    all_span_citation_mappings = []
+    paragraph = ""
+    sentences = []
+    discourse_seqs = []
+    for data, discourse_labels, citation_labels, span_labels in tqdm(zip(dev_set[::-1], discourse_predictions[::-1], citation_predictions[::-1], span_predictions[::-1])):
+        paragraph_id = data['id']
+        paper_id, p_id, part_id = paragraph_id.split("_")
+
+        paragraph = data['paragraph'].replace("[SEP] ", "[BOS] ") + " " + paragraph
+        sentences = [sent for sent in paragraph.split("[BOS] ")[1:]] + sentences
+        discourse_seqs = discourse_labels + discourse_seqs
+        if int(part_id) == 0:
+            merged_paragraph_id = paper_id + "_" +p_id
+            paragraph = paragraph[:-1]
+            offset_mapping = tokenizer(paragraph, return_offsets_mapping=True)["offset_mapping"]
+            try:
+                pargraph_citation_info = s2orc_to_corwa_paragraph_index(paragraph_id, sentences, related_work_jsons,
+                                               offset_mapping, citation_labels,
+                                               separator="[BOS] ")
+                span_citation_mapping = map_span_citation(span_labels,
+                                                      citation_labels,
+                                                      pargraph_citation_info,
+                                                      offset_mapping)
+                all_span_citation_mappings.append({
+                    "id": merged_paragraph_id,
+                    "paragraph": paragraph,
+                    "discourse_tags": discourse_seqs,
+                    "span_citation_mapping": span_citation_mapping
+                })
+                paragraph = ""
+                sentences = []
+                discourse_seqs = []
+            except:
+                #print("Error in ",paragraph_id)
+                #print(paragraph)
+                #error_count += 1
+                pass # The error rate now is less than 0.01%
+    return all_span_citation_mappings
 
 
 def crossvalid(dataset=None, k_fold=5):
