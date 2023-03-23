@@ -1154,8 +1154,12 @@ def s2orc_to_corwa_paragraph_index(paragraph_id, sentences, related_work_jsons,
         citation_label_seq = citation_labels[
                              in_span_token_ids[0]: in_span_token_ids[-1] + 1]
         this_citation["citation_type"] = get_citation_type(citation_label_seq)
-        this_citation["link"] = bib_entries[this_citation["ref_id"]]["link"]
-
+        if "link" in bib_entries[this_citation["ref_id"]]:
+            this_citation["link"] = bib_entries[this_citation["ref_id"]]["link"]
+        elif "links" in bib_entries[this_citation["ref_id"]]:
+            this_citation["link"] = bib_entries[this_citation["ref_id"]]["links"]
+        else:
+            this_citation["link"] = None
         informative_citations.append(this_citation)
     return informative_citations
 
@@ -1222,8 +1226,9 @@ def next_sentence_start_index_from_span(paragraph:str, char_start:int):
     return i
 
 
-def map_span_citation_sentence(span_labels, citation_labels, pargraph_citation_info, offset_mapping):
+def map_span_citation_sentence(span_labels, citation_labels, pargraph_citation_info, offset_mapping, paragraph=""):
     span_ranges, span_types = span_range_token_indices(span_labels, citation_labels)
+    citation_ranges, citation_types = citation_range_token_indices(citation_labels)
     span_citation_mapping = []
     span_char_ranges = []
     for span_range in span_ranges:
@@ -1235,6 +1240,19 @@ def map_span_citation_sentence(span_labels, citation_labels, pargraph_citation_i
                 citation["link"]
                 this_span[citation["citation_type"]]["{}_pos".format(citation["text"])] = \
                     (citation["corwa_start"], citation["corwa_end"])
+                
+                
+        ### Patch doc2json here:
+        if paragraph:
+            for citation_range, citation_type in zip(citation_ranges, citation_types):
+                if citation_range[0] >= span_range[0] and \
+                        citation_range[-1] < span_range[1]:
+                    char_start = offset_mapping[citation_range[0]][0]
+                    char_end = offset_mapping[citation_range[-1] - 1][-1]
+                    citation_marker = paragraph[char_start: char_end]
+                    if citation_marker not in this_span[citation_type]:
+                        this_span[citation_type][citation_marker] = None
+                
         span_citation_mapping.append(this_span)
         span_char_ranges.append((offset_mapping[span_range[0]][0],
                                  offset_mapping[span_range[-1] - 1][-1]))
@@ -1253,8 +1271,9 @@ def map_span_citation_sentence(span_labels, citation_labels, pargraph_citation_i
     return span_citation_mapping_info
 
 
-def map_span_citation(span_labels, citation_labels, pargraph_citation_info, offset_mapping):
+def map_span_citation(span_labels, citation_labels, pargraph_citation_info, offset_mapping, paragraph=""):
     span_ranges, span_types = span_range_token_indices(span_labels, citation_labels)
+    citation_ranges, citation_types = citation_range_token_indices(citation_labels)
     span_citation_mapping = []
     span_char_ranges = []
     for span_range in span_ranges:
@@ -1262,8 +1281,19 @@ def map_span_citation(span_labels, citation_labels, pargraph_citation_info, offs
         for citation in pargraph_citation_info:
             if citation["in_span_token_ids"][0] >= span_range[0] and \
                     citation["in_span_token_ids"][-1] < span_range[1]:
-                this_span[citation["citation_type"]][citation["text"]] = \
-                citation["link"]
+                this_span[citation["citation_type"]][citation["text"]] = citation["link"]
+                
+        ### Patch doc2json here:
+        if paragraph:
+            for citation_range, citation_type in zip(citation_ranges, citation_types):
+                if citation_range[0] >= span_range[0] and \
+                        citation_range[-1] < span_range[1]:
+                    char_start = offset_mapping[citation_range[0]][0]
+                    char_end = offset_mapping[citation_range[-1] - 1][-1]
+                    citation_marker = paragraph[char_start: char_end]
+                    if citation_marker not in this_span[citation_type]:
+                        this_span[citation_type][citation_marker] = None
+                
         span_citation_mapping.append(this_span)
         span_char_ranges.append((offset_mapping[span_range[0]][0],
                                  offset_mapping[span_range[-1] - 1][-1]))
@@ -1296,6 +1326,24 @@ def span_range_token_indices(span_labels, citation_labels):
             else:
                 span_types.append("Reference")
         if label == "B_span":
+            start = i
+        prev_label = label
+    return span_ranges, span_types
+
+def citation_range_token_indices(citation_labels):
+    prev_label = "O"
+    span_ranges = []
+    span_types = []
+    for i, label in enumerate(citation_labels):
+        if prev_label in {"I_Dominant","I_Reference"} and label not in {"I_Dominant","I_Reference"}:
+            end = i
+            span_ranges.append((start, end))
+            citation_types = set(citation_labels[start: end])
+            if "B_Dominant" in citation_types or "I_Dominant" in citation_types:
+                span_types.append("Dominant")
+            else:
+                span_types.append("Reference")
+        if label in {"B_Dominant","B_Reference"}:
             start = i
         prev_label = label
     return span_ranges, span_types
@@ -1383,28 +1431,29 @@ def annotate_related_work(discourse_predictions, citation_predictions, span_pred
             merged_paragraph_id = paper_id + "_" +p_id
             paragraph = paragraph[:-1]
             offset_mapping = tokenizer(paragraph, return_offsets_mapping=True)["offset_mapping"]
-            try:
-                pargraph_citation_info = s2orc_to_corwa_paragraph_index(merged_paragraph_id, sentences, related_work_jsons,
-                                               offset_mapping, citation_labels,
-                                               separator="[BOS] ")
-                span_citation_mapping = map_span_citation(span_labels,
-                                                      citation_labels,
-                                                      pargraph_citation_info,
-                                                      offset_mapping)
-                all_span_citation_mappings.append({
-                    "id": merged_paragraph_id,
-                    "paragraph": paragraph,
-                    "discourse_tags": discourse_seqs,
-                    "span_citation_mapping": span_citation_mapping
-                })
-                paragraph = ""
-                sentences = []
-                discourse_seqs = []
-            except:
+            #try:
+            pargraph_citation_info = s2orc_to_corwa_paragraph_index(merged_paragraph_id, sentences, related_work_jsons,
+                                           offset_mapping, citation_labels,
+                                           separator="[BOS] ")
+            span_citation_mapping = map_span_citation(span_labels,
+                                                  citation_labels,
+                                                  pargraph_citation_info,
+                                                  offset_mapping,
+                                                     paragraph = paragraph)
+            all_span_citation_mappings.append({
+                "id": merged_paragraph_id,
+                "paragraph": paragraph,
+                "discourse_tags": discourse_seqs,
+                "span_citation_mapping": span_citation_mapping
+            })
+            paragraph = ""
+            sentences = []
+            discourse_seqs = []
+            #except:
                 #print("Error in ",paragraph_id)
                 #print(paragraph)
                 #error_count += 1
-                pass # The error rate now is less than 0.01%
+                #pass # The error rate now is less than 0.01%
     return all_span_citation_mappings
 
 
