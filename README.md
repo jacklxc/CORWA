@@ -74,6 +74,8 @@ Under `pipeline/`:
         ]
     }
     ```
+### New feature
+Refer to `pipeline/Paragraph_JointTagger.ipynb` for parsing any related work section paragraphs using our joint tagger. No S2ORC needed in this case!
 
 ## Cite our paper
 ```
