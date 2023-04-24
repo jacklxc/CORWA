@@ -1235,7 +1235,7 @@ def map_span_citation_sentence(span_labels, citation_labels, pargraph_citation_i
         this_span = {'Dominant': {}, 'Reference': {}}
         for citation in pargraph_citation_info:
             if citation["in_span_token_ids"][0] >= span_range[0] and \
-                    citation["in_span_token_ids"][-1] < span_range[1]:
+                    citation["in_span_token_ids"][-1] <= span_range[1]:
                 this_span[citation["citation_type"]][citation["text"]] = \
                 citation["link"]
                 this_span[citation["citation_type"]]["{}_pos".format(citation["text"])] = \
@@ -1246,7 +1246,7 @@ def map_span_citation_sentence(span_labels, citation_labels, pargraph_citation_i
         if paragraph:
             for citation_range, citation_type in zip(citation_ranges, citation_types):
                 if citation_range[0] >= span_range[0] and \
-                        citation_range[-1] < span_range[1]:
+                        citation_range[-1] <= span_range[1]:
                     char_start = offset_mapping[citation_range[0]][0]
                     char_end = offset_mapping[citation_range[-1] - 1][-1]
                     citation_marker = paragraph[char_start: char_end]
@@ -1280,14 +1280,14 @@ def map_span_citation(span_labels, citation_labels, pargraph_citation_info, offs
         this_span = {'Dominant': {}, 'Reference': {}}
         for citation in pargraph_citation_info:
             if citation["in_span_token_ids"][0] >= span_range[0] and \
-                    citation["in_span_token_ids"][-1] < span_range[1]:
+                    citation["in_span_token_ids"][-1] <= span_range[1]:
                 this_span[citation["citation_type"]][citation["text"]] = citation["link"]
                 
         ### Patch doc2json here:
         if paragraph:
             for citation_range, citation_type in zip(citation_ranges, citation_types):
                 if citation_range[0] >= span_range[0] and \
-                        citation_range[-1] < span_range[1]:
+                        citation_range[-1] <= span_range[1]:
                     char_start = offset_mapping[citation_range[0]][0]
                     char_end = offset_mapping[citation_range[-1] - 1][-1]
                     citation_marker = paragraph[char_start: char_end]
