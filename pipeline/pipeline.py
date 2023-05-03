@@ -1,15 +1,14 @@
 import argparse
-
+import os
+import sys
 import json
 from tqdm import tqdm
 import numpy as np
+import torch
 
-import os
-import sys
-
-from util import *
-from data_util import *
-from joint_tagger import run_prediction
+from util import read_related_work_jsons
+from data_util import scientific_sent_tokenize
+from joint_tagger import CorwaTagger
 
 from transformers import AutoTokenizer
      
@@ -24,7 +23,7 @@ if __name__ == "__main__":
     argparser.add_argument('--checkpoint', type=str, default = "joint_tagger_train_scibert_final.model")
     argparser.add_argument('--batch_size', type=int, default=32) # roberta-large: 2; bert: 8
     args = argparser.parse_args()
-        
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     if not sys.warnoptions:
         import warnings
         warnings.simplefilter("ignore")
@@ -40,10 +39,12 @@ if __name__ == "__main__":
     tokenizer = AutoTokenizer.from_pretrained(args.repfile)
     additional_special_tokens = {'additional_special_tokens': ['[BOS]']}
     tokenizer.add_special_tokens(additional_special_tokens)
+    
+    tagger = CorwaTagger(tokenizer, device, args)
+    all_span_citation_mappings = tagger.run_prediction(paragraphs, related_work_jsons)
+    #discourse_predictions, citation_predictions, span_predictions, dataset = run_prediction(paragraphs, tokenizer, args)
 
-    discourse_predictions, citation_predictions, span_predictions, dataset = run_prediction(paragraphs, tokenizer, args)
-
-    all_span_citation_mappings = annotate_related_work(discourse_predictions, citation_predictions, span_predictions, dataset, related_work_jsons, tokenizer)
+    #all_span_citation_mappings = annotate_related_work(discourse_predictions, citation_predictions, span_predictions, dataset, related_work_jsons, tokenizer)
     
     with open(args.output_file,"w") as f:
         for mapping in all_span_citation_mappings:

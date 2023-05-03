@@ -162,3 +162,24 @@ def run_prediction(input_dict, tokenizer, args):
     #with open("dataset.pkl","wb") as f:
     #    pickle.dump(dev_set, f)
     return discourse_predictions, citation_predictions, span_predictions, dev_set
+
+class CorwaTagger:
+    def __init__(self, tokenizer, device, args):
+        logging.getLogger("transformers.tokenization_utils_base").setLevel(logging.ERROR)
+        reset_random_seed(12345)
+        self.tokenizer = tokenizer
+        self.device = device
+        self.args = args
+        
+        self.model = JointParagraphTagger(args.repfile, len(tokenizer),args.dropout)
+        self.model.load_state_dict(torch.load(args.checkpoint))
+        self.model = self.model.to(device)
+        print("Model loaded!")
+    def run_prediction(self, input_dict, related_work_jsons):
+        dev_set = JointPredictionDataset(input_dict, self.tokenizer, MAX_SENT_LEN = self.args.MAX_SENT_LEN)
+        discourse_predictions, citation_predictions, span_predictions = predict(self.model, dev_set, self.tokenizer, self.device, self.args)
+        citation_predictions = fix_BIO(citation_predictions)
+        span_predictions = fix_BIO(span_predictions)
+        span_predictions = post_process_spans(span_predictions, citation_predictions)
+        all_span_citation_mappings = annotate_related_work(discourse_predictions, citation_predictions, span_predictions, dev_set, related_work_jsons, self.tokenizer)
+        return all_span_citation_mappings
