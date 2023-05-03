@@ -1431,29 +1431,29 @@ def annotate_related_work(discourse_predictions, citation_predictions, span_pred
             merged_paragraph_id = paper_id + "_" +p_id
             paragraph = paragraph[:-1]
             offset_mapping = tokenizer(paragraph, return_offsets_mapping=True)["offset_mapping"]
-            #try:
-            pargraph_citation_info = s2orc_to_corwa_paragraph_index(merged_paragraph_id, sentences, related_work_jsons,
-                                           offset_mapping, citation_labels,
-                                           separator="[BOS] ")
-            span_citation_mapping = map_span_citation(span_labels,
-                                                  citation_labels,
-                                                  pargraph_citation_info,
-                                                  offset_mapping,
-                                                     paragraph = paragraph)
-            all_span_citation_mappings.append({
-                "id": merged_paragraph_id,
-                "paragraph": paragraph,
-                "discourse_tags": discourse_seqs,
-                "span_citation_mapping": span_citation_mapping
-            })
-            paragraph = ""
-            sentences = []
-            discourse_seqs = []
-            #except:
+            try:
+                pargraph_citation_info = s2orc_to_corwa_paragraph_index(merged_paragraph_id, sentences, related_work_jsons,
+                                               offset_mapping, citation_labels,
+                                               separator="[BOS] ")
+                span_citation_mapping = map_span_citation(span_labels,
+                                                      citation_labels,
+                                                      pargraph_citation_info,
+                                                      offset_mapping,
+                                                         paragraph = paragraph)
+                all_span_citation_mappings.append({
+                    "id": merged_paragraph_id,
+                    "paragraph": paragraph,
+                    "discourse_tags": discourse_seqs,
+                    "span_citation_mapping": span_citation_mapping
+                })
+                paragraph = ""
+                sentences = []
+                discourse_seqs = []
+            except:
                 #print("Error in ",paragraph_id)
                 #print(paragraph)
                 #error_count += 1
-                #pass # The error rate now is less than 0.01%
+                pass # The error rate now is less than 0.01%
     return all_span_citation_mappings
 
 
