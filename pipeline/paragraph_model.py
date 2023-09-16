@@ -158,7 +158,7 @@ class JointParagraphTagger(nn.Module):
             
             
         discourse_pred = torch.argmax(discourse_out.cpu(), dim=-1) # (Batch_size, N_sep)
-        discourse_out = [discourse_pred_paragraph[mask].detach().numpy().tolist() for discourse_pred_paragraph, mask in zip(discourse_pred, sentence_mask.bool())]
+        discourse_out = [discourse_pred_paragraph[mask].detach().numpy().tolist() for discourse_pred_paragraph, mask in zip(discourse_pred, sentence_mask.bool().cpu())]
         citation_pred = torch.argmax(citation_out.cpu(), dim=-1) # (Batch_size, N_sep)
         citation_out = [citation_pred_paragraph[:n_token].detach().numpy().tolist() for citation_pred_paragraph, n_token in zip(citation_pred, N_tokens)]
         span_pred = torch.argmax(span_out.cpu(), dim=-1) # (Batch_size, N_sep)
