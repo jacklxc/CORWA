@@ -26,7 +26,6 @@ We extract related work sections from S2ORC dataset, whose metadata attributes c
 
 ## Checkpoints
 * [Joint related work tagger](https://drive.google.com/file/d/1pE1J1MK5D2U7oxAwqdwWNgKnoi1wTp0T/view?usp=sharing)
-* [LED citation span generator](https://drive.google.com/file/d/1KVCdghSVS0MTbYlkMVtWSLTEa8Jz2N9D/view?usp=sharing)
 
 ## Experiments
 Under `experiments/`:
